@@ -43,6 +43,7 @@ const indexes = {
     TreasureClassEx: 'Treasure Class',
     weapons: 'code',
     UniqueItems: 'index',
+    gems: 'code',
 };
 
 files.forEach(fn => {
