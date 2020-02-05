@@ -1,8 +1,17 @@
+/**
+ * Compile script for the json data. Basically, put all your txt files into
+ * the txt/ directory, and this will compile it all into json. It assumes that
+ * you've provided at least 'armor.txt' and 'weapons.txt'.
+ * 
+ * @todo Refactor it, since I hacked it together fairly quickly.
+ */
+
 const fs = require('fs');
 const lineEnd = /[\n\r]+/g, fieldEnd = /\t/g, full = {};
 const inDir = 'txt/';
 const outDir = 'json/';
 const files = fs.readdirSync(inDir).filter(fn => fn.slice(-4) === '.txt').map(fn => fn.slice(0, -4));
+
 const indexes = {
     armor: 'code',
     charstats: 'class',
@@ -35,6 +44,7 @@ const indexes = {
     weapons: 'code',
     UniqueItems: 'index',
 };
+
 files.forEach(fn => {
     let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd).filter(line => line.trim().toLowerCase() !== 'expansion');
     let header = data.shift().split(fieldEnd);
@@ -73,6 +83,7 @@ let typeRarity = {
     'h2h2': 2,
     'default': 3,
 };
+
 Object.values(full['weapons']).forEach(item => {
     let tc = calcTC(item.level), rarity = typeRarity[item.type] || typeRarity.default;
     atomic['weap' + tc] = atomic['weap' + tc] || {};
@@ -86,11 +97,13 @@ Object.values(full['weapons']).forEach(item => {
         atomic['mele' + tc][item.code] = rarity;
     }
 });
+
 Object.values(full['armor']).forEach(item => {
     let tc = calcTC(item.level);
     atomic['armo' + tc] = atomic['armo' + tc] || {};
     atomic['armo' + tc][item.code] = typeRarity[item.type] || typeRarity.default;;
 });
+
 full['atomic'] = atomic;
 fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(atomic, null, ' '));
 
@@ -110,4 +123,5 @@ delete full['UniqueAppellation'];
 delete full['UniquePrefix'];
 delete full['UniqueSuffix'];
 delete full['UniqueUniqueTitle'];
+
 fs.writeFileSync(outDir + 'aggregate.json', JSON.stringify(full));
