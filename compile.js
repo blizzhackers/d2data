@@ -46,15 +46,17 @@ const indexes = {
 };
 
 files.forEach(fn => {
-    let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd).filter(line => line.trim().toLowerCase() !== 'expansion');
+    let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd).filter(line => line.trim().toLowerCase().slice(0,9) !== 'expansion');
     let header = data.shift().split(fieldEnd);
     let indexColumn = header.indexOf(indexes[fn]);
     full[fn] = data.reduce((obj, line, index) => {
         if (line.trim() && (line = line.split(fieldEnd))) {
             let key = indexColumn >= 0 ? (line[indexColumn]) : index;
-            obj[key] = {};
-            for (let c = 0; c < header.length; c++) {
-                obj[key][header[c] || 'unknown'] = line[c];
+            if (key) {
+                obj[key] = {};
+                for (let c = 0; c < header.length; c++) {
+                    obj[key][header[c] || 'unknown'] = line[c];
+                }
             }
         }
 
