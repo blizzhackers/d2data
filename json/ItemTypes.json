@@ -1,512 +1,5 @@
 {
- "None": {
-  "ItemType": "None",
-  "Code": "",
-  "Equiv1": "",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "",
-  "*eol": "0"
- },
- "Shield": {
-  "ItemType": "Shield",
-  "Code": "shie",
-  "Equiv1": "shld",
-  "Equiv2": "",
-  "Repair": "1",
-  "Body": "1",
-  "BodyLoc1": "rarm",
-  "BodyLoc2": "larm",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "1",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "3",
-  "MaxSock25": "3",
-  "MaxSock40": "4",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "1",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "armo",
-  "*eol": "0"
- },
- "Armor": {
-  "ItemType": "Armor",
-  "Code": "tors",
-  "Equiv1": "armo",
-  "Equiv2": "",
-  "Repair": "1",
-  "Body": "1",
-  "BodyLoc1": "tors",
-  "BodyLoc2": "tors",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "1",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "3",
-  "MaxSock25": "4",
-  "MaxSock40": "6",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "1",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "armo",
-  "*eol": "0"
- },
- "Gold": {
-  "ItemType": "Gold",
-  "Code": "gold",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "1",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "",
-  "*eol": "0"
- },
- "Bow Quiver": {
-  "ItemType": "Bow Quiver",
-  "Code": "bowq",
-  "Equiv1": "misl",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "1",
-  "BodyLoc1": "rarm",
-  "BodyLoc2": "larm",
-  "Shoots": "",
-  "Quiver": "bow",
-  "Throwable": "0",
-  "Reload": "1",
-  "ReEquip": "0",
-  "AutoStack": "1",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "1",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Crossbow Quiver": {
-  "ItemType": "Crossbow Quiver",
-  "Code": "xboq",
-  "Equiv1": "misl",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "1",
-  "BodyLoc1": "rarm",
-  "BodyLoc2": "larm",
-  "Shoots": "",
-  "Quiver": "xbow",
-  "Throwable": "0",
-  "Reload": "1",
-  "ReEquip": "0",
-  "AutoStack": "1",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "1",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Player Body Part": {
-  "ItemType": "Player Body Part",
-  "Code": "play",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "1",
-  "Charm": "1",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Herb": {
-  "ItemType": "Herb",
-  "Code": "herb",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Potion": {
-  "ItemType": "Potion",
-  "Code": "poti",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "1",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "1",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Ring": {
-  "ItemType": "Ring",
-  "Code": "ring",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "1",
-  "BodyLoc1": "rrin",
-  "BodyLoc2": "lrin",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "1",
-  "Rare": "1",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "5",
-  "InvGfx1": "invrin1",
-  "InvGfx2": "invrin2",
-  "InvGfx3": "invrin3",
-  "InvGfx4": "invrin4",
-  "InvGfx5": "invrin5",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Elixir": {
-  "ItemType": "Elixir",
-  "Code": "elix",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "",
-  "Rare": "",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "1",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "0",
-  "InvGfx1": "",
-  "InvGfx2": "",
-  "InvGfx3": "",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Amulet": {
-  "ItemType": "Amulet",
-  "Code": "amul",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "1",
-  "BodyLoc1": "neck",
-  "BodyLoc2": "neck",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "1",
-  "Rare": "1",
-  "Normal": "0",
-  "Charm": "0",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "3",
-  "InvGfx1": "invamu1",
-  "InvGfx2": "invamu2",
-  "InvGfx3": "invamu3",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Charm": {
-  "ItemType": "Charm",
-  "Code": "char",
-  "Equiv1": "misc",
-  "Equiv2": "",
-  "Repair": "0",
-  "Body": "0",
-  "BodyLoc1": "",
-  "BodyLoc2": "",
-  "Shoots": "",
-  "Quiver": "",
-  "Throwable": "0",
-  "Reload": "0",
-  "ReEquip": "0",
-  "AutoStack": "0",
-  "Magic": "1",
-  "Rare": "",
-  "Normal": "0",
-  "Charm": "1",
-  "Gem": "0",
-  "Beltable": "0",
-  "MaxSock1": "0",
-  "MaxSock25": "0",
-  "MaxSock40": "0",
-  "TreasureClass": "0",
-  "Rarity": "3",
-  "StaffMods": "",
-  "CostFormula": "0",
-  "Class": "",
-  "VarInvGfx": "3",
-  "InvGfx1": "invch1",
-  "InvGfx2": "invch4",
-  "InvGfx3": "invch7",
-  "InvGfx4": "",
-  "InvGfx5": "",
-  "InvGfx6": "",
-  "StorePage": "misc",
-  "*eol": "0"
- },
- "Not Used": {
+ "": {
   "ItemType": "Not Used",
   "Code": "",
   "Equiv1": "",
@@ -545,7 +38,475 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Boots": {
+ "shie": {
+  "ItemType": "Shield",
+  "Code": "shie",
+  "Equiv1": "shld",
+  "Equiv2": "",
+  "Repair": "1",
+  "Body": "1",
+  "BodyLoc1": "rarm",
+  "BodyLoc2": "larm",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "1",
+  "Normal": "0",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "3",
+  "MaxSock25": "3",
+  "MaxSock40": "4",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "1",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "armo",
+  "*eol": "0"
+ },
+ "tors": {
+  "ItemType": "Armor",
+  "Code": "tors",
+  "Equiv1": "armo",
+  "Equiv2": "",
+  "Repair": "1",
+  "Body": "1",
+  "BodyLoc1": "tors",
+  "BodyLoc2": "tors",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "1",
+  "Normal": "0",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "3",
+  "MaxSock25": "4",
+  "MaxSock40": "6",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "1",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "armo",
+  "*eol": "0"
+ },
+ "gold": {
+  "ItemType": "Gold",
+  "Code": "gold",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "0",
+  "BodyLoc1": "",
+  "BodyLoc2": "",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "1",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "",
+  "*eol": "0"
+ },
+ "bowq": {
+  "ItemType": "Bow Quiver",
+  "Code": "bowq",
+  "Equiv1": "misl",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "1",
+  "BodyLoc1": "rarm",
+  "BodyLoc2": "larm",
+  "Shoots": "",
+  "Quiver": "bow",
+  "Throwable": "0",
+  "Reload": "1",
+  "ReEquip": "0",
+  "AutoStack": "1",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "1",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "xboq": {
+  "ItemType": "Crossbow Quiver",
+  "Code": "xboq",
+  "Equiv1": "misl",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "1",
+  "BodyLoc1": "rarm",
+  "BodyLoc2": "larm",
+  "Shoots": "",
+  "Quiver": "xbow",
+  "Throwable": "0",
+  "Reload": "1",
+  "ReEquip": "0",
+  "AutoStack": "1",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "1",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "play": {
+  "ItemType": "Player Body Part",
+  "Code": "play",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "0",
+  "BodyLoc1": "",
+  "BodyLoc2": "",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "1",
+  "Charm": "1",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "herb": {
+  "ItemType": "Herb",
+  "Code": "herb",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "0",
+  "BodyLoc1": "",
+  "BodyLoc2": "",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "0",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "poti": {
+  "ItemType": "Potion",
+  "Code": "poti",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "0",
+  "BodyLoc1": "",
+  "BodyLoc2": "",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "1",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "1",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "ring": {
+  "ItemType": "Ring",
+  "Code": "ring",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "1",
+  "BodyLoc1": "rrin",
+  "BodyLoc2": "lrin",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "1",
+  "Rare": "1",
+  "Normal": "0",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "5",
+  "InvGfx1": "invrin1",
+  "InvGfx2": "invrin2",
+  "InvGfx3": "invrin3",
+  "InvGfx4": "invrin4",
+  "InvGfx5": "invrin5",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "elix": {
+  "ItemType": "Elixir",
+  "Code": "elix",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "0",
+  "BodyLoc1": "",
+  "BodyLoc2": "",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "",
+  "Rare": "",
+  "Normal": "0",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "1",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "0",
+  "InvGfx1": "",
+  "InvGfx2": "",
+  "InvGfx3": "",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "amul": {
+  "ItemType": "Amulet",
+  "Code": "amul",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "1",
+  "BodyLoc1": "neck",
+  "BodyLoc2": "neck",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "1",
+  "Rare": "1",
+  "Normal": "0",
+  "Charm": "0",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "3",
+  "InvGfx1": "invamu1",
+  "InvGfx2": "invamu2",
+  "InvGfx3": "invamu3",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "char": {
+  "ItemType": "Charm",
+  "Code": "char",
+  "Equiv1": "misc",
+  "Equiv2": "",
+  "Repair": "0",
+  "Body": "0",
+  "BodyLoc1": "",
+  "BodyLoc2": "",
+  "Shoots": "",
+  "Quiver": "",
+  "Throwable": "0",
+  "Reload": "0",
+  "ReEquip": "0",
+  "AutoStack": "0",
+  "Magic": "1",
+  "Rare": "",
+  "Normal": "0",
+  "Charm": "1",
+  "Gem": "0",
+  "Beltable": "0",
+  "MaxSock1": "0",
+  "MaxSock25": "0",
+  "MaxSock40": "0",
+  "TreasureClass": "0",
+  "Rarity": "3",
+  "StaffMods": "",
+  "CostFormula": "0",
+  "Class": "",
+  "VarInvGfx": "3",
+  "InvGfx1": "invch1",
+  "InvGfx2": "invch4",
+  "InvGfx3": "invch7",
+  "InvGfx4": "",
+  "InvGfx5": "",
+  "InvGfx6": "",
+  "StorePage": "misc",
+  "*eol": "0"
+ },
+ "boot": {
   "ItemType": "Boots",
   "Code": "boot",
   "Equiv1": "armo",
@@ -584,7 +545,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Gloves": {
+ "glov": {
   "ItemType": "Gloves",
   "Code": "glov",
   "Equiv1": "armo",
@@ -623,7 +584,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Book": {
+ "book": {
   "ItemType": "Book",
   "Code": "book",
   "Equiv1": "misc",
@@ -662,7 +623,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Belt": {
+ "belt": {
   "ItemType": "Belt",
   "Code": "belt",
   "Equiv1": "armo",
@@ -701,7 +662,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Gem": {
+ "gem": {
   "ItemType": "Gem",
   "Code": "gem",
   "Equiv1": "sock",
@@ -740,7 +701,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Torch": {
+ "torc": {
   "ItemType": "Torch",
   "Code": "torc",
   "Equiv1": "misc",
@@ -779,7 +740,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Scroll": {
+ "scro": {
   "ItemType": "Scroll",
   "Code": "scro",
   "Equiv1": "misc",
@@ -818,7 +779,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Scepter": {
+ "scep": {
   "ItemType": "Scepter",
   "Code": "scep",
   "Equiv1": "rod",
@@ -857,7 +818,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Wand": {
+ "wand": {
   "ItemType": "Wand",
   "Code": "wand",
   "Equiv1": "rod",
@@ -896,7 +857,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Staff": {
+ "staf": {
   "ItemType": "Staff",
   "Code": "staf",
   "Equiv1": "rod",
@@ -935,7 +896,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Bow": {
+ "bow": {
   "ItemType": "Bow",
   "Code": "bow",
   "Equiv1": "miss",
@@ -974,7 +935,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Axe": {
+ "axe": {
   "ItemType": "Axe",
   "Code": "axe",
   "Equiv1": "mele",
@@ -1013,7 +974,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Club": {
+ "club": {
   "ItemType": "Club",
   "Code": "club",
   "Equiv1": "blun",
@@ -1052,7 +1013,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Sword": {
+ "swor": {
   "ItemType": "Sword",
   "Code": "swor",
   "Equiv1": "mele",
@@ -1091,7 +1052,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Hammer": {
+ "hamm": {
   "ItemType": "Hammer",
   "Code": "hamm",
   "Equiv1": "blun",
@@ -1130,7 +1091,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Knife": {
+ "knif": {
   "ItemType": "Knife",
   "Code": "knif",
   "Equiv1": "mele",
@@ -1169,7 +1130,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Spear": {
+ "spea": {
   "ItemType": "Spear",
   "Code": "spea",
   "Equiv1": "mele",
@@ -1208,7 +1169,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Polearm": {
+ "pole": {
   "ItemType": "Polearm",
   "Code": "pole",
   "Equiv1": "mele",
@@ -1247,7 +1208,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Crossbow": {
+ "xbow": {
   "ItemType": "Crossbow",
   "Code": "xbow",
   "Equiv1": "miss",
@@ -1286,7 +1247,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Mace": {
+ "mace": {
   "ItemType": "Mace",
   "Code": "mace",
   "Equiv1": "blun",
@@ -1325,7 +1286,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Helm": {
+ "helm": {
   "ItemType": "Helm",
   "Code": "helm",
   "Equiv1": "armo",
@@ -1364,7 +1325,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Missile Potion": {
+ "tpot": {
   "ItemType": "Missile Potion",
   "Code": "tpot",
   "Equiv1": "thro",
@@ -1403,7 +1364,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Quest": {
+ "ques": {
   "ItemType": "Quest",
   "Code": "ques",
   "Equiv1": "",
@@ -1442,7 +1403,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Body Part": {
+ "body": {
   "ItemType": "Body Part",
   "Code": "body",
   "Equiv1": "misc",
@@ -1481,7 +1442,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Key": {
+ "key": {
   "ItemType": "Key",
   "Code": "key",
   "Equiv1": "misc",
@@ -1520,7 +1481,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Throwing Knife": {
+ "tkni": {
   "ItemType": "Throwing Knife",
   "Code": "tkni",
   "Equiv1": "comb",
@@ -1559,7 +1520,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Throwing Axe": {
+ "taxe": {
   "ItemType": "Throwing Axe",
   "Code": "taxe",
   "Equiv1": "comb",
@@ -1598,7 +1559,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Javelin": {
+ "jave": {
   "ItemType": "Javelin",
   "Code": "jave",
   "Equiv1": "comb",
@@ -1637,7 +1598,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Weapon": {
+ "weap": {
   "ItemType": "Weapon",
   "Code": "weap",
   "Equiv1": "",
@@ -1676,7 +1637,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Melee Weapon": {
+ "mele": {
   "ItemType": "Melee Weapon",
   "Code": "mele",
   "Equiv1": "weap",
@@ -1715,7 +1676,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Missile Weapon": {
+ "miss": {
   "ItemType": "Missile Weapon",
   "Code": "miss",
   "Equiv1": "weap",
@@ -1754,7 +1715,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Thrown Weapon": {
+ "thro": {
   "ItemType": "Thrown Weapon",
   "Code": "thro",
   "Equiv1": "weap",
@@ -1793,7 +1754,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Combo Weapon": {
+ "comb": {
   "ItemType": "Combo Weapon",
   "Code": "comb",
   "Equiv1": "mele",
@@ -1832,7 +1793,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Any Armor": {
+ "armo": {
   "ItemType": "Any Armor",
   "Code": "armo",
   "Equiv1": "",
@@ -1871,7 +1832,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Any Shield": {
+ "shld": {
   "ItemType": "Any Shield",
   "Code": "shld",
   "Equiv1": "armo",
@@ -1910,7 +1871,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Miscellaneous": {
+ "misc": {
   "ItemType": "Miscellaneous",
   "Code": "misc",
   "Equiv1": "",
@@ -1949,7 +1910,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Socket Filler": {
+ "sock": {
   "ItemType": "Socket Filler",
   "Code": "sock",
   "Equiv1": "misc",
@@ -1988,7 +1949,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Second Hand": {
+ "seco": {
   "ItemType": "Second Hand",
   "Code": "seco",
   "Equiv1": "",
@@ -2027,7 +1988,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Staves And Rods": {
+ "rod": {
   "ItemType": "Staves And Rods",
   "Code": "rod",
   "Equiv1": "blun",
@@ -2066,7 +2027,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Missile": {
+ "misl": {
   "ItemType": "Missile",
   "Code": "misl",
   "Equiv1": "misc",
@@ -2105,7 +2066,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Blunt": {
+ "blun": {
   "ItemType": "Blunt",
   "Code": "blun",
   "Equiv1": "mele",
@@ -2144,7 +2105,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Jewel": {
+ "jewl": {
   "ItemType": "Jewel",
   "Code": "jewl",
   "Equiv1": "sock",
@@ -2183,7 +2144,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Class Specific": {
+ "clas": {
   "ItemType": "Class Specific",
   "Code": "clas",
   "Equiv1": "",
@@ -2222,7 +2183,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Amazon Item": {
+ "amaz": {
   "ItemType": "Amazon Item",
   "Code": "amaz",
   "Equiv1": "clas",
@@ -2261,7 +2222,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Barbarian Item": {
+ "barb": {
   "ItemType": "Barbarian Item",
   "Code": "barb",
   "Equiv1": "clas",
@@ -2300,7 +2261,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Necromancer Item": {
+ "necr": {
   "ItemType": "Necromancer Item",
   "Code": "necr",
   "Equiv1": "clas",
@@ -2339,7 +2300,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Paladin Item": {
+ "pala": {
   "ItemType": "Paladin Item",
   "Code": "pala",
   "Equiv1": "clas",
@@ -2378,7 +2339,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Sorceress Item": {
+ "sorc": {
   "ItemType": "Sorceress Item",
   "Code": "sorc",
   "Equiv1": "clas",
@@ -2417,7 +2378,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Assassin Item": {
+ "assn": {
   "ItemType": "Assassin Item",
   "Code": "assn",
   "Equiv1": "clas",
@@ -2456,7 +2417,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Druid Item": {
+ "drui": {
   "ItemType": "Druid Item",
   "Code": "drui",
   "Equiv1": "clas",
@@ -2495,7 +2456,7 @@
   "StorePage": "",
   "*eol": "0"
  },
- "Hand to Hand": {
+ "h2h": {
   "ItemType": "Hand to Hand",
   "Code": "h2h",
   "Equiv1": "mele",
@@ -2534,7 +2495,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Orb": {
+ "orb": {
   "ItemType": "Orb",
   "Code": "orb",
   "Equiv1": "weap",
@@ -2573,7 +2534,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Voodoo Heads": {
+ "head": {
   "ItemType": "Voodoo Heads",
   "Code": "head",
   "Equiv1": "shld",
@@ -2612,7 +2573,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Auric Shields": {
+ "ashd": {
   "ItemType": "Auric Shields",
   "Code": "ashd",
   "Equiv1": "shld",
@@ -2651,7 +2612,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Primal Helm": {
+ "phlm": {
   "ItemType": "Primal Helm",
   "Code": "phlm",
   "Equiv1": "helm",
@@ -2690,7 +2651,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Pelt": {
+ "pelt": {
   "ItemType": "Pelt",
   "Code": "pelt",
   "Equiv1": "helm",
@@ -2729,7 +2690,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Cloak": {
+ "cloa": {
   "ItemType": "Cloak",
   "Code": "cloa",
   "Equiv1": "tors",
@@ -2768,7 +2729,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Rune": {
+ "rune": {
   "ItemType": "Rune",
   "Code": "rune",
   "Equiv1": "sock",
@@ -2807,7 +2768,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Circlet": {
+ "circ": {
   "ItemType": "Circlet",
   "Code": "circ",
   "Equiv1": "helm",
@@ -2846,7 +2807,7 @@
   "StorePage": "armo",
   "*eol": "0"
  },
- "Healing Potion": {
+ "hpot": {
   "ItemType": "Healing Potion",
   "Code": "hpot",
   "Equiv1": "poti",
@@ -2885,7 +2846,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Mana Potion": {
+ "mpot": {
   "ItemType": "Mana Potion",
   "Code": "mpot",
   "Equiv1": "poti",
@@ -2924,7 +2885,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Rejuv Potion": {
+ "rpot": {
   "ItemType": "Rejuv Potion",
   "Code": "rpot",
   "Equiv1": "hpot",
@@ -2963,7 +2924,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Stamina Potion": {
+ "spot": {
   "ItemType": "Stamina Potion",
   "Code": "spot",
   "Equiv1": "poti",
@@ -3002,7 +2963,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Antidote Potion": {
+ "apot": {
   "ItemType": "Antidote Potion",
   "Code": "apot",
   "Equiv1": "poti",
@@ -3041,7 +3002,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Thawing Potion": {
+ "wpot": {
   "ItemType": "Thawing Potion",
   "Code": "wpot",
   "Equiv1": "poti",
@@ -3080,7 +3041,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Small Charm": {
+ "scha": {
   "ItemType": "Small Charm",
   "Code": "scha",
   "Equiv1": "char",
@@ -3119,7 +3080,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Medium Charm": {
+ "mcha": {
   "ItemType": "Medium Charm",
   "Code": "mcha",
   "Equiv1": "char",
@@ -3158,7 +3119,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Large Charm": {
+ "lcha": {
   "ItemType": "Large Charm",
   "Code": "lcha",
   "Equiv1": "char",
@@ -3197,7 +3158,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Amazon Bow": {
+ "abow": {
   "ItemType": "Amazon Bow",
   "Code": "abow",
   "Equiv1": "bow",
@@ -3236,7 +3197,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Amazon Spear": {
+ "aspe": {
   "ItemType": "Amazon Spear",
   "Code": "aspe",
   "Equiv1": "spea",
@@ -3275,7 +3236,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Amazon Javelin": {
+ "ajav": {
   "ItemType": "Amazon Javelin",
   "Code": "ajav",
   "Equiv1": "jave",
@@ -3314,7 +3275,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Hand to Hand 2": {
+ "h2h2": {
   "ItemType": "Hand to Hand 2",
   "Code": "h2h2",
   "Equiv1": "h2h",
@@ -3353,7 +3314,7 @@
   "StorePage": "weap",
   "*eol": "0"
  },
- "Magic Bow Quiv": {
+ "mboq": {
   "ItemType": "Magic Bow Quiv",
   "Code": "mboq",
   "Equiv1": "bowq",
@@ -3392,7 +3353,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Magic Xbow Quiv": {
+ "mxbq": {
   "ItemType": "Magic Xbow Quiv",
   "Code": "mxbq",
   "Equiv1": "xboq",
@@ -3431,7 +3392,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Chipped Gem": {
+ "gem0": {
   "ItemType": "Chipped Gem",
   "Code": "gem0",
   "Equiv1": "gem",
@@ -3470,7 +3431,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Flawed Gem": {
+ "gem1": {
   "ItemType": "Flawed Gem",
   "Code": "gem1",
   "Equiv1": "gem",
@@ -3509,7 +3470,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Standard Gem": {
+ "gem2": {
   "ItemType": "Standard Gem",
   "Code": "gem2",
   "Equiv1": "gem",
@@ -3548,7 +3509,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Flawless Gem": {
+ "gem3": {
   "ItemType": "Flawless Gem",
   "Code": "gem3",
   "Equiv1": "gem",
@@ -3587,7 +3548,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Perfect Gem": {
+ "gem4": {
   "ItemType": "Perfect Gem",
   "Code": "gem4",
   "Equiv1": "gem",
@@ -3626,7 +3587,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Amethyst": {
+ "gema": {
   "ItemType": "Amethyst",
   "Code": "gema",
   "Equiv1": "gem",
@@ -3665,7 +3626,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Diamond": {
+ "gemd": {
   "ItemType": "Diamond",
   "Code": "gemd",
   "Equiv1": "gem",
@@ -3704,7 +3665,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Emerald": {
+ "geme": {
   "ItemType": "Emerald",
   "Code": "geme",
   "Equiv1": "gem",
@@ -3743,7 +3704,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Ruby": {
+ "gemr": {
   "ItemType": "Ruby",
   "Code": "gemr",
   "Equiv1": "gem",
@@ -3782,7 +3743,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Sapphire": {
+ "gems": {
   "ItemType": "Sapphire",
   "Code": "gems",
   "Equiv1": "gem",
@@ -3821,7 +3782,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Topaz": {
+ "gemt": {
   "ItemType": "Topaz",
   "Code": "gemt",
   "Equiv1": "gem",
@@ -3860,7 +3821,7 @@
   "StorePage": "misc",
   "*eol": "0"
  },
- "Skull": {
+ "gemz": {
   "ItemType": "Skull",
   "Code": "gemz",
   "Equiv1": "gem",

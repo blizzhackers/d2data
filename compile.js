@@ -19,7 +19,7 @@ const indexes = {
     experience: 'Level',
     inventory: 'class',
     ItemStatCost: 'Stat',
-    ItemTypes: 'ItemType',
+    ItemTypes: 'Code',
     Levels: 'Id',
     LvlMaze: 'Level',
     LvlPrest: 'Def',
