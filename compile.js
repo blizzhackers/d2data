@@ -1,8 +1,8 @@
 const fs = require('fs');
-const files = fs.readdirSync('.').filter(fn => fn.slice(-4) === '.txt').map(fn => fn.slice(0, -4));
-const lineEnd = /[\n\r]+/g;
-const fieldEnd = /\t/g;
-const full = {};
+const lineEnd = /[\n\r]+/g, fieldEnd = /\t/g, full = {};
+const inDir = 'txt/';
+const outDir = 'json/';
+const files = fs.readdirSync(inDir).filter(fn => fn.slice(-4) === '.txt').map(fn => fn.slice(0, -4));
 const indexes = {
     armor: 'code',
     charstats: 'class',
@@ -36,7 +36,7 @@ const indexes = {
     UniqueItems: 'index',
 };
 files.forEach(fn => {
-    let data = fs.readFileSync(fn + '.txt').toString().split(lineEnd).filter(line => line.trim().toLowerCase() !== 'expansion');
+    let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd).filter(line => line.trim().toLowerCase() !== 'expansion');
     let header = data.shift().split(fieldEnd);
     let indexColumn = header.indexOf(indexes[fn]);
     full[fn] = data.reduce((obj, line, index) => {
@@ -51,7 +51,7 @@ files.forEach(fn => {
         return obj;
     }, {});
 
-    fs.writeFileSync(fn + '.json', JSON.stringify(full[fn], null, ' '));
+    fs.writeFileSync(outDir + fn + '.json', JSON.stringify(full[fn], null, ' '));
 });
 
 // @TODO: Generate atomic classes
@@ -92,7 +92,7 @@ Object.values(full['armor']).forEach(item => {
     atomic['armo' + tc][item.code] = typeRarity[item.type] || typeRarity.default;;
 });
 full['atomic'] = atomic;
-fs.writeFileSync('atomic.json', JSON.stringify(atomic, null, ' '));
+fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(atomic, null, ' '));
 
 delete full['Sounds'];
 delete full['Missiles'];
@@ -110,4 +110,4 @@ delete full['UniqueAppellation'];
 delete full['UniquePrefix'];
 delete full['UniqueSuffix'];
 delete full['UniqueUniqueTitle'];
-fs.writeFileSync('aggregate.json', JSON.stringify(full));
+fs.writeFileSync(outDir + 'aggregate.json', JSON.stringify(full));
