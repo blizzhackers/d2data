@@ -1,0 +1,533 @@
+{
+ "0": {
+  "type": "",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "1": {
+  "type": "undead",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "2": {
+  "type": "demon",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "3": {
+  "type": "insect",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "4": {
+  "type": "human",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "5": {
+  "type": "construct",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "6": {
+  "type": "lowundead",
+  "equiv1": "undead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "7": {
+  "type": "highundead",
+  "equiv1": "undead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "8": {
+  "type": "skeleton",
+  "equiv1": "lowundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "9": {
+  "type": "zombie",
+  "equiv1": "lowundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "10": {
+  "type": "bighead",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "Afflicted",
+  "strplur": "Afflicted",
+  "*eol": "0"
+ },
+ "11": {
+  "type": "foulcrow",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "12": {
+  "type": "fallen",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "Fallen",
+  "strplur": "Fallen",
+  "*eol": "0"
+ },
+ "13": {
+  "type": "brute",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "Yeti",
+  "strplur": "Yeti",
+  "*eol": "0"
+ },
+ "14": {
+  "type": "sandraider",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "15": {
+  "type": "wraith",
+  "equiv1": "undead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "16": {
+  "type": "corruptrogue",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "17": {
+  "type": "baboon",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "18": {
+  "type": "goatman",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "19": {
+  "type": "quillrat",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "20": {
+  "type": "sandmaggot",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "21": {
+  "type": "clawviper",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "22": {
+  "type": "sandleaper",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "23": {
+  "type": "pantherwoman",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "24": {
+  "type": "swarm",
+  "equiv1": "insect",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "HellSwarm",
+  "strplur": "HellSwarm",
+  "*eol": "0"
+ },
+ "25": {
+  "type": "scarab",
+  "equiv1": "insect",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "26": {
+  "type": "mummy",
+  "equiv1": "lowundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "27": {
+  "type": "unraveler",
+  "equiv1": "highundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "28": {
+  "type": "vulture",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "29": {
+  "type": "mosquito",
+  "equiv1": "insect",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "30": {
+  "type": "willowisp",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "31": {
+  "type": "arach",
+  "equiv1": "insect",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "32": {
+  "type": "thornhulk",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "33": {
+  "type": "vampire",
+  "equiv1": "highundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "34": {
+  "type": "batdemon",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "35": {
+  "type": "fetish",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "Fetish",
+  "strplur": "Fetish",
+  "*eol": "0"
+ },
+ "36": {
+  "type": "blunderbore",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "37": {
+  "type": "undeadfetish",
+  "equiv1": "lowundead",
+  "equiv2": "demon",
+  "equiv3": "",
+  "strsing": "Undead Fetish",
+  "strplur": "Undead Fetish",
+  "*eol": "0"
+ },
+ "38": {
+  "type": "zakarum",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "39": {
+  "type": "frogdemon",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "40": {
+  "type": "tentacle",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "41": {
+  "type": "fingermage",
+  "equiv1": "lowundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "42": {
+  "type": "golem",
+  "equiv1": "construct",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "43": {
+  "type": "vilekind",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "44": {
+  "type": "regurgitator",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "45": {
+  "type": "doomknight",
+  "equiv1": "lowundead",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "46": {
+  "type": "councilmember",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "47": {
+  "type": "megademon",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "48": {
+  "type": "bovine",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "49": {
+  "type": "siegebeast",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "50": {
+  "type": "snowyeti",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "Yeti",
+  "strplur": "Yeti",
+  "*eol": "0"
+ },
+ "51": {
+  "type": "minion",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "52": {
+  "type": "succubus",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "53": {
+  "type": "overseer",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "54": {
+  "type": "imp",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "55": {
+  "type": "frozenhorror",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "56": {
+  "type": "bloodlord",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "57": {
+  "type": "deathmauler",
+  "equiv1": "",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ },
+ "58": {
+  "type": "putriddefiler",
+  "equiv1": "demon",
+  "equiv2": "",
+  "equiv3": "",
+  "strsing": "",
+  "strplur": "",
+  "*eol": "0"
+ }
+}
