@@ -1,29 +1,9 @@
 {
  "0": {
   "Handle": "ESOUNDENVIRON_NONE",
-  "Index": "0",
-  "Song": "0",
-  "Day Ambience": "0",
-  "Night Ambience": "0",
-  "Day Event": "0",
-  "Night Event": "0",
   "Event Delay": "250",
-  "Indoors": "0",
-  "Material 1": "0",
-  "Material 2": "0",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "1": {
   "Handle": "ESOUNDENVIRON_TOWN_1",
@@ -31,25 +11,11 @@
   "Song": "4673",
   "Day Ambience": "70",
   "Night Ambience": "71",
-  "Day Event": "0",
-  "Night Event": "0",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "5",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "2": {
   "Handle": "ESOUNDENVIRON_WILDERNESS",
@@ -60,7 +26,6 @@
   "Day Event": "192",
   "Night Event": "197",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "5",
   "EAX Environ": "17",
@@ -74,7 +39,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "3": {
@@ -86,7 +50,6 @@
   "Day Event": "192",
   "Night Event": "197",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "5",
   "EAX Environ": "17",
@@ -100,7 +63,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "4": {
@@ -114,7 +76,6 @@
   "Event Delay": "200",
   "Indoors": "1",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -126,7 +87,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "5": {
@@ -140,7 +100,6 @@
   "Event Delay": "500",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -152,7 +111,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "6": {
@@ -164,7 +122,6 @@
   "Day Event": "157",
   "Night Event": "157",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "3",
   "EAX Environ": "7",
@@ -178,7 +135,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "7": {
@@ -190,7 +146,6 @@
   "Day Event": "157",
   "Night Event": "157",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "3",
   "EAX Environ": "7",
@@ -204,7 +159,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "8": {
@@ -218,7 +172,6 @@
   "Event Delay": "800",
   "Indoors": "1",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "6",
   "EAX Env Size": "21600",
   "EAX Env Diff": "1000",
@@ -230,7 +183,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-289",
   "EAX Rev Delay": "30",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "9": {
@@ -244,7 +196,6 @@
   "Event Delay": "500",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "7",
   "EAX Env Size": "19600",
   "EAX Env Diff": "1000",
@@ -256,7 +207,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "10": {
@@ -270,7 +220,6 @@
   "Event Delay": "800",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -282,7 +231,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "11": {
@@ -296,7 +244,6 @@
   "Event Delay": "250",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "6",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -308,7 +255,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-289",
   "EAX Rev Delay": "30",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "12": {
@@ -320,22 +266,10 @@
   "Day Event": "172",
   "Night Event": "177",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "3",
   "Material 2": "4",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "13": {
   "Handle": "ESOUNDENVIRON_DESERT",
@@ -346,22 +280,10 @@
   "Day Event": "100",
   "Night Event": "100",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "4",
   "Material 2": "3",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "14": {
   "Handle": "ESOUNDENVIRON_VALLEY_OF_KINGS",
@@ -372,22 +294,10 @@
   "Day Event": "100",
   "Night Event": "100",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "4",
   "Material 2": "3",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "15": {
   "Handle": "ESOUNDENVIRON_SEWERS",
@@ -400,7 +310,6 @@
   "Event Delay": "150",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "13",
   "EAX Env Size": "13500",
   "EAX Env Diff": "1000",
@@ -412,7 +321,6 @@
   "EAX Reflect Delay": "13",
   "EAX Reverb": "395",
   "EAX Rev Delay": "20",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "16": {
@@ -426,7 +334,6 @@
   "Event Delay": "750",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "9",
   "EAX Env Size": "36200",
   "EAX Env Diff": "1000",
@@ -438,7 +345,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "16",
   "EAX Rev Delay": "30",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "17": {
@@ -452,7 +358,6 @@
   "Event Delay": "750",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "9",
   "EAX Env Size": "36200",
   "EAX Env Diff": "1000",
@@ -464,7 +369,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "16",
   "EAX Rev Delay": "30",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "18": {
@@ -478,7 +382,6 @@
   "Event Delay": "750",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "10",
   "EAX Env Size": "50300",
   "EAX Env Diff": "1000",
@@ -490,7 +393,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "198",
   "EAX Rev Delay": "30",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "19": {
@@ -516,7 +418,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "16",
   "EAX Rev Delay": "56",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "20": {
@@ -530,7 +431,6 @@
   "Event Delay": "500",
   "Indoors": "1",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "13",
   "EAX Env Size": "13500",
   "EAX Env Diff": "1000",
@@ -542,7 +442,6 @@
   "EAX Reflect Delay": "13",
   "EAX Reverb": "395",
   "EAX Rev Delay": "20",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "21": {
@@ -556,7 +455,6 @@
   "Event Delay": "500",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "13",
   "EAX Env Size": "13500",
   "EAX Env Diff": "1000",
@@ -568,7 +466,6 @@
   "EAX Reflect Delay": "13",
   "EAX Reverb": "395",
   "EAX Rev Delay": "20",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "22": {
@@ -577,12 +474,8 @@
   "Song": "4669",
   "Day Ambience": "62",
   "Night Ambience": "62",
-  "Day Event": "0",
-  "Night Event": "0",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "7",
   "EAX Env Size": "19600",
   "EAX Env Diff": "1000",
@@ -594,7 +487,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "23": {
@@ -606,9 +498,7 @@
   "Day Event": "182",
   "Night Event": "187",
   "Event Delay": "500",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "17",
   "EAX Env Size": "100000",
   "EAX Env Diff": "270",
@@ -620,7 +510,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "24": {
@@ -632,9 +521,7 @@
   "Day Event": "118",
   "Night Event": "123",
   "Event Delay": "300",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "17",
   "EAX Env Size": "100000",
   "EAX Env Diff": "270",
@@ -646,7 +533,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "25": {
@@ -658,9 +544,7 @@
   "Day Event": "128",
   "Night Event": "133",
   "Event Delay": "325",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "17",
   "EAX Env Size": "100000",
   "EAX Env Diff": "270",
@@ -672,7 +556,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "26": {
@@ -686,7 +569,6 @@
   "Event Delay": "500",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -698,7 +580,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "27": {
@@ -712,7 +593,6 @@
   "Event Delay": "250",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -724,7 +604,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "28": {
@@ -736,9 +615,7 @@
   "Day Event": "162",
   "Night Event": "162",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "9",
   "EAX Env Size": "36200",
   "EAX Env Diff": "1000",
@@ -750,7 +627,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "16",
   "EAX Rev Delay": "30",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "29": {
@@ -764,7 +640,6 @@
   "Event Delay": "250",
   "Indoors": "1",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -776,7 +651,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "30": {
@@ -790,7 +664,6 @@
   "Event Delay": "250",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "7",
   "EAX Env Size": "19600",
   "EAX Env Diff": "1000",
@@ -802,7 +675,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "31": {
@@ -811,12 +683,8 @@
   "Song": "4676",
   "Day Ambience": "62",
   "Night Ambience": "62",
-  "Day Event": "0",
-  "Night Event": "0",
   "Event Delay": "500",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "5",
   "EAX Env Size": "11600",
   "EAX Env Diff": "1000",
@@ -828,7 +696,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "32": {
@@ -840,9 +707,7 @@
   "Day Event": "82",
   "Night Event": "82",
   "Event Delay": "300",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "12",
   "EAX Env Size": "1800",
   "EAX Env Diff": "1000",
@@ -854,7 +719,6 @@
   "EAX Reflect Delay": "7",
   "EAX Reverb": "441",
   "EAX Rev Delay": "11",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "33": {
@@ -866,9 +730,7 @@
   "Day Event": "143",
   "Night Event": "143",
   "Event Delay": "300",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "12",
   "EAX Env Size": "1800",
   "EAX Env Diff": "1000",
@@ -880,7 +742,6 @@
   "EAX Reflect Delay": "7",
   "EAX Reverb": "441",
   "EAX Rev Delay": "11",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "34": {
@@ -892,9 +753,7 @@
   "Day Event": "143",
   "Night Event": "143",
   "Event Delay": "300",
-  "Indoors": "0",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "12",
   "EAX Env Size": "1800",
   "EAX Env Diff": "1000",
@@ -906,7 +765,6 @@
   "EAX Reflect Delay": "7",
   "EAX Reverb": "441",
   "EAX Rev Delay": "11",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "35": {
@@ -915,25 +773,11 @@
   "Song": "4679",
   "Day Ambience": "70",
   "Night Ambience": "71",
-  "Day Event": "0",
-  "Night Event": "0",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "5",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "36": {
   "Handle": "ESOUNDENVIRON_XTOWN",
@@ -941,25 +785,11 @@
   "Song": "4684",
   "Day Ambience": "70",
   "Night Ambience": "71",
-  "Day Event": "0",
-  "Night Event": "0",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "3",
-  "EAX Environ": "0",
-  "EAX Env Size": "0",
-  "EAX Env Diff": "0",
   "EAX Room Vol": "-10000",
-  "EAX Room HF": "-10000",
-  "EAX Decay Time": "0",
-  "EAX Decay HF": "0",
-  "EAX Reflect": "0",
-  "EAX Reflect Delay": "0",
-  "EAX Reverb": "0",
-  "EAX Rev Delay": "0",
-  "EAX Room Roll": "0",
-  "EAX Air Absorb": "0"
+  "EAX Room HF": "-10000"
  },
  "37": {
   "Handle": "ESOUNDENVIRON_BARRICADE",
@@ -970,7 +800,6 @@
   "Day Event": "72",
   "Night Event": "77",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "5",
   "EAX Environ": "17",
@@ -984,7 +813,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "38": {
@@ -996,7 +824,6 @@
   "Day Event": "72",
   "Night Event": "77",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "6",
   "EAX Environ": "17",
@@ -1010,7 +837,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "39": {
@@ -1036,7 +862,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "40": {
@@ -1062,7 +887,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "41": {
@@ -1088,7 +912,6 @@
   "EAX Reflect Delay": "12",
   "EAX Reverb": "83",
   "EAX Rev Delay": "17",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "42": {
@@ -1100,7 +923,6 @@
   "Day Event": "72",
   "Night Event": "77",
   "Event Delay": "250",
-  "Indoors": "0",
   "Material 1": "3",
   "Material 2": "6",
   "EAX Environ": "17",
@@ -1114,7 +936,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "43": {
@@ -1126,7 +947,6 @@
   "Day Event": "77",
   "Night Event": "72",
   "Event Delay": "500",
-  "Indoors": "0",
   "Material 1": "1",
   "Material 2": "6",
   "EAX Environ": "17",
@@ -1140,7 +960,6 @@
   "EAX Reflect Delay": "226",
   "EAX Reverb": "-1434",
   "EAX Rev Delay": "100",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "44": {
@@ -1166,7 +985,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "45": {
@@ -1192,7 +1010,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "46": {
@@ -1206,7 +1023,6 @@
   "Event Delay": "300",
   "Indoors": "1",
   "Material 1": "1",
-  "Material 2": "0",
   "EAX Environ": "12",
   "EAX Env Size": "1800",
   "EAX Env Diff": "1000",
@@ -1218,7 +1034,6 @@
   "EAX Reflect Delay": "7",
   "EAX Reverb": "441",
   "EAX Rev Delay": "11",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "47": {
@@ -1244,7 +1059,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "48": {
@@ -1270,7 +1084,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  },
  "49": {
@@ -1284,7 +1097,6 @@
   "Event Delay": "250",
   "Indoors": "1",
   "Material 1": "2",
-  "Material 2": "0",
   "EAX Environ": "7",
   "EAX Env Size": "19600",
   "EAX Env Diff": "1000",
@@ -1296,7 +1108,6 @@
   "EAX Reflect Delay": "20",
   "EAX Reverb": "-2",
   "EAX Rev Delay": "29",
-  "EAX Room Roll": "0",
   "EAX Air Absorb": "-5000"
  }
 }

@@ -1,517 +1,344 @@
 {
  "1": {
   "Name": "Sturdy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
   "levelreq": "3",
-  "frequency": "0",
   "group": "101",
   "mod1code": "ac%",
   "mod1min": "20",
   "mod1max": "30",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "2": {
   "Name": "Strong",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "9",
   "levelreq": "6",
-  "frequency": "0",
   "group": "101",
   "mod1code": "ac%",
   "mod1min": "31",
   "mod1max": "40",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "3": {
   "Name": "Glorious",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "19",
   "levelreq": "14",
-  "frequency": "0",
   "group": "101",
   "mod1code": "ac%",
   "mod1min": "41",
   "mod1max": "50",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "4": {
   "Name": "Blessed",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
-  "frequency": "0",
   "group": "101",
   "mod1code": "ac%",
   "mod1min": "51",
   "mod1max": "65",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "5": {
   "Name": "Saintly",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "31",
   "levelreq": "23",
-  "frequency": "0",
   "group": "101",
   "mod1code": "ac%",
   "mod1min": "66",
   "mod1max": "80",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "6": {
   "Name": "Holy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "36",
   "levelreq": "27",
-  "frequency": "0",
   "group": "101",
   "mod1code": "ac%",
   "mod1min": "81",
   "mod1max": "100",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "7": {
   "Name": "Devious",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "7",
   "levelreq": "5",
-  "frequency": "0",
   "group": "103",
   "mod1code": "red-mag",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "8": {
   "Name": "Fortified",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
   "levelreq": "10",
-  "frequency": "0",
   "group": "103",
   "mod1code": "red-mag",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
- "9": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "10": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "11": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "9": {},
+ "10": {},
+ "11": {},
  "12": {
   "Name": "Jagged",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "1",
   "levelreq": "1",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "10",
   "mod1max": "20",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "13": {
   "Name": "Deadly",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "14": {
   "Name": "Vicious",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "8",
   "levelreq": "6",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "40",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "15": {
   "Name": "Brutal",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
   "levelreq": "10",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "41",
   "mod1max": "50",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "16": {
   "Name": "Massive",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "20",
   "levelreq": "15",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "51",
   "mod1max": "65",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "17": {
   "Name": "Savage",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "26",
   "levelreq": "19",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "66",
   "mod1max": "80",
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "weap",
   "etype1": "staf",
-  "etype2": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "wand"
  },
  "18": {
   "Name": "Merciless",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "32",
   "levelreq": "24",
-  "frequency": "0",
   "group": "106",
   "mod1code": "dmg%",
-  "mod1param": "0",
   "mod1min": "81",
   "mod1max": "100",
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "weap",
   "etype1": "staf",
-  "etype2": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "wand"
  },
  "19": {
   "Name": "Vulpine",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "9",
   "levelreq": "6",
-  "frequency": "0",
   "group": "107",
   "mod1code": "dmg-to-mana",
-  "mod1param": "0",
   "mod1min": "10",
   "mod1max": "10",
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "shld",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
- "20": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "21": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "22": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "23": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "20": {},
+ "21": {},
+ "22": {},
+ "23": {},
  "24": {
   "Name": "Tireless",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
   "levelreq": "10",
-  "frequency": "0",
   "group": "109",
   "mod1code": "regen-stam",
-  "mod1param": "0",
   "mod1min": "50",
   "mod1max": "50",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "25": {
   "Name": "Rugged",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
   "levelreq": "10",
-  "frequency": "0",
   "group": "110",
   "mod1code": "stam",
-  "mod1param": "0",
   "mod1min": "5",
   "mod1max": "10",
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "belt",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "26": {
   "Name": "Bronze",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "1",
   "levelreq": "1",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "10",
   "mod1max": "20",
   "itype1": "weap",
   "itype2": "ring",
   "itype3": "glov",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "27": {
   "Name": "Iron",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
   "levelreq": "3",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "40",
   "itype1": "weap",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "28": {
   "Name": "Steel",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "8",
   "levelreq": "6",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "41",
   "mod1max": "60",
   "itype1": "weap",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "29": {
   "Name": "Silver",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
   "levelreq": "9",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "61",
   "mod1max": "80",
   "itype1": "weap",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
- "30": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "30": {},
  "31": {
   "Name": "Gold",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "17",
   "levelreq": "12",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "81",
   "mod1max": "100",
   "transform": "1",
   "transformcolor": "lgld",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "32": {
   "Name": "Platinum",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "22",
   "levelreq": "16",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "101",
   "mod1max": "120",
   "transform": "1",
   "transformcolor": "lgld",
   "itype1": "weap",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "33": {
   "Name": "Meteoric",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "27",
   "levelreq": "20",
-  "frequency": "0",
   "group": "111",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "121",
   "mod1max": "150",
   "transform": "1",
@@ -519,273 +346,180 @@
   "itype1": "weap",
   "itype2": "ring",
   "etype1": "staf",
-  "etype2": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "wand"
  },
  "34": {
   "Name": "Sharp",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "10",
   "mod1max": "20",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "10",
   "mod2max": "20",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "35": {
   "Name": "Fine",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "9",
   "levelreq": "6",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "40",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "21",
   "mod2max": "30",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "36": {
   "Name": "Warrior's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "15",
   "levelreq": "11",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "41",
   "mod1max": "60",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "31",
   "mod2max": "40",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "37": {
   "Name": "Soldier's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "21",
   "levelreq": "15",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "61",
   "mod1max": "80",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "41",
   "mod2max": "50",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "38": {
   "Name": "Knight's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "81",
   "mod1max": "100",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "51",
   "mod2max": "65",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "39": {
   "Name": "Lord's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "101",
   "mod1max": "120",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "66",
   "mod2max": "80",
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "weap",
   "etype1": "staf",
-  "etype2": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "wand"
  },
  "40": {
   "Name": "King's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
   "levelreq": "26",
-  "frequency": "0",
   "group": "112",
   "mod1code": "att",
-  "mod1param": "0",
   "mod1min": "121",
   "mod1max": "150",
   "mod2code": "dmg%",
-  "mod2param": "0",
   "mod2min": "81",
   "mod2max": "100",
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "weap",
   "etype1": "staf",
-  "etype2": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "wand"
  },
  "41": {
   "Name": "Howling",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "16",
   "levelreq": "12",
-  "frequency": "0",
   "group": "113",
   "mod1code": "howl",
-  "mod1param": "0",
   "mod1min": "128",
   "mod1max": "128",
   "transform": "1",
   "transformcolor": "oran",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "42": {
   "Name": "Fortuitous",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "114",
   "mod1code": "mag%",
-  "mod1param": "0",
   "mod1min": "10",
   "mod1max": "15",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
- "43": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "44": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "45": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "46": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "47": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "43": {},
+ "44": {},
+ "45": {},
+ "46": {},
+ "47": {},
  "48": {
   "Name": "Glimmering",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "1",
   "levelreq": "1",
-  "frequency": "0",
   "group": "116",
   "mod1code": "light",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "armo",
   "itype2": "wand",
   "itype3": "staf",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "49": {
   "Name": "Glowing",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
   "levelreq": "4",
-  "frequency": "0",
   "group": "116",
   "mod1code": "light",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
@@ -794,32 +528,18 @@
   "itype2": "wand",
   "itype3": "staf",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
- "50": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "51": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "50": {},
+ "51": {},
  "52": {
   "Name": "Lizard's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "3",
   "levelreq": "2",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "5",
   "itype1": "armo",
@@ -827,71 +547,49 @@
   "itype3": "amul",
   "itype4": "rod",
   "etype1": "boot",
-  "etype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "glov"
  },
- "53": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "53": {},
  "54": {
   "Name": "Snake's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
   "levelreq": "4",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "5",
   "mod1max": "10",
   "itype1": "shld",
   "itype2": "rod",
   "itype3": "belt",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "55": {
   "Name": "Serpent's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
   "levelreq": "10",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "shld",
   "itype2": "rod",
   "itype3": "belt",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "56": {
   "Name": "Serpent's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "37",
   "levelreq": "27",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "tors",
@@ -900,22 +598,16 @@
   "itype4": "glov",
   "itype5": "mele",
   "etype1": "h2h",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "57": {
   "Name": "Drake's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "20",
   "levelreq": "15",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "transform": "1",
@@ -923,44 +615,32 @@
   "itype1": "rod",
   "itype2": "ring",
   "itype3": "amul",
-  "itype4": "belt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "belt"
  },
  "58": {
   "Name": "Dragon's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "24",
   "levelreq": "18",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "40",
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "59": {
   "Name": "Dragon's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "52",
   "levelreq": "39",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "40",
   "transform": "1",
@@ -968,204 +648,138 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "boot",
-  "itype4": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "glov"
  },
  "60": {
   "Name": "Wyrm's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "118",
   "mod1code": "mana",
-  "mod1param": "0",
   "mod1min": "41",
   "mod1max": "60",
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
- "61": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "62": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "61": {},
+ "62": {},
  "63": {
   "Name": "Prismatic",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "27",
   "levelreq": "20",
-  "frequency": "0",
   "group": "120",
   "mod1code": "res-all",
-  "mod1param": "0",
   "mod1min": "15",
   "mod1max": "25",
   "transform": "1",
   "transformcolor": "lpur",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "64": {
   "Name": "Prismatic",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "62",
   "levelreq": "46",
-  "frequency": "0",
   "group": "120",
   "mod1code": "res-all",
-  "mod1param": "0",
   "mod1min": "15",
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lpur",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "65": {
   "Name": "Azure",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "121",
   "mod1code": "res-cold",
-  "mod1param": "0",
   "mod1min": "5",
   "mod1max": "10",
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "miss",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "66": {
   "Name": "Lapis",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
   "levelreq": "9",
-  "frequency": "0",
   "group": "121",
   "mod1code": "res-cold",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
-  "itype4": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "rod"
  },
  "67": {
   "Name": "Lapis",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
   "levelreq": "26",
-  "frequency": "0",
   "group": "121",
   "mod1code": "res-cold",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
   "itype2": "glov",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "68": {
   "Name": "Cobalt",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
   "levelreq": "13",
-  "frequency": "0",
   "group": "121",
   "mod1code": "res-cold",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "rod",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "69": {
   "Name": "Cobalt",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "55",
   "levelreq": "41",
-  "frequency": "0",
   "group": "121",
   "mod1code": "res-cold",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
   "itype2": "glov",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
- "70": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "70": {},
  "71": {
   "Name": "Sapphire",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
-  "frequency": "0",
   "group": "121",
   "mod1code": "res-cold",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "50",
   "transform": "1",
@@ -1175,32 +789,18 @@
   "itype3": "ring",
   "itype4": "amul",
   "itype5": "miss",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
- "72": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "73": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "72": {},
+ "73": {},
  "74": {
   "Name": "Crimson",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "122",
   "mod1code": "res-fire",
-  "mod1param": "0",
   "mod1min": "5",
   "mod1max": "10",
   "itype1": "armo",
@@ -1208,110 +808,76 @@
   "itype3": "miss",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "amul"
  },
  "75": {
   "Name": "Burgundy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
   "levelreq": "9",
-  "frequency": "0",
   "group": "122",
   "mod1code": "res-fire",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "76": {
   "Name": "Burgundy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
   "levelreq": "26",
-  "frequency": "0",
   "group": "122",
   "mod1code": "res-fire",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "77": {
   "Name": "Garnet",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
   "levelreq": "13",
-  "frequency": "0",
   "group": "122",
   "mod1code": "res-fire",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
   "itype4": "amul",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "78": {
   "Name": "Garnet",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "55",
   "levelreq": "41",
-  "frequency": "0",
   "group": "122",
   "mod1code": "res-fire",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
   "itype2": "glov",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
- "79": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "79": {},
  "80": {
   "Name": "Ruby",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
-  "frequency": "0",
   "group": "122",
   "mod1code": "res-fire",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "50",
   "transform": "1",
@@ -1320,141 +886,93 @@
   "itype2": "staf",
   "itype3": "boot",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
- "81": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "82": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "81": {},
+ "82": {},
  "83": {
   "Name": "Ocher",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "123",
   "mod1code": "res-ltng",
-  "mod1param": "0",
   "mod1min": "5",
   "mod1max": "10",
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "miss"
  },
  "84": {
   "Name": "Tangerine",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
   "levelreq": "9",
-  "frequency": "0",
   "group": "123",
   "mod1code": "res-ltng",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
-  "itype4": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "rod"
  },
  "85": {
   "Name": "Tangerine",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
   "levelreq": "26",
-  "frequency": "0",
   "group": "123",
   "mod1code": "res-ltng",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "86": {
   "Name": "Coral",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
   "levelreq": "13",
-  "frequency": "0",
   "group": "123",
   "mod1code": "res-ltng",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "rod",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "87": {
   "Name": "Coral",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "55",
   "levelreq": "41",
-  "frequency": "0",
   "group": "123",
   "mod1code": "res-ltng",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
   "itype2": "glov",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
- "88": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "88": {},
  "89": {
   "Name": "Amber",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
-  "frequency": "0",
   "group": "123",
   "mod1code": "res-ltng",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "50",
   "transform": "1",
@@ -1465,32 +983,18 @@
   "itype4": "staf",
   "itype5": "wand",
   "etype1": "shld",
-  "etype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "glov"
  },
- "90": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "91": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "90": {},
+ "91": {},
  "92": {
   "Name": "Beryl",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
   "levelreq": "3",
-  "frequency": "0",
   "group": "124",
   "mod1code": "res-pois",
-  "mod1param": "0",
   "mod1min": "5",
   "mod1max": "10",
   "itype1": "armo",
@@ -1498,65 +1002,47 @@
   "itype3": "amul",
   "itype4": "scep",
   "itype5": "staf",
-  "itype6": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "miss"
  },
  "93": {
   "Name": "Jade",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
   "levelreq": "9",
-  "frequency": "0",
   "group": "124",
   "mod1code": "res-pois",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "scep",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "94": {
   "Name": "Jade",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
   "levelreq": "26",
-  "frequency": "0",
   "group": "124",
   "mod1code": "res-pois",
-  "mod1param": "0",
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
   "itype2": "ring",
   "etype1": "staf",
-  "etype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "scep"
  },
  "95": {
   "Name": "Viridian",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
   "levelreq": "13",
-  "frequency": "0",
   "group": "124",
   "mod1code": "res-pois",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "tors",
@@ -1565,22 +1051,16 @@
   "itype4": "scep",
   "itype5": "staf",
   "itype6": "ring",
-  "itype7": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "amul"
  },
  "96": {
   "Name": "Viridian",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "55",
   "levelreq": "41",
-  "frequency": "0",
   "group": "124",
   "mod1code": "res-pois",
-  "mod1param": "0",
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
@@ -1588,370 +1068,249 @@
   "itype3": "glov",
   "itype4": "belt",
   "etype1": "staf",
-  "etype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "scep"
  },
- "97": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "97": {},
  "98": {
   "Name": "Emerald",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
-  "frequency": "0",
   "group": "124",
   "mod1code": "res-pois",
-  "mod1param": "0",
   "mod1min": "31",
   "mod1max": "50",
   "transform": "1",
   "transformcolor": "lgrn",
   "itype1": "scep",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
- "99": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "99": {},
  "100": {
   "Name": "Fletcher's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "125",
   "mod1code": "ama",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "miss",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "101": {
   "Name": "Archer's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
   "levelreq": "30",
-  "frequency": "0",
   "group": "125",
   "mod1code": "ama",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "miss"
  },
  "102": {
   "Name": "Archer's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "90",
   "levelreq": "67",
-  "frequency": "0",
   "group": "125",
   "mod1code": "ama",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "103": {
   "Name": "Monk's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "126",
   "mod1code": "pal",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "scep",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "104": {
   "Name": "Priest's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
   "levelreq": "30",
-  "frequency": "0",
   "group": "126",
   "mod1code": "pal",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scep"
  },
  "105": {
   "Name": "Priest's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "90",
   "levelreq": "67",
-  "frequency": "0",
   "group": "126",
   "mod1code": "pal",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "106": {
   "Name": "Summoner's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "127",
   "mod1code": "nec",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "wand",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "107": {
   "Name": "Necromancer's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
   "levelreq": "30",
-  "frequency": "0",
   "group": "127",
   "mod1code": "nec",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "wand"
  },
  "108": {
   "Name": "Necromancer's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "90",
   "levelreq": "67",
-  "frequency": "0",
   "group": "127",
   "mod1code": "nec",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "109": {
   "Name": "Angel's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "128",
   "mod1code": "sor",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "staf",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "110": {
   "Name": "Arch-Angel's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
   "levelreq": "30",
-  "frequency": "0",
   "group": "128",
   "mod1code": "sor",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "staf"
  },
  "111": {
   "Name": "Arch-Angel's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "90",
   "levelreq": "67",
-  "frequency": "0",
   "group": "128",
   "mod1code": "sor",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "112": {
   "Name": "Slayer's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "129",
   "mod1code": "bar",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "mele",
   "itype2": "amul",
   "etype1": "rod",
-  "etype2": "h2h",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "h2h"
  },
  "113": {
   "Name": "Berserker's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
   "levelreq": "30",
-  "frequency": "0",
   "group": "129",
   "mod1code": "bar",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "mele",
   "etype1": "rod",
-  "etype2": "h2h",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "h2h"
  },
  "114": {
   "Name": "Berserker's",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "90",
   "levelreq": "67",
-  "frequency": "0",
   "group": "129",
   "mod1code": "bar",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
- "115": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
- "116": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "115": {},
+ "116": {},
  "117": {
   "Name": "Triumphant",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "3",
   "levelreq": "2",
-  "frequency": "0",
   "group": "132",
   "mod1code": "mana-kill",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "mele",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "118": {
   "Name": "Stout",
@@ -1965,10 +1324,7 @@
   "mod1code": "ac",
   "mod1min": "3",
   "mod1max": "5",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "119": {
   "Name": "Stout",
@@ -1982,10 +1338,7 @@
   "mod1code": "ac",
   "mod1min": "6",
   "mod1max": "9",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "120": {
   "Name": "Stout",
@@ -1999,10 +1352,7 @@
   "mod1code": "ac",
   "mod1min": "10",
   "mod1max": "12",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "121": {
   "Name": "Burly",
@@ -2016,10 +1366,7 @@
   "mod1code": "ac",
   "mod1min": "13",
   "mod1max": "15",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "122": {
   "Name": "Burly",
@@ -2033,10 +1380,7 @@
   "mod1code": "ac",
   "mod1min": "16",
   "mod1max": "22",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "123": {
   "Name": "Burly",
@@ -2050,10 +1394,7 @@
   "mod1code": "ac",
   "mod1min": "23",
   "mod1max": "30",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "124": {
   "Name": "Stalwart",
@@ -2066,10 +1407,7 @@
   "mod1code": "ac",
   "mod1min": "33",
   "mod1max": "40",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "125": {
   "Name": "Stalwart",
@@ -2082,10 +1420,7 @@
   "mod1code": "ac",
   "mod1min": "44",
   "mod1max": "50",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "126": {
   "Name": "Stalwart",
@@ -2098,10 +1433,7 @@
   "mod1code": "ac",
   "mod1min": "60",
   "mod1max": "100",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "127": {
   "Name": "Stout",
@@ -2115,10 +1447,7 @@
   "mod1code": "ac",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "128": {
   "Name": "Stout",
@@ -2132,10 +1461,7 @@
   "mod1code": "ac",
   "mod1min": "4",
   "mod1max": "6",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "129": {
   "Name": "Stout",
@@ -2149,10 +1475,7 @@
   "mod1code": "ac",
   "mod1min": "8",
   "mod1max": "12",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "130": {
   "Name": "Burly",
@@ -2166,10 +1489,7 @@
   "mod1code": "ac",
   "mod1min": "13",
   "mod1max": "18",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "131": {
   "Name": "Burly",
@@ -2183,10 +1503,7 @@
   "mod1code": "ac",
   "mod1min": "20",
   "mod1max": "30",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "132": {
   "Name": "Stalwart",
@@ -2199,10 +1516,7 @@
   "mod1code": "ac",
   "mod1min": "30",
   "mod1max": "40",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "133": {
   "Name": "Stalwart",
@@ -2215,10 +1529,7 @@
   "mod1code": "ac",
   "mod1min": "45",
   "mod1max": "60",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "134": {
   "Name": "Stout",
@@ -2232,10 +1543,7 @@
   "mod1code": "ac",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "135": {
   "Name": "Stout",
@@ -2249,10 +1557,7 @@
   "mod1code": "ac",
   "mod1min": "4",
   "mod1max": "8",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "136": {
   "Name": "Burly",
@@ -2266,10 +1571,7 @@
   "mod1code": "ac",
   "mod1min": "15",
   "mod1max": "20",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "137": {
   "Name": "Stalwart",
@@ -2282,10 +1584,7 @@
   "mod1code": "ac",
   "mod1min": "20",
   "mod1max": "30",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "138": {
   "Name": "Blanched",
@@ -2301,10 +1600,7 @@
   "mod1max": "8",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "139": {
   "Name": "Eburin",
@@ -2320,10 +1616,7 @@
   "mod1max": "20",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "140": {
   "Name": "Bone",
@@ -2339,10 +1632,7 @@
   "mod1max": "40",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "141": {
   "Name": "Ivory",
@@ -2357,10 +1647,7 @@
   "mod1max": "64",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "142": {
   "Name": "Sturdy",
@@ -2374,10 +1661,7 @@
   "mod1code": "ac%",
   "mod1min": "10",
   "mod1max": "20",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "143": {
   "Name": "Sturdy",
@@ -2391,10 +1675,7 @@
   "mod1code": "ac%",
   "mod1min": "21",
   "mod1max": "30",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "144": {
   "Name": "Strong",
@@ -2408,10 +1689,7 @@
   "mod1code": "ac%",
   "mod1min": "31",
   "mod1max": "40",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "145": {
   "Name": "Glorious",
@@ -2425,10 +1703,7 @@
   "mod1code": "ac%",
   "mod1min": "41",
   "mod1max": "50",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "146": {
   "Name": "Blessed",
@@ -2442,10 +1717,7 @@
   "mod1code": "ac%",
   "mod1min": "51",
   "mod1max": "65",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "147": {
   "Name": "Saintly",
@@ -2461,10 +1733,7 @@
   "mod1max": "80",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "148": {
   "Name": "Holy",
@@ -2480,10 +1749,7 @@
   "mod1max": "100",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "149": {
   "Name": "Godly",
@@ -2498,15 +1764,11 @@
   "mod1max": "200",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "150": {
   "Name": "Devious",
   "version": "1",
-  "spawnable": "0",
   "rare": "1",
   "level": "7",
   "levelreq": "5",
@@ -2519,15 +1781,11 @@
   "itype2": "circ",
   "itype3": "orb",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "151": {
   "Name": "Blank",
   "version": "1",
-  "spawnable": "0",
   "rare": "1",
   "level": "14",
   "levelreq": "10",
@@ -2540,15 +1798,11 @@
   "itype2": "circ",
   "itype3": "orb",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "152": {
   "Name": "Null",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "21",
   "levelreq": "16",
@@ -2560,15 +1814,11 @@
   "transform": "1",
   "transformcolor": "dblu",
   "itype1": "shld",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "153": {
   "Name": "Antimagic",
   "version": "100",
-  "spawnable": "0",
   "level": "28",
   "levelreq": "21",
   "frequency": "4",
@@ -2579,15 +1829,11 @@
   "transform": "1",
   "transformcolor": "dblu",
   "itype1": "shld",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "154": {
   "Name": "Red",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "4",
   "levelreq": "3",
@@ -2598,15 +1844,11 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "155": {
   "Name": "Red",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "16",
   "levelreq": "12",
@@ -2617,15 +1859,11 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "156": {
   "Name": "Sanguinary",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "28",
   "levelreq": "21",
@@ -2636,15 +1874,11 @@
   "mod1max": "4",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "157": {
   "Name": "Sanguinary",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "40",
   "levelreq": "32",
@@ -2655,15 +1889,11 @@
   "mod1max": "6",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "158": {
   "Name": "Bloody",
   "version": "100",
-  "spawnable": "0",
   "level": "52",
   "levelreq": "46",
   "frequency": "4",
@@ -2673,15 +1903,11 @@
   "mod1max": "8",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "159": {
   "Name": "Red",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "11",
   "levelreq": "8",
@@ -2692,15 +1918,11 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "160": {
   "Name": "Sanguinary",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "33",
   "levelreq": "25",
@@ -2711,15 +1933,11 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "161": {
   "Name": "Bloody",
   "version": "100",
-  "spawnable": "0",
   "level": "55",
   "levelreq": "47",
   "frequency": "4",
@@ -2729,15 +1947,11 @@
   "mod1max": "4",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "162": {
   "Name": "Red",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "24",
   "levelreq": "16",
@@ -2748,15 +1962,11 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "163": {
   "Name": "Sanguinary",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "41",
   "levelreq": "33",
@@ -2767,15 +1977,11 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "164": {
   "Name": "Bloody",
   "version": "100",
-  "spawnable": "0",
   "level": "58",
   "levelreq": "50",
   "frequency": "4",
@@ -2785,10 +1991,7 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "165": {
   "Name": "Scarlet",
@@ -2804,10 +2007,7 @@
   "mod1max": "4",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "166": {
   "Name": "Crimson",
@@ -2823,15 +2023,11 @@
   "mod1max": "8",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "167": {
   "Name": "Jagged",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "3",
   "levelreq": "2",
@@ -2842,15 +2038,11 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "168": {
   "Name": "Jagged",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "10",
   "levelreq": "7",
@@ -2861,15 +2053,11 @@
   "mod1max": "4",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "169": {
   "Name": "Jagged",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "17",
   "levelreq": "12",
@@ -2880,15 +2068,11 @@
   "mod1max": "6",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "170": {
   "Name": "Forked",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "25",
   "levelreq": "18",
@@ -2899,15 +2083,11 @@
   "mod1max": "8",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "171": {
   "Name": "Forked",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "32",
   "levelreq": "24",
@@ -2918,15 +2098,11 @@
   "mod1max": "10",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "172": {
   "Name": "Serrated",
   "version": "100",
-  "spawnable": "0",
   "level": "39",
   "levelreq": "31",
   "frequency": "4",
@@ -2936,15 +2112,11 @@
   "mod1max": "12",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "173": {
   "Name": "Serrated",
   "version": "100",
-  "spawnable": "0",
   "level": "47",
   "levelreq": "39",
   "frequency": "4",
@@ -2954,15 +2126,11 @@
   "mod1max": "14",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "174": {
   "Name": "Jagged",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "10",
   "levelreq": "7",
@@ -2973,15 +2141,11 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "175": {
   "Name": "Jagged",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "20",
   "levelreq": "15",
@@ -2992,15 +2156,11 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "176": {
   "Name": "Forked",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "30",
   "levelreq": "22",
@@ -3011,15 +2171,11 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "177": {
   "Name": "Forked",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "40",
   "levelreq": "32",
@@ -3030,15 +2186,11 @@
   "mod1max": "5",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "178": {
   "Name": "Serrated",
   "version": "100",
-  "spawnable": "0",
   "level": "50",
   "levelreq": "42",
   "frequency": "4",
@@ -3048,15 +2200,11 @@
   "mod1max": "7",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "179": {
   "Name": "Jagged",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "23",
   "levelreq": "17",
@@ -3067,15 +2215,11 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "180": {
   "Name": "Forked",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "38",
   "levelreq": "30",
@@ -3086,15 +2230,11 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "181": {
   "Name": "Serrated",
   "version": "100",
-  "spawnable": "0",
   "level": "53",
   "levelreq": "45",
   "frequency": "4",
@@ -3104,10 +2244,7 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "182": {
   "Name": "Carbuncle",
@@ -3123,10 +2260,7 @@
   "mod1max": "5",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "183": {
   "Name": "Carmine",
@@ -3142,10 +2276,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "184": {
   "Name": "Vermillion",
@@ -3160,10 +2291,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "185": {
   "Name": "Jagged",
@@ -3181,10 +2309,7 @@
   "itype2": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "186": {
   "Name": "Deadly",
@@ -3202,10 +2327,7 @@
   "itype2": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "187": {
   "Name": "Vicious",
@@ -3222,10 +2344,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "188": {
   "Name": "Brutal",
@@ -3242,10 +2361,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "189": {
   "Name": "Massive",
@@ -3264,10 +2380,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "190": {
   "Name": "Savage",
@@ -3286,10 +2399,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "191": {
   "Name": "Merciless",
@@ -3308,10 +2418,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "192": {
   "Name": "Ferocious",
@@ -3330,10 +2437,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "193": {
   "Name": "Cruel",
@@ -3351,10 +2455,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "194": {
   "Name": "Cinnabar",
@@ -3370,10 +2471,7 @@
   "mod1max": "10",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "195": {
   "Name": "Rusty",
@@ -3389,10 +2487,7 @@
   "mod1max": "20",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "196": {
   "Name": "Realgar",
@@ -3408,10 +2503,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "197": {
   "Name": "Ruby",
@@ -3426,10 +2518,7 @@
   "mod1max": "40",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "198": {
   "Name": "Vulpine",
@@ -3448,10 +2537,7 @@
   "itype1": "shld",
   "itype2": "amul",
   "itype3": "orb",
-  "itype4": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "staf"
  },
  "199": {
   "Name": "Dun",
@@ -3465,10 +2551,7 @@
   "mod1code": "dmg-to-mana",
   "mod1min": "7",
   "mod1max": "12",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "200": {
   "Name": "Tireless",
@@ -3482,10 +2565,7 @@
   "mod1code": "regen-stam",
   "mod1min": "25",
   "mod1max": "25",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "201": {
   "Name": "Tireless",
@@ -3499,10 +2579,7 @@
   "mod1code": "regen-stam",
   "mod1min": "50",
   "mod1max": "50",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "202": {
   "Name": "Brown",
@@ -3516,10 +2593,7 @@
   "mod1code": "regen-stam",
   "mod1min": "10",
   "mod1max": "15",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "203": {
   "Name": "Rugged",
@@ -3533,10 +2607,7 @@
   "mod1code": "stam",
   "mod1min": "12",
   "mod1max": "24",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "204": {
   "Name": "Rugged",
@@ -3550,10 +2621,7 @@
   "mod1code": "stam",
   "mod1min": "25",
   "mod1max": "36",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "205": {
   "Name": "Rugged",
@@ -3567,10 +2635,7 @@
   "mod1code": "stam",
   "mod1min": "37",
   "mod1max": "50",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "206": {
   "Name": "Rugged",
@@ -3597,10 +2662,7 @@
   "mod1code": "stam",
   "mod1min": "17",
   "mod1max": "25",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "208": {
   "Name": "Rugged",
@@ -3614,10 +2676,7 @@
   "mod1code": "stam",
   "mod1min": "26",
   "mod1max": "32",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "209": {
   "Name": "Rugged",
@@ -3644,10 +2703,7 @@
   "mod1code": "stam",
   "mod1min": "9",
   "mod1max": "16",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "211": {
   "Name": "Rugged",
@@ -3666,10 +2722,7 @@
   "itype3": "belt",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "212": {
   "Name": "Rugged",
@@ -3684,10 +2737,7 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "boot",
-  "itype2": "belt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "belt"
  },
  "213": {
   "Name": "Rugged",
@@ -3703,10 +2753,7 @@
   "mod1max": "20",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "214": {
   "Name": "Vigorous",
@@ -3721,10 +2768,7 @@
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "boot",
-  "itype2": "belt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "belt"
  },
  "215": {
   "Name": "Chestnut",
@@ -3738,10 +2782,7 @@
   "mod1code": "stam",
   "mod1min": "10",
   "mod1max": "15",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "216": {
   "Name": "Maroon",
@@ -3755,10 +2796,7 @@
   "mod1code": "stam",
   "mod1min": "16",
   "mod1max": "25",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "217": {
   "Name": "Bronze",
@@ -3772,10 +2810,7 @@
   "mod1code": "att",
   "mod1min": "6",
   "mod1max": "12",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "218": {
   "Name": "Bronze",
@@ -3789,10 +2824,7 @@
   "mod1code": "att",
   "mod1min": "13",
   "mod1max": "27",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "219": {
   "Name": "Bronze",
@@ -3806,10 +2838,7 @@
   "mod1code": "att",
   "mod1min": "28",
   "mod1max": "42",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "220": {
   "Name": "Iron",
@@ -3823,10 +2852,7 @@
   "mod1code": "att",
   "mod1min": "43",
   "mod1max": "57",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "221": {
   "Name": "Iron",
@@ -3840,10 +2866,7 @@
   "mod1code": "att",
   "mod1min": "58",
   "mod1max": "72",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "222": {
   "Name": "Iron",
@@ -3857,10 +2880,7 @@
   "mod1code": "att",
   "mod1min": "73",
   "mod1max": "87",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "223": {
   "Name": "Steel",
@@ -3873,10 +2893,7 @@
   "mod1code": "att",
   "mod1min": "88",
   "mod1max": "102",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "224": {
   "Name": "Steel",
@@ -3889,10 +2906,7 @@
   "mod1code": "att",
   "mod1min": "103",
   "mod1max": "117",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "225": {
   "Name": "Steel",
@@ -3905,10 +2919,7 @@
   "mod1code": "att",
   "mod1min": "118",
   "mod1max": "132",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "226": {
   "Name": "Bronze",
@@ -3922,10 +2933,7 @@
   "mod1code": "att",
   "mod1min": "4",
   "mod1max": "8",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "227": {
   "Name": "Bronze",
@@ -3939,10 +2947,7 @@
   "mod1code": "att",
   "mod1min": "6",
   "mod1max": "12",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "228": {
   "Name": "Bronze",
@@ -3956,10 +2961,7 @@
   "mod1code": "att",
   "mod1min": "13",
   "mod1max": "25",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "229": {
   "Name": "Iron",
@@ -3973,10 +2975,7 @@
   "mod1code": "att",
   "mod1min": "26",
   "mod1max": "38",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "230": {
   "Name": "Iron",
@@ -3990,10 +2989,7 @@
   "mod1code": "att",
   "mod1min": "39",
   "mod1max": "51",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "231": {
   "Name": "Steel",
@@ -4006,10 +3002,7 @@
   "mod1code": "att",
   "mod1min": "52",
   "mod1max": "64",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "232": {
   "Name": "Steel",
@@ -4022,10 +3015,7 @@
   "mod1code": "att",
   "mod1min": "65",
   "mod1max": "77",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "233": {
   "Name": "Bronze",
@@ -4039,10 +3029,7 @@
   "mod1code": "att",
   "mod1min": "2",
   "mod1max": "4",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "234": {
   "Name": "Bronze",
@@ -4056,10 +3043,7 @@
   "mod1code": "att",
   "mod1min": "6",
   "mod1max": "12",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "235": {
   "Name": "Iron",
@@ -4073,10 +3057,7 @@
   "mod1code": "att",
   "mod1min": "13",
   "mod1max": "24",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "236": {
   "Name": "Steel",
@@ -4089,10 +3070,7 @@
   "mod1code": "att",
   "mod1min": "25",
   "mod1max": "36",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "237": {
   "Name": "Bronze",
@@ -4113,10 +3091,7 @@
   "itype5": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "238": {
   "Name": "Iron",
@@ -4135,10 +3110,7 @@
   "itype3": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "239": {
   "Name": "Steel",
@@ -4157,10 +3129,7 @@
   "itype3": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "240": {
   "Name": "Silver",
@@ -4179,10 +3148,7 @@
   "itype3": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "241": {
   "Name": "Gold",
@@ -4203,10 +3169,7 @@
   "itype3": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "242": {
   "Name": "Platinum",
@@ -4227,10 +3190,7 @@
   "itype3": "circ",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "243": {
   "Name": "Meteoric",
@@ -4249,10 +3209,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "244": {
   "Name": "Strange",
@@ -4271,10 +3228,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "245": {
   "Name": "Weird",
@@ -4292,10 +3246,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "246": {
   "Name": "Nickel",
@@ -4309,10 +3260,7 @@
   "mod1code": "att",
   "mod1min": "10",
   "mod1max": "20",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "247": {
   "Name": "Tin",
@@ -4326,10 +3274,7 @@
   "mod1code": "att",
   "mod1min": "21",
   "mod1max": "40",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "248": {
   "Name": "Silver",
@@ -4343,10 +3288,7 @@
   "mod1code": "att",
   "mod1min": "41",
   "mod1max": "60",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "249": {
   "Name": "Argent",
@@ -4359,10 +3301,7 @@
   "mod1code": "att",
   "mod1min": "61",
   "mod1max": "100",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "250": {
   "Name": "Fine",
@@ -4379,10 +3318,7 @@
   "mod2code": "dmg-max",
   "mod2min": "1",
   "mod2max": "3",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "251": {
   "Name": "Fine",
@@ -4399,10 +3335,7 @@
   "mod2code": "dmg-max",
   "mod2min": "4",
   "mod2max": "6",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "252": {
   "Name": "Sharp",
@@ -4419,10 +3352,7 @@
   "mod2code": "dmg-max",
   "mod2min": "7",
   "mod2max": "10",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "253": {
   "Name": "Fine",
@@ -4439,10 +3369,7 @@
   "mod2code": "dmg-max",
   "mod2min": "1",
   "mod2max": "3",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "254": {
   "Name": "Sharp",
@@ -4459,10 +3386,7 @@
   "mod2code": "dmg-max",
   "mod2min": "4",
   "mod2max": "6",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "255": {
   "Name": "Fine",
@@ -4478,10 +3402,7 @@
   "mod2code": "dmg-max",
   "mod2min": "1",
   "mod2max": "3",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "256": {
   "Name": "Sharp",
@@ -4501,10 +3422,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "257": {
   "Name": "Fine",
@@ -4524,10 +3442,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "258": {
   "Name": "Warrior's",
@@ -4547,10 +3462,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "259": {
   "Name": "Soldier's",
@@ -4570,10 +3482,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "260": {
   "Name": "Knight's",
@@ -4595,10 +3504,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "261": {
   "Name": "Lord's",
@@ -4620,10 +3526,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "262": {
   "Name": "King's",
@@ -4645,10 +3548,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "263": {
   "Name": "Master's",
@@ -4670,10 +3570,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "264": {
   "Name": "Grandmaster's",
@@ -4694,10 +3591,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "265": {
   "Name": "Glimmering",
@@ -4716,10 +3610,7 @@
   "itype3": "staf",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "orb"
  },
  "266": {
   "Name": "Glowing",
@@ -4740,10 +3631,7 @@
   "itype3": "staf",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "orb"
  },
  "267": {
   "Name": "Bright",
@@ -4760,10 +3648,7 @@
   "mod2code": "att",
   "mod2min": "10",
   "mod2max": "10",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "268": {
   "Name": "Screaming",
@@ -4784,10 +3669,7 @@
   "etype2": "swor",
   "etype3": "axe",
   "etype4": "pole",
-  "etype5": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype5": "spea"
  },
  "269": {
   "Name": "Howling",
@@ -4808,10 +3690,7 @@
   "etype2": "swor",
   "etype3": "axe",
   "etype4": "pole",
-  "etype5": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype5": "spea"
  },
  "270": {
   "Name": "Wailing",
@@ -4832,10 +3711,7 @@
   "etype2": "swor",
   "etype3": "axe",
   "etype4": "pole",
-  "etype5": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype5": "spea"
  },
  "271": {
   "Name": "Screaming",
@@ -4851,10 +3727,7 @@
   "mod1max": "16",
   "transform": "1",
   "transformcolor": "oran",
-  "itype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "miss"
  },
  "272": {
   "Name": "Howling",
@@ -4870,10 +3743,7 @@
   "mod1max": "24",
   "transform": "1",
   "transformcolor": "oran",
-  "itype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "miss"
  },
  "273": {
   "Name": "Wailing",
@@ -4888,10 +3758,7 @@
   "mod1max": "32",
   "transform": "1",
   "transformcolor": "oran",
-  "itype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "miss"
  },
  "274": {
   "Name": "Lucky",
@@ -4904,10 +3771,7 @@
   "mod1code": "mag%",
   "mod1min": "1",
   "mod1max": "4",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "275": {
   "Name": "Lucky",
@@ -4919,10 +3783,7 @@
   "mod1code": "mag%",
   "mod1min": "5",
   "mod1max": "7",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "276": {
   "Name": "Lucky",
@@ -4934,10 +3795,7 @@
   "mod1code": "mag%",
   "mod1min": "8",
   "mod1max": "12",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "277": {
   "Name": "Lucky",
@@ -4950,10 +3808,7 @@
   "mod1code": "mag%",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "278": {
   "Name": "Lucky",
@@ -4965,10 +3820,7 @@
   "mod1code": "mag%",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "279": {
   "Name": "Lucky",
@@ -4980,10 +3832,7 @@
   "mod1code": "mag%",
   "mod1min": "4",
   "mod1max": "6",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "280": {
   "Name": "Felicitous",
@@ -4999,10 +3848,7 @@
   "mod1max": "10",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "281": {
   "Name": "Fortuitous",
@@ -5017,10 +3863,7 @@
   "mod1max": "15",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "282": {
   "Name": "Emerald",
@@ -5034,10 +3877,7 @@
   "mod1code": "mag%",
   "mod1min": "3",
   "mod1max": "7",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "283": {
   "Name": "Lizard's",
@@ -5051,10 +3891,7 @@
   "mod1code": "mana",
   "mod1min": "3",
   "mod1max": "7",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "284": {
   "Name": "Lizard's",
@@ -5068,10 +3905,7 @@
   "mod1code": "mana",
   "mod1min": "8",
   "mod1max": "13",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "285": {
   "Name": "Lizard's",
@@ -5085,10 +3919,7 @@
   "mod1code": "mana",
   "mod1min": "14",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "286": {
   "Name": "Snake's",
@@ -5102,10 +3933,7 @@
   "mod1code": "mana",
   "mod1min": "21",
   "mod1max": "26",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "287": {
   "Name": "Snake's",
@@ -5119,10 +3947,7 @@
   "mod1code": "mana",
   "mod1min": "27",
   "mod1max": "33",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "288": {
   "Name": "Snake's",
@@ -5136,10 +3961,7 @@
   "mod1code": "mana",
   "mod1min": "34",
   "mod1max": "39",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "289": {
   "Name": "Serpent's",
@@ -5153,10 +3975,7 @@
   "mod1code": "mana",
   "mod1min": "40",
   "mod1max": "46",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "290": {
   "Name": "Serpent's",
@@ -5170,10 +3989,7 @@
   "mod1code": "mana",
   "mod1min": "47",
   "mod1max": "52",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "291": {
   "Name": "Serpent's",
@@ -5187,10 +4003,7 @@
   "mod1code": "mana",
   "mod1min": "53",
   "mod1max": "59",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "292": {
   "Name": "Lizard's",
@@ -5204,10 +4017,7 @@
   "mod1code": "mana",
   "mod1min": "2",
   "mod1max": "4",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "293": {
   "Name": "Lizard's",
@@ -5221,10 +4031,7 @@
   "mod1code": "mana",
   "mod1min": "5",
   "mod1max": "7",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "294": {
   "Name": "Lizard's",
@@ -5238,10 +4045,7 @@
   "mod1code": "mana",
   "mod1min": "8",
   "mod1max": "12",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "295": {
   "Name": "Snake's",
@@ -5255,10 +4059,7 @@
   "mod1code": "mana",
   "mod1min": "13",
   "mod1max": "18",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "296": {
   "Name": "Snake's",
@@ -5272,10 +4073,7 @@
   "mod1code": "mana",
   "mod1min": "19",
   "mod1max": "23",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "297": {
   "Name": "Serpent's",
@@ -5289,10 +4087,7 @@
   "mod1code": "mana",
   "mod1min": "24",
   "mod1max": "29",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "298": {
   "Name": "Serpent's",
@@ -5306,10 +4101,7 @@
   "mod1code": "mana",
   "mod1min": "30",
   "mod1max": "34",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "299": {
   "Name": "Lizard's",
@@ -5323,10 +4115,7 @@
   "mod1code": "mana",
   "mod1min": "1",
   "mod1max": "2",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "300": {
   "Name": "Lizard's",
@@ -5340,10 +4129,7 @@
   "mod1code": "mana",
   "mod1min": "3",
   "mod1max": "7",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "301": {
   "Name": "Snake's",
@@ -5357,10 +4143,7 @@
   "mod1code": "mana",
   "mod1min": "8",
   "mod1max": "12",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "302": {
   "Name": "Serpent's",
@@ -5373,10 +4156,7 @@
   "mod1code": "mana",
   "mod1min": "13",
   "mod1max": "17",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "303": {
   "Name": "Lizard's",
@@ -5396,10 +4176,7 @@
   "itype4": "rod",
   "itype5": "orb",
   "etype1": "boot",
-  "etype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "glov"
  },
  "304": {
   "Name": "Snake's",
@@ -5418,10 +4195,7 @@
   "itype3": "belt",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "305": {
   "Name": "Serpent's",
@@ -5440,10 +4214,7 @@
   "itype3": "belt",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "306": {
   "Name": "Serpent's",
@@ -5462,10 +4233,7 @@
   "itype3": "glov",
   "itype4": "weap",
   "itype5": "orb",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "307": {
   "Name": "Drake's",
@@ -5485,10 +4253,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "308": {
   "Name": "Dragon's",
@@ -5508,10 +4273,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "309": {
   "Name": "Dragon's",
@@ -5529,10 +4291,7 @@
   "transformcolor": "cblu",
   "itype1": "tors",
   "itype2": "boot",
-  "itype3": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "glov"
  },
  "310": {
   "Name": "Wyrm's",
@@ -5552,10 +4311,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "311": {
   "Name": "Great Wyrm's",
@@ -5575,10 +4331,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "312": {
   "Name": "Bahamut's",
@@ -5597,10 +4350,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "313": {
   "Name": "Zircon",
@@ -5616,10 +4366,7 @@
   "mod1max": "10",
   "transform": "1",
   "transformcolor": "cblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "314": {
   "Name": "Jacinth",
@@ -5635,10 +4382,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "cblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "315": {
   "Name": "Turquoise",
@@ -5670,7 +4414,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "lcha",
-  "divide": "0",
   "multiply": "1280",
   "add": "500"
  },
@@ -5689,7 +4432,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "lcha",
-  "divide": "0",
   "multiply": "1280",
   "add": "1500"
  },
@@ -5707,7 +4449,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "lcha",
-  "divide": "0",
   "multiply": "1280",
   "add": "5000"
  },
@@ -5726,7 +4467,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "mcha",
-  "divide": "0",
   "multiply": "1280",
   "add": "1500"
  },
@@ -5744,7 +4484,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "mcha",
-  "divide": "0",
   "multiply": "1280",
   "add": "5000"
  },
@@ -5762,7 +4501,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "scha",
-  "divide": "0",
   "multiply": "1280",
   "add": "10000"
  },
@@ -5781,7 +4519,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "shld",
-  "divide": "0",
   "multiply": "1280",
   "add": "500"
  },
@@ -5800,7 +4537,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "shld",
-  "divide": "0",
   "multiply": "1280",
   "add": "2000"
  },
@@ -5819,7 +4555,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "shld",
-  "divide": "0",
   "multiply": "1280",
   "add": "4000"
  },
@@ -5838,7 +4573,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "shld",
-  "divide": "0",
   "multiply": "1280",
   "add": "8000"
  },
@@ -5856,7 +4590,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "shld",
-  "divide": "0",
   "multiply": "1280",
   "add": "16000"
  },
@@ -5876,7 +4609,6 @@
   "transformcolor": "lpur",
   "itype1": "amul",
   "itype2": "circ",
-  "divide": "0",
   "multiply": "1280",
   "add": "3000"
  },
@@ -5896,7 +4628,6 @@
   "transformcolor": "lpur",
   "itype1": "amul",
   "itype2": "circ",
-  "divide": "0",
   "multiply": "1280",
   "add": "6000"
  },
@@ -5916,7 +4647,6 @@
   "transformcolor": "lpur",
   "itype1": "amul",
   "itype2": "circ",
-  "divide": "0",
   "multiply": "1280",
   "add": "12000"
  },
@@ -5936,7 +4666,6 @@
   "transformcolor": "lpur",
   "itype1": "amul",
   "itype2": "circ",
-  "divide": "0",
   "multiply": "1280",
   "add": "24000"
  },
@@ -5955,7 +4684,6 @@
   "transformcolor": "lpur",
   "itype1": "amul",
   "itype2": "circ",
-  "divide": "0",
   "multiply": "1280",
   "add": "32000"
  },
@@ -5974,7 +4702,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "ring",
-  "divide": "0",
   "multiply": "1280",
   "add": "4000"
  },
@@ -5993,7 +4720,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "ring",
-  "divide": "0",
   "multiply": "1280",
   "add": "8000"
  },
@@ -6011,7 +4737,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "ring",
-  "divide": "0",
   "multiply": "1280",
   "add": "16000"
  },
@@ -6030,7 +4755,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "jewl",
-  "divide": "0",
   "multiply": "1280",
   "add": "3000"
  },
@@ -6048,7 +4772,6 @@
   "transform": "1",
   "transformcolor": "lpur",
   "itype1": "jewl",
-  "divide": "0",
   "multiply": "1280",
   "add": "8000"
  },
@@ -6064,10 +4787,7 @@
   "mod1code": "res-cold",
   "mod1min": "7",
   "mod1max": "15",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "338": {
   "Name": "Lapis",
@@ -6081,10 +4801,7 @@
   "mod1code": "res-cold",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "339": {
   "Name": "Cobalt",
@@ -6100,10 +4817,7 @@
   "mod1max": "25",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "340": {
   "Name": "Sapphire",
@@ -6118,10 +4832,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "341": {
   "Name": "Azure",
@@ -6135,10 +4846,7 @@
   "mod1code": "res-cold",
   "mod1min": "4",
   "mod1max": "7",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "342": {
   "Name": "Lapis",
@@ -6152,10 +4860,7 @@
   "mod1code": "res-cold",
   "mod1min": "8",
   "mod1max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "343": {
   "Name": "Cobalt",
@@ -6171,10 +4876,7 @@
   "mod1max": "12",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "344": {
   "Name": "Sapphire",
@@ -6189,10 +4891,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "345": {
   "Name": "Azure",
@@ -6206,10 +4905,7 @@
   "mod1code": "res-cold",
   "mod1min": "3",
   "mod1max": "5",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "346": {
   "Name": "Lapis",
@@ -6223,10 +4919,7 @@
   "mod1code": "res-cold",
   "mod1min": "6",
   "mod1max": "7",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "347": {
   "Name": "Cobalt",
@@ -6242,10 +4935,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "348": {
   "Name": "Sapphire",
@@ -6260,10 +4950,7 @@
   "mod1max": "11",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "349": {
   "Name": "Azure",
@@ -6282,10 +4969,7 @@
   "itype3": "ring",
   "itype4": "amul",
   "itype5": "orb",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "350": {
   "Name": "Lapis",
@@ -6303,10 +4987,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "351": {
   "Name": "Lapis",
@@ -6321,10 +5002,7 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "352": {
   "Name": "Cobalt",
@@ -6342,10 +5020,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "353": {
   "Name": "Cobalt",
@@ -6360,10 +5035,7 @@
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "354": {
   "Name": "Sapphire",
@@ -6383,10 +5055,7 @@
   "itype2": "boot",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "355": {
   "Name": "Lapis Lazuli",
@@ -6402,10 +5071,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "356": {
   "Name": "Sapphire",
@@ -6421,10 +5087,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "357": {
   "Name": "Crimson",
@@ -6438,10 +5101,7 @@
   "mod1code": "res-fire",
   "mod1min": "7",
   "mod1max": "15",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "358": {
   "Name": "Russet",
@@ -6455,10 +5115,7 @@
   "mod1code": "res-fire",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "359": {
   "Name": "Garnet",
@@ -6474,10 +5131,7 @@
   "mod1max": "25",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "360": {
   "Name": "Ruby",
@@ -6492,10 +5146,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "361": {
   "Name": "Crimson",
@@ -6509,10 +5160,7 @@
   "mod1code": "res-fire",
   "mod1min": "4",
   "mod1max": "7",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "362": {
   "Name": "Russet",
@@ -6526,10 +5174,7 @@
   "mod1code": "res-fire",
   "mod1min": "8",
   "mod1max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "363": {
   "Name": "Garnet",
@@ -6545,10 +5190,7 @@
   "mod1max": "12",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "364": {
   "Name": "Ruby",
@@ -6563,10 +5205,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "365": {
   "Name": "Crimson",
@@ -6580,10 +5219,7 @@
   "mod1code": "res-fire",
   "mod1min": "3",
   "mod1max": "5",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "366": {
   "Name": "Russet",
@@ -6599,10 +5235,7 @@
   "mod1max": "7",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "367": {
   "Name": "Garnet",
@@ -6617,10 +5250,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "368": {
   "Name": "Ruby",
@@ -6634,10 +5264,7 @@
   "mod1code": "res-fire",
   "mod1min": "10",
   "mod1max": "11",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "369": {
   "Name": "Russet",
@@ -6655,10 +5282,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "370": {
   "Name": "Russet",
@@ -6673,10 +5297,7 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "371": {
   "Name": "Garnet",
@@ -6694,10 +5315,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "372": {
   "Name": "Garnet",
@@ -6712,10 +5330,7 @@
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "373": {
   "Name": "Ruby",
@@ -6735,10 +5350,7 @@
   "itype2": "boot",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "374": {
   "Name": "Garnet",
@@ -6754,10 +5366,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "375": {
   "Name": "Ruby",
@@ -6773,10 +5382,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "376": {
   "Name": "Tangerine",
@@ -6790,10 +5396,7 @@
   "mod1code": "res-ltng",
   "mod1min": "7",
   "mod1max": "15",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "377": {
   "Name": "Ocher",
@@ -6807,10 +5410,7 @@
   "mod1code": "res-ltng",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "378": {
   "Name": "Coral",
@@ -6826,10 +5426,7 @@
   "mod1max": "25",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "379": {
   "Name": "Amber",
@@ -6844,10 +5441,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "380": {
   "Name": "Tangerine",
@@ -6861,10 +5455,7 @@
   "mod1code": "res-ltng",
   "mod1min": "4",
   "mod1max": "7",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "381": {
   "Name": "Ocher",
@@ -6878,10 +5469,7 @@
   "mod1code": "res-ltng",
   "mod1min": "8",
   "mod1max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "382": {
   "Name": "Coral",
@@ -6897,10 +5485,7 @@
   "mod1max": "12",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "383": {
   "Name": "Amber",
@@ -6915,10 +5500,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "384": {
   "Name": "Tangerine",
@@ -6932,10 +5514,7 @@
   "mod1code": "res-ltng",
   "mod1min": "3",
   "mod1max": "5",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "385": {
   "Name": "Ocher",
@@ -6949,10 +5528,7 @@
   "mod1code": "res-ltng",
   "mod1min": "6",
   "mod1max": "7",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "386": {
   "Name": "Coral",
@@ -6968,10 +5544,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "387": {
   "Name": "Amber",
@@ -6986,10 +5559,7 @@
   "mod1max": "11",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "388": {
   "Name": "Tangerine",
@@ -7008,10 +5578,7 @@
   "itype3": "ring",
   "itype4": "amul",
   "itype5": "orb",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "389": {
   "Name": "Ocher",
@@ -7029,10 +5596,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "390": {
   "Name": "Ocher",
@@ -7047,10 +5611,7 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "391": {
   "Name": "Coral",
@@ -7068,10 +5629,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "392": {
   "Name": "Coral",
@@ -7086,10 +5644,7 @@
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "393": {
   "Name": "Amber",
@@ -7109,10 +5664,7 @@
   "itype2": "boot",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "394": {
   "Name": "Camphor",
@@ -7128,10 +5680,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "395": {
   "Name": "Ambergris",
@@ -7147,10 +5696,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "396": {
   "Name": "Beryl",
@@ -7164,10 +5710,7 @@
   "mod1code": "res-pois",
   "mod1min": "7",
   "mod1max": "15",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "397": {
   "Name": "Viridian",
@@ -7181,10 +5724,7 @@
   "mod1code": "res-pois",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "398": {
   "Name": "Jade",
@@ -7200,10 +5740,7 @@
   "mod1max": "25",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "399": {
   "Name": "Emerald",
@@ -7218,10 +5755,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "400": {
   "Name": "Beryl",
@@ -7235,10 +5769,7 @@
   "mod1code": "res-pois",
   "mod1min": "4",
   "mod1max": "7",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "401": {
   "Name": "Viridian",
@@ -7252,10 +5783,7 @@
   "mod1code": "res-pois",
   "mod1min": "8",
   "mod1max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "402": {
   "Name": "Jade",
@@ -7271,10 +5799,7 @@
   "mod1max": "12",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "403": {
   "Name": "Emerald",
@@ -7289,10 +5814,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "404": {
   "Name": "Beryl",
@@ -7306,10 +5828,7 @@
   "mod1code": "res-pois",
   "mod1min": "3",
   "mod1max": "5",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "405": {
   "Name": "Viridian",
@@ -7323,10 +5842,7 @@
   "mod1code": "res-pois",
   "mod1min": "6",
   "mod1max": "7",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "406": {
   "Name": "Jade",
@@ -7342,10 +5858,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "407": {
   "Name": "Emerald",
@@ -7360,10 +5873,7 @@
   "mod1max": "11",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "408": {
   "Name": "Beryl",
@@ -7382,10 +5892,7 @@
   "itype3": "ring",
   "itype4": "amul",
   "itype5": "orb",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "409": {
   "Name": "Viridian",
@@ -7403,10 +5910,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "410": {
   "Name": "Viridian",
@@ -7421,10 +5925,7 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "411": {
   "Name": "Jade",
@@ -7442,10 +5943,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "412": {
   "Name": "Jade",
@@ -7460,10 +5958,7 @@
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "413": {
   "Name": "Emerald",
@@ -7483,10 +5978,7 @@
   "itype2": "boot",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "414": {
   "Name": "Beryl",
@@ -7502,10 +5994,7 @@
   "mod1max": "15",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "415": {
   "Name": "Jade",
@@ -7521,10 +6010,7 @@
   "mod1max": "30",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "416": {
   "Name": "Triumphant",
@@ -7540,10 +6026,7 @@
   "mod1max": "1",
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "417": {
   "Name": "Victorious",
@@ -7558,10 +6041,7 @@
   "mod1min": "2",
   "mod1max": "5",
   "itype1": "weap",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "418": {
   "Name": "Aureolin",
@@ -7575,10 +6055,7 @@
   "mod1code": "mana-kill",
   "mod1min": "1",
   "mod1max": "3",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "419": {
   "Name": "Mechanist's",
@@ -7597,10 +6074,7 @@
   "itype3": "helm",
   "itype4": "tors",
   "itype5": "circ",
-  "etype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "thro"
  },
  "420": {
   "Name": "Artificer's",
@@ -7616,10 +6090,7 @@
   "itype2": "shld",
   "itype3": "helm",
   "itype4": "tors",
-  "etype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "thro"
  },
  "421": {
   "Name": "Jeweler's",
@@ -7635,10 +6106,7 @@
   "itype2": "shld",
   "itype3": "helm",
   "itype4": "tors",
-  "etype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "thro"
  },
  "422": {
   "Name": "Assamic",
@@ -7658,10 +6126,7 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "423": {
   "Name": "Arcadian",
@@ -7681,10 +6146,7 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "424": {
   "Name": "Unearthly",
@@ -7703,10 +6165,7 @@
   "mod2max": "100",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "425": {
   "Name": "Astral",
@@ -7725,10 +6184,7 @@
   "mod2max": "150",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "426": {
   "Name": "Elysian",
@@ -7749,10 +6205,7 @@
   "transformcolor": "dgld",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "427": {
   "Name": "Celestial",
@@ -7772,10 +6225,7 @@
   "transformcolor": "dgld",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "428": {
   "Name": "Diamond",
@@ -7792,10 +6242,7 @@
   "mod2code": "dmg-demon",
   "mod2min": "25",
   "mod2max": "40",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "429": {
   "Name": "Fletcher's",
@@ -7807,13 +6254,9 @@
   "frequency": "1",
   "group": "125",
   "mod1code": "skilltab",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "430": {
   "Name": "Acrobat's",
@@ -7828,10 +6271,7 @@
   "mod1param": "1",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "431": {
   "Name": "Harpoonist's",
@@ -7846,10 +6286,7 @@
   "mod1param": "2",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "432": {
   "Name": "Fletcher's",
@@ -7862,14 +6299,10 @@
   "frequency": "1",
   "group": "125",
   "mod1code": "skilltab",
-  "mod1param": "0",
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "miss",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "433": {
   "Name": "Bowyer's",
@@ -7882,16 +6315,12 @@
   "frequency": "1",
   "group": "125",
   "mod1code": "skilltab",
-  "mod1param": "0",
   "mod1min": "2",
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "lgld",
   "itype1": "miss",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "434": {
   "Name": "Archer's",
@@ -7903,16 +6332,12 @@
   "frequency": "1",
   "group": "125",
   "mod1code": "skilltab",
-  "mod1param": "0",
   "mod1min": "3",
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "lgld",
   "itype1": "miss",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "435": {
   "Name": "Acrobat's",
@@ -7930,10 +6355,7 @@
   "mod1max": "1",
   "itype1": "glov",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "436": {
   "Name": "Gymnast's",
@@ -7953,10 +6375,7 @@
   "transformcolor": "lgld",
   "itype1": "glov",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "437": {
   "Name": "Athlete's",
@@ -7975,10 +6394,7 @@
   "transformcolor": "lgld",
   "itype1": "glov",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "438": {
   "Name": "Harpoonist's",
@@ -7995,10 +6411,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "spea",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "439": {
   "Name": "Spearmaiden's",
@@ -8017,10 +6430,7 @@
   "transform": "1",
   "transformcolor": "lgld",
   "itype1": "spea",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "440": {
   "Name": "Lancer's",
@@ -8038,10 +6448,7 @@
   "transform": "1",
   "transformcolor": "lgld",
   "itype1": "spea",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "441": {
   "Name": "Burning",
@@ -8057,10 +6464,7 @@
   "mod1param": "3",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "442": {
   "Name": "Sparking",
@@ -8076,10 +6480,7 @@
   "mod1param": "4",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "443": {
   "Name": "Chilling",
@@ -8095,10 +6496,7 @@
   "mod1param": "5",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "444": {
   "Name": "Burning",
@@ -8117,10 +6515,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "445": {
   "Name": "Blazing",
@@ -8141,10 +6536,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "446": {
   "Name": "Volcanic",
@@ -8164,10 +6556,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "447": {
   "Name": "Sparking",
@@ -8186,10 +6575,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "448": {
   "Name": "Charged",
@@ -8210,10 +6596,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "449": {
   "Name": "Powered",
@@ -8233,10 +6616,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "450": {
   "Name": "Chilling",
@@ -8255,10 +6635,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "451": {
   "Name": "Freezing",
@@ -8279,10 +6656,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "452": {
   "Name": "Glacial",
@@ -8302,10 +6676,7 @@
   "itype1": "staff",
   "itype2": "orb",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "453": {
   "Name": "Hexing",
@@ -8321,10 +6692,7 @@
   "mod1param": "6",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "454": {
   "Name": "Fungal",
@@ -8340,10 +6708,7 @@
   "mod1param": "7",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "455": {
   "Name": "Graverobber's",
@@ -8359,10 +6724,7 @@
   "mod1param": "8",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "456": {
   "Name": "Hexing",
@@ -8381,10 +6743,7 @@
   "itype1": "wand",
   "itype2": "head",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "457": {
   "Name": "Blighting",
@@ -8405,10 +6764,7 @@
   "itype1": "wand",
   "itype2": "head",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "458": {
   "Name": "Accursed",
@@ -8428,10 +6784,7 @@
   "itype1": "wand",
   "itype2": "head",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "459": {
   "Name": "Fungal",
@@ -8452,10 +6805,7 @@
   "itype3": "amul",
   "itype4": "knif",
   "itype5": "circ",
-  "etype1": "tkni",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "tkni"
  },
  "460": {
   "Name": "Noxious",
@@ -8478,10 +6828,7 @@
   "itype3": "amul",
   "itype4": "knif",
   "itype5": "circ",
-  "etype1": "tkni",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "tkni"
  },
  "461": {
   "Name": "Venomous",
@@ -8503,10 +6850,7 @@
   "itype3": "amul",
   "itype4": "knif",
   "itype5": "circ",
-  "etype1": "tkni",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "tkni"
  },
  "462": {
   "Name": "Graverobber's",
@@ -8525,10 +6869,7 @@
   "itype1": "wand",
   "itype2": "head",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "463": {
   "Name": "Vodoun",
@@ -8549,10 +6890,7 @@
   "itype1": "wand",
   "itype2": "head",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "464": {
   "Name": "Golemlord's",
@@ -8572,10 +6910,7 @@
   "itype1": "wand",
   "itype2": "head",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "465": {
   "Name": "Lion Branded",
@@ -8591,10 +6926,7 @@
   "mod1param": "9",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "466": {
   "Name": "Captain's",
@@ -8610,10 +6942,7 @@
   "mod1param": "10",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "467": {
   "Name": "Preserver's",
@@ -8629,10 +6958,7 @@
   "mod1param": "11",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "468": {
   "Name": "Lion Branded",
@@ -8654,10 +6980,7 @@
   "itype4": "shld",
   "itype5": "ashd",
   "itype6": "amul",
-  "itype7": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "circ"
  },
  "469": {
   "Name": "Hawk Branded",
@@ -8681,10 +7004,7 @@
   "itype4": "shld",
   "itype5": "ashd",
   "itype6": "amul",
-  "itype7": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "circ"
  },
  "470": {
   "Name": "Rose Branded",
@@ -8707,10 +7027,7 @@
   "itype4": "shld",
   "itype5": "ashd",
   "itype6": "amul",
-  "itype7": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "circ"
  },
  "471": {
   "Name": "Captain's",
@@ -8732,10 +7049,7 @@
   "itype4": "shld",
   "itype5": "ashd",
   "itype6": "amul",
-  "itype7": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "circ"
  },
  "472": {
   "Name": "Commander's",
@@ -8759,10 +7073,7 @@
   "itype4": "shld",
   "itype5": "ashd",
   "itype6": "amul",
-  "itype7": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "circ"
  },
  "473": {
   "Name": "Marshal's",
@@ -8785,10 +7096,7 @@
   "itype4": "shld",
   "itype5": "ashd",
   "itype6": "amul",
-  "itype7": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "circ"
  },
  "474": {
   "Name": "Preserver's",
@@ -8807,10 +7115,7 @@
   "itype1": "shld",
   "itype2": "ashd",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "475": {
   "Name": "Warder's",
@@ -8831,10 +7136,7 @@
   "itype1": "shld",
   "itype2": "ashd",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "476": {
   "Name": "Guardian's",
@@ -8854,10 +7156,7 @@
   "itype1": "shld",
   "itype2": "ashd",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "477": {
   "Name": "Expert's",
@@ -8873,10 +7172,7 @@
   "mod1param": "12",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "478": {
   "Name": "Fanatic",
@@ -8892,10 +7188,7 @@
   "mod1param": "13",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "479": {
   "Name": "Sounding",
@@ -8911,10 +7204,7 @@
   "mod1param": "14",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "480": {
   "Name": "Expert's",
@@ -8934,10 +7224,7 @@
   "itype2": "weap",
   "itype3": "helm",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "481": {
   "Name": "Veteran's",
@@ -8959,10 +7246,7 @@
   "itype2": "weap",
   "itype3": "helm",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "482": {
   "Name": "Master's",
@@ -8983,10 +7267,7 @@
   "itype2": "weap",
   "itype3": "helm",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "483": {
   "Name": "Fanatic",
@@ -9006,10 +7287,7 @@
   "itype2": "weap",
   "itype3": "amul",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "484": {
   "Name": "Raging",
@@ -9031,10 +7309,7 @@
   "itype2": "weap",
   "itype3": "amul",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "485": {
   "Name": "Furious",
@@ -9055,10 +7330,7 @@
   "itype2": "weap",
   "itype3": "amul",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "486": {
   "Name": "Sounding",
@@ -9078,10 +7350,7 @@
   "itype2": "weap",
   "itype3": "amul",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "487": {
   "Name": "Resonant",
@@ -9103,10 +7372,7 @@
   "itype2": "weap",
   "itype3": "amul",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "488": {
   "Name": "Echoing",
@@ -9127,10 +7393,7 @@
   "itype2": "weap",
   "itype3": "amul",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "489": {
   "Name": "Trainer's",
@@ -9146,10 +7409,7 @@
   "mod1param": "15",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "490": {
   "Name": "Spiritual",
@@ -9165,10 +7425,7 @@
   "mod1param": "16",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "491": {
   "Name": "Nature's",
@@ -9184,10 +7441,7 @@
   "mod1param": "17",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "492": {
   "Name": "Trainer's",
@@ -9206,10 +7460,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "493": {
   "Name": "Caretaker's",
@@ -9230,10 +7481,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "494": {
   "Name": "Keeper's",
@@ -9253,10 +7501,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "495": {
   "Name": "Spiritual",
@@ -9275,10 +7520,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "496": {
   "Name": "Feral",
@@ -9299,10 +7541,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "497": {
   "Name": "Communal",
@@ -9322,10 +7561,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "498": {
   "Name": "Nature's",
@@ -9344,10 +7580,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "499": {
   "Name": "Terra's",
@@ -9368,10 +7601,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "500": {
   "Name": "Gaea's",
@@ -9391,10 +7621,7 @@
   "itype1": "club",
   "itype2": "pelt",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "501": {
   "Name": "Entrapping",
@@ -9410,10 +7637,7 @@
   "mod1param": "18",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "502": {
   "Name": "Mentalist's",
@@ -9429,10 +7653,7 @@
   "mod1param": "19",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "503": {
   "Name": "Shogukusha's",
@@ -9448,10 +7669,7 @@
   "mod1param": "20",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "504": {
   "Name": "Entrapping",
@@ -9469,10 +7687,7 @@
   "mod1max": "1",
   "itype1": "h2h",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "505": {
   "Name": "Trickster's",
@@ -9492,10 +7707,7 @@
   "transformcolor": "lgld",
   "itype1": "h2h",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "506": {
   "Name": "Cunning",
@@ -9514,10 +7726,7 @@
   "transformcolor": "lgld",
   "itype1": "h2h",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "507": {
   "Name": "Mentalist's",
@@ -9536,10 +7745,7 @@
   "itype1": "h2h",
   "itype2": "amul",
   "itype3": "helm",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "508": {
   "Name": "Psychic",
@@ -9560,10 +7766,7 @@
   "itype1": "h2h",
   "itype2": "amul",
   "itype3": "helm",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "509": {
   "Name": "Shadow",
@@ -9583,10 +7786,7 @@
   "itype1": "h2h",
   "itype2": "amul",
   "itype3": "helm",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "510": {
   "Name": "Shogukusha's",
@@ -9605,10 +7805,7 @@
   "itype1": "h2h",
   "itype2": "amul",
   "itype3": "glov",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "511": {
   "Name": "Sensei's",
@@ -9629,10 +7826,7 @@
   "itype1": "h2h",
   "itype2": "amul",
   "itype3": "glov",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "512": {
   "Name": "Kenshi's",
@@ -9652,10 +7846,7 @@
   "itype1": "h2h",
   "itype2": "amul",
   "itype3": "glov",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "513": {
   "Name": "Miocene",
@@ -9668,10 +7859,7 @@
   "mod1param": "6",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "514": {
   "Name": "Miocene",
@@ -9688,10 +7876,7 @@
   "itype1": "glov",
   "itype2": "boot",
   "itype3": "belt",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "515": {
   "Name": "Oligocene",
@@ -9705,10 +7890,7 @@
   "mod1param": "9",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "516": {
   "Name": "Oligocene",
@@ -9725,10 +7907,7 @@
   "itype1": "glov",
   "itype2": "boot",
   "itype3": "belt",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "517": {
   "Name": "Eocene",
@@ -9742,10 +7921,7 @@
   "mod1param": "18",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "518": {
   "Name": "Eocene",
@@ -9762,10 +7938,7 @@
   "itype1": "glov",
   "itype2": "boot",
   "itype3": "belt",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "519": {
   "Name": "Paleocene",
@@ -9780,10 +7953,7 @@
   "mod1param": "24",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "520": {
   "Name": "Paleocene",
@@ -9801,10 +7971,7 @@
   "itype1": "glov",
   "itype2": "boot",
   "itype3": "belt",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "521": {
   "Name": "Knave's",
@@ -9822,10 +7989,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "522": {
   "Name": "Jack's",
@@ -9844,10 +8008,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "523": {
   "Name": "Jester's",
@@ -9866,10 +8027,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "524": {
   "Name": "Joker's",
@@ -9888,10 +8046,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "525": {
   "Name": "Trump",
@@ -9911,10 +8066,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "526": {
   "Name": "Loud",
@@ -9930,10 +8082,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "527": {
   "Name": "Calling",
@@ -9950,10 +8099,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "528": {
   "Name": "Yelling",
@@ -9970,10 +8116,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "529": {
   "Name": "Shouting",
@@ -9990,10 +8133,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "530": {
   "Name": "Gritty",
@@ -10011,10 +8151,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "531": {
   "Name": "Paradox",
@@ -10028,10 +8165,7 @@
   "mod1param": "12",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "532": {
   "Name": "Paradox",
@@ -10048,10 +8182,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "533": {
   "Name": "Robineye",
@@ -10067,10 +8198,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "534": {
   "Name": "Sparroweye",
@@ -10086,10 +8214,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "535": {
   "Name": "Falconeye",
@@ -10105,10 +8230,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "536": {
   "Name": "Hawkeye",
@@ -10125,10 +8247,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "537": {
   "Name": "Eagleeye",
@@ -10144,10 +8263,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "538": {
   "Name": "Visionary",
@@ -10163,10 +8279,7 @@
   "transform": "1",
   "transformcolor": "whit",
   "itype1": "helm",
-  "itype2": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "miss"
  },
  "539": {
   "Name": "Mnemonic",
@@ -10181,10 +8294,7 @@
   "mod1param": "6",
   "transform": "1",
   "transformcolor": "cblu",
-  "itype1": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "helm"
  },
  "540": {
   "Name": "Snowflake",
@@ -10207,10 +8317,7 @@
   "transform": "1",
   "transformcolor": "lblu",
   "itype1": "weap",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "541": {
   "Name": "Shivering",
@@ -10232,10 +8339,7 @@
   "mod3max": "45",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "542": {
   "Name": "Boreal",
@@ -10257,10 +8361,7 @@
   "mod3max": "90",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "543": {
   "Name": "Hibernal",
@@ -10282,10 +8383,7 @@
   "mod3max": "140",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "544": {
   "Name": "Ember",
@@ -10305,10 +8403,7 @@
   "transform": "1",
   "transformcolor": "dred",
   "itype1": "weap",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "545": {
   "Name": "Smoldering",
@@ -10327,10 +8422,7 @@
   "mod2max": "90",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "546": {
   "Name": "Smoking",
@@ -10349,10 +8441,7 @@
   "mod2max": "130",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "547": {
   "Name": "Flaming",
@@ -10371,10 +8460,7 @@
   "mod2max": "180",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "548": {
   "Name": "Scorching",
@@ -10393,10 +8479,7 @@
   "mod2max": "240",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "549": {
   "Name": "Static",
@@ -10416,10 +8499,7 @@
   "transform": "1",
   "transformcolor": "lyel",
   "itype1": "weap",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "550": {
   "Name": "Glowing",
@@ -10438,10 +8518,7 @@
   "mod2max": "180",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "551": {
   "Name": "Buzzing",
@@ -10460,10 +8537,7 @@
   "mod2max": "260",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "552": {
   "Name": "Arcing",
@@ -10482,10 +8556,7 @@
   "mod2max": "360",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "553": {
   "Name": "Shocking",
@@ -10504,10 +8575,7 @@
   "mod2max": "480",
   "transform": "1",
   "transformcolor": "lyel",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "554": {
   "Name": "Septic",
@@ -10525,10 +8593,7 @@
   "transform": "1",
   "transformcolor": "dgrn",
   "itype1": "weap",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "555": {
   "Name": "Envenomed",
@@ -10545,10 +8610,7 @@
   "mod1max": "41",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "556": {
   "Name": "Corosive",
@@ -10565,10 +8627,7 @@
   "mod1max": "205",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "557": {
   "Name": "Toxic",
@@ -10585,10 +8644,7 @@
   "mod1max": "308",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "558": {
   "Name": "Pestilent",
@@ -10604,10 +8660,7 @@
   "mod1max": "470",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "559": {
   "Name": "Maiden's",
@@ -10623,10 +8676,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "560": {
   "Name": "Valkyrie's",
@@ -10644,10 +8694,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "561": {
   "Name": "Maiden's",
@@ -10663,10 +8710,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "miss",
-  "itype2": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "spea"
  },
  "562": {
   "Name": "Valkyrie's",
@@ -10684,10 +8728,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "miss",
-  "itype2": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "spea"
  },
  "563": {
   "Name": "Monk's",
@@ -10703,10 +8744,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "564": {
   "Name": "Priest's",
@@ -10724,10 +8762,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "565": {
   "Name": "Monk's",
@@ -10743,10 +8778,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "566": {
   "Name": "Priest's",
@@ -10764,10 +8796,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "567": {
   "Name": "Monk's",
@@ -10785,10 +8814,7 @@
   "itype1": "swor",
   "itype2": "mace",
   "itype3": "hamm",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "568": {
   "Name": "Priest's",
@@ -10808,10 +8834,7 @@
   "itype1": "swor",
   "itype2": "mace",
   "itype3": "hamm",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "569": {
   "Name": "Summoner's",
@@ -10827,10 +8850,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "570": {
   "Name": "Necromancer's",
@@ -10848,10 +8868,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "571": {
   "Name": "Summoner's",
@@ -10868,10 +8885,7 @@
   "mod1max": "1",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "572": {
   "Name": "Necromancer's",
@@ -10890,10 +8904,7 @@
   "transformcolor": "cgrn",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "573": {
   "Name": "Angel's",
@@ -10909,10 +8920,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "574": {
   "Name": "Arch-Angel's",
@@ -10930,10 +8938,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "575": {
   "Name": "Angel's",
@@ -10949,10 +8954,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "576": {
   "Name": "Arch-Angel's",
@@ -10970,10 +8972,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "577": {
   "Name": "Slayer's",
@@ -10989,10 +8988,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "578": {
   "Name": "Berserker's",
@@ -11010,10 +9006,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "579": {
   "Name": "Slayer's",
@@ -11035,10 +9028,7 @@
   "itype5": "swor",
   "itype6": "hamm",
   "itype7": "mace",
-  "etype1": "jave",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "jave"
  },
  "580": {
   "Name": "Berserker's",
@@ -11062,10 +9052,7 @@
   "itype5": "swor",
   "itype6": "hamm",
   "itype7": "mace",
-  "etype1": "jave",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "jave"
  },
  "581": {
   "Name": "Slayer's",
@@ -11080,10 +9067,7 @@
   "mod1code": "bar",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "582": {
   "Name": "Berserker's",
@@ -11100,10 +9084,7 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "583": {
   "Name": "Shaman's",
@@ -11119,10 +9100,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "584": {
   "Name": "Hierophant's",
@@ -11140,10 +9118,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "585": {
   "Name": "Shaman's",
@@ -11159,10 +9134,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "club",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "586": {
   "Name": "Hierophant's",
@@ -11180,10 +9152,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "club",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "587": {
   "Name": "Magekiller's",
@@ -11199,10 +9168,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "588": {
   "Name": "Witch-hunter's",
@@ -11220,10 +9186,7 @@
   "transform": "1",
   "transformcolor": "cgrn",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "589": {
   "Name": "Magekiller's",
@@ -11238,10 +9201,7 @@
   "mod1code": "ass",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "h2h",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "h2h"
  },
  "590": {
   "Name": "Witch-hunter's",
@@ -11258,10 +9218,7 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "cgrn",
-  "itype1": "h2h",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "h2h"
  },
  "591": {
   "Name": "Compact",
@@ -11275,10 +9232,7 @@
   "mod1code": "stack",
   "mod1min": "20",
   "mod1max": "40",
-  "itype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "thro"
  },
  "592": {
   "Name": "Thin",
@@ -11292,10 +9246,7 @@
   "mod1code": "stack",
   "mod1min": "41",
   "mod1max": "80",
-  "itype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "thro"
  },
  "593": {
   "Name": "Dense",
@@ -11309,10 +9260,7 @@
   "mod1code": "stack",
   "mod1min": "81",
   "mod1max": "120",
-  "itype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "thro"
  },
  "594": {
   "Name": "Consecrated",
@@ -11331,10 +9279,7 @@
   "mod2max": "75",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "595": {
   "Name": "Pure",
@@ -11354,10 +9299,7 @@
   "transformcolor": "lgld",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "596": {
   "Name": "Sacred",
@@ -11377,10 +9319,7 @@
   "transformcolor": "lgld",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "597": {
   "Name": "Hallowed",
@@ -11400,10 +9339,7 @@
   "transformcolor": "lgld",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "598": {
   "Name": "Divine",
@@ -11422,10 +9358,7 @@
   "transformcolor": "lgld",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "599": {
   "Name": "Pearl",
@@ -11442,10 +9375,7 @@
   "mod2code": "dmg-undead",
   "mod2min": "25",
   "mod2max": "50",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "600": {
   "Name": "Crimson",
@@ -11464,10 +9394,7 @@
   "itype3": "amul",
   "itype4": "orb",
   "itype5": "circ",
-  "itype6": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "weap"
  },
  "601": {
   "Name": "Red",
@@ -11483,10 +9410,7 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "602": {
   "Name": "Sanguinary",
@@ -11502,10 +9426,7 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "603": {
   "Name": "Bloody",
@@ -11520,10 +9441,7 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "604": {
   "Name": "Red",
@@ -11539,10 +9457,7 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "605": {
   "Name": "Sanguinary",
@@ -11557,10 +9472,7 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "606": {
   "Name": "Red",
@@ -11576,10 +9488,7 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "607": {
   "Name": "Jagged",
@@ -11595,10 +9504,7 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "608": {
   "Name": "Forked",
@@ -11614,10 +9520,7 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "609": {
   "Name": "Serrated",
@@ -11632,10 +9535,7 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "610": {
   "Name": "Jagged",
@@ -11651,10 +9551,7 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "611": {
   "Name": "Forked",
@@ -11669,10 +9566,7 @@
   "mod1max": "2",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "612": {
   "Name": "Jagged",
@@ -11688,10 +9582,7 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "613": {
   "Name": "Snowflake",
@@ -11711,10 +9602,7 @@
   "mod3code": "cold-max",
   "mod3min": "2",
   "mod3max": "3",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "614": {
   "Name": "Shivering",
@@ -11734,10 +9622,7 @@
   "mod3code": "cold-max",
   "mod3min": "4",
   "mod3max": "8",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "615": {
   "Name": "Boreal",
@@ -11759,10 +9644,7 @@
   "mod3max": "15",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "616": {
   "Name": "Hibernal",
@@ -11783,10 +9665,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "617": {
   "Name": "Snowflake",
@@ -11806,10 +9685,7 @@
   "mod3code": "cold-max",
   "mod3min": "3",
   "mod3max": "5",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "618": {
   "Name": "Shivering",
@@ -11829,10 +9705,7 @@
   "mod3code": "cold-max",
   "mod3min": "6",
   "mod3max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "619": {
   "Name": "Boreal",
@@ -11854,10 +9727,7 @@
   "mod3max": "20",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "620": {
   "Name": "Hibernal",
@@ -11878,10 +9748,7 @@
   "mod3max": "30",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "621": {
   "Name": "Snowflake",
@@ -11901,10 +9768,7 @@
   "mod3code": "cold-max",
   "mod3min": "2",
   "mod3max": "4",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "622": {
   "Name": "Shivering",
@@ -11924,10 +9788,7 @@
   "mod3code": "cold-max",
   "mod3min": "5",
   "mod3max": "8",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "623": {
   "Name": "Boreal",
@@ -11949,10 +9810,7 @@
   "mod3max": "14",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "624": {
   "Name": "Hibernal",
@@ -11973,10 +9831,7 @@
   "mod3max": "20",
   "transform": "1",
   "transformcolor": "lblu",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "625": {
   "Name": "Ember",
@@ -11993,10 +9848,7 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "3",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "626": {
   "Name": "Smoldering",
@@ -12013,10 +9865,7 @@
   "mod2code": "fire-max",
   "mod2min": "4",
   "mod2max": "7",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "627": {
   "Name": "Smoking",
@@ -12035,10 +9884,7 @@
   "mod2max": "19",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "628": {
   "Name": "Flaming",
@@ -12056,10 +9902,7 @@
   "mod2max": "36",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "629": {
   "Name": "Ember",
@@ -12076,10 +9919,7 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "3",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "630": {
   "Name": "Smoldering",
@@ -12096,10 +9936,7 @@
   "mod2code": "fire-max",
   "mod2min": "4",
   "mod2max": "12",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "631": {
   "Name": "Smoking",
@@ -12118,10 +9955,7 @@
   "mod2max": "27",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "632": {
   "Name": "Flaming",
@@ -12139,10 +9973,7 @@
   "mod2max": "43",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "633": {
   "Name": "Ember",
@@ -12159,10 +9990,7 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "3",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "634": {
   "Name": "Smoldering",
@@ -12179,10 +10007,7 @@
   "mod2code": "fire-max",
   "mod2min": "4",
   "mod2max": "10",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "635": {
   "Name": "Smoking",
@@ -12201,10 +10026,7 @@
   "mod2max": "19",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "636": {
   "Name": "Flaming",
@@ -12222,10 +10044,7 @@
   "mod2max": "29",
   "transform": "1",
   "transformcolor": "lred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "637": {
   "Name": "Static",
@@ -12242,10 +10061,7 @@
   "mod2code": "ltng-max",
   "mod2min": "4",
   "mod2max": "5",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "638": {
   "Name": "Glowing",
@@ -12262,10 +10078,7 @@
   "mod2code": "ltng-max",
   "mod2min": "6",
   "mod2max": "17",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "639": {
   "Name": "Arcing",
@@ -12284,10 +10097,7 @@
   "mod2max": "44",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "640": {
   "Name": "Shocking",
@@ -12305,10 +10115,7 @@
   "mod2max": "79",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "641": {
   "Name": "Static",
@@ -12325,10 +10132,7 @@
   "mod2code": "ltng-max",
   "mod2min": "5",
   "mod2max": "9",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "642": {
   "Name": "Glowing",
@@ -12345,10 +10149,7 @@
   "mod2code": "ltng-max",
   "mod2min": "10",
   "mod2max": "26",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "643": {
   "Name": "Arcing",
@@ -12367,10 +10168,7 @@
   "mod2max": "58",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "644": {
   "Name": "Shocking",
@@ -12388,10 +10186,7 @@
   "mod2max": "90",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "645": {
   "Name": "Static",
@@ -12408,10 +10203,7 @@
   "mod2code": "ltng-max",
   "mod2min": "6",
   "mod2max": "11",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "646": {
   "Name": "Glowing",
@@ -12428,10 +10220,7 @@
   "mod2code": "ltng-max",
   "mod2min": "12",
   "mod2max": "24",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "647": {
   "Name": "Arcing",
@@ -12450,10 +10239,7 @@
   "mod2max": "43",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "648": {
   "Name": "Shocking",
@@ -12471,10 +10257,7 @@
   "mod2max": "71",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "649": {
   "Name": "Septic",
@@ -12489,10 +10272,7 @@
   "mod1param": "75",
   "mod1min": "18",
   "mod1max": "18",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "650": {
   "Name": "Envenomed",
@@ -12507,10 +10287,7 @@
   "mod1param": "100",
   "mod1min": "39",
   "mod1max": "39",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "651": {
   "Name": "Toxic",
@@ -12527,10 +10304,7 @@
   "mod1max": "103",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "652": {
   "Name": "Pestilent",
@@ -12546,10 +10320,7 @@
   "mod1max": "171",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "653": {
   "Name": "Septic",
@@ -12564,10 +10335,7 @@
   "mod1param": "75",
   "mod1min": "35",
   "mod1max": "35",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "654": {
   "Name": "Envenomed",
@@ -12582,10 +10350,7 @@
   "mod1param": "100",
   "mod1min": "77",
   "mod1max": "77",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "655": {
   "Name": "Toxic",
@@ -12602,10 +10367,7 @@
   "mod1max": "185",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "656": {
   "Name": "Pestilent",
@@ -12621,10 +10383,7 @@
   "mod1max": "299",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "657": {
   "Name": "Septic",
@@ -12639,10 +10398,7 @@
   "mod1param": "75",
   "mod1min": "52",
   "mod1max": "52",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "658": {
   "Name": "Envenomed",
@@ -12657,10 +10413,7 @@
   "mod1param": "100",
   "mod1min": "128",
   "mod1max": "128",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "659": {
   "Name": "Toxic",
@@ -12677,10 +10430,7 @@
   "mod1max": "205",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "660": {
   "Name": "Pestilent",
@@ -12696,10 +10446,7 @@
   "mod1max": "299",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "661": {
   "Name": "Tireless",
@@ -12714,10 +10461,7 @@
   "mod1code": "regen-stam",
   "mod1min": "10",
   "mod1max": "10",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "662": {
   "Name": "Lizard's",
@@ -12738,10 +10482,7 @@
   "itype4": "rod",
   "itype5": "orb",
   "etype1": "boot",
-  "etype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "glov"
  },
  "663": {
   "Name": "Azure",
@@ -12760,10 +10501,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "664": {
   "Name": "Crimson",
@@ -12782,10 +10520,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "665": {
   "Name": "Tangerine",
@@ -12804,10 +10539,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "666": {
   "Name": "Beryl",
@@ -12826,10 +10558,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "667": {
   "Name": "Godly",
@@ -12845,10 +10574,7 @@
   "mod1max": "200",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "armo",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "armo"
  },
  "668": {
   "Name": "Cruel",
@@ -12867,9 +10593,6 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  }
 }

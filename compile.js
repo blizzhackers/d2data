@@ -59,7 +59,7 @@ files.forEach(fn => {
             if (key) {
                 obj[key] = {};
                 for (let c = 0; c < header.length; c++) {
-                    if (line[c] !== "") {
+                    if (line[c] !== "" && line[c] !== "0") {
                         obj[key][header[c] || 'unknown'] = line[c];
                     }
                 }
@@ -74,7 +74,7 @@ files.forEach(fn => {
 
 // @TODO: Generate atomic classes
 let atomic = {};
-let calcTC = x => Math.min(87, Math.max(1, Math.ceil(x/3))*3);
+let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0)/3))*3);
 let typeRarity = {
     'abow': 1,
     'ajav': 1,

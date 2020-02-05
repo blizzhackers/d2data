@@ -4,325 +4,284 @@
   "*done": "1",
   "func1": "1",
   "stat1": "armorclass",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac-miss": {
   "code": "ac-miss",
   "*done": "1",
   "func1": "1",
   "stat1": "armorclass_vs_missile",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac-hth": {
   "code": "ac-hth",
   "*done": "1",
   "func1": "1",
   "stat1": "armorclass_vs_hth",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "red-dmg": {
   "code": "red-dmg",
   "*done": "1",
   "func1": "1",
   "stat1": "normal_damage_reduction",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "red-dmg%": {
   "code": "red-dmg%",
   "*done": "1",
   "func1": "1",
   "stat1": "damageresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac%": {
   "code": "ac%",
   "*done": "1",
   "func1": "2",
   "stat1": "item_armor_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "red-mag": {
   "code": "red-mag",
   "*done": "1",
   "func1": "1",
   "stat1": "magic_damage_reduction",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "str": {
   "code": "str",
   "*done": "1",
   "func1": "1",
   "stat1": "strength",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dex": {
   "code": "dex",
   "*done": "1",
   "func1": "1",
   "stat1": "dexterity",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "vit": {
   "code": "vit",
   "*done": "1",
   "func1": "1",
   "stat1": "vitality",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "enr": {
   "code": "enr",
   "*done": "1",
   "func1": "1",
   "stat1": "energy",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "mana": {
   "code": "mana",
   "*done": "1",
   "func1": "1",
   "stat1": "maxmana",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "mana%": {
   "code": "mana%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_maxmana_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "hp": {
   "code": "hp",
   "*done": "1",
   "func1": "1",
   "stat1": "maxhp",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "hp%": {
   "code": "hp%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_maxhp_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att": {
   "code": "att",
   "*done": "1",
   "func1": "1",
   "stat1": "tohit",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "block": {
   "code": "block",
   "*done": "1",
   "func1": "1",
   "stat1": "toblock",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "cold-min": {
   "code": "cold-min",
   "*done": "1",
   "func1": "1",
   "stat1": "coldmindam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "cold-max": {
   "code": "cold-max",
   "*done": "1",
   "func1": "1",
   "stat1": "coldmaxdam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "cold-len": {
   "code": "cold-len",
   "*done": "1",
   "func1": "1",
   "stat1": "coldlength",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "fire-min": {
   "code": "fire-min",
   "*done": "1",
   "func1": "1",
   "stat1": "firemindam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "fire-max": {
   "code": "fire-max",
   "*done": "1",
   "func1": "1",
   "stat1": "firemaxdam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ltng-min": {
   "code": "ltng-min",
   "*done": "1",
   "func1": "1",
   "stat1": "lightmindam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ltng-max": {
   "code": "ltng-max",
   "*done": "1",
   "func1": "1",
   "stat1": "lightmaxdam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pois-min": {
   "code": "pois-min",
   "*done": "1",
   "func1": "1",
   "stat1": "poisonmindam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pois-max": {
   "code": "pois-max",
   "*done": "1",
   "func1": "1",
   "stat1": "poisonmaxdam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pois-len": {
   "code": "pois-len",
   "*done": "1",
   "func1": "1",
   "stat1": "poisonlength",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-min": {
   "code": "dmg-min",
   "*done": "1",
   "func1": "5",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-max": {
   "code": "dmg-max",
   "*done": "1",
   "func1": "6",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg%": {
   "code": "dmg%",
   "*done": "1",
   "func1": "7",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-to-mana": {
   "code": "dmg-to-mana",
   "*done": "1",
   "func1": "1",
   "stat1": "item_damagetomana",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-fire": {
   "code": "res-fire",
   "*done": "1",
   "func1": "1",
   "stat1": "fireresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-fire-max": {
   "code": "res-fire-max",
   "*done": "1",
   "func1": "1",
   "stat1": "maxfireresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-ltng": {
   "code": "res-ltng",
   "*done": "1",
   "func1": "1",
   "stat1": "lightresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-ltng-max": {
   "code": "res-ltng-max",
   "*done": "1",
   "func1": "1",
   "stat1": "maxlightresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-cold": {
   "code": "res-cold",
   "*done": "1",
   "func1": "1",
   "stat1": "coldresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-cold-max": {
   "code": "res-cold-max",
   "*done": "1",
   "func1": "1",
   "stat1": "maxcoldresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-mag": {
   "code": "res-mag",
   "*done": "1",
   "func1": "1",
   "stat1": "magicresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-mag-max": {
   "code": "res-mag-max",
   "*done": "1",
   "func1": "1",
   "stat1": "maxmagicresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-pois": {
   "code": "res-pois",
   "*done": "1",
   "func1": "1",
   "stat1": "poisonresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-pois-max": {
   "code": "res-pois-max",
   "*done": "1",
   "func1": "1",
   "stat1": "maxpoisonresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-all": {
   "code": "res-all",
@@ -335,8 +294,7 @@
   "stat3": "coldresist",
   "func4": "3",
   "stat4": "poisonresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-all-max": {
   "code": "res-all-max",
@@ -349,209 +307,182 @@
   "stat3": "maxcoldresist",
   "func4": "3",
   "stat4": "maxpoisonresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-fire%": {
   "code": "abs-fire%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorbfire_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-fire": {
   "code": "abs-fire",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorbfire",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-ltng%": {
   "code": "abs-ltng%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorblight_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-ltng": {
   "code": "abs-ltng",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorblight",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-mag%": {
   "code": "abs-mag%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorbmagic_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-mag": {
   "code": "abs-mag",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorbmagic",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-cold%": {
   "code": "abs-cold%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorbcold_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-cold": {
   "code": "abs-cold",
   "*done": "1",
   "func1": "1",
   "stat1": "item_absorbcold",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dur": {
   "code": "dur",
   "*done": "1",
   "func1": "1",
   "stat1": "maxdurability",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dur%": {
   "code": "dur%",
   "*done": "1",
   "func1": "13",
   "stat1": "item_maxdurability_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "regen": {
   "code": "regen",
   "*done": "1",
   "func1": "1",
   "stat1": "hpregen",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "thorns": {
   "code": "thorns",
   "*done": "1",
   "func1": "1",
   "stat1": "item_attackertakesdamage",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "swing1": {
   "code": "swing1",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fasterattackrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "swing2": {
   "code": "swing2",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fasterattackrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "swing3": {
   "code": "swing3",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fasterattackrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "gold%": {
   "code": "gold%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_goldbonus",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "mag%": {
   "code": "mag%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_magicbonus",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "knock": {
   "code": "knock",
   "*done": "1",
   "func1": "1",
   "stat1": "item_knockback",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "regen-stam": {
   "code": "regen-stam",
   "*done": "1",
   "func1": "1",
   "stat1": "staminarecoverybonus",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "regen-mana": {
   "code": "regen-mana",
   "*done": "1",
   "func1": "1",
   "stat1": "manarecoverybonus",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "stam": {
   "code": "stam",
   "*done": "1",
   "func1": "1",
   "stat1": "maxstamina",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "time": {
   "code": "time",
   "*done": "1",
   "func1": "1",
   "stat1": "item_timeduration",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "manasteal": {
   "code": "manasteal",
   "*done": "1",
   "func1": "1",
   "stat1": "manadrainmindam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "lifesteal": {
   "code": "lifesteal",
   "*done": "1",
   "func1": "1",
   "stat1": "lifedrainmindam",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ama": {
   "code": "ama",
   "*done": "1",
-  "val1": "0",
   "func1": "21",
   "stat1": "item_addclassskills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pal": {
   "code": "pal",
@@ -559,8 +490,7 @@
   "val1": "3",
   "func1": "21",
   "stat1": "item_addclassskills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "nec": {
   "code": "nec",
@@ -568,8 +498,7 @@
   "val1": "2",
   "func1": "21",
   "stat1": "item_addclassskills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "sor": {
   "code": "sor",
@@ -577,8 +506,7 @@
   "val1": "1",
   "func1": "21",
   "stat1": "item_addclassskills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "bar": {
   "code": "bar",
@@ -586,24 +514,21 @@
   "val1": "4",
   "func1": "21",
   "stat1": "item_addclassskills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "herb": {
   "code": "herb",
   "*done": "1",
   "func1": "1",
   "stat1": "item_doubleherbduration",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "light": {
   "code": "light",
   "*done": "1",
   "func1": "1",
   "stat1": "item_lightradius",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "color": {
   "code": "color",
@@ -611,232 +536,203 @@
   "set1": "1",
   "func1": "1",
   "stat1": "item_lightcolor",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ease": {
   "code": "ease",
   "*done": "1",
   "func1": "1",
   "stat1": "item_req_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "move1": {
   "code": "move1",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastermovevelocity",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "move2": {
   "code": "move2",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastermovevelocity",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "move3": {
   "code": "move3",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastermovevelocity",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "balance1": {
   "code": "balance1",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastergethitrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "balance2": {
   "code": "balance2",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastergethitrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "balance3": {
   "code": "balance3",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastergethitrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "block1": {
   "code": "block1",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fasterblockrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "block2": {
   "code": "block2",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fasterblockrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "block3": {
   "code": "block3",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fasterblockrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "cast1": {
   "code": "cast1",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastercastrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "cast2": {
   "code": "cast2",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastercastrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "cast3": {
   "code": "cast3",
   "*done": "1",
   "func1": "8",
   "stat1": "item_fastercastrate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-pois-len": {
   "code": "res-pois-len",
   "*done": "1",
   "func1": "1",
   "stat1": "item_poisonlengthresist",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg": {
   "code": "dmg",
   "*done": "1",
   "func1": "1",
   "stat1": "item_normaldamage",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "howl": {
   "code": "howl",
   "*done": "1",
   "func1": "1",
   "stat1": "item_howl",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "stupidity": {
   "code": "stupidity",
   "*done": "1",
   "func1": "1",
   "stat1": "item_stupidity",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ignore-ac": {
   "code": "ignore-ac",
   "*done": "1",
   "func1": "1",
   "stat1": "item_ignoretargetac",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "reduce-ac": {
   "code": "reduce-ac",
   "*done": "1",
   "func1": "1",
   "stat1": "item_fractionaltargetac",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "noheal": {
   "code": "noheal",
   "*done": "1",
   "func1": "1",
   "stat1": "item_preventheal",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "half-freeze": {
   "code": "half-freeze",
   "*done": "1",
   "func1": "1",
   "stat1": "item_halffreezeduration",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att%": {
   "code": "att%",
   "*done": "1",
   "func1": "1",
   "stat1": "item_tohit_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-ac": {
   "code": "dmg-ac",
   "*done": "1",
   "func1": "1",
   "stat1": "item_damagetargetac",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-demon": {
   "code": "dmg-demon",
   "*done": "1",
   "func1": "1",
   "stat1": "item_demondamage_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-undead": {
   "code": "dmg-undead",
   "*done": "1",
   "func1": "1",
   "stat1": "item_undeaddamage_percent",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-demon": {
   "code": "att-demon",
   "*done": "1",
   "func1": "1",
   "stat1": "item_demon_tohit",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-undead": {
   "code": "att-undead",
   "*done": "1",
   "func1": "1",
   "stat1": "item_undead_tohit",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "throw": {
   "code": "throw",
   "*done": "1",
   "func1": "1",
   "stat1": "item_throwable",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "fireskill": {
   "code": "fireskill",
@@ -844,24 +740,21 @@
   "val1": "1",
   "func1": "21",
   "stat1": "item_elemskill",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "allskills": {
   "code": "allskills",
   "*done": "1",
   "func1": "1",
   "stat1": "item_allskills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "light-thorns": {
   "code": "light-thorns",
   "*done": "1",
   "func1": "1",
   "stat1": "item_attackertakeslightdamage",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "freeze": {
   "code": "freeze",
@@ -870,120 +763,105 @@
   "stat1": "item_freeze",
   "*param": "chance in 128",
   "*min": "length in frames",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "openwounds": {
   "code": "openwounds",
   "*done": "1",
   "func1": "1",
   "stat1": "item_openwounds",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "crush": {
   "code": "crush",
   "*done": "1",
   "func1": "1",
   "stat1": "item_crushingblow",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "kick": {
   "code": "kick",
   "*done": "1",
   "func1": "1",
   "stat1": "item_kickdamage",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "mana-kill": {
   "code": "mana-kill",
   "*done": "1",
   "func1": "1",
   "stat1": "item_manaafterkill",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "demon-heal": {
   "code": "demon-heal",
   "*done": "1",
   "func1": "1",
   "stat1": "item_healafterdemonkill",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "bloody": {
   "code": "bloody",
   "*done": "1",
   "func1": "1",
   "stat1": "item_extrablood",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "deadly": {
   "code": "deadly",
   "*done": "1",
   "func1": "1",
   "stat1": "item_deadlystrike",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "slow": {
   "code": "slow",
   "*done": "1",
   "func1": "1",
   "stat1": "item_slow",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "nofreeze": {
   "code": "nofreeze",
   "*done": "1",
   "func1": "1",
   "stat1": "item_cannotbefrozen",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "stamdrain": {
   "code": "stamdrain",
   "*done": "1",
   "func1": "1",
   "stat1": "item_staminadrainpct",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "reanimate": {
   "code": "reanimate",
   "*done": "1",
   "func1": "24",
   "stat1": "item_reanimate",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pierce": {
   "code": "pierce",
   "*done": "1",
   "func1": "1",
   "stat1": "item_pierce",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "magicarrow": {
   "code": "magicarrow",
   "*done": "1",
   "func1": "1",
   "stat1": "item_magicarrow",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "explosivearrow": {
   "code": "explosivearrow",
   "*done": "1",
   "func1": "1",
   "stat1": "item_explosivearrow",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dru": {
   "code": "dru",
@@ -992,8 +870,7 @@
   "func1": "21",
   "stat1": "item_addclassskills",
   "*desc": "All Druid Skills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ass": {
   "code": "ass",
@@ -1002,32 +879,28 @@
   "func1": "21",
   "stat1": "item_addclassskills",
   "*desc": "All Assassin Skills",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "skill": {
   "code": "skill",
   "*done": "1",
   "func1": "22",
   "stat1": "item_singleskill",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "skilltab": {
   "code": "skilltab",
   "*done": "1",
   "func1": "10",
   "stat1": "item_addskill_tab",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "aura": {
   "code": "aura",
   "*done": "1",
   "func1": "22",
   "stat1": "item_aura",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-skill": {
   "code": "att-skill",
@@ -1038,8 +911,7 @@
   "*param": "Skill #",
   "*min": "% Chance",
   "*max": "Level",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "hit-skill": {
   "code": "hit-skill",
@@ -1050,8 +922,7 @@
   "*param": "Skill #",
   "*min": "% Chance",
   "*max": "Level",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "gethit-skill": {
   "code": "gethit-skill",
@@ -1062,37 +933,31 @@
   "*param": "Skill #",
   "*min": "% Chance",
   "*max": "Level",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "gembonus": {
   "code": "gembonus",
   "*desc": "Increase chance of finding Gems",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "regen-dur": {
   "code": "regen-dur",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "fire-fx": {
   "code": "fire-fx",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ltng-fx": {
   "code": "ltng-fx",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "sock": {
   "code": "sock",
   "*done": "1",
   "func1": "14",
   "stat1": "item_numsockets",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-fire": {
   "code": "dmg-fire",
@@ -1104,8 +969,7 @@
   "*desc": "Fire Damage",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-ltng": {
   "code": "dmg-ltng",
@@ -1117,8 +981,7 @@
   "*desc": "Lightning Damage",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-mag": {
   "code": "dmg-mag",
@@ -1130,8 +993,7 @@
   "*desc": "Magic Damge",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-cold": {
   "code": "dmg-cold",
@@ -1146,8 +1008,7 @@
   "*param": "Length (Frames)",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-pois": {
   "code": "dmg-pois",
@@ -1162,8 +1023,7 @@
   "*param": "Length (Frames)",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-throw": {
   "code": "dmg-throw",
@@ -1175,8 +1035,7 @@
   "*desc": "Throwing Damage",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-norm": {
   "code": "dmg-norm",
@@ -1188,8 +1047,7 @@
   "*desc": "Normal Damage Modifier",
   "*min": "Min",
   "*max": "Max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac/lvl": {
   "code": "ac/lvl",
@@ -1198,8 +1056,7 @@
   "stat1": "item_armor_perlevel",
   "*desc": "AC per Player Level",
   "*param": "ac/lvl (8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac%/lvl": {
   "code": "ac%/lvl",
@@ -1208,8 +1065,7 @@
   "stat1": "item_armorpercent_perlevel",
   "*desc": "AC% per Player Level",
   "*param": "ac%/lvl (8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "hp/lvl": {
   "code": "hp/lvl",
@@ -1218,8 +1074,7 @@
   "stat1": "item_hp_perlevel",
   "*desc": "HP per Player Level",
   "*param": "hp/lvl (8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "mana/lvl": {
   "code": "mana/lvl",
@@ -1228,8 +1083,7 @@
   "stat1": "item_mana_perlevel",
   "*desc": "Mana per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg/lvl": {
   "code": "dmg/lvl",
@@ -1238,8 +1092,7 @@
   "stat1": "item_maxdamage_perlevel",
   "*desc": "Max Damage per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg%/lvl": {
   "code": "dmg%/lvl",
@@ -1248,8 +1101,7 @@
   "stat1": "item_maxdamage_percent_perlevel",
   "*desc": "Max Damage % per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "str/lvl": {
   "code": "str/lvl",
@@ -1258,8 +1110,7 @@
   "stat1": "item_strength_perlevel",
   "*desc": "Strength per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dex/lvl": {
   "code": "dex/lvl",
@@ -1268,8 +1119,7 @@
   "stat1": "item_dexterity_perlevel",
   "*desc": "Dexterity per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "enr/lvl": {
   "code": "enr/lvl",
@@ -1278,8 +1128,7 @@
   "stat1": "item_energy_perlevel",
   "*desc": "Energy per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "vit/lvl": {
   "code": "vit/lvl",
@@ -1288,8 +1137,7 @@
   "stat1": "item_vitality_perlevel",
   "*desc": "Vitality per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att/lvl": {
   "code": "att/lvl",
@@ -1298,8 +1146,7 @@
   "stat1": "item_tohit_perlevel",
   "*desc": "Attack per Player Level",
   "*param": "att/lvl (1)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att%/lvl": {
   "code": "att%/lvl",
@@ -1308,8 +1155,7 @@
   "stat1": "item_tohitpercent_perlevel",
   "*desc": "Attack% per Player Level",
   "*param": "att%/lvl (8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-cold/lvl": {
   "code": "dmg-cold/lvl",
@@ -1318,8 +1164,7 @@
   "stat1": "item_cold_damagemax_perlevel",
   "*desc": "Max Cold Damage per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-fire/lvl": {
   "code": "dmg-fire/lvl",
@@ -1328,8 +1173,7 @@
   "stat1": "item_fire_damagemax_perlevel",
   "*desc": "Max Fire Damage per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-ltng/lvl": {
   "code": "dmg-ltng/lvl",
@@ -1338,8 +1182,7 @@
   "stat1": "item_ltng_damagemax_perlevel",
   "*desc": "Max Lightning Dmg per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-pois/lvl": {
   "code": "dmg-pois/lvl",
@@ -1348,8 +1191,7 @@
   "stat1": "item_pois_damagemax_perlevel",
   "*desc": "Max Poison Dmg per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-cold/lvl": {
   "code": "res-cold/lvl",
@@ -1358,8 +1200,7 @@
   "stat1": "item_resist_cold_perlevel",
   "*desc": "Resist Cold% per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-fire/lvl": {
   "code": "res-fire/lvl",
@@ -1368,8 +1209,7 @@
   "stat1": "item_resist_fire_perlevel",
   "*desc": "Resist Fire% per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-ltng/lvl": {
   "code": "res-ltng/lvl",
@@ -1378,8 +1218,7 @@
   "stat1": "item_resist_ltng_perlevel",
   "*desc": "Resist Lightning% per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "res-pois/lvl": {
   "code": "res-pois/lvl",
@@ -1388,8 +1227,7 @@
   "stat1": "item_resist_pois_perlevel",
   "*desc": "Resist Poison% per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-cold/lvl": {
   "code": "abs-cold/lvl",
@@ -1398,8 +1236,7 @@
   "stat1": "item_absorb_cold_perlevel",
   "*desc": "Absorb Cold Dmg per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-fire/lvl": {
   "code": "abs-fire/lvl",
@@ -1408,8 +1245,7 @@
   "stat1": "item_absorb_fire_perlevel",
   "*desc": "Absorb Fire Dmg per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-ltng/lvl": {
   "code": "abs-ltng/lvl",
@@ -1418,8 +1254,7 @@
   "stat1": "item_absorb_ltng_perlevel",
   "*desc": "Absorb Lightning Dmg per Player Lvl",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "abs-pois/lvl": {
   "code": "abs-pois/lvl",
@@ -1428,8 +1263,7 @@
   "stat1": "item_absorb_pois_perlevel",
   "*desc": "Absorb Poison Dmg per Player Lvl",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "thorns/lvl": {
   "code": "thorns/lvl",
@@ -1438,8 +1272,7 @@
   "stat1": "item_thorns_perlevel",
   "*desc": "Damage to Attacker per Player Lvl",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "gold%/lvl": {
   "code": "gold%/lvl",
@@ -1448,8 +1281,7 @@
   "stat1": "item_find_gold_perlevel",
   "*desc": "+% Gold Dropped per Player Lvl",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "mag%/lvl": {
   "code": "mag%/lvl",
@@ -1458,8 +1290,7 @@
   "stat1": "item_find_magic_perlevel",
   "*desc": "+% Magical per Player Lvl",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "regen-stam/lvl": {
   "code": "regen-stam/lvl",
@@ -1468,8 +1299,7 @@
   "stat1": "item_regenstamina_perlevel",
   "*desc": "+% Stamina Regeneration per Player Lvl",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "stam/lvl": {
   "code": "stam/lvl",
@@ -1478,8 +1308,7 @@
   "stat1": "item_stamina_perlevel",
   "*desc": "Stamina per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-dem/lvl": {
   "code": "dmg-dem/lvl",
@@ -1488,8 +1317,7 @@
   "stat1": "item_damage_demon_perlevel",
   "*desc": "Damage to Demons % per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-und/lvl": {
   "code": "dmg-und/lvl",
@@ -1498,8 +1326,7 @@
   "stat1": "item_damage_undead_perlevel",
   "*desc": "Damage to Undead % per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-dem/lvl": {
   "code": "att-dem/lvl",
@@ -1508,8 +1335,7 @@
   "stat1": "item_tohit_demon_perlevel",
   "*desc": "Attack Demons + per Player Level",
   "*param": "att/lvl (1)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-und/lvl": {
   "code": "att-und/lvl",
@@ -1518,8 +1344,7 @@
   "stat1": "item_tohit_undead_perlevel",
   "*desc": "Attack Undead + per Player Level",
   "*param": "att/lvl (1)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "crush/lvl": {
   "code": "crush/lvl",
@@ -1528,8 +1353,7 @@
   "stat1": "item_crushingblow_perlevel",
   "*desc": "+% Chance of Crushing Blow per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "wounds/lvl": {
   "code": "wounds/lvl",
@@ -1538,8 +1362,7 @@
   "stat1": "item_openwounds_perlevel",
   "*desc": "+% Chance of Open Wounds per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "kick/lvl": {
   "code": "kick/lvl",
@@ -1548,8 +1371,7 @@
   "stat1": "item_kick_damage_perlevel",
   "*desc": "Kick Damage per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "deadly/lvl": {
   "code": "deadly/lvl",
@@ -1558,15 +1380,13 @@
   "stat1": "item_deadlystrike_perlevel",
   "*desc": "+% Chance of Deadly Strike per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "gems%/lvl": {
   "code": "gems%/lvl",
   "*desc": "+% Chance of finding Gems per Player Level",
   "*param": "(8ths)",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "rep-dur": {
   "code": "rep-dur",
@@ -1575,8 +1395,7 @@
   "stat1": "item_replenish_durability",
   "*desc": "regenerates durability",
   "*param": "speed (see note)",
-  "*notes": "regenerates 1 durability point per 100/lvl seconds",
-  "*eol": "0"
+  "*notes": "regenerates 1 durability point per 100/lvl seconds"
  },
  "rep-quant": {
   "code": "rep-quant",
@@ -1585,8 +1404,7 @@
   "stat1": "item_replenish_quantity",
   "*desc": "regenerates quantity",
   "*param": "speed (see note)",
-  "*notes": "regenerates 1 quantity per 100/lvl seconds",
-  "*eol": "0"
+  "*notes": "regenerates 1 quantity per 100/lvl seconds"
  },
  "stack": {
   "code": "stack",
@@ -1596,8 +1414,7 @@
   "*desc": "Increased stack size",
   "*min": "min count",
   "*max": "max count",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "item%": {
   "code": "item%",
@@ -1605,104 +1422,91 @@
   "*param": "item type",
   "*min": "min chance",
   "*max": "max chance",
-  "*notes": "random chance from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random chance from min to max is assigned to item"
  },
  "dmg-slash": {
   "code": "dmg-slash",
   "*desc": "Slashing Damage",
   "*min": "min",
   "*max": "max",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "dmg-slash%": {
   "code": "dmg-slash%",
   "*desc": "Slashing Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "dmg-crush": {
   "code": "dmg-crush",
   "*desc": "Crush Damage",
   "*min": "min",
   "*max": "max",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "dmg-crush%": {
   "code": "dmg-crush%",
   "*desc": "Crush Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "dmg-thrust": {
   "code": "dmg-thrust",
   "*desc": "Thrust Damage",
   "*min": "min",
   "*max": "max",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "dmg-thrust%": {
   "code": "dmg-thrust%",
   "*desc": "Thrust Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "abs-slash": {
   "code": "abs-slash",
   "*desc": "Absorb Slashing Damage",
   "*min": "min amt",
   "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "abs-crush": {
   "code": "abs-crush",
   "*desc": "Absorb Crushing Damage",
   "*min": "min amt",
   "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "abs-thrust": {
   "code": "abs-thrust",
   "*desc": "Absorb Thrusting Damage",
   "*min": "min amt",
   "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "abs-slash%": {
   "code": "abs-slash%",
   "*desc": "Absorb Slashing Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "abs-crush%": {
   "code": "abs-crush%",
   "*desc": "Absorb Crushing Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "abs-thrust%": {
   "code": "abs-thrust%",
   "*desc": "Absorb Thrusting Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item",
-  "*eol": "0"
+  "*notes": "random amount from min to max is assigned to item"
  },
  "ac/time": {
   "code": "ac/time",
@@ -1713,8 +1517,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "ac%/time": {
   "code": "ac%/time",
@@ -1725,8 +1528,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "hp/time": {
   "code": "hp/time",
@@ -1737,8 +1539,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "mana/time": {
   "code": "mana/time",
@@ -1749,8 +1550,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg/time": {
   "code": "dmg/time",
@@ -1761,8 +1561,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg%/time": {
   "code": "dmg%/time",
@@ -1773,8 +1572,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "str/time": {
   "code": "str/time",
@@ -1785,8 +1583,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dex/time": {
   "code": "dex/time",
@@ -1797,8 +1594,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "enr/time": {
   "code": "enr/time",
@@ -1809,8 +1605,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "vit/time": {
   "code": "vit/time",
@@ -1821,8 +1616,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "att/time": {
   "code": "att/time",
@@ -1833,8 +1627,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "att%/time": {
   "code": "att%/time",
@@ -1845,8 +1638,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg-cold/time": {
   "code": "dmg-cold/time",
@@ -1857,8 +1649,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg-fire/time": {
   "code": "dmg-fire/time",
@@ -1869,8 +1660,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg-ltng/time": {
   "code": "dmg-ltng/time",
@@ -1881,8 +1671,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg-pois/time": {
   "code": "dmg-pois/time",
@@ -1893,8 +1682,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "res-cold/time": {
   "code": "res-cold/time",
@@ -1905,8 +1693,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "res-fire/time": {
   "code": "res-fire/time",
@@ -1917,8 +1704,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "res-ltng/time": {
   "code": "res-ltng/time",
@@ -1929,8 +1715,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "res-pois/time": {
   "code": "res-pois/time",
@@ -1941,8 +1726,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "abs-cold/time": {
   "code": "abs-cold/time",
@@ -1953,8 +1737,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "abs-fire/time": {
   "code": "abs-fire/time",
@@ -1965,8 +1748,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "abs-ltng/time": {
   "code": "abs-ltng/time",
@@ -1977,8 +1759,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "abs-pois/time": {
   "code": "abs-pois/time",
@@ -1989,8 +1770,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "gold%/time": {
   "code": "gold%/time",
@@ -2001,8 +1781,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "mag%/time": {
   "code": "mag%/time",
@@ -2013,8 +1792,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "regen-stam/time": {
   "code": "regen-stam/time",
@@ -2025,8 +1803,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "stam/time": {
   "code": "stam/time",
@@ -2037,8 +1814,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg-dem/time": {
   "code": "dmg-dem/time",
@@ -2049,8 +1825,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "dmg-und/time": {
   "code": "dmg-und/time",
@@ -2061,8 +1836,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "att-dem/time": {
   "code": "att-dem/time",
@@ -2073,8 +1847,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "att-und/time": {
   "code": "att-und/time",
@@ -2085,8 +1858,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "crush/time": {
   "code": "crush/time",
@@ -2097,8 +1869,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "wounds/time": {
   "code": "wounds/time",
@@ -2109,8 +1880,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "kick/time": {
   "code": "kick/time",
@@ -2121,8 +1891,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "deadly/time": {
   "code": "deadly/time",
@@ -2133,8 +1902,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "gems%/time": {
   "code": "gems%/time",
@@ -2142,8 +1910,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\"",
-  "*eol": "0"
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
  "pierce-fire": {
   "code": "pierce-fire",
@@ -2153,8 +1920,7 @@
   "*desc": "Negates % of Enemy Cold Resistance",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pierce-ltng": {
   "code": "pierce-ltng",
@@ -2164,8 +1930,7 @@
   "*desc": "Negates % of Enemy Fire Resistance",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pierce-cold": {
   "code": "pierce-cold",
@@ -2175,8 +1940,7 @@
   "*desc": "Negates % of Enemy Lightning Resistance",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "pierce-pois": {
   "code": "pierce-pois",
@@ -2186,8 +1950,7 @@
   "*desc": "Negates % of Enemy Poison Resistance",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg-mon": {
   "code": "dmg-mon",
@@ -2195,8 +1958,7 @@
   "*param": "monster",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "dmg%-mon": {
   "code": "dmg%-mon",
@@ -2204,8 +1966,7 @@
   "*param": "monster",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-mon": {
   "code": "att-mon",
@@ -2213,8 +1974,7 @@
   "*param": "monster",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att%-mon": {
   "code": "att%-mon",
@@ -2222,8 +1982,7 @@
   "*param": "monster",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac-mon": {
   "code": "ac-mon",
@@ -2231,8 +1990,7 @@
   "*param": "monster",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "ac%-mon": {
   "code": "ac%-mon",
@@ -2240,16 +1998,14 @@
   "*param": "monster",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "indestruct": {
   "code": "indestruct",
   "*done": "1",
   "func1": "20",
   "*desc": "Indestructible",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "charged": {
   "code": "charged",
@@ -2260,36 +2016,31 @@
   "*param": "skill",
   "*min": "charges",
   "*max": "level",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "extra-fire": {
   "code": "extra-fire",
   "*done": "1",
   "func1": "1",
-  "stat1": "passive_fire_mastery",
-  "*eol": "0"
+  "stat1": "passive_fire_mastery"
  },
  "extra-ltng": {
   "code": "extra-ltng",
   "*done": "1",
   "func1": "1",
-  "stat1": "passive_ltng_mastery",
-  "*eol": "0"
+  "stat1": "passive_ltng_mastery"
  },
  "extra-cold": {
   "code": "extra-cold",
   "*done": "1",
   "func1": "1",
-  "stat1": "passive_cold_mastery",
-  "*eol": "0"
+  "stat1": "passive_cold_mastery"
  },
  "extra-pois": {
   "code": "extra-pois",
   "*done": "1",
   "func1": "1",
-  "stat1": "passive_pois_mastery",
-  "*eol": "0"
+  "stat1": "passive_pois_mastery"
  },
  "dmg-elem": {
   "code": "dmg-elem",
@@ -2307,8 +2058,7 @@
   "func6": "16",
   "stat6": "coldmaxdam",
   "func7": "17",
-  "stat7": "coldlength",
-  "*eol": "0"
+  "stat7": "coldlength"
  },
  "dmg-elem-min": {
   "code": "dmg-elem-min",
@@ -2318,8 +2068,7 @@
   "func2": "3",
   "stat2": "lightmindam",
   "func3": "3",
-  "stat3": "coldmindam",
-  "*eol": "0"
+  "stat3": "coldmindam"
  },
  "dmg-elem-max": {
   "code": "dmg-elem-max",
@@ -2331,8 +2080,7 @@
   "func3": "3",
   "stat3": "coldmaxdam",
   "func4": "17",
-  "stat4": "coldlength",
-  "*eol": "0"
+  "stat4": "coldlength"
  },
  "all-stats": {
   "code": "all-stats",
@@ -2344,24 +2092,21 @@
   "func3": "3",
   "stat3": "dexterity",
   "func4": "3",
-  "stat4": "vitality",
-  "*eol": "0"
+  "stat4": "vitality"
  },
  "addxp": {
   "code": "addxp",
   "*done": "1",
   "func1": "1",
   "stat1": "item_addexperience",
-  "*desc": "additional xp gain",
-  "*eol": "0"
+  "*desc": "additional xp gain"
  },
  "heal-kill": {
   "code": "heal-kill",
   "*done": "1",
   "func1": "1",
   "stat1": "item_healafterkill",
-  "*desc": "life gained after each kill",
-  "*eol": "0"
+  "*desc": "life gained after each kill"
  },
  "cheap": {
   "code": "cheap",
@@ -2371,8 +2116,7 @@
   "*desc": "reduces vendor prices",
   "*min": "min",
   "*max": "max",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "rip": {
   "code": "rip",
@@ -2382,8 +2126,7 @@
   "*desc": "slain monsters' corpses can't be used",
   "*min": "1",
   "*max": "1",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "att-mon%": {
   "code": "att-mon%",
@@ -2393,8 +2136,7 @@
   "*desc": "attack% vs. monster type",
   "*param": "mon type",
   "*min": "min",
-  "*max": "max",
-  "*eol": "0"
+  "*max": "max"
  },
  "dmg-mon%": {
   "code": "dmg-mon%",
@@ -2404,8 +2146,7 @@
   "*desc": "damage% vs. monster type",
   "*param": "mon type",
   "*min": "min",
-  "*max": "max",
-  "*eol": "0"
+  "*max": "max"
  },
  "kill-skill": {
   "code": "kill-skill",
@@ -2415,8 +2156,7 @@
   "*desc": "Proc Skill on killing something",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level",
-  "*eol": "0"
+  "*max": "Level"
  },
  "death-skill": {
   "code": "death-skill",
@@ -2426,8 +2166,7 @@
   "*desc": "Proc Skill on getting killed",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level",
-  "*eol": "0"
+  "*max": "Level"
  },
  "levelup-skill": {
   "code": "levelup-skill",
@@ -2437,8 +2176,7 @@
   "*desc": "Proc Skill on level up",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level",
-  "*eol": "0"
+  "*max": "Level"
  },
  "skill-rand": {
   "code": "skill-rand",
@@ -2448,8 +2186,7 @@
   "*desc": "Bonus to random skill",
   "*param": "Level",
   "*min": "min Skill #",
-  "*max": "max Skill #",
-  "*eol": "0"
+  "*max": "max Skill #"
  },
  "fade": {
   "code": "fade",
@@ -2457,21 +2194,18 @@
   "func1": "17",
   "stat1": "fade",
   "*desc": "only use on monprop",
-  "*param": "fade type",
-  "*eol": "0"
+  "*param": "fade type"
  },
  "levelreq": {
   "code": "levelreq",
   "*done": "1",
   "func1": "1",
-  "stat1": "item_levelreq",
-  "*eol": "0"
+  "stat1": "item_levelreq"
  },
  "ethereal": {
   "code": "ethereal",
   "*done": "1",
-  "func1": "23",
-  "*eol": "0"
+  "func1": "23"
  },
  "oskill": {
   "code": "oskill",
@@ -2481,8 +2215,7 @@
   "*param": "Skill",
   "*min": "min level",
   "*max": "max level",
-  "*notes": "none",
-  "*eol": "0"
+  "*notes": "none"
  },
  "state": {
   "code": "state",
@@ -2491,8 +2224,7 @@
   "stat1": "state",
   "*param": "state",
   "*min": "1",
-  "*max": "1",
-  "*eol": "0"
+  "*max": "1"
  },
  "randclassskill": {
   "code": "randclassskill",

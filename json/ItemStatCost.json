@@ -1,11 +1,9 @@
 {
  "strength": {
   "Stat": "strength",
-  "ID": "0",
   "Send Other": "1",
   "Send Bits": "11",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "10",
   "fMin": "1",
   "MinAccr": "1",
@@ -26,15 +24,13 @@
   "dgrpval": "1",
   "dgrpstrpos": "Moditem2allattrib",
   "dgrpstrneg": "Moditem2allattrib",
-  "stuff": "6",
-  "*eol": "0"
+  "stuff": "6"
  },
  "energy": {
   "Stat": "energy",
   "ID": "1",
   "Send Bits": "11",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "10",
   "fMin": "1",
   "MinAccr": "1",
@@ -56,8 +52,7 @@
   "dgrpfunc": "1",
   "dgrpval": "1",
   "dgrpstrpos": "Moditem2allattrib",
-  "dgrpstrneg": "Moditem2allattrib",
-  "*eol": "0"
+  "dgrpstrneg": "Moditem2allattrib"
  },
  "dexterity": {
   "Stat": "dexterity",
@@ -65,7 +60,6 @@
   "Send Other": "1",
   "Send Bits": "11",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "10",
   "fMin": "1",
   "MinAccr": "1",
@@ -85,15 +79,13 @@
   "dgrpfunc": "1",
   "dgrpval": "1",
   "dgrpstrpos": "Moditem2allattrib",
-  "dgrpstrneg": "Moditem2allattrib",
-  "*eol": "0"
+  "dgrpstrneg": "Moditem2allattrib"
  },
  "vitality": {
   "Stat": "vitality",
   "ID": "3",
   "Send Bits": "11",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "10",
   "fMin": "1",
   "MinAccr": "1",
@@ -116,48 +108,40 @@
   "dgrpfunc": "1",
   "dgrpval": "1",
   "dgrpstrpos": "Moditem2allattrib",
-  "dgrpstrneg": "Moditem2allattrib",
-  "*eol": "0"
+  "dgrpstrneg": "Moditem2allattrib"
  },
  "statpts": {
   "Stat": "statpts",
   "ID": "4",
   "Send Bits": "9",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "10",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "newskills": {
   "Stat": "newskills",
   "ID": "5",
   "Send Bits": "9",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "8",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "hitpoints": {
   "Stat": "hitpoints",
   "ID": "6",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "21",
   "Divide": "1024",
   "ValShift": "8",
   "direct": "1",
-  "maxstat": "maxhp",
-  "*eol": "0"
+  "maxstat": "maxhp"
  },
  "maxhp": {
   "Stat": "maxhp",
   "ID": "7",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "21",
   "fCallback": "1",
   "fMin": "1",
@@ -174,33 +158,28 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1u",
-  "descstrneg": "ModStr1u",
-  "*eol": "0"
+  "descstrneg": "ModStr1u"
  },
  "mana": {
   "Stat": "mana",
   "ID": "8",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "21",
   "Divide": "1024",
   "ValShift": "8",
   "keepzero": "1",
   "direct": "1",
-  "maxstat": "maxmana",
-  "*eol": "0"
+  "maxstat": "maxmana"
  },
  "maxmana": {
   "Stat": "maxmana",
   "ID": "9",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "21",
   "fCallback": "1",
   "fMin": "1",
-  "MinAccr": "0",
   "Add": "81",
   "Multiply": "20",
   "Divide": "1024",
@@ -213,33 +192,28 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1e",
-  "descstrneg": "ModStr1e",
-  "*eol": "0"
+  "descstrneg": "ModStr1e"
  },
  "stamina": {
   "Stat": "stamina",
   "ID": "10",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "21",
   "Divide": "1024",
   "ValShift": "8",
   "keepzero": "1",
   "direct": "1",
-  "maxstat": "maxstamina",
-  "*eol": "0"
+  "maxstat": "maxstamina"
  },
  "maxstamina": {
   "Stat": "maxstamina",
   "ID": "11",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "21",
   "fCallback": "1",
   "fMin": "1",
-  "MinAccr": "0",
   "Add": "75",
   "Multiply": "20",
   "Divide": "1024",
@@ -252,48 +226,39 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5d",
-  "descstrneg": "ModStr5d",
-  "*eol": "0"
+  "descstrneg": "ModStr5d"
  },
  "level": {
   "Stat": "level",
   "ID": "12",
   "Send Bits": "9",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "7",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "experience": {
   "Stat": "experience",
   "ID": "13",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "gold": {
   "Stat": "gold",
   "ID": "14",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "25",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "goldbank": {
   "Stat": "goldbank",
   "ID": "15",
   "Send Bits": "32",
   "Saved": "1",
-  "CSvSigned": "0",
   "CSvBits": "25",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_armor_percent": {
   "Stat": "item_armor_percent",
@@ -304,17 +269,14 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "9",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "op": "13",
   "op stat1": "armorclass",
   "descpriority": "74",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "Modstr2v",
-  "descstrneg": "Modstr2v",
-  "*eol": "0"
+  "descstrneg": "Modstr2v"
  },
  "item_maxdamage_percent": {
   "Stat": "item_maxdamage_percent",
@@ -325,9 +287,7 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "9",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "op": "13",
   "op stat1": "maxdamage",
   "op stat2": "secondary_maxdamage",
@@ -335,10 +295,8 @@
   "damagerelated": "1",
   "descpriority": "129",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr2j",
-  "descstrneg": "ModStr2j",
-  "*eol": "0"
+  "descstrneg": "ModStr2j"
  },
  "item_mindamage_percent": {
   "Stat": "item_mindamage_percent",
@@ -349,9 +307,7 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "9",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "op": "13",
   "op stat1": "mindamage",
   "op stat2": "secondary_mindamage",
@@ -359,10 +315,8 @@
   "damagerelated": "1",
   "descpriority": "130",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr2k",
-  "descstrneg": "ModStr2k",
-  "*eol": "0"
+  "descstrneg": "ModStr2k"
  },
  "tohit": {
   "Stat": "tohit",
@@ -379,8 +333,7 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1h",
-  "descstrneg": "ModStr1h",
-  "*eol": "0"
+  "descstrneg": "ModStr1h"
  },
  "toblock": {
   "Stat": "toblock",
@@ -391,15 +344,12 @@
   "Multiply": "204",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "descpriority": "134",
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr3g",
-  "descstrneg": "ModStr3g",
-  "*eol": "0"
+  "descstrneg": "ModStr3g"
  },
  "mindamage": {
   "Stat": "mindamage",
@@ -410,16 +360,13 @@
   "Multiply": "25",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "127",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1g",
-  "descstrneg": "ModStr1g",
-  "*eol": "0"
+  "descstrneg": "ModStr1g"
  },
  "maxdamage": {
   "Stat": "maxdamage",
@@ -430,16 +377,13 @@
   "Multiply": "16",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "126",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1f",
-  "descstrneg": "ModStr1f",
-  "*eol": "0"
+  "descstrneg": "ModStr1f"
  },
  "secondary_mindamage": {
   "Stat": "secondary_mindamage",
@@ -450,16 +394,13 @@
   "Multiply": "15",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "124",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1g",
-  "descstrneg": "ModStr1g",
-  "*eol": "0"
+  "descstrneg": "ModStr1g"
  },
  "secondary_maxdamage": {
   "Stat": "secondary_maxdamage",
@@ -470,16 +411,13 @@
   "Multiply": "11",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "123",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1f",
-  "descstrneg": "ModStr1f",
-  "*eol": "0"
+  "descstrneg": "ModStr1f"
  },
  "damagepercent": {
   "Stat": "damagepercent",
@@ -490,21 +428,15 @@
   "Multiply": "40",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "manarecovery": {
   "Stat": "manarecovery",
   "ID": "26",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "manarecoverybonus": {
   "Stat": "manarecoverybonus",
@@ -513,15 +445,12 @@
   "Send Bits": "16",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "52",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr4g",
-  "descstrneg": "ModStr4g",
-  "*eol": "0"
+  "descstrneg": "ModStr4g"
  },
  "staminarecoverybonus": {
   "Stat": "staminarecoverybonus",
@@ -530,29 +459,24 @@
   "Send Bits": "16",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "48",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr3v",
-  "descstrneg": "ModStr3v",
-  "*eol": "0"
+  "descstrneg": "ModStr3v"
  },
  "lastexp": {
   "Stat": "lastexp",
   "ID": "29",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "nextexp": {
   "Stat": "nextexp",
   "ID": "30",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "armorclass": {
   "Stat": "armorclass",
@@ -570,8 +494,7 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1i",
-  "descstrneg": "ModStr1i",
-  "*eol": "0"
+  "descstrneg": "ModStr1i"
  },
  "armorclass_vs_missile": {
   "Stat": "armorclass_vs_missile",
@@ -582,15 +505,12 @@
   "Multiply": "5",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "descpriority": "69",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr6a",
-  "descstrneg": "ModStr6a",
-  "*eol": "0"
+  "descstrneg": "ModStr6a"
  },
  "armorclass_vs_hth": {
   "Stat": "armorclass_vs_hth",
@@ -601,15 +521,12 @@
   "Multiply": "7",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "70",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr6b",
-  "descstrneg": "ModStr6b",
-  "*eol": "0"
+  "descstrneg": "ModStr6b"
  },
  "normal_damage_reduction": {
   "Stat": "normal_damage_reduction",
@@ -620,15 +537,12 @@
   "Multiply": "200",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "descpriority": "22",
   "descfunc": "3",
   "descval": "2",
   "descstrpos": "ModStr2u",
-  "descstrneg": "ModStr2u",
-  "*eol": "0"
+  "descstrneg": "ModStr2u"
  },
  "magic_damage_reduction": {
   "Stat": "magic_damage_reduction",
@@ -639,15 +553,12 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "descpriority": "21",
   "descfunc": "3",
   "descval": "2",
   "descstrpos": "ModStr2t",
-  "descstrneg": "ModStr2t",
-  "*eol": "0"
+  "descstrneg": "ModStr2t"
  },
  "damageresist": {
   "Stat": "damageresist",
@@ -658,15 +569,12 @@
   "Multiply": "68",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "22",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr2u",
-  "descstrneg": "ModStr2u",
-  "*eol": "0"
+  "descstrneg": "ModStr2u"
  },
  "magicresist": {
   "Stat": "magicresist",
@@ -677,15 +585,12 @@
   "Multiply": "68",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "41",
   "descfunc": "4",
   "descval": "2",
   "descstrpos": "ModStr1m",
-  "descstrneg": "ModStr1m",
-  "*eol": "0"
+  "descstrneg": "ModStr1m"
  },
  "maxmagicresist": {
   "Stat": "maxmagicresist",
@@ -696,15 +601,12 @@
   "Multiply": "409",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "descpriority": "46",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr5x",
-  "descstrneg": "ModStr5x",
-  "*eol": "0"
+  "descstrneg": "ModStr5x"
  },
  "fireresist": {
   "Stat": "fireresist",
@@ -715,7 +617,6 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
   "Save Add": "50",
   "descpriority": "36",
@@ -726,8 +627,7 @@
   "dgrp": "2",
   "dgrpfunc": "19",
   "dgrpstrpos": "strModAllResistances",
-  "dgrpstrneg": "strModAllResistances",
-  "*eol": "0"
+  "dgrpstrneg": "strModAllResistances"
  },
  "maxfireresist": {
   "Stat": "maxfireresist",
@@ -738,15 +638,12 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "descpriority": "42",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr5u",
-  "descstrneg": "ModStr5u",
-  "*eol": "0"
+  "descstrneg": "ModStr5u"
  },
  "lightresist": {
   "Stat": "lightresist",
@@ -757,7 +654,6 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
   "Save Add": "50",
   "descpriority": "38",
@@ -768,8 +664,7 @@
   "dgrp": "2",
   "dgrpfunc": "19",
   "dgrpstrpos": "strModAllResistances",
-  "dgrpstrneg": "strModAllResistances",
-  "*eol": "0"
+  "dgrpstrneg": "strModAllResistances"
  },
  "maxlightresist": {
   "Stat": "maxlightresist",
@@ -780,15 +675,12 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "descpriority": "43",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr5w",
-  "descstrneg": "ModStr5w",
-  "*eol": "0"
+  "descstrneg": "ModStr5w"
  },
  "coldresist": {
   "Stat": "coldresist",
@@ -799,7 +691,6 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
   "Save Add": "50",
   "descpriority": "40",
@@ -810,8 +701,7 @@
   "dgrp": "2",
   "dgrpfunc": "19",
   "dgrpstrpos": "strModAllResistances",
-  "dgrpstrneg": "strModAllResistances",
-  "*eol": "0"
+  "dgrpstrneg": "strModAllResistances"
  },
  "maxcoldresist": {
   "Stat": "maxcoldresist",
@@ -822,15 +712,12 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "descpriority": "44",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr5v",
-  "descstrneg": "ModStr5v",
-  "*eol": "0"
+  "descstrneg": "ModStr5v"
  },
  "poisonresist": {
   "Stat": "poisonresist",
@@ -841,7 +728,6 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
   "Save Add": "50",
   "descpriority": "34",
@@ -852,8 +738,7 @@
   "dgrp": "2",
   "dgrpfunc": "19",
   "dgrpstrpos": "strModAllResistances",
-  "dgrpstrneg": "strModAllResistances",
-  "*eol": "0"
+  "dgrpstrneg": "strModAllResistances"
  },
  "maxpoisonresist": {
   "Stat": "maxpoisonresist",
@@ -864,23 +749,19 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "descpriority": "45",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr5y",
-  "descstrneg": "ModStr5y",
-  "*eol": "0"
+  "descstrneg": "ModStr5y"
  },
  "damageaura": {
   "Stat": "damageaura",
   "ID": "47",
   "Signed": "1",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "firemindam": {
   "Stat": "firemindam",
@@ -891,16 +772,13 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "102",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1p",
-  "descstrneg": "ModStr1p",
-  "*eol": "0"
+  "descstrneg": "ModStr1p"
  },
  "firemaxdam": {
   "Stat": "firemaxdam",
@@ -911,16 +789,13 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "101",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1o",
-  "descstrneg": "ModStr1o",
-  "*eol": "0"
+  "descstrneg": "ModStr1o"
  },
  "lightmindam": {
   "Stat": "lightmindam",
@@ -931,16 +806,13 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "99",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1r",
-  "descstrneg": "ModStr1r",
-  "*eol": "0"
+  "descstrneg": "ModStr1r"
  },
  "lightmaxdam": {
   "Stat": "lightmaxdam",
@@ -951,16 +823,13 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "9",
-  "1.09-Save Add": "0",
   "Save Bits": "10",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "98",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1q",
-  "descstrneg": "ModStr1q",
-  "*eol": "0"
+  "descstrneg": "ModStr1q"
  },
  "magicmindam": {
   "Stat": "magicmindam",
@@ -971,16 +840,13 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "104",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "strModMagicDamage",
-  "descstrneg": "strModMagicDamage",
-  "*eol": "0"
+  "descstrneg": "strModMagicDamage"
  },
  "magicmaxdam": {
   "Stat": "magicmaxdam",
@@ -991,16 +857,13 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "103",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "strModMagicDamage",
-  "descstrneg": "strModMagicDamage",
-  "*eol": "0"
+  "descstrneg": "strModMagicDamage"
  },
  "coldmindam": {
   "Stat": "coldmindam",
@@ -1011,16 +874,13 @@
   "Multiply": "512",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "96",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1t",
-  "descstrneg": "ModStr1t",
-  "*eol": "0"
+  "descstrneg": "ModStr1t"
  },
  "coldmaxdam": {
   "Stat": "coldmaxdam",
@@ -1031,16 +891,13 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "95",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr1s",
-  "descstrneg": "ModStr1s",
-  "*eol": "0"
+  "descstrneg": "ModStr1s"
  },
  "coldlength": {
   "Stat": "coldlength",
@@ -1051,11 +908,8 @@
   "Multiply": "4",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "poisonmindam": {
   "Stat": "poisonmindam",
@@ -1066,16 +920,13 @@
   "Multiply": "28",
   "Divide": "1024",
   "1.09-Save Bits": "9",
-  "1.09-Save Add": "0",
   "Save Bits": "10",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "92",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr4i",
-  "descstrneg": "ModStr4i",
-  "*eol": "0"
+  "descstrneg": "ModStr4i"
  },
  "poisonmaxdam": {
   "Stat": "poisonmaxdam",
@@ -1086,31 +937,24 @@
   "Multiply": "34",
   "Divide": "1024",
   "1.09-Save Bits": "9",
-  "1.09-Save Add": "0",
   "Save Bits": "10",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "91",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr4h",
-  "descstrneg": "ModStr4h",
-  "*eol": "0"
+  "descstrneg": "ModStr4h"
  },
  "poisonlength": {
   "Stat": "poisonlength",
   "ID": "59",
   "Signed": "1",
   "Send Bits": "16",
-  "Add": "0",
   "Multiply": "4",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "lifedrainmindam": {
   "Stat": "lifedrainmindam",
@@ -1121,16 +965,13 @@
   "Multiply": "341",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "88",
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr2z",
-  "descstrneg": "ModStr2z",
-  "*eol": "0"
+  "descstrneg": "ModStr2z"
  },
  "lifedrainmaxdam": {
   "Stat": "lifedrainmaxdam",
@@ -1138,8 +979,7 @@
   "Signed": "1",
   "Send Bits": "16",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "manadrainmindam": {
   "Stat": "manadrainmindam",
@@ -1150,16 +990,13 @@
   "Multiply": "341",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "89",
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr2y",
-  "descstrneg": "ModStr2y",
-  "*eol": "0"
+  "descstrneg": "ModStr2y"
  },
  "manadrainmaxdam": {
   "Stat": "manadrainmaxdam",
@@ -1167,8 +1004,7 @@
   "Signed": "1",
   "Send Bits": "16",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "stamdrainmindam": {
   "Stat": "stamdrainmindam",
@@ -1176,8 +1012,7 @@
   "Signed": "1",
   "Send Bits": "16",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "stamdrainmaxdam": {
   "Stat": "stamdrainmaxdam",
@@ -1185,16 +1020,14 @@
   "Signed": "1",
   "Send Bits": "16",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "stunlength": {
   "Stat": "stunlength",
   "ID": "66",
   "Send Bits": "16",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "velocitypercent": {
   "Stat": "velocitypercent",
@@ -1207,8 +1040,7 @@
   "1.09-Save Bits": "7",
   "1.09-Save Add": "30",
   "Save Bits": "7",
-  "Save Add": "30",
-  "*eol": "0"
+  "Save Add": "30"
  },
  "attackrate": {
   "Stat": "attackrate",
@@ -1222,8 +1054,7 @@
   "1.09-Save Add": "30",
   "Save Bits": "7",
   "Save Add": "30",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "other_animrate": {
   "Stat": "other_animrate",
@@ -1232,8 +1063,7 @@
   "Signed": "1",
   "Send Bits": "10",
   "UpdateAnimRate": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "quantity": {
   "Stat": "quantity",
@@ -1242,8 +1072,7 @@
   "Send Bits": "16",
   "Divide": "1024",
   "itemspecific": "1",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "value": {
   "Stat": "value",
@@ -1255,8 +1084,7 @@
   "1.09-Save Add": "100",
   "Save Bits": "8",
   "Save Add": "100",
-  "itemspecific": "1",
-  "*eol": "0"
+  "itemspecific": "1"
  },
  "durability": {
   "Stat": "durability",
@@ -1265,13 +1093,10 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "0",
   "direct": "1",
   "maxstat": "maxdurability",
-  "itemspecific": "1",
-  "*eol": "0"
+  "itemspecific": "1"
  },
  "maxdurability": {
   "Stat": "maxdurability",
@@ -1282,11 +1107,8 @@
   "Multiply": "4",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
-  "itemspecific": "1",
-  "*eol": "0"
+  "itemspecific": "1"
  },
  "hpregen": {
   "Stat": "hpregen",
@@ -1302,8 +1124,7 @@
   "descfunc": "1",
   "descval": "2",
   "descstrpos": "ModStr2l",
-  "descstrneg": "ModStr2w",
-  "*eol": "0"
+  "descstrneg": "ModStr2w"
  },
  "item_maxdurability_percent": {
   "Stat": "item_maxdurability_percent",
@@ -1323,8 +1144,7 @@
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr2i",
-  "descstrneg": "ModStr2i",
-  "*eol": "0"
+  "descstrneg": "ModStr2i"
  },
  "item_maxhp_percent": {
   "Stat": "item_maxhp_percent",
@@ -1344,8 +1164,7 @@
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr2g",
-  "descstrneg": "ModStr2g",
-  "*eol": "0"
+  "descstrneg": "ModStr2g"
  },
  "item_maxmana_percent": {
   "Stat": "item_maxmana_percent",
@@ -1365,8 +1184,7 @@
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr2h",
-  "descstrneg": "ModStr2h",
-  "*eol": "0"
+  "descstrneg": "ModStr2h"
  },
  "item_attackertakesdamage": {
   "Stat": "item_attackertakesdamage",
@@ -1378,17 +1196,14 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "itemevent1": "damagedinmelee",
   "itemeventfunc1": "6",
   "descpriority": "13",
   "descfunc": "3",
   "descval": "2",
   "descstrpos": "ModStr1v",
-  "descstrneg": "ModStr1v",
-  "*eol": "0"
+  "descstrneg": "ModStr1v"
  },
  "item_goldbonus": {
   "Stat": "item_goldbonus",
@@ -1406,8 +1221,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr1w",
-  "descstrneg": "ModStr1w",
-  "*eol": "0"
+  "descstrneg": "ModStr1w"
  },
  "item_magicbonus": {
   "Stat": "item_magicbonus",
@@ -1425,8 +1239,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr1x",
-  "descstrneg": "ModStr1x",
-  "*eol": "0"
+  "descstrneg": "ModStr1x"
  },
  "item_knockback": {
   "Stat": "item_knockback",
@@ -1435,12 +1248,9 @@
   "Send Bits": "8",
   "fCallback": "1",
   "Add": "105",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
   "itemeventfunc1": "7",
@@ -1448,10 +1258,8 @@
   "itemeventfunc2": "7",
   "descpriority": "76",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr1y",
-  "descstrneg": "ModStr1y",
-  "*eol": "0"
+  "descstrneg": "ModStr1y"
  },
  "item_timeduration": {
   "Stat": "item_timeduration",
@@ -1462,8 +1270,7 @@
   "1.09-Save Bits": "9",
   "1.09-Save Add": "20",
   "Save Bits": "9",
-  "Save Add": "20",
-  "*eol": "0"
+  "Save Add": "20"
  },
  "item_addclassskills": {
   "Stat": "item_addclassskills",
@@ -1476,24 +1283,19 @@
   "Multiply": "1560",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "3",
-  "Save Add": "0",
   "Save Param Bits": "3",
   "descpriority": "150",
   "descfunc": "13",
   "descval": "1",
   "descstrpos": "ModStr3a",
-  "descstrneg": "ModStr3a",
-  "*eol": "0"
+  "descstrneg": "ModStr3a"
  },
  "unsentparam1": {
   "Stat": "unsentparam1",
   "ID": "84",
   "Divide": "1024",
-  "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "3"
  },
  "item_addexperience": {
   "Stat": "item_addexperience",
@@ -1504,15 +1306,13 @@
   "Multiply": "519",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Add": "50",
   "descpriority": "11",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "Moditem2ExpG",
-  "descstrneg": "Moditem2ExpG",
-  "*eol": "0"
+  "descstrneg": "Moditem2ExpG"
  },
  "item_healafterkill": {
   "Stat": "item_healafterkill",
@@ -1524,17 +1324,14 @@
   "Multiply": "101",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "itemevent1": "kill",
   "itemeventfunc1": "28",
   "descpriority": "16",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModitemHPaK",
-  "descstrneg": "ModitemHPaK",
-  "*eol": "0"
+  "descstrneg": "ModitemHPaK"
  },
  "item_reducedprices": {
   "Stat": "item_reducedprices",
@@ -1544,15 +1341,12 @@
   "Multiply": "203",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "8",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModitemRedVendP",
-  "descstrneg": "ModitemRedVendP",
-  "*eol": "0"
+  "descstrneg": "ModitemRedVendP"
  },
  "item_doubleherbduration": {
   "Stat": "item_doubleherbduration",
@@ -1561,10 +1355,7 @@
   "Send Bits": "2",
   "Divide": "1024",
   "1.09-Save Bits": "1",
-  "1.09-Save Add": "0",
-  "Save Bits": "1",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "1"
  },
  "item_lightradius": {
   "Stat": "item_lightradius",
@@ -1583,8 +1374,7 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr3f",
-  "descstrneg": "ModStr3f",
-  "*eol": "0"
+  "descstrneg": "ModStr3f"
  },
  "item_lightcolor": {
   "Stat": "item_lightcolor",
@@ -1593,13 +1383,9 @@
   "Send Bits": "24",
   "fCallback": "1",
   "Add": "155",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
-  "Save Bits": "24",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "24"
  },
  "item_req_percent": {
   "Stat": "item_req_percent",
@@ -1613,12 +1399,10 @@
   "1.09-Save Add": "100",
   "Save Bits": "8",
   "Save Add": "100",
-  "descpriority": "0",
   "descfunc": "4",
   "descval": "2",
   "descstrpos": "ModStr3h",
-  "descstrneg": "ModStr3h",
-  "*eol": "0"
+  "descstrneg": "ModStr3h"
  },
  "item_levelreq": {
   "Stat": "item_levelreq",
@@ -1626,8 +1410,7 @@
   "Divide": "1024",
   "1.09-Save Bits": "6",
   "1.09-Save Add": "20",
-  "Save Bits": "7",
-  "*eol": "0"
+  "Save Bits": "7"
  },
  "item_fasterattackrate": {
   "Stat": "item_fasterattackrate",
@@ -1647,8 +1430,7 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4m",
-  "descstrneg": "ModStr4m",
-  "*eol": "0"
+  "descstrneg": "ModStr4m"
  },
  "item_levelreqpct": {
   "Stat": "item_levelreqpct",
@@ -1659,16 +1441,14 @@
   "Save Bits": "7",
   "Save Add": "64",
   "op": "13",
-  "op stat1": "item_levelreq",
-  "*eol": "0"
+  "op stat1": "item_levelreq"
  },
  "lastblockframe": {
   "Stat": "lastblockframe",
   "ID": "95",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "20",
-  "*eol": "0"
+  "1.09-Save Add": "20"
  },
  "item_fastermovevelocity": {
   "Stat": "item_fastermovevelocity",
@@ -1687,8 +1467,7 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4s",
-  "descstrneg": "ModStr4s",
-  "*eol": "0"
+  "descstrneg": "ModStr4s"
  },
  "item_nonclassskill": {
   "Stat": "item_nonclassskill",
@@ -1704,11 +1483,9 @@
   "1.09-Save Bits": "7",
   "1.09-Save Add": "20",
   "Save Bits": "6",
-  "Save Add": "0",
   "Save Param Bits": "9",
   "descpriority": "81",
-  "descfunc": "28",
-  "*eol": "0"
+  "descfunc": "28"
  },
  "state": {
   "Stat": "state",
@@ -1723,8 +1500,7 @@
   "1.09-Save Bits": "6",
   "1.09-Save Add": "20",
   "Save Bits": "1",
-  "Save Param Bits": "8",
-  "*eol": "0"
+  "Save Param Bits": "8"
  },
  "item_fastergethitrate": {
   "Stat": "item_fastergethitrate",
@@ -1743,16 +1519,14 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4p",
-  "descstrneg": "ModStr4p",
-  "*eol": "0"
+  "descstrneg": "ModStr4p"
  },
  "monster_playercount": {
   "Stat": "monster_playercount",
   "ID": "100",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "20",
-  "*eol": "0"
+  "1.09-Save Add": "20"
  },
  "skill_poison_override_length": {
   "Stat": "skill_poison_override_length",
@@ -1760,8 +1534,7 @@
   "Send Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "20",
-  "*eol": "0"
+  "1.09-Save Add": "20"
  },
  "item_fasterblockrate": {
   "Stat": "item_fasterblockrate",
@@ -1780,8 +1553,7 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4y",
-  "descstrneg": "ModStr4y",
-  "*eol": "0"
+  "descstrneg": "ModStr4y"
  },
  "skill_bypass_undead": {
   "Stat": "skill_bypass_undead",
@@ -1789,8 +1561,7 @@
   "Send Bits": "1",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "20",
-  "*eol": "0"
+  "1.09-Save Add": "20"
  },
  "skill_bypass_demons": {
   "Stat": "skill_bypass_demons",
@@ -1798,8 +1569,7 @@
   "Send Bits": "1",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "20",
-  "*eol": "0"
+  "1.09-Save Add": "20"
  },
  "item_fastercastrate": {
   "Stat": "item_fastercastrate",
@@ -1818,8 +1588,7 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4v",
-  "descstrneg": "ModStr4v",
-  "*eol": "0"
+  "descstrneg": "ModStr4v"
  },
  "skill_bypass_beasts": {
   "Stat": "skill_bypass_beasts",
@@ -1827,8 +1596,7 @@
   "Send Bits": "1",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "20",
-  "*eol": "0"
+  "1.09-Save Add": "20"
  },
  "item_singleskill": {
   "Stat": "item_singleskill",
@@ -1842,13 +1610,10 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
   "Save Bits": "3",
-  "Save Add": "0",
   "Save Param Bits": "9",
   "descpriority": "81",
-  "descfunc": "27",
-  "*eol": "0"
+  "descfunc": "27"
  },
  "item_restinpeace": {
   "Stat": "item_restinpeace",
@@ -1856,21 +1621,16 @@
   "Send Bits": "1",
   "fCallback": "1",
   "Add": "1987",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
   "Save Bits": "1",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "kill",
   "itemeventfunc1": "29",
   "descpriority": "81",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModitemSMRIP",
-  "descstrneg": "ModitemSMRIP",
-  "*eol": "0"
+  "descstrneg": "ModitemSMRIP"
  },
  "curse_resistance": {
   "Stat": "curse_resistance",
@@ -1880,10 +1640,7 @@
   "Multiply": "33",
   "Divide": "1024",
   "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "Save Bits": "9",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "9"
  },
  "item_poisonlengthresist": {
   "Stat": "item_poisonlengthresist",
@@ -1901,8 +1658,7 @@
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr3r",
-  "descstrneg": "ModStr3r",
-  "*eol": "0"
+  "descstrneg": "ModStr3r"
  },
  "item_normaldamage": {
   "Stat": "item_normaldamage",
@@ -1921,8 +1677,7 @@
   "descfunc": "1",
   "descval": "2",
   "descstrpos": "ModStr5b",
-  "descstrneg": "ModStr5b",
-  "*eol": "0"
+  "descstrneg": "ModStr5b"
  },
  "item_howl": {
   "Stat": "item_howl",
@@ -1946,8 +1701,7 @@
   "descfunc": "5",
   "descval": "2",
   "descstrpos": "ModStr3u",
-  "descstrneg": "ModStr3u",
-  "*eol": "0"
+  "descstrneg": "ModStr3u"
  },
  "item_stupidity": {
   "Stat": "item_stupidity",
@@ -1959,9 +1713,7 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
   "itemeventfunc1": "9",
@@ -1971,8 +1723,7 @@
   "descfunc": "12",
   "descval": "2",
   "descstrpos": "ModStr6d",
-  "descstrneg": "ModStr6d",
-  "*eol": "0"
+  "descstrneg": "ModStr6d"
  },
  "item_damagetomana": {
   "Stat": "item_damagetomana",
@@ -1984,9 +1735,7 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "itemevent1": "damagedinmelee",
   "itemeventfunc1": "13",
   "itemevent2": "damagedbymissile",
@@ -1995,8 +1744,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr3w",
-  "descstrneg": "ModStr3w",
-  "*eol": "0"
+  "descstrneg": "ModStr3w"
  },
  "item_ignoretargetac": {
   "Stat": "item_ignoretargetac",
@@ -2007,16 +1755,12 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "1",
-  "1.09-Save Add": "0",
   "Save Bits": "1",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "119",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr3y",
-  "descstrneg": "ModStr3y",
-  "*eol": "0"
+  "descstrneg": "ModStr3y"
  },
  "item_fractionaltargetac": {
   "Stat": "item_fractionaltargetac",
@@ -2027,16 +1771,13 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "118",
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "ModStr5o",
-  "descstrneg": "ModStr5o",
-  "*eol": "0"
+  "descstrneg": "ModStr5o"
  },
  "item_preventheal": {
   "Stat": "item_preventheal",
@@ -2047,16 +1788,12 @@
   "Multiply": "50",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "81",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr4a",
-  "descstrneg": "ModStr4a",
-  "*eol": "0"
+  "descstrneg": "ModStr4a"
  },
  "item_halffreezeduration": {
   "Stat": "item_halffreezeduration",
@@ -2067,15 +1804,11 @@
   "Multiply": "988",
   "Divide": "1024",
   "1.09-Save Bits": "1",
-  "1.09-Save Add": "0",
   "Save Bits": "1",
-  "Save Add": "0",
   "descpriority": "19",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr4b",
-  "descstrneg": "ModStr4b",
-  "*eol": "0"
+  "descstrneg": "ModStr4b"
  },
  "item_tohit_percent": {
   "Stat": "item_tohit_percent",
@@ -2094,8 +1827,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr4c",
-  "descstrneg": "ModStr4c",
-  "*eol": "0"
+  "descstrneg": "ModStr4c"
  },
  "item_damagetargetac": {
   "Stat": "item_damagetargetac",
@@ -2114,8 +1846,7 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr4d",
-  "descstrneg": "ModStr4d",
-  "*eol": "0"
+  "descstrneg": "ModStr4d"
  },
  "item_demondamage_percent": {
   "Stat": "item_demondamage_percent",
@@ -2134,8 +1865,7 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4e",
-  "descstrneg": "ModStr4e",
-  "*eol": "0"
+  "descstrneg": "ModStr4e"
  },
  "item_undeaddamage_percent": {
   "Stat": "item_undeaddamage_percent",
@@ -2154,8 +1884,7 @@
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModStr4f",
-  "descstrneg": "ModStr4f",
-  "*eol": "0"
+  "descstrneg": "ModStr4f"
  },
  "item_demon_tohit": {
   "Stat": "item_demon_tohit",
@@ -2174,8 +1903,7 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr4j",
-  "descstrneg": "ModStr4j",
-  "*eol": "0"
+  "descstrneg": "ModStr4j"
  },
  "item_undead_tohit": {
   "Stat": "item_undead_tohit",
@@ -2194,8 +1922,7 @@
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr4k",
-  "descstrneg": "ModStr4k",
-  "*eol": "0"
+  "descstrneg": "ModStr4k"
  },
  "item_throwable": {
   "Stat": "item_throwable",
@@ -2206,15 +1933,11 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "1",
-  "1.09-Save Add": "0",
   "Save Bits": "1",
-  "Save Add": "0",
   "descpriority": "5",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr5a",
-  "descstrneg": "ModStr5a",
-  "*eol": "0"
+  "descstrneg": "ModStr5a"
  },
  "item_elemskill": {
   "Stat": "item_elemskill",
@@ -2227,16 +1950,13 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "4",
-  "1.09-Save Add": "0",
   "Save Bits": "3",
-  "Save Add": "0",
   "Save Param Bits": "3",
   "descpriority": "157",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr3i",
-  "descstrneg": "ModStr3i",
-  "*eol": "0"
+  "descstrneg": "ModStr3i"
  },
  "item_allskills": {
   "Stat": "item_allskills",
@@ -2248,15 +1968,12 @@
   "Multiply": "4096",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "3",
-  "Save Add": "0",
   "descpriority": "158",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr3k",
-  "descstrneg": "ModStr3k",
-  "*eol": "0"
+  "descstrneg": "ModStr3k"
  },
  "item_attackertakeslightdamage": {
   "Stat": "item_attackertakeslightdamage",
@@ -2268,56 +1985,48 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "itemevent1": "damagedinmelee",
   "itemeventfunc1": "10",
   "descpriority": "14",
   "descfunc": "3",
   "descval": "2",
   "descstrpos": "ModStr3j",
-  "descstrneg": "ModStr3j",
-  "*eol": "0"
+  "descstrneg": "ModStr3j"
  },
  "ironmaiden_level": {
   "Stat": "ironmaiden_level",
   "ID": "129",
   "Signed": "1",
   "Send Bits": "10",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "lifetap_level": {
   "Stat": "lifetap_level",
   "ID": "130",
   "Signed": "1",
   "Send Bits": "10",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "thorns_percent": {
   "Stat": "thorns_percent",
   "ID": "131",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "bonearmor": {
   "Stat": "bonearmor",
   "ID": "132",
   "Signed": "1",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "bonearmormax": {
   "Stat": "bonearmormax",
   "ID": "133",
   "Signed": "1",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_freeze": {
   "Stat": "item_freeze",
@@ -2329,9 +2038,7 @@
   "Multiply": "12",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
   "itemeventfunc1": "14",
@@ -2341,8 +2048,7 @@
   "descfunc": "12",
   "descval": "2",
   "descstrpos": "ModStr3l",
-  "descstrneg": "ModStr3l",
-  "*eol": "0"
+  "descstrneg": "ModStr3l"
  },
  "item_openwounds": {
   "Stat": "item_openwounds",
@@ -2354,9 +2060,7 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
   "itemeventfunc1": "15",
@@ -2366,8 +2070,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr3m",
-  "descstrneg": "ModStr3m",
-  "*eol": "0"
+  "descstrneg": "ModStr3m"
  },
  "item_crushingblow": {
   "Stat": "item_crushingblow",
@@ -2379,9 +2082,7 @@
   "Multiply": "40",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
   "itemeventfunc1": "16",
@@ -2391,8 +2092,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr5c",
-  "descstrneg": "ModStr5c",
-  "*eol": "0"
+  "descstrneg": "ModStr5c"
  },
  "item_kickdamage": {
   "Stat": "item_kickdamage",
@@ -2403,15 +2103,12 @@
   "Multiply": "51",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "121",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5e",
-  "descstrneg": "ModStr5e",
-  "*eol": "0"
+  "descstrneg": "ModStr5e"
  },
  "item_manaafterkill": {
   "Stat": "item_manaafterkill",
@@ -2423,17 +2120,14 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "itemevent1": "kill",
   "itemeventfunc1": "17",
   "descpriority": "16",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5f",
-  "descstrneg": "ModStr5f",
-  "*eol": "0"
+  "descstrneg": "ModStr5f"
  },
  "item_healafterdemonkill": {
   "Stat": "item_healafterdemonkill",
@@ -2445,17 +2139,14 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "itemevent1": "kill",
   "itemeventfunc1": "18",
   "descpriority": "15",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr6c",
-  "descstrneg": "ModStr6c",
-  "*eol": "0"
+  "descstrneg": "ModStr6c"
  },
  "item_extrablood": {
   "Stat": "item_extrablood",
@@ -2466,11 +2157,8 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_deadlystrike": {
   "Stat": "item_deadlystrike",
@@ -2481,16 +2169,13 @@
   "Multiply": "25",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "85",
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr5q",
-  "descstrneg": "ModStr5q",
-  "*eol": "0"
+  "descstrneg": "ModStr5q"
  },
  "item_absorbfire_percent": {
   "Stat": "item_absorbfire_percent",
@@ -2501,15 +2186,12 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "23",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr5g",
-  "descstrneg": "ModStr5g",
-  "*eol": "0"
+  "descstrneg": "ModStr5g"
  },
  "item_absorbfire": {
   "Stat": "item_absorbfire",
@@ -2520,15 +2202,12 @@
   "Multiply": "204",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "27",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5h",
-  "descstrneg": "ModStr5h",
-  "*eol": "0"
+  "descstrneg": "ModStr5h"
  },
  "item_absorblight_percent": {
   "Stat": "item_absorblight_percent",
@@ -2539,15 +2218,12 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "24",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr5i",
-  "descstrneg": "ModStr5i",
-  "*eol": "0"
+  "descstrneg": "ModStr5i"
  },
  "item_absorblight": {
   "Stat": "item_absorblight",
@@ -2558,15 +2234,12 @@
   "Multiply": "204",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "29",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5j",
-  "descstrneg": "ModStr5j",
-  "*eol": "0"
+  "descstrneg": "ModStr5j"
  },
  "item_absorbmagic_percent": {
   "Stat": "item_absorbmagic_percent",
@@ -2577,15 +2250,12 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "26",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr5k",
-  "descstrneg": "ModStr5k",
-  "*eol": "0"
+  "descstrneg": "ModStr5k"
  },
  "item_absorbmagic": {
   "Stat": "item_absorbmagic",
@@ -2596,15 +2266,12 @@
   "Multiply": "204",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "33",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5l",
-  "descstrneg": "ModStr5l",
-  "*eol": "0"
+  "descstrneg": "ModStr5l"
  },
  "item_absorbcold_percent": {
   "Stat": "item_absorbcold_percent",
@@ -2615,15 +2282,12 @@
   "Multiply": "102",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "25",
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr5m",
-  "descstrneg": "ModStr5m",
-  "*eol": "0"
+  "descstrneg": "ModStr5m"
  },
  "item_absorbcold": {
   "Stat": "item_absorbcold",
@@ -2634,15 +2298,12 @@
   "Multiply": "204",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "31",
   "descfunc": "1",
   "descval": "1",
   "descstrpos": "ModStr5n",
-  "descstrneg": "ModStr5n",
-  "*eol": "0"
+  "descstrneg": "ModStr5n"
  },
  "item_slow": {
   "Stat": "item_slow",
@@ -2654,9 +2315,7 @@
   "Multiply": "40",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
   "itemeventfunc1": "19",
@@ -2666,8 +2325,7 @@
   "descfunc": "2",
   "descval": "2",
   "descstrpos": "ModStr5r",
-  "descstrneg": "ModStr5r",
-  "*eol": "0"
+  "descstrneg": "ModStr5r"
  },
  "item_aura": {
   "Stat": "item_aura",
@@ -2676,16 +2334,12 @@
   "fCallback": "1",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "Save Param Bits": "9",
   "descpriority": "159",
   "descfunc": "16",
-  "descval": "0",
   "descstrpos": "ModitemAura",
-  "descstrneg": "ModitemAura",
-  "*eol": "0"
+  "descstrneg": "ModitemAura"
  },
  "item_indesctructible": {
   "Stat": "item_indesctructible",
@@ -2694,14 +2348,11 @@
   "Send Bits": "1",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "1",
   "descpriority": "160",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStre9s",
-  "descstrneg": "ModStre9s",
-  "*eol": "0"
+  "descstrneg": "ModStre9s"
  },
  "item_cannotbefrozen": {
   "Stat": "item_cannotbefrozen",
@@ -2715,10 +2366,8 @@
   "Save Bits": "1",
   "descpriority": "20",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr5z",
-  "descstrneg": "ModStr5z",
-  "*eol": "0"
+  "descstrneg": "ModStr5z"
  },
  "item_staminadrainpct": {
   "Stat": "item_staminadrainpct",
@@ -2737,8 +2386,7 @@
   "descfunc": "2",
   "descval": "1",
   "descstrpos": "ModStr6e",
-  "descstrneg": "ModStr6e",
-  "*eol": "0"
+  "descstrneg": "ModStr6e"
  },
  "item_reanimate": {
   "Stat": "item_reanimate",
@@ -2748,9 +2396,7 @@
   "fCallback": "1",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "10",
   "damagerelated": "1",
   "itemevent1": "kill",
@@ -2759,8 +2405,7 @@
   "descfunc": "23",
   "descval": "1",
   "descstrpos": "Moditemreanimas",
-  "descstrneg": "Moditemreanimas",
-  "*eol": "0"
+  "descstrneg": "Moditemreanimas"
  },
  "item_pierce": {
   "Stat": "item_pierce",
@@ -2771,16 +2416,12 @@
   "Multiply": "2048",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "damagerelated": "1",
   "descpriority": "132",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr6g",
-  "descstrneg": "ModStr6g",
-  "*eol": "0"
+  "descstrneg": "ModStr6g"
  },
  "item_magicarrow": {
   "Stat": "item_magicarrow",
@@ -2791,15 +2432,11 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "131",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr6h",
-  "descstrneg": "ModStr6h",
-  "*eol": "0"
+  "descstrneg": "ModStr6h"
  },
  "item_explosivearrow": {
   "Stat": "item_explosivearrow",
@@ -2810,15 +2447,11 @@
   "Multiply": "1536",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "descpriority": "133",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStr6i",
-  "descstrneg": "ModStr6i",
-  "*eol": "0"
+  "descstrneg": "ModStr6i"
  },
  "item_throw_mindamage": {
   "Stat": "item_throw_mindamage",
@@ -2829,11 +2462,8 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_throw_maxdamage": {
   "Stat": "item_throw_maxdamage",
@@ -2844,19 +2474,15 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "skill_handofathena": {
   "Stat": "skill_handofathena",
   "ID": "161",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_staminapercent": {
   "Stat": "skill_staminapercent",
@@ -2865,8 +2491,7 @@
   "Send Bits": "13",
   "Divide": "1024",
   "op": "1",
-  "op stat1": "maxstamina",
-  "*eol": "0"
+  "op stat1": "maxstamina"
  },
  "skill_passive_staminapercent": {
   "Stat": "skill_passive_staminapercent",
@@ -2875,122 +2500,106 @@
   "Send Bits": "12",
   "Divide": "1024",
   "op": "1",
-  "op stat1": "maxstamina",
-  "*eol": "0"
+  "op stat1": "maxstamina"
  },
  "skill_concentration": {
   "Stat": "skill_concentration",
   "ID": "164",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_enchant": {
   "Stat": "skill_enchant",
   "ID": "165",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_pierce": {
   "Stat": "skill_pierce",
   "ID": "166",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_conviction": {
   "Stat": "skill_conviction",
   "ID": "167",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_chillingarmor": {
   "Stat": "skill_chillingarmor",
   "ID": "168",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_frenzy": {
   "Stat": "skill_frenzy",
   "ID": "169",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_decrepify": {
   "Stat": "skill_decrepify",
   "ID": "170",
   "Signed": "1",
   "Send Bits": "12",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "skill_armor_percent": {
   "Stat": "skill_armor_percent",
   "ID": "171",
   "Signed": "1",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "alignment": {
   "Stat": "alignment",
   "ID": "172",
   "Send Other": "1",
   "Send Bits": "2",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "target0": {
   "Stat": "target0",
   "ID": "173",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "target1": {
   "Stat": "target1",
   "ID": "174",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "goldlost": {
   "Stat": "goldlost",
   "ID": "175",
   "Send Bits": "24",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "conversion_level": {
   "Stat": "conversion_level",
   "ID": "176",
   "Send Bits": "8",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "conversion_maxhp": {
   "Stat": "conversion_maxhp",
   "ID": "177",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "unit_dooverlay": {
   "Stat": "unit_dooverlay",
   "ID": "178",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "attack_vs_montype": {
   "Stat": "attack_vs_montype",
@@ -3001,7 +2610,6 @@
   "Multiply": "14",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Param Bits": "10",
   "damagerelated": "1",
@@ -3009,8 +2617,7 @@
   "descfunc": "22",
   "descval": "1",
   "descstrpos": "ModitemAttratvsM",
-  "descstrneg": "ModitemAttratvsM",
-  "*eol": "0"
+  "descstrneg": "ModitemAttratvsM"
  },
  "damage_vs_montype": {
   "Stat": "damage_vs_montype",
@@ -3021,7 +2628,6 @@
   "Multiply": "17",
   "Divide": "1024",
   "1.09-Save Bits": "3",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Param Bits": "10",
   "damagerelated": "1",
@@ -3029,8 +2635,7 @@
   "descfunc": "22",
   "descval": "1",
   "descstrpos": "Moditemdamvsm",
-  "descstrneg": "Moditemdamvsm",
-  "*eol": "0"
+  "descstrneg": "Moditemdamvsm"
  },
  "fade": {
   "Stat": "fade",
@@ -3038,9 +2643,7 @@
   "Send Other": "1",
   "Send Bits": "7",
   "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "Save Bits": "3",
-  "*eol": "0"
+  "Save Bits": "3"
  },
  "armor_override_percent": {
   "Stat": "armor_override_percent",
@@ -3048,44 +2651,32 @@
   "Send Other": "1",
   "Signed": "1",
   "Send Bits": "8",
-  "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "14"
  },
  "unused183": {
   "Stat": "unused183",
   "ID": "183",
-  "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "14"
  },
  "unused184": {
   "Stat": "unused184",
   "ID": "184",
-  "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "14"
  },
  "unused185": {
   "Stat": "unused185",
   "ID": "185",
-  "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "14"
  },
  "unused186": {
   "Stat": "unused186",
   "ID": "186",
-  "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "14"
  },
  "unused187": {
   "Stat": "unused187",
   "ID": "187",
-  "1.09-Save Bits": "14",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "14"
  },
  "item_addskill_tab": {
   "Stat": "item_addskill_tab",
@@ -3098,55 +2689,42 @@
   "Multiply": "768",
   "Divide": "1024",
   "1.09-Save Bits": "10",
-  "1.09-Save Add": "0",
   "Save Bits": "3",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "descpriority": "151",
   "descfunc": "14",
   "descstrpos": "StrSklTabItem1",
-  "descstrneg": "StrSklTabItem1",
-  "*eol": "0"
+  "descstrneg": "StrSklTabItem1"
  },
  "unused189": {
   "Stat": "unused189",
   "ID": "189",
   "Divide": "1024",
-  "1.09-Save Bits": "10",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "10"
  },
  "unused190": {
   "Stat": "unused190",
   "ID": "190",
   "Divide": "1024",
-  "1.09-Save Bits": "10",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "10"
  },
  "unused191": {
   "Stat": "unused191",
   "ID": "191",
   "Divide": "1024",
-  "1.09-Save Bits": "10",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "10"
  },
  "unused192": {
   "Stat": "unused192",
   "ID": "192",
   "Divide": "1024",
-  "1.09-Save Bits": "10",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "10"
  },
  "unused193": {
   "Stat": "unused193",
   "ID": "193",
   "Divide": "1024",
-  "1.09-Save Bits": "10",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "10"
  },
  "item_numsockets": {
   "Stat": "item_numsockets",
@@ -3157,11 +2735,8 @@
   "Multiply": "170",
   "Divide": "1024",
   "1.09-Save Bits": "4",
-  "1.09-Save Add": "0",
   "Save Bits": "4",
-  "Save Add": "0",
-  "itemspecific": "1",
-  "*eol": "0"
+  "itemspecific": "1"
  },
  "item_skillonattack": {
   "Stat": "item_skillonattack",
@@ -3175,9 +2750,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "damagerelated": "1",
   "itemevent1": "domeleeattack",
@@ -3187,8 +2760,7 @@
   "descpriority": "160",
   "descfunc": "15",
   "descstrpos": "ItemExpansiveChancX",
-  "descstrneg": "ItemExpansiveChancX",
-  "*eol": "0"
+  "descstrneg": "ItemExpansiveChancX"
  },
  "item_skillonkill": {
   "Stat": "item_skillonkill",
@@ -3202,9 +2774,7 @@
   "Multiply": "19",
   "Divide": "1024",
   "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "damagerelated": "1",
   "itemevent1": "kill",
@@ -3212,8 +2782,7 @@
   "descpriority": "160",
   "descfunc": "15",
   "descstrpos": "ModitemskonKill",
-  "descstrneg": "ModitemskonKill",
-  "*eol": "0"
+  "descstrneg": "ModitemskonKill"
  },
  "item_skillondeath": {
   "Stat": "item_skillondeath",
@@ -3227,17 +2796,14 @@
   "Multiply": "9",
   "Divide": "1024",
   "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "itemevent1": "killed",
   "itemeventfunc1": "30",
   "descpriority": "160",
   "descfunc": "15",
   "descstrpos": "Moditemskondeath",
-  "descstrneg": "Moditemskondeath",
-  "*eol": "0"
+  "descstrneg": "Moditemskondeath"
  },
  "item_skillonhit": {
   "Stat": "item_skillonhit",
@@ -3251,9 +2817,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "damagerelated": "1",
   "itemevent1": "domeleedamage",
@@ -3263,8 +2827,7 @@
   "descpriority": "160",
   "descfunc": "15",
   "descstrpos": "ItemExpansiveChanc1",
-  "descstrneg": "ItemExpansiveChanc1",
-  "*eol": "0"
+  "descstrneg": "ItemExpansiveChanc1"
  },
  "item_skillonlevelup": {
   "Stat": "item_skillonlevelup",
@@ -3278,25 +2841,20 @@
   "Multiply": "6",
   "Divide": "1024",
   "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "itemevent1": "levelup",
   "itemeventfunc1": "30",
   "descpriority": "160",
   "descfunc": "15",
   "descstrpos": "ModitemskonLevel",
-  "descstrneg": "ModitemskonLevel",
-  "*eol": "0"
+  "descstrneg": "ModitemskonLevel"
  },
  "unused200": {
   "Stat": "unused200",
   "ID": "200",
   "Divide": "1024",
-  "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "21"
  },
  "item_skillongethit": {
   "Stat": "item_skillongethit",
@@ -3310,9 +2868,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
   "Save Bits": "7",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "itemevent1": "damagedinmelee",
   "itemeventfunc1": "21",
@@ -3321,24 +2877,19 @@
   "descpriority": "160",
   "descfunc": "15",
   "descstrpos": "ItemExpansiveChanc2",
-  "descstrneg": "ItemExpansiveChanc2",
-  "*eol": "0"
+  "descstrneg": "ItemExpansiveChanc2"
  },
  "unused202": {
   "Stat": "unused202",
   "ID": "202",
   "Divide": "1024",
-  "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "21"
  },
  "unused203": {
   "Stat": "unused203",
   "ID": "203",
   "Divide": "1024",
-  "1.09-Save Bits": "21",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "21"
  },
  "item_charged_skill": {
   "Stat": "item_charged_skill",
@@ -3351,15 +2902,12 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
   "Save Bits": "16",
-  "Save Add": "0",
   "Save Param Bits": "16",
   "descpriority": "1",
   "descfunc": "24",
   "descstrpos": "ModStre10d",
-  "descstrneg": "ModStre10d",
-  "*eol": "0"
+  "descstrneg": "ModStre10d"
  },
  "unused204": {
   "Stat": "unused204",
@@ -3370,9 +2918,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused205": {
   "Stat": "unused205",
@@ -3383,9 +2929,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused206": {
   "Stat": "unused206",
@@ -3396,9 +2940,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused207": {
   "Stat": "unused207",
@@ -3409,9 +2951,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused208": {
   "Stat": "unused208",
@@ -3422,9 +2962,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused209": {
   "Stat": "unused209",
@@ -3435,9 +2973,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused210": {
   "Stat": "unused210",
@@ -3448,9 +2984,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused211": {
   "Stat": "unused211",
@@ -3461,9 +2995,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "unused212": {
   "Stat": "unused212",
@@ -3474,9 +3006,7 @@
   "Add": "401",
   "Multiply": "256",
   "Divide": "1024",
-  "1.09-Save Bits": "30",
-  "1.09-Save Add": "0",
-  "*eol": "0"
+  "1.09-Save Bits": "30"
  },
  "item_armor_perlevel": {
   "Stat": "item_armor_perlevel",
@@ -3487,9 +3017,7 @@
   "Multiply": "42",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "4",
   "op param": "3",
   "op base": "level",
@@ -3499,8 +3027,7 @@
   "descval": "1",
   "descstrpos": "ModStr1i",
   "descstrneg": "ModStr1i",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_armorpercent_perlevel": {
   "Stat": "item_armorpercent_perlevel",
@@ -3511,9 +3038,7 @@
   "Multiply": "100",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "5",
   "op param": "3",
   "op base": "level",
@@ -3523,8 +3048,7 @@
   "descval": "1",
   "descstrpos": "Modstr2v",
   "descstrneg": "Modstr2v",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_hp_perlevel": {
   "Stat": "item_hp_perlevel",
@@ -3536,9 +3060,7 @@
   "Divide": "1024",
   "ValShift": "8",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3548,8 +3070,7 @@
   "descval": "1",
   "descstrpos": "ModStr1u",
   "descstrneg": "ModStr1u",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_mana_perlevel": {
   "Stat": "item_mana_perlevel",
@@ -3561,9 +3082,7 @@
   "Divide": "1024",
   "ValShift": "8",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3573,8 +3092,7 @@
   "descval": "1",
   "descstrpos": "ModStr1e",
   "descstrneg": "ModStr1e",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_maxdamage_perlevel": {
   "Stat": "item_maxdamage_perlevel",
@@ -3585,9 +3103,7 @@
   "Multiply": "204",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "4",
   "op param": "3",
   "op base": "level",
@@ -3600,8 +3116,7 @@
   "descval": "1",
   "descstrpos": "ModStr1f",
   "descstrneg": "ModStr1f",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_maxdamage_percent_perlevel": {
   "Stat": "item_maxdamage_percent_perlevel",
@@ -3612,9 +3127,7 @@
   "Multiply": "100",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "5",
   "op param": "3",
   "op base": "level",
@@ -3627,8 +3140,7 @@
   "descval": "1",
   "descstrpos": "ModStr2j",
   "descstrneg": "ModStr2j",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_strength_perlevel": {
   "Stat": "item_strength_perlevel",
@@ -3639,9 +3151,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3651,8 +3161,7 @@
   "descval": "1",
   "descstrpos": "ModStr1a",
   "descstrneg": "ModStr1a",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_dexterity_perlevel": {
   "Stat": "item_dexterity_perlevel",
@@ -3663,9 +3172,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3675,8 +3182,7 @@
   "descval": "1",
   "descstrpos": "ModStr1b",
   "descstrneg": "ModStr1b",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_energy_perlevel": {
   "Stat": "item_energy_perlevel",
@@ -3687,9 +3193,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3699,8 +3203,7 @@
   "descval": "1",
   "descstrpos": "ModStr1d",
   "descstrneg": "ModStr1d",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_vitality_perlevel": {
   "Stat": "item_vitality_perlevel",
@@ -3711,9 +3214,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3723,8 +3224,7 @@
   "descval": "1",
   "descstrpos": "ModStr1c",
   "descstrneg": "ModStr1c",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_tohit_perlevel": {
   "Stat": "item_tohit_perlevel",
@@ -3735,9 +3235,7 @@
   "Multiply": "20",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "1",
   "op base": "level",
@@ -3748,8 +3246,7 @@
   "descval": "1",
   "descstrpos": "ModStr1h",
   "descstrneg": "ModStr1h",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_tohitpercent_perlevel": {
   "Stat": "item_tohitpercent_perlevel",
@@ -3760,9 +3257,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "1",
   "op base": "level",
@@ -3773,8 +3268,7 @@
   "descval": "1",
   "descstrpos": "ModStr4c",
   "descstrneg": "ModStr4c",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_cold_damagemax_perlevel": {
   "Stat": "item_cold_damagemax_perlevel",
@@ -3785,9 +3279,7 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3798,8 +3290,7 @@
   "descval": "1",
   "descstrpos": "ModStr1s",
   "descstrneg": "ModStr1s",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_fire_damagemax_perlevel": {
   "Stat": "item_fire_damagemax_perlevel",
@@ -3810,9 +3301,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3823,8 +3312,7 @@
   "descval": "1",
   "descstrpos": "ModStr1o",
   "descstrneg": "ModStr1o",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_ltng_damagemax_perlevel": {
   "Stat": "item_ltng_damagemax_perlevel",
@@ -3835,9 +3323,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3848,8 +3334,7 @@
   "descval": "1",
   "descstrpos": "ModStr1q",
   "descstrneg": "ModStr1q",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_pois_damagemax_perlevel": {
   "Stat": "item_pois_damagemax_perlevel",
@@ -3860,9 +3345,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3873,8 +3356,7 @@
   "descval": "1",
   "descstrpos": "ModStr4h",
   "descstrneg": "ModStr4h",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_resist_cold_perlevel": {
   "Stat": "item_resist_cold_perlevel",
@@ -3885,9 +3367,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3897,8 +3377,7 @@
   "descval": "2",
   "descstrpos": "ModStr1k",
   "descstrneg": "ModStr1k",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_resist_fire_perlevel": {
   "Stat": "item_resist_fire_perlevel",
@@ -3909,9 +3388,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3921,8 +3398,7 @@
   "descval": "2",
   "descstrpos": "ModStr1j",
   "descstrneg": "ModStr1j",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_resist_ltng_perlevel": {
   "Stat": "item_resist_ltng_perlevel",
@@ -3933,9 +3409,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3945,8 +3419,7 @@
   "descval": "2",
   "descstrpos": "ModStr1l",
   "descstrneg": "ModStr1l",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_resist_pois_perlevel": {
   "Stat": "item_resist_pois_perlevel",
@@ -3957,9 +3430,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3969,8 +3440,7 @@
   "descval": "2",
   "descstrpos": "ModStr1n",
   "descstrneg": "ModStr1n",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_absorb_cold_perlevel": {
   "Stat": "item_absorb_cold_perlevel",
@@ -3981,9 +3451,7 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -3993,8 +3461,7 @@
   "descval": "1",
   "descstrpos": "ModStre9p",
   "descstrneg": "ModStre9p",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_absorb_fire_perlevel": {
   "Stat": "item_absorb_fire_perlevel",
@@ -4005,9 +3472,7 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4017,8 +3482,7 @@
   "descval": "1",
   "descstrpos": "ModStre9o",
   "descstrneg": "ModStre9o",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_absorb_ltng_perlevel": {
   "Stat": "item_absorb_ltng_perlevel",
@@ -4029,9 +3493,7 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4041,8 +3503,7 @@
   "descval": "1",
   "descstrpos": "ModStre9q",
   "descstrneg": "ModStre9q",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_absorb_pois_perlevel": {
   "Stat": "item_absorb_pois_perlevel",
@@ -4053,14 +3514,11 @@
   "Multiply": "340",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
-  "op stat1": "item_absorbmagic",
-  "*eol": "0"
+  "op stat1": "item_absorbmagic"
  },
  "item_thorns_perlevel": {
   "Stat": "item_thorns_perlevel",
@@ -4071,9 +3529,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "5",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4083,8 +3539,7 @@
   "descval": "2",
   "descstrpos": "ModStr1v",
   "descstrneg": "ModStr1v",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_find_gold_perlevel": {
   "Stat": "item_find_gold_perlevel",
@@ -4095,9 +3550,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4107,8 +3560,7 @@
   "descval": "1",
   "descstrpos": "ModStr1w",
   "descstrneg": "ModStr1w",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_find_magic_perlevel": {
   "Stat": "item_find_magic_perlevel",
@@ -4119,9 +3571,7 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4131,8 +3581,7 @@
   "descval": "1",
   "descstrpos": "ModStr1x",
   "descstrneg": "ModStr1x",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_regenstamina_perlevel": {
   "Stat": "item_regenstamina_perlevel",
@@ -4143,9 +3592,7 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4155,8 +3602,7 @@
   "descval": "2",
   "descstrpos": "ModStr3v",
   "descstrneg": "ModStr3v",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_stamina_perlevel": {
   "Stat": "item_stamina_perlevel",
@@ -4167,9 +3613,7 @@
   "Multiply": "64",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4179,8 +3623,7 @@
   "descval": "1",
   "descstrpos": "ModStr5d",
   "descstrneg": "ModStr5d",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_damage_demon_perlevel": {
   "Stat": "item_damage_demon_perlevel",
@@ -4191,9 +3634,7 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4204,8 +3645,7 @@
   "descval": "1",
   "descstrpos": "ModStr4e",
   "descstrneg": "ModStr4e",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_damage_undead_perlevel": {
   "Stat": "item_damage_undead_perlevel",
@@ -4216,9 +3656,7 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4229,8 +3667,7 @@
   "descval": "1",
   "descstrpos": "ModStr4f",
   "descstrneg": "ModStr4f",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_tohit_demon_perlevel": {
   "Stat": "item_tohit_demon_perlevel",
@@ -4241,9 +3678,7 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "1",
   "op base": "level",
@@ -4254,8 +3689,7 @@
   "descval": "1",
   "descstrpos": "ModStr4j",
   "descstrneg": "ModStr4j",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_tohit_undead_perlevel": {
   "Stat": "item_tohit_undead_perlevel",
@@ -4266,9 +3700,7 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "1",
   "op base": "level",
@@ -4279,8 +3711,7 @@
   "descval": "1",
   "descstrpos": "ModStr4k",
   "descstrneg": "ModStr4k",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_crushingblow_perlevel": {
   "Stat": "item_crushingblow_perlevel",
@@ -4291,9 +3722,7 @@
   "Multiply": "1024",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4304,8 +3733,7 @@
   "descval": "1",
   "descstrpos": "ModStr5c",
   "descstrneg": "ModStr5c",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_openwounds_perlevel": {
   "Stat": "item_openwounds_perlevel",
@@ -4316,9 +3744,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4329,8 +3755,7 @@
   "descval": "1",
   "descstrpos": "ModStr3m",
   "descstrneg": "ModStr3m",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_kick_damage_perlevel": {
   "Stat": "item_kick_damage_perlevel",
@@ -4341,9 +3766,7 @@
   "Multiply": "128",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4354,8 +3777,7 @@
   "descval": "1",
   "descstrpos": "ModStr5e",
   "descstrneg": "ModStr5e",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_deadlystrike_perlevel": {
   "Stat": "item_deadlystrike_perlevel",
@@ -4366,9 +3788,7 @@
   "Multiply": "512",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "op": "2",
   "op param": "3",
   "op base": "level",
@@ -4379,15 +3799,13 @@
   "descval": "1",
   "descstrpos": "ModStr5q",
   "descstrneg": "ModStr5q",
-  "descstr2": "increaseswithplaylevelX",
-  "*eol": "0"
+  "descstr2": "increaseswithplaylevelX"
  },
  "item_find_gems_perlevel": {
   "Stat": "item_find_gems_perlevel",
   "ID": "251",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_replenish_durability": {
   "Stat": "item_replenish_durability",
@@ -4398,15 +3816,11 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "descpriority": "1",
   "descfunc": "11",
-  "descval": "0",
   "descstrpos": "ModStre9t",
-  "descstrneg": "ModStre9t",
-  "*eol": "0"
+  "descstrneg": "ModStre9t"
  },
  "item_replenish_quantity": {
   "Stat": "item_replenish_quantity",
@@ -4417,15 +3831,11 @@
   "Multiply": "256",
   "Divide": "1024",
   "1.09-Save Bits": "5",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "descpriority": "2",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStre9v",
-  "descstrneg": "ModStre9v",
-  "*eol": "0"
+  "descstrneg": "ModStre9v"
  },
  "item_extra_stack": {
   "Stat": "item_extra_stack",
@@ -4435,112 +3845,95 @@
   "Multiply": "10",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "4",
   "descfunc": "3",
-  "descval": "0",
   "descstrpos": "ModStre9i",
-  "descstrneg": "ModStre9i",
-  "*eol": "0"
+  "descstrneg": "ModStre9i"
  },
  "item_find_item": {
   "Stat": "item_find_item",
   "ID": "255",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_slash_damage": {
   "Stat": "item_slash_damage",
   "ID": "256",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_slash_damage_percent": {
   "Stat": "item_slash_damage_percent",
   "ID": "257",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_crush_damage": {
   "Stat": "item_crush_damage",
   "ID": "258",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_crush_damage_percent": {
   "Stat": "item_crush_damage_percent",
   "ID": "259",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_thrust_damage": {
   "Stat": "item_thrust_damage",
   "ID": "260",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_thrust_damage_percent": {
   "Stat": "item_thrust_damage_percent",
   "ID": "261",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_absorb_slash": {
   "Stat": "item_absorb_slash",
   "ID": "262",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_absorb_crush": {
   "Stat": "item_absorb_crush",
   "ID": "263",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_absorb_thrust": {
   "Stat": "item_absorb_thrust",
   "ID": "264",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_absorb_slash_percent": {
   "Stat": "item_absorb_slash_percent",
   "ID": "265",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_absorb_crush_percent": {
   "Stat": "item_absorb_crush_percent",
   "ID": "266",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_absorb_thrust_percent": {
   "Stat": "item_absorb_thrust_percent",
   "ID": "267",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_armor_bytime": {
   "Stat": "item_armor_bytime",
@@ -4548,20 +3941,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "armorclass",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1i",
-  "descstrneg": "ModStr1i",
-  "*eol": "0"
+  "descstrneg": "ModStr1i"
  },
  "item_armorpercent_bytime": {
   "Stat": "item_armorpercent_bytime",
@@ -4569,20 +3958,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "7",
   "op stat1": "armorclass",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "Modstr2v",
-  "descstrneg": "Modstr2v",
-  "*eol": "0"
+  "descstrneg": "Modstr2v"
  },
  "item_hp_bytime": {
   "Stat": "item_hp_bytime",
@@ -4590,20 +3975,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "maxhp",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1u",
-  "descstrneg": "ModStr1u",
-  "*eol": "0"
+  "descstrneg": "ModStr1u"
  },
  "item_mana_bytime": {
   "Stat": "item_mana_bytime",
@@ -4611,20 +3992,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "maxmana",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1e",
-  "descstrneg": "ModStr1e",
-  "*eol": "0"
+  "descstrneg": "ModStr1e"
  },
  "item_maxdamage_bytime": {
   "Stat": "item_maxdamage_bytime",
@@ -4632,12 +4009,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "maxdamage",
   "op stat2": "secondary_maxdamage",
@@ -4647,8 +4021,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1f",
-  "descstrneg": "ModStr1f",
-  "*eol": "0"
+  "descstrneg": "ModStr1f"
  },
  "item_maxdamage_percent_bytime": {
   "Stat": "item_maxdamage_percent_bytime",
@@ -4656,12 +4029,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "7",
   "op stat1": "maxdamage",
   "op stat2": "secondary_mindamage",
@@ -4671,8 +4041,7 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr2j",
-  "descstrneg": "ModStr2j",
-  "*eol": "0"
+  "descstrneg": "ModStr2j"
  },
  "item_strength_bytime": {
   "Stat": "item_strength_bytime",
@@ -4680,20 +4049,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "strength",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1a",
-  "descstrneg": "ModStr1a",
-  "*eol": "0"
+  "descstrneg": "ModStr1a"
  },
  "item_dexterity_bytime": {
   "Stat": "item_dexterity_bytime",
@@ -4701,20 +4066,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "dexterity",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1b",
-  "descstrneg": "ModStr1b",
-  "*eol": "0"
+  "descstrneg": "ModStr1b"
  },
  "item_energy_bytime": {
   "Stat": "item_energy_bytime",
@@ -4722,20 +4083,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "energy",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1d",
-  "descstrneg": "ModStr1d",
-  "*eol": "0"
+  "descstrneg": "ModStr1d"
  },
  "item_vitality_bytime": {
   "Stat": "item_vitality_bytime",
@@ -4743,20 +4100,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "vitality",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1c",
-  "descstrneg": "ModStr1c",
-  "*eol": "0"
+  "descstrneg": "ModStr1c"
  },
  "item_tohit_bytime": {
   "Stat": "item_tohit_bytime",
@@ -4764,12 +4117,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "tohit",
   "damagerelated": "1",
@@ -4777,8 +4127,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1h",
-  "descstrneg": "ModStr1h",
-  "*eol": "0"
+  "descstrneg": "ModStr1h"
  },
  "item_tohitpercent_bytime": {
   "Stat": "item_tohitpercent_bytime",
@@ -4786,12 +4135,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_tohit_percent",
   "damagerelated": "1",
@@ -4799,8 +4145,7 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr4c",
-  "descstrneg": "ModStr4c",
-  "*eol": "0"
+  "descstrneg": "ModStr4c"
  },
  "item_cold_damagemax_bytime": {
   "Stat": "item_cold_damagemax_bytime",
@@ -4808,12 +4153,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "coldmaxdam",
   "damagerelated": "1",
@@ -4821,8 +4163,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1s",
-  "descstrneg": "ModStr1s",
-  "*eol": "0"
+  "descstrneg": "ModStr1s"
  },
  "item_fire_damagemax_bytime": {
   "Stat": "item_fire_damagemax_bytime",
@@ -4830,12 +4171,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "firemaxdam",
   "damagerelated": "1",
@@ -4843,8 +4181,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1o",
-  "descstrneg": "ModStr1o",
-  "*eol": "0"
+  "descstrneg": "ModStr1o"
  },
  "item_ltng_damagemax_bytime": {
   "Stat": "item_ltng_damagemax_bytime",
@@ -4852,12 +4189,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "lightmaxdam",
   "damagerelated": "1",
@@ -4865,8 +4199,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr1q",
-  "descstrneg": "ModStr1q",
-  "*eol": "0"
+  "descstrneg": "ModStr1q"
  },
  "item_pois_damagemax_bytime": {
   "Stat": "item_pois_damagemax_bytime",
@@ -4874,12 +4207,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "poisonmaxdam",
   "damagerelated": "1",
@@ -4887,8 +4217,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr4h",
-  "descstrneg": "ModStr4h",
-  "*eol": "0"
+  "descstrneg": "ModStr4h"
  },
  "item_resist_cold_bytime": {
   "Stat": "item_resist_cold_bytime",
@@ -4896,20 +4225,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "coldresist",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "2",
   "descstrpos": "ModStr1k",
-  "descstrneg": "ModStr1k",
-  "*eol": "0"
+  "descstrneg": "ModStr1k"
  },
  "item_resist_fire_bytime": {
   "Stat": "item_resist_fire_bytime",
@@ -4917,20 +4242,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "fireresist",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "2",
   "descstrpos": "ModStr1j",
-  "descstrneg": "ModStr1j",
-  "*eol": "0"
+  "descstrneg": "ModStr1j"
  },
  "item_resist_ltng_bytime": {
   "Stat": "item_resist_ltng_bytime",
@@ -4938,20 +4259,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "lightresist",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "2",
   "descstrpos": "ModStr1l",
-  "descstrneg": "ModStr1l",
-  "*eol": "0"
+  "descstrneg": "ModStr1l"
  },
  "item_resist_pois_bytime": {
   "Stat": "item_resist_pois_bytime",
@@ -4959,20 +4276,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "poisonresist",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "2",
   "descstrpos": "ModStr1n",
-  "descstrneg": "ModStr1n",
-  "*eol": "0"
+  "descstrneg": "ModStr1n"
  },
  "item_absorb_cold_bytime": {
   "Stat": "item_absorb_cold_bytime",
@@ -4980,20 +4293,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_absorbcold",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStre9p",
-  "descstrneg": "ModStre9p",
-  "*eol": "0"
+  "descstrneg": "ModStre9p"
  },
  "item_absorb_fire_bytime": {
   "Stat": "item_absorb_fire_bytime",
@@ -5001,20 +4310,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_absorbfire",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStre9o",
-  "descstrneg": "ModStre9o",
-  "*eol": "0"
+  "descstrneg": "ModStre9o"
  },
  "item_absorb_ltng_bytime": {
   "Stat": "item_absorb_ltng_bytime",
@@ -5022,20 +4327,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_absorblight",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStre9q",
-  "descstrneg": "ModStre9q",
-  "*eol": "0"
+  "descstrneg": "ModStre9q"
  },
  "item_absorb_pois_bytime": {
   "Stat": "item_absorb_pois_bytime",
@@ -5043,15 +4344,11 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
-  "op stat1": "item_absorbmagic",
-  "*eol": "0"
+  "op stat1": "item_absorbmagic"
  },
  "item_find_gold_bytime": {
   "Stat": "item_find_gold_bytime",
@@ -5059,20 +4356,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_goldbonus",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "2",
   "descstrpos": "ModStr1w",
-  "descstrneg": "ModStr1w",
-  "*eol": "0"
+  "descstrneg": "ModStr1w"
  },
  "item_find_magic_bytime": {
   "Stat": "item_find_magic_bytime",
@@ -5080,20 +4373,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_magicbonus",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr1x",
-  "descstrneg": "ModStr1x",
-  "*eol": "0"
+  "descstrneg": "ModStr1x"
  },
  "item_regenstamina_bytime": {
   "Stat": "item_regenstamina_bytime",
@@ -5101,20 +4390,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "staminarecoverybonus",
   "descpriority": "180",
   "descfunc": "18",
   "descval": "2",
   "descstrpos": "ModStr3v",
-  "descstrneg": "ModStr3v",
-  "*eol": "0"
+  "descstrneg": "ModStr3v"
  },
  "item_stamina_bytime": {
   "Stat": "item_stamina_bytime",
@@ -5122,20 +4407,16 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "maxstamina",
   "descpriority": "180",
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr5d",
-  "descstrneg": "ModStr5d",
-  "*eol": "0"
+  "descstrneg": "ModStr5d"
  },
  "item_damage_demon_bytime": {
   "Stat": "item_damage_demon_bytime",
@@ -5143,12 +4424,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_demondamage_percent",
   "damagerelated": "1",
@@ -5156,8 +4434,7 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr4e",
-  "descstrneg": "ModStr4e",
-  "*eol": "0"
+  "descstrneg": "ModStr4e"
  },
  "item_damage_undead_bytime": {
   "Stat": "item_damage_undead_bytime",
@@ -5165,12 +4442,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_undeaddamage_percent",
   "damagerelated": "1",
@@ -5178,8 +4452,7 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr4f",
-  "descstrneg": "ModStr4f",
-  "*eol": "0"
+  "descstrneg": "ModStr4f"
  },
  "item_tohit_demon_bytime": {
   "Stat": "item_tohit_demon_bytime",
@@ -5187,12 +4460,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_demon_tohit",
   "damagerelated": "1",
@@ -5200,8 +4470,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr4j",
-  "descstrneg": "ModStr4j",
-  "*eol": "0"
+  "descstrneg": "ModStr4j"
  },
  "item_tohit_undead_bytime": {
   "Stat": "item_tohit_undead_bytime",
@@ -5209,12 +4478,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_undead_tohit",
   "damagerelated": "1",
@@ -5222,8 +4488,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr4k",
-  "descstrneg": "ModStr4k",
-  "*eol": "0"
+  "descstrneg": "ModStr4k"
  },
  "item_crushingblow_bytime": {
   "Stat": "item_crushingblow_bytime",
@@ -5231,12 +4496,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_crushingblow",
   "damagerelated": "1",
@@ -5244,8 +4506,7 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr5c",
-  "descstrneg": "ModStr5c",
-  "*eol": "0"
+  "descstrneg": "ModStr5c"
  },
  "item_openwounds_bytime": {
   "Stat": "item_openwounds_bytime",
@@ -5253,12 +4514,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_openwounds",
   "damagerelated": "1",
@@ -5266,8 +4524,7 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr3m",
-  "descstrneg": "ModStr3m",
-  "*eol": "0"
+  "descstrneg": "ModStr3m"
  },
  "item_kick_damage_bytime": {
   "Stat": "item_kick_damage_bytime",
@@ -5275,12 +4532,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_kickdamage",
   "damagerelated": "1",
@@ -5288,8 +4542,7 @@
   "descfunc": "17",
   "descval": "1",
   "descstrpos": "ModStr5e",
-  "descstrneg": "ModStr5e",
-  "*eol": "0"
+  "descstrneg": "ModStr5e"
  },
  "item_deadlystrike_bytime": {
   "Stat": "item_deadlystrike_bytime",
@@ -5297,12 +4550,9 @@
   "Signed": "1",
   "Send Bits": "22",
   "Encode": "4",
-  "Multiply": "0",
   "Divide": "1024",
   "1.09-Save Bits": "22",
-  "1.09-Save Add": "0",
   "Save Bits": "22",
-  "Save Add": "0",
   "op": "6",
   "op stat1": "item_deadlystrike",
   "damagerelated": "1",
@@ -5310,17 +4560,14 @@
   "descfunc": "18",
   "descval": "1",
   "descstrpos": "ModStr5q",
-  "descstrneg": "ModStr5q",
-  "*eol": "0"
+  "descstrneg": "ModStr5q"
  },
  "item_find_gems_bytime": {
   "Stat": "item_find_gems_bytime",
   "ID": "304",
   "Signed": "1",
   "Encode": "4",
-  "Multiply": "0",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_pierce_cold": {
   "Stat": "item_pierce_cold",
@@ -5336,8 +4583,7 @@
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenrescoldsk",
-  "descstrneg": "Moditemenrescoldsk",
-  "*eol": "0"
+  "descstrneg": "Moditemenrescoldsk"
  },
  "item_pierce_fire": {
   "Stat": "item_pierce_fire",
@@ -5353,8 +4599,7 @@
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenresfiresk",
-  "descstrneg": "Moditemenresfiresk",
-  "*eol": "0"
+  "descstrneg": "Moditemenresfiresk"
  },
  "item_pierce_ltng": {
   "Stat": "item_pierce_ltng",
@@ -5370,8 +4615,7 @@
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenresltngsk",
-  "descstrneg": "Moditemenresltngsk",
-  "*eol": "0"
+  "descstrneg": "Moditemenresltngsk"
  },
  "item_pierce_pois": {
   "Stat": "item_pierce_pois",
@@ -5387,126 +4631,110 @@
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenrespoissk",
-  "descstrneg": "Moditemenrespoissk",
-  "*eol": "0"
+  "descstrneg": "Moditemenrespoissk"
  },
  "item_damage_vs_monster": {
   "Stat": "item_damage_vs_monster",
   "ID": "309",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_damage_percent_vs_monster": {
   "Stat": "item_damage_percent_vs_monster",
   "ID": "310",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_tohit_vs_monster": {
   "Stat": "item_tohit_vs_monster",
   "ID": "311",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_tohit_percent_vs_monster": {
   "Stat": "item_tohit_percent_vs_monster",
   "ID": "312",
   "Signed": "1",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "item_ac_vs_monster": {
   "Stat": "item_ac_vs_monster",
   "ID": "313",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_ac_percent_vs_monster": {
   "Stat": "item_ac_percent_vs_monster",
   "ID": "314",
   "Signed": "1",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "firelength": {
   "Stat": "firelength",
   "ID": "315",
   "Signed": "1",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "burningmin": {
   "Stat": "burningmin",
   "ID": "316",
   "Signed": "1",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "burningmax": {
   "Stat": "burningmax",
   "ID": "317",
   "Signed": "1",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "progressive_damage": {
   "Stat": "progressive_damage",
   "ID": "318",
   "Signed": "1",
   "Send Bits": "3",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "progressive_steal": {
   "Stat": "progressive_steal",
   "ID": "319",
   "Signed": "1",
   "Send Bits": "3",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "progressive_other": {
   "Stat": "progressive_other",
   "ID": "320",
   "Signed": "1",
   "Send Bits": "3",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "progressive_fire": {
   "Stat": "progressive_fire",
   "ID": "321",
   "Signed": "1",
   "Send Bits": "3",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "progressive_cold": {
   "Stat": "progressive_cold",
   "ID": "322",
   "Signed": "1",
   "Send Bits": "3",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "progressive_lightning": {
   "Stat": "progressive_lightning",
   "ID": "323",
   "Signed": "1",
   "Send Bits": "3",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "item_extra_charges": {
   "Stat": "item_extra_charges",
@@ -5515,20 +4743,16 @@
   "Send Bits": "6",
   "Divide": "1024",
   "1.09-Save Bits": "6",
-  "1.09-Save Add": "0",
   "Save Bits": "6",
-  "Save Add": "0",
   "itemspecific": "1",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "progressive_tohit": {
   "Stat": "progressive_tohit",
   "ID": "325",
   "Signed": "1",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "poison_count": {
   "Stat": "poison_count",
@@ -5536,24 +4760,21 @@
   "Signed": "1",
   "Send Bits": "5",
   "Divide": "1024",
-  "damagerelated": "1",
-  "*eol": "0"
+  "damagerelated": "1"
  },
  "damage_framerate": {
   "Stat": "damage_framerate",
   "ID": "327",
   "Signed": "1",
   "Send Bits": "8",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "pierce_idx": {
   "Stat": "pierce_idx",
   "ID": "328",
   "Signed": "1",
   "Send Bits": "6",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "passive_fire_mastery": {
   "Stat": "passive_fire_mastery",
@@ -5564,15 +4785,13 @@
   "Multiply": "415",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Add": "50",
   "descpriority": "88",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModitemdamFiresk",
-  "descstrneg": "ModitemdamFiresk",
-  "*eol": "0"
+  "descstrneg": "ModitemdamFiresk"
  },
  "passive_ltng_mastery": {
   "Stat": "passive_ltng_mastery",
@@ -5583,15 +4802,13 @@
   "Multiply": "408",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Add": "50",
   "descpriority": "88",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModitemdamLtngsk",
-  "descstrneg": "ModitemdamLtngsk",
-  "*eol": "0"
+  "descstrneg": "ModitemdamLtngsk"
  },
  "passive_cold_mastery": {
   "Stat": "passive_cold_mastery",
@@ -5602,15 +4819,13 @@
   "Multiply": "379",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Add": "50",
   "descpriority": "88",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModitemdamColdsk",
-  "descstrneg": "ModitemdamColdsk",
-  "*eol": "0"
+  "descstrneg": "ModitemdamColdsk"
  },
  "passive_pois_mastery": {
   "Stat": "passive_pois_mastery",
@@ -5621,15 +4836,13 @@
   "Multiply": "394",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
   "Save Add": "50",
   "descpriority": "88",
   "descfunc": "4",
   "descval": "1",
   "descstrpos": "ModitemdamPoissk",
-  "descstrneg": "ModitemdamPoissk",
-  "*eol": "0"
+  "descstrneg": "ModitemdamPoissk"
  },
  "passive_fire_pierce": {
   "Stat": "passive_fire_pierce",
@@ -5639,15 +4852,12 @@
   "Multiply": "2578",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "88",
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenresfiresk",
-  "descstrneg": "Moditemenresfiresk",
-  "*eol": "0"
+  "descstrneg": "Moditemenresfiresk"
  },
  "passive_ltng_pierce": {
   "Stat": "passive_ltng_pierce",
@@ -5657,15 +4867,12 @@
   "Multiply": "2493",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "88",
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenresltngsk",
-  "descstrneg": "Moditemenresltngsk",
-  "*eol": "0"
+  "descstrneg": "Moditemenresltngsk"
  },
  "passive_cold_pierce": {
   "Stat": "passive_cold_pierce",
@@ -5675,15 +4882,12 @@
   "Multiply": "1984",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "88",
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenrescoldsk",
-  "descstrneg": "Moditemenrescoldsk",
-  "*eol": "0"
+  "descstrneg": "Moditemenrescoldsk"
  },
  "passive_pois_pierce": {
   "Stat": "passive_pois_pierce",
@@ -5693,15 +4897,12 @@
   "Multiply": "2345",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "8",
-  "Save Add": "0",
   "descpriority": "88",
   "descfunc": "20",
   "descval": "1",
   "descstrpos": "Moditemenrespoissk",
-  "descstrneg": "Moditemenrespoissk",
-  "*eol": "0"
+  "descstrneg": "Moditemenrespoissk"
  },
  "passive_critical_strike": {
   "Stat": "passive_critical_strike",
@@ -5710,10 +4911,7 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_dodge": {
   "Stat": "passive_dodge",
@@ -5722,10 +4920,7 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
-  "Save Bits": "7",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "7"
  },
  "passive_avoid": {
   "Stat": "passive_avoid",
@@ -5734,10 +4929,7 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
-  "Save Bits": "7",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "7"
  },
  "passive_evade": {
   "Stat": "passive_evade",
@@ -5746,10 +4938,7 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "7",
-  "1.09-Save Add": "0",
-  "Save Bits": "7",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "7"
  },
  "passive_warmth": {
   "Stat": "passive_warmth",
@@ -5758,10 +4947,7 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_mastery_melee_th": {
   "Stat": "passive_mastery_melee_th",
@@ -5771,10 +4957,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_mastery_melee_dmg": {
   "Stat": "passive_mastery_melee_dmg",
@@ -5784,10 +4967,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_mastery_melee_crit": {
   "Stat": "passive_mastery_melee_crit",
@@ -5797,10 +4977,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_mastery_throw_th": {
   "Stat": "passive_mastery_throw_th",
@@ -5810,10 +4987,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_mastery_throw_dmg": {
   "Stat": "passive_mastery_throw_dmg",
@@ -5823,10 +4997,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_mastery_throw_crit": {
   "Stat": "passive_mastery_throw_crit",
@@ -5836,10 +5007,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_weaponblock": {
   "Stat": "passive_weaponblock",
@@ -5849,10 +5017,7 @@
   "Send Param Bits": "8",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "passive_summon_resist": {
   "Stat": "passive_summon_resist",
@@ -5861,61 +5026,50 @@
   "Send Bits": "9",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  },
  "modifierlist_skill": {
   "Stat": "modifierlist_skill",
   "ID": "350",
   "Send Bits": "9",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "modifierlist_level": {
   "Stat": "modifierlist_level",
   "ID": "351",
   "Send Bits": "8",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "last_sent_hp_pct": {
   "Stat": "last_sent_hp_pct",
   "ID": "352",
   "Signed": "1",
   "Send Bits": "8",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "source_unit_type": {
   "Stat": "source_unit_type",
   "ID": "353",
   "Send Bits": "5",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "source_unit_id": {
   "Stat": "source_unit_id",
   "ID": "354",
   "Send Bits": "32",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "shortparam1": {
   "Stat": "shortparam1",
   "ID": "355",
   "Send Bits": "16",
-  "Divide": "1024",
-  "*eol": "0"
+  "Divide": "1024"
  },
  "questitemdifficulty": {
   "Stat": "questitemdifficulty",
   "ID": "356",
   "Divide": "1024",
-  "Save Bits": "2",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "2"
  },
  "passive_mag_mastery": {
   "Stat": "passive_mag_mastery",
@@ -5926,10 +5080,8 @@
   "Multiply": "431",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
   "Save Bits": "9",
-  "Save Add": "50",
-  "*eol": "0"
+  "Save Add": "50"
  },
  "passive_mag_pierce": {
   "Stat": "passive_mag_pierce",
@@ -5939,9 +5091,6 @@
   "Multiply": "2812",
   "Divide": "1024",
   "1.09-Save Bits": "8",
-  "1.09-Save Add": "0",
-  "Save Bits": "8",
-  "Save Add": "0",
-  "*eol": "0"
+  "Save Bits": "8"
  }
 }

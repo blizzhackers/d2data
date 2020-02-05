@@ -1,7 +1,6 @@
 {
  "1": {
   "Name": "of Protection",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -11,14 +10,10 @@
   "mod1min": "2",
   "mod1max": "2",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "2": {
   "Name": "of Absorption",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "26",
@@ -27,14 +22,10 @@
   "mod1code": "red-dmg",
   "mod1min": "3",
   "mod1max": "3",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "3": {
   "Name": "of Life",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
@@ -45,20 +36,13 @@
   "mod1max": "4",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "4": {
-  "spawnable": "1",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "spawnable": "1"
  },
  "5": {
   "Name": "of Warding",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "7",
@@ -71,14 +55,10 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "6": {
   "Name": "of the Sentinel",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -88,14 +68,10 @@
   "mod1min": "2",
   "mod1max": "2",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "7": {
   "Name": "of Guarding",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "26",
@@ -104,14 +80,10 @@
   "mod1code": "red-mag",
   "mod1min": "3",
   "mod1max": "3",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "8": {
   "Name": "of Negation",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "35",
@@ -120,19 +92,11 @@
   "mod1code": "red-mag",
   "mod1min": "4",
   "mod1max": "4",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
- "9": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "9": {},
  "10": {
   "Name": "of Piercing",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -141,14 +105,10 @@
   "mod1code": "ignore-ac",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "rod"
  },
  "11": {
   "Name": "of Bashing",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "16",
@@ -159,14 +119,10 @@
   "mod1max": "-40",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "12": {
   "Name": "of Puncturing",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
@@ -177,14 +133,10 @@
   "mod1max": "-20",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "13": {
   "Name": "of Thorns",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
@@ -196,14 +148,10 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "belt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "belt"
  },
  "14": {
   "Name": "of Spikes",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "21",
@@ -217,14 +165,10 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "belt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "belt"
  },
  "15": {
   "Name": "of Readiness",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "1",
@@ -234,14 +178,10 @@
   "mod1min": "10",
   "mod1max": "10",
   "itype1": "weap",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "16": {
   "Name": "of Alacrity",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "8",
@@ -250,14 +190,10 @@
   "mod1code": "swing2",
   "mod1min": "20",
   "mod1max": "20",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "17": {
   "Name": "of Swiftness",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "19",
@@ -268,14 +204,10 @@
   "mod1max": "30",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "18": {
   "Name": "of Quickness",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -288,14 +220,10 @@
   "transformcolor": "dyel",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "19": {
   "Name": "of Blocking",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "1",
@@ -304,14 +232,10 @@
   "mod1code": "block",
   "mod1min": "10",
   "mod1max": "10",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "20": {
   "Name": "of Deflecting",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "11",
@@ -320,14 +244,10 @@
   "mod1code": "block",
   "mod1min": "20",
   "mod1max": "20",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "21": {
   "Name": "of the Apprentice",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
@@ -338,14 +258,10 @@
   "mod1max": "10",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "22": {
   "Name": "of the Magus",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "17",
@@ -354,14 +270,10 @@
   "mod1code": "cast3",
   "mod1min": "20",
   "mod1max": "20",
-  "itype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "rod"
  },
  "23": {
   "Name": "of Frost",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
@@ -376,14 +288,10 @@
   "mod3code": "cold-len",
   "mod3min": "125",
   "mod3max": "125",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "24": {
   "Name": "of the Glacier",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -398,14 +306,10 @@
   "mod3code": "cold-len",
   "mod3min": "150",
   "mod3max": "150",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "25": {
   "Name": "of Frost",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "55",
@@ -421,14 +325,10 @@
   "mod3min": "125",
   "mod3max": "125",
   "itype1": "belt",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "26": {
   "Name": "of Warmth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "10",
@@ -441,14 +341,10 @@
   "itype2": "boot",
   "itype3": "glov",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "27": {
   "Name": "of Flame",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
@@ -460,14 +356,10 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "6",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "28": {
   "Name": "of Fire",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "15",
@@ -479,14 +371,10 @@
   "mod2code": "fire-max",
   "mod2min": "6",
   "mod2max": "11",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "29": {
   "Name": "of Burning",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -500,14 +388,10 @@
   "mod2max": "20",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "30": {
   "Name": "of Flame",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
@@ -521,14 +405,10 @@
   "mod2max": "6",
   "itype1": "glov",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "31": {
   "Name": "of Shock",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
@@ -540,14 +420,10 @@
   "mod2code": "ltng-max",
   "mod2min": "8",
   "mod2max": "8",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "32": {
   "Name": "of Lightning",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "15",
@@ -559,14 +435,10 @@
   "mod2code": "ltng-max",
   "mod2min": "16",
   "mod2max": "16",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "33": {
   "Name": "of Thunder",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -580,14 +452,10 @@
   "mod2max": "32",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "34": {
   "Name": "of Shock",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "50",
@@ -604,14 +472,10 @@
   "itype3": "amul",
   "itype4": "weap",
   "etype1": "miss",
-  "etype2": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "rod"
  },
  "35": {
   "Name": "of Craftsmanship",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "1",
@@ -622,14 +486,10 @@
   "mod1max": "2",
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "36": {
   "Name": "of Quality",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
@@ -638,14 +498,10 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "37": {
   "Name": "of Maiming",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "7",
@@ -654,14 +510,10 @@
   "mod1code": "dmg-max",
   "mod1min": "3",
   "mod1max": "4",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "38": {
   "Name": "of Slaying",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "11",
@@ -670,14 +522,10 @@
   "mod1code": "dmg-max",
   "mod1min": "5",
   "mod1max": "7",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "39": {
   "Name": "of Gore",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
@@ -686,14 +534,10 @@
   "mod1code": "dmg-max",
   "mod1min": "8",
   "mod1max": "10",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "40": {
   "Name": "of Carnage",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "19",
@@ -706,14 +550,10 @@
   "transformcolor": "blac",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "41": {
   "Name": "of Slaughter",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -726,14 +566,10 @@
   "transformcolor": "blac",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "42": {
   "Name": "of Maiming",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "42",
@@ -744,14 +580,10 @@
   "mod1max": "4",
   "itype1": "shld",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "43": {
   "Name": "of Worth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "2",
@@ -761,14 +593,10 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "weap",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "44": {
   "Name": "of Measure",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
@@ -777,14 +605,10 @@
   "mod1code": "dmg-min",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "45": {
   "Name": "of Excellence",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
@@ -795,14 +619,10 @@
   "mod1max": "3",
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "46": {
   "Name": "of Performance",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -813,14 +633,10 @@
   "mod1max": "5",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "47": {
   "Name": "of Measure",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "37",
@@ -832,14 +648,10 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "48": {
   "Name": "of Blight",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
@@ -855,14 +667,10 @@
   "mod3min": "75",
   "mod3max": "75",
   "itype1": "weap",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "49": {
   "Name": "of Venom",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "15",
@@ -878,14 +686,10 @@
   "mod3min": "75",
   "mod3max": "75",
   "itype1": "weap",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "50": {
   "Name": "of Pestilence",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -903,14 +707,10 @@
   "transform": "1",
   "transformcolor": "dgrn",
   "itype1": "weap",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "51": {
   "Name": "of Blight",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "45",
@@ -926,14 +726,10 @@
   "mod3min": "75",
   "mod3max": "75",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "52": {
   "Name": "of Dexterity",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
@@ -943,14 +739,10 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "53": {
   "Name": "of Dexterity",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
@@ -964,14 +756,10 @@
   "itype3": "boot",
   "itype4": "glov",
   "itype5": "ring",
-  "itype6": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "amul"
  },
  "54": {
   "Name": "of Skill",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "10",
@@ -985,14 +773,10 @@
   "itype3": "boot",
   "itype4": "glov",
   "itype5": "ring",
-  "itype6": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "amul"
  },
  "55": {
   "Name": "of Skill",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "45",
@@ -1003,14 +787,10 @@
   "mod1max": "6",
   "itype1": "armo",
   "etype1": "boot",
-  "etype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "glov"
  },
  "56": {
   "Name": "of Accuracy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -1024,14 +804,10 @@
   "itype3": "boot",
   "itype4": "glov",
   "itype5": "ring",
-  "itype6": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "amul"
  },
  "57": {
   "Name": "of Precision",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "22",
@@ -1042,14 +818,10 @@
   "mod1max": "15",
   "itype1": "scep",
   "itype2": "miss",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "58": {
   "Name": "of Precision",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "60",
@@ -1059,14 +831,10 @@
   "mod1min": "11",
   "mod1max": "15",
   "itype1": "armo",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "59": {
   "Name": "of Perfection",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
@@ -1079,14 +847,10 @@
   "transformcolor": "dgld",
   "itype1": "miss",
   "itype2": "glov",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "60": {
   "Name": "of Balance",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
@@ -1096,14 +860,10 @@
   "mod1min": "10",
   "mod1max": "10",
   "itype1": "armo",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "61": {
   "Name": "of Stability",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "9",
@@ -1115,19 +875,11 @@
   "transform": "1",
   "transformcolor": "dyel",
   "itype1": "armo",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
- "62": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "62": {},
  "63": {
   "Name": "of Regeneration",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "10",
@@ -1139,14 +891,10 @@
   "itype1": "scep",
   "itype2": "belt",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "64": {
   "Name": "of Regeneration",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "40",
@@ -1156,14 +904,10 @@
   "mod1min": "3",
   "mod1max": "3",
   "itype1": "shld",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "65": {
   "Name": "of Regeneration",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "70",
@@ -1176,14 +920,10 @@
   "itype2": "helm",
   "itype3": "weap",
   "itype4": "boot",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "66": {
   "Name": "of Regrowth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "17",
@@ -1195,14 +935,10 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "scep",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "67": {
   "Name": "of Regrowth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "55",
@@ -1214,14 +950,10 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "belt",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "68": {
   "Name": "of Vileness",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "9",
@@ -1231,19 +963,11 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "mele",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
- "69": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "69": {},
  "70": {
   "Name": "of Greed",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "2",
@@ -1253,14 +977,10 @@
   "mod1min": "40",
   "mod1max": "60",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "71": {
   "Name": "of Wealth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "17",
@@ -1274,14 +994,10 @@
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "belt",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "72": {
   "Name": "of Chance",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
@@ -1291,14 +1007,10 @@
   "mod1min": "10",
   "mod1max": "19",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "73": {
   "Name": "of Fortune",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "16",
@@ -1311,14 +1023,10 @@
   "transformcolor": "lgld",
   "itype1": "boot",
   "itype2": "glov",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "74": {
   "Name": "of Energy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "4",
@@ -1328,14 +1036,10 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "75": {
   "Name": "of Energy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
@@ -1346,14 +1050,10 @@
   "mod1max": "5",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "76": {
   "Name": "of the Mind",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "10",
@@ -1364,14 +1064,10 @@
   "mod1max": "10",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "77": {
   "Name": "of Brilliance",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -1382,14 +1078,10 @@
   "mod1max": "15",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "78": {
   "Name": "of Sorcery",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "22",
@@ -1401,14 +1093,10 @@
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "rod",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "79": {
   "Name": "of Wizardry",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
@@ -1421,14 +1109,10 @@
   "transformcolor": "dgld",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "80": {
   "Name": "of the Bear",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "8",
@@ -1437,14 +1121,10 @@
   "mod1code": "knock",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "81": {
   "Name": "of Light",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
@@ -1457,14 +1137,10 @@
   "itype2": "rod",
   "itype3": "miss",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "82": {
   "Name": "of Radiance",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "15",
@@ -1476,14 +1152,10 @@
   "itype1": "rod",
   "itype2": "miss",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "83": {
   "Name": "of the Sun",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "17",
@@ -1496,14 +1168,10 @@
   "itype2": "miss",
   "itype3": "glov",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "84": {
   "Name": "of Life",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "23",
@@ -1516,14 +1184,10 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "belt",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "85": {
   "Name": "of the Jackal",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "3",
@@ -1535,14 +1199,10 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "86": {
   "Name": "of the Fox",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
@@ -1554,14 +1214,10 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "87": {
   "Name": "of the Wolf",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "14",
@@ -1573,14 +1229,10 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "88": {
   "Name": "of the Wolf",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "45",
@@ -1590,14 +1242,10 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "weap",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "89": {
   "Name": "of the Tiger",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "20",
@@ -1608,14 +1256,10 @@
   "mod1max": "30",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "90": {
   "Name": "of the Mammoth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "24",
@@ -1630,14 +1274,10 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "ring",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "91": {
   "Name": "of the Mammoth",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "60",
@@ -1651,14 +1291,10 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "belt",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "92": {
   "Name": "of the Colosuss",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
@@ -1673,14 +1309,10 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "belt",
-  "itype5": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "amul"
  },
  "93": {
   "Name": "of the Leech",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
@@ -1691,14 +1323,10 @@
   "mod1max": "7",
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "94": {
   "Name": "of the Locust",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "20",
@@ -1709,14 +1337,10 @@
   "mod1max": "10",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "95": {
   "Name": "of the Bat",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "6",
@@ -1727,14 +1351,10 @@
   "mod1max": "8",
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "96": {
   "Name": "of the Vampire",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "20",
@@ -1745,14 +1365,10 @@
   "mod1max": "12",
   "transform": "1",
   "transformcolor": "cblu",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "97": {
   "Name": "of Defiance",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -1766,14 +1382,10 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "98": {
   "Name": "of Amelioration",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -1785,14 +1397,10 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "99": {
   "Name": "of Remedy",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "7",
@@ -1803,19 +1411,11 @@
   "mod1max": "25",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
- "100": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "100": {},
  "101": {
   "Name": "of Simplicity",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "25",
@@ -1828,14 +1428,10 @@
   "itype2": "helm",
   "itype3": "weap",
   "itype4": "shld",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
  "102": {
   "Name": "of Ease",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "15",
@@ -1848,19 +1444,11 @@
   "itype2": "helm",
   "itype3": "weap",
   "itype4": "shld",
-  "etype1": "rod",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "rod"
  },
- "103": {
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
- },
+ "103": {},
  "104": {
   "Name": "of Strength",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "5",
@@ -1871,14 +1459,10 @@
   "mod1max": "3",
   "itype1": "belt",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "105": {
   "Name": "of Might",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "10",
@@ -1892,14 +1476,10 @@
   "itype3": "ring",
   "itype4": "amul",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "106": {
   "Name": "of the Ox",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "18",
@@ -1913,14 +1493,10 @@
   "itype3": "ring",
   "itype4": "amul",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "107": {
   "Name": "of the Ox",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "47",
@@ -1931,14 +1507,10 @@
   "mod1max": "10",
   "itype1": "shld",
   "itype2": "boot",
-  "itype3": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "glov"
  },
  "108": {
   "Name": "of the Giant",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "22",
@@ -1953,14 +1525,10 @@
   "itype2": "belt",
   "itype3": "amul",
   "etype1": "wand",
-  "etype2": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "staf"
  },
  "109": {
   "Name": "of the Giant",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "62",
@@ -1974,14 +1542,10 @@
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "ring",
-  "itype4": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "shld"
  },
  "110": {
   "Name": "of the Titan",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "30",
@@ -1994,14 +1558,10 @@
   "transformcolor": "dgld",
   "itype1": "boot",
   "itype2": "belt",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "111": {
   "Name": "of Pacing",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "2",
@@ -2010,14 +1570,10 @@
   "mod1code": "move1",
   "mod1min": "10",
   "mod1max": "10",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "112": {
   "Name": "of Haste",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "12",
@@ -2026,14 +1582,10 @@
   "mod1code": "move2",
   "mod1min": "20",
   "mod1max": "20",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "113": {
   "Name": "of Speed",
-  "version": "0",
   "spawnable": "1",
   "rare": "1",
   "level": "22",
@@ -2042,10 +1594,7 @@
   "mod1code": "move3",
   "mod1min": "30",
   "mod1max": "30",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "114": {
   "Name": "of Health",
@@ -2063,10 +1612,7 @@
   "itype2": "shld",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "115": {
   "Name": "of Protection",
@@ -2082,10 +1628,7 @@
   "mod1max": "2",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "116": {
   "Name": "of Absorption",
@@ -2100,10 +1643,7 @@
   "mod1min": "3",
   "mod1max": "3",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "117": {
   "Name": "of Life",
@@ -2120,10 +1660,7 @@
   "transform": "1",
   "transformcolor": "dblu",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "118": {
   "Name": "of Life Everlasting",
@@ -2137,10 +1674,7 @@
   "mod1min": "10",
   "mod1max": "25",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "119": {
   "Name": "of Protection",
@@ -2156,10 +1690,7 @@
   "mod1max": "2",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "120": {
   "Name": "of Absorption",
@@ -2175,10 +1706,7 @@
   "mod1max": "3",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "121": {
   "Name": "of Life",
@@ -2194,10 +1722,7 @@
   "mod1max": "7",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "122": {
   "Name": "of Anima",
@@ -2212,10 +1737,7 @@
   "mod1max": "15",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "123": {
   "Name": "of Warding",
@@ -2234,10 +1756,7 @@
   "itype3": "ring",
   "itype4": "amul",
   "itype5": "orb",
-  "itype6": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "circ"
  },
  "124": {
   "Name": "of the Sentinel",
@@ -2254,10 +1773,7 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "orb",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "125": {
   "Name": "of Guarding",
@@ -2273,10 +1789,7 @@
   "mod1max": "3",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "126": {
   "Name": "of Negation",
@@ -2291,10 +1804,7 @@
   "mod1max": "6",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "127": {
   "Name": "of the Sentinel",
@@ -2310,10 +1820,7 @@
   "mod1max": "2",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "128": {
   "Name": "of Guarding",
@@ -2329,10 +1836,7 @@
   "mod1max": "3",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "129": {
   "Name": "of Negation",
@@ -2347,10 +1851,7 @@
   "mod1max": "6",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "130": {
   "Name": "of Coolness",
@@ -2366,10 +1867,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "131": {
   "Name": "of Incombustibility",
@@ -2385,10 +1883,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "132": {
   "Name": "of Amianthus",
@@ -2404,10 +1899,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "133": {
   "Name": "of Fire Quenching",
@@ -2422,10 +1914,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "134": {
   "Name": "of Coolness",
@@ -2441,10 +1930,7 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "orb",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "135": {
   "Name": "of Incombustibility",
@@ -2459,10 +1945,7 @@
   "mod1max": "3",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "136": {
   "Name": "of Amianthus",
@@ -2477,10 +1960,7 @@
   "mod1max": "5",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "137": {
   "Name": "of Fire Quenching",
@@ -2494,10 +1974,7 @@
   "mod1max": "8",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "138": {
   "Name": "of Faith",
@@ -2510,10 +1987,7 @@
   "mod1code": "abs-fire",
   "mod1min": "1",
   "mod1max": "2",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "139": {
   "Name": "of Resistance",
@@ -2529,10 +2003,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "140": {
   "Name": "of Insulation",
@@ -2548,10 +2019,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "141": {
   "Name": "of Grounding",
@@ -2567,10 +2035,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "142": {
   "Name": "of the Dynamo",
@@ -2585,10 +2050,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "143": {
   "Name": "of Resistance",
@@ -2604,10 +2066,7 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "orb",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "144": {
   "Name": "of Insulation",
@@ -2622,10 +2081,7 @@
   "mod1max": "3",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "145": {
   "Name": "of Grounding",
@@ -2640,10 +2096,7 @@
   "mod1max": "5",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "146": {
   "Name": "of the Dynamo",
@@ -2657,10 +2110,7 @@
   "mod1max": "8",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "147": {
   "Name": "of Stoicism",
@@ -2673,10 +2123,7 @@
   "mod1code": "abs-ltng",
   "mod1min": "1",
   "mod1max": "2",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "148": {
   "Name": "of Warming",
@@ -2692,10 +2139,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "149": {
   "Name": "of Thawing",
@@ -2711,10 +2155,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "150": {
   "Name": "of the Dunes",
@@ -2730,10 +2171,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "151": {
   "Name": "of the Sirocco",
@@ -2748,10 +2186,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "boot",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "152": {
   "Name": "of Warming",
@@ -2767,10 +2202,7 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "orb",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "153": {
   "Name": "of Thawing",
@@ -2785,10 +2217,7 @@
   "mod1max": "3",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "154": {
   "Name": "of the Dunes",
@@ -2803,10 +2232,7 @@
   "mod1max": "5",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "155": {
   "Name": "of the Sirocco",
@@ -2820,10 +2246,7 @@
   "mod1max": "8",
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "156": {
   "Name": "of Desire",
@@ -2836,10 +2259,7 @@
   "mod1code": "abs-cold",
   "mod1min": "1",
   "mod1max": "2",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "157": {
   "Name": "of Piercing",
@@ -2855,10 +2275,7 @@
   "mod1max": "1",
   "itype1": "rod",
   "itype2": "knif",
-  "itype3": "h2h",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "h2h"
  },
  "158": {
   "Name": "of Bashing",
@@ -2874,10 +2291,7 @@
   "itype1": "blun",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "159": {
   "Name": "of Puncturing",
@@ -2892,10 +2306,7 @@
   "mod1max": "-20",
   "itype1": "spea",
   "itype2": "knif",
-  "itype3": "h2h",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "h2h"
  },
  "160": {
   "Name": "of Thorns",
@@ -2912,10 +2323,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "belt",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "161": {
   "Name": "of Spikes",
@@ -2934,10 +2342,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "belt",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "162": {
   "Name": "of Razors",
@@ -2955,10 +2360,7 @@
   "transformcolor": "oran",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "163": {
   "Name": "of Swords",
@@ -2975,10 +2377,7 @@
   "transformcolor": "oran",
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "164": {
   "Name": "of Malice",
@@ -2992,10 +2391,7 @@
   "mod1code": "thorns",
   "mod1min": "1",
   "mod1max": "5",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "165": {
   "Name": "of Readiness",
@@ -3011,10 +2407,7 @@
   "mod1max": "10",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "166": {
   "Name": "of Alacrity",
@@ -3030,10 +2423,7 @@
   "mod1max": "20",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "167": {
   "Name": "of Swiftness",
@@ -3050,10 +2440,7 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "168": {
   "Name": "of Quickness",
@@ -3072,10 +2459,7 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "169": {
   "Name": "of Alacrity",
@@ -3091,10 +2475,7 @@
   "mod1max": "20",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "170": {
   "Name": "of Fervor",
@@ -3107,10 +2488,7 @@
   "mod1code": "swing1",
   "mod1min": "15",
   "mod1max": "15",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "171": {
   "Name": "of Blocking",
@@ -3127,10 +2505,7 @@
   "mod2code": "block2",
   "mod2min": "15",
   "mod2max": "15",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "172": {
   "Name": "of Deflecting",
@@ -3147,10 +2522,7 @@
   "mod2code": "block2",
   "mod2min": "30",
   "mod2max": "30",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "173": {
   "Name": "of the Apprentice",
@@ -3168,10 +2540,7 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "174": {
   "Name": "of the Magus",
@@ -3188,10 +2557,7 @@
   "itype1": "rod",
   "itype2": "orb",
   "itype3": "circ",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "175": {
   "Name": "of Frost",
@@ -3213,10 +2579,7 @@
   "mod3max": "50",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "176": {
   "Name": "of the Icicle",
@@ -3238,10 +2601,7 @@
   "mod3max": "75",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "177": {
   "Name": "of the Glacier",
@@ -3265,10 +2625,7 @@
   "transformcolor": "dblu",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "178": {
   "Name": "of Winter",
@@ -3292,10 +2649,7 @@
   "transformcolor": "dblu",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "179": {
   "Name": "of Frost",
@@ -3316,10 +2670,7 @@
   "mod3min": "50",
   "mod3max": "50",
   "itype1": "belt",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "180": {
   "Name": "of Frigidity",
@@ -3341,10 +2692,7 @@
   "mod3max": "50",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "181": {
   "Name": "of Warmth",
@@ -3364,10 +2712,7 @@
   "itype4": "ring",
   "itype5": "amul",
   "itype6": "circ",
-  "itype7": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "orb"
  },
  "182": {
   "Name": "of Flame",
@@ -3386,10 +2731,7 @@
   "mod2max": "5",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "183": {
   "Name": "of Fire",
@@ -3408,10 +2750,7 @@
   "mod2max": "11",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "184": {
   "Name": "of Burning",
@@ -3432,10 +2771,7 @@
   "transformcolor": "dred",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "185": {
   "Name": "of Incineration",
@@ -3456,10 +2792,7 @@
   "transformcolor": "dred",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "186": {
   "Name": "of Flame",
@@ -3478,10 +2811,7 @@
   "mod2max": "6",
   "itype1": "glov",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "187": {
   "Name": "of Passion",
@@ -3500,10 +2830,7 @@
   "mod2max": "10",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "188": {
   "Name": "of Shock",
@@ -3522,10 +2849,7 @@
   "mod2max": "8",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "189": {
   "Name": "of Lightning",
@@ -3544,10 +2868,7 @@
   "mod2max": "16",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "190": {
   "Name": "of Thunder",
@@ -3568,10 +2889,7 @@
   "transformcolor": "dyel",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "191": {
   "Name": "of Storms",
@@ -3592,10 +2910,7 @@
   "transformcolor": "dyel",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "192": {
   "Name": "of Shock",
@@ -3614,10 +2929,7 @@
   "mod2max": "23",
   "itype1": "boot",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "193": {
   "Name": "of Ennui",
@@ -3636,10 +2948,7 @@
   "mod2max": "20",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "194": {
   "Name": "of Craftsmanship",
@@ -3658,10 +2967,7 @@
   "itype3": "amul",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "195": {
   "Name": "of Quality",
@@ -3678,10 +2984,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "196": {
   "Name": "of Maiming",
@@ -3698,10 +3001,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "197": {
   "Name": "of Slaying",
@@ -3718,10 +3018,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "198": {
   "Name": "of Gore",
@@ -3738,10 +3035,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "199": {
   "Name": "of Carnage",
@@ -3760,10 +3054,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "200": {
   "Name": "of Slaughter",
@@ -3782,10 +3073,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "201": {
   "Name": "of Butchery",
@@ -3803,10 +3091,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "202": {
   "Name": "of Evisceration",
@@ -3824,10 +3109,7 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "203": {
   "Name": "of Maiming",
@@ -3843,10 +3125,7 @@
   "mod1max": "4",
   "itype1": "shld",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "204": {
   "Name": "of Craftsmanship",
@@ -3861,10 +3140,7 @@
   "mod1code": "dmg-max",
   "mod1min": "1",
   "mod1max": "2",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "205": {
   "Name": "of Craftsmanship",
@@ -3879,10 +3155,7 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "206": {
   "Name": "of Craftsmanship",
@@ -3896,10 +3169,7 @@
   "mod1code": "dmg-max",
   "mod1min": "4",
   "mod1max": "5",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "207": {
   "Name": "of Quality",
@@ -3914,10 +3184,7 @@
   "mod1code": "dmg-max",
   "mod1min": "6",
   "mod1max": "7",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "208": {
   "Name": "of Quality",
@@ -3931,10 +3198,7 @@
   "mod1code": "dmg-max",
   "mod1min": "7",
   "mod1max": "8",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "209": {
   "Name": "of Maiming",
@@ -3948,10 +3212,7 @@
   "mod1code": "dmg-max",
   "mod1min": "9",
   "mod1max": "10",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "210": {
   "Name": "of Maiming",
@@ -3964,15 +3225,11 @@
   "mod1code": "dmg-max",
   "mod1min": "11",
   "mod1max": "12",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "211": {
   "Name": "of Craftsmanship",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "8",
   "maxlevel": "17",
@@ -3982,15 +3239,11 @@
   "mod1code": "dmg-max",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "212": {
   "Name": "of Craftsmanship",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "18",
   "levelreq": "13",
@@ -3999,15 +3252,11 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "213": {
   "Name": "of Quality",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "28",
   "maxlevel": "37",
@@ -4017,15 +3266,11 @@
   "mod1code": "dmg-max",
   "mod1min": "3",
   "mod1max": "4",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "214": {
   "Name": "of Quality",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "38",
   "levelreq": "30",
@@ -4034,15 +3279,11 @@
   "mod1code": "dmg-max",
   "mod1min": "5",
   "mod1max": "6",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "215": {
   "Name": "of Maiming",
   "version": "100",
-  "spawnable": "0",
   "level": "48",
   "levelreq": "40",
   "frequency": "4",
@@ -4050,15 +3291,11 @@
   "mod1code": "dmg-max",
   "mod1min": "7",
   "mod1max": "8",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "216": {
   "Name": "of Craftsmanship",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "21",
   "levelreq": "15",
@@ -4067,15 +3304,11 @@
   "mod1code": "dmg-max",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "217": {
   "Name": "of Quality",
   "version": "100",
-  "spawnable": "0",
   "rare": "1",
   "level": "36",
   "levelreq": "28",
@@ -4084,15 +3317,11 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "218": {
   "Name": "of Maiming",
   "version": "100",
-  "spawnable": "0",
   "level": "51",
   "levelreq": "43",
   "frequency": "4",
@@ -4100,10 +3329,7 @@
   "mod1code": "dmg-max",
   "mod1min": "3",
   "mod1max": "4",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "219": {
   "Name": "of Ire",
@@ -4117,10 +3343,7 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "5",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "220": {
   "Name": "of Wrath",
@@ -4136,10 +3359,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "blac",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "221": {
   "Name": "of Carnage",
@@ -4171,10 +3391,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "223": {
   "Name": "of Measure",
@@ -4191,10 +3408,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "224": {
   "Name": "of Excellence",
@@ -4211,10 +3425,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "225": {
   "Name": "of Performance",
@@ -4233,10 +3444,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "226": {
   "Name": "of Transcendence",
@@ -4255,10 +3463,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "227": {
   "Name": "of Worth",
@@ -4274,10 +3479,7 @@
   "mod1max": "3",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "228": {
   "Name": "of Measure",
@@ -4293,10 +3495,7 @@
   "mod1max": "5",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "229": {
   "Name": "of Excellence",
@@ -4312,10 +3511,7 @@
   "mod1max": "9",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "230": {
   "Name": "of Performance",
@@ -4330,10 +3526,7 @@
   "mod1max": "13",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "231": {
   "Name": "of Joyfulness",
@@ -4349,10 +3542,7 @@
   "mod1max": "4",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "232": {
   "Name": "of Bliss",
@@ -4368,10 +3558,7 @@
   "mod1max": "10",
   "transform": "1",
   "transformcolor": "whit",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "233": {
   "Name": "of Blight",
@@ -4389,10 +3576,7 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "234": {
   "Name": "of Venom",
@@ -4410,10 +3594,7 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "235": {
   "Name": "of Pestilence",
@@ -4433,10 +3614,7 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "236": {
   "Name": "of Anthrax",
@@ -4455,10 +3633,7 @@
   "transformcolor": "dgrn",
   "itype1": "weap",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "237": {
   "Name": "of Blight",
@@ -4474,10 +3649,7 @@
   "mod1min": "171",
   "mod1max": "171",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "238": {
   "Name": "of Envy",
@@ -4494,10 +3666,7 @@
   "mod1max": "103",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "239": {
   "Name": "of Dexterity",
@@ -4513,10 +3682,7 @@
   "mod1max": "2",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "240": {
   "Name": "of Skill",
@@ -4532,10 +3698,7 @@
   "mod1max": "5",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "241": {
   "Name": "of Accuracy",
@@ -4551,10 +3714,7 @@
   "mod1max": "9",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "242": {
   "Name": "of Precision",
@@ -4570,10 +3730,7 @@
   "mod1max": "15",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "243": {
   "Name": "of Perfection",
@@ -4591,10 +3748,7 @@
   "transformcolor": "dgld",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "244": {
   "Name": "of Nirvana",
@@ -4611,10 +3765,7 @@
   "transformcolor": "dgld",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "245": {
   "Name": "of Dexterity",
@@ -4629,10 +3780,7 @@
   "mod1min": "1",
   "mod1max": "2",
   "itype1": "ring",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "246": {
   "Name": "of Skill",
@@ -4647,10 +3795,7 @@
   "mod1min": "3",
   "mod1max": "5",
   "itype1": "ring",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "247": {
   "Name": "of Accuracy",
@@ -4665,10 +3810,7 @@
   "mod1min": "6",
   "mod1max": "9",
   "itype1": "ring",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "248": {
   "Name": "of Precision",
@@ -4683,10 +3825,7 @@
   "mod1min": "10",
   "mod1max": "15",
   "itype1": "ring",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "249": {
   "Name": "of Perfection",
@@ -4702,10 +3841,7 @@
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "ring",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "250": {
   "Name": "of Dexterity",
@@ -4721,10 +3857,7 @@
   "mod1max": "3",
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "251": {
   "Name": "of Skill",
@@ -4740,10 +3873,7 @@
   "mod1max": "5",
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "252": {
   "Name": "of Accuracy",
@@ -4759,10 +3889,7 @@
   "mod1max": "9",
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "253": {
   "Name": "of Precision",
@@ -4779,10 +3906,7 @@
   "transformcolor": "dgld",
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "254": {
   "Name": "of Dexterity",
@@ -4796,10 +3920,7 @@
   "mod1code": "dex",
   "mod1min": "3",
   "mod1max": "4",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "255": {
   "Name": "of Dexterity",
@@ -4813,10 +3934,7 @@
   "mod1code": "dex",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "256": {
   "Name": "of Dexterity",
@@ -4830,10 +3948,7 @@
   "mod1code": "dex",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "257": {
   "Name": "of Dexterity",
@@ -4847,10 +3962,7 @@
   "mod1code": "dex",
   "mod1min": "5",
   "mod1max": "6",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "258": {
   "Name": "of Dexterity",
@@ -4864,10 +3976,7 @@
   "mod1code": "dex",
   "mod1min": "4",
   "mod1max": "5",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "259": {
   "Name": "of Dexterity",
@@ -4881,10 +3990,7 @@
   "mod1code": "dex",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "260": {
   "Name": "of Daring",
@@ -4898,10 +4004,7 @@
   "mod1code": "dex",
   "mod1min": "1",
   "mod1max": "3",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "261": {
   "Name": "of Balance",
@@ -4916,10 +4019,7 @@
   "mod1min": "10",
   "mod1max": "10",
   "itype1": "armo",
-  "etype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "glov"
  },
  "262": {
   "Name": "of Equilibrium",
@@ -4935,10 +4035,7 @@
   "mod1max": "17",
   "itype1": "tors",
   "itype2": "belt",
-  "itype3": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "shld"
  },
  "263": {
   "Name": "of Stability",
@@ -4955,10 +4052,7 @@
   "transform": "1",
   "transformcolor": "dyel",
   "itype1": "tors",
-  "itype2": "belt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "belt"
  },
  "264": {
   "Name": "of Balance",
@@ -4972,10 +4066,7 @@
   "mod1code": "balance3",
   "mod1min": "12",
   "mod1max": "12",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "265": {
   "Name": "of Balance",
@@ -4989,10 +4080,7 @@
   "mod1code": "balance2",
   "mod1min": "8",
   "mod1max": "8",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "266": {
   "Name": "of Balance",
@@ -5008,10 +4096,7 @@
   "mod1max": "5",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "267": {
   "Name": "of Truth",
@@ -5025,10 +4110,7 @@
   "mod1code": "balance1",
   "mod1min": "7",
   "mod1max": "7",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "268": {
   "Name": "of Regeneration",
@@ -5046,10 +4128,7 @@
   "itype2": "belt",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "269": {
   "Name": "of Regeneration",
@@ -5064,10 +4143,7 @@
   "mod1min": "3",
   "mod1max": "5",
   "itype1": "shld",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "270": {
   "Name": "of Regeneration",
@@ -5084,10 +4160,7 @@
   "itype1": "tors",
   "itype2": "weap",
   "itype3": "boot",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "271": {
   "Name": "of Regrowth",
@@ -5105,10 +4178,7 @@
   "transformcolor": "cred",
   "itype1": "scep",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "272": {
   "Name": "of Regrowth",
@@ -5125,10 +4195,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "belt",
-  "itype2": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring"
  },
  "273": {
   "Name": "of Revivification",
@@ -5145,10 +4212,7 @@
   "transformcolor": "cred",
   "itype1": "scep",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "274": {
   "Name": "of Honor",
@@ -5162,10 +4226,7 @@
   "mod1code": "regen",
   "mod1min": "1",
   "mod1max": "4",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "275": {
   "Name": "of Vileness",
@@ -5181,10 +4242,7 @@
   "mod1max": "1",
   "itype1": "mele",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "276": {
   "Name": "of Greed",
@@ -5200,10 +4258,7 @@
   "mod1max": "40",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "277": {
   "Name": "of Wealth",
@@ -5223,10 +4278,7 @@
   "itype2": "glov",
   "itype3": "belt",
   "itype4": "amul",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "278": {
   "Name": "of Greed",
@@ -5240,10 +4292,7 @@
   "mod1code": "gold%",
   "mod1min": "10",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "279": {
   "Name": "of Greed",
@@ -5257,10 +4306,7 @@
   "mod1code": "gold%",
   "mod1min": "21",
   "mod1max": "30",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "280": {
   "Name": "of Greed",
@@ -5274,10 +4320,7 @@
   "mod1code": "gold%",
   "mod1min": "31",
   "mod1max": "40",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "281": {
   "Name": "of Greed",
@@ -5291,10 +4334,7 @@
   "mod1code": "gold%",
   "mod1min": "5",
   "mod1max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "282": {
   "Name": "of Greed",
@@ -5308,10 +4348,7 @@
   "mod1code": "gold%",
   "mod1min": "11",
   "mod1max": "22",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "283": {
   "Name": "of Greed",
@@ -5325,10 +4362,7 @@
   "mod1code": "gold%",
   "mod1min": "5",
   "mod1max": "10",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "284": {
   "Name": "of Avarice",
@@ -5342,10 +4376,7 @@
   "mod1code": "gold%",
   "mod1min": "10",
   "mod1max": "30",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "285": {
   "Name": "of Chance",
@@ -5363,10 +4394,7 @@
   "itype2": "glov",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "286": {
   "Name": "of Fortune",
@@ -5385,10 +4413,7 @@
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "287": {
   "Name": "of Fortune",
@@ -5403,10 +4428,7 @@
   "mod1max": "25",
   "transform": "1",
   "transformcolor": "lgld",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "288": {
   "Name": "of Luck",
@@ -5423,10 +4445,7 @@
   "transformcolor": "lgld",
   "itype1": "boot",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "289": {
   "Name": "of Fortune",
@@ -5440,10 +4459,7 @@
   "mod1code": "mag%",
   "mod1min": "3",
   "mod1max": "5",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "290": {
   "Name": "of Good Luck",
@@ -5456,10 +4472,7 @@
   "mod1code": "mag%",
   "mod1min": "6",
   "mod1max": "7",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "291": {
   "Name": "of Prosperity",
@@ -5473,10 +4486,7 @@
   "mod1code": "mag%",
   "mod1min": "5",
   "mod1max": "10",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "292": {
   "Name": "of Energy",
@@ -5494,10 +4504,7 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "293": {
   "Name": "of the Mind",
@@ -5515,10 +4522,7 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "294": {
   "Name": "of Brilliance",
@@ -5536,10 +4540,7 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "295": {
   "Name": "of Sorcery",
@@ -5557,10 +4558,7 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "296": {
   "Name": "of Wizardry",
@@ -5580,10 +4578,7 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "297": {
   "Name": "of Enlightenment",
@@ -5602,10 +4597,7 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "staf"
  },
  "298": {
   "Name": "of Energy",
@@ -5619,10 +4611,7 @@
   "mod1code": "enr",
   "mod1min": "1",
   "mod1max": "3",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "299": {
   "Name": "of the Mind",
@@ -5636,10 +4625,7 @@
   "mod1code": "enr",
   "mod1min": "4",
   "mod1max": "6",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "300": {
   "Name": "of Brilliance",
@@ -5653,10 +4639,7 @@
   "mod1code": "enr",
   "mod1min": "7",
   "mod1max": "10",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "301": {
   "Name": "of Sorcery",
@@ -5670,10 +4653,7 @@
   "mod1code": "enr",
   "mod1min": "11",
   "mod1max": "15",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "302": {
   "Name": "of Wizardry",
@@ -5688,10 +4668,7 @@
   "mod1max": "20",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "303": {
   "Name": "of Energy",
@@ -5706,10 +4683,7 @@
   "mod1min": "1",
   "mod1max": "3",
   "itype1": "helm",
-  "itype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "scep"
  },
  "304": {
   "Name": "of the Mind",
@@ -5724,10 +4698,7 @@
   "mod1min": "4",
   "mod1max": "6",
   "itype1": "helm",
-  "itype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "scep"
  },
  "305": {
   "Name": "of Brilliance",
@@ -5742,10 +4713,7 @@
   "mod1min": "7",
   "mod1max": "10",
   "itype1": "helm",
-  "itype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "scep"
  },
  "306": {
   "Name": "of Sorcery",
@@ -5761,10 +4729,7 @@
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "helm",
-  "itype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "scep"
  },
  "307": {
   "Name": "of Knowledge",
@@ -5778,10 +4743,7 @@
   "mod1code": "enr",
   "mod1min": "1",
   "mod1max": "5",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "308": {
   "Name": "of the Bear",
@@ -5795,10 +4757,7 @@
   "mod1code": "knock",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "309": {
   "Name": "of Light",
@@ -5818,10 +4777,7 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "amul"
  },
  "310": {
   "Name": "of Radiance",
@@ -5842,10 +4798,7 @@
   "itype2": "miss",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "helm"
  },
  "311": {
   "Name": "of the Sun",
@@ -5867,10 +4820,7 @@
   "itype3": "glov",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype6": "helm"
  },
  "312": {
   "Name": "of the Jackal",
@@ -5888,10 +4838,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "313": {
   "Name": "of the Fox",
@@ -5909,10 +4856,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "314": {
   "Name": "of the Wolf",
@@ -5930,10 +4874,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "315": {
   "Name": "of the Tiger",
@@ -5951,10 +4892,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "316": {
   "Name": "of the Mammoth",
@@ -5974,10 +4912,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "317": {
   "Name": "of the Colosuss",
@@ -5997,10 +4932,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "318": {
   "Name": "of the Squid",
@@ -6019,10 +4951,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "319": {
   "Name": "of the Whale",
@@ -6041,10 +4970,7 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "320": {
   "Name": "of the Jackal",
@@ -6059,10 +4985,7 @@
   "mod1min": "1",
   "mod1max": "5",
   "itype1": "shld",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "321": {
   "Name": "of the Fox",
@@ -6077,10 +5000,7 @@
   "mod1min": "6",
   "mod1max": "10",
   "itype1": "shld",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "322": {
   "Name": "of the Wolf",
@@ -6095,10 +5015,7 @@
   "mod1min": "11",
   "mod1max": "20",
   "itype1": "shld",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "323": {
   "Name": "of the Tiger",
@@ -6113,10 +5030,7 @@
   "mod1min": "21",
   "mod1max": "30",
   "itype1": "shld",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "324": {
   "Name": "of the Mammoth",
@@ -6133,10 +5047,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "shld",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "325": {
   "Name": "of the Colosuss",
@@ -6152,10 +5063,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "shld",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "326": {
   "Name": "of the Jackal",
@@ -6173,10 +5081,7 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "helm"
  },
  "327": {
   "Name": "of the Fox",
@@ -6194,10 +5099,7 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "helm"
  },
  "328": {
   "Name": "of the Wolf",
@@ -6215,10 +5117,7 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "helm"
  },
  "329": {
   "Name": "of the Tiger",
@@ -6236,10 +5135,7 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "helm"
  },
  "330": {
   "Name": "of the Mammoth",
@@ -6259,10 +5155,7 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "helm"
  },
  "331": {
   "Name": "of Life",
@@ -6276,10 +5169,7 @@
   "mod1code": "hp",
   "mod1min": "5",
   "mod1max": "10",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "332": {
   "Name": "of Life",
@@ -6293,10 +5183,7 @@
   "mod1code": "hp",
   "mod1min": "11",
   "mod1max": "15",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "333": {
   "Name": "of Life",
@@ -6310,10 +5197,7 @@
   "mod1code": "hp",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "334": {
   "Name": "of Substinence",
@@ -6327,10 +5211,7 @@
   "mod1code": "hp",
   "mod1min": "21",
   "mod1max": "25",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "335": {
   "Name": "of Substinence",
@@ -6344,10 +5225,7 @@
   "mod1code": "hp",
   "mod1min": "26",
   "mod1max": "30",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "336": {
   "Name": "of Substinence",
@@ -6361,10 +5239,7 @@
   "mod1code": "hp",
   "mod1min": "31",
   "mod1max": "35",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "337": {
   "Name": "of Vita",
@@ -6377,10 +5252,7 @@
   "mod1code": "hp",
   "mod1min": "36",
   "mod1max": "40",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "338": {
   "Name": "of Vita",
@@ -6393,10 +5265,7 @@
   "mod1code": "hp",
   "mod1min": "41",
   "mod1max": "45",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "339": {
   "Name": "of Vita",
@@ -6409,10 +5278,7 @@
   "mod1code": "hp",
   "mod1min": "46",
   "mod1max": "50",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "340": {
   "Name": "of Life",
@@ -6426,10 +5292,7 @@
   "mod1code": "hp",
   "mod1min": "6",
   "mod1max": "10",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "341": {
   "Name": "of Life",
@@ -6443,10 +5306,7 @@
   "mod1code": "hp",
   "mod1min": "11",
   "mod1max": "15",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "342": {
   "Name": "of Substinence",
@@ -6460,10 +5320,7 @@
   "mod1code": "hp",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "343": {
   "Name": "of Substinence",
@@ -6477,10 +5334,7 @@
   "mod1code": "hp",
   "mod1min": "21",
   "mod1max": "25",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "344": {
   "Name": "of Vita",
@@ -6493,10 +5347,7 @@
   "mod1code": "hp",
   "mod1min": "26",
   "mod1max": "30",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "345": {
   "Name": "of Vita",
@@ -6509,10 +5360,7 @@
   "mod1code": "hp",
   "mod1min": "31",
   "mod1max": "35",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "346": {
   "Name": "of Life",
@@ -6526,10 +5374,7 @@
   "mod1code": "hp",
   "mod1min": "5",
   "mod1max": "10",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "347": {
   "Name": "of Substinence",
@@ -6543,10 +5388,7 @@
   "mod1code": "hp",
   "mod1min": "11",
   "mod1max": "15",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "348": {
   "Name": "of Vita",
@@ -6559,10 +5401,7 @@
   "mod1code": "hp",
   "mod1min": "16",
   "mod1max": "20",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "349": {
   "Name": "of Spirit",
@@ -6576,10 +5415,7 @@
   "mod1code": "hp",
   "mod1min": "3",
   "mod1max": "8",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "350": {
   "Name": "of Hope",
@@ -6592,10 +5428,7 @@
   "mod1code": "hp",
   "mod1min": "9",
   "mod1max": "20",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "351": {
   "Name": "of the Leech",
@@ -6610,10 +5443,7 @@
   "mod1min": "4",
   "mod1max": "5",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "352": {
   "Name": "of the Locust",
@@ -6630,10 +5460,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "mele",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "353": {
   "Name": "of the Lamprey",
@@ -6650,10 +5477,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "mele",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "354": {
   "Name": "of the Leech",
@@ -6668,10 +5492,7 @@
   "mod1min": "3",
   "mod1max": "4",
   "itype1": "ring",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "355": {
   "Name": "of the Locust",
@@ -6686,10 +5507,7 @@
   "mod1min": "5",
   "mod1max": "6",
   "itype1": "ring",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "356": {
   "Name": "of the Lamprey",
@@ -6706,10 +5524,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "ring",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "357": {
   "Name": "of the Leech",
@@ -6725,10 +5540,7 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "358": {
   "Name": "of the Bat",
@@ -6743,10 +5555,7 @@
   "mod1min": "4",
   "mod1max": "5",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "359": {
   "Name": "of the Wraith",
@@ -6762,10 +5571,7 @@
   "mod1max": "7",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "360": {
   "Name": "of the Vampire",
@@ -6781,10 +5587,7 @@
   "mod1max": "9",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "361": {
   "Name": "of the Bat",
@@ -6799,10 +5602,7 @@
   "mod1min": "3",
   "mod1max": "4",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "362": {
   "Name": "of the Wraith",
@@ -6817,10 +5617,7 @@
   "mod1min": "5",
   "mod1max": "6",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "363": {
   "Name": "of the Vampire",
@@ -6837,10 +5634,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "364": {
   "Name": "of the Bat",
@@ -6856,10 +5650,7 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "365": {
   "Name": "of Defiance",
@@ -6878,10 +5669,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "366": {
   "Name": "of Amelioration",
@@ -6898,10 +5686,7 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "367": {
   "Name": "of Remedy",
@@ -6918,10 +5703,7 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
-  "itype4": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "circ"
  },
  "368": {
   "Name": "of Simplicity",
@@ -6939,10 +5721,7 @@
   "itype2": "weap",
   "itype3": "shld",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "369": {
   "Name": "of Ease",
@@ -6960,10 +5739,7 @@
   "itype2": "weap",
   "itype3": "shld",
   "etype1": "rod",
-  "etype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "orb"
  },
  "370": {
   "Name": "of Freedom",
@@ -6977,10 +5753,7 @@
   "mod1code": "ease",
   "mod1min": "-15",
   "mod1max": "-15",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "371": {
   "Name": "of Strength",
@@ -6998,10 +5771,7 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "372": {
   "Name": "of Might",
@@ -7019,10 +5789,7 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "373": {
   "Name": "of the Ox",
@@ -7040,10 +5807,7 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "374": {
   "Name": "of the Giant",
@@ -7061,10 +5825,7 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "375": {
   "Name": "of the Titan",
@@ -7084,10 +5845,7 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "376": {
   "Name": "of Atlus",
@@ -7107,10 +5865,7 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "377": {
   "Name": "of Strength",
@@ -7127,10 +5882,7 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "tors"
  },
  "378": {
   "Name": "of Might",
@@ -7147,10 +5899,7 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "tors"
  },
  "379": {
   "Name": "of the Ox",
@@ -7167,10 +5916,7 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "tors"
  },
  "380": {
   "Name": "of the Giant",
@@ -7187,10 +5933,7 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "tors"
  },
  "381": {
   "Name": "of the Titan",
@@ -7209,10 +5952,7 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "tors"
  },
  "382": {
   "Name": "of Strength",
@@ -7229,10 +5969,7 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "shld",
-  "etype1": "blun",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "blun"
  },
  "383": {
   "Name": "of Might",
@@ -7249,10 +5986,7 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "shld",
-  "etype1": "blun",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "blun"
  },
  "384": {
   "Name": "of the Ox",
@@ -7269,10 +6003,7 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "shld",
-  "etype1": "blun",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "blun"
  },
  "385": {
   "Name": "of the Giant",
@@ -7290,10 +6021,7 @@
   "transformcolor": "dgld",
   "itype1": "mele",
   "itype2": "glov",
-  "etype1": "blun",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "blun"
  },
  "386": {
   "Name": "of Strength",
@@ -7307,10 +6035,7 @@
   "mod1code": "str",
   "mod1min": "3",
   "mod1max": "4",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "387": {
   "Name": "of Strength",
@@ -7324,10 +6049,7 @@
   "mod1code": "str",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "388": {
   "Name": "of Strength",
@@ -7341,10 +6063,7 @@
   "mod1code": "str",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "389": {
   "Name": "of Strength",
@@ -7358,10 +6077,7 @@
   "mod1code": "str",
   "mod1min": "5",
   "mod1max": "6",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "390": {
   "Name": "of Strength",
@@ -7375,10 +6091,7 @@
   "mod1code": "str",
   "mod1min": "4",
   "mod1max": "5",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "391": {
   "Name": "of Strength",
@@ -7392,10 +6105,7 @@
   "mod1code": "str",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "392": {
   "Name": "of Virility",
@@ -7409,10 +6119,7 @@
   "mod1code": "str",
   "mod1min": "1",
   "mod1max": "4",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "393": {
   "Name": "of Pacing",
@@ -7427,10 +6134,7 @@
   "mod1min": "10",
   "mod1max": "10",
   "itype1": "boot",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "394": {
   "Name": "of Haste",
@@ -7445,10 +6149,7 @@
   "mod1min": "20",
   "mod1max": "20",
   "itype1": "boot",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "395": {
   "Name": "of Speed",
@@ -7463,10 +6164,7 @@
   "mod1min": "30",
   "mod1max": "30",
   "itype1": "boot",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "396": {
   "Name": "of Traveling",
@@ -7482,10 +6180,7 @@
   "mod2code": "stamdrain",
   "mod2min": "80",
   "mod2max": "90",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "397": {
   "Name": "of Acceleration",
@@ -7498,10 +6193,7 @@
   "mod1code": "move3",
   "mod1min": "40",
   "mod1max": "40",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "398": {
   "Name": "of Inertia",
@@ -7515,10 +6207,7 @@
   "mod1code": "move3",
   "mod1min": "7",
   "mod1max": "7",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "399": {
   "Name": "of Inertia",
@@ -7532,10 +6221,7 @@
   "mod1code": "move2",
   "mod1min": "5",
   "mod1max": "5",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "400": {
   "Name": "of Inertia",
@@ -7548,10 +6234,7 @@
   "mod1code": "move1",
   "mod1min": "3",
   "mod1max": "3",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "401": {
   "Name": "of Self-Repair",
@@ -7567,10 +6250,7 @@
   "itype1": "weap",
   "itype2": "armo",
   "etype1": "thro",
-  "etype2": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "miss"
  },
  "402": {
   "Name": "of Fast Repair",
@@ -7586,10 +6266,7 @@
   "itype1": "weap",
   "itype2": "armo",
   "etype1": "thro",
-  "etype2": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "miss"
  },
  "403": {
   "Name": "of Ages",
@@ -7603,10 +6280,7 @@
   "itype1": "weap",
   "itype2": "armo",
   "etype1": "thro",
-  "etype2": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype2": "miss"
  },
  "404": {
   "Name": "of Replenishing",
@@ -7619,10 +6293,7 @@
   "group": "39",
   "mod1code": "rep-quant",
   "mod1param": "5",
-  "itype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "thro"
  },
  "405": {
   "Name": "of Propogation",
@@ -7635,10 +6306,7 @@
   "group": "39",
   "mod1code": "rep-quant",
   "mod1param": "10",
-  "itype1": "thro",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "thro"
  },
  "406": {
   "Name": "of the Kraken",
@@ -7655,10 +6323,7 @@
   "itype1": "tors",
   "itype2": "amul",
   "itype3": "pelt",
-  "itype4": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype4": "phlm"
  },
  "407": {
   "Name": "of Memory",
@@ -7674,10 +6339,7 @@
   "transformcolor": "cred",
   "itype1": "circ",
   "itype2": "amul",
-  "itype3": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "pelt"
  },
  "408": {
   "Name": "of the Elephant",
@@ -7694,10 +6356,7 @@
   "transform": "1",
   "transformcolor": "cred",
   "itype1": "circ",
-  "itype2": "pelt",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "pelt"
  },
  "409": {
   "Name": "of Power",
@@ -7711,10 +6370,7 @@
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "belt",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "410": {
   "Name": "of Grace",
@@ -7728,10 +6384,7 @@
   "transform": "1",
   "transformcolor": "dgld",
   "itype1": "helm",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "411": {
   "Name": "of Grace and Power",
@@ -7746,10 +6399,7 @@
   "mod2param": "1",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "412": {
   "Name": "of the Yeti",
@@ -7764,10 +6414,7 @@
   "transformcolor": "lblu",
   "itype1": "tors",
   "itype2": "glov",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "413": {
   "Name": "of the Phoenix",
@@ -7782,10 +6429,7 @@
   "transformcolor": "cred",
   "itype1": "shld",
   "itype2": "helm",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "414": {
   "Name": "of the Efreeti",
@@ -7800,10 +6444,7 @@
   "transformcolor": "cblu",
   "itype1": "glov",
   "itype2": "boot",
-  "itype3": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "ring"
  },
  "415": {
   "Name": "of the Cobra",
@@ -7818,10 +6459,7 @@
   "transformcolor": "dyel",
   "itype1": "belt",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "416": {
   "Name": "of the Elements",
@@ -7838,10 +6476,7 @@
   "mod3param": "1",
   "transform": "1",
   "transformcolor": "dgld",
-  "itype1": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "circ"
  },
  "417": {
   "Name": "of Firebolts",
@@ -7857,10 +6492,7 @@
   "mod1min": "10",
   "mod1max": "8",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "418": {
   "Name": "of Firebolts",
@@ -7876,10 +6508,7 @@
   "mod1min": "5",
   "mod1max": "3",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "419": {
   "Name": "of Firebolts",
@@ -7895,10 +6524,7 @@
   "mod1min": "10",
   "mod1max": "4",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "420": {
   "Name": "of Charged Shield",
@@ -7915,10 +6541,7 @@
   "mod1max": "3",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "421": {
   "Name": "of Charged Shield",
@@ -7935,10 +6558,7 @@
   "mod1max": "4",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "422": {
   "Name": "of Charged Shield",
@@ -7955,10 +6575,7 @@
   "mod1max": "5",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "423": {
   "Name": "of Icebolt",
@@ -7976,36 +6593,24 @@
   "transform": "1",
   "transformcolor": "lblu",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "424": {
   "Name": "of Frozen Armor",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "425": {
   "Name": "of Static Field",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "426": {
   "Name": "of Telekinesis",
   "version": "100",
   "spawnable": "1",
   "rare": "1",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "427": {
   "Name": "of Frost Shield",
@@ -8023,34 +6628,22 @@
   "transform": "1",
   "transformcolor": "lblu",
   "itype1": "armo",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "428": {
   "Name": "of Ice Blast",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "429": {
   "Name": "of Blaze",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "430": {
   "Name": "of Fire Ball",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "431": {
   "Name": "of Nova",
@@ -8068,10 +6661,7 @@
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "432": {
   "Name": "of Nova",
@@ -8089,10 +6679,7 @@
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "433": {
   "Name": "of Nova Shield",
@@ -8110,10 +6697,7 @@
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "armo",
-  "itype2": "ring ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring "
  },
  "434": {
   "Name": "of Nova Shield",
@@ -8131,10 +6715,7 @@
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "armo",
-  "itype2": "ring ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring "
  },
  "435": {
   "Name": "of Nova Shield",
@@ -8152,10 +6733,7 @@
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "armo",
-  "itype2": "ring ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ring "
  },
  "436": {
   "Name": "of Lightning",
@@ -8173,10 +6751,7 @@
   "transform": "1",
   "transformcolor": "cblu",
   "itype1": "weap",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "437": {
   "Name": "of Lightning",
@@ -8193,34 +6768,22 @@
   "mod1max": "1",
   "transform": "1",
   "transformcolor": "cblu",
-  "itype1": "weap",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "weap"
  },
  "438": {
   "Name": "of Shiver Armor",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "439": {
   "Name": "of Fire Wall",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "440": {
   "Name": "of Enchant",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "441": {
   "Name": "of Chain Lightning",
@@ -8238,10 +6801,7 @@
   "itype1": "weap",
   "itype2": "ring",
   "itype3": "amul",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "442": {
   "Name": "of Chain Lightning",
@@ -8259,10 +6819,7 @@
   "itype1": "weap",
   "itype2": "ring",
   "itype3": "amul",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "443": {
   "Name": "of Chain Lightning",
@@ -8280,10 +6837,7 @@
   "itype1": "weap",
   "itype2": "ring",
   "itype3": "amul",
-  "etype1": "miss",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "miss"
  },
  "444": {
   "Name": "of Teleport Shield",
@@ -8300,10 +6854,7 @@
   "transformcolor": "whit",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "445": {
   "Name": "of Teleport Shield",
@@ -8320,10 +6871,7 @@
   "transformcolor": "whit",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "446": {
   "Name": "of Teleport Shield",
@@ -8340,58 +6888,37 @@
   "transformcolor": "whit",
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "amul"
  },
  "447": {
   "Name": "of Glacial Spike",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "448": {
   "Name": "of Meteor",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "449": {
   "Name": "of Thunder Storm",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "450": {
   "Name": "of Energy Shield",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "451": {
   "Name": "of Blizzard",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "452": {
   "Name": "of Chilling Armor",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "453": {
   "Name": "of Hydra Shield",
@@ -8408,48 +6935,33 @@
   "mod1max": "3",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "454": {
   "Name": "of Frozen Orb",
   "version": "100",
-  "group": "44",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "group": "44"
  },
  "455": {
   "Name": "of Dawn",
   "version": "100",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "45",
   "mod1code": "ac/time",
   "mod1param": "3",
   "mod1min": "10",
-  "mod1max": "40",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "40"
  },
  "456": {
   "Name": "of Sunlight",
   "version": "100",
   "level": "30",
   "levelreq": "22",
-  "frequency": "0",
   "group": "45",
   "mod1code": "ac/time",
-  "mod1param": "0",
   "mod1min": "-10",
-  "mod1max": "60",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "60"
  },
  "457": {
   "Name": "of Magic Arrows",
@@ -8467,10 +6979,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "458": {
   "Name": "of Magic Arrows",
@@ -8485,10 +6994,7 @@
   "mod1param": "6",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "459": {
   "Name": "of Fire Arrows",
@@ -8504,10 +7010,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "460": {
   "Name": "of Fire Arrows",
@@ -8524,10 +7027,7 @@
   "mod1param": "7",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "461": {
   "Name": "of Inner Sight",
@@ -8546,10 +7046,7 @@
   "mod1max": "-6",
   "itype1": "amul",
   "itype2": "amaz",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "462": {
   "Name": "of Inner Sight",
@@ -8566,10 +7063,7 @@
   "mod1param": "8",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "463": {
   "Name": "of Jabbing",
@@ -8585,10 +7079,7 @@
   "mod1min": "-60",
   "mod1max": "-7",
   "itype1": "spea",
-  "itype2": "aspe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "aspe"
  },
  "464": {
   "Name": "of Jabbing",
@@ -8603,10 +7094,7 @@
   "mod1param": "10",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "465": {
   "Name": "of Cold Arrows",
@@ -8624,10 +7112,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "466": {
   "Name": "of Cold Arrows",
@@ -8644,10 +7129,7 @@
   "mod1param": "11",
   "mod1min": "-20",
   "mod1max": "-5",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "467": {
   "Name": "of Multiple Shot",
@@ -8665,10 +7147,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "468": {
   "Name": "of Multiple Shot",
@@ -8685,10 +7164,7 @@
   "mod1param": "12",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "469": {
   "Name": "of Power Strike",
@@ -8706,10 +7182,7 @@
   "mod1min": "-60",
   "mod1max": "-6",
   "itype1": "spea",
-  "itype2": "aspe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "aspe"
  },
  "470": {
   "Name": "of Power Strike",
@@ -8726,10 +7199,7 @@
   "mod1param": "14",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "471": {
   "Name": "of Poison Jab",
@@ -8745,10 +7215,7 @@
   "mod1min": "-60",
   "mod1max": "-6",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "472": {
   "Name": "of Poison Jab",
@@ -8763,10 +7230,7 @@
   "mod1param": "15",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "473": {
   "Name": "of Exploding Arrows",
@@ -8784,10 +7248,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "474": {
   "Name": "of Exploding Arrows",
@@ -8804,10 +7265,7 @@
   "mod1param": "16",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "475": {
   "Name": "of Slow Missiles",
@@ -8822,10 +7280,7 @@
   "mod1param": "17",
   "mod1min": "-30",
   "mod1max": "-5",
-  "itype1": "amaz",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amaz"
  },
  "476": {
   "Name": "of Slow Missiles",
@@ -8841,10 +7296,7 @@
   "mod1min": "-20",
   "mod1max": "-3",
   "itype1": "glov",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "477": {
   "Name": "of Impaling Strike",
@@ -8860,10 +7312,7 @@
   "mod1min": "-60",
   "mod1max": "-6",
   "itype1": "spea",
-  "itype2": "aspe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "aspe"
  },
  "478": {
   "Name": "of Impaling Strike",
@@ -8878,10 +7327,7 @@
   "mod1param": "19",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "479": {
   "Name": "of Lightning Javelin",
@@ -8897,10 +7343,7 @@
   "mod1min": "-60",
   "mod1max": "-6",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "480": {
   "Name": "of Lightning Javelin",
@@ -8915,10 +7358,7 @@
   "mod1param": "20",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "481": {
   "Name": "of Ice Arrows",
@@ -8936,10 +7376,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "482": {
   "Name": "of Ice Arrows",
@@ -8956,10 +7393,7 @@
   "mod1param": "21",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "483": {
   "Name": "of Guided Arrows",
@@ -8975,10 +7409,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "484": {
   "Name": "of Guided Arrows",
@@ -8993,10 +7424,7 @@
   "mod1param": "22",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "485": {
   "Name": "of Charged Strike",
@@ -9014,10 +7442,7 @@
   "mod1min": "-60",
   "mod1max": "-5",
   "itype1": "spea",
-  "itype2": "aspe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "aspe"
  },
  "486": {
   "Name": "of Charged Strike",
@@ -9034,10 +7459,7 @@
   "mod1param": "24",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "487": {
   "Name": "of Plague Jab",
@@ -9053,10 +7475,7 @@
   "mod1min": "-60",
   "mod1max": "-5",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "488": {
   "Name": "of Plague Jab",
@@ -9071,10 +7490,7 @@
   "mod1param": "25",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "489": {
   "Name": "of Immolating Arrows",
@@ -9090,10 +7506,7 @@
   "mod1min": "-30",
   "mod1max": "-4",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "490": {
   "Name": "of Immolating Arrows",
@@ -9108,10 +7521,7 @@
   "mod1param": "27",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "491": {
   "Name": "of Fending",
@@ -9127,10 +7537,7 @@
   "mod1min": "-60",
   "mod1max": "-5",
   "itype1": "spea",
-  "itype2": "aspe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "aspe"
  },
  "492": {
   "Name": "of Fending",
@@ -9145,10 +7552,7 @@
   "mod1param": "30",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "493": {
   "Name": "of Freezing Arrows",
@@ -9166,10 +7570,7 @@
   "mod1min": "-30",
   "mod1max": "-4",
   "itype1": "miss",
-  "itype2": "abow",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "abow"
  },
  "494": {
   "Name": "of Freezing Arrows",
@@ -9186,10 +7587,7 @@
   "mod1param": "31",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "495": {
   "Name": "of Lightning Strike",
@@ -9207,10 +7605,7 @@
   "mod1min": "-60",
   "mod1max": "-4",
   "itype1": "spea",
-  "itype2": "aspe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "aspe"
  },
  "496": {
   "Name": "of Lightning Strike",
@@ -9227,10 +7622,7 @@
   "mod1param": "34",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "497": {
   "Name": "of Lightning Fury",
@@ -9246,10 +7638,7 @@
   "mod1min": "-60",
   "mod1max": "-4",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "498": {
   "Name": "of Lightning Fury",
@@ -9264,10 +7653,7 @@
   "mod1param": "35",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "499": {
   "Name": "of Fire Bolts",
@@ -9285,10 +7671,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "500": {
   "Name": "of Fire Bolts",
@@ -9307,10 +7690,7 @@
   "mod1max": "-6",
   "itype1": "swor",
   "itype2": "ring",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "501": {
   "Name": "of Charged Bolts",
@@ -9328,10 +7708,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "502": {
   "Name": "of Charged Bolts",
@@ -9352,10 +7729,7 @@
   "itype2": "mace",
   "itype3": "scep",
   "itype4": "ring",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "503": {
   "Name": "of Ice Bolts",
@@ -9373,10 +7747,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "504": {
   "Name": "of Ice Bolts",
@@ -9393,10 +7764,7 @@
   "mod1param": "39",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "knif",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "knif"
  },
  "505": {
   "Name": "of Frozen Armor",
@@ -9412,10 +7780,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "506": {
   "Name": "of Frozen Armor",
@@ -9431,10 +7796,7 @@
   "mod1min": "-20",
   "mod1max": "-6",
   "itype1": "knif",
-  "itype2": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "tors"
  },
  "507": {
   "Name": "of Static Field",
@@ -9450,10 +7812,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "508": {
   "Name": "of Static Field",
@@ -9472,10 +7831,7 @@
   "itype2": "mace",
   "itype3": "scep",
   "itype4": "ring",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "509": {
   "Name": "of Telekinesis",
@@ -9493,10 +7849,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "510": {
   "Name": "of Telekinesis",
@@ -9517,10 +7870,7 @@
   "itype2": "mace",
   "itype3": "scep",
   "itype4": "ring",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "511": {
   "Name": "of Frost Novas",
@@ -9538,10 +7888,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "512": {
   "Name": "of Frost Novas",
@@ -9560,10 +7907,7 @@
   "mod1max": "-5",
   "itype1": "knif",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "513": {
   "Name": "of Ice Blasts",
@@ -9581,10 +7925,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "514": {
   "Name": "of Ice Blasts",
@@ -9605,10 +7946,7 @@
   "itype2": "mace",
   "itype3": "scep",
   "itype4": "ring",
-  "itype5": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype5": "circ"
  },
  "515": {
   "Name": "of Blazing",
@@ -9624,10 +7962,7 @@
   "mod1min": "-30",
   "mod1max": "-7",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "516": {
   "Name": "of Blazing",
@@ -9642,10 +7977,7 @@
   "mod1param": "46",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "boot",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "boot"
  },
  "517": {
   "Name": "of Fire Balls",
@@ -9663,10 +7995,7 @@
   "mod1min": "-30",
   "mod1max": "-7",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "518": {
   "Name": "of Fire Balls",
@@ -9684,10 +8013,7 @@
   "mod1min": "-20",
   "mod1max": "-4",
   "itype1": "spea",
-  "itype2": "wand",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "wand"
  },
  "519": {
   "Name": "of Novas",
@@ -9705,10 +8031,7 @@
   "mod1min": "-30",
   "mod1max": "-7",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "520": {
   "Name": "of Novas",
@@ -9725,10 +8048,7 @@
   "mod1param": "48",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "521": {
   "Name": "of Lightning",
@@ -9746,10 +8066,7 @@
   "mod1min": "-30",
   "mod1max": "-7",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "522": {
   "Name": "of Lightning",
@@ -9767,10 +8084,7 @@
   "mod1min": "-20",
   "mod1max": "-4",
   "itype1": "axe",
-  "itype2": "hamm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "hamm"
  },
  "523": {
   "Name": "of Shiver Armor",
@@ -9786,10 +8100,7 @@
   "mod1min": "-30",
   "mod1max": "-7",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "524": {
   "Name": "of Shiver Armor",
@@ -9805,10 +8116,7 @@
   "mod1min": "-20",
   "mod1max": "-4",
   "itype1": "knif",
-  "itype2": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "tors"
  },
  "525": {
   "Name": "of Fire Walls",
@@ -9824,10 +8132,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "526": {
   "Name": "of Fire Walls",
@@ -9842,10 +8147,7 @@
   "mod1param": "51",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "pole",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "pole"
  },
  "527": {
   "Name": "of Enchantment",
@@ -9863,10 +8165,7 @@
   "mod1min": "-20",
   "mod1max": "-3",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "528": {
   "Name": "of Enchantment",
@@ -9883,10 +8182,7 @@
   "mod1param": "52",
   "mod1min": "-10",
   "mod1max": "-1",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "529": {
   "Name": "of Chain Lightning",
@@ -9904,10 +8200,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "530": {
   "Name": "of Chain Lightning",
@@ -9924,10 +8217,7 @@
   "mod1param": "53",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "spea"
  },
  "531": {
   "Name": "of Teleportation",
@@ -9945,10 +8235,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "532": {
   "Name": "of Teleportation",
@@ -9966,10 +8253,7 @@
   "mod1min": "-20",
   "mod1max": "-3",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "533": {
   "Name": "of Glacial Spikes",
@@ -9987,10 +8271,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "534": {
   "Name": "of Glacial Spikes",
@@ -10007,10 +8288,7 @@
   "mod1param": "55",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "knif",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "knif"
  },
  "535": {
   "Name": "of Meteors",
@@ -10028,10 +8306,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "536": {
   "Name": "of Meteors",
@@ -10049,10 +8324,7 @@
   "mod1min": "-20",
   "mod1max": "-2",
   "itype1": "knif",
-  "itype2": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "club"
  },
  "537": {
   "Name": "of Thunder Storm",
@@ -10068,10 +8340,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "538": {
   "Name": "of Thunder Storm",
@@ -10087,10 +8356,7 @@
   "mod1min": "-20",
   "mod1max": "-2",
   "itype1": "hamm",
-  "itype2": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "club"
  },
  "539": {
   "Name": "of Energy Shield",
@@ -10106,10 +8372,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "540": {
   "Name": "of Energy Shield",
@@ -10124,10 +8387,7 @@
   "mod1param": "58",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "helm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "helm"
  },
  "541": {
   "Name": "of Blizzards",
@@ -10145,10 +8405,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "542": {
   "Name": "of Blizzards",
@@ -10165,10 +8422,7 @@
   "mod1param": "59",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "knif",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "knif"
  },
  "543": {
   "Name": "of Chilling Armor",
@@ -10184,10 +8438,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "544": {
   "Name": "of Chilling Armor",
@@ -10202,10 +8453,7 @@
   "mod1param": "60",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "545": {
   "Name": "of Hydras",
@@ -10221,10 +8469,7 @@
   "mod1min": "-30",
   "mod1max": "-3",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "546": {
   "Name": "of Hydras",
@@ -10239,10 +8484,7 @@
   "mod1param": "62",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "547": {
   "Name": "of Frozen Orbs",
@@ -10260,10 +8502,7 @@
   "mod1min": "-30",
   "mod1max": "-3",
   "itype1": "staf",
-  "itype2": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "orb"
  },
  "548": {
   "Name": "of Frozen Orbs",
@@ -10280,10 +8519,7 @@
   "mod1param": "64",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "knif",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "knif"
  },
  "549": {
   "Name": "of Amplify Damage",
@@ -10300,10 +8536,7 @@
   "mod1max": "-10",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "550": {
   "Name": "of Amplify Damage",
@@ -10318,10 +8551,7 @@
   "mod1param": "66",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "blun",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "blun"
  },
  "551": {
   "Name": "of Teeth",
@@ -10340,10 +8570,7 @@
   "mod1max": "-10",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "552": {
   "Name": "of Teeth",
@@ -10360,10 +8587,7 @@
   "mod1param": "67",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "swor",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "swor"
  },
  "553": {
   "Name": "of Bone Armor",
@@ -10380,10 +8604,7 @@
   "mod1max": "-10",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "554": {
   "Name": "of Bone Armor",
@@ -10398,10 +8619,7 @@
   "mod1param": "68",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "555": {
   "Name": "of Raise Skeletons",
@@ -10418,10 +8636,7 @@
   "mod1max": "-10",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "556": {
   "Name": "of Raise Skeletons",
@@ -10437,10 +8652,7 @@
   "mod1min": "-20",
   "mod1max": "-6",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "557": {
   "Name": "of Dim Vision",
@@ -10459,10 +8671,7 @@
   "mod1max": "-8",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "558": {
   "Name": "of Dim Vision",
@@ -10480,10 +8689,7 @@
   "mod1min": "-20",
   "mod1max": "-5",
   "itype1": "ring",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "559": {
   "Name": "of Weaken",
@@ -10502,10 +8708,7 @@
   "mod1max": "-8",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "560": {
   "Name": "of Weaken",
@@ -10522,10 +8725,7 @@
   "mod1param": "72",
   "mod1min": "-20",
   "mod1max": "-5",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "561": {
   "Name": "of Poison Dagger",
@@ -10543,10 +8743,7 @@
   "mod1min": "-60",
   "mod1max": "-8",
   "itype1": "knif",
-  "itype2": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "head"
  },
  "562": {
   "Name": "of Poison Dagger",
@@ -10565,10 +8762,7 @@
   "mod1max": "-5",
   "itype1": "glov",
   "itype2": "ring",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "563": {
   "Name": "of Corpse Explosions",
@@ -10585,10 +8779,7 @@
   "mod1max": "-8",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "564": {
   "Name": "of Corpse Explosions",
@@ -10603,10 +8794,7 @@
   "mod1param": "74",
   "mod1min": "-20",
   "mod1max": "-5",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "565": {
   "Name": "of Clay Golem Summoning",
@@ -10623,10 +8811,7 @@
   "mod1max": "-8",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "566": {
   "Name": "of Clay Golem Summoning",
@@ -10642,10 +8827,7 @@
   "mod1min": "-20",
   "mod1max": "-5",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "567": {
   "Name": "of Iron Maiden",
@@ -10662,10 +8844,7 @@
   "mod1max": "-7",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "568": {
   "Name": "of Iron Maiden",
@@ -10680,10 +8859,7 @@
   "mod1param": "76",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "569": {
   "Name": "of Terror",
@@ -10702,10 +8878,7 @@
   "mod1max": "-7",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "570": {
   "Name": "of Terror",
@@ -10722,10 +8895,7 @@
   "mod1param": "77",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "571": {
   "Name": "of Bone Walls",
@@ -10742,10 +8912,7 @@
   "mod1max": "-7",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "572": {
   "Name": "of Bone Walls",
@@ -10762,10 +8929,7 @@
   "mod1max": "-4",
   "itype1": "club",
   "itype2": "mace",
-  "itype3": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "scep"
  },
  "573": {
   "Name": "of Raise Skeletal Mages",
@@ -10782,10 +8946,7 @@
   "mod1max": "-7",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "574": {
   "Name": "of Raise Skeletal Mages",
@@ -10801,10 +8962,7 @@
   "mod1min": "-20",
   "mod1max": "-4",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "575": {
   "Name": "of Confusion",
@@ -10823,10 +8981,7 @@
   "mod1max": "-6",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "576": {
   "Name": "of Confusion",
@@ -10844,10 +8999,7 @@
   "mod1min": "-20",
   "mod1max": "-3",
   "itype1": "ring",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "577": {
   "Name": "of Life Tap",
@@ -10866,10 +9018,7 @@
   "mod1max": "-6",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "578": {
   "Name": "of Life Tap",
@@ -10886,10 +9035,7 @@
   "mod1param": "82",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "axe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "axe"
  },
  "579": {
   "Name": "of Poison Explosion",
@@ -10906,10 +9052,7 @@
   "mod1max": "-6",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "580": {
   "Name": "of Poison Explosion",
@@ -10924,10 +9067,7 @@
   "mod1param": "83",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "blun",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "blun"
  },
  "581": {
   "Name": "of Bone Spears",
@@ -10946,10 +9086,7 @@
   "mod1max": "-6",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "582": {
   "Name": "of Bone Spears",
@@ -10966,10 +9103,7 @@
   "mod1param": "84",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "spea",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "spea"
  },
  "583": {
   "Name": "of Blood Golem Summoning",
@@ -10986,10 +9120,7 @@
   "mod1max": "-6",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "584": {
   "Name": "of Blood Golem Summoning",
@@ -11004,10 +9135,7 @@
   "mod1param": "85",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "axe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "axe"
  },
  "585": {
   "Name": "of Attraction",
@@ -11026,10 +9154,7 @@
   "mod1max": "-5",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "586": {
   "Name": "of Attraction",
@@ -11048,10 +9173,7 @@
   "mod1max": "-2",
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "circ"
  },
  "587": {
   "Name": "of Decrepification",
@@ -11068,10 +9190,7 @@
   "mod1max": "-5",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "588": {
   "Name": "of Decrepification",
@@ -11086,10 +9205,7 @@
   "mod1param": "87",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "shld"
  },
  "589": {
   "Name": "of Bone Imprisonment",
@@ -11106,10 +9222,7 @@
   "mod1max": "-5",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "590": {
   "Name": "of Bone Imprisonment",
@@ -11125,10 +9238,7 @@
   "mod1min": "-20",
   "mod1max": "-2",
   "itype1": "mace",
-  "itype2": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "scep"
  },
  "591": {
   "Name": "of Iron Golem Creation",
@@ -11145,10 +9255,7 @@
   "mod1max": "-5",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "592": {
   "Name": "of Iron Golem Creation",
@@ -11163,10 +9270,7 @@
   "mod1param": "90",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "swor",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "swor"
  },
  "593": {
   "Name": "of Lower Resistance",
@@ -11185,10 +9289,7 @@
   "mod1max": "-3",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "594": {
   "Name": "of Lower Resistance",
@@ -11205,10 +9306,7 @@
   "mod1param": "91",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "staf"
  },
  "595": {
   "Name": "of Poison Novas",
@@ -11227,10 +9325,7 @@
   "mod1max": "-3",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "596": {
   "Name": "of Poison Novas",
@@ -11247,10 +9342,7 @@
   "mod1param": "92",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "597": {
   "Name": "of Bone Spirits",
@@ -11269,10 +9361,7 @@
   "mod1max": "-3",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "598": {
   "Name": "of Bone Spirits",
@@ -11290,10 +9379,7 @@
   "mod1min": "-20",
   "mod1max": "-1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "599": {
   "Name": "of Fire Golem Summoning",
@@ -11310,10 +9396,7 @@
   "mod1max": "-3",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "600": {
   "Name": "of Fire Golem Summoning",
@@ -11328,10 +9411,7 @@
   "mod1param": "94",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "hamm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "hamm"
  },
  "601": {
   "Name": "of Revivification",
@@ -11348,10 +9428,7 @@
   "mod1max": "-3",
   "itype1": "wand",
   "itype2": "knif",
-  "itype3": "head",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "head"
  },
  "602": {
   "Name": "of Revivification",
@@ -11366,10 +9443,7 @@
   "mod1param": "95",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "pole",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "pole"
  },
  "603": {
   "Name": "of Sacrifice",
@@ -11387,10 +9461,7 @@
   "mod1min": "-30",
   "mod1max": "-10",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "604": {
   "Name": "of Sacrifice",
@@ -11408,10 +9479,7 @@
   "mod1min": "-20",
   "mod1max": "-6",
   "itype1": "mele",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "605": {
   "Name": "of Holy Bolts",
@@ -11429,10 +9497,7 @@
   "mod1min": "-30",
   "mod1max": "-8",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "606": {
   "Name": "of Holy Bolts",
@@ -11450,10 +9515,7 @@
   "mod1min": "-20",
   "mod1max": "-5",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "607": {
   "Name": "of Zeal",
@@ -11471,10 +9533,7 @@
   "mod1min": "-30",
   "mod1max": "-7",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "608": {
   "Name": "of Zeal",
@@ -11492,10 +9551,7 @@
   "mod1min": "-20",
   "mod1max": "-4",
   "itype1": "mele",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "609": {
   "Name": "of Vengeance",
@@ -11513,10 +9569,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "610": {
   "Name": "of Vengeance",
@@ -11534,10 +9587,7 @@
   "mod1min": "-20",
   "mod1max": "-3",
   "itype1": "swor",
-  "itype2": "axe",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "axe"
  },
  "611": {
   "Name": "of Blessed Hammers",
@@ -11555,10 +9605,7 @@
   "mod1min": "-30",
   "mod1max": "-6",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "612": {
   "Name": "of Blessed Hammers",
@@ -11575,10 +9622,7 @@
   "mod1param": "112",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "hamm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "hamm"
  },
  "613": {
   "Name": "of Conversion",
@@ -11594,10 +9638,7 @@
   "mod1min": "-30",
   "mod1max": "-5",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "614": {
   "Name": "of Conversion",
@@ -11613,10 +9654,7 @@
   "mod1min": "-20",
   "mod1max": "-2",
   "itype1": "blun",
-  "etype1": "scep",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "scep"
  },
  "615": {
   "Name": "of Fist of the Heavens",
@@ -11632,10 +9670,7 @@
   "mod1min": "-30",
   "mod1max": "-3",
   "itype1": "scep",
-  "itype2": "ashd",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "ashd"
  },
  "616": {
   "Name": "of Fist of the Heavens",
@@ -11650,10 +9685,7 @@
   "mod1param": "121",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "617": {
   "Name": "of Bashing",
@@ -11670,10 +9702,7 @@
   "mod1param": "126",
   "mod1min": "-60",
   "mod1max": "-10",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "618": {
   "Name": "of Bashing",
@@ -11693,10 +9722,7 @@
   "itype1": "mele",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "619": {
   "Name": "of Howling",
@@ -11711,10 +9737,7 @@
   "mod1param": "130",
   "mod1min": "-60",
   "mod1max": "-10",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "620": {
   "Name": "of Howling",
@@ -11728,10 +9751,7 @@
   "mod1code": "charged",
   "mod1param": "130",
   "mod1min": "-20",
-  "mod1max": "-6",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-6"
  },
  "621": {
   "Name": "of Potion Finding",
@@ -11746,10 +9766,7 @@
   "mod1param": "131",
   "mod1min": "-60",
   "mod1max": "-10",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "622": {
   "Name": "of Potion Finding",
@@ -11763,10 +9780,7 @@
   "mod1code": "charged",
   "mod1param": "131",
   "mod1min": "-20",
-  "mod1max": "-6",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-6"
  },
  "623": {
   "Name": "of Taunting",
@@ -11781,10 +9795,7 @@
   "mod1param": "137",
   "mod1min": "-60",
   "mod1max": "-8",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "624": {
   "Name": "of Taunting",
@@ -11798,10 +9809,7 @@
   "mod1code": "charged",
   "mod1param": "137",
   "mod1min": "-20",
-  "mod1max": "-5",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-5"
  },
  "625": {
   "Name": "of Shouting",
@@ -11816,10 +9824,7 @@
   "mod1param": "138",
   "mod1min": "-60",
   "mod1max": "-8",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "626": {
   "Name": "of Shouting",
@@ -11833,10 +9838,7 @@
   "mod1code": "charged",
   "mod1param": "138",
   "mod1min": "-20",
-  "mod1max": "-5",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-5"
  },
  "627": {
   "Name": "of Stunning",
@@ -11856,10 +9858,7 @@
   "itype1": "phlm",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "628": {
   "Name": "of Stunning",
@@ -11876,10 +9875,7 @@
   "mod1param": "139",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "mele",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mele"
  },
  "629": {
   "Name": "of Item Finding",
@@ -11894,10 +9890,7 @@
   "mod1param": "142",
   "mod1min": "-60",
   "mod1max": "-7",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "630": {
   "Name": "of Item Finding",
@@ -11911,10 +9904,7 @@
   "mod1code": "charged",
   "mod1param": "142",
   "mod1min": "-20",
-  "mod1max": "-4",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-4"
  },
  "631": {
   "Name": "of Concentration",
@@ -11931,10 +9921,7 @@
   "mod1param": "144",
   "mod1min": "-60",
   "mod1max": "-6",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "632": {
   "Name": "of Concentration",
@@ -11954,10 +9941,7 @@
   "itype1": "mele",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "633": {
   "Name": "of Battle Cry",
@@ -11972,10 +9956,7 @@
   "mod1param": "146",
   "mod1min": "-60",
   "mod1max": "-6",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "634": {
   "Name": "of Battle Cry",
@@ -11989,10 +9970,7 @@
   "mod1code": "charged",
   "mod1param": "146",
   "mod1min": "-20",
-  "mod1max": "-3",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-3"
  },
  "635": {
   "Name": "of Battle Orders",
@@ -12007,10 +9985,7 @@
   "mod1param": "149",
   "mod1min": "-60",
   "mod1max": "-5",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "636": {
   "Name": "of Battle Orders",
@@ -12024,10 +9999,7 @@
   "mod1code": "charged",
   "mod1param": "149",
   "mod1min": "-20",
-  "mod1max": "-2",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-2"
  },
  "637": {
   "Name": "of Grim Ward",
@@ -12044,10 +10016,7 @@
   "mod1param": "150",
   "mod1min": "-60",
   "mod1max": "-5",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "638": {
   "Name": "of Grim Ward",
@@ -12064,10 +10033,7 @@
   "mod1param": "150",
   "mod1min": "-20",
   "mod1max": "-2",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "639": {
   "Name": "of War Cry",
@@ -12082,10 +10048,7 @@
   "mod1param": "154",
   "mod1min": "-60",
   "mod1max": "-3",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "640": {
   "Name": "of War Cry",
@@ -12099,10 +10062,7 @@
   "mod1code": "charged",
   "mod1param": "154",
   "mod1min": "-20",
-  "mod1max": "-1",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-1"
  },
  "641": {
   "Name": "of Battle Command",
@@ -12117,10 +10077,7 @@
   "mod1param": "155",
   "mod1min": "-60",
   "mod1max": "-3",
-  "itype1": "phlm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "phlm"
  },
  "642": {
   "Name": "of Battle Command",
@@ -12134,10 +10091,7 @@
   "mod1code": "charged",
   "mod1param": "155",
   "mod1min": "-20",
-  "mod1max": "-1",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "mod1max": "-1"
  },
  "643": {
   "Name": "of Firestorms",
@@ -12154,10 +10108,7 @@
   "mod1param": "225",
   "mod1min": "-30",
   "mod1max": "-10",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "644": {
   "Name": "of Firestorms",
@@ -12174,10 +10125,7 @@
   "mod1param": "225",
   "mod1min": "-20",
   "mod1max": "-6",
-  "itype1": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "staf"
  },
  "645": {
   "Name": "of Molten Boulders",
@@ -12192,10 +10140,7 @@
   "mod1param": "229",
   "mod1min": "-30",
   "mod1max": "-8",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "646": {
   "Name": "of Molten Boulders",
@@ -12210,10 +10155,7 @@
   "mod1param": "229",
   "mod1min": "-20",
   "mod1max": "-5",
-  "itype1": "mace",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mace"
  },
  "647": {
   "Name": "of Eruption",
@@ -12230,10 +10172,7 @@
   "mod1param": "234",
   "mod1min": "-30",
   "mod1max": "-7",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "648": {
   "Name": "of Eruption",
@@ -12250,10 +10189,7 @@
   "mod1param": "234",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "staf"
  },
  "649": {
   "Name": "of Cyclone Armor",
@@ -12268,10 +10204,7 @@
   "mod1param": "235",
   "mod1min": "-30",
   "mod1max": "-7",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "650": {
   "Name": "of Cyclone Armor",
@@ -12286,10 +10219,7 @@
   "mod1param": "235",
   "mod1min": "-20",
   "mod1max": "-4",
-  "itype1": "tors",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "tors"
  },
  "651": {
   "Name": "of Twister",
@@ -12306,10 +10236,7 @@
   "mod1param": "240",
   "mod1min": "-30",
   "mod1max": "-6",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "652": {
   "Name": "of Twister",
@@ -12327,10 +10254,7 @@
   "mod1min": "-20",
   "mod1max": "-3",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "653": {
   "Name": "of Volcano",
@@ -12347,10 +10271,7 @@
   "mod1param": "244",
   "mod1min": "-30",
   "mod1max": "-6",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "654": {
   "Name": "of Volcano",
@@ -12367,10 +10288,7 @@
   "mod1param": "244",
   "mod1min": "-20",
   "mod1max": "-3",
-  "itype1": "hamm",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "hamm"
  },
  "655": {
   "Name": "of Tornado",
@@ -12387,10 +10305,7 @@
   "mod1param": "245",
   "mod1min": "-30",
   "mod1max": "-5",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "656": {
   "Name": "of Tornado",
@@ -12408,10 +10323,7 @@
   "mod1min": "-20",
   "mod1max": "-2",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "657": {
   "Name": "of Armageddon",
@@ -12426,10 +10338,7 @@
   "mod1param": "249",
   "mod1min": "-30",
   "mod1max": "-3",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "658": {
   "Name": "of Armageddon",
@@ -12444,10 +10353,7 @@
   "mod1param": "249",
   "mod1min": "-20",
   "mod1max": "-1",
-  "itype1": "staf",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "staf"
  },
  "659": {
   "Name": "of Hurricane",
@@ -12462,10 +10368,7 @@
   "mod1param": "250",
   "mod1min": "-30",
   "mod1max": "-3",
-  "itype1": "club",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "club"
  },
  "660": {
   "Name": "of Hurricane",
@@ -12481,10 +10384,7 @@
   "mod1min": "-20",
   "mod1max": "-1",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "661": {
   "Name": "of Damage Amplification",
@@ -12499,10 +10399,7 @@
   "mod1min": "5",
   "mod1max": "1",
   "itype1": "weap",
-  "etype1": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype1": "orb"
  },
  "662": {
   "Name": "of the Icicle",
@@ -12524,10 +10421,7 @@
   "mod3max": "50",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "663": {
   "Name": "of the Glacier",
@@ -12548,10 +10442,7 @@
   "mod3max": "50",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "664": {
   "Name": "of Fire",
@@ -12570,10 +10461,7 @@
   "mod2max": "30",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "665": {
   "Name": "of Burning",
@@ -12592,10 +10480,7 @@
   "mod2max": "50",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "666": {
   "Name": "of Lightning",
@@ -12614,10 +10499,7 @@
   "mod2max": "60",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "667": {
   "Name": "of Thunder",
@@ -12636,10 +10518,7 @@
   "mod2max": "100",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "668": {
   "Name": "of Daring",
@@ -12653,10 +10532,7 @@
   "mod1code": "dex",
   "mod1min": "4",
   "mod1max": "6",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "669": {
   "Name": "of Daring",
@@ -12670,10 +10546,7 @@
   "mod1code": "dex",
   "mod1min": "7",
   "mod1max": "9",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "670": {
   "Name": "of Knowledge",
@@ -12687,10 +10560,7 @@
   "mod1code": "enr",
   "mod1min": "4",
   "mod1max": "6",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "671": {
   "Name": "of Knowledge",
@@ -12704,10 +10574,7 @@
   "mod1code": "enr",
   "mod1min": "7",
   "mod1max": "9",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "672": {
   "Name": "of Virility",
@@ -12721,10 +10588,7 @@
   "mod1code": "str",
   "mod1min": "5",
   "mod1max": "6",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "673": {
   "Name": "of Virility",
@@ -12738,10 +10602,7 @@
   "mod1code": "str",
   "mod1min": "7",
   "mod1max": "9",
-  "itype1": "jewl",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "jewl"
  },
  "674": {
   "Name": "of Readiness",
@@ -12755,10 +10616,7 @@
   "mod1code": "swing1",
   "mod1min": "10",
   "mod1max": "10",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "675": {
   "Name": "of Craftsmanship",
@@ -12772,10 +10630,7 @@
   "mod1code": "dmg-max",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "676": {
   "Name": "of Quality",
@@ -12789,10 +10644,7 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "677": {
   "Name": "of Maiming",
@@ -12805,10 +10657,7 @@
   "mod1code": "dmg-max",
   "mod1min": "3",
   "mod1max": "4",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "678": {
   "Name": "of Craftsmanship",
@@ -12822,10 +10671,7 @@
   "mod1code": "dmg-max",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "679": {
   "Name": "of Quality",
@@ -12838,10 +10684,7 @@
   "mod1code": "dmg-max",
   "mod1min": "2",
   "mod1max": "2",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "680": {
   "Name": "of Craftsmanship",
@@ -12855,10 +10698,7 @@
   "mod1code": "dmg-max",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "681": {
   "Name": "of Blight",
@@ -12873,10 +10713,7 @@
   "mod1param": "75",
   "mod1min": "21",
   "mod1max": "21",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "682": {
   "Name": "of Venom",
@@ -12891,10 +10728,7 @@
   "mod1param": "100",
   "mod1min": "39",
   "mod1max": "39",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "683": {
   "Name": "of Pestilence",
@@ -12911,10 +10745,7 @@
   "mod1max": "52",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "684": {
   "Name": "of Anthrax",
@@ -12930,10 +10761,7 @@
   "mod1max": "86",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "685": {
   "Name": "of Blight",
@@ -12948,10 +10776,7 @@
   "mod1param": "75",
   "mod1min": "21",
   "mod1max": "21",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "686": {
   "Name": "of Venom",
@@ -12966,10 +10791,7 @@
   "mod1param": "100",
   "mod1min": "39",
   "mod1max": "39",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "687": {
   "Name": "of Pestilence",
@@ -12986,10 +10808,7 @@
   "mod1max": "52",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "688": {
   "Name": "of Anthrax",
@@ -13005,10 +10824,7 @@
   "mod1max": "86",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "689": {
   "Name": "of Blight",
@@ -13023,10 +10839,7 @@
   "mod1param": "75",
   "mod1min": "21",
   "mod1max": "21",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "690": {
   "Name": "of Venom",
@@ -13041,10 +10854,7 @@
   "mod1param": "100",
   "mod1min": "39",
   "mod1max": "39",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "691": {
   "Name": "of Pestilence",
@@ -13061,10 +10871,7 @@
   "mod1max": "52",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "692": {
   "Name": "of Anthrax",
@@ -13080,10 +10887,7 @@
   "mod1max": "86",
   "transform": "1",
   "transformcolor": "dgrn",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "693": {
   "Name": "of Frost",
@@ -13103,10 +10907,7 @@
   "mod3code": "cold-len",
   "mod3min": "25",
   "mod3max": "25",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "694": {
   "Name": "of the Icicle",
@@ -13126,10 +10927,7 @@
   "mod3code": "cold-len",
   "mod3min": "25",
   "mod3max": "25",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "695": {
   "Name": "of the Glacier",
@@ -13151,10 +10949,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "696": {
   "Name": "of Winter",
@@ -13175,10 +10970,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "697": {
   "Name": "of Frost",
@@ -13198,10 +10990,7 @@
   "mod3code": "cold-len",
   "mod3min": "25",
   "mod3max": "25",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "698": {
   "Name": "of the Icicle",
@@ -13221,10 +11010,7 @@
   "mod3code": "cold-len",
   "mod3min": "25",
   "mod3max": "25",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "699": {
   "Name": "of the Glacier",
@@ -13246,10 +11032,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "700": {
   "Name": "of Winter",
@@ -13270,10 +11053,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "701": {
   "Name": "of Frost",
@@ -13293,10 +11073,7 @@
   "mod3code": "cold-len",
   "mod3min": "25",
   "mod3max": "25",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "702": {
   "Name": "of the Icicle",
@@ -13316,10 +11093,7 @@
   "mod3code": "cold-len",
   "mod3min": "25",
   "mod3max": "25",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "703": {
   "Name": "of the Glacier",
@@ -13341,10 +11115,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "704": {
   "Name": "of Winter",
@@ -13365,10 +11136,7 @@
   "mod3max": "25",
   "transform": "1",
   "transformcolor": "dblu",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "705": {
   "Name": "of Flame",
@@ -13385,10 +11153,7 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "2",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "706": {
   "Name": "of Fire",
@@ -13405,10 +11170,7 @@
   "mod2code": "fire-max",
   "mod2min": "3",
   "mod2max": "3",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "707": {
   "Name": "of Burning",
@@ -13427,10 +11189,7 @@
   "mod2max": "7",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "708": {
   "Name": "of Incineration",
@@ -13448,10 +11207,7 @@
   "mod2max": "14",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "709": {
   "Name": "of Flame",
@@ -13468,10 +11224,7 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "2",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "710": {
   "Name": "of Fire",
@@ -13488,10 +11241,7 @@
   "mod2code": "fire-max",
   "mod2min": "3",
   "mod2max": "5",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "711": {
   "Name": "of Burning",
@@ -13510,10 +11260,7 @@
   "mod2max": "11",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "712": {
   "Name": "of Incineration",
@@ -13531,10 +11278,7 @@
   "mod2max": "17",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "713": {
   "Name": "of Flame",
@@ -13551,10 +11295,7 @@
   "mod2code": "fire-max",
   "mod2min": "2",
   "mod2max": "2",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "714": {
   "Name": "of Fire",
@@ -13571,10 +11312,7 @@
   "mod2code": "fire-max",
   "mod2min": "3",
   "mod2max": "4",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "715": {
   "Name": "of Burning",
@@ -13593,10 +11331,7 @@
   "mod2max": "8",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "716": {
   "Name": "of Incineration",
@@ -13614,10 +11349,7 @@
   "mod2max": "13",
   "transform": "1",
   "transformcolor": "dred",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "717": {
   "Name": "of Shock",
@@ -13634,10 +11366,7 @@
   "mod2code": "ltng-max",
   "mod2min": "2",
   "mod2max": "3",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "718": {
   "Name": "of Lightning",
@@ -13654,10 +11383,7 @@
   "mod2code": "ltng-max",
   "mod2min": "4",
   "mod2max": "7",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "719": {
   "Name": "of Thunder",
@@ -13676,10 +11402,7 @@
   "mod2max": "21",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "720": {
   "Name": "of Storms",
@@ -13697,10 +11420,7 @@
   "mod2max": "33",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "lcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "lcha"
  },
  "721": {
   "Name": "of Shock",
@@ -13717,10 +11437,7 @@
   "mod2code": "ltng-max",
   "mod2min": "3",
   "mod2max": "5",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "722": {
   "Name": "of Lightning",
@@ -13737,10 +11454,7 @@
   "mod2code": "ltng-max",
   "mod2min": "6",
   "mod2max": "13",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "723": {
   "Name": "of Thunder",
@@ -13759,10 +11473,7 @@
   "mod2max": "25",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "724": {
   "Name": "of Storms",
@@ -13780,10 +11491,7 @@
   "mod2max": "38",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "mcha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "mcha"
  },
  "725": {
   "Name": "of Shock",
@@ -13800,10 +11508,7 @@
   "mod2code": "ltng-max",
   "mod2min": "3",
   "mod2max": "6",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "726": {
   "Name": "of Lightning",
@@ -13820,10 +11525,7 @@
   "mod2code": "ltng-max",
   "mod2min": "7",
   "mod2max": "10",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "727": {
   "Name": "of Thunder",
@@ -13842,10 +11544,7 @@
   "mod2max": "18",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "728": {
   "Name": "of Storms",
@@ -13863,10 +11562,7 @@
   "mod2max": "28",
   "transform": "1",
   "transformcolor": "dyel",
-  "itype1": "scha",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "scha"
  },
  "729": {
   "Name": "of Dexterity",
@@ -13882,10 +11578,7 @@
   "mod1min": "1",
   "mod1max": "1",
   "itype1": "boot",
-  "itype2": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "glov"
  },
  "730": {
   "Name": "of Dexterity",
@@ -13900,10 +11593,7 @@
   "mod1code": "dex",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "731": {
   "Name": "of Strength",
@@ -13918,10 +11608,7 @@
   "mod1code": "str",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "glov",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "glov"
  },
  "732": {
   "Name": "of Strength",
@@ -13936,10 +11623,7 @@
   "mod1code": "str",
   "mod1min": "1",
   "mod1max": "1",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "733": {
   "Name": "of Thorns",
@@ -13956,10 +11640,7 @@
   "mod1max": "1",
   "itype1": "tors",
   "itype2": "belt",
-  "itype3": "shld",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype3": "shld"
  },
  "734": {
   "Name": "of Frost",
@@ -13978,10 +11659,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "735": {
   "Name": "of Flame",
@@ -13999,10 +11677,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "736": {
   "Name": "of Blight",
@@ -14021,10 +11696,7 @@
   "itype1": "weap",
   "etype1": "scep",
   "etype2": "staf",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "737": {
   "Name": "of Shock",
@@ -14042,10 +11714,7 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "etype3": "orb"
  },
  "738": {
   "Name": "of Regeneration",
@@ -14061,10 +11730,7 @@
   "mod1min": "2",
   "mod1max": "2",
   "itype1": "amul",
-  "itype2": "circ",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "circ"
  },
  "739": {
   "Name": "of Energy",
@@ -14085,10 +11751,7 @@
   "itype4": "wand",
   "itype5": "staf",
   "itype6": "helm",
-  "itype7": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype7": "ring"
  },
  "740": {
   "Name": "of Light",
@@ -14107,10 +11770,7 @@
   "mod2min": "10",
   "mod2max": "10",
   "itype1": "ring",
-  "itype2": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype2": "amul"
  },
  "741": {
   "Name": "of the Leech",
@@ -14124,10 +11784,7 @@
   "mod1code": "lifesteal",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "742": {
   "Name": "of the Locust",
@@ -14141,10 +11798,7 @@
   "mod1code": "lifesteal",
   "mod1min": "4",
   "mod1max": "5",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "743": {
   "Name": "of the Lamprey",
@@ -14160,10 +11814,7 @@
   "mod1max": "6",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "amul",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "amul"
  },
  "744": {
   "Name": "of the Bat",
@@ -14177,10 +11828,7 @@
   "mod1code": "manasteal",
   "mod1min": "2",
   "mod1max": "3",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "745": {
   "Name": "of the Wraith",
@@ -14194,10 +11842,7 @@
   "mod1code": "manasteal",
   "mod1min": "4",
   "mod1max": "5",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  },
  "746": {
   "Name": "of the Vampire",
@@ -14213,9 +11858,6 @@
   "mod1max": "6",
   "transform": "1",
   "transformcolor": "cred",
-  "itype1": "ring",
-  "divide": "0",
-  "multiply": "0",
-  "add": "0"
+  "itype1": "ring"
  }
 }
