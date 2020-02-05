@@ -16,18 +16,22 @@ const indexes = {
     armor: 'code',
     charstats: 'class',
     difficultylevels: 'Name',
+    ElemTypes: 'Code',
     experience: 'Level',
+    gems: 'code',
     inventory: 'class',
     ItemStatCost: 'Stat',
     ItemTypes: 'Code',
     Levels: 'Id',
     LvlMaze: 'Level',
     LvlPrest: 'Def',
-    LvlTypes: 'Id',
+    LvlSub: 'Name',
+    LvlTypes: 'Name',
     misc: 'code',
     Missiles: 'Id',
     MonMode: 'code',
     monstats: 'hcIdx',
+    MonType: 'type',
     npc: 'npc',
     Overlay: 'overlay',
     PlrMode: 'Code',
@@ -41,9 +45,8 @@ const indexes = {
     states: 'state',
     SuperUniques: 'hcIdx',
     TreasureClassEx: 'Treasure Class',
-    weapons: 'code',
     UniqueItems: 'index',
-    gems: 'code',
+    weapons: 'code',
 };
 
 files.forEach(fn => {
@@ -56,7 +59,9 @@ files.forEach(fn => {
             if (key) {
                 obj[key] = {};
                 for (let c = 0; c < header.length; c++) {
-                    obj[key][header[c] || 'unknown'] = line[c];
+                    if (line[c] !== "") {
+                        obj[key][header[c] || 'unknown'] = line[c];
+                    }
                 }
             }
         }
