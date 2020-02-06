@@ -1,21 +1,31 @@
 {
+ "0": {
+  "Namco": "of Town Portal",
+  "Completed": 1,
+  "ScrollSpellCode": "tsc",
+  "BookSpellCode": "tbk",
+  "pSpell": 2,
+  "SpellIcon": -1,
+  "ScrollSkill": "Scroll of Townportal",
+  "BookSkill": "Book of Townportal",
+  "BaseCost": 250,
+  "CostPerCharge": 50
+ },
  "1": {
-  "Name": "unused",
   "Namco": "of Identify",
-  "Completed": "1",
+  "Completed": 1,
   "ScrollSpellCode": "isc",
   "BookSpellCode": "ibk",
-  "pSpell": "1",
+  "pSpell": 1,
   "ScrollSkill": "Scroll of Identify",
   "BookSkill": "Book of Identify",
-  "BaseCost": "200",
-  "CostPerCharge": "40"
+  "BaseCost": 200,
+  "CostPerCharge": 40
  },
  "2": {
-  "Name": "unused",
   "Namco": "of Ressurect",
-  "SpellIcon": "-1",
-  "BaseCost": "500",
-  "CostPerCharge": "100"
+  "SpellIcon": -1,
+  "BaseCost": 500,
+  "CostPerCharge": 100
  }
 }
