@@ -1,6 +1,6 @@
 'use strict'; /* global Vue */
 
-let data = fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/weapons.json');
+let data = fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/armor.json');
 
 function first (...values) {
 	return values.filter(v => v !== undefined).shift();
@@ -10,7 +10,7 @@ new Vue({
 	el: '#app',
 	data: {
 		visible: false,
-		pageTitle: 'Diablo 2 Weapon Browser',
+		pageTitle: 'Diablo 2 Armor Browser',
 		items: [],
 		sortColumn: undefined,
 		levelreqlower: 0,
@@ -18,9 +18,6 @@ new Vue({
 		tier: 0,
 		sockets: 0,
 		maxlevelreq: 99,
-		requireonehand: false,
-		requiretwohand: false,
-		requiremissile: false,
 		itemtype: 'All',
 		itemtypes: {
 			All: 'All',
@@ -33,17 +30,11 @@ new Vue({
 		columns: [
 			{ label: '', value: '', headstyle: 'width:auto;user-select:none;cursor:pointer;' },
 			{ label: 'Item Name (code)', key: 'name', render: item => item.name + ' (' + item.code + ')', headstyle: 'width:1px;user-select:none;cursor:pointer;text-align:center;white-space:nowrap;', style: 'text-align:center;white-space:nowrap;'},
-			{ label: 'Speed', key: 'speed', render: item => item.speed || 0, sortDefault: 0 },
 			{ label: 'Req Level', key: 'levelreq', render: item => item.levelreq || 0, sortDefault: 0 },
 			{ label: 'Tier', key: 'tier', render: item => item.tierName, sortDefault: 0, defaultSortOrder: -1 },
 			{ label: 'Sock', key: 'gemsockets', render: item => item.gemsockets || 0, sortDefault: 0 },
+			{ label: 'Avg AC', key: 'avgac', render: item => item.avgac },
 			{ label: 'Req Str', key: 'reqstr', render: item => item.reqstr || 0, sortDefault: 0 },
-			{ label: 'Req Dex', key: 'reqdex', render: item => item.reqdex || 0, sortDefault: 0 },
-			{ label: 'Str Use', key: 'StrBonus', render: item => (item.StrBonus || 0) + '%', sortDefault: 0 },
-			{ label: 'Dex Use', key: 'DexBonus', render: item => (item.DexBonus || 0) + '%', sortDefault: 0 },
-			{ label: '*1h Damage', key: 'dps', render: item => item.dps || '??', sortDefault: 0, defaultSortOrder: -1 },
-			{ label: '*2h Damage', key: '2handdps', render: item => item['2handdps'] || '??', sortDefault: 0, defaultSortOrder: -1 },
-			{ label: '*Rng Damage', key: 'misdps', render: item => item.misdps || '??', sortDefault: 0, defaultSortOrder: -1 },
 			{ label: '', value: '', headstyle: 'width: auto;' },
 		]
 	},
@@ -76,9 +67,6 @@ new Vue({
 			this.sockets = 0;
 			this.tier = 0;
 			this.itemtype = 'All';
-			this.requireonehand = false;
-			this.requiretwohand = false;
-			this.requiremissile = false;
 		},
 		canShow: function (item) {
 			if (+this.levelreqlower && +item.levelreq < +this.levelreqlower) {
@@ -101,18 +89,6 @@ new Vue({
 				return false;
 			}
 
-			if (this.requireonehand && !item.dps) {
-				return false;
-			}
-
-			if (this.requiretwohand && !item['2handdps']) {
-				return false;
-			}
-
-			if (this.requiremissile && !item.misdps) {
-				return false;
-			}
-
 			return true;
 		},
 		first,
@@ -121,14 +97,8 @@ new Vue({
 		data = await data;
 		data = await data.json();
 		this.items = Object.values(data).map(v => {
-			v.speed = v.speed || 0;
-			v.avgdam = (v.mindam + v.maxdam) / 2 || 0;
-			v.dps = v.avgdam * (100 - v.speed) / 100 || 0;
-			v['2handavgdam'] = (v['2handmindam'] + v['2handmaxdam']) / 2 || 0;
-			v['2handdps'] = v['2handavgdam'] * (100 - v.speed) / 100 || 0;
-			v.avgmisdam = (v.minmisdam + v.maxmisdam) / 2 || 0;
-			v.misdps = v.avgmisdam * (100 - v.speed) / 100 || 0;
 			v.levelreq = v.levelreq || 0;
+			v.avgac = (v.minac + v.maxac) / 2 || 0;
 			v.tier = v.code === v.ultracode ? 3 : v.code === v.ubercode ? 2 : 1;
 			v.tierName = ['None', 'Norm', 'Excep', 'Elite'][v.tier];
 			this.itemtypes[v.type || 'none'] = v.type || 'none';
