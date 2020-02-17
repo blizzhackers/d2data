@@ -13,6 +13,7 @@ new Vue({
 		pageTitle: 'Diablo 2 Weapon Browser',
 		items: [],
 		sortColumn: undefined,
+		contains: '',
 		levelreqlower: 0,
 		levelrequpper: 99,
 		tier: 0,
@@ -33,6 +34,7 @@ new Vue({
 		columns: [
 			{ label: '', value: '', headstyle: 'width:auto;user-select:none;cursor:pointer;' },
 			{ label: 'Item Name (code)', key: 'name', render: item => item.name + ' (' + item.code + ')', headstyle: 'width:1px;user-select:none;cursor:pointer;text-align:center;white-space:nowrap;', style: 'text-align:center;white-space:nowrap;'},
+			{ label: 'Type', key: 'type', render: item => item.type || '??', sortDefault: '??' },
 			{ label: 'Speed', key: 'speed', render: item => item.speed || 0, sortDefault: 0 },
 			{ label: 'Req Level', key: 'levelreq', render: item => item.levelreq || 0, sortDefault: 0 },
 			{ label: 'Tier', key: 'tier', render: item => item.tierName, sortDefault: 0, defaultSortOrder: -1 },
@@ -81,6 +83,10 @@ new Vue({
 			this.requiremissile = false;
 		},
 		canShow: function (item) {
+			if (item.name.toLowerCase().indexOf(this.contains.toLowerCase()) < 0) {
+				return false;
+			}
+
 			if (+this.levelreqlower && +item.levelreq < +this.levelreqlower) {
 				return false;
 			}
