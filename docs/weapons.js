@@ -73,6 +73,7 @@ new Vue({
 			});
 		},
 		resetValues: function () {
+			this.contains = '';
 			this.levelreqlower = 0;
 			this.levelrequpper = this.maxlevelreq;
 			this.sockets = 0;
