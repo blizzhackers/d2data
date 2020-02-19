@@ -24,7 +24,6 @@
 			requiretwohand: false,
 			requiremissile: false,
 			itemtype: 'All',
-			dmgToolTip: 'Damage is averaged and adjusted for speed. This is not a proper dps.',
 			itemtypes: {
 				All: 'All',
 			},
