@@ -9,147 +9,162 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 	</head>
-	<body class="container card my-sm-5 p-0">
-		<nav class="nav nav-tabs" id="app-tab" role="tablist">
-			<a class="nav-item nav-link active" id="weapon-tab" data-toggle="tab" href="#weaponapp" role="tab" aria-controls="armorapp" aria-selected="true">Weapons</a>
-			<a class="nav-item nav-link" id="armor-tab" data-toggle="tab" href="#armorapp" role="tab" aria-controls="armorapp" aria-selected="true">Armor</a>
-		</nav>
-		<div class="tab-content bg-white" id="tab-content">
-			<div id="weaponapp" class="tab-pane fade show active" role="tabpanel" aria-labelledby="weapon-tab">
-				<h1 class="card-header bg-primary text-light text-center">{{ pageTitle }}</h1>
-				<div class="card-body">
-					<p v-if="!visible" class="text-center text-light">Loading...</p>
-					<div class="row form-group">
-						<div class="col-12 col-md">
-							<label>Search by Name</label>
-							<input type="text" class="form-control form-control-sm" v-model:value="contains">
+	<body class="container p-0 bg-dark">
+		<div class="card my-sm-5">
+			<nav class="nav nav-tabs" id="app-tab" role="tablist">
+				<a class="nav-item nav-link active" id="weapon-tab" data-toggle="tab" href="#weaponapp" role="tab" aria-controls="armorapp" aria-selected="true">Weapons</a>
+				<a class="nav-item nav-link" id="armor-tab" data-toggle="tab" href="#armorapp" role="tab" aria-controls="armorapp" aria-selected="true">Armor</a>
+			</nav>
+			<div class="tab-content bg-white" id="tab-content">
+				<div id="weaponapp" class="tab-pane fade show active" role="tabpanel" aria-labelledby="weapon-tab">
+					<h1 class="card-header bg-primary text-light text-center">{{ pageTitle }}</h1>
+					<div class="card-body">
+						<p v-if="!visible" class="text-center text-light">Loading...</p>
+						<div class="row form-group">
+							<div class="col-12 col-md">
+								<label>Search by Name</label>
+								<input type="text" class="form-control form-control-sm" v-model:value="contains">
+							</div>
+							<div class="col-12 col-md">
+								<label>Minimum Required Level: {{ levelreqlower }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelreqlower">
+							</div>
+							<div class="col-12 col-md">
+								<label>Maximum Required Level: {{ levelrequpper }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelrequpper">
+							</div>
+							<div class="col-12 col-md">
+								<label>Minimum Sockets: {{ sockets }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" max="6" v-model:value="sockets">
+							</div>
 						</div>
-						<div class="col-12 col-md">
-							<label>Minimum Required Level: {{ levelreqlower }}</label>
-							<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelreqlower">
-						</div>
-						<div class="col-12 col-md">
-							<label>Maximum Required Level: {{ levelrequpper }}</label>
-							<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelrequpper">
-						</div>
-						<div class="col-12 col-md">
-							<label>Minimum Sockets: {{ sockets }}</label>
-							<input type="range" class="form-control form-control-sm" min="0" max="6" v-model:value="sockets">
+						<div class="row form-group">
+							<div class="col-12 col-md">
+								<label>Item Tier</label>
+								<select class="form-control form-control-sm" v-model="tier">
+									<option value="0">All</option>
+									<option value="1">Normal</option>
+									<option value="2">Exceptional</option>
+									<option value="3">Elite</option>
+								</select>
+							</div>
+							<div class="col-12 col-md">
+								<label>Item Type</label>
+								<select class="form-control form-control-sm" v-model="itemtype">
+									<option v-for="type in itemtypes" :key="type" :value="type">{{ type }}</option>
+								</select>
+							</div>
+							<div class="col-12 col-md-auto">
+								<div><label>Has:</label></div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" v-model="requireonehand">
+									<label class="form-check-label">1h Damage</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" v-model="requiretwohand">
+									<label class="form-check-label">2h Damage</label>
+								</div>
+								<div class="form-check form-check-inline">
+									<input class="form-check-input" type="checkbox" v-model="requiremissile">
+									<label class="form-check-label">Throw Damage</label>
+								</div>
+							</div>
+							<div class="col-12 col-md-auto m-auto">
+								<button class="btn btn-primary float-right" @click="resetValues">Reset</button>
+							</div>
 						</div>
 					</div>
-					<div class="row form-group">
-						<div class="col-12 col-md">
-							<label>Item Tier</label>
-							<select class="form-control form-control-sm" v-model="tier">
-								<option value="0">All</option>
-								<option value="1">Normal</option>
-								<option value="2">Exceptional</option>
-								<option value="3">Elite</option>
-							</select>
-						</div>
-						<div class="col-12 col-md">
-							<label>Item Type</label>
-							<select class="form-control form-control-sm" v-model="itemtype">
-								<option v-for="type in itemtypes" :key="type" :value="type">{{ type }}</option>
-							</select>
-						</div>
-						<div class="col-12 col-md-auto">
-							<div><label>Has:</label></div>
-							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="checkbox" v-model="requireonehand">
-								<label class="form-check-label">1h Damage</label>
-							</div>
-							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="checkbox" v-model="requiretwohand">
-								<label class="form-check-label">2h Damage</label>
-							</div>
-							<div class="form-check form-check-inline">
-								<input class="form-check-input" type="checkbox" v-model="requiremissile">
-								<label class="form-check-label">Throw Damage</label>
-							</div>
-						</div>
-						<div class="col-12 col-md-auto m-auto">
-							<button class="btn btn-primary float-right" @click="resetValues">Reset</button>
-						</div>
+					<div class="table-responsive">
+						<table v-if="visible" class="table table-sm m-0 text-right">
+							<thead class="table-primary">
+								<tr>
+									<th v-for="(column, index) in columns" :key="index" :class="column.headclass" :style="first(column.headstyle, defaults.headstyle)" @click="sort(column)" v-tooltip="column.tooltip">{{ column.label }}</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr v-for="item in items" :key="item.code" v-if="canShow(item)">
+									<td v-for="(column, index) in columns" :key="index" :class="column.class" :style="first(column.style, defaults.style)">{{ column.render ? column.render(item) : '' }}</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 				</div>
-				<div class="table-responsive">
-					<table v-if="visible" class="table table-sm m-0 text-right">
-						<thead class="table-primary">
-							<tr>
-								<th v-for="(column, index) in columns" :key="index" :class="column.headclass" :style="first(column.headstyle, defaults.headstyle)" @click="sort(column)">{{ column.label }}</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr v-for="item in items" :key="item.code" v-if="canShow(item)">
-								<td v-for="(column, index) in columns" :key="index" :class="column.class" :style="first(column.style, defaults.style)">{{ column.render ? column.render(item) : '' }}</td>
-							</tr>
-						</tbody>
-					</table>
+				<div id="armorapp" class="tab-pane fade show" role="tabpanel" aria-labelledby="armor-tab">
+					<h1 class="card-header bg-primary text-light text-center">{{ pageTitle }}</h1>
+					<div class="card-body">
+						<p v-if="!visible" class="text-center text-light">Loading...</p>
+						<div class="row form-group">
+							<div class="col-12 col-md">
+								<label>Search by Name</label>
+								<input type="text" class="form-control form-control-sm" v-model:value="contains">
+							</div>
+							<div class="col-12 col-md">
+								<label>Minimum Required Level: {{ levelreqlower }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelreqlower">
+							</div>
+							<div class="col-12 col-md">
+								<label>Maximum Required Level: {{ levelrequpper }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelrequpper">
+							</div>
+							<div class="col-12 col-md">
+								<label>Minimum Sockets: {{ sockets }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" max="4" v-model:value="sockets">
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-12 col-md">
+								<label>Item Tier</label>
+								<select class="form-control form-control-sm" v-model="tier">
+									<option value="0">All</option>
+									<option value="1">Normal</option>
+									<option value="2">Exceptional</option>
+									<option value="3">Elite</option>
+								</select>
+							</div>
+							<div class="col-12 col-md">
+								<label>Item Type</label>
+								<select class="form-control form-control-sm" v-model="itemtype">
+									<option v-for="type in itemtypes" :key="type" :value="type">{{ type }}</option>
+								</select>
+							</div>
+							<div class="col-12 col-md">
+								<label>Item Weight</label>
+								<select class="form-control form-control-sm" v-model="weight">
+									<option value="-1">All</option>
+									<option value="0">Light</option>
+									<option value="5">Medium</option>
+									<option value="10">Heavy</option>
+								</select>
+							</div>
+							<div class="col-12 col-md">
+								<label>Max Required Str: {{ maxstrreq }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" :max="maxstrreqmax" v-model:value="maxstrreq">
+							</div>
+							<div class="col-12 col-md-auto m-auto">
+								<button class="btn btn-primary float-right" @click="resetValues">Reset</button>
+							</div>
+						</div>
+					</div>
+					<div class="table-responsive">
+						<table v-if="visible" class="table table-sm m-0 text-right">
+							<thead class="table-primary">
+								<tr>
+									<th v-for="(column, index) in columns" :key="index" :class="column.headclass" :style="first(column.headstyle, defaults.headstyle)" @click="sort(column)" v-tooltip="column.tooltip">{{ column.label }}</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr v-for="item in items" :key="item.code" v-if="canShow(item)">
+									<td v-for="(column, index) in columns" :key="index" :class="column.class" :style="first(column.style, defaults.style)">{{ column.render ? column.render(item) : '' }}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
-				<div class="card-footer text-center">*Damage is averaged and adjusted for speed. This is not a proper dps.</div>
 			</div>
-			<div id="armorapp" class="tab-pane fade show" role="tabpanel" aria-labelledby="armor-tab">
-				<h1 class="card-header bg-primary text-light text-center">{{ pageTitle }}</h1>
-				<div class="card-body">
-					<p v-if="!visible" class="text-center text-light">Loading...</p>
-					<div class="row form-group">
-						<div class="col-12 col-md">
-							<label>Search by Name</label>
-							<input type="text" class="form-control form-control-sm" v-model:value="contains">
-						</div>
-						<div class="col-12 col-md">
-							<label>Minimum Required Level: {{ levelreqlower }}</label>
-							<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelreqlower">
-						</div>
-						<div class="col-12 col-md">
-							<label>Maximum Required Level: {{ levelrequpper }}</label>
-							<input type="range" class="form-control form-control-sm" min="0" :max="maxlevelreq" v-model:value="levelrequpper">
-						</div>
-						<div class="col-12 col-md">
-							<label>Minimum Sockets: {{ sockets }}</label>
-							<input type="range" class="form-control form-control-sm" min="0" max="4" v-model:value="sockets">
-						</div>
-					</div>
-					<div class="row form-group">
-						<div class="col-12 col-md">
-							<label>Item Tier</label>
-							<select class="form-control form-control-sm" v-model="tier">
-								<option value="0">All</option>
-								<option value="1">Normal</option>
-								<option value="2">Exceptional</option>
-								<option value="3">Elite</option>
-							</select>
-						</div>
-						<div class="col-12 col-md">
-							<label>Item Type</label>
-							<select class="form-control form-control-sm" v-model="itemtype">
-								<option v-for="type in itemtypes" :key="type" :value="type">{{ type }}</option>
-							</select>
-						</div>
-						<div class="col-12 col-md-auto m-auto">
-							<button class="btn btn-primary float-right" @click="resetValues">Reset</button>
-						</div>
-					</div>
-				</div>
-				<div class="table-responsive">
-					<table v-if="visible" class="table table-sm m-0 text-right">
-						<thead class="table-primary">
-							<tr>
-								<th v-for="(column, index) in columns" :key="index" :class="column.headclass" :style="first(column.headstyle, defaults.headstyle)" @click="sort(column)">{{ column.label }}</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr v-for="item in items" :key="item.code" v-if="canShow(item)">
-								<td v-for="(column, index) in columns" :key="index" :class="column.class" :style="first(column.style, defaults.style)">{{ column.render ? column.render(item) : '' }}</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>
+			<div class="card-footer text-center"><em>Powered by <a href="https://vuejs.org">Vue.js</a> and <a href="https://getbootstrap.com">Bootstrap 4</a></em></div>
 		</div>
-		<div class="card-footer text-center"><em>Powered by <a href="https://vuejs.org">Vue.js</a> and <a href="https://getbootstrap.com">Bootstrap 4</a></em></div>
 	</body>
+	<script src="vue-setup.js"></script>
 	<script src="weapons.js"></script>
 	<script src="armor.js"></script>
 </html>
