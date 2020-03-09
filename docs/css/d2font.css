@@ -1,0 +1,11 @@
+@font-face {
+    font-family: AvQuest;
+    src: url(../Avqest.ttf);
+}
+
+.avquest {
+    font-family: AvQuest;
+    font-weight: bold;
+    filter: blur(0.4px);
+    letter-spacing: 1px;
+}
