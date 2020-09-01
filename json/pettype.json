@@ -1,0 +1,213 @@
+{
+ "none": {
+  "pet type": "none"
+ },
+ "single": {
+  "pet type": "single",
+  "idx": 1,
+  "basemax": 1,
+  "warp": 1,
+  "partysend": 1,
+  "automap": 1
+ },
+ "valkyrie": {
+  "pet type": "valkyrie",
+  "idx": 2,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "StrUI4",
+  "drawhp": 1,
+  "icontype": 1,
+  "baseicon": "valkarieicon"
+ },
+ "golem": {
+  "pet type": "golem",
+  "idx": 3,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "StrUI0",
+  "drawhp": 1,
+  "icontype": 3,
+  "baseicon": "earthgolumicon",
+  "mclass1": 290,
+  "micon1": "bloodgolumicon",
+  "mclass2": 291,
+  "micon2": "metalgolumicon",
+  "mclass3": 292,
+  "micon3": "firegolumicon"
+ },
+ "skeleton": {
+  "pet type": "skeleton",
+  "idx": 4,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "StrUI1",
+  "drawhp": 1,
+  "icontype": 2,
+  "baseicon": "skeletonicon"
+ },
+ "skeletonmage": {
+  "pet type": "skeletonmage",
+  "idx": 5,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "StrUI2",
+  "drawhp": 1,
+  "icontype": 2,
+  "baseicon": "skeletonmageicon"
+ },
+ "revive": {
+  "pet type": "revive",
+  "idx": 6,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "StrUI3",
+  "drawhp": 1,
+  "icontype": 2,
+  "baseicon": "revivedicon"
+ },
+ "hireable": {
+  "pet type": "hireable",
+  "idx": 7,
+  "basemax": 1,
+  "warp": 1,
+  "partysend": 1,
+  "automap": 1,
+  "drawhp": 1,
+  "baseicon": "rogueicon",
+  "mclass1": 338,
+  "micon1": "act2hireableicon",
+  "mclass2": 359,
+  "micon2": "act3hireableicon",
+  "mclass3": 561,
+  "micon3": "barbhirable_icon"
+ },
+ "dopplezon": {
+  "pet type": "dopplezon",
+  "idx": 8,
+  "unsummon": 1,
+  "automap": 1,
+  "drawhp": 1
+ },
+ "invis": {
+  "pet type": "invis",
+  "idx": 9,
+  "warp": 1
+ },
+ "raven": {
+  "pet type": "raven",
+  "idx": 10,
+  "warp": 1,
+  "name": "strUI5",
+  "icontype": 2,
+  "baseicon": "raven"
+ },
+ "spiritwolf": {
+  "pet type": "spiritwolf",
+  "idx": 11,
+  "group": 1,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "strUI6",
+  "drawhp": 1,
+  "icontype": 2,
+  "baseicon": "wolf"
+ },
+ "fenris": {
+  "pet type": "fenris",
+  "idx": 12,
+  "group": 1,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "UIFenirsui",
+  "drawhp": 1,
+  "icontype": 2,
+  "baseicon": "wolf"
+ },
+ "totem": {
+  "pet type": "totem",
+  "idx": 13,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "strUI14",
+  "drawhp": 1,
+  "icontype": 3,
+  "baseicon": "oaksage",
+  "mclass1": 423,
+  "micon1": "heartofwolverine",
+  "mclass2": 422,
+  "micon2": "spiritofbarbs"
+ },
+ "vine": {
+  "pet type": "vine",
+  "idx": 14,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "strUI13",
+  "drawhp": 1,
+  "icontype": 3,
+  "baseicon": "plaguepoppy",
+  "mclass1": 426,
+  "micon1": "cycleoflife",
+  "mclass2": 427,
+  "micon2": "vines"
+ },
+ "grizzly": {
+  "pet type": "grizzly",
+  "idx": 15,
+  "group": 1,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "strUI7",
+  "drawhp": 1,
+  "icontype": 1,
+  "baseicon": "bear"
+ },
+ "shadowwarrior": {
+  "pet type": "shadowwarrior",
+  "idx": 16,
+  "warp": 1,
+  "partysend": 1,
+  "unsummon": 1,
+  "automap": 1,
+  "name": "UiShadowUI",
+  "drawhp": 1,
+  "icontype": 1,
+  "baseicon": "shadowassassin"
+ },
+ "assassintrap": {
+  "pet type": "assassintrap",
+  "idx": 17,
+  "range": 1
+ },
+ "pettrap": {
+  "pet type": "pettrap",
+  "idx": 18,
+  "range": 1
+ },
+ "hydra": {
+  "pet type": "hydra",
+  "idx": 19,
+  "range": 1
+ }
+}

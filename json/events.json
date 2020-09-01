@@ -1,0 +1,54 @@
+{
+ "0": {
+  "event": "hitbymissile",
+  "*desc": "hit by a missile"
+ },
+ "1": {
+  "event": "damagedinmelee",
+  "*desc": "damaged in melee"
+ },
+ "2": {
+  "event": "damagedbymissile",
+  "*desc": "damaged by missile"
+ },
+ "3": {
+  "event": "attackedinmelee",
+  "*desc": "melee attack atttempt"
+ },
+ "4": {
+  "event": "doactive",
+  "*desc": "do active state skill"
+ },
+ "5": {
+  "event": "domeleedamage",
+  "*desc": "do damage in melee"
+ },
+ "6": {
+  "event": "domissiledamage",
+  "*desc": "do missile damage"
+ },
+ "7": {
+  "event": "domeleeattack",
+  "*desc": "do melee attack"
+ },
+ "8": {
+  "event": "domissileattack",
+  "*desc": "do missile attack"
+ },
+ "9": {
+  "event": "kill",
+  "*desc": "killed something"
+ },
+ "10": {
+  "event": "killed",
+  "*desc": "killed by something"
+ },
+ "11": {
+  "event": "absorbdamage",
+  "*desc": "dealt damage"
+ },
+ "12": {
+  "event": "levelup",
+  "*desc": "gain a level"
+ }
+}

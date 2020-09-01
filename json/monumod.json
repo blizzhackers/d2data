@@ -1,0 +1,371 @@
+{
+ "0": {
+  "xfer": 1,
+  "constants": 20,
+  "*constant desc": "champion chance"
+ },
+ "1": {
+  "uniquemod": "rndname",
+  "id": 1,
+  "enabled": 1,
+  "constants": 100,
+  "*constant desc": "minion +hp%"
+ },
+ "2": {
+  "uniquemod": "hpmultiply",
+  "id": 2,
+  "enabled": 1,
+  "constants": 75,
+  "*constant desc": "minion +hp% (N)"
+ },
+ "3": {
+  "uniquemod": "light",
+  "id": 3,
+  "enabled": 1,
+  "constants": 50,
+  "*constant desc": "minion +hp% (H)"
+ },
+ "4": {
+  "uniquemod": "leveladd",
+  "id": 4,
+  "enabled": 1,
+  "constants": 200,
+  "*constant desc": "champion +hp%"
+ },
+ "5": {
+  "uniquemod": "strong",
+  "id": 5,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 150,
+  "*constant desc": "champion +hp% (N)"
+ },
+ "6": {
+  "uniquemod": "fast",
+  "id": 6,
+  "enabled": 1,
+  "xfer": 1,
+  "fPick": 3,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 100,
+  "*constant desc": "champion +hp% (H)"
+ },
+ "7": {
+  "uniquemod": "curse",
+  "id": 7,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 300,
+  "*constant desc": "unique +hp%"
+ },
+ "8": {
+  "uniquemod": "resist",
+  "id": 8,
+  "enabled": 1,
+  "xfer": 1,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 200,
+  "*constant desc": "unique +hp% (N)"
+ },
+ "9": {
+  "uniquemod": "fire",
+  "id": 9,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 100,
+  "*constant desc": "unique +hp% (H)"
+ },
+ "10": {
+  "uniquemod": "poisondead",
+  "id": 10,
+  "enabled": 1,
+  "constants": 75,
+  "*constant desc": "champion +tohit%"
+ },
+ "11": {
+  "uniquemod": "durieldead",
+  "id": 11,
+  "enabled": 1,
+  "constants": 100,
+  "*constant desc": "champion +dmg%"
+ },
+ "12": {
+  "uniquemod": "bloodraven",
+  "id": 12,
+  "enabled": 1,
+  "constants": 50,
+  "*constant desc": "minion +tohit%"
+ },
+ "13": {
+  "uniquemod": "rage",
+  "id": 13,
+  "enabled": 1,
+  "constants": 100,
+  "*constant desc": "unique +tohit%"
+ },
+ "14": {
+  "uniquemod": "spcdamage",
+  "id": 14,
+  "enabled": 1,
+  "constants": 75,
+  "*constant desc": "minion +dmg% (strong)"
+ },
+ "15": {
+  "uniquemod": "partydead",
+  "id": 15,
+  "enabled": 1,
+  "constants": 150,
+  "*constant desc": "unique +dmg% (strong)"
+ },
+ "16": {
+  "uniquemod": "champion",
+  "id": 16,
+  "enabled": 1,
+  "xfer": 1,
+  "champion": 1,
+  "cpick": 1,
+  "cpick (N)": 1,
+  "cpick (H)": 1,
+  "*constant desc": "minion +elem min dmg%"
+ },
+ "17": {
+  "uniquemod": "lightning",
+  "id": 17,
+  "enabled": 1,
+  "xfer": 1,
+  "exclude1": "sandleaper",
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 33,
+  "*constant desc": "minion +elem min dmg% (N)"
+ },
+ "18": {
+  "uniquemod": "cold",
+  "id": 18,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 33,
+  "*constant desc": "minion +elem min dmg% (H)"
+ },
+ "19": {
+  "uniquemod": "hireable",
+  "id": 19,
+  "enabled": 1,
+  "*constant desc": "minion +elem max dmg%"
+ },
+ "20": {
+  "uniquemod": "scarab",
+  "id": 20,
+  "enabled": 1,
+  "constants": 50,
+  "*constant desc": "minion +elem max dmg% (N)"
+ },
+ "21": {
+  "uniquemod": "killself",
+  "id": 21,
+  "enabled": 1,
+  "constants": 50,
+  "*constant desc": "minion +elem max dmg% (H)"
+ },
+ "22": {
+  "uniquemod": "questcomplete",
+  "id": 22,
+  "enabled": 1,
+  "constants": 33,
+  "*constant desc": "champion +elem min dmg%"
+ },
+ "23": {
+  "uniquemod": "poisonhit",
+  "id": 23,
+  "enabled": 1,
+  "constants": 33,
+  "*constant desc": "champion +elem min dmg% (N)"
+ },
+ "24": {
+  "uniquemod": "thief",
+  "id": 24,
+  "xfer": 1,
+  "constants": 33,
+  "*constant desc": "champion +elem min dmg% (H)"
+ },
+ "25": {
+  "uniquemod": "manahit",
+  "id": 25,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 50,
+  "*constant desc": "champion +elem max dmg%"
+ },
+ "26": {
+  "uniquemod": "teleport",
+  "id": 26,
+  "enabled": 1,
+  "xfer": 1,
+  "fPick": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 50,
+  "*constant desc": "champion +elem max dmg% (N)"
+ },
+ "27": {
+  "uniquemod": "spectralhit",
+  "id": 27,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 50,
+  "*constant desc": "champion +elem max dmg% (H)"
+ },
+ "28": {
+  "uniquemod": "stoneskin",
+  "id": 28,
+  "enabled": 1,
+  "xfer": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 66,
+  "*constant desc": "unique +elem min dmg%"
+ },
+ "29": {
+  "uniquemod": "multishot",
+  "id": 29,
+  "enabled": 1,
+  "xfer": 1,
+  "fPick": 2,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 66,
+  "*constant desc": "unique +elem min dmg% (N)"
+ },
+ "30": {
+  "uniquemod": "aura",
+  "id": 30,
+  "enabled": 1,
+  "upick": 6,
+  "upick (N)": 6,
+  "upick (H)": 6,
+  "constants": 66,
+  "*constant desc": "unique +elem min dmg% (H)"
+ },
+ "31": {
+  "uniquemod": "goboom",
+  "id": 31,
+  "enabled": 1,
+  "constants": 100,
+  "*constant desc": "unique +elem max dmg%"
+ },
+ "32": {
+  "uniquemod": "firespike_explode",
+  "id": 32,
+  "enabled": 1,
+  "version": 100,
+  "constants": 100,
+  "*constant desc": "unique +elem max dmg% (N)"
+ },
+ "33": {
+  "uniquemod": "suicideminion_explode",
+  "id": 33,
+  "enabled": 1,
+  "version": 100,
+  "constants": 100,
+  "*constant desc": "unique +elem max dmg% (H)"
+ },
+ "34": {
+  "uniquemod": "ai_after_death",
+  "id": 34,
+  "enabled": 1,
+  "version": 100
+ },
+ "35": {
+  "uniquemod": "shatter_on_death",
+  "id": 35,
+  "enabled": 1,
+  "version": 100
+ },
+ "36": {
+  "uniquemod": "ghostly",
+  "id": 36,
+  "enabled": 1,
+  "version": 100,
+  "xfer": 1,
+  "champion": 1,
+  "cpick": 1,
+  "cpick (N)": 1,
+  "cpick (H)": 1
+ },
+ "37": {
+  "uniquemod": "fanatic",
+  "id": 37,
+  "enabled": 1,
+  "version": 100,
+  "xfer": 1,
+  "champion": 1,
+  "cpick": 1,
+  "cpick (N)": 1,
+  "cpick (H)": 1
+ },
+ "38": {
+  "uniquemod": "possessed",
+  "id": 38,
+  "enabled": 1,
+  "version": 100,
+  "xfer": 1,
+  "champion": 1,
+  "cpick": 1,
+  "cpick (N)": 1,
+  "cpick (H)": 1
+ },
+ "39": {
+  "uniquemod": "berserk",
+  "id": 39,
+  "enabled": 1,
+  "version": 100,
+  "xfer": 1,
+  "champion": 1,
+  "cpick": 1,
+  "cpick (N)": 1,
+  "cpick (H)": 1
+ },
+ "40": {
+  "uniquemod": "worms_on_death",
+  "id": 40,
+  "enabled": 1,
+  "version": 100
+ },
+ "41": {
+  "uniquemod": "always_run_ai",
+  "id": 41,
+  "enabled": 1,
+  "version": 100
+ },
+ "42": {
+  "uniquemod": "lightningdeath",
+  "id": 42,
+  "enabled": 1,
+  "version": 100
+ }
+}

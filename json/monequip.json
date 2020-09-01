@@ -1,0 +1,349 @@
+{
+ "0": {
+  "monster": "bloodraven",
+  "oninit": 1,
+  "item1": "sbw",
+  "loc1": "rarm",
+  "mod1": 6
+ },
+ "1": {
+  "monster": "flyingscimitar",
+  "oninit": 1,
+  "item1": "scm",
+  "loc1": "rarm",
+  "mod1": 6
+ },
+ "2": {
+  "monster": "valkyrie",
+  "level": 27,
+  "item1": "ci2",
+  "loc1": "head",
+  "mod1": 6
+ },
+ "3": {
+  "monster": "valkyrie",
+  "level": 25,
+  "item1": "amu",
+  "loc1": "neck",
+  "mod1": 6
+ },
+ "4": {
+  "monster": "valkyrie",
+  "level": 23,
+  "item1": "uhc",
+  "loc1": "belt",
+  "mod1": 6
+ },
+ "5": {
+  "monster": "valkyrie",
+  "level": 21,
+  "item1": "uhb",
+  "loc1": "feet",
+  "mod1": 6
+ },
+ "6": {
+  "monster": "valkyrie",
+  "level": 19,
+  "item1": "utg",
+  "loc1": "glov",
+  "mod1": 6
+ },
+ "7": {
+  "monster": "valkyrie",
+  "level": 17,
+  "item1": "7p7",
+  "loc1": "rarm",
+  "mod1": 6
+ },
+ "8": {
+  "monster": "valkyrie",
+  "level": 16,
+  "item1": "uar",
+  "loc1": "tors",
+  "mod1": 6
+ },
+ "9": {
+  "monster": "valkyrie",
+  "level": 14,
+  "item1": "ci0",
+  "loc1": "head",
+  "mod1": 4
+ },
+ "10": {
+  "monster": "valkyrie",
+  "level": 13,
+  "item1": "amu",
+  "loc1": "neck",
+  "mod1": 4
+ },
+ "11": {
+  "monster": "valkyrie",
+  "level": 12,
+  "item1": "zhb",
+  "loc1": "belt",
+  "mod1": 4
+ },
+ "12": {
+  "monster": "valkyrie",
+  "level": 11,
+  "item1": "xhb",
+  "loc1": "feet",
+  "mod1": 4
+ },
+ "13": {
+  "monster": "valkyrie",
+  "level": 10,
+  "item1": "xhg",
+  "loc1": "glov",
+  "mod1": 4
+ },
+ "14": {
+  "monster": "valkyrie",
+  "level": 8,
+  "item1": "9p9",
+  "loc1": "rarm",
+  "mod1": 6
+ },
+ "15": {
+  "monster": "valkyrie",
+  "level": 7,
+  "item1": "xul",
+  "loc1": "tors",
+  "mod1": 6
+ },
+ "16": {
+  "monster": "valkyrie",
+  "level": 5,
+  "item1": "hbl",
+  "loc1": "belt",
+  "mod1": 4
+ },
+ "17": {
+  "monster": "valkyrie",
+  "level": 4,
+  "item1": "hbt",
+  "loc1": "feet",
+  "mod1": 4
+ },
+ "18": {
+  "monster": "valkyrie",
+  "level": 2,
+  "item1": "hgl",
+  "loc1": "glov",
+  "mod1": 4
+ },
+ "19": {
+  "monster": "valkyrie",
+  "item1": "spr",
+  "loc1": "rarm",
+  "mod1": 6
+ },
+ "20": {
+  "monster": "valkyrie",
+  "item1": "ful",
+  "loc1": "tors",
+  "mod1": 6
+ },
+ "21": {
+  "monster": "shadowwarrior",
+  "item1": "ces",
+  "loc1": "rarm",
+  "mod1": 4
+ },
+ "22": {
+  "monster": "shadowwarrior",
+  "item1": "btl",
+  "loc1": "larm",
+  "mod1": 4
+ },
+ "23": {
+  "monster": "shadowwarrior",
+  "loc1": "tors",
+  "mod1": 4
+ },
+ "24": {
+  "monster": "shadowwarrior",
+  "loc1": "head",
+  "mod1": 4
+ },
+ "25": {
+  "monster": "shadowmaster",
+  "level": 17,
+  "item1": "amu",
+  "loc1": "neck",
+  "mod1": 6
+ },
+ "26": {
+  "monster": "shadowmaster",
+  "level": 13,
+  "item1": "rin",
+  "loc1": "lrin",
+  "mod1": 6
+ },
+ "27": {
+  "monster": "shadowmaster",
+  "level": 11,
+  "item1": "7ar",
+  "loc1": "rarm",
+  "mod1": 6,
+  "item2": "7xf",
+  "loc2": "rarm",
+  "mod2": 6,
+  "item3": "7qr",
+  "loc3": "rarm",
+  "mod3": 6
+ },
+ "28": {
+  "monster": "shadowmaster",
+  "level": 11,
+  "item1": "7cs",
+  "loc1": "larm",
+  "mod1": 6,
+  "item2": "7tw",
+  "loc2": "larm",
+  "mod2": 6,
+  "item3": "7qr",
+  "loc3": "larm",
+  "mod3": 6
+ },
+ "29": {
+  "monster": "shadowmaster",
+  "level": 11,
+  "item1": "ulg",
+  "loc1": "glov",
+  "mod1": 6,
+  "item2": "umg",
+  "loc2": "glov",
+  "mod2": 6,
+  "item3": "uhg",
+  "loc3": "glov",
+  "mod3": 6
+ },
+ "30": {
+  "monster": "shadowmaster",
+  "level": 11,
+  "item1": "rin",
+  "loc1": "rrin",
+  "mod1": 6
+ },
+ "31": {
+  "monster": "shadowmaster",
+  "level": 11,
+  "loc1": "tors",
+  "mod1": 6
+ },
+ "32": {
+  "monster": "shadowmaster",
+  "level": 11,
+  "loc1": "head",
+  "mod1": 6
+ },
+ "33": {
+  "monster": "shadowmaster",
+  "level": 9,
+  "item1": "rin",
+  "loc1": "rrin",
+  "mod1": 4
+ },
+ "34": {
+  "monster": "shadowmaster",
+  "level": 6,
+  "item1": "7ar",
+  "loc1": "rarm",
+  "mod1": 4,
+  "item2": "7xf",
+  "loc2": "rarm",
+  "mod2": 4,
+  "item3": "7qr",
+  "loc3": "rarm",
+  "mod3": 4
+ },
+ "35": {
+  "monster": "shadowmaster",
+  "level": 6,
+  "item1": "7cs",
+  "loc1": "larm",
+  "mod1": 4,
+  "item2": "7tw",
+  "loc2": "larm",
+  "mod2": 4,
+  "item3": "7qr",
+  "loc3": "larm",
+  "mod3": 4
+ },
+ "36": {
+  "monster": "shadowmaster",
+  "level": 6,
+  "item1": "ulg",
+  "loc1": "glov",
+  "mod1": 4,
+  "item2": "umg",
+  "loc2": "glov",
+  "mod2": 4,
+  "item3": "uhg",
+  "loc3": "glov",
+  "mod3": 4
+ },
+ "37": {
+  "monster": "shadowmaster",
+  "level": 6,
+  "loc1": "tors",
+  "mod1": 4
+ },
+ "38": {
+  "monster": "shadowmaster",
+  "level": 6,
+  "loc1": "head",
+  "mod1": 4
+ },
+ "39": {
+  "monster": "shadowmaster",
+  "level": 5,
+  "item1": "ulg",
+  "loc1": "glov",
+  "mod1": 3,
+  "item2": "umg",
+  "loc2": "glov",
+  "mod2": 3,
+  "item3": "uhg",
+  "loc3": "glov",
+  "mod3": 3
+ },
+ "40": {
+  "monster": "shadowmaster",
+  "item1": "7ar",
+  "loc1": "rarm",
+  "mod1": 3,
+  "item2": "7xf",
+  "loc2": "rarm",
+  "mod2": 3,
+  "item3": "7qr",
+  "loc3": "rarm",
+  "mod3": 3
+ },
+ "41": {
+  "monster": "shadowmaster",
+  "item1": "7cs",
+  "loc1": "larm",
+  "mod1": 3,
+  "item2": "7tw",
+  "loc2": "larm",
+  "mod2": 3,
+  "item3": "7qr",
+  "loc3": "larm",
+  "mod3": 3
+ },
+ "42": {
+  "monster": "shadowmaster",
+  "loc1": "tors",
+  "mod1": 3
+ },
+ "43": {
+  "monster": "shadowmaster",
+  "loc1": "head",
+  "mod1": 3
+ },
+ "44": {
+  "monster": "*end*  do not remove"
+ }
+}

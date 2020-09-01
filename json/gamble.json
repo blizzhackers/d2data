@@ -1,0 +1,520 @@
+{
+ "0": {
+  "name": "amulet",
+  "code": "amu"
+ },
+ "1": {
+  "name": "ring",
+  "code": "rin"
+ },
+ "2": {
+  "name": "Hand Axe",
+  "code": "hax"
+ },
+ "3": {
+  "name": "Axe",
+  "code": "axe"
+ },
+ "4": {
+  "name": "Double Axe",
+  "code": "2ax"
+ },
+ "5": {
+  "name": "Military Pick",
+  "code": "mpi"
+ },
+ "6": {
+  "name": "War Axe",
+  "code": "wax"
+ },
+ "7": {
+  "name": "Large Axe",
+  "code": "lax"
+ },
+ "8": {
+  "name": "Broad Axe ",
+  "code": "bax"
+ },
+ "9": {
+  "name": "Battle Axe",
+  "code": "btx"
+ },
+ "10": {
+  "name": "Great Axe",
+  "code": "gax"
+ },
+ "11": {
+  "name": "Giant Axe",
+  "code": "gix"
+ },
+ "12": {
+  "name": "Club",
+  "code": "clb"
+ },
+ "13": {
+  "name": "Spiked Club",
+  "code": "spc"
+ },
+ "14": {
+  "name": "Mace",
+  "code": "mac"
+ },
+ "15": {
+  "name": "Morning Star",
+  "code": "mst"
+ },
+ "16": {
+  "name": "Flail",
+  "code": "fla"
+ },
+ "17": {
+  "name": "War Hammer",
+  "code": "whm"
+ },
+ "18": {
+  "name": "Maul",
+  "code": "mau"
+ },
+ "19": {
+  "name": "Great Maul",
+  "code": "gma"
+ },
+ "20": {
+  "name": "Short Sword",
+  "code": "ssd"
+ },
+ "21": {
+  "name": "Scimitar",
+  "code": "scm"
+ },
+ "22": {
+  "name": "Saber",
+  "code": "sbr"
+ },
+ "23": {
+  "name": "Falchion",
+  "code": "flc"
+ },
+ "24": {
+  "name": "Crystal Sword",
+  "code": "crs"
+ },
+ "25": {
+  "name": "Broad Sword",
+  "code": "bsd"
+ },
+ "26": {
+  "name": "Long Sword ",
+  "code": "lsd"
+ },
+ "27": {
+  "name": "War Sword",
+  "code": "wsd"
+ },
+ "28": {
+  "name": "Two-Handed Sword",
+  "code": "2hs"
+ },
+ "29": {
+  "name": "Claymore",
+  "code": "clm"
+ },
+ "30": {
+  "name": "Giant Sword",
+  "code": "gis"
+ },
+ "31": {
+  "name": "Bastard Sword",
+  "code": "bsw"
+ },
+ "32": {
+  "name": "Flamberge",
+  "code": "flb"
+ },
+ "33": {
+  "name": "Great Sword",
+  "code": "gsd"
+ },
+ "34": {
+  "name": "Dagger",
+  "code": "dgr"
+ },
+ "35": {
+  "name": "Dirk",
+  "code": "dir"
+ },
+ "36": {
+  "name": "Kriss",
+  "code": "kri"
+ },
+ "37": {
+  "name": "Blade",
+  "code": "bld"
+ },
+ "38": {
+  "name": "Spear",
+  "code": "spr"
+ },
+ "39": {
+  "name": "Trident",
+  "code": "tri"
+ },
+ "40": {
+  "name": "Brandistock",
+  "code": "brn"
+ },
+ "41": {
+  "name": "Spetum",
+  "code": "spt"
+ },
+ "42": {
+  "name": "Pike",
+  "code": "pik"
+ },
+ "43": {
+  "name": "Bardiche",
+  "code": "bar"
+ },
+ "44": {
+  "name": "Voulge",
+  "code": "vou"
+ },
+ "45": {
+  "name": "Scythe",
+  "code": "scy"
+ },
+ "46": {
+  "name": "Poleaxe",
+  "code": "pax"
+ },
+ "47": {
+  "name": "Halberd",
+  "code": "hal"
+ },
+ "48": {
+  "name": "War Scythe",
+  "code": "wsc"
+ },
+ "49": {
+  "name": "Short Bow",
+  "code": "sbw"
+ },
+ "50": {
+  "name": "Hunter's Bow",
+  "code": "hbw"
+ },
+ "51": {
+  "name": "Long Bow",
+  "code": "lbw"
+ },
+ "52": {
+  "name": "Composite Bow",
+  "code": "cbw"
+ },
+ "53": {
+  "name": "Short Battle Bow",
+  "code": "sbb"
+ },
+ "54": {
+  "name": "Long Battle Bow",
+  "code": "lbb"
+ },
+ "55": {
+  "name": "Short War Bow",
+  "code": "swb"
+ },
+ "56": {
+  "name": "Long War Bow",
+  "code": "lwb"
+ },
+ "57": {
+  "name": "Light Crossbow",
+  "code": "lxb"
+ },
+ "58": {
+  "name": "Crossbow",
+  "code": "mxb"
+ },
+ "59": {
+  "name": "Heavy Crossbow",
+  "code": "hxb"
+ },
+ "60": {
+  "name": "Repeating Crossbow",
+  "code": "rxb"
+ },
+ "61": {
+  "name": "Cap/hat",
+  "code": "cap"
+ },
+ "62": {
+  "name": "Skull Cap",
+  "code": "skp"
+ },
+ "63": {
+  "name": "Helm",
+  "code": "hlm"
+ },
+ "64": {
+  "name": "Full Helm",
+  "code": "fhl"
+ },
+ "65": {
+  "name": "Great Helm",
+  "code": "ghm"
+ },
+ "66": {
+  "name": "Crown",
+  "code": "crn"
+ },
+ "67": {
+  "name": "Mask",
+  "code": "msk"
+ },
+ "68": {
+  "name": "Quilted Armor",
+  "code": "qui"
+ },
+ "69": {
+  "name": "Leather Armor",
+  "code": "lea"
+ },
+ "70": {
+  "name": "Hard Leather Armor",
+  "code": "hla"
+ },
+ "71": {
+  "name": "Studded Leather ",
+  "code": "stu"
+ },
+ "72": {
+  "name": "Ring Mail",
+  "code": "rng"
+ },
+ "73": {
+  "name": "Scale Mail",
+  "code": "scl"
+ },
+ "74": {
+  "name": "Chain Mail",
+  "code": "chn"
+ },
+ "75": {
+  "name": "Breast Plate",
+  "code": "brs"
+ },
+ "76": {
+  "name": "Splint Mail",
+  "code": "spl"
+ },
+ "77": {
+  "name": "Plate Mail",
+  "code": "plt"
+ },
+ "78": {
+  "name": "Field Plate",
+  "code": "fld"
+ },
+ "79": {
+  "name": "Gothic Plate",
+  "code": "gth"
+ },
+ "80": {
+  "name": "Full Plate Mail",
+  "code": "ful"
+ },
+ "81": {
+  "name": "Ancient Armor",
+  "code": "aar"
+ },
+ "82": {
+  "name": "Light Plate",
+  "code": "ltp"
+ },
+ "83": {
+  "name": "Buckler",
+  "code": "buc"
+ },
+ "84": {
+  "name": "Small Shield",
+  "code": "sml"
+ },
+ "85": {
+  "name": "Large Shield",
+  "code": "lrg"
+ },
+ "86": {
+  "name": "Kite Shield",
+  "code": "kit"
+ },
+ "87": {
+  "name": "Tower Shield",
+  "code": "tow"
+ },
+ "88": {
+  "name": "Gothic Shield",
+  "code": "gts"
+ },
+ "89": {
+  "name": "Gloves(L)",
+  "code": "lgl"
+ },
+ "90": {
+  "name": "Heavy Gloves",
+  "code": "vgl"
+ },
+ "91": {
+  "name": "Bracers(M)",
+  "code": "mgl"
+ },
+ "92": {
+  "name": "Light Gauntlets",
+  "code": "tgl"
+ },
+ "93": {
+  "name": "Gaunlets(H)",
+  "code": "hgl"
+ },
+ "94": {
+  "name": "Leather Boots",
+  "code": "lbt"
+ },
+ "95": {
+  "name": "Heavy Boots",
+  "code": "vbt"
+ },
+ "96": {
+  "name": "Chain Boots",
+  "code": "mbt"
+ },
+ "97": {
+  "name": "Light Plate Boots",
+  "code": "tbt"
+ },
+ "98": {
+  "name": "Plate Boots",
+  "code": "hbt"
+ },
+ "99": {
+  "name": "Sash(L)",
+  "code": "lbl"
+ },
+ "100": {
+  "name": "Light Belt",
+  "code": "vbl"
+ },
+ "101": {
+  "name": "Belt(M)",
+  "code": "mbl"
+ },
+ "102": {
+  "name": "Heavy Belt",
+  "code": "tbl"
+ },
+ "103": {
+  "name": "Girdle(H)",
+  "code": "hbl"
+ },
+ "104": {
+  "name": "Bone Helm",
+  "code": "bhm"
+ },
+ "105": {
+  "name": "Bone Shield",
+  "code": "bsh"
+ },
+ "106": {
+  "name": "Spiked Shield",
+  "code": "spk"
+ },
+ "108": {
+  "expansion": 1,
+  "name": "Throwing Knife",
+  "code": "tkf"
+ },
+ "109": {
+  "expansion": 1,
+  "name": "Throwing Axe",
+  "code": "tax"
+ },
+ "110": {
+  "expansion": 1,
+  "name": "Balanced Knife",
+  "code": "bkf"
+ },
+ "111": {
+  "expansion": 1,
+  "name": "Balanced Axe",
+  "code": "bal"
+ },
+ "112": {
+  "expansion": 1,
+  "name": "Javelin",
+  "code": "jav"
+ },
+ "113": {
+  "expansion": 1,
+  "name": "Pilum",
+  "code": "pil"
+ },
+ "114": {
+  "expansion": 1,
+  "name": "Short Spear",
+  "code": "ssp"
+ },
+ "115": {
+  "expansion": 1,
+  "name": "Glaive",
+  "code": "glv"
+ },
+ "116": {
+  "expansion": 1,
+  "name": "Throwing Spear",
+  "code": "tsp"
+ },
+ "117": {
+  "expansion": 1,
+  "name": "Katar",
+  "code": "ktr"
+ },
+ "118": {
+  "expansion": 1,
+  "name": "Wrist Blade",
+  "code": "wrb"
+ },
+ "119": {
+  "expansion": 1,
+  "name": "Axe Fist",
+  "code": "axf"
+ },
+ "120": {
+  "expansion": 1,
+  "name": "Cestus",
+  "code": "ces"
+ },
+ "121": {
+  "expansion": 1,
+  "name": "Claws",
+  "code": "clw"
+ },
+ "122": {
+  "expansion": 1,
+  "name": "Blade Talons",
+  "code": "btl"
+ },
+ "123": {
+  "expansion": 1,
+  "name": "Scissors Katar",
+  "code": "skr"
+ },
+ "124": {
+  "expansion": 1,
+  "name": "Circlet",
+  "code": "ci0"
+ },
+ "125": {
+  "expansion": 1,
+  "name": "Coronet",
+  "code": "ci1"
+ }
+}

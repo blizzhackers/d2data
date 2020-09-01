@@ -14,6 +14,7 @@ const files = fs.readdirSync(inDir).filter(fn => fn.slice(-4) === '.txt').map(fn
 
 const indexes = {
 	armor: 'code',
+	ArmType: 'Token',
 	charstats: 'class',
 	difficultylevels: 'Name',
 	ElemTypes: 'Code',
@@ -30,21 +31,31 @@ const indexes = {
 	Missiles: 'Id',
 	MonMode: 'code',
 	monstats: 'hcIdx',
+	monstats2: 'Id',
 	MonType: 'type',
 	npc: 'npc',
+	ObjMode: 'Token',
 	Overlay: 'overlay',
+	pettype: 'pet type',
 	PlrMode: 'Code',
+	PlrType: 'Token',
+	PlayerClass: 'Code',
 	Properties: 'code',
 	Runes: 'Rune Name',
 	SetItems: 'index',
+	Sets: 'index',
 	shrines: 'Code',
+	skillcalc: 'code',
 	skills: 'Id',
 	SoundEnviron: 'Index',
 	Sounds: 'Index',
 	states: 'state',
+	StorePage: 'Code',
 	SuperUniques: 'hcIdx',
+	TreasureClass: 'Treasure Class',
 	TreasureClassEx: 'Treasure Class',
 	weapons: 'code',
+	WeaponClass: 'Code',
 };
 
 const filterValues = {
@@ -116,22 +127,6 @@ files.forEach(fn => {
 // @TODO: Generate atomic classes
 let atomic = {};
 let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
-let typeRarity = {
-	'abow': 1,
-	'ajav': 1,
-	'aspe': 1,
-	'orb': 1,
-	'scep': 1,
-	'staf': 1,
-	'wand': 1,
-	'ashd': 1,
-	'head': 1,
-	'pelt': 1,
-	'phlm': 1,
-	'h2h': 2,
-	'h2h2': 2,
-	'default': 3,
-};
 
 Object.values(full.weapons).forEach(item => {
 	if (item.rarity) {
@@ -176,5 +171,47 @@ delete full.UniqueAppellation;
 delete full.UniquePrefix;
 delete full.UniqueSuffix;
 delete full.UniqueUniqueTitle;
+delete full.Aiparms;
+delete full.Arena;
+delete full.ArmType;
+delete full.AutoMap;
+delete full.belts;
+delete full.bodylocs;
+delete full.colors;
+delete full.compcode;
+delete full.Composit;
+delete full.cubemod;
+delete full.cubetype;
+delete full.events;
+delete full.gamble;
+delete full.hiredesc;
+delete full.HitClass;
+delete full.lowqualityitems;
+delete full.LvlWarp;
+delete full.misscalc;
+delete full.monai;
+delete full.monequip;
+delete full.MonItemPercent;
+delete full.MonName;
+delete full.MonPlace;
+delete full.MonPreset;
+delete full.MonProp;
+delete full.monseq;
+delete full.monsounds;
+delete full.monstats2;
+delete full.monumod;
+delete full.objgroup;
+delete full.ObjMode;
+delete full.ObjType;
+delete full.pettype;
+delete full.PlrType;
+delete full.qualityitems;
+delete full.RarePrefix;
+delete full.RareSuffix;
+delete full.skillcalc;
+delete full.skilldesc;
+delete full.StorePage
+delete full.TreasureClass;
+delete full.WeaponClass;
 
 fs.writeFileSync(outDir + 'aggregate.json', JSON.stringify(full));
