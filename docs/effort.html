@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Diablo 2 Elemental Effort Visualizer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<link rel="stylesheet" href="effort.css">
+	</head>
+	<body>
+		<div id="effortapp">
+			<div class="settings-bar">
+				<select id="element-select" class="element-select" @change="updateGraphs" multiple>
+					<option v-for="(label, value) in dmgTypes" :value="value" selected>{{ label }}</option>
+				</select>
+				<select id="difficulty-select" class="difficulty-select" @change="updateGraphs" multiple>
+					<option v-for="(label, value) in difficulties" :value="value" selected>{{ label }}</option>
+				</select>
+				<div class="vertical-flex">
+					<div class="expand-label">
+						<label>Optional Areas</label>
+						<input type="checkbox" id="optional-areas" v-model="optionalAreas" @change="updateGraphs">
+					</div>
+					<div class="expand-label input-height">
+						<label>Conviction %</label>
+						<input type="number" step="5" min="0" value="0" v-model="skills.conviction" @change="updateGraphs">
+					</div>
+					<div class="expand-label input-height">
+						<label>Lower Resist %</label>
+						<input type="number" step="5" min="0" value="0" v-model="skills.lowerResist" @change="updateGraphs">
+					</div>
+					<div>&nbsp;</div>
+				</div>
+				<div class="vertical-flex">
+					<div class="expand-label input-height">
+						<label>Element/Poison Bonus %</label>
+						<input type="number" step="1" min="0" value="0" v-model="bonus.all" @change="updateGraphs">
+					</div>
+					<div class="expand-label input-height">
+						<label>Element/Poison Pierce %</label>
+						<input type="number" step="1" min="0" value="0" v-model="pierce.all" @change="updateGraphs">
+					</div>
+					<div class="expand-label input-height">
+						<label>Element Mastery (sorc)</label>
+						<input type="number" step="1" min="0" value="0" v-model="mastery.all" @change="updateGraphs">
+					</div>
+					<div>&nbsp;</div>
+				</div>
+			</div>
+			<p>Higher values mean more effectiveness.</p>
+			<div class="svg-wrapper" v-if="visible">
+				<svg id="renderer" :height="svg.height" :width="svg.width" :style="`font-size:${fontSize}px`">
+					<template v-for="element in svg.elements">
+						<line v-if="element.type === 'line'" :x1="svg.width * element.x1" :y1="svg.height * element.y1" :x2="svg.width * element.x2" :y2="svg.height * element.y2" :style="'stroke:' + element.color" />
+						<rect v-else-if="element.type === 'rect'" :x="svg.width * element.x" :y="svg.height * element.y" :width="svg.width * element.width" :height="svg.height * element.height" :style="'fill:' + element.color" />
+						<text v-else-if="element.type === 'text'" :x="svg.width * element.x" :y="svg.height * element.y" :style="'fill:' + element.color" dominant-baseline="middle" text-anchor="middle">{{ element.text }}</text>
+					</template>
+					<text :x="5" :y="svg.height - 5" class="debug">{{ debugMessage }}</text>
+				</svg>
+			</div>
+			<p v-else>Loading...</p>
+		</div>
+	</body>
+	<script src="effort.js"></script>
+</html>
