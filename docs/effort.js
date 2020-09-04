@@ -79,6 +79,7 @@ let $ = document.querySelector.bind(document);
 			skills: {
 				conviction: 0,
 				lowerResist: 0,
+				amplify: 0,
 			},
 			pierce: {
 				physical: 0,
@@ -200,6 +201,9 @@ let $ = document.querySelector.bind(document);
 												case 'poison':
 													res -= (this.skills.lowerResist) / 5;
 													break;
+												case 'physical':
+													res -= (this.skills.amplify) / 5;
+													break;
 											}
 										} else {
 											switch(resName) {
@@ -211,7 +215,10 @@ let $ = document.querySelector.bind(document);
 												case 'poison':
 													res -= this.skills.lowerResist;
 													break;
-											}
+													case 'physical':
+														res -= this.skills.amplify;
+														break;
+												}
 										}
 
 										switch (resName) {

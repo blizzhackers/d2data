@@ -28,7 +28,10 @@
 						<label>Lower Resist %</label>
 						<input type="number" step="5" min="0" value="0" v-model="skills.lowerResist" @change="updateGraphs">
 					</div>
-					<div>&nbsp;</div>
+					<div class="expand-label input-height">
+						<label>Amplify/Decrepify %</label>
+						<input type="number" step="50" min="0" max="100" value="0" v-model="skills.amplify" @change="updateGraphs">
+					</div>
 				</div>
 				<div class="vertical-flex">
 					<div class="expand-label input-height">
