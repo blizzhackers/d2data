@@ -82,6 +82,23 @@ svg rect {
   margin-left: 1em;
 }
 
+.settings-bar > .element-table {
+  flex: 0 0 35em;
+  box-sizing: border-box;
+}
+
+.settings-bar > .element-table th {
+  white-space: pre;
+}
+
+.settings-bar > .element-table * {
+  box-sizing: border-box;
+}
+
+.settings-bar > .element-table input {
+  width: 100%;
+}
+
 .expand-label {
   display: flex;
 }
@@ -95,15 +112,7 @@ svg rect {
   flex: 0 0 auto;
 }
 
-.vertical-flex {
-  display: flex;
-  flex-direction: column;
-}
-
-.vertical-flex > * {
-  flex: 1 1 auto;
-}
-
-.vertical-flex > *.input-height {
+.vertically-spaced > * {
+  height: 1.8em;
   line-height: 1.8em;
 }
