@@ -28,11 +28,6 @@ let $ = document.querySelector.bind(document);
 				cold: 'Cold',
 				poison: 'Poison',
 			},
-			difficulties: {
-				0: 'Normal',
-				1: 'Nightmare',
-				2: 'Hell',
-			},
 			fontSize: 1,
 			d2: {
 				MonLvl: fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/MonLvl.json').then(response => response.json()),
@@ -75,11 +70,66 @@ let $ = document.querySelector.bind(document);
 				cold: '#FFFFFF',
 				poison: '#000000',
 			},
+			difficulty: {
+				0: true,
+				1: true,
+				2: true,
+			},
 			optionalAreas: false,
 			skills: {
 				conviction: 0,
 				lowerResist: 0,
 				amplify: 0,
+			},
+			damage: {
+				min: {
+					physical: 1,
+					magic: 1,
+					fire: 1,
+					lightning: 1,
+					cold: 1,
+					poison: 1,	
+				},
+				max: {
+					physical: 1,
+					magic: 1,
+					fire: 1,
+					lightning: 1,
+					cold: 1,
+					poison: 1,
+					},
+				avg: {
+					physical: 1,
+					magic: 1,
+					fire: 1,
+					lightning: 1,
+					cold: 1,
+					poison: 1,
+				},
+				hits: {
+					physical: 1,
+					magic: 1,
+					fire: 1,
+					lightning: 1,
+					cold: 1,
+					poison: 1,
+				},
+				aoe: {
+					physical: 1,
+					magic: 1,
+					fire: 1,
+					lightning: 1,
+					cold: 1,
+					poison: 1,
+				},
+				fpa: {
+					physical: 25,
+					magic: 25,
+					fire: 25,
+					lightning: 25,
+					cold: 25,
+					poison: 25,
+				},
 			},
 			pierce: {
 				physical: 0,
@@ -88,58 +138,21 @@ let $ = document.querySelector.bind(document);
 				lightning: 0,
 				cold: 0,
 				poison: 0,
-				all: 0,
 			},
-			mastery: {
-				physical: 0,
-				magic: 0,
-				fire: 0,
-				lightning: 0,
-				cold: 0,
-				poison: 0,
-				all: 0,
-			},
-			bonus: {
-				physical: 0,
-				magic: 0,
-				fire: 0,
-				lightning: 0,
-				cold: 0,
-				poison: 0,
-				all: 0,
-			}
-	},
+		},
 		methods: {
 			updateGraphs: function () {
 				this.calculateEfforts();
 			},
 			calculateEfforts: function () {
-				let elementSelect = $('#element-select'),
-					difficultySelect = $('#difficulty-select'),
-					maxYield = 1,
-					elements = {},
-					diffs = [0, 1, 2].filter(a => {
-						for (let c = 0; c < difficultySelect.options.length; c++) {
-							if (difficultySelect.options[c].value == a) {
-								return difficultySelect.options[c].selected;
-							}
-						}
+				let maxYield = 0.0000001, diffs = [0, 1, 2].filter(a => this.difficulty[a]);
 
-						return false;
-					});
-
-				this.bonus.fire = this.bonus.lightning = this.bonus.cold = this.bonus.poison = this.bonus.all;
-				this.pierce.fire = this.pierce.lightning = this.pierce.cold = this.pierce.poison = this.pierce.all;
-				this.mastery.fire = this.mastery.lightning = this.mastery.cold = this.mastery.all;
+				for (let key in this.damage.avg) {
+					this.damage.avg[key] = (Number(this.damage.min[key]) + Number(this.damage.max[key])) / 2;
+				}
 
 				Vue.set(this.svg, 'elements', {});
 				
-				for (let c = 0; c < elementSelect.options.length; c++) {
-					if (elementSelect.options[c].selected) {
-						elements[elementSelect.options[c].value] = elementSelect.options[c].value;
-					}
-				}
-
 				diffs.forEach((diff, diffindex) => {
 					let monprefix = ['mon', 'nmon', 'umon'][diff];
 					let diffabv = ['', '(N)', '(H)'][diff];
@@ -166,6 +179,8 @@ let $ = document.querySelector.bind(document);
 								mon.MaxGrp = mon.MaxGrp || 0;
 								mon.Rarity = mon.Rarity || 0;
 								party.push([mon, (mon.PartyMin + mon.PartyMax) * mon.Rarity / 2]);
+
+								let groupSize = (mon.PartyMin + mon.PartyMax + mon.MinGrp + mon.MaxGrp) / 2;
 	
 								minions.forEach(minion => {
 									party.push([minion, (mon.MinGrp + mon.MaxGrp) * mon.Rarity / 2 / minions.length]);
@@ -185,11 +200,7 @@ let $ = document.querySelector.bind(document);
 											return Infinity;
 										}
 
-										let res = mon[resKey] || 0, modifier = 1;
-
-										if (this.skills.conviction > 0 || this.skills.lowerResist > 0) {
-											//debugger;
-										}
+										let res = mon[resKey] || 0;
 
 										if (res >= 100) {
 											switch(resName) {
@@ -215,30 +226,11 @@ let $ = document.querySelector.bind(document);
 												case 'poison':
 													res -= this.skills.lowerResist;
 													break;
-													case 'physical':
-														res -= this.skills.amplify;
-														break;
+												case 'physical':
+													res -= this.skills.amplify;
+													break;
 												}
 										}
-
-										switch (resName) {
-											case 'cold':
-												if (res < 100) {
-													res -= 20 + this.mastery.cold * 5;
-												}
-
-												break;
-											case 'lightning':
-												// This is divided by two because sorc lightning skills generally do 1 to X damage,
-												// so the effective damage bonus is actually halved when you average it.
-												modifier += (0.38 + 0.12 * this.mastery.lightning) / 2;
-												break;
-											case 'fire':
-												modifier += 0.23 + 0.07 * this.mastery.fire;
-												break;
-										}
-
-										modifier += 0.01 * this.bonus[resName];
 
 										if (res < 100) {
 											res -= this.pierce[resName];
@@ -246,7 +238,7 @@ let $ = document.querySelector.bind(document);
 
 										res = Math.min(100, Math.max(-100, res)) / 100;
 	
-										return modifier * (xp / hp) * (1 - res) * rarity;
+										return Math.min(this.damage.aoe[resName], groupSize) * (xp / Math.ceil(hp / (this.damage.avg[resName] * this.damage.hits[resName]))) * (1 - res) * rarity / this.damage.fpa[resName];
 									};
 									stats.yield.physical += calc('ResDm' + diffabv, 'physical');
 									stats.yield.magic += calc('ResMa' + diffabv, 'magic');
@@ -307,9 +299,9 @@ let $ = document.querySelector.bind(document);
 						Vue.set(this.svg.elements, 'lvlfloor' + diffabv, createLine(0, floor, 1, floor, '#000000'));
 					}
 					acts[totalIndex] = {};
-	
+
 					acts.forEach((current, index) => {
-						let keys = Object.keys(current).filter(key => elements[key]), subWidth = width / keys.length, text = '';
+						let keys = Object.keys(current).filter(key => Number(this.damage.avg[key])), subWidth = width / keys.length, text = '';
 						keys.forEach((key, subIndex) => {
 							if (index < totalIndex) {
 								acts[totalIndex][key] = acts[totalIndex][key] || 0;
