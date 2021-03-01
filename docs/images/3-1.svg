@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0.5 0.5 3 6">
+  <defs>
+    <marker id="arrowhead" markerWidth="1.5" markerHeight="2.5" refX="0.05" refY="1.25" orient="auto">
+      <polygon points="0 0, 1.5 1.25, 0 2.5" fill="#222" />
+    </marker>
+  </defs>
+  <line x1="1" y1="1" x2="1.55" y2="1" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="1" y1="1" x2="1" y2="2.55" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="1" y1="3" x2="1" y2="3.55" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="1" y1="4" x2="1" y2="5.55" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="2" y1="4" x2="2" y2="4.55" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="3" y1="2" x2="3" y2="2.55" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="3" y1="3" x2="3" y2="4.55" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="1" y1="3" x2="1.6" y2="3.6" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+  <line x1="3" y1="3" x2="2.4" y2="3.6" stroke="#222" stroke-width="0.1" marker-end="url(#arrowhead)"/>
+</svg>

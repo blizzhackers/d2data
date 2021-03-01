@@ -76,6 +76,7 @@ let $ = document.querySelector.bind(document);
 				2: true,
 			},
 			optionalAreas: false,
+			countImmunes: false,
 			skills: {
 				conviction: 0,
 				lowerResist: 0,
@@ -200,20 +201,20 @@ let $ = document.querySelector.bind(document);
 											return Infinity;
 										}
 
-										let res = mon[resKey] || 0;
+										let res = Number(mon[resKey]) || 0;
 
 										if (res >= 100) {
 											switch(resName) {
 												case 'fire':
 												case 'lightning':
 												case 'cold':
-													res -= (this.skills.conviction + this.skills.lowerResist) / 5;
+													res -= (Number(this.skills.conviction) + Number(this.skills.lowerResist)) / 5;
 													break;
 												case 'poison':
-													res -= (this.skills.lowerResist) / 5;
+													res -= Number(this.skills.lowerResist) / 5;
 													break;
 												case 'physical':
-													res -= (this.skills.amplify) / 5;
+													res -= Number(this.skills.amplify) / 5;
 													break;
 											}
 										} else {
@@ -221,25 +222,34 @@ let $ = document.querySelector.bind(document);
 												case 'fire':
 												case 'lightning':
 												case 'cold':
-													res -= this.skills.conviction + this.skills.lowerResist;
+													res -= Number(this.skills.conviction) + Number(this.skills.lowerResist);
 													break;
 												case 'poison':
-													res -= this.skills.lowerResist;
+													res -= Number(this.skills.lowerResist);
 													break;
 												case 'physical':
-													res -= this.skills.amplify;
+													res -= Number(this.skills.amplify);
 													break;
 												}
 										}
 
 										if (res < 100) {
-											res -= this.pierce[resName];
+											res -= Number(this.pierce[resName]);
 										}
 
 										res = Math.min(100, Math.max(-100, res)) / 100;
 	
-										return Math.min(this.damage.aoe[resName], groupSize) * (xp / Math.ceil(hp / (this.damage.avg[resName] * this.damage.hits[resName]))) * (1 - res) * rarity / this.damage.fpa[resName];
+										if (this.countImmunes) {
+											if (res >= 1) {
+												return 1 * rarity;
+											} else {
+												return 0;
+											}
+										} else {
+											return Math.min(this.damage.aoe[resName], groupSize) * (xp / Math.ceil(hp / (this.damage.avg[resName] * this.damage.hits[resName]))) * (1 - res) * rarity / this.damage.fpa[resName];
+										}
 									};
+									
 									stats.yield.physical += calc('ResDm' + diffabv, 'physical');
 									stats.yield.magic += calc('ResMa' + diffabv, 'magic');
 									stats.yield.fire += calc('ResFi' + diffabv, 'fire');
