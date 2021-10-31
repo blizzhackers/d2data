@@ -129,27 +129,23 @@ let atomic = {};
 let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
 
 Object.values(full.weapons).forEach(item => {
-	if (item.rarity) {
-		let tc = calcTC(item.level), rarity = item.rarity;
-		atomic['weap' + tc] = atomic['weap' + tc] || {};
-		atomic['weap' + tc][item.code] = rarity;
+	let tc = calcTC(item.level);
+	atomic['weap' + tc] = atomic['weap' + tc] || {};
+	atomic['weap' + tc][item.code] = item.code;
 
-		if (item.type === 'bow' || item.type === 'xbow') {
-			atomic['bow' + tc] = atomic['bow' + tc] || {};
-			atomic['bow' + tc][item.code] = rarity;
-		} else {
-			atomic['mele' + tc] = atomic['mele' + tc] || {};
-			atomic['mele' + tc][item.code] = rarity;
-		}
+	if (item.type === 'bow' || item.type === 'xbow') {
+		atomic['bow' + tc] = atomic['bow' + tc] || {};
+		atomic['bow' + tc][item.code] = item.code;
+	} else {
+		atomic['mele' + tc] = atomic['mele' + tc] || {};
+		atomic['mele' + tc][item.code] = item.code;
 	}
 });
 
 Object.values(full.armor).forEach(item => {
-	if (item.rarity) {
-		let tc = calcTC(item.level);
-		atomic['armo' + tc] = atomic['armo' + tc] || {};
-		atomic['armo' + tc][item.code] = item.rarity || 0;
-	}
+	let tc = calcTC(item.level);
+	atomic['armo' + tc] = atomic['armo' + tc] || {};
+	atomic['armo' + tc][item.code] = item.code;
 });
 
 full.atomic = atomic;
