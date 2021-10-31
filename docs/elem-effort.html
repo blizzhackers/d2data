@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Diablo 2 Elemental Effort Visualizer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<link rel="stylesheet" href="effort.css">
+	</head>
+	<body>
+		<div id="effortapp">
+			<div class="settings-bar">
+				<div class="vertically-spaced">
+					<div class="expand-label">
+						<label>Normal</label>
+						<input type="checkbox" v-model="difficulty[0]" @change="updateGraphs">
+					</div>
+					<div class="expand-label">
+						<label>Nightmare</label>
+						<input type="checkbox" v-model="difficulty[1]" @change="updateGraphs">
+					</div>
+					<div class="expand-label">
+						<label>Hell</label>
+						<input type="checkbox" v-model="difficulty[2]" @change="updateGraphs">
+					</div>
+					<div class="expand-label">
+						<label>Optional Areas</label>
+						<input type="checkbox" v-model="optionalAreas" @change="updateGraphs">
+					</div>
+					<div class="expand-label">
+						<label>Count Immunes</label>
+						<input type="checkbox" v-model="countImmunes" @change="updateGraphs">
+					</div>
+				</div>
+				<div class="vertically-spaced">
+					<div class="expand-label input-height">
+						<label>Conviction %</label>
+						<input type="number" step="5" min="0" v-model="skills.conviction" @change="updateGraphs">
+					</div>
+					<div class="expand-label input-height">
+						<label>Lower Resist %</label>
+						<input type="number" step="5" min="0" v-model="skills.lowerResist" @change="updateGraphs">
+					</div>
+					<div class="expand-label input-height">
+						<label>Amplify/Decrepify %</label>
+						<input type="number" step="50" min="0" max="100" v-model="skills.amplify" @change="updateGraphs">
+					</div>
+					<div>&nbsp;</div>
+				</div>
+				<table class="element-table">
+					<tr>
+						<td>&nbsp</td>
+						<th>Physical</th>
+						<th>Magic</th>
+						<th>Fire</th>
+						<th>Lightning</th>
+						<th>Cold</th>
+						<th>Poison</th>
+					</tr>
+					<tr>
+						<th>Min Dmg</th>
+						<td><input type="number" step="1" min="0" v-model="damage.min.physical" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.min.magic" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.min.fire" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.min.lightning" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.min.cold" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.min.poison" @change="updateGraphs"></td>
+					</tr>
+					<tr>
+						<th>Max Dmg</th>
+						<td><input type="number" step="1" min="0" v-model="damage.max.physical" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.max.magic" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.max.fire" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.max.lightning" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.max.cold" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="damage.max.poison" @change="updateGraphs"></td>
+					</tr>
+					<tr>
+						<th>Pierce %</th>
+						<td><input type="number" step="1" min="0" v-model="pierce.physical" @change="updateGraphs" disabled></td>
+						<td><input type="number" step="1" min="0" v-model="pierce.magic" @change="updateGraphs" disabled></td>
+						<td><input type="number" step="1" min="0" v-model="pierce.fire" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="pierce.lightning" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="pierce.cold" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="0" v-model="pierce.poison" @change="updateGraphs"></td>
+					</tr>
+					<tr>
+						<th>Hit Count</th>
+						<td><input type="number" step="1" min="1" v-model="damage.hits.physical" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.hits.magic" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.hits.fire" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.hits.lightning" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.hits.cold" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.hits.poison" @change="updateGraphs"></td>
+					</tr>
+					<tr>
+						<th>AoE Max</th>
+						<td><input type="number" step="1" min="1" v-model="damage.aoe.physical" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.aoe.magic" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.aoe.fire" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.aoe.lightning" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.aoe.cold" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.aoe.poison" @change="updateGraphs"></td>
+					</tr>
+					<tr>
+						<th>*FPA</th>
+						<td><input type="number" step="1" min="1" v-model="damage.fpa.physical" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.fpa.magic" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.fpa.fire" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.fpa.lightning" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.fpa.cold" @change="updateGraphs"></td>
+						<td><input type="number" step="1" min="1" v-model="damage.fpa.poison" @change="updateGraphs"></td>
+					</tr>
+				</table>
+			</div>
+			<p>Higher values mean more effectiveness. AoE max is capped at group size. *FPA = Frames Per Attack (25 frames = 1 second)</p>
+			<div class="svg-wrapper" v-if="visible">
+				<svg id="renderer" :height="svg.height" :width="svg.width" :style="`font-size:${fontSize}px`">
+					<template v-for="element in svg.elements">
+						<line v-if="element.type === 'line'" :x1="svg.width * element.x1" :y1="svg.height * element.y1" :x2="svg.width * element.x2" :y2="svg.height * element.y2" :style="'stroke:' + element.color" />
+						<rect v-else-if="element.type === 'rect'" :x="svg.width * element.x" :y="svg.height * element.y" :width="svg.width * element.width" :height="svg.height * element.height" :style="'fill:' + element.color" />
+						<text v-else-if="element.type === 'text'" :x="svg.width * element.x" :y="svg.height * element.y" :style="'fill:' + element.color" dominant-baseline="middle" text-anchor="middle">{{ element.text }}</text>
+					</template>
+					<text :x="5" :y="svg.height - 5" class="debug">{{ debugMessage }}</text>
+				</svg>
+			</div>
+			<p v-else>Loading...</p>
+		</div>
+	</body>
+	<script src="effort.js"></script>
+</html>

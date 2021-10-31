@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Diablo 2 Skill Calculator</title>
+        <meta property="og:title" content="Diablo 2 Skill Calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <link rel="stylesheet" href="skills.css">
+    </head>
+    <body class="container p-0 mt-sm-3 bg-transparent text-light">
+        <div id="skillapp" v-cloak>
+            <div class="nav nav-pills flex-column flex-sm-row nav-justified mb-3 class-select bg-dark" id="build-tab">
+                <template v-for="(current, buildIndex) in builds">
+                    <a v-if="currentBuild === buildIndex" class="nav-item px-1 btn btn-danger" @dblclick="renameBuild(buildIndex)">Build: {{ builds[buildIndex].name || (buildIndex + 1) }}<template v-if="buildIndex"> (<a class="text-dark" @click="delBuild(buildIndex, $event)">Delete</a>)</template></a>
+                    <a v-else class="nav-item px-1 btn btn-dark" @click="currentBuild = buildIndex">Build: {{ builds[buildIndex].name || (buildIndex + 1) }}<template v-if="buildIndex"> (<a class="text-danger" @click="delBuild(buildIndex, $event)">Delete</a>)</template></a>
+                </template>
+                <a class="px-2 btn btn-primary" @click="addBuild()">Add</a>
+            </div>
+            <div class="nav nav-pills flex-column flex-sm-row nav-justified mb-3 class-select bg-dark" id="class-tab">
+                <template v-for="(current, classIndex) in classes">
+                    <a v-if="builds[currentBuild].currentClass === classIndex" class="nav-item px-1 btn btn-danger">{{ current.name }}</a>
+                    <a v-else-if="!totalPoints" class="nav-item px-1 btn btn-dark" @click="builds[currentBuild].currentClass = classIndex">{{ current.name }}</a>
+                </template>
+                <a class="px-2 btn btn-primary" @click="resetSkills()">Reset</a>
+                <a class="point-display">{{ totalPoints }}</a>
+            </div>
+            <article class="text-center" :data-class="builds[currentBuild].currentClass">
+                <div class="row">
+                    <div v-for="(tab, tabIndex) in classes[builds[currentBuild].currentClass].tabs" class="skill-tab-wrapper col-12 col-sm-4" :data-tab="tabIndex">
+                        <div class="skill-tab bg-dark">
+                            <h2 class="h5 my-2 hlh-2">{{ tab.name }}</h2>
+                            <div class="skill-tab-content">
+                                <img class="skill-tab-background" alt="" :src="'images/' + builds[currentBuild].currentClass + '-' + tabIndex + '.svg'">
+                                <div class="row no-gutters">
+                                    <div v-for="(skill, skillIndex) in tab.skills" class="col-4 skill-icon-wrapper">
+                                        <template v-if="skill && skill.id">
+                                            <button class="skill-icon" :data-skill-id="skill.id" @click="skillClick(skill.id, true, $event)" @contextmenu="skillClick(skill.id, false, $event)"></button>
+                                            <div :class="'skill-icon-tooltip px-2 py-1' + (skillIndex < 9 ? ' bottom' : ' top') + [' right', ' center', ' left'][skillIndex % 3]">
+                                                <h3 class="h5 title">{{ (skills[skill.id] && skills[skill.id].name) || d2.skills[skill.id].skill || 'Unknown Skill' }} ({{ skill.id }})</h3>
+                                                <div class="my-1 desc">
+                                                    <p v-if="skills[skill.id] && skills[skill.id].desc" class="text-pre">{{ skills[skill.id].desc }}</p>
+                                                    <p v-for="line in skillDesc(skill.id)" :class="'desc-line text-pre type-' + line.type">{{ line.desc }}</p>
+                                                    <p v-if="d2.skills[skill.id].reqlevel && d2.skills[skill.id].reqlevel > 1">Required Level: {{ d2.skills[skill.id].reqlevel }}</p>
+                                                    <p v-if="skills[skill.id] && skills[skill.id].synergy" class="text-pre"><span class="synergy-title">{{ (skills[skill.id] && skills[skill.id].name) || d2.skills[skill.id].skill || 'Unknown Skill' }} synergies:</span><span v-for="synergy in skills[skill.id].synergy" class="synergy"><span class="synergy-name">{{ (skills[synergy[0]] && skills[synergy[0]].name) || d2.skills[synergy[0]].skill || 'Unknown Skill' }}{{ synergy[1] ? ': ' : '' }}</span><span v-if="synergy[1]" class="synergy-value">{{ synergy[1] }}</span></span></p>
+                                                </div>
+                                            </div>    
+                                            <input class="skill-icon-input" type="text" v-model.number="builds[currentBuild][skill.id]" v-on:input="skillCheck(skill.id, $event)">
+                                        </template>
+                                        <template v-else>
+                                            <div class="empty-skill-icon"></div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </body>
+    <script src="skills.js"></script>
+</html>

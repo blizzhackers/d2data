@@ -1,0 +1,1250 @@
+[v-cloak] {
+  display: none;
+}
+
+@font-face {
+  font-family: AvQuest;
+  src: url(Avqest.ttf);
+}
+
+html, body {
+  background-color: #000;
+  font-size: 16px;
+  font-variant: small-caps;
+  font-family: AvQuest;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.text-pre {
+  white-space: pre-wrap;
+}
+
+.class-select, .skill-tab, .skill-icon-tooltip {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0px 0px 7px #fff;
+}
+
+.skill-icon-wrapper {
+  padding: 5% !important;
+}
+
+.skill-icon, .empty-skill-icon {
+  box-sizing: border-box;
+  padding: 100% 0 0 0 !important;
+}
+
+.skill-icon, .skill-icon:active, .skill-icon:focus {
+  display: block;
+  position: relative;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  z-index: 1;
+}
+
+.skill-icon-input {
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #000;
+  padding: 0.15em 0 0 0;
+  width: 1.75em;
+  height: 1.25em;
+  text-align: center;
+  bottom: 5%;
+  right: 5%;
+  z-index: 2;
+}
+
+.skill-icon-input, .skill-icon-input:active, .skill-icon-input:focus {
+  outline: none;
+}
+
+.skill-icon-tooltip {
+  display: block;
+  position: absolute;
+  background-color: #000;
+  z-index: 10;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.skill-icon-tooltip .title, .skill-icon-tooltip .synergy-title {
+  color: #00ff00;
+}
+
+.skill-icon-tooltip .title, .skill-icon-tooltip .desc p:first-child {
+  margin: 0 0 1rem 0;
+}
+
+.skill-icon-tooltip .synergy-title {
+  margin: 1rem 0;
+}
+
+.skill-icon-tooltip .desc {
+  min-width: 300px;
+}
+
+.skill-icon-tooltip .desc p {
+  margin: 0;
+}
+
+.skill-icon-tooltip .synergy-title, .skill-icon-tooltip .synergy, .skill-icon-tooltip .damage-line {
+  display: block;
+}
+
+.skill-icon-tooltip .synergy-value, .skill-icon-tooltip .damage-value {
+  color: #aaaaaa;
+}
+
+.skill-icon-tooltip.top {
+  bottom: 90%;
+}
+
+.skill-icon-tooltip.bottom {
+  top: 100%;
+}
+
+.skill-icon:not(:hover) + .skill-icon-tooltip {
+  display: none;
+}
+
+.skill-connection {
+  stroke: black;
+  stroke-width: 0.01;
+}
+
+.type-phy {
+  color: #cccccc;
+}
+
+.type-fire {
+  color: #ff0000;
+}
+
+.type-ltng {
+  color: #ffff00;
+}
+
+.type-cold {
+  color: #0080ff;
+}
+
+.type-pois {
+  color: #00ff00;
+}
+
+.type-mag {
+  color: #ffae00;
+}
+
+.point-display {
+  padding: .375rem 0;
+  background-color: #000;
+  min-width: 3em;
+  text-align: center;
+  line-height: 1.65em;
+}
+
+.hlh-2 {
+  height: 3rem;
+}
+
+.skill-tab-content {
+  position: relative;
+}
+
+.skill-tab-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  user-select: none;
+  pointer-events: none;
+}
+
+.skill-tab-background {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* skill icons */
+
+[data-skill-id] {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* amazon */
+
+[data-skill-id="6"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(0 * 100% / 29.5);
+}
+
+[data-skill-id="7"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(1 * 100% / 29.5);
+}
+
+[data-skill-id="8"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(2 * 100% / 29.5);
+}
+
+[data-skill-id="9"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(3 * 100% / 29.5);
+}
+
+[data-skill-id="10"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(4 * 100% / 29.5);
+}
+
+[data-skill-id="11"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(5 * 100% / 29.5);
+}
+
+[data-skill-id="12"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(6 * 100% / 29.5);
+}
+
+[data-skill-id="13"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(7 * 100% / 29.5);
+}
+
+[data-skill-id="14"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(8 * 100% / 29.5);
+}
+
+[data-skill-id="15"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(9 * 100% / 29.5);
+}
+
+[data-skill-id="16"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(10 * 100% / 29.5);
+}
+
+[data-skill-id="17"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(11 * 100% / 29.5);
+}
+
+[data-skill-id="18"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(12 * 100% / 29.5);
+}
+
+[data-skill-id="19"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(13 * 100% / 29.5);
+}
+
+[data-skill-id="20"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(14 * 100% / 29.5);
+}
+
+[data-skill-id="21"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(15 * 100% / 29.5);
+}
+
+[data-skill-id="22"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(16 * 100% / 29.5);
+}
+
+[data-skill-id="23"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(17 * 100% / 29.5);
+}
+
+[data-skill-id="24"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(18 * 100% / 29.5);
+}
+
+[data-skill-id="25"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(19 * 100% / 29.5);
+}
+
+[data-skill-id="26"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(20 * 100% / 29.5);
+}
+
+[data-skill-id="27"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(21 * 100% / 29.5);
+}
+
+[data-skill-id="28"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(22 * 100% / 29.5);
+}
+
+[data-skill-id="29"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(23 * 100% / 29.5);
+}
+
+[data-skill-id="30"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(24 * 100% / 29.5);
+}
+
+[data-skill-id="31"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(25 * 100% / 29.5);
+}
+
+[data-skill-id="32"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(26 * 100% / 29.5);
+}
+
+[data-skill-id="33"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(27 * 100% / 29.5);
+}
+
+[data-skill-id="34"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(28 * 100% / 29.5);
+}
+
+[data-skill-id="35"] {
+  background-image: url("images/AmSkillicon.png");
+  background-position: 0 calc(29 * 100% / 29.5);
+}
+
+/* sorceress */
+
+[data-skill-id="36"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(0 * 100% / 29.5);
+}
+
+[data-skill-id="37"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(1 * 100% / 29.5);
+}
+
+[data-skill-id="38"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(2 * 100% / 29.5);
+}
+
+[data-skill-id="39"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(3 * 100% / 29.5);
+}
+
+[data-skill-id="40"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(4 * 100% / 29.5);
+}
+
+[data-skill-id="41"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(5 * 100% / 29.5);
+}
+
+[data-skill-id="42"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(6 * 100% / 29.5);
+}
+
+[data-skill-id="43"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(7 * 100% / 29.5);
+}
+
+[data-skill-id="44"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(8 * 100% / 29.5);
+}
+
+[data-skill-id="45"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(9 * 100% / 29.5);
+}
+
+[data-skill-id="46"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(10 * 100% / 29.5);
+}
+
+[data-skill-id="47"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(11 * 100% / 29.5);
+}
+
+[data-skill-id="48"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(12 * 100% / 29.5);
+}
+
+[data-skill-id="49"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(13 * 100% / 29.5);
+}
+
+[data-skill-id="50"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(14 * 100% / 29.5);
+}
+
+[data-skill-id="51"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(15 * 100% / 29.5);
+}
+
+[data-skill-id="52"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(16 * 100% / 29.5);
+}
+
+[data-skill-id="53"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(17 * 100% / 29.5);
+}
+
+[data-skill-id="54"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(18 * 100% / 29.5);
+}
+
+[data-skill-id="55"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(19 * 100% / 29.5);
+}
+
+[data-skill-id="56"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(20 * 100% / 29.5);
+}
+
+[data-skill-id="57"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(21 * 100% / 29.5);
+}
+
+[data-skill-id="58"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(22 * 100% / 29.5);
+}
+
+[data-skill-id="59"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(23 * 100% / 29.5);
+}
+
+[data-skill-id="60"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(24 * 100% / 29.5);
+}
+
+[data-skill-id="61"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(25 * 100% / 29.5);
+}
+
+[data-skill-id="62"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(26 * 100% / 29.5);
+}
+
+[data-skill-id="63"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(27 * 100% / 29.5);
+}
+
+[data-skill-id="64"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(28 * 100% / 29.5);
+}
+
+[data-skill-id="65"] {
+  background-image: url("images/SoSkillicon.png");
+  background-position: 0 calc(29 * 100% / 29.5);
+}
+
+/* necromancer */
+
+[data-skill-id="66"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(0 * 100% / 29.5);
+}
+
+[data-skill-id="67"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(1 * 100% / 29.5);
+}
+
+[data-skill-id="68"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(2 * 100% / 29.5);
+}
+
+[data-skill-id="69"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(3 * 100% / 29.5);
+}
+
+[data-skill-id="70"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(4 * 100% / 29.5);
+}
+
+[data-skill-id="71"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(5 * 100% / 29.5);
+}
+
+[data-skill-id="72"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(6 * 100% / 29.5);
+}
+
+[data-skill-id="73"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(7 * 100% / 29.5);
+}
+
+[data-skill-id="74"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(8 * 100% / 29.5);
+}
+
+[data-skill-id="75"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(9 * 100% / 29.5);
+}
+
+[data-skill-id="76"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(10 * 100% / 29.5);
+}
+
+[data-skill-id="77"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(11 * 100% / 29.5);
+}
+
+[data-skill-id="78"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(12 * 100% / 29.5);
+}
+
+[data-skill-id="79"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(13 * 100% / 29.5);
+}
+
+[data-skill-id="80"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(14 * 100% / 29.5);
+}
+
+[data-skill-id="81"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(15 * 100% / 29.5);
+}
+
+[data-skill-id="82"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(16 * 100% / 29.5);
+}
+
+[data-skill-id="83"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(17 * 100% / 29.5);
+}
+
+[data-skill-id="84"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(18 * 100% / 29.5);
+}
+
+[data-skill-id="85"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(19 * 100% / 29.5);
+}
+
+[data-skill-id="86"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(20 * 100% / 29.5);
+}
+
+[data-skill-id="87"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(21 * 100% / 29.5);
+}
+
+[data-skill-id="88"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(22 * 100% / 29.5);
+}
+
+[data-skill-id="89"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(23 * 100% / 29.5);
+}
+
+[data-skill-id="90"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(24 * 100% / 29.5);
+}
+
+[data-skill-id="91"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(25 * 100% / 29.5);
+}
+
+[data-skill-id="92"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(26 * 100% / 29.5);
+}
+
+[data-skill-id="93"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(27 * 100% / 29.5);
+}
+
+[data-skill-id="94"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(28 * 100% / 29.5);
+}
+
+[data-skill-id="95"] {
+  background-image: url("images/NeSkillicon.png");
+  background-position: 0 calc(29 * 100% / 29.5);
+}
+
+/* paladin */
+
+[data-skill-id="96"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(0 * 100% / 29.5);
+}
+
+[data-skill-id="97"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(1 * 100% / 29.5);
+}
+
+[data-skill-id="98"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(2 * 100% / 29.5);
+}
+
+[data-skill-id="99"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(3 * 100% / 29.5);
+}
+
+[data-skill-id="100"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(4 * 100% / 29.5);
+}
+
+[data-skill-id="101"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(5 * 100% / 29.5);
+}
+
+[data-skill-id="102"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(6 * 100% / 29.5);
+}
+
+[data-skill-id="103"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(7 * 100% / 29.5);
+}
+
+[data-skill-id="104"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(8 * 100% / 29.5);
+}
+
+[data-skill-id="105"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(9 * 100% / 29.5);
+}
+
+[data-skill-id="106"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(10 * 100% / 29.5);
+}
+
+[data-skill-id="107"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(11 * 100% / 29.5);
+}
+
+[data-skill-id="108"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(12 * 100% / 29.5);
+}
+
+[data-skill-id="109"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(19 * 100% / 29.5);
+}
+
+[data-skill-id="110"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(14 * 100% / 29.5);
+}
+
+[data-skill-id="111"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(20 * 100% / 29.5);
+}
+
+[data-skill-id="112"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(16 * 100% / 29.5);
+}
+
+[data-skill-id="113"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(17 * 100% / 29.5);
+}
+
+[data-skill-id="114"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(18 * 100% / 29.5);
+}
+
+[data-skill-id="115"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(13 * 100% / 29.5);
+}
+
+[data-skill-id="116"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(15 * 100% / 29.5);
+}
+
+[data-skill-id="117"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(21 * 100% / 29.5);
+}
+
+[data-skill-id="118"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(22 * 100% / 29.5);
+}
+
+[data-skill-id="119"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(23 * 100% / 29.5);
+}
+
+[data-skill-id="120"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(24 * 100% / 29.5);
+}
+
+[data-skill-id="121"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(25 * 100% / 29.5);
+}
+
+[data-skill-id="122"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(26 * 100% / 29.5);
+}
+
+[data-skill-id="123"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(28 * 100% / 29.5);
+}
+
+[data-skill-id="124"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(27 * 100% / 29.5);
+}
+
+[data-skill-id="125"] {
+  background-image: url("images/PaSkillicon.png");
+  background-position: 0 calc(29 * 100% / 29.5);
+}
+
+/* barbarian */
+
+[data-skill-id="126"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(0 * 100% / 77.5);
+}
+
+[data-skill-id="127"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(1 * 100% / 77.5);
+}
+
+[data-skill-id="128"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(2 * 100% / 77.5);
+}
+
+[data-skill-id="129"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(3 * 100% / 77.5);
+}
+
+[data-skill-id="130"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(4 * 100% / 77.5);
+}
+
+[data-skill-id="131"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(5 * 100% / 77.5);
+}
+
+[data-skill-id="132"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(6 * 100% / 77.5);
+}
+
+[data-skill-id="133"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(7 * 100% / 77.5);
+}
+
+[data-skill-id="134"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(8 * 100% / 77.5);
+}
+
+[data-skill-id="135"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(9 * 100% / 77.5);
+}
+
+[data-skill-id="136"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(10 * 100% / 77.5);
+}
+
+[data-skill-id="137"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(11 * 100% / 77.5);
+}
+
+[data-skill-id="138"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(12 * 100% / 77.5);
+}
+
+[data-skill-id="139"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(13 * 100% / 77.5);
+}
+
+[data-skill-id="140"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(14 * 100% / 77.5);
+}
+
+[data-skill-id="141"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(15 * 100% / 77.5);
+}
+
+[data-skill-id="142"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(16 * 100% / 77.5);
+}
+
+[data-skill-id="143"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(17 * 100% / 77.5);
+}
+
+[data-skill-id="144"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(18 * 100% / 77.5);
+}
+
+[data-skill-id="145"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(19 * 100% / 77.5);
+}
+
+[data-skill-id="146"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(20 * 100% / 77.5);
+}
+
+[data-skill-id="147"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(21 * 100% / 77.5);
+}
+
+[data-skill-id="148"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(22 * 100% / 77.5);
+}
+
+[data-skill-id="149"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(23 * 100% / 77.5);
+}
+
+[data-skill-id="150"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(24 * 100% / 77.5);
+}
+
+[data-skill-id="151"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(25 * 100% / 77.5);
+}
+
+[data-skill-id="152"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(26 * 100% / 77.5);
+}
+
+[data-skill-id="153"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(27 * 100% / 77.5);
+}
+
+[data-skill-id="154"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(28 * 100% / 77.5);
+}
+
+[data-skill-id="155"] {
+  background-image: url("images/BaSkillicon.png");
+  background-position: 0 calc(29 * 100% / 77.5);
+}
+
+/* druid */
+
+[data-skill-id="221"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(0 * 100% / 29.5);
+}
+
+[data-skill-id="222"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(1 * 100% / 29.5);
+}
+
+[data-skill-id="226"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(8 * 100% / 29.5);
+}
+
+[data-skill-id="227"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(3 * 100% / 29.5);
+}
+
+[data-skill-id="231"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(4 * 100% / 29.5);
+}
+
+[data-skill-id="236"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(5 * 100% / 29.5);
+}
+
+[data-skill-id="237"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(6 * 100% / 29.5);
+}
+
+[data-skill-id="241"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(7 * 100% / 29.5);
+}
+
+[data-skill-id="246"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(2 * 100% / 29.5);
+}
+
+[data-skill-id="247"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(9 * 100% / 29.5);
+}
+
+[data-skill-id="223"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(10 * 100% / 29.5);
+}
+
+[data-skill-id="224"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(26 * 100% / 29.5);
+}
+
+[data-skill-id="228"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(11 * 100% / 29.5);
+}
+
+[data-skill-id="232"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(27 * 100% / 29.5);
+}
+
+[data-skill-id="233"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(28 * 100% / 29.5);
+}
+
+[data-skill-id="238"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(12 * 100% / 29.5);
+}
+
+[data-skill-id="239"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(13 * 100% / 29.5);
+}
+
+[data-skill-id="242"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(29 * 100% / 29.5);
+}
+
+[data-skill-id="243"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(14 * 100% / 29.5);
+}
+
+[data-skill-id="248"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(15 * 100% / 29.5);
+}
+
+[data-skill-id="225"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(16 * 100% / 29.5);
+}
+
+[data-skill-id="229"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(17 * 100% / 29.5);
+}
+
+[data-skill-id="230"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(18 * 100% / 29.5);
+}
+
+[data-skill-id="234"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(19 * 100% / 29.5);
+}
+
+[data-skill-id="235"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(20 * 100% / 29.5);
+}
+
+[data-skill-id="240"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(21 * 100% / 29.5);
+}
+
+[data-skill-id="244"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(22 * 100% / 29.5);
+}
+
+[data-skill-id="245"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(23 * 100% / 29.5);
+}
+
+[data-skill-id="249"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(25 * 100% / 29.5);
+}
+
+[data-skill-id="250"] {
+  background-image: url("images/DrSkillicon.png");
+  background-position: 0 calc(24 * 100% / 29.5);
+}
+
+/* assassin */
+
+[data-skill-id="251"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(0 * 100% / 29.5);
+}
+
+[data-skill-id="252"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(10 * 100% / 29.5);
+}
+
+[data-skill-id="253"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(11 * 100% / 29.5);
+}
+
+[data-skill-id="254"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(20 * 100% / 29.5);
+}
+
+[data-skill-id="255"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(21 * 100% / 29.5);
+}
+
+[data-skill-id="256"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(1 * 100% / 29.5);
+}
+
+[data-skill-id="257"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(2 * 100% / 29.5);
+}
+
+[data-skill-id="258"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(18 * 100% / 29.5);
+}
+
+[data-skill-id="259"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(22 * 100% / 29.5);
+}
+
+[data-skill-id="260"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(23 * 100% / 29.5);
+}
+
+[data-skill-id="261"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(3 * 100% / 29.5);
+}
+
+[data-skill-id="262"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(4 * 100% / 29.5);
+}
+
+[data-skill-id="263"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(13 * 100% / 29.5);
+}
+
+[data-skill-id="264"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(12 * 100% / 29.5);
+}
+
+[data-skill-id="265"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(25 * 100% / 29.5);
+}
+
+[data-skill-id="266"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(5 * 100% / 29.5);
+}
+
+[data-skill-id="267"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(15 * 100% / 29.5);
+}
+
+[data-skill-id="268"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(19 * 100% / 29.5);
+}
+
+[data-skill-id="269"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(29 * 100% / 29.5);
+}
+
+[data-skill-id="270"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(24 * 100% / 29.5);
+}
+
+[data-skill-id="271"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(6 * 100% / 29.5);
+}
+
+[data-skill-id="272"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(7 * 100% / 29.5);
+}
+
+[data-skill-id="273"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(17 * 100% / 29.5);
+}
+
+[data-skill-id="274"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(26 * 100% / 29.5);
+}
+
+[data-skill-id="275"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(27 * 100% / 29.5);
+}
+
+[data-skill-id="276"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(8 * 100% / 29.5);
+}
+
+[data-skill-id="277"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(9 * 100% / 29.5);
+}
+
+[data-skill-id="278"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(14 * 100% / 29.5);
+}
+
+[data-skill-id="279"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(16 * 100% / 29.5);
+}
+
+[data-skill-id="280"] {
+  background-image: url("images/AsSkillicon.png");
+  background-position: 0 calc(28 * 100% / 29.5);
+}
