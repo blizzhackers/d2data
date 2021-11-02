@@ -126,27 +126,40 @@ files.forEach(fn => {
 
 // @TODO: Generate atomic classes
 let atomic = {};
+let atomicTypes = {};
 let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
 
-Object.values(full.weapons).forEach(item => {
+[...Object.values(full.weapons), Object.values(full.armor)].map(item => {
 	let tc = calcTC(item.level);
-	atomic['weap' + tc] = atomic['weap' + tc] || {};
-	atomic['weap' + tc][item.code] = item.code;
 
-	if (item.type === 'bow' || item.type === 'xbow') {
-		atomic['bow' + tc] = atomic['bow' + tc] || {};
-		atomic['bow' + tc][item.code] = item.code;
-	} else {
-		atomic['mele' + tc] = atomic['mele' + tc] || {};
-		atomic['mele' + tc][item.code] = item.code;
+	function handleAtomic(itemType) {
+		if (full.ItemTypes[itemType]) {
+			if (full.ItemTypes[itemType].TreasureClass) {
+				atomicTypes[itemType] = true;
+				atomic[itemType + tc] = atomic[itemType + tc] || {};
+				atomic[itemType + tc][item.code] = item.code;		
+			}
+
+			if (full.ItemTypes[itemType].Equiv1) {
+				handleAtomic(full.ItemTypes[itemType].Equiv1);
+			}
+
+			if (full.ItemTypes[itemType].Equiv2) {
+				handleAtomic(full.ItemTypes[itemType].Equiv2);
+			}
+		}
 	}
+
+	handleAtomic(item.type);
 });
 
-Object.values(full.armor).forEach(item => {
-	let tc = calcTC(item.level);
-	atomic['armo' + tc] = atomic['armo' + tc] || {};
-	atomic['armo' + tc][item.code] = item.code;
-});
+atomicTypes = Object.keys(atomicTypes);
+
+for (let c = 3; c <= 87; c += 3) {
+	atomicTypes.forEach(type => {
+		atomic[type + c] = atomic[type + c] || {};
+	});
+}
 
 full.atomic = atomic;
 fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(atomic, null, ' '));

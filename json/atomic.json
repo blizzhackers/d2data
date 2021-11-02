@@ -1,4 +1,25 @@
 {
+ "mele3": {
+  "hax": "hax",
+  "wnd": "wnd",
+  "clb": "clb",
+  "scp": "scp",
+  "ssd": "ssd",
+  "dgr": "dgr",
+  "tkf": "tkf",
+  "jav": "jav",
+  "sst": "sst",
+  "d33": "d33",
+  "g33": "g33",
+  "leg": "leg",
+  "hdm": "hdm",
+  "hfh": "hfh",
+  "hst": "hst",
+  "msf": "msf",
+  "qf1": "qf1",
+  "qf2": "qf2",
+  "ktr": "ktr"
+ },
  "weap3": {
   "hax": "hax",
   "wnd": "wnd",
@@ -22,27 +43,15 @@
   "ktr": "ktr",
   "ob1": "ob1"
  },
- "mele3": {
-  "hax": "hax",
-  "wnd": "wnd",
-  "clb": "clb",
-  "scp": "scp",
-  "ssd": "ssd",
-  "dgr": "dgr",
-  "tkf": "tkf",
-  "jav": "jav",
-  "sst": "sst",
-  "d33": "d33",
-  "g33": "g33",
-  "leg": "leg",
-  "hdm": "hdm",
-  "hfh": "hfh",
-  "hst": "hst",
-  "msf": "msf",
-  "qf1": "qf1",
-  "qf2": "qf2",
-  "ktr": "ktr",
-  "ob1": "ob1"
+ "mele9": {
+  "axe": "axe",
+  "mac": "mac",
+  "sbr": "sbr",
+  "dir": "dir",
+  "tax": "tax",
+  "tri": "tri",
+  "lst": "lst",
+  "wrb": "wrb"
  },
  "weap9": {
   "axe": "axe",
@@ -57,17 +66,15 @@
   "wrb": "wrb",
   "ob2": "ob2"
  },
- "mele9": {
-  "axe": "axe",
-  "mac": "mac",
-  "sbr": "sbr",
-  "dir": "dir",
-  "tax": "tax",
-  "tri": "tri",
-  "lst": "lst",
-  "gpl": "gpl",
-  "wrb": "wrb",
-  "ob2": "ob2"
+ "mele15": {
+  "2ax": "2ax",
+  "gsc": "gsc",
+  "mst": "mst",
+  "bsd": "bsd",
+  "bkf": "bkf",
+  "ssp": "ssp",
+  "scy": "scy",
+  "ces": "ces"
  },
  "weap15": {
   "2ax": "2ax",
@@ -80,15 +87,16 @@
   "mxb": "mxb",
   "ces": "ces"
  },
- "mele15": {
-  "2ax": "2ax",
-  "gsc": "gsc",
-  "mst": "mst",
-  "bsd": "bsd",
-  "bkf": "bkf",
-  "ssp": "ssp",
-  "scy": "scy",
-  "ces": "ces"
+ "mele21": {
+  "mpi": "mpi",
+  "wsp": "wsp",
+  "fla": "fla",
+  "mau": "mau",
+  "lsd": "lsd",
+  "gis": "gis",
+  "spt": "spt",
+  "pax": "pax",
+  "btl": "btl"
  },
  "weap21": {
   "mpi": "mpi",
@@ -102,17 +110,14 @@
   "gpm": "gpm",
   "btl": "btl"
  },
- "mele21": {
-  "mpi": "mpi",
-  "wsp": "wsp",
-  "fla": "fla",
-  "mau": "mau",
-  "lsd": "lsd",
-  "gis": "gis",
-  "spt": "spt",
-  "pax": "pax",
-  "gpm": "gpm",
-  "btl": "btl"
+ "mele27": {
+  "wax": "wax",
+  "gix": "gix",
+  "gwn": "gwn",
+  "whm": "whm",
+  "wsd": "wsd",
+  "flb": "flb",
+  "am4": "am4"
  },
  "weap27": {
   "wax": "wax",
@@ -125,15 +130,12 @@
   "am2": "am2",
   "am4": "am4"
  },
- "mele27": {
-  "wax": "wax",
-  "gix": "gix",
-  "gwn": "gwn",
-  "whm": "whm",
-  "wsd": "wsd",
-  "flb": "flb",
-  "am2": "am2",
-  "am4": "am4"
+ "mele6": {
+  "lax": "lax",
+  "spc": "spc",
+  "scm": "scm",
+  "spr": "spr",
+  "bar": "bar"
  },
  "weap6": {
   "lax": "lax",
@@ -145,13 +147,16 @@
   "lxb": "lxb",
   "opl": "opl"
  },
- "mele6": {
-  "lax": "lax",
-  "spc": "spc",
-  "scm": "scm",
-  "spr": "spr",
-  "bar": "bar",
-  "opl": "opl"
+ "mele12": {
+  "bax": "bax",
+  "ywn": "ywn",
+  "flc": "flc",
+  "crs": "crs",
+  "2hs": "2hs",
+  "pil": "pil",
+  "vou": "vou",
+  "cst": "cst",
+  "axf": "axf"
  },
  "weap12": {
   "bax": "bax",
@@ -166,17 +171,16 @@
   "axf": "axf",
   "ob3": "ob3"
  },
- "mele12": {
-  "bax": "bax",
-  "ywn": "ywn",
-  "flc": "flc",
-  "crs": "crs",
-  "2hs": "2hs",
-  "pil": "pil",
-  "vou": "vou",
-  "cst": "cst",
-  "axf": "axf",
-  "ob3": "ob3"
+ "mele18": {
+  "btx": "btx",
+  "bwn": "bwn",
+  "clm": "clm",
+  "kri": "kri",
+  "bal": "bal",
+  "brn": "brn",
+  "bst": "bst",
+  "clw": "clw",
+  "am3": "am3"
  },
  "weap18": {
   "btx": "btx",
@@ -193,19 +197,15 @@
   "am1": "am1",
   "am3": "am3"
  },
- "mele18": {
-  "btx": "btx",
-  "bwn": "bwn",
-  "clm": "clm",
-  "kri": "kri",
-  "bal": "bal",
-  "brn": "brn",
-  "bst": "bst",
-  "opm": "opm",
-  "clw": "clw",
-  "ob4": "ob4",
-  "am1": "am1",
-  "am3": "am3"
+ "mele24": {
+  "gax": "gax",
+  "bsw": "bsw",
+  "bld": "bld",
+  "glv": "glv",
+  "pik": "pik",
+  "wst": "wst",
+  "skr": "skr",
+  "am5": "am5"
  },
  "weap24": {
   "gax": "gax",
@@ -220,16 +220,18 @@
   "ob5": "ob5",
   "am5": "am5"
  },
- "mele24": {
-  "gax": "gax",
-  "bsw": "bsw",
-  "bld": "bld",
-  "glv": "glv",
-  "pik": "pik",
-  "wst": "wst",
-  "skr": "skr",
-  "ob5": "ob5",
-  "am5": "am5"
+ "mele33": {
+  "gma": "gma",
+  "gsd": "gsd",
+  "9ha": "9ha",
+  "9wn": "9wn",
+  "9sc": "9sc",
+  "9sp": "9sp",
+  "9dg": "9dg",
+  "9tk": "9tk",
+  "9sr": "9sr",
+  "9b7": "9b7",
+  "9wb": "9wb"
  },
  "weap33": {
   "gma": "gma",
@@ -249,20 +251,14 @@
   "9wb": "9wb",
   "ob6": "ob6"
  },
- "mele33": {
-  "gma": "gma",
-  "gsd": "gsd",
-  "gps": "gps",
-  "9ha": "9ha",
-  "9wn": "9wn",
-  "9sc": "9sc",
-  "9sp": "9sp",
-  "9dg": "9dg",
-  "9tk": "9tk",
-  "9sr": "9sr",
-  "9b7": "9b7",
-  "9wb": "9wb",
-  "ob6": "ob6"
+ "mele30": {
+  "tsp": "tsp",
+  "hal": "hal",
+  "9cl": "9cl",
+  "9ss": "9ss",
+  "9ja": "9ja",
+  "8ss": "8ss",
+  "9ar": "9ar"
  },
  "weap30": {
   "tsp": "tsp",
@@ -275,15 +271,19 @@
   "8sb": "8sb",
   "9ar": "9ar"
  },
- "mele30": {
-  "tsp": "tsp",
-  "hal": "hal",
-  "ops": "ops",
-  "9cl": "9cl",
-  "9ss": "9ss",
-  "9ja": "9ja",
-  "8ss": "8ss",
-  "9ar": "9ar"
+ "mele36": {
+  "wsc": "wsc",
+  "9ax": "9ax",
+  "9la": "9la",
+  "9ma": "9ma",
+  "9sb": "9sb",
+  "9di": "9di",
+  "9ta": "9ta",
+  "9tr": "9tr",
+  "9pa": "9pa",
+  "8ls": "8ls",
+  "9xf": "9xf",
+  "ama": "ama"
  },
  "weap36": {
   "wsc": "wsc",
@@ -301,26 +301,11 @@
   "9xf": "9xf",
   "ama": "ama"
  },
- "mele36": {
-  "wsc": "wsc",
-  "9ax": "9ax",
-  "9la": "9la",
-  "9ma": "9ma",
-  "9sb": "9sb",
-  "9di": "9di",
-  "9ta": "9ta",
-  "9tr": "9tr",
-  "9pa": "9pa",
-  "8ls": "8ls",
-  "9xf": "9xf",
-  "ama": "ama"
- },
  "bow3": {
   "sbw": "sbw"
  },
  "bow6": {
-  "hbw": "hbw",
-  "lxb": "lxb"
+  "hbw": "hbw"
  },
  "bow9": {
   "lbw": "lbw"
@@ -329,22 +314,32 @@
   "cbw": "cbw"
  },
  "bow18": {
-  "sbb": "sbb"
+  "sbb": "sbb",
+  "am1": "am1"
  },
  "bow24": {
-  "lbb": "lbb",
-  "hxb": "hxb"
+  "lbb": "lbb"
  },
  "bow27": {
-  "swb": "swb"
+  "swb": "swb",
+  "am2": "am2"
  },
  "bow33": {
   "lwb": "lwb",
-  "rxb": "rxb",
   "8hb": "8hb"
  },
- "bow15": {
-  "mxb": "mxb"
+ "mele39": {
+  "92a": "92a",
+  "9ba": "9ba",
+  "9yw": "9yw",
+  "9mt": "9mt",
+  "9fc": "9fc",
+  "9cr": "9cr",
+  "92h": "92h",
+  "9bk": "9bk",
+  "9pi": "9pi",
+  "9vo": "9vo",
+  "8cs": "8cs"
  },
  "weap39": {
   "92a": "92a",
@@ -362,20 +357,18 @@
   "ob7": "ob7",
   "am6": "am6"
  },
- "mele39": {
-  "92a": "92a",
-  "9ba": "9ba",
-  "9yw": "9yw",
-  "9mt": "9mt",
-  "9fc": "9fc",
-  "9cr": "9cr",
-  "92h": "92h",
-  "9bk": "9bk",
-  "9pi": "9pi",
-  "9vo": "9vo",
-  "8cs": "8cs",
-  "ob7": "ob7",
-  "am6": "am6"
+ "mele45": {
+  "9mp": "9mp",
+  "9bw": "9bw",
+  "9ws": "9ws",
+  "9fl": "9fl",
+  "9m9": "9m9",
+  "9sm": "9sm",
+  "9ls": "9ls",
+  "9gs": "9gs",
+  "9st": "9st",
+  "9lw": "9lw",
+  "am8": "am8"
  },
  "weap45": {
   "9mp": "9mp",
@@ -391,18 +384,15 @@
   "9lw": "9lw",
   "am8": "am8"
  },
- "mele45": {
-  "9mp": "9mp",
-  "9bw": "9bw",
-  "9ws": "9ws",
-  "9fl": "9fl",
-  "9m9": "9m9",
-  "9sm": "9sm",
-  "9ls": "9ls",
-  "9gs": "9gs",
-  "9st": "9st",
-  "9lw": "9lw",
-  "am8": "am8"
+ "mele48": {
+  "9wa": "9wa",
+  "9ga": "9ga",
+  "9wh": "9wh",
+  "9b9": "9b9",
+  "9bl": "9bl",
+  "9gl": "9gl",
+  "9p9": "9p9",
+  "8ws": "8ws"
  },
  "weap48": {
   "9wa": "9wa",
@@ -418,17 +408,18 @@
   "ob9": "ob9",
   "am7": "am7"
  },
- "mele48": {
-  "9wa": "9wa",
-  "9ga": "9ga",
-  "9wh": "9wh",
-  "9b9": "9b9",
-  "9bl": "9bl",
-  "9gl": "9gl",
-  "9p9": "9p9",
-  "8ws": "8ws",
-  "ob9": "ob9",
-  "am7": "am7"
+ "mele42": {
+  "9bt": "9bt",
+  "9qs": "9qs",
+  "9bs": "9bs",
+  "9cm": "9cm",
+  "9kr": "9kr",
+  "9b8": "9b8",
+  "9s9": "9s9",
+  "9br": "9br",
+  "9s8": "9s8",
+  "8bs": "8bs",
+  "9cs": "9cs"
  },
  "weap42": {
   "9bt": "9bt",
@@ -445,19 +436,15 @@
   "9cs": "9cs",
   "ob8": "ob8"
  },
- "mele42": {
-  "9bt": "9bt",
-  "9qs": "9qs",
-  "9bs": "9bs",
-  "9cm": "9cm",
-  "9kr": "9kr",
-  "9b8": "9b8",
-  "9s9": "9s9",
-  "9br": "9br",
-  "9s8": "9s8",
-  "8bs": "8bs",
-  "9cs": "9cs",
-  "ob8": "ob8"
+ "mele51": {
+  "9gi": "9gi",
+  "9gw": "9gw",
+  "9wd": "9wd",
+  "9fb": "9fb",
+  "9ts": "9ts",
+  "9h9": "9h9",
+  "9tw": "9tw",
+  "am9": "am9"
  },
  "weap51": {
   "9gi": "9gi",
@@ -471,16 +458,13 @@
   "oba": "oba",
   "am9": "am9"
  },
- "mele51": {
-  "9gi": "9gi",
-  "9gw": "9gw",
-  "9wd": "9wd",
-  "9fb": "9fb",
-  "9ts": "9ts",
-  "9h9": "9h9",
-  "9tw": "9tw",
-  "oba": "oba",
-  "am9": "am9"
+ "mele54": {
+  "9gm": "9gm",
+  "9gd": "9gd",
+  "9qr": "9qr",
+  "7ha": "7ha",
+  "7cl": "7cl",
+  "7ja": "7ja"
  },
  "weap54": {
   "9gm": "9gm",
@@ -493,14 +477,13 @@
   "7ja": "7ja",
   "amb": "amb"
  },
- "mele54": {
-  "9gm": "9gm",
-  "9gd": "9gd",
-  "9qr": "9qr",
-  "7ha": "7ha",
-  "7cl": "7cl",
-  "7ja": "7ja",
-  "amb": "amb"
+ "mele57": {
+  "9wc": "9wc",
+  "7la": "7la",
+  "7wn": "7wn",
+  "7sp": "7sp",
+  "7ss": "7ss",
+  "7ta": "7ta"
  },
  "weap57": {
   "9wc": "9wc",
@@ -512,40 +495,37 @@
   "6sb": "6sb",
   "6lx": "6lx"
  },
- "mele57": {
-  "9wc": "9wc",
-  "7la": "7la",
-  "7wn": "7wn",
-  "7sp": "7sp",
-  "7ss": "7ss",
-  "7ta": "7ta"
- },
  "bow30": {
   "8sb": "8sb"
  },
  "bow36": {
-  "8lb": "8lb",
-  "8lx": "8lx"
+  "8lb": "8lb"
  },
  "bow39": {
-  "8cb": "8cb"
+  "8cb": "8cb",
+  "am6": "am6"
  },
  "bow45": {
   "8s8": "8s8"
  },
  "bow48": {
   "8l8": "8l8",
-  "8hx": "8hx"
+  "am7": "am7"
  },
  "bow51": {
   "8sw": "8sw"
  },
  "bow54": {
   "8lw": "8lw",
-  "8rx": "8rx"
+  "amb": "amb"
  },
- "bow42": {
-  "8mx": "8mx"
+ "mele60": {
+  "7ar": "7ar",
+  "72h": "72h",
+  "7dg": "7dg",
+  "7sr": "7sr",
+  "7o7": "7o7",
+  "6ss": "6ss"
  },
  "weap60": {
   "7ar": "7ar",
@@ -557,14 +537,15 @@
   "6hb": "6hb",
   "obb": "obb"
  },
- "mele60": {
-  "7ar": "7ar",
-  "72h": "72h",
-  "7dg": "7dg",
-  "7sr": "7sr",
-  "7o7": "7o7",
-  "6ss": "6ss",
-  "obb": "obb"
+ "mele63": {
+  "7wb": "7wb",
+  "7ax": "7ax",
+  "7sc": "7sc",
+  "7ma": "7ma",
+  "7sm": "7sm",
+  "7sb": "7sb",
+  "7pi": "7pi",
+  "amd": "amd"
  },
  "weap63": {
   "7wb": "7wb",
@@ -577,15 +558,10 @@
   "6lb": "6lb",
   "amd": "amd"
  },
- "mele63": {
-  "7wb": "7wb",
-  "7ax": "7ax",
-  "7sc": "7sc",
-  "7ma": "7ma",
-  "7sm": "7sm",
-  "7sb": "7sb",
-  "7pi": "7pi",
-  "amd": "amd"
+ "mele69": {
+  "7xf": "7xf",
+  "7m7": "7m7",
+  "7fc": "7fc"
  },
  "weap69": {
   "7xf": "7xf",
@@ -595,11 +571,13 @@
   "6mx": "6mx",
   "obc": "obc"
  },
- "mele69": {
-  "7xf": "7xf",
-  "7m7": "7m7",
-  "7fc": "7fc",
-  "obc": "obc"
+ "mele75": {
+  "7cs": "7cs",
+  "7bt": "7bt",
+  "7bw": "7bw",
+  "7cr": "7cr",
+  "7br": "7br",
+  "6cs": "6cs"
  },
  "weap75": {
   "7cs": "7cs",
@@ -611,14 +589,13 @@
   "6hx": "6hx",
   "obd": "obd"
  },
- "mele75": {
-  "7cs": "7cs",
-  "7bt": "7bt",
-  "7bw": "7bw",
-  "7cr": "7cr",
-  "7br": "7br",
-  "6cs": "6cs",
-  "obd": "obd"
+ "mele78": {
+  "7lw": "7lw",
+  "7qs": "7qs",
+  "7fl": "7fl",
+  "7bs": "7bs",
+  "7b7": "7b7",
+  "7bk": "7bk"
  },
  "weap78": {
   "7lw": "7lw",
@@ -630,14 +607,14 @@
   "6l7": "6l7",
   "amc": "amc"
  },
- "mele78": {
-  "7lw": "7lw",
-  "7qs": "7qs",
-  "7fl": "7fl",
-  "7bs": "7bs",
-  "7b7": "7b7",
-  "7bk": "7bk",
-  "amc": "amc"
+ "mele81": {
+  "7tw": "7tw",
+  "7mp": "7mp",
+  "7fb": "7fb",
+  "7b8": "7b8",
+  "7gl": "7gl",
+  "7pa": "7pa",
+  "ame": "ame"
  },
  "weap81": {
   "7tw": "7tw",
@@ -649,14 +626,20 @@
   "6sw": "6sw",
   "ame": "ame"
  },
- "mele81": {
-  "7tw": "7tw",
-  "7mp": "7mp",
-  "7fb": "7fb",
-  "7b8": "7b8",
-  "7gl": "7gl",
-  "7pa": "7pa",
-  "ame": "ame"
+ "mele87": {
+  "7qr": "7qr",
+  "7wa": "7wa",
+  "7gi": "7gi",
+  "7gw": "7gw",
+  "7ws": "7ws",
+  "7gm": "7gm",
+  "7wd": "7wd",
+  "7gd": "7gd",
+  "7bl": "7bl",
+  "7ts": "7ts",
+  "7p7": "7p7",
+  "7wc": "7wc",
+  "6ws": "6ws"
  },
  "weap87": {
   "7qr": "7qr",
@@ -675,21 +658,13 @@
   "6lw": "6lw",
   "obf": "obf"
  },
- "mele87": {
-  "7qr": "7qr",
-  "7wa": "7wa",
-  "7gi": "7gi",
-  "7gw": "7gw",
-  "7ws": "7ws",
-  "7gm": "7gm",
-  "7wd": "7wd",
-  "7gd": "7gd",
-  "7bl": "7bl",
-  "7ts": "7ts",
-  "7p7": "7p7",
-  "7wc": "7wc",
-  "6ws": "6ws",
-  "obf": "obf"
+ "mele72": {
+  "72a": "72a",
+  "7mt": "7mt",
+  "7gs": "7gs",
+  "7di": "7di",
+  "7s7": "7s7",
+  "7s8": "7s8"
  },
  "weap72": {
   "72a": "72a",
@@ -700,13 +675,15 @@
   "7s8": "7s8",
   "6s7": "6s7"
  },
- "mele72": {
-  "72a": "72a",
-  "7mt": "7mt",
-  "7gs": "7gs",
-  "7di": "7di",
-  "7s7": "7s7",
-  "7s8": "7s8"
+ "mele66": {
+  "7ba": "7ba",
+  "7yw": "7yw",
+  "7cm": "7cm",
+  "7tk": "7tk",
+  "7tr": "7tr",
+  "7vo": "7vo",
+  "6ls": "6ls",
+  "amf": "amf"
  },
  "weap66": {
   "7ba": "7ba",
@@ -718,15 +695,14 @@
   "6ls": "6ls",
   "amf": "amf"
  },
- "mele66": {
-  "7ba": "7ba",
-  "7yw": "7yw",
-  "7cm": "7cm",
-  "7tk": "7tk",
-  "7tr": "7tr",
-  "7vo": "7vo",
-  "6ls": "6ls",
-  "amf": "amf"
+ "mele84": {
+  "7ga": "7ga",
+  "7wh": "7wh",
+  "7ls": "7ls",
+  "7kr": "7kr",
+  "7st": "7st",
+  "7h7": "7h7",
+  "6bs": "6bs"
  },
  "weap84": {
   "7ga": "7ga",
@@ -739,19 +715,8 @@
   "6rx": "6rx",
   "obe": "obe"
  },
- "mele84": {
-  "7ga": "7ga",
-  "7wh": "7wh",
-  "7ls": "7ls",
-  "7kr": "7kr",
-  "7st": "7st",
-  "7h7": "7h7",
-  "6bs": "6bs",
-  "obe": "obe"
- },
  "bow57": {
-  "6sb": "6sb",
-  "6lx": "6lx"
+  "6sb": "6sb"
  },
  "bow60": {
   "6hb": "6hb"
@@ -760,14 +725,14 @@
   "6lb": "6lb"
  },
  "bow69": {
-  "6cb": "6cb",
-  "6mx": "6mx"
+  "6cb": "6cb"
  },
  "bow72": {
   "6s7": "6s7"
  },
  "bow78": {
-  "6l7": "6l7"
+  "6l7": "6l7",
+  "amc": "amc"
  },
  "bow81": {
   "6sw": "6sw"
@@ -775,270 +740,51 @@
  "bow87": {
   "6lw": "6lw"
  },
- "bow75": {
-  "6hx": "6hx"
+ "abow18": {
+  "am1": "am1"
  },
- "bow84": {
-  "6rx": "6rx"
+ "abow27": {
+  "am2": "am2"
  },
- "armo3": {
-  "cap": "cap",
-  "qui": "qui",
-  "lea": "lea",
-  "buc": "buc",
-  "lgl": "lgl",
-  "lbt": "lbt",
-  "lbl": "lbl"
+ "abow39": {
+  "am6": "am6"
  },
- "armo6": {
-  "skp": "skp",
-  "hla": "hla",
-  "sml": "sml",
-  "dr1": "dr1",
-  "ba1": "ba1",
-  "pa1": "pa1",
-  "ne1": "ne1"
+ "abow48": {
+  "am7": "am7"
  },
- "armo12": {
-  "hlm": "hlm",
-  "rng": "rng",
-  "lrg": "lrg",
-  "mgl": "mgl",
-  "mbt": "mbt",
-  "mbl": "mbl",
-  "spk": "spk"
+ "abow54": {
+  "amb": "amb"
  },
- "armo15": {
-  "fhl": "fhl",
-  "scl": "scl",
-  "chn": "chn",
-  "kit": "kit"
+ "abow78": {
+  "amc": "amc"
  },
- "armo24": {
-  "ghm": "ghm",
-  "plt": "plt",
-  "tow": "tow",
-  "bhm": "bhm",
-  "dr5": "dr5",
-  "ba5": "ba5",
-  "pa5": "pa5",
-  "ne5": "ne5",
-  "ci0": "ci0"
- },
- "armo30": {
-  "crn": "crn",
-  "fld": "fld",
-  "gts": "gts"
- },
- "armo21": {
-  "msk": "msk",
-  "spl": "spl",
-  "tgl": "tgl",
-  "tbt": "tbt",
-  "tbl": "tbl",
-  "bsh": "bsh",
-  "dr4": "dr4",
-  "ba4": "ba4",
-  "pa4": "pa4",
-  "ne4": "ne4"
- },
- "armo9": {
-  "stu": "stu",
-  "vgl": "vgl",
-  "vbt": "vbt",
-  "vbl": "vbl",
-  "dr2": "dr2",
-  "ba2": "ba2",
-  "pa2": "pa2",
-  "ne2": "ne2"
- },
- "armo18": {
-  "brs": "brs",
-  "dr3": "dr3",
-  "ba3": "ba3",
-  "pa3": "pa3",
-  "ne3": "ne3"
- },
- "armo33": {
-  "gth": "gth",
-  "xlg": "xlg",
-  "ba6": "ba6",
-  "ne6": "ne6"
- },
- "armo39": {
-  "ful": "ful",
-  "xkp": "xkp",
-  "xla": "xla",
-  "xml": "xml",
-  "xvg": "xvg",
-  "xvb": "xvb",
-  "zvb": "zvb",
-  "ba7": "ba7",
-  "ne7": "ne7"
- },
- "armo42": {
-  "aar": "aar",
-  "xlm": "xlm",
-  "xtu": "xtu",
-  "xng": "xng",
-  "xrg": "xrg",
-  "xpk": "xpk",
-  "dr7": "dr7",
-  "pa7": "pa7"
- },
- "armo36": {
-  "ltp": "ltp",
-  "xap": "xap",
-  "xui": "xui",
-  "xea": "xea",
-  "xuc": "xuc",
-  "xlb": "xlb",
-  "zlb": "zlb",
-  "dr6": "dr6",
-  "pa6": "pa6"
- },
- "armo27": {
-  "hgl": "hgl",
-  "hbt": "hbt",
-  "hbl": "hbl"
- },
- "armo45": {
-  "xhl": "xhl",
-  "xcl": "xcl",
-  "xhn": "xhn",
-  "xit": "xit",
-  "xmg": "xmg",
-  "xmb": "xmb",
-  "zmb": "zmb",
-  "ba8": "ba8",
-  "ne8": "ne8"
- },
- "armo51": {
-  "xhm": "xhm",
-  "xpl": "xpl",
-  "xow": "xow",
-  "xtg": "xtg",
-  "xtb": "xtb",
-  "ztb": "ztb",
-  "xh9": "xh9",
-  "dr9": "dr9",
-  "ba9": "ba9",
-  "pa9": "pa9",
-  "ne9": "ne9"
- },
- "armo57": {
-  "xrn": "xrn",
-  "xld": "xld",
-  "xts": "xts",
-  "ulg": "ulg",
-  "dra": "dra",
-  "paa": "paa"
- },
- "armo48": {
-  "xsk": "xsk",
-  "xrs": "xrs",
-  "xsh": "xsh",
-  "dr8": "dr8",
-  "pa8": "pa8"
- },
- "armo54": {
-  "xlt": "xlt",
-  "xhg": "xhg",
-  "xhb": "xhb",
-  "zhb": "zhb",
-  "ci1": "ci1",
-  "uhl": "uhl",
-  "baa": "baa",
-  "nea": "nea"
- },
- "armo60": {
-  "xth": "xth",
-  "xtp": "xtp",
-  "uap": "uap",
-  "uuc": "uuc",
-  "ulb": "ulb",
-  "bab": "bab",
-  "neb": "neb"
- },
- "armo63": {
-  "xul": "xul",
-  "ukp": "ukp",
-  "uhn": "uhn",
-  "uml": "uml",
-  "uvg": "uvg",
-  "ulc": "ulc",
-  "drb": "drb",
-  "pab": "pab"
- },
- "armo66": {
-  "xar": "xar",
-  "uui": "uui",
-  "urg": "urg",
-  "uvb": "uvb",
-  "bac": "bac",
-  "ned": "ned"
- },
- "armo72": {
-  "ci2": "ci2",
-  "utu": "utu",
-  "ung": "ung",
-  "uit": "uit",
-  "umb": "umb",
-  "pac": "pac"
- },
- "armo87": {
-  "ci3": "ci3",
-  "urn": "urn",
-  "uar": "uar",
-  "uhg": "uhg",
-  "uhb": "uhb",
-  "uhc": "uhc",
-  "drf": "drf",
-  "baf": "baf",
-  "paf": "paf",
-  "nef": "nef"
- },
- "armo69": {
-  "ulm": "ulm",
-  "uea": "uea",
-  "ula": "ula",
-  "umg": "umg",
-  "uvc": "uvc",
-  "upk": "upk",
-  "drc": "drc",
-  "neg": "neg"
- },
- "armo81": {
-  "uhm": "uhm",
-  "uld": "uld",
-  "uow": "uow",
-  "utb": "utb",
-  "bae": "bae",
-  "nee": "nee"
- },
- "armo75": {
-  "usk": "usk",
-  "ucl": "ucl",
-  "urs": "urs",
-  "umc": "umc",
-  "bad": "bad",
-  "pad": "pad"
- },
- "armo78": {
-  "upl": "upl",
-  "ult": "ult",
-  "utg": "utg",
-  "ush": "ush",
-  "drd": "drd"
- },
- "armo84": {
-  "uth": "uth",
-  "uul": "uul",
-  "utp": "utp",
-  "uts": "uts",
-  "utc": "utc",
-  "uh9": "uh9",
-  "dre": "dre",
-  "pae": "pae"
- }
+ "abow3": {},
+ "abow6": {},
+ "abow9": {},
+ "abow12": {},
+ "bow15": {},
+ "abow15": {},
+ "bow21": {},
+ "abow21": {},
+ "abow24": {},
+ "abow30": {},
+ "abow33": {},
+ "abow36": {},
+ "bow42": {},
+ "abow42": {},
+ "abow45": {},
+ "abow51": {},
+ "abow57": {},
+ "abow60": {},
+ "abow63": {},
+ "bow66": {},
+ "abow66": {},
+ "abow69": {},
+ "abow72": {},
+ "bow75": {},
+ "abow75": {},
+ "abow81": {},
+ "bow84": {},
+ "abow84": {},
+ "abow87": {}
 }
