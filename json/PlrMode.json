@@ -1,39 +1,4 @@
 {
- "DT": {
-  "Name": "Death",
-  "Token": "DT",
-  "Code": "DT"
- },
- "NU": {
-  "Name": "Neutral",
-  "Token": "NU",
-  "Code": "NU"
- },
- "WL": {
-  "Name": "Walk",
-  "Token": "WL",
-  "Code": "WL"
- },
- "RN": {
-  "Name": "Run",
-  "Token": "RN",
-  "Code": "RN"
- },
- "GH": {
-  "Name": "Get Hit",
-  "Token": "GH",
-  "Code": "GH"
- },
- "TN": {
-  "Name": "Town Neutral",
-  "Token": "TN",
-  "Code": "TN"
- },
- "TW": {
-  "Name": "Town Walk",
-  "Token": "TW",
-  "Code": "TW"
- },
  "A1": {
   "Name": "Attack1",
   "Token": "A1",
@@ -49,20 +14,40 @@
   "Token": "BL",
   "Code": "BL"
  },
- "SC": {
-  "Name": "Cast",
-  "Token": "SC",
-  "Code": "SC"
+ "DD": {
+  "Name": "Dead",
+  "Token": "DD",
+  "Code": "DD"
  },
- "TH": {
-  "Name": "Throw",
-  "Token": "TH",
-  "Code": "TH"
+ "DT": {
+  "Name": "Death",
+  "Token": "DT",
+  "Code": "DT"
+ },
+ "GH": {
+  "Name": "Get Hit",
+  "Token": "GH",
+  "Code": "GH"
+ },
+ "KB": {
+  "Name": "Knock back",
+  "Token": "GH",
+  "Code": "KB"
  },
  "KK": {
   "Name": "Kick",
   "Token": "KK",
   "Code": "KK"
+ },
+ "NU": {
+  "Name": "Neutral",
+  "Token": "NU",
+  "Code": "NU"
+ },
+ "RN": {
+  "Name": "Run",
+  "Token": "RN",
+  "Code": "RN"
  },
  "S1": {
   "Name": "Skill1",
@@ -84,19 +69,34 @@
   "Token": "S4",
   "Code": "S4"
  },
- "DD": {
-  "Name": "Dead",
-  "Token": "DD",
-  "Code": "DD"
+ "SC": {
+  "Name": "Cast",
+  "Token": "SC",
+  "Code": "SC"
  },
  "SQ": {
   "Name": "Sequence",
   "Token": "GH",
   "Code": "SQ"
  },
- "KB": {
-  "Name": "Knock back",
-  "Token": "GH",
-  "Code": "KB"
+ "TH": {
+  "Name": "Throw",
+  "Token": "TH",
+  "Code": "TH"
+ },
+ "TN": {
+  "Name": "Town Neutral",
+  "Token": "TN",
+  "Code": "TN"
+ },
+ "TW": {
+  "Name": "Town Walk",
+  "Token": "TW",
+  "Code": "TW"
+ },
+ "WL": {
+  "Name": "Walk",
+  "Token": "WL",
+  "Code": "WL"
  }
 }

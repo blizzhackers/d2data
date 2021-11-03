@@ -1,19 +1,12 @@
 {
+ "AI": {
+  "expansion": 1,
+  "Name": "Assassin",
+  "Token": "AI"
+ },
  "AM": {
   "Name": "Amazon",
   "Token": "AM"
- },
- "SO": {
-  "Name": "Sorceress",
-  "Token": "SO"
- },
- "NE": {
-  "Name": "Necromancer",
-  "Token": "NE"
- },
- "PA": {
-  "Name": "Paladin",
-  "Token": "PA"
  },
  "BA": {
   "Name": "Barbarian",
@@ -24,9 +17,16 @@
   "Name": "Druid",
   "Token": "DZ"
  },
- "AI": {
-  "expansion": 1,
-  "Name": "Assassin",
-  "Token": "AI"
+ "NE": {
+  "Name": "Necromancer",
+  "Token": "NE"
+ },
+ "PA": {
+  "Name": "Paladin",
+  "Token": "PA"
+ },
+ "SO": {
+  "Name": "Sorceress",
+  "Token": "SO"
  }
 }

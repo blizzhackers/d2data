@@ -3,17 +3,10 @@
   "Player Class": "Amazon",
   "Code": "ama"
  },
- "sor": {
-  "Player Class": "Sorceress",
-  "Code": "sor"
- },
- "nec": {
-  "Player Class": "Necromancer",
-  "Code": "nec"
- },
- "pal": {
-  "Player Class": "Paladin",
-  "Code": "pal"
+ "ass": {
+  "expansion": 1,
+  "Player Class": "Assassin",
+  "Code": "ass"
  },
  "bar": {
   "Player Class": "Barbarian",
@@ -24,9 +17,16 @@
   "Player Class": "Druid",
   "Code": "dru"
  },
- "ass": {
-  "expansion": 1,
-  "Player Class": "Assassin",
-  "Code": "ass"
+ "nec": {
+  "Player Class": "Necromancer",
+  "Code": "nec"
+ },
+ "pal": {
+  "Player Class": "Paladin",
+  "Code": "pal"
+ },
+ "sor": {
+  "Player Class": "Sorceress",
+  "Code": "sor"
  }
 }

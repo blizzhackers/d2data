@@ -1,24 +1,4 @@
 {
- "DT": {
-  "name": "death",
-  "token": "DT",
-  "code": "DT"
- },
- "NU": {
-  "name": "neutral",
-  "token": "NU",
-  "code": "NU"
- },
- "WL": {
-  "name": "walk",
-  "token": "WL",
-  "code": "WL"
- },
- "GH": {
-  "name": "gethit",
-  "token": "GH",
-  "code": "GH"
- },
  "A1": {
   "name": "attack1",
   "token": "A1",
@@ -34,10 +14,35 @@
   "token": "BL",
   "code": "BL"
  },
- "SC": {
-  "name": "cast",
-  "token": "SC",
-  "code": "SC"
+ "DD": {
+  "name": "dead",
+  "token": "DD",
+  "code": "DD"
+ },
+ "DT": {
+  "name": "death",
+  "token": "DT",
+  "code": "DT"
+ },
+ "GH": {
+  "name": "gethit",
+  "token": "GH",
+  "code": "GH"
+ },
+ "KB": {
+  "name": "knockback",
+  "token": "GH",
+  "code": "KB"
+ },
+ "NU": {
+  "name": "neutral",
+  "token": "NU",
+  "code": "NU"
+ },
+ "RN": {
+  "name": "run",
+  "token": "RN",
+  "code": "RN"
  },
  "S1": {
   "name": "skill1",
@@ -59,24 +64,19 @@
   "token": "S4",
   "code": "S4"
  },
- "DD": {
-  "name": "dead",
-  "token": "DD",
-  "code": "DD"
+ "SC": {
+  "name": "cast",
+  "token": "SC",
+  "code": "SC"
  },
- "KB": {
-  "name": "knockback",
-  "token": "GH",
-  "code": "KB"
+ "WL": {
+  "name": "walk",
+  "token": "WL",
+  "code": "WL"
  },
  "xx": {
   "name": "sequence",
   "token": "xx",
   "code": "xx"
- },
- "RN": {
-  "name": "run",
-  "token": "RN",
-  "code": "RN"
  }
 }

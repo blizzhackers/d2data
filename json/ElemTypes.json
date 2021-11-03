@@ -1,7 +1,23 @@
 {
+ "burn": {
+  "Elemental Type": "Burning",
+  "Code": "burn"
+ },
+ "cold": {
+  "Elemental Type": "Cold",
+  "Code": "cold"
+ },
  "fire": {
   "Elemental Type": "Fire",
   "Code": "fire"
+ },
+ "frze": {
+  "Elemental Type": "Freeze",
+  "Code": "frze"
+ },
+ "life": {
+  "Elemental Type": "Life Drain",
+  "Code": "life"
  },
  "ltng": {
   "Elemental Type": "Lightning",
@@ -11,21 +27,17 @@
   "Elemental Type": "Magic",
   "Code": "mag"
  },
- "cold": {
-  "Elemental Type": "Cold",
-  "Code": "cold"
+ "mana": {
+  "Elemental Type": "Mana Drain",
+  "Code": "mana"
  },
  "pois": {
   "Elemental Type": "Poison",
   "Code": "pois"
  },
- "life": {
-  "Elemental Type": "Life Drain",
-  "Code": "life"
- },
- "mana": {
-  "Elemental Type": "Mana Drain",
-  "Code": "mana"
+ "rand": {
+  "Elemental Type": "Random",
+  "Code": "rand"
  },
  "stam": {
   "Elemental Type": "Stamina Drain",
@@ -34,17 +46,5 @@
  "stun": {
   "Elemental Type": "Stun",
   "Code": "stun"
- },
- "rand": {
-  "Elemental Type": "Random",
-  "Code": "rand"
- },
- "burn": {
-  "Elemental Type": "Burning",
-  "Code": "burn"
- },
- "frze": {
-  "Elemental Type": "Freeze",
-  "Code": "frze"
  }
 }

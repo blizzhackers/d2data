@@ -1,12 +1,4 @@
 {
- "hth": {
-  "Weapon Class": "Hand To Hand",
-  "Code": "hth"
- },
- "bow": {
-  "Weapon Class": "Bow",
-  "Code": "bow"
- },
  "1hs": {
   "Weapon Class": "1 Hand Swing",
   "Code": "1hs"
@@ -14,22 +6,6 @@
  "1ht": {
   "Weapon Class": "1 Hand Thrust",
   "Code": "1ht"
- },
- "stf": {
-  "Weapon Class": "Staff",
-  "Code": "stf"
- },
- "2hs": {
-  "Weapon Class": "2 Hand Swing",
-  "Code": "2hs"
- },
- "2ht": {
-  "Weapon Class": "2 Hand Thrust",
-  "Code": "2ht"
- },
- "xbw": {
-  "Weapon Class": "Crossbow",
-  "Code": "xbw"
  },
  "1js": {
   "Weapon Class": "Left Jab Right Swing",
@@ -47,6 +23,18 @@
   "Weapon Class": "Left Swing Right Thrust",
   "Code": "1st"
  },
+ "2hs": {
+  "Weapon Class": "2 Hand Swing",
+  "Code": "2hs"
+ },
+ "2ht": {
+  "Weapon Class": "2 Hand Thrust",
+  "Code": "2ht"
+ },
+ "bow": {
+  "Weapon Class": "Bow",
+  "Code": "bow"
+ },
  "ht1": {
   "Weapon Class": "One Hand-to-Hand",
   "Code": "ht1"
@@ -54,5 +42,17 @@
  "ht2": {
   "Weapon Class": "Two Hand-to-Hand",
   "Code": "ht2"
+ },
+ "hth": {
+  "Weapon Class": "Hand To Hand",
+  "Code": "hth"
+ },
+ "stf": {
+  "Weapon Class": "Staff",
+  "Code": "stf"
+ },
+ "xbw": {
+  "Weapon Class": "Crossbow",
+  "Code": "xbw"
  }
 }

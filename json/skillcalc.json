@@ -1,35 +1,219 @@
 {
- "ln12": {
-  "code": "ln12",
-  "*desc": "a+lvl*b"
+ "ast1": {
+  "code": "ast1",
+  "*desc": "aurastat field"
+ },
+ "ast2": {
+  "code": "ast2",
+  "*desc": "aurastat field"
+ },
+ "ast3": {
+  "code": "ast3",
+  "*desc": "aurastat field"
+ },
+ "ast4": {
+  "code": "ast4",
+  "*desc": "aurastat field"
+ },
+ "ast5": {
+  "code": "ast5",
+  "*desc": "aurastat field"
+ },
+ "ast6": {
+  "code": "ast6",
+  "*desc": "aurastat field"
+ },
+ "blvl": {
+  "code": "blvl",
+  "*desc": "base skill level"
+ },
+ "clc1": {
+  "code": "clc1",
+  "*desc": "calc1 field"
+ },
+ "clc2": {
+  "code": "clc2",
+  "*desc": "calc2 field"
+ },
+ "clc3": {
+  "code": "clc3",
+  "*desc": "calc3 field"
+ },
+ "clc4": {
+  "code": "clc4",
+  "*desc": "calc4 field"
  },
  "dm12": {
   "code": "dm12",
   "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
  },
- "ln34": {
-  "code": "ln34",
-  "*desc": "a+lvl*b"
- },
  "dm34": {
   "code": "dm34",
   "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
- },
- "ln56": {
-  "code": "ln56",
-  "*desc": "a+lvl*b"
  },
  "dm56": {
   "code": "dm56",
   "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
  },
+ "dm78": {
+  "code": "dm78",
+  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
+ },
+ "edln": {
+  "code": "edln",
+  "*desc": "elemental damage len"
+ },
+ "edma": {
+  "code": "edma",
+  "*desc": "elemental duration + mastery"
+ },
+ "edmn": {
+  "code": "edmn",
+  "*desc": "elemental damage min"
+ },
+ "edmx": {
+  "code": "edmx",
+  "*desc": "elemental damage max"
+ },
+ "edns": {
+  "code": "edns",
+  "*desc": "\"elemental damage min, 256ths\""
+ },
+ "edxs": {
+  "code": "edxs",
+  "*desc": "\"elemental damage max, 256ths\""
+ },
+ "enma": {
+  "code": "enma",
+  "*desc": "elemental damage min + mastery"
+ },
+ "enms": {
+  "code": "enms",
+  "*desc": "\"elemental damage min, 256ths + mastery\""
+ },
+ "exma": {
+  "code": "exma",
+  "*desc": "elemental damage max + mastery"
+ },
+ "exms": {
+  "code": "exms",
+  "*desc": "\"elemental damage max, 256ths + mastery\""
+ },
+ "len": {
+  "code": "len",
+  "*desc": "auralen field"
+ },
+ "ln12": {
+  "code": "ln12",
+  "*desc": "a+lvl*b"
+ },
+ "ln34": {
+  "code": "ln34",
+  "*desc": "a+lvl*b"
+ },
+ "ln56": {
+  "code": "ln56",
+  "*desc": "a+lvl*b"
+ },
  "ln78": {
   "code": "ln78",
   "*desc": "a+lvl*b"
  },
- "dm78": {
-  "code": "dm78",
-  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
+ "lvl": {
+  "code": "lvl",
+  "*desc": "skill level"
+ },
+ "m1el": {
+  "code": "m1el",
+  "*desc": "\"desc missile 1, elemental length\""
+ },
+ "m1en": {
+  "code": "m1en",
+  "*desc": "\"desc missile 1, min elemental dmg\""
+ },
+ "m1eo": {
+  "code": "m1eo",
+  "*desc": "\"desc missile 1, min elem dmg, 256ths\""
+ },
+ "m1ex": {
+  "code": "m1ex",
+  "*desc": "\"desc missile 1, max elemental dmg\""
+ },
+ "m1ey": {
+  "code": "m1ey",
+  "*desc": "\"desc missile 1, max elem dmg, 256ths\""
+ },
+ "m1rn": {
+  "code": "m1rn",
+  "*desc": "\"desc missile 1, range\""
+ },
+ "m2el": {
+  "code": "m2el",
+  "*desc": "\"desc missile 2, elemental length\""
+ },
+ "m2en": {
+  "code": "m2en",
+  "*desc": "\"desc missile 2, min elemental dmg\""
+ },
+ "m2eo": {
+  "code": "m2eo",
+  "*desc": "\"desc missile 2, min elem dmg, 256ths\""
+ },
+ "m2ex": {
+  "code": "m2ex",
+  "*desc": "\"desc missile 2, max elemental dmg\""
+ },
+ "m2ey": {
+  "code": "m2ey",
+  "*desc": "\"desc missile 2, max elem dmg, 256ths\""
+ },
+ "m2rn": {
+  "code": "m2rn",
+  "*desc": "\"desc missile 2, range\""
+ },
+ "m3el": {
+  "code": "m3el",
+  "*desc": "\"desc missile 3, elemental length\""
+ },
+ "m3en": {
+  "code": "m3en",
+  "*desc": "\"desc missile 3, min elemental dmg\""
+ },
+ "m3ex": {
+  "code": "m3ex",
+  "*desc": "\"desc missile 3, max elemental dmg\""
+ },
+ "m3rn": {
+  "code": "m3rn",
+  "*desc": "\"desc missile 3, range\""
+ },
+ "macr": {
+  "code": "macr",
+  "*desc": "mastery: critical"
+ },
+ "madm": {
+  "code": "madm",
+  "*desc": "mastery: damage"
+ },
+ "mana": {
+  "code": "mana",
+  "*desc": "mana cost"
+ },
+ "math": {
+  "code": "math",
+  "*desc": "mastery: to hit"
+ },
+ "me3o": {
+  "code": "me3o",
+  "*desc": "\"desc missile 3, min elem dmg, 256ths\""
+ },
+ "me3y": {
+  "code": "me3y",
+  "*desc": "\"desc missile 3, max elem dmg, 256ths\""
+ },
+ "mps": {
+  "code": "mps",
+  "*desc": "mana per second calc"
  },
  "par1": {
   "code": "par1",
@@ -63,205 +247,9 @@
   "code": "par8",
   "*desc": "a"
  },
- "lvl": {
-  "code": "lvl",
-  "*desc": "skill level"
- },
- "edmn": {
-  "code": "edmn",
-  "*desc": "elemental damage min"
- },
- "edmx": {
-  "code": "edmx",
-  "*desc": "elemental damage max"
- },
- "edln": {
-  "code": "edln",
-  "*desc": "elemental damage len"
- },
- "toht": {
-  "code": "toht",
-  "*desc": "to hit"
- },
- "mana": {
-  "code": "mana",
-  "*desc": "mana cost"
- },
- "mps": {
-  "code": "mps",
-  "*desc": "mana per second calc"
- },
- "math": {
-  "code": "math",
-  "*desc": "mastery: to hit"
- },
- "madm": {
-  "code": "madm",
-  "*desc": "mastery: damage"
- },
- "macr": {
-  "code": "macr",
-  "*desc": "mastery: critical"
- },
- "m1en": {
-  "code": "m1en",
-  "*desc": "\"desc missile 1, min elemental dmg\""
- },
- "m1ex": {
-  "code": "m1ex",
-  "*desc": "\"desc missile 1, max elemental dmg\""
- },
- "m1el": {
-  "code": "m1el",
-  "*desc": "\"desc missile 1, elemental length\""
- },
- "m2en": {
-  "code": "m2en",
-  "*desc": "\"desc missile 2, min elemental dmg\""
- },
- "m2ex": {
-  "code": "m2ex",
-  "*desc": "\"desc missile 2, max elemental dmg\""
- },
- "m2el": {
-  "code": "m2el",
-  "*desc": "\"desc missile 2, elemental length\""
- },
- "m3en": {
-  "code": "m3en",
-  "*desc": "\"desc missile 3, min elemental dmg\""
- },
- "m3ex": {
-  "code": "m3ex",
-  "*desc": "\"desc missile 3, max elemental dmg\""
- },
- "m3el": {
-  "code": "m3el",
-  "*desc": "\"desc missile 3, elemental length\""
- },
- "m1rn": {
-  "code": "m1rn",
-  "*desc": "\"desc missile 1, range\""
- },
- "m2rn": {
-  "code": "m2rn",
-  "*desc": "\"desc missile 2, range\""
- },
- "m3rn": {
-  "code": "m3rn",
-  "*desc": "\"desc missile 3, range\""
- },
- "edns": {
-  "code": "edns",
-  "*desc": "\"elemental damage min, 256ths\""
- },
- "edxs": {
-  "code": "edxs",
-  "*desc": "\"elemental damage max, 256ths\""
- },
- "ulvl": {
-  "code": "ulvl",
-  "*desc": "unit level"
- },
- "blvl": {
-  "code": "blvl",
-  "*desc": "base skill level"
- },
- "usmc": {
-  "code": "usmc",
-  "*desc": "\"mana cost, 256ths\""
- },
- "m1eo": {
-  "code": "m1eo",
-  "*desc": "\"desc missile 1, min elem dmg, 256ths\""
- },
- "m1ey": {
-  "code": "m1ey",
-  "*desc": "\"desc missile 1, max elem dmg, 256ths\""
- },
- "m2eo": {
-  "code": "m2eo",
-  "*desc": "\"desc missile 2, min elem dmg, 256ths\""
- },
- "m2ey": {
-  "code": "m2ey",
-  "*desc": "\"desc missile 2, max elem dmg, 256ths\""
- },
- "me3o": {
-  "code": "me3o",
-  "*desc": "\"desc missile 3, min elem dmg, 256ths\""
- },
- "me3y": {
-  "code": "me3y",
-  "*desc": "\"desc missile 3, max elem dmg, 256ths\""
- },
- "enma": {
-  "code": "enma",
-  "*desc": "elemental damage min + mastery"
- },
- "exma": {
-  "code": "exma",
-  "*desc": "elemental damage max + mastery"
- },
- "edma": {
-  "code": "edma",
-  "*desc": "elemental duration + mastery"
- },
- "enms": {
-  "code": "enms",
-  "*desc": "\"elemental damage min, 256ths + mastery\""
- },
- "exms": {
-  "code": "exms",
-  "*desc": "\"elemental damage max, 256ths + mastery\""
- },
- "len": {
-  "code": "len",
-  "*desc": "auralen field"
- },
- "clc1": {
-  "code": "clc1",
-  "*desc": "calc1 field"
- },
- "clc2": {
-  "code": "clc2",
-  "*desc": "calc2 field"
- },
- "clc3": {
-  "code": "clc3",
-  "*desc": "calc3 field"
- },
- "clc4": {
-  "code": "clc4",
-  "*desc": "calc4 field"
- },
- "rng": {
-  "code": "rng",
-  "*desc": "aurarange field"
- },
- "ast1": {
-  "code": "ast1",
-  "*desc": "aurastat field"
- },
- "ast2": {
-  "code": "ast2",
-  "*desc": "aurastat field"
- },
- "ast3": {
-  "code": "ast3",
-  "*desc": "aurastat field"
- },
- "ast4": {
-  "code": "ast4",
-  "*desc": "aurastat field"
- },
- "ast5": {
-  "code": "ast5",
-  "*desc": "aurastat field"
- },
- "ast6": {
-  "code": "ast6",
-  "*desc": "aurastat field"
+ "pets": {
+  "code": "pets",
+  "*desc": "petmax field"
  },
  "pst1": {
   "code": "pst1",
@@ -283,12 +271,24 @@
   "code": "pst5",
   "*desc": "passivestat field"
  },
- "pets": {
-  "code": "pets",
-  "*desc": "petmax field"
+ "rng": {
+  "code": "rng",
+  "*desc": "aurarange field"
  },
  "skpt": {
   "code": "skpt",
   "*desc": "skill points field"
+ },
+ "toht": {
+  "code": "toht",
+  "*desc": "to hit"
+ },
+ "ulvl": {
+  "code": "ulvl",
+  "*desc": "unit level"
+ },
+ "usmc": {
+  "code": "usmc",
+  "*desc": "\"mana cost, 256ths\""
  }
 }

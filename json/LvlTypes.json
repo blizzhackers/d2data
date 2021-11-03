@@ -1,6 +1,98 @@
 {
- "None": {
-  "Name": "None"
+ "Act 1 - Barracks": {
+  "Name": "Act 1 - Barracks",
+  "Id": 7,
+  "File 1": "Act1/Barracks/basewall.dt1",
+  "File 2": "Act1/Barracks/barset.dt1",
+  "File 3": "Act1/Barracks/exitdn.dt1",
+  "File 4": "Act1/Barracks/floor.dt1",
+  "File 5": "Act1/Court/Outwall.dt1",
+  "File 6": "Act1/Barracks/Torture.dt1",
+  "File 7": "Act1/Barracks/objects.dt1",
+  "File 8": "Act1/Court/Floor.dt1",
+  "File 9": "Act1/Barracks/stairup.dt1",
+  "Act": 1
+ },
+ "Act 1 - Catacombs": {
+  "Name": "Act 1 - Catacombs",
+  "Id": 10,
+  "File 1": "Act1/Catacomb/Basewalls.dt1",
+  "File 2": "Act1/Catacomb/Cathstr.dt1",
+  "File 3": "Act1/Catacomb/Dwnstr.dt1",
+  "File 4": "Act1/Catacomb/Upstr.dt1",
+  "File 5": "Act1/Catacomb/floor.dt1",
+  "File 6": "Act1/Catacomb/andariel.dt1",
+  "Act": 1
+ },
+ "Act 1 - Cathedral": {
+  "Name": "Act 1 - Cathedral",
+  "Id": 9,
+  "File 1": "Act1/Cathedrl/Alter.dt1",
+  "File 2": "Act1/Cathedrl/Coffers.dt1",
+  "File 3": "Act1/Cathedrl/Stained.dt1",
+  "File 4": "Act1/Barracks/floor.dt1",
+  "File 5": "Act1/Cathedrl/column.dt1",
+  "File 6": "Act1/Court/Outwall.dt1",
+  "File 7": "Act1/Court/Floor.dt1",
+  "File 8": "Act1/Cathedrl/Frescoes.dt1",
+  "File 9": "Act1/Cathedrl/rugs.dt1",
+  "Act": 1
+ },
+ "Act 1 - Cave": {
+  "Name": "Act 1 - Cave",
+  "Id": 3,
+  "File 1": "Act1/Caves/Cave.dt1",
+  "Beta": 1,
+  "Act": 1
+ },
+ "Act 1 - Courtyard": {
+  "Name": "Act 1 - Courtyard",
+  "Id": 6,
+  "File 1": "Act1/Court/Floor.dt1",
+  "File 2": "Act1/Court/Archwall.dt1",
+  "File 3": "Act1/Court/Outwall.dt1",
+  "File 4": "Act1/Barracks/floor.dt1",
+  "File 5": "Act1/Court/Plants2.dt1",
+  "File 6": "Act1/Court/Pboxwall.dt1",
+  "File 7": "Act1/Barracks/basewall.dt1",
+  "File 8": "Act1/Barracks/barset.dt1",
+  "File 9": "Act1/Barracks/exitdn.dt1",
+  "File 10": "Act1/Barracks/objects.dt1",
+  "Act": 1
+ },
+ "Act 1 - Crypt": {
+  "Name": "Act 1 - Crypt",
+  "Id": 4,
+  "File 1": "Act1/Crypt/Basewall.dt1",
+  "File 2": "Act1/Crypt/Floor.dt1",
+  "Beta": 1,
+  "Act": 1
+ },
+ "Act 1 - Jail": {
+  "Name": "Act 1 - Jail",
+  "Id": 8,
+  "File 1": "Act1/Barracks/basewall.dt1",
+  "File 2": "Act1/Barracks/barset.dt1",
+  "File 3": "Act1/Barracks/exitdn.dt1",
+  "File 4": "Act1/Barracks/floor.dt1",
+  "File 6": "Act1/Barracks/Torture.dt1",
+  "File 7": "Act1/Barracks/objects.dt1",
+  "File 9": "Act1/Barracks/stairup.dt1",
+  "Act": 1
+ },
+ "Act 1 - Monestary": {
+  "Name": "Act 1 - Monestary",
+  "Id": 5,
+  "File 1": "Act1/Court/Floor.dt1",
+  "File 2": "Act1/Town/Floor.dt1",
+  "File 3": "Act1/Outdoors/River.dt1",
+  "File 4": "Act1/Court/Archwall.dt1",
+  "File 5": "Act1/Court/Outwall.dt1",
+  "File 6": "Act1/Monastry/Facade.dt1",
+  "File 7": "Act1/Outdoors/stonewall.dt1",
+  "File 8": "Act1/Town/trees.dt1",
+  "File 9": "Act1/Outdoors/TreeGroups.dt1",
+  "Act": 1
  },
  "Act 1 - Town": {
   "Name": "Act 1 - Town",
@@ -15,6 +107,17 @@
   "File 9": "Act1/Outdoors/TreeGroups.dt1",
   "File 10": "Act1/Outdoors/Bridge.dt1",
   "Beta": 1,
+  "Act": 1
+ },
+ "Act 1 - Tristram": {
+  "Name": "Act 1 - Tristram",
+  "Id": 11,
+  "File 1": "Act1/Town/Floor.dt1",
+  "File 2": "Act1/Tristram/town.dt1",
+  "File 3": "Act1/Outdoors/stonewall.dt1",
+  "File 4": "Act1/Outdoors/River.dt1",
+  "File 5": "Act1/Outdoors/Objects.dt1",
+  "File 6": "Act1/Outdoors/TreeGroups.dt1",
   "Act": 1
  },
  "Act 1 - Wilderness": {
@@ -49,149 +152,10 @@
   "Beta": 1,
   "Act": 1
  },
- "Act 1 - Cave": {
-  "Name": "Act 1 - Cave",
-  "Id": 3,
-  "File 1": "Act1/Caves/Cave.dt1",
-  "Beta": 1,
-  "Act": 1
- },
- "Act 1 - Crypt": {
-  "Name": "Act 1 - Crypt",
-  "Id": 4,
-  "File 1": "Act1/Crypt/Basewall.dt1",
-  "File 2": "Act1/Crypt/Floor.dt1",
-  "Beta": 1,
-  "Act": 1
- },
- "Act 1 - Monestary": {
-  "Name": "Act 1 - Monestary",
-  "Id": 5,
-  "File 1": "Act1/Court/Floor.dt1",
-  "File 2": "Act1/Town/Floor.dt1",
-  "File 3": "Act1/Outdoors/River.dt1",
-  "File 4": "Act1/Court/Archwall.dt1",
-  "File 5": "Act1/Court/Outwall.dt1",
-  "File 6": "Act1/Monastry/Facade.dt1",
-  "File 7": "Act1/Outdoors/stonewall.dt1",
-  "File 8": "Act1/Town/trees.dt1",
-  "File 9": "Act1/Outdoors/TreeGroups.dt1",
-  "Act": 1
- },
- "Act 1 - Courtyard": {
-  "Name": "Act 1 - Courtyard",
-  "Id": 6,
-  "File 1": "Act1/Court/Floor.dt1",
-  "File 2": "Act1/Court/Archwall.dt1",
-  "File 3": "Act1/Court/Outwall.dt1",
-  "File 4": "Act1/Barracks/floor.dt1",
-  "File 5": "Act1/Court/Plants2.dt1",
-  "File 6": "Act1/Court/Pboxwall.dt1",
-  "File 7": "Act1/Barracks/basewall.dt1",
-  "File 8": "Act1/Barracks/barset.dt1",
-  "File 9": "Act1/Barracks/exitdn.dt1",
-  "File 10": "Act1/Barracks/objects.dt1",
-  "Act": 1
- },
- "Act 1 - Barracks": {
-  "Name": "Act 1 - Barracks",
-  "Id": 7,
-  "File 1": "Act1/Barracks/basewall.dt1",
-  "File 2": "Act1/Barracks/barset.dt1",
-  "File 3": "Act1/Barracks/exitdn.dt1",
-  "File 4": "Act1/Barracks/floor.dt1",
-  "File 5": "Act1/Court/Outwall.dt1",
-  "File 6": "Act1/Barracks/Torture.dt1",
-  "File 7": "Act1/Barracks/objects.dt1",
-  "File 8": "Act1/Court/Floor.dt1",
-  "File 9": "Act1/Barracks/stairup.dt1",
-  "Act": 1
- },
- "Act 1 - Jail": {
-  "Name": "Act 1 - Jail",
-  "Id": 8,
-  "File 1": "Act1/Barracks/basewall.dt1",
-  "File 2": "Act1/Barracks/barset.dt1",
-  "File 3": "Act1/Barracks/exitdn.dt1",
-  "File 4": "Act1/Barracks/floor.dt1",
-  "File 6": "Act1/Barracks/Torture.dt1",
-  "File 7": "Act1/Barracks/objects.dt1",
-  "File 9": "Act1/Barracks/stairup.dt1",
-  "Act": 1
- },
- "Act 1 - Cathedral": {
-  "Name": "Act 1 - Cathedral",
-  "Id": 9,
-  "File 1": "Act1/Cathedrl/Alter.dt1",
-  "File 2": "Act1/Cathedrl/Coffers.dt1",
-  "File 3": "Act1/Cathedrl/Stained.dt1",
-  "File 4": "Act1/Barracks/floor.dt1",
-  "File 5": "Act1/Cathedrl/column.dt1",
-  "File 6": "Act1/Court/Outwall.dt1",
-  "File 7": "Act1/Court/Floor.dt1",
-  "File 8": "Act1/Cathedrl/Frescoes.dt1",
-  "File 9": "Act1/Cathedrl/rugs.dt1",
-  "Act": 1
- },
- "Act 1 - Catacombs": {
-  "Name": "Act 1 - Catacombs",
-  "Id": 10,
-  "File 1": "Act1/Catacomb/Basewalls.dt1",
-  "File 2": "Act1/Catacomb/Cathstr.dt1",
-  "File 3": "Act1/Catacomb/Dwnstr.dt1",
-  "File 4": "Act1/Catacomb/Upstr.dt1",
-  "File 5": "Act1/Catacomb/floor.dt1",
-  "File 6": "Act1/Catacomb/andariel.dt1",
-  "Act": 1
- },
- "Act 1 - Tristram": {
-  "Name": "Act 1 - Tristram",
-  "Id": 11,
-  "File 1": "Act1/Town/Floor.dt1",
-  "File 2": "Act1/Tristram/town.dt1",
-  "File 3": "Act1/Outdoors/stonewall.dt1",
-  "File 4": "Act1/Outdoors/River.dt1",
-  "File 5": "Act1/Outdoors/Objects.dt1",
-  "File 6": "Act1/Outdoors/TreeGroups.dt1",
-  "Act": 1
- },
- "Act 2 - Town": {
-  "Name": "Act 2 - Town",
-  "Id": 12,
-  "File 1": "Act2/Town/Ground.dt1",
-  "File 2": "Act2/Town/Walls.dt1",
-  "File 3": "Act2/Town/Build.dt1",
-  "File 4": "Act2/Town/Canal.dt1",
-  "File 5": "Act2/Town/Curbs.dt1",
-  "File 6": "Act2/Town/Gate.dt1",
-  "File 7": "Act2/Town/Guard.dt1",
-  "File 8": "Act2/Town/Shop.dt1",
-  "File 9": "Act2/Town/Tavern.dt1",
-  "File 10": "Act2/Town/Wagon.dt1",
-  "File 11": "Act2/Palace/Palace.dt1",
-  "File 12": "Act2/Outdoors/Palm.dt1",
-  "File 13": "Act2/Outdoors/Mesa.dt1",
-  "Act": 2
- },
- "Act 2 - Sewer": {
-  "Name": "Act 2 - Sewer",
-  "Id": 13,
-  "File 1": "Act2/Sewer/Walls.dt1",
-  "File 2": "Act2/Sewer/Chamb.dt1",
-  "File 3": "Act2/Sewer/Items.dt1",
-  "File 4": "Act2/Sewer/Radament.dt1",
-  "Act": 2
- },
- "Act 2 - Harem": {
-  "Name": "Act 2 - Harem",
-  "Id": 14,
-  "File 1": "Act2/Palace/Harem.dt1",
-  "File 2": "Act2/Palace/HaremFlr.dt1",
-  "File 3": "Act2/Palace/HaremEnt.dt1",
-  "File 4": "Act2/Palace/HaremStair.dt1",
-  "File 5": "Act2/Palace/Sub-Har.dt1",
-  "File 6": "Act2/Palace/Sub-HarFlr.dt1",
-  "File 7": "Act2/Palace/InvisWal.dt1",
+ "Act 2 - Arcane": {
+  "Name": "Act 2 - Arcane",
+  "Id": 19,
+  "File 1": "Act2/Arcane/Sanctuary.dt1",
   "Act": 2
  },
  "Act 2 - Basement": {
@@ -236,6 +200,35 @@
   "File 29": "Act2/Tomb/Tomb.dt1",
   "Act": 2
  },
+ "Act 2 - Harem": {
+  "Name": "Act 2 - Harem",
+  "Id": 14,
+  "File 1": "Act2/Palace/Harem.dt1",
+  "File 2": "Act2/Palace/HaremFlr.dt1",
+  "File 3": "Act2/Palace/HaremEnt.dt1",
+  "File 4": "Act2/Palace/HaremStair.dt1",
+  "File 5": "Act2/Palace/Sub-Har.dt1",
+  "File 6": "Act2/Palace/Sub-HarFlr.dt1",
+  "File 7": "Act2/Palace/InvisWal.dt1",
+  "Act": 2
+ },
+ "Act 2 - Lair": {
+  "Name": "Act 2 - Lair",
+  "Id": 18,
+  "File 1": "Act2/Maggot/Floor.dt1",
+  "File 2": "Act2/Maggot/Den.dt1",
+  "File 3": "Act2/Maggot/Entrance.dt1",
+  "Act": 2
+ },
+ "Act 2 - Sewer": {
+  "Name": "Act 2 - Sewer",
+  "Id": 13,
+  "File 1": "Act2/Sewer/Walls.dt1",
+  "File 2": "Act2/Sewer/Chamb.dt1",
+  "File 3": "Act2/Sewer/Items.dt1",
+  "File 4": "Act2/Sewer/Radament.dt1",
+  "Act": 2
+ },
  "Act 2 - Tomb": {
   "Name": "Act 2 - Tomb",
   "Id": 17,
@@ -252,33 +245,28 @@
   "File 11": "Act2/Tomb/Serpent.dt1",
   "Act": 2
  },
- "Act 2 - Lair": {
-  "Name": "Act 2 - Lair",
-  "Id": 18,
-  "File 1": "Act2/Maggot/Floor.dt1",
-  "File 2": "Act2/Maggot/Den.dt1",
-  "File 3": "Act2/Maggot/Entrance.dt1",
+ "Act 2 - Town": {
+  "Name": "Act 2 - Town",
+  "Id": 12,
+  "File 1": "Act2/Town/Ground.dt1",
+  "File 2": "Act2/Town/Walls.dt1",
+  "File 3": "Act2/Town/Build.dt1",
+  "File 4": "Act2/Town/Canal.dt1",
+  "File 5": "Act2/Town/Curbs.dt1",
+  "File 6": "Act2/Town/Gate.dt1",
+  "File 7": "Act2/Town/Guard.dt1",
+  "File 8": "Act2/Town/Shop.dt1",
+  "File 9": "Act2/Town/Tavern.dt1",
+  "File 10": "Act2/Town/Wagon.dt1",
+  "File 11": "Act2/Palace/Palace.dt1",
+  "File 12": "Act2/Outdoors/Palm.dt1",
+  "File 13": "Act2/Outdoors/Mesa.dt1",
   "Act": 2
  },
- "Act 2 - Arcane": {
-  "Name": "Act 2 - Arcane",
-  "Id": 19,
-  "File 1": "Act2/Arcane/Sanctuary.dt1",
-  "Act": 2
- },
- "Act 3 - Town": {
-  "Name": "Act 3 - Town",
-  "Id": 20,
-  "File 1": "Act3/Docktown/Boat.dt1",
-  "File 2": "Act3/Docktown/Bridge.dt1",
-  "File 3": "Act3/Docktown/Docks.dt1",
-  "File 4": "Act3/Docktown/Huts.dt1",
-  "File 5": "Act3/Docktown/Market.dt1",
-  "File 6": "Act3/Docktown/Pyramid.dt1",
-  "File 7": "Act3/Docktown/RuinFlr.dt1",
-  "File 8": "Act3/Docktown/RuinWall.dt1",
-  "File 9": "Act3/Docktown/Shack.dt1",
-  "File 10": "Act3/Jungle/Trees.dt1",
+ "Act 3 - Dungeon": {
+  "Name": "Act 3 - Dungeon",
+  "Id": 24,
+  "File 1": "Act3/Jungle/Dungeon.dt1",
   "Act": 3
  },
  "Act 3 - Jungle": {
@@ -321,18 +309,6 @@
   "File 16": "Act3/Travincal/Walls.dt1",
   "Act": 3
  },
- "Act 3 - Spider": {
-  "Name": "Act 3 - Spider",
-  "Id": 23,
-  "File 1": "Act3/Spider/Lair.dt1",
-  "Act": 3
- },
- "Act 3 - Dungeon": {
-  "Name": "Act 3 - Dungeon",
-  "Id": 24,
-  "File 1": "Act3/Jungle/Dungeon.dt1",
-  "Act": 3
- },
  "Act 3 - Sewer": {
   "Name": "Act 3 - Sewer",
   "Id": 25,
@@ -341,31 +317,26 @@
   "File 3": "Act3/Sewer/Walls.dt1",
   "Act": 3
  },
- "Act 4 - Town": {
-  "Name": "Act 4 - Town",
-  "Id": 26,
-  "File 1": "Act4/Fort/Plaza.dt1",
-  "File 2": "Act4/Fort/Interior.dt1",
-  "File 3": "Act4/Fort/Exterior.dt1",
-  "File 4": "Act4/Fort/ForeGate.dt1",
-  "File 5": "Act4/Mesa/Floor.dt1",
-  "File 6": "Act4/Mesa/Inv_Wall.dt1",
-  "File 7": "Act4/Mesa/Stairs.dt1",
-  "Act": 4
+ "Act 3 - Spider": {
+  "Name": "Act 3 - Spider",
+  "Id": 23,
+  "File 1": "Act3/Spider/Lair.dt1",
+  "Act": 3
  },
- "Act 4 - Mesa": {
-  "Name": "Act 4 - Mesa",
-  "Id": 27,
-  "File 1": "Act4/Mesa/Floor.dt1",
-  "File 2": "Act4/Mesa/Stairs.dt1",
-  "File 3": "Act4/Mesa/Arch_Walls.dt1",
-  "File 4": "Act4/Mesa/Brick_Walls.dt1",
-  "File 5": "Act4/Mesa/Chain_Walls.dt1",
-  "File 6": "Act4/Mesa/Dist_Wall.dt1",
-  "File 7": "Act4/Mesa/Inv_Wall.dt1",
-  "File 8": "Act4/Mesa/Surf_Wall.dt1",
-  "File 9": "Act4/Mesa/Surf_Struct.dt1",
-  "Act": 4
+ "Act 3 - Town": {
+  "Name": "Act 3 - Town",
+  "Id": 20,
+  "File 1": "Act3/Docktown/Boat.dt1",
+  "File 2": "Act3/Docktown/Bridge.dt1",
+  "File 3": "Act3/Docktown/Docks.dt1",
+  "File 4": "Act3/Docktown/Huts.dt1",
+  "File 5": "Act3/Docktown/Market.dt1",
+  "File 6": "Act3/Docktown/Pyramid.dt1",
+  "File 7": "Act3/Docktown/RuinFlr.dt1",
+  "File 8": "Act3/Docktown/RuinWall.dt1",
+  "File 9": "Act3/Docktown/Shack.dt1",
+  "File 10": "Act3/Jungle/Trees.dt1",
+  "Act": 3
  },
  "Act 4 - Lava": {
   "Name": "Act 4 - Lava",
@@ -383,48 +354,42 @@
   "File 11": "Act4/Mesa/Surf_Wall.dt1",
   "Act": 4
  },
- "Act 5 - Town": {
-  "expansion": 1,
-  "Name": "Act 5 - Town",
-  "Id": 29,
-  "File 1": "Expansion/town/blacksmith.dt1",
-  "File 2": "Expansion/town/ground.dt1",
-  "File 3": "Expansion/town/keepwall.dt1",
-  "File 4": "Expansion/town/otherwalls.dt1",
-  "File 5": "Expansion/town/shrine.dt1",
-  "File 6": "Expansion/town/walls.dt1",
-  "File 7": "Expansion/siege/shrub.dt1",
-  "File 8": "Expansion/town/collision.dt1",
-  "File 9": "Expansion/siege/path.dt1",
-  "File 10": "Expansion/town/tent.dt1",
-  "File 11": "Expansion/siege/snow.dt1",
-  "File 12": "Expansion/siege/trees.dt1",
-  "File 13": "Expansion/Town/Buildingses.dt1",
-  "File 14": "Expansion/Siege/fence.dt1",
-  "File 15": "Expansion/Town/waypt.dt1",
-  "File 16": "Expansion/Town/maingate.dt1",
-  "File 17": "Expansion/Town/clutter.dt1",
-  "File 18": "Expansion/Town/trees.dt1",
-  "File 19": "Expansion/Siege/rockcliff.dt1",
-  "File 20": "Expansion/Siege/rockclifffloor.dt1",
-  "Act": 5,
-  "Expansion": 1
+ "Act 4 - Mesa": {
+  "Name": "Act 4 - Mesa",
+  "Id": 27,
+  "File 1": "Act4/Mesa/Floor.dt1",
+  "File 2": "Act4/Mesa/Stairs.dt1",
+  "File 3": "Act4/Mesa/Arch_Walls.dt1",
+  "File 4": "Act4/Mesa/Brick_Walls.dt1",
+  "File 5": "Act4/Mesa/Chain_Walls.dt1",
+  "File 6": "Act4/Mesa/Dist_Wall.dt1",
+  "File 7": "Act4/Mesa/Inv_Wall.dt1",
+  "File 8": "Act4/Mesa/Surf_Wall.dt1",
+  "File 9": "Act4/Mesa/Surf_Struct.dt1",
+  "Act": 4
  },
- "Act 5 - Siege": {
+ "Act 4 - Town": {
+  "Name": "Act 4 - Town",
+  "Id": 26,
+  "File 1": "Act4/Fort/Plaza.dt1",
+  "File 2": "Act4/Fort/Interior.dt1",
+  "File 3": "Act4/Fort/Exterior.dt1",
+  "File 4": "Act4/Fort/ForeGate.dt1",
+  "File 5": "Act4/Mesa/Floor.dt1",
+  "File 6": "Act4/Mesa/Inv_Wall.dt1",
+  "File 7": "Act4/Mesa/Stairs.dt1",
+  "Act": 4
+ },
+ "Act 5 - Baal": {
   "expansion": 1,
-  "Name": "Act 5 - Siege",
-  "Id": 30,
-  "File 1": "Expansion/Siege/ascendors.dt1",
-  "File 2": "Expansion/Siege/camp.dt1",
-  "File 3": "Expansion/Siege/fence.dt1",
-  "File 4": "Expansion/Siege/ground.dt1",
-  "File 5": "Expansion/Siege/rockcliff.dt1",
-  "File 6": "Expansion/Siege/rockclifffloor.dt1",
-  "File 7": "Expansion/Siege/rocks.dt1",
-  "File 8": "Expansion/Siege/shrub.dt1",
-  "File 9": "Expansion/Siege/spike.dt1",
-  "File 10": "Expansion/Siege/trench.dt1",
-  "File 11": "Expansion/Siege/trees.dt1",
+  "Name": "Act 5 - Baal",
+  "Id": 34,
+  "File 1": "Expansion/baallair/walls.dt1",
+  "File 2": "Expansion/baallair/floor.dt1",
+  "File 3": "Expansion/baallair/underwall.dt1",
+  "File 4": "Expansion/baallair/underflr.dt1",
+  "File 5": "Expansion/baallair/worldstone.dt1",
+  "File 6": "Expansion/baallair/throne.dt1",
   "Act": 5,
   "Expansion": 1
  },
@@ -466,32 +431,11 @@
   "Act": 5,
   "Expansion": 1
  },
- "Act 5 - Temple": {
-  "expansion": 1,
-  "Name": "Act 5 - Temple",
-  "Id": 32,
-  "File 1": "Expansion/wildtemple/interior.dt1",
-  "Act": 5,
-  "Expansion": 1
- },
  "Act 5 - Ice Caves": {
   "expansion": 1,
   "Name": "Act 5 - Ice Caves",
   "Id": 33,
   "File 1": "Expansion/icecave/interior.dt1",
-  "Act": 5,
-  "Expansion": 1
- },
- "Act 5 - Baal": {
-  "expansion": 1,
-  "Name": "Act 5 - Baal",
-  "Id": 34,
-  "File 1": "Expansion/baallair/walls.dt1",
-  "File 2": "Expansion/baallair/floor.dt1",
-  "File 3": "Expansion/baallair/underwall.dt1",
-  "File 4": "Expansion/baallair/underflr.dt1",
-  "File 5": "Expansion/baallair/worldstone.dt1",
-  "File 6": "Expansion/baallair/throne.dt1",
   "Act": 5,
   "Expansion": 1
  },
@@ -513,5 +457,61 @@
   "File 12": "Act4/Expansion/Specials.dt1",
   "Act": 5,
   "Expansion": 1
+ },
+ "Act 5 - Siege": {
+  "expansion": 1,
+  "Name": "Act 5 - Siege",
+  "Id": 30,
+  "File 1": "Expansion/Siege/ascendors.dt1",
+  "File 2": "Expansion/Siege/camp.dt1",
+  "File 3": "Expansion/Siege/fence.dt1",
+  "File 4": "Expansion/Siege/ground.dt1",
+  "File 5": "Expansion/Siege/rockcliff.dt1",
+  "File 6": "Expansion/Siege/rockclifffloor.dt1",
+  "File 7": "Expansion/Siege/rocks.dt1",
+  "File 8": "Expansion/Siege/shrub.dt1",
+  "File 9": "Expansion/Siege/spike.dt1",
+  "File 10": "Expansion/Siege/trench.dt1",
+  "File 11": "Expansion/Siege/trees.dt1",
+  "Act": 5,
+  "Expansion": 1
+ },
+ "Act 5 - Temple": {
+  "expansion": 1,
+  "Name": "Act 5 - Temple",
+  "Id": 32,
+  "File 1": "Expansion/wildtemple/interior.dt1",
+  "Act": 5,
+  "Expansion": 1
+ },
+ "Act 5 - Town": {
+  "expansion": 1,
+  "Name": "Act 5 - Town",
+  "Id": 29,
+  "File 1": "Expansion/town/blacksmith.dt1",
+  "File 2": "Expansion/town/ground.dt1",
+  "File 3": "Expansion/town/keepwall.dt1",
+  "File 4": "Expansion/town/otherwalls.dt1",
+  "File 5": "Expansion/town/shrine.dt1",
+  "File 6": "Expansion/town/walls.dt1",
+  "File 7": "Expansion/siege/shrub.dt1",
+  "File 8": "Expansion/town/collision.dt1",
+  "File 9": "Expansion/siege/path.dt1",
+  "File 10": "Expansion/town/tent.dt1",
+  "File 11": "Expansion/siege/snow.dt1",
+  "File 12": "Expansion/siege/trees.dt1",
+  "File 13": "Expansion/Town/Buildingses.dt1",
+  "File 14": "Expansion/Siege/fence.dt1",
+  "File 15": "Expansion/Town/waypt.dt1",
+  "File 16": "Expansion/Town/maingate.dt1",
+  "File 17": "Expansion/Town/clutter.dt1",
+  "File 18": "Expansion/Town/trees.dt1",
+  "File 19": "Expansion/Siege/rockcliff.dt1",
+  "File 20": "Expansion/Siege/rockclifffloor.dt1",
+  "Act": 5,
+  "Expansion": 1
+ },
+ "None": {
+  "Name": "None"
  }
 }

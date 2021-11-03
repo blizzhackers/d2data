@@ -1,33 +1,189 @@
 {
+ "abs-cold": {
+  "code": "abs-cold",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorbcold"
+ },
+ "abs-cold%": {
+  "code": "abs-cold%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorbcold_percent"
+ },
+ "abs-cold/lvl": {
+  "expansion": 1,
+  "code": "abs-cold/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_absorb_cold_perlevel",
+  "*desc": "Absorb Cold Dmg per Player Level",
+  "*param": "(8ths)"
+ },
+ "abs-cold/time": {
+  "expansion": 1,
+  "code": "abs-cold/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_absorb_cold_bytime",
+  "*desc": "Absorb Cold / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "abs-crush": {
+  "expansion": 1,
+  "code": "abs-crush",
+  "*desc": "Absorb Crushing Damage",
+  "*min": "min amt",
+  "*max": "max amt",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "abs-crush%": {
+  "expansion": 1,
+  "code": "abs-crush%",
+  "*desc": "Absorb Crushing Damage %",
+  "*min": "min %",
+  "*max": "max %",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "abs-fire": {
+  "code": "abs-fire",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorbfire"
+ },
+ "abs-fire%": {
+  "code": "abs-fire%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorbfire_percent"
+ },
+ "abs-fire/lvl": {
+  "expansion": 1,
+  "code": "abs-fire/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_absorb_fire_perlevel",
+  "*desc": "Absorb Fire Dmg per Player Level",
+  "*param": "(8ths)"
+ },
+ "abs-fire/time": {
+  "expansion": 1,
+  "code": "abs-fire/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_absorb_fire_bytime",
+  "*desc": "Absorb Fire / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "abs-ltng": {
+  "code": "abs-ltng",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorblight"
+ },
+ "abs-ltng%": {
+  "code": "abs-ltng%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorblight_percent"
+ },
+ "abs-ltng/lvl": {
+  "expansion": 1,
+  "code": "abs-ltng/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_absorb_ltng_perlevel",
+  "*desc": "Absorb Lightning Dmg per Player Lvl",
+  "*param": "(8ths)"
+ },
+ "abs-ltng/time": {
+  "expansion": 1,
+  "code": "abs-ltng/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_absorb_ltng_bytime",
+  "*desc": "Absorb Lightning / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "abs-mag": {
+  "code": "abs-mag",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorbmagic"
+ },
+ "abs-mag%": {
+  "code": "abs-mag%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_absorbmagic_percent"
+ },
+ "abs-pois/lvl": {
+  "expansion": 1,
+  "code": "abs-pois/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_absorb_pois_perlevel",
+  "*desc": "Absorb Poison Dmg per Player Lvl",
+  "*param": "(8ths)"
+ },
+ "abs-pois/time": {
+  "expansion": 1,
+  "code": "abs-pois/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_absorb_pois_bytime",
+  "*desc": "Absorb Poison / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "abs-slash": {
+  "expansion": 1,
+  "code": "abs-slash",
+  "*desc": "Absorb Slashing Damage",
+  "*min": "min amt",
+  "*max": "max amt",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "abs-slash%": {
+  "expansion": 1,
+  "code": "abs-slash%",
+  "*desc": "Absorb Slashing Damage %",
+  "*min": "min %",
+  "*max": "max %",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "abs-thrust": {
+  "expansion": 1,
+  "code": "abs-thrust",
+  "*desc": "Absorb Thrusting Damage",
+  "*min": "min amt",
+  "*max": "max amt",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "abs-thrust%": {
+  "expansion": 1,
+  "code": "abs-thrust%",
+  "*desc": "Absorb Thrusting Damage %",
+  "*min": "min %",
+  "*max": "max %",
+  "*notes": "random amount from min to max is assigned to item"
+ },
  "ac": {
   "code": "ac",
   "*done": 1,
   "func1": 1,
   "stat1": "armorclass"
- },
- "ac-miss": {
-  "code": "ac-miss",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "armorclass_vs_missile"
- },
- "ac-hth": {
-  "code": "ac-hth",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "armorclass_vs_hth"
- },
- "red-dmg": {
-  "code": "red-dmg",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "normal_damage_reduction"
- },
- "red-dmg%": {
-  "code": "red-dmg%",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "damageresist"
  },
  "ac%": {
   "code": "ac%",
@@ -35,17 +191,460 @@
   "func1": 2,
   "stat1": "item_armor_percent"
  },
- "red-mag": {
-  "code": "red-mag",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "magic_damage_reduction"
+ "ac%-mon": {
+  "expansion": 1,
+  "code": "ac%-mon",
+  "*desc": "AC% vs. specific Monster Type",
+  "*param": "monster",
+  "*min": "min",
+  "*max": "max"
  },
- "str": {
-  "code": "str",
+ "ac%/lvl": {
+  "expansion": 1,
+  "code": "ac%/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_armorpercent_perlevel",
+  "*desc": "AC% per Player Level",
+  "*param": "ac%/lvl (8ths)"
+ },
+ "ac%/time": {
+  "expansion": 1,
+  "code": "ac%/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_armorpercent_bytime",
+  "*desc": "AC% / time increment (8 periods)",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "ac-hth": {
+  "code": "ac-hth",
   "*done": 1,
   "func1": 1,
-  "stat1": "strength"
+  "stat1": "armorclass_vs_hth"
+ },
+ "ac-miss": {
+  "code": "ac-miss",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "armorclass_vs_missile"
+ },
+ "ac-mon": {
+  "expansion": 1,
+  "code": "ac-mon",
+  "*desc": "AC vs. specific Monster Type",
+  "*param": "monster",
+  "*min": "min",
+  "*max": "max"
+ },
+ "ac/lvl": {
+  "expansion": 1,
+  "code": "ac/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_armor_perlevel",
+  "*desc": "AC per Player Level",
+  "*param": "ac/lvl (8ths)"
+ },
+ "ac/time": {
+  "expansion": 1,
+  "code": "ac/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_armor_bytime",
+  "*desc": "\"AC / time increment (0=day, 1=dusk, 2=night, 3=dawn)\"",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "addxp": {
+  "expansion": 1,
+  "code": "addxp",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_addexperience",
+  "*desc": "additional xp gain"
+ },
+ "all-stats": {
+  "expansion": 1,
+  "code": "all-stats",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "strength",
+  "func2": 3,
+  "stat2": "energy",
+  "func3": 3,
+  "stat3": "dexterity",
+  "func4": 3,
+  "stat4": "vitality"
+ },
+ "allskills": {
+  "code": "allskills",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_allskills"
+ },
+ "ama": {
+  "code": "ama",
+  "*done": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills"
+ },
+ "ass": {
+  "expansion": 1,
+  "code": "ass",
+  "*done": 1,
+  "val1": 6,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "*desc": "All Assassin Skills"
+ },
+ "att": {
+  "code": "att",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "tohit"
+ },
+ "att%": {
+  "code": "att%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_tohit_percent"
+ },
+ "att%-mon": {
+  "expansion": 1,
+  "code": "att%-mon",
+  "*desc": "To Hit % vs. specific Monster Type",
+  "*param": "monster",
+  "*min": "min",
+  "*max": "max"
+ },
+ "att%/lvl": {
+  "expansion": 1,
+  "code": "att%/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_tohitpercent_perlevel",
+  "*desc": "Attack% per Player Level",
+  "*param": "att%/lvl (8ths)"
+ },
+ "att%/time": {
+  "expansion": 1,
+  "code": "att%/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_tohitpercent_bytime",
+  "*desc": "To Hit % / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "att-dem/lvl": {
+  "expansion": 1,
+  "code": "att-dem/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_tohit_demon_perlevel",
+  "*desc": "Attack Demons + per Player Level",
+  "*param": "att/lvl (1)"
+ },
+ "att-dem/time": {
+  "expansion": 1,
+  "code": "att-dem/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_tohit_demon_bytime",
+  "*desc": "To Hit Demons % / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "att-demon": {
+  "code": "att-demon",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_demon_tohit"
+ },
+ "att-mon": {
+  "expansion": 1,
+  "code": "att-mon",
+  "*desc": "To Hit vs. specific Monster Type",
+  "*param": "monster",
+  "*min": "min",
+  "*max": "max"
+ },
+ "att-mon%": {
+  "expansion": 1,
+  "code": "att-mon%",
+  "*done": 1,
+  "func1": 24,
+  "stat1": "attack_vs_montype",
+  "*desc": "attack% vs. monster type",
+  "*param": "mon type",
+  "*min": "min",
+  "*max": "max"
+ },
+ "att-skill": {
+  "expansion": 1,
+  "code": "att-skill",
+  "*done": 1,
+  "func1": 11,
+  "stat1": "item_skillonattack",
+  "*desc": "Proc Skill on Swing",
+  "*param": "Skill #",
+  "*min": "% Chance",
+  "*max": "Level"
+ },
+ "att-und/lvl": {
+  "expansion": 1,
+  "code": "att-und/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_tohit_undead_perlevel",
+  "*desc": "Attack Undead + per Player Level",
+  "*param": "att/lvl (1)"
+ },
+ "att-und/time": {
+  "expansion": 1,
+  "code": "att-und/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_tohit_undead_bytime",
+  "*desc": "To Hit Undead % / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "att-undead": {
+  "code": "att-undead",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_undead_tohit"
+ },
+ "att/lvl": {
+  "expansion": 1,
+  "code": "att/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_tohit_perlevel",
+  "*desc": "Attack per Player Level",
+  "*param": "att/lvl (1)"
+ },
+ "att/time": {
+  "expansion": 1,
+  "code": "att/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_tohit_bytime",
+  "*desc": "To hit / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "aura": {
+  "expansion": 1,
+  "code": "aura",
+  "*done": 1,
+  "func1": 22,
+  "stat1": "item_aura"
+ },
+ "balance1": {
+  "code": "balance1",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastergethitrate"
+ },
+ "balance2": {
+  "code": "balance2",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastergethitrate"
+ },
+ "balance3": {
+  "code": "balance3",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastergethitrate"
+ },
+ "bar": {
+  "code": "bar",
+  "*done": 1,
+  "val1": 4,
+  "func1": 21,
+  "stat1": "item_addclassskills"
+ },
+ "block": {
+  "code": "block",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "toblock"
+ },
+ "block1": {
+  "code": "block1",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fasterblockrate"
+ },
+ "block2": {
+  "code": "block2",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fasterblockrate"
+ },
+ "block3": {
+  "code": "block3",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fasterblockrate"
+ },
+ "bloody": {
+  "code": "bloody",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_extrablood"
+ },
+ "cast1": {
+  "code": "cast1",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastercastrate"
+ },
+ "cast2": {
+  "code": "cast2",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastercastrate"
+ },
+ "cast3": {
+  "code": "cast3",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastercastrate"
+ },
+ "charged": {
+  "expansion": 1,
+  "code": "charged",
+  "*done": 1,
+  "func1": 19,
+  "stat1": "item_charged_skill",
+  "*desc": "Charged Skill",
+  "*param": "skill",
+  "*min": "charges",
+  "*max": "level"
+ },
+ "cheap": {
+  "expansion": 1,
+  "code": "cheap",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_reducedprices",
+  "*desc": "reduces vendor prices",
+  "*min": "min",
+  "*max": "max"
+ },
+ "cold-len": {
+  "code": "cold-len",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "coldlength"
+ },
+ "cold-max": {
+  "code": "cold-max",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "coldmaxdam"
+ },
+ "cold-min": {
+  "code": "cold-min",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "coldmindam"
+ },
+ "color": {
+  "code": "color",
+  "*done": 1,
+  "set1": 1,
+  "func1": 1,
+  "stat1": "item_lightcolor"
+ },
+ "crush": {
+  "code": "crush",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_crushingblow"
+ },
+ "crush/lvl": {
+  "expansion": 1,
+  "code": "crush/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_crushingblow_perlevel",
+  "*desc": "+% Chance of Crushing Blow per Player Level",
+  "*param": "(8ths)"
+ },
+ "crush/time": {
+  "expansion": 1,
+  "code": "crush/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_crushingblow_bytime",
+  "*desc": "% chance of Crushing Blow / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "deadly": {
+  "code": "deadly",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_deadlystrike"
+ },
+ "deadly/lvl": {
+  "expansion": 1,
+  "code": "deadly/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_deadlystrike_perlevel",
+  "*desc": "+% Chance of Deadly Strike per Player Level",
+  "*param": "(8ths)"
+ },
+ "deadly/time": {
+  "expansion": 1,
+  "code": "deadly/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_deadlystrike_bytime",
+  "*desc": "+% chance of Deadly Strike / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "death-skill": {
+  "expansion": 1,
+  "code": "death-skill",
+  "*done": 1,
+  "func1": 11,
+  "stat1": "item_skillondeath",
+  "*desc": "Proc Skill on getting killed",
+  "*param": "Skill #",
+  "*min": "% Chance",
+  "*max": "Level"
+ },
+ "demon-heal": {
+  "code": "demon-heal",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_healafterdemonkill"
  },
  "dex": {
   "code": "dex",
@@ -53,11 +652,474 @@
   "func1": 1,
   "stat1": "dexterity"
  },
- "vit": {
-  "code": "vit",
+ "dex/lvl": {
+  "expansion": 1,
+  "code": "dex/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_dexterity_perlevel",
+  "*desc": "Dexterity per Player Level",
+  "*param": "(8ths)"
+ },
+ "dex/time": {
+  "expansion": 1,
+  "code": "dex/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_dexterity_bytime",
+  "*desc": "Dexterity / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg": {
+  "code": "dmg",
   "*done": 1,
   "func1": 1,
-  "stat1": "vitality"
+  "stat1": "item_normaldamage"
+ },
+ "dmg%": {
+  "code": "dmg%",
+  "*done": 1,
+  "func1": 7
+ },
+ "dmg%-mon": {
+  "expansion": 1,
+  "code": "dmg%-mon",
+  "*desc": "Damage % vs. specific Monster Type",
+  "*param": "monster",
+  "*min": "min",
+  "*max": "max"
+ },
+ "dmg%/lvl": {
+  "expansion": 1,
+  "code": "dmg%/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_maxdamage_percent_perlevel",
+  "*desc": "Max Damage % per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg%/time": {
+  "expansion": 1,
+  "code": "dmg%/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_maxdamage_percent_bytime",
+  "*desc": "Max Damage % / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-ac": {
+  "code": "dmg-ac",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_damagetargetac"
+ },
+ "dmg-cold": {
+  "expansion": 1,
+  "code": "dmg-cold",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "coldmindam",
+  "func2": 16,
+  "stat2": "coldmaxdam",
+  "func3": 17,
+  "stat3": "coldlength",
+  "*desc": "Cold Damage",
+  "*param": "Length (Frames)",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-cold/lvl": {
+  "expansion": 1,
+  "code": "dmg-cold/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_cold_damagemax_perlevel",
+  "*desc": "Max Cold Damage per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg-cold/time": {
+  "expansion": 1,
+  "code": "dmg-cold/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_cold_damagemax_bytime",
+  "*desc": "Cold Damage Max / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-crush": {
+  "expansion": 1,
+  "code": "dmg-crush",
+  "*desc": "Crush Damage",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "dmg-crush%": {
+  "expansion": 1,
+  "code": "dmg-crush%",
+  "*desc": "Crush Damage %",
+  "*min": "min %",
+  "*max": "max %",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "dmg-dem/lvl": {
+  "expansion": 1,
+  "code": "dmg-dem/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_damage_demon_perlevel",
+  "*desc": "Damage to Demons % per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg-dem/time": {
+  "expansion": 1,
+  "code": "dmg-dem/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_damage_demon_bytime",
+  "*desc": "Damage to Demons % / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-demon": {
+  "code": "dmg-demon",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_demondamage_percent"
+ },
+ "dmg-elem": {
+  "expansion": 1,
+  "code": "dmg-elem",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "firemindam",
+  "func2": 16,
+  "stat2": "firemaxdam",
+  "func3": 15,
+  "stat3": "lightmindam",
+  "func4": 16,
+  "stat4": "lightmaxdam",
+  "func5": 15,
+  "stat5": "coldmindam",
+  "func6": 16,
+  "stat6": "coldmaxdam",
+  "func7": 17,
+  "stat7": "coldlength"
+ },
+ "dmg-elem-max": {
+  "expansion": 1,
+  "code": "dmg-elem-max",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "firemaxdam",
+  "func2": 3,
+  "stat2": "lightmaxdam",
+  "func3": 3,
+  "stat3": "coldmaxdam",
+  "func4": 17,
+  "stat4": "coldlength"
+ },
+ "dmg-elem-min": {
+  "expansion": 1,
+  "code": "dmg-elem-min",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "firemindam",
+  "func2": 3,
+  "stat2": "lightmindam",
+  "func3": 3,
+  "stat3": "coldmindam"
+ },
+ "dmg-fire": {
+  "expansion": 1,
+  "code": "dmg-fire",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "firemindam",
+  "func2": 16,
+  "stat2": "firemaxdam",
+  "*desc": "Fire Damage",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-fire/lvl": {
+  "expansion": 1,
+  "code": "dmg-fire/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_fire_damagemax_perlevel",
+  "*desc": "Max Fire Damage per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg-fire/time": {
+  "expansion": 1,
+  "code": "dmg-fire/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_fire_damagemax_bytime",
+  "*desc": "Fire Damage Max / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-ltng": {
+  "expansion": 1,
+  "code": "dmg-ltng",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "lightmindam",
+  "func2": 16,
+  "stat2": "lightmaxdam",
+  "*desc": "Lightning Damage",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-ltng/lvl": {
+  "expansion": 1,
+  "code": "dmg-ltng/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_ltng_damagemax_perlevel",
+  "*desc": "Max Lightning Dmg per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg-ltng/time": {
+  "expansion": 1,
+  "code": "dmg-ltng/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_ltng_damagemax_bytime",
+  "*desc": "Lightning Damage Max / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-mag": {
+  "expansion": 1,
+  "code": "dmg-mag",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "magicmindam",
+  "func2": 16,
+  "stat2": "magicmaxdam",
+  "*desc": "Magic Damge",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-max": {
+  "code": "dmg-max",
+  "*done": 1,
+  "func1": 6
+ },
+ "dmg-min": {
+  "code": "dmg-min",
+  "*done": 1,
+  "func1": 5
+ },
+ "dmg-mon": {
+  "expansion": 1,
+  "code": "dmg-mon",
+  "*desc": "Damage vs. specific Monster Type",
+  "*param": "monster",
+  "*min": "min",
+  "*max": "max"
+ },
+ "dmg-mon%": {
+  "expansion": 1,
+  "code": "dmg-mon%",
+  "*done": 1,
+  "func1": 24,
+  "stat1": "damage_vs_montype",
+  "*desc": "damage% vs. monster type",
+  "*param": "mon type",
+  "*min": "min",
+  "*max": "max"
+ },
+ "dmg-norm": {
+  "expansion": 1,
+  "code": "dmg-norm",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "mindamage",
+  "func2": 16,
+  "stat2": "maxdamage",
+  "*desc": "Normal Damage Modifier",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-pois": {
+  "expansion": 1,
+  "code": "dmg-pois",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "poisonmindam",
+  "func2": 16,
+  "stat2": "poisonmaxdam",
+  "func3": 17,
+  "stat3": "poisonlength",
+  "*desc": "Poison Damage",
+  "*param": "Length (Frames)",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-pois/lvl": {
+  "expansion": 1,
+  "code": "dmg-pois/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_pois_damagemax_perlevel",
+  "*desc": "Max Poison Dmg per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg-pois/time": {
+  "expansion": 1,
+  "code": "dmg-pois/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_pois_damagemax_bytime",
+  "*desc": "Poison Damage Max / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-slash": {
+  "expansion": 1,
+  "code": "dmg-slash",
+  "*desc": "Slashing Damage",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "dmg-slash%": {
+  "expansion": 1,
+  "code": "dmg-slash%",
+  "*desc": "Slashing Damage %",
+  "*min": "min %",
+  "*max": "max %",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "dmg-throw": {
+  "expansion": 1,
+  "code": "dmg-throw",
+  "*done": 1,
+  "func1": 15,
+  "stat1": "item_throw_mindamage",
+  "func2": 16,
+  "stat2": "item_throw_maxdamage",
+  "*desc": "Throwing Damage",
+  "*min": "Min",
+  "*max": "Max"
+ },
+ "dmg-thrust": {
+  "expansion": 1,
+  "code": "dmg-thrust",
+  "*desc": "Thrust Damage",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "dmg-thrust%": {
+  "expansion": 1,
+  "code": "dmg-thrust%",
+  "*desc": "Thrust Damage %",
+  "*min": "min %",
+  "*max": "max %",
+  "*notes": "random amount from min to max is assigned to item"
+ },
+ "dmg-to-mana": {
+  "code": "dmg-to-mana",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_damagetomana"
+ },
+ "dmg-und/lvl": {
+  "expansion": 1,
+  "code": "dmg-und/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_damage_undead_perlevel",
+  "*desc": "Damage to Undead % per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg-und/time": {
+  "expansion": 1,
+  "code": "dmg-und/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_damage_undead_bytime",
+  "*desc": "Damage to Undead % / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dmg-undead": {
+  "code": "dmg-undead",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_undeaddamage_percent"
+ },
+ "dmg/lvl": {
+  "expansion": 1,
+  "code": "dmg/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_maxdamage_perlevel",
+  "*desc": "Max Damage per Player Level",
+  "*param": "(8ths)"
+ },
+ "dmg/time": {
+  "expansion": 1,
+  "code": "dmg/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_maxdamage_bytime",
+  "*desc": "Max Damage / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "dru": {
+  "expansion": 1,
+  "code": "dru",
+  "*done": 1,
+  "val1": 5,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "*desc": "All Druid Skills"
+ },
+ "dur": {
+  "code": "dur",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "maxdurability"
+ },
+ "dur%": {
+  "code": "dur%",
+  "*done": 1,
+  "func1": 13,
+  "stat1": "item_maxdurability_percent"
+ },
+ "ease": {
+  "code": "ease",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_req_percent"
  },
  "enr": {
   "code": "enr",
@@ -65,17 +1127,201 @@
   "func1": 1,
   "stat1": "energy"
  },
- "mana": {
-  "code": "mana",
+ "enr/lvl": {
+  "expansion": 1,
+  "code": "enr/lvl",
   "*done": 1,
-  "func1": 1,
-  "stat1": "maxmana"
+  "func1": 17,
+  "stat1": "item_energy_perlevel",
+  "*desc": "Energy per Player Level",
+  "*param": "(8ths)"
  },
- "mana%": {
-  "code": "mana%",
+ "enr/time": {
+  "expansion": 1,
+  "code": "enr/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_energy_bytime",
+  "*desc": "Energy / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "ethereal": {
+  "expansion": 1,
+  "code": "ethereal",
+  "*done": 1,
+  "func1": 23
+ },
+ "explosivearrow": {
+  "code": "explosivearrow",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_maxmana_percent"
+  "stat1": "item_explosivearrow"
+ },
+ "extra-cold": {
+  "expansion": 1,
+  "code": "extra-cold",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_cold_mastery"
+ },
+ "extra-fire": {
+  "expansion": 1,
+  "code": "extra-fire",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_fire_mastery"
+ },
+ "extra-ltng": {
+  "expansion": 1,
+  "code": "extra-ltng",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_ltng_mastery"
+ },
+ "extra-pois": {
+  "expansion": 1,
+  "code": "extra-pois",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_pois_mastery"
+ },
+ "fade": {
+  "expansion": 1,
+  "code": "fade",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "fade",
+  "*desc": "only use on monprop",
+  "*param": "fade type"
+ },
+ "fire-fx": {
+  "expansion": 1,
+  "code": "fire-fx"
+ },
+ "fire-max": {
+  "code": "fire-max",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "firemaxdam"
+ },
+ "fire-min": {
+  "code": "fire-min",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "firemindam"
+ },
+ "fireskill": {
+  "code": "fireskill",
+  "*done": 1,
+  "val1": 1,
+  "func1": 21,
+  "stat1": "item_elemskill"
+ },
+ "freeze": {
+  "code": "freeze",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_freeze",
+  "*param": "chance in 128",
+  "*min": "length in frames"
+ },
+ "gembonus": {
+  "expansion": 1,
+  "code": "gembonus",
+  "*desc": "Increase chance of finding Gems"
+ },
+ "gems%/lvl": {
+  "expansion": 1,
+  "code": "gems%/lvl",
+  "*desc": "+% Chance of finding Gems per Player Level",
+  "*param": "(8ths)"
+ },
+ "gems%/time": {
+  "expansion": 1,
+  "code": "gems%/time",
+  "*desc": "+% chance of finding Gems / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "gethit-skill": {
+  "expansion": 1,
+  "code": "gethit-skill",
+  "*done": 1,
+  "func1": 11,
+  "stat1": "item_skillongethit",
+  "*desc": "Proc Skill on Get Hit",
+  "*param": "Skill #",
+  "*min": "% Chance",
+  "*max": "Level"
+ },
+ "gold%": {
+  "code": "gold%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_goldbonus"
+ },
+ "gold%/lvl": {
+  "expansion": 1,
+  "code": "gold%/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_find_gold_perlevel",
+  "*desc": "+% Gold Dropped per Player Lvl",
+  "*param": "(8ths)"
+ },
+ "gold%/time": {
+  "expansion": 1,
+  "code": "gold%/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_find_gold_bytime",
+  "*desc": "Find Gold Amt % / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "half-freeze": {
+  "code": "half-freeze",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_halffreezeduration"
+ },
+ "heal-kill": {
+  "expansion": 1,
+  "code": "heal-kill",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_healafterkill",
+  "*desc": "life gained after each kill"
+ },
+ "herb": {
+  "code": "herb",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_doubleherbduration"
+ },
+ "hit-skill": {
+  "expansion": 1,
+  "code": "hit-skill",
+  "*done": 1,
+  "func1": 11,
+  "stat1": "item_skillonhit",
+  "*desc": "Proc Skill on Hit",
+  "*param": "Skill #",
+  "*min": "% Chance",
+  "*max": "Level"
+ },
+ "howl": {
+  "code": "howl",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_howl"
  },
  "hp": {
   "code": "hp",
@@ -89,53 +1335,132 @@
   "func1": 1,
   "stat1": "item_maxhp_percent"
  },
- "att": {
-  "code": "att",
+ "hp/lvl": {
+  "expansion": 1,
+  "code": "hp/lvl",
   "*done": 1,
-  "func1": 1,
-  "stat1": "tohit"
+  "func1": 17,
+  "stat1": "item_hp_perlevel",
+  "*desc": "HP per Player Level",
+  "*param": "hp/lvl (8ths)"
  },
- "block": {
-  "code": "block",
+ "hp/time": {
+  "expansion": 1,
+  "code": "hp/time",
   "*done": 1,
-  "func1": 1,
-  "stat1": "toblock"
+  "func1": 18,
+  "stat1": "item_hp_bytime",
+  "*desc": "HP / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
- "cold-min": {
-  "code": "cold-min",
+ "ignore-ac": {
+  "code": "ignore-ac",
   "*done": 1,
   "func1": 1,
-  "stat1": "coldmindam"
+  "stat1": "item_ignoretargetac"
  },
- "cold-max": {
-  "code": "cold-max",
+ "indestruct": {
+  "expansion": 1,
+  "code": "indestruct",
   "*done": 1,
-  "func1": 1,
-  "stat1": "coldmaxdam"
+  "func1": 20,
+  "*desc": "Indestructible"
  },
- "cold-len": {
-  "code": "cold-len",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "coldlength"
+ "item%": {
+  "expansion": 1,
+  "code": "item%",
+  "*desc": "+% Chance of finding item",
+  "*param": "item type",
+  "*min": "min chance",
+  "*max": "max chance",
+  "*notes": "random chance from min to max is assigned to item"
  },
- "fire-min": {
-  "code": "fire-min",
+ "kick": {
+  "code": "kick",
   "*done": 1,
   "func1": 1,
-  "stat1": "firemindam"
+  "stat1": "item_kickdamage"
  },
- "fire-max": {
-  "code": "fire-max",
+ "kick/lvl": {
+  "expansion": 1,
+  "code": "kick/lvl",
   "*done": 1,
-  "func1": 1,
-  "stat1": "firemaxdam"
+  "func1": 17,
+  "stat1": "item_kick_damage_perlevel",
+  "*desc": "Kick Damage per Player Level",
+  "*param": "(8ths)"
  },
- "ltng-min": {
-  "code": "ltng-min",
+ "kick/time": {
+  "expansion": 1,
+  "code": "kick/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_kick_damage_bytime",
+  "*desc": "Kick Damage / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "kill-skill": {
+  "expansion": 1,
+  "code": "kill-skill",
+  "*done": 1,
+  "func1": 11,
+  "stat1": "item_skillonkill",
+  "*desc": "Proc Skill on killing something",
+  "*param": "Skill #",
+  "*min": "% Chance",
+  "*max": "Level"
+ },
+ "knock": {
+  "code": "knock",
   "*done": 1,
   "func1": 1,
-  "stat1": "lightmindam"
+  "stat1": "item_knockback"
+ },
+ "levelreq": {
+  "expansion": 1,
+  "code": "levelreq",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_levelreq"
+ },
+ "levelup-skill": {
+  "expansion": 1,
+  "code": "levelup-skill",
+  "*done": 1,
+  "func1": 11,
+  "stat1": "item_skillonlevelup",
+  "*desc": "Proc Skill on level up",
+  "*param": "Skill #",
+  "*min": "% Chance",
+  "*max": "Level"
+ },
+ "lifesteal": {
+  "code": "lifesteal",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "lifedrainmindam"
+ },
+ "light": {
+  "code": "light",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_lightradius"
+ },
+ "light-thorns": {
+  "code": "light-thorns",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_attackertakeslightdamage"
+ },
+ "ltng-fx": {
+  "expansion": 1,
+  "code": "ltng-fx"
  },
  "ltng-max": {
   "code": "ltng-max",
@@ -143,17 +1468,195 @@
   "func1": 1,
   "stat1": "lightmaxdam"
  },
- "pois-min": {
-  "code": "pois-min",
+ "ltng-min": {
+  "code": "ltng-min",
   "*done": 1,
   "func1": 1,
-  "stat1": "poisonmindam"
+  "stat1": "lightmindam"
  },
- "pois-max": {
-  "code": "pois-max",
+ "mag%": {
+  "code": "mag%",
   "*done": 1,
   "func1": 1,
-  "stat1": "poisonmaxdam"
+  "stat1": "item_magicbonus"
+ },
+ "mag%/lvl": {
+  "expansion": 1,
+  "code": "mag%/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_find_magic_perlevel",
+  "*desc": "+% Magical per Player Lvl",
+  "*param": "(8ths)"
+ },
+ "mag%/time": {
+  "expansion": 1,
+  "code": "mag%/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_find_magic_bytime",
+  "*desc": "Find Magic % / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "magicarrow": {
+  "code": "magicarrow",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_magicarrow"
+ },
+ "mana": {
+  "code": "mana",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "maxmana"
+ },
+ "mana%": {
+  "code": "mana%",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_maxmana_percent"
+ },
+ "mana-kill": {
+  "code": "mana-kill",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_manaafterkill"
+ },
+ "mana/lvl": {
+  "expansion": 1,
+  "code": "mana/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_mana_perlevel",
+  "*desc": "Mana per Player Level",
+  "*param": "(8ths)"
+ },
+ "mana/time": {
+  "expansion": 1,
+  "code": "mana/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_mana_bytime",
+  "*desc": "Mana / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "manasteal": {
+  "code": "manasteal",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "manadrainmindam"
+ },
+ "move1": {
+  "code": "move1",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastermovevelocity"
+ },
+ "move2": {
+  "code": "move2",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastermovevelocity"
+ },
+ "move3": {
+  "code": "move3",
+  "*done": 1,
+  "func1": 8,
+  "stat1": "item_fastermovevelocity"
+ },
+ "nec": {
+  "code": "nec",
+  "*done": 1,
+  "val1": 2,
+  "func1": 21,
+  "stat1": "item_addclassskills"
+ },
+ "nofreeze": {
+  "code": "nofreeze",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_cannotbefrozen"
+ },
+ "noheal": {
+  "code": "noheal",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_preventheal"
+ },
+ "openwounds": {
+  "code": "openwounds",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_openwounds"
+ },
+ "oskill": {
+  "expansion": 1,
+  "code": "oskill",
+  "*done": 1,
+  "func1": 22,
+  "stat1": "item_nonclassskill",
+  "*param": "Skill",
+  "*min": "min level",
+  "*max": "max level"
+ },
+ "pal": {
+  "code": "pal",
+  "*done": 1,
+  "val1": 3,
+  "func1": 21,
+  "stat1": "item_addclassskills"
+ },
+ "pierce": {
+  "code": "pierce",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_pierce"
+ },
+ "pierce-cold": {
+  "expansion": 1,
+  "code": "pierce-cold",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_cold_pierce",
+  "*desc": "Negates % of Enemy Lightning Resistance",
+  "*min": "min",
+  "*max": "max"
+ },
+ "pierce-fire": {
+  "expansion": 1,
+  "code": "pierce-fire",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_fire_pierce",
+  "*desc": "Negates % of Enemy Cold Resistance",
+  "*min": "min",
+  "*max": "max"
+ },
+ "pierce-ltng": {
+  "expansion": 1,
+  "code": "pierce-ltng",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_ltng_pierce",
+  "*desc": "Negates % of Enemy Fire Resistance",
+  "*min": "min",
+  "*max": "max"
+ },
+ "pierce-pois": {
+  "expansion": 1,
+  "code": "pierce-pois",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "passive_pois_pierce",
+  "*desc": "Negates % of Enemy Poison Resistance",
+  "*min": "min",
+  "*max": "max"
  },
  "pois-len": {
   "code": "pois-len",
@@ -161,86 +1664,118 @@
   "func1": 1,
   "stat1": "poisonlength"
  },
- "dmg-min": {
-  "code": "dmg-min",
-  "*done": 1,
-  "func1": 5
- },
- "dmg-max": {
-  "code": "dmg-max",
-  "*done": 1,
-  "func1": 6
- },
- "dmg%": {
-  "code": "dmg%",
-  "*done": 1,
-  "func1": 7
- },
- "dmg-to-mana": {
-  "code": "dmg-to-mana",
+ "pois-max": {
+  "code": "pois-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_damagetomana"
+  "stat1": "poisonmaxdam"
  },
- "res-fire": {
-  "code": "res-fire",
+ "pois-min": {
+  "code": "pois-min",
   "*done": 1,
   "func1": 1,
-  "stat1": "fireresist"
+  "stat1": "poisonmindam"
  },
- "res-fire-max": {
-  "code": "res-fire-max",
+ "randclassskill": {
+  "expansion": 1,
+  "code": "randclassskill",
+  "*done": 1,
+  "val1": 3,
+  "func1": 36,
+  "stat1": "item_addclassskills"
+ },
+ "reanimate": {
+  "code": "reanimate",
+  "*done": 1,
+  "func1": 24,
+  "stat1": "item_reanimate"
+ },
+ "red-dmg": {
+  "code": "red-dmg",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxfireresist"
+  "stat1": "normal_damage_reduction"
  },
- "res-ltng": {
-  "code": "res-ltng",
+ "red-dmg%": {
+  "code": "red-dmg%",
   "*done": 1,
   "func1": 1,
-  "stat1": "lightresist"
+  "stat1": "damageresist"
  },
- "res-ltng-max": {
-  "code": "res-ltng-max",
+ "red-mag": {
+  "code": "red-mag",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxlightresist"
+  "stat1": "magic_damage_reduction"
  },
- "res-cold": {
-  "code": "res-cold",
+ "reduce-ac": {
+  "code": "reduce-ac",
   "*done": 1,
   "func1": 1,
-  "stat1": "coldresist"
+  "stat1": "item_fractionaltargetac"
  },
- "res-cold-max": {
-  "code": "res-cold-max",
+ "regen": {
+  "code": "regen",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxcoldresist"
+  "stat1": "hpregen"
  },
- "res-mag": {
-  "code": "res-mag",
+ "regen-dur": {
+  "expansion": 1,
+  "code": "regen-dur"
+ },
+ "regen-mana": {
+  "code": "regen-mana",
   "*done": 1,
   "func1": 1,
-  "stat1": "magicresist"
+  "stat1": "manarecoverybonus"
  },
- "res-mag-max": {
-  "code": "res-mag-max",
+ "regen-stam": {
+  "code": "regen-stam",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxmagicresist"
+  "stat1": "staminarecoverybonus"
  },
- "res-pois": {
-  "code": "res-pois",
+ "regen-stam/lvl": {
+  "expansion": 1,
+  "code": "regen-stam/lvl",
   "*done": 1,
-  "func1": 1,
-  "stat1": "poisonresist"
+  "func1": 17,
+  "stat1": "item_regenstamina_perlevel",
+  "*desc": "+% Stamina Regeneration per Player Lvl",
+  "*param": "(8ths)"
  },
- "res-pois-max": {
-  "code": "res-pois-max",
+ "regen-stam/time": {
+  "expansion": 1,
+  "code": "regen-stam/time",
   "*done": 1,
-  "func1": 1,
-  "stat1": "maxpoisonresist"
+  "func1": 18,
+  "stat1": "item_regenstamina_bytime",
+  "*desc": "% / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "rep-dur": {
+  "expansion": 1,
+  "code": "rep-dur",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_replenish_durability",
+  "*desc": "regenerates durability",
+  "*param": "speed (see note)",
+  "*notes": "regenerates 1 durability point per 100/lvl seconds"
+ },
+ "rep-quant": {
+  "expansion": 1,
+  "code": "rep-quant",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_replenish_quantity",
+  "*desc": "regenerates quantity",
+  "*param": "speed (see note)",
+  "*notes": "regenerates 1 quantity per 100/lvl seconds"
  },
  "res-all": {
   "code": "res-all",
@@ -266,77 +1801,296 @@
   "func4": 3,
   "stat4": "maxpoisonresist"
  },
- "abs-fire%": {
-  "code": "abs-fire%",
+ "res-cold": {
+  "code": "res-cold",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbfire_percent"
+  "stat1": "coldresist"
  },
- "abs-fire": {
-  "code": "abs-fire",
+ "res-cold-max": {
+  "code": "res-cold-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbfire"
+  "stat1": "maxcoldresist"
  },
- "abs-ltng%": {
-  "code": "abs-ltng%",
+ "res-cold/lvl": {
+  "expansion": 1,
+  "code": "res-cold/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_resist_cold_perlevel",
+  "*desc": "Resist Cold% per Player Level",
+  "*param": "(8ths)"
+ },
+ "res-cold/time": {
+  "expansion": 1,
+  "code": "res-cold/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_resist_cold_bytime",
+  "*desc": "Resist Cold / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "res-fire": {
+  "code": "res-fire",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorblight_percent"
+  "stat1": "fireresist"
  },
- "abs-ltng": {
-  "code": "abs-ltng",
+ "res-fire-max": {
+  "code": "res-fire-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorblight"
+  "stat1": "maxfireresist"
  },
- "abs-mag%": {
-  "code": "abs-mag%",
+ "res-fire/lvl": {
+  "expansion": 1,
+  "code": "res-fire/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_resist_fire_perlevel",
+  "*desc": "Resist Fire% per Player Level",
+  "*param": "(8ths)"
+ },
+ "res-fire/time": {
+  "expansion": 1,
+  "code": "res-fire/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_resist_fire_bytime",
+  "*desc": "Resist Fire / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "res-ltng": {
+  "code": "res-ltng",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbmagic_percent"
+  "stat1": "lightresist"
  },
- "abs-mag": {
-  "code": "abs-mag",
+ "res-ltng-max": {
+  "code": "res-ltng-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbmagic"
+  "stat1": "maxlightresist"
  },
- "abs-cold%": {
-  "code": "abs-cold%",
+ "res-ltng/lvl": {
+  "expansion": 1,
+  "code": "res-ltng/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_resist_ltng_perlevel",
+  "*desc": "Resist Lightning% per Player Level",
+  "*param": "(8ths)"
+ },
+ "res-ltng/time": {
+  "expansion": 1,
+  "code": "res-ltng/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_resist_ltng_bytime",
+  "*desc": "Resist Lightning / time inc",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "res-mag": {
+  "code": "res-mag",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbcold_percent"
+  "stat1": "magicresist"
  },
- "abs-cold": {
-  "code": "abs-cold",
+ "res-mag-max": {
+  "code": "res-mag-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbcold"
+  "stat1": "maxmagicresist"
  },
- "dur": {
-  "code": "dur",
+ "res-pois": {
+  "code": "res-pois",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxdurability"
+  "stat1": "poisonresist"
  },
- "dur%": {
-  "code": "dur%",
-  "*done": 1,
-  "func1": 13,
-  "stat1": "item_maxdurability_percent"
- },
- "regen": {
-  "code": "regen",
+ "res-pois-len": {
+  "code": "res-pois-len",
   "*done": 1,
   "func1": 1,
-  "stat1": "hpregen"
+  "stat1": "item_poisonlengthresist"
  },
- "thorns": {
-  "code": "thorns",
+ "res-pois-max": {
+  "code": "res-pois-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_attackertakesdamage"
+  "stat1": "maxpoisonresist"
+ },
+ "res-pois/lvl": {
+  "expansion": 1,
+  "code": "res-pois/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_resist_pois_perlevel",
+  "*desc": "Resist Poison% per Player Level",
+  "*param": "(8ths)"
+ },
+ "res-pois/time": {
+  "expansion": 1,
+  "code": "res-pois/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_resist_pois_bytime",
+  "*desc": "Resist Poison / time inc",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "rip": {
+  "expansion": 1,
+  "code": "rip",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_restinpeace",
+  "*desc": "slain monsters' corpses can't be used",
+  "*min": 1,
+  "*max": 1
+ },
+ "skill": {
+  "expansion": 1,
+  "code": "skill",
+  "*done": 1,
+  "func1": 22,
+  "stat1": "item_singleskill"
+ },
+ "skill-rand": {
+  "expansion": 1,
+  "code": "skill-rand",
+  "*done": 1,
+  "func1": 12,
+  "stat1": "item_singleskill",
+  "*desc": "Bonus to random skill",
+  "*param": "Level",
+  "*min": "min Skill #",
+  "*max": "max Skill #"
+ },
+ "skilltab": {
+  "expansion": 1,
+  "code": "skilltab",
+  "*done": 1,
+  "func1": 10,
+  "stat1": "item_addskill_tab"
+ },
+ "slow": {
+  "code": "slow",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_slow"
+ },
+ "sock": {
+  "expansion": 1,
+  "code": "sock",
+  "*done": 1,
+  "func1": 14,
+  "stat1": "item_numsockets"
+ },
+ "sor": {
+  "code": "sor",
+  "*done": 1,
+  "val1": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills"
+ },
+ "stack": {
+  "expansion": 1,
+  "code": "stack",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_extra_stack",
+  "*desc": "Increased stack size",
+  "*min": "min count",
+  "*max": "max count"
+ },
+ "stam": {
+  "code": "stam",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "maxstamina"
+ },
+ "stam/lvl": {
+  "expansion": 1,
+  "code": "stam/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_stamina_perlevel",
+  "*desc": "Stamina per Player Level",
+  "*param": "(8ths)"
+ },
+ "stam/time": {
+  "expansion": 1,
+  "code": "stam/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_stamina_bytime",
+  "*desc": "Stamina / time inc.",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "stamdrain": {
+  "code": "stamdrain",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_staminadrainpct"
+ },
+ "state": {
+  "expansion": 1,
+  "code": "state",
+  "*done": 1,
+  "func1": 24,
+  "stat1": "state",
+  "*param": "state",
+  "*min": 1,
+  "*max": 1
+ },
+ "str": {
+  "code": "str",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "strength"
+ },
+ "str/lvl": {
+  "expansion": 1,
+  "code": "str/lvl",
+  "*done": 1,
+  "func1": 17,
+  "stat1": "item_strength_perlevel",
+  "*desc": "Strength per Player Level",
+  "*param": "(8ths)"
+ },
+ "str/time": {
+  "expansion": 1,
+  "code": "str/time",
+  "*done": 1,
+  "func1": 18,
+  "stat1": "item_strength_bytime",
+  "*desc": "Strength / time increment",
+  "*param": "center period",
+  "*min": "min",
+  "*max": "max",
+  "*notes": "\"max at center period, min at opposite period, linear progression\""
+ },
+ "stupidity": {
+  "code": "stupidity",
+  "*done": 1,
+  "func1": 1,
+  "stat1": "item_stupidity"
  },
  "swing1": {
   "code": "swing1",
@@ -356,793 +2110,11 @@
   "func1": 8,
   "stat1": "item_fasterattackrate"
  },
- "gold%": {
-  "code": "gold%",
+ "thorns": {
+  "code": "thorns",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_goldbonus"
- },
- "mag%": {
-  "code": "mag%",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_magicbonus"
- },
- "knock": {
-  "code": "knock",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_knockback"
- },
- "regen-stam": {
-  "code": "regen-stam",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "staminarecoverybonus"
- },
- "regen-mana": {
-  "code": "regen-mana",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "manarecoverybonus"
- },
- "stam": {
-  "code": "stam",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "maxstamina"
- },
- "time": {
-  "code": "time",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_timeduration"
- },
- "manasteal": {
-  "code": "manasteal",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "manadrainmindam"
- },
- "lifesteal": {
-  "code": "lifesteal",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "lifedrainmindam"
- },
- "ama": {
-  "code": "ama",
-  "*done": 1,
-  "func1": 21,
-  "stat1": "item_addclassskills"
- },
- "pal": {
-  "code": "pal",
-  "*done": 1,
-  "val1": 3,
-  "func1": 21,
-  "stat1": "item_addclassskills"
- },
- "nec": {
-  "code": "nec",
-  "*done": 1,
-  "val1": 2,
-  "func1": 21,
-  "stat1": "item_addclassskills"
- },
- "sor": {
-  "code": "sor",
-  "*done": 1,
-  "val1": 1,
-  "func1": 21,
-  "stat1": "item_addclassskills"
- },
- "bar": {
-  "code": "bar",
-  "*done": 1,
-  "val1": 4,
-  "func1": 21,
-  "stat1": "item_addclassskills"
- },
- "herb": {
-  "code": "herb",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_doubleherbduration"
- },
- "light": {
-  "code": "light",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_lightradius"
- },
- "color": {
-  "code": "color",
-  "*done": 1,
-  "set1": 1,
-  "func1": 1,
-  "stat1": "item_lightcolor"
- },
- "ease": {
-  "code": "ease",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_req_percent"
- },
- "move1": {
-  "code": "move1",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastermovevelocity"
- },
- "move2": {
-  "code": "move2",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastermovevelocity"
- },
- "move3": {
-  "code": "move3",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastermovevelocity"
- },
- "balance1": {
-  "code": "balance1",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastergethitrate"
- },
- "balance2": {
-  "code": "balance2",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastergethitrate"
- },
- "balance3": {
-  "code": "balance3",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastergethitrate"
- },
- "block1": {
-  "code": "block1",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fasterblockrate"
- },
- "block2": {
-  "code": "block2",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fasterblockrate"
- },
- "block3": {
-  "code": "block3",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fasterblockrate"
- },
- "cast1": {
-  "code": "cast1",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastercastrate"
- },
- "cast2": {
-  "code": "cast2",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastercastrate"
- },
- "cast3": {
-  "code": "cast3",
-  "*done": 1,
-  "func1": 8,
-  "stat1": "item_fastercastrate"
- },
- "res-pois-len": {
-  "code": "res-pois-len",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_poisonlengthresist"
- },
- "dmg": {
-  "code": "dmg",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_normaldamage"
- },
- "howl": {
-  "code": "howl",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_howl"
- },
- "stupidity": {
-  "code": "stupidity",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_stupidity"
- },
- "ignore-ac": {
-  "code": "ignore-ac",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_ignoretargetac"
- },
- "reduce-ac": {
-  "code": "reduce-ac",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_fractionaltargetac"
- },
- "noheal": {
-  "code": "noheal",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_preventheal"
- },
- "half-freeze": {
-  "code": "half-freeze",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_halffreezeduration"
- },
- "att%": {
-  "code": "att%",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_tohit_percent"
- },
- "dmg-ac": {
-  "code": "dmg-ac",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_damagetargetac"
- },
- "dmg-demon": {
-  "code": "dmg-demon",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_demondamage_percent"
- },
- "dmg-undead": {
-  "code": "dmg-undead",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_undeaddamage_percent"
- },
- "att-demon": {
-  "code": "att-demon",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_demon_tohit"
- },
- "att-undead": {
-  "code": "att-undead",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_undead_tohit"
- },
- "throw": {
-  "code": "throw",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_throwable"
- },
- "fireskill": {
-  "code": "fireskill",
-  "*done": 1,
-  "val1": 1,
-  "func1": 21,
-  "stat1": "item_elemskill"
- },
- "allskills": {
-  "code": "allskills",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_allskills"
- },
- "light-thorns": {
-  "code": "light-thorns",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_attackertakeslightdamage"
- },
- "freeze": {
-  "code": "freeze",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_freeze",
-  "*param": "chance in 128",
-  "*min": "length in frames"
- },
- "openwounds": {
-  "code": "openwounds",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_openwounds"
- },
- "crush": {
-  "code": "crush",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_crushingblow"
- },
- "kick": {
-  "code": "kick",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_kickdamage"
- },
- "mana-kill": {
-  "code": "mana-kill",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_manaafterkill"
- },
- "demon-heal": {
-  "code": "demon-heal",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_healafterdemonkill"
- },
- "bloody": {
-  "code": "bloody",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_extrablood"
- },
- "deadly": {
-  "code": "deadly",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_deadlystrike"
- },
- "slow": {
-  "code": "slow",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_slow"
- },
- "nofreeze": {
-  "code": "nofreeze",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_cannotbefrozen"
- },
- "stamdrain": {
-  "code": "stamdrain",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_staminadrainpct"
- },
- "reanimate": {
-  "code": "reanimate",
-  "*done": 1,
-  "func1": 24,
-  "stat1": "item_reanimate"
- },
- "pierce": {
-  "code": "pierce",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_pierce"
- },
- "magicarrow": {
-  "code": "magicarrow",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_magicarrow"
- },
- "explosivearrow": {
-  "code": "explosivearrow",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_explosivearrow"
- },
- "dru": {
-  "expansion": 1,
-  "code": "dru",
-  "*done": 1,
-  "val1": 5,
-  "func1": 21,
-  "stat1": "item_addclassskills",
-  "*desc": "All Druid Skills"
- },
- "ass": {
-  "expansion": 1,
-  "code": "ass",
-  "*done": 1,
-  "val1": 6,
-  "func1": 21,
-  "stat1": "item_addclassskills",
-  "*desc": "All Assassin Skills"
- },
- "skill": {
-  "expansion": 1,
-  "code": "skill",
-  "*done": 1,
-  "func1": 22,
-  "stat1": "item_singleskill"
- },
- "skilltab": {
-  "expansion": 1,
-  "code": "skilltab",
-  "*done": 1,
-  "func1": 10,
-  "stat1": "item_addskill_tab"
- },
- "aura": {
-  "expansion": 1,
-  "code": "aura",
-  "*done": 1,
-  "func1": 22,
-  "stat1": "item_aura"
- },
- "att-skill": {
-  "expansion": 1,
-  "code": "att-skill",
-  "*done": 1,
-  "func1": 11,
-  "stat1": "item_skillonattack",
-  "*desc": "Proc Skill on Swing",
-  "*param": "Skill #",
-  "*min": "% Chance",
-  "*max": "Level"
- },
- "hit-skill": {
-  "expansion": 1,
-  "code": "hit-skill",
-  "*done": 1,
-  "func1": 11,
-  "stat1": "item_skillonhit",
-  "*desc": "Proc Skill on Hit",
-  "*param": "Skill #",
-  "*min": "% Chance",
-  "*max": "Level"
- },
- "gethit-skill": {
-  "expansion": 1,
-  "code": "gethit-skill",
-  "*done": 1,
-  "func1": 11,
-  "stat1": "item_skillongethit",
-  "*desc": "Proc Skill on Get Hit",
-  "*param": "Skill #",
-  "*min": "% Chance",
-  "*max": "Level"
- },
- "gembonus": {
-  "expansion": 1,
-  "code": "gembonus",
-  "*desc": "Increase chance of finding Gems"
- },
- "regen-dur": {
-  "expansion": 1,
-  "code": "regen-dur"
- },
- "fire-fx": {
-  "expansion": 1,
-  "code": "fire-fx"
- },
- "ltng-fx": {
-  "expansion": 1,
-  "code": "ltng-fx"
- },
- "sock": {
-  "expansion": 1,
-  "code": "sock",
-  "*done": 1,
-  "func1": 14,
-  "stat1": "item_numsockets"
- },
- "dmg-fire": {
-  "expansion": 1,
-  "code": "dmg-fire",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "firemindam",
-  "func2": 16,
-  "stat2": "firemaxdam",
-  "*desc": "Fire Damage",
-  "*min": "Min",
-  "*max": "Max"
- },
- "dmg-ltng": {
-  "expansion": 1,
-  "code": "dmg-ltng",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "lightmindam",
-  "func2": 16,
-  "stat2": "lightmaxdam",
-  "*desc": "Lightning Damage",
-  "*min": "Min",
-  "*max": "Max"
- },
- "dmg-mag": {
-  "expansion": 1,
-  "code": "dmg-mag",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "magicmindam",
-  "func2": 16,
-  "stat2": "magicmaxdam",
-  "*desc": "Magic Damge",
-  "*min": "Min",
-  "*max": "Max"
- },
- "dmg-cold": {
-  "expansion": 1,
-  "code": "dmg-cold",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "coldmindam",
-  "func2": 16,
-  "stat2": "coldmaxdam",
-  "func3": 17,
-  "stat3": "coldlength",
-  "*desc": "Cold Damage",
-  "*param": "Length (Frames)",
-  "*min": "Min",
-  "*max": "Max"
- },
- "dmg-pois": {
-  "expansion": 1,
-  "code": "dmg-pois",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "poisonmindam",
-  "func2": 16,
-  "stat2": "poisonmaxdam",
-  "func3": 17,
-  "stat3": "poisonlength",
-  "*desc": "Poison Damage",
-  "*param": "Length (Frames)",
-  "*min": "Min",
-  "*max": "Max"
- },
- "dmg-throw": {
-  "expansion": 1,
-  "code": "dmg-throw",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "item_throw_mindamage",
-  "func2": 16,
-  "stat2": "item_throw_maxdamage",
-  "*desc": "Throwing Damage",
-  "*min": "Min",
-  "*max": "Max"
- },
- "dmg-norm": {
-  "expansion": 1,
-  "code": "dmg-norm",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "mindamage",
-  "func2": 16,
-  "stat2": "maxdamage",
-  "*desc": "Normal Damage Modifier",
-  "*min": "Min",
-  "*max": "Max"
- },
- "ac/lvl": {
-  "expansion": 1,
-  "code": "ac/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_armor_perlevel",
-  "*desc": "AC per Player Level",
-  "*param": "ac/lvl (8ths)"
- },
- "ac%/lvl": {
-  "expansion": 1,
-  "code": "ac%/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_armorpercent_perlevel",
-  "*desc": "AC% per Player Level",
-  "*param": "ac%/lvl (8ths)"
- },
- "hp/lvl": {
-  "expansion": 1,
-  "code": "hp/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_hp_perlevel",
-  "*desc": "HP per Player Level",
-  "*param": "hp/lvl (8ths)"
- },
- "mana/lvl": {
-  "expansion": 1,
-  "code": "mana/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_mana_perlevel",
-  "*desc": "Mana per Player Level",
-  "*param": "(8ths)"
- },
- "dmg/lvl": {
-  "expansion": 1,
-  "code": "dmg/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_maxdamage_perlevel",
-  "*desc": "Max Damage per Player Level",
-  "*param": "(8ths)"
- },
- "dmg%/lvl": {
-  "expansion": 1,
-  "code": "dmg%/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_maxdamage_percent_perlevel",
-  "*desc": "Max Damage % per Player Level",
-  "*param": "(8ths)"
- },
- "str/lvl": {
-  "expansion": 1,
-  "code": "str/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_strength_perlevel",
-  "*desc": "Strength per Player Level",
-  "*param": "(8ths)"
- },
- "dex/lvl": {
-  "expansion": 1,
-  "code": "dex/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_dexterity_perlevel",
-  "*desc": "Dexterity per Player Level",
-  "*param": "(8ths)"
- },
- "enr/lvl": {
-  "expansion": 1,
-  "code": "enr/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_energy_perlevel",
-  "*desc": "Energy per Player Level",
-  "*param": "(8ths)"
- },
- "vit/lvl": {
-  "expansion": 1,
-  "code": "vit/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_vitality_perlevel",
-  "*desc": "Vitality per Player Level",
-  "*param": "(8ths)"
- },
- "att/lvl": {
-  "expansion": 1,
-  "code": "att/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_tohit_perlevel",
-  "*desc": "Attack per Player Level",
-  "*param": "att/lvl (1)"
- },
- "att%/lvl": {
-  "expansion": 1,
-  "code": "att%/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_tohitpercent_perlevel",
-  "*desc": "Attack% per Player Level",
-  "*param": "att%/lvl (8ths)"
- },
- "dmg-cold/lvl": {
-  "expansion": 1,
-  "code": "dmg-cold/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_cold_damagemax_perlevel",
-  "*desc": "Max Cold Damage per Player Level",
-  "*param": "(8ths)"
- },
- "dmg-fire/lvl": {
-  "expansion": 1,
-  "code": "dmg-fire/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_fire_damagemax_perlevel",
-  "*desc": "Max Fire Damage per Player Level",
-  "*param": "(8ths)"
- },
- "dmg-ltng/lvl": {
-  "expansion": 1,
-  "code": "dmg-ltng/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_ltng_damagemax_perlevel",
-  "*desc": "Max Lightning Dmg per Player Level",
-  "*param": "(8ths)"
- },
- "dmg-pois/lvl": {
-  "expansion": 1,
-  "code": "dmg-pois/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_pois_damagemax_perlevel",
-  "*desc": "Max Poison Dmg per Player Level",
-  "*param": "(8ths)"
- },
- "res-cold/lvl": {
-  "expansion": 1,
-  "code": "res-cold/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_resist_cold_perlevel",
-  "*desc": "Resist Cold% per Player Level",
-  "*param": "(8ths)"
- },
- "res-fire/lvl": {
-  "expansion": 1,
-  "code": "res-fire/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_resist_fire_perlevel",
-  "*desc": "Resist Fire% per Player Level",
-  "*param": "(8ths)"
- },
- "res-ltng/lvl": {
-  "expansion": 1,
-  "code": "res-ltng/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_resist_ltng_perlevel",
-  "*desc": "Resist Lightning% per Player Level",
-  "*param": "(8ths)"
- },
- "res-pois/lvl": {
-  "expansion": 1,
-  "code": "res-pois/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_resist_pois_perlevel",
-  "*desc": "Resist Poison% per Player Level",
-  "*param": "(8ths)"
- },
- "abs-cold/lvl": {
-  "expansion": 1,
-  "code": "abs-cold/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_absorb_cold_perlevel",
-  "*desc": "Absorb Cold Dmg per Player Level",
-  "*param": "(8ths)"
- },
- "abs-fire/lvl": {
-  "expansion": 1,
-  "code": "abs-fire/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_absorb_fire_perlevel",
-  "*desc": "Absorb Fire Dmg per Player Level",
-  "*param": "(8ths)"
- },
- "abs-ltng/lvl": {
-  "expansion": 1,
-  "code": "abs-ltng/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_absorb_ltng_perlevel",
-  "*desc": "Absorb Lightning Dmg per Player Lvl",
-  "*param": "(8ths)"
- },
- "abs-pois/lvl": {
-  "expansion": 1,
-  "code": "abs-pois/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_absorb_pois_perlevel",
-  "*desc": "Absorb Poison Dmg per Player Lvl",
-  "*param": "(8ths)"
+  "stat1": "item_attackertakesdamage"
  },
  "thorns/lvl": {
   "expansion": 1,
@@ -1153,362 +2125,32 @@
   "*desc": "Damage to Attacker per Player Lvl",
   "*param": "(8ths)"
  },
- "gold%/lvl": {
-  "expansion": 1,
-  "code": "gold%/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_find_gold_perlevel",
-  "*desc": "+% Gold Dropped per Player Lvl",
-  "*param": "(8ths)"
- },
- "mag%/lvl": {
-  "expansion": 1,
-  "code": "mag%/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_find_magic_perlevel",
-  "*desc": "+% Magical per Player Lvl",
-  "*param": "(8ths)"
- },
- "regen-stam/lvl": {
-  "expansion": 1,
-  "code": "regen-stam/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_regenstamina_perlevel",
-  "*desc": "+% Stamina Regeneration per Player Lvl",
-  "*param": "(8ths)"
- },
- "stam/lvl": {
-  "expansion": 1,
-  "code": "stam/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_stamina_perlevel",
-  "*desc": "Stamina per Player Level",
-  "*param": "(8ths)"
- },
- "dmg-dem/lvl": {
-  "expansion": 1,
-  "code": "dmg-dem/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_damage_demon_perlevel",
-  "*desc": "Damage to Demons % per Player Level",
-  "*param": "(8ths)"
- },
- "dmg-und/lvl": {
-  "expansion": 1,
-  "code": "dmg-und/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_damage_undead_perlevel",
-  "*desc": "Damage to Undead % per Player Level",
-  "*param": "(8ths)"
- },
- "att-dem/lvl": {
-  "expansion": 1,
-  "code": "att-dem/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_tohit_demon_perlevel",
-  "*desc": "Attack Demons + per Player Level",
-  "*param": "att/lvl (1)"
- },
- "att-und/lvl": {
-  "expansion": 1,
-  "code": "att-und/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_tohit_undead_perlevel",
-  "*desc": "Attack Undead + per Player Level",
-  "*param": "att/lvl (1)"
- },
- "crush/lvl": {
-  "expansion": 1,
-  "code": "crush/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_crushingblow_perlevel",
-  "*desc": "+% Chance of Crushing Blow per Player Level",
-  "*param": "(8ths)"
- },
- "wounds/lvl": {
-  "expansion": 1,
-  "code": "wounds/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_openwounds_perlevel",
-  "*desc": "+% Chance of Open Wounds per Player Level",
-  "*param": "(8ths)"
- },
- "kick/lvl": {
-  "expansion": 1,
-  "code": "kick/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_kick_damage_perlevel",
-  "*desc": "Kick Damage per Player Level",
-  "*param": "(8ths)"
- },
- "deadly/lvl": {
-  "expansion": 1,
-  "code": "deadly/lvl",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_deadlystrike_perlevel",
-  "*desc": "+% Chance of Deadly Strike per Player Level",
-  "*param": "(8ths)"
- },
- "gems%/lvl": {
-  "expansion": 1,
-  "code": "gems%/lvl",
-  "*desc": "+% Chance of finding Gems per Player Level",
-  "*param": "(8ths)"
- },
- "rep-dur": {
-  "expansion": 1,
-  "code": "rep-dur",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_replenish_durability",
-  "*desc": "regenerates durability",
-  "*param": "speed (see note)",
-  "*notes": "regenerates 1 durability point per 100/lvl seconds"
- },
- "rep-quant": {
-  "expansion": 1,
-  "code": "rep-quant",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "item_replenish_quantity",
-  "*desc": "regenerates quantity",
-  "*param": "speed (see note)",
-  "*notes": "regenerates 1 quantity per 100/lvl seconds"
- },
- "stack": {
-  "expansion": 1,
-  "code": "stack",
+ "throw": {
+  "code": "throw",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_extra_stack",
-  "*desc": "Increased stack size",
-  "*min": "min count",
-  "*max": "max count"
+  "stat1": "item_throwable"
  },
- "item%": {
-  "expansion": 1,
-  "code": "item%",
-  "*desc": "+% Chance of finding item",
-  "*param": "item type",
-  "*min": "min chance",
-  "*max": "max chance",
-  "*notes": "random chance from min to max is assigned to item"
- },
- "dmg-slash": {
-  "expansion": 1,
-  "code": "dmg-slash",
-  "*desc": "Slashing Damage",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "dmg-slash%": {
-  "expansion": 1,
-  "code": "dmg-slash%",
-  "*desc": "Slashing Damage %",
-  "*min": "min %",
-  "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "dmg-crush": {
-  "expansion": 1,
-  "code": "dmg-crush",
-  "*desc": "Crush Damage",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "dmg-crush%": {
-  "expansion": 1,
-  "code": "dmg-crush%",
-  "*desc": "Crush Damage %",
-  "*min": "min %",
-  "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "dmg-thrust": {
-  "expansion": 1,
-  "code": "dmg-thrust",
-  "*desc": "Thrust Damage",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "dmg-thrust%": {
-  "expansion": 1,
-  "code": "dmg-thrust%",
-  "*desc": "Thrust Damage %",
-  "*min": "min %",
-  "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "abs-slash": {
-  "expansion": 1,
-  "code": "abs-slash",
-  "*desc": "Absorb Slashing Damage",
-  "*min": "min amt",
-  "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "abs-crush": {
-  "expansion": 1,
-  "code": "abs-crush",
-  "*desc": "Absorb Crushing Damage",
-  "*min": "min amt",
-  "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "abs-thrust": {
-  "expansion": 1,
-  "code": "abs-thrust",
-  "*desc": "Absorb Thrusting Damage",
-  "*min": "min amt",
-  "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "abs-slash%": {
-  "expansion": 1,
-  "code": "abs-slash%",
-  "*desc": "Absorb Slashing Damage %",
-  "*min": "min %",
-  "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "abs-crush%": {
-  "expansion": 1,
-  "code": "abs-crush%",
-  "*desc": "Absorb Crushing Damage %",
-  "*min": "min %",
-  "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "abs-thrust%": {
-  "expansion": 1,
-  "code": "abs-thrust%",
-  "*desc": "Absorb Thrusting Damage %",
-  "*min": "min %",
-  "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
- },
- "ac/time": {
-  "expansion": 1,
-  "code": "ac/time",
+ "time": {
+  "code": "time",
   "*done": 1,
-  "func1": 18,
-  "stat1": "item_armor_bytime",
-  "*desc": "\"AC / time increment (0=day, 1=dusk, 2=night, 3=dawn)\"",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "func1": 1,
+  "stat1": "item_timeduration"
  },
- "ac%/time": {
-  "expansion": 1,
-  "code": "ac%/time",
+ "vit": {
+  "code": "vit",
   "*done": 1,
-  "func1": 18,
-  "stat1": "item_armorpercent_bytime",
-  "*desc": "AC% / time increment (8 periods)",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "func1": 1,
+  "stat1": "vitality"
  },
- "hp/time": {
+ "vit/lvl": {
   "expansion": 1,
-  "code": "hp/time",
+  "code": "vit/lvl",
   "*done": 1,
-  "func1": 18,
-  "stat1": "item_hp_bytime",
-  "*desc": "HP / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "mana/time": {
-  "expansion": 1,
-  "code": "mana/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_mana_bytime",
-  "*desc": "Mana / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg/time": {
-  "expansion": 1,
-  "code": "dmg/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_maxdamage_bytime",
-  "*desc": "Max Damage / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg%/time": {
-  "expansion": 1,
-  "code": "dmg%/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_maxdamage_percent_bytime",
-  "*desc": "Max Damage % / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "str/time": {
-  "expansion": 1,
-  "code": "str/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_strength_bytime",
-  "*desc": "Strength / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dex/time": {
-  "expansion": 1,
-  "code": "dex/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_dexterity_bytime",
-  "*desc": "Dexterity / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "enr/time": {
-  "expansion": 1,
-  "code": "enr/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_energy_bytime",
-  "*desc": "Energy / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "func1": 17,
+  "stat1": "item_vitality_perlevel",
+  "*desc": "Vitality per Player Level",
+  "*param": "(8ths)"
  },
  "vit/time": {
   "expansion": 1,
@@ -1522,281 +2164,14 @@
   "*max": "max",
   "*notes": "\"max at center period, min at opposite period, linear progression\""
  },
- "att/time": {
+ "wounds/lvl": {
   "expansion": 1,
-  "code": "att/time",
+  "code": "wounds/lvl",
   "*done": 1,
-  "func1": 18,
-  "stat1": "item_tohit_bytime",
-  "*desc": "To hit / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "att%/time": {
-  "expansion": 1,
-  "code": "att%/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_tohitpercent_bytime",
-  "*desc": "To Hit % / time increment",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg-cold/time": {
-  "expansion": 1,
-  "code": "dmg-cold/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_cold_damagemax_bytime",
-  "*desc": "Cold Damage Max / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg-fire/time": {
-  "expansion": 1,
-  "code": "dmg-fire/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_fire_damagemax_bytime",
-  "*desc": "Fire Damage Max / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg-ltng/time": {
-  "expansion": 1,
-  "code": "dmg-ltng/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_ltng_damagemax_bytime",
-  "*desc": "Lightning Damage Max / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg-pois/time": {
-  "expansion": 1,
-  "code": "dmg-pois/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_pois_damagemax_bytime",
-  "*desc": "Poison Damage Max / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "res-cold/time": {
-  "expansion": 1,
-  "code": "res-cold/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_resist_cold_bytime",
-  "*desc": "Resist Cold / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "res-fire/time": {
-  "expansion": 1,
-  "code": "res-fire/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_resist_fire_bytime",
-  "*desc": "Resist Fire / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "res-ltng/time": {
-  "expansion": 1,
-  "code": "res-ltng/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_resist_ltng_bytime",
-  "*desc": "Resist Lightning / time inc",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "res-pois/time": {
-  "expansion": 1,
-  "code": "res-pois/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_resist_pois_bytime",
-  "*desc": "Resist Poison / time inc",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "abs-cold/time": {
-  "expansion": 1,
-  "code": "abs-cold/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_absorb_cold_bytime",
-  "*desc": "Absorb Cold / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "abs-fire/time": {
-  "expansion": 1,
-  "code": "abs-fire/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_absorb_fire_bytime",
-  "*desc": "Absorb Fire / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "abs-ltng/time": {
-  "expansion": 1,
-  "code": "abs-ltng/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_absorb_ltng_bytime",
-  "*desc": "Absorb Lightning / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "abs-pois/time": {
-  "expansion": 1,
-  "code": "abs-pois/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_absorb_pois_bytime",
-  "*desc": "Absorb Poison / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "gold%/time": {
-  "expansion": 1,
-  "code": "gold%/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_find_gold_bytime",
-  "*desc": "Find Gold Amt % / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "mag%/time": {
-  "expansion": 1,
-  "code": "mag%/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_find_magic_bytime",
-  "*desc": "Find Magic % / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "regen-stam/time": {
-  "expansion": 1,
-  "code": "regen-stam/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_regenstamina_bytime",
-  "*desc": "% / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "stam/time": {
-  "expansion": 1,
-  "code": "stam/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_stamina_bytime",
-  "*desc": "Stamina / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg-dem/time": {
-  "expansion": 1,
-  "code": "dmg-dem/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_damage_demon_bytime",
-  "*desc": "Damage to Demons % / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "dmg-und/time": {
-  "expansion": 1,
-  "code": "dmg-und/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_damage_undead_bytime",
-  "*desc": "Damage to Undead % / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "att-dem/time": {
-  "expansion": 1,
-  "code": "att-dem/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_tohit_demon_bytime",
-  "*desc": "To Hit Demons % / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "att-und/time": {
-  "expansion": 1,
-  "code": "att-und/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_tohit_undead_bytime",
-  "*desc": "To Hit Undead % / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "crush/time": {
-  "expansion": 1,
-  "code": "crush/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_crushingblow_bytime",
-  "*desc": "% chance of Crushing Blow / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "func1": 17,
+  "stat1": "item_openwounds_perlevel",
+  "*desc": "+% Chance of Open Wounds per Player Level",
+  "*param": "(8ths)"
  },
  "wounds/time": {
   "expansion": 1,
@@ -1809,380 +2184,5 @@
   "*min": "min",
   "*max": "max",
   "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "kick/time": {
-  "expansion": 1,
-  "code": "kick/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_kick_damage_bytime",
-  "*desc": "Kick Damage / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "deadly/time": {
-  "expansion": 1,
-  "code": "deadly/time",
-  "*done": 1,
-  "func1": 18,
-  "stat1": "item_deadlystrike_bytime",
-  "*desc": "+% chance of Deadly Strike / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "gems%/time": {
-  "expansion": 1,
-  "code": "gems%/time",
-  "*desc": "+% chance of finding Gems / time inc.",
-  "*param": "center period",
-  "*min": "min",
-  "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
- },
- "pierce-fire": {
-  "expansion": 1,
-  "code": "pierce-fire",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_fire_pierce",
-  "*desc": "Negates % of Enemy Cold Resistance",
-  "*min": "min",
-  "*max": "max"
- },
- "pierce-ltng": {
-  "expansion": 1,
-  "code": "pierce-ltng",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_ltng_pierce",
-  "*desc": "Negates % of Enemy Fire Resistance",
-  "*min": "min",
-  "*max": "max"
- },
- "pierce-cold": {
-  "expansion": 1,
-  "code": "pierce-cold",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_cold_pierce",
-  "*desc": "Negates % of Enemy Lightning Resistance",
-  "*min": "min",
-  "*max": "max"
- },
- "pierce-pois": {
-  "expansion": 1,
-  "code": "pierce-pois",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_pois_pierce",
-  "*desc": "Negates % of Enemy Poison Resistance",
-  "*min": "min",
-  "*max": "max"
- },
- "dmg-mon": {
-  "expansion": 1,
-  "code": "dmg-mon",
-  "*desc": "Damage vs. specific Monster Type",
-  "*param": "monster",
-  "*min": "min",
-  "*max": "max"
- },
- "dmg%-mon": {
-  "expansion": 1,
-  "code": "dmg%-mon",
-  "*desc": "Damage % vs. specific Monster Type",
-  "*param": "monster",
-  "*min": "min",
-  "*max": "max"
- },
- "att-mon": {
-  "expansion": 1,
-  "code": "att-mon",
-  "*desc": "To Hit vs. specific Monster Type",
-  "*param": "monster",
-  "*min": "min",
-  "*max": "max"
- },
- "att%-mon": {
-  "expansion": 1,
-  "code": "att%-mon",
-  "*desc": "To Hit % vs. specific Monster Type",
-  "*param": "monster",
-  "*min": "min",
-  "*max": "max"
- },
- "ac-mon": {
-  "expansion": 1,
-  "code": "ac-mon",
-  "*desc": "AC vs. specific Monster Type",
-  "*param": "monster",
-  "*min": "min",
-  "*max": "max"
- },
- "ac%-mon": {
-  "expansion": 1,
-  "code": "ac%-mon",
-  "*desc": "AC% vs. specific Monster Type",
-  "*param": "monster",
-  "*min": "min",
-  "*max": "max"
- },
- "indestruct": {
-  "expansion": 1,
-  "code": "indestruct",
-  "*done": 1,
-  "func1": 20,
-  "*desc": "Indestructible"
- },
- "charged": {
-  "expansion": 1,
-  "code": "charged",
-  "*done": 1,
-  "func1": 19,
-  "stat1": "item_charged_skill",
-  "*desc": "Charged Skill",
-  "*param": "skill",
-  "*min": "charges",
-  "*max": "level"
- },
- "extra-fire": {
-  "expansion": 1,
-  "code": "extra-fire",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_fire_mastery"
- },
- "extra-ltng": {
-  "expansion": 1,
-  "code": "extra-ltng",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_ltng_mastery"
- },
- "extra-cold": {
-  "expansion": 1,
-  "code": "extra-cold",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_cold_mastery"
- },
- "extra-pois": {
-  "expansion": 1,
-  "code": "extra-pois",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "passive_pois_mastery"
- },
- "dmg-elem": {
-  "expansion": 1,
-  "code": "dmg-elem",
-  "*done": 1,
-  "func1": 15,
-  "stat1": "firemindam",
-  "func2": 16,
-  "stat2": "firemaxdam",
-  "func3": 15,
-  "stat3": "lightmindam",
-  "func4": 16,
-  "stat4": "lightmaxdam",
-  "func5": 15,
-  "stat5": "coldmindam",
-  "func6": 16,
-  "stat6": "coldmaxdam",
-  "func7": 17,
-  "stat7": "coldlength"
- },
- "dmg-elem-min": {
-  "expansion": 1,
-  "code": "dmg-elem-min",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "firemindam",
-  "func2": 3,
-  "stat2": "lightmindam",
-  "func3": 3,
-  "stat3": "coldmindam"
- },
- "dmg-elem-max": {
-  "expansion": 1,
-  "code": "dmg-elem-max",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "firemaxdam",
-  "func2": 3,
-  "stat2": "lightmaxdam",
-  "func3": 3,
-  "stat3": "coldmaxdam",
-  "func4": 17,
-  "stat4": "coldlength"
- },
- "all-stats": {
-  "expansion": 1,
-  "code": "all-stats",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "strength",
-  "func2": 3,
-  "stat2": "energy",
-  "func3": 3,
-  "stat3": "dexterity",
-  "func4": 3,
-  "stat4": "vitality"
- },
- "addxp": {
-  "expansion": 1,
-  "code": "addxp",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_addexperience",
-  "*desc": "additional xp gain"
- },
- "heal-kill": {
-  "expansion": 1,
-  "code": "heal-kill",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_healafterkill",
-  "*desc": "life gained after each kill"
- },
- "cheap": {
-  "expansion": 1,
-  "code": "cheap",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_reducedprices",
-  "*desc": "reduces vendor prices",
-  "*min": "min",
-  "*max": "max"
- },
- "rip": {
-  "expansion": 1,
-  "code": "rip",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_restinpeace",
-  "*desc": "slain monsters' corpses can't be used",
-  "*min": 1,
-  "*max": 1
- },
- "att-mon%": {
-  "expansion": 1,
-  "code": "att-mon%",
-  "*done": 1,
-  "func1": 24,
-  "stat1": "attack_vs_montype",
-  "*desc": "attack% vs. monster type",
-  "*param": "mon type",
-  "*min": "min",
-  "*max": "max"
- },
- "dmg-mon%": {
-  "expansion": 1,
-  "code": "dmg-mon%",
-  "*done": 1,
-  "func1": 24,
-  "stat1": "damage_vs_montype",
-  "*desc": "damage% vs. monster type",
-  "*param": "mon type",
-  "*min": "min",
-  "*max": "max"
- },
- "kill-skill": {
-  "expansion": 1,
-  "code": "kill-skill",
-  "*done": 1,
-  "func1": 11,
-  "stat1": "item_skillonkill",
-  "*desc": "Proc Skill on killing something",
-  "*param": "Skill #",
-  "*min": "% Chance",
-  "*max": "Level"
- },
- "death-skill": {
-  "expansion": 1,
-  "code": "death-skill",
-  "*done": 1,
-  "func1": 11,
-  "stat1": "item_skillondeath",
-  "*desc": "Proc Skill on getting killed",
-  "*param": "Skill #",
-  "*min": "% Chance",
-  "*max": "Level"
- },
- "levelup-skill": {
-  "expansion": 1,
-  "code": "levelup-skill",
-  "*done": 1,
-  "func1": 11,
-  "stat1": "item_skillonlevelup",
-  "*desc": "Proc Skill on level up",
-  "*param": "Skill #",
-  "*min": "% Chance",
-  "*max": "Level"
- },
- "skill-rand": {
-  "expansion": 1,
-  "code": "skill-rand",
-  "*done": 1,
-  "func1": 12,
-  "stat1": "item_singleskill",
-  "*desc": "Bonus to random skill",
-  "*param": "Level",
-  "*min": "min Skill #",
-  "*max": "max Skill #"
- },
- "fade": {
-  "expansion": 1,
-  "code": "fade",
-  "*done": 1,
-  "func1": 17,
-  "stat1": "fade",
-  "*desc": "only use on monprop",
-  "*param": "fade type"
- },
- "levelreq": {
-  "expansion": 1,
-  "code": "levelreq",
-  "*done": 1,
-  "func1": 1,
-  "stat1": "item_levelreq"
- },
- "ethereal": {
-  "expansion": 1,
-  "code": "ethereal",
-  "*done": 1,
-  "func1": 23
- },
- "oskill": {
-  "expansion": 1,
-  "code": "oskill",
-  "*done": 1,
-  "func1": 22,
-  "stat1": "item_nonclassskill",
-  "*param": "Skill",
-  "*min": "min level",
-  "*max": "max level"
- },
- "state": {
-  "expansion": 1,
-  "code": "state",
-  "*done": 1,
-  "func1": 24,
-  "stat1": "state",
-  "*param": "state",
-  "*min": 1,
-  "*max": 1
- },
- "randclassskill": {
-  "expansion": 1,
-  "code": "randclassskill",
-  "*done": 1,
-  "val1": 3,
-  "func1": 36,
-  "stat1": "item_addclassskills"
  }
 }
