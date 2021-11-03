@@ -2,101 +2,121 @@
  "A1": {
   "Name": "Attack1",
   "Token": "A1",
-  "Code": "A1"
+  "Code": "A1",
+  "lineNumber": 7
  },
  "A2": {
   "Name": "Attack2",
   "Token": "A2",
-  "Code": "A2"
+  "Code": "A2",
+  "lineNumber": 8
  },
  "BL": {
   "Name": "Block",
   "Token": "BL",
-  "Code": "BL"
+  "Code": "BL",
+  "lineNumber": 9
  },
  "DD": {
   "Name": "Dead",
   "Token": "DD",
-  "Code": "DD"
+  "Code": "DD",
+  "lineNumber": 17
  },
  "DT": {
   "Name": "Death",
   "Token": "DT",
-  "Code": "DT"
+  "Code": "DT",
+  "lineNumber": 0
  },
  "GH": {
   "Name": "Get Hit",
   "Token": "GH",
-  "Code": "GH"
+  "Code": "GH",
+  "lineNumber": 4
  },
  "KB": {
   "Name": "Knock back",
   "Token": "GH",
-  "Code": "KB"
+  "Code": "KB",
+  "lineNumber": 19
  },
  "KK": {
   "Name": "Kick",
   "Token": "KK",
-  "Code": "KK"
+  "Code": "KK",
+  "lineNumber": 12
  },
  "NU": {
   "Name": "Neutral",
   "Token": "NU",
-  "Code": "NU"
+  "Code": "NU",
+  "lineNumber": 1
  },
  "RN": {
   "Name": "Run",
   "Token": "RN",
-  "Code": "RN"
+  "Code": "RN",
+  "lineNumber": 3
  },
  "S1": {
   "Name": "Skill1",
   "Token": "S1",
-  "Code": "S1"
+  "Code": "S1",
+  "lineNumber": 13
  },
  "S2": {
   "Name": "Skill2",
   "Token": "S2",
-  "Code": "S2"
+  "Code": "S2",
+  "lineNumber": 14
  },
  "S3": {
   "Name": "Skill3",
   "Token": "S3",
-  "Code": "S3"
+  "Code": "S3",
+  "lineNumber": 15
  },
  "S4": {
   "Name": "Skill4",
   "Token": "S4",
-  "Code": "S4"
+  "Code": "S4",
+  "lineNumber": 16
  },
  "SC": {
   "Name": "Cast",
   "Token": "SC",
-  "Code": "SC"
+  "Code": "SC",
+  "lineNumber": 10
  },
  "SQ": {
   "Name": "Sequence",
   "Token": "GH",
-  "Code": "SQ"
+  "Code": "SQ",
+  "lineNumber": 18
  },
  "TH": {
   "Name": "Throw",
   "Token": "TH",
-  "Code": "TH"
+  "Code": "TH",
+  "lineNumber": 11
  },
  "TN": {
   "Name": "Town Neutral",
   "Token": "TN",
-  "Code": "TN"
+  "Code": "TN",
+  "lineNumber": 5
  },
  "TW": {
   "Name": "Town Walk",
   "Token": "TW",
-  "Code": "TW"
+  "Code": "TW",
+  "lineNumber": 6
  },
  "WL": {
   "Name": "Walk",
   "Token": "WL",
-  "Code": "WL"
+  "Code": "WL",
+  "lineNumber": 2
  }
 }

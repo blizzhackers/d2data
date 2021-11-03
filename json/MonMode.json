@@ -2,81 +2,97 @@
  "A1": {
   "name": "attack1",
   "token": "A1",
-  "code": "A1"
+  "code": "A1",
+  "lineNumber": 4
  },
  "A2": {
   "name": "attack2",
   "token": "A2",
-  "code": "A2"
+  "code": "A2",
+  "lineNumber": 5
  },
  "BL": {
   "name": "block",
   "token": "BL",
-  "code": "BL"
+  "code": "BL",
+  "lineNumber": 6
  },
  "DD": {
   "name": "dead",
   "token": "DD",
-  "code": "DD"
+  "code": "DD",
+  "lineNumber": 12
  },
  "DT": {
   "name": "death",
   "token": "DT",
-  "code": "DT"
+  "code": "DT",
+  "lineNumber": 0
  },
  "GH": {
   "name": "gethit",
   "token": "GH",
-  "code": "GH"
+  "code": "GH",
+  "lineNumber": 3
  },
  "KB": {
   "name": "knockback",
   "token": "GH",
-  "code": "KB"
+  "code": "KB",
+  "lineNumber": 13
  },
  "NU": {
   "name": "neutral",
   "token": "NU",
-  "code": "NU"
+  "code": "NU",
+  "lineNumber": 1
  },
  "RN": {
   "name": "run",
   "token": "RN",
-  "code": "RN"
+  "code": "RN",
+  "lineNumber": 15
  },
  "S1": {
   "name": "skill1",
   "token": "S1",
-  "code": "S1"
+  "code": "S1",
+  "lineNumber": 8
  },
  "S2": {
   "name": "skill2",
   "token": "S2",
-  "code": "S2"
+  "code": "S2",
+  "lineNumber": 9
  },
  "S3": {
   "name": "skill3",
   "token": "S3",
-  "code": "S3"
+  "code": "S3",
+  "lineNumber": 10
  },
  "S4": {
   "name": "skill4",
   "token": "S4",
-  "code": "S4"
+  "code": "S4",
+  "lineNumber": 11
  },
  "SC": {
   "name": "cast",
   "token": "SC",
-  "code": "SC"
+  "code": "SC",
+  "lineNumber": 7
  },
  "WL": {
   "name": "walk",
   "token": "WL",
-  "code": "WL"
+  "code": "WL",
+  "lineNumber": 2
  },
  "xx": {
   "name": "sequence",
   "token": "xx",
-  "code": "xx"
+  "code": "xx",
+  "lineNumber": 14
  }
 }

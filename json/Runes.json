@@ -1,7 +1,8 @@
 {
  "Amity": {
   "Name": "Runeword43",
-  "Rune Name": "Amity"
+  "Rune Name": "Amity",
+  "lineNumber": 71
  },
  "Ancient's Pledge": {
   "Name": "Runeword1",
@@ -22,19 +23,23 @@
   "T1Max3": 50,
   "T1Code4": "dmg-to-mana",
   "T1Min4": 10,
-  "T1Max4": 10
+  "T1Max4": 10,
+  "lineNumber": 0
  },
  "Armageddon": {
   "Name": "Runeword2",
-  "Rune Name": "Armageddon"
+  "Rune Name": "Armageddon",
+  "lineNumber": 72
  },
  "Authority": {
   "Name": "Runeword3",
-  "Rune Name": "Authority"
+  "Rune Name": "Authority",
+  "lineNumber": 73
  },
  "Beauty": {
   "Name": "Runeword5",
-  "Rune Name": "Beauty"
+  "Rune Name": "Beauty",
+  "lineNumber": 74
  },
  "Black": {
   "Name": "Runeword6",
@@ -64,12 +69,14 @@
   "T1Code6": "charged",
   "T1Param6": 74,
   "T1Min6": 12,
-  "T1Max6": 4
+  "T1Max6": 4,
+  "lineNumber": 1
  },
  "Blood": {
   "Name": "Runeword7",
   "Rune Name": "Blood",
-  "itype1": "helm"
+  "itype1": "helm",
+  "lineNumber": 75
  },
  "Bone": {
   "Name": "Runeword8",
@@ -93,7 +100,8 @@
   "T1Max3": 2,
   "T1Code4": "mana",
   "T1Min4": 100,
-  "T1Max4": 150
+  "T1Max4": 150,
+  "lineNumber": 76
  },
  "Bound by Duty": {
   "Name": "Runeword14",
@@ -125,7 +133,8 @@
   "T1Max6": 2,
   "T1Code7": "str",
   "T1Min7": 20,
-  "T1Max7": 20
+  "T1Max7": 20,
+  "lineNumber": 24
  },
  "Bramble": {
   "Name": "Runeword9",
@@ -159,7 +168,8 @@
   "T1Code7": "charged",
   "T1Param7": "Spirit of Barbs",
   "T1Min7": 33,
-  "T1Max7": 13
+  "T1Max7": 13,
+  "lineNumber": 25
  },
  "Brand": {
   "Name": "Runeword10",
@@ -194,7 +204,8 @@
   "T1Max6": 1,
   "T1Code7": "explosivearrow",
   "T1Min7": 15,
-  "T1Max7": 15
+  "T1Max7": 15,
+  "lineNumber": 77
  },
  "Breath of the Dying": {
   "Name": "Runeword11",
@@ -229,11 +240,13 @@
   "T1Max6": 400,
   "T1Code7": "all-stats",
   "T1Min7": 30,
-  "T1Max7": 30
+  "T1Max7": 30,
+  "lineNumber": 26
  },
  "Broken Promise": {
   "Name": "Runeword12",
-  "Rune Name": "Broken Promise"
+  "Rune Name": "Broken Promise",
+  "lineNumber": 78
  },
  "Call to Arms": {
   "Name": "Runeword13",
@@ -269,11 +282,13 @@
   "T1Max6": 4,
   "T1Code7": "regen",
   "T1Min7": 12,
-  "T1Max7": 12
+  "T1Max7": 12,
+  "lineNumber": 27
  },
  "Chance": {
   "Name": "Runeword15",
-  "Rune Name": "Chance"
+  "Rune Name": "Chance",
+  "lineNumber": 79
  },
  "Chaos": {
   "Name": "Runeword16",
@@ -307,7 +322,8 @@
   "T1Code7": "hit-skill",
   "T1Param7": "Charged Bolt",
   "T1Min7": 11,
-  "T1Max7": 9
+  "T1Max7": 9,
+  "lineNumber": 42
  },
  "Crescent Moon": {
   "Name": "Runeword17",
@@ -343,15 +359,18 @@
   "T1Code7": "hit-skill",
   "T1Param7": "Chain Lightning",
   "T1Min7": 10,
-  "T1Max7": 17
+  "T1Max7": 17,
+  "lineNumber": 28
  },
  "Darkness": {
   "Name": "Runeword18",
-  "Rune Name": "Darkness"
+  "Rune Name": "Darkness",
+  "lineNumber": 81
  },
  "Daylight": {
   "Name": "Runeword19",
-  "Rune Name": "Daylight"
+  "Rune Name": "Daylight",
+  "lineNumber": 82
  },
  "Death": {
   "Name": "Runeword20",
@@ -388,11 +407,13 @@
   "T1Max6": 50,
   "T1Code7": "indestruct",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 83
  },
  "Deception": {
   "Name": "Runeword21",
-  "Rune Name": "Deception"
+  "Rune Name": "Deception",
+  "lineNumber": 84
  },
  "Delirium": {
   "Name": "Runeword22",
@@ -428,19 +449,23 @@
   "T1Max6": 50,
   "T1Code7": "allskills",
   "T1Min7": 2,
-  "T1Max7": 2
+  "T1Max7": 2,
+  "lineNumber": 29
  },
  "Desire": {
   "Name": "Runeword23",
-  "Rune Name": "Desire"
+  "Rune Name": "Desire",
+  "lineNumber": 85
  },
  "Despair": {
   "Name": "Runeword24",
-  "Rune Name": "Despair"
+  "Rune Name": "Despair",
+  "lineNumber": 86
  },
  "Destiny's Daughter": {
   "Name": "Runeword32",
-  "Rune Name": "Destiny's Daughter"
+  "Rune Name": "Destiny's Daughter",
+  "lineNumber": 87
  },
  "Destruction": {
   "Name": "Runeword25",
@@ -479,7 +504,8 @@
   "T1Max6": 12,
   "T1Code7": "noheal",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 88
  },
  "Doomsayer": {
   "Name": "Runeword26",
@@ -516,7 +542,8 @@
   "T1Code7": "hit-skill",
   "T1Param7": "Volcano",
   "T1Min7": 5,
-  "T1Max7": 18
+  "T1Max7": 18,
+  "lineNumber": 30
  },
  "Dragon": {
   "Name": "Runeword27",
@@ -551,11 +578,13 @@
   "T1Max6": 14,
   "T1Code7": "all-stats",
   "T1Min7": 3,
-  "T1Max7": 5
+  "T1Max7": 5,
+  "lineNumber": 89
  },
  "Dread": {
   "Name": "Runeword28",
-  "Rune Name": "Dread"
+  "Rune Name": "Dread",
+  "lineNumber": 90
  },
  "Dream": {
   "Name": "Runeword29",
@@ -589,7 +618,8 @@
   "T1Max6": 15,
   "T1Code7": "mag%",
   "T1Min7": 12,
-  "T1Max7": 25
+  "T1Max7": 25,
+  "lineNumber": 91
  },
  "Duress": {
   "Name": "Runeword30",
@@ -621,11 +651,13 @@
   "T1Max6": 15,
   "T1Code7": "stamdrain",
   "T1Min7": -20,
-  "T1Max7": -20
+  "T1Max7": -20,
+  "lineNumber": 53
  },
  "Dweomer": {
   "Name": "Runeword56",
-  "Rune Name": "Dweomer"
+  "Rune Name": "Dweomer",
+  "lineNumber": 92
  },
  "Edge": {
   "Name": "Runeword31",
@@ -658,7 +690,8 @@
   "T1Max6": 10,
   "T1Code7": "cheap",
   "T1Min7": 15,
-  "T1Max7": 15
+  "T1Max7": 15,
+  "lineNumber": 93
  },
  "Enigma": {
   "Name": "Runeword33",
@@ -688,7 +721,8 @@
   "T1Code7": "oskill",
   "T1Param7": "Teleport",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 31
  },
  "Enlightenment": {
   "Name": "Runeword34",
@@ -713,11 +747,13 @@
   "T1Code4": "oskill",
   "T1Param4": "Warmth",
   "T1Min4": 1,
-  "T1Max4": 1
+  "T1Max4": 1,
+  "lineNumber": 94
  },
  "Envy": {
   "Name": "Runeword35",
-  "Rune Name": "Envy"
+  "Rune Name": "Envy",
+  "lineNumber": 95
  },
  "Eternity": {
   "Name": "Runeword36",
@@ -751,7 +787,8 @@
   "T1Max6": 16,
   "T1Code7": "nofreeze",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 33
  },
  "Exile's Path": {
   "Name": "Runeword37",
@@ -785,7 +822,8 @@
   "T1Min6": 15,
   "T1Max6": 5,
   "T1Code7": "rep-dur",
-  "T1Param7": 25
+  "T1Param7": 25,
+  "lineNumber": 34
  },
  "Faith": {
   "Name": "Runeword38",
@@ -820,7 +858,8 @@
   "T1Max6": 10,
   "T1Code7": "allskills",
   "T1Min7": 1,
-  "T1Max7": 2
+  "T1Max7": 2,
+  "lineNumber": 70
  },
  "Famine": {
   "Name": "Runeword39",
@@ -854,11 +893,13 @@
   "T1Max6": 200,
   "T1Code7": "ethereal",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 35
  },
  "Flickering Flame": {
   "Name": "Runeword40",
-  "Rune Name": "Flickering Flame"
+  "Rune Name": "Flickering Flame",
+  "lineNumber": 65
  },
  "Fortitude": {
   "Name": "Runeword41",
@@ -893,11 +934,13 @@
   "T1Max6": 12,
   "T1Code7": "res-all",
   "T1Min7": 25,
-  "T1Max7": 30
+  "T1Max7": 30,
+  "lineNumber": 66
  },
  "Fortune's Favor": {
   "Name": "Runeword42",
-  "Rune Name": "Fortune's Favor"
+  "Rune Name": "Fortune's Favor",
+  "lineNumber": 67
  },
  "Fury": {
   "Name": "Runeword44",
@@ -928,7 +971,8 @@
   "T1Code7": "skill",
   "T1Param7": 147,
   "T1Min7": 5,
-  "T1Max7": 5
+  "T1Max7": 5,
+  "lineNumber": 2
  },
  "Gloom": {
   "Name": "Runeword45",
@@ -960,11 +1004,13 @@
   "T1Max6": -3,
   "T1Code7": "half-freeze",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 40
  },
  "Glory": {
   "Name": "Runeword46",
-  "Rune Name": "Glory"
+  "Rune Name": "Glory",
+  "lineNumber": 69
  },
  "Hand of Justice": {
   "Name": "Runeword48",
@@ -999,7 +1045,8 @@
   "T1Max6": 1,
   "T1Code7": "pierce-fire",
   "T1Min7": 20,
-  "T1Max7": 20
+  "T1Max7": 20,
+  "lineNumber": 36
  },
  "Harmony": {
   "Name": "Runeword49",
@@ -1035,11 +1082,13 @@
   "T1Max6": 20,
   "T1Code7": "light",
   "T1Min7": 2,
-  "T1Max7": 2
+  "T1Max7": 2,
+  "lineNumber": 63
  },
  "Hatred": {
   "Name": "Runeword50",
-  "Rune Name": "Hatred"
+  "Rune Name": "Hatred",
+  "lineNumber": 64
  },
  "Heart of the Oak": {
   "Name": "Runeword51",
@@ -1074,15 +1123,18 @@
   "T1Code7": "charged",
   "T1Param7": "Raven",
   "T1Min7": 60,
-  "T1Max7": 14
+  "T1Max7": 14,
+  "lineNumber": 37
  },
  "Heaven's Will": {
   "Name": "Runeword52",
-  "Rune Name": "Heaven's Will"
+  "Rune Name": "Heaven's Will",
+  "lineNumber": 96
  },
  "Holy Tears": {
   "Name": "Runeword53",
-  "Rune Name": "Holy Tears"
+  "Rune Name": "Holy Tears",
+  "lineNumber": 97
  },
  "Holy Thunder": {
   "Name": "Runeword54",
@@ -1115,7 +1167,8 @@
   "T1Code7": "charged",
   "T1Param7": 53,
   "T1Min7": 60,
-  "T1Max7": 7
+  "T1Max7": 7,
+  "lineNumber": 3
  },
  "Honor": {
   "Name": "Runeword55",
@@ -1144,15 +1197,18 @@
   "T1Max5": 25,
   "T1Code6": "str",
   "T1Min6": 10,
-  "T1Max6": 10
+  "T1Max6": 10,
+  "lineNumber": 4
  },
  "Humility": {
   "Name": "Runeword57",
-  "Rune Name": "Humility"
+  "Rune Name": "Humility",
+  "lineNumber": 98
  },
  "Hunger": {
   "Name": "Runeword58",
-  "Rune Name": "Hunger"
+  "Rune Name": "Hunger",
+  "lineNumber": 99
  },
  "Ice": {
   "Name": "Runeword59",
@@ -1187,7 +1243,8 @@
   "T1Min6": 20,
   "T1Max6": 20,
   "T1Code7": "gold%/lvl",
-  "T1Param7": 25
+  "T1Param7": 25,
+  "lineNumber": 100
  },
  "Infinity": {
   "Name": "Runeword60",
@@ -1222,11 +1279,13 @@
   "T1Code7": "charged",
   "T1Param7": "Cyclone Armor",
   "T1Min7": 30,
-  "T1Max7": 21
+  "T1Max7": 21,
+  "lineNumber": 101
  },
  "Innocence": {
   "Name": "Runeword61",
-  "Rune Name": "Innocence"
+  "Rune Name": "Innocence",
+  "lineNumber": 102
  },
  "Insight": {
   "Name": "Runeword62",
@@ -1262,15 +1321,18 @@
   "T1Max6": 17,
   "T1Code7": "all-stats",
   "T1Min7": 5,
-  "T1Max7": 5
+  "T1Max7": 5,
+  "lineNumber": 103
  },
  "Jealousy": {
   "Name": "Runeword63",
-  "Rune Name": "Jealousy"
+  "Rune Name": "Jealousy",
+  "lineNumber": 104
  },
  "Judgment": {
   "Name": "Runeword64",
-  "Rune Name": "Judgment"
+  "Rune Name": "Judgment",
+  "lineNumber": 105
  },
  "King's Grace": {
   "Name": "Runeword65",
@@ -1298,7 +1360,8 @@
   "T1Max5": 100,
   "T1Code6": "att-undead",
   "T1Min6": 100,
-  "T1Max6": 100
+  "T1Max6": 100,
+  "lineNumber": 5
  },
  "Kingslayer": {
   "Name": "Runeword66",
@@ -1332,11 +1395,13 @@
   "T1Max6": 1,
   "T1Code7": "gold%",
   "T1Min7": 40,
-  "T1Max7": 40
+  "T1Max7": 40,
+  "lineNumber": 38
  },
  "Knight's Vigil": {
   "Name": "Runeword67",
-  "Rune Name": "Knight's Vigil"
+  "Rune Name": "Knight's Vigil",
+  "lineNumber": 106
  },
  "Last Wish": {
   "Name": "Runeword69",
@@ -1376,11 +1441,13 @@
   "T1Code7": "aura",
   "T1Param7": "Might",
   "T1Min7": 17,
-  "T1Max7": 17
+  "T1Max7": 17,
+  "lineNumber": 107
  },
  "Law": {
   "Name": "Runeword70",
-  "Rune Name": "Law"
+  "Rune Name": "Law",
+  "lineNumber": 108
  },
  "Lawbringer": {
   "Name": "Runeword71",
@@ -1416,7 +1483,8 @@
   "T1Max6": 1,
   "T1Code7": "reduce-ac",
   "T1Min7": 50,
-  "T1Max7": 50
+  "T1Max7": 50,
+  "lineNumber": 109
  },
  "Leaf": {
   "Name": "Runeword72",
@@ -1445,11 +1513,13 @@
   "T1Code6": "skill",
   "T1Param6": 37,
   "T1Min6": 3,
-  "T1Max6": 3
+  "T1Max6": 3,
+  "lineNumber": 6
  },
  "Lightning": {
   "Name": "Runeword73",
-  "Rune Name": "Lightning"
+  "Rune Name": "Lightning",
+  "lineNumber": 110
  },
  "Lionheart": {
   "Name": "Runeword74",
@@ -1476,7 +1546,8 @@
   "T1Max5": 50,
   "T1Code6": "res-all",
   "T1Min6": 30,
-  "T1Max6": 30
+  "T1Max6": 30,
+  "lineNumber": 7
  },
  "Lore": {
   "Name": "Runeword75",
@@ -1496,19 +1567,23 @@
   "T1Max3": 2,
   "T1Code4": "mana-kill",
   "T1Min4": 2,
-  "T1Max4": 2
+  "T1Max4": 2,
+  "lineNumber": 8
  },
  "Loyalty": {
   "Name": "Runeword77",
-  "Rune Name": "Loyalty"
+  "Rune Name": "Loyalty",
+  "lineNumber": 111
  },
  "Lust": {
   "Name": "Runeword78",
-  "Rune Name": "Lust"
+  "Rune Name": "Lust",
+  "lineNumber": 112
  },
  "Madness": {
   "Name": "Runeword79",
-  "Rune Name": "Madness"
+  "Rune Name": "Madness",
+  "lineNumber": 113
  },
  "Malice": {
   "Name": "Runeword81",
@@ -1535,7 +1610,8 @@
   "T1Max5": -1,
   "T1Code6": "regen",
   "T1Min6": -5,
-  "T1Max6": -5
+  "T1Max6": -5,
+  "lineNumber": 9
  },
  "Melody": {
   "Name": "Runeword82",
@@ -1565,7 +1641,8 @@
   "T1Max5": 3,
   "T1Code6": "dmg-undead",
   "T1Min6": 300,
-  "T1Max6": 300
+  "T1Max6": 300,
+  "lineNumber": 10
  },
  "Memory": {
   "Name": "Runeword83",
@@ -1598,19 +1675,23 @@
   "T1Code7": "skill",
   "T1Param7": 42,
   "T1Min7": 2,
-  "T1Max7": 2
+  "T1Max7": 2,
+  "lineNumber": 11
  },
  "Mist": {
   "Name": "Runeword84",
-  "Rune Name": "Mist"
+  "Rune Name": "Mist",
+  "lineNumber": 114
  },
  "Morning Dew": {
   "Name": "Runeword85",
-  "Rune Name": "Morning Dew"
+  "Rune Name": "Morning Dew",
+  "lineNumber": 115
  },
  "Mystery": {
   "Name": "Runeword86",
-  "Rune Name": "Mystery"
+  "Rune Name": "Mystery",
+  "lineNumber": 116
  },
  "Myth": {
   "Name": "Runeword87",
@@ -1634,7 +1715,8 @@
   "T1Max3": 2,
   "T1Code4": "regen",
   "T1Min4": 10,
-  "T1Max4": 10
+  "T1Max4": 10,
+  "lineNumber": 117
  },
  "Nadir": {
   "Name": "Runeword88",
@@ -1661,15 +1743,18 @@
   "T1Max5": -33,
   "T1Code6": "str",
   "T1Min6": 5,
-  "T1Max6": 5
+  "T1Max6": 5,
+  "lineNumber": 12
  },
  "Nature's Kingdom": {
   "Name": "Runeword89",
-  "Rune Name": "Nature's Kingdom"
+  "Rune Name": "Nature's Kingdom",
+  "lineNumber": 68
  },
  "Nightfall": {
   "Name": "Runeword90",
-  "Rune Name": "Nightfall"
+  "Rune Name": "Nightfall",
+  "lineNumber": 58
  },
  "Oath": {
   "Name": "Runeword91",
@@ -1707,7 +1792,8 @@
   "T1Max6": 15,
   "T1Code7": "indestruct",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 59
  },
  "Obedience": {
   "Name": "Runeword92",
@@ -1742,15 +1828,18 @@
   "T1Max6": 40,
   "T1Code7": "res-all",
   "T1Min7": 20,
-  "T1Max7": 30
+  "T1Max7": 30,
+  "lineNumber": 60
  },
  "Oblivion": {
   "Name": "Runeword93",
-  "Rune Name": "Oblivion"
+  "Rune Name": "Oblivion",
+  "lineNumber": 61
  },
  "Obsession": {
   "Name": "Runeword94",
-  "Rune Name": "Obsession"
+  "Rune Name": "Obsession",
+  "lineNumber": 62
  },
  "Passion": {
   "Name": "Runeword95",
@@ -1785,11 +1874,13 @@
   "T1Max6": 3,
   "T1Code7": "stupidity",
   "T1Min7": 10,
-  "T1Max7": 10
+  "T1Max7": 10,
+  "lineNumber": 39
  },
  "Patience": {
   "Name": "Runeword95",
-  "Rune Name": "Patience"
+  "Rune Name": "Patience",
+  "lineNumber": 118
  },
  "Pattern": {
   "Name": "Runeword97",
@@ -1818,7 +1909,8 @@
   "T1Max6": 6,
   "T1Code7": "block2",
   "T1Min7": 30,
-  "T1Max7": 30
+  "T1Max7": 30,
+  "lineNumber": 119
  },
  "Peace": {
   "Name": "Runeword98",
@@ -1843,19 +1935,23 @@
   "T1Code4": "oskill",
   "T1Param4": "Critical Strike",
   "T1Min4": 2,
-  "T1Max4": 2
+  "T1Max4": 2,
+  "lineNumber": 120
  },
  "Penitence": {
   "Name": "Runeword100",
-  "Rune Name": "Penitence"
+  "Rune Name": "Penitence",
+  "lineNumber": 121
  },
  "Peril": {
   "Name": "Runeword101",
-  "Rune Name": "Peril"
+  "Rune Name": "Peril",
+  "lineNumber": 122
  },
  "Pestilence": {
   "Name": "Runeword102",
-  "Rune Name": "Pestilence"
+  "Rune Name": "Pestilence",
+  "lineNumber": 123
  },
  "Phoenix": {
   "Name": "Runeword103",
@@ -1892,15 +1988,18 @@
   "T1Max6": 15,
   "T1Code7": "abs-fire",
   "T1Min7": 15,
-  "T1Max7": 21
+  "T1Max7": 21,
+  "lineNumber": 124
  },
  "Piety": {
   "Name": "Runeword104",
-  "Rune Name": "Piety"
+  "Rune Name": "Piety",
+  "lineNumber": 125
  },
  "Pillar of Faith": {
   "Name": "Runeword105",
-  "Rune Name": "Pillar of Faith"
+  "Rune Name": "Pillar of Faith",
+  "lineNumber": 126
  },
  "Plague": {
   "Name": "Runeword106",
@@ -1932,15 +2031,18 @@
   "T1Max6": 17,
   "T1Code7": "allskills",
   "T1Min7": 1,
-  "T1Max7": 2
+  "T1Max7": 2,
+  "lineNumber": 127
  },
  "Praise": {
   "Name": "Runeword107",
-  "Rune Name": "Praise"
+  "Rune Name": "Praise",
+  "lineNumber": 128
  },
  "Prayer": {
   "Name": "Runeword108",
-  "Rune Name": "Prayer"
+  "Rune Name": "Prayer",
+  "lineNumber": 129
  },
  "Pride": {
   "Name": "Runeword109",
@@ -1973,7 +2075,8 @@
   "T1Min6": 8,
   "T1Max6": 8,
   "T1Code7": "gold%/lvl",
-  "T1Param7": 15
+  "T1Param7": 15,
+  "lineNumber": 130
  },
  "Principle": {
   "Name": "Runeword110",
@@ -1996,11 +2099,13 @@
   "T1Max3": 150,
   "T1Code4": "dmg-undead",
   "T1Min4": 50,
-  "T1Max4": 50
+  "T1Max4": 50,
+  "lineNumber": 131
  },
  "Prowess in Battle": {
   "Name": "Runeword111",
-  "Rune Name": "Prowess in Battle"
+  "Rune Name": "Prowess in Battle",
+  "lineNumber": 132
  },
  "Prudence": {
   "Name": "Runeword112",
@@ -2028,19 +2133,23 @@
   "T1Param6": 25,
   "T1Code7": "light",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 133
  },
  "Punishment": {
   "Name": "Runeword113",
-  "Rune Name": "Punishment"
+  "Rune Name": "Punishment",
+  "lineNumber": 134
  },
  "Purity": {
   "Name": "Runeword114",
-  "Rune Name": "Purity"
+  "Rune Name": "Purity",
+  "lineNumber": 135
  },
  "Question": {
   "Name": "Runeword115",
-  "Rune Name": "Question"
+  "Rune Name": "Question",
+  "lineNumber": 136
  },
  "Radiance": {
   "Name": "Runeword116",
@@ -2067,7 +2176,8 @@
   "T1Max5": 33,
   "T1Code6": "ac%",
   "T1Min6": 75,
-  "T1Max6": 75
+  "T1Max6": 75,
+  "lineNumber": 13
  },
  "Rain": {
   "Name": "Runeword117",
@@ -2091,15 +2201,18 @@
   "T1Max3": 2,
   "T1Code4": "mana",
   "T1Min4": 100,
-  "T1Max4": 150
+  "T1Max4": 150,
+  "lineNumber": 137
  },
  "Reason": {
   "Name": "Runeword118",
-  "Rune Name": "Reason"
+  "Rune Name": "Reason",
+  "lineNumber": 138
  },
  "Red": {
   "Name": "Runeword119",
-  "Rune Name": "Red"
+  "Rune Name": "Red",
+  "lineNumber": 139
  },
  "Rhyme": {
   "Name": "Runeword120",
@@ -2125,7 +2238,8 @@
   "T1Max5": 50,
   "T1Code6": "mag%",
   "T1Min6": 25,
-  "T1Max6": 25
+  "T1Max6": 25,
+  "lineNumber": 14
  },
  "Rift": {
   "Name": "Runeword121",
@@ -2162,7 +2276,8 @@
   "T1Max6": 15,
   "T1Code7": "all-stats",
   "T1Min7": 5,
-  "T1Max7": 10
+  "T1Max7": 10,
+  "lineNumber": 140
  },
  "Sanctuary": {
   "Name": "Runeword122",
@@ -2194,19 +2309,23 @@
   "T1Code7": "charged",
   "T1Param7": "Slow Missiles",
   "T1Min7": 60,
-  "T1Max7": 12
+  "T1Max7": 12,
+  "lineNumber": 41
  },
  "Serendipity": {
   "Name": "Runeword123",
-  "Rune Name": "Serendipity"
+  "Rune Name": "Serendipity",
+  "lineNumber": 44
  },
  "Shadow": {
   "Name": "Runeword124",
-  "Rune Name": "Shadow"
+  "Rune Name": "Shadow",
+  "lineNumber": 45
  },
  "Shadow of Doubt": {
   "Name": "Runeword125",
-  "Rune Name": "Shadow of Doubt"
+  "Rune Name": "Shadow of Doubt",
+  "lineNumber": 46
  },
  "Silence": {
   "Name": "Runeword126",
@@ -2239,11 +2358,13 @@
   "T1Max6": 2,
   "T1Code7": "balance2",
   "T1Min7": 20,
-  "T1Max7": 20
+  "T1Max7": 20,
+  "lineNumber": 15
  },
  "Siren's Song": {
   "Name": "Runeword127",
-  "Rune Name": "Siren's Song"
+  "Rune Name": "Siren's Song",
+  "lineNumber": 47
  },
  "Smoke": {
   "Name": "Runeword128",
@@ -2270,11 +2391,13 @@
   "T1Code6": "charged",
   "T1Param6": 72,
   "T1Min6": 18,
-  "T1Max6": 6
+  "T1Max6": 6,
+  "lineNumber": 16
  },
  "Sorrow": {
   "Name": "Runeword129",
-  "Rune Name": "Sorrow"
+  "Rune Name": "Sorrow",
+  "lineNumber": 48
  },
  "Spirit": {
   "Name": "Runeword130",
@@ -2308,7 +2431,8 @@
   "T1Max6": 8,
   "T1Code7": "allskills",
   "T1Min7": 2,
-  "T1Max7": 2
+  "T1Max7": 2,
+  "lineNumber": 49
  },
  "Splendor": {
   "Name": "Runeword131",
@@ -2337,11 +2461,13 @@
   "T1Max6": 10,
   "T1Code7": "allskills",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 50
  },
  "Starlight": {
   "Name": "Runeword132",
-  "Rune Name": "Starlight"
+  "Rune Name": "Starlight",
+  "lineNumber": 51
  },
  "Stealth": {
   "Name": "Runeword133",
@@ -2367,7 +2493,8 @@
   "T1Max5": 25,
   "T1Code6": "balance2",
   "T1Min6": 25,
-  "T1Max6": 25
+  "T1Max6": 25,
+  "lineNumber": 17
  },
  "Steel": {
   "Name": "Runeword134",
@@ -2392,15 +2519,18 @@
   "T1Max4": 50,
   "T1Code5": "dmg%",
   "T1Min5": 20,
-  "T1Max5": 20
+  "T1Max5": 20,
+  "lineNumber": 18
  },
  "Still Water": {
   "Name": "Runeword135",
-  "Rune Name": "Still Water"
+  "Rune Name": "Still Water",
+  "lineNumber": 52
  },
  "Sting": {
   "Name": "Runeword136",
-  "Rune Name": "Sting"
+  "Rune Name": "Sting",
+  "lineNumber": 80
  },
  "Stone": {
   "Name": "Runeword137",
@@ -2434,11 +2564,13 @@
   "T1Max6": 16,
   "T1Code7": "balance2",
   "T1Min7": 40,
-  "T1Max7": 40
+  "T1Max7": 40,
+  "lineNumber": 32
  },
  "Storm": {
   "Name": "Runeword138",
-  "Rune Name": "Storm"
+  "Rune Name": "Storm",
+  "lineNumber": 54
  },
  "Strength": {
   "Name": "Runeword139",
@@ -2458,19 +2590,23 @@
   "T1Max3": 10,
   "T1Code4": "crush",
   "T1Min4": 25,
-  "T1Max4": 25
+  "T1Max4": 25,
+  "lineNumber": 19
  },
  "Tempest": {
   "Name": "Runeword140",
-  "Rune Name": "Tempest"
+  "Rune Name": "Tempest",
+  "lineNumber": 55
  },
  "Temptation": {
   "Name": "Runeword141",
-  "Rune Name": "Temptation"
+  "Rune Name": "Temptation",
+  "lineNumber": 56
  },
  "Terror": {
   "Name": "Runeword142",
-  "Rune Name": "Terror"
+  "Rune Name": "Terror",
+  "lineNumber": 57
  },
  "The Beast": {
   "Name": "Runeword4",
@@ -2508,35 +2644,43 @@
   "T1Code7": "oskill",
   "T1Param7": "Shape Shifting",
   "T1Min7": 3,
-  "T1Max7": 3
+  "T1Max7": 3,
+  "lineNumber": 43
  },
  "The Lovers": {
   "Name": "Runeword76",
-  "Rune Name": "The Lovers"
+  "Rune Name": "The Lovers",
+  "lineNumber": 141
  },
  "Thirst": {
   "Name": "Runeword143",
-  "Rune Name": "Thirst"
+  "Rune Name": "Thirst",
+  "lineNumber": 142
  },
  "Thirst for Knowledge": {
   "Name": "Runeword68",
-  "Rune Name": "Thirst for Knowledge"
+  "Rune Name": "Thirst for Knowledge",
+  "lineNumber": 143
  },
  "Thought": {
   "Name": "Runeword144",
-  "Rune Name": "Thought"
+  "Rune Name": "Thought",
+  "lineNumber": 144
  },
  "Thunder": {
   "Name": "Runeword145",
-  "Rune Name": "Thunder"
+  "Rune Name": "Thunder",
+  "lineNumber": 145
  },
  "Time": {
   "Name": "Runeword146",
-  "Rune Name": "Time"
+  "Rune Name": "Time",
+  "lineNumber": 146
  },
  "Tradition": {
   "Name": "Runeword147",
-  "Rune Name": "Tradition"
+  "Rune Name": "Tradition",
+  "lineNumber": 147
  },
  "Treachery": {
   "Name": "Runeword148",
@@ -2560,23 +2704,28 @@
   "T1Max3": 2,
   "T1Code4": "swing2",
   "T1Min4": 45,
-  "T1Max4": 45
+  "T1Max4": 45,
+  "lineNumber": 148
  },
  "Trust": {
   "Name": "Runeword149",
-  "Rune Name": "Trust"
+  "Rune Name": "Trust",
+  "lineNumber": 149
  },
  "Truth": {
   "Name": "Runeword150",
-  "Rune Name": "Truth"
+  "Rune Name": "Truth",
+  "lineNumber": 150
  },
  "Unbending Will": {
   "Name": "Runeword151",
-  "Rune Name": "Unbending Will"
+  "Rune Name": "Unbending Will",
+  "lineNumber": 151
  },
  "Valor": {
   "Name": "Runeword152",
-  "Rune Name": "Valor"
+  "Rune Name": "Valor",
+  "lineNumber": 152
  },
  "Vengeance": {
   "Name": "Runeword153",
@@ -2584,7 +2733,8 @@
   "itype1": "weap",
   "Rune1": "r06",
   "Rune2": "r11",
-  "Rune3": "r01"
+  "Rune3": "r01",
+  "lineNumber": 153
  },
  "Venom": {
   "Name": "Runeword154",
@@ -2611,30 +2761,36 @@
   "T1Max4": 13,
   "T1Code5": "manasteal",
   "T1Min5": 7,
-  "T1Max5": 7
+  "T1Max5": 7,
+  "lineNumber": 20
  },
  "Victory": {
   "Name": "Runeword155",
-  "Rune Name": "Victory"
+  "Rune Name": "Victory",
+  "lineNumber": 154
  },
  "Voice": {
   "Name": "Runeword156",
   "Rune Name": "Voice",
   "itype1": "helm",
   "Rune1": "r03",
-  "Rune2": "r06"
+  "Rune2": "r06",
+  "lineNumber": 155
  },
  "Void": {
   "Name": "Runeword157",
-  "Rune Name": "Void"
+  "Rune Name": "Void",
+  "lineNumber": 156
  },
  "War": {
   "Name": "Runeword158",
-  "Rune Name": "War"
+  "Rune Name": "War",
+  "lineNumber": 157
  },
  "Water": {
   "Name": "Runeword159",
-  "Rune Name": "Water"
+  "Rune Name": "Water",
+  "lineNumber": 158
  },
  "Wealth": {
   "Name": "Runeword160",
@@ -2649,11 +2805,13 @@
   "T1Max1": 250,
   "T1Code2": "mag%",
   "T1Min2": 100,
-  "T1Max2": 100
+  "T1Max2": 100,
+  "lineNumber": 21
  },
  "Whisper": {
   "Name": "Runeword161",
-  "Rune Name": "Whisper"
+  "Rune Name": "Whisper",
+  "lineNumber": 159
  },
  "White": {
   "Name": "Runeword162",
@@ -2686,7 +2844,8 @@
   "T1Code7": "skill",
   "T1Param7": 69,
   "T1Min7": 4,
-  "T1Max7": 4
+  "T1Max7": 4,
+  "lineNumber": 22
  },
  "Widowmaker": {
   "Name": "Runeword47",
@@ -2721,7 +2880,8 @@
   "T1Max6": 1,
   "T1Code7": "heal-kill",
   "T1Min7": 10,
-  "T1Max7": 15
+  "T1Max7": 15,
+  "lineNumber": 160
  },
  "Wind": {
   "Name": "Runeword163",
@@ -2752,11 +2912,13 @@
   "T1Max6": 13,
   "T1Code7": "balance2",
   "T1Min7": 15,
-  "T1Max7": 15
+  "T1Max7": 15,
+  "lineNumber": 161
  },
  "Wings of Hope": {
   "Name": "Runeword164",
-  "Rune Name": "Wings of Hope"
+  "Rune Name": "Wings of Hope",
+  "lineNumber": 162
  },
  "Winter": {
   "Name": "Runeword99",
@@ -2792,20 +2954,23 @@
   "T1Max6": 13,
   "T1Code7": "nofreeze",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 163
  },
  "Wisdom": {
   "Name": "Runeword165",
   "Rune Name": "Wisdom",
   "itype1": "shld",
   "itype2": "staf",
-  "itype3": "wand"
+  "itype3": "wand",
+  "lineNumber": 164
  },
  "Woe": {
   "Name": "Runeword166",
   "Rune Name": "Woe",
   "itype1": "weap",
-  "itype2": "miss"
+  "itype2": "miss",
+  "lineNumber": 165
  },
  "Wonder": {
   "Name": "Runeword167",
@@ -2813,7 +2978,8 @@
   "itype1": "wand",
   "Rune1": "r04",
   "Rune2": "r12",
-  "Rune3": "r24"
+  "Rune3": "r24",
+  "lineNumber": 166
  },
  "Wrath": {
   "Name": "Runeword168",
@@ -2848,11 +3014,13 @@
   "T1Max6": 1,
   "T1Code7": "nofreeze",
   "T1Min7": 1,
-  "T1Max7": 1
+  "T1Max7": 1,
+  "lineNumber": 167
  },
  "Youth": {
   "Name": "Runeword169",
-  "Rune Name": "Youth"
+  "Rune Name": "Youth",
+  "lineNumber": 168
  },
  "Zephyr": {
   "Name": "Runeword170",
@@ -2879,6 +3047,7 @@
   "T1Max5": 1,
   "T1Code6": "ac",
   "T1Min6": 25,
-  "T1Max6": 25
+  "T1Max6": 25,
+  "lineNumber": 23
  }
 }

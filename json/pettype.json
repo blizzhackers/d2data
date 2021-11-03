@@ -2,14 +2,16 @@
  "assassintrap": {
   "pet type": "assassintrap",
   "idx": 17,
-  "range": 1
+  "range": 1,
+  "lineNumber": 17
  },
  "dopplezon": {
   "pet type": "dopplezon",
   "idx": 8,
   "unsummon": 1,
   "automap": 1,
-  "drawhp": 1
+  "drawhp": 1,
+  "lineNumber": 8
  },
  "fenris": {
   "pet type": "fenris",
@@ -22,7 +24,8 @@
   "name": "UIFenirsui",
   "drawhp": 1,
   "icontype": 2,
-  "baseicon": "wolf"
+  "baseicon": "wolf",
+  "lineNumber": 12
  },
  "golem": {
   "pet type": "golem",
@@ -40,7 +43,8 @@
   "mclass2": 291,
   "micon2": "metalgolumicon",
   "mclass3": 292,
-  "micon3": "firegolumicon"
+  "micon3": "firegolumicon",
+  "lineNumber": 3
  },
  "grizzly": {
   "pet type": "grizzly",
@@ -53,7 +57,8 @@
   "name": "strUI7",
   "drawhp": 1,
   "icontype": 1,
-  "baseicon": "bear"
+  "baseicon": "bear",
+  "lineNumber": 15
  },
  "hireable": {
   "pet type": "hireable",
@@ -69,25 +74,30 @@
   "mclass2": 359,
   "micon2": "act3hireableicon",
   "mclass3": 561,
-  "micon3": "barbhirable_icon"
+  "micon3": "barbhirable_icon",
+  "lineNumber": 7
  },
  "hydra": {
   "pet type": "hydra",
   "idx": 19,
-  "range": 1
+  "range": 1,
+  "lineNumber": 19
  },
  "invis": {
   "pet type": "invis",
   "idx": 9,
-  "warp": 1
+  "warp": 1,
+  "lineNumber": 9
  },
  "none": {
-  "pet type": "none"
+  "pet type": "none",
+  "lineNumber": 0
  },
  "pettrap": {
   "pet type": "pettrap",
   "idx": 18,
-  "range": 1
+  "range": 1,
+  "lineNumber": 18
  },
  "raven": {
   "pet type": "raven",
@@ -95,7 +105,8 @@
   "warp": 1,
   "name": "strUI5",
   "icontype": 2,
-  "baseicon": "raven"
+  "baseicon": "raven",
+  "lineNumber": 10
  },
  "revive": {
   "pet type": "revive",
@@ -107,7 +118,8 @@
   "name": "StrUI3",
   "drawhp": 1,
   "icontype": 2,
-  "baseicon": "revivedicon"
+  "baseicon": "revivedicon",
+  "lineNumber": 6
  },
  "shadowwarrior": {
   "pet type": "shadowwarrior",
@@ -119,7 +131,8 @@
   "name": "UiShadowUI",
   "drawhp": 1,
   "icontype": 1,
-  "baseicon": "shadowassassin"
+  "baseicon": "shadowassassin",
+  "lineNumber": 16
  },
  "single": {
   "pet type": "single",
@@ -127,7 +140,8 @@
   "basemax": 1,
   "warp": 1,
   "partysend": 1,
-  "automap": 1
+  "automap": 1,
+  "lineNumber": 1
  },
  "skeleton": {
   "pet type": "skeleton",
@@ -139,7 +153,8 @@
   "name": "StrUI1",
   "drawhp": 1,
   "icontype": 2,
-  "baseicon": "skeletonicon"
+  "baseicon": "skeletonicon",
+  "lineNumber": 4
  },
  "skeletonmage": {
   "pet type": "skeletonmage",
@@ -151,7 +166,8 @@
   "name": "StrUI2",
   "drawhp": 1,
   "icontype": 2,
-  "baseicon": "skeletonmageicon"
+  "baseicon": "skeletonmageicon",
+  "lineNumber": 5
  },
  "spiritwolf": {
   "pet type": "spiritwolf",
@@ -164,7 +180,8 @@
   "name": "strUI6",
   "drawhp": 1,
   "icontype": 2,
-  "baseicon": "wolf"
+  "baseicon": "wolf",
+  "lineNumber": 11
  },
  "totem": {
   "pet type": "totem",
@@ -180,7 +197,8 @@
   "mclass1": 423,
   "micon1": "heartofwolverine",
   "mclass2": 422,
-  "micon2": "spiritofbarbs"
+  "micon2": "spiritofbarbs",
+  "lineNumber": 13
  },
  "valkyrie": {
   "pet type": "valkyrie",
@@ -192,7 +210,8 @@
   "name": "StrUI4",
   "drawhp": 1,
   "icontype": 1,
-  "baseicon": "valkarieicon"
+  "baseicon": "valkarieicon",
+  "lineNumber": 2
  },
  "vine": {
   "pet type": "vine",
@@ -208,6 +227,7 @@
   "mclass1": 426,
   "micon1": "cycleoflife",
   "mclass2": 427,
-  "micon2": "vines"
+  "micon2": "vines",
+  "lineNumber": 14
  }
 }

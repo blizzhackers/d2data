@@ -1,294 +1,367 @@
 {
  "ast1": {
   "code": "ast1",
-  "*desc": "aurastat field"
+  "*desc": "aurastat field",
+  "lineNumber": 60
  },
  "ast2": {
   "code": "ast2",
-  "*desc": "aurastat field"
+  "*desc": "aurastat field",
+  "lineNumber": 61
  },
  "ast3": {
   "code": "ast3",
-  "*desc": "aurastat field"
+  "*desc": "aurastat field",
+  "lineNumber": 62
  },
  "ast4": {
   "code": "ast4",
-  "*desc": "aurastat field"
+  "*desc": "aurastat field",
+  "lineNumber": 63
  },
  "ast5": {
   "code": "ast5",
-  "*desc": "aurastat field"
+  "*desc": "aurastat field",
+  "lineNumber": 64
  },
  "ast6": {
   "code": "ast6",
-  "*desc": "aurastat field"
+  "*desc": "aurastat field",
+  "lineNumber": 65
  },
  "blvl": {
   "code": "blvl",
-  "*desc": "base skill level"
+  "*desc": "base skill level",
+  "lineNumber": 41
  },
  "clc1": {
   "code": "clc1",
-  "*desc": "calc1 field"
+  "*desc": "calc1 field",
+  "lineNumber": 55
  },
  "clc2": {
   "code": "clc2",
-  "*desc": "calc2 field"
+  "*desc": "calc2 field",
+  "lineNumber": 56
  },
  "clc3": {
   "code": "clc3",
-  "*desc": "calc3 field"
+  "*desc": "calc3 field",
+  "lineNumber": 57
  },
  "clc4": {
   "code": "clc4",
-  "*desc": "calc4 field"
+  "*desc": "calc4 field",
+  "lineNumber": 58
  },
  "dm12": {
   "code": "dm12",
-  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
+  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a",
+  "lineNumber": 1
  },
  "dm34": {
   "code": "dm34",
-  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
+  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a",
+  "lineNumber": 3
  },
  "dm56": {
   "code": "dm56",
-  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
+  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a",
+  "lineNumber": 5
  },
  "dm78": {
   "code": "dm78",
-  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a"
+  "*desc": "((110*lvl) * (b-a))/(100 * (lvl+6)) + a",
+  "lineNumber": 7
  },
  "edln": {
   "code": "edln",
-  "*desc": "elemental damage len"
+  "*desc": "elemental damage len",
+  "lineNumber": 19
  },
  "edma": {
   "code": "edma",
-  "*desc": "elemental duration + mastery"
+  "*desc": "elemental duration + mastery",
+  "lineNumber": 51
  },
  "edmn": {
   "code": "edmn",
-  "*desc": "elemental damage min"
+  "*desc": "elemental damage min",
+  "lineNumber": 17
  },
  "edmx": {
   "code": "edmx",
-  "*desc": "elemental damage max"
+  "*desc": "elemental damage max",
+  "lineNumber": 18
  },
  "edns": {
   "code": "edns",
-  "*desc": "\"elemental damage min, 256ths\""
+  "*desc": "\"elemental damage min, 256ths\"",
+  "lineNumber": 38
  },
  "edxs": {
   "code": "edxs",
-  "*desc": "\"elemental damage max, 256ths\""
+  "*desc": "\"elemental damage max, 256ths\"",
+  "lineNumber": 39
  },
  "enma": {
   "code": "enma",
-  "*desc": "elemental damage min + mastery"
+  "*desc": "elemental damage min + mastery",
+  "lineNumber": 49
  },
  "enms": {
   "code": "enms",
-  "*desc": "\"elemental damage min, 256ths + mastery\""
+  "*desc": "\"elemental damage min, 256ths + mastery\"",
+  "lineNumber": 52
  },
  "exma": {
   "code": "exma",
-  "*desc": "elemental damage max + mastery"
+  "*desc": "elemental damage max + mastery",
+  "lineNumber": 50
  },
  "exms": {
   "code": "exms",
-  "*desc": "\"elemental damage max, 256ths + mastery\""
+  "*desc": "\"elemental damage max, 256ths + mastery\"",
+  "lineNumber": 53
  },
  "len": {
   "code": "len",
-  "*desc": "auralen field"
+  "*desc": "auralen field",
+  "lineNumber": 54
  },
  "ln12": {
   "code": "ln12",
-  "*desc": "a+lvl*b"
+  "*desc": "a+lvl*b",
+  "lineNumber": 0
  },
  "ln34": {
   "code": "ln34",
-  "*desc": "a+lvl*b"
+  "*desc": "a+lvl*b",
+  "lineNumber": 2
  },
  "ln56": {
   "code": "ln56",
-  "*desc": "a+lvl*b"
+  "*desc": "a+lvl*b",
+  "lineNumber": 4
  },
  "ln78": {
   "code": "ln78",
-  "*desc": "a+lvl*b"
+  "*desc": "a+lvl*b",
+  "lineNumber": 6
  },
  "lvl": {
   "code": "lvl",
-  "*desc": "skill level"
+  "*desc": "skill level",
+  "lineNumber": 16
  },
  "m1el": {
   "code": "m1el",
-  "*desc": "\"desc missile 1, elemental length\""
+  "*desc": "\"desc missile 1, elemental length\"",
+  "lineNumber": 28
  },
  "m1en": {
   "code": "m1en",
-  "*desc": "\"desc missile 1, min elemental dmg\""
+  "*desc": "\"desc missile 1, min elemental dmg\"",
+  "lineNumber": 26
  },
  "m1eo": {
   "code": "m1eo",
-  "*desc": "\"desc missile 1, min elem dmg, 256ths\""
+  "*desc": "\"desc missile 1, min elem dmg, 256ths\"",
+  "lineNumber": 43
  },
  "m1ex": {
   "code": "m1ex",
-  "*desc": "\"desc missile 1, max elemental dmg\""
+  "*desc": "\"desc missile 1, max elemental dmg\"",
+  "lineNumber": 27
  },
  "m1ey": {
   "code": "m1ey",
-  "*desc": "\"desc missile 1, max elem dmg, 256ths\""
+  "*desc": "\"desc missile 1, max elem dmg, 256ths\"",
+  "lineNumber": 44
  },
  "m1rn": {
   "code": "m1rn",
-  "*desc": "\"desc missile 1, range\""
+  "*desc": "\"desc missile 1, range\"",
+  "lineNumber": 35
  },
  "m2el": {
   "code": "m2el",
-  "*desc": "\"desc missile 2, elemental length\""
+  "*desc": "\"desc missile 2, elemental length\"",
+  "lineNumber": 31
  },
  "m2en": {
   "code": "m2en",
-  "*desc": "\"desc missile 2, min elemental dmg\""
+  "*desc": "\"desc missile 2, min elemental dmg\"",
+  "lineNumber": 29
  },
  "m2eo": {
   "code": "m2eo",
-  "*desc": "\"desc missile 2, min elem dmg, 256ths\""
+  "*desc": "\"desc missile 2, min elem dmg, 256ths\"",
+  "lineNumber": 45
  },
  "m2ex": {
   "code": "m2ex",
-  "*desc": "\"desc missile 2, max elemental dmg\""
+  "*desc": "\"desc missile 2, max elemental dmg\"",
+  "lineNumber": 30
  },
  "m2ey": {
   "code": "m2ey",
-  "*desc": "\"desc missile 2, max elem dmg, 256ths\""
+  "*desc": "\"desc missile 2, max elem dmg, 256ths\"",
+  "lineNumber": 46
  },
  "m2rn": {
   "code": "m2rn",
-  "*desc": "\"desc missile 2, range\""
+  "*desc": "\"desc missile 2, range\"",
+  "lineNumber": 36
  },
  "m3el": {
   "code": "m3el",
-  "*desc": "\"desc missile 3, elemental length\""
+  "*desc": "\"desc missile 3, elemental length\"",
+  "lineNumber": 34
  },
  "m3en": {
   "code": "m3en",
-  "*desc": "\"desc missile 3, min elemental dmg\""
+  "*desc": "\"desc missile 3, min elemental dmg\"",
+  "lineNumber": 32
  },
  "m3ex": {
   "code": "m3ex",
-  "*desc": "\"desc missile 3, max elemental dmg\""
+  "*desc": "\"desc missile 3, max elemental dmg\"",
+  "lineNumber": 33
  },
  "m3rn": {
   "code": "m3rn",
-  "*desc": "\"desc missile 3, range\""
+  "*desc": "\"desc missile 3, range\"",
+  "lineNumber": 37
  },
  "macr": {
   "code": "macr",
-  "*desc": "mastery: critical"
+  "*desc": "mastery: critical",
+  "lineNumber": 25
  },
  "madm": {
   "code": "madm",
-  "*desc": "mastery: damage"
+  "*desc": "mastery: damage",
+  "lineNumber": 24
  },
  "mana": {
   "code": "mana",
-  "*desc": "mana cost"
+  "*desc": "mana cost",
+  "lineNumber": 21
  },
  "math": {
   "code": "math",
-  "*desc": "mastery: to hit"
+  "*desc": "mastery: to hit",
+  "lineNumber": 23
  },
  "me3o": {
   "code": "me3o",
-  "*desc": "\"desc missile 3, min elem dmg, 256ths\""
+  "*desc": "\"desc missile 3, min elem dmg, 256ths\"",
+  "lineNumber": 47
  },
  "me3y": {
   "code": "me3y",
-  "*desc": "\"desc missile 3, max elem dmg, 256ths\""
+  "*desc": "\"desc missile 3, max elem dmg, 256ths\"",
+  "lineNumber": 48
  },
  "mps": {
   "code": "mps",
-  "*desc": "mana per second calc"
+  "*desc": "mana per second calc",
+  "lineNumber": 22
  },
  "par1": {
   "code": "par1",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 8
  },
  "par2": {
   "code": "par2",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 9
  },
  "par3": {
   "code": "par3",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 10
  },
  "par4": {
   "code": "par4",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 11
  },
  "par5": {
   "code": "par5",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 12
  },
  "par6": {
   "code": "par6",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 13
  },
  "par7": {
   "code": "par7",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 14
  },
  "par8": {
   "code": "par8",
-  "*desc": "a"
+  "*desc": "a",
+  "lineNumber": 15
  },
  "pets": {
   "code": "pets",
-  "*desc": "petmax field"
+  "*desc": "petmax field",
+  "lineNumber": 71
  },
  "pst1": {
   "code": "pst1",
-  "*desc": "passivestat field"
+  "*desc": "passivestat field",
+  "lineNumber": 66
  },
  "pst2": {
   "code": "pst2",
-  "*desc": "passivestat field"
+  "*desc": "passivestat field",
+  "lineNumber": 67
  },
  "pst3": {
   "code": "pst3",
-  "*desc": "passivestat field"
+  "*desc": "passivestat field",
+  "lineNumber": 68
  },
  "pst4": {
   "code": "pst4",
-  "*desc": "passivestat field"
+  "*desc": "passivestat field",
+  "lineNumber": 69
  },
  "pst5": {
   "code": "pst5",
-  "*desc": "passivestat field"
+  "*desc": "passivestat field",
+  "lineNumber": 70
  },
  "rng": {
   "code": "rng",
-  "*desc": "aurarange field"
+  "*desc": "aurarange field",
+  "lineNumber": 59
  },
  "skpt": {
   "code": "skpt",
-  "*desc": "skill points field"
+  "*desc": "skill points field",
+  "lineNumber": 72
  },
  "toht": {
   "code": "toht",
-  "*desc": "to hit"
+  "*desc": "to hit",
+  "lineNumber": 20
  },
  "ulvl": {
   "code": "ulvl",
-  "*desc": "unit level"
+  "*desc": "unit level",
+  "lineNumber": 40
  },
  "usmc": {
   "code": "usmc",
-  "*desc": "\"mana cost, 256ths\""
+  "*desc": "\"mana cost, 256ths\"",
+  "lineNumber": 42
  }
 }

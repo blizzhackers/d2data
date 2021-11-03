@@ -3,13 +3,15 @@
   "code": "abs-cold",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbcold"
+  "stat1": "item_absorbcold",
+  "lineNumber": 50
  },
  "abs-cold%": {
   "code": "abs-cold%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbcold_percent"
+  "stat1": "item_absorbcold_percent",
+  "lineNumber": 49
  },
  "abs-cold/lvl": {
   "expansion": 1,
@@ -18,7 +20,8 @@
   "func1": 17,
   "stat1": "item_absorb_cold_perlevel",
   "*desc": "Absorb Cold Dmg per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 162
  },
  "abs-cold/time": {
   "expansion": 1,
@@ -30,7 +33,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 216
  },
  "abs-crush": {
   "expansion": 1,
@@ -38,7 +42,8 @@
   "*desc": "Absorb Crushing Damage",
   "*min": "min amt",
   "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 191
  },
  "abs-crush%": {
   "expansion": 1,
@@ -46,19 +51,22 @@
   "*desc": "Absorb Crushing Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 194
  },
  "abs-fire": {
   "code": "abs-fire",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbfire"
+  "stat1": "item_absorbfire",
+  "lineNumber": 44
  },
  "abs-fire%": {
   "code": "abs-fire%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbfire_percent"
+  "stat1": "item_absorbfire_percent",
+  "lineNumber": 43
  },
  "abs-fire/lvl": {
   "expansion": 1,
@@ -67,7 +75,8 @@
   "func1": 17,
   "stat1": "item_absorb_fire_perlevel",
   "*desc": "Absorb Fire Dmg per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 163
  },
  "abs-fire/time": {
   "expansion": 1,
@@ -79,19 +88,22 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 217
  },
  "abs-ltng": {
   "code": "abs-ltng",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorblight"
+  "stat1": "item_absorblight",
+  "lineNumber": 46
  },
  "abs-ltng%": {
   "code": "abs-ltng%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorblight_percent"
+  "stat1": "item_absorblight_percent",
+  "lineNumber": 45
  },
  "abs-ltng/lvl": {
   "expansion": 1,
@@ -100,7 +112,8 @@
   "func1": 17,
   "stat1": "item_absorb_ltng_perlevel",
   "*desc": "Absorb Lightning Dmg per Player Lvl",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 164
  },
  "abs-ltng/time": {
   "expansion": 1,
@@ -112,19 +125,22 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 218
  },
  "abs-mag": {
   "code": "abs-mag",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbmagic"
+  "stat1": "item_absorbmagic",
+  "lineNumber": 48
  },
  "abs-mag%": {
   "code": "abs-mag%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_absorbmagic_percent"
+  "stat1": "item_absorbmagic_percent",
+  "lineNumber": 47
  },
  "abs-pois/lvl": {
   "expansion": 1,
@@ -133,7 +149,8 @@
   "func1": 17,
   "stat1": "item_absorb_pois_perlevel",
   "*desc": "Absorb Poison Dmg per Player Lvl",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 165
  },
  "abs-pois/time": {
   "expansion": 1,
@@ -145,7 +162,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 219
  },
  "abs-slash": {
   "expansion": 1,
@@ -153,7 +171,8 @@
   "*desc": "Absorb Slashing Damage",
   "*min": "min amt",
   "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 190
  },
  "abs-slash%": {
   "expansion": 1,
@@ -161,7 +180,8 @@
   "*desc": "Absorb Slashing Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 193
  },
  "abs-thrust": {
   "expansion": 1,
@@ -169,7 +189,8 @@
   "*desc": "Absorb Thrusting Damage",
   "*min": "min amt",
   "*max": "max amt",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 192
  },
  "abs-thrust%": {
   "expansion": 1,
@@ -177,19 +198,22 @@
   "*desc": "Absorb Thrusting Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 195
  },
  "ac": {
   "code": "ac",
   "*done": 1,
   "func1": 1,
-  "stat1": "armorclass"
+  "stat1": "armorclass",
+  "lineNumber": 0
  },
  "ac%": {
   "code": "ac%",
   "*done": 1,
   "func1": 2,
-  "stat1": "item_armor_percent"
+  "stat1": "item_armor_percent",
+  "lineNumber": 5
  },
  "ac%-mon": {
   "expansion": 1,
@@ -197,7 +221,8 @@
   "*desc": "AC% vs. specific Monster Type",
   "*param": "monster",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 242
  },
  "ac%/lvl": {
   "expansion": 1,
@@ -206,7 +231,8 @@
   "func1": 17,
   "stat1": "item_armorpercent_perlevel",
   "*desc": "AC% per Player Level",
-  "*param": "ac%/lvl (8ths)"
+  "*param": "ac%/lvl (8ths)",
+  "lineNumber": 143
  },
  "ac%/time": {
   "expansion": 1,
@@ -218,19 +244,22 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 197
  },
  "ac-hth": {
   "code": "ac-hth",
   "*done": 1,
   "func1": 1,
-  "stat1": "armorclass_vs_hth"
+  "stat1": "armorclass_vs_hth",
+  "lineNumber": 2
  },
  "ac-miss": {
   "code": "ac-miss",
   "*done": 1,
   "func1": 1,
-  "stat1": "armorclass_vs_missile"
+  "stat1": "armorclass_vs_missile",
+  "lineNumber": 1
  },
  "ac-mon": {
   "expansion": 1,
@@ -238,7 +267,8 @@
   "*desc": "AC vs. specific Monster Type",
   "*param": "monster",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 241
  },
  "ac/lvl": {
   "expansion": 1,
@@ -247,7 +277,8 @@
   "func1": 17,
   "stat1": "item_armor_perlevel",
   "*desc": "AC per Player Level",
-  "*param": "ac/lvl (8ths)"
+  "*param": "ac/lvl (8ths)",
+  "lineNumber": 142
  },
  "ac/time": {
   "expansion": 1,
@@ -259,7 +290,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 196
  },
  "addxp": {
   "expansion": 1,
@@ -267,7 +299,8 @@
   "*done": 1,
   "func1": 1,
   "stat1": "item_addexperience",
-  "*desc": "additional xp gain"
+  "*desc": "additional xp gain",
+  "lineNumber": 253
  },
  "all-stats": {
   "expansion": 1,
@@ -280,19 +313,22 @@
   "func3": 3,
   "stat3": "dexterity",
   "func4": 3,
-  "stat4": "vitality"
+  "stat4": "vitality",
+  "lineNumber": 252
  },
  "allskills": {
   "code": "allskills",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_allskills"
+  "stat1": "item_allskills",
+  "lineNumber": 104
  },
  "ama": {
   "code": "ama",
   "*done": 1,
   "func1": 21,
-  "stat1": "item_addclassskills"
+  "stat1": "item_addclassskills",
+  "lineNumber": 67
  },
  "ass": {
   "expansion": 1,
@@ -301,19 +337,22 @@
   "val1": 6,
   "func1": 21,
   "stat1": "item_addclassskills",
-  "*desc": "All Assassin Skills"
+  "*desc": "All Assassin Skills",
+  "lineNumber": 123
  },
  "att": {
   "code": "att",
   "*done": 1,
   "func1": 1,
-  "stat1": "tohit"
+  "stat1": "tohit",
+  "lineNumber": 15
  },
  "att%": {
   "code": "att%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_tohit_percent"
+  "stat1": "item_tohit_percent",
+  "lineNumber": 96
  },
  "att%-mon": {
   "expansion": 1,
@@ -321,7 +360,8 @@
   "*desc": "To Hit % vs. specific Monster Type",
   "*param": "monster",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 240
  },
  "att%/lvl": {
   "expansion": 1,
@@ -330,7 +370,8 @@
   "func1": 17,
   "stat1": "item_tohitpercent_perlevel",
   "*desc": "Attack% per Player Level",
-  "*param": "att%/lvl (8ths)"
+  "*param": "att%/lvl (8ths)",
+  "lineNumber": 153
  },
  "att%/time": {
   "expansion": 1,
@@ -342,7 +383,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 207
  },
  "att-dem/lvl": {
   "expansion": 1,
@@ -351,7 +393,8 @@
   "func1": 17,
   "stat1": "item_tohit_demon_perlevel",
   "*desc": "Attack Demons + per Player Level",
-  "*param": "att/lvl (1)"
+  "*param": "att/lvl (1)",
+  "lineNumber": 173
  },
  "att-dem/time": {
   "expansion": 1,
@@ -363,13 +406,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 226
  },
  "att-demon": {
   "code": "att-demon",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_demon_tohit"
+  "stat1": "item_demon_tohit",
+  "lineNumber": 100
  },
  "att-mon": {
   "expansion": 1,
@@ -377,7 +422,8 @@
   "*desc": "To Hit vs. specific Monster Type",
   "*param": "monster",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 239
  },
  "att-mon%": {
   "expansion": 1,
@@ -388,7 +434,8 @@
   "*desc": "attack% vs. monster type",
   "*param": "mon type",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 257
  },
  "att-skill": {
   "expansion": 1,
@@ -399,7 +446,8 @@
   "*desc": "Proc Skill on Swing",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level"
+  "*max": "Level",
+  "lineNumber": 127
  },
  "att-und/lvl": {
   "expansion": 1,
@@ -408,7 +456,8 @@
   "func1": 17,
   "stat1": "item_tohit_undead_perlevel",
   "*desc": "Attack Undead + per Player Level",
-  "*param": "att/lvl (1)"
+  "*param": "att/lvl (1)",
+  "lineNumber": 174
  },
  "att-und/time": {
   "expansion": 1,
@@ -420,13 +469,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 227
  },
  "att-undead": {
   "code": "att-undead",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_undead_tohit"
+  "stat1": "item_undead_tohit",
+  "lineNumber": 101
  },
  "att/lvl": {
   "expansion": 1,
@@ -435,7 +486,8 @@
   "func1": 17,
   "stat1": "item_tohit_perlevel",
   "*desc": "Attack per Player Level",
-  "*param": "att/lvl (1)"
+  "*param": "att/lvl (1)",
+  "lineNumber": 152
  },
  "att/time": {
   "expansion": 1,
@@ -447,87 +499,101 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 206
  },
  "aura": {
   "expansion": 1,
   "code": "aura",
   "*done": 1,
   "func1": 22,
-  "stat1": "item_aura"
+  "stat1": "item_aura",
+  "lineNumber": 126
  },
  "balance1": {
   "code": "balance1",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastergethitrate"
+  "stat1": "item_fastergethitrate",
+  "lineNumber": 79
  },
  "balance2": {
   "code": "balance2",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastergethitrate"
+  "stat1": "item_fastergethitrate",
+  "lineNumber": 80
  },
  "balance3": {
   "code": "balance3",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastergethitrate"
+  "stat1": "item_fastergethitrate",
+  "lineNumber": 81
  },
  "bar": {
   "code": "bar",
   "*done": 1,
   "val1": 4,
   "func1": 21,
-  "stat1": "item_addclassskills"
+  "stat1": "item_addclassskills",
+  "lineNumber": 71
  },
  "block": {
   "code": "block",
   "*done": 1,
   "func1": 1,
-  "stat1": "toblock"
+  "stat1": "toblock",
+  "lineNumber": 16
  },
  "block1": {
   "code": "block1",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fasterblockrate"
+  "stat1": "item_fasterblockrate",
+  "lineNumber": 82
  },
  "block2": {
   "code": "block2",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fasterblockrate"
+  "stat1": "item_fasterblockrate",
+  "lineNumber": 83
  },
  "block3": {
   "code": "block3",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fasterblockrate"
+  "stat1": "item_fasterblockrate",
+  "lineNumber": 84
  },
  "bloody": {
   "code": "bloody",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_extrablood"
+  "stat1": "item_extrablood",
+  "lineNumber": 112
  },
  "cast1": {
   "code": "cast1",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastercastrate"
+  "stat1": "item_fastercastrate",
+  "lineNumber": 85
  },
  "cast2": {
   "code": "cast2",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastercastrate"
+  "stat1": "item_fastercastrate",
+  "lineNumber": 86
  },
  "cast3": {
   "code": "cast3",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastercastrate"
+  "stat1": "item_fastercastrate",
+  "lineNumber": 87
  },
  "charged": {
   "expansion": 1,
@@ -538,7 +604,8 @@
   "*desc": "Charged Skill",
   "*param": "skill",
   "*min": "charges",
-  "*max": "level"
+  "*max": "level",
+  "lineNumber": 244
  },
  "cheap": {
   "expansion": 1,
@@ -548,38 +615,44 @@
   "stat1": "item_reducedprices",
   "*desc": "reduces vendor prices",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 255
  },
  "cold-len": {
   "code": "cold-len",
   "*done": 1,
   "func1": 1,
-  "stat1": "coldlength"
+  "stat1": "coldlength",
+  "lineNumber": 19
  },
  "cold-max": {
   "code": "cold-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "coldmaxdam"
+  "stat1": "coldmaxdam",
+  "lineNumber": 18
  },
  "cold-min": {
   "code": "cold-min",
   "*done": 1,
   "func1": 1,
-  "stat1": "coldmindam"
+  "stat1": "coldmindam",
+  "lineNumber": 17
  },
  "color": {
   "code": "color",
   "*done": 1,
   "set1": 1,
   "func1": 1,
-  "stat1": "item_lightcolor"
+  "stat1": "item_lightcolor",
+  "lineNumber": 74
  },
  "crush": {
   "code": "crush",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_crushingblow"
+  "stat1": "item_crushingblow",
+  "lineNumber": 108
  },
  "crush/lvl": {
   "expansion": 1,
@@ -588,7 +661,8 @@
   "func1": 17,
   "stat1": "item_crushingblow_perlevel",
   "*desc": "+% Chance of Crushing Blow per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 175
  },
  "crush/time": {
   "expansion": 1,
@@ -600,13 +674,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 228
  },
  "deadly": {
   "code": "deadly",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_deadlystrike"
+  "stat1": "item_deadlystrike",
+  "lineNumber": 113
  },
  "deadly/lvl": {
   "expansion": 1,
@@ -615,7 +691,8 @@
   "func1": 17,
   "stat1": "item_deadlystrike_perlevel",
   "*desc": "+% Chance of Deadly Strike per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 178
  },
  "deadly/time": {
   "expansion": 1,
@@ -627,7 +704,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 231
  },
  "death-skill": {
   "expansion": 1,
@@ -638,19 +716,22 @@
   "*desc": "Proc Skill on getting killed",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level"
+  "*max": "Level",
+  "lineNumber": 260
  },
  "demon-heal": {
   "code": "demon-heal",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_healafterdemonkill"
+  "stat1": "item_healafterdemonkill",
+  "lineNumber": 111
  },
  "dex": {
   "code": "dex",
   "*done": 1,
   "func1": 1,
-  "stat1": "dexterity"
+  "stat1": "dexterity",
+  "lineNumber": 8
  },
  "dex/lvl": {
   "expansion": 1,
@@ -659,7 +740,8 @@
   "func1": 17,
   "stat1": "item_dexterity_perlevel",
   "*desc": "Dexterity per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 149
  },
  "dex/time": {
   "expansion": 1,
@@ -671,18 +753,21 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 203
  },
  "dmg": {
   "code": "dmg",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_normaldamage"
+  "stat1": "item_normaldamage",
+  "lineNumber": 89
  },
  "dmg%": {
   "code": "dmg%",
   "*done": 1,
-  "func1": 7
+  "func1": 7,
+  "lineNumber": 29
  },
  "dmg%-mon": {
   "expansion": 1,
@@ -690,7 +775,8 @@
   "*desc": "Damage % vs. specific Monster Type",
   "*param": "monster",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 238
  },
  "dmg%/lvl": {
   "expansion": 1,
@@ -699,7 +785,8 @@
   "func1": 17,
   "stat1": "item_maxdamage_percent_perlevel",
   "*desc": "Max Damage % per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 147
  },
  "dmg%/time": {
   "expansion": 1,
@@ -711,13 +798,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 201
  },
  "dmg-ac": {
   "code": "dmg-ac",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_damagetargetac"
+  "stat1": "item_damagetargetac",
+  "lineNumber": 97
  },
  "dmg-cold": {
   "expansion": 1,
@@ -732,7 +821,8 @@
   "*desc": "Cold Damage",
   "*param": "Length (Frames)",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 138
  },
  "dmg-cold/lvl": {
   "expansion": 1,
@@ -741,7 +831,8 @@
   "func1": 17,
   "stat1": "item_cold_damagemax_perlevel",
   "*desc": "Max Cold Damage per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 154
  },
  "dmg-cold/time": {
   "expansion": 1,
@@ -753,7 +844,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 208
  },
  "dmg-crush": {
   "expansion": 1,
@@ -761,7 +853,8 @@
   "*desc": "Crush Damage",
   "*min": "min",
   "*max": "max",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 186
  },
  "dmg-crush%": {
   "expansion": 1,
@@ -769,7 +862,8 @@
   "*desc": "Crush Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 187
  },
  "dmg-dem/lvl": {
   "expansion": 1,
@@ -778,7 +872,8 @@
   "func1": 17,
   "stat1": "item_damage_demon_perlevel",
   "*desc": "Damage to Demons % per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 171
  },
  "dmg-dem/time": {
   "expansion": 1,
@@ -790,13 +885,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 224
  },
  "dmg-demon": {
   "code": "dmg-demon",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_demondamage_percent"
+  "stat1": "item_demondamage_percent",
+  "lineNumber": 98
  },
  "dmg-elem": {
   "expansion": 1,
@@ -815,7 +912,8 @@
   "func6": 16,
   "stat6": "coldmaxdam",
   "func7": 17,
-  "stat7": "coldlength"
+  "stat7": "coldlength",
+  "lineNumber": 249
  },
  "dmg-elem-max": {
   "expansion": 1,
@@ -828,7 +926,8 @@
   "func3": 3,
   "stat3": "coldmaxdam",
   "func4": 17,
-  "stat4": "coldlength"
+  "stat4": "coldlength",
+  "lineNumber": 251
  },
  "dmg-elem-min": {
   "expansion": 1,
@@ -839,7 +938,8 @@
   "func2": 3,
   "stat2": "lightmindam",
   "func3": 3,
-  "stat3": "coldmindam"
+  "stat3": "coldmindam",
+  "lineNumber": 250
  },
  "dmg-fire": {
   "expansion": 1,
@@ -851,7 +951,8 @@
   "stat2": "firemaxdam",
   "*desc": "Fire Damage",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 135
  },
  "dmg-fire/lvl": {
   "expansion": 1,
@@ -860,7 +961,8 @@
   "func1": 17,
   "stat1": "item_fire_damagemax_perlevel",
   "*desc": "Max Fire Damage per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 155
  },
  "dmg-fire/time": {
   "expansion": 1,
@@ -872,7 +974,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 209
  },
  "dmg-ltng": {
   "expansion": 1,
@@ -884,7 +987,8 @@
   "stat2": "lightmaxdam",
   "*desc": "Lightning Damage",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 136
  },
  "dmg-ltng/lvl": {
   "expansion": 1,
@@ -893,7 +997,8 @@
   "func1": 17,
   "stat1": "item_ltng_damagemax_perlevel",
   "*desc": "Max Lightning Dmg per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 156
  },
  "dmg-ltng/time": {
   "expansion": 1,
@@ -905,7 +1010,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 210
  },
  "dmg-mag": {
   "expansion": 1,
@@ -917,17 +1023,20 @@
   "stat2": "magicmaxdam",
   "*desc": "Magic Damge",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 137
  },
  "dmg-max": {
   "code": "dmg-max",
   "*done": 1,
-  "func1": 6
+  "func1": 6,
+  "lineNumber": 28
  },
  "dmg-min": {
   "code": "dmg-min",
   "*done": 1,
-  "func1": 5
+  "func1": 5,
+  "lineNumber": 27
  },
  "dmg-mon": {
   "expansion": 1,
@@ -935,7 +1044,8 @@
   "*desc": "Damage vs. specific Monster Type",
   "*param": "monster",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 237
  },
  "dmg-mon%": {
   "expansion": 1,
@@ -946,7 +1056,8 @@
   "*desc": "damage% vs. monster type",
   "*param": "mon type",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 258
  },
  "dmg-norm": {
   "expansion": 1,
@@ -958,7 +1069,8 @@
   "stat2": "maxdamage",
   "*desc": "Normal Damage Modifier",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 141
  },
  "dmg-pois": {
   "expansion": 1,
@@ -973,7 +1085,8 @@
   "*desc": "Poison Damage",
   "*param": "Length (Frames)",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 139
  },
  "dmg-pois/lvl": {
   "expansion": 1,
@@ -982,7 +1095,8 @@
   "func1": 17,
   "stat1": "item_pois_damagemax_perlevel",
   "*desc": "Max Poison Dmg per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 157
  },
  "dmg-pois/time": {
   "expansion": 1,
@@ -994,7 +1108,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 211
  },
  "dmg-slash": {
   "expansion": 1,
@@ -1002,7 +1117,8 @@
   "*desc": "Slashing Damage",
   "*min": "min",
   "*max": "max",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 184
  },
  "dmg-slash%": {
   "expansion": 1,
@@ -1010,7 +1126,8 @@
   "*desc": "Slashing Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 185
  },
  "dmg-throw": {
   "expansion": 1,
@@ -1022,7 +1139,8 @@
   "stat2": "item_throw_maxdamage",
   "*desc": "Throwing Damage",
   "*min": "Min",
-  "*max": "Max"
+  "*max": "Max",
+  "lineNumber": 140
  },
  "dmg-thrust": {
   "expansion": 1,
@@ -1030,7 +1148,8 @@
   "*desc": "Thrust Damage",
   "*min": "min",
   "*max": "max",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 188
  },
  "dmg-thrust%": {
   "expansion": 1,
@@ -1038,13 +1157,15 @@
   "*desc": "Thrust Damage %",
   "*min": "min %",
   "*max": "max %",
-  "*notes": "random amount from min to max is assigned to item"
+  "*notes": "random amount from min to max is assigned to item",
+  "lineNumber": 189
  },
  "dmg-to-mana": {
   "code": "dmg-to-mana",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_damagetomana"
+  "stat1": "item_damagetomana",
+  "lineNumber": 30
  },
  "dmg-und/lvl": {
   "expansion": 1,
@@ -1053,7 +1174,8 @@
   "func1": 17,
   "stat1": "item_damage_undead_perlevel",
   "*desc": "Damage to Undead % per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 172
  },
  "dmg-und/time": {
   "expansion": 1,
@@ -1065,13 +1187,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 225
  },
  "dmg-undead": {
   "code": "dmg-undead",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_undeaddamage_percent"
+  "stat1": "item_undeaddamage_percent",
+  "lineNumber": 99
  },
  "dmg/lvl": {
   "expansion": 1,
@@ -1080,7 +1204,8 @@
   "func1": 17,
   "stat1": "item_maxdamage_perlevel",
   "*desc": "Max Damage per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 146
  },
  "dmg/time": {
   "expansion": 1,
@@ -1092,7 +1217,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 200
  },
  "dru": {
   "expansion": 1,
@@ -1101,31 +1227,36 @@
   "val1": 5,
   "func1": 21,
   "stat1": "item_addclassskills",
-  "*desc": "All Druid Skills"
+  "*desc": "All Druid Skills",
+  "lineNumber": 122
  },
  "dur": {
   "code": "dur",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxdurability"
+  "stat1": "maxdurability",
+  "lineNumber": 51
  },
  "dur%": {
   "code": "dur%",
   "*done": 1,
   "func1": 13,
-  "stat1": "item_maxdurability_percent"
+  "stat1": "item_maxdurability_percent",
+  "lineNumber": 52
  },
  "ease": {
   "code": "ease",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_req_percent"
+  "stat1": "item_req_percent",
+  "lineNumber": 75
  },
  "enr": {
   "code": "enr",
   "*done": 1,
   "func1": 1,
-  "stat1": "energy"
+  "stat1": "energy",
+  "lineNumber": 10
  },
  "enr/lvl": {
   "expansion": 1,
@@ -1134,7 +1265,8 @@
   "func1": 17,
   "stat1": "item_energy_perlevel",
   "*desc": "Energy per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 150
  },
  "enr/time": {
   "expansion": 1,
@@ -1146,47 +1278,54 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 204
  },
  "ethereal": {
   "expansion": 1,
   "code": "ethereal",
   "*done": 1,
-  "func1": 23
+  "func1": 23,
+  "lineNumber": 265
  },
  "explosivearrow": {
   "code": "explosivearrow",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_explosivearrow"
+  "stat1": "item_explosivearrow",
+  "lineNumber": 120
  },
  "extra-cold": {
   "expansion": 1,
   "code": "extra-cold",
   "*done": 1,
   "func1": 1,
-  "stat1": "passive_cold_mastery"
+  "stat1": "passive_cold_mastery",
+  "lineNumber": 247
  },
  "extra-fire": {
   "expansion": 1,
   "code": "extra-fire",
   "*done": 1,
   "func1": 1,
-  "stat1": "passive_fire_mastery"
+  "stat1": "passive_fire_mastery",
+  "lineNumber": 245
  },
  "extra-ltng": {
   "expansion": 1,
   "code": "extra-ltng",
   "*done": 1,
   "func1": 1,
-  "stat1": "passive_ltng_mastery"
+  "stat1": "passive_ltng_mastery",
+  "lineNumber": 246
  },
  "extra-pois": {
   "expansion": 1,
   "code": "extra-pois",
   "*done": 1,
   "func1": 1,
-  "stat1": "passive_pois_mastery"
+  "stat1": "passive_pois_mastery",
+  "lineNumber": 248
  },
  "fade": {
   "expansion": 1,
@@ -1195,30 +1334,35 @@
   "func1": 17,
   "stat1": "fade",
   "*desc": "only use on monprop",
-  "*param": "fade type"
+  "*param": "fade type",
+  "lineNumber": 263
  },
  "fire-fx": {
   "expansion": 1,
-  "code": "fire-fx"
+  "code": "fire-fx",
+  "lineNumber": 132
  },
  "fire-max": {
   "code": "fire-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "firemaxdam"
+  "stat1": "firemaxdam",
+  "lineNumber": 21
  },
  "fire-min": {
   "code": "fire-min",
   "*done": 1,
   "func1": 1,
-  "stat1": "firemindam"
+  "stat1": "firemindam",
+  "lineNumber": 20
  },
  "fireskill": {
   "code": "fireskill",
   "*done": 1,
   "val1": 1,
   "func1": 21,
-  "stat1": "item_elemskill"
+  "stat1": "item_elemskill",
+  "lineNumber": 103
  },
  "freeze": {
   "code": "freeze",
@@ -1226,18 +1370,21 @@
   "func1": 1,
   "stat1": "item_freeze",
   "*param": "chance in 128",
-  "*min": "length in frames"
+  "*min": "length in frames",
+  "lineNumber": 106
  },
  "gembonus": {
   "expansion": 1,
   "code": "gembonus",
-  "*desc": "Increase chance of finding Gems"
+  "*desc": "Increase chance of finding Gems",
+  "lineNumber": 130
  },
  "gems%/lvl": {
   "expansion": 1,
   "code": "gems%/lvl",
   "*desc": "+% Chance of finding Gems per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 179
  },
  "gems%/time": {
   "expansion": 1,
@@ -1246,7 +1393,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 232
  },
  "gethit-skill": {
   "expansion": 1,
@@ -1257,13 +1405,15 @@
   "*desc": "Proc Skill on Get Hit",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level"
+  "*max": "Level",
+  "lineNumber": 129
  },
  "gold%": {
   "code": "gold%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_goldbonus"
+  "stat1": "item_goldbonus",
+  "lineNumber": 58
  },
  "gold%/lvl": {
   "expansion": 1,
@@ -1272,7 +1422,8 @@
   "func1": 17,
   "stat1": "item_find_gold_perlevel",
   "*desc": "+% Gold Dropped per Player Lvl",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 167
  },
  "gold%/time": {
   "expansion": 1,
@@ -1284,13 +1435,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 220
  },
  "half-freeze": {
   "code": "half-freeze",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_halffreezeduration"
+  "stat1": "item_halffreezeduration",
+  "lineNumber": 95
  },
  "heal-kill": {
   "expansion": 1,
@@ -1298,13 +1451,15 @@
   "*done": 1,
   "func1": 1,
   "stat1": "item_healafterkill",
-  "*desc": "life gained after each kill"
+  "*desc": "life gained after each kill",
+  "lineNumber": 254
  },
  "herb": {
   "code": "herb",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_doubleherbduration"
+  "stat1": "item_doubleherbduration",
+  "lineNumber": 72
  },
  "hit-skill": {
   "expansion": 1,
@@ -1315,25 +1470,29 @@
   "*desc": "Proc Skill on Hit",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level"
+  "*max": "Level",
+  "lineNumber": 128
  },
  "howl": {
   "code": "howl",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_howl"
+  "stat1": "item_howl",
+  "lineNumber": 90
  },
  "hp": {
   "code": "hp",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxhp"
+  "stat1": "maxhp",
+  "lineNumber": 13
  },
  "hp%": {
   "code": "hp%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_maxhp_percent"
+  "stat1": "item_maxhp_percent",
+  "lineNumber": 14
  },
  "hp/lvl": {
   "expansion": 1,
@@ -1342,7 +1501,8 @@
   "func1": 17,
   "stat1": "item_hp_perlevel",
   "*desc": "HP per Player Level",
-  "*param": "hp/lvl (8ths)"
+  "*param": "hp/lvl (8ths)",
+  "lineNumber": 144
  },
  "hp/time": {
   "expansion": 1,
@@ -1354,20 +1514,23 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 198
  },
  "ignore-ac": {
   "code": "ignore-ac",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_ignoretargetac"
+  "stat1": "item_ignoretargetac",
+  "lineNumber": 92
  },
  "indestruct": {
   "expansion": 1,
   "code": "indestruct",
   "*done": 1,
   "func1": 20,
-  "*desc": "Indestructible"
+  "*desc": "Indestructible",
+  "lineNumber": 243
  },
  "item%": {
   "expansion": 1,
@@ -1376,13 +1539,15 @@
   "*param": "item type",
   "*min": "min chance",
   "*max": "max chance",
-  "*notes": "random chance from min to max is assigned to item"
+  "*notes": "random chance from min to max is assigned to item",
+  "lineNumber": 183
  },
  "kick": {
   "code": "kick",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_kickdamage"
+  "stat1": "item_kickdamage",
+  "lineNumber": 109
  },
  "kick/lvl": {
   "expansion": 1,
@@ -1391,7 +1556,8 @@
   "func1": 17,
   "stat1": "item_kick_damage_perlevel",
   "*desc": "Kick Damage per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 177
  },
  "kick/time": {
   "expansion": 1,
@@ -1403,7 +1569,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 230
  },
  "kill-skill": {
   "expansion": 1,
@@ -1414,20 +1581,23 @@
   "*desc": "Proc Skill on killing something",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level"
+  "*max": "Level",
+  "lineNumber": 259
  },
  "knock": {
   "code": "knock",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_knockback"
+  "stat1": "item_knockback",
+  "lineNumber": 60
  },
  "levelreq": {
   "expansion": 1,
   "code": "levelreq",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_levelreq"
+  "stat1": "item_levelreq",
+  "lineNumber": 264
  },
  "levelup-skill": {
   "expansion": 1,
@@ -1438,47 +1608,55 @@
   "*desc": "Proc Skill on level up",
   "*param": "Skill #",
   "*min": "% Chance",
-  "*max": "Level"
+  "*max": "Level",
+  "lineNumber": 261
  },
  "lifesteal": {
   "code": "lifesteal",
   "*done": 1,
   "func1": 1,
-  "stat1": "lifedrainmindam"
+  "stat1": "lifedrainmindam",
+  "lineNumber": 66
  },
  "light": {
   "code": "light",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_lightradius"
+  "stat1": "item_lightradius",
+  "lineNumber": 73
  },
  "light-thorns": {
   "code": "light-thorns",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_attackertakeslightdamage"
+  "stat1": "item_attackertakeslightdamage",
+  "lineNumber": 105
  },
  "ltng-fx": {
   "expansion": 1,
-  "code": "ltng-fx"
+  "code": "ltng-fx",
+  "lineNumber": 133
  },
  "ltng-max": {
   "code": "ltng-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "lightmaxdam"
+  "stat1": "lightmaxdam",
+  "lineNumber": 23
  },
  "ltng-min": {
   "code": "ltng-min",
   "*done": 1,
   "func1": 1,
-  "stat1": "lightmindam"
+  "stat1": "lightmindam",
+  "lineNumber": 22
  },
  "mag%": {
   "code": "mag%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_magicbonus"
+  "stat1": "item_magicbonus",
+  "lineNumber": 59
  },
  "mag%/lvl": {
   "expansion": 1,
@@ -1487,7 +1665,8 @@
   "func1": 17,
   "stat1": "item_find_magic_perlevel",
   "*desc": "+% Magical per Player Lvl",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 168
  },
  "mag%/time": {
   "expansion": 1,
@@ -1499,31 +1678,36 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 221
  },
  "magicarrow": {
   "code": "magicarrow",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_magicarrow"
+  "stat1": "item_magicarrow",
+  "lineNumber": 119
  },
  "mana": {
   "code": "mana",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxmana"
+  "stat1": "maxmana",
+  "lineNumber": 11
  },
  "mana%": {
   "code": "mana%",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_maxmana_percent"
+  "stat1": "item_maxmana_percent",
+  "lineNumber": 12
  },
  "mana-kill": {
   "code": "mana-kill",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_manaafterkill"
+  "stat1": "item_manaafterkill",
+  "lineNumber": 110
  },
  "mana/lvl": {
   "expansion": 1,
@@ -1532,7 +1716,8 @@
   "func1": 17,
   "stat1": "item_mana_perlevel",
   "*desc": "Mana per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 145
  },
  "mana/time": {
   "expansion": 1,
@@ -1544,56 +1729,65 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 199
  },
  "manasteal": {
   "code": "manasteal",
   "*done": 1,
   "func1": 1,
-  "stat1": "manadrainmindam"
+  "stat1": "manadrainmindam",
+  "lineNumber": 65
  },
  "move1": {
   "code": "move1",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastermovevelocity"
+  "stat1": "item_fastermovevelocity",
+  "lineNumber": 76
  },
  "move2": {
   "code": "move2",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastermovevelocity"
+  "stat1": "item_fastermovevelocity",
+  "lineNumber": 77
  },
  "move3": {
   "code": "move3",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fastermovevelocity"
+  "stat1": "item_fastermovevelocity",
+  "lineNumber": 78
  },
  "nec": {
   "code": "nec",
   "*done": 1,
   "val1": 2,
   "func1": 21,
-  "stat1": "item_addclassskills"
+  "stat1": "item_addclassskills",
+  "lineNumber": 69
  },
  "nofreeze": {
   "code": "nofreeze",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_cannotbefrozen"
+  "stat1": "item_cannotbefrozen",
+  "lineNumber": 115
  },
  "noheal": {
   "code": "noheal",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_preventheal"
+  "stat1": "item_preventheal",
+  "lineNumber": 94
  },
  "openwounds": {
   "code": "openwounds",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_openwounds"
+  "stat1": "item_openwounds",
+  "lineNumber": 107
  },
  "oskill": {
   "expansion": 1,
@@ -1603,20 +1797,23 @@
   "stat1": "item_nonclassskill",
   "*param": "Skill",
   "*min": "min level",
-  "*max": "max level"
+  "*max": "max level",
+  "lineNumber": 266
  },
  "pal": {
   "code": "pal",
   "*done": 1,
   "val1": 3,
   "func1": 21,
-  "stat1": "item_addclassskills"
+  "stat1": "item_addclassskills",
+  "lineNumber": 68
  },
  "pierce": {
   "code": "pierce",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_pierce"
+  "stat1": "item_pierce",
+  "lineNumber": 118
  },
  "pierce-cold": {
   "expansion": 1,
@@ -1626,7 +1823,8 @@
   "stat1": "passive_cold_pierce",
   "*desc": "Negates % of Enemy Lightning Resistance",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 235
  },
  "pierce-fire": {
   "expansion": 1,
@@ -1636,7 +1834,8 @@
   "stat1": "passive_fire_pierce",
   "*desc": "Negates % of Enemy Cold Resistance",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 233
  },
  "pierce-ltng": {
   "expansion": 1,
@@ -1646,7 +1845,8 @@
   "stat1": "passive_ltng_pierce",
   "*desc": "Negates % of Enemy Fire Resistance",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 234
  },
  "pierce-pois": {
   "expansion": 1,
@@ -1656,25 +1856,29 @@
   "stat1": "passive_pois_pierce",
   "*desc": "Negates % of Enemy Poison Resistance",
   "*min": "min",
-  "*max": "max"
+  "*max": "max",
+  "lineNumber": 236
  },
  "pois-len": {
   "code": "pois-len",
   "*done": 1,
   "func1": 1,
-  "stat1": "poisonlength"
+  "stat1": "poisonlength",
+  "lineNumber": 26
  },
  "pois-max": {
   "code": "pois-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "poisonmaxdam"
+  "stat1": "poisonmaxdam",
+  "lineNumber": 25
  },
  "pois-min": {
   "code": "pois-min",
   "*done": 1,
   "func1": 1,
-  "stat1": "poisonmindam"
+  "stat1": "poisonmindam",
+  "lineNumber": 24
  },
  "randclassskill": {
   "expansion": 1,
@@ -1682,59 +1886,69 @@
   "*done": 1,
   "val1": 3,
   "func1": 36,
-  "stat1": "item_addclassskills"
+  "stat1": "item_addclassskills",
+  "lineNumber": 268
  },
  "reanimate": {
   "code": "reanimate",
   "*done": 1,
   "func1": 24,
-  "stat1": "item_reanimate"
+  "stat1": "item_reanimate",
+  "lineNumber": 117
  },
  "red-dmg": {
   "code": "red-dmg",
   "*done": 1,
   "func1": 1,
-  "stat1": "normal_damage_reduction"
+  "stat1": "normal_damage_reduction",
+  "lineNumber": 3
  },
  "red-dmg%": {
   "code": "red-dmg%",
   "*done": 1,
   "func1": 1,
-  "stat1": "damageresist"
+  "stat1": "damageresist",
+  "lineNumber": 4
  },
  "red-mag": {
   "code": "red-mag",
   "*done": 1,
   "func1": 1,
-  "stat1": "magic_damage_reduction"
+  "stat1": "magic_damage_reduction",
+  "lineNumber": 6
  },
  "reduce-ac": {
   "code": "reduce-ac",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_fractionaltargetac"
+  "stat1": "item_fractionaltargetac",
+  "lineNumber": 93
  },
  "regen": {
   "code": "regen",
   "*done": 1,
   "func1": 1,
-  "stat1": "hpregen"
+  "stat1": "hpregen",
+  "lineNumber": 53
  },
  "regen-dur": {
   "expansion": 1,
-  "code": "regen-dur"
+  "code": "regen-dur",
+  "lineNumber": 131
  },
  "regen-mana": {
   "code": "regen-mana",
   "*done": 1,
   "func1": 1,
-  "stat1": "manarecoverybonus"
+  "stat1": "manarecoverybonus",
+  "lineNumber": 62
  },
  "regen-stam": {
   "code": "regen-stam",
   "*done": 1,
   "func1": 1,
-  "stat1": "staminarecoverybonus"
+  "stat1": "staminarecoverybonus",
+  "lineNumber": 61
  },
  "regen-stam/lvl": {
   "expansion": 1,
@@ -1743,7 +1957,8 @@
   "func1": 17,
   "stat1": "item_regenstamina_perlevel",
   "*desc": "+% Stamina Regeneration per Player Lvl",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 169
  },
  "regen-stam/time": {
   "expansion": 1,
@@ -1755,7 +1970,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 222
  },
  "rep-dur": {
   "expansion": 1,
@@ -1765,7 +1981,8 @@
   "stat1": "item_replenish_durability",
   "*desc": "regenerates durability",
   "*param": "speed (see note)",
-  "*notes": "regenerates 1 durability point per 100/lvl seconds"
+  "*notes": "regenerates 1 durability point per 100/lvl seconds",
+  "lineNumber": 180
  },
  "rep-quant": {
   "expansion": 1,
@@ -1775,7 +1992,8 @@
   "stat1": "item_replenish_quantity",
   "*desc": "regenerates quantity",
   "*param": "speed (see note)",
-  "*notes": "regenerates 1 quantity per 100/lvl seconds"
+  "*notes": "regenerates 1 quantity per 100/lvl seconds",
+  "lineNumber": 181
  },
  "res-all": {
   "code": "res-all",
@@ -1787,7 +2005,8 @@
   "func3": 3,
   "stat3": "coldresist",
   "func4": 3,
-  "stat4": "poisonresist"
+  "stat4": "poisonresist",
+  "lineNumber": 41
  },
  "res-all-max": {
   "code": "res-all-max",
@@ -1799,19 +2018,22 @@
   "func3": 3,
   "stat3": "maxcoldresist",
   "func4": 3,
-  "stat4": "maxpoisonresist"
+  "stat4": "maxpoisonresist",
+  "lineNumber": 42
  },
  "res-cold": {
   "code": "res-cold",
   "*done": 1,
   "func1": 1,
-  "stat1": "coldresist"
+  "stat1": "coldresist",
+  "lineNumber": 35
  },
  "res-cold-max": {
   "code": "res-cold-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxcoldresist"
+  "stat1": "maxcoldresist",
+  "lineNumber": 36
  },
  "res-cold/lvl": {
   "expansion": 1,
@@ -1820,7 +2042,8 @@
   "func1": 17,
   "stat1": "item_resist_cold_perlevel",
   "*desc": "Resist Cold% per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 158
  },
  "res-cold/time": {
   "expansion": 1,
@@ -1832,19 +2055,22 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 212
  },
  "res-fire": {
   "code": "res-fire",
   "*done": 1,
   "func1": 1,
-  "stat1": "fireresist"
+  "stat1": "fireresist",
+  "lineNumber": 31
  },
  "res-fire-max": {
   "code": "res-fire-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxfireresist"
+  "stat1": "maxfireresist",
+  "lineNumber": 32
  },
  "res-fire/lvl": {
   "expansion": 1,
@@ -1853,7 +2079,8 @@
   "func1": 17,
   "stat1": "item_resist_fire_perlevel",
   "*desc": "Resist Fire% per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 159
  },
  "res-fire/time": {
   "expansion": 1,
@@ -1865,19 +2092,22 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 213
  },
  "res-ltng": {
   "code": "res-ltng",
   "*done": 1,
   "func1": 1,
-  "stat1": "lightresist"
+  "stat1": "lightresist",
+  "lineNumber": 33
  },
  "res-ltng-max": {
   "code": "res-ltng-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxlightresist"
+  "stat1": "maxlightresist",
+  "lineNumber": 34
  },
  "res-ltng/lvl": {
   "expansion": 1,
@@ -1886,7 +2116,8 @@
   "func1": 17,
   "stat1": "item_resist_ltng_perlevel",
   "*desc": "Resist Lightning% per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 160
  },
  "res-ltng/time": {
   "expansion": 1,
@@ -1898,37 +2129,43 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 214
  },
  "res-mag": {
   "code": "res-mag",
   "*done": 1,
   "func1": 1,
-  "stat1": "magicresist"
+  "stat1": "magicresist",
+  "lineNumber": 37
  },
  "res-mag-max": {
   "code": "res-mag-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxmagicresist"
+  "stat1": "maxmagicresist",
+  "lineNumber": 38
  },
  "res-pois": {
   "code": "res-pois",
   "*done": 1,
   "func1": 1,
-  "stat1": "poisonresist"
+  "stat1": "poisonresist",
+  "lineNumber": 39
  },
  "res-pois-len": {
   "code": "res-pois-len",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_poisonlengthresist"
+  "stat1": "item_poisonlengthresist",
+  "lineNumber": 88
  },
  "res-pois-max": {
   "code": "res-pois-max",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxpoisonresist"
+  "stat1": "maxpoisonresist",
+  "lineNumber": 40
  },
  "res-pois/lvl": {
   "expansion": 1,
@@ -1937,7 +2174,8 @@
   "func1": 17,
   "stat1": "item_resist_pois_perlevel",
   "*desc": "Resist Poison% per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 161
  },
  "res-pois/time": {
   "expansion": 1,
@@ -1949,7 +2187,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 215
  },
  "rip": {
   "expansion": 1,
@@ -1959,14 +2198,16 @@
   "stat1": "item_restinpeace",
   "*desc": "slain monsters' corpses can't be used",
   "*min": 1,
-  "*max": 1
+  "*max": 1,
+  "lineNumber": 256
  },
  "skill": {
   "expansion": 1,
   "code": "skill",
   "*done": 1,
   "func1": 22,
-  "stat1": "item_singleskill"
+  "stat1": "item_singleskill",
+  "lineNumber": 124
  },
  "skill-rand": {
   "expansion": 1,
@@ -1977,34 +2218,39 @@
   "*desc": "Bonus to random skill",
   "*param": "Level",
   "*min": "min Skill #",
-  "*max": "max Skill #"
+  "*max": "max Skill #",
+  "lineNumber": 262
  },
  "skilltab": {
   "expansion": 1,
   "code": "skilltab",
   "*done": 1,
   "func1": 10,
-  "stat1": "item_addskill_tab"
+  "stat1": "item_addskill_tab",
+  "lineNumber": 125
  },
  "slow": {
   "code": "slow",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_slow"
+  "stat1": "item_slow",
+  "lineNumber": 114
  },
  "sock": {
   "expansion": 1,
   "code": "sock",
   "*done": 1,
   "func1": 14,
-  "stat1": "item_numsockets"
+  "stat1": "item_numsockets",
+  "lineNumber": 134
  },
  "sor": {
   "code": "sor",
   "*done": 1,
   "val1": 1,
   "func1": 21,
-  "stat1": "item_addclassskills"
+  "stat1": "item_addclassskills",
+  "lineNumber": 70
  },
  "stack": {
   "expansion": 1,
@@ -2014,13 +2260,15 @@
   "stat1": "item_extra_stack",
   "*desc": "Increased stack size",
   "*min": "min count",
-  "*max": "max count"
+  "*max": "max count",
+  "lineNumber": 182
  },
  "stam": {
   "code": "stam",
   "*done": 1,
   "func1": 1,
-  "stat1": "maxstamina"
+  "stat1": "maxstamina",
+  "lineNumber": 63
  },
  "stam/lvl": {
   "expansion": 1,
@@ -2029,7 +2277,8 @@
   "func1": 17,
   "stat1": "item_stamina_perlevel",
   "*desc": "Stamina per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 170
  },
  "stam/time": {
   "expansion": 1,
@@ -2041,13 +2290,15 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 223
  },
  "stamdrain": {
   "code": "stamdrain",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_staminadrainpct"
+  "stat1": "item_staminadrainpct",
+  "lineNumber": 116
  },
  "state": {
   "expansion": 1,
@@ -2057,13 +2308,15 @@
   "stat1": "state",
   "*param": "state",
   "*min": 1,
-  "*max": 1
+  "*max": 1,
+  "lineNumber": 267
  },
  "str": {
   "code": "str",
   "*done": 1,
   "func1": 1,
-  "stat1": "strength"
+  "stat1": "strength",
+  "lineNumber": 7
  },
  "str/lvl": {
   "expansion": 1,
@@ -2072,7 +2325,8 @@
   "func1": 17,
   "stat1": "item_strength_perlevel",
   "*desc": "Strength per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 148
  },
  "str/time": {
   "expansion": 1,
@@ -2084,37 +2338,43 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 202
  },
  "stupidity": {
   "code": "stupidity",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_stupidity"
+  "stat1": "item_stupidity",
+  "lineNumber": 91
  },
  "swing1": {
   "code": "swing1",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fasterattackrate"
+  "stat1": "item_fasterattackrate",
+  "lineNumber": 55
  },
  "swing2": {
   "code": "swing2",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fasterattackrate"
+  "stat1": "item_fasterattackrate",
+  "lineNumber": 56
  },
  "swing3": {
   "code": "swing3",
   "*done": 1,
   "func1": 8,
-  "stat1": "item_fasterattackrate"
+  "stat1": "item_fasterattackrate",
+  "lineNumber": 57
  },
  "thorns": {
   "code": "thorns",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_attackertakesdamage"
+  "stat1": "item_attackertakesdamage",
+  "lineNumber": 54
  },
  "thorns/lvl": {
   "expansion": 1,
@@ -2123,25 +2383,29 @@
   "func1": 17,
   "stat1": "item_thorns_perlevel",
   "*desc": "Damage to Attacker per Player Lvl",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 166
  },
  "throw": {
   "code": "throw",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_throwable"
+  "stat1": "item_throwable",
+  "lineNumber": 102
  },
  "time": {
   "code": "time",
   "*done": 1,
   "func1": 1,
-  "stat1": "item_timeduration"
+  "stat1": "item_timeduration",
+  "lineNumber": 64
  },
  "vit": {
   "code": "vit",
   "*done": 1,
   "func1": 1,
-  "stat1": "vitality"
+  "stat1": "vitality",
+  "lineNumber": 9
  },
  "vit/lvl": {
   "expansion": 1,
@@ -2150,7 +2414,8 @@
   "func1": 17,
   "stat1": "item_vitality_perlevel",
   "*desc": "Vitality per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 151
  },
  "vit/time": {
   "expansion": 1,
@@ -2162,7 +2427,8 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 205
  },
  "wounds/lvl": {
   "expansion": 1,
@@ -2171,7 +2437,8 @@
   "func1": 17,
   "stat1": "item_openwounds_perlevel",
   "*desc": "+% Chance of Open Wounds per Player Level",
-  "*param": "(8ths)"
+  "*param": "(8ths)",
+  "lineNumber": 176
  },
  "wounds/time": {
   "expansion": 1,
@@ -2183,6 +2450,7 @@
   "*param": "center period",
   "*min": "min",
   "*max": "max",
-  "*notes": "\"max at center period, min at opposite period, linear progression\""
+  "*notes": "\"max at center period, min at opposite period, linear progression\"",
+  "lineNumber": 229
  }
 }

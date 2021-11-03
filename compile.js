@@ -161,6 +161,10 @@ files.forEach(fn => {
 								obj[key] = tmp;
 							}
 
+							if (indexColumn >= 0) {
+								obj[key].lineNumber = index;
+							}
+
 							maxKeyCount = Math.max(maxKeyCount, keyCount);
 						}
 					}
@@ -180,6 +184,18 @@ files.forEach(fn => {
 
 	fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
 });
+
+const monstats = {};
+
+full.monstats.forEach(mon => {
+    monstats[mon.Id] = mon;
+});
+
+const items = Object.assign(
+	full.weapons,
+	full.armor,
+	full.misc
+);
 
 let atomic = {};
 let atomicTypes = {};
@@ -221,18 +237,28 @@ full.atomic = atomic;
 fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, ' '));
 
 [
-    [full.TreasureClass, './json/CalcTc.json', './json/TreasureClassGroups.json'],
-    [full.TreasureClassEx, './json/CalcTcEx.json', './json/TreasureClassExGroups.json'],
-].forEach(([treasureClass, destinationFile, groupsFile]) => {
-    const atomic = JSON.parse(JSON.stringify(require('./json/atomic.json')));
-    const itemTypes = require('./json/ItemTypes.json');
-    const fs = require('fs');
-    
-    const items = Object.assign(
-        require('./json/weapons.json'),
-        require('./json/armor.json'),
-        require('./json/misc.json')
-    );
+    [full.TreasureClass, './json/CalcTc.json', './json/TreasureClassGroups.json', './json/levelCalcTc.json', false],
+    [full.TreasureClassEx, './json/CalcTcEx.json', './json/TreasureClassExGroups.json', './json/levelCalcTcEx.json', true],
+].forEach(([treasureClass, destinationFile, groupsFile, levelCalcFile, expansion]) => {
+	let groups = {};
+
+	treasureClass.forEach((tc, key) => {
+		if (tc.group) {
+			groups[tc.group] = groups[tc.group] || [];
+			groups[tc.group][tc.level|0] = key;
+		}
+	});
+
+	groups = groups.map(group => {
+		let length = group.length;
+		group = Object.assign({}, group);
+		group.length = length;
+		return group;
+	});
+
+	if (Object.values(groups).length) {
+		fs.writeFileSync(groupsFile, JSON.stringify(groups, null, ' '));
+	}
         
     function noDrop(e, nd, ...d) {
         if (nd < 1) {
@@ -255,12 +281,12 @@ fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, '
     
         let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => items[v] && v !== 'gld'),
             total = itemlist.reduce((total, code) => {
-                return total + (items[code].type && itemTypes[items[code].type] && itemTypes[items[code].type].Rarity ? itemTypes[items[code].type].Rarity : 1);
+                return total + (items[code].type && full.ItemTypes[items[code].type] && full.ItemTypes[items[code].type].Rarity ? full.ItemTypes[items[code].type].Rarity : 1);
             }, 0),
             ret = {};
         
         for(let code of itemlist) {
-            ret[code] = mult * itemTypes[items[code].type].Rarity / total;
+            ret[code] = mult * full.ItemTypes[items[code].type].Rarity / total;
         }
     
         return ret;
@@ -318,18 +344,97 @@ fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, '
         return getItemList(name, mult);
     }
     
-    const calcTc = {};
+    const calculatedTc = {};
     
     [
         ...Object.keys(treasureClass),
         ...Object.keys(atomic),
     ].sort().forEach(key => {
-        calcTc[key] = getTC(key, 1);
+        calculatedTc[key] = getTC(key, 1);
     });
     
-    delete calcTc.Gold;
+    delete calculatedTc.Gold;
     
-    fs.writeFileSync(destinationFile, JSON.stringify(calcTc, null, ' '));
+    fs.writeFileSync(destinationFile, JSON.stringify(calculatedTc, null, ' '));
+
+	function adjustTc(name, mlvl, lvl) {
+		mlvl = mlvl | 0;
+		lvl = lvl | 0;
+
+		if (lvl > mlvl && treasureClass[name].group) {
+			let grp = groups[treasureClass[name].group] || [];
+
+			for (let c = lvl; c >= 0; c--) {
+				if (grp[c]) {
+					return grp[c];
+				}
+			}
+		}
+
+		return name;
+	}
+
+	const levelCalcTc = {};
+
+	full.Levels.forEach(level => {
+		if (level.expansion && !expansion) {
+			return;
+		}
+
+		levelCalcTc[level.LevelName] = {};
+
+		if (level.NumMon) {
+			[
+				['normal', 'mon', 'TreasureClass1', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
+				['nightmare', 'nmon', 'TreasureClass1(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['hell', 'nmon', 'TreasureClass1(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+			].forEach(([difficulty, monprefix, tcname, mlvlkey, lvlkey]) => {
+				for (let c = 1; c <= 10; c++) {
+					levelCalcTc[level.LevelName][difficulty] = levelCalcTc[level.LevelName][difficulty] || {};
+
+					if (level[monprefix + c] && monstats[level[monprefix + c]]) {
+						let mon = monstats[level[monprefix + c]],
+							avg = (mon.MinGrp + mon.MaxGrp) / 2,
+							minionavg = mon.minion2 ? (mon.PartyMin + mon.PartyMax) / 4 : (mon.PartyMin + mon.PartyMax) / 2,
+							tcs = {};
+		
+						if (mon[tcname]) {
+							tcs[adjustTc(mon[tcname], mon[mlvlkey], level[lvlkey])] = avg;
+						}
+		
+						if (mon.minion1 && monstats[mon.minion1][tcname]) {
+							let m1tc = adjustTc(monstats[mon.minion1][tcname], monstats[mon.minion1][mlvlkey], level[lvlkey])
+							tcs[m1tc] = tcs[m1tc] || 0;
+							tcs[m1tc] += minionavg;
+						}
+		
+						if (mon.minion2 && monstats[mon.minion2][tcname]) {
+							let m2tc = adjustTc(monstats[mon.minion2][tcname], monstats[mon.minion2][mlvlkey], level[lvlkey]);
+							tcs[m2tc] = tcs[m2tc] || 0;
+							tcs[m2tc] += minionavg;
+						}
+		
+						let total = Object.values(tcs).reduce((t, v) => t + v, 0);
+		
+						tcs.forEach((mult, tc) => {
+							if (calculatedTc[tc]) {
+								for (let itc in calculatedTc[tc]) {
+									if (calculatedTc[tc][itc]) {
+										let chance = calculatedTc[tc][itc];
+										let name = items[itc].name;
+										levelCalcTc[level.LevelName][difficulty][name] = levelCalcTc[level.LevelName][difficulty][name] || 0;
+										levelCalcTc[level.LevelName][difficulty][name] += chance * mult / total;
+									}
+								}
+							}
+						});
+					}
+				}
+			});
+		}
+	});
+
+	fs.writeFileSync(levelCalcFile, JSON.stringify(levelCalcTc, null, ' '));
 });
 
 delete full.Sounds;

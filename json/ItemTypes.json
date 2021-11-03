@@ -16,7 +16,8 @@
   "TreasureClass": 1,
   "Rarity": 1,
   "Class": "ama",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 86
  },
  "ajav": {
   "expansion": 1,
@@ -35,7 +36,8 @@
   "Rare": 1,
   "Rarity": 1,
   "Class": "ama",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 88
  },
  "amaz": {
   "expansion": 1,
@@ -44,7 +46,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
-  "Class": "ama"
+  "Class": "ama",
+  "lineNumber": 61
  },
  "amul": {
   "ItemType": "Amulet",
@@ -60,7 +63,8 @@
   "InvGfx1": "invamu1",
   "InvGfx2": "invamu2",
   "InvGfx3": "invamu3",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 12
  },
  "apot": {
   "expansion": 1,
@@ -70,14 +74,16 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 81
  },
  "armo": {
   "ItemType": "Any Armor",
   "Code": "armo",
   "Rare": 1,
   "TreasureClass": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 50
  },
  "ashd": {
   "expansion": 1,
@@ -95,7 +101,8 @@
   "MaxSock40": 4,
   "Rarity": 1,
   "Class": "pal",
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 71
  },
  "aspe": {
   "expansion": 1,
@@ -113,7 +120,8 @@
   "MaxSock40": 6,
   "Rarity": 1,
   "Class": "ama",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 87
  },
  "assn": {
   "expansion": 1,
@@ -122,7 +130,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 2,
-  "Class": "ass"
+  "Class": "ass",
+  "lineNumber": 66
  },
  "axe": {
   "ItemType": "Axe",
@@ -137,7 +146,8 @@
   "MaxSock25": 5,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 28
  },
  "barb": {
   "expansion": 1,
@@ -146,7 +156,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
-  "Class": "bar"
+  "Class": "bar",
+  "lineNumber": 62
  },
  "belt": {
   "ItemType": "Belt",
@@ -159,14 +170,16 @@
   "Rare": 1,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 19
  },
  "blun": {
   "ItemType": "Blunt",
   "Code": "blun",
   "Equiv1": "mele",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 57
  },
  "body": {
   "ItemType": "Body Part",
@@ -175,7 +188,8 @@
   "Normal": 1,
   "Rarity": 3,
   "CostFormula": 2,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 40
  },
  "book": {
   "ItemType": "Book",
@@ -183,7 +197,8 @@
   "Equiv1": "misc",
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 18
  },
  "boot": {
   "ItemType": "Boots",
@@ -196,7 +211,8 @@
   "Rare": 1,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 15
  },
  "bow": {
   "ItemType": "Bow",
@@ -212,7 +228,8 @@
   "MaxSock40": 6,
   "TreasureClass": 1,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 27
  },
  "bowq": {
   "ItemType": "Bow Quiver",
@@ -226,7 +243,8 @@
   "AutoStack": 1,
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 5
  },
  "char": {
   "ItemType": "Charm",
@@ -239,7 +257,8 @@
   "InvGfx1": "invch1",
   "InvGfx2": "invch4",
   "InvGfx3": "invch7",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 13
  },
  "circ": {
   "expansion": 1,
@@ -256,14 +275,16 @@
   "MaxSock40": 3,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 76
  },
  "clas": {
   "expansion": 1,
   "ItemType": "Class Specific",
   "Code": "clas",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 60
  },
  "cloa": {
   "expansion": 1,
@@ -279,7 +300,8 @@
   "Rarity": 1,
   "StaffMods": "ass",
   "Class": "ass",
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 74
  },
  "club": {
   "ItemType": "Club",
@@ -294,7 +316,8 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 29
  },
  "comb": {
   "ItemType": "Combo Weapon",
@@ -303,7 +326,8 @@
   "Equiv2": "thro",
   "Throwable": 1,
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 49
  },
  "drui": {
   "expansion": 1,
@@ -312,7 +336,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
-  "Class": "dru"
+  "Class": "dru",
+  "lineNumber": 67
  },
  "elix": {
   "ItemType": "Elixir",
@@ -320,7 +345,8 @@
   "Equiv1": "misc",
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 11
  },
  "gem": {
   "ItemType": "Gem",
@@ -329,7 +355,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 20
  },
  "gem0": {
   "expansion": 1,
@@ -339,7 +366,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 92
  },
  "gem1": {
   "expansion": 1,
@@ -349,7 +377,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 93
  },
  "gem2": {
   "expansion": 1,
@@ -359,7 +388,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 94
  },
  "gem3": {
   "expansion": 1,
@@ -369,7 +399,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 95
  },
  "gem4": {
   "expansion": 1,
@@ -379,7 +410,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 96
  },
  "gema": {
   "expansion": 1,
@@ -389,7 +421,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 97
  },
  "gemd": {
   "expansion": 1,
@@ -399,7 +432,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 98
  },
  "geme": {
   "expansion": 1,
@@ -409,7 +443,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 99
  },
  "gemr": {
   "expansion": 1,
@@ -419,7 +454,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 100
  },
  "gems": {
   "expansion": 1,
@@ -429,7 +465,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 101
  },
  "gemt": {
   "expansion": 1,
@@ -439,7 +476,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 102
  },
  "gemz": {
   "expansion": 1,
@@ -449,7 +487,8 @@
   "Normal": 1,
   "Gem": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 103
  },
  "glov": {
   "ItemType": "Gloves",
@@ -462,14 +501,16 @@
   "Rare": 1,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 16
  },
  "gold": {
   "ItemType": "Gold",
   "Code": "gold",
   "Equiv1": "misc",
   "Normal": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 4
  },
  "h2h": {
   "expansion": 1,
@@ -487,7 +528,8 @@
   "MaxSock40": 3,
   "Rarity": 2,
   "Class": "ass",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 68
  },
  "h2h2": {
   "expansion": 1,
@@ -505,7 +547,8 @@
   "Rarity": 2,
   "StaffMods": "ass",
   "Class": "ass",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 89
  },
  "hamm": {
   "ItemType": "Hammer",
@@ -520,7 +563,8 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 31
  },
  "head": {
   "expansion": 1,
@@ -539,7 +583,8 @@
   "Rarity": 1,
   "StaffMods": "nec",
   "Class": "nec",
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 70
  },
  "helm": {
   "ItemType": "Helm",
@@ -555,14 +600,16 @@
   "MaxSock40": 3,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 37
  },
  "herb": {
   "ItemType": "Herb",
   "Code": "herb",
   "Equiv1": "misc",
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 8
  },
  "hpot": {
   "expansion": 1,
@@ -572,7 +619,8 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 77
  },
  "jave": {
   "ItemType": "Javelin",
@@ -589,7 +637,8 @@
   "AutoStack": 1,
   "Rare": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 44
  },
  "jewl": {
   "expansion": 1,
@@ -607,7 +656,8 @@
   "InvGfx4": "invjw4",
   "InvGfx5": "invjw5",
   "InvGfx6": "invjw6",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 59
  },
  "key": {
   "ItemType": "Key",
@@ -616,7 +666,8 @@
   "AutoStack": 1,
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 41
  },
  "knif": {
   "ItemType": "Knife",
@@ -631,7 +682,8 @@
   "MaxSock25": 3,
   "MaxSock40": 3,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 32
  },
  "lcha": {
   "expansion": 1,
@@ -645,7 +697,8 @@
   "InvGfx1": "invch3",
   "InvGfx2": "invch6",
   "InvGfx3": "invch9",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 85
  },
  "mace": {
   "ItemType": "Mace",
@@ -660,7 +713,8 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 36
  },
  "mboq": {
   "expansion": 1,
@@ -675,7 +729,8 @@
   "Magic": 1,
   "Rare": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 90
  },
  "mcha": {
   "expansion": 1,
@@ -689,7 +744,8 @@
   "InvGfx1": "invch2",
   "InvGfx2": "invch5",
   "InvGfx3": "invch8",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 84
  },
  "mele": {
   "ItemType": "Melee Weapon",
@@ -697,26 +753,30 @@
   "Equiv1": "weap",
   "Rare": 1,
   "TreasureClass": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 46
  },
  "misc": {
   "ItemType": "Miscellaneous",
   "Code": "misc",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 52
  },
  "misl": {
   "ItemType": "Missile",
   "Code": "misl",
   "Equiv1": "misc",
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 56
  },
  "miss": {
   "ItemType": "Missile Weapon",
   "Code": "miss",
   "Equiv1": "weap",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 47
  },
  "mpot": {
   "expansion": 1,
@@ -726,7 +786,8 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 78
  },
  "mxbq": {
   "expansion": 1,
@@ -741,7 +802,8 @@
   "Magic": 1,
   "Rare": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 91
  },
  "necr": {
   "expansion": 1,
@@ -750,7 +812,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
-  "Class": "nec"
+  "Class": "nec",
+  "lineNumber": 63
  },
  "orb": {
   "expansion": 1,
@@ -769,7 +832,8 @@
   "Rarity": 1,
   "StaffMods": "sor",
   "Class": "sor",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 69
  },
  "pala": {
   "expansion": 1,
@@ -778,7 +842,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
-  "Class": "pal"
+  "Class": "pal",
+  "lineNumber": 64
  },
  "pelt": {
   "expansion": 1,
@@ -797,7 +862,8 @@
   "Rarity": 1,
   "StaffMods": "dru",
   "Class": "dru",
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 73
  },
  "phlm": {
   "expansion": 1,
@@ -816,7 +882,8 @@
   "Rarity": 1,
   "StaffMods": "bar",
   "Class": "bar",
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 72
  },
  "play": {
   "ItemType": "Player Body Part",
@@ -825,7 +892,8 @@
   "Normal": 1,
   "Charm": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 7
  },
  "pole": {
   "ItemType": "Polearm",
@@ -840,7 +908,8 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 34
  },
  "poti": {
   "ItemType": "Potion",
@@ -849,12 +918,14 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 9
  },
  "ques": {
   "ItemType": "Quest",
   "Code": "ques",
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 39
  },
  "ring": {
   "ItemType": "Ring",
@@ -872,14 +943,16 @@
   "InvGfx3": "invrin3",
   "InvGfx4": "invrin4",
   "InvGfx5": "invrin5",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 10
  },
  "rod": {
   "ItemType": "Staves And Rods",
   "Code": "rod",
   "Equiv1": "blun",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 55
  },
  "rpot": {
   "expansion": 1,
@@ -890,7 +963,8 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 79
  },
  "rune": {
   "expansion": 1,
@@ -899,7 +973,8 @@
   "Equiv1": "sock",
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 75
  },
  "scep": {
   "ItemType": "Scepter",
@@ -915,7 +990,8 @@
   "MaxSock40": 6,
   "Rarity": 1,
   "StaffMods": "pal",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 24
  },
  "scha": {
   "expansion": 1,
@@ -929,7 +1005,8 @@
   "InvGfx1": "invch1",
   "InvGfx2": "invch4",
   "InvGfx3": "invch7",
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 83
  },
  "scro": {
   "ItemType": "Scroll",
@@ -938,13 +1015,15 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 22
  },
  "seco": {
   "ItemType": "Second Hand",
   "Code": "seco",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 54
  },
  "shie": {
   "ItemType": "Shield",
@@ -960,7 +1039,8 @@
   "MaxSock40": 4,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 2
  },
  "shld": {
   "ItemType": "Any Shield",
@@ -968,13 +1048,15 @@
   "Equiv1": "armo",
   "Equiv2": "seco",
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 51
  },
  "sock": {
   "ItemType": "Socket Filler",
   "Code": "sock",
   "Equiv1": "misc",
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 53
  },
  "sorc": {
   "expansion": 1,
@@ -983,7 +1065,8 @@
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
-  "Class": "sor"
+  "Class": "sor",
+  "lineNumber": 65
  },
  "spea": {
   "ItemType": "Spear",
@@ -998,7 +1081,8 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 33
  },
  "spot": {
   "expansion": 1,
@@ -1008,7 +1092,8 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 80
  },
  "staf": {
   "ItemType": "Staff",
@@ -1024,7 +1109,8 @@
   "MaxSock40": 6,
   "Rarity": 1,
   "StaffMods": "sor",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 26
  },
  "swor": {
   "ItemType": "Sword",
@@ -1039,7 +1125,8 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 30
  },
  "taxe": {
   "ItemType": "Throwing Axe",
@@ -1056,7 +1143,8 @@
   "AutoStack": 1,
   "Rare": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 43
  },
  "thro": {
   "ItemType": "Thrown Weapon",
@@ -1064,7 +1152,8 @@
   "Equiv1": "weap",
   "Throwable": 1,
   "Rare": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 48
  },
  "tkni": {
   "ItemType": "Throwing Knife",
@@ -1081,7 +1170,8 @@
   "AutoStack": 1,
   "Rare": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 42
  },
  "torc": {
   "ItemType": "Torch",
@@ -1090,7 +1180,8 @@
   "Body": 1,
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 21
  },
  "tors": {
   "ItemType": "Armor",
@@ -1106,7 +1197,8 @@
   "MaxSock40": 6,
   "Rarity": 3,
   "CostFormula": 1,
-  "StorePage": "armo"
+  "StorePage": "armo",
+  "lineNumber": 3
  },
  "tpot": {
   "ItemType": "Missile Potion",
@@ -1121,7 +1213,8 @@
   "AutoStack": 1,
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 38
  },
  "wand": {
   "ItemType": "Wand",
@@ -1137,14 +1230,16 @@
   "MaxSock40": 2,
   "Rarity": 1,
   "StaffMods": "nec",
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 25
  },
  "weap": {
   "ItemType": "Weapon",
   "Code": "weap",
   "Rare": 1,
   "TreasureClass": 1,
-  "Rarity": 3
+  "Rarity": 3,
+  "lineNumber": 45
  },
  "wpot": {
   "expansion": 1,
@@ -1154,7 +1249,8 @@
   "Normal": 1,
   "Beltable": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 82
  },
  "xboq": {
   "ItemType": "Crossbow Quiver",
@@ -1168,7 +1264,8 @@
   "AutoStack": 1,
   "Normal": 1,
   "Rarity": 3,
-  "StorePage": "misc"
+  "StorePage": "misc",
+  "lineNumber": 6
  },
  "xbow": {
   "ItemType": "Crossbow",
@@ -1184,6 +1281,7 @@
   "MaxSock25": 4,
   "MaxSock40": 6,
   "Rarity": 3,
-  "StorePage": "weap"
+  "StorePage": "weap",
+  "lineNumber": 35
  }
 }

@@ -56,7 +56,8 @@
   "item4": "tsc",
   "item4count": 1,
   "item5": "isc",
-  "item5count": 1
+  "item5count": 1,
+  "lineNumber": 0
  },
  "Assassin": {
   "class": "Assassin",
@@ -116,7 +117,8 @@
   "item4": "tsc",
   "item4count": 1,
   "item5": "isc",
-  "item5count": 1
+  "item5count": 1,
+  "lineNumber": 7
  },
  "Barbarian": {
   "class": "Barbarian",
@@ -177,7 +179,8 @@
   "item4": "tsc",
   "item4count": 1,
   "item5": "isc",
-  "item5count": 1
+  "item5count": 1,
+  "lineNumber": 4
  },
  "Druid": {
   "class": "Druid",
@@ -236,10 +239,12 @@
   "item4": "tsc",
   "item4count": 1,
   "item5": "isc",
-  "item5count": 1
+  "item5count": 1,
+  "lineNumber": 6
  },
  "Expansion": {
-  "class": "Expansion"
+  "class": "Expansion",
+  "lineNumber": 5
  },
  "Necromancer": {
   "class": "Necromancer",
@@ -296,7 +301,8 @@
   "item3": "tsc",
   "item3count": 1,
   "item4": "isc",
-  "item4count": 1
+  "item4count": 1,
+  "lineNumber": 2
  },
  "Paladin": {
   "class": "Paladin",
@@ -355,7 +361,8 @@
   "item4": "tsc",
   "item4count": 1,
   "item5": "isc",
-  "item5count": 1
+  "item5count": 1,
+  "lineNumber": 3
  },
  "Sorceress": {
   "class": "Sorceress",
@@ -412,6 +419,7 @@
   "item3": "tsc",
   "item3count": 1,
   "item4": "isc",
-  "item4count": 1
+  "item4count": 1,
+  "lineNumber": 1
  }
 }

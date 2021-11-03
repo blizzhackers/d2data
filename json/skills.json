@@ -27,7 +27,8 @@
   "general": 1,
   "InGame": 1,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 0
  },
  "1": {
   "skill": "Kick",
@@ -48,7 +49,8 @@
   "general": 1,
   "InGame": 1,
   "Kick": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 1
  },
  "2": {
   "skill": "Throw",
@@ -72,7 +74,8 @@
   "general": 1,
   "InGame": 1,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 2
  },
  "3": {
   "skill": "Unsummon",
@@ -94,7 +97,8 @@
   "InTown": 1,
   "general": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 3
  },
  "4": {
   "skill": "Left Hand Throw",
@@ -119,7 +123,8 @@
   "interrupt": 1,
   "general": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 4
  },
  "5": {
   "skill": "Left Hand Swing",
@@ -147,7 +152,8 @@
   "interrupt": 1,
   "general": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 5
  },
  "6": {
   "skill": "Magic Arrow",
@@ -189,7 +195,8 @@
   "MaxLevDam4": 1,
   "MaxLevDam5": 1,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 6
  },
  "7": {
   "skill": "Fire Arrow",
@@ -239,7 +246,8 @@
   "EMaxLev5": 27,
   "EDmgSymPerCalc": "(skill('Exploding Arrow'.blvl)) * par8",
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 7
  },
  "8": {
   "skill": "Inner Sight",
@@ -290,7 +298,8 @@
   "EMinLev4": 80,
   "EMinLev5": 100,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 8
  },
  "9": {
   "skill": "Critical Strike",
@@ -320,7 +329,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 9
  },
  "10": {
   "skill": "Jab",
@@ -366,7 +376,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 10
  },
  "11": {
   "skill": "Cold Arrow",
@@ -421,7 +432,8 @@
   "ELevLen2": 30,
   "ELevLen3": 30,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 11
  },
  "12": {
   "skill": "Multiple Shot",
@@ -471,7 +483,8 @@
   "HitShift": 8,
   "SrcDam": 96,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 12
  },
  "13": {
   "skill": "Dodge",
@@ -500,7 +513,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 13
  },
  "14": {
   "skill": "Power Strike",
@@ -546,7 +560,8 @@
   "EMaxLev5": 90,
   "EDmgSymPerCalc": "(skill('Lightning Strike'.blvl)+skill('Lightning Bolt'.blvl)+skill('Charged Strike'.blvl)+skill('Lightning Fury'.blvl)) * par8",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 14
  },
  "15": {
   "skill": "Poison Javelin",
@@ -600,7 +615,8 @@
   "ELevLen2": 50,
   "ELevLen3": 50,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 15
  },
  "16": {
   "skill": "Exploding Arrow",
@@ -653,7 +669,8 @@
   "EMaxLev5": 23,
   "EDmgSymPerCalc": "(skill('Fire Arrow'.blvl)) * par8",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 16
  },
  "17": {
   "skill": "Slow Missiles",
@@ -698,7 +715,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 17
  },
  "18": {
   "skill": "Avoid",
@@ -728,7 +746,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 18
  },
  "19": {
   "skill": "Impale",
@@ -784,7 +803,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 19
  },
  "20": {
   "skill": "Lightning Bolt",
@@ -827,7 +847,8 @@
   "EMaxLev5": 88,
   "EDmgSymPerCalc": "(skill('Lightning Strike'.blvl)+skill('Power Strike'.blvl)+skill('Charged Strike'.blvl)+skill('Lightning Fury'.blvl)) * par8",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 20
  },
  "21": {
   "skill": "Ice Arrow",
@@ -886,7 +907,8 @@
   "ELevLen3": 5,
   "ELenSymPerCalc": "(skill('Freezing Arrow'.blvl)) * par7",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 21
  },
  "22": {
   "skill": "Guided Arrow",
@@ -932,7 +954,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 22
  },
  "23": {
   "skill": "Penetrate",
@@ -962,7 +985,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 23
  },
  "24": {
   "skill": "Charged Strike",
@@ -1019,7 +1043,8 @@
   "EMaxLev5": 28,
   "EDmgSymPerCalc": "(skill('Lightning Strike'.blvl)+skill('Lightning Bolt'.blvl)+skill('Power Strike'.blvl)+skill('Lightning Fury'.blvl)) * par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 24
  },
  "25": {
   "skill": "Plague Javelin",
@@ -1078,7 +1103,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 25
  },
  "26": {
   "skill": "Strafe",
@@ -1133,7 +1159,8 @@
   "HitShift": 8,
   "SrcDam": 96,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 26
  },
  "27": {
   "skill": "Immolation Arrow",
@@ -1194,7 +1221,8 @@
   "EMaxLev5": 38,
   "EDmgSymPerCalc": "(skill('Exploding Arrow'.blvl)) * par8",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 27
  },
  "28": {
   "skill": "Dopplezon",
@@ -1250,7 +1278,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 28
  },
  "29": {
   "skill": "Evade",
@@ -1280,7 +1309,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 29
  },
  "30": {
   "skill": "Fend",
@@ -1329,7 +1359,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 30
  },
  "31": {
   "skill": "Freezing Arrow",
@@ -1389,7 +1420,8 @@
   "ELen": 50,
   "ELenSymPerCalc": "(skill('Ice Arrow'.blvl)) * par7",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 31
  },
  "32": {
   "skill": "Valkyrie",
@@ -1468,7 +1500,8 @@
   "ToHitCalc": "40*lvl+40*skill('Penetrate'.blvl)",
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 32
  },
  "33": {
   "skill": "Pierce",
@@ -1497,7 +1530,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 33
  },
  "34": {
   "skill": "Lightning Strike",
@@ -1557,7 +1591,8 @@
   "EMaxLev5": 30,
   "EDmgSymPerCalc": "(skill('Charged Strike'.blvl)+skill('Lightning Bolt'.blvl)+skill('Power Strike'.blvl)+skill('Lightning Fury'.blvl)) * par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 34
  },
  "35": {
   "skill": "Lightning Fury",
@@ -1610,7 +1645,8 @@
   "EMaxLev5": 50,
   "EDmgSymPerCalc": "(skill('Charged Strike'.blvl)+skill('Lightning Bolt'.blvl)+skill('Power Strike'.blvl)+skill('Lightning Strike'.blvl)) * par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 35
  },
  "36": {
   "skill": "Fire Bolt",
@@ -1654,7 +1690,8 @@
   "EMaxLev5": 56,
   "EDmgSymPerCalc": "(skill('Fire Ball'.blvl)+skill('Meteor'.blvl))*par8",
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 36
  },
  "37": {
   "skill": "Warmth",
@@ -1683,7 +1720,8 @@
   "HitShift": 8,
   "EType": "fire",
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 37
  },
  "38": {
   "skill": "Charged Bolt",
@@ -1738,7 +1776,8 @@
   "EMaxLev5": 4,
   "EDmgSymPerCalc": "(skill('Lightning'.blvl))*par8",
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 38
  },
  "39": {
   "skill": "Ice Bolt",
@@ -1786,7 +1825,8 @@
   "ELevLen2": 35,
   "ELevLen3": 35,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 39
  },
  "40": {
   "skill": "Frozen Armor",
@@ -1840,7 +1880,8 @@
   "HitShift": 8,
   "aitype": 1,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 40
  },
  "41": {
   "skill": "Inferno",
@@ -1903,7 +1944,8 @@
   "EMaxLev5": 37,
   "EDmgSymPerCalc": "(skill('Warmth'.blvl))*par8",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 41
  },
  "42": {
   "skill": "Static Field",
@@ -1944,7 +1986,8 @@
   "HitShift": 8,
   "EType": "ltng",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 42
  },
  "43": {
   "skill": "Telekinesis",
@@ -1994,7 +2037,8 @@
   "EMaxLev4": 1,
   "EMaxLev5": 1,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 43
  },
  "44": {
   "skill": "Frost Nova",
@@ -2051,7 +2095,8 @@
   "ELevLen2": 25,
   "ELevLen3": 25,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 44
  },
  "45": {
   "skill": "Ice Blast",
@@ -2108,7 +2153,8 @@
   "ELevLen3": 5,
   "ELenSymPerCalc": "(skill('Glacial Spike'.blvl))*par7",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 45
  },
  "46": {
   "skill": "Blaze",
@@ -2166,7 +2212,8 @@
   "EMaxLev5": 9,
   "EDmgSymPerCalc": "skill('Warmth'.blvl)*par8+skill('Fire Wall'.blvl)*par7",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 46
  },
  "47": {
   "skill": "Fire Ball",
@@ -2212,7 +2259,8 @@
   "EMaxLev5": 40,
   "EDmgSymPerCalc": "(skill('Fire Bolt'.blvl)+skill('Meteor'.blvl))*par8",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 47
  },
  "48": {
   "skill": "Nova",
@@ -2263,7 +2311,8 @@
   "EMaxLev4": 11,
   "EMaxLev5": 12,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 48
  },
  "49": {
   "skill": "Lightning",
@@ -2312,7 +2361,8 @@
   "EMaxLev5": 36,
   "EDmgSymPerCalc": "(skill('Charged Bolt'.blvl)+skill('Chain Lightning'.blvl)+skill('Nova'.blvl))*par8",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 49
  },
  "50": {
   "skill": "Shiver Armor",
@@ -2384,7 +2434,8 @@
   "ELevLen2": 25,
   "ELevLen3": 50,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 50
  },
  "51": {
   "skill": "Fire Wall",
@@ -2437,7 +2488,8 @@
   "EMaxLev5": 21,
   "EDmgSymPerCalc": "(skill('Warmth'.blvl)*par8+skill('Inferno'.blvl)*par7",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 51
  },
  "52": {
   "skill": "Enchant",
@@ -2501,7 +2553,8 @@
   "EMaxLev5": 21,
   "EDmgSymPerCalc": "(skill('Warmth'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 52
  },
  "53": {
   "skill": "Chain Lightning",
@@ -2562,7 +2615,8 @@
   "EMaxLev5": 15,
   "EDmgSymPerCalc": "(skill('Charged Bolt'.blvl)+skill('Lightning'.blvl)+skill('Nova'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 53
  },
  "54": {
   "skill": "Teleport",
@@ -2593,7 +2647,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 54
  },
  "55": {
   "skill": "Glacial Spike",
@@ -2650,7 +2705,8 @@
   "EMaxLev5": 33,
   "EDmgSymPerCalc": "(skill('Ice Bolt'.blvl)+skill('Ice Blast'.blvl)+skill('Frozen Orb'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 55
  },
  "56": {
   "skill": "Meteor",
@@ -2715,7 +2771,8 @@
   "EMaxLev5": 85,
   "EDmgSymPerCalc": "(skill('Fire Bolt'.blvl)+skill('Fire Ball'.blvl))*par8",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 56
  },
  "57": {
   "skill": "Thunder Storm",
@@ -2776,7 +2833,8 @@
   "EMaxLev4": 11,
   "EMaxLev5": 11,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 57
  },
  "58": {
   "skill": "Energy Shield",
@@ -2825,7 +2883,8 @@
   "EMinLev4": 1,
   "EMinLev5": 1,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 58
  },
  "59": {
   "skill": "Blizzard",
@@ -2889,7 +2948,8 @@
   "EDmgSymPerCalc": "(skill('Ice Bolt'.blvl)+skill('Ice Blast'.blvl)+skill('Glacial Spike'.blvl))*par8",
   "ELen": 100,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 59
  },
  "60": {
   "skill": "Chilling Armor",
@@ -2956,7 +3016,8 @@
   "ELevLen2": 25,
   "ELevLen3": 25,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 60
  },
  "61": {
   "skill": "Fire Mastery",
@@ -2985,7 +3046,8 @@
   "HitShift": 8,
   "EType": "fire",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 61
  },
  "62": {
   "skill": "Hydra",
@@ -3053,7 +3115,8 @@
   "EMaxLev5": 29,
   "EDmgSymPerCalc": "(skill('Fire Bolt'.blvl) + skill('Fire Ball'.blvl))*par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 62
  },
  "63": {
   "skill": "Lightning Mastery",
@@ -3081,7 +3144,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 63
  },
  "64": {
   "skill": "Frozen Orb",
@@ -3133,7 +3197,8 @@
   "ELevLen2": 25,
   "ELevLen3": 25,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 64
  },
  "65": {
   "skill": "Cold Mastery",
@@ -3161,7 +3226,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 65
  },
  "66": {
   "skill": "Amplify Damage",
@@ -3207,7 +3273,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 66
  },
  "67": {
   "skill": "Teeth",
@@ -3265,7 +3332,8 @@
   "EMaxLev5": 6,
   "EDmgSymPerCalc": "(skill('Bone Wall'.blvl)+skill('Bone Prison'.blvl)+skill('Bone Spear'.blvl)+skill('Bone Spirit'.blvl))*par8",
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 67
  },
  "68": {
   "skill": "Bone Armor",
@@ -3305,7 +3373,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 68
  },
  "69": {
   "skill": "Skeleton Mastery",
@@ -3334,7 +3403,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 69
  },
  "70": {
   "skill": "Raise Skeleton",
@@ -3395,7 +3465,8 @@
   "EMinLev4": 3,
   "EMinLev5": 4,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 70
  },
  "71": {
   "skill": "Dim Vision",
@@ -3436,7 +3507,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 71
  },
  "72": {
   "skill": "Weaken",
@@ -3483,7 +3555,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 72
  },
  "73": {
   "skill": "Poison Dagger",
@@ -3536,7 +3609,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 73
  },
  "74": {
   "skill": "Corpse Explosion",
@@ -3593,7 +3667,8 @@
   "HitShift": 8,
   "EType": "fire",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 74
  },
  "75": {
   "skill": "Clay Golem",
@@ -3646,7 +3721,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 75
  },
  "76": {
   "skill": "Iron Maiden",
@@ -3701,7 +3777,8 @@
   "HitClass": 141,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 76
  },
  "77": {
   "skill": "Terror",
@@ -3746,7 +3823,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 77
  },
  "78": {
   "skill": "Bone Wall",
@@ -3789,7 +3867,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 78
  },
  "79": {
   "skill": "Golem Mastery",
@@ -3822,7 +3901,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 79
  },
  "80": {
   "skill": "Raise Skeletal Mage",
@@ -3870,7 +3950,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 80
  },
  "81": {
   "skill": "Confuse",
@@ -3912,7 +3993,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 81
  },
  "82": {
   "skill": "Life Tap",
@@ -3965,7 +4047,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 82
  },
  "83": {
   "skill": "Poison Explosion",
@@ -4026,7 +4109,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 83
  },
  "84": {
   "skill": "Bone Spear",
@@ -4073,7 +4157,8 @@
   "EMaxLev5": 25,
   "EDmgSymPerCalc": "(skill('Bone Wall'.blvl)+skill('Bone Prison'.blvl)+skill('Teeth'.blvl)+skill('Bone Spirit'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 84
  },
  "85": {
   "skill": "BloodGolem",
@@ -4133,7 +4218,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 85
  },
  "86": {
   "skill": "Attract",
@@ -4175,7 +4261,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 86
  },
  "87": {
   "skill": "Decrepify",
@@ -4227,7 +4314,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 87
  },
  "88": {
   "skill": "Bone Prison",
@@ -4270,7 +4358,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 88
  },
  "89": {
   "skill": "Summon Resist",
@@ -4302,7 +4391,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 89
  },
  "90": {
   "skill": "IronGolem",
@@ -4358,7 +4448,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 90
  },
  "91": {
   "skill": "Lower Resist",
@@ -4414,7 +4505,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 91
  },
  "92": {
   "skill": "Poison Nova",
@@ -4460,7 +4552,8 @@
   "EDmgSymPerCalc": "(skill('Poison Dagger'.blvl)+skill('Poison Explosion'.blvl))*par8",
   "ELen": 50,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 92
  },
  "93": {
   "skill": "Bone Spirit",
@@ -4510,7 +4603,8 @@
   "EMaxLev5": 21,
   "EDmgSymPerCalc": "(skill('Bone Wall'.blvl)+skill('Bone Prison'.blvl)+skill('Teeth'.blvl)+skill('Bone Spear'.blvl))*par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 93
  },
  "94": {
   "skill": "FireGolem",
@@ -4587,7 +4681,8 @@
   "EMaxLev4": 13,
   "EMaxLev5": 14,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 94
  },
  "95": {
   "skill": "Revive",
@@ -4641,7 +4736,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 95
  },
  "96": {
   "skill": "Sacrifice",
@@ -4694,7 +4790,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 96
  },
  "97": {
   "skill": "Smite",
@@ -4738,7 +4835,8 @@
   "ResultFlags": 8,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 97
  },
  "98": {
   "skill": "Might",
@@ -4775,7 +4873,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 98
  },
  "99": {
   "skill": "Prayer",
@@ -4815,7 +4914,8 @@
   "EMinLev4": 2,
   "EMinLev5": 3,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 99
  },
  "100": {
   "skill": "Resist Fire",
@@ -4856,7 +4956,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 100
  },
  "101": {
   "skill": "Holy Bolt",
@@ -4918,7 +5019,8 @@
   "EMaxLev5": 23,
   "EDmgSymPerCalc": "(skill('Blessed Hammer'.blvl)+skill('Fist of the Heavens'.blvl))*par8",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 101
  },
  "102": {
   "skill": "Holy Fire",
@@ -4971,7 +5073,8 @@
   "EMaxLev5": 7,
   "EDmgSymPerCalc": "skill('Resist Fire'.blvl)*par8+skill('Salvation'.blvl)*par7",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 102
  },
  "103": {
   "skill": "Thorns",
@@ -5006,7 +5109,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 103
  },
  "104": {
   "skill": "Defiance",
@@ -5044,7 +5148,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 104
  },
  "105": {
   "skill": "Resist Cold",
@@ -5087,7 +5192,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 105
  },
  "106": {
   "skill": "Zeal",
@@ -5138,7 +5244,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 106
  },
  "107": {
   "skill": "Charge",
@@ -5191,7 +5298,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 107
  },
  "108": {
   "skill": "Blessed Aim",
@@ -5235,7 +5343,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 108
  },
  "109": {
   "skill": "Cleansing",
@@ -5275,7 +5384,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 109
  },
  "110": {
   "skill": "Resist Lightning",
@@ -5318,7 +5428,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 110
  },
  "111": {
   "skill": "Vengeance",
@@ -5377,7 +5488,8 @@
   "ELevLen2": 15,
   "ELevLen3": 15,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 111
  },
  "112": {
   "skill": "Blessed Hammer",
@@ -5431,7 +5543,8 @@
   "EMaxLev5": 14,
   "EDmgSymPerCalc": "(skill('Vigor'.blvl)+skill('Blessed Aim'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 112
  },
  "113": {
   "skill": "Concentration",
@@ -5473,7 +5586,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 113
  },
  "114": {
   "skill": "Holy Freeze",
@@ -5539,7 +5653,8 @@
   "EMaxLev5": 5,
   "EDmgSymPerCalc": "skill('Resist Cold'.blvl)*par8+skill('Salvation'.blvl)*par7",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 114
  },
  "115": {
   "skill": "Vigor",
@@ -5585,7 +5700,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 115
  },
  "116": {
   "skill": "Conversion",
@@ -5629,7 +5745,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 116
  },
  "117": {
   "skill": "Holy Shield",
@@ -5691,7 +5808,8 @@
   "MaxLevDam4": 4,
   "MaxLevDam5": 4,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 117
  },
  "118": {
   "skill": "Holy Shock",
@@ -5741,7 +5859,8 @@
   "EMaxLev5": 15,
   "EDmgSymPerCalc": "skill('Resist Lightning'.blvl)*par8+skill('Salvation'.blvl)*par7",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 118
  },
  "119": {
   "skill": "Sanctuary",
@@ -5807,7 +5926,8 @@
   "EMaxLev5": 7,
   "EDmgSymPerCalc": "skill('Cleansing'.blvl)*par8",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 119
  },
  "120": {
   "skill": "Meditation",
@@ -5847,7 +5967,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 120
  },
  "121": {
   "skill": "Fist of the Heavens",
@@ -5919,7 +6040,8 @@
   "EMaxLev5": 65,
   "EDmgSymPerCalc": "skill('Holy Shock'.blvl)*par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 121
  },
  "122": {
   "skill": "Fanaticism",
@@ -5968,7 +6090,8 @@
   "LevToHit": 5,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 122
  },
  "123": {
   "skill": "Conviction",
@@ -6016,7 +6139,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 123
  },
  "124": {
   "skill": "Redemption",
@@ -6058,7 +6182,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 124
  },
  "125": {
   "skill": "Salvation",
@@ -6098,7 +6223,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 125
  },
  "126": {
   "skill": "Bash",
@@ -6151,7 +6277,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 126
  },
  "127": {
   "skill": "Sword Mastery",
@@ -6191,7 +6318,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 127
  },
  "128": {
   "skill": "Axe Mastery",
@@ -6231,7 +6359,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 128
  },
  "129": {
   "skill": "Mace Mastery",
@@ -6271,7 +6400,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 129
  },
  "130": {
   "skill": "Howl",
@@ -6315,7 +6445,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 130
  },
  "131": {
   "skill": "Find Potion",
@@ -6356,7 +6487,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 131
  },
  "132": {
   "skill": "Leap",
@@ -6397,7 +6529,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 132
  },
  "133": {
   "skill": "Double Swing",
@@ -6450,7 +6583,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 133
  },
  "134": {
   "skill": "Pole Arm Mastery",
@@ -6489,7 +6623,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 134
  },
  "135": {
   "skill": "Throwing Mastery",
@@ -6528,7 +6663,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 135
  },
  "136": {
   "skill": "Spear Mastery",
@@ -6567,7 +6703,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 136
  },
  "137": {
   "skill": "Taunt",
@@ -6607,7 +6744,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 137
  },
  "138": {
   "skill": "Shout",
@@ -6650,7 +6788,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 138
  },
  "139": {
   "skill": "Stun",
@@ -6703,7 +6842,8 @@
   "ELevLen3": 2,
   "ELenSymPerCalc": "skill('War Cry'.blvl)*par6",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 139
  },
  "140": {
   "skill": "Double Throw",
@@ -6746,7 +6886,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 140
  },
  "141": {
   "skill": "Increased Stamina",
@@ -6773,7 +6914,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 141
  },
  "142": {
   "skill": "Find Item",
@@ -6816,7 +6958,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 142
  },
  "143": {
   "skill": "Leap Attack",
@@ -6868,7 +7011,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 143
  },
  "144": {
   "skill": "Concentrate",
@@ -6925,7 +7069,8 @@
   "SrcDam": 128,
   "EType": "mag",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 144
  },
  "145": {
   "skill": "Iron Skin",
@@ -6952,7 +7097,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 145
  },
  "146": {
   "skill": "Battle Cry",
@@ -6999,7 +7145,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 146
  },
  "147": {
   "skill": "Frenzy",
@@ -7062,7 +7209,8 @@
   "SrcDam": 128,
   "EType": "mag",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 147
  },
  "148": {
   "skill": "Increased Speed",
@@ -7090,7 +7238,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 148
  },
  "149": {
   "skill": "Battle Orders",
@@ -7139,7 +7288,8 @@
   "LevToHit": 10,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 149
  },
  "150": {
   "skill": "Grim Ward",
@@ -7193,7 +7343,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 150
  },
  "151": {
   "skill": "Whirlwind",
@@ -7240,7 +7391,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 151
  },
  "152": {
   "skill": "Berserk",
@@ -7300,7 +7452,8 @@
   "SrcDam": 128,
   "EType": "mag",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 152
  },
  "153": {
   "skill": "Natural Resistance",
@@ -7333,7 +7486,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 153
  },
  "154": {
   "skill": "War Cry",
@@ -7383,7 +7537,8 @@
   "MaxLevDam5": 10,
   "DmgSymPerCalc": "(skill('Howl'.blvl)+skill('Taunt'.blvl)+skill('Battle Cry'.blvl))*par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 154
  },
  "155": {
   "skill": "Battle Command",
@@ -7422,7 +7577,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 155
  },
  "156": {
   "skill": "Fire Hit",
@@ -7447,7 +7603,8 @@
   "InGame": 1,
   "ToHit": 20,
   "LevToHit": 10,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 156
  },
  "157": {
   "skill": "UnHolyBolt",
@@ -7462,7 +7619,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 157
  },
  "158": {
   "skill": "SkeletonRaise",
@@ -7477,7 +7635,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 158
  },
  "159": {
   "skill": "MaggotEgg",
@@ -7496,7 +7655,8 @@
   "calc1": "\"(lvl < 5) ? lvl : min(12,5+(lvl-5)/3)\"",
   "*calc1 desc": "# to spawn",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 159
  },
  "160": {
   "skill": "ShamanFire",
@@ -7511,7 +7671,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 160
  },
  "161": {
   "skill": "MagottUp",
@@ -7528,7 +7689,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 161
  },
  "162": {
   "skill": "MagottDown",
@@ -7547,7 +7709,8 @@
   "calc1": 10,
   "*calc1 desc": "heal%",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 162
  },
  "163": {
   "skill": "MagottLay",
@@ -7560,7 +7723,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 163
  },
  "164": {
   "skill": "AndrialSpray",
@@ -7578,7 +7742,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 164
  },
  "165": {
   "skill": "Jump",
@@ -7596,7 +7761,8 @@
   "InGame": 1,
   "ToHit": 15,
   "LevToHit": 5,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 165
  },
  "166": {
   "skill": "Swarm Move",
@@ -7616,7 +7782,8 @@
   "calc2": 19,
   "*calc2 desc": "stop frame",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 166
  },
  "167": {
   "skill": "Nest",
@@ -7632,7 +7799,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 167
  },
  "168": {
   "skill": "Quick Strike",
@@ -7648,7 +7816,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 168
  },
  "169": {
   "skill": "VampireFireball",
@@ -7662,7 +7831,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 169
  },
  "170": {
   "skill": "VampireFirewall",
@@ -7678,7 +7848,8 @@
   "monanim": "SC",
   "reqlevel": 1,
   "interrupt": 1,
-  "InGame": 1
+  "InGame": 1,
+  "lineNumber": 170
  },
  "171": {
   "skill": "VampireMeteor",
@@ -7719,7 +7890,8 @@
   "EMaxLev2": 5,
   "EMaxLev3": 5,
   "EMaxLev4": 5,
-  "EMaxLev5": 5
+  "EMaxLev5": 5,
+  "lineNumber": 171
  },
  "172": {
   "skill": "GargoyleTrap",
@@ -7736,7 +7908,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 172
  },
  "173": {
   "skill": "SpiderLay",
@@ -7760,7 +7933,8 @@
   "Param2": 75,
   "*Param2 Description": "Duration/Level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 173
  },
  "174": {
   "skill": "VampireHeal",
@@ -7772,7 +7946,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 174
  },
  "175": {
   "skill": "VampireRaise",
@@ -7788,7 +7963,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 175
  },
  "176": {
   "skill": "Submerge",
@@ -7804,7 +7980,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 176
  },
  "177": {
   "skill": "FetishAura",
@@ -7831,7 +8008,8 @@
   "Param4": 10,
   "*Param4 Description": "Base Range ( + 2/Lvl )",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 177
  },
  "178": {
   "skill": "FetishInferno",
@@ -7855,7 +8033,8 @@
   "Param1": 15,
   "*Param1 Description": "frame length",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 178
  },
  "179": {
   "skill": "ZakarumHeal",
@@ -7882,7 +8061,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 179
  },
  "180": {
   "skill": "Emerge",
@@ -7896,7 +8076,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 180
  },
  "181": {
   "skill": "Resurrect",
@@ -7917,7 +8098,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 181
  },
  "182": {
   "skill": "Bestow",
@@ -7932,7 +8114,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 182
  },
  "183": {
   "skill": "MissileSkill1",
@@ -7946,7 +8129,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 183
  },
  "184": {
   "skill": "MonTeleport",
@@ -7961,7 +8145,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 184
  },
  "185": {
   "skill": "PrimeLightning",
@@ -7976,7 +8161,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 185
  },
  "186": {
   "skill": "PrimeBolt",
@@ -7995,7 +8181,8 @@
   "calc1": "lvl+2",
   "*calc1 desc": "#bolts",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 186
  },
  "187": {
   "skill": "PrimeBlaze",
@@ -8018,7 +8205,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 187
  },
  "188": {
   "skill": "PrimeFirewall",
@@ -8040,7 +8228,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 188
  },
  "189": {
   "skill": "PrimeSpike",
@@ -8064,7 +8253,8 @@
   "Param4": 10,
   "*Param4 Description": "freeze frames per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 189
  },
  "190": {
   "skill": "PrimeIceNova",
@@ -8085,7 +8275,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 190
  },
  "191": {
   "skill": "PrimePoisonball",
@@ -8110,7 +8301,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 191
  },
  "192": {
   "skill": "PrimePoisonNova",
@@ -8134,7 +8326,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 192
  },
  "193": {
   "skill": "DiabLight",
@@ -8164,7 +8357,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 193
  },
  "194": {
   "skill": "DiabCold",
@@ -8201,7 +8395,8 @@
   "ELen": 100,
   "ELevLen1": 50,
   "ELevLen2": 50,
-  "ELevLen3": 50
+  "ELevLen3": 50,
+  "lineNumber": 194
  },
  "195": {
   "skill": "DiabFire",
@@ -8223,7 +8418,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 195
  },
  "196": {
   "skill": "FingerMageSpider",
@@ -8253,7 +8449,8 @@
   "*Param3 Description": "unshifted damage per frame",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 196
  },
  "197": {
   "skill": "DiabWall",
@@ -8279,7 +8476,8 @@
   "*Param3 Description": "?",
   "*Param4 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 197
  },
  "198": {
   "skill": "DiabRun",
@@ -8325,7 +8523,8 @@
   "MaxLevDam2": 9,
   "MaxLevDam3": 9,
   "MaxLevDam4": 9,
-  "MaxLevDam5": 9
+  "MaxLevDam5": 9,
+  "lineNumber": 198
  },
  "199": {
   "skill": "DiabPrison",
@@ -8347,7 +8546,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 199
  },
  "200": {
   "skill": "PoisonBallTrap",
@@ -8379,7 +8579,8 @@
   "MaxLevDam2": 10,
   "MaxLevDam3": 10,
   "MaxLevDam4": 10,
-  "MaxLevDam5": 10
+  "MaxLevDam5": 10,
+  "lineNumber": 200
  },
  "201": {
   "skill": "AndyPoisonBolt",
@@ -8399,7 +8600,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 201
  },
  "202": {
   "skill": "HireableMissile",
@@ -8419,7 +8621,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 202
  },
  "203": {
   "skill": "DesertTurret",
@@ -8444,7 +8647,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 203
  },
  "204": {
   "skill": "ArcaneTower",
@@ -8468,7 +8672,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 204
  },
  "205": {
   "skill": "MonBlizzard",
@@ -8493,7 +8698,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 205
  },
  "206": {
   "skill": "Mosquito",
@@ -8548,7 +8754,8 @@
   "EMaxLev3": 3,
   "EMaxLev4": 3,
   "EMaxLev5": 3,
-  "ELen": 200
+  "ELen": 200,
+  "lineNumber": 206
  },
  "207": {
   "skill": "CursedBallTrapRight",
@@ -8580,7 +8787,8 @@
   "MaxLevDam2": 5,
   "MaxLevDam3": 5,
   "MaxLevDam4": 5,
-  "MaxLevDam5": 5
+  "MaxLevDam5": 5,
+  "lineNumber": 207
  },
  "208": {
   "skill": "CursedBallTrapLeft",
@@ -8612,7 +8820,8 @@
   "MaxLevDam2": 5,
   "MaxLevDam3": 5,
   "MaxLevDam4": 5,
-  "MaxLevDam5": 5
+  "MaxLevDam5": 5,
+  "lineNumber": 208
  },
  "209": {
   "skill": "MonFrozenArmor",
@@ -8645,7 +8854,8 @@
   "*Param6 Description": "Freeze Frames per level",
   "InGame": 1,
   "HitShift": 8,
-  "aitype": 1
+  "aitype": 1,
+  "lineNumber": 209
  },
  "210": {
   "skill": "MonBoneArmor",
@@ -8672,7 +8882,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 210
  },
  "211": {
   "skill": "MonBoneSpirit",
@@ -8698,7 +8909,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 211
  },
  "212": {
   "skill": "MonCurseCast",
@@ -8732,7 +8944,8 @@
   "Param7": -50,
   "*Param7 Description": "speed",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 212
  },
  "213": {
   "skill": "HellMeteor",
@@ -8754,7 +8967,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 213
  },
  "214": {
   "skill": "RegurgitatorEat",
@@ -8782,7 +8996,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 214
  },
  "215": {
   "skill": "MonFrenzy",
@@ -8821,7 +9036,8 @@
   "ToHit": 10,
   "LevToHit": 10,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 215
  },
  "216": {
   "skill": "QueenDeath",
@@ -8840,7 +9056,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 216
  },
  "217": {
   "skill": "Scroll of Identify",
@@ -8862,7 +9079,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 217
  },
  "218": {
   "skill": "Book of Identify",
@@ -8884,7 +9102,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 218
  },
  "219": {
   "skill": "Scroll of Townportal",
@@ -8905,7 +9124,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 219
  },
  "220": {
   "skill": "Book of Townportal",
@@ -8926,7 +9146,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 220
  },
  "221": {
   "skill": "Raven",
@@ -8983,7 +9204,8 @@
   "MaxLevDam4": 1,
   "MaxLevDam5": 1,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 221
  },
  "222": {
   "skill": "Plague Poppy",
@@ -9042,7 +9264,8 @@
   "EMaxLev5": 19,
   "ELen": 100,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 222
  },
  "223": {
   "skill": "Wearwolf",
@@ -9095,7 +9318,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 223
  },
  "224": {
   "skill": "Shape Shifting",
@@ -9126,7 +9350,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 224
  },
  "225": {
   "skill": "Firestorm",
@@ -9183,7 +9408,8 @@
   "EMaxLev5": 23,
   "EDmgSymPerCalc": "(skill('Molten Boulder'.blvl)+skill('Eruption'.blvl))*par8",
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 225
  },
  "226": {
   "skill": "Oak Sage",
@@ -9237,7 +9463,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 226
  },
  "227": {
   "skill": "Summon Spirit Wolf",
@@ -9316,7 +9543,8 @@
   "MaxLevDam4": 5,
   "MaxLevDam5": 8,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 227
  },
  "228": {
   "skill": "Wearbear",
@@ -9364,7 +9592,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 228
  },
  "229": {
   "skill": "Molten Boulder",
@@ -9430,7 +9659,8 @@
   "EMaxLev5": 17,
   "EDmgSymPerCalc": "skill('Firestorm'.blvl)*par8",
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 229
  },
  "230": {
   "skill": "Arctic Blast",
@@ -9495,7 +9725,8 @@
   "ELevLen2": 15,
   "ELevLen3": 15,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 230
  },
  "231": {
   "skill": "Cycle of Life",
@@ -9545,7 +9776,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 231
  },
  "232": {
   "skill": "Feral Rage",
@@ -9606,7 +9838,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 512,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 232
  },
  "233": {
   "skill": "Maul",
@@ -9660,7 +9893,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 512,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 233
  },
  "234": {
   "skill": "Eruption",
@@ -9719,7 +9953,8 @@
   "EMaxLev5": 23,
   "EDmgSymPerCalc": "(skill('Firestorm'.blvl)+skill('Volcano'.blvl))*par8",
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 234
  },
  "235": {
   "skill": "Cyclone Armor",
@@ -9759,7 +9994,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 235
  },
  "236": {
   "skill": "Heart of Wolverine",
@@ -9817,7 +10053,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 640,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 236
  },
  "237": {
   "skill": "Summon Fenris",
@@ -9897,7 +10134,8 @@
   "MaxLevDam4": 9,
   "MaxLevDam5": 13,
   "cost mult": 640,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 237
  },
  "238": {
   "skill": "Rabies",
@@ -9954,7 +10192,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 238
  },
  "239": {
   "skill": "Fire Claws",
@@ -10008,7 +10247,8 @@
   "EMaxLev5": 34,
   "EDmgSymPerCalc": "(skill('Firestorm'.blvl)+skill('Molten Boulder'.blvl)+skill('Volcano'.blvl)+skill('Eruption'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 239
  },
  "240": {
   "skill": "Twister",
@@ -10058,7 +10298,8 @@
   "MaxLevDam5": 17,
   "DmgSymPerCalc": "(skill('Tornado'.blvl)+skill('Hurricane'.blvl))*par8",
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 240
  },
  "241": {
   "skill": "Vines",
@@ -10110,7 +10351,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 768,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 241
  },
  "242": {
   "skill": "Hunger",
@@ -10160,7 +10402,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 242
  },
  "243": {
   "skill": "Shock Wave",
@@ -10212,7 +10455,8 @@
   "MaxLevDam5": 7,
   "DmgSymPerCalc": "skill('Maul'.blvl)*par8",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 243
  },
  "244": {
   "skill": "Volcano",
@@ -10285,7 +10529,8 @@
   "EMaxLev5": 13,
   "EDmgSymPerCalc": "(skill('Eruption'.blvl)+skill('Armageddon'.blvl))*par8",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 244
  },
  "245": {
   "skill": "Tornado",
@@ -10340,7 +10585,8 @@
   "MaxLevDam5": 29,
   "DmgSymPerCalc": "(skill('Cyclone Armor'.blvl)+skill('Twister'.blvl)+skill('Hurricane'.blvl))*par8",
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 245
  },
  "246": {
   "skill": "Spirit of Barbs",
@@ -10393,7 +10639,8 @@
   "InGame": 1,
   "HitShift": 8,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 246
  },
  "247": {
   "skill": "Summon Grizzly",
@@ -10463,7 +10710,8 @@
   "MaxLevDam4": 26,
   "MaxLevDam5": 30,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 247
  },
  "248": {
   "skill": "Fury",
@@ -10512,7 +10760,8 @@
   "HitShift": 8,
   "SrcDam": 128,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 248
  },
  "249": {
   "skill": "Armageddon",
@@ -10593,7 +10842,8 @@
   "EMaxLev5": 40,
   "EDmgSymPerCalc": "(skill('Firestorm'.blvl)+skill('Molten Boulder'.blvl)+skill('Volcano'.blvl))*par8",
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 249
  },
  "250": {
   "skill": "Hurricane",
@@ -10658,7 +10908,8 @@
   "EDmgSymPerCalc": "(skill('Twister'.blvl)+skill('Tornado'.blvl))*par8",
   "ELen": 50,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 250
  },
  "251": {
   "skill": "Fire Trauma",
@@ -10706,7 +10957,8 @@
   "EDmgSymPerCalc": "(skill('Shock Field'.blvl) + skill('Death Sentry'.blvl) + skill('Charged Bolt Sentry'.blvl) + skill('Lightning Sentry'.blvl) + skill('Wake of Fire Sentry'.blvl) + skill('Inferno Sentry'.blvl)) * par8",
   "aitype": 5,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 251
  },
  "252": {
   "skill": "Claw Mastery",
@@ -10747,7 +10999,8 @@
   "HitShift": 8,
   "aitype": 10,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 252
  },
  "253": {
   "skill": "Psychic Hammer",
@@ -10826,7 +11079,8 @@
   "EMaxLev5": 7,
   "aitype": 5,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 253
  },
  "254": {
   "skill": "Tiger Strike",
@@ -10882,7 +11136,8 @@
   "SrcDam": 128,
   "aitype": 4,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 254
  },
  "255": {
   "skill": "Dragon Talon",
@@ -10939,7 +11194,8 @@
   "HitShift": 8,
   "aitype": 4,
   "cost mult": 256,
-  "cost add": 1000
+  "cost add": 1000,
+  "lineNumber": 255
  },
  "256": {
   "skill": "Shock Field",
@@ -10987,7 +11243,8 @@
   "EDmgSymPerCalc": "(skill('Charged Bolt Sentry'.blvl) + skill('Lightning Sentry'.blvl) + skill('Death Sentry'.blvl)) * par8",
   "aitype": 11,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 256
  },
  "257": {
   "skill": "Blade Sentinel",
@@ -11047,7 +11304,8 @@
   "aitype": 5,
   "aibonus": 3,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 257
  },
  "258": {
   "skill": "Quickness",
@@ -11091,7 +11349,8 @@
   "HitShift": 8,
   "aitype": 1,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 258
  },
  "259": {
   "skill": "Fists of Fire",
@@ -11170,7 +11429,8 @@
   "EDmgSymPerCalc": "(skill('Royal Strike'.blvl)) * par8",
   "aitype": 4,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 259
  },
  "260": {
   "skill": "Dragon Claw",
@@ -11217,7 +11477,8 @@
   "SrcDam": 128,
   "aitype": 4,
   "cost mult": 384,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 260
  },
  "261": {
   "skill": "Charged Bolt Sentry",
@@ -11276,7 +11537,8 @@
   "EDmgSymPerCalc": "(skill('Fire Trauma'.blvl) + skill('Lightning Sentry'.blvl) + skill('Death Sentry'.blvl)) * par8",
   "aitype": 3,
   "cost mult": 512,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 261
  },
  "262": {
   "skill": "Wake of Fire Sentry",
@@ -11332,7 +11594,8 @@
   "EDmgSymPerCalc": "(skill('Fire Trauma'.blvl) + skill('Inferno Sentry'.blvl)) * par8",
   "aitype": 3,
   "cost mult": 512,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 262
  },
  "263": {
   "skill": "Weapon Block",
@@ -11366,7 +11629,8 @@
   "HitShift": 8,
   "aitype": 10,
   "cost mult": 512,
-  "cost add": 3000
+  "cost add": 3000,
+  "lineNumber": 263
  },
  "264": {
   "skill": "Cloak of Shadows",
@@ -11416,7 +11680,8 @@
   "HitShift": 8,
   "aitype": 2,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 264
  },
  "265": {
   "skill": "Cobra Strike",
@@ -11470,7 +11735,8 @@
   "SrcDam": 128,
   "aitype": 12,
   "cost mult": 512,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 265
  },
  "266": {
   "skill": "Blade Fury",
@@ -11526,7 +11792,8 @@
   "MaxLevDam5": 8,
   "aitype": 5,
   "cost mult": 640,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 266
  },
  "267": {
   "skill": "Fade",
@@ -11585,7 +11852,8 @@
   "HitShift": 8,
   "aitype": 1,
   "cost mult": 640,
-  "cost add": 8000
+  "cost add": 8000,
+  "lineNumber": 267
  },
  "268": {
   "skill": "Shadow Warrior",
@@ -11648,7 +11916,8 @@
   "HitShift": 8,
   "aitype": 3,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 268
  },
  "269": {
   "skill": "Claws of Thunder",
@@ -11717,7 +11986,8 @@
   "EDmgSymPerCalc": "(skill('Royal Strike'.blvl)) * par8",
   "aitype": 4,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 269
  },
  "270": {
   "skill": "Dragon Tail",
@@ -11768,7 +12038,8 @@
   "EType": "fire",
   "aitype": 4,
   "cost mult": 640,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 270
  },
  "271": {
   "skill": "Lightning Sentry",
@@ -11820,7 +12091,8 @@
   "EDmgSymPerCalc": "(skill('Shock Field'.blvl) + skill('Charged Bolt Sentry'.blvl) + skill('Death Sentry'.blvl))*par8",
   "aitype": 3,
   "cost mult": 768,
-  "cost add": 16000
+  "cost add": 16000,
+  "lineNumber": 271
  },
  "272": {
   "skill": "Inferno Sentry",
@@ -11880,7 +12152,8 @@
   "EDmgSymPerCalc": "(skill('Fire Trauma'.blvl) + skill('Death Sentry'.blvl)) * par7 + skill('Wake of Fire Sentry'.blvl)*par8",
   "aitype": 3,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 272
  },
  "273": {
   "skill": "Mind Blast",
@@ -11946,7 +12219,8 @@
   "ELevLen3": 5,
   "aitype": 11,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 273
  },
  "274": {
   "skill": "Blades of Ice",
@@ -12030,7 +12304,8 @@
   "ELevLen3": 10,
   "aitype": 4,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 274
  },
  "275": {
   "skill": "Dragon Flight",
@@ -12077,7 +12352,8 @@
   "HitShift": 8,
   "aitype": 13,
   "cost mult": 768,
-  "cost add": 32000
+  "cost add": 32000,
+  "lineNumber": 275
  },
  "276": {
   "skill": "Death Sentry",
@@ -12130,7 +12406,8 @@
   "EDmgSymPerCalc": "(skill('Lightning Sentry'.blvl))*par8",
   "aitype": 3,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 276
  },
  "277": {
   "skill": "Blade Shield",
@@ -12188,7 +12465,8 @@
   "MaxLevDam5": 7,
   "aitype": 1,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 277
  },
  "278": {
   "skill": "Venom",
@@ -12245,7 +12523,8 @@
   "ELen": 10,
   "aitype": 1,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 278
  },
  "279": {
   "skill": "Shadow Master",
@@ -12305,7 +12584,8 @@
   "HitShift": 8,
   "aitype": 3,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 279
  },
  "280": {
   "skill": "Royal Strike",
@@ -12377,7 +12657,8 @@
   "aitype": 4,
   "aibonus": -3,
   "cost mult": 896,
-  "cost add": 64000
+  "cost add": 64000,
+  "lineNumber": 280
  },
  "281": {
   "skill": "Wake Of Destruction Sentry",
@@ -12404,7 +12685,8 @@
   "Param8": 5,
   "*Param8 Description": "Shots Fired",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 281
  },
  "282": {
   "skill": "Imp Inferno",
@@ -12453,7 +12735,8 @@
   "EMaxLev2": 15,
   "EMaxLev3": 15,
   "EMaxLev4": 15,
-  "EMaxLev5": 15
+  "EMaxLev5": 15,
+  "lineNumber": 282
  },
  "283": {
   "skill": "Imp Fireball",
@@ -12474,7 +12757,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 283
  },
  "284": {
   "skill": "Baal Taunt",
@@ -12498,7 +12782,8 @@
   "Param2": 3,
   "*Param2 Description": "Delay in lightning ",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 284
  },
  "285": {
   "skill": "Baal Corpse Explode",
@@ -12524,7 +12809,8 @@
   "Param5": 40,
   "*Param5 Description": "Radius of search for corpses",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 285
  },
  "286": {
   "skill": "Baal Monster Spawn",
@@ -12541,7 +12827,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 286
  },
  "287": {
   "skill": "Catapult Charged Ball",
@@ -12562,7 +12849,8 @@
   "Param1": 4,
   "*Param1 Description": "Charged bolts per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 287
  },
  "288": {
   "skill": "Catapult Spike Ball",
@@ -12586,7 +12874,8 @@
   "Param2": 5,
   "*Param2 Description": "Spikes per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 288
  },
  "289": {
   "skill": "Suck Blood",
@@ -12607,7 +12896,8 @@
   "InGame": 1,
   "HitShift": 8,
   "MinDam": 1,
-  "MaxDam": 3
+  "MaxDam": 3,
+  "lineNumber": 289
  },
  "290": {
   "skill": "Cry Help",
@@ -12627,7 +12917,8 @@
   "Param2": 20,
   "*Param2 Description": "Time per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 290
  },
  "291": {
   "skill": "Healing Vortex",
@@ -12654,7 +12945,8 @@
   "MaxLevDam2": 5,
   "MaxLevDam3": 5,
   "MaxLevDam4": 5,
-  "MaxLevDam5": 5
+  "MaxLevDam5": 5,
+  "lineNumber": 291
  },
  "292": {
   "skill": "Teleport 2",
@@ -12670,7 +12962,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 292
  },
  "293": {
   "skill": "Self-resurrect",
@@ -12685,7 +12978,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 293
  },
  "294": {
   "skill": "Vine Attack",
@@ -12725,7 +13019,8 @@
   "Param2": 1,
   "*Param2 Description": "vines per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 294
  },
  "295": {
   "skill": "Overseer Whip",
@@ -12766,7 +13061,8 @@
   "Param6": 100,
   "*Param6 Description": "Damage change",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 295
  },
  "296": {
   "skill": "Barbs Aura",
@@ -12795,7 +13091,8 @@
   "Param4": 10,
   "*Param4 Description": "% thorns damage back per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 296
  },
  "297": {
   "skill": "Wolverine Aura",
@@ -12830,7 +13127,8 @@
   "Param6": 7,
   "*Param6 Description": "% damage increase per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 297
  },
  "298": {
   "skill": "Oak Sage Aura",
@@ -12859,7 +13157,8 @@
   "Param4": 5,
   "*Param4 Description": "% hitpoint bonus per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 298
  },
  "299": {
   "skill": "Imp Fire Missile",
@@ -12884,7 +13183,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 299
  },
  "300": {
   "skill": "Impregnate",
@@ -12906,7 +13206,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 300
  },
  "301": {
   "skill": "Siege Beast Stomp",
@@ -12946,7 +13247,8 @@
   "MaxLevDam2": 10,
   "MaxLevDam3": 10,
   "MaxLevDam4": 10,
-  "MaxLevDam5": 10
+  "MaxLevDam5": 10,
+  "lineNumber": 301
  },
  "302": {
   "skill": "MinionSpawner",
@@ -12967,7 +13269,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 302
  },
  "303": {
   "skill": "CatapultBlizzard",
@@ -12991,7 +13294,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 303
  },
  "304": {
   "skill": "CatapultPlague",
@@ -13015,7 +13319,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 304
  },
  "305": {
   "skill": "CatapultMeteor",
@@ -13043,7 +13348,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 305
  },
  "306": {
   "skill": "BoltSentry",
@@ -13068,7 +13374,8 @@
   "Param8": 5,
   "*Param8 Description": "Shots Fired",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 306
  },
  "307": {
   "skill": "CorpseCycler",
@@ -13095,7 +13402,8 @@
   "Param2": 12,
   "*Param2 Description": "max % life steal",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 307
  },
  "308": {
   "skill": "DeathMaul",
@@ -13132,7 +13440,8 @@
   "MaxLevDam2": 4,
   "MaxLevDam3": 4,
   "MaxLevDam4": 4,
-  "MaxLevDam5": 4
+  "MaxLevDam5": 4,
+  "lineNumber": 308
  },
  "309": {
   "skill": "Defense Curse",
@@ -13166,7 +13475,8 @@
   "*Param5 Description": "% defense",
   "Param6": 5,
   "*Param6 Description": "% defense/lvl",
-  "InGame": 1
+  "InGame": 1,
+  "lineNumber": 309
  },
  "310": {
   "skill": "Blood Mana",
@@ -13209,7 +13519,8 @@
   "MaxLevDam2": 4,
   "MaxLevDam3": 4,
   "MaxLevDam4": 4,
-  "MaxLevDam5": 4
+  "MaxLevDam5": 4,
+  "lineNumber": 310
  },
  "311": {
   "skill": "mon inferno sentry",
@@ -13244,7 +13555,8 @@
   "Param8": 10,
   "*Param8 Description": "Shots fired",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 311
  },
  "312": {
   "skill": "mon death sentry",
@@ -13284,7 +13596,8 @@
   "*Param8 Description": "Shots Fired",
   "InGame": 1,
   "HitShift": 8,
-  "EType": "fire"
+  "EType": "fire",
+  "lineNumber": 312
  },
  "313": {
   "skill": "sentry lightning",
@@ -13309,7 +13622,8 @@
   "Param8": 10,
   "*Param8 Description": "Shots Fired",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 313
  },
  "314": {
   "skill": "fenris rage",
@@ -13336,7 +13650,8 @@
   "Param2": 100,
   "*Param2 Description": "% damage with rage - see fenris rage",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 314
  },
  "315": {
   "skill": "Baal Tentacle",
@@ -13353,7 +13668,8 @@
   "*Param2 Description": "?",
   "*Param3 Description": "?",
   "*Param4 Description": "?",
-  "InGame": 1
+  "InGame": 1,
+  "lineNumber": 315
  },
  "316": {
   "skill": "Baal Nova",
@@ -13384,7 +13700,8 @@
   "EMaxLev2": 32,
   "EMaxLev3": 32,
   "EMaxLev4": 32,
-  "EMaxLev5": 32
+  "EMaxLev5": 32,
+  "lineNumber": 316
  },
  "317": {
   "skill": "Baal Inferno",
@@ -13422,7 +13739,8 @@
   "EMaxLev2": 48,
   "EMaxLev3": 48,
   "EMaxLev4": 48,
-  "EMaxLev5": 48
+  "EMaxLev5": 48,
+  "lineNumber": 317
  },
  "318": {
   "skill": "Baal Cold Missiles",
@@ -13457,7 +13775,8 @@
   "ELen": 200,
   "ELevLen1": 50,
   "ELevLen2": 50,
-  "ELevLen3": 50
+  "ELevLen3": 50,
+  "lineNumber": 318
  },
  "319": {
   "skill": "MegademonInferno",
@@ -13481,7 +13800,8 @@
   "Param1": 15,
   "*Param1 Description": "frame length",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 319
  },
  "320": {
   "skill": "EvilHutSpawner",
@@ -13498,7 +13818,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 320
  },
  "321": {
   "skill": "CountessFirewall",
@@ -13515,7 +13836,8 @@
   "monanim": "A1",
   "reqlevel": 1,
   "interrupt": 1,
-  "InGame": 1
+  "InGame": 1,
+  "lineNumber": 321
  },
  "322": {
   "skill": "ImpBolt",
@@ -13533,7 +13855,8 @@
   "calc1": "lvl+2",
   "*calc1 desc": "#bolts",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 322
  },
  "323": {
   "skill": "Horror Arctic Blast",
@@ -13558,7 +13881,8 @@
   "Param1": 15,
   "*Param1 Description": "frame length",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 323
  },
  "324": {
   "skill": "death sentry ltng",
@@ -13575,7 +13899,8 @@
   "Param8": 5,
   "*Param8 Description": "Shots Fired",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 324
  },
  "325": {
   "skill": "VineCycler",
@@ -13602,7 +13927,8 @@
   "Param2": 8,
   "*Param2 Description": "max % mana steal",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 325
  },
  "326": {
   "skill": "BearSmite",
@@ -13635,7 +13961,8 @@
   "InGame": 1,
   "ResultFlags": 8,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 326
  },
  "327": {
   "skill": "Resurrect2",
@@ -13654,7 +13981,8 @@
   "TgtPlaceCheck": 1,
   "reqlevel": 1,
   "interrupt": 1,
-  "InGame": 1
+  "InGame": 1,
+  "lineNumber": 327
  },
  "328": {
   "skill": "BloodLordFrenzy",
@@ -13694,7 +14022,8 @@
   "ToHit": 10,
   "LevToHit": 10,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 328
  },
  "329": {
   "skill": "Baal Teleport",
@@ -13711,7 +14040,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 329
  },
  "330": {
   "skill": "Imp Teleport",
@@ -13731,7 +14061,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 330
  },
  "331": {
   "skill": "Baal Clone Teleport",
@@ -13749,7 +14080,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 331
  },
  "332": {
   "skill": "ZakarumLightning",
@@ -13765,7 +14097,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 332
  },
  "333": {
   "skill": "VampireMissile",
@@ -13779,7 +14112,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 333
  },
  "334": {
   "skill": "MephistoMissile",
@@ -13793,7 +14127,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 334
  },
  "335": {
   "skill": "DoomKnightMissile",
@@ -13809,7 +14144,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 335
  },
  "336": {
   "skill": "RogueMissile",
@@ -13825,7 +14161,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 336
  },
  "337": {
   "skill": "HydraMissile",
@@ -13839,7 +14176,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 337
  },
  "338": {
   "skill": "NecromageMissile",
@@ -13855,7 +14193,8 @@
   "reqlevel": 1,
   "interrupt": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 338
  },
  "339": {
   "skill": "MonBow",
@@ -13874,7 +14213,8 @@
   "interrupt": 1,
   "InGame": 1,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 339
  },
  "340": {
   "skill": "MonFireArrow",
@@ -13908,7 +14248,8 @@
   "EMaxLev2": 9,
   "EMaxLev3": 9,
   "EMaxLev4": 9,
-  "EMaxLev5": 9
+  "EMaxLev5": 9,
+  "lineNumber": 340
  },
  "341": {
   "skill": "MonColdArrow",
@@ -13947,7 +14288,8 @@
   "ELen": 100,
   "ELevLen1": 25,
   "ELevLen2": 25,
-  "ELevLen3": 25
+  "ELevLen3": 25,
+  "lineNumber": 341
  },
  "342": {
   "skill": "MonExplodingArrow",
@@ -13982,7 +14324,8 @@
   "EMaxLev2": 9,
   "EMaxLev3": 9,
   "EMaxLev4": 9,
-  "EMaxLev5": 9
+  "EMaxLev5": 9,
+  "lineNumber": 342
  },
  "343": {
   "skill": "MonFreezingArrow",
@@ -14025,7 +14368,8 @@
   "ELen": 100,
   "ELevLen1": 25,
   "ELevLen2": 25,
-  "ELevLen3": 25
+  "ELevLen3": 25,
+  "lineNumber": 343
  },
  "344": {
   "skill": "MonPowerStrike",
@@ -14056,7 +14400,8 @@
   "EMaxLev2": 12,
   "EMaxLev3": 12,
   "EMaxLev4": 12,
-  "EMaxLev5": 12
+  "EMaxLev5": 12,
+  "lineNumber": 344
  },
  "345": {
   "skill": "SuccubusBolt",
@@ -14087,7 +14432,8 @@
   "EMaxLev2": 5,
   "EMaxLev3": 7,
   "EMaxLev4": 7,
-  "EMaxLev5": 7
+  "EMaxLev5": 7,
+  "lineNumber": 345
  },
  "346": {
   "skill": "MephFrostNova",
@@ -14129,7 +14475,8 @@
   "ELen": 200,
   "ELevLen1": 50,
   "ELevLen2": 50,
-  "ELevLen3": 50
+  "ELevLen3": 50,
+  "lineNumber": 346
  },
  "347": {
   "skill": "MonIceSpear",
@@ -14169,7 +14516,8 @@
   "ELen": 125,
   "ELevLen1": 25,
   "ELevLen2": 25,
-  "ELevLen3": 25
+  "ELevLen3": 25,
+  "lineNumber": 347
  },
  "348": {
   "skill": "ShamanIce",
@@ -14212,7 +14560,8 @@
   "ELen": 125,
   "ELevLen1": 50,
   "ELevLen2": 50,
-  "ELevLen3": 50
+  "ELevLen3": 50,
+  "lineNumber": 348
  },
  "349": {
   "skill": "Diablogeddon",
@@ -14275,7 +14624,8 @@
   "EMaxLev2": 22,
   "EMaxLev3": 27,
   "EMaxLev4": 33,
-  "EMaxLev5": 38
+  "EMaxLev5": 38,
+  "lineNumber": 349
  },
  "350": {
   "skill": "Delerium Change",
@@ -14299,7 +14649,8 @@
   "ItemEffect": 1,
   "reqlevel": 1,
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 350
  },
  "351": {
   "skill": "NihlathakCorpseExplosion",
@@ -14339,7 +14690,8 @@
   "*Param5 Description": "% damage to do as elemental",
   "InGame": 1,
   "HitShift": 8,
-  "EType": "fire"
+  "EType": "fire",
+  "lineNumber": 351
  },
  "352": {
   "skill": "SerpentCharge",
@@ -14366,7 +14718,8 @@
   "ToHit": 50,
   "LevToHit": 15,
   "HitShift": 8,
-  "SrcDam": 128
+  "SrcDam": 128,
+  "lineNumber": 352
  },
  "353": {
   "skill": "Trap Nova",
@@ -14391,7 +14744,8 @@
   "Param2": 4,
   "*Param2 Description": "additional missiles per level",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 353
  },
  "354": {
   "skill": "UnHolyBoltEx",
@@ -14411,7 +14765,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 354
  },
  "355": {
   "skill": "ShamanFireEx",
@@ -14431,7 +14786,8 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 355
  },
  "356": {
   "skill": "Imp Fire Missile Ex",
@@ -14455,6 +14811,7 @@
   "*Param5 Description": "?",
   "*Param6 Description": "?",
   "InGame": 1,
-  "HitShift": 8
+  "HitShift": 8,
+  "lineNumber": 356
  }
 }

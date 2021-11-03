@@ -31,7 +31,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 0
  },
  "1": {
   "Missile": "javelin",
@@ -64,7 +65,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 1
  },
  "2": {
   "Missile": "bighead1",
@@ -100,7 +102,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "bigheadexp"
+  "ExplosionMissile": "bigheadexp",
+  "lineNumber": 2
  },
  "3": {
   "Missile": "bighead2",
@@ -136,7 +139,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "bigheadexp"
+  "ExplosionMissile": "bigheadexp",
+  "lineNumber": 3
  },
  "4": {
   "Missile": "bighead3",
@@ -172,7 +176,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "bigheadexp"
+  "ExplosionMissile": "bigheadexp",
+  "lineNumber": 4
  },
  "5": {
   "Missile": "bighead4",
@@ -208,7 +213,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "bigheadexp"
+  "ExplosionMissile": "bigheadexp",
+  "lineNumber": 5
  },
  "6": {
   "Missile": "bighead5",
@@ -244,7 +250,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "bigheadexp"
+  "ExplosionMissile": "bigheadexp",
+  "lineNumber": 6
  },
  "7": {
   "Missile": "spike1",
@@ -289,7 +296,8 @@
   "MaxLevDam4": 3,
   "MaxLevDam5": 3,
   "HitClass": 10,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 7
  },
  "8": {
   "Missile": "spike2",
@@ -334,7 +342,8 @@
   "MaxLevDam4": 3,
   "MaxLevDam5": 3,
   "HitClass": 10,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 8
  },
  "9": {
   "Missile": "spike3",
@@ -379,7 +388,8 @@
   "MaxLevDam4": 3,
   "MaxLevDam5": 3,
   "HitClass": 10,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 9
  },
  "10": {
   "Missile": "spike4",
@@ -424,7 +434,8 @@
   "MaxLevDam4": 4,
   "MaxLevDam5": 4,
   "HitClass": 10,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 10
  },
  "11": {
   "Missile": "spike5",
@@ -468,7 +479,8 @@
   "MaxLevDam4": 5,
   "MaxLevDam5": 5,
   "HitClass": 10,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 11
  },
  "12": {
   "Missile": "firearrow",
@@ -514,7 +526,8 @@
   "NumDirections": 32,
   "TravelSound": "amazon_firearrow_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 12
  },
  "13": {
   "Missile": "cr_arrow1",
@@ -548,7 +561,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 13
  },
  "14": {
   "Missile": "cr_arrow2",
@@ -582,7 +596,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 14
  },
  "15": {
   "Missile": "cr_arrow3",
@@ -616,7 +631,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 15
  },
  "16": {
   "Missile": "cr_arrow4",
@@ -650,7 +666,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 16
  },
  "17": {
   "Missile": "cr_arrow5",
@@ -684,7 +701,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 17
  },
  "18": {
   "Missile": "blood1",
@@ -707,7 +725,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 8,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 18
  },
  "19": {
   "Missile": "blood2",
@@ -730,7 +749,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 8,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 19
  },
  "20": {
   "Missile": "bigblood1",
@@ -753,7 +773,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 8,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 20
  },
  "21": {
   "Missile": "bigblood2",
@@ -776,7 +797,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 8,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 21
  },
  "22": {
   "Missile": "shafire1",
@@ -824,7 +846,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 22
  },
  "23": {
   "Missile": "shafire2",
@@ -872,7 +895,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 23
  },
  "24": {
   "Missile": "shafire3",
@@ -920,7 +944,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 24
  },
  "25": {
   "Missile": "shafire4",
@@ -968,7 +993,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 25
  },
  "26": {
   "Missile": "shafire5",
@@ -1016,7 +1042,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 26
  },
  "27": {
   "Missile": "magicarrow",
@@ -1060,7 +1087,8 @@
   "HitClass": 10,
   "NumDirections": 32,
   "TravelSound": "amazon_magicarrow_1",
-  "ExplosionMissile": "teethexplode"
+  "ExplosionMissile": "teethexplode",
+  "lineNumber": 27
  },
  "28": {
   "Missile": "icearrow",
@@ -1100,7 +1128,8 @@
   "NumDirections": 32,
   "TravelSound": "amazon_coldarrow_1",
   "HitSound": "impact_cold_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 28
  },
  "29": {
   "Missile": "fireexplode",
@@ -1125,7 +1154,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 29
  },
  "30": {
   "Missile": "iceexplode",
@@ -1149,7 +1179,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 30
  },
  "31": {
   "Missile": "bolt",
@@ -1182,7 +1213,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_xbow_1"
+  "TravelSound": "weapon_xbow_1",
+  "lineNumber": 31
  },
  "32": {
   "Missile": "andarielspray",
@@ -1244,7 +1276,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "NumDirections": 1,
-  "TravelSound": "andariel_cast_large"
+  "TravelSound": "andariel_cast_large",
+  "lineNumber": 32
  },
  "33": {
   "Missile": "bigheadexp",
@@ -1268,7 +1301,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 33
  },
  "34": {
   "Missile": "shamanexp",
@@ -1292,7 +1326,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 34
  },
  "35": {
   "Missile": "throwaxe",
@@ -1326,7 +1361,8 @@
   "SrcDamage": 128,
   "HitClass": 2,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 35
  },
  "36": {
   "Missile": "throwknife",
@@ -1359,7 +1395,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 36
  },
  "37": {
   "Missile": "glaive",
@@ -1391,7 +1428,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 37
  },
  "38": {
   "Missile": "poisonjav",
@@ -1427,7 +1465,8 @@
   "NumDirections": 32,
   "TravelSound": "weapon_throw_1",
   "SubMissile1": "poisonjavcloud",
-  "CltSubMissile1": "poisonjavcloud"
+  "CltSubMissile1": "poisonjavcloud",
+  "lineNumber": 38
  },
  "39": {
   "Missile": "poisonjavcloud",
@@ -1468,7 +1507,8 @@
   "HitClass": 6,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 39
  },
  "40": {
   "Missile": "coldarrow",
@@ -1514,7 +1554,8 @@
   "NumDirections": 32,
   "TravelSound": "amazon_coldarrow_1",
   "HitSound": "impact_cold_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 40
  },
  "41": {
   "Missile": "explodingarrow",
@@ -1559,7 +1600,8 @@
   "TravelSound": "amazon_firearrow_1",
   "ExplosionMissile": "explodingarrowexp",
   "HitSubMissile1": "explodingarrowexp2",
-  "CltHitSubMissile1": "fireexplosion2"
+  "CltHitSubMissile1": "fireexplosion2",
+  "lineNumber": 41
  },
  "42": {
   "Missile": "explodingarrowexp",
@@ -1583,7 +1625,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "explosion_medium_1"
+  "TravelSound": "explosion_medium_1",
+  "lineNumber": 42
  },
  "43": {
   "Missile": "plaguejavelin",
@@ -1636,7 +1679,8 @@
   "SubMissile1": "plaguejavcloud",
   "HitSubMissile1": "plaguejavcloud",
   "CltSubMissile1": "plaguejavcloud",
-  "CltHitSubMissile1": "plaguejavcloud"
+  "CltHitSubMissile1": "plaguejavcloud",
+  "lineNumber": 43
  },
  "44": {
   "Missile": "oilpotion",
@@ -1678,7 +1722,8 @@
   "NumDirections": 1,
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_small_1",
-  "CltHitSubMissile1": "fireexplode"
+  "CltHitSubMissile1": "fireexplode",
+  "lineNumber": 44
  },
  "45": {
   "Missile": "explosivepotion",
@@ -1720,7 +1765,8 @@
   "NumDirections": 1,
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_medium_1",
-  "CltHitSubMissile1": "explodingarrowexp"
+  "CltHitSubMissile1": "explodingarrowexp",
+  "lineNumber": 45
  },
  "46": {
   "Missile": "fulminatingpotion",
@@ -1764,7 +1810,8 @@
   "HitSound": "explosion_large_1",
   "CltHitSubMissile1": "explosivepotionexp",
   "CltHitSubMissile2": "explosivepotiondebris1",
-  "CltHitSubMissile3": "explosivepotiondebris3"
+  "CltHitSubMissile3": "explosivepotiondebris3",
+  "lineNumber": 46
  },
  "47": {
   "Missile": "rancidgasepotion",
@@ -1815,7 +1862,8 @@
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_medium_1",
   "HitSubMissile1": "rancidgascloud",
-  "CltHitSubMissile1": "rancidgascloud"
+  "CltHitSubMissile1": "rancidgascloud",
+  "lineNumber": 47
  },
  "48": {
   "Missile": "chokinggaspoition",
@@ -1868,7 +1916,8 @@
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_medium_1",
   "HitSubMissile1": "chokinggascloud",
-  "CltHitSubMissile1": "chokinggascloud"
+  "CltHitSubMissile1": "chokinggascloud",
+  "lineNumber": 48
  },
  "49": {
   "Missile": "stranglinggaspotion",
@@ -1921,7 +1970,8 @@
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_medium_1",
   "HitSubMissile1": "stranglinggascloud",
-  "CltHitSubMissile1": "stranglinggascloud"
+  "CltHitSubMissile1": "stranglinggascloud",
+  "lineNumber": 49
  },
  "50": {
   "Missile": "notused50",
@@ -1945,7 +1995,8 @@
   "ResultFlags": 4,
   "NumDirections": 1,
   "TravelSound": "weapon_throw_1",
-  "HitSound": "explosion_medium_1"
+  "HitSound": "explosion_medium_1",
+  "lineNumber": 50
  },
  "51": {
   "Missile": "explosivepotionexp",
@@ -1969,7 +2020,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 51
  },
  "52": {
   "Missile": "explosivepotiondebris1",
@@ -1989,7 +2041,8 @@
   "GetHit": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 52
  },
  "53": {
   "Missile": "explosivepotiondebris2",
@@ -2009,7 +2062,8 @@
   "GetHit": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 53
  },
  "54": {
   "Missile": "explosivepotiondebris3",
@@ -2029,7 +2083,8 @@
   "GetHit": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 54
  },
  "55": {
   "Missile": "holybolt",
@@ -2076,7 +2131,8 @@
   "TravelSound": "paladin_holybolt_1",
   "HitSound": "paladin_holybolt_impact_1",
   "ProgOverlay": "healing",
-  "CltHitSubMissile1": "teethexplode"
+  "CltHitSubMissile1": "teethexplode",
+  "lineNumber": 55
  },
  "56": {
   "Missile": "chargedbolt",
@@ -2115,7 +2171,8 @@
   "HitClass": 64,
   "NumDirections": 16,
   "TravelSound": "sorceress_chargedbolt_1",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 56
  },
  "57": {
   "Missile": "sanctuarybolt",
@@ -2135,7 +2192,8 @@
   "Holy": 1,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 57
  },
  "58": {
   "Missile": "firebolt",
@@ -2169,7 +2227,8 @@
   "NumDirections": 16,
   "TravelSound": "sorceress_firebolt_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 58
  },
  "59": {
   "Missile": "icebolt",
@@ -2203,7 +2262,8 @@
   "NumDirections": 16,
   "TravelSound": "sorceress_icebolt_1",
   "HitSound": "impact_cold_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 59
  },
  "60": {
   "Missile": "infernoflame1",
@@ -2237,7 +2297,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 60
  },
  "61": {
   "Missile": "infernoflame2",
@@ -2271,7 +2332,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 61
  },
  "62": {
   "Missile": "fireball",
@@ -2316,7 +2378,8 @@
   "TravelSound": "sorceress_fireball_1",
   "HitSound": "sorceress_fireball_impact_1",
   "ExplosionMissile": "explodingarrowexp",
-  "CltHitSubMissile1": "fireexplosion2"
+  "CltHitSubMissile1": "fireexplosion2",
+  "lineNumber": 62
  },
  "63": {
   "Missile": "mummy1",
@@ -2356,7 +2419,8 @@
   "MaxELev4": 4,
   "MaxELev5": 4,
   "ELen": 100,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 63
  },
  "64": {
   "Missile": "mummy2",
@@ -2396,7 +2460,8 @@
   "MaxELev4": 4,
   "MaxELev5": 4,
   "ELen": 200,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 64
  },
  "65": {
   "Missile": "mummy3",
@@ -2436,7 +2501,8 @@
   "MaxELev4": 5,
   "MaxELev5": 5,
   "ELen": 300,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 65
  },
  "66": {
   "Missile": "mummy4",
@@ -2476,7 +2542,8 @@
   "MaxELev4": 5,
   "MaxELev5": 5,
   "ELen": 400,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 66
  },
  "67": {
   "Missile": "blaze",
@@ -2515,7 +2582,8 @@
   "Skill": "Blaze",
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 67
  },
  "68": {
   "Missile": "firewallmaker",
@@ -2552,7 +2620,8 @@
   "SubMissile1": "firewall",
   "CltSubMissile1": "firewall",
   "CltSubMissile2": "firesmall",
-  "CltSubMissile3": "firemedium"
+  "CltSubMissile3": "firemedium",
+  "lineNumber": 68
  },
  "69": {
   "Missile": "firewall",
@@ -2589,7 +2658,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 69
  },
  "70": {
   "Missile": "goospit1",
@@ -2646,7 +2716,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "goosplat"
+  "ExplosionMissile": "goosplat",
+  "lineNumber": 70
  },
  "71": {
   "Missile": "goospit2",
@@ -2703,7 +2774,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "goosplat"
+  "ExplosionMissile": "goosplat",
+  "lineNumber": 71
  },
  "72": {
   "Missile": "goospit3",
@@ -2760,7 +2832,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "goosplat"
+  "ExplosionMissile": "goosplat",
+  "lineNumber": 72
  },
  "73": {
   "Missile": "goospit4",
@@ -2817,7 +2890,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "goosplat"
+  "ExplosionMissile": "goosplat",
+  "lineNumber": 73
  },
  "74": {
   "Missile": "goospit5",
@@ -2874,7 +2948,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "goosplat"
+  "ExplosionMissile": "goosplat",
+  "lineNumber": 74
  },
  "75": {
   "Missile": "goosplat",
@@ -2896,7 +2971,8 @@
   "GetHit": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 75
  },
  "76": {
   "Missile": "sand pile",
@@ -2914,7 +2990,8 @@
   "Size": 1,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 76
  },
  "77": {
   "Missile": "unholybolt1",
@@ -2956,7 +3033,8 @@
   "MaxELev4": 9,
   "MaxELev5": 9,
   "NumDirections": 1,
-  "TravelSound": "greatermummy_unholybolt_1"
+  "TravelSound": "greatermummy_unholybolt_1",
+  "lineNumber": 77
  },
  "78": {
   "Missile": "unholybolt2",
@@ -2998,7 +3076,8 @@
   "MaxELev4": 9,
   "MaxELev5": 9,
   "NumDirections": 1,
-  "TravelSound": "greatermummy_unholybolt_1"
+  "TravelSound": "greatermummy_unholybolt_1",
+  "lineNumber": 78
  },
  "79": {
   "Missile": "unholybolt3",
@@ -3040,7 +3119,8 @@
   "MaxELev4": 9,
   "MaxELev5": 9,
   "NumDirections": 1,
-  "TravelSound": "greatermummy_unholybolt_1"
+  "TravelSound": "greatermummy_unholybolt_1",
+  "lineNumber": 79
  },
  "80": {
   "Missile": "unholybolt4",
@@ -3082,7 +3162,8 @@
   "MaxELev4": 9,
   "MaxELev5": 9,
   "NumDirections": 1,
-  "TravelSound": "greatermummy_unholybolt_1"
+  "TravelSound": "greatermummy_unholybolt_1",
+  "lineNumber": 80
  },
  "81": {
   "Missile": "sanctuarycenter",
@@ -3103,7 +3184,8 @@
   "Size": 1,
   "Explosion": 1,
   "NoMultiShot": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 81
  },
  "82": {
   "Missile": "fireexplosion",
@@ -3141,7 +3223,8 @@
   "MaxELev4": 2,
   "MaxELev5": 2,
   "NumDirections": 1,
-  "HitSound": "explosion_medium_1"
+  "HitSound": "explosion_medium_1",
+  "lineNumber": 82
  },
  "83": {
   "Missile": "stuckarrow",
@@ -3158,7 +3241,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "HitShift": 8,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 83
  },
  "84": {
   "Missile": "footprint",
@@ -3173,7 +3257,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "HitShift": 8,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 84
  },
  "85": {
   "Missile": "immolationarrow",
@@ -3230,7 +3315,8 @@
   "HitSubMissile1": "immolationfire",
   "CltHitSubMissile1": "firewall",
   "CltHitSubMissile2": "firesmall",
-  "CltHitSubMissile3": "firemedium"
+  "CltHitSubMissile3": "firemedium",
+  "lineNumber": 85
  },
  "86": {
   "Missile": "guidedarrow",
@@ -3272,7 +3358,8 @@
   "ResultFlags": 4,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "amazon_magicarrow_1"
+  "TravelSound": "amazon_magicarrow_1",
+  "lineNumber": 86
  },
  "87": {
   "Missile": "freezingarrow",
@@ -3317,7 +3404,8 @@
   "HitSound": "sorceress_iceblast_impact_1",
   "HitSubMissile1": "freezingarrowexp3",
   "CltHitSubMissile1": "freezingarrowexp1",
-  "CltHitSubMissile2": "freezingarrowexp2"
+  "CltHitSubMissile2": "freezingarrowexp2",
+  "lineNumber": 87
  },
  "88": {
   "Missile": "freezingarrowexp1",
@@ -3342,7 +3430,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 88
  },
  "89": {
   "Missile": "freezingarrowexp2",
@@ -3366,7 +3455,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 89
  },
  "90": {
   "Missile": "nova",
@@ -3398,7 +3488,8 @@
   "HitClass": 64,
   "NumDirections": 16,
   "TravelSound": "sorceress_nova",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 90
  },
  "91": {
   "Missile": "iceblast",
@@ -3435,7 +3526,8 @@
   "NumDirections": 16,
   "TravelSound": "sorceress_icebolt_1",
   "HitSound": "sorceress_iceblast_impact_1",
-  "ExplosionMissile": "freezingarrowexp1"
+  "ExplosionMissile": "freezingarrowexp1",
+  "lineNumber": 91
  },
  "92": {
   "Missile": "blessedhammer",
@@ -3475,7 +3567,8 @@
   "EType": "mag",
   "NumDirections": 16,
   "TravelSound": "paladin_blessedhammer_1",
-  "HitSound": "paladin_holybolt_impact_1"
+  "HitSound": "paladin_holybolt_impact_1",
+  "lineNumber": 92
  },
  "93": {
   "Missile": "chainlightning",
@@ -3517,7 +3610,8 @@
   "NumDirections": 32,
   "TravelSound": "sorceress_lightning_1",
   "ProgOverlay": "lightning",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 93
  },
  "94": {
   "Missile": "fistofares",
@@ -3541,7 +3635,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 94
  },
  "95": {
   "Missile": "chillblood",
@@ -3572,7 +3667,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "HitClass": 48,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 95
  },
  "96": {
   "Missile": "glacialspike",
@@ -3613,7 +3709,8 @@
   "TravelSound": "sorceress_glacialspike_1",
   "HitSound": "sorceress_iceblast_impact_1",
   "CltHitSubMissile1": "freezingarrowexp1",
-  "CltHitSubMissile2": "freezingarrowexp2"
+  "CltHitSubMissile2": "freezingarrowexp2",
+  "lineNumber": 96
  },
  "97": {
   "Missile": "teleport",
@@ -3635,7 +3732,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 97
  },
  "98": {
   "Missile": "lightningbolt",
@@ -3668,7 +3766,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "sorceress_lightning_1",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 98
  },
  "99": {
   "Missile": "lightninghit",
@@ -3710,7 +3809,8 @@
   "MaxELev5": 2,
   "HitClass": 64,
   "NumDirections": 32,
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 99
  },
  "100": {
   "Missile": "meteor",
@@ -3725,7 +3825,8 @@
   "CollideKill": 1,
   "LastCollide": 1,
   "ClientSend": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 100
  },
  "101": {
   "Missile": "meteorcenter",
@@ -3777,7 +3878,8 @@
   "CltHitSubMissile1": "meteorexplode",
   "CltHitSubMissile2": "whitelightmissile",
   "CltHitSubMissile3": "firemedium",
-  "CltHitSubMissile4": "firesmall"
+  "CltHitSubMissile4": "firesmall",
+  "lineNumber": 101
  },
  "102": {
   "Missile": "meteortail",
@@ -3793,7 +3895,8 @@
   "LastCollide": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 102
  },
  "103": {
   "Missile": "meteorexplode",
@@ -3819,7 +3922,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 103
  },
  "104": {
   "Missile": "firesmall",
@@ -3862,7 +3966,8 @@
   "MaxELev5": 1,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 104
  },
  "105": {
   "Missile": "firemedium",
@@ -3905,7 +4010,8 @@
   "MaxELev5": 2,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 105
  },
  "106": {
   "Missile": "monblizcenter",
@@ -3944,7 +4050,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "SubMissile1": "monbliz1",
   "CltSubMissile1": "monbliz1",
-  "CltSubMissile2": "monbliz4"
+  "CltSubMissile2": "monbliz4",
+  "lineNumber": 106
  },
  "107": {
   "Missile": "monbliz1",
@@ -4005,7 +4112,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "monblizexplode1",
-  "CltHitSubMissile2": "monblizexplode3"
+  "CltHitSubMissile2": "monblizexplode3",
+  "lineNumber": 107
  },
  "108": {
   "Missile": "monbliz2",
@@ -4066,7 +4174,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "monblizexplode1",
-  "CltHitSubMissile2": "monblizexplode3"
+  "CltHitSubMissile2": "monblizexplode3",
+  "lineNumber": 108
  },
  "109": {
   "Missile": "monbliz3",
@@ -4127,7 +4236,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "monblizexplode1",
-  "CltHitSubMissile2": "monblizexplode3"
+  "CltHitSubMissile2": "monblizexplode3",
+  "lineNumber": 109
  },
  "110": {
   "Missile": "monbliz4",
@@ -4188,7 +4298,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "monblizexplode1",
-  "CltHitSubMissile2": "monblizexplode3"
+  "CltHitSubMissile2": "monblizexplode3",
+  "lineNumber": 110
  },
  "111": {
   "Missile": "monblizexplode1",
@@ -4209,7 +4320,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 111
  },
  "112": {
   "Missile": "monblizexplode2",
@@ -4230,7 +4342,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 112
  },
  "113": {
   "Missile": "monblizexplode3",
@@ -4251,7 +4364,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 113
  },
  "114": {
   "Missile": "teeth",
@@ -4288,7 +4402,8 @@
   "NumDirections": 32,
   "TravelSound": "necromancer_teeth_1",
   "HitSound": "paladin_holybolt_impact_1",
-  "ExplosionMissile": "teethexplode"
+  "ExplosionMissile": "teethexplode",
+  "lineNumber": 114
  },
  "115": {
   "Missile": "corpseexplosion",
@@ -4316,7 +4431,8 @@
   "NumDirections": 4,
   "LocalBlood": 1,
   "SubMissile1": "bigblood1",
-  "SubMissile2": "bigblood2"
+  "SubMissile2": "bigblood2",
+  "lineNumber": 115
  },
  "116": {
   "Missile": "poisoncorpseexplosion",
@@ -4338,7 +4454,8 @@
   "NoMultiShot": 1,
   "ReturnFire": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 116
  },
  "117": {
   "Missile": "monstercorpseexplode",
@@ -4361,7 +4478,8 @@
   "ReturnFire": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 117
  },
  "118": {
   "Missile": "poisonnova",
@@ -4388,7 +4506,8 @@
   "HitShift": 8,
   "HitClass": 80,
   "NumDirections": 32,
-  "TravelSound": "necromancer_poisonnova"
+  "TravelSound": "necromancer_poisonnova",
+  "lineNumber": 118
  },
  "119": {
   "Missile": "frostnova",
@@ -4421,7 +4540,8 @@
   "HitClass": 48,
   "NumDirections": 16,
   "TravelSound": "sorceress_frostnova",
-  "ProgOverlay": "ice_explode"
+  "ProgOverlay": "ice_explode",
+  "lineNumber": 119
  },
  "120": {
   "Missile": "rogue1",
@@ -4457,7 +4577,8 @@
   "MaxDamage": 1,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 120
  },
  "121": {
   "Missile": "rogue2",
@@ -4501,7 +4622,8 @@
   "NumDirections": 32,
   "TravelSound": "amazon_firearrow_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 121
  },
  "122": {
   "Missile": "rogue3",
@@ -4546,7 +4668,8 @@
   "NumDirections": 32,
   "TravelSound": "amazon_coldarrow_1",
   "HitSound": "impact_cold_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 122
  },
  "123": {
   "Missile": "bat lightning bolt",
@@ -4579,7 +4702,8 @@
   "ResultFlags": 4,
   "NumDirections": 1,
   "SubMissile1": "bat lightning trail",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 123
  },
  "124": {
   "Missile": "bat lightning trail",
@@ -4622,7 +4746,8 @@
   "MaxELev3": 3,
   "MaxELev4": 3,
   "MaxELev5": 3,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 124
  },
  "125": {
   "Missile": "skmage1",
@@ -4654,7 +4779,8 @@
   "HitShift": 8,
   "SrcDamage": 128,
   "NumDirections": 32,
-  "TravelSound": "monster_poisonbolt"
+  "TravelSound": "monster_poisonbolt",
+  "lineNumber": 125
  },
  "126": {
   "Missile": "skmage2",
@@ -4688,7 +4814,8 @@
   "SrcDamage": 128,
   "NumDirections": 16,
   "TravelSound": "monster_icebolt_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 126
  },
  "127": {
   "Missile": "skmage3",
@@ -4723,7 +4850,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_firebolt_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 127
  },
  "128": {
   "Missile": "skmage4",
@@ -4756,7 +4884,8 @@
   "HitShift": 8,
   "SrcDamage": 128,
   "NumDirections": 16,
-  "TravelSound": "monster_chargedbolt_1"
+  "TravelSound": "monster_chargedbolt_1",
+  "lineNumber": 128
  },
  "129": {
   "Missile": "vampirefireball",
@@ -4813,7 +4942,8 @@
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_fireball_impact_1",
   "ExplosionMissile": "explodingarrowexp",
-  "CltHitSubMissile1": "fireexplosion2"
+  "CltHitSubMissile1": "fireexplosion2",
+  "lineNumber": 129
  },
  "130": {
   "Missile": "vampirefirewallmaker",
@@ -4849,7 +4979,8 @@
   "SubMissile1": "vampirefirewall",
   "CltSubMissile1": "vampirefirewall",
   "CltSubMissile2": "firesmall",
-  "CltSubMissile3": "firemedium"
+  "CltSubMissile3": "firemedium",
+  "lineNumber": 130
  },
  "131": {
   "Missile": "vampirefirewall",
@@ -4895,7 +5026,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 131
  },
  "132": {
   "Missile": "vampiremeteor",
@@ -4910,7 +5042,8 @@
   "CollideKill": 1,
   "LastCollide": 1,
   "ClientSend": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 132
  },
  "133": {
   "Missile": "vampiremeteorcenter",
@@ -4960,7 +5093,8 @@
   "CltHitSubMissile1": "meteorexplode",
   "CltHitSubMissile2": "whitelightmissile",
   "CltHitSubMissile3": "firemedium",
-  "CltHitSubMissile4": "firesmall"
+  "CltHitSubMissile4": "firesmall",
+  "lineNumber": 133
  },
  "134": {
   "Missile": "vampiremeteorexp",
@@ -4986,7 +5120,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 134
  },
  "135": {
   "Missile": "raven1",
@@ -5020,7 +5155,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 135
  },
  "136": {
   "Missile": "raven2",
@@ -5081,7 +5217,8 @@
   "NumDirections": 32,
   "TravelSound": "amazon_firearrow_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 136
  },
  "137": {
   "Missile": "amphibiangoo1",
@@ -5127,7 +5264,8 @@
   "MaxELev5": 5,
   "ELen": 500,
   "HitClass": 176,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 137
  },
  "138": {
   "Missile": "amphibiangoo2",
@@ -5173,7 +5311,8 @@
   "MaxELev5": 5,
   "ELen": 700,
   "HitClass": 176,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 138
  },
  "139": {
   "Missile": "tentaclegoo",
@@ -5212,7 +5351,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "amphibianexplode"
+  "ExplosionMissile": "amphibianexplode",
+  "lineNumber": 139
  },
  "140": {
   "Missile": "amphibianexplode",
@@ -5234,7 +5374,8 @@
   "GetHit": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 140
  },
  "141": {
   "Missile": "poisonpuff",
@@ -5259,7 +5400,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "object_poison_loop"
+  "TravelSound": "object_poison_loop",
+  "lineNumber": 141
  },
  "142": {
   "Missile": "curseeffectred",
@@ -5279,7 +5421,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 142
  },
  "143": {
   "Missile": "spidergoolay",
@@ -5303,7 +5446,8 @@
   "Trans": 1,
   "NumDirections": 8,
   "ExplosionMissile": "spidergoo",
-  "HitSubMissile1": "spidergoo"
+  "HitSubMissile1": "spidergoo",
+  "lineNumber": 143
  },
  "144": {
   "Missile": "fetishinferno1",
@@ -5347,7 +5491,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 144
  },
  "145": {
   "Missile": "fetishinferno2",
@@ -5390,7 +5535,8 @@
   "MaxELev5": 4,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 145
  },
  "146": {
   "Missile": "spidergoo",
@@ -5414,7 +5560,8 @@
   "Size": 3,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 146
  },
  "147": {
   "Missile": "cursecast",
@@ -5436,7 +5583,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 147
  },
  "148": {
   "Missile": "howl",
@@ -5461,7 +5609,8 @@
   "Size": 1,
   "Trans": 1,
   "NumDirections": 32,
-  "TravelSound": "barbarian_circle_1"
+  "TravelSound": "barbarian_circle_1",
+  "lineNumber": 148
  },
  "149": {
   "Missile": "shout",
@@ -5488,7 +5637,8 @@
   "Size": 1,
   "Trans": 1,
   "NumDirections": 32,
-  "TravelSound": "barbarian_circle_1"
+  "TravelSound": "barbarian_circle_1",
+  "lineNumber": 149
  },
  "150": {
   "Missile": "dust",
@@ -5507,7 +5657,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 150
  },
  "151": {
   "Missile": "redlightmissile",
@@ -5526,7 +5677,8 @@
   "LastCollide": 1,
   "Explosion": 1,
   "NoMultiShot": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 151
  },
  "152": {
   "Missile": "greenlightmissile",
@@ -5545,7 +5697,8 @@
   "LastCollide": 1,
   "Explosion": 1,
   "NoMultiShot": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 152
  },
  "153": {
   "Missile": "bluelightmissile",
@@ -5564,7 +5717,8 @@
   "LastCollide": 1,
   "Explosion": 1,
   "NoMultiShot": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 153
  },
  "154": {
   "Missile": "whitelightmissile",
@@ -5583,7 +5737,8 @@
   "LastCollide": 1,
   "Explosion": 1,
   "NoMultiShot": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 154
  },
  "155": {
   "Missile": "corpsepoisoncloud",
@@ -5637,7 +5792,8 @@
   "ELen": 175,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 155
  },
  "156": {
   "Missile": "chillbloodcloud",
@@ -5676,7 +5832,8 @@
   "HitShift": 8,
   "HitClass": 48,
   "NumDirections": 1,
-  "CltSubMissile1": "chillbloodpuff"
+  "CltSubMissile1": "chillbloodpuff",
+  "lineNumber": 156
  },
  "157": {
   "Missile": "chillbloodpuff",
@@ -5702,7 +5859,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "HitClass": 48,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 157
  },
  "158": {
   "Missile": "blizzardcenter",
@@ -5728,7 +5886,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "SubMissile1": "blizzard1",
   "CltSubMissile1": "blizzard1",
-  "CltSubMissile2": "blizzard4"
+  "CltSubMissile2": "blizzard4",
+  "lineNumber": 158
  },
  "159": {
   "Missile": "blizzard1",
@@ -5760,7 +5919,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "blizzardexplode1",
-  "CltHitSubMissile2": "blizzardexplode3"
+  "CltHitSubMissile2": "blizzardexplode3",
+  "lineNumber": 159
  },
  "160": {
   "Missile": "blizzard2",
@@ -5792,7 +5952,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "blizzardexplode1",
-  "CltHitSubMissile2": "blizzardexplode3"
+  "CltHitSubMissile2": "blizzardexplode3",
+  "lineNumber": 160
  },
  "161": {
   "Missile": "blizzard3",
@@ -5824,7 +5985,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "blizzardexplode1",
-  "CltHitSubMissile2": "blizzardexplode3"
+  "CltHitSubMissile2": "blizzardexplode3",
+  "lineNumber": 161
  },
  "162": {
   "Missile": "blizzard4",
@@ -5856,7 +6018,8 @@
   "TravelSound": "sorceress_blizzard_loop",
   "HitSound": "sorceress_blizzard_impact_1",
   "CltHitSubMissile1": "blizzardexplode1",
-  "CltHitSubMissile2": "blizzardexplode3"
+  "CltHitSubMissile2": "blizzardexplode3",
+  "lineNumber": 162
  },
  "163": {
   "Missile": "blizzardexplode1",
@@ -5877,7 +6040,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 163
  },
  "164": {
   "Missile": "blizzardexplode2",
@@ -5898,7 +6062,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 164
  },
  "165": {
   "Missile": "blizzardexplode3",
@@ -5919,7 +6084,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 165
  },
  "166": {
   "Missile": "thunderstorm1",
@@ -5948,7 +6114,8 @@
   "Skill": "Thunder Storm",
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "sorceress_thunder_bolt"
+  "TravelSound": "sorceress_thunder_bolt",
+  "lineNumber": 166
  },
  "167": {
   "Missile": "thunderstorm2",
@@ -5977,7 +6144,8 @@
   "Skill": "Thunder Storm",
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "sorceress_thunder_bolt"
+  "TravelSound": "sorceress_thunder_bolt",
+  "lineNumber": 167
  },
  "168": {
   "Missile": "thunderstorm3",
@@ -6006,7 +6174,8 @@
   "Skill": "Thunder Storm",
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "sorceress_thunder_bolt"
+  "TravelSound": "sorceress_thunder_bolt",
+  "lineNumber": 168
  },
  "169": {
   "Missile": "thunderstorm4",
@@ -6035,7 +6204,8 @@
   "Skill": "Thunder Storm",
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "sorceress_thunder_bolt"
+  "TravelSound": "sorceress_thunder_bolt",
+  "lineNumber": 169
  },
  "170": {
   "Missile": "monsterlight",
@@ -6076,7 +6246,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_lightning_1",
   "ProgOverlay": "lightning",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 170
  },
  "171": {
   "Missile": "poisonball",
@@ -6114,7 +6285,8 @@
   "MaxELev4": 6,
   "MaxELev5": 6,
   "ELen": 400,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 171
  },
  "172": {
   "Missile": "diablight",
@@ -6175,7 +6347,8 @@
   "DamageRate": 82,
   "TravelSound": "diablo_laser",
   "HitSound": "fingermage_bolt_impact_1",
-  "ProgOverlay": "diablolightning"
+  "ProgOverlay": "diablolightning",
+  "lineNumber": 172
  },
  "173": {
   "Missile": "redemption",
@@ -6198,7 +6371,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 173
  },
  "174": {
   "Missile": "redemptionfail",
@@ -6220,7 +6394,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 174
  },
  "175": {
   "Missile": "handofgod",
@@ -6249,7 +6424,8 @@
   "Trans": 1,
   "Skill": "Fist of the Heavens",
   "ResultFlags": 4,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 175
  },
  "176": {
   "Missile": "diabfire",
@@ -6297,7 +6473,8 @@
   "MaxELev5": 8,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "diablo_firecircle"
+  "TravelSound": "diablo_firecircle",
+  "lineNumber": 176
  },
  "177": {
   "Missile": "fingermagespider",
@@ -6374,7 +6551,8 @@
   "TravelSound": "fingermage_bolt",
   "HitSound": "fingermage_bolt_impact_1",
   "ProgOverlay": "fingermagespiderexplode",
-  "CltSubMissile1": "fingermagespider"
+  "CltSubMissile1": "fingermagespider",
+  "lineNumber": 177
  },
  "178": {
   "Missile": "electric throwaxe",
@@ -6421,7 +6599,8 @@
   "MaxELev4": 4,
   "MaxELev5": 4,
   "NumDirections": 32,
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 178
  },
  "179": {
   "Missile": "diabwallmaker",
@@ -6457,7 +6636,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "SubMissile1": "diabwall",
-  "CltSubMissile1": "diabwall"
+  "CltSubMissile1": "diabwall",
+  "lineNumber": 179
  },
  "180": {
   "Missile": "diabwall",
@@ -6512,7 +6692,8 @@
   "MaxELev5": 5,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "diablo_firewall"
+  "TravelSound": "diablo_firewall",
+  "lineNumber": 180
  },
  "181": {
   "Missile": "curseamplifydamage",
@@ -6531,7 +6712,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 181
  },
  "182": {
   "Missile": "cursedimvision",
@@ -6550,7 +6732,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 182
  },
  "183": {
   "Missile": "curseweaken",
@@ -6569,7 +6752,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 183
  },
  "184": {
   "Missile": "curseironmaiden",
@@ -6588,7 +6772,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 184
  },
  "185": {
   "Missile": "curseterror",
@@ -6607,7 +6792,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 185
  },
  "186": {
   "Missile": "curseattract",
@@ -6626,7 +6812,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 186
  },
  "187": {
   "Missile": "cursereversevampire",
@@ -6645,7 +6832,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 187
  },
  "188": {
   "Missile": "curseconfuse",
@@ -6664,7 +6852,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 188
  },
  "189": {
   "Missile": "cursedecrepify",
@@ -6683,7 +6872,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 189
  },
  "190": {
   "Missile": "curselowerresist",
@@ -6702,7 +6892,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 190
  },
  "191": {
   "Missile": "cursecenter",
@@ -6719,7 +6910,8 @@
   "LastCollide": 1,
   "Explosion": 1,
   "NoMultiShot": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 191
  },
  "192": {
   "Missile": "bonespear",
@@ -6758,7 +6950,8 @@
   "HitSound": "paladin_holybolt_impact_1",
   "ExplosionMissile": "bonespearexplode",
   "CltSubMissile1": "bonespeartrail",
-  "CltHitSubMissile1": "teethexplode"
+  "CltHitSubMissile1": "teethexplode",
+  "lineNumber": 192
  },
  "193": {
   "Missile": "bonespirit",
@@ -6802,7 +6995,8 @@
   "NumDirections": 8,
   "TravelSound": "necromancer_bonespirit_1",
   "HitSound": "paladin_holybolt_impact_1",
-  "ExplosionMissile": "bonespiritexplode"
+  "ExplosionMissile": "bonespiritexplode",
+  "lineNumber": 193
  },
  "194": {
   "Missile": "coldunique",
@@ -6849,7 +7043,8 @@
   "ELevLen2": 25,
   "ELevLen3": 25,
   "NumDirections": 16,
-  "TravelSound": "sorceress_frostnova"
+  "TravelSound": "sorceress_frostnova",
+  "lineNumber": 194
  },
  "195": {
   "Missile": "lightunique",
@@ -6902,7 +7097,8 @@
   "MaxELev5": 2,
   "HitClass": 64,
   "NumDirections": 16,
-  "TravelSound": "sorceress_chargedbolt_1"
+  "TravelSound": "sorceress_chargedbolt_1",
+  "lineNumber": 195
  },
  "196": {
   "Missile": "skbowarrow1",
@@ -6936,7 +7132,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 196
  },
  "197": {
   "Missile": "skbowarrow2",
@@ -6970,7 +7167,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 197
  },
  "198": {
   "Missile": "skbowarrow3",
@@ -7004,7 +7202,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 198
  },
  "199": {
   "Missile": "skbowarrow4",
@@ -7041,7 +7240,8 @@
   "HitClass": 10,
   "NumDirections": 32,
   "TravelSound": "amazon_firearrow_1",
-  "HitSound": "sorceress_firebolt_impact_1"
+  "HitSound": "sorceress_firebolt_impact_1",
+  "lineNumber": 199
  },
  "200": {
   "Missile": "skbowarrow5",
@@ -7077,7 +7277,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "amazon_magicarrow_1"
+  "TravelSound": "amazon_magicarrow_1",
+  "lineNumber": 200
  },
  "201": {
   "Missile": "nova1",
@@ -7109,7 +7310,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "sorceress_nova",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 201
  },
  "202": {
   "Missile": "nova2",
@@ -7141,7 +7343,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "sorceress_nova",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 202
  },
  "203": {
   "Missile": "andypoisonbolt",
@@ -7200,7 +7403,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "NumDirections": 32,
-  "TravelSound": "andariel_cast_small"
+  "TravelSound": "andariel_cast_small",
+  "lineNumber": 203
  },
  "204": {
   "Missile": "teethexplode",
@@ -7215,7 +7419,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 204
  },
  "205": {
   "Missile": "lightningjavelin",
@@ -7258,7 +7463,8 @@
   "HitClass": 64,
   "NumDirections": 16,
   "TravelSound": "amazon_lightning_1",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 205
  },
  "206": {
   "Missile": "lightningfury",
@@ -7300,7 +7506,8 @@
   "NumDirections": 16,
   "TravelSound": "amazon_lightning_1",
   "HitSubMissile1": "furylightning",
-  "CltHitSubMissile1": "furylightning"
+  "CltHitSubMissile1": "furylightning",
+  "lineNumber": 206
  },
  "207": {
   "Missile": "bonewallmaker",
@@ -7326,7 +7533,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 207
  },
  "208": {
   "Missile": "necromage1",
@@ -7374,7 +7582,8 @@
   "ELevLen2": 250,
   "ELevLen3": 250,
   "NumDirections": 32,
-  "TravelSound": "monster_poisonbolt"
+  "TravelSound": "monster_poisonbolt",
+  "lineNumber": 208
  },
  "209": {
   "Missile": "necromage2",
@@ -7423,7 +7632,8 @@
   "ELevLen2": 25,
   "ELevLen3": 25,
   "NumDirections": 16,
-  "TravelSound": "monster_icebolt_1"
+  "TravelSound": "monster_icebolt_1",
+  "lineNumber": 209
  },
  "210": {
   "Missile": "necromage3",
@@ -7470,7 +7680,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 210
  },
  "211": {
   "Missile": "necromage4",
@@ -7515,7 +7726,8 @@
   "MaxELev4": 11,
   "MaxELev5": 14,
   "NumDirections": 16,
-  "TravelSound": "monster_chargedbolt_1"
+  "TravelSound": "monster_chargedbolt_1",
+  "lineNumber": 211
  },
  "212": {
   "Missile": "sparkle",
@@ -7557,7 +7769,8 @@
   "MaxELev3": 2,
   "MaxELev4": 2,
   "MaxELev5": 2,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 212
  },
  "213": {
   "Missile": "multipleshotarrow",
@@ -7592,7 +7805,8 @@
   "SrcDamage": 96,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "amazon_multi_arrow_1"
+  "TravelSound": "amazon_multi_arrow_1",
+  "lineNumber": 213
  },
  "214": {
   "Missile": "multipleshotbolt",
@@ -7627,7 +7841,8 @@
   "SrcDamage": 96,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_xbow_1"
+  "TravelSound": "weapon_xbow_1",
+  "lineNumber": 214
  },
  "215": {
   "Missile": "chargedstrikebolt",
@@ -7666,7 +7881,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 16,
-  "TravelSound": "sorceress_chargedbolt_1"
+  "TravelSound": "sorceress_chargedbolt_1",
+  "lineNumber": 215
  },
  "216": {
   "Missile": "bonespearexplode",
@@ -7682,7 +7898,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 216
  },
  "217": {
   "Missile": "poisonexplosioncloud",
@@ -7723,7 +7940,8 @@
   "HitShift": 8,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 217
  },
  "218": {
   "Missile": "bonecast",
@@ -7740,7 +7958,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 218
  },
  "219": {
   "Missile": "battlecry",
@@ -7767,7 +7986,8 @@
   "Size": 1,
   "Trans": 1,
   "NumDirections": 32,
-  "TravelSound": "barbarian_circle_1"
+  "TravelSound": "barbarian_circle_1",
+  "lineNumber": 219
  },
  "220": {
   "Missile": "primepoisoncloud",
@@ -7823,7 +8043,8 @@
   "ELevLen3": 20,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 220
  },
  "221": {
   "Missile": "plaguejavcloud",
@@ -7864,7 +8085,8 @@
   "SrcDamage": -1,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 221
  },
  "222": {
   "Missile": "rancidgascloud",
@@ -7907,7 +8129,8 @@
   "ELen": 50,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 222
  },
  "223": {
   "Missile": "chokinggascloud",
@@ -7950,7 +8173,8 @@
   "ELen": 50,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 223
  },
  "224": {
   "Missile": "stranglinggascloud",
@@ -7993,7 +8217,8 @@
   "ELen": 50,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 224
  },
  "225": {
   "Missile": "buglightning",
@@ -8044,7 +8269,8 @@
   "MaxELev5": 128,
   "HitClass": 64,
   "NumDirections": 16,
-  "TravelSound": "sorceress_chargedbolt_1"
+  "TravelSound": "sorceress_chargedbolt_1",
+  "lineNumber": 225
  },
  "226": {
   "Missile": "pantherjav1",
@@ -8079,7 +8305,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 226
  },
  "227": {
   "Missile": "pantherjav2",
@@ -8114,7 +8341,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 227
  },
  "228": {
   "Missile": "pantherjav3",
@@ -8149,7 +8377,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 228
  },
  "229": {
   "Missile": "pantherjav4",
@@ -8184,7 +8413,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 229
  },
  "230": {
   "Missile": "immolationfire",
@@ -8234,7 +8464,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 230
  },
  "231": {
   "Missile": "furylightning",
@@ -8268,7 +8499,8 @@
   "SrcDamage": -1,
   "HitClass": 64,
   "NumDirections": 32,
-  "TravelSound": "sorceress_lightning_1"
+  "TravelSound": "sorceress_lightning_1",
+  "lineNumber": 231
  },
  "232": {
   "Missile": "lightningstrike",
@@ -8313,7 +8545,8 @@
   "NumDirections": 32,
   "TravelSound": "sorceress_lightning_1",
   "ProgOverlay": "lightning",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 232
  },
  "233": {
   "Missile": "fistoftheheavensdelay",
@@ -8340,7 +8573,8 @@
   "NumDirections": 1,
   "TravelSound": "paladin_handofgod_bolt",
   "HitSubMissile1": "fistoftheheavensbolt",
-  "CltHitSubMissile1": "fistoftheheavensbolt"
+  "CltHitSubMissile1": "fistoftheheavensbolt",
+  "lineNumber": 233
  },
  "234": {
   "Missile": "fistoftheheavensbolt",
@@ -8402,7 +8636,8 @@
   "TravelSound": "paladin_holybolt_1",
   "HitSound": "paladin_holybolt_impact_1",
   "ExplosionMissile": "teethexplode",
-  "CltHitSubMissile1": "teethexplode"
+  "CltHitSubMissile1": "teethexplode",
+  "lineNumber": 234
  },
  "235": {
   "Missile": "warcry",
@@ -8435,7 +8670,8 @@
   "ResultFlags": 4,
   "NumDirections": 32,
   "TravelSound": "barbarian_warcry_circle",
-  "ProgOverlay": "doubledamage1"
+  "ProgOverlay": "doubledamage1",
+  "lineNumber": 235
  },
  "236": {
   "Missile": "battlecommand",
@@ -8463,7 +8699,8 @@
   "Size": 1,
   "Trans": 1,
   "NumDirections": 32,
-  "TravelSound": "barbarian_circle_1"
+  "TravelSound": "barbarian_circle_1",
+  "lineNumber": 236
  },
  "237": {
   "Missile": "battleorders",
@@ -8491,7 +8728,8 @@
   "Size": 1,
   "Trans": 1,
   "NumDirections": 32,
-  "TravelSound": "barbarian_circle_1"
+  "TravelSound": "barbarian_circle_1",
+  "lineNumber": 237
  },
  "238": {
   "Missile": "pantherpotorange",
@@ -8551,7 +8789,8 @@
   "NumDirections": 1,
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_medium_1",
-  "CltHitSubMissile1": "explodingarrowexp"
+  "CltHitSubMissile1": "explodingarrowexp",
+  "lineNumber": 238
  },
  "239": {
   "Missile": "pantherpotgreen",
@@ -8605,7 +8844,8 @@
   "TravelSound": "weapon_throw_1",
   "HitSound": "explosion_medium_1",
   "HitSubMissile1": "rancidgascloud",
-  "CltHitSubMissile1": "rancidgascloud"
+  "CltHitSubMissile1": "rancidgascloud",
+  "lineNumber": 239
  },
  "240": {
   "Missile": "meteorfire",
@@ -8655,7 +8895,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 240
  },
  "241": {
   "Missile": "trap spike right",
@@ -8690,7 +8931,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 1,
-  "TravelSound": "object_trap_release"
+  "TravelSound": "object_trap_release",
+  "lineNumber": 241
  },
  "242": {
   "Missile": "trap spike left",
@@ -8725,7 +8967,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 1,
-  "TravelSound": "object_trap_release"
+  "TravelSound": "object_trap_release",
+  "lineNumber": 242
  },
  "243": {
   "Missile": "trap cursed skull right",
@@ -8760,7 +9003,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 1,
-  "TravelSound": "object_trap_release"
+  "TravelSound": "object_trap_release",
+  "lineNumber": 243
  },
  "244": {
   "Missile": "trap cursed skull left",
@@ -8795,7 +9039,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 1,
-  "TravelSound": "object_trap_release"
+  "TravelSound": "object_trap_release",
+  "lineNumber": 244
  },
  "245": {
   "Missile": "trap poison ball right",
@@ -8835,7 +9080,8 @@
   "HitClass": 10,
   "NumDirections": 1,
   "TravelSound": "object_trap_release",
-  "CltSubMissile1": "plaguejavcloud"
+  "CltSubMissile1": "plaguejavcloud",
+  "lineNumber": 245
  },
  "246": {
   "Missile": "trap poison ball left",
@@ -8875,7 +9121,8 @@
   "HitClass": 10,
   "NumDirections": 1,
   "TravelSound": "object_trap_release",
-  "CltSubMissile1": "plaguejavcloud"
+  "CltSubMissile1": "plaguejavcloud",
+  "lineNumber": 246
  },
  "247": {
   "Missile": "hydra",
@@ -8912,7 +9159,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_firebolt_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 247
  },
  "248": {
   "Missile": "bonespeartrail",
@@ -8929,7 +9177,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 248
  },
  "249": {
   "Missile": "grimwardsmallstart",
@@ -8953,7 +9202,8 @@
   "NumDirections": 4,
   "LocalBlood": 1,
   "HitSubMissile1": "grimwardsmall",
-  "CltHitSubMissile1": "grimwardsmall"
+  "CltHitSubMissile1": "grimwardsmall",
+  "lineNumber": 249
  },
  "250": {
   "Missile": "grimwardsmall",
@@ -8983,7 +9233,8 @@
   "HitShift": 8,
   "NumDirections": 4,
   "LocalBlood": 1,
-  "CltHitSubMissile1": "grimwardsmallstop"
+  "CltHitSubMissile1": "grimwardsmallstop",
+  "lineNumber": 250
  },
  "251": {
   "Missile": "grimwardsmallstop",
@@ -9003,7 +9254,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 251
  },
  "252": {
   "Missile": "grimwardmediumstart",
@@ -9027,7 +9279,8 @@
   "NumDirections": 4,
   "LocalBlood": 1,
   "HitSubMissile1": "grimwardmedium",
-  "CltHitSubMissile1": "grimwardmedium"
+  "CltHitSubMissile1": "grimwardmedium",
+  "lineNumber": 252
  },
  "253": {
   "Missile": "grimwardmedium",
@@ -9057,7 +9310,8 @@
   "HitShift": 8,
   "NumDirections": 4,
   "LocalBlood": 1,
-  "CltHitSubMissile1": "grimwardmediumstop"
+  "CltHitSubMissile1": "grimwardmediumstop",
+  "lineNumber": 253
  },
  "254": {
   "Missile": "grimwardmediumstop",
@@ -9077,7 +9331,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 254
  },
  "255": {
   "Missile": "grimwardlargestart",
@@ -9101,7 +9356,8 @@
   "NumDirections": 4,
   "LocalBlood": 1,
   "HitSubMissile1": "grimwardlarge",
-  "CltHitSubMissile1": "grimwardlarge"
+  "CltHitSubMissile1": "grimwardlarge",
+  "lineNumber": 255
  },
  "256": {
   "Missile": "grimwardlarge",
@@ -9129,7 +9385,8 @@
   "HitShift": 8,
   "NumDirections": 4,
   "LocalBlood": 1,
-  "CltHitSubMissile1": "grimwardlargestop"
+  "CltHitSubMissile1": "grimwardlargestop",
+  "lineNumber": 256
  },
  "257": {
   "Missile": "grimwardlargestop",
@@ -9149,7 +9406,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 257
  },
  "258": {
   "Missile": "zakarumlight",
@@ -9175,7 +9433,8 @@
   "HitShift": 8,
   "HitClass": 64,
   "NumDirections": 32,
-  "TravelSound": "monster_lightning_1"
+  "TravelSound": "monster_lightning_1",
+  "lineNumber": 258
  },
  "259": {
   "Missile": "grimwardscare",
@@ -9198,7 +9457,8 @@
   "Size": 2,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 259
  },
  "260": {
   "Missile": "frozenorb",
@@ -9246,7 +9506,8 @@
   "SubMissile1": "frozenorbbolt",
   "HitSubMissile1": "frozenorbnova",
   "CltSubMissile1": "frozenorbbolt",
-  "CltHitSubMissile1": "frozenorbnova"
+  "CltHitSubMissile1": "frozenorbnova",
+  "lineNumber": 260
  },
  "261": {
   "Missile": "frozenorbbolt",
@@ -9277,7 +9538,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 16,
-  "TravelSound": "sorceress_glacialspike_1"
+  "TravelSound": "sorceress_glacialspike_1",
+  "lineNumber": 261
  },
  "262": {
   "Missile": "frozenorbnova",
@@ -9315,7 +9577,8 @@
   "Skill": "Frozen Orb",
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 262
  },
  "263": {
   "Missile": "frozenorbexplode",
@@ -9335,7 +9598,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 263
  },
  "264": {
   "Missile": "chillingarmorbolt",
@@ -9367,7 +9631,8 @@
   "HitShift": 8,
   "NumDirections": 16,
   "TravelSound": "sorceress_icebolt_1",
-  "HitSound": "impact_cold_1"
+  "HitSound": "impact_cold_1",
+  "lineNumber": 264
  },
  "265": {
   "Missile": "fireexplosion2",
@@ -9389,7 +9654,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 265
  },
  "266": {
   "Missile": "blowgun",
@@ -9422,7 +9688,8 @@
   "HitShift": 8,
   "SrcDamage": 128,
   "HitClass": 10,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 266
  },
  "267": {
   "Missile": "chainlightning2",
@@ -9466,7 +9733,8 @@
   "NumDirections": 32,
   "TravelSound": "monster_lightning_1",
   "ProgOverlay": "lightning",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 267
  },
  "268": {
   "Missile": "revivesmall",
@@ -9484,7 +9752,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 268
  },
  "269": {
   "Missile": "revivemedium",
@@ -9502,7 +9771,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 269
  },
  "270": {
   "Missile": "revivelarge",
@@ -9520,7 +9790,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 270
  },
  "271": {
   "Missile": "monglacialspike",
@@ -9572,7 +9843,8 @@
   "TravelSound": "monster_icebolt_1",
   "HitSound": "sorceress_iceblast_impact_1",
   "CltHitSubMissile1": "freezingarrowexp1",
-  "CltHitSubMissile2": "freezingarrowexp2"
+  "CltHitSubMissile2": "freezingarrowexp2",
+  "lineNumber": 271
  },
  "272": {
   "Missile": "icebreaksmall",
@@ -9592,7 +9864,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "impact_shatter_1"
+  "TravelSound": "impact_shatter_1",
+  "lineNumber": 272
  },
  "273": {
   "Missile": "icebreakmedium",
@@ -9612,7 +9885,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "impact_shatter_1"
+  "TravelSound": "impact_shatter_1",
+  "lineNumber": 273
  },
  "274": {
   "Missile": "icebreaklarge",
@@ -9632,7 +9906,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "impact_shatter_1"
+  "TravelSound": "impact_shatter_1",
+  "lineNumber": 274
  },
  "275": {
   "Missile": "icebreaksmoke",
@@ -9649,7 +9924,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 275
  },
  "276": {
   "Missile": "mephisto",
@@ -9711,7 +9987,8 @@
   "NumDirections": 16,
   "TravelSound": "mephisto_orb",
   "HitSound": "sorceress_fireball_impact_1",
-  "ExplosionMissile": "mephistoexplosion"
+  "ExplosionMissile": "mephistoexplosion",
+  "lineNumber": 276
  },
  "277": {
   "Missile": "firehead",
@@ -9766,7 +10043,8 @@
   "HitSound": "sorceress_fireball_impact_1",
   "ProgOverlay": "vampiresteal",
   "CltHitSubMissile1": "explodingarrowexp",
-  "CltHitSubMissile2": "fireexplosion2"
+  "CltHitSubMissile2": "fireexplosion2",
+  "lineNumber": 277
  },
  "278": {
   "Missile": "whilrwind",
@@ -9787,7 +10065,8 @@
   "Skill": "Whirlwind",
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 278
  },
  "279": {
   "Missile": "arcanelightningbolt",
@@ -9836,7 +10115,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "monster_lightning_1",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 279
  },
  "280": {
   "Missile": "frogfire",
@@ -9884,7 +10164,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 280
  },
  "281": {
   "Missile": "frogcold",
@@ -9933,7 +10214,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_icebolt_1",
   "HitSound": "sorceress_iceblast_impact_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 281
  },
  "282": {
   "Missile": "frogpois",
@@ -9979,7 +10261,8 @@
   "MaxELev5": 5,
   "ELen": 600,
   "NumDirections": 16,
-  "TravelSound": "tentaclehead_missile_1"
+  "TravelSound": "tentaclehead_missile_1",
+  "lineNumber": 282
  },
  "283": {
   "Missile": "desertfireball",
@@ -10031,7 +10314,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_fireball_impact_1",
-  "ExplosionMissile": "explodingarrowexp"
+  "ExplosionMissile": "explodingarrowexp",
+  "lineNumber": 283
  },
  "284": {
   "Missile": "brdeathcontrol",
@@ -10054,7 +10338,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "CltSubMissile1": "brdeathlightningbolt"
+  "CltSubMissile1": "brdeathlightningbolt",
+  "lineNumber": 284
  },
  "285": {
   "Missile": "brdeathlightningbolt",
@@ -10086,7 +10371,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "amazon_lightning_1",
-  "CltSubMissile1": "brdeathlightninghit"
+  "CltSubMissile1": "brdeathlightninghit",
+  "lineNumber": 285
  },
  "286": {
   "Missile": "brdeathlightninghit",
@@ -10123,7 +10409,8 @@
   "MaxELev4": 4,
   "MaxELev5": 4,
   "HitClass": 64,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 286
  },
  "287": {
   "Missile": "denofevillight",
@@ -10143,7 +10430,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 287
  },
  "288": {
   "Missile": "cairnstones",
@@ -10185,7 +10473,8 @@
   "NumDirections": 1,
   "SubMissile1": "cairnstonessky",
   "CltSubMissile1": "cairn stones bolt",
-  "CltSubMissile2": "cairnstonesground"
+  "CltSubMissile2": "cairnstonesground",
+  "lineNumber": 288
  },
  "289": {
   "Missile": "cairnstonessky",
@@ -10213,7 +10502,8 @@
   "EMin": 1,
   "Emax": 6,
   "HitClass": 64,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 289
  },
  "290": {
   "Missile": "cairnstonesground",
@@ -10238,7 +10528,8 @@
   "HitShift": 8,
   "HitClass": 64,
   "NumDirections": 1,
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 290
  },
  "291": {
   "Missile": "towermist",
@@ -10270,7 +10561,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "countess_mist_loop",
-  "CltSubMissile1": "towermisttrail"
+  "CltSubMissile1": "towermisttrail",
+  "lineNumber": 291
  },
  "292": {
   "Missile": "towermisttrail",
@@ -10294,7 +10586,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "countess_mist_loop",
-  "ExplosionMissile": "towermistfade"
+  "ExplosionMissile": "towermistfade",
+  "lineNumber": 292
  },
  "293": {
   "Missile": "brdeathsmokes1",
@@ -10315,7 +10608,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "brdeathsmokenu"
+  "ExplosionMissile": "brdeathsmokenu",
+  "lineNumber": 293
  },
  "294": {
   "Missile": "brdeathsmokenu",
@@ -10335,7 +10629,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "brdeathsmokedt"
+  "ExplosionMissile": "brdeathsmokedt",
+  "lineNumber": 294
  },
  "295": {
   "Missile": "brdeathsmokedt",
@@ -10354,7 +10649,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 295
  },
  "296": {
   "Missile": "brdeathspirits1",
@@ -10380,7 +10676,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "bloodraven_mist_begin",
-  "ExplosionMissile": "brdeathspiritnu"
+  "ExplosionMissile": "brdeathspiritnu",
+  "lineNumber": 296
  },
  "297": {
   "Missile": "brdeathspiritnu",
@@ -10405,7 +10702,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "bloodraven_mist_loop",
-  "ExplosionMissile": "brdeathspiritdt"
+  "ExplosionMissile": "brdeathspiritdt",
+  "lineNumber": 297
  },
  "298": {
   "Missile": "brdeathspiritdt",
@@ -10429,7 +10727,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "bloodraven_mist_end"
+  "TravelSound": "bloodraven_mist_end",
+  "lineNumber": 298
  },
  "299": {
   "Missile": "mephistodeathcontrol",
@@ -10457,7 +10756,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "CltSubMissile1": "mephistofirewallmaker",
-  "CltSubMissile2": "mephistoflyingrocksbig"
+  "CltSubMissile2": "mephistoflyingrocksbig",
+  "lineNumber": 299
  },
  "300": {
   "Missile": "mephistofirewallmaker",
@@ -10490,7 +10790,8 @@
   "HitShift": 8,
   "HitClass": 32,
   "NumDirections": 1,
-  "CltSubMissile1": "mephistofirewall"
+  "CltSubMissile1": "mephistofirewall",
+  "lineNumber": 300
  },
  "301": {
   "Missile": "mephistofirewall",
@@ -10518,7 +10819,8 @@
   "HitShift": 8,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 301
  },
  "302": {
   "Missile": "mephistoflyingrocksbig",
@@ -10544,7 +10846,8 @@
   "NumDirections": 1,
   "TravelSound": "sorceress_firebolt_1",
   "ExplosionMissile": "mephistoexplosionbig",
-  "CltHitSubMissile1": "mephistoflyingrockssmall"
+  "CltHitSubMissile1": "mephistoflyingrockssmall",
+  "lineNumber": 302
  },
  "303": {
   "Missile": "mephistoexplosionbig",
@@ -10566,7 +10869,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "sorceress_fireball_impact_1"
+  "TravelSound": "sorceress_fireball_impact_1",
+  "lineNumber": 303
  },
  "304": {
   "Missile": "mephistoflyingrockssmall",
@@ -10587,7 +10891,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "mephistoexplosionsmall"
+  "ExplosionMissile": "mephistoexplosionsmall",
+  "lineNumber": 304
  },
  "305": {
   "Missile": "mephistoexplosionsmall",
@@ -10609,7 +10914,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "sorceress_firebolt_impact_1"
+  "TravelSound": "sorceress_firebolt_impact_1",
+  "lineNumber": 305
  },
  "306": {
   "Missile": "mephistodonotdraw",
@@ -10628,7 +10934,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "CltSubMissile1": "corpseexplosion"
+  "CltSubMissile1": "corpseexplosion",
+  "lineNumber": 306
  },
  "307": {
   "Missile": "andycontrol0",
@@ -10651,7 +10958,8 @@
   "NumDirections": 1,
   "CltSubMissile1": "andycolumnfirebase",
   "CltSubMissile2": "andyfirewallmaker",
-  "CltSubMissile3": "andyfallingdebris1"
+  "CltSubMissile3": "andyfallingdebris1",
+  "lineNumber": 307
  },
  "308": {
   "Missile": "andyfirewallmaker",
@@ -10684,7 +10992,8 @@
   "HitShift": 8,
   "HitClass": 32,
   "NumDirections": 1,
-  "CltSubMissile1": "andyfirewall"
+  "CltSubMissile1": "andyfirewall",
+  "lineNumber": 308
  },
  "309": {
   "Missile": "andyfirewall",
@@ -10711,7 +11020,8 @@
   "Trans": 1,
   "HitShift": 8,
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 309
  },
  "310": {
   "Missile": "andycolumnfirebase",
@@ -10741,7 +11051,8 @@
   "NumDirections": 1,
   "TravelSound": "andariel_fire_loop",
   "ProgSound": "andariel_fire_end",
-  "CltSubMissile1": "andycolumnfire"
+  "CltSubMissile1": "andycolumnfire",
+  "lineNumber": 310
  },
  "311": {
   "Missile": "andycolumnfire",
@@ -10768,7 +11079,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "andariel_fire_loop"
+  "TravelSound": "andariel_fire_loop",
+  "lineNumber": 311
  },
  "312": {
   "Missile": "andyfallingdebris1",
@@ -10792,7 +11104,8 @@
   "NumDirections": 1,
   "CltSubMissile1": "andyfallingdebris3",
   "CltHitSubMissile1": "andydebrisexplosion1",
-  "CltHitSubMissile2": "andydebrisexplosion5"
+  "CltHitSubMissile2": "andydebrisexplosion5",
+  "lineNumber": 312
  },
  "313": {
   "Missile": "andyfallingdebris2",
@@ -10815,7 +11128,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "CltHitSubMissile1": "andydebrisexplosion1",
-  "CltHitSubMissile2": "andydebrisexplosion5"
+  "CltHitSubMissile2": "andydebrisexplosion5",
+  "lineNumber": 313
  },
  "314": {
   "Missile": "andyfallingdebris3",
@@ -10838,7 +11152,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "CltHitSubMissile1": "andydebrisexplosion1",
-  "CltHitSubMissile2": "andydebrisexplosion5"
+  "CltHitSubMissile2": "andydebrisexplosion5",
+  "lineNumber": 314
  },
  "315": {
   "Missile": "andydebrisexplosion1",
@@ -10855,7 +11170,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "andariel_rock_1"
+  "TravelSound": "andariel_rock_1",
+  "lineNumber": 315
  },
  "316": {
   "Missile": "andydebrisexplosion2",
@@ -10872,7 +11188,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "andariel_rock_1"
+  "TravelSound": "andariel_rock_1",
+  "lineNumber": 316
  },
  "317": {
   "Missile": "andydebrisexplosion3",
@@ -10889,7 +11206,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "andariel_rock_1"
+  "TravelSound": "andariel_rock_1",
+  "lineNumber": 317
  },
  "318": {
   "Missile": "andydebrisexplosion4",
@@ -10906,7 +11224,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "andariel_rock_1"
+  "TravelSound": "andariel_rock_1",
+  "lineNumber": 318
  },
  "319": {
   "Missile": "andydebrisexplosion5",
@@ -10923,7 +11242,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "andariel_rock_1"
+  "TravelSound": "andariel_rock_1",
+  "lineNumber": 319
  },
  "320": {
   "Missile": "willowisplightningbolt",
@@ -10959,7 +11279,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "monster_lightning_1",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 320
  },
  "321": {
   "Missile": "queenpoisoncloud",
@@ -11005,7 +11326,8 @@
   "MaxELev5": 6,
   "ELen": 800,
   "NumDirections": 32,
-  "TravelSound": "object_poison_loop"
+  "TravelSound": "object_poison_loop",
+  "lineNumber": 321
  },
  "322": {
   "Missile": "dirt pile",
@@ -11023,7 +11345,8 @@
   "Size": 1,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 322
  },
  "323": {
   "Missile": "undeadmissile1",
@@ -11068,7 +11391,8 @@
   "MaxELev5": 14,
   "ELen": 350,
   "NumDirections": 16,
-  "TravelSound": "monster_poisonbolt"
+  "TravelSound": "monster_poisonbolt",
+  "lineNumber": 323
  },
  "324": {
   "Missile": "undeadmissile2",
@@ -11114,7 +11438,8 @@
   "MaxELev5": 16,
   "NumDirections": 8,
   "TravelSound": "monster_firebolt_1",
-  "HitSound": "sorceress_fireball_impact_1"
+  "HitSound": "sorceress_fireball_impact_1",
+  "lineNumber": 324
  },
  "325": {
   "Missile": "undeadmissile3",
@@ -11161,7 +11486,8 @@
   "ELen": 40,
   "NumDirections": 16,
   "TravelSound": "monster_icebolt_1",
-  "HitSound": "sorceress_iceblast_impact_1"
+  "HitSound": "sorceress_iceblast_impact_1",
+  "lineNumber": 325
  },
  "326": {
   "Missile": "undeadmissile4",
@@ -11205,7 +11531,8 @@
   "MaxLevDam4": 11,
   "MaxLevDam5": 11,
   "NumDirections": 16,
-  "TravelSound": "monster_poisonbolt"
+  "TravelSound": "monster_poisonbolt",
+  "lineNumber": 326
  },
  "327": {
   "Missile": "bonespiritexplode",
@@ -11223,7 +11550,8 @@
   "NoMultiShot": 1,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 327
  },
  "328": {
   "Missile": "dopplezonexplode",
@@ -11241,7 +11569,8 @@
   "NoMultiShot": 1,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 328
  },
  "329": {
   "Missile": "monbonespirit",
@@ -11295,7 +11624,8 @@
   "NumDirections": 8,
   "TravelSound": "monster_bonespirit",
   "HitSound": "paladin_holybolt_impact_1",
-  "ExplosionMissile": "bonespiritexplode"
+  "ExplosionMissile": "bonespiritexplode",
+  "lineNumber": 329
  },
  "330": {
   "Missile": "towermistfade",
@@ -11314,7 +11644,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 330
  },
  "331": {
   "Missile": "countessfirewall",
@@ -11355,7 +11686,8 @@
   "MaxELev5": 4,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 331
  },
  "332": {
   "Missile": "towerchestspawner",
@@ -11389,7 +11721,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "CltSubMissile1": "towermisttrail"
+  "CltSubMissile1": "towermisttrail",
+  "lineNumber": 332
  },
  "333": {
   "Missile": "hellmeteorlaunch1",
@@ -11405,7 +11738,8 @@
   "AnimLen": 11,
   "AnimSpeed": 16,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 333
  },
  "334": {
   "Missile": "hellmeteorlaunch2",
@@ -11422,7 +11756,8 @@
   "AnimSpeed": 16,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 334
  },
  "335": {
   "Missile": "hellmeteorup",
@@ -11440,7 +11775,8 @@
   "AnimSpeed": 16,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 335
  },
  "336": {
   "Missile": "hellmeteordown",
@@ -11490,7 +11826,8 @@
   "NumDirections": 1,
   "CltHitSubMissile1": "firewall",
   "CltHitSubMissile2": "firesmall",
-  "CltHitSubMissile3": "firemedium"
+  "CltHitSubMissile3": "firemedium",
+  "lineNumber": 336
  },
  "337": {
   "Missile": "hellmeteorball",
@@ -11508,7 +11845,8 @@
   "AnimLen": 9,
   "AnimSpeed": 16,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 337
  },
  "338": {
   "Missile": "horadricstaff",
@@ -11528,7 +11866,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "quest_horadric_staff_spin"
+  "TravelSound": "quest_horadric_staff_spin",
+  "lineNumber": 338
  },
  "339": {
   "Missile": "horadriclightning",
@@ -11552,7 +11891,8 @@
   "HitShift": 8,
   "HitClass": 64,
   "NumDirections": 32,
-  "TravelSound": "monster_lightning_1"
+  "TravelSound": "monster_lightning_1",
+  "lineNumber": 339
  },
  "340": {
   "Missile": "horadriclight",
@@ -11573,7 +11913,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 32,
-  "TravelSound": "quest_horadric_staff_light"
+  "TravelSound": "quest_horadric_staff_light",
+  "lineNumber": 340
  },
  "341": {
   "Missile": "regurgitatorcorpse",
@@ -11621,7 +11962,8 @@
   "NumDirections": 8,
   "LocalBlood": 1,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "regurgitatorcorpseexpl"
+  "ExplosionMissile": "regurgitatorcorpseexpl",
+  "lineNumber": 341
  },
  "342": {
   "Missile": "regurgitatorcorpseexpl",
@@ -11647,7 +11989,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 1,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 342
  },
  "343": {
   "Missile": "highpriestlightning",
@@ -11689,7 +12032,8 @@
   "MaxELev4": 14,
   "MaxELev5": 14,
   "NumDirections": 8,
-  "TravelSound": "monster_lightning_1"
+  "TravelSound": "monster_lightning_1",
+  "lineNumber": 343
  },
  "344": {
   "Missile": "icebreaksmallmelt",
@@ -11707,7 +12051,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 344
  },
  "345": {
   "Missile": "icebreaklargemelt",
@@ -11725,7 +12070,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 345
  },
  "346": {
   "Missile": "leapknockback",
@@ -11743,7 +12089,8 @@
   "KnockBack": 1,
   "ResultFlags": 8,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 346
  },
  "347": {
   "Missile": "radamentdeath",
@@ -11762,7 +12109,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 347
  },
  "348": {
   "Missile": "radamenthandofgod",
@@ -11781,7 +12129,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "paladin_handofgod_bolt"
+  "TravelSound": "paladin_handofgod_bolt",
+  "lineNumber": 348
  },
  "349": {
   "Missile": "radamentholybolt",
@@ -11809,7 +12158,8 @@
   "ResultFlags": 8,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "quest_radament_holybolt_1"
+  "TravelSound": "quest_radament_holybolt_1",
+  "lineNumber": 349
  },
  "350": {
   "Missile": "taintedsuncontrol",
@@ -11826,7 +12176,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 350
  },
  "351": {
   "Missile": "taintedsunflash",
@@ -11849,7 +12200,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "quest_tainted_sun_flash_1"
+  "TravelSound": "quest_tainted_sun_flash_1",
+  "lineNumber": 351
  },
  "352": {
   "Missile": "taintedsunball",
@@ -11871,7 +12223,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "quest_tainted_sun_ball_1"
+  "TravelSound": "quest_tainted_sun_ball_1",
+  "lineNumber": 352
  },
  "353": {
   "Missile": "queendeathcenter",
@@ -11888,7 +12241,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 353
  },
  "354": {
   "Missile": "queendeathglob",
@@ -11911,7 +12265,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "sandmaggotmama_goo_1"
+  "TravelSound": "sandmaggotmama_goo_1",
+  "lineNumber": 354
  },
  "355": {
   "Missile": "queendeathsplat1",
@@ -11929,7 +12284,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "sandmaggotmama_goo_hit_1"
+  "TravelSound": "sandmaggotmama_goo_hit_1",
+  "lineNumber": 355
  },
  "356": {
   "Missile": "queendeathsplat2",
@@ -11947,7 +12303,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "sandmaggotmama_goo_hit_1"
+  "TravelSound": "sandmaggotmama_goo_hit_1",
+  "lineNumber": 356
  },
  "357": {
   "Missile": "healingbolt",
@@ -11976,7 +12333,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 357
  },
  "358": {
   "Missile": "mephistoholedelay",
@@ -11991,7 +12349,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "mephistoholebirth"
+  "ExplosionMissile": "mephistoholebirth",
+  "lineNumber": 358
  },
  "359": {
   "Missile": "mephistoholebirth",
@@ -12008,7 +12367,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "mephistoholeneutral"
+  "ExplosionMissile": "mephistoholeneutral",
+  "lineNumber": 359
  },
  "360": {
   "Missile": "mephistoholeneutral",
@@ -12026,7 +12386,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "mephistoholedeath"
+  "ExplosionMissile": "mephistoholedeath",
+  "lineNumber": 360
  },
  "361": {
   "Missile": "mephistoholedeath",
@@ -12043,7 +12404,8 @@
   "NoMultiShot": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "mephistoholedead"
+  "ExplosionMissile": "mephistoholedead",
+  "lineNumber": 361
  },
  "362": {
   "Missile": "mephistoholedead",
@@ -12060,7 +12422,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 362
  },
  "363": {
   "Missile": "durieldeathcontrol",
@@ -12074,7 +12437,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 363
  },
  "364": {
   "Missile": "durieldeathrock",
@@ -12092,7 +12456,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "HitSound": "andariel_rock_1"
+  "HitSound": "andariel_rock_1",
+  "lineNumber": 364
  },
  "365": {
   "Missile": "durieldeathdebris",
@@ -12110,7 +12475,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 365
  },
  "366": {
   "Missile": "durieldeathsmoke",
@@ -12126,7 +12492,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 366
  },
  "367": {
   "Missile": "mephistoexplosion",
@@ -12143,7 +12510,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 367
  },
  "368": {
   "Missile": "orbmist",
@@ -12176,7 +12544,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "compellingorb_mist_loop",
-  "CltSubMissile1": "orbmisttrail"
+  "CltSubMissile1": "orbmisttrail",
+  "lineNumber": 368
  },
  "369": {
   "Missile": "orbmisttrail",
@@ -12202,7 +12571,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "compellingorb_mist_loop",
-  "ExplosionMissile": "orbmistfade"
+  "ExplosionMissile": "orbmistfade",
+  "lineNumber": 369
  },
  "370": {
   "Missile": "orbmistfade",
@@ -12223,7 +12593,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 370
  },
  "371": {
   "Missile": "pilum",
@@ -12255,7 +12626,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 371
  },
  "372": {
   "Missile": "diablo appears",
@@ -12270,7 +12642,8 @@
   "AnimLen": 1,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 372
  },
  "373": {
   "Missile": "hfcontrol",
@@ -12289,7 +12662,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 373
  },
  "374": {
   "Missile": "hffragment1",
@@ -12316,7 +12690,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "HitSound": "quest_hellforge_flash_1"
+  "HitSound": "quest_hellforge_flash_1",
+  "lineNumber": 374
  },
  "375": {
   "Missile": "hffragment2",
@@ -12341,7 +12716,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "HitSound": "quest_hellforge_flash_1"
+  "HitSound": "quest_hellforge_flash_1",
+  "lineNumber": 375
  },
  "376": {
   "Missile": "hffragment3",
@@ -12365,7 +12741,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "HitSound": "quest_hellforge_flash_1"
+  "HitSound": "quest_hellforge_flash_1",
+  "lineNumber": 376
  },
  "377": {
   "Missile": "hfspirit1",
@@ -12391,7 +12768,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "TravelSound": "quest_hellforge_soul_1"
+  "TravelSound": "quest_hellforge_soul_1",
+  "lineNumber": 377
  },
  "378": {
   "Missile": "hfreserved3",
@@ -12408,7 +12786,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 378
  },
  "379": {
   "Missile": "izual control",
@@ -12427,7 +12806,8 @@
   "AnimLen": 1,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 379
  },
  "380": {
   "Missile": "izual mist loop",
@@ -12453,7 +12833,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "TravelSound": "izual_mist_loop",
-  "ExplosionMissile": "izual mist fade"
+  "ExplosionMissile": "izual mist fade",
+  "lineNumber": 380
  },
  "381": {
   "Missile": "izual mist fade",
@@ -12470,7 +12851,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 381
  },
  "382": {
   "Missile": "izual lightning",
@@ -12497,7 +12879,8 @@
   "Trans": 1,
   "ResultFlags": 8,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 382
  },
  "383": {
   "Missile": "izual lightning trail",
@@ -12522,7 +12905,8 @@
   "Trans": 1,
   "ResultFlags": 8,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 383
  },
  "384": {
   "Missile": "cairn stones bolt",
@@ -12553,7 +12937,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "amazon_lightning_1"
+  "TravelSound": "amazon_lightning_1",
+  "lineNumber": 384
  },
  "385": {
   "Missile": "bomb in air",
@@ -12583,7 +12968,8 @@
   "HitShift": 8,
   "NumDirections": 1,
   "HitSubMissile1": "bomb on ground",
-  "CltHitSubMissile1": "bomb on ground"
+  "CltHitSubMissile1": "bomb on ground",
+  "lineNumber": 385
  },
  "386": {
   "Missile": "bomb on ground",
@@ -12616,7 +13002,8 @@
   "HitFlags": 2,
   "HitShift": 8,
   "NumDirections": 1,
-  "ExplosionMissile": "bomb explosion"
+  "ExplosionMissile": "bomb explosion",
+  "lineNumber": 386
  },
  "387": {
   "Missile": "bomb explosion",
@@ -12644,7 +13031,8 @@
   "HitFlags": 2,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "sorceress_firebolt_impact_1"
+  "TravelSound": "sorceress_firebolt_impact_1",
+  "lineNumber": 387
  },
  "388": {
   "Missile": "shock field in air",
@@ -12675,7 +13063,8 @@
   "HitShift": 8,
   "NumDirections": 32,
   "HitSubMissile1": "shock field on ground",
-  "CltHitSubMissile1": "shock field on ground"
+  "CltHitSubMissile1": "shock field on ground",
+  "lineNumber": 388
  },
  "389": {
   "Missile": "shock field on ground",
@@ -12706,7 +13095,8 @@
   "Skill": "Shock Field",
   "HitShift": 8,
   "NumDirections": 8,
-  "TravelSound": "assassin_staticfield"
+  "TravelSound": "assassin_staticfield",
+  "lineNumber": 389
  },
  "390": {
   "Missile": "throwingstar",
@@ -12741,7 +13131,8 @@
   "Skill": "Tiger Strike",
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 390
  },
  "391": {
   "Missile": "acidspray",
@@ -12776,7 +13167,8 @@
   "Skill": "Cobra Strike",
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 391
  },
  "392": {
   "Missile": "blade creeper",
@@ -12806,7 +13198,8 @@
   "HitShift": 8,
   "Half2HSrc": 1,
   "NumDirections": 1,
-  "TravelSound": "bladecreeper_emerge_1"
+  "TravelSound": "bladecreeper_emerge_1",
+  "lineNumber": 392
  },
  "393": {
   "Missile": "distraction",
@@ -12829,7 +13222,8 @@
   "Trans": 1,
   "NumDirections": 1,
   "SubMissile1": "distraction fog",
-  "CltSubMissile1": "distraction fog"
+  "CltSubMissile1": "distraction fog",
+  "lineNumber": 393
  },
  "394": {
   "Missile": "distraction fog",
@@ -12858,7 +13252,8 @@
   "Trans": 1,
   "Skill": "Quickness",
   "NumDirections": 1,
-  "CltSubMissile1": "distraction puff"
+  "CltSubMissile1": "distraction puff",
+  "lineNumber": 394
  },
  "395": {
   "Missile": "distraction puff",
@@ -12880,7 +13275,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 395
  },
  "396": {
   "Missile": "distraction start",
@@ -12904,7 +13300,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 396
  },
  "397": {
   "Missile": "distraction end",
@@ -12928,7 +13325,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 397
  },
  "398": {
   "Missile": "impinfernoflame1",
@@ -12958,7 +13356,8 @@
   "Skill": "Imp Inferno",
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 398
  },
  "399": {
   "Missile": "impinfernoflame2",
@@ -12988,7 +13387,8 @@
   "Skill": "Imp Inferno",
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 399
  },
  "400": {
   "Missile": "baallightningbolt",
@@ -13014,7 +13414,8 @@
   "Trans": 1,
   "Skill": "Lightning",
   "ResultFlags": 4,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 400
  },
  "401": {
   "Missile": "baallightningtrail",
@@ -13039,7 +13440,8 @@
   "Trans": 1,
   "Skill": "Lightning",
   "NumDirections": 8,
-  "TravelSound": "monster_lightning_1"
+  "TravelSound": "monster_lightning_1",
+  "lineNumber": 401
  },
  "402": {
   "Missile": "baallightningbolt2",
@@ -13065,7 +13467,8 @@
   "Skill": "Lightning",
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "monster_lightning_1"
+  "TravelSound": "monster_lightning_1",
+  "lineNumber": 402
  },
  "403": {
   "Missile": "baallightningtrail2",
@@ -13090,7 +13493,8 @@
   "Trans": 1,
   "Skill": "Lightning",
   "NumDirections": 8,
-  "TravelSound": "monster_lightning_1"
+  "TravelSound": "monster_lightning_1",
+  "lineNumber": 403
  },
  "404": {
   "Missile": "impfireball",
@@ -13140,7 +13544,8 @@
   "NumDirections": 1,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_fireball_impact_1",
-  "ExplosionMissile": "impfireballexplode"
+  "ExplosionMissile": "impfireballexplode",
+  "lineNumber": 404
  },
  "405": {
   "Missile": "impfireballexplode",
@@ -13165,7 +13570,8 @@
   "ResultFlags": 5,
   "HitFlags": 2,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 405
  },
  "406": {
   "Missile": "catapultchargedball on",
@@ -13185,7 +13591,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 406
  },
  "407": {
   "Missile": "catapultchargedball",
@@ -13225,7 +13632,8 @@
   "NumDirections": 1,
   "HitSound": "amazon_lightning_1",
   "HitSubMissile1": "catapultchargedballbolt",
-  "CltHitSubMissile1": "catapultchargedballbolt"
+  "CltHitSubMissile1": "catapultchargedballbolt",
+  "lineNumber": 407
  },
  "408": {
   "Missile": "catapultchargedballbolt",
@@ -13276,7 +13684,8 @@
   "MaxELev5": 3,
   "NumDirections": 16,
   "TravelSound": "sorceress_chargedbolt_1",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 408
  },
  "409": {
   "Missile": "imp spawn monsters",
@@ -13302,7 +13711,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 409
  },
  "410": {
   "Missile": "catapult spike ball on",
@@ -13320,7 +13730,8 @@
   "LastCollide": 1,
   "Size": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 410
  },
  "411": {
   "Missile": "catapult spike ball",
@@ -13353,7 +13764,8 @@
   "HitSound": "sorceress_fireball_impact_1",
   "HitSubMissile1": "catapult spike in air",
   "CltHitSubMissile1": "catapult spike in air",
-  "CltHitSubMissile2": "fireexplode"
+  "CltHitSubMissile2": "fireexplode",
+  "lineNumber": 411
  },
  "412": {
   "Missile": "catapult spike in air",
@@ -13384,7 +13796,8 @@
   "HitShift": 8,
   "NumDirections": 32,
   "HitSubMissile1": "catapult spike on ground",
-  "CltHitSubMissile1": "catapult spike on ground"
+  "CltHitSubMissile1": "catapult spike on ground",
+  "lineNumber": 412
  },
  "413": {
   "Missile": "catapult spike on ground",
@@ -13423,7 +13836,8 @@
   "MaxELev4": 1,
   "MaxELev5": 1,
   "NumDirections": 32,
-  "ExplosionMissile": "catapult spike explosion"
+  "ExplosionMissile": "catapult spike explosion",
+  "lineNumber": 413
  },
  "414": {
   "Missile": "catapult spike explosion",
@@ -13447,7 +13861,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "HitSound": "sorceress_firebolt_impact_1"
+  "HitSound": "sorceress_firebolt_impact_1",
+  "lineNumber": 414
  },
  "415": {
   "Missile": "catapult cold ball on",
@@ -13468,7 +13883,8 @@
   "Size": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 415
  },
  "416": {
   "Missile": "catapult cold ball",
@@ -13518,7 +13934,8 @@
   "ELevLen3": 25,
   "NumDirections": 1,
   "TravelSound": "sorceress_glacialspike_1",
-  "HitSound": "sorceress_iceblast_impact_1"
+  "HitSound": "sorceress_iceblast_impact_1",
+  "lineNumber": 416
  },
  "417": {
   "Missile": "catapult cold explosion",
@@ -13547,7 +13964,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 417
  },
  "418": {
   "Missile": "catapult plague ball on",
@@ -13567,7 +13985,8 @@
   "Size": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 418
  },
  "419": {
   "Missile": "catapult plague ball",
@@ -13611,7 +14030,8 @@
   "TravelSound": "weapon_throw_1",
   "HitSound": "sandmaggotmama_goo_1",
   "HitSubMissile1": "catapult plague cloud",
-  "CltHitSubMissile1": "catapult plague cloud"
+  "CltHitSubMissile1": "catapult plague cloud",
+  "lineNumber": 419
  },
  "420": {
   "Missile": "catapult plague cloud",
@@ -13662,7 +14082,8 @@
   "MaxELev5": 1,
   "ELen": 600,
   "NumDirections": 1,
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 420
  },
  "421": {
   "Missile": "catapult meteor ball on",
@@ -13682,7 +14103,8 @@
   "Size": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 421
  },
  "422": {
   "Missile": "catapult meteor ball",
@@ -13736,7 +14158,8 @@
   "HitSound": "sorceress_fireball_impact_1",
   "HitSubMissile1": "catapult meteor fire",
   "CltHitSubMissile1": "moltenboulder-flyingrocks",
-  "CltHitSubMissile2": "catapult meteor fire"
+  "CltHitSubMissile2": "catapult meteor fire",
+  "lineNumber": 422
  },
  "423": {
   "Missile": "catapult meteor fire",
@@ -13778,7 +14201,8 @@
   "MaxELev5": 1,
   "HitClass": 32,
   "NumDirections": 1,
-  "DamageRate": 41
+  "DamageRate": 41,
+  "lineNumber": 423
  },
  "424": {
   "Missile": "tower death",
@@ -13794,7 +14218,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 424
  },
  "425": {
   "Missile": "healing vortex",
@@ -13829,7 +14254,8 @@
   "NumDirections": 8,
   "TravelSound": "overseer_healmissile",
   "HitSound": "paladin_holybolt_1",
-  "ProgOverlay": "healing"
+  "ProgOverlay": "healing",
+  "lineNumber": 425
  },
  "426": {
   "Missile": "suicidecorpseexplode",
@@ -13851,7 +14277,8 @@
   "ReturnFire": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 426
  },
  "427": {
   "Missile": "suicidefireexplode",
@@ -13873,7 +14300,8 @@
   "ReturnFire": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 427
  },
  "428": {
   "Missile": "suicideiceexplode",
@@ -13895,7 +14323,8 @@
   "ReturnFire": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 428
  },
  "429": {
   "Missile": "explodingjavalin",
@@ -13937,7 +14366,8 @@
   "Emax": 16,
   "HitClass": 6,
   "NumDirections": 32,
-  "ExplosionMissile": "explodingjavalinexp"
+  "ExplosionMissile": "explodingjavalinexp",
+  "lineNumber": 429
  },
  "430": {
   "Missile": "explodingjavalinexp",
@@ -13964,7 +14394,8 @@
   "ResultFlags": 5,
   "HitFlags": 2,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 430
  },
  "431": {
   "Missile": "lightingtrailingjavalin",
@@ -14016,7 +14447,8 @@
   "SubMissile1": "lightjavalintrail",
   "HitSubMissile1": "lightjavalinexplosion",
   "CltSubMissile1": "lightjavalintrail",
-  "CltHitSubMissile1": "lightjavalinexplosion"
+  "CltHitSubMissile1": "lightjavalinexplosion",
+  "lineNumber": 431
  },
  "432": {
   "Missile": "lightjavalintrail",
@@ -14051,7 +14483,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 432
  },
  "433": {
   "Missile": "lightjavalinexplosion",
@@ -14087,7 +14520,8 @@
   "ResultFlags": 5,
   "HitFlags": 2,
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 433
  },
  "434": {
   "Missile": "icejavalin",
@@ -14124,7 +14558,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "ExplosionMissile": "icejavalinexplode"
+  "ExplosionMissile": "icejavalinexplode",
+  "lineNumber": 434
  },
  "435": {
   "Missile": "icejavalinexplode",
@@ -14150,7 +14585,8 @@
   "ResultFlags": 5,
   "HitFlags": 2,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 435
  },
  "436": {
   "Missile": "plaguejavelin2",
@@ -14200,7 +14636,8 @@
   "NumDirections": 32,
   "ExplosionMissile": "plaguejavlinexplode",
   "HitSubMissile1": "plaguejavlinexplode",
-  "CltHitSubMissile1": "plaguejavlinexplode"
+  "CltHitSubMissile1": "plaguejavlinexplode",
+  "lineNumber": 436
  },
  "437": {
   "Missile": "plaguejavlinexplode",
@@ -14232,7 +14669,8 @@
   "HitFlags": 2,
   "HitShift": 8,
   "NumDirections": 4,
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 437
  },
  "438": {
   "Missile": "advlighttrailingjav",
@@ -14281,7 +14719,8 @@
   "SubMissile1": "advlighttrailingjav2",
   "HitSubMissile1": "advlightjavexplode",
   "CltSubMissile1": "advlighttrailingjav2",
-  "CltHitSubMissile1": "advlightjavexplode"
+  "CltHitSubMissile1": "advlightjavexplode",
+  "lineNumber": 438
  },
  "439": {
   "Missile": "advlighttrailingjav2",
@@ -14315,7 +14754,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 439
  },
  "440": {
   "Missile": "advlightjavexplode",
@@ -14350,7 +14790,8 @@
   "ResultFlags": 5,
   "HitFlags": 2,
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 440
  },
  "441": {
   "Missile": "sucfireball",
@@ -14390,7 +14831,8 @@
   "ResultFlags": 4,
   "EType": "fire",
   "NumDirections": 16,
-  "SubMissile1": "sucfireballtrail"
+  "SubMissile1": "sucfireballtrail",
+  "lineNumber": 441
  },
  "442": {
   "Missile": "sucfireballexplode",
@@ -14416,7 +14858,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 442
  },
  "443": {
   "Missile": "sucfireballtrail",
@@ -14447,7 +14890,8 @@
   "Skill": "Firestorm",
   "ResultFlags": 4,
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 443
  },
  "444": {
   "Missile": "sucshockfieldmissile",
@@ -14479,7 +14923,8 @@
   "Skill": "Lightning Bolt",
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 444
  },
  "445": {
   "Missile": "sucshockfieldmissileexp",
@@ -14495,7 +14940,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 445
  },
  "446": {
   "Missile": "sucshockfield",
@@ -14518,7 +14964,8 @@
   "ReturnFire": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 446
  },
  "447": {
   "Missile": "hellfiremissile",
@@ -14536,7 +14983,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 447
  },
  "448": {
   "Missile": "hellfireexa",
@@ -14553,7 +15001,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 448
  },
  "449": {
   "Missile": "hellfireexb",
@@ -14570,7 +15019,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 449
  },
  "450": {
   "Missile": "imp charged bolt",
@@ -14617,7 +15067,8 @@
   "MaxELev4": 3,
   "MaxELev5": 3,
   "NumDirections": 16,
-  "TravelSound": "sorceress_chargedbolt_1"
+  "TravelSound": "sorceress_chargedbolt_1",
+  "lineNumber": 450
  },
  "451": {
   "Missile": "imp teleport",
@@ -14639,7 +15090,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 451
  },
  "452": {
   "Missile": "moltenboulder",
@@ -14698,7 +15150,8 @@
   "CltSubMissile3": "firemedium",
   "CltHitSubMissile1": "moltenboulderexplode",
   "CltHitSubMissile2": "moltenboulder-flyingrocks",
-  "CltHitSubMissile3": "moltenboulderfirepath"
+  "CltHitSubMissile3": "moltenboulderfirepath",
+  "lineNumber": 452
  },
  "453": {
   "Missile": "moltenboulderemerge",
@@ -14737,7 +15190,8 @@
   "NumDirections": 8,
   "TravelSound": "druid_bouldereremerge",
   "HitSubMissile1": "moltenboulder",
-  "CltHitSubMissile1": "moltenboulder"
+  "CltHitSubMissile1": "moltenboulder",
+  "lineNumber": 453
  },
  "454": {
   "Missile": "moltenboulderexplode",
@@ -14757,7 +15211,8 @@
   "ReturnFire": 1,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "druid_boulderexplode_1"
+  "TravelSound": "druid_boulderexplode_1",
+  "lineNumber": 454
  },
  "455": {
   "Missile": "moltenboulderfirepath",
@@ -14800,7 +15255,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_house"
+  "TravelSound": "object_fire_loop_house",
+  "lineNumber": 455
  },
  "456": {
   "Missile": "moltenboulder-flyingrocks",
@@ -14823,7 +15279,8 @@
   "CanSlow": 1,
   "HitClass": 32,
   "NumDirections": 8,
-  "TravelSound": "impact_fire_1"
+  "TravelSound": "impact_fire_1",
+  "lineNumber": 456
  },
  "457": {
   "Missile": "firestorm",
@@ -14853,7 +15310,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_house"
+  "TravelSound": "object_fire_loop_house",
+  "lineNumber": 457
  },
  "458": {
   "Missile": "firestormmaker",
@@ -14884,7 +15342,8 @@
   "SubMissile1": "firestorm",
   "CltSubMissile1": "firestorm",
   "CltSubMissile2": "firesmall",
-  "CltSubMissile3": "firemedium"
+  "CltSubMissile3": "firemedium",
+  "lineNumber": 458
  },
  "459": {
   "Missile": "arcticblast1",
@@ -14917,7 +15376,8 @@
   "HitClass": 32,
   "NumDirections": 16,
   "DamageRate": 41,
-  "TravelSound": "druid_arcticblast"
+  "TravelSound": "druid_arcticblast",
+  "lineNumber": 459
  },
  "460": {
   "Missile": "arcticblast2",
@@ -14949,7 +15409,8 @@
   "HitClass": 32,
   "NumDirections": 16,
   "DamageRate": 41,
-  "TravelSound": "druid_arcticblast"
+  "TravelSound": "druid_arcticblast",
+  "lineNumber": 460
  },
  "461": {
   "Missile": "erruption center",
@@ -14973,7 +15434,8 @@
   "NumDirections": 1,
   "SubMissile1": "erruption crack 1",
   "CltSubMissile1": "erruption crack 1",
-  "CltSubMissile2": "erruption smoke 1"
+  "CltSubMissile2": "erruption smoke 1",
+  "lineNumber": 461
  },
  "462": {
   "Missile": "erruption crack 1",
@@ -15005,7 +15467,8 @@
   "HitClass": 32,
   "NumDirections": 4,
   "TravelSound": "sorceress_inferno",
-  "ProgOverlay": "fire_hit"
+  "ProgOverlay": "fire_hit",
+  "lineNumber": 462
  },
  "463": {
   "Missile": "erruption crack 2",
@@ -15035,7 +15498,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "TravelSound": "sorceress_inferno",
-  "ProgOverlay": "fire_hit"
+  "ProgOverlay": "fire_hit",
+  "lineNumber": 463
  },
  "464": {
   "Missile": "erruption smoke 1",
@@ -15053,7 +15517,8 @@
   "AnimSpeed": 16,
   "CltSrcTown": 25,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 464
  },
  "465": {
   "Missile": "erruption smoke 2",
@@ -15069,7 +15534,8 @@
   "AnimLen": 2,
   "AnimSpeed": 16,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 465
  },
  "466": {
   "Missile": "vine beast walk 1",
@@ -15097,7 +15563,8 @@
   "HitClass": 32,
   "NumDirections": 8,
   "TravelSound": "druidpod_walk1_1",
-  "ExplosionMissile": "vine beast walk 1 fade"
+  "ExplosionMissile": "vine beast walk 1 fade",
+  "lineNumber": 466
  },
  "467": {
   "Missile": "vine beast walk 2",
@@ -15125,7 +15592,8 @@
   "HitClass": 32,
   "NumDirections": 8,
   "TravelSound": "druidpod_walk2_1",
-  "ExplosionMissile": "vine beast walk 2 fade"
+  "ExplosionMissile": "vine beast walk 2 fade",
+  "lineNumber": 467
  },
  "468": {
   "Missile": "vine beast neutral",
@@ -15153,7 +15621,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "TravelSound": "druidpod_neutral_1",
-  "ExplosionMissile": "vine beast neutral fade"
+  "ExplosionMissile": "vine beast neutral fade",
+  "lineNumber": 468
  },
  "469": {
   "Missile": "vine beast attack",
@@ -15178,7 +15647,8 @@
   "Town": 1,
   "CanSlow": 1,
   "HitClass": 32,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 469
  },
  "470": {
   "Missile": "vine beast death",
@@ -15203,7 +15673,8 @@
   "Town": 1,
   "CanSlow": 1,
   "HitClass": 32,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 470
  },
  "471": {
   "Missile": "vines",
@@ -15227,7 +15698,8 @@
   "CanSlow": 1,
   "NumDirections": 1,
   "SubMissile1": "vines trail",
-  "CltSubMissile1": "vines trail"
+  "CltSubMissile1": "vines trail",
+  "lineNumber": 471
  },
  "472": {
   "Missile": "vines trail",
@@ -15252,7 +15724,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "NumDirections": 8,
-  "CltHitSubMissile1": "vines wither"
+  "CltHitSubMissile1": "vines wither",
+  "lineNumber": 472
  },
  "473": {
   "Missile": "vines wither",
@@ -15269,7 +15742,8 @@
   "AnimLen": 12,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 473
  },
  "474": {
   "Missile": "plague vines",
@@ -15293,7 +15767,8 @@
   "CanSlow": 1,
   "NumDirections": 1,
   "SubMissile1": "plague vines trail",
-  "CltSubMissile1": "plague vines trail"
+  "CltSubMissile1": "plague vines trail",
+  "lineNumber": 474
  },
  "475": {
   "Missile": "plague vines trail",
@@ -15322,7 +15797,8 @@
   "CanSlow": 1,
   "Skill": "Plague Poppy",
   "NumDirections": 8,
-  "CltHitSubMissile1": "plague vines wither"
+  "CltHitSubMissile1": "plague vines wither",
+  "lineNumber": 475
  },
  "476": {
   "Missile": "plague vines wither",
@@ -15338,7 +15814,8 @@
   "AnimLen": 12,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 476
  },
  "477": {
   "Missile": "twister",
@@ -15376,7 +15853,8 @@
   "HitClass": 32,
   "NumDirections": 4,
   "TravelSound": "druid_twister",
-  "HitSound": "sorceress_blizzard_impact_1"
+  "HitSound": "sorceress_blizzard_impact_1",
+  "lineNumber": 477
  },
  "478": {
   "Missile": "tornado",
@@ -15416,7 +15894,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "TravelSound": "druid_tornado",
-  "HitSound": "sorceress_blizzard_impact_1"
+  "HitSound": "sorceress_blizzard_impact_1",
+  "lineNumber": 478
  },
  "479": {
   "Missile": "volcano",
@@ -15464,7 +15943,8 @@
   "NumDirections": 1,
   "TravelSound": "druid_volcano",
   "SubMissile1": "volcano debris 2",
-  "CltSubMissile1": "volcano debris 2"
+  "CltSubMissile1": "volcano debris 2",
+  "lineNumber": 479
  },
  "480": {
   "Missile": "volcano overlay fire",
@@ -15490,7 +15970,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 480
  },
  "481": {
   "Missile": "volcano debris 2",
@@ -15517,7 +15998,8 @@
   "NumDirections": 1,
   "HitSubMissile1": "volcano small fire",
   "CltHitSubMissile1": "volcano explosion",
-  "CltHitSubMissile2": "volcano small fire"
+  "CltHitSubMissile2": "volcano small fire",
+  "lineNumber": 481
  },
  "482": {
   "Missile": "volcano explosion",
@@ -15532,7 +16014,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 482
  },
  "483": {
   "Missile": "volcano small fire",
@@ -15557,7 +16040,8 @@
   "HitShift": 8,
   "HitClass": 32,
   "NumDirections": 1,
-  "TravelSound": "andariel_fire_loop"
+  "TravelSound": "andariel_fire_loop",
+  "lineNumber": 483
  },
  "484": {
   "Missile": "dragonbreath missile",
@@ -15592,7 +16076,8 @@
   "HitShift": 8,
   "HitClass": 32,
   "NumDirections": 16,
-  "TravelSound": "sorceress_fireball_1"
+  "TravelSound": "sorceress_fireball_1",
+  "lineNumber": 484
  },
  "485": {
   "Missile": "lureprojectile",
@@ -15618,7 +16103,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "HitShift": 8,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 485
  },
  "486": {
   "Missile": "lurecenter",
@@ -15640,7 +16126,8 @@
   "Trans": 1,
   "HitShift": 8,
   "HitClass": 48,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 486
  },
  "487": {
   "Missile": "lurecloud",
@@ -15658,7 +16145,8 @@
   "Trans": 1,
   "HitShift": 8,
   "HitClass": 48,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 487
  },
  "488": {
   "Missile": "impmiss1",
@@ -15705,7 +16193,8 @@
   "NumDirections": 16,
   "TravelSound": "succubus_msissile_1",
   "HitSound": "succubus_msissile_impact",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 488
  },
  "489": {
   "Missile": "impmiss2",
@@ -15752,7 +16241,8 @@
   "NumDirections": 16,
   "TravelSound": "succubus_msissile_1",
   "HitSound": "succubus_msissile_impact",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 489
  },
  "490": {
   "Missile": "impmiss3",
@@ -15799,7 +16289,8 @@
   "NumDirections": 16,
   "TravelSound": "succubus_msissile_1",
   "HitSound": "succubus_msissile_impact",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 490
  },
  "491": {
   "Missile": "impmiss4",
@@ -15846,7 +16337,8 @@
   "NumDirections": 16,
   "TravelSound": "succubus_msissile_1",
   "HitSound": "succubus_msissile_impact",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 491
  },
  "492": {
   "Missile": "impmiss5",
@@ -15893,7 +16385,8 @@
   "NumDirections": 16,
   "TravelSound": "succubus_msissile_1",
   "HitSound": "succubus_msissile_impact",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 492
  },
  "493": {
   "Missile": "frozenhorror arcticblast1",
@@ -15942,7 +16435,8 @@
   "ELevLen3": 10,
   "HitClass": 32,
   "NumDirections": 16,
-  "TravelSound": "druid_arcticblast"
+  "TravelSound": "druid_arcticblast",
+  "lineNumber": 493
  },
  "494": {
   "Missile": "frozenhorror arcticblast2",
@@ -15972,7 +16466,8 @@
   "ReturnFire": 1,
   "Trans": 1,
   "NumDirections": 16,
-  "TravelSound": "druid_arcticblast"
+  "TravelSound": "druid_arcticblast",
+  "lineNumber": 494
  },
  "495": {
   "Missile": "sentrychargedbolt",
@@ -16010,7 +16505,8 @@
   "ResultFlags": 4,
   "HitClass": 64,
   "NumDirections": 16,
-  "TravelSound": "sorceress_chargedbolt_1"
+  "TravelSound": "sorceress_chargedbolt_1",
+  "lineNumber": 495
  },
  "496": {
   "Missile": "sentryspikeinair",
@@ -16041,7 +16537,8 @@
   "HitShift": 8,
   "NumDirections": 16,
   "HitSubMissile1": "sentryspikeonground",
-  "CltHitSubMissile1": "sentryspikeonground"
+  "CltHitSubMissile1": "sentryspikeonground",
+  "lineNumber": 496
  },
  "497": {
   "Missile": "sentryspikeonground",
@@ -16071,7 +16568,8 @@
   "Skill": "Wake of Fire Sentry",
   "HitShift": 8,
   "NumDirections": 16,
-  "ExplosionMissile": "bomb explosion"
+  "ExplosionMissile": "bomb explosion",
+  "lineNumber": 497
  },
  "498": {
   "Missile": "recycler delay",
@@ -16097,7 +16595,8 @@
   "ProgSound": "necromancer_corpseexp_1",
   "ProgOverlay": "steallife",
   "CltSubMissile1": "recycler vine",
-  "CltSubMissile2": "recycler explosion"
+  "CltSubMissile2": "recycler explosion",
+  "lineNumber": 498
  },
  "499": {
   "Missile": "recycler vine",
@@ -16120,7 +16619,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "NumDirections": 8,
-  "CltHitSubMissile1": "recycler fade"
+  "CltHitSubMissile1": "recycler fade",
+  "lineNumber": 499
  },
  "500": {
   "Missile": "recycler fade",
@@ -16136,7 +16636,8 @@
   "AnimLen": 12,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 500
  },
  "501": {
   "Missile": "recycler explosion",
@@ -16160,7 +16661,8 @@
   "GetHit": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 501
  },
  "502": {
   "Missile": "death mauler",
@@ -16190,7 +16692,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 16,
-  "TravelSound": "deathmauler_spikes_1"
+  "TravelSound": "deathmauler_spikes_1",
+  "lineNumber": 502
  },
  "503": {
   "Missile": "death mauler trail",
@@ -16221,7 +16724,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 16,
-  "CltHitSubMissile1": "death mauler trail fade"
+  "CltHitSubMissile1": "death mauler trail fade",
+  "lineNumber": 503
  },
  "504": {
   "Missile": "death mauler trail fade",
@@ -16249,7 +16753,8 @@
   "CanSlow": 1,
   "Skill": "DeathMaul",
   "HitShift": 8,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 504
  },
  "505": {
   "Missile": "bladefury1",
@@ -16283,7 +16788,8 @@
   "NumDirections": 1,
   "TravelSound": "assassin_bladefury_throw_1",
   "HitSound": "assassin_bladefury_hit",
-  "HitSubMissile1": "bladefragment1"
+  "HitSubMissile1": "bladefragment1",
+  "lineNumber": 505
  },
  "506": {
   "Missile": "bladefragment1",
@@ -16316,7 +16822,8 @@
   "NumDirections": 1,
   "TravelSound": "assassin_bladefury_throw_1",
   "HitSound": "assassin_bladefury_hit",
-  "CltHitSubMissile1": "bladefragment1"
+  "CltHitSubMissile1": "bladefragment1",
+  "lineNumber": 506
  },
  "507": {
   "Missile": "bladefury2",
@@ -16350,7 +16857,8 @@
   "NumDirections": 1,
   "TravelSound": "assassin_bladefury_throw_1",
   "HitSound": "assassin_bladefury_hit",
-  "HitSubMissile1": "bladefragment2"
+  "HitSubMissile1": "bladefragment2",
+  "lineNumber": 507
  },
  "508": {
   "Missile": "bladefragment2",
@@ -16384,7 +16892,8 @@
   "NumDirections": 1,
   "TravelSound": "assassin_bladefury_throw_1",
   "HitSound": "assassin_bladefury_hit",
-  "CltHitSubMissile1": "bladefragment2"
+  "CltHitSubMissile1": "bladefragment2",
+  "lineNumber": 508
  },
  "509": {
   "Missile": "bladefury3",
@@ -16418,7 +16927,8 @@
   "NumDirections": 1,
   "TravelSound": "assassin_bladefury_throw_1",
   "HitSound": "assassin_bladefury_hit",
-  "HitSubMissile1": "bladefragment3"
+  "HitSubMissile1": "bladefragment3",
+  "lineNumber": 509
  },
  "510": {
   "Missile": "bladefragment3",
@@ -16452,7 +16962,8 @@
   "NumDirections": 1,
   "TravelSound": "assassin_bladefury_throw_1",
   "HitSound": "assassin_bladefury_hit",
-  "CltHitSubMissile1": "bladefragment3"
+  "CltHitSubMissile1": "bladefragment3",
+  "lineNumber": 510
  },
  "511": {
   "Missile": "shockwave",
@@ -16484,7 +16995,8 @@
   "ResultFlags": 4,
   "HitClass": 64,
   "NumDirections": 8,
-  "TravelSound": "druid_shockwave"
+  "TravelSound": "druid_shockwave",
+  "lineNumber": 511
  },
  "512": {
   "Missile": "lightningtalons",
@@ -16512,7 +17024,8 @@
   "Skill": "Feral Rage",
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 512
  },
  "513": {
   "Missile": "lightningtalonstrail",
@@ -16551,7 +17064,8 @@
   "MaxELev4": 2,
   "MaxELev5": 2,
   "HitClass": 64,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 513
  },
  "514": {
   "Missile": "phoenixtrail",
@@ -16580,7 +17094,8 @@
   "Trans": 1,
   "Skill": "Hunger",
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 514
  },
  "515": {
   "Missile": "rabiesplague",
@@ -16602,7 +17117,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "SubMissile1": "rabiescontagion"
+  "SubMissile1": "rabiescontagion",
+  "lineNumber": 515
  },
  "516": {
   "Missile": "rabiescontagion",
@@ -16625,7 +17141,8 @@
   "CanSlow": 1,
   "Skill": "Rabies",
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 516
  },
  "517": {
   "Missile": "wake of destruction maker",
@@ -16665,7 +17182,8 @@
   "NumDirections": 1,
   "DamageRate": 205,
   "SubMissile1": "wake of destruction",
-  "CltSubMissile1": "wake of destruction"
+  "CltSubMissile1": "wake of destruction",
+  "lineNumber": 517
  },
  "518": {
   "Missile": "wake of destruction",
@@ -16702,7 +17220,8 @@
   "ResultFlags": 4,
   "HitClass": 32,
   "NumDirections": 1,
-  "DamageRate": 205
+  "DamageRate": 205,
+  "lineNumber": 518
  },
  "519": {
   "Missile": "deathsentryexplode",
@@ -16717,7 +17236,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "NumDirections": 1,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 519
  },
  "520": {
   "Missile": "tigerfury",
@@ -16755,7 +17275,8 @@
   "NumDirections": 8,
   "ExplosionMissile": "tigerfurytrail2",
   "SubMissile1": "tigerfurytrail",
-  "CltSubMissile1": "tigerfurytrail"
+  "CltSubMissile1": "tigerfurytrail",
+  "lineNumber": 520
  },
  "521": {
   "Missile": "tigerfurytrail",
@@ -16801,7 +17322,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 521
  },
  "522": {
   "Missile": "tigerfurytrail2",
@@ -16820,7 +17342,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "Skill": "Royal Strike",
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 522
  },
  "523": {
   "Missile": "inferno sentry 1",
@@ -16854,7 +17377,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "HitSound": "sorceress_inferno"
+  "HitSound": "sorceress_inferno",
+  "lineNumber": 523
  },
  "524": {
   "Missile": "inferno sentry 2",
@@ -16888,7 +17412,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "HitSound": "sorceress_inferno"
+  "HitSound": "sorceress_inferno",
+  "lineNumber": 524
  },
  "525": {
   "Missile": "ancient throwing axe",
@@ -16921,7 +17446,8 @@
   "HitShift": 8,
   "SrcDamage": 128,
   "HitClass": 2,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 525
  },
  "526": {
   "Missile": "sentrylightningbolt",
@@ -16955,7 +17481,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "sorceress_lightning_1",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 526
  },
  "527": {
   "Missile": "sentrylightninghit",
@@ -16995,7 +17522,8 @@
   "MaxELev5": 2,
   "HitClass": 64,
   "NumDirections": 32,
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 527
  },
  "528": {
   "Missile": "anya center",
@@ -17006,7 +17534,8 @@
   "AnimLen": 1,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 528
  },
  "529": {
   "Missile": "anya icicle",
@@ -17023,7 +17552,8 @@
   "Trans": 1,
   "NumDirections": 1,
   "TravelSound": "sorceress_glacialspike_1",
-  "ExplosionMissile": "anya iceimpact"
+  "ExplosionMissile": "anya iceimpact",
+  "lineNumber": 529
  },
  "530": {
   "Missile": "anya iceimpact",
@@ -17036,7 +17566,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 530
  },
  "531": {
   "Missile": "anya icesteam",
@@ -17049,7 +17580,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 531
  },
  "532": {
   "Missile": "anya icemagic",
@@ -17063,7 +17595,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "TravelSound": "quest_anyasteam"
+  "TravelSound": "quest_anyasteam",
+  "lineNumber": 532
  },
  "533": {
   "Missile": "dragontail missile",
@@ -17086,7 +17619,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 533
  },
  "534": {
   "Missile": "dragonflight",
@@ -17111,7 +17645,8 @@
   "ReturnFire": 1,
   "Trans": 1,
   "Skill": "Dragon Tail",
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 534
  },
  "535": {
   "Missile": "dragonflightmaker",
@@ -17154,7 +17689,8 @@
   "ELevLen1": 20,
   "ELevLen2": 20,
   "ELevLen3": 20,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 535
  },
  "536": {
   "Missile": "progressive radius damage",
@@ -17180,7 +17716,8 @@
   "GetHit": 1,
   "Trans": 1,
   "ResultFlags": 4,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 536
  },
  "537": {
   "Missile": "vine beast walk 1 fade",
@@ -17201,7 +17738,8 @@
   "Size": 1,
   "CanSlow": 1,
   "ReturnFire": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 537
  },
  "538": {
   "Missile": "vine beast walk 2 fade",
@@ -17222,7 +17760,8 @@
   "Size": 1,
   "CanSlow": 1,
   "ReturnFire": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 538
  },
  "539": {
   "Missile": "vine beast neutral fade",
@@ -17243,7 +17782,8 @@
   "Size": 1,
   "CanSlow": 1,
   "ReturnFire": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 539
  },
  "540": {
   "Missile": "vine recycler delay",
@@ -17264,7 +17804,8 @@
   "NumDirections": 1,
   "ProgOverlay": "stealmana",
   "CltSubMissile1": "recycler vine",
-  "CltSubMissile2": "recycler explosion"
+  "CltSubMissile2": "recycler explosion",
+  "lineNumber": 540
  },
  "541": {
   "Missile": "ancient death center",
@@ -17288,7 +17829,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 541
  },
  "542": {
   "Missile": "ancient death cloud",
@@ -17316,7 +17858,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "quest_ancients_cloud"
+  "TravelSound": "quest_ancients_cloud",
+  "lineNumber": 542
  },
  "543": {
   "Missile": "lightning charge up nova",
@@ -17346,7 +17889,8 @@
   "Skill": "Nova",
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 543
  },
  "544": {
   "Missile": "chainlightningcharge up",
@@ -17379,7 +17923,8 @@
   "Skill": "Chain Lightning",
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 544
  },
  "545": {
   "Missile": "pain worm appear",
@@ -17398,7 +17943,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 545
  },
  "546": {
   "Missile": "baal taunt control",
@@ -17437,7 +17983,8 @@
   "SubMissile1": "baal taunt lightning control",
   "SubMissile2": "baal taunt poison control",
   "CltSubMissile1": "baal taunt lightning control",
-  "CltSubMissile2": "baal taunt poison control"
+  "CltSubMissile2": "baal taunt poison control",
+  "lineNumber": 546
  },
  "547": {
   "Missile": "baal taunt lightning",
@@ -17486,7 +18033,8 @@
   "MaxELev5": 20,
   "HitClass": 64,
   "NumDirections": 1,
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 547
  },
  "548": {
   "Missile": "baal taunt lightning trail",
@@ -17518,7 +18066,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitClass": 64,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 548
  },
  "549": {
   "Missile": "baal taunt poison",
@@ -17570,7 +18119,8 @@
   "MaxELev5": 8,
   "ELen": 50,
   "NumDirections": 8,
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 549
  },
  "550": {
   "Missile": "baal spawn monsters",
@@ -17604,7 +18154,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "NumDirections": 1,
-  "CltHitSubMissile1": "baal spawn monsters exp"
+  "CltHitSubMissile1": "baal spawn monsters exp",
+  "lineNumber": 550
  },
  "551": {
   "Missile": "mindblast hit",
@@ -17623,7 +18174,8 @@
   "Explosion": 1,
   "NoMultiShot": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 551
  },
  "552": {
   "Missile": "blade shield missile",
@@ -17654,7 +18206,8 @@
   "Skill": "Blade Fury",
   "ResultFlags": 4,
   "Half2HSrc": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 552
  },
  "553": {
   "Missile": "blade shield attachment",
@@ -17669,7 +18222,8 @@
   "CanSlow": 1,
   "Half2HSrc": 1,
   "NumDirections": 1,
-  "CltSubMissile1": "blade shield missile"
+  "CltSubMissile1": "blade shield missile",
+  "lineNumber": 553
  },
  "554": {
   "Missile": "baal inferno",
@@ -17706,7 +18260,8 @@
   "Skill": "Baal Inferno",
   "ResultFlags": 4,
   "NumDirections": 1,
-  "TravelSound": "baal_missile_1"
+  "TravelSound": "baal_missile_1",
+  "lineNumber": 554
  },
  "555": {
   "Missile": "baal nova",
@@ -17738,7 +18293,8 @@
   "ResultFlags": 4,
   "NumDirections": 8,
   "TravelSound": "baal_novacast",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 555
  },
  "556": {
   "Missile": "fistsoffireexplode",
@@ -17764,7 +18320,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 556
  },
  "557": {
   "Missile": "fistsoffirefirewall",
@@ -17805,7 +18362,8 @@
   "MaxELev5": 32,
   "EDmgSymPerCalc": "(skill('Royal Strike'.blvl)) * 6",
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 557
  },
  "558": {
   "Missile": "clawsofthunderbolt",
@@ -17852,7 +18410,8 @@
   "MaxELev5": 100,
   "EDmgSymPerCalc": "(skill('Royal Strike'.blvl)) * 8",
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 558
  },
  "559": {
   "Missile": "clawsofthundernova",
@@ -17890,7 +18449,8 @@
   "MaxELev5": 65,
   "EDmgSymPerCalc": "(skill('Royal Strike'.blvl)) * 8",
   "HitClass": 64,
-  "NumDirections": 16
+  "NumDirections": 16,
+  "lineNumber": 559
  },
  "560": {
   "Missile": "bladesoficeexplode",
@@ -17916,7 +18476,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "impact_cold_layer_1"
+  "TravelSound": "impact_cold_layer_1",
+  "lineNumber": 560
  },
  "561": {
   "Missile": "bladesoficecubes",
@@ -17946,7 +18507,8 @@
   "ELevLen2": 10,
   "ELevLen3": 10,
   "NumDirections": 4,
-  "TravelSound": "impact_cold_1"
+  "TravelSound": "impact_cold_1",
+  "lineNumber": 561
  },
  "562": {
   "Missile": "bladesoficecubesmelt",
@@ -17963,7 +18525,8 @@
   "AnimSpeed": 16,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 562
  },
  "563": {
   "Missile": "royalstrikemeteor",
@@ -18001,7 +18564,8 @@
   "MaxELev5": 50,
   "EDmgSymPerCalc": "(skill('Fists of Fire'.blvl)) * 10",
   "NumDirections": 1,
-  "HitSubMissile1": "royalstrikemeteorfire"
+  "HitSubMissile1": "royalstrikemeteorfire",
+  "lineNumber": 563
  },
  "564": {
   "Missile": "royalstrikemeteorcenter",
@@ -18049,7 +18613,8 @@
   "CltHitSubMissile1": "royalstrikemeteorexplode",
   "CltHitSubMissile2": "whitelightmissile",
   "CltHitSubMissile3": "firemedium",
-  "CltHitSubMissile4": "firesmall"
+  "CltHitSubMissile4": "firesmall",
+  "lineNumber": 564
  },
  "565": {
   "Missile": "royalstrikemeteortail",
@@ -18065,7 +18630,8 @@
   "LastCollide": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 565
  },
  "566": {
   "Missile": "royalstrikemeteorexplode",
@@ -18091,7 +18657,8 @@
   "Trans": 1,
   "ResultFlags": 4,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 566
  },
  "567": {
   "Missile": "royalstrikemeteorfire",
@@ -18131,7 +18698,8 @@
   "MaxELev5": 32,
   "EDmgSymPerCalc": "(skill('Fists of Fire'.blvl)) * 6",
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 567
  },
  "568": {
   "Missile": "royalstrikechainlightning",
@@ -18180,7 +18748,8 @@
   "NumDirections": 32,
   "TravelSound": "sorceress_lightning_1",
   "ProgOverlay": "lightning",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 568
  },
  "569": {
   "Missile": "royalstrikechaosice",
@@ -18239,7 +18808,8 @@
   "ELevLen3": 20,
   "NumDirections": 16,
   "TravelSound": "sorceress_glacialspike_1",
-  "HitSound": "sorceress_iceblast_impact_1"
+  "HitSound": "sorceress_iceblast_impact_1",
+  "lineNumber": 569
  },
  "570": {
   "Missile": "world stone chip 1",
@@ -18261,7 +18831,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 570
  },
  "571": {
   "Missile": "world stone chip 2",
@@ -18283,7 +18854,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 571
  },
  "572": {
   "Missile": "world stone chip 3",
@@ -18305,7 +18877,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 572
  },
  "573": {
   "Missile": "world stone chip 4",
@@ -18327,7 +18900,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 573
  },
  "574": {
   "Missile": "highpriestlightning2",
@@ -18368,7 +18942,8 @@
   "MaxELev3": 14,
   "MaxELev4": 14,
   "MaxELev5": 14,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 574
  },
  "575": {
   "Missile": "infernoflame3",
@@ -18399,7 +18974,8 @@
   "Skill": "Inferno",
   "ResultFlags": 4,
   "HitClass": 32,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 575
  },
  "576": {
   "Missile": "mindblast center",
@@ -18423,7 +18999,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "NumDirections": 1,
-  "CltSubMissile1": "mindblast hit"
+  "CltSubMissile1": "mindblast hit",
+  "lineNumber": 576
  },
  "577": {
   "Missile": "armageddoncontrol",
@@ -18445,7 +19022,8 @@
   "HitShift": 8,
   "EType": "fire",
   "NumDirections": 1,
-  "HitSubMissile1": "armageddonfire"
+  "HitSubMissile1": "armageddonfire",
+  "lineNumber": 577
  },
  "578": {
   "Missile": "armageddonrock",
@@ -18468,7 +19046,8 @@
   "NumDirections": 1,
   "TravelSound": "andariel_fire_loop",
   "CltHitSubMissile1": "armageddonexplosion",
-  "CltHitSubMissile2": "armageddonfire"
+  "CltHitSubMissile2": "armageddonfire",
+  "lineNumber": 578
  },
  "579": {
   "Missile": "armageddontail",
@@ -18486,7 +19065,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 579
  },
  "580": {
   "Missile": "armageddonexplosion",
@@ -18513,7 +19093,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_meteor_explode_1"
+  "TravelSound": "druid_meteor_explode_1",
+  "lineNumber": 580
  },
  "581": {
   "Missile": "hurricaneswoosh",
@@ -18532,7 +19113,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 8,
-  "TravelSound": "druid_hurricane"
+  "TravelSound": "druid_hurricane",
+  "lineNumber": 581
  },
  "582": {
   "Missile": "hurricanecart",
@@ -18550,7 +19132,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_hurricane"
+  "TravelSound": "druid_hurricane",
+  "lineNumber": 582
  },
  "583": {
   "Missile": "hurricanerock",
@@ -18568,7 +19151,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_hurricane"
+  "TravelSound": "druid_hurricane",
+  "lineNumber": 583
  },
  "584": {
   "Missile": "hurricanesack",
@@ -18586,7 +19170,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_hurricane"
+  "TravelSound": "druid_hurricane",
+  "lineNumber": 584
  },
  "585": {
   "Missile": "hurricanetree",
@@ -18604,7 +19189,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_hurricane"
+  "TravelSound": "druid_hurricane",
+  "lineNumber": 585
  },
  "586": {
   "Missile": "hurricanevase",
@@ -18622,7 +19208,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_hurricane"
+  "TravelSound": "druid_hurricane",
+  "lineNumber": 586
  },
  "587": {
   "Missile": "baalcorpseexplodedelay",
@@ -18647,7 +19234,8 @@
   "HitShift": 8,
   "NumDirections": 4,
   "LocalBlood": 1,
-  "ExplosionMissile": "baalcorpseexplodeexpl"
+  "ExplosionMissile": "baalcorpseexplodeexpl",
+  "lineNumber": 587
  },
  "588": {
   "Missile": "baalcorpseexplodeexpl",
@@ -18675,7 +19263,8 @@
   "HitShift": 8,
   "NumDirections": 4,
   "LocalBlood": 1,
-  "CltHitSubMissile1": "baalcorpseexplodefade"
+  "CltHitSubMissile1": "baalcorpseexplodefade",
+  "lineNumber": 588
  },
  "589": {
   "Missile": "baal cold maker",
@@ -18709,7 +19298,8 @@
   "LocalBlood": 1,
   "TravelSound": "baal_coldtrail",
   "SubMissile1": "baal cold trail",
-  "CltSubMissile1": "baal cold trail"
+  "CltSubMissile1": "baal cold trail",
+  "lineNumber": 589
  },
  "590": {
   "Missile": "baal cold trail",
@@ -18740,7 +19330,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 32,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 590
  },
  "591": {
   "Missile": "baal spawn monsters exp",
@@ -18763,7 +19354,8 @@
   "GetHit": 1,
   "Trans": 1,
   "ResultFlags": 4,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 591
  },
  "592": {
   "Missile": "impmiss21",
@@ -18798,7 +19390,8 @@
   "NumDirections": 16,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 592
  },
  "593": {
   "Missile": "impmiss22",
@@ -18833,7 +19426,8 @@
   "NumDirections": 16,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 593
  },
  "594": {
   "Missile": "impmiss23",
@@ -18868,7 +19462,8 @@
   "NumDirections": 16,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 594
  },
  "595": {
   "Missile": "impmiss24",
@@ -18903,7 +19498,8 @@
   "NumDirections": 16,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 595
  },
  "596": {
   "Missile": "impmiss25",
@@ -18938,7 +19534,8 @@
   "NumDirections": 16,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 596
  },
  "597": {
   "Missile": "anyasteam1",
@@ -18951,7 +19548,8 @@
   "AnimLen": 26,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "Trans": 1
+  "Trans": 1,
+  "lineNumber": 597
  },
  "598": {
   "Missile": "anyasteam2",
@@ -18964,7 +19562,8 @@
   "AnimLen": 26,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "Trans": 1
+  "Trans": 1,
+  "lineNumber": 598
  },
  "599": {
   "Missile": "ancientsguide",
@@ -18974,7 +19573,8 @@
   "animrate": 1024,
   "AnimLen": 1,
   "AnimSpeed": 16,
-  "CanSlow": 1
+  "CanSlow": 1,
+  "lineNumber": 599
  },
  "600": {
   "Missile": "ancientsmarker",
@@ -18984,7 +19584,8 @@
   "animrate": 1024,
   "AnimLen": 1,
   "AnimSpeed": 16,
-  "CanSlow": 1
+  "CanSlow": 1,
+  "lineNumber": 600
  },
  "601": {
   "Missile": "ancientscontrol",
@@ -18994,7 +19595,8 @@
   "animrate": 1024,
   "AnimLen": 1,
   "AnimSpeed": 16,
-  "CanSlow": 1
+  "CanSlow": 1,
+  "lineNumber": 601
  },
  "602": {
   "Missile": "overseercontrol",
@@ -19005,7 +19607,8 @@
   "animrate": 1024,
   "AnimLen": 1,
   "AnimSpeed": 16,
-  "CanSlow": 1
+  "CanSlow": 1,
+  "lineNumber": 602
  },
  "603": {
   "Missile": "nihlithak1",
@@ -19024,7 +19627,8 @@
   "CanSlow": 1,
   "TravelSound": "quest_nihlathakdeath",
   "CltHitSubMissile1": "nihlithak2",
-  "CltHitSubMissile2": "nehlithakbonechips"
+  "CltHitSubMissile2": "nehlithakbonechips",
+  "lineNumber": 603
  },
  "604": {
   "Missile": "nihlithak2",
@@ -19040,7 +19644,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "TravelSound": "quest_nihlathakdeath",
-  "ExplosionMissile": "nihlithak3"
+  "ExplosionMissile": "nihlithak3",
+  "lineNumber": 604
  },
  "605": {
   "Missile": "nihlithak3",
@@ -19055,7 +19660,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "NumDirections": 8,
-  "TravelSound": "quest_nihlathakdeath"
+  "TravelSound": "quest_nihlathakdeath",
+  "lineNumber": 605
  },
  "606": {
   "Missile": "nehlithakcontrol",
@@ -19066,7 +19672,8 @@
   "animrate": 1024,
   "AnimLen": 1,
   "AnimSpeed": 16,
-  "CanSlow": 1
+  "CanSlow": 1,
+  "lineNumber": 606
  },
  "607": {
   "Missile": "nehlithakswoosh",
@@ -19084,7 +19691,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 607
  },
  "608": {
   "Missile": "nehlithakdebris1",
@@ -19100,7 +19708,8 @@
   "AnimLen": 16,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 608
  },
  "609": {
   "Missile": "nehlithakdebris2",
@@ -19116,7 +19725,8 @@
   "AnimLen": 16,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 609
  },
  "610": {
   "Missile": "nehlithakdebris3",
@@ -19132,7 +19742,8 @@
   "AnimLen": 16,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 610
  },
  "611": {
   "Missile": "nehlithakdebris4",
@@ -19148,7 +19759,8 @@
   "AnimLen": 16,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 611
  },
  "612": {
   "Missile": "nehlithakglow",
@@ -19158,7 +19770,8 @@
   "animrate": 1024,
   "AnimLen": 1,
   "AnimSpeed": 16,
-  "CanSlow": 1
+  "CanSlow": 1,
+  "lineNumber": 612
  },
  "613": {
   "Missile": "baalteleport",
@@ -19178,7 +19791,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "baal_summonflash"
+  "TravelSound": "baal_summonflash",
+  "lineNumber": 613
  },
  "614": {
   "Missile": "baalclonedeath",
@@ -19198,7 +19812,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "baal_teleport"
+  "TravelSound": "baal_teleport",
+  "lineNumber": 614
  },
  "615": {
   "Missile": "anyasteamvent",
@@ -19214,7 +19829,8 @@
   "Trans": 1,
   "HitShift": 8,
   "NumDirections": 4,
-  "TravelSound": "quest_anyaicevent"
+  "TravelSound": "quest_anyaicevent",
+  "lineNumber": 615
  },
  "616": {
   "Missile": "anyasteam",
@@ -19229,7 +19845,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 4
+  "NumDirections": 4,
+  "lineNumber": 616
  },
  "617": {
   "Missile": "nehlithakhole",
@@ -19248,7 +19865,8 @@
   "CanSlow": 1,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 617
  },
  "618": {
   "Missile": "nehlithakholelight",
@@ -19267,7 +19885,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 618
  },
  "619": {
   "Missile": "volcanofiretrail",
@@ -19284,7 +19903,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 619
  },
  "620": {
   "Missile": "nehlithakglow2",
@@ -19299,7 +19919,8 @@
   "AnimSpeed": 16,
   "CanSlow": 1,
   "Trans": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 620
  },
  "621": {
   "Missile": "nehlithakbonechips",
@@ -19313,7 +19934,8 @@
   "AnimLen": 16,
   "AnimSpeed": 16,
   "CanSlow": 1,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 621
  },
  "622": {
   "Missile": "baalcorpseexplodefade",
@@ -19328,7 +19950,8 @@
   "AnimSpeed": 4,
   "CanSlow": 1,
   "NumDirections": 4,
-  "LocalBlood": 1
+  "LocalBlood": 1,
+  "lineNumber": 622
  },
  "623": {
   "Missile": "armageddonfire",
@@ -19370,7 +19993,8 @@
   "EDmgSymPerCalc": "(skill('Firestorm'.blvl)+skill('Molten Boulder'.blvl)+skill('Volcano'.blvl))*7",
   "HitClass": 32,
   "NumDirections": 1,
-  "DamageRate": 41
+  "DamageRate": 41,
+  "lineNumber": 623
  },
  "624": {
   "Missile": "icesparkle",
@@ -19392,7 +20016,8 @@
   "Trans": 1,
   "HitShift": 2,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 624
  },
  "625": {
   "Missile": "baalfx control",
@@ -19412,7 +20037,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 625
  },
  "626": {
   "Missile": "baalfx spirit 1",
@@ -19431,7 +20057,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 8,
-  "TravelSound": "quest_hellforge_soul_1"
+  "TravelSound": "quest_hellforge_soul_1",
+  "lineNumber": 626
  },
  "627": {
   "Missile": "baalfx spirit 2",
@@ -19450,7 +20077,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 8,
-  "TravelSound": "quest_hellforge_soul_1"
+  "TravelSound": "quest_hellforge_soul_1",
+  "lineNumber": 627
  },
  "628": {
   "Missile": "baalfx spirit 3",
@@ -19468,7 +20096,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 1,
-  "TravelSound": "quest_hellforge_soul_1"
+  "TravelSound": "quest_hellforge_soul_1",
+  "lineNumber": 628
  },
  "629": {
   "Missile": "baalfx spirit 4",
@@ -19486,7 +20115,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 1,
-  "TravelSound": "quest_hellforge_soul_1"
+  "TravelSound": "quest_hellforge_soul_1",
+  "lineNumber": 629
  },
  "630": {
   "Missile": "baalfx spirit 5",
@@ -19504,7 +20134,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 1,
-  "TravelSound": "quest_hellforge_soul_1"
+  "TravelSound": "quest_hellforge_soul_1",
+  "lineNumber": 630
  },
  "631": {
   "Missile": "baalfx baal head appear",
@@ -19519,7 +20150,8 @@
   "CanSlow": 1,
   "Trans": 1,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 631
  },
  "632": {
   "Missile": "baalfx baal head 1",
@@ -19539,7 +20171,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 1,
-  "TravelSound": "baal_deathhead_1"
+  "TravelSound": "baal_deathhead_1",
+  "lineNumber": 632
  },
  "633": {
   "Missile": "baalfx baal head 2",
@@ -19559,7 +20192,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 1,
-  "TravelSound": "baal_deathhead_2"
+  "TravelSound": "baal_deathhead_2",
+  "lineNumber": 633
  },
  "634": {
   "Missile": "baalfx baal head 3",
@@ -19579,7 +20213,8 @@
   "Trans": 1,
   "EType": 0,
   "NumDirections": 1,
-  "TravelSound": "baal_deathhead_3"
+  "TravelSound": "baal_deathhead_3",
+  "lineNumber": 634
  },
  "635": {
   "Missile": "baalfx tyreal debris 1",
@@ -19596,7 +20231,8 @@
   "CanSlow": 1,
   "EType": 0,
   "NumDirections": 1,
-  "ExplosionMissile": "baalfx tyreal debris break"
+  "ExplosionMissile": "baalfx tyreal debris break",
+  "lineNumber": 635
  },
  "636": {
   "Missile": "baalfx tyreal debris 2",
@@ -19613,7 +20249,8 @@
   "CanSlow": 1,
   "EType": 0,
   "NumDirections": 1,
-  "ExplosionMissile": "baalfx tyreal debris break"
+  "ExplosionMissile": "baalfx tyreal debris break",
+  "lineNumber": 636
  },
  "637": {
   "Missile": "baalfx tyreal debris 3",
@@ -19630,7 +20267,8 @@
   "CanSlow": 1,
   "EType": 0,
   "NumDirections": 1,
-  "ExplosionMissile": "baalfx tyreal debris break"
+  "ExplosionMissile": "baalfx tyreal debris break",
+  "lineNumber": 637
  },
  "638": {
   "Missile": "baalfx tyreal debris break",
@@ -19644,7 +20282,8 @@
   "AnimSpeed": 12,
   "CanSlow": 1,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 638
  },
  "639": {
   "Missile": "worldstone shake",
@@ -19660,7 +20299,8 @@
   "AlwaysExplode": 1,
   "CanSlow": 1,
   "EType": 0,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 639
  },
  "640": {
   "Missile": "blessedhammerex",
@@ -19709,7 +20349,8 @@
   "MaxLevDam5": 8,
   "NumDirections": 16,
   "TravelSound": "paladin_blessedhammer_1",
-  "HitSound": "paladin_holybolt_impact_1"
+  "HitSound": "paladin_holybolt_impact_1",
+  "lineNumber": 640
  },
  "641": {
   "Missile": "sentrylightningbolt2",
@@ -19744,7 +20385,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "sorceress_lightning_1",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 641
  },
  "642": {
   "Missile": "sentrylightninghit2",
@@ -19786,7 +20428,8 @@
   "MaxELev5": 2,
   "HitClass": 64,
   "NumDirections": 32,
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 642
  },
  "643": {
   "Missile": "lightningtowernova",
@@ -19830,7 +20473,8 @@
   "MaxELev5": 14,
   "HitClass": 64,
   "NumDirections": 16,
-  "TravelSound": "sorceress_nova"
+  "TravelSound": "sorceress_nova",
+  "lineNumber": 643
  },
  "644": {
   "Missile": "skbowarrow6",
@@ -19866,7 +20510,8 @@
   "HitClass": 10,
   "NumDirections": 32,
   "TravelSound": "amazon_firearrow_1",
-  "HitSound": "sorceress_firebolt_impact_1"
+  "HitSound": "sorceress_firebolt_impact_1",
+  "lineNumber": 644
  },
  "645": {
   "Missile": "skbowarrow7",
@@ -19902,7 +20547,8 @@
   "HitClass": 10,
   "NumDirections": 32,
   "TravelSound": "amazon_coldarrow_1",
-  "HitSound": "impact_cold_1"
+  "HitSound": "impact_cold_1",
+  "lineNumber": 645
  },
  "646": {
   "Missile": "skbowarrow8",
@@ -19937,7 +20583,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "amazon_magicarrow_1"
+  "TravelSound": "amazon_magicarrow_1",
+  "lineNumber": 646
  },
  "647": {
   "Missile": "bighead6",
@@ -19971,7 +20618,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "bigheadexp"
+  "ExplosionMissile": "bigheadexp",
+  "lineNumber": 647
  },
  "648": {
   "Missile": "viper_poisjav",
@@ -20009,7 +20657,8 @@
   "NumDirections": 32,
   "TravelSound": "monster_poisonbolt",
   "SubMissile1": "viper_poisjavcloud",
-  "CltSubMissile1": "viper_poisjavcloud"
+  "CltSubMissile1": "viper_poisjavcloud",
+  "lineNumber": 648
  },
  "649": {
   "Missile": "viper_poisjavcloud",
@@ -20050,7 +20699,8 @@
   "HitClass": 6,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 649
  },
  "650": {
   "Missile": "viper_fire",
@@ -20084,7 +20734,8 @@
   "TravelSound": "monster_fireball",
   "HitSound": "sorceress_firebolt_impact_1",
   "ExplosionMissile": "shamanexp",
-  "CltSubMissile1": "viper_firecloud"
+  "CltSubMissile1": "viper_firecloud",
+  "lineNumber": 650
  },
  "651": {
   "Missile": "viper_firecloud",
@@ -20110,7 +20761,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 651
  },
  "652": {
   "Missile": "viper_bonespear",
@@ -20151,7 +20803,8 @@
   "SubMissile1": "bonespeartrail",
   "SubMissile2": "teethexplode",
   "CltSubMissile1": "bonespeartrail",
-  "CltHitSubMissile1": "teethexplode"
+  "CltHitSubMissile1": "teethexplode",
+  "lineNumber": 652
  },
  "653": {
   "Missile": "countessfirewallmaker",
@@ -20188,7 +20841,8 @@
   "SubMissile1": "countessfirewall",
   "CltSubMissile1": "countessfirewall",
   "CltSubMissile2": "firesmall",
-  "CltSubMissile3": "firemedium"
+  "CltSubMissile3": "firemedium",
+  "lineNumber": 653
  },
  "654": {
   "Missile": "baal taunt lightning control",
@@ -20208,7 +20862,8 @@
   "AlwaysExplode": 1,
   "NumDirections": 1,
   "HitSubMissile1": "baal taunt lightning",
-  "CltHitSubMissile1": "baal taunt lightning"
+  "CltHitSubMissile1": "baal taunt lightning",
+  "lineNumber": 654
  },
  "655": {
   "Missile": "baal taunt poison control",
@@ -20228,7 +20883,8 @@
   "AlwaysExplode": 1,
   "NumDirections": 1,
   "HitSubMissile1": "baal taunt poison",
-  "CltHitSubMissile1": "baal taunt poison"
+  "CltHitSubMissile1": "baal taunt poison",
+  "lineNumber": 655
  },
  "656": {
   "Missile": "explodingarrowexp2",
@@ -20254,7 +20910,8 @@
   "HitFlags": 2,
   "HitShift": 8,
   "EType": "fire",
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 656
  },
  "657": {
   "Missile": "freezingarrowexp3",
@@ -20280,7 +20937,8 @@
   "HitFlags": 2,
   "HitShift": 8,
   "EType": "frze",
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 657
  },
  "658": {
   "Missile": "pantherjav5",
@@ -20315,7 +20973,8 @@
   "SrcDamage": 128,
   "HitClass": 6,
   "NumDirections": 32,
-  "TravelSound": "weapon_throw_1"
+  "TravelSound": "weapon_throw_1",
+  "lineNumber": 658
  },
  "659": {
   "Missile": "spike6",
@@ -20347,7 +21006,8 @@
   "HitShift": 8,
   "SrcDamage": 128,
   "HitClass": 10,
-  "NumDirections": 32
+  "NumDirections": 32,
+  "lineNumber": 659
  },
  "660": {
   "Missile": "cr_arrow6",
@@ -20381,7 +21041,8 @@
   "SrcDamage": 128,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_bow_1"
+  "TravelSound": "weapon_bow_1",
+  "lineNumber": 660
  },
  "661": {
   "Missile": "skmagepois",
@@ -20414,7 +21075,8 @@
   "SrcDamage": 128,
   "EType": "pois",
   "NumDirections": 32,
-  "TravelSound": "monster_poisonbolt"
+  "TravelSound": "monster_poisonbolt",
+  "lineNumber": 661
  },
  "662": {
   "Missile": "skmagecold",
@@ -20449,7 +21111,8 @@
   "EType": "cold",
   "NumDirections": 16,
   "TravelSound": "monster_icebolt_1",
-  "ExplosionMissile": "iceexplode"
+  "ExplosionMissile": "iceexplode",
+  "lineNumber": 662
  },
  "663": {
   "Missile": "skmagefire",
@@ -20485,7 +21148,8 @@
   "NumDirections": 16,
   "TravelSound": "monster_firebolt_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 663
  },
  "664": {
   "Missile": "skmageltng",
@@ -20520,7 +21184,8 @@
   "SrcDamage": 128,
   "EType": "ltng",
   "NumDirections": 16,
-  "TravelSound": "monster_chargedbolt_1"
+  "TravelSound": "monster_chargedbolt_1",
+  "lineNumber": 664
  },
  "665": {
   "Missile": "succubusmiss",
@@ -20557,7 +21222,8 @@
   "NumDirections": 16,
   "TravelSound": "succubus_msissile_1",
   "HitSound": "succubus_msissile_impact",
-  "ExplosionMissile": "teethexplode"
+  "ExplosionMissile": "teethexplode",
+  "lineNumber": 665
  },
  "666": {
   "Missile": "willowisplightningbolt2",
@@ -20593,7 +21259,8 @@
   "HitClass": 64,
   "NumDirections": 1,
   "TravelSound": "monster_lightning_1",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 666
  },
  "667": {
   "Missile": "mummyex",
@@ -20633,7 +21300,8 @@
   "MaxELev4": 11,
   "MaxELev5": 12,
   "ELen": 400,
-  "NumDirections": 8
+  "NumDirections": 8,
+  "lineNumber": 667
  },
  "668": {
   "Missile": "goospitex",
@@ -20690,7 +21358,8 @@
   "HitClass": 176,
   "NumDirections": 16,
   "TravelSound": "tentaclehead_missile_1",
-  "ExplosionMissile": "goosplat"
+  "ExplosionMissile": "goosplat",
+  "lineNumber": 668
  },
  "669": {
   "Missile": "impmissex",
@@ -20737,7 +21406,8 @@
   "NumDirections": 16,
   "TravelSound": "imp_missile_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "shamanexp"
+  "ExplosionMissile": "shamanexp",
+  "lineNumber": 669
  },
  "670": {
   "Missile": "diablogeddoncontrol",
@@ -20759,7 +21429,8 @@
   "HitShift": 8,
   "EType": "fire",
   "NumDirections": 1,
-  "HitSubMissile1": "diablogeddonfire"
+  "HitSubMissile1": "diablogeddonfire",
+  "lineNumber": 670
  },
  "671": {
   "Missile": "diablogeddonrock",
@@ -20782,7 +21453,8 @@
   "NumDirections": 1,
   "TravelSound": "andariel_fire_loop",
   "CltHitSubMissile1": "diablogeddonexplosion",
-  "CltHitSubMissile2": "diablogeddonfire"
+  "CltHitSubMissile2": "diablogeddonfire",
+  "lineNumber": 671
  },
  "672": {
   "Missile": "diablogeddontail",
@@ -20800,7 +21472,8 @@
   "NoMultiShot": 1,
   "Trans": 1,
   "HitShift": 8,
-  "NumDirections": 1
+  "NumDirections": 1,
+  "lineNumber": 672
  },
  "673": {
   "Missile": "diablogeddonexplosion",
@@ -20827,7 +21500,8 @@
   "ResultFlags": 4,
   "HitShift": 8,
   "NumDirections": 1,
-  "TravelSound": "druid_meteor_explode_1"
+  "TravelSound": "druid_meteor_explode_1",
+  "lineNumber": 673
  },
  "674": {
   "Missile": "diablogeddonfire",
@@ -20868,7 +21542,8 @@
   "MaxELev5": 8,
   "HitClass": 32,
   "NumDirections": 1,
-  "DamageRate": 41
+  "DamageRate": 41,
+  "lineNumber": 674
  },
  "675": {
   "Missile": "megademoninferno",
@@ -20912,7 +21587,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 82,
-  "TravelSound": "sorceress_inferno"
+  "TravelSound": "sorceress_inferno",
+  "lineNumber": 675
  },
  "676": {
   "Missile": "trapfirebolt",
@@ -20959,7 +21635,8 @@
   "NumDirections": 16,
   "TravelSound": "sorceress_firebolt_1",
   "HitSound": "sorceress_firebolt_impact_1",
-  "ExplosionMissile": "fireexplode"
+  "ExplosionMissile": "fireexplode",
+  "lineNumber": 676
  },
  "677": {
   "Missile": "trappoisonjavcloud",
@@ -21012,7 +21689,8 @@
   "HitClass": 6,
   "NumDirections": 8,
   "TravelSound": "object_poison_loop",
-  "CltSubMissile1": "poisonpuff"
+  "CltSubMissile1": "poisonpuff",
+  "lineNumber": 677
  },
  "678": {
   "Missile": "trapnova",
@@ -21057,7 +21735,8 @@
   "HitClass": 64,
   "NumDirections": 16,
   "TravelSound": "sorceress_nova",
-  "ProgOverlay": "lightning"
+  "ProgOverlay": "lightning",
+  "lineNumber": 678
  },
  "679": {
   "Missile": "mephfrostnova",
@@ -21090,7 +21769,8 @@
   "HitClass": 48,
   "NumDirections": 16,
   "TravelSound": "sorceress_frostnova",
-  "ProgOverlay": "ice_explode"
+  "ProgOverlay": "ice_explode",
+  "lineNumber": 679
  },
  "680": {
   "Missile": "mephlight",
@@ -21132,7 +21812,8 @@
   "NumDirections": 1,
   "TravelSound": "monster_lightning_1",
   "ProgOverlay": "lightning",
-  "CltSubMissile1": "lightninghit"
+  "CltSubMissile1": "lightninghit",
+  "lineNumber": 680
  },
  "681": {
   "Missile": "vampiremeteorfire",
@@ -21181,7 +21862,8 @@
   "HitClass": 32,
   "NumDirections": 1,
   "DamageRate": 41,
-  "TravelSound": "object_fire_loop_magic"
+  "TravelSound": "object_fire_loop_magic",
+  "lineNumber": 681
  },
  "682": {
   "Missile": "strafearrow",
@@ -21216,7 +21898,8 @@
   "SrcDamage": 96,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "amazon_multi_arrow_1"
+  "TravelSound": "amazon_multi_arrow_1",
+  "lineNumber": 682
  },
  "683": {
   "Missile": "strafebolt",
@@ -21251,6 +21934,7 @@
   "SrcDamage": 96,
   "HitClass": 10,
   "NumDirections": 32,
-  "TravelSound": "weapon_xbow_1"
+  "TravelSound": "weapon_xbow_1",
+  "lineNumber": 683
  }
 }

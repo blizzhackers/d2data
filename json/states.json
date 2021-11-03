@@ -4,7 +4,8 @@
   "id": 105,
   "plrstaydeath": 1,
   "monstaydeath": 1,
-  "bossstaydeath": 1
+  "bossstaydeath": 1,
+  "lineNumber": 105
  },
  "amplifydamage": {
   "state": "amplifydamage",
@@ -14,17 +15,20 @@
   "overlay1": "curseamplifydamage",
   "castoverlay": "curse_hit",
   "stat": "damageresist",
-  "onsound": "necromancer_amplifydamage"
+  "onsound": "necromancer_amplifydamage",
+  "lineNumber": 9
  },
  "antidote": {
   "state": "antidote",
   "id": 178,
-  "rpblue": 1
+  "rpblue": 1,
+  "lineNumber": 178
  },
  "armageddon": {
   "state": "armageddon",
   "id": 145,
-  "srvactivefunc": 146
+  "srvactivefunc": 146,
+  "lineNumber": 145
  },
  "attached": {
   "state": "attached",
@@ -36,7 +40,8 @@
   "setfunc": 13,
   "remfunc": 9,
   "cltactivefunc": 88,
-  "srvactivefunc": 147
+  "srvactivefunc": 147,
+  "lineNumber": 143
  },
  "attract": {
   "state": "attract",
@@ -46,34 +51,40 @@
   "exp": 1,
   "overlay1": "curseattract",
   "castoverlay": "curse_hit",
-  "onsound": "necromancer_attract"
+  "onsound": "necromancer_attract",
+  "lineNumber": 57
  },
  "avoid": {
   "state": "avoid",
   "id": 66,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 66
  },
  "axemastery": {
   "state": "axemastery",
-  "id": 75
+  "id": 75,
+  "lineNumber": 75
  },
  "barbs": {
   "state": "barbs",
   "id": 147,
   "aura": 1,
-  "overlay2": "spirit_of_barbs"
+  "overlay2": "spirit_of_barbs",
+  "lineNumber": 147
  },
  "barbscontrol": {
   "state": "barbscontrol",
   "id": 163,
-  "aura": 1
+  "aura": 1,
+  "lineNumber": 163
  },
  "battlecommand": {
   "state": "battlecommand",
   "id": 51,
   "aura": 1,
   "overlay1": "battlecommand",
-  "castoverlay": "battlecommandcast"
+  "castoverlay": "battlecommandcast",
+  "lineNumber": 51
  },
  "battlecry": {
   "state": "battlecry",
@@ -83,7 +94,8 @@
   "armblue": 1,
   "overlay1": "battlecry",
   "stat": "skill_armor_percent",
-  "onsound": "barbarian_battlecry_state"
+  "onsound": "barbarian_battlecry_state",
+  "lineNumber": 89
  },
  "battleorders": {
   "state": "battleorders",
@@ -91,7 +103,8 @@
   "aura": 1,
   "overlay1": "battleorders",
   "castoverlay": "battleorderscast",
-  "stat": "maxmana"
+  "stat": "maxmana",
+  "lineNumber": 32
  },
  "bear": {
   "state": "bear",
@@ -107,24 +120,28 @@
   "onsound": "druid_morph",
   "offsound": "druid_morph",
   "gfxtype": 1,
-  "gfxclass": 431
+  "gfxclass": 431,
+  "lineNumber": 140
  },
  "berserk": {
   "state": "berserk",
   "id": 95,
   "armblue": 1,
   "overlay1": "berserkfront",
-  "overlay2": "berserkback"
+  "overlay2": "berserkback",
+  "lineNumber": 95
  },
  "bladeshield": {
   "state": "bladeshield",
   "id": 158,
-  "overlay1": "bladeshield"
+  "overlay1": "bladeshield",
+  "lineNumber": 158
  },
  "blaze": {
   "state": "blaze",
   "id": 13,
-  "setfunc": 3
+  "setfunc": 3,
+  "lineNumber": 13
  },
  "blessedaim": {
   "state": "blessedaim",
@@ -135,21 +152,24 @@
   "overlay1": "blessedaimfront",
   "overlay2": "blessedaimback",
   "stat": "item_tohit_percent",
-  "onsound": "paladin_aura_blessedaim"
+  "onsound": "paladin_aura_blessedaim",
+  "lineNumber": 40
  },
  "blood_mana": {
   "state": "blood_mana",
   "id": 114,
   "curable": 1,
   "curse": 1,
-  "overlay1": "blood_mana"
+  "overlay1": "blood_mana",
+  "lineNumber": 114
  },
  "bloodlust": {
   "state": "bloodlust",
   "id": 141,
   "curse": 1,
   "overlay1": "bloodlust_state",
-  "overlay2": "bloodlust_state"
+  "overlay2": "bloodlust_state",
+  "lineNumber": 141
  },
  "blue": {
   "state": "blue",
@@ -159,7 +179,8 @@
   "colorshift": 108,
   "light-r": 150,
   "light-g": 215,
-  "light-b": 255
+  "light-b": 255,
+  "lineNumber": 90
  },
  "bonearmor": {
   "state": "bonearmor",
@@ -173,17 +194,20 @@
   "overlay4": "bonearmor_null2",
   "castoverlay": "bonearmor_cast",
   "setfunc": 6,
-  "remfunc": 3
+  "remfunc": 3,
+  "lineNumber": 14
  },
  "burning": {
   "state": "burning",
   "id": 115,
-  "overlay1": "burning"
+  "overlay1": "burning",
+  "lineNumber": 115
  },
  "changeclass": {
   "state": "changeclass",
   "id": 142,
-  "setfunc": 5
+  "setfunc": 5,
+  "lineNumber": 142
  },
  "chillingarmor": {
   "state": "chillingarmor",
@@ -193,11 +217,13 @@
   "overlay1": "chillarmor",
   "stat": "skill_armor_percent",
   "cltevent": "hitbymissile",
-  "clteventfunc": 1
+  "clteventfunc": 1,
+  "lineNumber": 20
  },
  "clawmastery": {
   "state": "clawmastery",
-  "id": 152
+  "id": 152,
+  "lineNumber": 152
  },
  "cleansing": {
   "state": "cleansing",
@@ -205,7 +231,8 @@
   "aura": 1,
   "overlay1": "cleansingfront",
   "overlay2": "cleansingback",
-  "onsound": "paladin_aura_cleansing"
+  "onsound": "paladin_aura_cleansing",
+  "lineNumber": 45
  },
  "cloak_of_shadows": {
   "state": "cloak_of_shadows",
@@ -213,7 +240,8 @@
   "remhit": 1,
   "armblue": 1,
   "setfunc": 2,
-  "onsound": "assassin_cloakofdarkness"
+  "onsound": "assassin_cloakofdarkness",
+  "lineNumber": 153
  },
  "cloaked": {
   "state": "cloaked",
@@ -221,7 +249,8 @@
   "curse": 1,
   "armred": 1,
   "overlay1": "cloaked",
-  "stat": "skill_armor_percent"
+  "stat": "skill_armor_percent",
+  "lineNumber": 156
  },
  "cold": {
   "state": "cold",
@@ -233,17 +262,20 @@
   "light-r": 150,
   "light-g": 215,
   "light-b": 255,
-  "onsound": "impact_bluemotize_1"
+  "onsound": "impact_bluemotize_1",
+  "lineNumber": 11
  },
  "coldmastery": {
   "state": "coldmastery",
-  "id": 73
+  "id": 73,
+  "lineNumber": 73
  },
  "concentrate": {
   "state": "concentrate",
   "id": 15,
   "armblue": 1,
-  "stat": "skill_armor_percent"
+  "stat": "skill_armor_percent",
+  "lineNumber": 15
  },
  "concentration": {
   "state": "concentration",
@@ -254,7 +286,8 @@
   "overlay1": "concentrationfront",
   "overlay2": "concentrationback",
   "stat": "damagepercent",
-  "onsound": "paladin_aura_concentration"
+  "onsound": "paladin_aura_concentration",
+  "lineNumber": 42
  },
  "confuse": {
   "state": "confuse",
@@ -264,18 +297,21 @@
   "exp": 1,
   "overlay1": "curseconfuse",
   "castoverlay": "curse_hit",
-  "onsound": "necromancer_confuse"
+  "onsound": "necromancer_confuse",
+  "lineNumber": 59
  },
  "conversion": {
   "state": "conversion",
   "id": 53,
   "exp": 1,
   "overlay1": "conversionaura",
-  "onsound": "paladin_conversion"
+  "onsound": "paladin_conversion",
+  "lineNumber": 53
  },
  "conversion_save": {
   "state": "conversion_save",
-  "id": 109
+  "id": 109,
+  "lineNumber": 109
  },
  "convicted": {
   "state": "convicted",
@@ -287,7 +323,8 @@
   "rcred": 1,
   "overlay1": "convictionfront",
   "overlay2": "convictionback",
-  "stat": "skill_conviction"
+  "stat": "skill_conviction",
+  "lineNumber": 29
  },
  "conviction": {
   "state": "conviction",
@@ -295,7 +332,8 @@
   "aura": 1,
   "overlay1": "convictionfront",
   "overlay2": "convictionback",
-  "onsound": "paladin_aura_purification"
+  "onsound": "paladin_aura_purification",
+  "lineNumber": 28
  },
  "corpse_nodraw": {
   "state": "corpse_nodraw",
@@ -303,7 +341,8 @@
   "monstaydeath": 1,
   "bossstaydeath": 1,
   "hide": 1,
-  "udead": 1
+  "udead": 1,
+  "lineNumber": 104
  },
  "corpse_noselect": {
   "state": "corpse_noselect",
@@ -311,7 +350,8 @@
   "plrstaydeath": 1,
   "monstaydeath": 1,
   "bossstaydeath": 1,
-  "udead": 1
+  "udead": 1,
+  "lineNumber": 118
  },
  "corpseexp": {
   "state": "corpseexp",
@@ -323,12 +363,14 @@
   "notondead": 1,
   "setfunc": 18,
   "missile": "corpseexplosion",
-  "onsound": "necromancer_corpseexp_1"
+  "onsound": "necromancer_corpseexp_1",
+  "lineNumber": 173
  },
  "criticalstrike": {
   "state": "criticalstrike",
   "id": 64,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 64
  },
  "cyclonearmor": {
   "state": "cyclonearmor",
@@ -339,15 +381,18 @@
   "overlay2": "cyclonearmor2front",
   "overlay3": "cyclonearmor3front",
   "setfunc": 8,
-  "remfunc": 5
+  "remfunc": 5,
+  "lineNumber": 151
  },
  "death_delay": {
   "state": "death_delay",
-  "id": 92
+  "id": 92,
+  "lineNumber": 92
  },
  "debugcontrol": {
   "state": "debugcontrol",
-  "id": 164
+  "id": 164,
+  "lineNumber": 164
  },
  "decrepify": {
   "state": "decrepify",
@@ -358,7 +403,8 @@
   "overlay1": "cursedecrepify",
   "castoverlay": "curse_hit",
   "stat": "skill_decrepify",
-  "onsound": "necromancer_decrepify"
+  "onsound": "necromancer_decrepify",
+  "lineNumber": 60
  },
  "defense_curse": {
   "state": "defense_curse",
@@ -367,7 +413,8 @@
   "curse": 1,
   "armred": 1,
   "overlay1": "defense_curse",
-  "stat": "skill_armor_percent"
+  "stat": "skill_armor_percent",
+  "lineNumber": 113
  },
  "defiance": {
   "state": "defiance",
@@ -378,7 +425,8 @@
   "overlay1": "aura_defiance_front",
   "overlay2": "aura_defiance_back",
   "stat": "skill_armor_percent",
-  "onsound": "paladin_aura_defiance"
+  "onsound": "paladin_aura_defiance",
+  "lineNumber": 37
  },
  "delerium": {
   "state": "delerium",
@@ -390,7 +438,8 @@
   "castoverlay": "teleport",
   "removerlay": "teleport",
   "gfxtype": 1,
-  "gfxclass": 212
+  "gfxclass": 212,
+  "lineNumber": 177
  },
  "dimvision": {
   "state": "dimvision",
@@ -399,12 +448,14 @@
   "curse": 1,
   "overlay1": "cursedimvision",
   "castoverlay": "curse_hit",
-  "onsound": "necromancer_dimvision"
+  "onsound": "necromancer_dimvision",
+  "lineNumber": 23
  },
  "dodge": {
   "state": "dodge",
   "id": 65,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 65
  },
  "dopplezon": {
   "state": "dopplezon",
@@ -416,11 +467,13 @@
   "hide": 1,
   "udead": 1,
   "bossinv": 1,
-  "gfxtype": 2
+  "gfxtype": 2,
+  "lineNumber": 63
  },
  "dragonflight": {
   "state": "dragonflight",
-  "id": 116
+  "id": 116,
+  "lineNumber": 116
  },
  "enchant": {
   "state": "enchant",
@@ -430,17 +483,20 @@
   "castoverlay": "enchant",
   "stat": "skill_enchant",
   "itemtype": "weap",
-  "itemtrans": "cred"
+  "itemtrans": "cred",
+  "lineNumber": 16
  },
  "energyshield": {
   "state": "energyshield",
   "id": 30,
-  "overlay1": "energyshield"
+  "overlay1": "energyshield",
+  "lineNumber": 30
  },
  "evade": {
   "state": "evade",
   "id": 68,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 68
  },
  "fade": {
   "state": "fade",
@@ -451,7 +507,8 @@
   "rcblue": 1,
   "rpblue": 1,
   "overlay1": "fade",
-  "stat": "poisonresist"
+  "stat": "poisonresist",
+  "lineNumber": 159
  },
  "fanaticism": {
   "state": "fanaticism",
@@ -463,13 +520,15 @@
   "overlay1": "fanaticismfront",
   "overlay2": "fanaticismback",
   "stat": "attackrate",
-  "onsound": "paladin_aura_fanatacism"
+  "onsound": "paladin_aura_fanatacism",
+  "lineNumber": 49
  },
  "fenris_rage": {
   "state": "fenris_rage",
   "id": 138,
   "overlay1": "direwolfcharged",
-  "overlay2": "direwolfcharged"
+  "overlay2": "direwolfcharged",
+  "lineNumber": 138
  },
  "feralrage": {
   "state": "feralrage",
@@ -482,22 +541,26 @@
   "overlay4": "feralrage5back",
   "stat": "attackrate",
   "setfunc": 16,
-  "remfunc": 11
+  "remfunc": 11,
+  "lineNumber": 120
  },
  "fetishaura": {
   "state": "fetishaura",
   "id": 25,
   "overlay1": "fetish_aura",
-  "stat": "attackrate"
+  "stat": "attackrate",
+  "lineNumber": 25
  },
  "fingermagecurse": {
   "state": "fingermagecurse",
   "id": 84,
-  "overlay1": "fingermagecurse"
+  "overlay1": "fingermagecurse",
+  "lineNumber": 84
  },
  "firemastery": {
   "state": "firemastery",
-  "id": 71
+  "id": 71,
+  "lineNumber": 71
  },
  "freeze": {
   "state": "freeze",
@@ -512,13 +575,15 @@
   "light-r": 150,
   "light-g": 215,
   "light-b": 255,
-  "onsound": "impact_bluemotize_1"
+  "onsound": "impact_bluemotize_1",
+  "lineNumber": 1
  },
  "frenzy": {
   "state": "frenzy",
   "id": 94,
   "overlay2": "frenzy",
-  "stat": "skill_frenzy"
+  "stat": "skill_frenzy",
+  "lineNumber": 94
  },
  "frozenarmor": {
   "state": "frozenarmor",
@@ -526,21 +591,25 @@
   "group": 1,
   "armblue": 1,
   "overlay1": "frozenarmor",
-  "stat": "skill_armor_percent"
+  "stat": "skill_armor_percent",
+  "lineNumber": 10
  },
  "fullsetgeneric": {
   "state": "fullsetgeneric",
   "id": 175,
-  "overlay1": "aura_fanatic"
+  "overlay1": "aura_fanatic",
+  "lineNumber": 175
  },
  "golem_mastery": {
   "state": "golem_mastery",
   "id": 111,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 111
  },
  "healthpot": {
   "state": "healthpot",
-  "id": 100
+  "id": 100,
+  "lineNumber": 100
  },
  "holyfire": {
   "state": "holyfire",
@@ -548,14 +617,16 @@
   "aura": 1,
   "overlay1": "aura_holyfire_front",
   "overlay2": "aura_holyfire_back",
-  "onsound": "paladin_aura_holyfire"
+  "onsound": "paladin_aura_holyfire",
+  "lineNumber": 35
  },
  "holyshield": {
   "state": "holyshield",
   "id": 101,
   "transform": 1,
   "stat": "skill_armor_percent",
-  "skill": "Holy Shield"
+  "skill": "Holy Shield",
+  "lineNumber": 101
  },
  "holyshock": {
   "state": "holyshock",
@@ -564,14 +635,16 @@
   "overlay1": "holyshockfront",
   "overlay2": "holyshockback",
   "stat": "lightmaxdam",
-  "onsound": "paladin_aura_holylight"
+  "onsound": "paladin_aura_holylight",
+  "lineNumber": 46
  },
  "holywind": {
   "state": "holywind",
   "id": 43,
   "aura": 1,
   "overlay1": "holyfreeze",
-  "onsound": "paladin_aura_holywind"
+  "onsound": "paladin_aura_holywind",
+  "lineNumber": 43
  },
  "holywindcold": {
   "state": "holywindcold",
@@ -585,7 +658,8 @@
   "light-r": 150,
   "light-g": 215,
   "light-b": 255,
-  "onsound": "impact_bluemotize_1"
+  "onsound": "impact_bluemotize_1",
+  "lineNumber": 44
  },
  "hurricane": {
   "state": "hurricane",
@@ -594,34 +668,40 @@
   "setfunc": 7,
   "remfunc": 4,
   "cltactivefunc": 90,
-  "srvactivefunc": 145
+  "srvactivefunc": 145,
+  "lineNumber": 144
  },
  "increasedspeed": {
   "state": "increasedspeed",
   "id": 82,
-  "stat": "velocitypercent"
+  "stat": "velocitypercent",
+  "lineNumber": 82
  },
  "increasedstamina": {
   "state": "increasedstamina",
-  "id": 80
+  "id": 80,
+  "lineNumber": 80
  },
  "inferno": {
   "state": "inferno",
   "id": 12,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 12
  },
  "innersight": {
   "state": "innersight",
   "id": 17,
   "armred": 1,
   "overlay1": "innersight",
-  "stat": "armorclass"
+  "stat": "armorclass",
+  "lineNumber": 17
  },
  "invis": {
   "state": "invis",
   "id": 146,
   "setfunc": 12,
-  "remfunc": 8
+  "remfunc": 8,
+  "lineNumber": 146
  },
  "ironmaiden": {
   "state": "ironmaiden",
@@ -630,46 +710,56 @@
   "curse": 1,
   "overlay1": "curseironmaiden",
   "castoverlay": "curse_hit",
-  "onsound": "necromancer_ironmaiden"
+  "onsound": "necromancer_ironmaiden",
+  "lineNumber": 55
  },
  "ironskin": {
   "state": "ironskin",
-  "id": 81
+  "id": 81,
+  "lineNumber": 81
  },
  "itemset1": {
   "state": "itemset1",
-  "id": 165
+  "id": 165,
+  "lineNumber": 165
  },
  "itemset2": {
   "state": "itemset2",
-  "id": 166
+  "id": 166,
+  "lineNumber": 166
  },
  "itemset3": {
   "state": "itemset3",
-  "id": 167
+  "id": 167,
+  "lineNumber": 167
  },
  "itemset4": {
   "state": "itemset4",
-  "id": 168
+  "id": 168,
+  "lineNumber": 168
  },
  "itemset5": {
   "state": "itemset5",
-  "id": 169
+  "id": 169,
+  "lineNumber": 169
  },
  "itemset6": {
   "state": "itemset6",
   "id": 170,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 170
  },
  "just_portaled": {
   "state": "just_portaled",
-  "id": 102
+  "id": 102,
+  "lineNumber": 102
  },
  "justhit": {
   "state": "justhit",
   "id": 86,
   "group": 1,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 86
  },
  "lifetap": {
   "state": "lifetap",
@@ -678,15 +768,18 @@
   "curse": 1,
   "overlay1": "cursereversevampire",
   "castoverlay": "curse_hit",
-  "onsound": "necromancer_reversevampire"
+  "onsound": "necromancer_reversevampire",
+  "lineNumber": 58
  },
  "lightningbolt": {
   "state": "lightningbolt",
-  "id": 39
+  "id": 39,
+  "lineNumber": 39
  },
  "lightningmastery": {
   "state": "lightningmastery",
-  "id": 72
+  "id": 72,
+  "lineNumber": 72
  },
  "lowerresist": {
   "state": "lowerresist",
@@ -699,15 +792,18 @@
   "rpred": 1,
   "overlay1": "curselowerresist",
   "castoverlay": "curse_hit",
-  "stat": "lightresist"
+  "stat": "lightresist",
+  "lineNumber": 61
  },
  "macemastery": {
   "state": "macemastery",
-  "id": 76
+  "id": 76,
+  "lineNumber": 76
  },
  "manapot": {
   "state": "manapot",
-  "id": 106
+  "id": 106,
+  "lineNumber": 106
  },
  "maul": {
   "state": "maul",
@@ -721,7 +817,8 @@
   "overlay4": "maul5back",
   "stat": "damagepercent",
   "setfunc": 16,
-  "remfunc": 11
+  "remfunc": 11,
+  "lineNumber": 117
  },
  "meditation": {
   "state": "meditation",
@@ -730,7 +827,8 @@
   "immed": 1,
   "overlay1": "meditationfront",
   "overlay2": "meditationback",
-  "onsound": "paladin_aura_meditation"
+  "onsound": "paladin_aura_meditation",
+  "lineNumber": 48
  },
  "might": {
   "state": "might",
@@ -741,13 +839,15 @@
   "overlay1": "aura_might_front",
   "overlay2": "aura_might_back",
   "stat": "damagepercent",
-  "onsound": "paladin_aura_might"
+  "onsound": "paladin_aura_might",
+  "lineNumber": 33
  },
  "monfrenzy": {
   "state": "monfrenzy",
   "id": 103,
   "overlay2": "monfrenzy",
-  "stat": "skill_frenzy"
+  "stat": "skill_frenzy",
+  "lineNumber": 103
  },
  "monsterset": {
   "state": "monsterset",
@@ -757,61 +857,74 @@
   "disguise": 1,
   "castoverlay": "fire_cast_2",
   "gfxtype": 1,
-  "gfxclass": 135
+  "gfxclass": 135,
+  "lineNumber": 176
  },
  "naturalresistance": {
   "state": "naturalresistance",
-  "id": 83
+  "id": 83,
+  "lineNumber": 83
  },
  "nomanaregen": {
   "state": "nomanaregen",
   "id": 85,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 85
  },
  "none": {
-  "state": "none"
+  "state": "none",
+  "lineNumber": 0
  },
  "oaksage": {
   "state": "oaksage",
   "id": 149,
   "aura": 1,
-  "overlay2": "oak_sage"
+  "overlay2": "oak_sage",
+  "lineNumber": 149
  },
  "oaksagecontrol": {
   "state": "oaksagecontrol",
   "id": 161,
-  "aura": 1
+  "aura": 1,
+  "lineNumber": 161
  },
  "openwounds": {
   "state": "openwounds",
   "id": 62,
   "active": 1,
   "life": 1,
-  "cltactivefunc": 85
+  "cltactivefunc": 85,
+  "lineNumber": 62
  },
  "passive_resistcold": {
   "state": "passive_resistcold",
-  "id": 182
+  "id": 182,
+  "lineNumber": 182
  },
  "passive_resistfire": {
   "state": "passive_resistfire",
-  "id": 181
+  "id": 181,
+  "lineNumber": 181
  },
  "passive_resistltng": {
   "state": "passive_resistltng",
-  "id": 183
+  "id": 183,
+  "lineNumber": 183
  },
  "penetrate": {
   "state": "penetrate",
-  "id": 67
+  "id": 67,
+  "lineNumber": 67
  },
  "pierce": {
   "state": "pierce",
-  "id": 69
+  "id": 69,
+  "lineNumber": 69
  },
  "playerbody": {
   "state": "playerbody",
-  "id": 7
+  "id": 7,
+  "lineNumber": 7
  },
  "poison": {
   "state": "poison",
@@ -824,11 +937,13 @@
   "light-r": 128,
   "light-g": 255,
   "light-b": 128,
-  "onsound": "impact_poison_1"
+  "onsound": "impact_poison_1",
+  "lineNumber": 2
  },
  "polearmmastery": {
   "state": "polearmmastery",
-  "id": 77
+  "id": 77,
+  "lineNumber": 77
  },
  "prayer": {
   "state": "prayer",
@@ -836,19 +951,22 @@
   "aura": 1,
   "overlay1": "aura_prayer_front",
   "overlay2": "aura_prayer_back",
-  "onsound": "paladin_aura_prayer"
+  "onsound": "paladin_aura_prayer",
+  "lineNumber": 34
  },
  "pregnant": {
   "state": "pregnant",
   "id": 110,
   "overlay1": "impregnated",
-  "remfunc": 10
+  "remfunc": 10,
+  "lineNumber": 110
  },
  "preventheal": {
   "state": "preventheal",
   "id": 52,
   "immed": 1,
-  "life": 1
+  "life": 1,
+  "lineNumber": 52
  },
  "progressive_cold": {
   "state": "progressive_cold",
@@ -857,7 +975,8 @@
   "pgsvoverlay": "progressive_cold_1",
   "stat": "progressive_cold",
   "setfunc": 1,
-  "remfunc": 1
+  "remfunc": 1,
+  "lineNumber": 126
  },
  "progressive_damage": {
   "state": "progressive_damage",
@@ -866,7 +985,8 @@
   "pgsvoverlay": "progressive_damage_1",
   "stat": "progressive_damage",
   "setfunc": 1,
-  "remfunc": 1
+  "remfunc": 1,
+  "lineNumber": 122
  },
  "progressive_fire": {
   "state": "progressive_fire",
@@ -875,7 +995,8 @@
   "pgsvoverlay": "progressive_fire_1",
   "stat": "progressive_fire",
   "setfunc": 1,
-  "remfunc": 1
+  "remfunc": 1,
+  "lineNumber": 125
  },
  "progressive_lightning": {
   "state": "progressive_lightning",
@@ -884,7 +1005,8 @@
   "pgsvoverlay": "progressive_lightning_1",
   "stat": "progressive_lightning",
   "setfunc": 1,
-  "remfunc": 1
+  "remfunc": 1,
+  "lineNumber": 127
  },
  "progressive_other": {
   "state": "progressive_other",
@@ -893,7 +1015,8 @@
   "pgsvoverlay": "progressive_other_1",
   "stat": "progressive_other",
   "setfunc": 1,
-  "remfunc": 1
+  "remfunc": 1,
+  "lineNumber": 124
  },
  "progressive_steal": {
   "state": "progressive_steal",
@@ -902,7 +1025,8 @@
   "pgsvoverlay": "progressive_steal_1",
   "stat": "progressive_steal",
   "setfunc": 1,
-  "remfunc": 1
+  "remfunc": 1,
+  "lineNumber": 123
  },
  "quickness": {
   "state": "quickness",
@@ -910,12 +1034,14 @@
   "group": 2,
   "aura": 1,
   "overlay1": "quickness",
-  "stat": "attackrate"
+  "stat": "attackrate",
+  "lineNumber": 157
  },
  "rabies": {
   "state": "rabies",
   "id": 112,
-  "overlay1": "rabiesplague"
+  "overlay1": "rabiesplague",
+  "lineNumber": 112
  },
  "recycled": {
   "state": "recycled",
@@ -923,7 +1049,8 @@
   "monstaydeath": 1,
   "bossstaydeath": 1,
   "hide": 1,
-  "udead": 1
+  "udead": 1,
+  "lineNumber": 154
  },
  "red": {
   "state": "red",
@@ -932,7 +1059,8 @@
   "colorshift": 100,
   "light-r": 255,
   "light-g": 255,
-  "light-b": 255
+  "light-b": 255,
+  "lineNumber": 91
  },
  "redeemed": {
   "state": "redeemed",
@@ -943,7 +1071,8 @@
   "udead": 1,
   "setfunc": 10,
   "skill": "redemption",
-  "onsound": "paladin_redeemed_soul"
+  "onsound": "paladin_redeemed_soul",
+  "lineNumber": 99
  },
  "redemption": {
   "state": "redemption",
@@ -951,7 +1080,8 @@
   "aura": 1,
   "overlay1": "redemptionfront",
   "overlay2": "redemptionback",
-  "onsound": "paladin_aura_redemption"
+  "onsound": "paladin_aura_redemption",
+  "lineNumber": 50
  },
  "resistall": {
   "state": "resistall",
@@ -965,7 +1095,8 @@
   "overlay2": "aura_resistall_back",
   "castoverlay": "cast_resistall",
   "stat": "lightresist",
-  "onsound": "paladin_aura_salvation"
+  "onsound": "paladin_aura_salvation",
+  "lineNumber": 8
  },
  "resistcold": {
   "state": "resistcold",
@@ -976,7 +1107,8 @@
   "overlay1": "aura_resistcold",
   "castoverlay": "cast_resistcold",
   "stat": "coldresist",
-  "onsound": "paladin_aura_resistcold"
+  "onsound": "paladin_aura_resistcold",
+  "lineNumber": 4
  },
  "resistfire": {
   "state": "resistfire",
@@ -987,7 +1119,8 @@
   "overlay1": "aura_resistfire",
   "castoverlay": "cast_resistfire",
   "stat": "fireresist",
-  "onsound": "paladin_aura_resistfire"
+  "onsound": "paladin_aura_resistfire",
+  "lineNumber": 3
  },
  "resistlight": {
   "state": "resistlight",
@@ -998,11 +1131,13 @@
   "overlay1": "aura_resistlight",
   "castoverlay": "cast_resistlight",
   "stat": "lightresist",
-  "onsound": "paladin_aura_resistlightning"
+  "onsound": "paladin_aura_resistlightning",
+  "lineNumber": 5
  },
  "resistmagic": {
   "state": "resistmagic",
-  "id": 6
+  "id": 6,
+  "lineNumber": 6
  },
  "restinpeace": {
   "state": "restinpeace",
@@ -1013,7 +1148,8 @@
   "notondead": 1,
   "setfunc": 17,
   "missile": "redemption",
-  "onsound": "paladin_redeemed_soul"
+  "onsound": "paladin_redeemed_soul",
+  "lineNumber": 172
  },
  "revive": {
   "state": "revive",
@@ -1026,12 +1162,14 @@
   "colorshift": 73,
   "light-r": 255,
   "light-g": 255,
-  "light-b": 255
+  "light-b": 255,
+  "lineNumber": 96
  },
  "runeword": {
   "state": "runeword",
   "id": 171,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 171
  },
  "sanctuary": {
   "state": "sanctuary",
@@ -1042,7 +1180,8 @@
   "overlay2": "sanctuaryback",
   "stat": "skill_staminapercent",
   "onsound": "paladin_aura_sanctuary",
-  "cltactivefunc": 86
+  "cltactivefunc": 86,
+  "lineNumber": 47
  },
  "shadowwarrior": {
   "state": "shadowwarrior",
@@ -1052,7 +1191,8 @@
   "hide": 1,
   "udead": 1,
   "gfxtype": 2,
-  "gfxclass": 6
+  "gfxclass": 6,
+  "lineNumber": 119
  },
  "shatter": {
   "state": "shatter",
@@ -1061,7 +1201,8 @@
   "bossstaydeath": 1,
   "hide": 1,
   "shatter": 1,
-  "udead": 1
+  "udead": 1,
+  "lineNumber": 107
  },
  "shiverarmor": {
   "state": "shiverarmor",
@@ -1071,7 +1212,8 @@
   "armblue": 1,
   "overlay1": "shiverarmor",
   "stat": "skill_armor_percent",
-  "cltactivefunc": 87
+  "cltactivefunc": 87,
+  "lineNumber": 88
  },
  "shout": {
   "state": "shout",
@@ -1080,7 +1222,8 @@
   "armblue": 1,
   "overlay1": "shout",
   "castoverlay": "shoutstart",
-  "stat": "skill_armor_percent"
+  "stat": "skill_armor_percent",
+  "lineNumber": 26
  },
  "shrine_armor": {
   "state": "shrine_armor",
@@ -1089,7 +1232,8 @@
   "armblue": 1,
   "overlay1": "shrine_armor",
   "overlay2": "shrine_shimmer00",
-  "stat": "armorclass"
+  "stat": "armorclass",
+  "lineNumber": 128
  },
  "shrine_combat": {
   "state": "shrine_combat",
@@ -1099,21 +1243,24 @@
   "damblue": 1,
   "overlay1": "shrine_combat",
   "overlay2": "shrine_shimmer00",
-  "stat": "tohit"
+  "stat": "tohit",
+  "lineNumber": 129
  },
  "shrine_experience": {
   "state": "shrine_experience",
   "id": 137,
   "curse": 1,
   "overlay1": "shrine_experience",
-  "overlay2": "shrine_shimmer00"
+  "overlay2": "shrine_shimmer00",
+  "lineNumber": 137
  },
  "shrine_mana_regen": {
   "state": "shrine_mana_regen",
   "id": 135,
   "curse": 1,
   "overlay1": "shrine_mana_regen",
-  "overlay2": "shrine_shimmer01"
+  "overlay2": "shrine_shimmer01",
+  "lineNumber": 135
  },
  "shrine_resist_cold": {
   "state": "shrine_resist_cold",
@@ -1122,7 +1269,8 @@
   "rcblue": 1,
   "overlay1": "shrine_resist_cold",
   "overlay2": "shrine_shimmer01",
-  "stat": "coldresist"
+  "stat": "coldresist",
+  "lineNumber": 132
  },
  "shrine_resist_fire": {
   "state": "shrine_resist_fire",
@@ -1131,7 +1279,8 @@
   "rfblue": 1,
   "overlay1": "shrine_resist_fire",
   "overlay2": "shrine_shimmer00",
-  "stat": "fireresist"
+  "stat": "fireresist",
+  "lineNumber": 131
  },
  "shrine_resist_lightning": {
   "state": "shrine_resist_lightning",
@@ -1140,7 +1289,8 @@
   "rlblue": 1,
   "overlay1": "shrine_resist_lightning",
   "overlay2": "shrine_shimmer01",
-  "stat": "lightresist"
+  "stat": "lightresist",
+  "lineNumber": 130
  },
  "shrine_resist_poison": {
   "state": "shrine_resist_poison",
@@ -1149,7 +1299,8 @@
   "rpblue": 1,
   "overlay1": "shrine_resist_poison",
   "overlay2": "shrine_shimmer01",
-  "stat": "poisonresist"
+  "stat": "poisonresist",
+  "lineNumber": 133
  },
  "shrine_skill": {
   "state": "shrine_skill",
@@ -1158,7 +1309,8 @@
   "overlay1": "shrine_skill",
   "overlay2": "shrine_shimmer00",
   "setfunc": 9,
-  "remfunc": 6
+  "remfunc": 6,
+  "lineNumber": 134
  },
  "shrine_stamina": {
   "state": "shrine_stamina",
@@ -1167,32 +1319,38 @@
   "stambarblue": 1,
   "overlay1": "shrine_stamina",
   "overlay2": "shrine_shimmer01",
-  "stat": "stamina"
+  "stat": "stamina",
+  "lineNumber": 136
  },
  "skel_mastery": {
   "state": "skel_mastery",
   "id": 97,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 97
  },
  "skill_move": {
   "state": "skill_move",
-  "id": 18
+  "id": 18,
+  "lineNumber": 18
  },
  "skilldelay": {
   "state": "skilldelay",
   "id": 121,
   "setfunc": 19,
-  "remfunc": 12
+  "remfunc": 12,
+  "lineNumber": 121
  },
  "slowed": {
   "state": "slowed",
-  "id": 24
+  "id": 24,
+  "lineNumber": 24
  },
  "slowmissiles": {
   "state": "slowmissiles",
   "id": 87,
   "overlay1": "innersight",
-  "stat": "skill_handofathena"
+  "stat": "skill_handofathena",
+  "lineNumber": 87
  },
  "sourceunit": {
   "state": "sourceunit",
@@ -1200,15 +1358,18 @@
   "monstaydeath": 1,
   "bossstaydeath": 1,
   "setfunc": 4,
-  "remfunc": 2
+  "remfunc": 2,
+  "lineNumber": 98
  },
  "spearmastery": {
   "state": "spearmastery",
-  "id": 79
+  "id": 79,
+  "lineNumber": 79
  },
  "spiderlay": {
   "state": "spiderlay",
-  "id": 22
+  "id": 22,
+  "lineNumber": 22
  },
  "stamina": {
   "state": "stamina",
@@ -1218,31 +1379,37 @@
   "overlay1": "staminafront",
   "overlay2": "staminaback",
   "stat": "maxstamina",
-  "onsound": "paladin_aura_stamina"
+  "onsound": "paladin_aura_stamina",
+  "lineNumber": 41
  },
  "staminapot": {
   "state": "staminapot",
   "id": 180,
-  "stambarblue": 1
+  "stambarblue": 1,
+  "lineNumber": 180
  },
  "stunned": {
   "state": "stunned",
   "id": 21,
-  "overlay1": "stun"
+  "overlay1": "stun",
+  "lineNumber": 21
  },
  "summonresist": {
   "state": "summonresist",
   "id": 160,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 160
  },
  "swordmastery": {
   "state": "swordmastery",
-  "id": 74
+  "id": 74,
+  "lineNumber": 74
  },
  "sync_warped": {
   "state": "sync_warped",
   "id": 108,
-  "plrstaydeath": 1
+  "plrstaydeath": 1,
+  "lineNumber": 108
  },
  "taunt": {
   "state": "taunt",
@@ -1252,7 +1419,8 @@
   "attblue": 1,
   "damblue": 1,
   "overlay1": "taunt",
-  "onsound": "barbarian_battlecry_state"
+  "onsound": "barbarian_battlecry_state",
+  "lineNumber": 27
  },
  "terror": {
   "state": "terror",
@@ -1261,12 +1429,14 @@
   "curse": 1,
   "overlay1": "curseterror",
   "castoverlay": "curse_hit",
-  "onsound": "necromancer_taint"
+  "onsound": "necromancer_taint",
+  "lineNumber": 56
  },
  "thawing": {
   "state": "thawing",
   "id": 179,
-  "rcblue": 1
+  "rcblue": 1,
+  "lineNumber": 179
  },
  "thorns": {
   "state": "thorns",
@@ -1274,17 +1444,20 @@
   "aura": 1,
   "overlay1": "aura_thorns_front",
   "overlay2": "aura_thorns_back",
-  "onsound": "paladin_aura_thorns"
+  "onsound": "paladin_aura_thorns",
+  "lineNumber": 36
  },
  "throwingmastery": {
   "state": "throwingmastery",
-  "id": 78
+  "id": 78,
+  "lineNumber": 78
  },
  "thunderstorm": {
   "state": "thunderstorm",
   "id": 38,
   "overlay2": "thunderstormback",
-  "castoverlay": "thunderstormcast"
+  "castoverlay": "thunderstormcast",
+  "lineNumber": 38
  },
  "uberminion": {
   "state": "uberminion",
@@ -1293,12 +1466,14 @@
   "hide": 1,
   "shatter": 1,
   "udead": 1,
-  "onsound": "impact_bluemotize_1"
+  "onsound": "impact_bluemotize_1",
+  "lineNumber": 184
  },
  "uninterruptable": {
   "state": "uninterruptable",
   "id": 54,
-  "remfunc": 7
+  "remfunc": 7,
+  "lineNumber": 54
  },
  "valkyrie": {
   "state": "valkyrie",
@@ -1307,26 +1482,30 @@
   "disguise": 1,
   "overlay1": "valkyrie",
   "castoverlay": "valkyriestart",
-  "gfxtype": 2
+  "gfxtype": 2,
+  "lineNumber": 93
  },
  "venomclaws": {
   "state": "venomclaws",
   "id": 31,
   "stat": "poisonmindam",
   "itemtype": "mele",
-  "itemtrans": "cgrn"
+  "itemtrans": "cgrn",
+  "lineNumber": 31
  },
  "vine_beast": {
   "state": "vine_beast",
   "id": 150,
   "active": 1,
   "setfunc": 11,
-  "cltactivefunc": 89
+  "cltactivefunc": 89,
+  "lineNumber": 150
  },
  "warmth": {
   "state": "warmth",
   "id": 70,
-  "nosend": 1
+  "nosend": 1,
+  "lineNumber": 70
  },
  "weaken": {
   "state": "weaken",
@@ -1337,16 +1516,19 @@
   "overlay1": "curseweaken",
   "castoverlay": "curse_hit",
   "stat": "damagepercent",
-  "onsound": "necromancer_weaken"
+  "onsound": "necromancer_weaken",
+  "lineNumber": 19
  },
  "weaponblock": {
   "state": "weaponblock",
-  "id": 155
+  "id": 155,
+  "lineNumber": 155
  },
  "whirlwind": {
   "state": "whirlwind",
   "id": 174,
-  "overlay1": "whirlwind"
+  "overlay1": "whirlwind",
+  "lineNumber": 174
  },
  "wolf": {
   "state": "wolf",
@@ -1361,7 +1543,8 @@
   "onsound": "druid_morph",
   "offsound": "druid_morph",
   "gfxtype": 1,
-  "gfxclass": 430
+  "gfxclass": 430,
+  "lineNumber": 139
  },
  "wolverine": {
   "state": "wolverine",
@@ -1370,11 +1553,13 @@
   "attblue": 1,
   "damblue": 1,
   "overlay2": "heart_of_wolverine",
-  "stat": "item_tohit_percent"
+  "stat": "item_tohit_percent",
+  "lineNumber": 148
  },
  "wolverinecontrol": {
   "state": "wolverinecontrol",
   "id": 162,
-  "aura": 1
+  "aura": 1,
+  "lineNumber": 162
  }
 }
