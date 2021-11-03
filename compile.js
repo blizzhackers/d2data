@@ -201,7 +201,10 @@ let atomic = {};
 let atomicTypes = {};
 let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
 
-[...Object.values(full.weapons), Object.values(full.armor)].map(item => {
+[...Object.values(full.weapons), Object.values(full.armor)].forEach(item => {
+	if (!item.spawnable) {
+		return;
+	}
 	let tc = calcTC(item.level);
 
 	function handleAtomic(itemType) {
@@ -421,7 +424,7 @@ fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, '
 								for (let itc in calculatedTc[tc]) {
 									if (calculatedTc[tc][itc]) {
 										let chance = calculatedTc[tc][itc];
-										let name = items[itc].name;
+										let name = itc + ' - ' + items[itc].name;
 										levelCalcTc[level.LevelName][difficulty][name] = levelCalcTc[level.LevelName][difficulty][name] || 0;
 										levelCalcTc[level.LevelName][difficulty][name] += chance * mult / total;
 									}
