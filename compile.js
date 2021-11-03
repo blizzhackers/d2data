@@ -389,8 +389,17 @@ fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, '
 		if (level.NumMon) {
 			[
 				['normal', 'mon', 'TreasureClass1', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
+				['normal champs', 'mon', 'TreasureClass2', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
+				['normal uniques', 'mon', 'TreasureClass3', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
+				['normal boss', 'mon', 'TreasureClass4', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
 				['nightmare', 'nmon', 'TreasureClass1(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['nightmare champs', 'nmon', 'TreasureClass2(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['nightmare uniques', 'nmon', 'TreasureClass3(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['nightmare boss', 'nmon', 'TreasureClass4(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
 				['hell', 'nmon', 'TreasureClass1(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['hell champs', 'nmon', 'TreasureClass2(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['hell uniques', 'nmon', 'TreasureClass3(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
+				['hell boss', 'nmon', 'TreasureClass4(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
 			].forEach(([difficulty, monprefix, tcname, mlvlkey, lvlkey]) => {
 				for (let c = 1; c <= 10; c++) {
 					levelCalcTc[level.LevelName][difficulty] = levelCalcTc[level.LevelName][difficulty] || {};
