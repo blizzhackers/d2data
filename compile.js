@@ -428,24 +428,26 @@ let levelCalcTcEx = [0, 1, 2].map(diff => {
 	return full.Levels.map((level, id) => {
 		let drops = {};
 
-		[0, 1, 2].forEach(type => {
-			forEachMonster(level, diff, type, (mon, monCount, monType) => {
-				if (mon[s(tcKey[type])]) {
-					let lvlOffset = [0, 2, 3][monType];
-					let adj = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + 'Ex'] + lvlOffset, diff);
-					let {tcName, ilvl} = adj;
-					forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
-						getTcItems(pickName).forEach((chance, itc) => {
-							drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
-							drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
-							if (!drops[itc + '@' + ilvl]) {
-								delete drops[itc + '@' + ilvl];
-							}
-						});
-					});	
-				}
+		if (id < 133 || diff === 2) {
+			[0, 1, 2].forEach(type => {
+				forEachMonster(level, diff, type, (mon, monCount, monType) => {
+					if (mon[s(tcKey[type])]) {
+						let lvlOffset = [0, 2, 3][monType];
+						let adj = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + 'Ex'] + lvlOffset, diff);
+						let {tcName, ilvl} = adj;
+						forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
+							getTcItems(pickName).forEach((chance, itc) => {
+								drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
+								drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
+								if (!drops[itc + '@' + ilvl]) {
+									delete drops[itc + '@' + ilvl];
+								}
+							});
+						});	
+					}
+				});
 			});
-		});
+		}
 
 		return drops;
 	}).filter(v => Object.keys(v).length);			
