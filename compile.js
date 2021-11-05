@@ -2,7 +2,7 @@
  * Compile script for the json data. Basically, put all your txt files into
  * the txt/ directory, and this will compile it all into json. It assumes that
  * you've provided at least 'armor.txt', 'weapons.txt', 'TreasureClass.txt',
- * 'TreasureClassEx.txt', and 'ItemTypes.txt'.
+ * 'TreasureClassEx.txt', 'ItemTypes.txt', and 'monstats.txt'.
  *
  * @todo Refactor it, since I hacked it together fairly quickly.
  */
@@ -239,215 +239,219 @@ for (let c = 3; c <= 87; c += 3) {
 full.atomic = atomic;
 fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, ' '));
 
-[
-    [full.TreasureClass, './json/CalcTc.json', './json/TreasureClassGroups.json', './json/levelCalcTc.json', false],
-    [full.TreasureClassEx, './json/CalcTcEx.json', './json/TreasureClassExGroups.json', './json/levelCalcTcEx.json', true],
-].forEach(([treasureClass, destinationFile, groupsFile, levelCalcFile, expansion]) => {
-	let groups = {};
+const tcKey = [
+	'TreasureClass1',
+	'TreasureClass2',
+	'TreasureClass3',
+];
 
-	treasureClass.forEach((tc, key) => {
-		if (tc.group) {
-			groups[tc.group] = groups[tc.group] || [];
-			groups[tc.group][tc.level|0] = key;
-		}
-	});
+const monprefixKey = {
+	normal: 'mon',
+	nightmare: 'nmon',
+	hell: 'nmon',
+};
 
-	groups = groups.map(group => {
-		let length = group.length;
-		group = Object.assign({}, group);
-		group.length = length;
-		return group;
-	});
-
-	if (Object.values(groups).length) {
-		fs.writeFileSync(groupsFile, JSON.stringify(groups, null, ' '));
+function noDrop(e, nd, ...d) {
+	if (nd < 1) {
+		return 0;
 	}
-        
-    function noDrop(e, nd, ...d) {
-        if (nd < 1) {
-            return 0;
-        }
-    
-        e = 1 + Math.max(0, e);
-        d = d.reduce((t, v) => t + v, 0);
-    
-        if (d < 1) {
-            return Infinity;
-        }
-    
-        let nr = (nd / (nd + d))**e;
-        return Math.round(nr / (1 - nr) * d);
-    }
-    
-    function getItemList(name, mult = 1) {
-        name = name.toString();
-    
-        let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => items[v] && v !== 'gld'),
-            total = itemlist.reduce((total, code) => {
-                return total + (items[code].type && full.ItemTypes[items[code].type] && full.ItemTypes[items[code].type].Rarity ? full.ItemTypes[items[code].type].Rarity : 1);
-            }, 0),
-            ret = {};
-        
-        for(let code of itemlist) {
-            ret[code] = mult * full.ItemTypes[items[code].type].Rarity / total;
-        }
-    
-        return ret;
-    }
-    
-    function forEachTCItem(tc, func) {
-        for (let c = 1; c <= 9; c++) {
-            if (tc['Item' + c]){
-                let ret = func(tc['Item' + c], tc['Prob' + c] | 0);
-    
-                if (ret !== undefined && !ret) {
-                    return;
-                }
-            }
-        }
-    }
-    
-    function getTC(name, mult = 1) {
-        if (treasureClass[name]) {
-            let total = 0, ret = {};
-    
-            for (let c = 1; c <= 9; c++) {
-                total += treasureClass[name]['Prob' + c] | 0;
-            }
-    
-            let picks = Math.abs(treasureClass[name].Picks | 0);
-    
-            if ((treasureClass[name].Picks | 0) < 0) {
-                forEachTCItem(treasureClass[name], (item, prob) => {
-                    let count = Math.min(prob, picks);
-    
-                    getTC(item, count * mult).forEach((v, code) => {
-                        ret[code] = ret[code] || 0;
-                        ret[code] += v;
-                    });
-    
-                    return picks -= count;
-                });
-            } else if (treasureClass[name].Picks) {
-                let nodrop = noDrop(1, treasureClass[name].NoDrop | 0, total);
-                total += nodrop;
-                picks = (1 + picks) / 2;
-    
-                forEachTCItem(treasureClass[name], (item, prob) => {
-                    getTC(item, mult * picks * prob / total).forEach((v, code) => {
-                        ret[code] = ret[code] || 0;
-                        ret[code] += v;
-                    });
-                });
-            }
-    
-            return ret;
-        }
-    
-        return getItemList(name, mult);
-    }
-    
-    const calculatedTc = {};
-    
-    [
-        ...Object.keys(treasureClass),
-        ...Object.keys(atomic),
-    ].sort().forEach(key => {
-        calculatedTc[key] = getTC(key, 1);
-    });
-    
-    delete calculatedTc.Gold;
-    
-    fs.writeFileSync(destinationFile, JSON.stringify(calculatedTc, null, ' '));
 
-	function adjustTc(name, mlvl, lvl) {
-		mlvl = mlvl | 0;
-		lvl = lvl | 0;
+	e = 1 + Math.max(0, e);
+	d = d.reduce((t, v) => t + v, 0);
 
-		if (lvl > mlvl && treasureClass[name].group) {
-			let grp = groups[treasureClass[name].group] || [];
+	if (d < 1) {
+		return Infinity;
+	}
 
-			for (let c = lvl; c >= 0; c--) {
-				if (grp[c]) {
-					return grp[c];
-				}
+	let nr = (nd / (nd + d))**e;
+	return Math.round(nr / (1 - nr) * d);
+}
+
+function getItemList(name, mult = 1) {
+	name = name.toString();
+
+	let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => items[v] && v !== 'gld'),
+		total = itemlist.reduce((total, code) => {
+			return total + (items[code].type && full.ItemTypes[items[code].type] && full.ItemTypes[items[code].type].Rarity ? full.ItemTypes[items[code].type].Rarity : 1);
+		}, 0),
+		ret = {};
+	
+	for(let code of itemlist) {
+		ret[code] = mult * full.ItemTypes[items[code].type].Rarity / total;
+	}
+
+	return ret;
+}
+
+function _getTcItems(treasureClasses) {
+	function get(name, mult = 1, ret = {}) {
+		if (!treasureClasses[name]) {
+			getItemList(name, mult).forEach((chance, itc) => {
+				ret[itc] = ret[itc] || 0;
+				ret[itc] += chance * mult;
+			});
+
+			return ret;
+		}
+
+		let total = 0, tc = treasureClasses[name];
+
+		for (let c = 1; c <= 9; c++) {
+			total += tc['Prob' + c] | 0;
+		}
+
+		total += noDrop(1, tc.NoDrop | 0, total);
+
+		for (let c = 1; c <= 9; c++) {
+			if (tc['Item' + c]) {
+				get(tc['Item' + c], mult * tc['Prob' + c] / total, ret);
 			}
 		}
 
-		return name;
+		return ret;
 	}
 
-	const levelCalcTc = {};
+	return get;
+};
 
-	full.Levels.forEach(level => {
-		if (level.expansion && !expansion) {
-			return;
+let groupsEx = {};
+
+full.TreasureClassEx.forEach((tc, key) => {
+	if (tc.group) {
+		groupsEx[tc.group] = groupsEx[tc.group] || [];
+		groupsEx[tc.group][tc.level|0] = key;
+	}
+});
+
+groupsEx = groupsEx.map(group => {
+	let length = group.length;
+	group = Object.assign({}, group);
+	group.length = length;
+	return group;
+});
+
+function adjustTc(name, mlvl, lvl, difficulty) {
+	mlvl = mlvl | 0;
+	lvl = lvl | 0;
+
+	if (difficulty !== 'normal' && lvl > mlvl && full.TreasureClassEx[name].group) {
+		let grp = groupsEx[full.TreasureClassEx[name].group] || [];
+
+		for (let c = lvl; c >= 0; c--) {
+			if (grp[c]) {
+				return { tcName: grp[c], ilvl: lvl };
+			}
 		}
+	}
 
-		levelCalcTc[level.LevelName] = {};
+	return { tcName: name, ilvl: mlvl };
+}
 
-		if (level.NumMon) {
-			[
-				['normal', 'mon', 'TreasureClass1', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
-				['normal champs', 'mon', 'TreasureClass2', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
-				['normal uniques', 'mon', 'TreasureClass3', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
-				['normal boss', 'mon', 'TreasureClass4', 'Level', (expansion ? 'MonLvl1Ex' : 'MonLvl1')],
-				['nightmare', 'nmon', 'TreasureClass1(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['nightmare champs', 'nmon', 'TreasureClass2(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['nightmare uniques', 'nmon', 'TreasureClass3(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['nightmare boss', 'nmon', 'TreasureClass4(N)', 'Level(N)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['hell', 'nmon', 'TreasureClass1(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['hell champs', 'nmon', 'TreasureClass2(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['hell uniques', 'nmon', 'TreasureClass3(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-				['hell boss', 'nmon', 'TreasureClass4(H)', 'Level(H)', (expansion ? 'MonLvl2Ex' : 'MonLvl2')],
-			].forEach(([difficulty, monprefix, tcname, mlvlkey, lvlkey]) => {
-				for (let c = 1; c <= 10; c++) {
-					levelCalcTc[level.LevelName][difficulty] = levelCalcTc[level.LevelName][difficulty] || {};
+let _s = diff => str => str + ['', '(N)', '(H)'][diff];
 
-					if (level[monprefix + c] && monstats[level[monprefix + c]]) {
-						let mon = monstats[level[monprefix + c]],
-							avg = (mon.MinGrp + mon.MaxGrp) / 2,
-							minionavg = mon.minion2 ? (mon.PartyMin + mon.PartyMax) / 4 : (mon.PartyMin + mon.PartyMax) / 2,
-							tcs = {};
-		
-						if (mon[tcname]) {
-							tcs[adjustTc(mon[tcname], mon[mlvlkey], level[lvlkey])] = avg;
-						}
-		
-						if (mon.minion1 && monstats[mon.minion1][tcname]) {
-							let m1tc = adjustTc(monstats[mon.minion1][tcname], monstats[mon.minion1][mlvlkey], level[lvlkey])
-							tcs[m1tc] = tcs[m1tc] || 0;
-							tcs[m1tc] += minionavg;
-						}
-		
-						if (mon.minion2 && monstats[mon.minion2][tcname]) {
-							let m2tc = adjustTc(monstats[mon.minion2][tcname], monstats[mon.minion2][mlvlkey], level[lvlkey]);
-							tcs[m2tc] = tcs[m2tc] || 0;
-							tcs[m2tc] += minionavg;
-						}
-		
-						let total = Object.values(tcs).reduce((t, v) => t + v, 0);
-		
-						tcs.forEach((mult, tc) => {
-							if (calculatedTc[tc]) {
-								for (let itc in calculatedTc[tc]) {
-									if (calculatedTc[tc][itc]) {
-										let chance = calculatedTc[tc][itc];
-										let name = itc + ' - ' + items[itc].name;
-										levelCalcTc[level.LevelName][difficulty][name] = levelCalcTc[level.LevelName][difficulty][name] || 0;
-										levelCalcTc[level.LevelName][difficulty][name] += chance * mult / total;
-									}
-								}
+function forEachMonster(level, diff, type, func) {
+	let s = _s(diff), prefix = diff ? 'nmon' : type ? 'umon' : 'mon', monsters = {}, minions = {}, total = 0, packCount = [
+		Math.max(0, (level[s('SizeX')] || 0) * (level[s('SizeY')] || 0) * (level[s('MonDen')] || 0) / 80000 - (((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) / 2)),
+		((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) * 0.1,
+		((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) * 0.4,
+	][type];
+
+	for (let c = 1; c <= 9; c++) {
+		if (level[prefix + c] && monstats[level[prefix + c]].enabled && monstats[level[prefix + c]].killable) {
+			let mon = monstats[level[prefix + c]], spawnCount = [
+				(mon.MinGrp + mon.MaxGrp) / 2,
+				3,
+				1,
+			][type];
+
+			monsters[mon.Id] = monsters[mon.Id] || 0;
+			monsters[mon.Id] += spawnCount;
+			total += spawnCount;
+
+			if (type != 1 && (mon.minion1 || mon.minion2)) {
+				[
+					monstats[mon.minion1 || mon.minion2],
+					monstats[mon.minion2 || mon.minion1],
+				].forEach(minion => {
+					minions[minion.Id] = minions[minion.Id] || 0;
+					minions[minion.Id] += type ? 4.5 : ((minion.PartyMin || 0) + (minion.PartyMax || 0)) / 4;
+					total += type ? 4.5 : ((minion.PartyMin || 0) + (minion.PartyMax || 0)) / 4;
+				});	
+			}
+		}
+	}
+
+	monsters.forEach((spawnCount, monId) => func(monstats[monId], packCount * spawnCount / total, type));
+	minions.forEach((spawnCount, monId) => func(monstats[monId], packCount * spawnCount / total, 0));
+}
+
+function forEachPick(tc, func) {
+	let picklist = {};
+
+	if (tc) {
+		if (tc.Picks < 0) {
+			let picks = -tc.Picks;
+	
+			for (let c = 1; picks > 0 && c <= 9; c++) {
+				if (tc['Item' + c]) {
+					for (let d = 1; picks > 0 && d <= tc['Prob' + c]; d++) {
+						picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
+						picklist[tc['Item' + c]] += 1;
+						picks--;
+					}	
+				}
+			}
+		} else if (tc.Picks > 0) {
+			let mult = (1 + tc.Picks) / 2, total = 0;
+	
+			for (let c = 1; c <= 9; c++) {
+				total += tc['Prob' + c] | 0;
+			}
+	
+			total += noDrop(1, tc.NoDrop | 0, total);
+	
+			for (let c = 1; c <= 9; c++) {
+				picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
+				picklist[tc['Item' + c]] += tc['Prob' + c] * mult / total;
+			}
+		}
+	}
+
+	picklist.forEach(func);
+}
+
+let getTcItems = _getTcItems(full.TreasureClassEx);
+
+let levelCalcTcEx = [0, 1, 2].map(diff => {
+	let s = _s(diff);
+
+	return full.Levels.map((level, id) => {
+		let drops = {};
+
+		[0, 1, 2].forEach(type => {
+			forEachMonster(level, diff, type, (mon, monCount, monType) => {
+				if (mon[s(tcKey[type])]) {
+					let lvlOffset = [0, 2, 3][monType];
+					let adj = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + 'Ex'] + lvlOffset, diff);
+					let {tcName, ilvl} = adj;
+					forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
+						getTcItems(pickName).forEach((chance, itc) => {
+							drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
+							drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
+							if (!drops[itc + '@' + ilvl]) {
+								delete drops[itc + '@' + ilvl];
 							}
 						});
-					}
+					});	
 				}
 			});
-		}
-	});
+		});
 
-	fs.writeFileSync(levelCalcFile, JSON.stringify(levelCalcTc, null, ' '));
-});
+		return drops;
+	}).filter(v => Object.keys(v).length);			
+}).filter(v => Object.keys(v).length);
+
+fs.writeFileSync('./json/levelCalcTcEx.json', JSON.stringify(levelCalcTcEx, null, ' '));
 
 delete full.Sounds;
 delete full.Missiles;
