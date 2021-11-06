@@ -245,12 +245,6 @@ const tcKey = [
 	'TreasureClass3',
 ];
 
-const monprefixKey = {
-	normal: 'mon',
-	nightmare: 'nmon',
-	hell: 'nmon',
-};
-
 function noDrop(e, nd, ...d) {
 	if (nd < 1) {
 		return 0;
@@ -283,6 +277,36 @@ function getItemList(name, mult = 1) {
 	return ret;
 }
 
+let groupsEx = {}, groupsClassic = {};
+
+full.TreasureClassEx.forEach((tc, key) => {
+	if (tc.group) {
+		groupsEx[tc.group] = groupsEx[tc.group] || [];
+		groupsEx[tc.group][tc.level|0] = key;
+	}
+});
+
+full.TreasureClass.forEach((tc, key) => {
+	if (tc.group) {
+		groupsClassic[tc.group] = groupsClassic[tc.group] || [];
+		groupsClassic[tc.group][tc.level|0] = key;
+	}
+});
+
+groupsEx = groupsEx.map(group => {
+	let length = group.length;
+	group = Object.assign({}, group);
+	group.length = length;
+	return group;
+});
+
+groupsClassic = groupsClassic.map(group => {
+	let length = group.length;
+	group = Object.assign({}, group);
+	group.length = length;
+	return group;
+});
+
 function _getTcItems(treasureClasses) {
 	function get(name, mult = 1, ret = {}) {
 		if (!treasureClasses[name]) {
@@ -314,37 +338,27 @@ function _getTcItems(treasureClasses) {
 	return get;
 };
 
-let groupsEx = {};
+function _adjustTc (tcs, groups) {
+	return function (name, mlvl, lvl, difficulty) {
+		mlvl = mlvl | 0;
+		lvl = lvl | 0;
 
-full.TreasureClassEx.forEach((tc, key) => {
-	if (tc.group) {
-		groupsEx[tc.group] = groupsEx[tc.group] || [];
-		groupsEx[tc.group][tc.level|0] = key;
-	}
-});
-
-groupsEx = groupsEx.map(group => {
-	let length = group.length;
-	group = Object.assign({}, group);
-	group.length = length;
-	return group;
-});
-
-function adjustTc(name, mlvl, lvl, difficulty) {
-	mlvl = mlvl | 0;
-	lvl = lvl | 0;
-
-	if (difficulty !== 'normal' && lvl > mlvl && full.TreasureClassEx[name].group) {
-		let grp = groupsEx[full.TreasureClassEx[name].group] || [];
-
-		for (let c = lvl; c >= 0; c--) {
-			if (grp[c]) {
-				return { tcName: grp[c], ilvl: lvl };
+		if (difficulty) {
+			if (/* lvl > mlvl && */ tcs[name].group) {
+				let grp = groups[tcs[name].group] || [];
+	
+				for (let c = lvl; c >= 0; c--) {
+					if (grp[c]) {
+						return { tcName: grp[c], ilvl: difficulty ? lvl : mlvl };
+					}
+				}
 			}
+	
+			return { tcName: name, ilvl: difficulty ? lvl : mlvl };
 		}
-	}
 
-	return { tcName: name, ilvl: mlvl };
+		return { tcName: name, ilvl: mlvl };
+	}
 }
 
 let _s = diff => str => str + ['', '(N)', '(H)'][diff];
@@ -420,40 +434,46 @@ function forEachPick(tc, func) {
 	picklist.forEach(func);
 }
 
-let getTcItems = _getTcItems(full.TreasureClassEx);
+[
+	[true, full.TreasureClassEx, groupsEx, './json/levelCalcTcEx.json'],
+	[false, full.TreasureClass, groupsClassic, './json/levelCalcTc.json'],
+].forEach(([expansion, treasureClass, grp, filename]) => {
+	let getTcItems = _getTcItems(treasureClass);
+	let adjustTc = _adjustTc(treasureClass, grp);
 
-let levelCalcTcEx = [0, 1, 2].map(diff => {
-	let s = _s(diff);
+	let levelCalcTc = [0, 1, 2].map(diff => {
+		let s = _s(diff);
+	
+		return full.Levels.map((level, id) => {
+			let drops = {};
+	
+			if ((!level.expansion || expansion) && (id < 133 || diff === 2)) {
+				[0, 1, 2].forEach(type => {
+					forEachMonster(level, diff, type, (mon, monCount, monType) => {
+						if (mon[s(tcKey[type])]) {
+							let lvlOffset = [0, 2, 3][monType];
+							let {tcName, ilvl} = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] + lvlOffset, diff);
 
-	return full.Levels.map((level, id) => {
-		let drops = {};
-
-		if (id < 133 || diff === 2) {
-			[0, 1, 2].forEach(type => {
-				forEachMonster(level, diff, type, (mon, monCount, monType) => {
-					if (mon[s(tcKey[type])]) {
-						let lvlOffset = [0, 2, 3][monType];
-						let adj = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + 'Ex'] + lvlOffset, diff);
-						let {tcName, ilvl} = adj;
-						forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
-							getTcItems(pickName).forEach((chance, itc) => {
-								drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
-								drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
-								if (!drops[itc + '@' + ilvl]) {
-									delete drops[itc + '@' + ilvl];
-								}
-							});
-						});	
-					}
+							forEachPick(treasureClass[tcName], (picks, pickName) => {
+								getTcItems(pickName).forEach((chance, itc) => {
+									drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
+									drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
+									if (!drops[itc + '@' + ilvl]) {
+										delete drops[itc + '@' + ilvl];
+									}
+								});
+							});	
+						}
+					});
 				});
-			});
-		}
-
-		return drops;
-	}).filter(v => Object.keys(v).length);			
-}).filter(v => Object.keys(v).length);
-
-fs.writeFileSync('./json/levelCalcTcEx.json', JSON.stringify(levelCalcTcEx, null, ' '));
+			}
+	
+			return drops;
+		}).filter(v => Object.keys(v).length);			
+	}).filter(v => Object.keys(v).length);
+	
+	fs.writeFileSync(filename, JSON.stringify(levelCalcTc, null, ' '));
+});
 
 delete full.Sounds;
 delete full.Missiles;
