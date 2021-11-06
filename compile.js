@@ -361,24 +361,19 @@ function _getTcItems(treasureClasses, expansion) {
 
 function _adjustTc (tcs, groups) {
 	return function (name, mlvl, lvl, difficulty) {
-		mlvl = mlvl | 0;
-		lvl = lvl | 0;
+		lvl = difficulty ? lvl : mlvl, origTcLevel = tcs[name].level || 0;
 
-		if (difficulty) {
-			if (tcs[name].group) {
-				let grp = groups[tcs[name].group] || [];
-	
-				for (let c = lvl; c >= 0; c--) {
-					if (grp[c]) {
-						return { tcName: grp[c], ilvl: difficulty ? lvl : mlvl };
-					}
+		if (difficulty && tcs[name].group) {
+			let grp = groups[tcs[name].group] || [];
+
+			for (let c = lvl; c >= origTcLevel; c--) {
+				if (grp[c]) {
+					return { tcName: grp[c], ilvl: lvl };
 				}
 			}
-	
-			return { tcName: name, ilvl: difficulty ? lvl : mlvl };
 		}
 
-		return { tcName: name, ilvl: mlvl };
+		return { tcName: name, ilvl: lvl };
 	}
 }
 
@@ -489,7 +484,7 @@ function forEachPick(tc, func) {
 				});
 			}
 	
-			return drops;
+			return keySort(drops);
 		}).filter(v => Object.keys(v).length);			
 	}).filter(v => Object.keys(v).length);
 	
