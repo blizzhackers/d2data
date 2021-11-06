@@ -7651,7 +7651,6 @@
   "monanim": "xx",
   "reqlevel": 1,
   "interrupt": 1,
-  "scroll": 0,
   "calc1": "\"(lvl < 5) ? lvl : min(12,5+(lvl-5)/3)\"",
   "*calc1 desc": "# to spawn",
   "InGame": 1,
@@ -12780,7 +12779,7 @@
   "Param1": 45,
   "*Param1 Description": "Delay in poison clouds",
   "Param2": 3,
-  "*Param2 Description": "Delay in lightning ",
+  "*Param2 Description": "Delay in lightning",
   "InGame": 1,
   "HitShift": 8,
   "lineNumber": 284

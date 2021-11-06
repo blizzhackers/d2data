@@ -949,7 +949,6 @@
   "Direction": "b"
  },
  "72": {
-  "expansion": 1,
   "Name": "Act 5 Barricade Down Wall",
   "Id": 71,
   "SelectX": -70,
@@ -962,10 +961,10 @@
   "OffsetY": 6,
   "LitVersion": 1,
   "Tiles": 4,
-  "Direction": "l"
+  "Direction": "l",
+  "expansion": 1
  },
  "73": {
-  "expansion": 1,
   "Name": "Act 5 Barricade Down Wall",
   "Id": 71,
   "SelectX": -15,
@@ -978,10 +977,10 @@
   "OffsetY": 2,
   "LitVersion": 1,
   "Tiles": 4,
-  "Direction": "r"
+  "Direction": "r",
+  "expansion": 1
  },
  "74": {
-  "expansion": 1,
   "Name": "Act 5 Barricade Down Floor",
   "Id": 72,
   "SelectX": -20,
@@ -994,10 +993,10 @@
   "OffsetY": 2,
   "LitVersion": 1,
   "Tiles": 4,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "75": {
-  "expansion": 1,
   "Name": "Act 5 Ice Caves Up",
   "Id": 73,
   "SelectX": -60,
@@ -1009,10 +1008,10 @@
   "OffsetY": 5,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "l"
+  "Direction": "l",
+  "expansion": 1
  },
  "76": {
-  "expansion": 1,
   "Name": "Act 5 Ice Caves Up",
   "Id": 73,
   "SelectX": -10,
@@ -1025,10 +1024,10 @@
   "OffsetY": 1,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "r"
+  "Direction": "r",
+  "expansion": 1
  },
  "77": {
-  "expansion": 1,
   "Name": "Act 5 Ice Caves Down",
   "Id": 74,
   "SelectX": -60,
@@ -1040,10 +1039,10 @@
   "OffsetY": 5,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "l"
+  "Direction": "l",
+  "expansion": 1
  },
  "78": {
-  "expansion": 1,
   "Name": "Act 5 Ice Caves Down",
   "Id": 74,
   "SelectX": -20,
@@ -1055,10 +1054,10 @@
   "OffsetX": 4,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "r"
+  "Direction": "r",
+  "expansion": 1
  },
  "79": {
-  "expansion": 1,
   "Name": "Act 5 Ice Caves Down Floor",
   "Id": 75,
   "SelectX": -5,
@@ -1071,10 +1070,10 @@
   "OffsetY": 3,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "80": {
-  "expansion": 1,
   "Name": "Act 5 Temple Entrance",
   "Id": 76,
   "SelectY": -110,
@@ -1085,10 +1084,10 @@
   "OffsetX": 2,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "81": {
-  "expansion": 1,
   "Name": "Act 5 Temple Down",
   "Id": 77,
   "SelectY": -70,
@@ -1100,10 +1099,10 @@
   "OffsetY": 3,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "82": {
-  "expansion": 1,
   "Name": "Act 5 Temple Up",
   "Id": 78,
   "SelectX": -20,
@@ -1115,10 +1114,10 @@
   "OffsetX": 3,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "83": {
-  "expansion": 1,
   "Name": "Act 5 Mountain Top To Ice",
   "Id": 79,
   "SelectX": -40,
@@ -1128,10 +1127,10 @@
   "OffsetX": 2,
   "OffsetY": 1,
   "Tiles": 2,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "84": {
-  "expansion": 1,
   "Name": "Act 5 Mountain Top To Baal",
   "Id": 80,
   "SelectX": -20,
@@ -1141,10 +1140,10 @@
   "OffsetX": 2,
   "OffsetY": 1,
   "Tiles": 2,
-  "Direction": "b"
+  "Direction": "b",
+  "expansion": 1
  },
  "85": {
-  "expansion": 1,
   "Name": "Act 5 Baal Temple Up",
   "Id": 81,
   "SelectX": -70,
@@ -1157,10 +1156,10 @@
   "OffsetY": 4,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "l"
+  "Direction": "l",
+  "expansion": 1
  },
  "86": {
-  "expansion": 1,
   "Name": "Act 5 Baal Temple Up",
   "Id": 81,
   "SelectX": -20,
@@ -1173,10 +1172,10 @@
   "OffsetY": 1,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "r"
+  "Direction": "r",
+  "expansion": 1
  },
  "87": {
-  "expansion": 1,
   "Name": "Act 5 Baal Temple Down",
   "Id": 82,
   "SelectX": -70,
@@ -1189,10 +1188,10 @@
   "OffsetY": 4,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "l"
+  "Direction": "l",
+  "expansion": 1
  },
  "88": {
-  "expansion": 1,
   "Name": "Act 5 Baal Temple Down",
   "Id": 82,
   "SelectX": -20,
@@ -1205,6 +1204,7 @@
   "OffsetY": 1,
   "LitVersion": 1,
   "Tiles": 2,
-  "Direction": "r"
+  "Direction": "r",
+  "expansion": 1
  }
 }

@@ -423,7 +423,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r01,qty=3\"",
-  "output": "r02"
+  "output": "r02",
+  "expansion": 1
  },
  "52": {
   "description": "3 rune 02 -> rune 03",
@@ -431,7 +432,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r02,qty=3\"",
-  "output": "r03"
+  "output": "r03",
+  "expansion": 1
  },
  "53": {
   "description": "3 rune 03 -> rune 04",
@@ -439,7 +441,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r03,qty=3\"",
-  "output": "r04"
+  "output": "r04",
+  "expansion": 1
  },
  "54": {
   "description": "3 rune 04 -> rune 05",
@@ -447,7 +450,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r04,qty=3\"",
-  "output": "r05"
+  "output": "r05",
+  "expansion": 1
  },
  "55": {
   "description": "3 rune 05 -> rune 06",
@@ -455,7 +459,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r05,qty=3\"",
-  "output": "r06"
+  "output": "r06",
+  "expansion": 1
  },
  "56": {
   "description": "3 rune 06 -> rune 07",
@@ -463,7 +468,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r06,qty=3\"",
-  "output": "r07"
+  "output": "r07",
+  "expansion": 1
  },
  "57": {
   "description": "3 rune 07 -> rune 08",
@@ -471,7 +477,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r07,qty=3\"",
-  "output": "r08"
+  "output": "r08",
+  "expansion": 1
  },
  "58": {
   "description": "3 rune 08 -> rune 09",
@@ -479,7 +486,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r08,qty=3\"",
-  "output": "r09"
+  "output": "r09",
+  "expansion": 1
  },
  "59": {
   "description": "3 rune 09 -> rune 10",
@@ -487,7 +495,8 @@
   "version": 100,
   "numinputs": 3,
   "input 1": "\"r09,qty=3\"",
-  "output": "r10"
+  "output": "r10",
+  "expansion": 1
  },
  "60": {
   "description": "3 perfect gems + 1 magic item -> magic item",
@@ -497,7 +506,8 @@
   "input 1": "\"any,mag\"",
   "input 2": "\"gem4,qty=3\"",
   "output": "\"usetype,mag\"",
-  "ilvl": 100
+  "ilvl": 100,
+  "expansion": 1
  },
  "61": {
   "description": "6 perfect skulls + 1 rare item -> 1 low level rare item",
@@ -550,7 +560,8 @@
   "mod 2 max": 7,
   "mod 3": "ac-miss",
   "mod 3 min": 25,
-  "mod 3 max": 50
+  "mod 3 max": 50,
+  "expansion": 1
  },
  "65": {
   "description": "magic chain boots + jewel + rune 08 + perfect sapphire -> hitpower boots",
@@ -573,7 +584,8 @@
   "mod 2 max": 7,
   "mod 3": "ac-hth",
   "mod 3 min": 25,
-  "mod 3 max": 60
+  "mod 3 max": 60,
+  "expansion": 1
  },
  "66": {
   "description": "magic chain gloves + jewel + rune 09 + perfect sapphire -> hitpower gloves",
@@ -596,7 +608,8 @@
   "mod 2 max": 7,
   "mod 3": "knock",
   "mod 3 min": 1,
-  "mod 3 max": 1
+  "mod 3 max": 1,
+  "expansion": 1
  },
  "67": {
   "description": "magic heavy belt + jewel + rune 07 + perfect sapphire -> hitpower belt",
@@ -619,7 +632,8 @@
   "mod 2 max": 7,
   "mod 3": "dmg-to-mana",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "68": {
   "description": "magic gothic shield + jewel + rune 05 + perfect sapphire -> hitpower shield",
@@ -642,7 +656,8 @@
   "mod 2 max": 10,
   "mod 3": "block",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "69": {
   "description": "magic field plate + jewel + rune 04 + perfect sapphire -> hitpower body",
@@ -665,7 +680,8 @@
   "mod 2 max": 10,
   "mod 3": "balance1",
   "mod 3 min": 10,
-  "mod 3 max": 20
+  "mod 3 max": 20,
+  "expansion": 1
  },
  "70": {
   "description": "magic amulet + jewel + rune 10 + perfect sapphire -> hitpower amulet",
@@ -688,7 +704,8 @@
   "mod 2 max": 10,
   "mod 3": "howl",
   "mod 3 min": 5,
-  "mod 3 max": 15
+  "mod 3 max": 15,
+  "expansion": 1
  },
  "71": {
   "description": "magic ring + jewel + rune 11 + perfect sapphire -> hitpower ring",
@@ -711,7 +728,8 @@
   "mod 2 max": 6,
   "mod 3": "dex",
   "mod 3 min": 1,
-  "mod 3 max": 5
+  "mod 3 max": 5,
+  "expansion": 1
  },
  "72": {
   "description": "magic blunt + jewel + rune 03 + perfect sapphire -> hitpower weapon",
@@ -734,7 +752,8 @@
   "mod 2 max": 7,
   "mod 3": "dmg%",
   "mod 3 min": 35,
-  "mod 3 max": 60
+  "mod 3 max": 60,
+  "expansion": 1
  },
  "73": {
   "description": "magic helm + jewel + rune 08 + perfect ruby -> blood helm",
@@ -756,7 +775,8 @@
   "mod 2 max": 20,
   "mod 3": "deadly",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "74": {
   "description": "magic light plated boots + jewel + rune 05 + perfect ruby -> blood boots",
@@ -778,7 +798,8 @@
   "mod 2 max": 20,
   "mod 3": "regen",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "75": {
   "description": "magic heavy gloves + jewel + rune 04 + perfect ruby -> blood gloves",
@@ -800,7 +821,8 @@
   "mod 2 max": 20,
   "mod 3": "crush",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "76": {
   "description": "magic belt + jewel + rune 07 + perfect ruby -> blood belt",
@@ -822,7 +844,8 @@
   "mod 2 max": 20,
   "mod 3": "openwounds",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "77": {
   "description": "magic spiked shield + jewel + rune 06 + perfect ruby -> blood shield",
@@ -844,7 +867,8 @@
   "mod 2 max": 20,
   "mod 3": "thorns",
   "mod 3 min": 4,
-  "mod 3 max": 7
+  "mod 3 max": 7,
+  "expansion": 1
  },
  "78": {
   "description": "magic plate mail + jewel + rune 10 + perfect ruby -> blood body",
@@ -866,7 +890,8 @@
   "mod 2 max": 20,
   "mod 3": "demon-heal",
   "mod 3 min": 1,
-  "mod 3 max": 3
+  "mod 3 max": 3,
+  "expansion": 1
  },
  "79": {
   "description": "magic amulet + jewel + rune 11 + perfect ruby -> blood amulet",
@@ -888,7 +913,8 @@
   "mod 2 max": 20,
   "mod 3": "move1",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "80": {
   "description": "magic ring + jewel + rune 12 + perfect ruby -> blood ring",
@@ -910,7 +936,8 @@
   "mod 2 max": 20,
   "mod 3": "str",
   "mod 3 min": 1,
-  "mod 3 max": 5
+  "mod 3 max": 5,
+  "expansion": 1
  },
  "81": {
   "description": "magic axe + jewel + rune 09 + perfect ruby -> blood weapon",
@@ -932,7 +959,8 @@
   "mod 2 max": 20,
   "mod 3": "dmg%",
   "mod 3 min": 35,
-  "mod 3 max": 60
+  "mod 3 max": 60,
+  "expansion": 1
  },
  "82": {
   "description": "magic mask + jewel + rune 04 + perfect amethyst -> caster helm",
@@ -954,7 +982,8 @@
   "mod 2 max": 20,
   "mod 3": "manasteal",
   "mod 3 min": 1,
-  "mod 3 max": 4
+  "mod 3 max": 4,
+  "expansion": 1
  },
  "83": {
   "description": "magic boots + jewel + rune 10 + perfect amethyst -> caster boots",
@@ -976,7 +1005,8 @@
   "mod 2 max": 20,
   "mod 3": "mana%",
   "mod 3 min": 2,
-  "mod 3 max": 5
+  "mod 3 max": 5,
+  "expansion": 1
  },
  "84": {
   "description": "magic leather gloves + jewel + rune 09 + perfect amethyst -> caster gloves",
@@ -998,7 +1028,8 @@
   "mod 2 max": 20,
   "mod 3": "mana-kill",
   "mod 3 min": 1,
-  "mod 3 max": 3
+  "mod 3 max": 3,
+  "expansion": 1
  },
  "85": {
   "description": "magic light belt + jewel + rune 06 + perfect amethyst -> caster belt",
@@ -1020,7 +1051,8 @@
   "mod 2 max": 20,
   "mod 3": "cast1",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "86": {
   "description": "magic small shield + jewel + rune 05 + perfect amethyst -> caster shield",
@@ -1042,7 +1074,8 @@
   "mod 2 max": 20,
   "mod 3": "block",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "87": {
   "description": "magic light plate + jewel + rune 07 + perfect amethyst -> caster body",
@@ -1064,7 +1097,8 @@
   "mod 2 max": 20,
   "mod 3": "mana-kill",
   "mod 3 min": 1,
-  "mod 3 max": 3
+  "mod 3 max": 3,
+  "expansion": 1
  },
  "88": {
   "description": "magic amulet + jewel + rune 08 + perfect amethyst -> caster amulet",
@@ -1086,7 +1120,8 @@
   "mod 2 max": 20,
   "mod 3": "cast1",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "89": {
   "description": "magic ring + jewel + rune 11 + perfect amethyst -> caster ring",
@@ -1108,7 +1143,8 @@
   "mod 2 max": 20,
   "mod 3": "enr",
   "mod 3 min": 1,
-  "mod 3 max": 5
+  "mod 3 max": 5,
+  "expansion": 1
  },
  "90": {
   "description": "magic rod + jewel + rune 03 + perfect amethyst -> caster weapon",
@@ -1130,7 +1166,8 @@
   "mod 2 max": 20,
   "mod 3": "mana%",
   "mod 3 min": 1,
-  "mod 3 max": 5
+  "mod 3 max": 5,
+  "expansion": 1
  },
  "91": {
   "description": "magic crown + jewel + rune 06 + perfect emerald -> safety helm",
@@ -1155,7 +1192,8 @@
   "mod 3 max": 10,
   "mod 4": "ac%",
   "mod 4 min": 10,
-  "mod 4 max": 30
+  "mod 4 max": 30,
+  "expansion": 1
  },
  "92": {
   "description": "magic plate boots + jewel + rune 09 + perfect emerald -> safety boots",
@@ -1180,7 +1218,8 @@
   "mod 3 max": 10,
   "mod 4": "ac%",
   "mod 4 min": 10,
-  "mod 4 max": 30
+  "mod 4 max": 30,
+  "expansion": 1
  },
  "93": {
   "description": "magic gauntlets + jewel + rune 08 + perfect emerald -> safety gloves",
@@ -1205,7 +1244,8 @@
   "mod 3 max": 10,
   "mod 4": "ac%",
   "mod 4 min": 10,
-  "mod 4 max": 30
+  "mod 4 max": 30,
+  "expansion": 1
  },
  "94": {
   "description": "magic sash + jewel + rune 07 + perfect emerald -> safety belt",
@@ -1230,7 +1270,8 @@
   "mod 3 max": 10,
   "mod 4": "ac%",
   "mod 4 min": 10,
-  "mod 4 max": 30
+  "mod 4 max": 30,
+  "expansion": 1
  },
  "95": {
   "description": "magic kite shield + jewel + rune 04 + perfect emerald -> safety shield",
@@ -1255,7 +1296,8 @@
   "mod 3 max": 10,
   "mod 4": "ac%",
   "mod 4 min": 10,
-  "mod 4 max": 30
+  "mod 4 max": 30,
+  "expansion": 1
  },
  "96": {
   "description": "magic breastplate + jewel + rune 05 + perfect emerald -> safety body",
@@ -1280,7 +1322,8 @@
   "mod 3 max": 1,
   "mod 4": "ac%",
   "mod 4 min": 10,
-  "mod 4 max": 30
+  "mod 4 max": 30,
+  "expansion": 1
  },
  "97": {
   "description": "magic amulet + jewel + rune 10 + perfect emerald -> safety amulet",
@@ -1302,7 +1345,8 @@
   "mod 2 max": 2,
   "mod 3": "block",
   "mod 3 min": 1,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "98": {
   "description": "magic ring + jewel + rune 11 + perfect emerald -> safety ring",
@@ -1324,7 +1368,8 @@
   "mod 2 max": 2,
   "mod 3": "vit",
   "mod 3 min": 1,
-  "mod 3 max": 5
+  "mod 3 max": 5,
+  "expansion": 1
  },
  "99": {
   "description": "magic spear + jewel + rune 12 + perfect emerald -> safety weapon",
@@ -1346,7 +1391,8 @@
   "mod 2 max": 2,
   "mod 3": "ac%",
   "mod 3 min": 5,
-  "mod 3 max": 10
+  "mod 3 max": 10,
+  "expansion": 1
  },
  "100": {
   "description": "3 rune 10 + 1 chipped topaz -> rune 11",
@@ -1355,7 +1401,8 @@
   "numinputs": 4,
   "input 1": "\"r10,qty=3\"",
   "input 2": "gcy",
-  "output": "r11"
+  "output": "r11",
+  "expansion": 1
  },
  "101": {
   "description": "3 rune 11 + 1 chipped amethyst -> rune 12",
@@ -1364,7 +1411,8 @@
   "numinputs": 4,
   "input 1": "\"r11,qty=3\"",
   "input 2": "gcv",
-  "output": "r12"
+  "output": "r12",
+  "expansion": 1
  },
  "102": {
   "description": "3 rune 12 + 1 chipped sapphire -> rune 13",
@@ -1373,7 +1421,8 @@
   "numinputs": 4,
   "input 1": "\"r12,qty=3\"",
   "input 2": "gcb",
-  "output": "r13"
+  "output": "r13",
+  "expansion": 1
  },
  "103": {
   "description": "3 rune 13 + 1 chipped ruby -> rune 14",
@@ -1382,7 +1431,8 @@
   "numinputs": 4,
   "input 1": "\"r13,qty=3\"",
   "input 2": "gcr",
-  "output": "r14"
+  "output": "r14",
+  "expansion": 1
  },
  "104": {
   "description": "3 rune 14 + 1 chipped emerald -> rune 15",
@@ -1392,7 +1442,8 @@
   "numinputs": 4,
   "input 1": "\"r14,qty=3\"",
   "input 2": "gcg",
-  "output": "r15"
+  "output": "r15",
+  "expansion": 1
  },
  "105": {
   "description": "3 rune 15 + 1 chipped diamond -> rune 16",
@@ -1402,7 +1453,8 @@
   "numinputs": 4,
   "input 1": "\"r15,qty=3\"",
   "input 2": "gcw",
-  "output": "r16"
+  "output": "r16",
+  "expansion": 1
  },
  "106": {
   "description": "3 rune 16 + 1 flawed topaz -> rune 17",
@@ -1412,7 +1464,8 @@
   "numinputs": 4,
   "input 1": "\"r16,qty=3\"",
   "input 2": "gfy",
-  "output": "r17"
+  "output": "r17",
+  "expansion": 1
  },
  "107": {
   "description": "3 rune 17 + 1 flawed amethyst -> rune 18",
@@ -1422,7 +1475,8 @@
   "numinputs": 4,
   "input 1": "\"r17,qty=3\"",
   "input 2": "gfv",
-  "output": "r18"
+  "output": "r18",
+  "expansion": 1
  },
  "108": {
   "description": "3 rune 18 + 1 flawed sapphire -> rune 19",
@@ -1432,7 +1486,8 @@
   "numinputs": 4,
   "input 1": "\"r18,qty=3\"",
   "input 2": "gfb",
-  "output": "r19"
+  "output": "r19",
+  "expansion": 1
  },
  "109": {
   "description": "3 rune 19 + 1 flawed ruby -> rune 20",
@@ -1442,7 +1497,8 @@
   "numinputs": 4,
   "input 1": "\"r19,qty=3\"",
   "input 2": "gfr",
-  "output": "r20"
+  "output": "r20",
+  "expansion": 1
  },
  "110": {
   "description": "3 rune 20 + 1 flawed emerald -> rune 21",
@@ -1452,7 +1508,8 @@
   "numinputs": 4,
   "input 1": "\"r20,qty=3\"",
   "input 2": "gfg",
-  "output": "r21"
+  "output": "r21",
+  "expansion": 1
  },
  "111": {
   "description": "2 rune 21 + 1 flawed diamond -> rune 22",
@@ -1462,7 +1519,8 @@
   "numinputs": 3,
   "input 1": "\"r21,qty=2\"",
   "input 2": "gfw",
-  "output": "r22"
+  "output": "r22",
+  "expansion": 1
  },
  "112": {
   "description": "2 rune 22 + 1 standard topaz -> rune 23",
@@ -1472,7 +1530,8 @@
   "numinputs": 3,
   "input 1": "\"r22,qty=2\"",
   "input 2": "gsy",
-  "output": "r23"
+  "output": "r23",
+  "expansion": 1
  },
  "113": {
   "description": "2 rune 23 + 1 standard amethyst -> rune 24",
@@ -1482,7 +1541,8 @@
   "numinputs": 3,
   "input 1": "\"r23,qty=2\"",
   "input 2": "gsv",
-  "output": "r24"
+  "output": "r24",
+  "expansion": 1
  },
  "114": {
   "description": "2 rune 24 + 1 standard sapphire -> rune 25",
@@ -1492,7 +1552,8 @@
   "numinputs": 3,
   "input 1": "\"r24,qty=2\"",
   "input 2": "gsb",
-  "output": "r25"
+  "output": "r25",
+  "expansion": 1
  },
  "115": {
   "description": "2 rune 25 + 1 standard ruby -> rune 26",
@@ -1502,7 +1563,8 @@
   "numinputs": 3,
   "input 1": "\"r25,qty=2\"",
   "input 2": "gsr",
-  "output": "r26"
+  "output": "r26",
+  "expansion": 1
  },
  "116": {
   "description": "2 rune 26 + 1 standard emerald -> rune 27",
@@ -1512,7 +1574,8 @@
   "numinputs": 3,
   "input 1": "\"r26,qty=2\"",
   "input 2": "gsg",
-  "output": "r27"
+  "output": "r27",
+  "expansion": 1
  },
  "117": {
   "description": "2 rune 27 + 1 standard diamond -> rune 28",
@@ -1522,7 +1585,8 @@
   "numinputs": 3,
   "input 1": "\"r27,qty=2\"",
   "input 2": "gsw",
-  "output": "r28"
+  "output": "r28",
+  "expansion": 1
  },
  "118": {
   "description": "2 rune 28 + 1 flawless topaz -> rune 29",
@@ -1532,7 +1596,8 @@
   "numinputs": 3,
   "input 1": "\"r28,qty=2\"",
   "input 2": "gly",
-  "output": "r29"
+  "output": "r29",
+  "expansion": 1
  },
  "119": {
   "description": "2 rune 29 + 1 flawless amethyst -> rune 30",
@@ -1542,7 +1607,8 @@
   "numinputs": 3,
   "input 1": "\"r29,qty=2\"",
   "input 2": "gzv",
-  "output": "r30"
+  "output": "r30",
+  "expansion": 1
  },
  "120": {
   "description": "2 rune 30 + 1 flawless sapphire -> rune 31",
@@ -1552,7 +1618,8 @@
   "numinputs": 3,
   "input 1": "\"r30,qty=2\"",
   "input 2": "glb",
-  "output": "r31"
+  "output": "r31",
+  "expansion": 1
  },
  "121": {
   "description": "2 rune 31 + 1 flawless ruby -> rune 32",
@@ -1562,7 +1629,8 @@
   "numinputs": 3,
   "input 1": "\"r31,qty=2\"",
   "input 2": "glr",
-  "output": "r32"
+  "output": "r32",
+  "expansion": 1
  },
  "122": {
   "description": "2 rune 32 + 1 flawless emerald -> rune 33",
@@ -1572,7 +1640,8 @@
   "numinputs": 3,
   "input 1": "\"r32,qty=2\"",
   "input 2": "glg",
-  "output": "r33"
+  "output": "r33",
+  "expansion": 1
  },
  "123": {
   "description": "r07 + r10 + 1 perfect topaz + normal torso -> socketed torso",
@@ -1586,7 +1655,8 @@
   "output": "useitem",
   "mod 1": "sock",
   "mod 1 min": 1,
-  "mod 1 max": 6
+  "mod 1 max": 6,
+  "expansion": 1
  },
  "124": {
   "description": "r08 + r11 + 1 perfect amethyst + normal weapon -> socketed weapon",
@@ -1600,7 +1670,8 @@
   "output": "useitem",
   "mod 1": "sock",
   "mod 1 min": 1,
-  "mod 1 max": 6
+  "mod 1 max": 6,
+  "expansion": 1
  },
  "125": {
   "description": "r08 + r10 + 1 perfect sapphire + normal helm -> socketed helm",
@@ -1614,7 +1685,8 @@
   "output": "useitem",
   "mod 1": "sock",
   "mod 1 min": 1,
-  "mod 1 max": 6
+  "mod 1 max": 6,
+  "expansion": 1
  },
  "126": {
   "description": "r07 + r11 + 1 perfect ruby + normal shield -> socketed shield",
@@ -1628,7 +1700,8 @@
   "output": "useitem",
   "mod 1": "sock",
   "mod 1 min": 1,
-  "mod 1 max": 6
+  "mod 1 max": 6,
+  "expansion": 1
  },
  "127": {
   "description": "r02 + 1 chipped gem + low weapon -> normal weapon",
@@ -1638,7 +1711,8 @@
   "input 1": "\"weap,low\"",
   "input 2": "r02",
   "input 3": "gem0",
-  "output": "\"usetype,nor\""
+  "output": "\"usetype,nor\"",
+  "expansion": 1
  },
  "128": {
   "description": "r01 + 1 chipped gem + low armor -> normal armor",
@@ -1648,7 +1722,8 @@
   "input 1": "\"armo,low\"",
   "input 2": "r01",
   "input 3": "gem0",
-  "output": "\"usetype,nor\""
+  "output": "\"usetype,nor\"",
+  "expansion": 1
  },
  "129": {
   "description": "r08 + r12 + perfect emerald + basic unique weapon -> exceptional unique weapon",
@@ -1662,7 +1737,8 @@
   "output": "\"useitem,mod,exc\"",
   "mod 1": "levelreq",
   "mod 1 min": 5,
-  "mod 1 max": 5
+  "mod 1 max": 5,
+  "expansion": 1
  },
  "130": {
   "description": "r07 + r13 + perfect diamond + basic unique armor -> exceptional unique armor",
@@ -1676,7 +1752,8 @@
   "output": "\"useitem,mod,exc\"",
   "mod 1": "levelreq",
   "mod 1 min": 5,
-  "mod 1 max": 5
+  "mod 1 max": 5,
+  "expansion": 1
  },
  "131": {
   "description": "r17 + r21 + perfect emerald + exceptional unique weapon -> elite unique weapon",
@@ -1691,7 +1768,8 @@
   "output": "\"useitem,mod,eli\"",
   "mod 1": "levelreq",
   "mod 1 min": 7,
-  "mod 1 max": 7
+  "mod 1 max": 7,
+  "expansion": 1
  },
  "132": {
   "description": "r18 + r20 + perfect diamond + exceptional unique armor -> elite unique armor",
@@ -1706,7 +1784,8 @@
   "output": "\"useitem,mod,eli\"",
   "mod 1": "levelreq",
   "mod 1 min": 7,
-  "mod 1 max": 7
+  "mod 1 max": 7,
+  "expansion": 1
  },
  "133": {
   "description": "r09 + r11 + perfect sapphire + basic rare weapon -> exceptional rare weapon",
@@ -1720,7 +1799,8 @@
   "output": "\"useitem,mod,exc\"",
   "mod 1": "levelreq",
   "mod 1 min": 5,
-  "mod 1 max": 5
+  "mod 1 max": 5,
+  "expansion": 1
  },
  "134": {
   "description": "r08 + r10 + perfect amethyst + basic rare armor -> exceptional rare armor",
@@ -1734,7 +1814,8 @@
   "output": "\"useitem,mod,exc\"",
   "mod 1": "levelreq",
   "mod 1 min": 5,
-  "mod 1 max": 5
+  "mod 1 max": 5,
+  "expansion": 1
  },
  "135": {
   "description": "r19 + r22 + perfect sapphire + exceptional rare weapon -> elite rare weapon",
@@ -1748,7 +1829,8 @@
   "output": "\"useitem,mod,eli\"",
   "mod 1": "levelreq",
   "mod 1 min": 7,
-  "mod 1 max": 7
+  "mod 1 max": 7,
+  "expansion": 1
  },
  "136": {
   "description": "r18 + r21 + perfect amethyst + exceptional rare armor -> elite rare armor",
@@ -1762,7 +1844,8 @@
   "output": "\"useitem,mod,eli\"",
   "mod 1": "levelreq",
   "mod 1 min": 7,
-  "mod 1 max": 7
+  "mod 1 max": 7,
+  "expansion": 1
  },
  "137": {
   "description": "r09 + weapon -> repair",
@@ -1771,7 +1854,8 @@
   "numinputs": 2,
   "input 1": "\"weap,noe\"",
   "input 2": "r09",
-  "output": "\"useitem,rep,qty=255\""
+  "output": "\"useitem,rep,qty=255\"",
+  "expansion": 1
  },
  "138": {
   "description": "r08 + armor -> repair",
@@ -1780,7 +1864,8 @@
   "numinputs": 2,
   "input 1": "\"armo,noe\"",
   "input 2": "r08",
-  "output": "\"useitem,rep,qty=255\""
+  "output": "\"useitem,rep,qty=255\"",
+  "expansion": 1
  },
  "139": {
   "description": "r09 + weapon + chipped gem -> repair + recharge",
@@ -1790,7 +1875,8 @@
   "input 1": "\"weap,noe\"",
   "input 2": "r09",
   "input 3": "gem0",
-  "output": "\"useitem,rep,rch,qty=255\""
+  "output": "\"useitem,rep,rch,qty=255\"",
+  "expansion": 1
  },
  "140": {
   "description": "r08 + armor + flawed gem -> repair + recharge",
@@ -1800,7 +1886,8 @@
   "input 1": "\"armo,noe\"",
   "input 2": "r08",
   "input 3": "gem1",
-  "output": "\"useitem,rep,rch,qty=255\""
+  "output": "\"useitem,rep,rch,qty=255\"",
+  "expansion": 1
  },
  "141": {
   "description": "r15 + tsc + any socketed item -> unsocket (destroy gems)",
@@ -1810,7 +1897,8 @@
   "input 1": "\"any,sock\"",
   "input 2": "r15",
   "input 3": "tsc",
-  "output": "\"useitem,uns\""
+  "output": "\"useitem,uns\"",
+  "expansion": 1
  },
  "142": {
   "description": "r08 + jew + superior armor -> tempered armor",
@@ -1819,7 +1907,8 @@
   "input 1": "\"armo,hiq,nos\"",
   "input 2": "jew",
   "input 3": "r08",
-  "output": "\"useitem,tmp\""
+  "output": "\"useitem,tmp\"",
+  "expansion": 1
  },
  "143": {
   "description": "r08 + jew + superior weapon -> tempered weapon",
@@ -1828,7 +1917,8 @@
   "input 1": "\"weap,hiq,nos\"",
   "input 2": "jew",
   "input 3": "r08",
-  "output": "\"useitem,tmp\""
+  "output": "\"useitem,tmp\"",
+  "expansion": 1
  },
  "144": {
   "description": "r08 + jew + magic ring -> tempered ring",
@@ -1840,7 +1930,8 @@
   "output": "\"usetype,tmp\"",
   "mod 1": "levelreq",
   "mod 1 min": 3,
-  "mod 1 max": 3
+  "mod 1 max": 3,
+  "expansion": 1
  },
  "145": {
   "description": "r08 + jew + magic amulet -> tempered amulet",
@@ -1852,7 +1943,8 @@
   "output": "\"usetype,tmp\"",
   "mod 1": "levelreq",
   "mod 1 min": 5,
-  "mod 1 max": 5
+  "mod 1 max": 5,
+  "expansion": 1
  },
  "146": {
   "description": "r01 + gcv + tempered weapon -> +30-50 ar",
@@ -1867,7 +1959,8 @@
   "mod 1 max": 2,
   "mod 2": "att",
   "mod 2 min": 30,
-  "mod 2 max": 50
+  "mod 2 max": 50,
+  "expansion": 1
  },
  "147": {
   "description": "\"3 chipped gems + 1 magic weapon -> socketed, magic weapon\"",
@@ -1891,7 +1984,8 @@
   "input 1": "pk1",
   "input 2": "pk2",
   "input 3": "pk3",
-  "output": "Pandemonium Portal"
+  "output": "Pandemonium Portal",
+  "expansion": 1
  },
  "149": {
   "description": "Pandemonium Finale key",
@@ -1902,7 +1996,8 @@
   "input 1": "dhn",
   "input 2": "bey",
   "input 3": "mbr",
-  "output": "Pandemonium Finale Portal"
+  "output": "Pandemonium Finale Portal",
+  "expansion": 1
  },
  "150": {
   "description": "Token of Absolution",
@@ -1913,6 +2008,7 @@
   "input 2": "ceh",
   "input 3": "bet",
   "input 4": "fed",
-  "output": "toa"
+  "output": "toa",
+  "expansion": 1
  }
 }

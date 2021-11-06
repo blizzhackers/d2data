@@ -1,6 +1,5 @@
 {
  "Aldur's Watchtower": {
-  "expansion": 1,
   "index": "Aldur's Watchtower",
   "name": "Aldur's Watchtower",
   "version": 100,
@@ -36,6 +35,7 @@
   "FParam7": "fullsetgeneric",
   "FMin7": 1,
   "FMax7": 1,
+  "expansion": 1,
   "lineNumber": 18
  },
  "Angelical Raiment": {
@@ -132,7 +132,6 @@
   "lineNumber": 11
  },
  "Bul-Kathos' Children": {
-  "expansion": 1,
   "index": "Bul-Kathos' Children",
   "name": "Bul-Kathos' Children",
   "version": 100,
@@ -155,6 +154,7 @@
   "FCode6": "dmg-demon",
   "FMin6": 200,
   "FMax6": 200,
+  "expansion": 1,
   "lineNumber": 29
  },
  "Cathan's Traps": {
@@ -224,7 +224,6 @@
   "lineNumber": 2
  },
  "Cow King's Leathers": {
-  "expansion": 1,
   "index": "Cow King's Leathers",
   "name": "Cow King's Leathers",
   "version": 100,
@@ -251,6 +250,7 @@
   "FCode6": "swing3",
   "FMin6": 30,
   "FMax6": 30,
+  "expansion": 1,
   "lineNumber": 30
  },
  "Death's Disguise": {
@@ -272,7 +272,6 @@
   "lineNumber": 12
  },
  "Griswold's Legacy": {
-  "expansion": 1,
   "index": "Griswold's Legacy",
   "name": "Griswold's Legacy",
   "version": 100,
@@ -302,10 +301,10 @@
   "FCode6": "balance2",
   "FMin6": 30,
   "FMax6": 30,
+  "expansion": 1,
   "lineNumber": 21
  },
  "Heaven's Brethren": {
-  "expansion": 1,
   "index": "Heaven's Brethren",
   "name": "Heaven's Brethren",
   "version": 100,
@@ -331,6 +330,7 @@
   "FCode4": "light",
   "FMin4": 5,
   "FMax4": 5,
+  "expansion": 1,
   "lineNumber": 25
  },
  "Hsarus' Defense": {
@@ -352,7 +352,6 @@
   "lineNumber": 1
  },
  "Hwanin's Majesty": {
-  "expansion": 1,
   "index": "Hwanin's Majesty",
   "name": "Hwanin's Majesty",
   "version": 100,
@@ -375,10 +374,10 @@
   "FCode4": "res-all",
   "FMin4": 30,
   "FMax4": 30,
+  "expansion": 1,
   "lineNumber": 27
  },
  "Immortal King": {
-  "expansion": 1,
   "index": "Immortal King",
   "name": "Immortal King",
   "version": 100,
@@ -411,6 +410,7 @@
   "FParam5": "fullsetgeneric",
   "FMin5": 1,
   "FMax5": 1,
+  "expansion": 1,
   "lineNumber": 19
  },
  "Infernal Tools": {
@@ -496,7 +496,6 @@
   "lineNumber": 4
  },
  "M'avina's Battle Hymn": {
-  "expansion": 1,
   "index": "M'avina's Battle Hymn",
   "name": "M'avina's Battle Hymn",
   "version": 100,
@@ -526,10 +525,10 @@
   "FParam6": "fullsetgeneric",
   "FMin6": 1,
   "FMax6": 1,
+  "expansion": 1,
   "lineNumber": 23
  },
  "McAuley's Folly": {
-  "expansion": 1,
   "index": "McAuley's Folly",
   "name": "McAuley's Folly",
   "version": 100,
@@ -552,6 +551,7 @@
   "FCode4": "lifesteal",
   "FMin4": 4,
   "FMax4": 4,
+  "expansion": 1,
   "lineNumber": 32
  },
  "Milabrega's Regalia": {
@@ -579,7 +579,6 @@
   "lineNumber": 6
  },
  "Naj's Ancient Set": {
-  "expansion": 1,
   "index": "Naj's Ancient Set",
   "name": "Naj's Ancient Set",
   "version": 100,
@@ -605,10 +604,10 @@
   "FCode6": "mana",
   "FMin6": 100,
   "FMax6": 100,
+  "expansion": 1,
   "lineNumber": 31
  },
  "Natalya's Odium": {
-  "expansion": 1,
   "index": "Natalya's Odium",
   "name": "Natalya's Odium",
   "version": 100,
@@ -643,10 +642,10 @@
   "FCode7": "fade",
   "FMin7": 1,
   "FMax7": 1,
+  "expansion": 1,
   "lineNumber": 17
  },
  "Orphan's Call": {
-  "expansion": 1,
   "index": "Orphan's Call",
   "name": "Orphan's Call",
   "version": 100,
@@ -678,10 +677,10 @@
   "FCode6": "mag%",
   "FMin6": 80,
   "FMax6": 80,
+  "expansion": 1,
   "lineNumber": 26
  },
  "Sazabi's Grand Tribute": {
-  "expansion": 1,
   "index": "Sazabi's Grand Tribute",
   "name": "Sazabi's Grand Tribute",
   "version": 100,
@@ -698,6 +697,7 @@
   "FCode3": "hp%",
   "FMin3": 27,
   "FMax3": 27,
+  "expansion": 1,
   "lineNumber": 28
  },
  "Sigon's Complete Steel": {
@@ -728,7 +728,6 @@
   "lineNumber": 9
  },
  "Tal Rasha's Wrappings": {
-  "expansion": 1,
   "index": "Tal Rasha's Wrappings",
   "name": "Tal Rasha's Wrappings",
   "version": 100,
@@ -761,6 +760,7 @@
   "FParam6": "fullsetgeneric",
   "FMin6": 1,
   "FMax6": 1,
+  "expansion": 1,
   "lineNumber": 20
  },
  "Tancred's Battlegear": {
@@ -788,7 +788,6 @@
   "lineNumber": 8
  },
  "The Disciple": {
-  "expansion": 1,
   "index": "The Disciple",
   "name": "The Disciple",
   "version": 100,
@@ -815,10 +814,10 @@
   "FCode3": "mana",
   "FMin3": 100,
   "FMax3": 100,
+  "expansion": 1,
   "lineNumber": 24
  },
  "Trang-Oul's Avatar": {
-  "expansion": 1,
   "index": "Trang-Oul's Avatar",
   "name": "Trang-Oul's Avatar",
   "version": 100,
@@ -870,6 +869,7 @@
   "FCode8": "lifesteal",
   "FMin8": 20,
   "FMax8": 20,
+  "expansion": 1,
   "lineNumber": 22
  },
  "Vidala's Rig": {

@@ -284,7 +284,8 @@
   "enabled": 1,
   "version": 100,
   "constants": 100,
-  "*constant desc": "unique +elem max dmg% (N)"
+  "*constant desc": "unique +elem max dmg% (N)",
+  "expansion": 1
  },
  "33": {
   "uniquemod": "suicideminion_explode",
@@ -292,19 +293,22 @@
   "enabled": 1,
   "version": 100,
   "constants": 100,
-  "*constant desc": "unique +elem max dmg% (H)"
+  "*constant desc": "unique +elem max dmg% (H)",
+  "expansion": 1
  },
  "34": {
   "uniquemod": "ai_after_death",
   "id": 34,
   "enabled": 1,
-  "version": 100
+  "version": 100,
+  "expansion": 1
  },
  "35": {
   "uniquemod": "shatter_on_death",
   "id": 35,
   "enabled": 1,
-  "version": 100
+  "version": 100,
+  "expansion": 1
  },
  "36": {
   "uniquemod": "ghostly",
@@ -315,7 +319,8 @@
   "champion": 1,
   "cpick": 1,
   "cpick (N)": 1,
-  "cpick (H)": 1
+  "cpick (H)": 1,
+  "expansion": 1
  },
  "37": {
   "uniquemod": "fanatic",
@@ -326,7 +331,8 @@
   "champion": 1,
   "cpick": 1,
   "cpick (N)": 1,
-  "cpick (H)": 1
+  "cpick (H)": 1,
+  "expansion": 1
  },
  "38": {
   "uniquemod": "possessed",
@@ -337,7 +343,8 @@
   "champion": 1,
   "cpick": 1,
   "cpick (N)": 1,
-  "cpick (H)": 1
+  "cpick (H)": 1,
+  "expansion": 1
  },
  "39": {
   "uniquemod": "berserk",
@@ -348,24 +355,28 @@
   "champion": 1,
   "cpick": 1,
   "cpick (N)": 1,
-  "cpick (H)": 1
+  "cpick (H)": 1,
+  "expansion": 1
  },
  "40": {
   "uniquemod": "worms_on_death",
   "id": 40,
   "enabled": 1,
-  "version": 100
+  "version": 100,
+  "expansion": 1
  },
  "41": {
   "uniquemod": "always_run_ai",
   "id": 41,
   "enabled": 1,
-  "version": 100
+  "version": 100,
+  "expansion": 1
  },
  "42": {
   "uniquemod": "lightningdeath",
   "id": 42,
   "enabled": 1,
-  "version": 100
+  "version": 100,
+  "expansion": 1
  }
 }

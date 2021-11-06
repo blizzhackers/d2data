@@ -573,7 +573,6 @@
   "Max4": 2
  },
  "29": {
-  "expansion": 1,
   "Name": "Snow Large",
   "Type": 10,
   "File": "Expansion/Siege/Snowpatchlg.ds1",
@@ -595,10 +594,10 @@
   "Max3": 1,
   "Prob4": 25,
   "Trials4": 2,
-  "Max4": 1
+  "Max4": 1,
+  "expansion": 1
  },
  "30": {
-  "expansion": 1,
   "Name": "Trees and Rocks",
   "Type": 10,
   "File": "Expansion/Siege/treesandrocks.ds1",
@@ -620,10 +619,10 @@
   "Max3": 5,
   "Prob4": 75,
   "Trials4": 15,
-  "Max4": 5
+  "Max4": 5,
+  "expansion": 1
  },
  "31": {
-  "expansion": 1,
   "Name": "Small stuff",
   "Type": 10,
   "File": "Expansion/Siege/treesandrocksSmall.ds1",
@@ -645,10 +644,10 @@
   "Max3": 6,
   "Prob4": 100,
   "Trials4": 20,
-  "Max4": 6
+  "Max4": 6,
+  "expansion": 1
  },
  "32": {
-  "expansion": 1,
   "Name": "Dirt patches",
   "Type": 11,
   "File": "Expansion/Siege/snowpatchlg_inv.ds1",
@@ -670,10 +669,10 @@
   "Max3": 1,
   "Prob4": 50,
   "Trials4": 2,
-  "Max4": 1
+  "Max4": 1,
+  "expansion": 1
  },
  "33": {
-  "expansion": 1,
   "Name": "snowy objects",
   "Type": 11,
   "File": "Expansion/Siege/treesandrocksSnow.ds1",
@@ -695,15 +694,16 @@
   "Max3": 6,
   "Prob4": 100,
   "Trials4": 10,
-  "Max4": 6
+  "Max4": 6,
+  "expansion": 1
  },
  "34": {
-  "expansion": 1,
   "Name": "Barricade",
   "Type": 12,
   "File": "Expansion/Siege/4x3barricade_rules.ds1",
   "Expansion": 1,
   "BordType": 2,
-  "GridSize": 2
+  "GridSize": 2,
+  "expansion": 1
  }
 }

@@ -127,6 +127,7 @@ files.forEach(fn => {
 	let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd);
 	let header = data.shift().split(fieldEnd);
 	let indexColumn = header.indexOf(indexes[fn]);
+	let usesVersion = header.includes('version');
 	let expansion = false;
 	let maxKeyCount = 0;
 
@@ -135,11 +136,12 @@ files.forEach(fn => {
 	}
 
 	full[fn] = data.reduce((obj, line, index) => {
-
 		if (line.trim()) {
-			if (line.toLowerCase().trim() === 'expansion') {
+			line = line.split(fieldEnd).map(v => v.trim());
+
+			if (line[0].toLowerCase() === 'expansion') {
 				expansion = true;
-			} else if ((line = line.split(fieldEnd))) {
+			} else if (header.length === 1 || line.filter(Boolean).length > 1) {
 				let key = indexColumn >= 0 ? (line[indexColumn]) : index;
 
 				if (key !== undefined) {
@@ -147,7 +149,7 @@ files.forEach(fn => {
 						if (obj[key]) {
 							throw new Error('Duplicate key ' + JSON.stringify(key) + ' in ' + fn);
 						} else {
-							let tmp = expansion ? {expansion: 1} : {};
+							let tmp = {};
 
 							for (let c = 0; c < header.length; c++) {
 								if (indexColumn >= 0 && c === indexColumn || !filterValues[line[c].toString().toLowerCase()]) {
@@ -158,11 +160,19 @@ files.forEach(fn => {
 							let keyCount = Object.keys(tmp).length;
 
 							if (keyCount > 0) {
-								obj[key] = tmp;
-							}
+								if (usesVersion) {
+									if (tmp.version >= 100) {
+										tmp.expansion = 1;
+									}
+								} else if (expansion) {
+									tmp.expansion = 1;
+								}
 
-							if (indexColumn >= 0) {
-								obj[key].lineNumber = index;
+								obj[key] = tmp;
+
+								if (indexColumn >= 0) {
+									obj[key].lineNumber = index;
+								}
 							}
 
 							maxKeyCount = Math.max(maxKeyCount, keyCount);
@@ -205,6 +215,7 @@ let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
 	if (!item.spawnable) {
 		return;
 	}
+
 	let tc = calcTC(item.level);
 
 	function handleAtomic(itemType) {
@@ -265,11 +276,11 @@ function getItemList(name, expansion, mult = 1) {
 	name = name.toString();
 
 	let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => {
-		if (!items[v] || v === 'gld') {
+		if (!items[v] || v === 'gld' || !(items[v].spawnable || items[v].enabled)) {
 			return false;
 		}
 
-		if (!expansion && (items[v].expansion || full.ItemTypes[items[v].type].expansion)) {
+		if (!expansion && items[v].expansion) {
 			return false;
 		}
 

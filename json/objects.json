@@ -7586,7 +7586,7 @@
  },
  "138": {
   "Name": "Well",
-  "description - not loaded": "cavewell act 1 caves ",
+  "description - not loaded": "cavewell act 1 caves",
   "Id": 138,
   "Token": "zy",
   "Selectable0": 1,
@@ -12185,7 +12185,7 @@
  },
  "234": {
   "Name": "dummy",
-  "description - not loaded": "Big log act 3 se blgc ",
+  "description - not loaded": "Big log act 3 se blgc",
   "Id": 234,
   "Token": "Qy",
   "SpawnMax": 1,
@@ -20445,7 +20445,6 @@
   "PopulateFn": 3
  },
  "411": {
-  "expansion": 1,
   "Name": "Siege Control",
   "description - not loaded": "To control siege machines",
   "Id": 408,
@@ -20487,10 +20486,10 @@
   "Sync": 1,
   "Damage": 100,
   "Left": 18,
-  "OperateFn": 46
+  "OperateFn": 46,
+  "expansion": 1
  },
  "412": {
-  "expansion": 1,
   "Name": "ptox",
   "description - not loaded": "Pot O Torch (level 1)",
   "Id": 409,
@@ -20543,10 +20542,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "413": {
-  "expansion": 1,
   "Name": "pyox",
   "description - not loaded": "fire pit  (level 1)",
   "Id": 410,
@@ -20599,10 +20598,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "414": {
-  "expansion": 1,
   "Name": "chestR",
   "description - not loaded": "expansion no snow",
   "Id": 413,
@@ -20655,10 +20654,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "415": {
-  "expansion": 1,
   "Name": "Shrine3wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 414,
@@ -20716,10 +20715,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "416": {
-  "expansion": 1,
   "Name": "Shrine2wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 415,
@@ -20777,10 +20776,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "417": {
-  "expansion": 1,
   "Name": "hiddenstash",
   "description - not loaded": "expansion no snow",
   "Id": 416,
@@ -20832,10 +20831,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "418": {
-  "expansion": 1,
   "Name": "flag wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 417,
@@ -20877,10 +20876,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "Beta": 1
+  "Beta": 1,
+  "expansion": 1
  },
  "419": {
-  "expansion": 1,
   "Name": "barrel wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 418,
@@ -20932,10 +20931,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "420": {
-  "expansion": 1,
   "Name": "barrel wilderness",
   "description - not loaded": "wilderness/siege",
   "Id": 419,
@@ -20981,10 +20980,10 @@
   "OperateFn": 14,
   "PopulateFn": 3,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "421": {
-  "expansion": 1,
   "Name": "woodchestL",
   "description - not loaded": "expansion no snow",
   "Id": 420,
@@ -21037,10 +21036,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "422": {
-  "expansion": 1,
   "Name": "Shrine3wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 421,
@@ -21098,10 +21097,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "423": {
-  "expansion": 1,
   "Name": "manashrine",
   "description - not loaded": "expansion no snow",
   "Id": 422,
@@ -21153,10 +21152,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "424": {
-  "expansion": 1,
   "Name": "healthshrine",
   "description - not loaded": "expansion no snow",
   "Id": 423,
@@ -21212,10 +21211,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "425": {
-  "expansion": 1,
   "Name": "burialchestL",
   "description - not loaded": "expansion no snow",
   "Id": 424,
@@ -21267,10 +21266,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "426": {
-  "expansion": 1,
   "Name": "burialchestR",
   "description - not loaded": "expansion no snow",
   "Id": 425,
@@ -21322,10 +21321,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "427": {
-  "expansion": 1,
   "Name": "well",
   "description - not loaded": "expansion no snow",
   "Id": 426,
@@ -21376,10 +21375,10 @@
   "OperateFn": 22,
   "PopulateFn": 8,
   "InitFn": 16,
-  "AutoMap": 309
+  "AutoMap": 309,
+  "expansion": 1
  },
  "428": {
-  "expansion": 1,
   "Name": "Shrine2wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 427,
@@ -21438,10 +21437,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "429": {
-  "expansion": 1,
   "Name": "Shrine2wilderness",
   "description - not loaded": "expansion no snow",
   "Id": 428,
@@ -21499,10 +21498,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "430": {
-  "expansion": 1,
   "Name": "Waypoint",
   "description - not loaded": "expansion no snow",
   "Id": 429,
@@ -21547,10 +21546,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 23,
-  "InitFn": 17
+  "InitFn": 17,
+  "expansion": 1
  },
  "431": {
-  "expansion": 1,
   "Name": "ChestL",
   "description - not loaded": "expansion no snow",
   "Id": 430,
@@ -21603,10 +21602,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "432": {
-  "expansion": 1,
   "Name": "woodchestR",
   "description - not loaded": "expansion no snow",
   "Id": 431,
@@ -21659,10 +21658,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "433": {
-  "expansion": 1,
   "Name": "ChestSL",
   "description - not loaded": "expansion no snow",
   "Id": 432,
@@ -21715,10 +21714,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "434": {
-  "expansion": 1,
   "Name": "ChestSR",
   "description - not loaded": "expansion no snow",
   "Id": 433,
@@ -21771,10 +21770,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "435": {
-  "expansion": 1,
   "Name": "etorch1",
   "description - not loaded": "expansion no snow",
   "Id": 434,
@@ -21826,10 +21825,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "436": {
-  "expansion": 1,
   "Name": "ecfra",
   "description - not loaded": "camp fire",
   "Id": 435,
@@ -21882,10 +21881,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "437": {
-  "expansion": 1,
   "Name": "ettr",
   "description - not loaded": "town torch",
   "Id": 436,
@@ -21938,10 +21937,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "438": {
-  "expansion": 1,
   "Name": "etorch2",
   "description - not loaded": "expansion no snow",
   "Id": 437,
@@ -21993,10 +21992,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "439": {
-  "expansion": 1,
   "Name": "burningbodies",
   "description - not loaded": "wilderness/siege",
   "Id": 438,
@@ -22051,10 +22050,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "440": {
-  "expansion": 1,
   "Name": "burningpit",
   "description - not loaded": "wilderness/siege",
   "Id": 439,
@@ -22108,10 +22107,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "441": {
-  "expansion": 1,
   "Name": "tribal flag",
   "description - not loaded": "wilderness/siege",
   "Id": 440,
@@ -22153,10 +22152,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "442": {
-  "expansion": 1,
   "Name": "eflg",
   "description - not loaded": "town flag",
   "Id": 441,
@@ -22208,10 +22207,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "443": {
-  "expansion": 1,
   "Name": "chan",
   "description - not loaded": "chandeleir",
   "Id": 442,
@@ -22264,10 +22263,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "444": {
-  "expansion": 1,
   "Name": "jar1",
   "description - not loaded": "wilderness/siege",
   "Id": 443,
@@ -22325,10 +22324,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "445": {
-  "expansion": 1,
   "Name": "jar2",
   "description - not loaded": "wilderness/siege",
   "Id": 444,
@@ -22386,10 +22385,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "446": {
-  "expansion": 1,
   "Name": "jar3",
   "description - not loaded": "wilderness/siege",
   "Id": 445,
@@ -22447,10 +22446,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "447": {
-  "expansion": 1,
   "Name": "swingingheads",
   "description - not loaded": "wilderness",
   "Id": 446,
@@ -22493,10 +22492,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "448": {
-  "expansion": 1,
   "Name": "pole",
   "description - not loaded": "wilderness",
   "Id": 447,
@@ -22539,10 +22538,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "449": {
-  "expansion": 1,
   "Name": "animated skulland rockpile",
   "description - not loaded": "expansion no snow",
   "Id": 448,
@@ -22594,10 +22593,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "450": {
-  "expansion": 1,
   "Name": "gate",
   "description - not loaded": "town main gate",
   "Id": 449,
@@ -22643,10 +22642,10 @@
   "Act": 16,
   "Damage": 100,
   "OperateFn": 61,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "451": {
-  "expansion": 1,
   "Name": "pileofskullsandrocks",
   "description - not loaded": "seige",
   "Id": 450,
@@ -22690,10 +22689,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 14,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "452": {
-  "expansion": 1,
   "Name": "hellgate",
   "description - not loaded": "seige",
   "Id": 451,
@@ -22739,10 +22738,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "453": {
-  "expansion": 1,
   "Name": "banner 1",
   "description - not loaded": "preset in enemy camp",
   "Id": 452,
@@ -22780,10 +22779,10 @@
   "Parm0": 1,
   "Act": 16,
   "Damage": 100,
-  "Left": 1
+  "Left": 1,
+  "expansion": 1
  },
  "454": {
-  "expansion": 1,
   "Name": "banner 2",
   "description - not loaded": "preset in enemy camp",
   "Id": 453,
@@ -22821,10 +22820,10 @@
   "Parm0": 1,
   "Act": 16,
   "Damage": 100,
-  "Left": 1
+  "Left": 1,
+  "expansion": 1
  },
  "455": {
-  "expansion": 1,
   "Name": "explodingchest",
   "description - not loaded": "wilderness/siege",
   "Id": 454,
@@ -22870,10 +22869,10 @@
   "OperateFn": 30,
   "PopulateFn": 3,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "456": {
-  "expansion": 1,
   "Name": "chest",
   "description - not loaded": "specialchest",
   "Id": 455,
@@ -22923,10 +22922,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 57,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "457": {
-  "expansion": 1,
   "Name": "deathpole",
   "description - not loaded": "wilderness",
   "Id": 456,
@@ -22969,10 +22968,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "458": {
-  "expansion": 1,
   "Name": "Ldeathpole",
   "description - not loaded": "wilderness",
   "Id": 457,
@@ -23015,10 +23014,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "459": {
-  "expansion": 1,
   "Name": "Altar",
   "description - not loaded": "inside of temple",
   "Id": 458,
@@ -23062,10 +23061,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "460": {
-  "expansion": 1,
   "Name": "dummy",
   "description - not loaded": "Drehya Start In Town",
   "Id": 459,
@@ -23094,10 +23093,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "InitFn": 66
+  "InitFn": 66,
+  "expansion": 1
  },
  "461": {
-  "expansion": 1,
   "Name": "dummy",
   "description - not loaded": "Drehya Start Outside Town",
   "Id": 460,
@@ -23126,10 +23125,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "InitFn": 67
+  "InitFn": 67,
+  "expansion": 1
  },
  "462": {
-  "expansion": 1,
   "Name": "dummy",
   "description - not loaded": "Nihlathak Start In Town",
   "Id": 461,
@@ -23158,10 +23157,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "InitFn": 68
+  "InitFn": 68,
+  "expansion": 1
  },
  "463": {
-  "expansion": 1,
   "Name": "dummy",
   "description - not loaded": "Nihlathak Start Outside Town",
   "Id": 462,
@@ -23190,10 +23189,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "InitFn": 69
+  "InitFn": 69,
+  "expansion": 1
  },
  "464": {
-  "expansion": 1,
   "Name": "hidden stash",
   "description - not loaded": "icecave_",
   "Id": 463,
@@ -23241,10 +23240,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "465": {
-  "expansion": 1,
   "Name": "healthshrine",
   "description - not loaded": "icecave_",
   "Id": 464,
@@ -23300,10 +23299,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "466": {
-  "expansion": 1,
   "Name": "manashrine",
   "description - not loaded": "icecave_",
   "Id": 465,
@@ -23355,10 +23354,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "467": {
-  "expansion": 1,
   "Name": "evilurn",
   "description - not loaded": "icecave_",
   "Id": 466,
@@ -23407,10 +23406,10 @@
   "OperateFn": 68,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "468": {
-  "expansion": 1,
   "Name": "icecavejar1",
   "description - not loaded": "icecave_",
   "Id": 467,
@@ -23468,10 +23467,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "469": {
-  "expansion": 1,
   "Name": "icecavejar2",
   "description - not loaded": "icecave_",
   "Id": 468,
@@ -23529,10 +23528,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "470": {
-  "expansion": 1,
   "Name": "icecavejar3",
   "description - not loaded": "icecave_",
   "Id": 469,
@@ -23590,10 +23589,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "471": {
-  "expansion": 1,
   "Name": "icecavejar4",
   "description - not loaded": "icecave_",
   "Id": 470,
@@ -23651,10 +23650,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "472": {
-  "expansion": 1,
   "Name": "icecavejar4",
   "description - not loaded": "icecave_",
   "Id": 471,
@@ -23712,10 +23711,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "473": {
-  "expansion": 1,
   "Name": "icecaveshrine2",
   "description - not loaded": "icecave_",
   "Id": 472,
@@ -23774,10 +23773,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "474": {
-  "expansion": 1,
   "Name": "cagedwussie1",
   "description - not loaded": "caged fellow",
   "Id": 473,
@@ -23814,10 +23813,10 @@
   "Damage": 100,
   "Beta": 1,
   "InitFn": 62,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "475": {
-  "expansion": 1,
   "Name": "Ancient Statue 3",
   "description - not loaded": "statue",
   "Id": 474,
@@ -23873,10 +23872,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 62,
-  "InitFn": 63
+  "InitFn": 63,
+  "expansion": 1
  },
  "476": {
-  "expansion": 1,
   "Name": "Ancient Statue 1",
   "description - not loaded": "statue",
   "Id": 475,
@@ -23932,10 +23931,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 63,
-  "InitFn": 64
+  "InitFn": 64,
+  "expansion": 1
  },
  "477": {
-  "expansion": 1,
   "Name": "Ancient Statue 2",
   "description - not loaded": "statue",
   "Id": 476,
@@ -23991,10 +23990,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 64,
-  "InitFn": 65
+  "InitFn": 65,
+  "expansion": 1
  },
  "478": {
-  "expansion": 1,
   "Name": "deadbarbarian",
   "description - not loaded": "seige/wilderness",
   "Id": 477,
@@ -24042,10 +24041,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "479": {
-  "expansion": 1,
   "Name": "clientsmoke",
   "description - not loaded": "client smoke",
   "Id": 478,
@@ -24062,10 +24061,10 @@
   "TotalPieces": 1,
   "Act": 16,
   "Damage": 100,
-  "ClientFn": 9
+  "ClientFn": 9,
+  "expansion": 1
  },
  "480": {
-  "expansion": 1,
   "Name": "icecaveshrine2",
   "description - not loaded": "icecave_",
   "Id": 479,
@@ -24124,10 +24123,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "481": {
-  "expansion": 1,
   "Name": "icecave_torch1",
   "description - not loaded": "icecave_",
   "Id": 480,
@@ -24180,10 +24179,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "482": {
-  "expansion": 1,
   "Name": "icecave_torch2",
   "description - not loaded": "icecave_",
   "Id": 481,
@@ -24236,10 +24235,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "483": {
-  "expansion": 1,
   "Name": "ttor",
   "description - not loaded": "expansion tiki torch",
   "Id": 482,
@@ -24292,10 +24291,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "484": {
-  "expansion": 1,
   "Name": "manashrine",
   "description - not loaded": "baals",
   "Id": 483,
@@ -24347,10 +24346,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "485": {
-  "expansion": 1,
   "Name": "healthshrine",
   "description - not loaded": "baals",
   "Id": 484,
@@ -24402,10 +24401,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "486": {
-  "expansion": 1,
   "Name": "tomb1",
   "description - not loaded": "baal's lair",
   "Id": 485,
@@ -24453,10 +24452,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "487": {
-  "expansion": 1,
   "Name": "tomb2",
   "description - not loaded": "baal's lair",
   "Id": 486,
@@ -24504,10 +24503,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "488": {
-  "expansion": 1,
   "Name": "tomb3",
   "description - not loaded": "baal's lair",
   "Id": 487,
@@ -24555,10 +24554,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "489": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "baal's lair",
   "Id": 488,
@@ -24617,10 +24616,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "490": {
-  "expansion": 1,
   "Name": "torch1",
   "description - not loaded": "baal's lair",
   "Id": 489,
@@ -24673,10 +24672,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "491": {
-  "expansion": 1,
   "Name": "torch2",
   "description - not loaded": "baal's lair",
   "Id": 490,
@@ -24729,10 +24728,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "492": {
-  "expansion": 1,
   "Name": "manashrine",
   "description - not loaded": "snowy",
   "Id": 491,
@@ -24784,10 +24783,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "493": {
-  "expansion": 1,
   "Name": "healthshrine",
   "description - not loaded": "snowy",
   "Id": 492,
@@ -24843,10 +24842,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "494": {
-  "expansion": 1,
   "Name": "well",
   "description - not loaded": "snowy",
   "Id": 493,
@@ -24898,10 +24897,10 @@
   "OperateFn": 22,
   "PopulateFn": 8,
   "InitFn": 16,
-  "AutoMap": 309
+  "AutoMap": 309,
+  "expansion": 1
  },
  "495": {
-  "expansion": 1,
   "Name": "Waypoint",
   "description - not loaded": "baals_waypoint",
   "Id": 494,
@@ -24947,10 +24946,10 @@
   "Beta": 1,
   "OperateFn": 23,
   "InitFn": 17,
-  "AutoMap": 307
+  "AutoMap": 307,
+  "expansion": 1
  },
  "496": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "snowy_shrine3",
   "Id": 495,
@@ -25009,10 +25008,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "497": {
-  "expansion": 1,
   "Name": "Waypoint",
   "description - not loaded": "wilderness_waypoint",
   "Id": 496,
@@ -25059,10 +25058,10 @@
   "Beta": 1,
   "OperateFn": 23,
   "InitFn": 17,
-  "AutoMap": 307
+  "AutoMap": 307,
+  "expansion": 1
  },
  "498": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "snowy_shrine3",
   "Id": 497,
@@ -25121,10 +25120,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "499": {
-  "expansion": 1,
   "Name": "well",
   "description - not loaded": "baalslair",
   "Id": 498,
@@ -25175,10 +25174,10 @@
   "OperateFn": 22,
   "PopulateFn": 8,
   "InitFn": 16,
-  "AutoMap": 309
+  "AutoMap": 309,
+  "expansion": 1
  },
  "500": {
-  "expansion": 1,
   "Name": "magic shrine2",
   "description - not loaded": "baal's lair",
   "Id": 499,
@@ -25236,10 +25235,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "501": {
-  "expansion": 1,
   "Name": "object1",
   "description - not loaded": "snowy",
   "Id": 500,
@@ -25287,10 +25286,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "502": {
-  "expansion": 1,
   "Name": "woodchestL",
   "description - not loaded": "snowy",
   "Id": 501,
@@ -25343,10 +25342,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "503": {
-  "expansion": 1,
   "Name": "woodchestR",
   "description - not loaded": "snowy",
   "Id": 502,
@@ -25399,10 +25398,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "504": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "baals_shrine3",
   "Id": 503,
@@ -25461,10 +25460,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "505": {
-  "expansion": 1,
   "Name": "woodchest2L",
   "description - not loaded": "snowy",
   "Id": 504,
@@ -25517,10 +25516,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "506": {
-  "expansion": 1,
   "Name": "woodchest2R",
   "description - not loaded": "snowy",
   "Id": 505,
@@ -25573,10 +25572,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "507": {
-  "expansion": 1,
   "Name": "swingingheads",
   "description - not loaded": "snowy",
   "Id": 506,
@@ -25619,10 +25618,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "508": {
-  "expansion": 1,
   "Name": "debris",
   "description - not loaded": "snowy",
   "Id": 507,
@@ -25665,10 +25664,10 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "509": {
-  "expansion": 1,
   "Name": "pene",
   "description - not loaded": "Pen breakable door",
   "Id": 508,
@@ -25715,10 +25714,10 @@
   "Act": 16,
   "Damage": 100,
   "OperateFn": 61,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "510": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "temple",
   "Id": 509,
@@ -25777,10 +25776,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "511": {
-  "expansion": 1,
   "Name": "mrpole",
   "description - not loaded": "snowy",
   "Id": 510,
@@ -25823,12 +25822,12 @@
   "Act": 16,
   "Damage": 100,
   "Beta": 1,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "512": {
-  "expansion": 1,
   "Name": "Waypoint",
-  "description - not loaded": "icecave ",
+  "description - not loaded": "icecave",
   "Id": 511,
   "Token": "5a",
   "Selectable0": 1,
@@ -25875,10 +25874,10 @@
   "Beta": 1,
   "OperateFn": 23,
   "InitFn": 17,
-  "AutoMap": 307
+  "AutoMap": 307,
+  "expansion": 1
  },
  "513": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "temple",
   "Id": 512,
@@ -25937,10 +25936,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "514": {
-  "expansion": 1,
   "Name": "well",
   "description - not loaded": "temple",
   "Id": 513,
@@ -25991,10 +25990,10 @@
   "OperateFn": 22,
   "PopulateFn": 8,
   "InitFn": 16,
-  "AutoMap": 309
+  "AutoMap": 309,
+  "expansion": 1
  },
  "515": {
-  "expansion": 1,
   "Name": "torch1",
   "description - not loaded": "temple",
   "Id": 514,
@@ -26046,10 +26045,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "516": {
-  "expansion": 1,
   "Name": "torch1",
   "description - not loaded": "temple",
   "Id": 515,
@@ -26101,10 +26100,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "517": {
-  "expansion": 1,
   "Name": "object1",
   "description - not loaded": "temple",
   "Id": 516,
@@ -26152,10 +26151,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "518": {
-  "expansion": 1,
   "Name": "object2",
   "description - not loaded": "temple",
   "Id": 517,
@@ -26203,10 +26202,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "519": {
-  "expansion": 1,
   "Name": "mrbox",
   "description - not loaded": "baals",
   "Id": 518,
@@ -26264,10 +26263,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "520": {
-  "expansion": 1,
   "Name": "well",
   "description - not loaded": "icecave",
   "Id": 519,
@@ -26318,10 +26317,10 @@
   "OperateFn": 22,
   "PopulateFn": 8,
   "InitFn": 16,
-  "AutoMap": 309
+  "AutoMap": 309,
+  "expansion": 1
  },
  "521": {
-  "expansion": 1,
   "Name": "magic shrine",
   "description - not loaded": "temple",
   "Id": 520,
@@ -26380,10 +26379,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "522": {
-  "expansion": 1,
   "Name": "healthshrine",
   "description - not loaded": "temple",
   "Id": 521,
@@ -26439,10 +26438,10 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "523": {
-  "expansion": 1,
   "Name": "manashrine",
   "description - not loaded": "temple",
   "Id": 522,
@@ -26494,12 +26493,12 @@
   "OperateFn": 2,
   "PopulateFn": 2,
   "InitFn": 1,
-  "AutoMap": 310
+  "AutoMap": 310,
+  "expansion": 1
  },
  "524": {
-  "expansion": 1,
   "Name": "red light",
-  "description - not loaded": " (touch me)  for blacksmith",
+  "description - not loaded": "(touch me)  for blacksmith",
   "Id": 523,
   "Token": "ss",
   "FrameCnt0": 1,
@@ -26529,10 +26528,10 @@
   "Restore": 1,
   "Act": 16,
   "Flicker": 1,
-  "Damage": 100
+  "Damage": 100,
+  "expansion": 1
  },
  "525": {
-  "expansion": 1,
   "Name": "tomb1L",
   "description - not loaded": "baal's lair",
   "Id": 524,
@@ -26580,10 +26579,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "526": {
-  "expansion": 1,
   "Name": "tomb2L",
   "description - not loaded": "baal's lair",
   "Id": 525,
@@ -26631,10 +26630,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "527": {
-  "expansion": 1,
   "Name": "tomb3L",
   "description - not loaded": "baal's lair",
   "Id": 526,
@@ -26682,10 +26681,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "528": {
-  "expansion": 1,
   "Name": "ubub",
   "description - not loaded": "Ice cave bubbles 01",
   "Id": 527,
@@ -26723,10 +26722,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "529": {
-  "expansion": 1,
   "Name": "sbub",
   "description - not loaded": "Ice cave bubbles 01",
   "Id": 528,
@@ -26768,10 +26767,10 @@
   "Act": 16,
   "Damage": 100,
   "PopulateFn": 3,
-  "ClientFn": 10
+  "ClientFn": 10,
+  "expansion": 1
  },
  "530": {
-  "expansion": 1,
   "Name": "tomb1",
   "description - not loaded": "redbaal's lair",
   "Id": 529,
@@ -26819,10 +26818,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "531": {
-  "expansion": 1,
   "Name": "tomb1L",
   "description - not loaded": "redbaal's lair",
   "Id": 530,
@@ -26870,10 +26869,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "532": {
-  "expansion": 1,
   "Name": "tomb2",
   "description - not loaded": "redbaal's lair",
   "Id": 531,
@@ -26921,10 +26920,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "533": {
-  "expansion": 1,
   "Name": "tomb2L",
   "description - not loaded": "redbaal's lair",
   "Id": 532,
@@ -26972,10 +26971,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "534": {
-  "expansion": 1,
   "Name": "tomb3",
   "description - not loaded": "redbaal's lair",
   "Id": 533,
@@ -27023,10 +27022,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "535": {
-  "expansion": 1,
   "Name": "tomb3L",
   "description - not loaded": "redbaal's lair",
   "Id": 534,
@@ -27074,10 +27073,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "536": {
-  "expansion": 1,
   "Name": "mrbox",
   "description - not loaded": "redbaals",
   "Id": 535,
@@ -27135,10 +27134,10 @@
   "PopulateFn": 1,
   "InitFn": 2,
   "RestoreVirgins": 1,
-  "DrawUnder": 1
+  "DrawUnder": 1,
+  "expansion": 1
  },
  "537": {
-  "expansion": 1,
   "Name": "torch1",
   "description - not loaded": "redbaal's lair",
   "Id": 536,
@@ -27190,10 +27189,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "538": {
-  "expansion": 1,
   "Name": "torch2",
   "description - not loaded": "redbaal's lair",
   "Id": 537,
@@ -27245,10 +27244,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "539": {
-  "expansion": 1,
   "Name": "candles",
   "description - not loaded": "temple",
   "Id": 538,
@@ -27300,10 +27299,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "540": {
-  "expansion": 1,
   "Name": "Waypoint",
   "description - not loaded": "temple",
   "Id": 539,
@@ -27352,10 +27351,10 @@
   "Beta": 1,
   "OperateFn": 23,
   "InitFn": 17,
-  "AutoMap": 307
+  "AutoMap": 307,
+  "expansion": 1
  },
  "541": {
-  "expansion": 1,
   "Name": "deadperson",
   "description - not loaded": "everywhere",
   "Id": 540,
@@ -27403,10 +27402,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "542": {
-  "expansion": 1,
   "Name": "groundtomb",
   "description - not loaded": "temple",
   "Id": 541,
@@ -27454,10 +27453,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "543": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "Larzuk Greeting",
   "Id": 542,
@@ -27479,10 +27478,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "InitFn": 70
+  "InitFn": 70,
+  "expansion": 1
  },
  "544": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "Larzuk Standard",
   "Id": 543,
@@ -27504,10 +27503,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "InitFn": 71
+  "InitFn": 71,
+  "expansion": 1
  },
  "545": {
-  "expansion": 1,
   "Name": "groundtombL",
   "description - not loaded": "temple",
   "Id": 544,
@@ -27555,10 +27554,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "546": {
-  "expansion": 1,
   "Name": "deadperson2",
   "description - not loaded": "everywhere",
   "Id": 545,
@@ -27605,10 +27604,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "547": {
-  "expansion": 1,
   "Name": "ancientsaltar",
   "description - not loaded": "ancientsaltar",
   "Id": 546,
@@ -27654,10 +27653,10 @@
   "OperateFn": 65,
   "InitFn": 72,
   "ClientFn": 12,
-  "AutoMap": 1467
+  "AutoMap": 1467,
+  "expansion": 1
  },
  "548": {
-  "expansion": 1,
   "Name": "To The Worldstone Keep Level 1",
   "description - not loaded": "ancientsdoor",
   "Id": 547,
@@ -27698,10 +27697,10 @@
   "Width": 70,
   "Height": 100,
   "OperateFn": 66,
-  "InitFn": 73
+  "InitFn": 73,
+  "expansion": 1
  },
  "549": {
-  "expansion": 1,
   "Name": "eweaponrackR",
   "description - not loaded": "everywhere",
   "Id": 548,
@@ -27758,10 +27757,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 20,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "550": {
-  "expansion": 1,
   "Name": "eweaponrackL",
   "description - not loaded": "everywhere",
   "Id": 549,
@@ -27818,10 +27817,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 20,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "551": {
-  "expansion": 1,
   "Name": "earmorstandR",
   "description - not loaded": "everywhere",
   "Id": 550,
@@ -27878,10 +27877,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 19,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "552": {
-  "expansion": 1,
   "Name": "earmorstandL",
   "description - not loaded": "everywhere",
   "Id": 551,
@@ -27938,10 +27937,10 @@
   "Damage": 100,
   "Beta": 1,
   "OperateFn": 19,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "553": {
-  "expansion": 1,
   "Name": "torch2",
   "description - not loaded": "summit",
   "Id": 552,
@@ -27993,10 +27992,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "554": {
-  "expansion": 1,
   "Name": "funeralpire",
   "description - not loaded": "outside",
   "Id": 553,
@@ -28048,10 +28047,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "555": {
-  "expansion": 1,
   "Name": "burninglogs",
   "description - not loaded": "outside",
   "Id": 554,
@@ -28103,10 +28102,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "556": {
-  "expansion": 1,
   "Name": "stma",
   "description - not loaded": "Ice cave steam",
   "Id": 555,
@@ -28154,10 +28153,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "557": {
-  "expansion": 1,
   "Name": "deadperson2",
   "description - not loaded": "everywhere",
   "Id": 556,
@@ -28204,10 +28203,10 @@
   "OperateFn": 4,
   "PopulateFn": 3,
   "InitFn": 3,
-  "RestoreVirgins": 1
+  "RestoreVirgins": 1,
+  "expansion": 1
  },
  "558": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "Baal's lair",
   "Id": 557,
@@ -28223,10 +28222,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "ClientFn": 11
+  "ClientFn": 11,
+  "expansion": 1
  },
  "559": {
-  "expansion": 1,
   "Name": "fana",
   "description - not loaded": "frozen anya",
   "Id": 558,
@@ -28274,10 +28273,10 @@
   "OperateFn": 67,
   "InitFn": 74,
   "ClientFn": 15,
-  "AutoMap": 1468
+  "AutoMap": 1468,
+  "expansion": 1
  },
  "560": {
-  "expansion": 1,
   "Name": "BBQB",
   "description - not loaded": "BBQ Bunny",
   "Id": 559,
@@ -28330,10 +28329,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "561": {
-  "expansion": 1,
   "Name": "btor",
   "description - not loaded": "Baal Torch Big",
   "Id": 560,
@@ -28385,10 +28384,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "PopulateFn": 3
+  "PopulateFn": 3,
+  "expansion": 1
  },
  "562": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "invisible ancient",
   "Id": 561,
@@ -28407,10 +28406,10 @@
   "Sync": 1,
   "Damage": 100,
   "OperateFn": 69,
-  "ClientFn": 13
+  "ClientFn": 13,
+  "expansion": 1
  },
  "563": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "invisible base",
   "Id": 562,
@@ -28429,10 +28428,10 @@
   "Restore": 1,
   "Act": 16,
   "Sync": 1,
-  "Damage": 100
+  "Damage": 100,
+  "expansion": 1
  },
  "564": {
-  "expansion": 1,
   "Name": "The Worldstone Chamber",
   "description - not loaded": "baals portal",
   "Id": 563,
@@ -28474,10 +28473,10 @@
   "Damage": 100,
   "OperateFn": 70,
   "InitFn": 75,
-  "ClientFn": 16
+  "ClientFn": 16,
+  "expansion": 1
  },
  "565": {
-  "expansion": 1,
   "Name": "Glacial Caves Level 1",
   "description - not loaded": "summit door",
   "Id": 564,
@@ -28518,10 +28517,10 @@
   "Sync": 1,
   "Damage": 100,
   "OperateFn": 71,
-  "InitFn": 76
+  "InitFn": 76,
+  "expansion": 1
  },
  "566": {
-  "expansion": 1,
   "Name": "strlastcinematic",
   "description - not loaded": "last portal",
   "Id": 565,
@@ -28559,10 +28558,10 @@
   "Sync": 1,
   "Damage": 100,
   "OperateFn": 72,
-  "InitFn": 77
+  "InitFn": 77,
+  "expansion": 1
  },
  "567": {
-  "expansion": 1,
   "Name": "Harrogath",
   "description - not loaded": "last last portal",
   "Id": 566,
@@ -28601,10 +28600,10 @@
   "Sync": 1,
   "Damage": 100,
   "OperateFn": 73,
-  "InitFn": 78
+  "InitFn": 78,
+  "expansion": 1
  },
  "568": {
-  "expansion": 1,
   "Name": "Zoo",
   "description - not loaded": "test data",
   "Id": 567,
@@ -28635,10 +28634,10 @@
   "Act": 16,
   "Damage": 100,
   "InitFn": 79,
-  "ClientFn": 17
+  "ClientFn": 17,
+  "expansion": 1
  },
  "569": {
-  "expansion": 1,
   "Name": "Keeper",
   "description - not loaded": "test data",
   "Id": 568,
@@ -28674,10 +28673,10 @@
   "Restore": 1,
   "Act": 16,
   "Damage": 100,
-  "ClientFn": 18
+  "ClientFn": 18,
+  "expansion": 1
  },
  "570": {
-  "expansion": 1,
   "Name": "Throne of Destruction",
   "description - not loaded": "baals portal",
   "Id": 569,
@@ -28718,10 +28717,10 @@
   "Damage": 100,
   "OperateFn": 70,
   "InitFn": 75,
-  "ClientFn": 16
+  "ClientFn": 16,
+  "expansion": 1
  },
  "571": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "fire place guy",
   "Id": 570,
@@ -28742,10 +28741,10 @@
   "TotalPieces": 1,
   "Restore": 1,
   "Act": 16,
-  "Damage": 100
+  "Damage": 100,
+  "expansion": 1
  },
  "572": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "door blocker",
   "Id": 571,
@@ -28766,10 +28765,10 @@
   "Restore": 1,
   "Act": 16,
   "Sync": 1,
-  "Damage": 100
+  "Damage": 100,
+  "expansion": 1
  },
  "573": {
-  "expansion": 1,
   "Name": "Dummy",
   "description - not loaded": "door blocker",
   "Id": 572,
@@ -28790,6 +28789,7 @@
   "Restore": 1,
   "Act": 16,
   "Sync": 1,
-  "Damage": 100
+  "Damage": 100,
+  "expansion": 1
  }
 }

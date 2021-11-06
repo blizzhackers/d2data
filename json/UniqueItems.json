@@ -3971,9 +3971,6 @@
   "min6": 6,
   "max6": 6
  },
- "129": {
-  "index": "Expansion"
- },
  "130": {
   "index": "Coldkill",
   "version": 100,
@@ -4011,7 +4008,8 @@
   "max6": 5,
   "prop7": "dmg%",
   "min7": 150,
-  "max7": 190
+  "max7": 190,
+  "expansion": 1
  },
  "131": {
   "index": "Butcher's Pupil",
@@ -4044,7 +4042,8 @@
   "max5": 30,
   "prop6": "dmg-norm",
   "min6": 30,
-  "max6": 50
+  "max6": 50,
+  "expansion": 1
  },
  "132": {
   "index": "Islestrike",
@@ -4088,7 +4087,8 @@
   "prop10": "skill",
   "par10": 248,
   "min10": 1,
-  "max10": 1
+  "max10": 1,
+  "expansion": 1
  },
  "133": {
   "index": "Pompe's Wrath",
@@ -4119,7 +4119,8 @@
   "max4": 1,
   "prop5": "dmg%",
   "min5": 140,
-  "max5": 170
+  "max5": 170,
+  "expansion": 1
  },
  "134": {
   "index": "Guardian Naga",
@@ -4151,7 +4152,8 @@
   "max5": 256,
   "prop6": "dmg-max",
   "min6": 20,
-  "max6": 20
+  "max6": 20,
+  "expansion": 1
  },
  "135": {
   "index": "Warlord's Trust",
@@ -4181,7 +4183,8 @@
   "par5": 25,
   "prop6": "dmg%",
   "min6": 175,
-  "max6": 175
+  "max6": 175,
+  "expansion": 1
  },
  "136": {
   "index": "Spellsteel",
@@ -4229,7 +4232,8 @@
   "prop10": "charged",
   "par10": 225,
   "min10": 60,
-  "max10": 12
+  "max10": 12,
+  "expansion": 1
  },
  "137": {
   "index": "Stormrider",
@@ -4270,7 +4274,8 @@
   "prop8": "gethit-skill",
   "par8": 38,
   "min8": 15,
-  "max8": 5
+  "max8": 5,
+  "expansion": 1
  },
  "138": {
   "index": "Boneslayer Blade",
@@ -4306,7 +4311,8 @@
   "max7": 20,
   "prop8": "gethit-skill",
   "par8": 101,
-  "min8": 50
+  "min8": 50,
+  "expansion": 1
  },
  "139": {
   "index": "The Minataur",
@@ -4340,7 +4346,8 @@
   "max6": 30,
   "prop7": "dmg%",
   "min7": 140,
-  "max7": 200
+  "max7": 200,
+  "expansion": 1
  },
  "140": {
   "index": "Suicide Branch",
@@ -4370,7 +4377,8 @@
   "max5": 40,
   "prop6": "allskills",
   "min6": 1,
-  "max6": 1
+  "max6": 1,
+  "expansion": 1
  },
  "141": {
   "index": "Carin Shard",
@@ -4404,7 +4412,8 @@
   "prop7": "skilltab",
   "par7": 8,
   "min7": 2,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "142": {
   "index": "Arm of King Leoric",
@@ -4454,7 +4463,8 @@
   "prop10": "skill",
   "par10": 70,
   "min10": 3,
-  "max10": 3
+  "max10": 3,
+  "expansion": 1
  },
  "143": {
   "index": "Blackhand Key",
@@ -4495,7 +4505,8 @@
   "prop8": "charged",
   "par8": 150,
   "min8": 30,
-  "max8": 13
+  "max8": 13,
+  "expansion": 1
  },
  "144": {
   "index": "Dark Clan Crusher",
@@ -4528,7 +4539,8 @@
   "max5": 25,
   "prop6": "demon-heal",
   "min6": 15,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "145": {
   "index": "Zakarum's Hand",
@@ -4572,7 +4584,8 @@
   "prop9": "skill",
   "par9": 118,
   "min9": 2,
-  "max9": 2
+  "max9": 2,
+  "expansion": 1
  },
  "146": {
   "index": "The Fetid Sprinkler",
@@ -4608,7 +4621,8 @@
   "max6": 200,
   "prop7": "dmg-norm",
   "min7": 15,
-  "max7": 25
+  "max7": 25,
+  "expansion": 1
  },
  "147": {
   "index": "Hand of Blessed Light",
@@ -4654,7 +4668,8 @@
   "prop10": "hit-skill",
   "par10": 121,
   "min10": 5,
-  "max10": 4
+  "max10": 4,
+  "expansion": 1
  },
  "148": {
   "index": "Fleshrender",
@@ -4696,7 +4711,8 @@
   "max8": 2,
   "prop9": "dur",
   "min9": 20,
-  "max9": 20
+  "max9": 20,
+  "expansion": 1
  },
  "149": {
   "index": "Sureshrill Frost",
@@ -4728,7 +4744,8 @@
   "prop6": "charged",
   "par6": 64,
   "min6": 50,
-  "max6": 9
+  "max6": 9,
+  "expansion": 1
  },
  "150": {
   "index": "Moonfall",
@@ -4764,7 +4781,8 @@
   "max6": 11,
   "prop7": "dmg-norm",
   "min7": 10,
-  "max7": 15
+  "max7": 15,
+  "expansion": 1
  },
  "151": {
   "index": "Baezil's Vortex",
@@ -4801,7 +4819,8 @@
   "prop7": "charged",
   "par7": 48,
   "min7": 80,
-  "max7": 15
+  "max7": 15,
+  "expansion": 1
  },
  "152": {
   "index": "Earthshaker",
@@ -4836,7 +4855,8 @@
   "max6": 3,
   "prop7": "dur",
   "min7": 50,
-  "max7": 50
+  "max7": 50,
+  "expansion": 1
  },
  "153": {
   "index": "Bloodtree Stump",
@@ -4872,7 +4892,8 @@
   "max6": 3,
   "prop7": "dur",
   "min7": 40,
-  "max7": 40
+  "max7": 40,
+  "expansion": 1
  },
  "154": {
   "index": "The Gavel of Pain",
@@ -4909,7 +4930,8 @@
   "prop7": "charged",
   "par7": 66,
   "min7": 3,
-  "max7": 8
+  "max7": 8,
+  "expansion": 1
  },
  "155": {
   "index": "Bloodletter",
@@ -4952,7 +4974,8 @@
   "max8": 3,
   "prop9": "dur",
   "min9": 30,
-  "max9": 30
+  "max9": 30,
+  "expansion": 1
  },
  "156": {
   "index": "Coldsteel Eye",
@@ -4987,7 +5010,8 @@
   "max6": 20,
   "prop7": "manasteal",
   "min7": 6,
-  "max7": 6
+  "max7": 6,
+  "expansion": 1
  },
  "157": {
   "index": "Hexfire",
@@ -5022,7 +5046,8 @@
   "max6": 160,
   "prop7": "fireskill",
   "min7": 3,
-  "max7": 3
+  "max7": 3,
+  "expansion": 1
  },
  "158": {
   "index": "Blade of Ali Baba",
@@ -5051,7 +5076,8 @@
   "max5": 120,
   "prop6": "dex",
   "min6": 5,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "159": {
   "index": "Ginther's Rift",
@@ -5082,7 +5108,8 @@
   "max5": 120,
   "prop6": "dmg%",
   "min6": 100,
-  "max6": 150
+  "max6": 150,
+  "expansion": 1
  },
  "160": {
   "index": "Headstriker",
@@ -5109,7 +5136,8 @@
   "par4": 8,
   "prop5": "dmg%",
   "min5": 150,
-  "max5": 150
+  "max5": 150,
+  "expansion": 1
  },
  "161": {
   "index": "Plague Bearer",
@@ -5143,7 +5171,8 @@
   "prop6": "skill",
   "par6": 238,
   "min6": 5,
-  "max6": 5
+  "max6": 5,
+  "expansion": 1
  },
  "162": {
   "index": "The Atlantian",
@@ -5181,7 +5210,8 @@
   "max7": 2,
   "prop8": "att%",
   "min8": 50,
-  "max8": 50
+  "max8": 50,
+  "expansion": 1
  },
  "163": {
   "index": "Crainte Vomir",
@@ -5213,7 +5243,8 @@
   "max5": 200,
   "prop6": "swing3",
   "min6": 50,
-  "max6": 50
+  "max6": 50,
+  "expansion": 1
  },
  "164": {
   "index": "Bing Sz Wang",
@@ -5245,7 +5276,8 @@
   "max5": 3,
   "prop6": "dmg%",
   "min6": 130,
-  "max6": 160
+  "max6": 160,
+  "expansion": 1
  },
  "165": {
   "index": "The Vile Husk",
@@ -5278,7 +5310,8 @@
   "min5": 150,
   "max5": 200,
   "prop6": "att-und/lvl",
-  "par6": 20
+  "par6": 20,
+  "expansion": 1
  },
  "166": {
   "index": "Cloudcrack",
@@ -5321,7 +5354,8 @@
   "prop9": "skilltab",
   "par9": 11,
   "min9": 2,
-  "max9": 2
+  "max9": 2,
+  "expansion": 1
  },
  "167": {
   "index": "Todesfaelle Flamme",
@@ -5358,7 +5392,8 @@
   "prop7": "charged",
   "par7": 51,
   "min7": 20,
-  "max7": 10
+  "max7": 10,
+  "expansion": 1
  },
  "168": {
   "index": "Swordguard",
@@ -5399,7 +5434,8 @@
   "max8": 20,
   "prop9": "block",
   "min9": 20,
-  "max9": 20
+  "max9": 20,
+  "expansion": 1
  },
  "169": {
   "index": "Spineripper",
@@ -5435,7 +5471,8 @@
   "max7": 27,
   "prop8": "nec",
   "min8": 1,
-  "max8": 1
+  "max8": 1,
+  "expansion": 1
  },
  "170": {
   "index": "Heart Carver",
@@ -5471,7 +5508,8 @@
   "prop7": "skill",
   "par7": 150,
   "min7": 4,
-  "max7": 4
+  "max7": 4,
+  "expansion": 1
  },
  "171": {
   "index": "Blackbog's Sharp",
@@ -5512,7 +5550,8 @@
   "prop8": "skill",
   "par8": 92,
   "min8": 4,
-  "max8": 4
+  "max8": 4,
+  "expansion": 1
  },
  "172": {
   "index": "Stormspike",
@@ -5542,7 +5581,8 @@
   "min4": 150,
   "max4": 150,
   "prop5": "res-ltng/lvl",
-  "par5": 8
+  "par5": 8,
+  "expansion": 1
  },
  "173": {
   "index": "The Impaler",
@@ -5582,7 +5622,8 @@
   "prop8": "skill",
   "par8": 14,
   "min8": 3,
-  "max8": 3
+  "max8": 3,
+  "expansion": 1
  },
  "174": {
   "index": "Kelpie Snare",
@@ -5612,7 +5653,8 @@
   "max5": 10,
   "prop6": "dmg%",
   "min6": 140,
-  "max6": 180
+  "max6": 180,
+  "expansion": 1
  },
  "175": {
   "index": "Soulfeast Tine",
@@ -5648,7 +5690,8 @@
   "max6": 250,
   "prop7": "dur",
   "min7": 15,
-  "max7": 15
+  "max7": 15,
+  "expansion": 1
  },
  "176": {
   "index": "Hone Sundan",
@@ -5673,7 +5716,8 @@
   "par4": 10,
   "prop5": "dmg%",
   "min5": 160,
-  "max5": 200
+  "max5": 200,
+  "expansion": 1
  },
  "177": {
   "index": "Spire of Honor",
@@ -5714,7 +5758,8 @@
   "max8": 3,
   "prop9": "ac%",
   "min9": 25,
-  "max9": 25
+  "max9": 25,
+  "expansion": 1
  },
  "178": {
   "index": "The Meat Scraper",
@@ -5747,7 +5792,8 @@
   "prop6": "skilltab",
   "par6": 13,
   "min6": 3,
-  "max6": 3
+  "max6": 3,
+  "expansion": 1
  },
  "179": {
   "index": "Blackleach Blade",
@@ -5779,7 +5825,8 @@
   "par5": 10,
   "prop6": "dmg%",
   "min6": 100,
-  "max6": 140
+  "max6": 140,
+  "expansion": 1
  },
  "180": {
   "index": "Athena's Wrath",
@@ -5808,7 +5855,8 @@
   "par5": 8,
   "prop6": "dmg%",
   "min6": 150,
-  "max6": 180
+  "max6": 180,
+  "expansion": 1
  },
  "181": {
   "index": "Pierre Tombale Couant",
@@ -5843,7 +5891,8 @@
   "max6": 220,
   "prop7": "att",
   "min7": 100,
-  "max7": 200
+  "max7": 200,
+  "expansion": 1
  },
  "182": {
   "index": "Husoldal Evo",
@@ -5873,7 +5922,8 @@
   "max5": 200,
   "prop6": "swing2",
   "min6": 20,
-  "max6": 20
+  "max6": 20,
+  "expansion": 1
  },
  "183": {
   "index": "Grim's Burning Dead",
@@ -5914,7 +5964,8 @@
   "max8": 20,
   "prop9": "att",
   "min9": 200,
-  "max9": 250
+  "max9": 250,
+  "expansion": 1
  },
  "184": {
   "index": "Razorswitch",
@@ -5948,7 +5999,8 @@
   "max6": 50,
   "prop7": "allskills",
   "min7": 1,
-  "max7": 1
+  "max7": 1,
+  "expansion": 1
  },
  "185": {
   "index": "Ribcracker",
@@ -5989,7 +6041,8 @@
   "max8": 50,
   "prop9": "dur",
   "min9": 100,
-  "max9": 100
+  "max9": 100,
+  "expansion": 1
  },
  "186": {
   "index": "Chromatic Ire",
@@ -6029,7 +6082,8 @@
   "prop8": "skill",
   "par8": 65,
   "min8": 1,
-  "max8": 1
+  "max8": 1,
+  "expansion": 1
  },
  "187": {
   "index": "Warpspear",
@@ -6072,7 +6126,8 @@
   "prop8": "*gethit-skill",
   "par8": 54,
   "min8": 25,
-  "max8": 1
+  "max8": 1,
+  "expansion": 1
  },
  "188": {
   "index": "Skullcollector",
@@ -6098,7 +6153,8 @@
   "min3": 2,
   "max3": 2,
   "prop4": "mag%/lvl",
-  "par4": 8
+  "par4": 8,
+  "expansion": 1
  },
  "189": {
   "index": "Skystrike",
@@ -6132,7 +6188,8 @@
   "max6": 6,
   "prop7": "ama",
   "min7": 1,
-  "max7": 1
+  "max7": 1,
+  "expansion": 1
  },
  "190": {
   "index": "Riphook",
@@ -6164,7 +6221,8 @@
   "max5": 30,
   "prop6": "lifesteal",
   "min6": 7,
-  "max6": 10
+  "max6": 10,
+  "expansion": 1
  },
  "191": {
   "index": "Kuko Shakaku",
@@ -6198,7 +6256,8 @@
   "max5": 180,
   "prop6": "skilltab",
   "min6": 3,
-  "max6": 3
+  "max6": 3,
+  "expansion": 1
  },
  "192": {
   "index": "Endlesshail",
@@ -6231,7 +6290,8 @@
   "prop6": "dmg-cold",
   "par6": 75,
   "min6": 15,
-  "max6": 30
+  "max6": 30,
+  "expansion": 1
  },
  "193": {
   "index": "Whichwild String",
@@ -6263,7 +6323,8 @@
   "min5": 20,
   "max5": 20,
   "prop6": "sock",
-  "par6": 2
+  "par6": 2,
+  "expansion": 1
  },
  "194": {
   "index": "Cliffkiller",
@@ -6297,7 +6358,8 @@
   "max6": 10,
   "prop7": "dmg-max",
   "min7": 20,
-  "max7": 30
+  "max7": 30,
+  "expansion": 1
  },
  "195": {
   "index": "Magewrath",
@@ -6339,7 +6401,8 @@
   "max8": 150,
   "prop9": "ama",
   "min9": 1,
-  "max9": 1
+  "max9": 1,
+  "expansion": 1
  },
  "196": {
   "index": "Godstrike Arch",
@@ -6375,7 +6438,8 @@
   "max6": 50,
   "prop7": "regen",
   "min7": 12,
-  "max7": 12
+  "max7": 12,
+  "expansion": 1
  },
  "197": {
   "index": "Langer Briser",
@@ -6409,7 +6473,8 @@
   "max6": 33,
   "prop7": "dmg-ltng",
   "min7": 1,
-  "max7": 212
+  "max7": 212,
+  "expansion": 1
  },
  "198": {
   "index": "Pus Spiter",
@@ -6450,7 +6515,8 @@
   "min7": 150,
   "max7": 220,
   "prop8": "att/lvl",
-  "par8": 10
+  "par8": 10,
+  "expansion": 1
  },
  "199": {
   "index": "Buriza-Do Kyanon",
@@ -6487,7 +6553,8 @@
   "prop8": "dmg-cold",
   "par8": 200,
   "min8": 32,
-  "max8": 196
+  "max8": 196,
+  "expansion": 1
  },
  "200": {
   "index": "Demon Machine",
@@ -6523,7 +6590,8 @@
   "max6": 123,
   "prop7": "att",
   "min7": 632,
-  "max7": 632
+  "max7": 632,
+  "expansion": 1
  },
  "201": {
   "index": "Armor"
@@ -6557,7 +6625,8 @@
   "max5": 12,
   "prop6": "ac%",
   "min6": 100,
-  "max6": 100
+  "max6": 100,
+  "expansion": 1
  },
  "203": {
   "index": "Rockstopper",
@@ -6591,7 +6660,8 @@
   "max6": 40,
   "prop7": "vit",
   "min7": 15,
-  "max7": 15
+  "max7": 15,
+  "expansion": 1
  },
  "204": {
   "index": "Stealskull",
@@ -6622,7 +6692,8 @@
   "max5": 240,
   "prop6": "mag%",
   "min6": 30,
-  "max6": 50
+  "max6": 50,
+  "expansion": 1
  },
  "205": {
   "index": "Darksight Helm",
@@ -6659,7 +6730,8 @@
   "max6": 5,
   "prop7": "res-fire",
   "min7": 20,
-  "max7": 40
+  "max7": 40,
+  "expansion": 1
  },
  "206": {
   "index": "Valkiry Wing",
@@ -6687,7 +6759,8 @@
   "max4": 2,
   "prop5": "mana-kill",
   "min5": 2,
-  "max5": 4
+  "max5": 4,
+  "expansion": 1
  },
  "207": {
   "index": "Crown of Thieves",
@@ -6723,7 +6796,8 @@
   "max6": 200,
   "prop7": "gold%",
   "min7": 80,
-  "max7": 100
+  "max7": 100,
+  "expansion": 1
  },
  "208": {
   "index": "Blackhorn's Face",
@@ -6755,7 +6829,8 @@
   "max5": 15,
   "prop6": "ac%",
   "min6": 180,
-  "max6": 220
+  "max6": 220,
+  "expansion": 1
  },
  "209": {
   "index": "Vampiregaze",
@@ -6792,7 +6867,8 @@
   "prop7": "dmg-cold",
   "par7": 100,
   "min7": 6,
-  "max7": 22
+  "max7": 22,
+  "expansion": 1
  },
  "210": {
   "index": "The Spirit Shroud",
@@ -6819,7 +6895,8 @@
   "max4": 10,
   "prop5": "ac%",
   "min5": 150,
-  "max5": 150
+  "max5": 150,
+  "expansion": 1
  },
  "211": {
   "index": "Skin of the Vipermagi",
@@ -6848,7 +6925,8 @@
   "max4": 13,
   "prop5": "allskills",
   "min5": 1,
-  "max5": 1
+  "max5": 1,
+  "expansion": 1
  },
  "212": {
   "index": "Skin of the Flayerd One",
@@ -6879,7 +6957,8 @@
   "max5": 190,
   "prop6": "thorns",
   "min6": 15,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "213": {
   "index": "Ironpelt",
@@ -6911,7 +6990,8 @@
   "par5": 24,
   "prop6": "ac%",
   "min6": 50,
-  "max6": 100
+  "max6": 100,
+  "expansion": 1
  },
  "214": {
   "index": "Spiritforge",
@@ -6942,7 +7022,8 @@
   "min6": 15,
   "max6": 15,
   "prop7": "sock",
-  "par7": 2
+  "par7": 2,
+  "expansion": 1
  },
  "215": {
   "index": "Crow Caw",
@@ -6973,7 +7054,8 @@
   "prop6": "*charged",
   "par6": 221,
   "min6": 3,
-  "max6": 5
+  "max6": 5,
+  "expansion": 1
  },
  "216": {
   "index": "Shaftstop",
@@ -6998,7 +7080,8 @@
   "max3": 60,
   "prop4": "ac%",
   "min4": 180,
-  "max4": 220
+  "max4": 220,
+  "expansion": 1
  },
  "217": {
   "index": "Duriel's Shell",
@@ -7040,7 +7123,8 @@
   "max9": 1,
   "prop10": "dur",
   "min10": 100,
-  "max10": 100
+  "max10": 100,
+  "expansion": 1
  },
  "218": {
   "index": "Skullder's Ire",
@@ -7074,7 +7158,8 @@
   "max7": -10,
   "prop8": "*enr",
   "min8": -10,
-  "max8": -10
+  "max8": -10,
+  "expansion": 1
  },
  "219": {
   "index": "Guardian Angel",
@@ -7108,7 +7193,8 @@
   "par6": 5,
   "prop7": "block",
   "min7": 20,
-  "max7": 20
+  "max7": 20,
+  "expansion": 1
  },
  "220": {
   "index": "Toothrow",
@@ -7143,7 +7229,8 @@
   "max6": 220,
   "prop7": "dur",
   "min7": 15,
-  "max7": 15
+  "max7": 15,
+  "expansion": 1
  },
  "221": {
   "index": "Atma's Wail",
@@ -7178,7 +7265,8 @@
   "max7": 160,
   "prop8": "mag%",
   "min8": 20,
-  "max8": 20
+  "max8": 20,
+  "expansion": 1
  },
  "222": {
   "index": "Black Hades",
@@ -7207,7 +7295,8 @@
   "max5": 200,
   "prop6": "dmg-demon",
   "min6": 30,
-  "max6": 60
+  "max6": 60,
+  "expansion": 1
  },
  "223": {
   "index": "Corpsemourn",
@@ -7245,7 +7334,8 @@
   "prop7": "charged",
   "par7": 74,
   "min7": 40,
-  "max7": 5
+  "max7": 5,
+  "expansion": 1
  },
  "224": {
   "index": "Que-Hegan's Wisdon",
@@ -7278,7 +7368,8 @@
   "max6": 160,
   "prop7": "allskills",
   "min7": 1,
-  "max7": 1
+  "max7": 1,
+  "expansion": 1
  },
  "225": {
   "index": "Visceratuant",
@@ -7307,7 +7398,8 @@
   "max4": 150,
   "prop5": "light-thorns",
   "min5": 10,
-  "max5": 10
+  "max5": 10,
+  "expansion": 1
  },
  "226": {
   "index": "Mosers Blessed Circle",
@@ -7334,7 +7426,8 @@
   "max4": 220,
   "prop5": "block2",
   "min5": 30,
-  "max5": 30
+  "max5": 30,
+  "expansion": 1
  },
  "227": {
   "index": "Stormchaser",
@@ -7378,7 +7471,8 @@
   "prop9": "gethit-skill",
   "par9": 245,
   "min9": 4,
-  "max9": 5
+  "max9": 5,
+  "expansion": 1
  },
  "228": {
   "index": "Tiamat's Rebuke",
@@ -7424,7 +7518,8 @@
   "max8": 6,
   "prop9": "dur",
   "min9": 40,
-  "max9": 40
+  "max9": 40,
+  "expansion": 1
  },
  "229": {
   "index": "Kerke's Sanctuary",
@@ -7460,7 +7555,8 @@
   "max6": 30,
   "prop7": "res-all",
   "min7": 20,
-  "max7": 30
+  "max7": 30,
+  "expansion": 1
  },
  "230": {
   "index": "Radimant's Sphere",
@@ -7500,7 +7596,8 @@
   "max7": 6,
   "prop8": "dur",
   "min8": 20,
-  "max8": 20
+  "max8": 20,
+  "expansion": 1
  },
  "231": {
   "index": "Lidless Wall",
@@ -7536,7 +7633,8 @@
   "max6": 10,
   "prop7": "mana%",
   "min7": 10,
-  "max7": 10
+  "max7": 10,
+  "expansion": 1
  },
  "232": {
   "index": "Lance Guard",
@@ -7567,7 +7665,8 @@
   "max5": 120,
   "prop6": "deadly",
   "min6": 20,
-  "max6": 20
+  "max6": 20,
+  "expansion": 1
  },
  "233": {
   "index": "Venom Grip",
@@ -7602,7 +7701,8 @@
   "max6": 25,
   "prop7": "ac%",
   "min7": 130,
-  "max7": 160
+  "max7": 160,
+  "expansion": 1
  },
  "234": {
   "index": "Gravepalm",
@@ -7629,7 +7729,8 @@
   "max4": 200,
   "prop5": "ac%",
   "min5": 140,
-  "max5": 180
+  "max5": 180,
+  "expansion": 1
  },
  "235": {
   "index": "Ghoulhide",
@@ -7654,7 +7755,8 @@
   "max4": 20,
   "prop5": "ac%",
   "min5": 150,
-  "max5": 190
+  "max5": 190,
+  "expansion": 1
  },
  "236": {
   "index": "Lavagout",
@@ -7689,7 +7791,8 @@
   "max6": 46,
   "prop7": "dur",
   "min7": 20,
-  "max7": 20
+  "max7": 20,
+  "expansion": 1
  },
  "237": {
   "index": "Hellmouth",
@@ -7721,7 +7824,8 @@
   "prop6": "hit-skill",
   "par6": 225,
   "min6": 4,
-  "max6": 12
+  "max6": 12,
+  "expansion": 1
  },
  "238": {
   "index": "Infernostride",
@@ -7761,7 +7865,8 @@
   "prop9": "gethit-skill",
   "par9": 46,
   "min9": 5,
-  "max9": 8
+  "max9": 8,
+  "expansion": 1
  },
  "239": {
   "index": "Waterwalk",
@@ -7797,7 +7902,8 @@
   "max7": 5,
   "prop8": "regen-stam",
   "min8": 50,
-  "max8": 50
+  "max8": 50,
+  "expansion": 1
  },
  "240": {
   "index": "Silkweave",
@@ -7824,7 +7930,8 @@
   "max4": 10,
   "prop5": "move2",
   "min5": 30,
-  "max5": 30
+  "max5": 30,
+  "expansion": 1
  },
  "241": {
   "index": "Wartraveler",
@@ -7863,7 +7970,8 @@
   "max8": 10,
   "prop9": "stamdrain",
   "min9": 40,
-  "max9": 40
+  "max9": 40,
+  "expansion": 1
  },
  "242": {
   "index": "Gorerider",
@@ -7900,7 +8008,8 @@
   "max7": 10,
   "prop8": "stam",
   "min8": 20,
-  "max8": 20
+  "max8": 20,
+  "expansion": 1
  },
  "243": {
   "index": "String of Ears",
@@ -7931,7 +8040,8 @@
   "max5": 15,
   "prop6": "dur",
   "min6": 10,
-  "max6": 10
+  "max6": 10,
+  "expansion": 1
  },
  "244": {
   "index": "Razortail",
@@ -7960,7 +8070,8 @@
   "max5": 150,
   "prop6": "dmg-max",
   "min6": 10,
-  "max6": 10
+  "max6": 10,
+  "expansion": 1
  },
  "245": {
   "index": "Gloomstrap",
@@ -7990,7 +8101,8 @@
   "max5": 15,
   "prop6": "regen-mana",
   "min6": 15,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "246": {
   "index": "Snowclash",
@@ -8030,7 +8142,8 @@
   "prop8": "skill",
   "par8": 60,
   "min8": 2,
-  "max8": 2
+  "max8": 2,
+  "expansion": 1
  },
  "247": {
   "index": "Thudergod's Vigor",
@@ -8072,7 +8185,8 @@
   "prop9": "skill",
   "par9": 35,
   "min9": 3,
-  "max9": 3
+  "max9": 3,
+  "expansion": 1
  },
  "248": {
   "index": "Elite Uniques"
@@ -8114,7 +8228,8 @@
   "max8": 2,
   "prop9": "enr",
   "min9": 2,
-  "max9": 2
+  "max9": 2,
+  "expansion": 1
  },
  "250": {
   "index": "Veil of Steel",
@@ -8152,7 +8267,8 @@
   "max7": 140,
   "prop8": "*mana",
   "min8": -30,
-  "max8": -30
+  "max8": -30,
+  "expansion": 1
  },
  "251": {
   "index": "The Gladiator's Bane",
@@ -8193,7 +8309,8 @@
   "max8": 50,
   "prop9": "nofreeze",
   "min9": 1,
-  "max9": 1
+  "max9": 1,
+  "expansion": 1
  },
  "252": {
   "index": "Arkaine's Valor",
@@ -8221,7 +8338,8 @@
   "min4": 10,
   "max4": 15,
   "prop5": "vit/lvl",
-  "par5": 4
+  "par5": 4,
+  "expansion": 1
  },
  "253": {
   "index": "Blackoak Shield",
@@ -8256,7 +8374,8 @@
   "max7": 50,
   "prop8": "half-freeze",
   "min8": 1,
-  "max8": 1
+  "max8": 1,
+  "expansion": 1
  },
  "254": {
   "index": "Stormshield",
@@ -8295,7 +8414,8 @@
   "max8": 60,
   "prop9": "light-thorns",
   "min9": 10,
-  "max9": 10
+  "max9": 10,
+  "expansion": 1
  },
  "255": {
   "index": "Hellslayer",
@@ -8331,7 +8451,8 @@
   "min7": 10,
   "prop8": "*mana",
   "min8": -25,
-  "max8": -25
+  "max8": -25,
+  "expansion": 1
  },
  "256": {
   "index": "Messerschmidt's Reaver",
@@ -8372,7 +8493,8 @@
   "max8": 25,
   "prop9": "att%",
   "min9": 100,
-  "max9": 100
+  "max9": 100,
+  "expansion": 1
  },
  "257": {
   "index": "Baranar's Star",
@@ -8414,7 +8536,8 @@
   "max8": 200,
   "prop9": "dmg-cold",
   "min9": 1,
-  "max9": 200
+  "max9": 200,
+  "expansion": 1
  },
  "258": {
   "index": "Schaefer's Hammer",
@@ -8457,7 +8580,8 @@
   "max9": 1,
   "prop10": "dmg-ltng",
   "min10": 50,
-  "max10": 200
+  "max10": 200,
+  "expansion": 1
  },
  "259": {
   "index": "The Cranium Basher",
@@ -8499,7 +8623,8 @@
   "max8": 1,
   "prop9": "*mana",
   "min9": -30,
-  "max9": -30
+  "max9": -30,
+  "expansion": 1
  },
  "260": {
   "index": "Lightsabre",
@@ -8544,7 +8669,8 @@
   "max9": 200,
   "prop10": "dmg-norm",
   "min10": 10,
-  "max10": 30
+  "max10": 30,
+  "expansion": 1
  },
  "261": {
   "index": "Doombringer",
@@ -8581,7 +8707,8 @@
   "max6": 3,
   "prop7": "lifesteal",
   "min7": 5,
-  "max7": 7
+  "max7": 7,
+  "expansion": 1
  },
  "262": {
   "index": "The Grandfather",
@@ -8622,7 +8749,8 @@
   "max8": 1,
   "prop9": "dmg%",
   "min9": 150,
-  "max9": 250
+  "max9": 250,
+  "expansion": 1
  },
  "263": {
   "index": "Wizardspike",
@@ -8653,7 +8781,8 @@
   "max5": 1,
   "prop6": "cast3",
   "min6": 50,
-  "max6": 50
+  "max6": 50,
+  "expansion": 1
  },
  "264": {
   "index": "Constricting Ring",
@@ -8678,7 +8807,8 @@
   "max3": 100,
   "prop4": "res-all-max",
   "min4": 15,
-  "max4": 15
+  "max4": 15,
+  "expansion": 1
  },
  "265": {
   "index": "Stormspire",
@@ -8723,7 +8853,8 @@
   "max9": 27,
   "prop10": "*enr",
   "min10": -10,
-  "max10": -10
+  "max10": -10,
+  "expansion": 1
  },
  "266": {
   "index": "Eaglehorn",
@@ -8753,7 +8884,8 @@
   "max5": 1,
   "prop6": "dex",
   "min6": 25,
-  "max6": 25
+  "max6": 25,
+  "expansion": 1
  },
  "267": {
   "index": "Windforce",
@@ -8790,7 +8922,8 @@
   "max7": 20,
   "prop8": "str",
   "min8": 10,
-  "max8": 10
+  "max8": 10,
+  "expansion": 1
  },
  "268": {
   "index": "Rings"
@@ -8818,7 +8951,8 @@
   "max3": 5,
   "prop4": "stam",
   "min4": 50,
-  "max4": 50
+  "max4": 50,
+  "expansion": 1
  },
  "270": {
   "index": "The Cat's Eye",
@@ -8847,7 +8981,8 @@
   "max4": 100,
   "prop5": "dex",
   "min5": 25,
-  "max5": 25
+  "max5": 25,
+  "expansion": 1
  },
  "271": {
   "index": "The Rising Sun",
@@ -8878,7 +9013,8 @@
   "max5": 2,
   "prop6": "regen",
   "min6": 10,
-  "max6": 10
+  "max6": 10,
+  "expansion": 1
  },
  "272": {
   "index": "Crescent Moon",
@@ -8910,7 +9046,8 @@
   "max5": 45,
   "prop6": "lifesteal",
   "min6": 3,
-  "max6": 6
+  "max6": 6,
+  "expansion": 1
  },
  "273": {
   "index": "Mara's Kaleidoscope",
@@ -8942,7 +9079,8 @@
   "max5": 5,
   "prop6": "enr",
   "min6": 5,
-  "max6": 5
+  "max6": 5,
+  "expansion": 1
  },
  "274": {
   "index": "Atma's Scarab",
@@ -8976,7 +9114,8 @@
   "max5": 2,
   "prop6": "att%",
   "min6": 20,
-  "max6": 20
+  "max6": 20,
+  "expansion": 1
  },
  "275": {
   "index": "Dwarf Star",
@@ -9008,7 +9147,8 @@
   "max5": 15,
   "prop6": "abs-fire%",
   "min6": 15,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "276": {
   "index": "Raven Frost",
@@ -9041,7 +9181,8 @@
   "max5": 20,
   "prop6": "att",
   "min6": 150,
-  "max6": 250
+  "max6": 250,
+  "expansion": 1
  },
  "277": {
   "index": "Highlord's Wrath",
@@ -9072,7 +9213,8 @@
   "par5": 3,
   "prop6": "light-thorns",
   "min6": 15,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "278": {
   "index": "Saracen's Chance",
@@ -9105,7 +9247,8 @@
   "max5": 12,
   "prop6": "vit",
   "min6": 12,
-  "max6": 12
+  "max6": 12,
+  "expansion": 1
  },
  "279": {
   "index": "Class Specific"
@@ -9148,7 +9291,8 @@
   "max8": 6,
   "prop9": "res-all",
   "min9": 30,
-  "max9": 30
+  "max9": 30,
+  "expansion": 1
  },
  "281": {
   "index": "Homunculus",
@@ -9188,7 +9332,8 @@
   "max8": 5,
   "prop9": "res-all",
   "min9": 40,
-  "max9": 40
+  "max9": 40,
+  "expansion": 1
  },
  "282": {
   "index": "Titan's Revenge",
@@ -9230,7 +9375,8 @@
   "max9": 50,
   "prop10": "stack",
   "min10": 60,
-  "max10": 60
+  "max10": 60,
+  "expansion": 1
  },
  "283": {
   "index": "Lycander's Aim",
@@ -9269,7 +9415,8 @@
   "max8": 8,
   "prop9": "dmg-norm",
   "min9": 25,
-  "max9": 50
+  "max9": 50,
+  "expansion": 1
  },
  "284": {
   "index": "Lycander's Flank",
@@ -9309,7 +9456,8 @@
   "max8": 9,
   "prop9": "dmg-norm",
   "min9": 25,
-  "max9": 50
+  "max9": 50,
+  "expansion": 1
  },
  "285": {
   "index": "The Oculus",
@@ -9349,7 +9497,8 @@
   "max8": 5,
   "prop9": "mag%",
   "min9": 50,
-  "max9": 50
+  "max9": 50,
+  "expansion": 1
  },
  "286": {
   "index": "Herald of Zakarum",
@@ -9389,7 +9538,8 @@
   "max8": 20,
   "prop9": "res-all",
   "min9": 50,
-  "max9": 50
+  "max9": 50,
+  "expansion": 1
  },
  "287": {
   "index": "Cutthroat1",
@@ -9429,7 +9579,8 @@
   "max8": 9,
   "prop9": "dmg-norm",
   "min9": 25,
-  "max9": 50
+  "max9": 50,
+  "expansion": 1
  },
  "288": {
   "index": "Jalal's Mane",
@@ -9469,7 +9620,8 @@
   "max8": 5,
   "prop9": "res-all",
   "min9": 30,
-  "max9": 30
+  "max9": 30,
+  "expansion": 1
  },
  "289": {
   "index": "The Scalper",
@@ -9501,7 +9653,8 @@
   "max6": 6,
   "prop7": "mana-kill",
   "min7": 4,
-  "max7": 4
+  "max7": 4,
+  "expansion": 1
  },
  "290": {
   "index": "Bloodmoon",
@@ -9532,7 +9685,8 @@
   "max4": 13,
   "prop5": "openwounds",
   "min5": 50,
-  "max5": 50
+  "max5": 50,
+  "expansion": 1
  },
  "291": {
   "index": "Djinnslayer",
@@ -9569,7 +9723,8 @@
   "max6": 6,
   "prop7": "sock",
   "min7": 1,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "292": {
   "index": "Deathbit",
@@ -9598,7 +9753,8 @@
   "min5": 4,
   "max5": 6,
   "prop6": "rep-quant",
-  "par6": 25
+  "par6": 25,
+  "expansion": 1
  },
  "293": {
   "index": "Warshrike",
@@ -9632,7 +9788,8 @@
   "prop6": "hit-skill",
   "par6": "Nova",
   "min6": 25,
-  "max6": 9
+  "max6": 9,
+  "expansion": 1
  },
  "294": {
   "index": "Gutsiphon",
@@ -9662,7 +9819,8 @@
   "max4": 25,
   "prop5": "openwounds",
   "min5": 33,
-  "max5": 33
+  "max5": 33,
+  "expansion": 1
  },
  "295": {
   "index": "Razoredge",
@@ -9691,7 +9849,8 @@
   "max4": 50,
   "prop5": "openwounds",
   "min5": 50,
-  "max5": 50
+  "max5": 50,
+  "expansion": 1
  },
  "296": {
   "index": "Gore Ripper",
@@ -9700,7 +9859,8 @@
   "cost mult": 5,
   "cost add": 5000,
   "chrtransform": "dred",
-  "invtransform": "dred"
+  "invtransform": "dred",
+  "expansion": 1
  },
  "297": {
   "index": "Demonlimb",
@@ -9736,7 +9896,8 @@
   "max6": 123,
   "prop7": "res-fire",
   "min7": 15,
-  "max7": 20
+  "max7": 20,
+  "expansion": 1
  },
  "298": {
   "index": "Steelshade",
@@ -9763,7 +9924,8 @@
   "max3": 8,
   "prop4": "regen",
   "min4": 10,
-  "max4": 18
+  "max4": 18,
+  "expansion": 1
  },
  "299": {
   "index": "Tomb Reaver",
@@ -9810,7 +9972,8 @@
   "max9": 14,
   "prop10": "sock",
   "min10": 1,
-  "max10": 3
+  "max10": 3,
+  "expansion": 1
  },
  "300": {
   "index": "Deaths's Web",
@@ -9840,7 +10003,8 @@
   "prop5": "skilltab",
   "par5": 7,
   "min5": 1,
-  "max5": 2
+  "max5": 2,
+  "expansion": 1
  },
  "301": {
   "index": "Nature's Peace",
@@ -9871,7 +10035,8 @@
   "prop5": "charged",
   "par5": "Oak Sage",
   "min5": 27,
-  "max5": 5
+  "max5": 5,
+  "expansion": 1
  },
  "302": {
   "index": "Azurewrath",
@@ -9913,7 +10078,8 @@
   "max7": 3,
   "prop8": "allskills",
   "min8": 1,
-  "max8": 1
+  "max8": 1,
+  "expansion": 1
  },
  "303": {
   "index": "Seraph's Hymn",
@@ -9951,14 +10117,16 @@
   "max6": 250,
   "prop7": "light",
   "min7": 2,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "304": {
   "index": "Zakarum's Salvation",
   "version": 100,
   "rarity": 1,
   "cost mult": 5,
-  "cost add": 5000
+  "cost add": 5000,
+  "expansion": 1
  },
  "305": {
   "index": "Fleshripper",
@@ -9994,7 +10162,8 @@
   "max6": 33,
   "prop7": "slow",
   "min7": 20,
-  "max7": 20
+  "max7": 20,
+  "expansion": 1
  },
  "306": {
   "index": "Odium",
@@ -10002,7 +10171,8 @@
   "rarity": 1,
   "cost mult": 5,
   "cost add": 5000,
-  "chrtransform": "blac"
+  "chrtransform": "blac",
+  "expansion": 1
  },
  "307": {
   "index": "Horizon's Tornado",
@@ -10032,7 +10202,8 @@
   "max4": 15,
   "prop5": "ease",
   "min5": -20,
-  "max5": -20
+  "max5": -20,
+  "expansion": 1
  },
  "308": {
   "index": "Stone Crusher",
@@ -10063,7 +10234,8 @@
   "max5": -100,
   "prop6": "dmg",
   "min6": 10,
-  "max6": 30
+  "max6": 30,
+  "expansion": 1
  },
  "309": {
   "index": "Jadetalon",
@@ -10097,7 +10269,8 @@
   "prop6": "skilltab",
   "par6": 20,
   "min6": 1,
-  "max6": 2
+  "max6": 2,
+  "expansion": 1
  },
  "310": {
   "index": "Shadowdancer",
@@ -10131,7 +10304,8 @@
   "max5": 2,
   "prop6": "ease",
   "min6": -20,
-  "max6": -20
+  "max6": -20,
+  "expansion": 1
  },
  "311": {
   "index": "Cerebus",
@@ -10166,7 +10340,8 @@
   "prop6": "skill",
   "par6": "feral rage",
   "min6": 1,
-  "max6": 2
+  "max6": 2,
+  "expansion": 1
  },
  "312": {
   "index": "Tyrael's Might",
@@ -10210,7 +10385,8 @@
   "max8": 30,
   "prop9": "str",
   "min9": 20,
-  "max9": 30
+  "max9": 30,
+  "expansion": 1
  },
  "313": {
   "index": "Souldrain",
@@ -10240,7 +10416,8 @@
   "max4": 3,
   "prop5": "dmg-ac",
   "min5": -50,
-  "max5": -50
+  "max5": -50,
+  "expansion": 1
  },
  "314": {
   "index": "Runemaster",
@@ -10267,7 +10444,8 @@
   "max3": 5,
   "prop4": "nofreeze",
   "min4": 1,
-  "max4": 1
+  "max4": 1,
+  "expansion": 1
  },
  "315": {
   "index": "Deathcleaver",
@@ -10296,7 +10474,8 @@
   "max4": 40,
   "prop5": "heal-kill",
   "min5": 6,
-  "max5": 9
+  "max5": 9,
+  "expansion": 1
  },
  "316": {
   "index": "Executioner's Justice",
@@ -10327,7 +10506,8 @@
   "max4": 6,
   "prop5": "swing2",
   "min5": 30,
-  "max5": 30
+  "max5": 30,
+  "expansion": 1
  },
  "317": {
   "index": "Stoneraven",
@@ -10357,7 +10537,8 @@
   "prop5": "skilltab",
   "par5": 2,
   "min5": 1,
-  "max5": 3
+  "max5": 3,
+  "expansion": 1
  },
  "318": {
   "index": "Leviathan",
@@ -10387,7 +10568,8 @@
   "max4": 50,
   "prop5": "indestruct",
   "min5": 1,
-  "max5": 1
+  "max5": 1,
+  "expansion": 1
  },
  "319": {
   "index": "Larzuk's Champion",
@@ -10397,7 +10579,8 @@
   "cost add": 5000,
   "chrtransform": "lgry",
   "flippyfile": "flphmr",
-  "invfile": "invhfh"
+  "invfile": "invhfh",
+  "expansion": 1
  },
  "320": {
   "index": "Wisp",
@@ -10433,7 +10616,8 @@
   "prop6": "charged",
   "par6": "Spirit of Barbs",
   "min6": 11,
-  "max6": 7
+  "max6": 7,
+  "expansion": 1
  },
  "321": {
   "index": "Gargoyle's Bite",
@@ -10463,7 +10647,8 @@
   "prop5": "charged",
   "par5": "Plague Javelin",
   "min5": 60,
-  "max5": 11
+  "max5": 11,
+  "expansion": 1
  },
  "322": {
   "index": "Lacerator",
@@ -10498,7 +10683,8 @@
   "prop7": "hit-skill",
   "par7": "Amplify Damage",
   "min7": 33,
-  "max7": 3
+  "max7": 3,
+  "expansion": 1
  },
  "323": {
   "index": "Mang Song's Lesson",
@@ -10532,7 +10718,8 @@
   "max5": 10,
   "prop6": "cast2",
   "min6": 30,
-  "max6": 30
+  "max6": 30,
+  "expansion": 1
  },
  "324": {
   "index": "Viperfork",
@@ -10566,7 +10753,8 @@
   "max5": 9,
   "prop6": "res-pois",
   "min6": 30,
-  "max6": 50
+  "max6": 50,
+  "expansion": 1
  },
  "325": {
   "index": "Ethereal Edge",
@@ -10604,7 +10792,8 @@
   "max7": 1,
   "prop8": "indestruct",
   "min8": 1,
-  "max8": 1
+  "max8": 1,
+  "expansion": 1
  },
  "326": {
   "index": "Demonhorn's Edge",
@@ -10643,7 +10832,8 @@
   "prop7": "skilltab",
   "par7": 14,
   "min7": 1,
-  "max7": 3
+  "max7": 3,
+  "expansion": 1
  },
  "327": {
   "index": "The Reaper's Toll",
@@ -10679,7 +10869,8 @@
   "max6": 33,
   "prop7": "dmg-cold",
   "min7": 4,
-  "max7": 44
+  "max7": 44,
+  "expansion": 1
  },
  "328": {
   "index": "Spiritkeeper",
@@ -10712,7 +10903,8 @@
   "max6": 10,
   "prop7": "dru",
   "min7": 1,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "329": {
   "index": "Hellrack",
@@ -10746,7 +10938,8 @@
   "prop6": "charged",
   "par6": "Immolation Arrow",
   "min6": 150,
-  "max6": 18
+  "max6": 18,
+  "expansion": 1
  },
  "330": {
   "index": "Alma Negra",
@@ -10781,7 +10974,8 @@
   "max6": 75,
   "prop7": "dmg%",
   "min7": 40,
-  "max7": 75
+  "max7": 75,
+  "expansion": 1
  },
  "331": {
   "index": "Darkforge Spawn",
@@ -10817,7 +11011,8 @@
   "prop6": "skilltab",
   "par6": 8,
   "min6": 1,
-  "max6": 3
+  "max6": 3,
+  "expansion": 1
  },
  "332": {
   "index": "Widowmaker",
@@ -10849,7 +11044,8 @@
   "prop5": "oskill",
   "par5": "Guided Arrow",
   "min5": 3,
-  "max5": 5
+  "max5": 5,
+  "expansion": 1
  },
  "333": {
   "index": "Bloodraven's Charge",
@@ -10880,7 +11076,8 @@
   "prop5": "charged",
   "par5": "Revive",
   "min5": 30,
-  "max5": 5
+  "max5": 5,
+  "expansion": 1
  },
  "334": {
   "index": "Ghostflame",
@@ -10915,7 +11112,8 @@
   "max6": 1,
   "prop7": "light",
   "min7": 2,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "335": {
   "index": "Shadowkiller",
@@ -10951,7 +11149,8 @@
   "max6": 1,
   "prop7": "indestruct",
   "min7": 1,
-  "max7": 1
+  "max7": 1,
+  "expansion": 1
  },
  "336": {
   "index": "Gimmershred",
@@ -10983,7 +11182,8 @@
   "max5": 60,
   "prop6": "swing2",
   "min6": 30,
-  "max6": 30
+  "max6": 30,
+  "expansion": 1
  },
  "337": {
   "index": "Griffon's Eye",
@@ -11011,7 +11211,8 @@
   "max4": 15,
   "prop5": "pierce-ltng",
   "min5": 15,
-  "max5": 20
+  "max5": 20,
+  "expansion": 1
  },
  "338": {
   "index": "Windhammer",
@@ -11039,7 +11240,8 @@
   "prop4": "hit-skill",
   "par4": "Twister",
   "min4": 33,
-  "max4": 22
+  "max4": 22,
+  "expansion": 1
  },
  "339": {
   "index": "Thunderstroke",
@@ -11078,7 +11280,8 @@
   "prop7": "skilltab",
   "par7": 2,
   "min7": 2,
-  "max7": 4
+  "max7": 4,
+  "expansion": 1
  },
  "340": {
   "index": "Giantmaimer",
@@ -11087,7 +11290,8 @@
   "cost mult": 5,
   "cost add": 5000,
   "chrtransform": "cred",
-  "invtransform": "cred"
+  "invtransform": "cred",
+  "expansion": 1
  },
  "341": {
   "index": "Demon's Arch",
@@ -11118,7 +11322,8 @@
   "max5": 30,
   "prop6": "dmg-ltng",
   "min6": 23,
-  "max6": 333
+  "max6": 333,
+  "expansion": 1
  },
  "342": {
   "index": "Boneflame",
@@ -11148,7 +11353,8 @@
   "max4": 3,
   "prop5": "res-all",
   "min5": 20,
-  "max5": 30
+  "max5": 30,
+  "expansion": 1
  },
  "343": {
   "index": "Steelpillar",
@@ -11178,7 +11384,8 @@
   "max5": 1,
   "prop6": "crush",
   "min6": 25,
-  "max6": 25
+  "max6": 25,
+  "expansion": 1
  },
  "344": {
   "index": "Nightwing's Veil",
@@ -11213,7 +11420,8 @@
   "max6": 15,
   "prop7": "ease",
   "min7": -50,
-  "max7": -50
+  "max7": -50,
+  "expansion": 1
  },
  "345": {
   "index": "Crown of Ages",
@@ -11252,7 +11460,8 @@
   "max7": 50,
   "prop8": "sock",
   "min8": 1,
-  "max8": 2
+  "max8": 2,
+  "expansion": 1
  },
  "346": {
   "index": "Andariel's Visage",
@@ -11300,7 +11509,8 @@
   "max9": 10,
   "prop10": "res-fire",
   "min10": -30,
-  "max10": -30
+  "max10": -30,
+  "expansion": 1
  },
  "347": {
   "index": "Darkfear",
@@ -11311,7 +11521,8 @@
   "cost mult": 5,
   "cost add": 5000,
   "chrtransform": "blac",
-  "invfile": "invhlmu"
+  "invfile": "invhlmu",
+  "expansion": 1
  },
  "348": {
   "index": "Dragonscale",
@@ -11347,7 +11558,8 @@
   "max6": 10,
   "prop7": "extra-fire",
   "min7": 15,
-  "max7": 15
+  "max7": 15,
+  "expansion": 1
  },
  "349": {
   "index": "Steel Carapice",
@@ -11382,7 +11594,8 @@
   "prop7": "gethit-skill",
   "par7": "Iron Maiden",
   "min7": 8,
-  "max7": 6
+  "max7": 6,
+  "expansion": 1
  },
  "350": {
   "index": "Medusa's Gaze",
@@ -11417,7 +11630,8 @@
   "max5": 44,
   "prop6": "res-cold",
   "min6": 40,
-  "max6": 80
+  "max6": 80,
+  "expansion": 1
  },
  "351": {
   "index": "Ravenlore",
@@ -11451,7 +11665,8 @@
   "prop6": "skill",
   "par6": "Raven",
   "min6": 7,
-  "max6": 7
+  "max6": 7,
+  "expansion": 1
  },
  "352": {
   "index": "Boneshade",
@@ -11492,7 +11707,8 @@
   "prop7": "skill",
   "par7": "Bone Wall",
   "min7": 2,
-  "max7": 3
+  "max7": 3,
+  "expansion": 1
  },
  "353": {
   "index": "Nethercrow",
@@ -11501,7 +11717,8 @@
   "cost mult": 3,
   "cost add": 5000,
   "chrtransform": "cblu",
-  "invtransform": "cblu"
+  "invtransform": "cblu",
+  "expansion": 1
  },
  "354": {
   "index": "Flamebellow",
@@ -11542,7 +11759,8 @@
   "prop8": "oskill",
   "par8": "Inferno",
   "min8": 12,
-  "max8": 18
+  "max8": 18,
+  "expansion": 1
  },
  "355": {
   "index": "Fathom",
@@ -11571,7 +11789,8 @@
   "max4": 40,
   "prop5": "res-ltng",
   "min5": 25,
-  "max5": 40
+  "max5": 40,
+  "expansion": 1
  },
  "356": {
   "index": "Wolfhowl",
@@ -11617,7 +11836,8 @@
   "prop9": "oskill",
   "par9": "Feral Rage",
   "min9": 3,
-  "max9": 6
+  "max9": 6,
+  "expansion": 1
  },
  "357": {
   "index": "Spirit Ward",
@@ -11651,7 +11871,8 @@
   "prop6": "gethit-skill",
   "par6": "Fade",
   "min6": 5,
-  "max6": 8
+  "max6": 8,
+  "expansion": 1
  },
  "358": {
   "index": "Kira's Guardian",
@@ -11678,7 +11899,8 @@
   "max3": 1,
   "prop4": "balance2",
   "min4": 20,
-  "max4": 20
+  "max4": 20,
+  "expansion": 1
  },
  "359": {
   "index": "Ormus' Robes",
@@ -11714,7 +11936,8 @@
   "prop7": "skill-rand",
   "par7": 3,
   "min7": 36,
-  "max7": 60
+  "max7": 60,
+  "expansion": 1
  },
  "360": {
   "index": "Gheed's Fortune",
@@ -11738,7 +11961,8 @@
   "max2": 160,
   "prop3": "cheap",
   "min3": 10,
-  "max3": 15
+  "max3": 15,
+  "expansion": 1
  },
  "361": {
   "index": "Stormlash",
@@ -11779,7 +12003,8 @@
   "max7": 33,
   "prop8": "abs-ltng",
   "min8": 3,
-  "max8": 9
+  "max8": 9,
+  "expansion": 1
  },
  "362": {
   "index": "Halaberd's Reign",
@@ -11815,14 +12040,16 @@
   "prop7": "skill",
   "par7": "Battle Command",
   "min7": 1,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "363": {
   "index": "Warriv's Warder",
   "version": 100,
   "rarity": 1,
   "cost mult": 3,
-  "cost add": 5000
+  "cost add": 5000,
+  "expansion": 1
  },
  "364": {
   "index": "Spike Thorn",
@@ -11854,7 +12081,8 @@
   "max5": 20,
   "prop6": "sock",
   "min6": 1,
-  "max6": 1
+  "max6": 1,
+  "expansion": 1
  },
  "365": {
   "index": "Dracul's Grasp",
@@ -11887,7 +12115,8 @@
   "max5": 10,
   "prop6": "str",
   "min6": 10,
-  "max6": 15
+  "max6": 15,
+  "expansion": 1
  },
  "366": {
   "index": "Frostwind",
@@ -11925,7 +12154,8 @@
   "prop7": "oskill",
   "par7": "Arctic Blast",
   "min7": 7,
-  "max7": 14
+  "max7": 14,
+  "expansion": 1
  },
  "367": {
   "index": "Templar's Might",
@@ -11962,7 +12192,8 @@
   "prop7": "skilltab",
   "par7": 10,
   "min7": 1,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "368": {
   "index": "Eschuta's temper",
@@ -11990,7 +12221,8 @@
   "max4": 20,
   "prop5": "enr",
   "min5": 20,
-  "max5": 30
+  "max5": 30,
+  "expansion": 1
  },
  "369": {
   "index": "Firelizard's Talons",
@@ -12026,7 +12258,8 @@
   "prop7": "skill",
   "par7": "Inferno Sentry",
   "min7": 1,
-  "max7": 2
+  "max7": 2,
+  "expansion": 1
  },
  "370": {
   "index": "Sandstorm Trek",
@@ -12063,7 +12296,8 @@
   "max8": 15,
   "prop9": "vit",
   "min9": 10,
-  "max9": 15
+  "max9": 15,
+  "expansion": 1
  },
  "371": {
   "index": "Marrowwalk",
@@ -12109,7 +12343,8 @@
   "prop10": "skill",
   "par10": "Skeleton Mastery",
   "min10": 1,
-  "max10": 2
+  "max10": 2,
+  "expansion": 1
  },
  "372": {
   "index": "Heaven's Light",
@@ -12148,11 +12383,13 @@
   "max7": 3,
   "prop8": "pal",
   "min8": 2,
-  "max8": 3
+  "max8": 3,
+  "expansion": 1
  },
  "373": {
   "index": "Merman's Speed",
-  "version": 100
+  "version": 100,
+  "expansion": 1
  },
  "374": {
   "index": "Arachnid Mesh",
@@ -12185,7 +12422,8 @@
   "max5": 10,
   "prop6": "mana%",
   "min6": 5,
-  "max6": 5
+  "max6": 5,
+  "expansion": 1
  },
  "375": {
   "index": "Nosferatu's Coil",
@@ -12215,7 +12453,8 @@
   "max5": 10,
   "prop6": "light",
   "min6": -3,
-  "max6": -3
+  "max6": -3,
+  "expansion": 1
  },
  "376": {
   "index": "Metalgrid",
@@ -12245,7 +12484,8 @@
   "prop5": "charged",
   "par5": "Iron Maiden",
   "min5": 20,
-  "max5": 12
+  "max5": 12,
+  "expansion": 1
  },
  "377": {
   "index": "Verdugo's Hearty Cord",
@@ -12277,14 +12517,16 @@
   "max5": 15,
   "prop6": "regen",
   "min6": 10,
-  "max6": 13
+  "max6": 13,
+  "expansion": 1
  },
  "378": {
   "index": "Sigurd's Staunch",
   "version": 100,
   "rarity": 1,
   "cost mult": 5,
-  "cost add": 5000
+  "cost add": 5000,
+  "expansion": 1
  },
  "379": {
   "index": "Carrion Wind",
@@ -12320,7 +12562,8 @@
   "max6": 13,
   "prop7": "dmg-to-mana",
   "min7": 10,
-  "max7": 10
+  "max7": 10,
+  "expansion": 1
  },
  "380": {
   "index": "Giantskull",
@@ -12350,7 +12593,8 @@
   "max4": 2,
   "prop5": "knock",
   "min5": 1,
-  "max5": 1
+  "max5": 1,
+  "expansion": 1
  },
  "381": {
   "index": "Ironward",
@@ -12392,7 +12636,8 @@
   "max8": 4,
   "prop9": "crush",
   "min9": 33,
-  "max9": 33
+  "max9": 33,
+  "expansion": 1
  },
  "382": {
   "index": "Annihilus",
@@ -12422,7 +12667,8 @@
   "max3": 20,
   "prop4": "addxp",
   "min4": 5,
-  "max4": 10
+  "max4": 10,
+  "expansion": 1
  },
  "383": {
   "index": "Arioc's Needle",
@@ -12453,7 +12699,8 @@
   "max5": 4,
   "prop6": "swing2",
   "min6": 30,
-  "max6": 30
+  "max6": 30,
+  "expansion": 1
  },
  "384": {
   "index": "Cranebeak",
@@ -12486,7 +12733,8 @@
   "prop6": "charged",
   "par6": "Raven",
   "min6": 15,
-  "max6": 8
+  "max6": 8,
+  "expansion": 1
  },
  "385": {
   "index": "Nord's Tenderizer",
@@ -12522,7 +12770,8 @@
   "prop7": "dmg-cold",
   "par7": 125,
   "min7": 205,
-  "max7": 455
+  "max7": 455,
+  "expansion": 1
  },
  "386": {
   "index": "Earthshifter",
@@ -12558,7 +12807,8 @@
   "max6": 7,
   "prop7": "cast2",
   "min7": 10,
-  "max7": 10
+  "max7": 10,
+  "expansion": 1
  },
  "387": {
   "index": "Wraithflight",
@@ -12587,7 +12837,8 @@
   "max4": 15,
   "prop5": "ethereal",
   "min5": 1,
-  "max5": 1
+  "max5": 1,
+  "expansion": 1
  },
  "388": {
   "index": "Bonehew",
@@ -12621,7 +12872,8 @@
   "max5": 1,
   "prop6": "sock",
   "min6": 2,
-  "max6": 2
+  "max6": 2,
+  "expansion": 1
  },
  "389": {
   "index": "Ondal's Wisdom",
@@ -12652,7 +12904,8 @@
   "max5": 5,
   "prop6": "red-mag",
   "min6": 5,
-  "max6": 8
+  "max6": 8,
+  "expansion": 1
  },
  "390": {
   "index": "The Reedeemer",
@@ -12693,7 +12946,8 @@
   "max8": 33,
   "prop9": "dmg",
   "min9": 60,
-  "max9": 120
+  "max9": 120,
+  "expansion": 1
  },
  "391": {
   "index": "Headhunter's Glory",
@@ -12724,7 +12978,8 @@
   "max5": 30,
   "prop6": "heal-kill",
   "min6": 5,
-  "max6": 7
+  "max6": 7,
+  "expansion": 1
  },
  "392": {
   "index": "Steelrend",
@@ -12748,7 +13003,8 @@
   "max3": 60,
   "prop4": "crush",
   "min4": 10,
-  "max4": 10
+  "max4": 10,
+  "expansion": 1
  },
  "393": {
   "index": "Rainbow Facet",
@@ -12773,7 +13029,8 @@
   "prop4": "death-skill",
   "par4": "Chain Lightning",
   "min4": 100,
-  "max4": 47
+  "max4": 47,
+  "expansion": 1
  },
  "394": {
   "index": "Rainbow Facet",
@@ -12799,7 +13056,8 @@
   "prop4": "death-skill",
   "par4": "Blizzard",
   "min4": 100,
-  "max4": 37
+  "max4": 37,
+  "expansion": 1
  },
  "395": {
   "index": "Rainbow Facet",
@@ -12824,7 +13082,8 @@
   "prop4": "death-skill",
   "par4": "Meteor",
   "min4": 100,
-  "max4": 31
+  "max4": 31,
+  "expansion": 1
  },
  "396": {
   "index": "Rainbow Facet",
@@ -12850,7 +13109,8 @@
   "prop4": "death-skill",
   "par4": "Poison Nova",
   "min4": 100,
-  "max4": 51
+  "max4": 51,
+  "expansion": 1
  },
  "397": {
   "index": "Rainbow Facet",
@@ -12875,7 +13135,8 @@
   "prop4": "levelup-skill",
   "par4": "Nova",
   "min4": 100,
-  "max4": 41
+  "max4": 41,
+  "expansion": 1
  },
  "398": {
   "index": "Rainbow Facet",
@@ -12901,7 +13162,8 @@
   "prop4": "levelup-skill",
   "par4": "Frost Nova",
   "min4": 100,
-  "max4": 43
+  "max4": 43,
+  "expansion": 1
  },
  "399": {
   "index": "Rainbow Facet",
@@ -12926,7 +13188,8 @@
   "prop4": "levelup-skill",
   "par4": "Blaze",
   "min4": 100,
-  "max4": 29
+  "max4": 29,
+  "expansion": 1
  },
  "400": {
   "index": "Rainbow Facet",
@@ -12952,7 +13215,8 @@
   "prop4": "levelup-skill",
   "par4": "Venom",
   "min4": 100,
-  "max4": 23
+  "max4": 23,
+  "expansion": 1
  },
  "401": {
   "index": "Hellfire Torch",
@@ -12989,6 +13253,7 @@
   "prop6": "charged",
   "par6": "Hydra",
   "min6": 10,
-  "max6": 30
+  "max6": 30,
+  "expansion": 1
  }
 }

@@ -1,6 +1,5 @@
 {
  "abow": {
-  "expansion": 1,
   "ItemType": "Amazon Bow",
   "Code": "abow",
   "Equiv1": "bow",
@@ -17,10 +16,10 @@
   "Rarity": 1,
   "Class": "ama",
   "StorePage": "weap",
+  "expansion": 1,
   "lineNumber": 86
  },
  "ajav": {
-  "expansion": 1,
   "ItemType": "Amazon Javelin",
   "Code": "ajav",
   "Equiv1": "jave",
@@ -37,16 +36,17 @@
   "Rarity": 1,
   "Class": "ama",
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 88
  },
  "amaz": {
-  "expansion": 1,
   "ItemType": "Amazon Item",
   "Code": "amaz",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
   "Class": "ama",
+  "expansion": 1,
   "lineNumber": 61
  },
  "amul": {
@@ -67,7 +67,6 @@
   "lineNumber": 12
  },
  "apot": {
-  "expansion": 1,
   "ItemType": "Antidote Potion",
   "Code": "apot",
   "Equiv1": "poti",
@@ -75,6 +74,7 @@
   "Beltable": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 81
  },
  "armo": {
@@ -86,7 +86,6 @@
   "lineNumber": 50
  },
  "ashd": {
-  "expansion": 1,
   "ItemType": "Auric Shields",
   "Code": "ashd",
   "Equiv1": "shld",
@@ -102,10 +101,10 @@
   "Rarity": 1,
   "Class": "pal",
   "StorePage": "armo",
+  "expansion": 1,
   "lineNumber": 71
  },
  "aspe": {
-  "expansion": 1,
   "ItemType": "Amazon Spear",
   "Code": "aspe",
   "Equiv1": "spea",
@@ -121,16 +120,17 @@
   "Rarity": 1,
   "Class": "ama",
   "StorePage": "weap",
+  "expansion": 1,
   "lineNumber": 87
  },
  "assn": {
-  "expansion": 1,
   "ItemType": "Assassin Item",
   "Code": "assn",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 2,
   "Class": "ass",
+  "expansion": 1,
   "lineNumber": 66
  },
  "axe": {
@@ -150,13 +150,13 @@
   "lineNumber": 28
  },
  "barb": {
-  "expansion": 1,
   "ItemType": "Barbarian Item",
   "Code": "barb",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
   "Class": "bar",
+  "expansion": 1,
   "lineNumber": 62
  },
  "belt": {
@@ -261,7 +261,6 @@
   "lineNumber": 13
  },
  "circ": {
-  "expansion": 1,
   "ItemType": "Circlet",
   "Code": "circ",
   "Equiv1": "helm",
@@ -276,18 +275,18 @@
   "Rarity": 3,
   "CostFormula": 1,
   "StorePage": "armo",
+  "expansion": 1,
   "lineNumber": 76
  },
  "clas": {
-  "expansion": 1,
   "ItemType": "Class Specific",
   "Code": "clas",
   "Rare": 1,
   "Rarity": 3,
+  "expansion": 1,
   "lineNumber": 60
  },
  "cloa": {
-  "expansion": 1,
   "ItemType": "Cloak",
   "Code": "cloa",
   "Equiv1": "tors",
@@ -301,6 +300,7 @@
   "StaffMods": "ass",
   "Class": "ass",
   "StorePage": "armo",
+  "expansion": 1,
   "lineNumber": 74
  },
  "club": {
@@ -330,13 +330,13 @@
   "lineNumber": 49
  },
  "drui": {
-  "expansion": 1,
   "ItemType": "Druid Item",
   "Code": "drui",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
   "Class": "dru",
+  "expansion": 1,
   "lineNumber": 67
  },
  "elix": {
@@ -359,7 +359,6 @@
   "lineNumber": 20
  },
  "gem0": {
-  "expansion": 1,
   "ItemType": "Chipped Gem",
   "Code": "gem0",
   "Equiv1": "gem",
@@ -367,10 +366,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 92
  },
  "gem1": {
-  "expansion": 1,
   "ItemType": "Flawed Gem",
   "Code": "gem1",
   "Equiv1": "gem",
@@ -378,10 +377,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 93
  },
  "gem2": {
-  "expansion": 1,
   "ItemType": "Standard Gem",
   "Code": "gem2",
   "Equiv1": "gem",
@@ -389,10 +388,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 94
  },
  "gem3": {
-  "expansion": 1,
   "ItemType": "Flawless Gem",
   "Code": "gem3",
   "Equiv1": "gem",
@@ -400,10 +399,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 95
  },
  "gem4": {
-  "expansion": 1,
   "ItemType": "Perfect Gem",
   "Code": "gem4",
   "Equiv1": "gem",
@@ -411,10 +410,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 96
  },
  "gema": {
-  "expansion": 1,
   "ItemType": "Amethyst",
   "Code": "gema",
   "Equiv1": "gem",
@@ -422,10 +421,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 97
  },
  "gemd": {
-  "expansion": 1,
   "ItemType": "Diamond",
   "Code": "gemd",
   "Equiv1": "gem",
@@ -433,10 +432,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 98
  },
  "geme": {
-  "expansion": 1,
   "ItemType": "Emerald",
   "Code": "geme",
   "Equiv1": "gem",
@@ -444,10 +443,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 99
  },
  "gemr": {
-  "expansion": 1,
   "ItemType": "Ruby",
   "Code": "gemr",
   "Equiv1": "gem",
@@ -455,10 +454,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 100
  },
  "gems": {
-  "expansion": 1,
   "ItemType": "Sapphire",
   "Code": "gems",
   "Equiv1": "gem",
@@ -466,10 +465,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 101
  },
  "gemt": {
-  "expansion": 1,
   "ItemType": "Topaz",
   "Code": "gemt",
   "Equiv1": "gem",
@@ -477,10 +476,10 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 102
  },
  "gemz": {
-  "expansion": 1,
   "ItemType": "Skull",
   "Code": "gemz",
   "Equiv1": "gem",
@@ -488,6 +487,7 @@
   "Gem": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 103
  },
  "glov": {
@@ -513,7 +513,6 @@
   "lineNumber": 4
  },
  "h2h": {
-  "expansion": 1,
   "ItemType": "Hand to Hand",
   "Code": "h2h",
   "Equiv1": "mele",
@@ -529,10 +528,10 @@
   "Rarity": 2,
   "Class": "ass",
   "StorePage": "weap",
+  "expansion": 1,
   "lineNumber": 68
  },
  "h2h2": {
-  "expansion": 1,
   "ItemType": "Hand to Hand 2",
   "Code": "h2h2",
   "Equiv1": "h2h",
@@ -548,6 +547,7 @@
   "StaffMods": "ass",
   "Class": "ass",
   "StorePage": "weap",
+  "expansion": 1,
   "lineNumber": 89
  },
  "hamm": {
@@ -567,7 +567,6 @@
   "lineNumber": 31
  },
  "head": {
-  "expansion": 1,
   "ItemType": "Voodoo Heads",
   "Code": "head",
   "Equiv1": "shld",
@@ -584,6 +583,7 @@
   "StaffMods": "nec",
   "Class": "nec",
   "StorePage": "armo",
+  "expansion": 1,
   "lineNumber": 70
  },
  "helm": {
@@ -612,7 +612,6 @@
   "lineNumber": 8
  },
  "hpot": {
-  "expansion": 1,
   "ItemType": "Healing Potion",
   "Code": "hpot",
   "Equiv1": "poti",
@@ -620,6 +619,7 @@
   "Beltable": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 77
  },
  "jave": {
@@ -641,7 +641,6 @@
   "lineNumber": 44
  },
  "jewl": {
-  "expansion": 1,
   "ItemType": "Jewel",
   "Code": "jewl",
   "Equiv1": "sock",
@@ -657,6 +656,7 @@
   "InvGfx5": "invjw5",
   "InvGfx6": "invjw6",
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 59
  },
  "key": {
@@ -686,7 +686,6 @@
   "lineNumber": 32
  },
  "lcha": {
-  "expansion": 1,
   "ItemType": "Large Charm",
   "Code": "lcha",
   "Equiv1": "char",
@@ -698,6 +697,7 @@
   "InvGfx2": "invch6",
   "InvGfx3": "invch9",
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 85
  },
  "mace": {
@@ -717,7 +717,6 @@
   "lineNumber": 36
  },
  "mboq": {
-  "expansion": 1,
   "ItemType": "Magic Bow Quiv",
   "Code": "mboq",
   "Equiv1": "bowq",
@@ -730,10 +729,10 @@
   "Rare": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 90
  },
  "mcha": {
-  "expansion": 1,
   "ItemType": "Medium Charm",
   "Code": "mcha",
   "Equiv1": "char",
@@ -745,6 +744,7 @@
   "InvGfx2": "invch5",
   "InvGfx3": "invch8",
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 84
  },
  "mele": {
@@ -779,7 +779,6 @@
   "lineNumber": 47
  },
  "mpot": {
-  "expansion": 1,
   "ItemType": "Mana Potion",
   "Code": "mpot",
   "Equiv1": "poti",
@@ -787,10 +786,10 @@
   "Beltable": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 78
  },
  "mxbq": {
-  "expansion": 1,
   "ItemType": "Magic Xbow Quiv",
   "Code": "mxbq",
   "Equiv1": "xboq",
@@ -803,20 +802,20 @@
   "Rare": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 91
  },
  "necr": {
-  "expansion": 1,
   "ItemType": "Necromancer Item",
   "Code": "necr",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
   "Class": "nec",
+  "expansion": 1,
   "lineNumber": 63
  },
  "orb": {
-  "expansion": 1,
   "ItemType": "Orb",
   "Code": "orb",
   "Equiv1": "weap",
@@ -833,20 +832,20 @@
   "StaffMods": "sor",
   "Class": "sor",
   "StorePage": "weap",
+  "expansion": 1,
   "lineNumber": 69
  },
  "pala": {
-  "expansion": 1,
   "ItemType": "Paladin Item",
   "Code": "pala",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
   "Class": "pal",
+  "expansion": 1,
   "lineNumber": 64
  },
  "pelt": {
-  "expansion": 1,
   "ItemType": "Pelt",
   "Code": "pelt",
   "Equiv1": "helm",
@@ -863,10 +862,10 @@
   "StaffMods": "dru",
   "Class": "dru",
   "StorePage": "armo",
+  "expansion": 1,
   "lineNumber": 73
  },
  "phlm": {
-  "expansion": 1,
   "ItemType": "Primal Helm",
   "Code": "phlm",
   "Equiv1": "helm",
@@ -883,6 +882,7 @@
   "StaffMods": "bar",
   "Class": "bar",
   "StorePage": "armo",
+  "expansion": 1,
   "lineNumber": 72
  },
  "play": {
@@ -955,7 +955,6 @@
   "lineNumber": 55
  },
  "rpot": {
-  "expansion": 1,
   "ItemType": "Rejuv Potion",
   "Code": "rpot",
   "Equiv1": "hpot",
@@ -964,16 +963,17 @@
   "Beltable": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 79
  },
  "rune": {
-  "expansion": 1,
   "ItemType": "Rune",
   "Code": "rune",
   "Equiv1": "sock",
   "Normal": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 75
  },
  "scep": {
@@ -994,7 +994,6 @@
   "lineNumber": 24
  },
  "scha": {
-  "expansion": 1,
   "ItemType": "Small Charm",
   "Code": "scha",
   "Equiv1": "char",
@@ -1006,6 +1005,7 @@
   "InvGfx2": "invch4",
   "InvGfx3": "invch7",
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 83
  },
  "scro": {
@@ -1059,13 +1059,13 @@
   "lineNumber": 53
  },
  "sorc": {
-  "expansion": 1,
   "ItemType": "Sorceress Item",
   "Code": "sorc",
   "Equiv1": "clas",
   "Rare": 1,
   "Rarity": 1,
   "Class": "sor",
+  "expansion": 1,
   "lineNumber": 65
  },
  "spea": {
@@ -1085,7 +1085,6 @@
   "lineNumber": 33
  },
  "spot": {
-  "expansion": 1,
   "ItemType": "Stamina Potion",
   "Code": "spot",
   "Equiv1": "poti",
@@ -1093,6 +1092,7 @@
   "Beltable": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 80
  },
  "staf": {
@@ -1242,7 +1242,6 @@
   "lineNumber": 45
  },
  "wpot": {
-  "expansion": 1,
   "ItemType": "Thawing Potion",
   "Code": "wpot",
   "Equiv1": "poti",
@@ -1250,6 +1249,7 @@
   "Beltable": 1,
   "Rarity": 3,
   "StorePage": "misc",
+  "expansion": 1,
   "lineNumber": 82
  },
  "xboq": {

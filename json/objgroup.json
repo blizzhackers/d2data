@@ -1021,7 +1021,6 @@
   "Offset": 96
  },
  "98": {
-  "expansion": 1,
   "GroupName": "level1 fire`",
   "Offset": 98,
   "ID0": 401,
@@ -1029,10 +1028,10 @@
   "PROB0": 50,
   "ID1": 402,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "99": {
-  "expansion": 1,
   "GroupName": "wildernessmagicshrines",
   "Offset": 99,
   "ID0": 414,
@@ -1046,10 +1045,10 @@
   "PROB2": 20,
   "ID3": 427,
   "DENSITY3": 30,
-  "PROB3": 20
+  "PROB3": 20,
+  "expansion": 1
  },
  "100": {
-  "expansion": 1,
   "GroupName": "wildernesschests",
   "Offset": 100,
   "ID0": 413,
@@ -1066,10 +1065,10 @@
   "PROB3": 20,
   "ID4": 477,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "101": {
-  "expansion": 1,
   "GroupName": "wildernesschests2",
   "Offset": 101,
   "ID0": 430,
@@ -1086,10 +1085,10 @@
   "PROB3": 20,
   "ID4": 438,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "102": {
-  "expansion": 1,
   "GroupName": "oddobject",
   "Offset": 102,
   "ID0": 448,
@@ -1106,10 +1105,10 @@
   "PROB3": 20,
   "ID4": 450,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "103": {
-  "expansion": 1,
   "GroupName": "explodingbarrel",
   "Offset": 103,
   "ID0": 418,
@@ -1117,10 +1116,10 @@
   "PROB0": 50,
   "ID1": 419,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "104": {
-  "expansion": 1,
   "GroupName": "wildernessmana/health",
   "Offset": 104,
   "ID0": 422,
@@ -1128,10 +1127,10 @@
   "PROB0": 50,
   "ID1": 423,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "105": {
-  "expansion": 1,
   "GroupName": "wilderness well",
   "Offset": 105,
   "ID0": 426,
@@ -1139,10 +1138,10 @@
   "PROB0": 50,
   "ID1": 419,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "106": {
-  "expansion": 1,
   "GroupName": "wilderness jars",
   "Offset": 106,
   "ID0": 443,
@@ -1153,10 +1152,10 @@
   "PROB1": 20,
   "ID2": 445,
   "DENSITY2": 30,
-  "PROB2": 20
+  "PROB2": 20,
+  "expansion": 1
  },
  "107": {
-  "expansion": 1,
   "GroupName": "icecaveobjects",
   "Offset": 107,
   "ID0": 463,
@@ -1164,10 +1163,10 @@
   "PROB0": 20,
   "ID1": 466,
   "DENSITY1": 30,
-  "PROB1": 20
+  "PROB1": 20,
+  "expansion": 1
  },
  "108": {
-  "expansion": 1,
   "GroupName": "icecavehealth/mana",
   "Offset": 108,
   "ID0": 464,
@@ -1175,10 +1174,10 @@
   "PROB0": 50,
   "ID1": 465,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "109": {
-  "expansion": 1,
   "GroupName": "icecavejars",
   "Offset": 109,
   "ID0": 467,
@@ -1195,10 +1194,10 @@
   "PROB3": 20,
   "ID4": 471,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "110": {
-  "expansion": 1,
   "GroupName": "icecaveshrines",
   "Offset": 110,
   "ID0": 479,
@@ -1206,10 +1205,10 @@
   "PROB0": 25,
   "ID1": 472,
   "DENSITY1": 30,
-  "PROB1": 75
+  "PROB1": 75,
+  "expansion": 1
  },
  "111": {
-  "expansion": 1,
   "GroupName": "snowyobjects",
   "Offset": 111,
   "ID0": 501,
@@ -1226,10 +1225,10 @@
   "PROB3": 20,
   "ID4": 433,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "112": {
-  "expansion": 1,
   "GroupName": "snowyshrines",
   "Offset": 112,
   "ID0": 428,
@@ -1240,10 +1239,10 @@
   "PROB1": 20,
   "ID2": 497,
   "DENSITY2": 30,
-  "PROB2": 20
+  "PROB2": 20,
+  "expansion": 1
  },
  "113": {
-  "expansion": 1,
   "GroupName": "snowymana/health",
   "Offset": 113,
   "ID0": 491,
@@ -1251,18 +1250,18 @@
   "PROB0": 50,
   "ID1": 492,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "114": {
-  "expansion": 1,
   "GroupName": "snowywell",
   "Offset": 114,
   "ID0": 493,
   "DENSITY0": 30,
-  "PROB0": 100
+  "PROB0": 100,
+  "expansion": 1
  },
  "115": {
-  "expansion": 1,
   "GroupName": "snowyobjects",
   "Offset": 115,
   "ID0": 504,
@@ -1276,10 +1275,10 @@
   "PROB2": 25,
   "ID3": 507,
   "DENSITY3": 30,
-  "PROB3": 25
+  "PROB3": 25,
+  "expansion": 1
  },
  "116": {
-  "expansion": 1,
   "GroupName": "templeshrine",
   "Offset": 116,
   "ID0": 509,
@@ -1287,18 +1286,18 @@
   "PROB0": 75,
   "ID1": 520,
   "DENSITY1": 30,
-  "PROB1": 25
+  "PROB1": 25,
+  "expansion": 1
  },
  "117": {
-  "expansion": 1,
   "GroupName": "templewell",
   "Offset": 117,
   "ID0": 513,
   "DENSITY0": 30,
-  "PROB0": 100
+  "PROB0": 100,
+  "expansion": 1
  },
  "118": {
-  "expansion": 1,
   "GroupName": "templeobjects",
   "Offset": 118,
   "ID0": 516,
@@ -1315,10 +1314,10 @@
   "PROB3": 20,
   "ID4": 418,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "119": {
-  "expansion": 1,
   "GroupName": "baalsmana/health",
   "Offset": 119,
   "ID0": 483,
@@ -1326,10 +1325,10 @@
   "PROB0": 50,
   "ID1": 484,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "120": {
-  "expansion": 1,
   "GroupName": "baalsobjects",
   "Offset": 120,
   "ID0": 485,
@@ -1349,10 +1348,10 @@
   "PROB4": 15,
   "ID5": 526,
   "DENSITY5": 30,
-  "PROB5": 10
+  "PROB5": 10,
+  "expansion": 1
  },
  "121": {
-  "expansion": 1,
   "GroupName": "baalsshrine",
   "Offset": 121,
   "ID0": 488,
@@ -1363,26 +1362,26 @@
   "PROB1": 25,
   "ID2": 503,
   "DENSITY2": 30,
-  "PROB2": 25
+  "PROB2": 25,
+  "expansion": 1
  },
  "122": {
-  "expansion": 1,
   "GroupName": "baalswell",
   "Offset": 122,
   "ID0": 498,
   "DENSITY0": 30,
-  "PROB0": 50
+  "PROB0": 50,
+  "expansion": 1
  },
  "123": {
-  "expansion": 1,
   "GroupName": "icecavewell",
   "Offset": 123,
   "ID0": 519,
   "DENSITY0": 30,
-  "PROB0": 50
+  "PROB0": 50,
+  "expansion": 1
  },
  "124": {
-  "expansion": 1,
   "GroupName": "templemana/health",
   "Offset": 124,
   "ID0": 521,
@@ -1390,10 +1389,10 @@
   "PROB0": 50,
   "ID1": 522,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "125": {
-  "expansion": 1,
   "GroupName": "templeobjects",
   "Offset": 125,
   "ID0": 444,
@@ -1410,10 +1409,10 @@
   "PROB3": 20,
   "ID4": 425,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "126": {
-  "expansion": 1,
   "GroupName": "redbaals_object",
   "Offset": 126,
   "ID0": 529,
@@ -1430,10 +1429,10 @@
   "PROB3": 20,
   "ID4": 533,
   "DENSITY4": 30,
-  "PROB4": 20
+  "PROB4": 20,
+  "expansion": 1
  },
  "127": {
-  "expansion": 1,
   "GroupName": "redbaals_object",
   "Offset": 127,
   "ID0": 534,
@@ -1441,10 +1440,10 @@
   "PROB0": 20,
   "ID1": 535,
   "DENSITY1": 30,
-  "PROB1": 50
+  "PROB1": 50,
+  "expansion": 1
  },
  "128": {
-  "expansion": 1,
   "GroupName": "temple_objects",
   "Offset": 128,
   "ID0": 541,
@@ -1452,10 +1451,10 @@
   "PROB0": 35,
   "ID1": 544,
   "DENSITY1": 30,
-  "PROB1": 35
+  "PROB1": 35,
+  "expansion": 1
  },
  "129": {
-  "expansion": 1,
   "GroupName": "everywhere",
   "Offset": 129,
   "ID0": 540,
@@ -1472,21 +1471,22 @@
   "PROB3": 20,
   "ID4": 554,
   "DENSITY4": 30,
-  "PROB4": 15
+  "PROB4": 15,
+  "expansion": 1
  },
  "130": {
-  "expansion": 1,
   "GroupName": "dummy",
-  "Offset": 130
+  "Offset": 130,
+  "expansion": 1
  },
  "131": {
-  "expansion": 1,
   "GroupName": "dummy",
-  "Offset": 131
+  "Offset": 131,
+  "expansion": 1
  },
  "132": {
-  "expansion": 1,
   "GroupName": "dummy",
-  "Offset": 132
+  "Offset": 132,
+  "expansion": 1
  }
 }

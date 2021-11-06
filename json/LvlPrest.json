@@ -4416,7 +4416,7 @@
   "lineNumber": 300
  },
  "301": {
-  "Name": "Act 2 - Town ",
+  "Name": "Act 2 - Town",
   "Def": 301,
   "LevelId": 40,
   "Populate": 1,
@@ -4445,7 +4445,7 @@
   "lineNumber": 302
  },
  "303": {
-  "Name": "Act 2 - Sewer E ",
+  "Name": "Act 2 - Sewer E",
   "Def": 303,
   "Populate": 1,
   "KillEdge": 1,
@@ -4654,7 +4654,7 @@
   "lineNumber": 317
  },
  "318": {
-  "Name": "Act 2 - Sewer Theme E ",
+  "Name": "Act 2 - Sewer Theme E",
   "Def": 318,
   "Populate": 1,
   "KillEdge": 1,
@@ -9647,7 +9647,7 @@
   "lineNumber": 653
  },
  "654": {
-  "Name": "Act 3 - Travincal N ",
+  "Name": "Act 3 - Travincal N",
   "Def": 654,
   "Populate": 1,
   "Logicals": 1,
@@ -9697,7 +9697,7 @@
   "lineNumber": 656
  },
  "657": {
-  "Name": "Act 3 - Travincal S ",
+  "Name": "Act 3 - Travincal S",
   "Def": 657,
   "Populate": 1,
   "Logicals": 1,
@@ -12752,7 +12752,6 @@
   "lineNumber": 862
  },
  "863": {
-  "expansion": 1,
   "Name": "Act 5 - Town",
   "Def": 863,
   "LevelId": 109,
@@ -12767,10 +12766,10 @@
   "File1": "Expansion/Town/townWest.ds1",
   "Dt1Mask": 1048575,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 864
  },
  "864": {
-  "expansion": 1,
   "Name": "Act 5 - Temple Final Room",
   "Def": 864,
   "LevelId": 124,
@@ -12786,10 +12785,10 @@
   "File4": "Expansion/wildtemple/NihlW.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 865
  },
  "865": {
-  "expansion": 1,
   "Name": "Act 5 - Siege To Town",
   "Def": 865,
   "Populate": 1,
@@ -12802,10 +12801,10 @@
   "File1": "Expansion/Siege/striptownsiege.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 866
  },
  "866": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 1",
   "Def": 866,
   "Populate": 1,
@@ -12818,10 +12817,10 @@
   "File1": "Expansion/Siege/strip01.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 867
  },
  "867": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 2",
   "Def": 867,
   "Populate": 1,
@@ -12834,10 +12833,10 @@
   "File1": "Expansion/Siege/strip02.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 868
  },
  "868": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 3",
   "Def": 868,
   "Populate": 1,
@@ -12850,10 +12849,10 @@
   "File1": "Expansion/Siege/strip03.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 869
  },
  "869": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 4",
   "Def": 869,
   "Populate": 1,
@@ -12866,10 +12865,10 @@
   "File1": "Expansion/Siege/strip04.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 870
  },
  "870": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 5",
   "Def": 870,
   "Populate": 1,
@@ -12882,10 +12881,10 @@
   "File1": "Expansion/Siege/strip05.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 871
  },
  "871": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 6",
   "Def": 871,
   "Populate": 1,
@@ -12898,10 +12897,10 @@
   "File1": "Expansion/Siege/strip06.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 872
  },
  "872": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 7",
   "Def": 872,
   "Populate": 1,
@@ -12914,10 +12913,10 @@
   "File1": "Expansion/Siege/strip07.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 873
  },
  "873": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 8",
   "Def": 873,
   "Populate": 1,
@@ -12930,10 +12929,10 @@
   "File1": "Expansion/Siege/strip08.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 874
  },
  "874": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 9",
   "Def": 874,
   "Populate": 1,
@@ -12946,10 +12945,10 @@
   "File1": "Expansion/Siege/strip09.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 875
  },
  "875": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 10",
   "Def": 875,
   "Populate": 1,
@@ -12962,10 +12961,10 @@
   "File1": "Expansion/Siege/strip10.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 876
  },
  "876": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 11",
   "Def": 876,
   "Populate": 1,
@@ -12978,10 +12977,10 @@
   "File1": "Expansion/Siege/strip11.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 877
  },
  "877": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 12",
   "Def": 877,
   "Populate": 1,
@@ -12994,10 +12993,10 @@
   "File1": "Expansion/Siege/strip12.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 878
  },
  "878": {
-  "expansion": 1,
   "Name": "Act 5 - Siege Strip 13",
   "Def": 878,
   "Populate": 1,
@@ -13010,10 +13009,10 @@
   "File1": "Expansion/Siege/strip13.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 879
  },
  "879": {
-  "expansion": 1,
   "Name": "Act 5 - Siege To Barricade",
   "Def": 879,
   "Populate": 1,
@@ -13026,10 +13025,10 @@
   "File1": "Expansion/Siege/stripseigebar.ds1",
   "Dt1Mask": 2047,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 880
  },
  "880": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade To Siege",
   "Def": 880,
   "Populate": 1,
@@ -13043,10 +13042,10 @@
   "File1": "Expansion/Siege/siege2barricade.ds1",
   "Dt1Mask": 1679925,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 881
  },
  "881": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 1",
   "Def": 881,
   "Populate": 1,
@@ -13059,10 +13058,10 @@
   "File1": "Expansion/Siege/Brdr01c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 882
  },
  "882": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 2",
   "Def": 882,
   "Populate": 1,
@@ -13077,10 +13076,10 @@
   "File3": "Expansion/Siege/Brdr02c2.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 883
  },
  "883": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 3",
   "Def": 883,
   "Populate": 1,
@@ -13095,10 +13094,10 @@
   "File3": "Expansion/Siege/Brdr03c2.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 884
  },
  "884": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 4",
   "Def": 884,
   "Populate": 1,
@@ -13111,10 +13110,10 @@
   "File1": "Expansion/Siege/Brdr04c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 885
  },
  "885": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 5",
   "Def": 885,
   "Populate": 1,
@@ -13127,10 +13126,10 @@
   "File1": "Expansion/Siege/Brdr05c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 886
  },
  "886": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 6",
   "Def": 886,
   "Populate": 1,
@@ -13143,10 +13142,10 @@
   "File1": "Expansion/Siege/Brdr06c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 887
  },
  "887": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 7",
   "Def": 887,
   "Populate": 1,
@@ -13159,10 +13158,10 @@
   "File1": "Expansion/Siege/Brdr07c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 888
  },
  "888": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 8",
   "Def": 888,
   "Populate": 1,
@@ -13175,10 +13174,10 @@
   "File1": "Expansion/Siege/Brdr08c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 889
  },
  "889": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 9",
   "Def": 889,
   "Populate": 1,
@@ -13191,10 +13190,10 @@
   "File1": "Expansion/Siege/Brdr09c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 890
  },
  "890": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 10",
   "Def": 890,
   "Populate": 1,
@@ -13207,10 +13206,10 @@
   "File1": "Expansion/Siege/Brdr10c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 891
  },
  "891": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 11",
   "Def": 891,
   "Populate": 1,
@@ -13223,10 +13222,10 @@
   "File1": "Expansion/Siege/Brdr11c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 892
  },
  "892": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 12",
   "Def": 892,
   "Populate": 1,
@@ -13239,10 +13238,10 @@
   "File1": "Expansion/Siege/Brdr12c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 893
  },
  "893": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 1",
   "Def": 893,
   "Populate": 1,
@@ -13256,10 +13255,10 @@
   "File2": "Expansion/Siege/Brdr01r1.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 894
  },
  "894": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 2",
   "Def": 894,
   "Populate": 1,
@@ -13272,10 +13271,10 @@
   "File1": "Expansion/Siege/Brdr02r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 895
  },
  "895": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 3",
   "Def": 895,
   "Populate": 1,
@@ -13288,10 +13287,10 @@
   "File1": "Expansion/Siege/Brdr03r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 896
  },
  "896": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 4",
   "Def": 896,
   "Populate": 1,
@@ -13306,10 +13305,10 @@
   "File3": "Expansion/Siege/Brdr04r2.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 897
  },
  "897": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 5",
   "Def": 897,
   "Populate": 1,
@@ -13322,10 +13321,10 @@
   "File1": "Expansion/Siege/Brdr05r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 898
  },
  "898": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 6",
   "Def": 898,
   "Populate": 1,
@@ -13338,10 +13337,10 @@
   "File1": "Expansion/Siege/Brdr06r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 899
  },
  "899": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 7",
   "Def": 899,
   "Populate": 1,
@@ -13354,10 +13353,10 @@
   "File1": "Expansion/Siege/Brdr07r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 900
  },
  "900": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 8",
   "Def": 900,
   "Populate": 1,
@@ -13371,10 +13370,10 @@
   "File2": "Expansion/Siege/Brdr08r1.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 901
  },
  "901": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 9",
   "Def": 901,
   "Populate": 1,
@@ -13387,10 +13386,10 @@
   "File1": "Expansion/Siege/Brdr09r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 902
  },
  "902": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 10",
   "Def": 902,
   "Populate": 1,
@@ -13403,10 +13402,10 @@
   "File1": "Expansion/Siege/Brdr10r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 903
  },
  "903": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 11",
   "Def": 903,
   "Populate": 1,
@@ -13419,10 +13418,10 @@
   "File1": "Expansion/Siege/Brdr11r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 904
  },
  "904": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 12",
   "Def": 904,
   "Populate": 1,
@@ -13435,10 +13434,10 @@
   "File1": "Expansion/Siege/Brdr12r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 905
  },
  "905": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine-Cliff Border 5",
   "Def": 905,
   "Populate": 1,
@@ -13451,10 +13450,10 @@
   "File1": "Expansion/Siege/Brdr05t.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 906
  },
  "906": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Ravine Border 7",
   "Def": 906,
   "Populate": 1,
@@ -13467,10 +13466,10 @@
   "File1": "Expansion/Siege/Brdr07t.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 907
  },
  "907": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Entrance 16x32",
   "Def": 907,
   "Populate": 1,
@@ -13483,10 +13482,10 @@
   "File1": "Expansion/Siege/Brdr16x32btm.ds1",
   "Dt1Mask": 1943603,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 908
  },
  "908": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Entrance 32x16",
   "Def": 908,
   "Populate": 1,
@@ -13499,10 +13498,10 @@
   "File1": "Expansion/Siege/Brdr32x16btm.ds1",
   "Dt1Mask": 1948727,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 909
  },
  "909": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Exit 32x16",
   "Def": 909,
   "Populate": 1,
@@ -13515,10 +13514,10 @@
   "File1": "Expansion/Siege/Brdr32x16top.ds1",
   "Dt1Mask": 1965111,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 910
  },
  "910": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Exit 16x32",
   "Def": 910,
   "Populate": 1,
@@ -13531,10 +13530,10 @@
   "File1": "Expansion/Siege/Brdr16x32top.ds1",
   "Dt1Mask": 1965111,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 911
  },
  "911": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade From Cave 32x16",
   "Def": 911,
   "Populate": 1,
@@ -13548,10 +13547,10 @@
   "File1": "Expansion/IceCave/NorthExit_Dirt.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 912
  },
  "912": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade From Cave 16x32",
   "Def": 912,
   "Populate": 1,
@@ -13565,10 +13564,10 @@
   "File1": "Expansion/IceCave/WestExit_Dirt.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 913
  },
  "913": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade To Cave 32x16",
   "Def": 913,
   "Populate": 1,
@@ -13582,10 +13581,10 @@
   "File1": "Expansion/IceCave/NorthEntrance_Dirt.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 914
  },
  "914": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade To Cave 16x32",
   "Def": 914,
   "Populate": 1,
@@ -13599,10 +13598,10 @@
   "File1": "Expansion/IceCave/WestEntrance_Dirt.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 915
  },
  "915": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 1",
   "Def": 915,
   "Populate": 1,
@@ -13616,10 +13615,10 @@
   "File2": "Expansion/Siege/newbarrAA2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 916
  },
  "916": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 2",
   "Def": 916,
   "Populate": 1,
@@ -13634,10 +13633,10 @@
   "File3": "Expansion/Siege/newbarrBB3.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 917
  },
  "917": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 3",
   "Def": 917,
   "Populate": 1,
@@ -13651,10 +13650,10 @@
   "File2": "Expansion/Siege/newbarrCC2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 918
  },
  "918": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 4",
   "Def": 918,
   "Populate": 1,
@@ -13668,10 +13667,10 @@
   "File2": "Expansion/Siege/newbarrDD2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 919
  },
  "919": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 5",
   "Def": 919,
   "Populate": 1,
@@ -13685,10 +13684,10 @@
   "File2": "Expansion/Siege/newbarrAB2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 920
  },
  "920": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 6",
   "Def": 920,
   "Populate": 1,
@@ -13702,10 +13701,10 @@
   "File2": "Expansion/Siege/newbarrBA2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 921
  },
  "921": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 7",
   "Def": 921,
   "Populate": 1,
@@ -13719,10 +13718,10 @@
   "File2": "Expansion/Siege/newbarrCD2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 922
  },
  "922": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 8",
   "Def": 922,
   "Populate": 1,
@@ -13736,10 +13735,10 @@
   "File2": "Expansion/Siege/newbarrDC2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 923
  },
  "923": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 9",
   "Def": 923,
   "Populate": 1,
@@ -13752,10 +13751,10 @@
   "File1": "Expansion/Siege/newbarrBR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 924
  },
  "924": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 10",
   "Def": 924,
   "Populate": 1,
@@ -13769,10 +13768,10 @@
   "File2": "Expansion/Siege/newbarrAR2.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 925
  },
  "925": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 11",
   "Def": 925,
   "Populate": 1,
@@ -13785,10 +13784,10 @@
   "File1": "Expansion/Siege/newbarrFB1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 926
  },
  "926": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 12",
   "Def": 926,
   "Populate": 1,
@@ -13801,10 +13800,10 @@
   "File1": "Expansion/Siege/newbarrFA1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 927
  },
  "927": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 13",
   "Def": 927,
   "Populate": 1,
@@ -13817,10 +13816,10 @@
   "File1": "Expansion/Siege/newbarrCR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 928
  },
  "928": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 14",
   "Def": 928,
   "Populate": 1,
@@ -13833,10 +13832,10 @@
   "File1": "Expansion/Siege/newbarrDR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 929
  },
  "929": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 15",
   "Def": 929,
   "Populate": 1,
@@ -13849,10 +13848,10 @@
   "File1": "Expansion/Siege/newbarrFC1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 930
  },
  "930": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 16",
   "Def": 930,
   "Populate": 1,
@@ -13865,10 +13864,10 @@
   "File1": "Expansion/Siege/newbarrFD1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 931
  },
  "931": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 1",
   "Def": 931,
   "Populate": 1,
@@ -13881,10 +13880,10 @@
   "File1": "Expansion/Siege/SharpToothAA.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 932
  },
  "932": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 2",
   "Def": 932,
   "Populate": 1,
@@ -13897,10 +13896,10 @@
   "File1": "Expansion/Siege/SharpToothBB.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 933
  },
  "933": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 3",
   "Def": 933,
   "Populate": 1,
@@ -13913,10 +13912,10 @@
   "File1": "Expansion/Siege/SharpToothCC.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 934
  },
  "934": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 4",
   "Def": 934,
   "Populate": 1,
@@ -13929,10 +13928,10 @@
   "File1": "Expansion/Siege/SharpToothDD.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 935
  },
  "935": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 5",
   "Def": 935,
   "Populate": 1,
@@ -13945,10 +13944,10 @@
   "File1": "Expansion/Siege/SharpToothAB.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 936
  },
  "936": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 6",
   "Def": 936,
   "Populate": 1,
@@ -13961,10 +13960,10 @@
   "File1": "Expansion/Siege/SharpToothBA.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 937
  },
  "937": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 7",
   "Def": 937,
   "Populate": 1,
@@ -13977,10 +13976,10 @@
   "File1": "Expansion/Siege/SharpToothCD.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 938
  },
  "938": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Prison 8",
   "Def": 938,
   "Populate": 1,
@@ -13993,10 +13992,10 @@
   "File1": "Expansion/Siege/SharpToothDC.ds1",
   "Dt1Mask": 538950707,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 939
  },
  "939": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Building",
   "Def": 939,
   "Populate": 1,
@@ -14014,11 +14013,11 @@
   "File4": "Expansion/Siege/farm2a.ds1",
   "Dt1Mask": 2080119,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 940
  },
  "940": {
-  "expansion": 1,
-  "Name": "Act 5 - Barricade Filler ",
+  "Name": "Act 5 - Barricade Filler",
   "Def": 940,
   "Populate": 1,
   "Outdoors": 1,
@@ -14033,10 +14032,10 @@
   "File4": "Expansion/Siege/farm6.ds1",
   "Dt1Mask": 2080119,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 941
  },
  "941": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Filler Treasure",
   "Def": 941,
   "Populate": 1,
@@ -14052,10 +14051,10 @@
   "File4": "Expansion/Siege/farm6a.ds1",
   "Dt1Mask": 2080119,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 942
  },
  "942": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ruins N",
   "Def": 942,
   "Populate": 1,
@@ -14072,10 +14071,10 @@
   "File5": "Expansion/Ruins/NorthHouse5.ds1",
   "Dt1Mask": 404596787,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 943
  },
  "943": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ruins N",
   "Def": 943,
   "Populate": 1,
@@ -14092,10 +14091,10 @@
   "File5": "Expansion/Ruins/NorthHouse10.ds1",
   "Dt1Mask": 404596787,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 944
  },
  "944": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ruins N Treasure",
   "Def": 944,
   "Populate": 1,
@@ -14111,10 +14110,10 @@
   "File4": "Expansion/Ruins/NorthHouse7a.ds1",
   "Dt1Mask": 404596787,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 945
  },
  "945": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ruins W",
   "Def": 945,
   "Populate": 1,
@@ -14130,10 +14129,10 @@
   "File4": "Expansion/Ruins/WestHouse4.ds1",
   "Dt1Mask": 404596787,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 946
  },
  "946": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ruins W",
   "Def": 946,
   "Populate": 1,
@@ -14149,10 +14148,10 @@
   "File4": "Expansion/Ruins/WestHouse8.ds1",
   "Dt1Mask": 404596787,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 947
  },
  "947": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ruins W Treasure",
   "Def": 947,
   "Populate": 1,
@@ -14168,10 +14167,10 @@
   "File4": "Expansion/Ruins/WestHouse5a.ds1",
   "Dt1Mask": 404596787,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 948
  },
  "948": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Snow Lake  1",
   "Def": 948,
   "Populate": 1,
@@ -14187,10 +14186,10 @@
   "File4": "Expansion/Siege/lake4.ds1",
   "Dt1Mask": 787474,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 949
  },
  "949": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Snow Lake  2",
   "Def": 949,
   "Populate": 1,
@@ -14206,11 +14205,11 @@
   "File4": "Expansion/Siege/lake8.ds1",
   "Dt1Mask": 787474,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 950
  },
  "950": {
-  "expansion": 1,
-  "Name": "Act 5 - Barricade Snow Other ",
+  "Name": "Act 5 - Barricade Snow Other",
   "Def": 950,
   "Populate": 1,
   "Outdoors": 1,
@@ -14222,11 +14221,11 @@
   "File1": "Expansion/Siege/lake1.ds1",
   "Dt1Mask": 787474,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 951
  },
  "951": {
-  "expansion": 1,
-  "Name": "Act 5 - Barricade Snow Treasure ",
+  "Name": "Act 5 - Barricade Snow Treasure",
   "Def": 951,
   "Populate": 1,
   "Outdoors": 1,
@@ -14238,10 +14237,10 @@
   "File1": "Expansion/Siege/lake1.ds1",
   "Dt1Mask": 787474,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 952
  },
  "952": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Snow Unique",
   "Def": 952,
   "Populate": 1,
@@ -14254,10 +14253,10 @@
   "File2": "Expansion/Siege/BlazeRipperCDR.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 953
  },
  "953": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Waypoint Dirt",
   "Def": 953,
   "Populate": 1,
@@ -14272,10 +14271,10 @@
   "File2": "Expansion/Siege/SiegeWaypoint2.ds1",
   "Dt1Mask": 789011,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 954
  },
  "954": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Waypoint Snow",
   "Def": 954,
   "Populate": 1,
@@ -14290,10 +14289,10 @@
   "File2": "Expansion/Siege/SnowWaypoint2.ds1",
   "Dt1Mask": 789011,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 955
  },
  "955": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Hell Portal N",
   "Def": 955,
   "Populate": 1,
@@ -14307,10 +14306,10 @@
   "File2": "Expansion/Siege/hellwrpNsnow.ds1",
   "Dt1Mask": 1074003987,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 956
  },
  "956": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Hell Portal W",
   "Def": 956,
   "Populate": 1,
@@ -14324,10 +14323,10 @@
   "File2": "Expansion/Siege/hellwrpWsnow.ds1",
   "Dt1Mask": 1074003987,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 957
  },
  "957": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 1 Snow",
   "Def": 957,
   "Populate": 1,
@@ -14340,10 +14339,10 @@
   "File1": "Expansion/Siege/Brdr_snow01c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 958
  },
  "958": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 2 Snow",
   "Def": 958,
   "Populate": 1,
@@ -14356,10 +14355,10 @@
   "File1": "Expansion/Siege/Brdr_snow02c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 959
  },
  "959": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 3 Snow",
   "Def": 959,
   "Populate": 1,
@@ -14372,10 +14371,10 @@
   "File1": "Expansion/Siege/Brdr_snow03c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 960
  },
  "960": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 4 Snow",
   "Def": 960,
   "Populate": 1,
@@ -14388,10 +14387,10 @@
   "File1": "Expansion/Siege/Brdr_snow04c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 961
  },
  "961": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 5 Snow",
   "Def": 961,
   "Populate": 1,
@@ -14404,10 +14403,10 @@
   "File1": "Expansion/Siege/Brdr_snow05c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 962
  },
  "962": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 6 Snow",
   "Def": 962,
   "Populate": 1,
@@ -14420,10 +14419,10 @@
   "File1": "Expansion/Siege/Brdr_snow06c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 963
  },
  "963": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 7 Snow",
   "Def": 963,
   "Populate": 1,
@@ -14436,10 +14435,10 @@
   "File1": "Expansion/Siege/Brdr_snow07c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 964
  },
  "964": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 8 Snow",
   "Def": 964,
   "Populate": 1,
@@ -14452,10 +14451,10 @@
   "File1": "Expansion/Siege/Brdr_snow08c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 965
  },
  "965": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 9 Snow",
   "Def": 965,
   "Populate": 1,
@@ -14468,10 +14467,10 @@
   "File1": "Expansion/Siege/Brdr_snow09c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 966
  },
  "966": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 10 Snow",
   "Def": 966,
   "Populate": 1,
@@ -14484,10 +14483,10 @@
   "File1": "Expansion/Siege/Brdr_snow10c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 967
  },
  "967": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 11 Snow",
   "Def": 967,
   "Populate": 1,
@@ -14498,10 +14497,10 @@
   "SizeY": 16,
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 968
  },
  "968": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Border 12 Snow",
   "Def": 968,
   "Populate": 1,
@@ -14514,10 +14513,10 @@
   "File1": "Expansion/Siege/Brdr_snow12c.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 969
  },
  "969": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 1 Snow",
   "Def": 969,
   "Populate": 1,
@@ -14530,10 +14529,10 @@
   "File1": "Expansion/Siege/Brdr_snow01r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 970
  },
  "970": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 2 Snow",
   "Def": 970,
   "Populate": 1,
@@ -14546,10 +14545,10 @@
   "File1": "Expansion/Siege/Brdr_snow02r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 971
  },
  "971": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 3 Snow",
   "Def": 971,
   "Populate": 1,
@@ -14562,10 +14561,10 @@
   "File1": "Expansion/Siege/Brdr_snow03r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 972
  },
  "972": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 4 Snow",
   "Def": 972,
   "Populate": 1,
@@ -14578,10 +14577,10 @@
   "File1": "Expansion/Siege/Brdr_snow04r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 973
  },
  "973": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 5 Snow",
   "Def": 973,
   "Populate": 1,
@@ -14594,10 +14593,10 @@
   "File1": "Expansion/Siege/Brdr_snow05r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 974
  },
  "974": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 6 Snow",
   "Def": 974,
   "Populate": 1,
@@ -14610,10 +14609,10 @@
   "File1": "Expansion/Siege/Brdr_snow06r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 975
  },
  "975": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 7 Snow",
   "Def": 975,
   "Populate": 1,
@@ -14626,10 +14625,10 @@
   "File1": "Expansion/Siege/Brdr_snow07r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 976
  },
  "976": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 8 Snow",
   "Def": 976,
   "Populate": 1,
@@ -14642,10 +14641,10 @@
   "File1": "Expansion/Siege/Brdr_snow08r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 977
  },
  "977": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 9 Snow",
   "Def": 977,
   "Populate": 1,
@@ -14658,10 +14657,10 @@
   "File1": "Expansion/Siege/Brdr_snow09r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 978
  },
  "978": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 10 Snow",
   "Def": 978,
   "Populate": 1,
@@ -14674,10 +14673,10 @@
   "File1": "Expansion/Siege/Brdr_snow10r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 979
  },
  "979": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 11 Snow",
   "Def": 979,
   "Populate": 1,
@@ -14688,10 +14687,10 @@
   "SizeY": 16,
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 980
  },
  "980": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine Border 12 Snow",
   "Def": 980,
   "Populate": 1,
@@ -14704,10 +14703,10 @@
   "File1": "Expansion/Siege/Brdr_snow12r.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 981
  },
  "981": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Ravine-Cliff Border 5 Snow",
   "Def": 981,
   "Populate": 1,
@@ -14720,10 +14719,10 @@
   "File1": "Expansion/Siege/Brdr_snow05t.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 982
  },
  "982": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade Cliff Ravine Border 7 Snow",
   "Def": 982,
   "Populate": 1,
@@ -14736,10 +14735,10 @@
   "File1": "Expansion/Siege/Brdr_snow07t.ds1",
   "Dt1Mask": 1944631,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 983
  },
  "983": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade From Cave 32x16 Snow",
   "Def": 983,
   "Populate": 1,
@@ -14753,10 +14752,10 @@
   "File1": "Expansion/IceCave/NorthExit_Snow.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 984
  },
  "984": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade From Cave 16x32 Snow",
   "Def": 984,
   "Populate": 1,
@@ -14770,10 +14769,10 @@
   "File1": "Expansion/IceCave/WestExit_Snow.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 985
  },
  "985": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade To Cave 32x16 Snow",
   "Def": 985,
   "Populate": 1,
@@ -14787,10 +14786,10 @@
   "File1": "Expansion/IceCave/NorthEntrance_Snow.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 986
  },
  "986": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade To Cave 16x32 Snow",
   "Def": 986,
   "Populate": 1,
@@ -14804,10 +14803,10 @@
   "File1": "Expansion/IceCave/WestEntrance_Snow.ds1",
   "Dt1Mask": 102607927,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 987
  },
  "987": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 1 Snow",
   "Def": 987,
   "Populate": 1,
@@ -14821,10 +14820,10 @@
   "File2": "Expansion/Siege/snowbarrAA2.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 988
  },
  "988": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 2 Snow",
   "Def": 988,
   "Populate": 1,
@@ -14837,10 +14836,10 @@
   "File1": "Expansion/Siege/snowbarrBB1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 989
  },
  "989": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 3 Snow",
   "Def": 989,
   "Populate": 1,
@@ -14853,10 +14852,10 @@
   "File1": "Expansion/Siege/snowbarrCC1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 990
  },
  "990": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 4 Snow",
   "Def": 990,
   "Populate": 1,
@@ -14869,10 +14868,10 @@
   "File1": "Expansion/Siege/snowbarrDD1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 991
  },
  "991": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 5 Snow",
   "Def": 991,
   "Populate": 1,
@@ -14885,10 +14884,10 @@
   "File1": "Expansion/Siege/snowbarrAB1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 992
  },
  "992": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 6 Snow",
   "Def": 992,
   "Populate": 1,
@@ -14901,10 +14900,10 @@
   "File1": "Expansion/Siege/snowbarrBA1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 993
  },
  "993": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 7 Snow",
   "Def": 993,
   "Populate": 1,
@@ -14917,10 +14916,10 @@
   "File1": "Expansion/Siege/snowbarrCD1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 994
  },
  "994": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 8 Snow",
   "Def": 994,
   "Populate": 1,
@@ -14933,10 +14932,10 @@
   "File1": "Expansion/Siege/snowbarrDC1.ds1",
   "Dt1Mask": 2079795,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 995
  },
  "995": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 9 Snow",
   "Def": 995,
   "Populate": 1,
@@ -14949,10 +14948,10 @@
   "File1": "Expansion/Siege/snowbarrBR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 996
  },
  "996": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 10 Snow",
   "Def": 996,
   "Populate": 1,
@@ -14965,10 +14964,10 @@
   "File1": "Expansion/Siege/snowbarrAR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 997
  },
  "997": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 11 Snow",
   "Def": 997,
   "Populate": 1,
@@ -14981,10 +14980,10 @@
   "File1": "Expansion/Siege/snowbarrFB1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 998
  },
  "998": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 12 Snow",
   "Def": 998,
   "Populate": 1,
@@ -14997,10 +14996,10 @@
   "File1": "Expansion/Siege/snowbarrFA1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 999
  },
  "999": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 13 Snow",
   "Def": 999,
   "Populate": 1,
@@ -15013,10 +15012,10 @@
   "File1": "Expansion/Siege/snowbarrCR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1000
  },
  "1000": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 14 Snow",
   "Def": 1000,
   "Populate": 1,
@@ -15029,10 +15028,10 @@
   "File1": "Expansion/Siege/snowbarrDR1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1001
  },
  "1001": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 15 Snow",
   "Def": 1001,
   "Populate": 1,
@@ -15045,10 +15044,10 @@
   "File1": "Expansion/Siege/snowbarrFC1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1002
  },
  "1002": {
-  "expansion": 1,
   "Name": "Act 5 - Barricade 16 Snow",
   "Def": 1002,
   "Populate": 1,
@@ -15061,10 +15060,10 @@
   "File1": "Expansion/Siege/snowbarrFD1.ds1",
   "Dt1Mask": 2079799,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1003
  },
  "1003": {
-  "expansion": 1,
   "Name": "Act 5 - Ice W",
   "Def": 1003,
   "Populate": 1,
@@ -15078,10 +15077,10 @@
   "File3": "Expansion/icecave/IceW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1004
  },
  "1004": {
-  "expansion": 1,
   "Name": "Act 5 - Ice E",
   "Def": 1004,
   "Populate": 1,
@@ -15095,10 +15094,10 @@
   "File3": "Expansion/icecave/IceE03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1005
  },
  "1005": {
-  "expansion": 1,
   "Name": "Act 5 - Ice EW",
   "Def": 1005,
   "Populate": 1,
@@ -15112,10 +15111,10 @@
   "File3": "Expansion/icecave/IceEW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1006
  },
  "1006": {
-  "expansion": 1,
   "Name": "Act 5 - Ice S",
   "Def": 1006,
   "Populate": 1,
@@ -15129,10 +15128,10 @@
   "File3": "Expansion/icecave/IceS03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1007
  },
  "1007": {
-  "expansion": 1,
   "Name": "Act 5 - Ice SW",
   "Def": 1007,
   "Populate": 1,
@@ -15146,10 +15145,10 @@
   "File3": "Expansion/icecave/IceSW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1008
  },
  "1008": {
-  "expansion": 1,
   "Name": "Act 5 - Ice SE",
   "Def": 1008,
   "Populate": 1,
@@ -15163,10 +15162,10 @@
   "File3": "Expansion/icecave/IceSE03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1009
  },
  "1009": {
-  "expansion": 1,
   "Name": "Act 5 - Ice SEW",
   "Def": 1009,
   "Populate": 1,
@@ -15180,10 +15179,10 @@
   "File3": "Expansion/icecave/IceSEW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1010
  },
  "1010": {
-  "expansion": 1,
   "Name": "Act 5 - Ice N",
   "Def": 1010,
   "Populate": 1,
@@ -15197,10 +15196,10 @@
   "File3": "Expansion/icecave/IceN03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1011
  },
  "1011": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NW",
   "Def": 1011,
   "Populate": 1,
@@ -15214,10 +15213,10 @@
   "File3": "Expansion/icecave/IceNW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1012
  },
  "1012": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NE",
   "Def": 1012,
   "Populate": 1,
@@ -15231,10 +15230,10 @@
   "File3": "Expansion/icecave/IceNE03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1013
  },
  "1013": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NEW",
   "Def": 1013,
   "Populate": 1,
@@ -15248,10 +15247,10 @@
   "File3": "Expansion/icecave/IceNEW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1014
  },
  "1014": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NS",
   "Def": 1014,
   "Populate": 1,
@@ -15265,10 +15264,10 @@
   "File3": "Expansion/icecave/IceNS03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1015
  },
  "1015": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NSW",
   "Def": 1015,
   "Populate": 1,
@@ -15282,10 +15281,10 @@
   "File3": "Expansion/icecave/IceNSW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1016
  },
  "1016": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NSE",
   "Def": 1016,
   "Populate": 1,
@@ -15299,10 +15298,10 @@
   "File3": "Expansion/icecave/IceNSE03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1017
  },
  "1017": {
-  "expansion": 1,
   "Name": "Act 5 - Ice NSEW",
   "Def": 1017,
   "Populate": 1,
@@ -15316,10 +15315,10 @@
   "File3": "Expansion/icecave/IceNSEW03.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1018
  },
  "1018": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Prev W",
   "Def": 1018,
   "Populate": 1,
@@ -15332,10 +15331,10 @@
   "File1": "Expansion/icecave/IceWback01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1019
  },
  "1019": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Prev E",
   "Def": 1019,
   "Populate": 1,
@@ -15348,10 +15347,10 @@
   "File1": "Expansion/icecave/IceEback01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1020
  },
  "1020": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Prev S",
   "Def": 1020,
   "Populate": 1,
@@ -15364,10 +15363,10 @@
   "File1": "Expansion/icecave/IceSback01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1021
  },
  "1021": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Prev N",
   "Def": 1021,
   "Populate": 1,
@@ -15380,10 +15379,10 @@
   "File1": "Expansion/icecave/IceNback01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1022
  },
  "1022": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Next W",
   "Def": 1022,
   "Populate": 1,
@@ -15396,10 +15395,10 @@
   "File1": "Expansion/icecave/IceWahead01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1023
  },
  "1023": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Next E",
   "Def": 1023,
   "Populate": 1,
@@ -15412,10 +15411,10 @@
   "File1": "Expansion/icecave/IceEahead01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1024
  },
  "1024": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Next S",
   "Def": 1024,
   "Populate": 1,
@@ -15428,10 +15427,10 @@
   "File1": "Expansion/icecave/IceSahead01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1025
  },
  "1025": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Next N",
   "Def": 1025,
   "Populate": 1,
@@ -15444,10 +15443,10 @@
   "File1": "Expansion/icecave/IceNahead01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1026
  },
  "1026": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Down W",
   "Def": 1026,
   "Populate": 1,
@@ -15460,10 +15459,10 @@
   "File1": "Expansion/icecave/IceWdown01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1027
  },
  "1027": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Down E",
   "Def": 1027,
   "Populate": 1,
@@ -15476,10 +15475,10 @@
   "File1": "Expansion/icecave/IceEdown01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1028
  },
  "1028": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Down S",
   "Def": 1028,
   "Populate": 1,
@@ -15492,10 +15491,10 @@
   "File1": "Expansion/icecave/IceSdown01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1029
  },
  "1029": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Down N",
   "Def": 1029,
   "Populate": 1,
@@ -15508,10 +15507,10 @@
   "File1": "Expansion/icecave/IceNdown01.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1030
  },
  "1030": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Theme W",
   "Def": 1030,
   "Populate": 1,
@@ -15524,10 +15523,10 @@
   "File1": "Expansion/icecave/IceWtheme.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1031
  },
  "1031": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Theme E",
   "Def": 1031,
   "Populate": 1,
@@ -15540,10 +15539,10 @@
   "File1": "Expansion/icecave/IceEtheme.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1032
  },
  "1032": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Theme S",
   "Def": 1032,
   "Populate": 1,
@@ -15556,10 +15555,10 @@
   "File1": "Expansion/icecave/IceStheme.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1033
  },
  "1033": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Theme N",
   "Def": 1033,
   "Populate": 1,
@@ -15572,10 +15571,10 @@
   "File1": "Expansion/icecave/IceNtheme.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1034
  },
  "1034": {
-  "expansion": 1,
   "Name": "Act 5 - Ice waypoint N",
   "Def": 1034,
   "Populate": 1,
@@ -15588,10 +15587,10 @@
   "File1": "Expansion/icecave/IceNway.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1035
  },
  "1035": {
-  "expansion": 1,
   "Name": "Act 5 - Ice waypoint S",
   "Def": 1035,
   "Populate": 1,
@@ -15604,10 +15603,10 @@
   "File1": "Expansion/icecave/IceSway.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1036
  },
  "1036": {
-  "expansion": 1,
   "Name": "Act 5 - Ice waypoint E",
   "Def": 1036,
   "Populate": 1,
@@ -15620,10 +15619,10 @@
   "File1": "Expansion/icecave/IceEway.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1037
  },
  "1037": {
-  "expansion": 1,
   "Name": "Act 5 - Ice waypoint W",
   "Def": 1037,
   "Populate": 1,
@@ -15636,10 +15635,10 @@
   "File1": "Expansion/icecave/IceWway.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1038
  },
  "1038": {
-  "expansion": 1,
   "Name": "Act 5 - Ice River A",
   "Def": 1038,
   "Populate": 1,
@@ -15655,10 +15654,10 @@
   "File4": "Expansion/icecave/RiverIce04.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1039
  },
  "1039": {
-  "expansion": 1,
   "Name": "Act 5 - Ice River B",
   "Def": 1039,
   "Populate": 1,
@@ -15674,10 +15673,10 @@
   "File4": "Expansion/icecave/RiverIce08.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1040
  },
  "1040": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Pool A",
   "Def": 1040,
   "Populate": 1,
@@ -15695,10 +15694,10 @@
   "File6": "Expansion/icecave/poolroom06a.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1041
  },
  "1041": {
-  "expansion": 1,
   "Name": "Act 5 - Ice Pool B",
   "Def": 1041,
   "Populate": 1,
@@ -15716,10 +15715,10 @@
   "File6": "Expansion/icecave/poolroom06.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1042
  },
  "1042": {
-  "expansion": 1,
   "Name": "Act 5 - Temple NE",
   "Def": 1042,
   "Populate": 1,
@@ -15732,10 +15731,10 @@
   "File2": "Expansion/wildtemple/tempNE02.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1043
  },
  "1043": {
-  "expansion": 1,
   "Name": "Act 5 - Temple NW",
   "Def": 1043,
   "Populate": 1,
@@ -15748,10 +15747,10 @@
   "File2": "Expansion/wildtemple/tempNW02.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1044
  },
  "1044": {
-  "expansion": 1,
   "Name": "Act 5 - Temple SE up",
   "Def": 1044,
   "Populate": 1,
@@ -15765,10 +15764,10 @@
   "File2": "Expansion/wildtemple/tempSE02.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1045
  },
  "1045": {
-  "expansion": 1,
   "Name": "Act 5 - Temple SW",
   "Def": 1045,
   "Populate": 1,
@@ -15781,10 +15780,10 @@
   "File2": "Expansion/wildtemple/tempSW02.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1046
  },
  "1046": {
-  "expansion": 1,
   "Name": "Act 5 - Temple NE Down",
   "Def": 1046,
   "Populate": 1,
@@ -15797,10 +15796,10 @@
   "File1": "Expansion/wildtemple/tempNEdown.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1047
  },
  "1047": {
-  "expansion": 1,
   "Name": "Act 5 - Temple NW Down",
   "Def": 1047,
   "Populate": 1,
@@ -15813,10 +15812,10 @@
   "File1": "Expansion/wildtemple/tempNWdown.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1048
  },
  "1048": {
-  "expansion": 1,
   "Name": "Act 5 - Temple SW Down",
   "Def": 1048,
   "Populate": 1,
@@ -15829,10 +15828,10 @@
   "File1": "Expansion/wildtemple/tempSWdown.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1049
  },
  "1049": {
-  "expansion": 1,
   "Name": "Act 5 - Temple NE Waypoint",
   "Def": 1049,
   "Populate": 1,
@@ -15845,10 +15844,10 @@
   "File1": "Expansion/wildtemple/tempNEWay.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1050
  },
  "1050": {
-  "expansion": 1,
   "Name": "Act 5 - Temple NW Waypoint",
   "Def": 1050,
   "Populate": 1,
@@ -15861,10 +15860,10 @@
   "File1": "Expansion/wildtemple/tempNWWay.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1051
  },
  "1051": {
-  "expansion": 1,
   "Name": "Act 5 - Temple SE Waypoint",
   "Def": 1051,
   "Populate": 1,
@@ -15877,10 +15876,10 @@
   "File1": "Expansion/wildtemple/tempSEWay.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1052
  },
  "1052": {
-  "expansion": 1,
   "Name": "Act 5 - Temple SW Waypoint",
   "Def": 1052,
   "Populate": 1,
@@ -15893,10 +15892,10 @@
   "File1": "Expansion/wildtemple/tempSWWay.ds1",
   "Dt1Mask": 1,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1053
  },
  "1053": {
-  "expansion": 1,
   "Name": "Act 5 - Lava N",
   "Def": 1053,
   "Populate": 1,
@@ -15912,10 +15911,10 @@
   "File2": "Act4/Expansion/LavaN2.ds1",
   "Dt1Mask": 4095,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1054
  },
  "1054": {
-  "expansion": 1,
   "Name": "Act 5 - Lava S",
   "Def": 1054,
   "Populate": 1,
@@ -15931,10 +15930,10 @@
   "File2": "Act4/Expansion/LavaS2.ds1",
   "Dt1Mask": 4095,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1055
  },
  "1055": {
-  "expansion": 1,
   "Name": "Act 5 - Lava E",
   "Def": 1055,
   "Populate": 1,
@@ -15950,10 +15949,10 @@
   "File2": "Act4/Expansion/LavaE2.ds1",
   "Dt1Mask": 4095,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1056
  },
  "1056": {
-  "expansion": 1,
   "Name": "Act 5 - Lava W",
   "Def": 1056,
   "Populate": 1,
@@ -15969,10 +15968,10 @@
   "File2": "Act4/Expansion/LavaW2.ds1",
   "Dt1Mask": 4095,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1057
  },
  "1057": {
-  "expansion": 1,
   "Name": "Act 5 - Lava EW",
   "Def": 1057,
   "Populate": 1,
@@ -15988,10 +15987,10 @@
   "File2": "Act4/Expansion/LavaEW2.ds1",
   "Dt1Mask": 4095,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1058
  },
  "1058": {
-  "expansion": 1,
   "Name": "Act 5 - Lava NS",
   "Def": 1058,
   "Populate": 1,
@@ -16007,10 +16006,10 @@
   "File2": "Act4/Expansion/LavaNS2.ds1",
   "Dt1Mask": 4095,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1059
  },
  "1059": {
-  "expansion": 1,
   "Name": "Act 5 - Baal W",
   "Def": 1059,
   "Populate": 1,
@@ -16024,10 +16023,10 @@
   "File3": "Expansion/BaalLair/baalW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1060
  },
  "1060": {
-  "expansion": 1,
   "Name": "Act 5 - Baal E",
   "Def": 1060,
   "Populate": 1,
@@ -16041,10 +16040,10 @@
   "File3": "Expansion/BaalLair/baalE03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1061
  },
  "1061": {
-  "expansion": 1,
   "Name": "Act 5 - Baal EW",
   "Def": 1061,
   "Populate": 1,
@@ -16058,10 +16057,10 @@
   "File3": "Expansion/BaalLair/baalEW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1062
  },
  "1062": {
-  "expansion": 1,
   "Name": "Act 5 - Baal S",
   "Def": 1062,
   "Populate": 1,
@@ -16075,10 +16074,10 @@
   "File3": "Expansion/BaalLair/baalS03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1063
  },
  "1063": {
-  "expansion": 1,
   "Name": "Act 5 - Baal SW",
   "Def": 1063,
   "Populate": 1,
@@ -16092,10 +16091,10 @@
   "File3": "Expansion/BaalLair/baalSW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1064
  },
  "1064": {
-  "expansion": 1,
   "Name": "Act 5 - Baal SE",
   "Def": 1064,
   "Populate": 1,
@@ -16109,10 +16108,10 @@
   "File3": "Expansion/BaalLair/baalSE03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1065
  },
  "1065": {
-  "expansion": 1,
   "Name": "Act 5 - Baal SEW",
   "Def": 1065,
   "Populate": 1,
@@ -16126,10 +16125,10 @@
   "File3": "Expansion/BaalLair/baalSEW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1066
  },
  "1066": {
-  "expansion": 1,
   "Name": "Act 5 - Baal N",
   "Def": 1066,
   "Populate": 1,
@@ -16143,10 +16142,10 @@
   "File3": "Expansion/BaalLair/baalN03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1067
  },
  "1067": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NW",
   "Def": 1067,
   "Populate": 1,
@@ -16160,10 +16159,10 @@
   "File3": "Expansion/BaalLair/baalNW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1068
  },
  "1068": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NE",
   "Def": 1068,
   "Populate": 1,
@@ -16177,10 +16176,10 @@
   "File3": "Expansion/BaalLair/baalNE03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1069
  },
  "1069": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NEW",
   "Def": 1069,
   "Populate": 1,
@@ -16194,10 +16193,10 @@
   "File3": "Expansion/BaalLair/baalNEW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1070
  },
  "1070": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NS",
   "Def": 1070,
   "Populate": 1,
@@ -16211,10 +16210,10 @@
   "File3": "Expansion/BaalLair/baalNS03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1071
  },
  "1071": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NSW",
   "Def": 1071,
   "Populate": 1,
@@ -16228,10 +16227,10 @@
   "File3": "Expansion/BaalLair/baalNSW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1072
  },
  "1072": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NSE",
   "Def": 1072,
   "Populate": 1,
@@ -16245,10 +16244,10 @@
   "File3": "Expansion/BaalLair/baalNSE03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1073
  },
  "1073": {
-  "expansion": 1,
   "Name": "Act 5 - Baal NSEW",
   "Def": 1073,
   "Populate": 1,
@@ -16262,10 +16261,10 @@
   "File3": "Expansion/BaalLair/baalNSEW03.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1074
  },
  "1074": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Prev NEW",
   "Def": 1074,
   "Populate": 1,
@@ -16279,10 +16278,10 @@
   "File2": "Expansion/BaalLair/baalNEWup02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1075
  },
  "1075": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Prev NSE",
   "Def": 1075,
   "Populate": 1,
@@ -16296,10 +16295,10 @@
   "File2": "Expansion/BaalLair/baalNSEup02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1076
  },
  "1076": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Prev NSW",
   "Def": 1076,
   "Populate": 1,
@@ -16313,10 +16312,10 @@
   "File2": "Expansion/BaalLair/baalNSWup02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1077
  },
  "1077": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Prev SEW",
   "Def": 1077,
   "Populate": 1,
@@ -16330,10 +16329,10 @@
   "File2": "Expansion/BaalLair/baalSEWup02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1078
  },
  "1078": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Next N",
   "Def": 1078,
   "Populate": 1,
@@ -16347,10 +16346,10 @@
   "File2": "Expansion/BaalLair/baalNdown02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1079
  },
  "1079": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Next S",
   "Def": 1079,
   "Populate": 1,
@@ -16364,10 +16363,10 @@
   "File2": "Expansion/BaalLair/baalSdown02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1080
  },
  "1080": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Next E",
   "Def": 1080,
   "Populate": 1,
@@ -16381,10 +16380,10 @@
   "File2": "Expansion/BaalLair/baalEdown02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1081
  },
  "1081": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Next W",
   "Def": 1081,
   "Populate": 1,
@@ -16398,10 +16397,10 @@
   "File2": "Expansion/BaalLair/baalWdown02.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1082
  },
  "1082": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Waypoint N",
   "Def": 1082,
   "Populate": 1,
@@ -16414,10 +16413,10 @@
   "File1": "Expansion/BaalLair/baalNway.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1083
  },
  "1083": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Waypoint S",
   "Def": 1083,
   "Populate": 1,
@@ -16430,10 +16429,10 @@
   "File1": "Expansion/BaalLair/baalSway.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1084
  },
  "1084": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Waypoint E",
   "Def": 1084,
   "Populate": 1,
@@ -16446,10 +16445,10 @@
   "File1": "Expansion/BaalLair/baalEway.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1085
  },
  "1085": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Waypoint W",
   "Def": 1085,
   "Populate": 1,
@@ -16462,10 +16461,10 @@
   "File1": "Expansion/BaalLair/baalWway.ds1",
   "Dt1Mask": 3,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1086
  },
  "1086": {
-  "expansion": 1,
   "Name": "Act 5 - ThroneRoom",
   "Def": 1086,
   "LevelId": 131,
@@ -16477,10 +16476,10 @@
   "File1": "Expansion/baalLair/wthrone.ds1",
   "Dt1Mask": 44,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1087
  },
  "1087": {
-  "expansion": 1,
   "Name": "Act 5 - WorldStone",
   "Def": 1087,
   "LevelId": 132,
@@ -16492,10 +16491,10 @@
   "File1": "Expansion/baalLair/wstone01.ds1",
   "Dt1Mask": 60,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1088
  },
  "1088": {
-  "expansion": 1,
   "Name": "Act 5 - Temple Entrance",
   "Def": 1088,
   "LevelId": 121,
@@ -16509,10 +16508,10 @@
   "File1": "Expansion/wildtemple/tempEnter.ds1",
   "Dt1Mask": 3711029,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1089
  },
  "1089": {
-  "expansion": 1,
   "Name": "Act 5 - Baal Entrance",
   "Def": 1089,
   "LevelId": 120,
@@ -16524,10 +16523,10 @@
   "File1": "Expansion/mountaintop/MtnTop.ds1",
   "Dt1Mask": 29360148,
   "Expansion": 1,
+  "expansion": 1,
   "lineNumber": 1090
  },
  "1090": {
-  "expansion": 1,
   "Name": "Act 5 - Pandemonium Finale",
   "Def": 1090,
   "LevelId": 136,
@@ -16538,6 +16537,7 @@
   "Files": 1,
   "File1": "Act1/Tristram/Tri_Town4.ds1",
   "Dt1Mask": 63,
+  "expansion": 1,
   "lineNumber": 1091
  }
 }

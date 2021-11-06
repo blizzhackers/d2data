@@ -346,7 +346,6 @@
   "box16bottom": 375
  },
  "8": {
-  "expansion": 1,
   "name": "belt2",
   "numboxes": 12,
   "boxwidth": 29,
@@ -398,10 +397,10 @@
   "box12left": 516,
   "box12right": 545,
   "box12top": 498,
-  "box12bottom": 527
+  "box12bottom": 527,
+  "expansion": 1
  },
  "9": {
-  "expansion": 1,
   "name": "sash2",
   "numboxes": 8,
   "boxwidth": 29,
@@ -437,10 +436,10 @@
   "box8left": 516,
   "box8right": 545,
   "box8top": 530,
-  "box8bottom": 559
+  "box8bottom": 559,
+  "expansion": 1
  },
  "10": {
-  "expansion": 1,
   "name": "default2",
   "numboxes": 4,
   "boxwidth": 29,
@@ -460,10 +459,10 @@
   "box4left": 516,
   "box4right": 545,
   "box4top": 562,
-  "box4bottom": 591
+  "box4bottom": 591,
+  "expansion": 1
  },
  "11": {
-  "expansion": 1,
   "name": "girdle2",
   "numboxes": 16,
   "boxwidth": 29,
@@ -531,10 +530,10 @@
   "box16left": 516,
   "box16right": 545,
   "box16top": 466,
-  "box16bottom": 495
+  "box16bottom": 495,
+  "expansion": 1
  },
  "12": {
-  "expansion": 1,
   "name": "light belt2",
   "numboxes": 8,
   "boxwidth": 29,
@@ -570,10 +569,10 @@
   "box8left": 516,
   "box8right": 545,
   "box8top": 530,
-  "box8bottom": 559
+  "box8bottom": 559,
+  "expansion": 1
  },
  "13": {
-  "expansion": 1,
   "name": "heavy belt2",
   "numboxes": 12,
   "boxwidth": 29,
@@ -625,10 +624,10 @@
   "box12left": 516,
   "box12right": 545,
   "box12top": 498,
-  "box12bottom": 527
+  "box12bottom": 527,
+  "expansion": 1
  },
  "14": {
-  "expansion": 1,
   "name": "uber belt",
   "numboxes": 16,
   "boxwidth": 29,
@@ -696,6 +695,7 @@
   "box16left": 516,
   "box16right": 545,
   "box16top": 466,
-  "box16bottom": 495
+  "box16bottom": 495,
+  "expansion": 1
  }
 }
