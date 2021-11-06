@@ -460,10 +460,14 @@ function forEachPick(tc, func) {
 			if ((!level.expansion || expansion) && (id < 133 || diff === 2)) {
 				[0, 1, 2].forEach(type => {
 					forEachMonster(level, diff, type, (mon, monCount, monType) => {
-						if (mon[s(tcKey[type])]) {
+						if (mon[s(tcKey[monType])]) {
 							let lvlOffset = [0, 2, 3][monType],
 								ilvl = (diff ? level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] : mon[s('Level')]) + lvlOffset,
-								tcName = diff ? adjustTc(mon[s(tcKey[type])], ilvl) : mon[s(tcKey[type])];
+								tcName = diff ? adjustTc(mon[s(tcKey[monType])], ilvl) : mon[s(tcKey[monType])];
+
+							if (full.TreasureClassEx[tcName] && (full.TreasureClassEx[tcName].Unique || full.TreasureClassEx[tcName].Set || full.TreasureClassEx[tcName].Rare || full.TreasureClassEx[tcName].Magic)) {
+								throw "MF modifiers not implemented!";
+							}
 
 							forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
 								getTcItems(pickName, expansion).forEach((chance, itc) => {
