@@ -328,36 +328,32 @@ groupsClassic = groupsClassic.map(group => {
 	return group;
 });
 
-function _getTcItems(treasureClasses, expansion) {
-	function get(name, mult = 1, ret = {}) {
-		if (!treasureClasses[name]) {
-			getItemList(name, expansion, mult).forEach((chance, itc) => {
-				ret[itc] = ret[itc] || 0;
-				ret[itc] += chance * mult;
-			});
-
-			return ret;
-		}
-
-		let total = 0, tc = treasureClasses[name];
-
-		for (let c = 1; c <= 9; c++) {
-			total += tc['Prob' + c] | 0;
-		}
-
-		total += noDrop(1, tc.NoDrop | 0, total);
-
-		for (let c = 1; c <= 9; c++) {
-			if (tc['Item' + c]) {
-				get(tc['Item' + c], mult * tc['Prob' + c] / total, ret);
-			}
-		}
+function getTcItems(name, expansion, mult = 1, ret = {}) {
+	if (!full.TreasureClassEx[name]) {
+		getItemList(name, expansion, mult).forEach((chance, itc) => {
+			ret[itc] = ret[itc] || 0;
+			ret[itc] += chance * mult;
+		});
 
 		return ret;
 	}
 
-	return get;
-};
+	let total = 0, tc = full.TreasureClassEx[name];
+
+	for (let c = 1; c <= 9; c++) {
+		total += tc['Prob' + c] | 0;
+	}
+
+	total += noDrop(1, tc.NoDrop | 0, total);
+
+	for (let c = 1; c <= 9; c++) {
+		if (tc['Item' + c]) {
+			getTcItems(tc['Item' + c], expansion, mult * tc['Prob' + c] / total, ret);
+		}
+	}
+
+	return ret;
+}
 
 function _adjustTc (tcs, groups) {
 	return function (name, lvl) {
@@ -377,6 +373,7 @@ function _adjustTc (tcs, groups) {
 	}
 }
 
+let adjustTc = _adjustTc(full.TreasureClassEx, groupsEx);
 let _s = diff => str => str + ['', '(N)', '(H)'][diff];
 
 function forEachMonster(level, diff, type, func) {
@@ -454,9 +451,6 @@ function forEachPick(tc, func) {
 	[true, './json/levelCalcTcEx.json'],
 	[false, './json/levelCalcTc.json'],
 ].forEach(([expansion, filename]) => {
-	let getTcItems = _getTcItems(full.TreasureClassEx, expansion);
-	let adjustTc = _adjustTc(full.TreasureClassEx, groupsEx);
-
 	let levelCalcTc = [0, 1, 2].map(diff => {
 		let s = _s(diff);
 	
@@ -472,7 +466,7 @@ function forEachPick(tc, func) {
 								tcName = diff ? adjustTc(mon[s(tcKey[type])], ilvl) : mon[s(tcKey[type])];
 
 							forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
-								getTcItems(pickName).forEach((chance, itc) => {
+								getTcItems(pickName, expansion).forEach((chance, itc) => {
 									drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
 									drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
 									if (!drops[itc + '@' + ilvl]) {
