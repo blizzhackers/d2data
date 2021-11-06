@@ -261,10 +261,20 @@ function noDrop(e, nd, ...d) {
 	return Math.round(nr / (1 - nr) * d);
 }
 
-function getItemList(name, mult = 1) {
+function getItemList(name, expansion, mult = 1) {
 	name = name.toString();
 
-	let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => items[v] && v !== 'gld'),
+	let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => {
+		if (!items[v] || v === 'gld') {
+			return false;
+		}
+
+		if (!expansion && (items[v].expansion || full.ItemTypes[items[v].type].expansion)) {
+			return false;
+		}
+
+		return true;
+	}),
 		total = itemlist.reduce((total, code) => {
 			return total + (items[code].type && full.ItemTypes[items[code].type] && full.ItemTypes[items[code].type].Rarity ? full.ItemTypes[items[code].type].Rarity : 1);
 		}, 0),
@@ -307,10 +317,10 @@ groupsClassic = groupsClassic.map(group => {
 	return group;
 });
 
-function _getTcItems(treasureClasses) {
+function _getTcItems(treasureClasses, expansion) {
 	function get(name, mult = 1, ret = {}) {
 		if (!treasureClasses[name]) {
-			getItemList(name, mult).forEach((chance, itc) => {
+			getItemList(name, expansion, mult).forEach((chance, itc) => {
 				ret[itc] = ret[itc] || 0;
 				ret[itc] += chance * mult;
 			});
@@ -344,7 +354,7 @@ function _adjustTc (tcs, groups) {
 		lvl = lvl | 0;
 
 		if (difficulty) {
-			if (/* lvl > mlvl && */ tcs[name].group) {
+			if (tcs[name].group) {
 				let grp = groups[tcs[name].group] || [];
 	
 				for (let c = lvl; c >= 0; c--) {
@@ -435,11 +445,11 @@ function forEachPick(tc, func) {
 }
 
 [
-	[true, full.TreasureClassEx, groupsEx, './json/levelCalcTcEx.json'],
-	[false, full.TreasureClass, groupsClassic, './json/levelCalcTc.json'],
-].forEach(([expansion, treasureClass, grp, filename]) => {
-	let getTcItems = _getTcItems(treasureClass);
-	let adjustTc = _adjustTc(treasureClass, grp);
+	[true, './json/levelCalcTcEx.json'],
+	[false, './json/levelCalcTc.json'],
+].forEach(([expansion, filename]) => {
+	let getTcItems = _getTcItems(full.TreasureClassEx, expansion);
+	let adjustTc = _adjustTc(full.TreasureClassEx, groupsEx);
 
 	let levelCalcTc = [0, 1, 2].map(diff => {
 		let s = _s(diff);
@@ -454,7 +464,7 @@ function forEachPick(tc, func) {
 							let lvlOffset = [0, 2, 3][monType];
 							let {tcName, ilvl} = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] + lvlOffset, diff);
 
-							forEachPick(treasureClass[tcName], (picks, pickName) => {
+							forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
 								getTcItems(pickName).forEach((chance, itc) => {
 									drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
 									drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
