@@ -360,20 +360,20 @@ function _getTcItems(treasureClasses, expansion) {
 };
 
 function _adjustTc (tcs, groups) {
-	return function (name, mlvl, lvl, difficulty) {
-		lvl = difficulty ? lvl : mlvl, origTcLevel = tcs[name].level || 0;
+	return function (name, lvl) {
+		let origTcLevel = tcs[name].level || 0;
 
-		if (difficulty && tcs[name].group) {
+		if (tcs[name].group) {
 			let grp = groups[tcs[name].group] || [];
 
 			for (let c = lvl; c >= origTcLevel; c--) {
 				if (grp[c]) {
-					return { tcName: grp[c], ilvl: lvl };
+					return grp[c];
 				}
 			}
 		}
 
-		return { tcName: name, ilvl: lvl };
+		return name;
 	}
 }
 
@@ -467,8 +467,9 @@ function forEachPick(tc, func) {
 				[0, 1, 2].forEach(type => {
 					forEachMonster(level, diff, type, (mon, monCount, monType) => {
 						if (mon[s(tcKey[type])]) {
-							let lvlOffset = [0, 2, 3][monType];
-							let {tcName, ilvl} = adjustTc(mon[s(tcKey[type])], mon[s('Level')] + lvlOffset, level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] + lvlOffset, diff);
+							let lvlOffset = [0, 2, 3][monType],
+								ilvl = (diff ? level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] : mon[s('Level')]) + lvlOffset,
+								tcName = diff ? adjustTc(mon[s(tcKey[type])], ilvl) : mon[s(tcKey[type])];
 
 							forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
 								getTcItems(pickName).forEach((chance, itc) => {
