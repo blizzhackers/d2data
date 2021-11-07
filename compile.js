@@ -218,7 +218,7 @@ files.forEach(fn => {
 	}
 
 	if (fn === 'SuperUniques') {
-		full[fn][0].areaId = 2;
+		full[fn][0].areaId = 3;
 		full[fn][1].areaId = 18;
 		full[fn][2].areaId = 9;
 		full[fn][3].areaId = 4;
@@ -572,6 +572,62 @@ function forEachPick(tc, func) {
 	}).filter(v => Object.keys(v).length);
 	
 	fs.writeFileSync(filename, JSON.stringify(levelCalcTc, null, ' '));
+});
+
+[
+	[true, './json/superCalcTcEx.json'],
+	[false, './json/superCalcTc.json'],
+].forEach(([expansion, filename]) => {
+	let superCalcTc = [0, 1, 2].map(diff => {
+		let s = _s(diff), monsters = [], drops = {};
+
+		full.SuperUniques.filter(su => su.areaId && (expansion || !su.expansion)).forEach(superunique => {
+			if (superunique[s('TC')]) {
+				monsters.push([monstats[superunique.Class], superunique[s('TC')], superunique]);
+			}
+		});
+
+		full.monstats.filter(mon => mon.areaId).forEach(mon => {
+			if (mon[s('TreasureClass3')]) {
+				monsters.push([mon, mon[s('TreasureClass3')], null]);
+			}
+		});
+
+		monsters.filter(mon => expansion || !mon.expansion).forEach(([mon, tcName, superunique]) => {
+			let areaId = superunique && superunique.areaId || mon.areaId;
+			let level = full.Levels[areaId],
+				ilvl = (diff ? level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] : mon[s('Level')]) + 3;
+
+			if (diff) {
+				tcName = adjustTc(tcName, ilvl);
+			}
+
+			let entry = superunique ? superunique.Name : mon.Id;
+
+			drops[entry] = drops[entry] || {};
+			drops[entry].Unique = full.TreasureClassEx[tcName].Unique | 0;
+			drops[entry].Set = full.TreasureClassEx[tcName].Set | 0;
+			drops[entry].Rare = full.TreasureClassEx[tcName].Rare | 0;
+			drops[entry].Magic = full.TreasureClassEx[tcName].Magic | 0;
+			drops[entry].precalc = drops[entry].precalc || {};
+
+			forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
+				getTcItems(pickName).forEach((chance, itc) => {
+					if (!items[itc] || expansion || !items[itc].expansion) {
+						drops[entry].precalc[itc + '@' + ilvl] = drops[entry].precalc[itc + '@' + ilvl] || 0;
+						drops[entry].precalc[itc + '@' + ilvl] = 1 - ((1 - drops[entry].precalc[itc + '@' + ilvl]) * ((1 - chance)**picks));
+						if (!drops[entry].precalc[itc + '@' + ilvl]) {
+							delete drops[entry].precalc[itc + '@' + ilvl];
+						}
+					}
+				});
+			});
+		});
+
+		return keySort(drops);
+	});
+
+	fs.writeFileSync(filename, JSON.stringify(superCalcTc, null, ' '));
 });
 
 delete full.Sounds;
