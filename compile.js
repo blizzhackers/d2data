@@ -192,6 +192,31 @@ files.forEach(fn => {
 		console.log(fn, 'was reduced!');
 	}
 
+	if (fn === 'TreasureClass' || fn === 'TreasureClassEx') {
+		full[fn].forEach(tc => {
+			let precalc = {}, total = tc['NoDrop'] | 0;
+
+			for (let c = 1; c <= 9; c++) {
+				total += tc['Prob' + c] | 0;
+			}
+
+			let otherChance = 1 - ((tc['NoDrop'] | 0) / total);
+
+			for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
+				for (let c = 1; c <= 9; c++) {
+					if (tc['Item' + c]) {
+						let prob = otherChance * (tc['Prob' + c] | 0) / total;
+						otherChance *= 1 - (tc['Prob' + c] | 0) / total;
+						precalc[tc['Item' + c]] = precalc[tc['Item' + c]] || 0;
+						precalc[tc['Item' + c]] += prob;	
+					}
+				}
+			}
+
+			tc.precalc = precalc;
+		});
+	}
+
 	fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
 });
 
@@ -247,6 +272,29 @@ for (let c = 3; c <= 87; c += 3) {
 	});
 }
 
+atomic.forEach((atom, atomName) => {
+	let precalc = {}, total = 0, otherChance = 1;
+
+	atom = atom.map(itc => {
+		let rarity = full.ItemTypes[items[itc].type].Rarity | 0;
+		total += rarity;
+		return rarity;
+	}).map(chance => chance / total);
+
+	for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
+		atom.forEach((chance, itc) => {
+			let prob = otherChance * chance;
+			otherChance *= 1 - chance;
+			precalc[itc] = precalc[itc] || 0;
+			precalc[itc] += prob;
+		});
+	}
+
+	precalc.forEach((chance, itc) => {
+		atomic[atomName][itc] = chance;
+	});
+});
+
 full.atomic = atomic;
 fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, ' '));
 
@@ -270,32 +318,6 @@ function noDrop(e, nd, ...d) {
 
 	let nr = (nd / (nd + d))**e;
 	return Math.round(nr / (1 - nr) * d);
-}
-
-function getItemList(name, expansion, mult = 1) {
-	name = name.toString();
-
-	let itemlist = (atomic[name] ? Object.keys(atomic[name]) : [name]).filter(v => {
-		if (!items[v] || v === 'gld' || !(items[v].spawnable || items[v].enabled)) {
-			return false;
-		}
-
-		if (!expansion && items[v].expansion) {
-			return false;
-		}
-
-		return true;
-	}),
-		total = itemlist.reduce((total, code) => {
-			return total + (items[code].type && full.ItemTypes[items[code].type] && full.ItemTypes[items[code].type].Rarity ? full.ItemTypes[items[code].type].Rarity : 1);
-		}, 0),
-		ret = {};
-	
-	for(let code of itemlist) {
-		ret[code] = mult * full.ItemTypes[items[code].type].Rarity / total;
-	}
-
-	return ret;
 }
 
 let groupsEx = {}, groupsClassic = {};
@@ -328,28 +350,16 @@ groupsClassic = groupsClassic.map(group => {
 	return group;
 });
 
-function getTcItems(name, expansion, mult = 1, ret = {}) {
-	if (!full.TreasureClassEx[name]) {
-		getItemList(name, expansion, mult).forEach((chance, itc) => {
-			ret[itc] = ret[itc] || 0;
-			ret[itc] += chance * mult;
+function getTcItems(name, mult = 1, ret = {}) {
+	let items = (full.TreasureClassEx[name] && full.TreasureClassEx[name].precalc) || atomic[name];
+
+	if (items) {
+		items.forEach((chance, name) => {
+			getTcItems(name, mult * chance, ret);
 		});
-
-		return ret;
-	}
-
-	let total = 0, tc = full.TreasureClassEx[name];
-
-	for (let c = 1; c <= 9; c++) {
-		total += tc['Prob' + c] | 0;
-	}
-
-	total += noDrop(1, tc.NoDrop | 0, total);
-
-	for (let c = 1; c <= 9; c++) {
-		if (tc['Item' + c]) {
-			getTcItems(tc['Item' + c], expansion, mult * tc['Prob' + c] / total, ret);
-		}
+	} else {
+		ret[name] = ret[name] || 0;
+		ret[name] += mult;
 	}
 
 	return ret;
@@ -470,11 +480,13 @@ function forEachPick(tc, func) {
 							}
 
 							forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
-								getTcItems(pickName, expansion).forEach((chance, itc) => {
-									drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
-									drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
-									if (!drops[itc + '@' + ilvl]) {
-										delete drops[itc + '@' + ilvl];
+								getTcItems(pickName).forEach((chance, itc) => {
+									if (!items[itc] || expansion || !items[itc].expansion) {
+										drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
+										drops[itc + '@' + ilvl] = 1 - ((1 - drops[itc + '@' + ilvl]) * ((1 - chance)**(monCount * picks)));
+										if (!drops[itc + '@' + ilvl]) {
+											delete drops[itc + '@' + ilvl];
+										}	
 									}
 								});
 							});	
