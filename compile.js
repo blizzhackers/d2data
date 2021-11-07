@@ -391,7 +391,7 @@ function forEachMonster(level, diff, type, func) {
 		Math.max(0, (level[s('SizeX')] || 0) * (level[s('SizeY')] || 0) * (level[s('MonDen')] || 0) / 80000 - (((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) / 2)),
 		((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) * 0.1,
 		((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) * 0.4,
-	][type];
+	][type] * 6400 / ((level[s('SizeY')] || 0) * (level[s('MonDen')] || 0));
 
 	for (let c = 1; c <= 9; c++) {
 		if (level[prefix + c] && monstats[level[prefix + c]].enabled && monstats[level[prefix + c]].killable) {
