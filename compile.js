@@ -543,7 +543,7 @@ function forEachPick(tc, func) {
 				[0, 1, 2].forEach(type => {
 					forEachMonster(level, diff, type, (mon, monCount, monType) => {
 						if (mon[s(tcKey[monType])]) {
-							let lvlOffset = [0, 2, 3][monType],
+							let lvlOffset = [0, 2, 3][type],
 								ilvl = (diff ? level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] : mon[s('Level')]) + lvlOffset,
 								tcName = diff ? adjustTc(mon[s(tcKey[monType])], ilvl) : mon[s(tcKey[monType])];
 
