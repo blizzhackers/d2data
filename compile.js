@@ -583,30 +583,23 @@ function forEachPick(tc, func) {
 
 		full.SuperUniques.filter(su => su.areaId && (expansion || !su.expansion)).forEach(superunique => {
 			if (superunique[s('TC')]) {
-				monsters.push([monstats[superunique.Class], superunique[s('TC')], superunique]);
+				monsters.push([monstats[superunique.Class], superunique[s('TC')], superunique.areaId, superunique.Name]);
 			}
 		});
 
 		full.monstats.filter(mon => mon.areaId).forEach(mon => {
 			if (mon[s('TreasureClass3')]) {
-				monsters.push([mon, mon[s('TreasureClass3')], null]);
+				monsters.push([mon, mon[s('TreasureClass3')], mon.areaId, mon.NameStr]);
 			}
 		});
 
-		monsters.filter(mondata => expansion || !mondata[0].expansion).forEach(([mon, tcName, superunique]) => {
-			let areaId = superunique && superunique.areaId || mon.areaId;
+		monsters.filter(mondata => expansion || !mondata[0].expansion).forEach(([mon, tcName, areaId, entry]) => {
 			let level = full.Levels[areaId],
 				ilvl = (diff ? level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] : mon[s('Level')]) + 3;
-
-			if (isNaN(ilvl)) {
-				debugger;
-			}
 
 			if (diff) {
 				tcName = adjustTc(tcName, ilvl);
 			}
-
-			let entry = superunique ? superunique.Name : mon.NameStr;
 
 			drops[entry] = drops[entry] || {};
 			drops[entry].Unique = full.TreasureClassEx[tcName].Unique | 0;
