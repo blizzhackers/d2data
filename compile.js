@@ -583,17 +583,28 @@ function forEachPick(tc, func) {
 
 		full.SuperUniques.filter(su => su.areaId && (expansion || !su.expansion)).forEach(superunique => {
 			if (superunique[s('TC')]) {
-				monsters.push([monstats[superunique.Class], superunique[s('TC')], superunique.areaId, superunique.Name]);
+				monsters.push([monstats[superunique.Class], superunique[s('TC')], superunique.areaId, superunique.Name, 1]);
+				let avg = ((superunique.MinGrp|0) + (superunique.MaxGrp|0)) / 2;
+
+				if (avg && monstats[superunique.Class][s('TreasureClass1')]) {
+					monsters.push([monstats[superunique.Class], monstats[superunique.Class][s('TreasureClass1')], superunique.areaId, superunique.Name, avg + diff]);
+				}
 			}
 		});
 
 		full.monstats.filter(mon => mon.areaId).forEach(mon => {
-			if (mon[s('TreasureClass3')]) {
-				monsters.push([mon, mon[s('TreasureClass3')], mon.areaId, mon.NameStr]);
+			if (mon.hcIdx === 156) {
+				if (mon[s('TreasureClass4')]) {
+					monsters.push([mon, mon[s('TreasureClass4')], mon.areaId, mon.NameStr + ' [bugged]', 1]);
+				}
+			} else {
+				if (mon[s('TreasureClass3')]) {
+					monsters.push([mon, mon[s('TreasureClass3')], mon.areaId, mon.NameStr, 1]);
+				}
 			}
 		});
 
-		monsters.filter(mondata => expansion || !mondata[0].expansion).forEach(([mon, tcName, areaId, entry]) => {
+		monsters.filter(mondata => expansion || !mondata[0].expansion).forEach(([mon, tcName, areaId, entry, count]) => {
 			let level = full.Levels[areaId],
 				ilvl = (diff ? level['MonLvl' + (diff + 1) + (expansion ? 'Ex' : '')] : mon[s('Level')]) + 3;
 
@@ -601,20 +612,21 @@ function forEachPick(tc, func) {
 				tcName = adjustTc(tcName, ilvl);
 			}
 
-			drops[entry] = drops[entry] || {};
-			drops[entry].Unique = full.TreasureClassEx[tcName].Unique | 0;
-			drops[entry].Set = full.TreasureClassEx[tcName].Set | 0;
-			drops[entry].Rare = full.TreasureClassEx[tcName].Rare | 0;
-			drops[entry].Magic = full.TreasureClassEx[tcName].Magic | 0;
-			drops[entry].precalc = drops[entry].precalc || {};
+			drops[areaId] = drops[areaId] || {};
+			drops[areaId][entry] = drops[areaId][entry] || {};
+			drops[areaId][entry].Unique = full.TreasureClassEx[tcName].Unique | 0;
+			drops[areaId][entry].Set = full.TreasureClassEx[tcName].Set | 0;
+			drops[areaId][entry].Rare = full.TreasureClassEx[tcName].Rare | 0;
+			drops[areaId][entry].Magic = full.TreasureClassEx[tcName].Magic | 0;
+			drops[areaId][entry].precalc = drops[areaId][entry].precalc || {};
 
 			forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
 				getTcItems(pickName).forEach((chance, itc) => {
 					if (!items[itc] || expansion || !items[itc].expansion) {
-						drops[entry].precalc[itc + '@' + ilvl] = drops[entry].precalc[itc + '@' + ilvl] || 0;
-						drops[entry].precalc[itc + '@' + ilvl] = 1 - ((1 - drops[entry].precalc[itc + '@' + ilvl]) * ((1 - chance)**picks));
-						if (!drops[entry].precalc[itc + '@' + ilvl]) {
-							delete drops[entry].precalc[itc + '@' + ilvl];
+						drops[areaId][entry].precalc[itc + '@' + ilvl] = drops[areaId][entry].precalc[itc + '@' + ilvl] || 0;
+						drops[areaId][entry].precalc[itc + '@' + ilvl] = 1 - ((1 - drops[areaId][entry].precalc[itc + '@' + ilvl]) * ((1 - chance)**(picks * count)));
+						if (!drops[areaId][entry].precalc[itc + '@' + ilvl]) {
+							delete drops[areaId][entry].precalc[itc + '@' + ilvl];
 						}
 					}
 				});
