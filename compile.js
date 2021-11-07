@@ -217,6 +217,78 @@ files.forEach(fn => {
 		});
 	}
 
+	if (fn === 'SuperUniques') {
+		full[fn][0].areaId = 2;
+		full[fn][1].areaId = 18;
+		full[fn][2].areaId = 9;
+		full[fn][3].areaId = 4;
+		full[fn][4].areaId = 5;
+		full[fn][5].areaId = 38;
+		full[fn][6].areaId = 25;
+		full[fn][7].areaId = 30;
+		full[fn][9].areaId = 33;
+		full[fn][10].areaId = 49;
+		full[fn][11].areaId = 60;
+		full[fn][12].areaId = 61;
+		full[fn][13].areaId = 43;
+		full[fn][14].areaId = 59;
+		full[fn][15].areaId = 64;
+		full[fn][16].areaId = 54;
+		full[fn][17].areaId = 44;
+		full[fn][18].areaId = 74;
+		full[fn][20].areaId = 28;
+		full[fn][21].areaId = 85;
+		full[fn][22].areaId = 91;
+		full[fn][23].areaId = 78;
+		full[fn][24].areaId = 94;
+		full[fn][25].areaId = 92;
+		full[fn][26].areaId = 83;
+		full[fn][27].areaId = 83;
+		full[fn][28].areaId = 102;
+		full[fn][29].areaId = 83;
+		full[fn][30].areaId = 102;
+		full[fn][31].areaId = 102;
+		full[fn][36].areaId = 108;
+		full[fn][37].areaId = 108;
+		full[fn][38].areaId = 108;
+		full[fn][39].areaId = 39;
+		full[fn][40].areaId = 8;
+		full[fn][41].areaId = 107;
+		full[fn][42].areaId = 110;
+		full[fn][43].areaId = 120;
+		full[fn][44].areaId = 120;
+		full[fn][45].areaId = 120;
+		full[fn][47].areaId = 115;
+		full[fn][48].areaId = 110;
+		full[fn][49].areaId = 111;
+		full[fn][50].areaId = 111;
+		full[fn][51].areaId = 112;
+		full[fn][52].areaId = 121;
+		full[fn][53].areaId = 119;
+		full[fn][56].areaId = 111;
+		full[fn][59].areaId = 114;
+		full[fn][60].areaId = 124;
+		full[fn][61].areaId = 131;
+		full[fn][62].areaId = 131;
+		full[fn][63].areaId = 131;
+		full[fn][64].areaId = 131;
+		full[fn][65].areaId = 131;
+	}
+
+	if (fn === 'monstats') {
+		full[fn][156].areaId = 37;
+		full[fn][211].areaId = 73;
+		full[fn][242].areaId = 102;
+		full[fn][243].areaId = 108;
+		full[fn][544].areaId = 132;
+		full[fn][704].areaId = 136;
+		full[fn][705].areaId = 136;
+		full[fn][706].areaId = 135;
+		full[fn][707].areaId = 133;
+		full[fn][708].areaId = 134;
+		full[fn][709].areaId = 136;
+	}
+
 	fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
 });
 
