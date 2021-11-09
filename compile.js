@@ -377,19 +377,15 @@ const tcKey = [
 ];
 
 function noDrop(e, nd, ...d) {
-	if (nd < 1) {
-		return 0;
-	}
+    e = e | 0;
+    nd = nd | 0;
+    d = d.reduce((t, v) => t + v | 0, 0);
 
-	e = 1 + Math.max(0, e);
-	d = d.reduce((t, v) => t + v, 0);
+    if (d < 1) {
+        return Infinity;
+    }
 
-	if (d < 1) {
-		return Infinity;
-	}
-
-	let nr = (nd / (nd + d))**e;
-	return Math.round(nr / (1 - nr) * d);
+    return (d / (((nd + d) / nd)**e - 1)) | 0;
 }
 
 let groupsEx = {}, groupsClassic = {};
