@@ -123,6 +123,18 @@ const filterValues = {
 	'null': true,
 };
 
+function noDrop(e, nd, ...d) {
+    e = e | 0;
+    nd = nd | 0;
+    d = d.reduce((t, v) => t + v | 0, 0);
+
+    if (d < 1) {
+        return Infinity;
+    }
+
+    return (d / (((nd + d) / nd)**e - 1)) | 0;
+}
+
 files.forEach(fn => {
 	let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd);
 	let header = data.shift().split(fieldEnd);
@@ -194,19 +206,23 @@ files.forEach(fn => {
 
 	if (fn === 'TreasureClass' || fn === 'TreasureClassEx') {
 		full[fn].forEach(tc => {
-			let precalc = {}, total = tc['NoDrop'] | 0;
+			let precalc = {}, total = 0;
 
 			for (let c = 1; c <= 9; c++) {
 				total += tc['Prob' + c] | 0;
 			}
 
-			let otherChance = 1 - ((tc['NoDrop'] | 0) / total);
+			let nodrop = noDrop(1, tc.NoDrop, total);
+
+			total += nodrop;
+
+			let otherChance = 1 - (nodrop / total);
 
 			for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
 				for (let c = 1; c <= 9; c++) {
 					if (tc['Item' + c]) {
 						let prob = otherChance * (tc['Prob' + c] | 0) / total;
-						otherChance *= 1 - (tc['Prob' + c] | 0) / total;
+						otherChance -= (tc['Prob' + c] | 0) / total;
 						precalc[tc['Item' + c]] = precalc[tc['Item' + c]] || 0;
 						precalc[tc['Item' + c]] += prob;	
 					}
@@ -376,18 +392,6 @@ const tcKey = [
 	'TreasureClass3',
 ];
 
-function noDrop(e, nd, ...d) {
-    e = e | 0;
-    nd = nd | 0;
-    d = d.reduce((t, v) => t + v | 0, 0);
-
-    if (d < 1) {
-        return Infinity;
-    }
-
-    return (d / (((nd + d) / nd)**e - 1)) | 0;
-}
-
 let groupsEx = {}, groupsClassic = {};
 
 full.TreasureClassEx.forEach((tc, key) => {
@@ -513,7 +517,7 @@ function forEachPick(tc, func) {
 				total += tc['Prob' + c] | 0;
 			}
 	
-			total += noDrop(1, tc.NoDrop | 0, total);
+			total += noDrop(1, tc.NoDrop, total);
 	
 			for (let c = 1; c <= 9; c++) {
 				picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
