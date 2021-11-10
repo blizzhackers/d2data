@@ -135,6 +135,19 @@ function noDrop(e, nd, ...d) {
     return (d / (((nd + d) / nd)**e - 1)) | 0;
 }
 
+let idiv = (a, b) => (a / b) | 0;
+
+function _dropChance(base, divisor, min, diminishFactor) {
+    return function (mf, ilvl, qlvl, factor) {
+        mf = diminishFactor ? idiv(mf * diminishFactor, mf + diminishFactor) : mf;
+        let chance = idiv(base - (ilvl-qlvl), divisor) * 128;
+        chance = idiv(chance * 100, 100 + mf);
+        chance = Math.max(min, chance);
+        chance = chance - chance * factor / 1024;
+        return Math.min(1, 128/chance);
+    };
+}
+
 files.forEach(fn => {
 	let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd);
 	let header = data.shift().split(fieldEnd);
