@@ -69,6 +69,13 @@ function keySort(obj) {
 	return ret;
 }
 
+function round(num, digits) {
+	digits = digits | 0;
+	return Math.round(num * (10**digits)) / (10**digits);
+}
+
+let _s = diff => str => str + ['', '(N)', '(H)'][diff];
+
 const indexes = {
 	armor: 'code',
 	ArmType: 'Token',
@@ -219,27 +226,34 @@ files.forEach(fn => {
 
 	if (fn === 'TreasureClass' || fn === 'TreasureClassEx') {
 		full[fn].forEach(tc => {
-			let precalc = {}, total = 0;
+			let precalc = {};
 
-			for (let c = 1; c <= 9; c++) {
-				total += tc['Prob' + c] | 0;
-			}
+			if (tc.Picks > 0) {
+				let total = 0;
 
-			let nodrop = noDrop(1, tc.NoDrop, total);
-
-			total += nodrop;
-
-			let otherChance = 1 - (nodrop / total);
-
-			for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
 				for (let c = 1; c <= 9; c++) {
-					if (tc['Item' + c]) {
-						let prob = otherChance * (tc['Prob' + c] | 0) / total;
-						otherChance -= (tc['Prob' + c] | 0) / total;
-						precalc[tc['Item' + c]] = precalc[tc['Item' + c]] || 0;
-						precalc[tc['Item' + c]] += prob;	
-					}
+					total += tc['Prob' + c] | 0;
 				}
+	
+				[1, 2, 3, 4, 5, 6, 7, 8].forEach(exp => {
+					let nodrop = noDrop(exp, tc.NoDrop, total);
+	
+					total += nodrop;
+		
+					let otherChance = 1 - (nodrop / total);
+		
+					for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
+						for (let c = 1; c <= 9; c++) {
+							if (tc['Item' + c]) {
+								let prob = otherChance * (tc['Prob' + c] | 0) / total;
+								otherChance -= (tc['Prob' + c] | 0) / total;
+								precalc[exp] = precalc[exp] || {};
+								precalc[exp][tc['Item' + c]] = precalc[exp][tc['Item' + c]] || 0;
+								precalc[exp][tc['Item' + c]] += prob;	
+							}
+						}
+					}	
+				});					
 			}
 
 			tc.precalc = precalc;
@@ -317,14 +331,55 @@ files.forEach(fn => {
 		full[fn][708].areaId = 134;
 		full[fn][709].areaId = 136;
 	}
-
-	fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
 });
 
 const monstats = {};
 
 full.monstats.forEach(mon => {
     monstats[mon.Id] = mon;
+});
+
+if (full.Levels) {
+	[0, 1, 2].forEach(diff => {
+		let s = _s(diff);
+
+		full.Levels.forEach(level => {
+			let estimatedPackCount = 0, levelSize = 0, prefix = diff ? 'nmon' : 'mon', count = 0, total = 0;
+
+			if (full.LvlMaze && full.LvlMaze[level.Id]) {
+				levelSize = Math.max(0, (full.LvlMaze[level.Id].SizeX | 0) * (full.LvlMaze[level.Id].SizeY | 0) * (full.LvlMaze[level.Id][s('Rooms')] || 1));
+			} else {
+				levelSize = Math.max(0, (level[s('SizeX')] || 0) * (level[s('SizeY')] || 0));
+			}
+
+			if (levelSize) {
+				level[s('estimatedLevelArea')] = levelSize;
+			}
+
+			estimatedPackCount = levelSize * (level[s('MonDen')] || 0) / 40000;
+
+			if (estimatedPackCount) {
+				level[s('estimatedPackCount')] = round(estimatedPackCount, 3);
+			}
+
+			for (let c = 1; c <= 9; c++) {
+				if (level[prefix + c]) {
+					let mon = monstats[level[prefix + c]];
+					count++;
+					total += (mon['MinGrp'] | 0) + (mon['MaxGrp'] | 0) + (mon['PartyMin'] | 0) + (mon['PartyMax'] | 0);
+				}
+			}
+
+			if (count && estimatedPackCount) {
+				total /= count * 2;
+				level[s('estimatedMonsterCount')] = round(estimatedPackCount * total, 3);
+			}
+		});	
+	});
+}
+
+files.forEach(fn => {
+	fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
 });
 
 const items = Object.assign(
@@ -469,7 +524,6 @@ function _adjustTc (tcs, groups) {
 }
 
 let adjustTc = _adjustTc(full.TreasureClassEx, groupsEx);
-let _s = diff => str => str + ['', '(N)', '(H)'][diff];
 
 function forEachMonster(level, diff, type, func) {
 	let s = _s(diff), prefix = diff ? 'nmon' : type ? 'umon' : 'mon', monsters = {}, minions = {}, total = 0, packCount = [
@@ -507,7 +561,7 @@ function forEachMonster(level, diff, type, func) {
 	minions.forEach((spawnCount, monId) => func(monstats[monId], packCount * spawnCount / total, 0));
 }
 
-function forEachPick(tc, func) {
+function forEachPick(tc, exp, func) {
 	let picklist = {};
 
 	if (tc) {
@@ -524,18 +578,12 @@ function forEachPick(tc, func) {
 				}
 			}
 		} else if (tc.Picks > 0) {
-			let mult = (1 + tc.Picks) / 2, total = 0;
-	
-			for (let c = 1; c <= 9; c++) {
-				total += tc['Prob' + c] | 0;
-			}
-	
-			total += noDrop(1, tc.NoDrop, total);
-	
-			for (let c = 1; c <= 9; c++) {
-				picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
-				picklist[tc['Item' + c]] += tc['Prob' + c] * mult / total;
-			}
+			let mult = (1 + tc.Picks) / 2;
+
+			tc.precalc[exp].forEach((chance, item) => {
+				picklist[item] = picklist[item] || 0;
+				picklist[item] += chance * mult;
+			});	
 		}
 	}
 
@@ -564,7 +612,7 @@ function forEachPick(tc, func) {
 								throw "MF modifiers not implemented!";
 							}
 
-							forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
+							forEachPick(full.TreasureClassEx[tcName], 1, (picks, pickName) => {
 								getTcItems(pickName).forEach((chance, itc) => {
 									if (!items[itc] || expansion || !items[itc].expansion) {
 										drops[itc + '@' + ilvl] = drops[itc + '@' + ilvl] || 0;
@@ -633,7 +681,7 @@ function forEachPick(tc, func) {
 			drops[areaId][entry].Magic = full.TreasureClassEx[tcName].Magic | 0;
 			drops[areaId][entry].precalc = drops[areaId][entry].precalc || {};
 
-			forEachPick(full.TreasureClassEx[tcName], (picks, pickName) => {
+			forEachPick(full.TreasureClassEx[tcName], 1, (picks, pickName) => {
 				getTcItems(pickName).forEach((chance, itc) => {
 					if (!items[itc] || expansion || !items[itc].expansion) {
 						drops[areaId][entry].precalc[itc + '@' + ilvl] = drops[areaId][entry].precalc[itc + '@' + ilvl] || 0;
