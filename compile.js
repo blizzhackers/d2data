@@ -1,8 +1,8 @@
 /**
  * Compile script for the json data. Basically, put all your txt files into
  * the txt/ directory, and this will compile it all into json. It assumes that
- * you've provided at least 'armor.txt', 'weapons.txt', 'TreasureClass.txt',
- * 'TreasureClassEx.txt', 'ItemTypes.txt', and 'monstats.txt'.
+ * you've provided at least 'armor.txt', 'weapons.txt', 'TreasureClassEx.txt',
+ * 'ItemTypes.txt', and 'monstats.txt'.
  *
  * @todo Refactor it, since I hacked it together fairly quickly.
  */
@@ -224,7 +224,7 @@ files.forEach(fn => {
 		console.log(fn, 'was reduced!');
 	}
 
-	if (fn === 'TreasureClass' || fn === 'TreasureClassEx') {
+	if (fn === 'TreasureClassEx') {
 		full[fn].forEach(tc => {
 			let precalc = {};
 
@@ -460,7 +460,7 @@ const tcKey = [
 	'TreasureClass3',
 ];
 
-let groupsEx = {}, groupsClassic = {};
+let groupsEx = {};
 
 full.TreasureClassEx.forEach((tc, key) => {
 	if (tc.group) {
@@ -469,21 +469,7 @@ full.TreasureClassEx.forEach((tc, key) => {
 	}
 });
 
-full.TreasureClass.forEach((tc, key) => {
-	if (tc.group) {
-		groupsClassic[tc.group] = groupsClassic[tc.group] || [];
-		groupsClassic[tc.group][tc.level|0] = key;
-	}
-});
-
 groupsEx = groupsEx.map(group => {
-	let length = group.length;
-	group = Object.assign({}, group);
-	group.length = length;
-	return group;
-});
-
-groupsClassic = groupsClassic.map(group => {
 	let length = group.length;
 	group = Object.assign({}, group);
 	group.length = length;
