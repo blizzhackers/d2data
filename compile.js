@@ -7,7 +7,7 @@
  * @todo Refactor it, since I hacked it together fairly quickly.
  */
 
- Object.defineProperty(Object.prototype, 'forEach', {
+Object.defineProperty(Object.prototype, 'forEach', {
     value: function (func) {
         Object.keys(this).forEach(key => {
             func(this[key], key, this);
@@ -74,7 +74,9 @@ function round(num, digits) {
 	return Math.round(num * (10**digits)) / (10**digits);
 }
 
-let _s = diff => str => str + ['', '(N)', '(H)'][diff];
+function _s (diff) {
+	return str => str + ['', '(N)', '(H)'][diff];
+}
 
 const indexes = {
 	armor: 'code',
@@ -142,7 +144,9 @@ function noDrop(e, nd, ...d) {
     return (d / (((nd + d) / nd)**e - 1)) | 0;
 }
 
-let idiv = (a, b) => (a / b) | 0;
+function idiv (a, b) {
+	return (a / b) | 0;
+}
 
 function _dropChance(base, divisor, min, diminishFactor) {
     return function (mf, ilvl, qlvl, factor) {
@@ -338,45 +342,6 @@ const monstats = {};
 full.monstats.forEach(mon => {
     monstats[mon.Id] = mon;
 });
-
-if (full.Levels) {
-	[0, 1, 2].forEach(diff => {
-		let s = _s(diff);
-
-		full.Levels.forEach(level => {
-			let estimatedPackCount = 0, levelSize = 0, prefix = diff ? 'nmon' : 'mon', count = 0, total = 0;
-
-			if (full.LvlMaze && full.LvlMaze[level.Id]) {
-				levelSize = Math.max(0, (full.LvlMaze[level.Id].SizeX | 0) * (full.LvlMaze[level.Id].SizeY | 0) * (full.LvlMaze[level.Id][s('Rooms')] || 1));
-			} else {
-				levelSize = Math.max(0, (level[s('SizeX')] || 0) * (level[s('SizeY')] || 0));
-			}
-
-			if (levelSize) {
-				level[s('estimatedLevelArea')] = levelSize;
-			}
-
-			estimatedPackCount = levelSize * (level[s('MonDen')] || 0) / 40000;
-
-			if (estimatedPackCount) {
-				level[s('estimatedPackCount')] = round(estimatedPackCount, 3);
-			}
-
-			for (let c = 1; c <= 9; c++) {
-				if (level[prefix + c]) {
-					let mon = monstats[level[prefix + c]];
-					count++;
-					total += (mon['MinGrp'] | 0) + (mon['MaxGrp'] | 0) + (mon['PartyMin'] | 0) + (mon['PartyMax'] | 0);
-				}
-			}
-
-			if (count && estimatedPackCount) {
-				total /= count * 2;
-				level[s('estimatedMonsterCount')] = round(estimatedPackCount * total, 3);
-			}
-		});	
-	});
-}
 
 files.forEach(fn => {
 	fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
