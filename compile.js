@@ -441,6 +441,8 @@ groupsEx = groupsEx.map(group => {
 	return group;
 });
 
+fs.writeFileSync(outDir + 'TreasureClassGroupsEx.json', JSON.stringify(groupsEx, null, ' '));
+
 function getTcItems(name, mult = 1, ret = {}) {
 	let items = (full.TreasureClassEx[name] && full.TreasureClassEx[name].precalc) || atomic[name];
 
@@ -455,26 +457,6 @@ function getTcItems(name, mult = 1, ret = {}) {
 
 	return ret;
 }
-
-function _adjustTc (tcs, groups) {
-	return function (name, lvl) {
-		let origTcLevel = tcs[name].level || 0;
-
-		if (tcs[name].group) {
-			let grp = groups[tcs[name].group] || [];
-
-			for (let c = lvl; c >= origTcLevel; c--) {
-				if (grp[c]) {
-					return grp[c];
-				}
-			}
-		}
-
-		return name;
-	}
-}
-
-let adjustTc = _adjustTc(full.TreasureClassEx, groupsEx);
 
 function forEachMonster(level, diff, type, func) {
 	let s = _s(diff), prefix = diff ? 'nmon' : type ? 'umon' : 'mon', monsters = {}, minions = {}, total = 0, packCount = [
