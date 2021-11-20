@@ -443,21 +443,6 @@ groupsEx = groupsEx.map(group => {
 
 fs.writeFileSync(outDir + 'TreasureClassGroupsEx.json', JSON.stringify(groupsEx, null, ' '));
 
-function getTcItems(name, mult = 1, ret = {}) {
-	let items = (full.TreasureClassEx[name] && full.TreasureClassEx[name].precalc) || atomic[name];
-
-	if (items) {
-		items.forEach((chance, name) => {
-			getTcItems(name, mult * chance, ret);
-		});
-	} else {
-		ret[name] = ret[name] || 0;
-		ret[name] += mult;
-	}
-
-	return ret;
-}
-
 function forEachMonster(level, diff, type, func) {
 	let s = _s(diff), prefix = diff ? 'nmon' : type ? 'umon' : 'mon', monsters = {}, minions = {}, total = 0, packCount = [
 		Math.max(0, (level[s('SizeX')] || 0) * (level[s('SizeY')] || 0) * (level[s('MonDen')] || 0) / 80000 - (((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) / 2)),
