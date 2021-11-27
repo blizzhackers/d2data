@@ -144,21 +144,6 @@ function noDrop(e, nd, ...d) {
     return (d / (((nd + d) / nd)**e - 1)) | 0;
 }
 
-function idiv (a, b) {
-	return (a / b) | 0;
-}
-
-function _dropChance(base, divisor, min, diminishFactor) {
-    return function (mf, ilvl, qlvl, factor) {
-        mf = diminishFactor ? idiv(mf * diminishFactor, mf + diminishFactor) : mf;
-        let chance = idiv(base - (ilvl-qlvl), divisor) * 128;
-        chance = idiv(chance * 100, 100 + mf);
-        chance = Math.max(min, chance);
-        chance = chance - chance * factor / 1024;
-        return Math.min(1, 128/chance);
-    };
-}
-
 files.forEach(fn => {
 	let data = fs.readFileSync(inDir + fn + '.txt').toString().split(lineEnd);
 	let header = data.shift().split(fieldEnd);
@@ -249,11 +234,11 @@ files.forEach(fn => {
 					for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
 						for (let c = 1; c <= 9; c++) {
 							if (tc['Item' + c]) {
-								let prob = otherChance * (tc['Prob' + c] | 0) / total;
-								otherChance -= (tc['Prob' + c] | 0) / total;
+								let prob = otherChance * (tc['Prob' + c] | 0) / total; 
+								otherChance = Math.max(0, otherChance - (tc['Prob' + c] | 0) / total);
 								precalc[exp] = precalc[exp] || {};
 								precalc[exp][tc['Item' + c]] = precalc[exp][tc['Item' + c]] || 0;
-								precalc[exp][tc['Item' + c]] += prob;	
+								precalc[exp][tc['Item' + c]] += prob;
 							}
 						}
 					}	
@@ -335,12 +320,6 @@ files.forEach(fn => {
 		full[fn][708].areaId = 134;
 		full[fn][709].areaId = 136;
 	}
-});
-
-const monstats = {};
-
-full.monstats.forEach(mon => {
-    monstats[mon.Id] = mon;
 });
 
 files.forEach(fn => {
@@ -442,71 +421,6 @@ groupsEx = groupsEx.map(group => {
 });
 
 fs.writeFileSync(outDir + 'TreasureClassGroupsEx.json', JSON.stringify(groupsEx, null, ' '));
-
-function forEachMonster(level, diff, type, func) {
-	let s = _s(diff), prefix = diff ? 'nmon' : type ? 'umon' : 'mon', monsters = {}, minions = {}, total = 0, packCount = [
-		Math.max(0, (level[s('SizeX')] || 0) * (level[s('SizeY')] || 0) * (level[s('MonDen')] || 0) / 80000 - (((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) / 2)),
-		((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) * 0.1,
-		((level[s('MonUMin')] || 0) + (level[s('MonUMax')] || 0)) * 0.4,
-	][type] * 6400 / ((level[s('SizeY')] || 0) * (level[s('MonDen')] || 0));
-
-	for (let c = 1; c <= 9; c++) {
-		if (level[prefix + c] && monstats[level[prefix + c]].enabled && monstats[level[prefix + c]].killable) {
-			let mon = monstats[level[prefix + c]], spawnCount = [
-				(mon.MinGrp + mon.MaxGrp) / 2,
-				3,
-				1,
-			][type];
-
-			monsters[mon.Id] = monsters[mon.Id] || 0;
-			monsters[mon.Id] += spawnCount;
-			total += spawnCount;
-
-			if (type != 1 && (mon.minion1 || mon.minion2)) {
-				[
-					monstats[mon.minion1 || mon.minion2],
-					monstats[mon.minion2 || mon.minion1],
-				].forEach(minion => {
-					minions[minion.Id] = minions[minion.Id] || 0;
-					minions[minion.Id] += type ? 4.5 : ((minion.PartyMin || 0) + (minion.PartyMax || 0)) / 4;
-					total += type ? 4.5 : ((minion.PartyMin || 0) + (minion.PartyMax || 0)) / 4;
-				});	
-			}
-		}
-	}
-
-	monsters.forEach((spawnCount, monId) => func(monstats[monId], packCount * spawnCount / total, type));
-	minions.forEach((spawnCount, monId) => func(monstats[monId], packCount * spawnCount / total, 0));
-}
-
-function forEachPick(tc, exp, func) {
-	let picklist = {};
-
-	if (tc) {
-		if (tc.Picks < 0) {
-			let picks = -tc.Picks;
-	
-			for (let c = 1; picks > 0 && c <= 9; c++) {
-				if (tc['Item' + c]) {
-					for (let d = 1; picks > 0 && d <= tc['Prob' + c]; d++) {
-						picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
-						picklist[tc['Item' + c]] += 1;
-						picks--;
-					}	
-				}
-			}
-		} else if (tc.Picks > 0) {
-			let mult = (1 + tc.Picks) / 2;
-
-			tc.precalc[exp].forEach((chance, item) => {
-				picklist[item] = picklist[item] || 0;
-				picklist[item] += chance * mult;
-			});	
-		}
-	}
-
-	picklist.forEach(func);
-}
 
 delete full.Sounds;
 delete full.Missiles;
