@@ -217,6 +217,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 						for (let level of Object.values(this.json.levels)) {
 							let lchance = 0;
 
+							if (diff < 2 && level.Id > 132) {
+								continue;
+							}
+
 							level.calc.monsters[diff].forEach(({mon, mlvl, type, superMon, packCount}) => {
 								if (mlvl < this.params.minilvl || mlvl > this.params.maxilvl) {
 									return;
