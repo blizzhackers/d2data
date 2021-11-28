@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="bg-dark">
+	<head>
+		<title>Diablo 2 (1.14d and D2R) Drop Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	</head>
+	<body class="container p-0 bg-dark">
+		<div class="card my-sm-5">
+			<div id="dropsapp" class="tab-pane fade show active" role="tabpanel" aria-labelledby="drops-tab">
+				<h1 class="card-header bg-primary text-light text-center">{{ pageTitle }}</h1>
+				<div class="card-body">
+					<p v-if="!visible" class="text-center">Loading...</p>
+					<template v-else>
+						<div class="row form-group text-center">
+							<div class="col-12 col-lg">
+								<label>Magic Find: {{ params.mf }}%</label>
+								<input type="range" class="form-control form-control-sm" min="0" max="1167" v-model.number="params.mf">
+							</div>
+							<div class="col-12 col-lg">
+								<label>Players in Game: {{ params.players }}</label>
+								<input type="range" class="form-control form-control-sm" min="1" max="8" v-model.number="params.players">
+							</div>
+							<div class="col-12 col-lg">
+								<label>Players in Group: {{ params.group }}</label>
+								<input type="range" class="form-control form-control-sm" min="1" :max="params.players" v-model.number="params.group">
+							</div>
+						</div>
+						<div class="row form-group text-center">
+							<div class="col-12 col-lg">
+								<label>Minimum ilvl: {{ params.minilvl }}</label>
+								<input type="range" class="form-control form-control-sm" min="0" :max="110" v-model.number="params.minilvl">
+							</div>
+							<div class="col-12 col-lg">
+								<label>Max ilvl: {{ params.maxilvl }}</label>
+								<input type="range" class="form-control form-control-sm" :min="params.minilvl" max="110" v-model.number="params.maxilvl">
+							</div>
+							<div class="col-12 col-lg-auto d-flex align-items-center">
+								<button class="btn btn-primary" @click="doCalc">Do It!</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 col-lg-4">
+								<div class="form-group">
+									<label>Items to include:</label>
+									<input type="search" class="form-control" placeholder="Search for an item or item code..." v-model:value="itemSearch">
+								</div>
+								<template v-for="(item, index) in items">
+									<div v-if="item.use || matches(itemSearch, item.searchable)" class="form-check" :title="item.tooltip">
+										<input type="checkbox" class="form-check-input" v-model:value="item.use">
+										<label class="form-check-label">{{ item.name }}</label>
+									</div>	
+								</template>
+							</div>
+							<div class="col-12 col-lg-4">
+								<div v-if="!calculating" class="table-responsive">
+									<table v-if="visible" class="table table-sm m-0 text-right">
+										<thead class="table-primary">
+											<tr>
+												<th class="text-left">Area</th>
+												<th class="text-center" title="Chance">Ratio</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr v-for="result in areaResults" :title="result.chance * 100 + '% Chance'">
+												<td class="text-left">{{ result.name }}</td>
+												<td class="text-center">1:{{ makeRatio(result.chance) }}</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<h4 class="text-center" v-else>Calculating: {{ (progress * 100).toFixed(0) }}%</h4>
+							</div>
+							<div class="col-12 col-lg-4">
+								<div v-if="!calculating" class="table-responsive">
+									<table v-if="visible" class="table table-sm m-0 text-right">
+										<thead class="table-primary">
+											<tr>
+												<th class="text-left">Pack</th>
+												<th class="text-center" title="Chance">Ratio</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr v-for="result in packResults" :title="result.tooltip">
+												<td class="text-left font-weight-bold" :style="{color: result.color}">{{ result.name }}</td>
+												<td class="text-center">1:{{ makeRatio(result.chance) }}</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>				
+							</div>
+						</div>
+					</template>
+				</div>
+			</div>
+			<div class="card-footer text-center"><em>Powered by <a href="https://vuejs.org">Vue.js</a> and <a href="https://getbootstrap.com">Bootstrap 4</a></em></div>
+		</div>
+	</body>
+	<script src="vue-setup.js"></script>
+	<script src="drops.js"></script>
+</html>
