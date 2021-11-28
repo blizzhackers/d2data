@@ -51,7 +51,7 @@
 								</div>
 								<template v-for="(item, index) in items">
 									<div v-if="item.use || matches(itemSearch, item.searchable)" class="form-check" :title="item.tooltip">
-										<input type="checkbox" class="form-check-input" v-model:value="item.use">
+										<input type="checkbox" class="form-check-input" @change="updateHash" v-model:value="item.use">
 										<label class="form-check-label">{{ item.name }}</label>
 									</div>	
 								</template>

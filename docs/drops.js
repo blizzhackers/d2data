@@ -119,6 +119,8 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					if (this.params.minilvl > this.params.maxilvl) {
 						this.params.maxilvl = this.params.minilvl;
 					}
+
+					this.updateHash();
 				},
 			},
 		},
@@ -128,6 +130,11 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			},
 		},
 		methods: {
+			updateHash() {
+				let items = [];
+				this.items.forEach((item, index) => item.use && items.push(index));
+				window.location.hash = JSON.stringify(this.params) + '#' + JSON.stringify(items);
+			},
 			makeRatio(chance) {
 				let ratio = 1/chance;
 
@@ -361,7 +368,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										level,
 										tooltip: [
 											'Type: ' + ['Normal', 'Champion', 'Unique', 'Superunique', 'Boss'][type],
-											'Area: ' + this.json.strings[level.LevelName],
+											'Area: [' + level.LevelName + '] ' + this.json.strings[level.LevelName],
 											'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
 											chance * 100 + '% Chance',
 										].join('\n'),
@@ -376,6 +383,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									name: this.json.strings[level.LevelName] + [' [N]', ' [NM]', ' [H]'][diff],
 									chance: lchance,
 									tooltip: [
+										'Id: ' + level.LevelName,
 										'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
 										lchance * 100 + '% Chance',
 									].join('\n'),
@@ -705,7 +713,29 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				}
 			});
 
+			let parts = window.location.hash.slice(1).split('#').map(str => str.length ? JSON.parse(decodeURIComponent(str)) : null);
+
+			let calc = false;
+
+			if (parts[0]) {
+				parts[0].forEach((v, k) => {
+					this.params[k] = v;
+					calc = true;
+				});
+			}
+
+			if (parts[1]) {
+				parts[1].forEach(i => {
+					this.items[i].use = true;
+					calc = true;
+				});
+			}
+
 			this.visible = true;
+
+			if (calc) {
+				this.doCalc();
+			}
 		},
 	});
 })();
