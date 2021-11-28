@@ -133,7 +133,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			updateHash() {
 				let items = [];
 				this.items.forEach((item, index) => item.use && items.push(index));
-				window.location.hash = JSON.stringify(this.params) + '#' + JSON.stringify(items);
+				window.location.hash = encodeURIComponent(JSON.stringify(this.params)) + '#' + encodeURIComponent(JSON.stringify(items));
 			},
 			makeRatio(chance) {
 				let ratio = 1/chance;
