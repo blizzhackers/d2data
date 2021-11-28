@@ -69,15 +69,6 @@ function keySort(obj) {
 	return ret;
 }
 
-function round(num, digits) {
-	digits = digits | 0;
-	return Math.round(num * (10**digits)) / (10**digits);
-}
-
-function _s (diff) {
-	return str => str + ['', '(N)', '(H)'][diff];
-}
-
 const indexes = {
 	armor: 'code',
 	ArmType: 'Token',
