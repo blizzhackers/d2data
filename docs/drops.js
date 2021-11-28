@@ -358,6 +358,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										tooltip: [
 											'Type: ' + ['Normal', 'Champion', 'Unique', 'Superunique', 'Boss'][type],
 											'Area: ' + this.json.strings[level.LevelName],
+											'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
 											chance * 100 + '% Chance',
 										].join('\n'),
 									});
@@ -370,6 +371,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 								areaResults.push({
 									name: this.json.strings[level.LevelName] + [' [N]', ' [NM]', ' [H]'][diff],
 									chance: lchance,
+									tooltip: [
+										'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
+										lchance * 100 + '% Chance',
+									].join('\n'),
 								});	
 							}
 
