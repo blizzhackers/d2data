@@ -133,7 +133,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			updateHash() {
 				let items = [];
 				this.items.forEach((item, index) => item.use && items.push(index));
-				window.location.hash = encodeURIComponent(JSON.stringify(this.params)) + '#' + encodeURIComponent(JSON.stringify(items));
+				window.location.hash = btoa(JSON.stringify(this.params)) + '#' + btoa(JSON.stringify(items));
 			},
 			makeRatio(chance) {
 				let ratio = 1/chance;
@@ -722,7 +722,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				}
 			});
 
-			let parts = window.location.hash.slice(1).split('#').map(str => str.length ? JSON.parse(decodeURIComponent(str)) : null);
+			let parts = window.location.hash.slice(1).split('#').map(str => str.length ? JSON.parse(atob(str)) : null);
 
 			let calc = false;
 
