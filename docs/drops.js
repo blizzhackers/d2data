@@ -151,10 +151,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 		
 				return (ilvl, qlvl, factor) => {
 					let mf = diminishFactor ? idiv(this.params.mf * diminishFactor, this.params.mf + diminishFactor) : (this.params.mf | 0);
-					let chance = idiv(base - (ilvl - qlvl), divisor) * 128;
+					let chance = (base - idiv(ilvl - qlvl, divisor)) * 128;
 					chance = idiv(chance * 100, 100 + mf);
 					chance = Math.max(min, chance);
-					chance = chance - chance * factor / 1024;
+					chance = (chance - chance * factor / 1024) / 2;
 					return Math.min(1, 128 / chance);
 				};
 			},		
@@ -292,7 +292,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 													if (mlvl >= (item.unique.lvl || 0)) {
 														let ucount = Object.values(this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0))).length;
 														ichance += pickItems[item.code] *
-															item.func.unique(mlvl, tc.level || 0, tc.Unique || 0) / ucount;
+															item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0) / ucount;
 													}
 													break;
 	
@@ -300,53 +300,53 @@ Object.defineProperty(Object.prototype, 'toArray', {
 													if (mlvl >= (item.set.lvl || 0)) {
 														let scount = Object.values(this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0))).length;
 														ichance += pickItems[item.code] *
-															(1 - item.func.unique(mlvl, tc.level || 0, tc.Unique || 0)) *
-															item.func.set(mlvl, tc.level || 0, tc.Set || 0) / scount;
+															(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+															item.func.set(mlvl, item.item.level || 0, tc.Set || 0) / scount;
 													}
 													break;
 	
 												case 'rare':
 													ichance += pickItems[item.code] *
-														(1 - item.func.unique(mlvl, tc.level || 0, tc.Unique || 0)) *
-														(1 - item.func.set(mlvl, tc.level || 0, tc.Set || 0)) *
-														item.func.rare(mlvl, tc.level || 0, tc.Rare || 0);
+														(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+														(1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) *
+														item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0);
 													break;
 												case 'magic':
 													ichance += pickItems[item.code] *
-														(item.type.Rare ? 1 - item.func.unique(mlvl, tc.level || 0, tc.Unique || 0) : 1) *
-														(item.type.Rare ? 1 - item.func.set(mlvl, tc.level || 0, tc.Set || 0) : 1) *
-														(item.type.Rare ? 1 - item.func.rare(mlvl, tc.level || 0, tc.Rare || 0) : 1) *
-														item.func.magic(mlvl, tc.level || 0, tc.Magic || 0);
+														(item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
+														(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
+														(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
+														item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0);
 													break;
 												case 'hq':
 													ichance += pickItems[item.code] *
-														(item.type.Rare ? 1 - item.func.unique(mlvl, tc.level || 0, tc.Unique || 0) : 1) *
-														(item.type.Rare ? 1 - item.func.set(mlvl, tc.level || 0, tc.Set || 0) : 1) *
-														(item.type.Rare ? 1 - item.func.rare(mlvl, tc.level || 0, tc.Rare || 0) : 1) *
-														(1 - item.func.magic(mlvl, tc.level || 0, tc.Magic || 0)) *
-														item.func.hq(mlvl, tc.level || 0, 0);
+														(item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
+														(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
+														(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
+														(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
+														item.func.hq(mlvl, item.item.level || 0, 0);
 													break;
 												case 'normal':
 													if (item.type.Normal) {
 														ichance += pickItems[item.code];
 													} else {
 														ichance += pickItems[item.code] *
-														(item.type.Rare ? 1 - item.func.unique(mlvl, tc.level || 0, tc.Unique || 0) : 1) *
-														(item.type.Rare ? 1 - item.func.set(mlvl, tc.level || 0, tc.Set || 0) : 1) *
-														(item.type.Rare ? 1 - item.func.rare(mlvl, tc.level || 0, tc.Rare || 0) : 1) *
-														(1 - item.func.magic(mlvl, tc.level || 0, tc.Magic || 0)) *
-														(1 - item.func.hq(mlvl, tc.level || 0, 0)) *
-														item.func.normal(mlvl, tc.level || 0, 0);
+														(item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
+														(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
+														(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
+														(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
+														(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
+														item.func.normal(mlvl, item.item.level || 0, 0);
 													}
 													break;
 												default:
 													ichance += pickItems[item.code] *
-														(1 - item.func.unique(mlvl, tc.level || 0, tc.Unique || 0)) *
-														(1 - item.func.set(mlvl, tc.level || 0, tc.Set || 0)) *
-														(1 - item.func.rare(mlvl, tc.level || 0, tc.Rare || 0)) *
-														(1 - item.func.magic(mlvl, tc.level || 0, tc.Magic || 0)) *
-														(1 - item.func.hq(mlvl, tc.level || 0, 0)) *
-														(1 - item.func.normal(mlvl, tc.level || 0, 0));
+														(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+														(1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) *
+														(1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) *
+														(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
+														(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
+														(1 - item.func.normal(mlvl, item.item.level || 0, 0));
 													break;
 											}	
 										}
@@ -610,6 +610,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 						this.items.push({
 							quality: 'unique',
 							code: unique.code,
+							item,
 							type,
 							name: name + ' [Unique]',
 							searchable: [name, itemname, 'Unique', unique.code, ...this.getKeywords(type.Code)].join(' '),
@@ -632,6 +633,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 						this.items.push({
 							quality: 'set',
 							code: set.item,
+							item,
 							type,
 							name: name + ' [Set]',
 							searchable: [name, itemname, 'Set', set.item, ...this.getKeywords(type.Code)].join(' '),
@@ -651,6 +653,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.items.push({
 						quality: 'rare',
 						code: item.code,
+						item,
 						type,
 						name: itemname + ' [Rare]',
 						searchable: [itemname, 'Rare', item.code, ...this.getKeywords(type.Code)].join(' '),
@@ -664,6 +667,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.items.push({
 						quality: 'magic',
 						code: item.code,
+						item,
 						type,
 						name: itemname + ' [Magic]',
 						searchable: [itemname, 'Magic', item.code, ...this.getKeywords(type.Code)].join(' '),
@@ -677,6 +681,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.items.push({
 						quality: 'hq',
 						code: item.code,
+						item,
 						type,
 						name: itemname + ' [Superior]',
 						searchable: [itemname, 'Superior', item.code, ...this.getKeywords(type.Code)].join(' '),
@@ -690,6 +695,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.items.push({
 						quality: 'normal',
 						code: item.code,
+						item,
 						type,
 						name: itemname + ' [Normal]',
 						searchable: [itemname, 'Normal', item.code, ...this.getKeywords(type.Code)].join(' '),
@@ -703,6 +709,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.items.push({
 						quality: 'low',
 						code: item.code,
+						item,
 						type,
 						name: itemname + ' [Low Quality]',
 						searchable: [itemname, 'Low Quality', item.code, ...this.getKeywords(type.Code)].join(' '),
