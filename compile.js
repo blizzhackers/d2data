@@ -372,6 +372,11 @@ atomic.forEach((atom, atomName) => {
 		return rarity;
 	}).map(chance => chance / total);
 
+	atom.forEach((chance, itc) => {
+		precalc[itc] = chance;
+	});
+
+	/* rolling computation
 	for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
 		atom.forEach((chance, itc) => {
 			let prob = otherChance * chance;
@@ -380,6 +385,7 @@ atomic.forEach((atom, atomName) => {
 			precalc[itc] += prob;
 		});
 	}
+	*/
 
 	precalc.forEach((chance, itc) => {
 		atomic[atomName][itc] = chance;
