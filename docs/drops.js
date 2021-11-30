@@ -67,6 +67,26 @@ Object.defineProperty(Object.prototype, 'toArray', {
 		return new Promise(resolve => setTimeout(resolve, ms));
 	}
 
+	function dtoa (dv) {
+        let bytes = [];
+
+        for (let c = 0; c < dv.byteLength; c++) {
+            bytes[c] = String.fromCharCode(dv.getUint8(c));
+        }
+
+        return btoa(bytes.join(''));
+    }
+
+	function atod (str64) {
+		let bytes = atob(str64), dv = new DataView(new ArrayBuffer(bytes.length));
+
+		for (let c = 0; c < bytes.length; c++) {
+			dv.setUint8(c, bytes.charCodeAt(c));
+		}
+
+		return dv;
+	}
+
 	let baseurl = 'https://raw.githubusercontent.com/blizzhackers/d2data/master/json/'; // https://api.blizzhackers.dev/json/d2/
 
 	new Vue({
@@ -105,6 +125,13 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					minilvl: 0,
 					maxilvl: 110,	
 				},
+				parammap: [
+					{key: 'mf', type: 'Uint', size: 2},
+					{key: 'players', type: 'Uint', size: 1},
+					{key: 'group', type: 'Uint', size: 1},
+					{key: 'minilvl', type: 'Uint', size: 1},
+					{key: 'maxilvl', type: 'Uint', size: 1},
+				],
 				itemSearch: '',
 			};
 		},
@@ -133,7 +160,21 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			updateHash() {
 				let items = [];
 				this.items.forEach((item, index) => item.use && items.push(index));
-				window.location.hash = btoa(JSON.stringify(this.params)) + '#' + btoa(JSON.stringify(items));
+				let paramdv = new DataView(new ArrayBuffer(this.parammap.reduce((t, line) => t + line.size, 0))), itemsdv = new DataView(new ArrayBuffer(items.length * 2)), pos = 0;
+
+				this.parammap.forEach(line => {
+					paramdv['set' + line.type + (line.size * 8)](pos, this.params[line.key]);
+					pos += line.size;
+				});
+
+				pos = 0;
+
+				items.forEach(num => {
+					itemsdv.setUint16(pos, num);
+					pos += 2;
+				});
+
+				window.location.hash = dtoa(paramdv) + '#' + dtoa(itemsdv);
 			},
 			makeRatio(chance) {
 				let ratio = 1/chance;
@@ -722,22 +763,28 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				}
 			});
 
-			let parts = window.location.hash.slice(1).split('#').map(str => str.length ? JSON.parse(atob(str)) : null);
-
 			let calc = false;
 
+			let parts = window.location.hash.slice(1).split('#').map(str => str.length ? atod(str) : null), pos = 0;
+
 			if (parts[0]) {
-				parts[0].forEach((v, k) => {
-					this.params[k] = v;
-					calc = true;
+				this.parammap.forEach(line => {
+					this.params[line.key] = parts[0]['get' + line.type + (line.size * 8)](pos);
+					pos += line.size;
 				});
+
+				calc = true;
+				pos = 0;
 			}
 
 			if (parts[1]) {
-				parts[1].forEach(i => {
-					this.items[i].use = true;
-					calc = true;
-				});
+				for (let c = 0; c < parts[1].byteLength; c += 2) {
+					let index = parts[1].getUint16(c);
+					this.items[index].use = true;
+				}
+
+				calc = true;
+				pos = 0;
 			}
 
 			this.visible = true;
