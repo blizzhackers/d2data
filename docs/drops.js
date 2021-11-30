@@ -133,6 +133,11 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					{key: 'maxilvl', type: 'Uint', size: 1},
 				],
 				itemSearch: '',
+				cowsets: {
+					"Cow King's Hide": true,
+					"Cow King's Hoofs": true,
+					"Cow King's Horns": true,
+				},
 			};
 		},
 		watch: {
@@ -176,12 +181,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			},
 			makeRatio(chance) {
 				let ratio = 1/chance;
-
-				if (Math.round(ratio) === ratio) {
-					return ratio;
-				}
-
-				return '~' + Math.round(ratio);
+				return Math.round(ratio).toString();
 			},
 			dropChance(base, divisor, min, diminishFactor) {
 				base = base || 0;
@@ -241,7 +241,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				}
 			
 				return name;
-			},			
+			},
+			setValidHere(set, level) {
+				return level.Id === 39 || !this.cowsets[set.index];
+			},
 			async doCalc() {
 				let areaResults = [], packResults = [], selectedItems = this.items.filter(item => item.use);
 
@@ -274,7 +277,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 
 								let picks = [];
 
-								let addPicks = (m, count, mtype) => {
+								let addPicks = (m, count, mtype, isMinion) => {
 									let tc = superMon ? superMon[s('TC')] : m[m.Id === 'andariel' ? s('TreasureClass4') : s('TreasureClass' + (Math.min(3, mtype + 1)))];
 
 									if (tc) {				
@@ -283,6 +286,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										this.forEachPick(tc, (pickItems, mult) => {
 											picks.push({
 												monster: m,
+												isMinion,
 												tc,
 												pickItems,
 												mult: mult * count,
@@ -293,7 +297,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 
 								let packSize = superMon ? 1 : this.avg(mon['MinGrp'] || 0, mon['MaxGrp'] || 0);
 
-								addPicks(mon, packSize, type);
+								addPicks(mon, packSize, type, false);
 
 								let minionCount = superMon ? this.avg(superMon['MinGrp'] || 0, superMon['MaxGrp'] || 0) : this.avg(mon['PartyMin'] || 0, mon['PartyMax'] || 0);
 
@@ -312,24 +316,34 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									}
 
 									minions.forEach(minion => {
-										addPicks(minion, minionCount / minions.length, 0);
+										addPicks(minion, minionCount / minions.length, 0, true);
 									});	
 								}
 
-								let chance = 0;
+								let chance = 0, schance = 0;
 
 								picks.forEach(pickdata => {
 									let tc = pickdata.tc,
 										pickItems = pickdata.pickItems,
 										mult = pickdata.mult,
+										isMinion = pickdata.isMinion,
 										ichance = 0;
 
 									selectedItems.forEach(item => {
+										if (item.set && !this.setValidHere(item.set, level)) {
+											return;
+										}
+
 										if (pickItems[item.code]) {
 											switch (item.quality) {
 												case 'unique':
 													if (mlvl >= (item.unique.lvl || 0)) {
 														let ucount = Object.values(this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0))).length;
+
+														if (!ucount) {
+															return;
+														}
+
 														ichance += pickItems[item.code] *
 															item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0) / ucount;
 													}
@@ -337,10 +351,15 @@ Object.defineProperty(Object.prototype, 'toArray', {
 	
 												case 'set':
 													if (mlvl >= (item.set.lvl || 0)) {
-														let scount = Object.values(this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0))).length;
+														let scount = Object.values(this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0) && this.setValidHere(set, level))).length;
+
+														if (!scount) {
+															return;
+														}
+
 														ichance += pickItems[item.code] *
-															(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
-															item.func.set(mlvl, item.item.level || 0, tc.Set || 0) / scount;
+														(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+														item.func.set(mlvl, item.item.level || 0, tc.Set || 0) / scount;
 													}
 													break;
 	
@@ -392,6 +411,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									});
 
 									if (ichance) {
+										if (!isMinion) {
+											schance = 1 - (1 - schance) * Math.pow(1 - ichance, mult / packSize);
+										}
+
 										ichance = 1 - Math.pow(1 - ichance, mult);
 										chance = 1 - (1 - chance) * (1 - ichance);
 									}
@@ -400,6 +423,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 								if (chance) {
 									packResults.push({
 										mon,
+										mlvl,
 										superMon,
 										color: ['#000000', '#3366ff', '#b8860b', '#cc33ff', '#FF0000'][type],
 										name: (superMon ? this.json.strings[superMon.Name] : this.json.strings[mon.NameStr]) + (packSize + minionCount > 1 ? ' Pack ' : ' ') + ['[N]', '[NM]', '[H]'][diff],
@@ -407,9 +431,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										level,
 										tooltip: [
 											'Type: ' + ['Normal', 'Champion', 'Unique', 'Superunique', 'Boss'][type],
+											'mlvl: ' + mlvl,
 											'Area: [' + level.Id + '] ' + this.json.strings[level.LevelName],
 											'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
-											chance * 100 + '% Chance',
+											'Individual Chance: 1:' + this.makeRatio(schance),
 										].join('\n'),
 									});
 
@@ -423,8 +448,8 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									chance: lchance,
 									tooltip: [
 										'Id: ' + level.Id,
+										'mlvl: ' + level[['MonLvl1Ex', 'MonLvl2Ex', 'MonLvl3Ex'][diff]] || 0,
 										'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
-										lchance * 100 + '% Chance',
 									].join('\n'),
 								});	
 							}
