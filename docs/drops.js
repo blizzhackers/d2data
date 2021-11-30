@@ -160,21 +160,19 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			updateHash() {
 				let items = [];
 				this.items.forEach((item, index) => item.use && items.push(index));
-				let paramdv = new DataView(new ArrayBuffer(this.parammap.reduce((t, line) => t + line.size, 0))), itemsdv = new DataView(new ArrayBuffer(items.length * 2)), pos = 0;
+				let paramdv = new DataView(new ArrayBuffer(this.parammap.reduce((t, line) => t + line.size, 0) + items.length * 2)), pos = 0;
 
 				this.parammap.forEach(line => {
 					paramdv['set' + line.type + (line.size * 8)](pos, this.params[line.key]);
 					pos += line.size;
 				});
 
-				pos = 0;
-
 				items.forEach(num => {
-					itemsdv.setUint16(pos, num);
+					paramdv.setUint16(pos, num);
 					pos += 2;
 				});
 
-				window.location.hash = dtoa(paramdv) + '#' + dtoa(itemsdv);
+				window.location.hash = dtoa(paramdv);
 			},
 			makeRatio(chance) {
 				let ratio = 1/chance;
@@ -765,26 +763,22 @@ Object.defineProperty(Object.prototype, 'toArray', {
 
 			let calc = false;
 
-			let parts = window.location.hash.slice(1).split('#').map(str => str.length ? atod(str) : null), pos = 0;
+			let paramstr = window.location.hash.slice(1), pos = 0;
 
-			if (parts[0]) {
+			if (paramstr.length) {
+				let paramdata = atod(paramstr);
+
+				calc = true;
+
 				this.parammap.forEach(line => {
-					this.params[line.key] = parts[0]['get' + line.type + (line.size * 8)](pos);
+					this.params[line.key] = paramdata['get' + line.type + (line.size * 8)](pos);
 					pos += line.size;
 				});
 
-				calc = true;
-				pos = 0;
-			}
-
-			if (parts[1]) {
-				for (let c = 0; c < parts[1].byteLength; c += 2) {
-					let index = parts[1].getUint16(c);
+				for (;pos < paramdata.byteLength; pos += 2) {
+					let index = paramdata.getUint16(pos);
 					this.items[index].use = true;
 				}
-
-				calc = true;
-				pos = 0;
 			}
 
 			this.visible = true;
