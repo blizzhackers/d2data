@@ -278,7 +278,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 								let picks = [];
 
 								let addPicks = (m, count, mtype, isMinion) => {
-									let tc = superMon ? superMon[s('TC')] : m[m.Id === 'andariel' ? s('TreasureClass4') : s('TreasureClass' + (Math.min(3, mtype + 1)))];
+									let tc = (superMon && !isMinion) ? superMon[s('TC')] : m[m.Id === 'andariel' ? s('TreasureClass4') : s('TreasureClass' + (Math.min(3, mtype + 1)))];
 
 									if (tc) {				
 										tc = this.json.tc[this.adjustTc(tc, mlvl) || tc];
