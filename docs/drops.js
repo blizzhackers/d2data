@@ -666,6 +666,11 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					isclass = type.class,
 					ratioFuncs = Object.values(this.json.itemratio).filter(data => data.Version && !isuber === !data.Uber && !isclass === !data['Class Specific'])[0].func;
 
+				if (['pk1', 'pk2', 'pk3'].includes(item.code)) {
+					item['spawnable'] = true;
+					type['Normal'] = true;
+				}
+
 				if (!item['spawnable'] || item.code === 'gld') {
 					return;
 				}
