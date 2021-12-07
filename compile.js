@@ -58,6 +58,7 @@ const lineEnd = /[\n\r]+/g, fieldEnd = /\t/g, full = {};
 const inDir = 'txt/';
 const outDir = 'json/';
 const files = fs.readdirSync(inDir).filter(fn => fn.slice(-4) === '.txt').map(fn => fn.slice(0, -4));
+const rollingCalc = false;
 
 function keySort(obj) {
 	let keys = Object.keys(obj).sort(), ret = {};
@@ -209,30 +210,41 @@ files.forEach(fn => {
 			let precalc = {};
 
 			if (tc.Picks > 0) {
-				let total = 0;
+				let basetotal = 0;
 
 				for (let c = 1; c <= 9; c++) {
-					total += tc['Prob' + c] | 0;
+					basetotal += tc['Prob' + c] | 0;
 				}
 	
 				[1, 2, 3, 4, 5, 6, 7, 8].forEach(exp => {
-					let nodrop = noDrop(exp, tc.NoDrop, total);
+					let nodrop = noDrop(exp, tc.NoDrop, basetotal);
 	
-					total += nodrop;
+					total = basetotal + nodrop;
+
+					if (rollingCalc) {
+						let otherChance = 1 - (nodrop / total);
 		
-					let otherChance = 1 - (nodrop / total);
-		
-					for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
+						for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
+							for (let c = 1; c <= 9; c++) {
+								if (tc['Item' + c]) {
+									let prob = otherChance * (tc['Prob' + c] | 0) / total; 
+									otherChance = Math.max(0, otherChance - (tc['Prob' + c] | 0) / total);
+									precalc[exp] = precalc[exp] || {};
+									precalc[exp][tc['Item' + c]] = precalc[exp][tc['Item' + c]] || 0;
+									precalc[exp][tc['Item' + c]] += prob;
+								}
+							}
+						}	
+					} else {
 						for (let c = 1; c <= 9; c++) {
 							if (tc['Item' + c]) {
-								let prob = otherChance * (tc['Prob' + c] | 0) / total; 
-								otherChance = Math.max(0, otherChance - (tc['Prob' + c] | 0) / total);
+								let prob = (tc['Prob' + c] | 0) / total; 
 								precalc[exp] = precalc[exp] || {};
 								precalc[exp][tc['Item' + c]] = precalc[exp][tc['Item' + c]] || 0;
 								precalc[exp][tc['Item' + c]] += prob;
 							}
-						}
-					}	
+						}	
+					}		
 				});					
 			}
 
