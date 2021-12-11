@@ -267,6 +267,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 							let lchance = 0;
 
 							if (diff < 2 && level.Id > 132) {
+								this.progress += progressInterval;
 								continue;
 							}
 
