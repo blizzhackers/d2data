@@ -261,7 +261,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					let progressInterval = 1 / 3 / Object.values(this.json.levels).length;
 		
 					for (let diff = 0; diff < 3; diff++) {
-						let s = _s(diff);
+						let s = _s(diff), cache = {};
 
 						for (let level of Object.values(this.json.levels)) {
 							let lchance = 0;
@@ -275,29 +275,107 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									return;
 								}
 
-								let picks = [];
+								let chance = 1, schance = 0;
 
-								let addPicks = (m, count, mtype, isMinion) => {
+								let calc = (m, count, mtype, isMinion) => {
 									let tc = (superMon && !isMinion) ? superMon[s('TC')] : m[m.Id === 'andariel' ? s('TreasureClass4') : s('TreasureClass' + (Math.min(3, mtype + 1)))];
 
 									if (tc) {				
 										tc = this.json.tc[this.adjustTc(tc, mlvl) || tc];
-	
-										this.forEachPick(tc, (pickItems, mult) => {
-											picks.push({
-												monster: m,
-												isMinion,
-												tc,
-												pickItems,
-												mult: mult * count,
+
+										let cachekey = [tc.lineNumber, mlvl, +(level.Id === 39)].join('|'), pchance = cache[cachekey] === undefined ? this.calcPicks(tc, pickItem => {
+											let ichance = 0;
+
+											selectedItems.forEach(item => {
+												if (item.set && !this.setValidHere(item.set, level)) {
+													return;
+												}
+		
+												if (pickItem === item.code) {
+													switch (item.quality) {
+														case 'unique':
+															if (mlvl >= (item.unique.lvl || 0)) {
+																let ucount = Object.values(this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0))).length;
+		
+																if (!ucount) {
+																	return;
+																}
+		
+																ichance += item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0) / ucount;
+															}
+															break;
+			
+														case 'set':
+															if (mlvl >= (item.set.lvl || 0)) {
+																let scount = Object.values(this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0) && this.setValidHere(set, level))).length;
+		
+																if (!scount) {
+																	return;
+																}
+		
+																ichance += (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+																item.func.set(mlvl, item.item.level || 0, tc.Set || 0) / scount;
+															}
+															break;
+			
+														case 'rare':
+															ichance += (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+																(1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) *
+																item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0);
+															break;
+														case 'magic':
+															ichance += (item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
+																(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
+																(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
+																item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0);
+															break;
+														case 'hq':
+															ichance += (item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
+																(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
+																(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
+																(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
+																item.func.hq(mlvl, item.item.level || 0, 0);
+															break;
+														case 'normal':
+															if (item.type.Normal) {
+																ichance += 1;
+															} else {
+																ichance += (item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
+																(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
+																(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
+																(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
+																(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
+																item.func.normal(mlvl, item.item.level || 0, 0);
+															}
+															break;
+														default:
+															ichance += (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
+																(1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) *
+																(1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) *
+																(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
+																(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
+																(1 - item.func.normal(mlvl, item.item.level || 0, 0));
+															break;
+													}	
+												}
 											});
-										});
+		
+											return ichance;
+										}) : cache[cachekey];
+
+										cache[cachekey] = pchance;
+
+										if (!isMinion) {
+											schance = pchance;
+										}
+
+										chance *= Math.pow(1 - pchance, count);
 									}	
 								};
 
 								let packSize = superMon ? 1 : this.avg(mon['MinGrp'] || 0, mon['MaxGrp'] || 0);
 
-								addPicks(mon, packSize, type, false);
+								calc(mon, packSize, type, false);
 
 								let minionCount = superMon ? this.avg(superMon['MinGrp'] || 0, superMon['MaxGrp'] || 0) : this.avg(mon['PartyMin'] || 0, mon['PartyMax'] || 0);
 
@@ -316,109 +394,11 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									}
 
 									minions.forEach(minion => {
-										addPicks(minion, minionCount / minions.length, 0, true);
+										calc(minion, minionCount / minions.length, 0, true);
 									});	
 								}
 
-								let chance = 0, schance = 0;
-
-								picks.forEach(pickdata => {
-									let tc = pickdata.tc,
-										pickItems = pickdata.pickItems,
-										mult = pickdata.mult,
-										isMinion = pickdata.isMinion,
-										ichance = 0;
-
-									selectedItems.forEach(item => {
-										if (item.set && !this.setValidHere(item.set, level)) {
-											return;
-										}
-
-										if (pickItems[item.code]) {
-											switch (item.quality) {
-												case 'unique':
-													if (mlvl >= (item.unique.lvl || 0)) {
-														let ucount = Object.values(this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0))).length;
-
-														if (!ucount) {
-															return;
-														}
-
-														ichance += pickItems[item.code] *
-															item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0) / ucount;
-													}
-													break;
-	
-												case 'set':
-													if (mlvl >= (item.set.lvl || 0)) {
-														let scount = Object.values(this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0) && this.setValidHere(set, level))).length;
-
-														if (!scount) {
-															return;
-														}
-
-														ichance += pickItems[item.code] *
-														(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
-														item.func.set(mlvl, item.item.level || 0, tc.Set || 0) / scount;
-													}
-													break;
-	
-												case 'rare':
-													ichance += pickItems[item.code] *
-														(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
-														(1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) *
-														item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0);
-													break;
-												case 'magic':
-													ichance += pickItems[item.code] *
-														(item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
-														(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
-														(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
-														item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0);
-													break;
-												case 'hq':
-													ichance += pickItems[item.code] *
-														(item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
-														(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
-														(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
-														(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
-														item.func.hq(mlvl, item.item.level || 0, 0);
-													break;
-												case 'normal':
-													if (item.type.Normal) {
-														ichance += pickItems[item.code];
-													} else {
-														ichance += pickItems[item.code] *
-														(item.type.Rare ? (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) : 1) *
-														(item.type.Rare ? (1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) : 1) *
-														(item.type.Rare ? (1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) : 1) *
-														(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
-														(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
-														item.func.normal(mlvl, item.item.level || 0, 0);
-													}
-													break;
-												default:
-													ichance += pickItems[item.code] *
-														(1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
-														(1 - item.func.set(mlvl, item.item.level || 0, tc.Set || 0)) *
-														(1 - item.func.rare(mlvl, item.item.level || 0, tc.Rare || 0)) *
-														(1 - item.func.magic(mlvl, item.item.level || 0, tc.Magic || 0)) *
-														(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
-														(1 - item.func.normal(mlvl, item.item.level || 0, 0));
-													break;
-											}	
-										}
-									});
-
-									if (ichance) {
-										if (!isMinion) {
-											schance = 1 - (1 - schance) * Math.pow(1 - ichance, mult / packSize);
-										}
-
-										ichance = 1 - Math.pow(1 - ichance, mult);
-										chance = 1 - (1 - chance) * (1 - ichance);
-									}
-								});
+								chance = 1 - chance;
 
 								if (chance) {
 									packResults.push({
@@ -434,8 +414,8 @@ Object.defineProperty(Object.prototype, 'toArray', {
 											'mlvl: ' + mlvl,
 											'Area: [' + level.Id + '] ' + this.json.strings[level.LevelName],
 											'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
-											'Individual Chance: 1:' + this.makeRatio(schance),
-										].join('\n'),
+											schance !== chance ? 'Individual Chance: 1:' + this.makeRatio(schance) : null,
+										].filter(Boolean).join('\n'),
 									});
 
 									lchance = 1 - (1 - lchance) * Math.pow(1 - chance, packCount);
@@ -450,7 +430,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										'Id: ' + level.Id,
 										'mlvl: ' + level[['MonLvl1Ex', 'MonLvl2Ex', 'MonLvl3Ex'][diff]] || 0,
 										'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
-									].join('\n'),
+									].filter(Boolean).join('\n'),
 								});	
 							}
 
@@ -472,12 +452,26 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.calculating = false;
 				}
 			},
-			forEachPick(tc, func) {	
+			calcPicks(tc, func) {
 				if (tc) {
+					let totalchance = 1;
+
+					let dopick = item => {
+						if (this.json.tc[item]) {
+							return this.calcPicks(this.json.tc[item], func);
+						} else if (this.json.atomic[item]) {
+							return this.json.atomic[item].reduce((total, chance, subitem) => {
+								return total + (chance * func(subitem));
+							}, 0);
+						}
+
+						return func(item);
+					};
+
 					if (tc.Picks < 0) {
-						let picks = -tc.Picks, picklist = {};
-			
-						for (let c = 1; picks > 0 && c <= 9; c++) {
+						for (let c = 1, picks = -tc.Picks; picks > 0 && c <= 9; c++) {
+							let picklist = {};
+
 							if (tc['Item' + c]) {
 								for (let d = 1; picks > 0 && d <= tc['Prob' + c]; d++) {
 									picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
@@ -485,33 +479,27 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									picks--;
 								}
 							}
+
+							picklist.forEach((pickCount, item) => {
+								totalchance *= Math.pow(1 - dopick(item), pickCount);
+							});
 						}
-
-						picklist.forEach((picks, tcname) => func(this.getTcItems(tcname), picks));
 					} else if (tc.Picks > 0) {
-						let mult = (1 + tc.Picks) / 2, itemlist = {};
+						let picks = (1 + tc.Picks) / 2;
 
+						let aggchance = 0;
+						
 						tc.precalc[this.exp].forEach((chance, item) => {
-							itemlist = this.getTcItems(item, chance, itemlist);
+							aggchance += chance * dopick(item);
 						});
 
-						func(itemlist, mult);
+						totalchance *= Math.pow(1 - aggchance, picks);
 					}
-				}			
-			},
-			getTcItems(name, mult = 1, ret = {}) {
-				let items = (this.json.tc[name] && this.json.tc[name].precalc[this.exp]) || this.json.atomic[name];
-		
-				if (items) {
-					items.forEach((chance, name) => {
-						this.getTcItems(name, mult * chance, ret);
-					});
-				} else {
-					ret[name] = ret[name] || 0;
-					ret[name] += mult;
+
+					return 1 - totalchance;
 				}
-			
-				return ret;
+
+				return 0;
 			},
 			forEachMonster(level, diff, func) {
 				let s = _s(diff);
