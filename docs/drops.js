@@ -296,26 +296,30 @@ Object.defineProperty(Object.prototype, 'toArray', {
 													switch (item.quality) {
 														case 'unique':
 															if (mlvl >= (item.unique.lvl || 0)) {
-																let ucount = Object.values(this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0))).length;
+																let ucount = this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0)).reduce((t, u) => {
+																	return t + (u.rarity || 1);
+																}, 0);
 		
 																if (!ucount) {
 																	return;
 																}
 		
-																ichance += item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0) / ucount;
+																ichance += item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0) * item.unique.rarity / ucount;
 															}
 															break;
 			
 														case 'set':
 															if (mlvl >= (item.set.lvl || 0)) {
-																let scount = Object.values(this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0) && this.setValidHere(set, level))).length;
+																let scount = this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0) && this.setValidHere(set, level)).reduce((t, s) => {
+																	return t + (s.rarity || 1);
+																}, 0);
 		
 																if (!scount) {
 																	return;
 																}
 		
 																ichance += (1 - item.func.unique(mlvl, item.item.level || 0, tc.Unique || 0)) *
-																item.func.set(mlvl, item.item.level || 0, tc.Set || 0) / scount;
+																	item.func.set(mlvl, item.item.level || 0, tc.Set || 0) * item.set.rarity / scount;
 															}
 															break;
 			
