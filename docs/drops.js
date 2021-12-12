@@ -486,15 +486,14 @@ Object.defineProperty(Object.prototype, 'toArray', {
 							});
 						}
 					} else if (tc.Picks > 0) {
-						let picks = (1 + tc.Picks) / 2;
-
+						//let picks = (1 + tc.Picks) / 2;
 						let aggchance = 0;
 						
 						tc.precalc[this.exp].forEach((chance, item) => {
 							aggchance += chance * dopick(item);
 						});
 
-						totalchance *= Math.pow(1 - aggchance, picks);
+						totalchance *= Math.pow(1 - aggchance, tc.Picks);
 					}
 
 					return 1 - totalchance;
