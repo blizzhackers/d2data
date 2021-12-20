@@ -1,0 +1,114 @@
+//-----------------------------------------------------------------------------------------------------
+//		this is a list of magic and rare items that you want your bot to pick up.
+//		note that you will (obviously) find more rare items listed in the rare.nip file.
+//
+//		any item on this list which starts with //[ will not be picked up at all
+//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
+// -----------------------------------------------------------------------------------------------------
+
+//rare/magic jewels
+[type] == jewel && ([quality] == rare || [quality] == magic) # [maxdamage] >= 20 || ([maxdamage] >= 13 && ([ias] == 15 || [itemreqpercent] == -15 || [mindamage] >= 8))
+[type] == jewel && ([quality] == rare || [quality] == magic) # [mindamage] >= 18 || ([mindamage] == 8 && ([ias] == 15 || [itemreqpercent] == -15 || [mindamage] >= 8))
+[type] == jewel && ([quality] == rare || [quality] == magic) # [enhanceddamage] >= 35 || ([enhanceddamage] >= 30 && ([ias] == 15 || [itemreqpercent] == -15 || [mindamage] >= 8))
+[type] == jewel && ([quality] == rare || [quality] == magic) # [tohit] >= 75 && ([maxhp] >= 15 || [strength] >= 8 || [dexterity] >= 8 || [fhr] == 7 || [itemreqpercent] == -15)
+[type] == jewel && ([quality] == rare || [quality] == magic) # [maxmana] >= 15 && ([maxhp] >= 20 || [strength] >= 9 || [dexterity] >= 9 || [fhr] == 7 || [itemreqpercent] == -15)
+[type] == jewel && ([quality] == rare || [quality] == magic) # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 48 && ([maxhp] >= 15 || [strength] >= 8 || [dexterity] >= 8 || [fhr] == 7 || [itemreqpercent] == -15)
+[type] == jewel && ([quality] == rare || [quality] == magic) # [coldresist]+[fireresist]+[lightresist]+[poisonresist] == 60
+[type] == jewel && ([quality] == rare || [quality] == magic) # ([coldresist] >= 25 || [fireresist] >= 25 || [lightresist] >= 25 || [poisonresist] == 30) && ([maxhp] >= 15 || [strength] >= 8 || [dexterity] >= 8 || [fhr] == 7 || [itemreqpercent] == -15)
+//[name] == jewel && ([quality] == rare || [quality] == magic) # [poisonmindam] >= 20
+
+//magic rings
+//[type] == ring && [quality] == magic # [itemmagicbonus] >= 40
+//[type] == ring && [quality] == magic # [fcr] >= 10 && [mana] >= 120
+
+//magic mf amulet
+//[type] == amulet && [quality] == magic # [itemmagicbonus] >= 50
+
+//rare/magic +2 class amulet
+[type] == amulet && [quality] == magic # [itemaddclassskills] == 2 && ([fcr] >= 10 || [dexterity] >= 25 || [hpregen] == 15 || [itemmagicbonus] >= 45 || [maxhp] >= 95 || [lifeleech] >= 5 || [manaleech] >= 5 || [strength] >= 25)// || [description] == "teleportation (" || [description] == "attract (")
+[type] == amulet && [quality] == rare # [itemaddclassskills] == 2 && ([fcr] >= 10 || [dexterity] >= 18 || [hpregen] == 10 || [itemmagicbonus] >= 24 || [maxhp] >= 55 || [lifeleech] >= 5 || [manaleech] >= 5 || [strength] >= 25)// || [description] == "teleportation (" || [description] == "attract (")
+
+//rare/magic +3 tree amulet
+[type] == amulet && [quality] == magic # [itemaddskilltab] >= 2 && ([fcr] >= 10 || [dexterity] >= 25 || [hpregen] == 15 || [itemmagicbonus] >= 45 || [maxhp] >= 95 || [lifeleech] >= 5 || [manaleech] >= 5 || [strength] >= 25)// || [description] == "teleportation (" || [description] == "attract (")
+[type] == amulet && [quality] == rare # [itemaddskilltab] == 2 && ([fcr] >= 10 || [dexterity] >= 18 || [hpregen] == 10 || [itemmagicbonus] >= 24 || [maxhp] >= 55 || [lifeleech] >= 5 || [manaleech] >= 5 || [strength] >= 25)// || [description] == "teleportation (" || [description] == "attract (")
+
+//rare +2 class skill circlet
+[type] == circlet && [quality] == rare # [itemaddclassskills] == 2 && ([fcr] == 20 || [sockets] == 2 || [strength] >= 20 || [maxhp] >= 30 || [dexterity] >= 20 || [frw] >= 20)// || [description] == "teleportation (" || [description] == "attract (")
+
+//rare +3 tree skills circlet
+[type] == circlet && [quality] == rare # [itemaddskilltab] >= 2 && ([fcr] == 20 || [sockets] == 2 || [strength] >= 20 || [maxhp] >= 30 || [dexterity] >= 20 || [frw] >= 20)// || [description] == "teleportation (" || [description] == "attract (")
+
+//magic jewelers circlets
+//[type] == circlet && [quality] == magic && [flag] != ethereal # [sockets] >= 3
+
+//magic/rare pelt
+[type] == pelt && ([quality] == rare || [quality] == magic) # [druidskills] == 2 && [itemsingleskill] >= 2
+[type] == pelt && ([quality] == rare || [quality] == magic) # [elementalskilltab] >= 2 && [itemsingleskill] >= 2
+[type] == pelt && ([quality] == rare || [quality] == magic) # [druidsummoningskilltab] >= 2 && [itemsingleskill] >= 2
+[type] == pelt && ([quality] == rare || [quality] == magic) && [flag] != ethereal # [shapeshiftingskilltab] >= 2 && [itemsingleskill] >= 2
+
+//magic/rare battle order helms
+[type] == primalhelm && [quality] == magic # [skillbattleorders]+[warcriesskilltab] >= 5
+[type] == primalhelm && [quality] == magic # [skillbattleorders]+[barbarianskills] >= 5
+[type] == primalhelm && [quality] == rare # [skillbattleorders]+[warcriesskilltab] >= 5 && [maxhp] >= 50
+[type] == primalhelm && [quality] == rare # [skillbattleorders]+[barbarianskills] >= 5 && [maxhp] >= 50
+
+//magic dueler shields
+//[type] == shield && [quality] == magic && [flag] != ethereal # [sockets] >= 3 && ([itemreqpercent] >= 20 || [fhr] >= 17 || [fbr] == 30 || [maxhp] >= 40)
+//[type] == shield && [quality] == magic && [flag] != ethereal # [sockets] >= 4 && ([itemreqpercent] >= 20 || [fhr] >= 17 || [fbr] == 30 || [maxhp] >= 40)
+//[type] == auricshields && [quality] == magic && [flag] != ethereal # [sockets] >= 4 && ([itemreqpercent] >= 20 || [fhr] >= 17 || [fbr] == 30 || [maxhp] >= 40)
+
+//magic/rare necro shields
+[type] == voodooheads && ([quality] == rare || [quality] == magic) # [necromancerskills] == 2 && ([skillbonespear] >= 2 || [skillbonespirit] >= 2 || [skillpoisonnova] >= 2)
+[type] == voodooheads && ([quality] == rare || [quality] == magic) # [poisonandboneskilltab] >= 2 && ([skillbonespear] >= 2 || [skillbonespirit] >= 2 || [skillpoisonnova] >= 2)
+
+//magic/rare socketed whale armor
+//[type] == armor && ([quality] == rare || [quality] == magic) # [sockets] == 3 && [maxhp] >= 75
+//[type] == armor && ([quality] == rare || [quality] == magic) # [sockets] == 4 && [maxhp] >= 75
+
+//magic/rare socket/fhr armor
+//[type] == armor && ([quality] == rare || [quality] == magic) # [sockets] == 3 && [fhr] >= 17
+//[type] == armor && ([quality] == rare || [quality] == magic) # [sockets] == 4 && [fhr] >= 24
+
+//magic skill/ias gloves
+//[type] == gloves && [quality] == magic && [flag] != ethereal # [ias] >= 20 && [javelinandspearskilltab] == 3
+//[type] == gloves && [quality] == magic && [flag] != ethereal # [ias] >= 20 && [bowandcrossbowskilltab] == 3
+//[type] == gloves && [quality] == magic && [flag] != ethereal # [ias] >= 20 && [passiveandmagicskilltab] == 3
+//[type] == gloves && [quality] == magic && [flag] != ethereal # [ias] >= 20 && [martialartsskilltab] == 3
+
+//magic/rare +5/+6 ls claws
+[type] == assassinclaw && ([quality] == rare || [quality] == magic) # [assassinskills]+[skilllightningsentry] >= 5
+[type] == assassinclaw && ([quality] == rare || [quality] == magic) # [trapsskilltab]+[skilllightningsentry] >= 5
+[type] == handtohand && ([quality] == rare || [quality] == magic) # [assassinskills]+[skilllightningsentry] >= 5
+[type] == handtohand && ([quality] == rare || [quality] == magic) # [trapsskilltab]+[skilllightningsentry] >= 5
+
+//magic/rare +5/+6 jav skills 30+ [ias] javelins
+([name] == maidenjavelin || [name] == ceremonialjavelin || [name] == matriarchaljavelin) && ([quality] == rare || [quality] == magic) # [ias] >= 30 && [amazonskills]+[javelinandspearskilltab] >= 4
+([name] == maidenjavelin || [name] == ceremonialjavelin || [name] == matriarchaljavelin) && ([quality] == rare || [quality] == magic) # [ias] >= 30 && [javelinandspearskilltab] >= 4
+
+//magic/rare warcry weapons
+//([type] == knife || [type] == sword) && ([quality] == magic || [quality] == rare) # [warcriesskilltab] == 3 && [strength] >= 1
+
+//magic/rare sceptors
+[type] == scepter && ([quality] == magic || [quality] == rare) # (([paladinskills]+[skillblessedhammer] >= 4) || ([paladinskills]+[skillconcentration] >= 4) || ([paladinskills]+[skillfistoftheheavens] >= 4)) && [fcr] >= 20
+[type] == scepter && ([quality] == magic || [quality] == rare) # (([palicombatskilltab]+[skillblessedhammer] >= 4) || ([palicombatskilltab]+[skillconcentration] >= 4) || ([palicombatskilltab]+[skillfistoftheheavens] >= 4)) && [fcr] >= 20
+
+//magic/rare swords
+[name] == phaseblade && ([quality] == magic || [quality] == rare) # [sockets] == 4 && [ias] >= 40
+
+//magic/rare sorceress orbs
+[type] == orb && ([quality] == magic || [quality] == rare) # ([sorceressskills]+[skilllightning] >= 5) || ([sorceressskills]+[skillchainlightning] >= 5)
+[type] == orb && ([quality] == magic || [quality] == rare) # ([sorceressskills]+[skillfireball] >= 5) || ([sorceressskills]+[skillfirebolt] >= 5)
+[type] == orb && ([quality] == magic || [quality] == rare) # ([sorceressskills]+[skillglacialspike] >= 5) || ([sorceressskills]+[skillfrozenorb] >= 5)
+[type] == orb && ([quality] == magic || [quality] == rare) # [sorceressskills]+[skillenchant] >= 5
+[type] == orb && ([quality] == magic || [quality] == rare) # ([lightningskilltab]+[skilllightning] >= 5) || ([lightningskilltab]+[skillchainlightning] >= 5)
+[type] == orb && ([quality] == magic || [quality] == rare) # ([fireskilltab]+[skillfireball] >= 5) || ([fireskilltab]+[skillfirebolt] >= 5)
+[type] == orb && ([quality] == magic || [quality] == rare) # ([coldskilltab]+[skillglacialspike] >= 5) || ([coldskilltab]+[skillfrozenorb] >= 5)
+[type] == orb && ([quality] == magic || [quality] == rare) # [fireskilltab]+[skillenchant] >= 5
+
+//magic/rare necro wands and daggers
+[type] == wand && ([quality] == rare || [quality] == magic) # ([poisonandboneskilltab] >= 2 || [necromancerskills] == 2) && [skillpoisonnova] == 3
+[type] == knife && ([quality] == rare || [quality] == magic) # ([poisonandboneskilltab] >= 2 || [necromancerskills] == 2) && [skillpoisonnova] == 3
+[type] == knife && ([quality] == rare || [quality] == magic) # ([poisonandboneskilltab] >= 2 || [necromancerskills] == 2) && [skillpoisondagger] == 3
+//([type] == knife || [type] == wand) && ([quality] == rare || [quality] == magic) && [suffix] == 594
+//([type] == knife || [type] == wand) && ([quality] == rare || [quality] == magic) #// [description] == "lower resist ("

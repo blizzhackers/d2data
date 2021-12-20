@@ -1,0 +1,1257 @@
+{
+    "base_text": "poison resist +_d_% (based on character level)",
+    "prop_name": "resist_poison_percent_c harlvl"
+}, {
+    "base_text": "+_d_ maximum stamina (based on character level)",
+    "prop_name": "stamina_max_charlvl"
+}, {
+    "base_text": "+_d_ to mana (based on character level)",
+    "prop_name": "mana_charlvl"
+}, {
+    "base_text": "+_d_ to maximum poison damage (based on character level)",
+    "prop_name": "damage_poison_max_charlvl"
+}, {
+    "base_text": "+_d_ to maximum cold damage (based on character level)",
+    "prop_name": "damage_cold_max_charlvl"
+}, {
+    "base_text": "+_d_ to maximum lightning damage (based on character level)",
+    "prop_name": "damage_lightning_max_charlvl"
+}, {
+    "base_text": "+_d_ to maximum fire damage (based on character level)",
+    "prop_name": "damage_fire_max_charlvl"
+}, {
+    "base_text": "+_d_ to maximum damage (based on character level)",
+    "prop_name": "damage_max_charlvl"
+}, {
+    "base_text": "+_d_ to vitality (based on character level)",
+    "prop_name": "vitality_charlvl"
+}, {
+    "base_text": "+_d_ to vitality",
+    "prop_name": "vitality",
+    "nip_names": ["vitality"]
+}, {
+    "base_text": "+_d_ to strength (based on character level)",
+    "prop_name": "strength_charlvl"
+}, {
+    "base_text": "+_d_ to strength",
+    "prop_name": "strength",
+    "nip_names": ["strength"]
+}, {
+    "base_text": "+_d_ absorbs cold damage (based on character level)",
+    "prop_name": "absorb_cold_damage_charlvl"
+}, {
+    "base_text": "+_d_ maximum stamina",
+    "prop_name": "stamina_max",
+    "nip_names": ["maxstamina"]
+}, {
+    "base_text": "+_d_ to mana",
+    "prop_name": "mana",
+    "nip_names": ["maxmana"]
+}, {
+    "base_text": "+_d_ to all attributes",
+    "prop_name": "all_attributes",
+    "nip_names": ["statpts"]
+}, {
+    "base_text": "_d_% life stolen per hit",
+    "prop_name": "life_stolen_per_hit",
+    "nip_names": ["lifedrainmindam", "lifeleech"]
+}, {
+    "base_text": "_d_% mana stolen per hit",
+    "prop_name": "mana_stolen_per_hit",
+    "nip_names": ["manadrainmindam", "manaleech"]
+}, {
+    "base_text": "attacker takes damage of _d_ (based on character level)",
+    "prop_name": "attacker_takes_damage_charlvl"
+}, {
+    "base_text": "+_d_ absorbs fire damage (based on character level)",
+    "prop_name": "absorb_fire_damage_charlvl"
+}, {
+    "base_text": "+_d_ absorbs lightning damage (based on character level)",
+    "prop_name": "absorb_lightning_damage_charlvl"
+}, {
+    "base_text": "_d_% chance of crushing blow (based on character level)",
+    "prop_name": "crushing_blow_percent_charlvl"
+}, {
+    "base_text": "+_d_ to attack rating against undead (based on character level)",
+    "prop_name": "attack_rating_against_undead_charlvl"
+}, {
+    "base_text": "+_d_ to attack rating against demons (based on character level)",
+    "prop_name": "attack_rating_against_demons_charlvl"
+}, {
+    "base_text": "+_d_ to attack rating (based on character level)",
+    "prop_name": "attack_rating_charlvl"
+}, {
+    "base_text": "_d_% bonus to attack rating (based on character level)",
+    "prop_name": "attack_rating_percent_charlvl"
+}, {
+    "base_text": "_d_% better chance of getting magic items (based on character level)",
+    "prop_name": "magic_find_percent_charlvl"
+}, {
+    "base_text": "cold resist +_d_% (based on character level)",
+    "prop_name": "resist_cold_percent_charlvl"
+}, {
+    "base_text": "+_d_ to dexterity (based on character level)",
+    "prop_name": "dexterity_charlvl"
+}, {
+    "base_text": "+_d_ defense (based on character level)",
+    "prop_name": "defense_charlvl"
+}, {
+    "base_text": "_d_% chance of open wounds (based on character level)",
+    "prop_name": "open_wounds_percent_charlvl"
+}, {
+    "base_text": "_d_% deadly strike (based on character level)",
+    "prop_name": "deadly_strike_percent_charlvl"
+}, {
+    "base_text": "+_d_% damage to undead (based on character level)",
+    "prop_name": "damage_to_undead_percent_charlvl"
+}, {
+    "base_text": "+_d_% damage to demons (based on character level)",
+    "prop_name": "damage_to_demons_percent_charlvl"
+}, {
+    "base_text": "_d_% extra gold from monsters (based on character level)",
+    "prop_name": "extra_gold_percent_charlvl"
+}, {
+    "base_text": "fire resist +_d_% (based on character level)",
+    "prop_name": "resist_fire_percent_charlvl"
+}, {
+    "base_text": "lighting resist +_d_% (based on character level)",
+    "prop_name": "resist_lightning_percent_charlvl"
+}, {
+    "base_text": "heal stamina plus _d_% (based on character level)",
+    "prop_name": "stamina_heal_percent_charlvl"
+}, {
+    "base_text": "+_d_ to life (based on character level)",
+    "prop_name": "life_charlvl"
+}, {
+    "base_text": "+_d_ to energy (based on character level)",
+    "prop_name": "energy_charlvl"
+}, {
+    "base_text": "+_d_% enhanced defense (based on character level)",
+    "prop_name": "defense_enhanced_percent_charlvl"
+}, {
+    "base_text": "+_d_ kick damage (based on character level)",
+    "prop_name": "damage_kick_charlvl"
+}, {
+    "base_text": "+_d_ to bow and crossbow skills (amazon only)",
+    "prop_name": "amazon_skills_bow_and_crossbow"
+}, {
+    "base_text": "+_d_ to passive and magic skills (amazon only)",
+    "prop_name": "amazon_skills_passive_and_magic"
+}, {
+    "base_text": "+_d_ to javelin and spear skills (amazon only)",
+    "prop_name": "amazon_skills_javelin_and_spear"
+}, {
+    "base_text": "+_d_ to fire skills (sorceress only)",
+    "prop_name": "sorceress_skills_fire"
+}, {
+    "base_text": "+_d_ to lightning skills (sorceress only)",
+    "prop_name": "sorceress_skills_lightning"
+}, {
+    "base_text": "+_d_ to cold skills (sorceress only)",
+    "prop_name": "sorceress_skills_cold"
+}, {
+    "base_text": "+_d_ to curses (necromancer only)",
+    "prop_name": "necromancer_skills_curses"
+}, {
+    "base_text": "+_d_ to poison and bone skills (necromancer only)",
+    "prop_name": "necromancer_skills_poison_and_bone"
+}, {
+    "base_text": "+_d_ to summoning skills (necromancer only)",
+    "prop_name": "necromancer_skills_summoning"
+}, {
+    "base_text": "+_d_ to combat skills (paladin only)",
+    "prop_name": "paladin_skills_combat"
+}, {
+    "base_text": "+_d_ to offensive auras (paladin only)",
+    "prop_name": "paladin_skills_offensive"
+}, {
+    "base_text": "+_d_ to defensive auras (paladin only)",
+    "prop_name": "paladin_skills_defensive"
+}, {
+    "base_text": "+_d_ to combat skills (barbarian only)",
+    "prop_name": "barbarian_skills_combat"
+}, {
+    "base_text": "+_d_ to masteries (barbarian only)",
+    "prop_name": "barbarian_skills_masteries"
+}, {
+    "base_text": "+_d_ to warcries (barbarian only)",
+    "prop_name": "barbarian_skills_warcries"
+}, {
+    "base_text": "+_d_ to summoning skills (druid only)",
+    "prop_name": "druid_skills_summoning"
+}, {
+    "base_text": "+_d_% faster block rate",
+    "prop_name": "faster_block_rate_percent"
+}, {
+    "base_text": "+_d_% faster cast rate",
+    "prop_name": "faster_cast_rate_percent"
+}, {
+    "base_text": "+_d_ to shape shifting skills (druid only)",
+    "prop_name": "druid_skills_shape_shifting"
+}, {
+    "base_text": "+_d_ to elemental skills (druid only)",
+    "prop_name": "druid_skills_elemental"
+}, {
+    "base_text": "+_d_ to traps (assassin only)",
+    "prop_name": "assassin_skills_traps"
+}, {
+    "base_text": "+_d_ to shadow disciplines (assassin only)",
+    "prop_name": "assassin_skills_shadow_disciplines"
+}, {
+    "base_text": "+_d_ to martial arts (assassin only)",
+    "prop_name": "assassin_skills_martial_arts"
+}, {
+    "base_text": "_d_% chance to cast level _d_ _s_ when struck",
+    "prop_name": "skill_chance_percent_when_struck"
+}, {
+    "base_text": "increase maximum mana _d_%",
+    "prop_name": "mana_max_percent",
+    "nip_names": ["itemmaxmanapercent, item_maxmana_percent"]
+}, {
+    "base_text": "increase maximum life _d_%",
+    "prop_name": "life_max_percent",
+    "nip_names": ["itemmaxhppercent", "item_maxhp_percent"]
+}, {
+    "base_text": "+_d_ to life",
+    "prop_name": "life",
+    "nip_names": ["maxhp"]
+}, {
+    "base_text": "+_d_ to energy",
+    "prop_name": "energy",
+    "nip_names": ["energy"]
+}, {
+    "base_text": "+_d_ to dexterity",
+    "prop_name": "dexterity"
+}, {
+    "base_text": "+_d_% faster hit recovery",
+    "prop_name": "faster_hit_recovery_percent"
+}, {
+    "base_text": "+_d_% increased attack speed",
+    "prop_name": "increased_attack_speed_percent",
+    "nip_names": ["item_fasterattackrate", "itemfasterattackrate"]
+}, {
+    "base_text": "+_d_% faster run/walk",
+    "prop_name": "faster_run_walk_percent"
+}, {
+    "base_text": "poison length reduced by _d_%",
+    "prop_name": "poison_length_reduced_percent",
+    "nip_names": ["poisonlength"]
+}, {
+    "base_text": "magic damage reduced by _d_",
+    "prop_name": "damage_magic_reduced",
+    "nip_names": ["magicdamagereduction"]
+}, {
+    "base_text": "damage reduced by _d_%",
+    "prop_name": "damage_reduced_percent",
+    "nip_names": ["damageresist"]
+}, {
+    "base_text": "fire resist +_d_%",
+    "prop_name": "resist_fire_percent",
+    "nip_names": ["fireresist"]
+}, {
+    "base_text": "lightning resist +_d_%",
+    "prop_name": "resist_lightning_percent",
+    "nip_names": ["lightresist"]
+}, {
+    "base_text": "cold resist +_d_%",
+    "prop_name": "resist_cold_percent",
+    "nip_names": ["coldresist"]
+}, {
+    "base_text": "poison resist +_d_%",
+    "prop_name": "resist_poison_percent",
+    "nip_names": ["poisonresist"]
+}, {
+    "base_text": "magic resist +_d_%",
+    "prop_name": "resist_magic_percent",
+    "nip_names": ["magicresist"]
+}, {
+    "base_text": "+_d_% to maximum cold resist",
+    "prop_name": "resist_cold_max_percent",
+    "nip_names": ["maxcoldresist"]
+}, {
+    "base_text": "level _d_ _s_ (_d_/_d_ charges)",
+    "prop_name": "skill_charges"
+}, {
+    "base_text": "+_d_ to amazon skill levels",
+    "prop_name": "amazon_skills",
+    "nip_names": ["itemaddamazonskills"]
+}, {
+    "base_text": "+_d_ to sorceress skill levels",
+    "prop_name": "sorceress_skills",
+    "nip_names": ["itemaddsorceressskills"]
+}, {
+    "base_text": "+_d_ to necromancer skill levels",
+    "prop_name": "necromancer_skills",
+    "nip_names": ["itemaddnecromancerskills"]
+}, {
+    "base_text": "+_d_ to paladin skill levels",
+    "prop_name": "paladin_skills",
+    "nip_names": ["itemaddpaladinskills"]
+}, {
+    "base_text": "+_d_ to barbarian skill levels",
+    "prop_name": "barbarian_skills",
+    "nip_names": ["itemaddbarbarianskills"]
+}, {
+    "base_text": "+_d_ to druid skill levels",
+    "prop_name": "druid_skills",
+    "nip_names": ["itemadddruidskills"]
+}, {
+    "base_text": "+_d_ to assassin skill levels",
+    "prop_name": "assassin_skills",
+    "nip_names": ["itemaddassassinskills"]
+}, {
+    "base_text": "all resistances +_d_",
+    "prop_name": "resist_all"
+}, {
+    "base_text": "+_d_% to maximum fire resist",
+    "prop_name": "resist_fire_max_percent",
+    "nip_names": ["maxfireresist"]
+}, {
+    "base_text": "+_d_% to maximum lightning resist",
+    "prop_name": "resist_lightning_max_percent",
+    "nip_names": ["maxlightresist"]
+}, {
+    "base_text": "+_d_% to maximum poison resist",
+    "prop_name": "resist_poison_max_percent",
+    "nip_names": ["maxpoisonresist"]
+}, {
+    "base_text": "+_d_% to maximum magic resist",
+    "prop_name": "resist_magic_max_percent",
+    "nip_names": ["maxmagicresist"]
+}, {
+    "base_text": "+_d_ to all skills",
+    "prop_name": "all_skills",
+    "nip_names": ["item_allskills", "itemallskills"]
+}, {
+    "base_text": "level _d_ _s_ when equipped",
+    "prop_name": "skill_when_equipped"
+}, {
+    "base_text": "+_d_ to _s_ (_s_ only)",
+    "prop_name": "class_skill",
+    "nip_names": ["item_addclassskills", "itemaddclassskills"]
+}, {
+    "base_text": "+_d_ to _s_",
+    "prop_name": "skill"
+}, {
+    "base_text": "_d_% chance to cast level _d_ _s_ on attack",
+    "prop_name": "skill_chance_percent_on_attack"
+}, {
+    "base_text": "_d_% chance to cast level _d_ _s_ when you die",
+    "prop_name": "skill_chance_percent_when_you_die"
+}, {
+    "base_text": "_d_% chance to cast level _d_ _s_ on striking",
+    "prop_name": "skill_chance_percent_on_striking"
+}, {
+    "base_text": "_d_% chance to cast level _d_ _s_ when you level-up",
+    "prop_name": "skill_chance_percent_on_levelup"
+}, {
+    "base_text": "_d_% chance to cast level _d_ _s_ when you kill an enemy",
+    "prop_name": "skill_chance_percent_on_enemy_kill"
+}, {
+    "base_text": "_d_% reanimate as: _s_",
+    "prop_name": "reanimate_chance_type"
+}, {
+    "base_text": "half freeze duration",
+    "prop_name": "half_freeze_duration"
+}, {
+    "base_text": "cannot be frozen",
+    "prop_name": "cannot_be_frozen"
+}, {
+    "base_text": "heal stamina plus _d_%",
+    "prop_name": "stamina_heal_percent",
+    "nip_names": ["staminarecoverybonus"]
+}, {
+    "base_text": "hit blinds target +_d_",
+    "prop_name": "hit_blinds_target"
+}, {
+    "base_text": "ignore target's defense",
+    "prop_name": "ignore_target_defense"
+}, {
+    "base_text": "_d_% increased chance of blocking",
+    "prop_name": "blocking_chance_percent"
+}, {
+    "base_text": "indestructible",
+    "prop_name": "indestructible"
+}, {
+    "base_text": "+_d_ life after each demon kill",
+    "prop_name": "after_kill_life_demon"
+}, {
+    "base_text": "+_d_ to mana after each kill",
+    "prop_name": "after_kill_mana"
+}, {
+    "base_text": "_d_% slower stamina drain",
+    "prop_name": "stamina_drain_slower_percent"
+}, {
+    "base_text": "regenerate mana _d_%",
+    "prop_name": "mana_regenerate_percent",
+    "nip_names": ["manarecoverybonus"]
+}, {
+    "base_text": "replenish life +_d_",
+    "prop_name": "life_replenish",
+    "nip_names": ["hpregen"]
+}, {
+    "base_text": "knockback",
+    "prop_name": "knockback",
+    "nip_names": ["itemknockback"]
+}, {
+    "base_text": "prevent monster heal",
+    "prop_name": "prevent_monster_heal"
+}, {
+    "base_text": "slain monsters rest in peace",
+    "prop_name": "slain_monsters_rest_in_peace"
+}, {
+    "base_text": "throwable",
+    "prop_name": "throwable"
+}, {
+    "base_text": "slows target by _d_%",
+    "prop_name": "slows_target_percent"
+}, {
+    "base_text": "-_d_% to enemy cold resistance",
+    "prop_name": "resist_cold_enemy_percent"
+}, {
+    "base_text": "+_d_% to fire skill damage",
+    "prop_name": "skill_fire_damage_percent"
+}, {
+    "base_text": "+_d_% to lightning skill damage",
+    "prop_name": "skill_lightning_damage_percent"
+}, {
+    "base_text": "+_d_% to cold skill damage",
+    "prop_name": "skill_cold_damage_percent"
+}, {
+    "base_text": "-_d_% to enemy fire resistance",
+    "prop_name": "resist_fire_enemy_percent"
+}, {
+    "base_text": "-_d_% to enemy lightning resistance",
+    "prop_name": "resist_lightning_enemy_percent"
+}, {
+    "base_text": "damage reduced by _d_",
+    "prop_name": "damage_reduced",
+    "nip_names": ["normaldamagereduction"]
+}, {
+    "base_text": "-_d_% to enemy poison resistance",
+    "prop_name": "resist_poison_enemy_percent"
+}, {
+    "base_text": "+_d_% to poison skill damage",
+    "prop_name": "skill_poison_percent"
+}, {
+    "base_text": "piercing attack",
+    "prop_name": "piercing_attack"
+}, {
+    "base_text": "fire absorb _d_%",
+    "prop_name": "absorb_fire_percent"
+}, {
+    "base_text": "lightning absorb _d_%",
+    "prop_name": "absorb_lightning_percent"
+}, {
+    "base_text": "cold absorb _d_%",
+    "prop_name": "absorb_cold_percent"
+}, {
+    "base_text": "magic absorb _d_%",
+    "prop_name": "absorb_magic_percent"
+}, {
+    "base_text": "+_d_ fire absorb",
+    "prop_name": "absorb_fire"
+}, {
+    "base_text": "+_d_ lightning absorb",
+    "prop_name": "absorb_lightning"
+}, {
+    "base_text": "+_d_ cold absorb",
+    "prop_name": "absorb_cold"
+}, {
+    "base_text": "+_d_ magic absorb",
+    "prop_name": "absorb_magic"
+}, {
+    "base_text": "hit causes monster to flee _d_%",
+    "prop_name": "hit_causes_monster_to_flee"
+}, {
+    "base_text": "+_d_ to attack rating against undead",
+    "prop_name": "attack_rating_against_undead"
+}, {
+    "base_text": "+_d_ to attack rating against demons",
+    "prop_name": "attack_rating_against_demons"
+}, {
+    "base_text": "+_d_ to attack rating",
+    "prop_name": "attack_rating",
+    "nip_names": ["tohit"]
+}, {
+    "base_text": "_d_% bonus to attack rating",
+    "prop_name": "attack_rating_percent"
+}, {
+    "base_text": "fires magic arrows",
+    "prop_name": "fires_magic_arrows"
+}, {
+    "base_text": "fires explosive arrows or bolts",
+    "prop_name": "fires_explosive_arrows_or_bolts"
+}, {
+    "base_text": "attacker takes damage of _d_",
+    "prop_name": "attacker_takes_damage",
+    "nip_names": ["item_attackertakesdamage"]
+}, {
+    "base_text": "attacker takes lightning damage of _d_",
+    "prop_name": "attacker_takes_damage_lightning"
+}, {
+    "base_text": "_d_% chance of open wounds",
+    "prop_name": "open_wounds_percent"
+}, {
+    "base_text": "_d_% deadly strike",
+    "prop_name": "deadly_strike_percent"
+}, {
+    "base_text": "_d_% chance of crushing blow",
+    "prop_name": "crushing_blow_percent"
+}, {
+    "base_text": "-_d_% target defense",
+    "prop_name": "defense_target_percent"
+}, {
+    "base_text": "adds _d_-_d_ damage",
+    "prop_name": "damage_min_max"
+}, {
+    "base_text": "_d_% damage taken goes to mana",
+    "prop_name": "damage_taken_mana"
+}, {
+    "base_text": "adds _d_-_d_ cold damage",
+    "prop_name": "damage_cold_min_max"
+}, {
+    "base_text": "+_d_% damage to undead",
+    "prop_name": "damage_to_undead_percent"
+}, {
+    "base_text": "+_d_% damage to demons",
+    "prop_name": "damage_to_demons_percent"
+}, {
+    "base_text": "damage +_d_",
+    "prop_name": "damage"
+}, {
+    "base_text": "+_d_% enhanced damage",
+    "prop_name": "damage_enhanced_percent",
+    "nip_names": ["itemmindamagepercent", "enhanceddamage"]
+}, {
+    "base_text": "+_d_ to maximum cold damage",
+    "prop_name": "damage_cold_max"
+}, {
+    "base_text": "adds _d_-_d_ lightning damage",
+    "prop_name": "damage_lightning_min_max"
+}, {
+    "base_text": "adds _d_-_d_ fire damage",
+    "prop_name": "damage_fire_min_max"
+}, {
+    "base_text": "+_d_ kick damage",
+    "prop_name": "damage_kick"
+}, {
+    "base_text": "+_d_ to maximum damage",
+    "prop_name": "damage_max",
+    "nip_names": ["maxdamage"]
+}, {
+    "base_text": "+_d_ defense vs. missile",
+    "prop_name": "defense_vs_missile",
+    "nip_names": ["armorclassvsmissile"]
+}, {
+    "base_text": "+_d_ defense vs. melee",
+    "prop_name": "defense_vs_melee",
+    "nip_names": ["armorclassvshth"]
+}, {
+    "base_text": "+_d_ poison damage over _d_ seconds",
+    "prop_name": "damage_poison_over_time"
+}, {
+    "base_text": "adds _d_-_d_ magic damage",
+    "prop_name": "damage_magic_min_max"
+}, {
+    "base_text": "+_d_ to minimum damage",
+    "prop_name": "damage_min",
+    "nip_names": ["mindamage"]
+}, {
+    "base_text": "+_d_ to minimum lightning damage",
+    "prop_name": "damage_lightning_min",
+    "nip_names": ["lightmindam"]
+}, {
+    "base_text": "+_d_ to maximum lightning damage",
+    "prop_name": "damage_lightning_max",
+    "nip_names": ["lightmaxdam"]
+}, {
+    "base_text": "+_d_ to minimum poison damage",
+    "prop_name": "damage_poison_min",
+    "nip_names": ["poisonmindam"]
+}, {
+    "base_text": "+_d_ to maximum poison damage",
+    "prop_name": "damage_poison_max",
+    "nip_names": ["poisonmaxdam"]
+}, {
+    "base_text": "_d_% better chance of getting magic items",
+    "prop_name": "magic_find_percent",
+    "nip_names": ["item_magicbonus, itemmagicbonus"]
+}, {
+    "base_text": "_d_% extra gold from monsters",
+    "prop_name": "extra_gold_percent",
+    "nip_names": ["item_goldbonus", "itemgoldbonus"]
+}, {
+    "base_text": "+_d_% to experience gained",
+    "prop_name": "experience_gain_percent",
+    "nip_names": ["item_addexperience", "itemaddexperience"]
+}, {
+    "base_text": "+_d_ life after each kill",
+    "prop_name": "after_kill_life",
+    "nip_names": ["item_healafterkill"]
+}, {
+    "base_text": "+_d_ defense",
+    "prop_name": "defense_bonus",
+    "nip_names": ["plusdefense"]
+}, {
+    "base_text": "+_d_% enhanced defense",
+    "prop_name": "defense_enhanced_percent",
+    "nip_names": ["armorpercent", "enhanceddefense"]
+}, {
+    "base_text": "-_d_ to monster defense per hit",
+    "prop_name": "defense_monster_per_hit"
+}, {
+    "base_text": "requirements +_d_%",
+    "prop_name": "requirements",
+    "nip_names": ["item_req_percent", "itemreqpercent"]
+}, {
+    "base_text": "repairs _d_ durability in _d_ seconds",
+    "prop_name": "repair_durability"
+}, {
+    "base_text": "replenishes quantity",
+    "prop_name": "replenishes_quantity"
+}, {
+    "base_text": "increased stack size",
+    "prop_name": "increased_stack_size"
+}, {
+    "base_text": "+_d_ to light radius",
+    "prop_name": "light_radius",
+    "nip_names": ["item_lightradius", "itemlightradius"]
+}, {
+    "base_text": "reduces all vendor prices _d_%",
+    "prop_name": "reduce_vendor_prices",
+    "nip_names": ["itemreducedprices", "item_reducedprices"]
+}, {
+    "base_text": "freezes target +_d_",
+    "prop_name": "freeze_target"
+}, {
+    "base_text": "+_d_ to magic arrow",
+    "prop_name": "zon_magic_arrow"
+}, {
+    "base_text": "+_d_ to fire arrow",
+    "prop_name": "zon_fire_arrow"
+}, {
+    "base_text": "+_d_ to inner sight",
+    "prop_name": "zon_inner_sight"
+}, {
+    "base_text": "+_d_ to critical strike",
+    "prop_name": "zon_critical_strike"
+}, {
+    "base_text": "+_d_ to jab",
+    "prop_name": "zon_jab"
+}, {
+    "base_text": "+_d_ to cold arrow",
+    "prop_name": "zon_cold_arrow"
+}, {
+    "base_text": "+_d_ to multiple shot",
+    "prop_name": "zon_multiple_shot"
+}, {
+    "base_text": "+_d_ to dodge",
+    "prop_name": "zon_dodge"
+}, {
+    "base_text": "_d_+ to power strike",
+    "prop_name": "zon_power_strike"
+}, {
+    "base_text": "+_d_ to poison javelin",
+    "prop_name": "zon_poison_javelin"
+}, {
+    "base_text": "+_d_ to exploding arrow",
+    "prop_name": "zon_exploding_arrow"
+}, {
+    "base_text": "+_d_ to slow missiles",
+    "prop_name": "zon_slow_missiles"
+}, {
+    "base_text": "+_d_ to avoid",
+    "prop_name": "zon_avoid"
+}, {
+    "base_text": "+_d_ to impale",
+    "prop_name": "zon_impale"
+}, {
+    "base_text": "+_d_ to lightning bolt",
+    "prop_name": "zon_lightning_bolt"
+}, {
+    "base_text": "+_d_ to ice arrow",
+    "prop_name": "zon_ice_arrow"
+}, {
+    "base_text": "+_d_ to guided arrow",
+    "prop_name": "zon_guided_arrow"
+}, {
+    "base_text": "+_d_ to penetrate",
+    "prop_name": "zon_penetrate"
+}, {
+    "base_text": "+_d_ to charged strike",
+    "prop_name": "zon_charged_strike"
+}, {
+    "base_text": "+_d_ to plague javelin",
+    "prop_name": "zon_plague_javelin"
+}, {
+    "base_text": "+_d_ to strafe",
+    "prop_name": "zon_strafe"
+}, {
+    "base_text": "+_d_ to immolation arrow",
+    "prop_name": "zon_immolation_arrow"
+}, {
+    "base_text": "+_d_ to decoy",
+    "prop_name": "zon_decoy"
+}, {
+    "base_text": "+_d_ to evade",
+    "prop_name": "zon_evade"
+}, {
+    "base_text": "+_d_ to fend",
+    "prop_name": "zon_fend"
+}, {
+    "base_text": "+_d_ to freezing arrow",
+    "prop_name": "zon_freezing_arrow"
+}, {
+    "base_text": "+_d_ to valkyrie",
+    "prop_name": "zon_valkyrie"
+}, {
+    "base_text": "+_d_ to pierce",
+    "prop_name": "zon_pierce"
+}, {
+    "base_text": "+_d_ to lightning strike",
+    "prop_name": "zon_lightning_strike"
+}, {
+    "base_text": "+_d_ to lightning fury",
+    "prop_name": "zon_lightning_fury"
+}, {
+    "base_text": "+_d_ to fire bolt",
+    "prop_name": "sorc_fire_bolt"
+}, {
+    "base_text": "+_d_ to warmth",
+    "prop_name": "sorc_warmth"
+}, {
+    "base_text": "+_d_ to charged bolt",
+    "prop_name": "sorc_charged_bolt"
+}, {
+    "base_text": "+_d_ to ice bolt",
+    "prop_name": "sorc_ice_bolt"
+}, {
+    "base_text": "+_d_ to frozen armor",
+    "prop_name": "sorc_frozen_armor"
+}, {
+    "base_text": "+_d_ to inferno",
+    "prop_name": "sorc_inferno"
+}, {
+    "base_text": "+_d_ to static field",
+    "prop_name": "sorc_static_field"
+}, {
+    "base_text": "+_d_ to telekinesis",
+    "prop_name": "sorc_telekinesis"
+}, {
+    "base_text": "+_d_ to frost nova",
+    "prop_name": "sorc_frost_nova"
+}, {
+    "base_text": "+_d_ to ice blast",
+    "prop_name": "sorc_ice_blast"
+}, {
+    "base_text": "+_d_ to blaze",
+    "prop_name": "sorc_blaze"
+}, {
+    "base_text": "+_d_ to fire ball",
+    "prop_name": "sorc_fire_ball"
+}, {
+    "base_text": "+_d_ to nova",
+    "prop_name": "sorc_nova"
+}, {
+    "base_text": "+_d_ to lightning",
+    "prop_name": "sorc_lightning"
+}, {
+    "base_text": "+_d_ to shiver armor",
+    "prop_name": "sorc_shiver_armor"
+}, {
+    "base_text": "+_d_ to fire wall",
+    "prop_name": "sorc_fire_wall"
+}, {
+    "base_text": "+_d_ to enchant",
+    "prop_name": "sorc_enchant"
+}, {
+    "base_text": "+_d_ to chain lightning",
+    "prop_name": "sorc_chain_lightning"
+}, {
+    "base_text": "+_d_ to teleport",
+    "prop_name": "sorc_teleport"
+}, {
+    "base_text": "+_d_ to glacial spike",
+    "prop_name": "sorc_glacial_spike"
+}, {
+    "base_text": "+_d_ to meteor",
+    "prop_name": "sorc_meteor"
+}, {
+    "base_text": "+_d_ to thunder storm",
+    "prop_name": "sorc_thunder_storm"
+}, {
+    "base_text": "+_d_ to energy shield",
+    "prop_name": "sorc_energy_shield"
+}, {
+    "base_text": "+_d_ to blizzard",
+    "prop_name": "sorc_blizzard"
+}, {
+    "base_text": "+_d_ to chilling armor",
+    "prop_name": "sorc_chilling_armor"
+}, {
+    "base_text": "+_d_ to fire mastery",
+    "prop_name": "sorc_fire_mastery"
+}, {
+    "base_text": "+_d_ to hydra",
+    "prop_name": "sorc_hydra"
+}, {
+    "base_text": "+_d_ to lightning mastery",
+    "prop_name": "sorc_lightning_mastery"
+}, {
+    "base_text": "+_d_ to frozen orb",
+    "prop_name": "sorc_frozen_orb"
+}, {
+    "base_text": "+_d_ to cold mastery",
+    "prop_name": "sorc_cold_mastery"
+}, {
+    "base_text": "+_d_ to amplify damage",
+    "prop_name": "necro_amplify_damage"
+}, {
+    "base_text": "+_d_ to teeth",
+    "prop_name": "necro_teeth"
+}, {
+    "base_text": "+_d_ to bone armor",
+    "prop_name": "necro_bone_armor"
+}, {
+    "base_text": "+_d_ to skeleton mastery",
+    "prop_name": "necro_skeleton_mastery"
+}, {
+    "base_text": "+_d_ to raise skeleton",
+    "prop_name": "necro_raise_skeleton"
+}, {
+    "base_text": "+_d_ to dim vision",
+    "prop_name": "necro_dim_vision"
+}, {
+    "base_text": "+_d_ to weaken",
+    "prop_name": "necro_weaken"
+}, {
+    "base_text": "+_d_ to poison dagger",
+    "prop_name": "necro_poison_dagger"
+}, {
+    "base_text": "+_d_ to corpse explosion",
+    "prop_name": "necro_corpse_explosion"
+}, {
+    "base_text": "+_d_ to clay golem",
+    "prop_name": "necro_clay_golem"
+}, {
+    "base_text": "+_d_ to iron maiden",
+    "prop_name": "necro_iron_maiden"
+}, {
+    "base_text": "+_d_ to terror",
+    "prop_name": "necro_terror"
+}, {
+    "base_text": "+_d_ to bone wall",
+    "prop_name": "necro_bone_wall"
+}, {
+    "base_text": "+_d_ to golem mastery",
+    "prop_name": "necro_golem_mastery"
+}, {
+    "base_text": "+_d_ to raise skeletal mage",
+    "prop_name": "necro_raise_skeletal_mage"
+}, {
+    "base_text": "+_d_ to confuse",
+    "prop_name": "necro_confuse"
+}, {
+    "base_text": "+_d_ to life tap",
+    "prop_name": "necro_life_tap"
+}, {
+    "base_text": "+_d_ to poison explosion",
+    "prop_name": "necro_poison_explosion"
+}, {
+    "base_text": "+_d_ to bone spear",
+    "prop_name": "necro_bone_spear"
+}, {
+    "base_text": "+_d_ to blood golem",
+    "prop_name": "necro_blood_golem"
+}, {
+    "base_text": "+_d_ to attract",
+    "prop_name": "necro_attract"
+}, {
+    "base_text": "+_d_ to decrepify",
+    "prop_name": "necro_decrepify"
+}, {
+    "base_text": "+_d_ to bone prison",
+    "prop_name": "necro_bone_prison"
+}, {
+    "base_text": "+_d_ to summon resist",
+    "prop_name": "necro_summon_resist"
+}, {
+    "base_text": "+_d_ to iron golem",
+    "prop_name": "necro_iron_golem"
+}, {
+    "base_text": "+_d_ to lower resist",
+    "prop_name": "necro_lower_resist"
+}, {
+    "base_text": "+_d_ to poison nova",
+    "prop_name": "necro_poison_nova"
+}, {
+    "base_text": "+_d_ to bone spirit",
+    "prop_name": "necro_bone_spirit"
+}, {
+    "base_text": "+_d_ to fire golem",
+    "prop_name": "necro_fire_golem"
+}, {
+    "base_text": "+_d_ to revive",
+    "prop_name": "necro_revive"
+}, {
+    "base_text": "+_d_ to sacrifice",
+    "prop_name": "pal_sacrifice"
+}, {
+    "base_text": "+_d_ to smite",
+    "prop_name": "pal_smite"
+}, {
+    "base_text": "+_d_ to might",
+    "prop_name": "pal_might"
+}, {
+    "base_text": "+_d_ to prayer",
+    "prop_name": "pal_prayer"
+}, {
+    "base_text": "+_d_ to resist fire",
+    "prop_name": "pal_resist_fire"
+}, {
+    "base_text": "+_d_ to holy bolt",
+    "prop_name": "pal_holy_bolt"
+}, {
+    "base_text": "+_d_ to holy fire",
+    "prop_name": "pal_holy_fire"
+}, {
+    "base_text": "+_d_ to thorns",
+    "prop_name": "pal_thorns"
+}, {
+    "base_text": "+_d_ to defiance",
+    "prop_name": "pal_defiance"
+}, {
+    "base_text": "+_d_ to resist cold",
+    "prop_name": "pal_resist_cold"
+}, {
+    "base_text": "+_d_ to zeal",
+    "prop_name": "pal_zeal"
+}, {
+    "base_text": "+_d_ to charge",
+    "prop_name": "pal_charge"
+}, {
+    "base_text": "+_d_ to blessed aim",
+    "prop_name": "pal_blessed_aim"
+}, {
+    "base_text": "+_d_ to cleansing",
+    "prop_name": "pal_cleansing"
+}, {
+    "base_text": "+_d_ to resist lightning",
+    "prop_name": "pal_resist_lightning"
+}, {
+    "base_text": "+_d_ to vengeance",
+    "prop_name": "pal_vengeance"
+}, {
+    "base_text": "+_d_ to blessed hammer",
+    "prop_name": "pal_blessed_hammer"
+}, {
+    "base_text": "+_d_ to concentration",
+    "prop_name": "pal_concentration"
+}, {
+    "base_text": "+_d_ to holy freeze",
+    "prop_name": "pal_holy_freeze"
+}, {
+    "base_text": "+_d_ to vigor",
+    "prop_name": "pal_vigor"
+}, {
+    "base_text": "+_d_ to conversion",
+    "prop_name": "pal_conversion"
+}, {
+    "base_text": "+_d_ to holy shield",
+    "prop_name": "pal_holy_shield"
+}, {
+    "base_text": "+_d_ to holy shock",
+    "prop_name": "pal_holy_shock"
+}, {
+    "base_text": "+_d_ to sanctuary",
+    "prop_name": "pal_sanctuary"
+}, {
+    "base_text": "+_d_ to meditation",
+    "prop_name": "pal_meditation"
+}, {
+    "base_text": "+_d_ to fist of the heavens",
+    "prop_name": "pal_fist_of_the_heavens"
+}, {
+    "base_text": "+_d_ to fanaticism",
+    "prop_name": "pal_fanaticism"
+}, {
+    "base_text": "+_d_ to conviction",
+    "prop_name": "pal_conviction"
+}, {
+    "base_text": "+_d_ to redemption",
+    "prop_name": "pal_redemption"
+}, {
+    "base_text": "+_d_ to salvation",
+    "prop_name": "pal_salvation"
+}, {
+    "base_text": "+_d_ to bash",
+    "prop_name": "barb_bash"
+}, {
+    "base_text": "+_d_ to sword mastery",
+    "prop_name": "barb_sword_mastery"
+}, {
+    "base_text": "+_d_ to axe mastery",
+    "prop_name": "barb_axe_mastery"
+}, {
+    "base_text": "+_d_ to mace mastery",
+    "prop_name": "barb_mace_mastery"
+}, {
+    "base_text": "+_d_ to howl",
+    "prop_name": "barb_howl"
+}, {
+    "base_text": "+_d_ to find potion",
+    "prop_name": "barb_find_potion"
+}, {
+    "base_text": "+_d_ to leap",
+    "prop_name": "barb_leap"
+}, {
+    "base_text": "+_d_ to double swing",
+    "prop_name": "barb_double_swing"
+}, {
+    "base_text": "+_d_ to polearm mastery",
+    "prop_name": "barb_polearm_mastery"
+}, {
+    "base_text": "+_d_ to throwing mastery",
+    "prop_name": "barb_throwing_mastery"
+}, {
+    "base_text": "+_d_ to spear mastery",
+    "prop_name": "barb_spear_mastery"
+}, {
+    "base_text": "+_d_ to taunt",
+    "prop_name": "barb_taunt"
+}, {
+    "base_text": "+_d_ to shout",
+    "prop_name": "barb_shout"
+}, {
+    "base_text": "+_d_ to stun",
+    "prop_name": "barb_stun"
+}, {
+    "base_text": "+_d_ to double throw",
+    "prop_name": "barb_double_throw"
+}, {
+    "base_text": "+_d_ to increased stamina",
+    "prop_name": "barb_increased_stamina"
+}, {
+    "base_text": "+_d_ to find item",
+    "prop_name": "barb_find_item"
+}, {
+    "base_text": "+_d_ to leap attack",
+    "prop_name": "barb_leap_attack"
+}, {
+    "base_text": "+_d_ to concentrate",
+    "prop_name": "barb_concentrate"
+}, {
+    "base_text": "+_d_ to iron skin",
+    "prop_name": "barb_iron_skin"
+}, {
+    "base_text": "+_d_ to battle cry",
+    "prop_name": "barb_battle_cry"
+}, {
+    "base_text": "+_d_ to frenzy",
+    "prop_name": "barb_frenzy"
+}, {
+    "base_text": "+_d_ to increased speed",
+    "prop_name": "barb_increased_speed"
+}, {
+    "base_text": "+_d_ to battle orders",
+    "prop_name": "barb_battle_orders"
+}, {
+    "base_text": "+_d_ to grim ward",
+    "prop_name": "barb_grim_ward"
+}, {
+    "base_text": "+_d_ to whirlwind",
+    "prop_name": "barb_whirlwind"
+}, {
+    "base_text": "+_d_ to berserk",
+    "prop_name": "barb_berserk"
+}, {
+    "base_text": "+_d_ to natural resistance",
+    "prop_name": "barb_natural_resistance"
+}, {
+    "base_text": "+_d_ to war cry",
+    "prop_name": "barb_war_cry"
+}, {
+    "base_text": "+_d_ to battle command",
+    "prop_name": "barb_battle_command"
+}, {
+    "base_text": "+_d_ to raven",
+    "prop_name": "druid_raven"
+}, {
+    "base_text": "+_d_ to poison creeper",
+    "prop_name": "druid_poison_creeper"
+}, {
+    "base_text": "+_d_ to werewolf",
+    "prop_name": "druid_werewolf"
+}, {
+    "base_text": "+_d_ to lycanthropy",
+    "prop_name": "druid_lycanthropy"
+}, {
+    "base_text": "+_d_ to firestorm",
+    "prop_name": "druid_firestorm"
+}, {
+    "base_text": "+_d_ to oak sage",
+    "prop_name": "druid_oak_sage"
+}, {
+    "base_text": "+_d_ to summon spirit wolf",
+    "prop_name": "druid_summon_spirit_wolf"
+}, {
+    "base_text": "+_d_ to werebear",
+    "prop_name": "druid_werebear"
+}, {
+    "base_text": "+_d_ to molten boulder",
+    "prop_name": "druid_molten_boulder"
+}, {
+    "base_text": "+_d_ to arctic blast",
+    "prop_name": "druid_arctic_blast"
+}, {
+    "base_text": "+_d_ to carrion vine",
+    "prop_name": "druid_carrion_vine"
+}, {
+    "base_text": "+_d_ to feral rage",
+    "prop_name": "druid_feral_rage"
+}, {
+    "base_text": "+_d_ to maul",
+    "prop_name": "druid_maul"
+}, {
+    "base_text": "+_d_ to fissure",
+    "prop_name": "druid_fissure"
+}, {
+    "base_text": "+_d_ to cyclone armor",
+    "prop_name": "druid_cyclone_armor"
+}, {
+    "base_text": "+_d_ to heart of wolverine",
+    "prop_name": "druid_heart_of_wolverine"
+}, {
+    "base_text": "+_d_ to summon dire wolf",
+    "prop_name": "druid_dire_wolf"
+}, {
+    "base_text": "+_d_ to rabies",
+    "prop_name": "druid_rabies"
+}, {
+    "base_text": "+_d_ to fire claws",
+    "prop_name": "druid_fire_claws"
+}, {
+    "base_text": "+_d_ to twister",
+    "prop_name": "druid_twister"
+}, {
+    "base_text": "+_d_ to solar creeper",
+    "prop_name": "druid_solar_creeper"
+}, {
+    "base_text": "+_d_ to hunger",
+    "prop_name": "druid_hunger"
+}, {
+    "base_text": "+_d_ to shock wave",
+    "prop_name": "druid_shock_wave"
+}, {
+    "base_text": "+_d_ to volcano",
+    "prop_name": "druid_volcano"
+}, {
+    "base_text": "+_d_ to tornado",
+    "prop_name": "druid_tornado"
+}, {
+    "base_text": "+_d_ to spirit of barbs",
+    "prop_name": "druid_spirit_of_barbs"
+}, {
+    "base_text": "+_d_ to summon grizzly",
+    "prop_name": "druid_summon_grizzly"
+}, {
+    "base_text": "+_d_ to fury",
+    "prop_name": "druid_fury"
+}, {
+    "base_text": "+_d_ to armageddon",
+    "prop_name": "druid_armageddon"
+}, {
+    "base_text": "+_d_ to hurricane",
+    "prop_name": "druid_hurricane"
+}, {
+    "base_text": "+_d_ to fire blast",
+    "prop_name": "ass_fire_blast"
+}, {
+    "base_text": "+_d_ to claw mastery",
+    "prop_name": "ass_claw_mastery"
+}, {
+    "base_text": "+_d_ to psychic hammer",
+    "prop_name": "ass_psychic_hammer"
+}, {
+    "base_text": "+_d_ to tiger strike",
+    "prop_name": "ass_tiger_strike"
+}, {
+    "base_text": "+_d_ to dragon talon",
+    "prop_name": "ass_dragon_talon"
+}, {
+    "base_text": "+_d_ to shock web",
+    "prop_name": "ass_shock_web"
+}, {
+    "base_text": "+_d_ to blade sentinel",
+    "prop_name": "ass_blade_sentinel"
+}, {
+    "base_text": "+_d_ to burst of speed",
+    "prop_name": "ass_burst_of_speed"
+}, {
+    "base_text": "+_d_ to fists of fire",
+    "prop_name": "ass_fists_of_fire"
+}, {
+    "base_text": "+_d_ to dragon claw",
+    "prop_name": "ass_dragon_claw"
+}, {
+    "base_text": "+_d_ to charged bolt sentry",
+    "prop_name": "ass_charged_bolt_sentry"
+}, {
+    "base_text": "+_d_ to wake of fire",
+    "prop_name": "ass_wake_of_fire"
+}, {
+    "base_text": "+_d_ to weapon block",
+    "prop_name": "ass_weapon_block"
+}, {
+    "base_text": "+_d_ to cloak of shadows",
+    "prop_name": "ass_cloak_of_shadows"
+}, {
+    "base_text": "+_d_ to cobra strike",
+    "prop_name": "ass_cobra_strike"
+}, {
+    "base_text": "+_d_ to blade fury",
+    "prop_name": "ass_blade_fury"
+}, {
+    "base_text": "+_d_ to fade",
+    "prop_name": "ass_fade"
+}, {
+    "base_text": "+_d_ to shadow warrior",
+    "prop_name": "ass_shadow_warrior"
+}, {
+    "base_text": "+_d_ to claws of thunder",
+    "prop_name": "ass_claws_of_thunder"
+}, {
+    "base_text": "+_d_ to dragon tail",
+    "prop_name": "ass_dragon_tail"
+}, {
+    "base_text": "+_d_ to lightning sentry",
+    "prop_name": "ass_lightning_sentry"
+}, {
+    "base_text": "+_d_ to wake of inferno",
+    "prop_name": "ass_wake_of_inferno"
+}, {
+    "base_text": "+_d_ to mind blast",
+    "prop_name": "ass_mind_blast"
+}, {
+    "base_text": "+_d_ to blades of ice",
+    "prop_name": "ass_blades_of_ice"
+}, {
+    "base_text": "+_d_ to dragon flight",
+    "prop_name": "ass_dragon_flight"
+}, {
+    "base_text": "+_d_ to death sentry",
+    "prop_name": "ass_death_sentry"
+}, {
+    "base_text": "+_d_ to blade shield",
+    "prop_name": "ass_blade_shield"
+}, {
+    "base_text": "+_d_ to venom",
+    "prop_name": "ass_venom"
+}, {
+    "base_text": "+_d_ to shadow master",
+    "prop_name": "ass_shadow_master"
+}, {
+    "base_text": "+_d_ to phoenix strike",
+    "prop_name": "ass_phoenix_strike"
+},

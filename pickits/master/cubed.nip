@@ -1,0 +1,32 @@
+//##########cube socketed##########
+[name] == greathauberk && [quality] < superior && [flag] == ethereal # [defense] >= 1100 && [sockets] == 4						//fortitude, stone
+[name] == boneweave && [quality] < superior && [flag] == ethereal # [defense] >= 1100 && [sockets] == 4							//fortitude, stone
+[name] == archonplate && [quality] < superior && [flag] == ethereal # [defense] >= 1100 && [sockets] == 4						//fortitude, stone
+[name] == krakenshell && [quality] < superior && [flag] == ethereal # [defense] >= 1100 && [sockets] == 4						//fortitude, stone
+[name] == hellforgeplate && [quality] < superior && [flag] == ethereal # [defense] >= 1100 && [sockets] == 4					//fortitude, stone
+[name] == sacredarmor && [quality] < superior && [flag] == ethereal # [defense] >= 1299 && ([sockets] == 2 || [sockets] == 4)	//prudence, fortitude, stone
+[name] == monarch && [quality] < superior && [flag] == ethereal # [defense] >= 320 && ([sockets] == 3 || [sockets] == 4)		//dream, sanctuary, spirit, phoenix
+
+//##########upped items##########
+[name] == sallet && [quality] == unique && [flag] == ethereal # [itemmagicbonus] == 50																									//ethereal tarnhelm upped
+[name] == hydraskull && [quality] == unique && [flag] == ethereal # [itemmagicbonus] == 50																								//ethereal tarnhelm 2x upped
+[name] == sharkskingloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 20 && [maxhp] == 40																		//bloodfist upped
+[name] == vampirebonegloves && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 20 && [defense] >= 85 && [maxhp] == 40													//bloodfist 2x upped
+[name] == battlegauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 30 && [fcr] == 20																			//magefist upped
+[name] == crusadergauntlets && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 30 && [defense] >= 96																	//magefist 2x upped
+[name] == demonhideboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 20 && [fireresist] == 45																	//hotspur upped
+[name] == wyrmhideboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 20 && [defense] >= 80																		//hotspur 2x upped
+[name] == wyrmhideboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 20 && [defense] >= 80																		//infernostride upped
+[name] == scarabshellboots && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 100 && [maxhp] >= 65 && [defense] >= 200													//waterwalk upped
+[name] == myrmidongreaves && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 195 && [defense] >= 200																	//gore rider upped
+[name] == wyrmhide && [quality] == unique && [flag] != ethereal # [coldresist]+[fireresist]+[lightresist]+[poisonresist] == 140 && [magicdamagereduction] == 13 && [defense] >= 1000	//skin of the vipermagi upped
+[name] == boneweave && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 210 && [defense] >= 2200																		//ethereal shaftstop upped
+[name] == diadem && [quality] == unique # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 280																					//kira's guardian upped
+[name] == ghostspear && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 200																								//ethereal hone sundan upped
+[name] == stalagmite && [quality] == unique # [enhanceddamage] >= 290																													//ribcracker upped
+[name] == polishedwand && [quality] == unique && [flag] == ethereal																														//ethereal suicide branch upped
+[name] == matriarchaljavelin && [quality] == unique && [flag] == ethereal # [enhanceddamage] >= 150 && [lifeleech] >= 5																	//ethereal titan's revenge upped
+[name] == guardiancrown && [quality] == unique # [enhanceddefense] >= 190 && [lifeleech] >= 3																							//arreat's face upped
+[name] == bloodlordskull && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 195 && [defense] >= 400																	//homunculus upped
+[name] == zakarumshield && [quality] == unique && [flag] != ethereal # [enhanceddefense] >= 190 && [defense] >= 560																		//herald of zakarum upped
+[name] == zakarumshield && [quality] == unique && [flag] == ethereal # [enhanceddefense] >= 190 && [defense] >= 800																		//ethreal herald of zakarum upped

@@ -1,0 +1,174 @@
+//-----------------------------------------------------------------------------------------------------
+//		this is a list of white and socketed items that you want your bot to pick up.
+//
+//		any item on this list which starts with //[ will not be picked up at all
+//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
+// -----------------------------------------------------------------------------------------------------
+	
+//white non-eth armor
+[name] == ringmail && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3)														//enigma
+//[name] == ringmail && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [sockets] == 3																			//enigma
+//[name] == breastplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3)													//enigma
+[name] == breastplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [sockets] == 3																		//enigma
+[name] == lightplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3)														//enigma
+//[name] == lightplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [sockets] == 3																		//enigma
+//[name] == gothicplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)								//enigma, coh
+[name] == gothicplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 3 || [sockets] == 4)													//enigma, coh
+//[name] == gothicplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [sockets] == 3																		//enigma
+//[name] == fullplatemail && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)								//enigma, coh
+[name] == fullplatemail && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 3 || [sockets] == 4)													//enigma, coh
+//[name] == fullplatemail && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [sockets] == 3																	//enigma
+//[name] == ancientarmor && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)								//enigma, coh
+[name] == ancientarmor && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 3 || [sockets] == 4)													//enigma, coh
+//[name] == ancientarmor && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [sockets] == 3																		//enigma
+[name] == mageplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 15 && ([sockets] == 0 || [sockets] == 3)														//enigma
+//[name] == mageplate && [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 15 && [sockets] == 3																		//enigma
+//[name] == duskshroud && [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 15 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)									//enigma, coh, fortitude
+[name] == duskshroud && [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 15 && ([sockets] == 3 || [sockets] == 4)														//enigma, coh, fortitude
+//[name] == duskshroud && [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 15 && [sockets] == 3																		//enigma
+[name] == wyrmhide && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 3 || [sockets] == 4)														//enigma, coh, fortitude
+[name] == scarabhusk && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 3 || [sockets] == 4)														//enigma, coh, fortitude
+//[name] == wirefleece && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)									//enigma, coh, fortitude
+[name] == wirefleece && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 3 || [sockets] == 4)														//enigma, coh, fortitude
+[name] == archonplate && [quality] <= superior && [flag] != ethereal # (([enhanceddefense] >= 15 && ([sockets] == 0 || [sockets] == 4)) || ([enhanceddefense] >= 10 && [sockets] == 3))	//enigma, coh, fortitude
+[name] == sacredarmor && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 4)													//fortitude												//fortitude
+
+//white 0 socket ethereal armor
+//[name] == duskshroud && [quality] < superior && [flag] == ethereal # [defense] >= 700 && [sockets] == 0		//prudence, duress, fortitude, stone
+//[name] == wyrmhide && [quality] < superior && [flag] == ethereal # [defense] >= 700 && [sockets] == 0		//prudence, duress, fortitude, stone
+//[name] == scarabhusk && [quality] < superior && [flag] == ethereal # [defense] >= 700 && [sockets] == 0		//prudence, duress, fortitude, stone
+//[name] == wirefleece && [quality] < superior && [flag] == ethereal # [defense] >= 700 && [sockets] == 0		//prudence, duress, fortitude, stone
+//[name] == diamondmail && [quality] < superior && [flag] == ethereal # [defense] >= 700 && [sockets] == 0	//prudence, duress, fortitude, stone
+//[name] == loricatedmail && [quality] < superior && [flag] == ethereal # [defense] >= 710 && [sockets] == 0	//prudence, duress, fortitude, stone
+[name] == greathauberk && [quality] < superior && [flag] == ethereal # [defense] >= 710 && [sockets] == 0	//prudence, duress, fortitude, stone
+[name] == boneweave && [quality] < superior && [flag] == ethereal # [defense] >= 710 && [sockets] == 0		//prudence, duress, fortitude, stone
+[name] == balrogskin && [quality] < superior && [flag] == ethereal # [defense] >= 720 && [sockets] == 0		//prudence, duress, fortitude, stone
+[name] == archonplate && [quality] < superior && [flag] == ethereal # [defense] >= 700 && [sockets] == 0	//prudence, duress, fortitude, stone
+[name] == krakenshell && [quality] < superior && [flag] == ethereal # [defense] >= 730 && [sockets] == 0	//prudence, duress, fortitude, stone
+[name] == hellforgeplate && [quality] < superior && [flag] == ethereal # [defense] >= 730 && [sockets] == 0	//prudence, duress, fortitude, stone
+//[name] == lacqueredplate && [quality] < superior && [flag] == ethereal # [defense] >= 810 && [sockets] == 0	//prudence, duress, fortitude, stone
+//[name] == shadowplate && [quality] < superior && [flag] == ethereal # [defense] >= 835 && [sockets] == 0	//prudence, duress, fortitude, stone
+[name] == sacredarmor && [quality] < superior && [flag] == ethereal # [defense] >= 850 && [sockets] == 0	//prudence, duress, fortitude, stone
+
+//white shields
+[name] == crownshield && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)		//sanctuary, spirit, phoenix
+[name] == royalshield && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)		//sanctuary, spirit, phoenix
+[name] == sacredtarge && [quality] <= superior && [flag] != ethereal # [fireresist] >= 40 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)		//sanctuary, spirit, phoenix
+[name] == sacredtarge && [quality] < superior && [flag] == ethereal # [fireresist] >= 40 && [sockets] == 0																		//exile
+[name] == sacredtarge && [quality] < superior && [flag] == ethereal # [enhanceddamage] >= 60 && [sockets] == 0																	//exile
+[name] == sacredrondache && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)	//sanctuary, spirit, phoenix
+[name] == sacredrondache && [quality] < superior && [flag] == ethereal # [fireresist] >= 40 && [sockets] == 0																	//exile
+[name] == sacredrondache && [quality] < superior && [flag] == ethereal # [enhanceddamage] >= 60 && [sockets] == 0																//exile
+[name] == kurastshield && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)	//sanctuary. spirit, phoenix
+[name] == kurastshield && [quality] < superior && [flag] == ethereal # [fireresist] >= 40 && [sockets] == 0																		//exile
+[name] == kurastshield && [quality] < superior && [flag] == ethereal # [enhanceddamage] >= 60 && [sockets] == 0																	//exile
+[name] == zakarumshield && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)	//sanctuary, spirit, phoenix
+[name] == zakarumshield && [quality] < superior && [flag] == ethereal # [fireresist] >= 40 && [sockets] == 0																	//exile
+[name] == zakarumshield && [quality] < superior && [flag] == ethereal # [enhanceddamage] >= 60 && [sockets] == 0																//exile
+[name] == vortexshield && [quality] <= superior && [flag] != ethereal # [fireresist] >= 45 && [enhanceddefense] >= 0 && ([sockets] == 0 || [sockets] == 3 || [sockets] == 4)	//sanctuary, spirit, phoenix
+[name] == vortexshield && [quality] < superior && [flag] == ethereal # [fireresist] >= 35 && [sockets] == 0																		//exile
+[name] == vortexshield && [quality] < superior && [flag] == ethereal # [enhanceddamage] >= 60 && [sockets] == 0																	//exile
+[name] == towershield && [quality] == superior && [flag] != ethereal # [enhanceddefense] >= 15 && ([sockets] == 0 || [sockets] == 3)											//dream, sanctuary
+[name] == pavise && [quality] == superior && [flag] != ethereal # [enhanceddefense] >= 15 && [sockets] == 3																		//dream, sanctuary
+//[name] == trollnest && [quality] < superior && [flag] == ethereal # [defense] >= 250 && [sockets] == 0																			//dream
+[name] == trollnest && [quality] == superior && [flag] != ethereal # [enhanceddefense] >= 15 && [sockets] == 3																	//dream, sanctuary
+[name] == monarch && [quality] < superior && [flag] == ethereal # [defense] >= 215 && [sockets] == 0																			//spirit, phoenix
+[name] == monarch && [quality] <= superior && [flag] == ethereal # [enhanceddefense] >= 15 && ([sockets] == 0 || [sockets] == 4)												//spirit, phoenix
+[name] == monarch && [quality] <= superior && [flag] != ethereal # [enhanceddefense] >= 10 && ([sockets] == 0 || [sockets] == 4)												//spirit, phoenix
+//[name] == monarch && [quality] <= superior && [flag] != ethereal # [sockets] == 4																								//spirit, phoenix
+
+//white helms
+//[name] == grandcrown && [quality] < superior && [flag] == ethereal # [defense] >= 160 && [sockets] == 0								//dream
+//[name] == grandcrown && [quality] == superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3)	//dream
+//[name] == demonhead && [quality] < superior && [flag] == ethereal # [defense] >= 220 && [sockets] == 0								//dream
+//[name] == demonhead && [quality] == superior && [flag] != ethereal # [enhanceddefense] == 15 && ([sockets] == 0 || [sockets] == 3)	//dream
+//[name] == bonevisage && [quality] < superior && [flag] == ethereal # [defense] >= 215 && [sockets] == 0								//dream
+[name] == bonevisage && [quality] == superior && [flag] != ethereal # [enhanceddefense] >= 15 && ([sockets] == 0 || [sockets] == 3)	//dream
+//[name] == diadem && [quality] < superior && [flag] == ethereal # [defense] >= 85 && [sockets] == 0									//dream
+//([name] == diadem || [name] == circlet) && [quality] == superior && [flag] != ethereal # [sockets] == 0								//imbueable
+//[name] == diadem && [quality] == superior && [flag] != ethereal # [sockets] == 0													//imbueable
+
+//white grizzly helms
+[type] == pelt && [quality] <= superior && [flag] != ethereal # [skillsummongrizzly] == 3 && (([skilloaksage] >= 2) || ([skillsummondirewolf] >= 2) || ([skillsummonspiritwolf] >= 2)) && ([sockets] == 0 || [sockets] == 3)	//delirium
+
+//white tornado helms
+[type] == pelt && [quality] <= superior && [flag] != ethereal # [skilltornado] == 3 && (([skillcyclonearmor] >= 2) || ([skillhurricane] >= 2) || ([skilloaksage] >= 2)) && ([sockets] == 0 || [sockets] == 3)					//delirium
+
+//white weapons
+//[name] == doubleaxe && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 5)																			//cta
+//([name] == militarypick || [name] == waraxe) && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && [sockets] == 5																		//cta
+//[name] == warspike && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 5 || [sockets] == 6)															//death, botd
+//[name] == warspike && [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 15 && [sockets] == 5																								//grief
+//[name] == berserkeraxe && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 5 || [sockets] == 6)									//oath, death, botd
+//[name] == berserkeraxe && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 5 || [sockets] == 6)																				//death, botd
+//[name] == berserkeraxe && [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 6)																		//last wish
+//[name] == berserkeraxe && [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 1 && ([sockets] == 4 || [sockets] == 5)																			//hoj, grief
+//[name] == berserkeraxe && [quality] <= superior && [flag] != ethereal # [sockets] == 5																														//grief
+//[name] == gloriousaxe && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && [sockets] == 5																								//death
+[name] == decapitator && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 5)																			//death
+[name] == thundermaul && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 6)																			//botd
+[name] == crystalsword && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 4 || [sockets] == 5)																		//spirit, cta
+[name] == crystalsword && [quality] <= superior && [flag] == ethereal # ([sockets] == 4 || [sockets] == 5)																									//cta
+[name] == crystalsword && [quality] < superior && [flag] == ethereal # [sockets] == 0																														//cubing for sockets
+//([name] == broadsword || [name] == longsword) && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4)													//spirit
+//([name] == broadsword || [name] == longsword) && [quality] <= superior && [flag] == ethereal # [sockets] == 4																								//spirit
+[name] == phaseblade && [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 5 || [sockets] == 6)														//grief, last wish
+//[name] == balrogblade && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 ||[sockets] == 4)																			//oath
+[name] == colossusblade && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 6)																		//botd
+([name] == colossussword || [name] == zweihander) && [quality] <= superior && [flag] != ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 5)												//grief
+[name] == colossussword && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 5)																		//death
+[name] == flail && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 5)																//hoto, cta
+([name] == archonstaff || [name] == ghostspear || [name] == warpike) && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 6)							//botd
+//[name] == scythe && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && [sockets] == 4																									//infinity
+//[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4)																		//infinity, insight, pride
+//[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # ([sockets] == 0 || [sockets] == 4)																								//infinity, insight, pride
+//[name] == colossusvoulge && [quality] <= superior && [flag] == ethereal # [sockets] == 4																													//infinity, insight, pride
+//([name] == crypticaxe || [name] == thresher) && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 5)								//infinity, insight, pride, obedience, doom
+//([name] == crypticaxe || [name] == thresher) && [quality] <= superior && [flag] == ethereal # ([sockets] == 4 || [sockets] == 5)																			//infinity, insight, pride, obedience, doom
+[name] == greatpoleaxe && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 6)														//infinity, insight, pride, botd
+[name] == giantthresher && [quality] <= superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4)																		//infinity, insight, pride
+([name] == matriarchalpike || [name] == matriarchalspear) && [quality] <= superior && [flag] == ethereal # [javelinandspearskilltab] >= 3 && [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 6)	//botd
+([name] == grandmatronbow || [name] == matriarchalbow) && [quality] <= superior # [bowandcrossbowskilltab] == 3 && [enhanceddamage] >= 15 && ([sockets] == 4 || [sockets] == 5)								//brand, faith, harmony, ice, wrath, cta
+([name] == grandmatronbow || [name] == matriarchalbow) && [quality] <= superior # [bowandcrossbowskilltab] == 3 && ([sockets] == 4 || [sockets] == 5)														//brand, faith, harmony, ice, wrath, cta
+//[name] == greatbow && [quality] <= superior # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4)																									//brand, faith, harmony, ice, wrath
+//([name] == crusaderbow || [name] == diamondbow || [name] == hydrabow || [name] == shadowbow || [name] == wardbow) && [quality] <= superior # [enhanceddamage] >= 10 && [sockets] == 4						//brand, faith, harmony, ice, wrath
+//([name] == crusaderbow || [name] == hydrabow || [name] == shadowbow) && [quality] <= superior # [enhanceddamage] >= 15 && [sockets] == 6																	//botd
+
+//white es staves
+//([name] == gnarledstaff || [name] == battlestaff || [name] == cedarstaff || [name] == elderstaff || [name] == shillelagh || [name] == gothicstaff) && [quality] <= superior # [skillenergyshield] == 3 && [sockets] == 4								//memory
+//([name] == gnarledstaff || [name] == battlestaff || [name] == cedarstaff || [name] == elderstaff || [name] == shillelagh || [name] == gothicstaff) && [quality] <= superior # [skillenergyshield] == 3 && [skillchillingarmor] >= 1 && [sockets] == 4	//memory
+//([name] == gnarledstaff || [name] == battlestaff || [name] == cedarstaff || [name] == elderstaff || [name] == shillelagh || [name] == gothicstaff) && [quality] <= superior # [skillenergyshield] == 3 && [skillshiverarmor] >= 1 && [sockets] == 4		//memory
+//([name] == gnarledstaff || [name] == battlestaff || [name] == cedarstaff || [name] == elderstaff || [name] == shillelagh || [name] == gothicstaff) && [quality] <= superior # [skillenergyshield] == 3 && [skillthunderstorm] >= 1 && [sockets] == 4	//memory
+([name] == runestaff || [name] == warstaff || [name] == archonstaff) && [quality] <= superior # [skillenergyshield] == 3 && ([sockets] == 4 || [sockets] == 5)																							//memory, cta
+([name] == runestaff || [name] == warstaff || [name] == archonstaff) && [quality] <= superior # [skillenergyshield] == 3 && [skillchillingarmor] >= 1 && ([sockets] == 4 || [sockets] == 5)																//memory, cta
+([name] == runestaff || [name] == warstaff || [name] == archonstaff) && [quality] <= superior # [skillenergyshield] == 3 && [skillshiverarmor] >= 1 && ([sockets] == 4 || [sockets] == 5)																//memory, cta
+([name] == runestaff || [name] == warstaff || [name] == archonstaff) && [quality] <= superior # [skillenergyshield] == 3 && [skillthunderstorm] >= 1 && ([sockets] == 4 || [sockets] == 5)																//memory, cta
+
+//white wands
+//([name] == bonewand || [name] == grimwand || [name] == petrifiedwand || [name] == tombwand) && [quality] <= superior # [skillbonespear] >= 3 && ([skilldecrepify] >= 1 || [skillrevive] >= 1 || [skillbonespirit] >= 1 || [skillpoisonnova] >= 1) && [sockets] != 1										//white
+//([name] == bonewand || [name] == grimwand || [name] == petrifiedwand || [name] == tombwand) && [quality] <= superior # [skillbonespear] >= 3 && ([skilllowerresist] >= 1 || [skillamplifydamage] >= 1 || [skillironmaiden] >= 1 || [skilllifetap] >= 1) && [sockets] != 1								//white
+//([name] == bonewand || [name] == grimwand || [name] == petrifiedwand || [name] == tombwand) && [quality] <= superior # [skillbonespear] >= 3 && ([skillraiseskeleton] >= 1 || [skillskeletalmage] >= 1 || [skillfiregolem] >= 1) && [sockets] != 1														//white
+([name] == gravewand || [name] == polishedwand || [name] == ghostwand || [name] == lichwand || [name] == unearthedwand) && [quality] <= superior # [skillbonespear] >= 3 && ([skilldecrepify] >= 1 || [skillrevive] >= 1 || [skillbonespirit] >= 1 || [skillpoisonnova] >= 1) && [sockets] != 1			//white
+([name] == gravewand || [name] == polishedwand || [name] == ghostwand || [name] == lichwand || [name] == unearthedwand) && [quality] <= superior # [skillbonespear] >= 3 && ([skilllowerresist] >= 1 || [skillamplifydamage] >= 1 || [skillironmaiden] >= 1 || [skilllifetap] >= 1) && [sockets] != 1	//white
+([name] == gravewand || [name] == polishedwand || [name] == ghostwand || [name] == lichwand || [name] == unearthedwand) && [quality] <= superior # [skillbonespear] >= 3 && ([skillraiseskeleton] >= 1 || [skillskeletalmage] >= 1 || [skillfiregolem] >= 1) && [sockets] != 1							//white
+
+//white paladin sceptors
+//([name] == warscepter || [name] == divinescepter || [name] == caduceus) && [quality] <= superior # [skillfistoftheheavens]+[skillconviction] >= 4 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 5)		//hoj, cta
+//([name] == warscepter || [name] == divinescepter || [name] == caduceus) && [quality] <= superior # [skillholyshield] >= 1 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 5)								//fortitude, hoj, cta
+//([name] == warscepter || [name] == divinescepter || [name] == caduceus) && [quality] <= superior # [skillblessedhammer]+[skillconcentration] >= 4 && ([sockets] == 0 || [sockets] == 4 || [sockets] == 5)		//fortitude, cta
+[name] == caduceus && [quality] <= superior # ([skillfistoftheheavens] >= 1 || [skillconviction] >= 1 || [skillholyshield] >= 1 || [skillblessedhammer] >= 1 || [skillconcentration] >= 1) && [sockets] == 4	//fortitude 
+[name] == caduceus && [quality] <= superior # ([skillholyshock] >= 3 || [skillzeal] >= 3) && [skillredemption] >= 1 && ([sockets] == 0 || [sockets] == 5)														//cta
+
+//white claws
+//([name] == greatertalons || [name] == greaterclaws || [name] == suwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skilldragonflight] >= 2 && ([sockets] == 0 || [sockets] == 3)					//chaos, fury
+//([name] == greatertalons || [name] == greaterclaws || [name] == suwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && ([sockets] == 0 || [sockets] == 3)						//chaos, fury
+//([name] == greatertalons || [name] == greaterclaws || [name] == suwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skillvenom] >= 2 && ([sockets] == 0 || [sockets] == 3)							//chaos, fury
+//([name] == greatertalons || [name] == greaterclaws || [name] == suwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skillwakeofinferno] >= 2 && ([sockets] == 0 || [sockets] == 3)					//chaos, fury
+//([name] == greatertalons || [name] == greaterclaws || [name] == suwayyah) && [quality] <= superior && [flag] != ethereal # [skilldragonflight] >= 2 && [skillmindblast] >= 3 && ([sockets] == 0 || [sockets] == 3)							//chaos, fury
+//([name] == greatertalons || [name] == greaterclaws || [name] == suwayyah) && [quality] <= superior && [flag] != ethereal # [skillshadowmaster] >= 1 && [skillweaponblock] >= 1 && [skillvenom] >= 1 && ([sockets] == 0 || [sockets] == 3)	//chaos, fury
+([name] == runictalons || [name] == scissorssuwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skilldragonflight] >= 2 && ([sockets] == 0 || [sockets] == 3)										//chaos, fury
+([name] == runictalons || [name] == scissorssuwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skillmindblast] >= 2 && ([sockets] == 0 || [sockets] == 3)											//chaos, fury
+([name] == runictalons || [name] == scissorssuwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skillvenom] >= 2 && ([sockets] == 0 || [sockets] == 3)												//chaos, fury
+([name] == runictalons || [name] == scissorssuwayyah) && [quality] <= superior && [flag] != ethereal # [skilllightningsentry] >= 3 && [skillwakeofinferno] >= 2 && ([sockets] == 0 || [sockets] == 3)										//chaos, fury
+([name] == runictalons || [name] == scissorssuwayyah) && [quality] <= superior && [flag] != ethereal # [skilldragonflight] >= 2 && [skillmindblast] >= 3 && ([sockets] == 0 || [sockets] == 3)												//chaos, fury
+([name] == runictalons || [name] == scissorssuwayyah) && [quality] <= superior && [flag] != ethereal # [skillshadowmaster] >= 1 && [skillweaponblock] >= 1 && [skillvenom] >= 1 && ([sockets] == 0 || [sockets] == 3)						//chaos, fury

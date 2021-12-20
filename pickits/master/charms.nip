@@ -1,0 +1,114 @@
+//-----------------------------------------------------------------------------------------------------
+//		this is a list of charms that you want your bot to pick up.
+//		unid'ed charms for cubing are listed in unid.nip and unique charms can be found in unid.nip and unique.nip
+//
+//		any item on this list which starts with //[ will not be picked up at all
+//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
+// -----------------------------------------------------------------------------------------------------
+
+//all skill gc's
+[name] == grandcharm && [quality] == magic # [itemaddskilltab] == 1
+
+//skiller gc
+//[name] == grandcharm && [quality] == magic # [palicombatskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [offensiveaurasskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [defensiveaurasskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [lightningskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [fireskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [coldskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [elementalskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [shapeshiftingskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [druidsummoningskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [trapsskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [shadowdisciplinesskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [martialartsskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [poisonandboneskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [necromancersummoningskilltab] ==1
+//[name] == grandcharm && [quality] == magic # [cursesskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [passiveandmagicskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [bowandcrossbowskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [javelinandspearskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [warcriesskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [barbcombatskilltab] == 1
+//[name] == grandcharm && [quality] == magic # [masteriesskilltab] == 1
+
+//leet skill / max damage gc's
+//[name] == grandcharm && [quality] == magic # [itemaddskilltab] >= 1 && ([maxhp] >= 20 || [strength] >= 6 || [dexterity] >= 6 || [fhr] >= 12 || [frw] >= 7)
+
+//gold find gc
+//[name] == grandcharm && [quality] == magic # [itemgoldbonus] >= 40
+[name] == grandcharm && [quality] == magic # [itemgoldbonus] >= 40 && (([coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 60) || [coldresist] >= 26 || [fireresist] >= 26 || [lightresist] >= 26)
+[name] == grandcharm && [quality] == magic # [itemgoldbonus] >= 40 && (([maxdamage] >= 9 && [tohit] >= 49) || [mana] >= 40)
+
+//resist gc
+[name] == grandcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 60
+[name] == grandcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 56 && ([frw] == 7 || [fhr] == 12)
+[name] == grandcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40 && [maxhp] >= 25
+
+//max damage gc
+[name] == grandcharm && [quality] == magic # [maxdamage] >= 9 && [tohit] >= 49
+//[name] == grandcharm && [quality] == magic # ([maxdamage] >= 9 && [tohit] >= 49) && ([maxhp] >= 30 || [strength] >= 6 || [dexterity] >= 6 || [fhr] >= 12)
+
+//ar/life gc
+[name] == grandcharm && [quality] == magic # [tohit] >= 100 && [maxhp] >= 35
+
+//life/mana gc
+[name] == grandcharm && [quality] == magic # [maxhp] >= 40 && [mana] >= 35
+
+//resist lc
+[name] == largecharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 28 && [maxhp] >= 25
+[name] == largecharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 24 && ([maxhp] >= 15 || [fhr] >= 8)
+
+//max damage lc
+[name] == largecharm && [quality] == magic # [maxdamage] >= 6 && [tohit] >= 30
+
+//ar/life lc
+[name] == largecharm && [quality] == magic # [tohit] >= 75 && [maxhp] >= 33
+
+//life/mana lc
+[name] == largecharm && [quality] == magic # [maxhp] >= 30 && [mana] >= 30
+
+//stat lc
+[name] == largecharm && [quality] == magic # [strength] == 5
+[name] == largecharm && [quality] == magic # [dexterity] == 5
+
+//life sc
+[name] == smallcharm && [quality] == magic # [maxhp] >= 20
+//[name] == smallcharm && [quality] == magic # [maxhp] >= 15 && [mana] >= 10
+
+//mana sc
+//[name] == smallcharm && [quality] == magic # [mana] >= 15 && [fhr] == 5
+//[name] == smallcharm && [quality] == magic # [mana] >= 15 && [frw] == 3
+//[name] == smallcharm && [quality] == magic # [mana] >= 15 && [strength] == 2
+//[name] == smallcharm && [quality] == magic # [mana] >= 15 && [dexterity] == 2
+
+//stat sc
+//[name] == smallcharm && [quality] == magic # [strength] == 2
+//[name] == smallcharm && [quality] == magic # [dexterity] == 2
+
+//mf & gf sc
+[name] == smallcharm && [quality] == magic # [itemmagicbonus] >= 6
+//[name] == smallcharm && [quality] == magic # [itemgoldbonus] >= 10
+//[name] == smallcharm && [quality] == magic # [mana] >= 10 && ([itemmagicbonus] >= 7 || [itemgoldbonus] >= 10)
+//[name] == smallcharm && [quality] == magic # [maxdamage] == 3 && [tohit] >= 10 && ([itemmagicbonus] >= 7 || [itemgoldbonus] >= 10)
+
+//resist sc
+[name] == smallcharm && [quality] == magic # [maxhp] >= 15 && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm && [quality] == magic # ([frw] >= 3 || [fhr] >= 5) && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm && [quality] == magic # ([itemmagicbonus] >= 7 || [itemgoldbonus] >= 10) && ([coldresist] >= 9 || [fireresist] >= 9 || [lightresist] >= 9 || [poisonresist] >= 9)
+[name] == smallcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 20
+[name] == smallcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 12 && ([maxhp] >= 10 || [frw] == 3 || [fhr] == 5 || [itemmagicbonus] >= 7)
+//[name] == smallcharm && [quality] == magic # [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 16 && ([itemgoldbonus] == 10 || [strength] == 2 || [dexterity] == 2)
+
+//max damage sc
+[name] == smallcharm && [quality] == magic # [maxdamage] >= 3 && [tohit] >= 15
+
+//ar sc
+[name] == smallcharm && [quality] == magic # [tohit] >= 25 && [maxhp] >= 15
+[name] == smallcharm && [quality] == magic # [tohit] >= 35 && ([fhr] == 5 || [frw] == 3)
+//[name] == smallcharm && [quality] == magic # [tohit] >= 34 && ([strength] == 2 || [dexterity] == 2)
+
+//poison sc
+//[name] == smallcharm && [quality] == magic # [poisonmindam] >= 175
+//[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 175
+[name] == smallcharm && [quality] == magic # [poisonmaxdam] >= 20

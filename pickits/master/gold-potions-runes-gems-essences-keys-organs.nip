@@ -1,0 +1,111 @@
+//-----------------------------------------------------------------------------------------------------
+//		this is a list of 'other' items that you want your bot to pick up.
+//
+//		any item on this list which starts with //[ will not be picked up at all
+//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
+// -----------------------------------------------------------------------------------------------------
+
+//gold
+[type] == gold # [gold] >= 1000
+
+//scrolls
+[name] == scrolloftownportal 
+[name] == scrollofidentify
+
+//chest key
+[name] == key # # [maxquantity] == 12
+
+//uber quest keys
+[name] == keyofterror
+[name] == keyofhate
+[name] == keyofdestruction
+//[name] == keyofterror # # [maxquantity] == 3
+//[name] == keyofhate # # [maxquantity] == 3
+//[name] == keyofdestruction # # [maxquantity] == 3
+
+//uber quest organs
+[name] == mephisto'sbrain
+[name] == baal'seye
+[name] == diablo'shorn
+
+//respec essences
+//[name] == twistedessenceofsuffering # # [maxquantity] == 2
+//[name] == chargedessenceofhatred # # [maxquantity] == 2
+//[name] == burningessenceofterror # # [maxquantity] == 2
+//[name] == festeringessenceofdestruction # # [maxquantity] == 2
+[name] == tokenofabsolution # # [maxquantity] == 5
+
+//runes
+//[name] == elrune # # [maxquantity] == 3
+//[name] == eldrune # # [maxquantity] == 3
+//[name] == tirrune # # [maxquantity] == 3
+//[name] == nefrune # # [maxquantity] == 3
+//[name] == ethrune # # [maxquantity] == 3
+//[name] == ithrune # # [maxquantity] == 3
+//[name] == talrune # # [maxquantity] == 3
+//[name] == ralrune # # [maxquantity] == 3
+//[name] == ortrune # # [maxquantity] == 3
+//[name] == thulrune # # [maxquantity] == 3
+//[name] == amnrune # # [maxquantity] == 3
+//[name] == solrune # # [maxquantity] == 3
+//[name] == shaelrune # # [maxquantity] == 3
+//[name] == dolrune # # [maxquantity] == 3
+//[name] == helrune # # [maxquantity] == 3
+//[name] == iorune # # [maxquantity] == 3
+//[name] == lumrune # # [maxquantity] == 3
+//[name] == korune # # [maxquantity] == 3
+[name] == falrune # # [maxquantity] == 3
+[name] == lemrune # # [maxquantity] == 3
+[name] == pulrune # # [maxquantity] == 5
+[name] == umrune # # [maxquantity] == 5
+[name] == malrune # # [maxquantity] == 5
+[name] >= istrune && [name] <= zodrune
+
+//gems
+//[name] == chippedamethyst # # [maxquantity] == 1
+//[name] == chippeddiamond # # [maxquantity] == 1
+//[name] == chippedemerald # # [maxquantity] == 1
+//[name] == chippedruby # # [maxquantity] == 1
+//[name] == chippedsapphire # # [maxquantity] == 1
+//[name] == chippedskull # # [maxquantity] == 1
+//[name] == chippedtopaz # # [maxquantity] == 1
+//[name] == flawedamethyst # # [maxquantity] == 1
+//[name] == flaweddiamond # # [maxquantity] == 1
+//[name] == flawedemerald # # [maxquantity] == 1
+//[name] == flawedruby # # [maxquantity] == 1
+//[name] == flawedsapphire # # [maxquantity] == 1
+//[name] == flawedskull # # [maxquantity] == 1
+//[name] == flawedtopaz # # [maxquantity] == 1
+//[name] == amethyst # # [maxquantity] == 1
+//[name] == diamond # # [maxquantity] == 1
+//[name] == emerald # # [maxquantity] == 1
+//[name] == ruby # # [maxquantity] == 1
+//[name] == skull # # [maxquantity] == 1
+//[name] == sapphire # # [maxquantity] == 1
+//[name] == topaz # # [maxquantity] == 1
+//[name] == flawlessamethyst # # [maxquantity] == 1
+//[name] == flawlessdiamond # # [maxquantity] == 1
+//[name] == flawlessemerald # # [maxquantity] == 1
+//[name] == flawlessruby # # [maxquantity] == 1
+//[name] == flawlesssapphire # # [maxquantity] == 1
+//[name] == flawlessskull # # [maxquantity] == 1
+//[name] == flawlesstopaz # # [maxquantity] == 1
+[name] == perfectamethyst # # [maxquantity] == 3
+[name] == perfectdiamond # # [maxquantity] == 3
+[name] == perfectemerald # # [maxquantity] == 3
+[name] == perfectruby # # [maxquantity] == 3
+[name] == perfectsapphire # # [maxquantity] == 3
+[name] == perfectskull # # [maxquantity] == 3
+[name] == perfecttopaz # # [maxquantity] == 3
+
+//potions
+[name] == superhealingpotion
+[name] == supermanapotion
+[name] == rejuvenationpotion
+[name] == fullrejuvenationpotion
+
+//ears 
+// used in conjunction with the hostilekill function
+// if you want to collect ears, then simply uncomment
+
+//[type] == playerbodypart && [quality] == normal

@@ -1,0 +1,79 @@
+//hitpower & blood gloves
+[type] == gloves && [quality] == crafted # [ias] == 20 && [dexterity] >= 1 && [strength] >= 1 && ([itemcrushingblow] >= 5 || [itemknockback] >= 1)
+
+//blood rings
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [strength] >= 1 && [itemmagicbonus] >= 25
+[type] == ring && [quality] == crafted # [fcr] >= 10 && [strength] >= 1 && [maxhp] >= 35
+[type] == ring && [quality] == crafted # [fcr] >= 10 && [strength] >= 1 && [dexterity] >= 10 && [maxhp] >= 25
+[type] == ring && [quality] == crafted # [fcr] >= 10 && ([dexterity] >= 10 || [strength] >= 15) && [maxhp] >= 25
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [fcr] >= 10 && ([dexterity] >= 13 || [strength] >= 17) && [hpregen] >= 7
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [fcr] >= 10 && ([dexterity] >= 13 || [strength] >= 17) && ([coldresist] >= 15 || [fireresist] >= 15 || [lightresist] >= 15)
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [fcr] >= 10 && ([dexterity] >= 13 || [strength] >= 17) && (([coldresist]+[fireresist] >= 15) || ([coldresist]+[lightresist] >= 15) || ([fireresist]+[lightresist] >= 15))
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [fcr] >= 10 && ([dexterity] >= 13 || [strength] >= 17) && [mana] >= 50
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [fcr] >= 10 && [strength]+[dexterity] >= 20
+[type] == ring && [quality] == crafted # [strength] >= 1 && [fcr] >= 10 && [maxhp] >= 35 && [hpregen] >= 7
+[type] == ring && [quality] == crafted # [strength] >= 1 && [fcr] >= 10 && [maxhp] >= 35 && ([coldresist] >= 15 || [fireresist] >= 15 || [lightresist] >= 15)
+[type] == ring && [quality] == crafted # [strength] >= 1 && [fcr] >= 10 && [maxhp] >= 25 && (([coldresist]+[fireresist] >= 20) || ([coldresist]+[lightresist] >= 20) || ([fireresist]+[lightresist] >= 20))
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [dexterity]+[strength] >= 30 && (([coldresist]+[fireresist] >= 15) || ([coldresist]+[lightresist] >= 15) || ([fireresist]+[lightresist] >= 15))
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [dexterity]+[strength] >= 30 && ([coldresist] >= 15 || [fireresist] >= 15 || [lightresist] >= 15)
+[type] == ring && [quality] == crafted # [dexterity]+[strength] >= 30 && [maxhp] >= 15
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [dexterity]+[strength] >= 30 && [mana] >= 50
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [strength]+[dexterity] >= 30 && [manaleech]+[lifeleech] >= 6
+[type] == ring && [quality] == crafted # ([dexterity] >= 15 || [strength] >= 20) && [maxhp] >= 35
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && ([dexterity] >= 15 || [strength] >= 20) && [hpregen] >= 7
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && ([dexterity] >= 15 || [strength] >= 17) && [manaleech]+[lifeleech] >= 10
+[type] == ring && [quality] == crafted # [maxhp] >= 10 && [strength] >= 5 && [manaleech]+[lifeleech] >= 10 && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == ring && [quality] == crafted # [strength] >= 1 && [manaleech]+[lifeleech] >= 10 && [maxhp] >= 35
+
+//blood belts
+[type] == belt && [quality] == crafted # [itemopenwounds] >= 5 && [maxhp] >= 10 && ([fhr] >= 24 || [strength] >= 15)
+
+//caster belts
+[type] == belt && [quality] == crafted # [fcr] >= 10 && (([fhr] >= 24 && [maxhp] >= 20) || ([fhr] >= 24 && [strength] >= 10) || ([maxhp] >= 20 && [strength] >= 10))
+[type] == belt && [quality] == crafted # [fcr] >= 10 && ([fhr] >= 24 || [maxhp] >= 30 || [strength] >= 20)
+[type] == belt && [quality] == crafted # [fcr] >= 5 && (([fhr] >= 24 && [maxhp] >= 30) || ([fhr] >= 24 && [strength] >= 20) || ([maxhp] >= 30 && [strength] >= 20))
+
+//caster amulets +2 class
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [dexterity]+[strength] >= 20 && [maxhp] >= 20
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [dexterity]+[strength] >= 20 && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [dexterity]+[strength] >= 20 && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && ([dexterity] >= 20 || [strength] >= 20) && [maxhp] >= 20
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && ([dexterity] >= 20 || [strength] >= 20) && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && ([dexterity] >= 20 || [strength] >= 20) && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] > 10
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && [dexterity]+[strength] >= 20
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && ([dexterity] >= 10 || [strength] >= 10) && [maxhp] >= 20
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && ([dexterity] >= 10 || [strength] >= 10) && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && ([dexterity] >= 10 || [strength] >= 10) && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 32
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && [maxhp] >= 25 && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && [maxhp] >= 25 && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 32
+[type] == amulet && [quality] == crafted # [itemaddclassskills] == 2 && [fcr] >= 5 && [maxhp] >= 40
+
+//caster amulets +2 tree
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [dexterity]+[strength] >= 20 && [maxhp] >= 20
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [dexterity]+[strength] >= 20 && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [dexterity]+[strength] >= 20 && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && ([dexterity] >= 20 || [strength] >= 20) && [maxhp] >= 20
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && ([dexterity] >= 20 || [strength] >= 20) && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && ([dexterity] >= 20 || [strength] >= 20) && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 40
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] > 10
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && [dexterity]+[strength] >= 20
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && ([dexterity] >= 10 || [strength] >= 10) && [maxhp] >= 15
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && ([dexterity] >= 10 || [strength] >= 10) && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && ([dexterity] >= 10 || [strength] >= 10) && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 32
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && [maxhp] >= 25 && (([coldresist]+[fireresist] >= 30) || ([coldresist]+[lightresist] >= 30) || ([fireresist]+[lightresist] >= 30))
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && [maxhp] >= 25 && [coldresist]+[fireresist]+[lightresist]+[poisonresist] >= 32
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 5 && [maxhp] >= 40
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 10 && [itemgoldbonus] >= 75
+[type] == amulet && [quality] == crafted # [itemaddskilltab] == 2 && [fcr] >= 10 && [itemmagicbonus] >= 25
+
+//blood boots
+[type] == boots && [quality] == crafted # (([hpregen] >= 5 && [maxhp] >= 20) || ([hpregen] >= 10 && [maxhp] >= 10)) && ([frw] >= 20 || [fhr] >= 10) && (([coldresist]+[fireresist] >= 50) || ([coldresist]+[lightresist] >= 50) || ([fireresist]+[lightresist] >= 50) || [dexterity] >= 7)
+[type] == boots && [quality] == crafted # (([hpregen] >= 5 && [maxhp] >= 20) || ([hpregen] >= 10 && [maxhp] >= 10)) && ([frw] >= 20 || [fhr] >= 10) && (([coldresist]+[fireresist]+[lightresist] >= 60) || ([coldresist]+[lightresist]+[poisonresist] >= 70) || ([fireresist]+[lightresist]+[poisonresist] >= 70))
+
+//caster boots
+[type] == boots && [quality] == crafted # [itemmaxmanapercent] >= 2 && [manarecovery] >= 4 && [mana] >= 21 && ([frw] >= 20 || [fhr] >= 10) && ([coldresist] >= 10 || [fireresist] >= 10 || [lightresist] >= 10 || [dexterity] >= 5)
+[type] == boots && [quality] == crafted # [itemmaxmanapercent] >= 2 && [manarecovery] >= 4 && [mana] >= 41 && ([frw] >= 20 || [fhr] >= 10)
+
+//blood helms
+[type] == helm && [quality] == crafted # [itemdeadlystrike] >= 5 && [maxhp] >= 10 && [sockets] >= 2 && ([itemtohitpercentperlevel] >= 1 || ([palicombatskilltab] >= 1 || [barbcombatskilltab] >= 1))

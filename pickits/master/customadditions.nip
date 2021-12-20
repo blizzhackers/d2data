@@ -1,0 +1,65 @@
+//-----------------------------------------------------------------------------------------------------
+//		this is a list of custom items that you want your bot to pick up.
+//		if you're bot is picking up annoying junk that you don't want, check here.
+//
+//		any item on this list which starts with //[ will not be picked up at all
+//		any item on this list which starts with [ 	will be picked up, then kept unid'ed or checked and then kept if it's good enough.
+// -----------------------------------------------------------------------------------------------------
+
+//([name] == harpoon || [name] == stygianpilum) && [quality] <= superior && [flag] == ethereal
+//[name] == knout && [quality] <= superior && [flag] == ethereal # [sockets] == 0
+//([name] == ornateplate || [name] == ancientarmor) && [quality] <= superior && [flag] == ethereal # [sockets] == 0
+//[name] == ancientarmor && [quality] < superior && [flag] == ethereal # [sockets] == 0
+//[name] == towershield && [quality] < superior && [flag] == ethereal # [sockets] == 0
+//[name] == boneshield && [quality] < superior && [flag] == ethereal # [sockets] == 0
+//[name] == grimscythe && [quality] <= superior && [flag] == ethereal # [enhanceddamage] == 15 && ([sockets] == 0 || [sockets] == 6)
+([name] == crownshield || [name] == aerinshield) && [quality] <= superior && [flag] != ethereal # [enhanceddefense] == 15 && [enhanceddamage] == 65 && [tohit] >= 121 && ([sockets] == 0 || [sockets] == 4)
+[name] == warscepter && [quality] <= superior # [skillzeal] == 3 && [skillconcentration] >= 1 && ([sockets] == 0 || [sockets] == 5) && [itemlevelreq] <= 18
+[name] == warscepter && [quality] <= superior # [skillzeal] == 3 && [skilldefiance] == 3 && ([sockets] == 0 || [sockets] == 5) && [itemlevelreq] <= 18
+//[name] == highlandblade && [quality] == superior && [flag] == ethereal # [enhanceddamage] >= 15 && ([sockets] == 0 || [sockets] == 4)
+//([name] == ataghan || [name] == grimscythe) && [quality] == magic && [flag] != ethereal # [enhanceddamage] > 200 && [ias] == 40
+//([name] == breastplate || [name] == lightplate ||[name] == mageplate) && [quality] == magic && [flag] != ethereal # [sockets] == 3 && [maxhp] == 80
+[type] == circlet && [quality] == magic && [flag] != ethereal # [tohit] == 120 && [maxhp] == 40
+[name] == dragonshield && [quality] == magic # [sockets] == 3 && [fbr] == 30
+[type] == jewel && [quality] == rare # [enhanceddamage] == 30 && [coldresist]+[fireresist]+[lightresist]+[poisonresist] == 40 && [strength] >= 6
+[type] == jewel && ([quality] == rare || [quality] == magic) # [enhanceddamage] == 30 && [hpregen] == 4
+[type] == jewel && ([quality] == rare || [quality] == magic) # [maxdamage] == 15 && [coldresist] == 30
+[type] == jewel && ([quality] == rare || [quality] == magic) # [enhanceddamage] == 20 && [mindamage] >= 7
+[type] == jewel && ([quality] == rare || [quality] == magic) # [enhanceddamage] >= 15 && [strength] >= 4 && [dexterity] >= 7
+[type] == jewel && ([quality] == rare || [quality] == magic) # [mindamage] == 8 && [itemlevelreq] <= 18
+//[name] == becdecorbin && ([quality] == rare || [quality] == magic) && [flag] == ethereal # [enhanceddamage] >= 200 && [itemreplenishdurability] >= 1 && (([ias] == 40 && [sockets] >= 0) || ([ias] >= 30 && [sockets] >= 1)) && [itemlevelreq] <= 49
+//[name] == becdecorbin && ([quality] == rare || [quality] == magic) && [flag] != ethereal # [enhanceddamage] >= 350 && (([ias] == 40 && [sockets] >= 0) || ([ias] >= 30 && [sockets] >= 1)) && [itemlevelreq] <= 49
+//[name] == grimscythe && ([quality] == rare || [quality] == magic) && [flag] == ethereal # [enhanceddamage] >= 250 && [itemreplenishdurability] >= 1 && ([ias] == 20 || [sockets] >= 2) && [itemlevelreq] <= 49
+//[name] == grimscythe && ([quality] == rare || [quality] == magic) && [flag] != ethereal # [enhanceddamage] >= 440 && ([ias] == 20 || [sockets] >= 2) && [itemlevelreq] <= 49
+//[name] == warfork && ([quality] == rare || [quality] == magic) && [flag] == ethereal # [enhanceddamage] >= 400 && [itemreplenishdurability] >= 1 && [ias] == 40 && [sockets] >= 2 && [itemlevelreq] <= 49
+//[name] == ancientaxe && ([quality] == rare || [quality] == magic) && [flag] == ethereal # [enhanceddamage] >= 200 && [itemreplenishdurability] >= 1 && (([ias] == 40 && [sockets] >= 0) || ([ias] >= 20 && [sockets] >= 1)) && [itemlevelreq] <= 49
+//[name] == ancientaxe && ([quality] == rare || [quality] == magic) && [flag] != ethereal # [enhanceddamage] >= 350 && (([ias] == 40 && [sockets] >= 0) || ([ias] >= 20 && [sockets] >= 1)) && [itemlevelreq] <= 49
+//[name] == bill && [quality] <= superior && [flag] == ethereal # [enhanceddamage] == 15 && [tohit] == 3 && ([sockets] == 0 || [sockets] == 4)
+
+//[type] == polearm && [flag] == runeword # [itemaura] > 0
+//[type] == polearm && [flag] == runeword # [skillmeditation] > 0
+//[type] == polearm && [flag] == runeword
+
+//-----------------------------------------------------------------------------------------------------
+//
+//these items are listed to get the bot to pick up useless elite junk to sell and make money.
+//
+//-----------------------------------------------------------------------------------------------------
+	
+[class] == elite && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+	
+[type] == anyarmor && [class] == exceptional && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == anyshield && [class] == exceptional && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+//[type] == weapon && [class] == exceptional && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+	
+[type] == sorceressitem && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == necromanceritem && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == druiditem && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == barbarianitem && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == paladinitem && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+
+[type] == wand && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == stavesandrods && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+	
+[type] == amulet && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
+[type] == ring && ([quality] == rare || [quality] == magic) # [dexterity] == 1000
