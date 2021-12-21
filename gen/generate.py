@@ -7,8 +7,14 @@ import re
 outdir="output"
 
 @dataclasses.dataclass
-class Property():
+class PropertyBase():
     name: str = None
+    code: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
+@dataclasses.dataclass
+class ItemProperty(PropertyBase):
     min: int = None
     max: int = None
     par: int = None
@@ -16,13 +22,11 @@ class Property():
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
-class PropString:
-    name: str = None
-    code: str = None
+class PropertyDef(PropertyBase):
     within: list[str] = None
     children: list[str] = None
-    pos: str = None
-    neg: str = None
+    posStr: str = None
+    negStr: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -154,7 +158,7 @@ class ItemParser:
         props = []
         for i in range(1,31):
             key = "prop" + str(i)
-            obj = Property()
+            obj = ItemProperty()
             #print(item)
             try:
                 obj.name = item[key]
@@ -224,37 +228,38 @@ if __name__ == "__main__":
     with open('output/ref_codes.json', 'w', encoding='utf-8') as f:
         json.dump(ref_codes, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
-    # construct reference to get item strings corresponding to properties
-    ref_property_strings={}
-    file = item_parser.f_stats
+
+    # construct properties file
+    ref_properties={}
+    props_file = item_parser.f_properties
+    stats_file = item_parser.f_stats
+    strings_file = item_parser.f_strings
     for key in file:
-        if "descstrpos" in file[key]:
-            obj = PropString()
-            obj.name = key
-            descrPos=file[key]["descstrpos"]
-            descrNeg=file[key]["descstrneg"]
-            obj.pos=item_parser.f_strings[descrPos]
-            obj.neg=item_parser.f_strings[descrNeg]
-            ref_property_strings[key] = obj
 
-            props = []
-            for i in range(1,31):
-                try: props.append(file["op stat" + str(i)])
-                except: break
-            obj.children = None if props == [] else props
+            # props = []
+            # for i in range(1,31):
+            #     key2="op stat" + str(i)
+            #     if key2 in file[key]:
+            #         props.append(file[key][key2])
+            #     else:
+            #         break
+            # obj.within = None if props == [] else props
+#
+            # props = []
+            # file2 = item_parser.f_properties
+            # for key2 in file2:
+            #     code = file2[key2]["code"]
+            #     for i in range(1,31):
+            #         key3 = "stat" + str(i)
+            #         if (key3 in file2[key2]) and (file2[key2][key3] == key):
+            #             #print(f"{key2} {code}")
+            #             if code != key2:
+            #                 props.append(key2)
+            #             break
+            # obj.children = None if props == [] else props
 
-            props = []
-            file2 = item_parser.f_properties
-            for key2 in file2:
-                for i in range(1,31):
-                    key3 = "stat" + str(i)
-                    if key3 in file2[key2] and file2[key2][key3] == key:
-                        props.append(key2)
-                        break
-            obj.within = None if props == [] else props
-
-    with open('output/ref_property_strings.json', 'w', encoding='utf-8') as f:
-        json.dump(ref_property_strings, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+    with open('output/ref_properties.json', 'w', encoding='utf-8') as f:
+        json.dump(ref_properties, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
     # create types file
     types={}
@@ -491,7 +496,7 @@ if __name__ == "__main__":
         except: pass
         try: obj.levelreq = file[key]["lvl req"]
         except: pass
-        obj.props = item_parser.get_magic_props(file[key])
+        #obj.props = item_parser.get_magic_props(file[key])
 
         set_items[obj.name] = obj
     with open('output/item_set_items.json', 'w', encoding='utf-8') as f:
