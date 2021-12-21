@@ -1,8 +1,9 @@
 {
   "double_axe": {
+    "name": "double_axe",
+    "display_name": "Double Axe",
     "code": "2ax",
     "type": "axe",
-    "display_name": "Double Axe",
     "uniques": [
       "bladebone"
     ],
@@ -16,20 +17,23 @@
     "level": 13,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        5,
-        13
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 13,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "twohanded_sword": {
+    "name": "twohanded_sword",
+    "display_name": "Two-Handed Sword",
     "code": "2hs",
     "type": "sword",
-    "display_name": "Two-Handed Sword",
     "uniques": [
       "shadowfang"
     ],
@@ -41,24 +45,29 @@
     "level": 10,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        2,
-        9
-      ],
-      [
-        8,
-        17
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 9,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 8,
+        "max": 17,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 0
   },
   "shillelagh": {
+    "name": "shillelagh",
+    "display_name": "Shillelagh",
     "code": "6bs",
     "type": "staff",
-    "display_name": "Shillelagh",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -68,20 +77,23 @@
     "level": 83,
     "levelreq": 62,
     "gemsockets": 4,
-    "damage": [
-      [
-        65,
-        108
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 65,
+        "max": 108,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "great_bow": {
+    "name": "great_bow",
+    "display_name": "Great Bow",
     "code": "6cb",
     "type": "bow",
-    "display_name": "Great Bow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -91,20 +103,23 @@
     "level": 68,
     "levelreq": 51,
     "gemsockets": 4,
-    "damage": [
-      [
-        12,
-        52
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 12,
+        "max": 52,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "elder_staff": {
+    "name": "elder_staff",
+    "display_name": "Elder Staff",
     "code": "6cs",
     "type": "staff",
-    "display_name": "Elder Staff",
     "uniques": [
       "ondals_wisdom"
     ],
@@ -118,20 +133,23 @@
     "level": 74,
     "levelreq": 55,
     "gemsockets": 4,
-    "damage": [
-      [
-        80,
-        93
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 80,
+        "max": 93,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "blade_bow": {
+    "name": "blade_bow",
+    "display_name": "Blade Bow",
     "code": "6hb",
     "type": "bow",
-    "display_name": "Blade Bow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -141,20 +159,23 @@
     "level": 60,
     "levelreq": 45,
     "gemsockets": 4,
-    "damage": [
-      [
-        21,
-        41
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 21,
+        "max": 41,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "colossus_crossbow": {
+    "name": "colossus_crossbow",
+    "display_name": "Colossus Crossbow",
     "code": "6hx",
     "type": "crossbow",
-    "display_name": "Colossus Crossbow",
     "uniques": [
       "hellrack"
     ],
@@ -166,20 +187,23 @@
     "level": 75,
     "levelreq": 56,
     "gemsockets": 6,
-    "damage": [
-      [
-        32,
-        91
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 32,
+        "max": 91,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "crusader_bow": {
+    "name": "crusader_bow",
+    "display_name": "Crusader Bow",
     "code": "6l7",
     "type": "bow",
-    "display_name": "Crusader Bow",
     "uniques": [
       "eaglehorn"
     ],
@@ -191,20 +215,23 @@
     "level": 77,
     "levelreq": 57,
     "gemsockets": 6,
-    "damage": [
-      [
-        15,
-        63
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 15,
+        "max": 63,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "shadow_bow": {
+    "name": "shadow_bow",
+    "display_name": "Shadow Bow",
     "code": "6lb",
     "type": "bow",
-    "display_name": "Shadow Bow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -214,20 +241,23 @@
     "level": 63,
     "levelreq": 47,
     "gemsockets": 5,
-    "damage": [
-      [
-        15,
-        59
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 15,
+        "max": 59,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "stalagmite": {
+    "name": "stalagmite",
+    "display_name": "Stalagmite",
     "code": "6ls",
     "type": "staff",
-    "display_name": "Stalagmite",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -237,20 +267,23 @@
     "level": 66,
     "levelreq": 49,
     "gemsockets": 3,
-    "damage": [
-      [
-        75,
-        107
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 75,
+        "max": 107,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "hydra_bow": {
+    "name": "hydra_bow",
+    "display_name": "Hydra Bow",
     "code": "6lw",
     "type": "bow",
-    "display_name": "Hydra Bow",
     "uniques": [
       "windforce"
     ],
@@ -262,20 +295,23 @@
     "level": 85,
     "levelreq": 63,
     "gemsockets": 6,
-    "damage": [
-      [
-        10,
-        68
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 68,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "pellet_bow": {
+    "name": "pellet_bow",
+    "display_name": "Pellet Bow",
     "code": "6lx",
     "type": "crossbow",
-    "display_name": "Pellet Bow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -285,20 +321,23 @@
     "level": 57,
     "levelreq": 42,
     "gemsockets": 3,
-    "damage": [
-      [
-        28,
-        73
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 28,
+        "max": 73,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "gorgon_crossbow": {
+    "name": "gorgon_crossbow",
+    "display_name": "Gorgon Crossbow",
     "code": "6mx",
     "type": "crossbow",
-    "display_name": "Gorgon Crossbow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -308,20 +347,23 @@
     "level": 67,
     "levelreq": 50,
     "gemsockets": 4,
-    "damage": [
-      [
-        25,
-        87
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 25,
+        "max": 87,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "demon_crossbow": {
+    "name": "demon_crossbow",
+    "display_name": "Demon Crossbow",
     "code": "6rx",
     "type": "crossbow",
-    "display_name": "Demon Crossbow",
     "uniques": [
       "gut_siphon"
     ],
@@ -333,20 +375,23 @@
     "level": 84,
     "levelreq": 63,
     "gemsockets": 5,
-    "damage": [
-      [
-        26,
-        40
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 26,
+        "max": 40,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -60
   },
   "diamond_bow": {
+    "name": "diamond_bow",
+    "display_name": "Diamond Bow",
     "code": "6s7",
     "type": "bow",
-    "display_name": "Diamond Bow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -356,20 +401,23 @@
     "level": 72,
     "levelreq": 54,
     "gemsockets": 5,
-    "damage": [
-      [
-        33,
-        40
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 33,
+        "max": 40,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "spider_bow": {
+    "name": "spider_bow",
+    "display_name": "Spider Bow",
     "code": "6sb",
     "type": "bow",
-    "display_name": "Spider Bow",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -379,20 +427,23 @@
     "level": 55,
     "levelreq": 41,
     "gemsockets": 3,
-    "damage": [
-      [
-        23,
-        50
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 23,
+        "max": 50,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 5
   },
   "walking_stick": {
+    "name": "walking_stick",
+    "display_name": "Walking Stick",
     "code": "6ss",
     "type": "staff",
-    "display_name": "Walking Stick",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -402,20 +453,23 @@
     "level": 58,
     "levelreq": 43,
     "gemsockets": 2,
-    "damage": [
-      [
-        69,
-        85
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 69,
+        "max": 85,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "ward_bow": {
+    "name": "ward_bow",
+    "display_name": "Ward Bow",
     "code": "6sw",
     "type": "bow",
-    "display_name": "Ward Bow",
     "uniques": [
       "widowmaker"
     ],
@@ -427,20 +481,23 @@
     "level": 80,
     "levelreq": 60,
     "gemsockets": 5,
-    "damage": [
-      [
-        20,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 20,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "archon_staff": {
+    "name": "archon_staff",
+    "display_name": "Archon Staff",
     "code": "6ws",
     "type": "staff",
-    "display_name": "Archon Staff",
     "uniques": [
       "mang_songs_lesson"
     ],
@@ -452,20 +509,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 6,
-    "damage": [
-      [
-        83,
-        99
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 83,
+        "max": 99,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "ettin_axe": {
+    "name": "ettin_axe",
+    "display_name": "Ettin Axe",
     "code": "72a",
     "type": "axe",
-    "display_name": "Ettin Axe",
     "uniques": [
       "rune_master"
     ],
@@ -477,20 +537,23 @@
     "level": 70,
     "levelreq": 52,
     "gemsockets": 5,
-    "damage": [
-      [
-        33,
-        66
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 33,
+        "max": 66,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "legend_sword": {
+    "name": "legend_sword",
+    "display_name": "Legend Sword",
     "code": "72h",
     "type": "sword",
-    "display_name": "Legend Sword",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -500,24 +563,29 @@
     "level": 59,
     "levelreq": 44,
     "gemsockets": 3,
-    "damage": [
-      [
-        22,
-        56
-      ],
-      [
-        50,
-        94
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 22,
+        "max": 56,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 50,
+        "max": 94,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": -15
   },
   "suwayyah": {
+    "name": "suwayyah",
+    "display_name": "Suwayyah",
     "code": "7ar",
     "type": "hand_to_hand_2",
-    "display_name": "Suwayyah",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -527,20 +595,23 @@
     "level": 59,
     "levelreq": 44,
     "gemsockets": 3,
-    "damage": [
-      [
-        39,
-        52
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 39,
+        "max": 52,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "small_crescent": {
+    "name": "small_crescent",
+    "display_name": "Small Crescent",
     "code": "7ax",
     "type": "axe",
-    "display_name": "Small Crescent",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -550,20 +621,23 @@
     "level": 61,
     "levelreq": 45,
     "gemsockets": 4,
-    "damage": [
-      [
-        38,
-        60
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 38,
+        "max": 60,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "champion_sword": {
+    "name": "champion_sword",
+    "display_name": "Champion Sword",
     "code": "7b7",
     "type": "sword",
-    "display_name": "Champion Sword",
     "uniques": [
       "doombringer"
     ],
@@ -575,24 +649,29 @@
     "level": 77,
     "levelreq": 57,
     "gemsockets": 4,
-    "damage": [
-      [
-        24,
-        54
-      ],
-      [
-        71,
-        83
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 24,
+        "max": 54,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 71,
+        "max": 83,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": -10
   },
   "winged_axe": {
+    "name": "winged_axe",
+    "display_name": "Winged Axe",
     "code": "7b8",
     "type": "throwing_axe",
-    "display_name": "Winged Axe",
     "uniques": [
       "lacerator"
     ],
@@ -604,20 +683,23 @@
     "level": 80,
     "levelreq": 60,
     "gemsockets": 0,
-    "damage": [
-      [
-        11,
-        56
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 11,
+        "max": 56,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "silveredged_axe": {
+    "name": "silveredged_axe",
+    "display_name": "Silver-edged Axe",
     "code": "7ba",
     "type": "axe",
-    "display_name": "Silver-edged Axe",
     "uniques": [
       "ethereal_edge"
     ],
@@ -629,20 +711,23 @@
     "level": 65,
     "levelreq": 48,
     "gemsockets": 5,
-    "damage": [
-      [
-        62,
-        110
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 62,
+        "max": 110,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 0
   },
   "winged_knife": {
+    "name": "winged_knife",
+    "display_name": "Winged Knife",
     "code": "7bk",
     "type": "throwing_knife",
-    "display_name": "Winged Knife",
     "uniques": [
       "warshrike"
     ],
@@ -654,20 +739,23 @@
     "level": 77,
     "levelreq": 57,
     "gemsockets": 0,
-    "damage": [
-      [
-        27,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 27,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "legend_spike": {
+    "name": "legend_spike",
+    "display_name": "Legend Spike",
     "code": "7bl",
     "type": "knife",
-    "display_name": "Legend Spike",
     "uniques": [
       "ghostflame"
     ],
@@ -679,20 +767,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 2,
-    "damage": [
-      [
-        31,
-        47
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 31,
+        "max": 47,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "mancatcher": {
+    "name": "mancatcher",
+    "display_name": "Mancatcher",
     "code": "7br",
     "type": "spear",
-    "display_name": "Mancatcher",
     "uniques": [
       "viperfork"
     ],
@@ -704,20 +795,23 @@
     "level": 74,
     "levelreq": 55,
     "gemsockets": 5,
-    "damage": [
-      [
-        42,
-        92
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 42,
+        "max": 92,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": -20
   },
   "conquest_sword": {
+    "name": "conquest_sword",
+    "display_name": "Conquest Sword",
     "code": "7bs",
     "type": "sword",
-    "display_name": "Conquest Sword",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -727,20 +821,23 @@
     "level": 78,
     "levelreq": 58,
     "gemsockets": 4,
-    "damage": [
-      [
-        37,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 37,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "decapitator": {
+    "name": "decapitator",
+    "display_name": "Decapitator",
     "code": "7bt",
     "type": "axe",
-    "display_name": "Decapitator",
     "uniques": [
       "hellslayer"
     ],
@@ -752,20 +849,23 @@
     "level": 73,
     "levelreq": 54,
     "gemsockets": 5,
-    "damage": [
-      [
-        49,
-        137
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 49,
+        "max": 137,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 10
   },
   "lich_wand": {
+    "name": "lich_wand",
+    "display_name": "Lich Wand",
     "code": "7bw",
     "type": "wand",
-    "display_name": "Lich Wand",
     "uniques": [
       "boneshade"
     ],
@@ -777,20 +877,23 @@
     "level": 75,
     "levelreq": 56,
     "gemsockets": 2,
-    "damage": [
-      [
-        10,
-        31
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 31,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "truncheon": {
+    "name": "truncheon",
+    "display_name": "Truncheon",
     "code": "7cl",
     "type": "club",
-    "display_name": "Truncheon",
     "uniques": [
       "nords_tenderizer"
     ],
@@ -802,20 +905,23 @@
     "level": 52,
     "levelreq": 39,
     "gemsockets": 2,
-    "damage": [
-      [
-        35,
-        43
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 35,
+        "max": 43,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "highland_blade": {
+    "name": "highland_blade",
+    "display_name": "Highland Blade",
     "code": "7cm",
     "type": "sword",
-    "display_name": "Highland Blade",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -825,24 +931,29 @@
     "level": 66,
     "levelreq": 49,
     "gemsockets": 4,
-    "damage": [
-      [
-        22,
-        62
-      ],
-      [
-        67,
-        96
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 22,
+        "max": 62,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 67,
+        "max": 96,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": -5
   },
   "phase_blade": {
+    "name": "phase_blade",
+    "display_name": "Phase Blade",
     "code": "7cr",
     "type": "sword",
-    "display_name": "Phase Blade",
     "uniques": [
       "lightsabre",
       "azurewrath"
@@ -855,20 +966,23 @@
     "level": 73,
     "levelreq": 54,
     "gemsockets": 6,
-    "damage": [
-      [
-        31,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 31,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -30
   },
   "battle_cestus": {
+    "name": "battle_cestus",
+    "display_name": "Battle Cestus",
     "code": "7cs",
     "type": "hand_to_hand_2",
-    "display_name": "Battle Cestus",
     "uniques": [
       "shadow_killer"
     ],
@@ -880,20 +994,23 @@
     "level": 73,
     "levelreq": 54,
     "gemsockets": 2,
-    "damage": [
-      [
-        36,
-        42
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 36,
+        "max": 42,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "bone_knife": {
+    "name": "bone_knife",
+    "display_name": "Bone Knife",
     "code": "7dg",
     "type": "knife",
-    "display_name": "Bone Knife",
     "uniques": [
       "wizardspike"
     ],
@@ -905,20 +1022,23 @@
     "level": 58,
     "levelreq": 43,
     "gemsockets": 1,
-    "damage": [
-      [
-        23,
-        49
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 23,
+        "max": 49,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "mithril_point": {
+    "name": "mithril_point",
+    "display_name": "Mithril Point",
     "code": "7di",
     "type": "knife",
-    "display_name": "Mithril Point",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -928,20 +1048,23 @@
     "level": 70,
     "levelreq": 52,
     "gemsockets": 1,
-    "damage": [
-      [
-        37,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 37,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "colossus_sword": {
+    "name": "colossus_sword",
+    "display_name": "Colossus Sword",
     "code": "7fb",
     "type": "sword",
-    "display_name": "Colossus Sword",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -951,24 +1074,29 @@
     "level": 80,
     "levelreq": 60,
     "gemsockets": 5,
-    "damage": [
-      [
-        26,
-        70
-      ],
-      [
-        61,
-        121
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 26,
+        "max": 70,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 61,
+        "max": 121,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 10
   },
   "hydra_edge": {
+    "name": "hydra_edge",
+    "display_name": "Hydra Edge",
     "code": "7fc",
     "type": "sword",
-    "display_name": "Hydra Edge",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -978,20 +1106,23 @@
     "level": 69,
     "levelreq": 51,
     "gemsockets": 2,
-    "damage": [
-      [
-        28,
-        68
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 28,
+        "max": 68,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "scourge": {
+    "name": "scourge",
+    "display_name": "Scourge",
     "code": "7fl",
     "type": "mace",
-    "display_name": "Scourge",
     "uniques": [
       "horizons_tornado",
       "stormlash"
@@ -1004,20 +1135,23 @@
     "level": 76,
     "levelreq": 57,
     "gemsockets": 5,
-    "damage": [
-      [
-        3,
-        80
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 80,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "champion_axe": {
+    "name": "champion_axe",
+    "display_name": "Champion Axe",
     "code": "7ga",
     "type": "axe",
-    "display_name": "Champion Axe",
     "uniques": [
       "messerschmidts_reaver"
     ],
@@ -1029,20 +1163,23 @@
     "level": 82,
     "levelreq": 61,
     "gemsockets": 6,
-    "damage": [
-      [
-        59,
-        94
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 59,
+        "max": 94,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": -10
   },
   "colossus_blade": {
+    "name": "colossus_blade",
+    "display_name": "Colossus Blade",
     "code": "7gd",
     "type": "sword",
-    "display_name": "Colossus Blade",
     "uniques": [
       "the_grandfather"
     ],
@@ -1056,24 +1193,29 @@
     "level": 85,
     "levelreq": 63,
     "gemsockets": 6,
-    "damage": [
-      [
-        25,
-        65
-      ],
-      [
-        58,
-        115
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 25,
+        "max": 65,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 58,
+        "max": 115,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 5
   },
   "glorious_axe": {
+    "name": "glorious_axe",
+    "display_name": "Glorious Axe",
     "code": "7gi",
     "type": "axe",
-    "display_name": "Glorious Axe",
     "uniques": [
       "executioners_justice"
     ],
@@ -1085,20 +1227,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 6,
-    "damage": [
-      [
-        60,
-        124
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 60,
+        "max": 124,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 10
   },
   "ghost_glaive": {
+    "name": "ghost_glaive",
+    "display_name": "Ghost Glaive",
     "code": "7gl",
     "type": "javelin",
-    "display_name": "Ghost Glaive",
     "uniques": [
       "wraith_flight"
     ],
@@ -1110,20 +1255,23 @@
     "level": 79,
     "levelreq": 59,
     "gemsockets": 0,
-    "damage": [
-      [
-        19,
-        60
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 19,
+        "max": 60,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 20
   },
   "thunder_maul": {
+    "name": "thunder_maul",
+    "display_name": "Thunder Maul",
     "code": "7gm",
     "type": "hammer",
-    "display_name": "Thunder Maul",
     "uniques": [
       "the_cranium_basher",
       "earth_shifter"
@@ -1136,20 +1284,23 @@
     "level": 85,
     "levelreq": 65,
     "gemsockets": 6,
-    "damage": [
-      [
-        33,
-        180
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 33,
+        "max": 180,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 20
   },
   "balrog_blade": {
+    "name": "balrog_blade",
+    "display_name": "Balrog Blade",
     "code": "7gs",
     "type": "sword",
-    "display_name": "Balrog Blade",
     "uniques": [
       "flamebellow"
     ],
@@ -1161,24 +1312,29 @@
     "level": 71,
     "levelreq": 53,
     "gemsockets": 4,
-    "damage": [
-      [
-        15,
-        75
-      ],
-      [
-        55,
-        118
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 15,
+        "max": 75,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 55,
+        "max": 118,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 0
   },
   "unearthed_wand": {
+    "name": "unearthed_wand",
+    "display_name": "Unearthed Wand",
     "code": "7gw",
     "type": "wand",
-    "display_name": "Unearthed Wand",
     "uniques": [
       "deaths_web"
     ],
@@ -1190,20 +1346,23 @@
     "level": 86,
     "levelreq": 64,
     "gemsockets": 2,
-    "damage": [
-      [
-        22,
-        28
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 22,
+        "max": 28,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "great_poleaxe": {
+    "name": "great_poleaxe",
+    "display_name": "Great Poleaxe",
     "code": "7h7",
     "type": "polearm",
-    "display_name": "Great Poleaxe",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1213,20 +1372,23 @@
     "level": 84,
     "levelreq": 63,
     "gemsockets": 6,
-    "damage": [
-      [
-        46,
-        127
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 46,
+        "max": 127,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "tomahawk": {
+    "name": "tomahawk",
+    "display_name": "Tomahawk",
     "code": "7ha",
     "type": "axe",
-    "display_name": "Tomahawk",
     "uniques": [
       "razors_edge"
     ],
@@ -1238,20 +1400,23 @@
     "level": 54,
     "levelreq": 40,
     "gemsockets": 2,
-    "damage": [
-      [
-        33,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 33,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "hyperion_javelin": {
+    "name": "hyperion_javelin",
+    "display_name": "Hyperion Javelin",
     "code": "7ja",
     "type": "javelin",
-    "display_name": "Hyperion Javelin",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1261,20 +1426,23 @@
     "level": 54,
     "levelreq": 40,
     "gemsockets": 0,
-    "damage": [
-      [
-        21,
-        57
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 21,
+        "max": 57,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "fanged_knife": {
+    "name": "fanged_knife",
+    "display_name": "Fanged Knife",
     "code": "7kr",
     "type": "knife",
-    "display_name": "Fanged Knife",
     "uniques": [
       "fleshripper"
     ],
@@ -1286,20 +1454,23 @@
     "level": 83,
     "levelreq": 62,
     "gemsockets": 3,
-    "damage": [
-      [
-        15,
-        57
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 15,
+        "max": 57,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "feral_axe": {
+    "name": "feral_axe",
+    "display_name": "Feral Axe",
     "code": "7la",
     "type": "axe",
-    "display_name": "Feral Axe",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1309,20 +1480,23 @@
     "level": 57,
     "levelreq": 42,
     "gemsockets": 4,
-    "damage": [
-      [
-        25,
-        123
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 25,
+        "max": 123,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": -15
   },
   "cryptic_sword": {
+    "name": "cryptic_sword",
+    "display_name": "Cryptic Sword",
     "code": "7ls",
     "type": "sword",
-    "display_name": "Cryptic Sword",
     "uniques": [
       "frostwind"
     ],
@@ -1336,20 +1510,23 @@
     "level": 82,
     "levelreq": 61,
     "gemsockets": 4,
-    "damage": [
-      [
-        5,
-        77
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 77,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "feral_claws": {
+    "name": "feral_claws",
+    "display_name": "Feral Claws",
     "code": "7lw",
     "type": "hand_to_hand_2",
-    "display_name": "Feral Claws",
     "uniques": [
       "firelizards_talons"
     ],
@@ -1361,20 +1538,23 @@
     "level": 78,
     "levelreq": 58,
     "gemsockets": 3,
-    "damage": [
-      [
-        22,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 22,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -20
   },
   "ogre_maul": {
+    "name": "ogre_maul",
+    "display_name": "Ogre Maul",
     "code": "7m7",
     "type": "hammer",
-    "display_name": "Ogre Maul",
     "uniques": [
       "windhammer"
     ],
@@ -1388,20 +1568,23 @@
     "level": 69,
     "levelreq": 51,
     "gemsockets": 6,
-    "damage": [
-      [
-        77,
-        106
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 77,
+        "max": 106,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "reinforced_mace": {
+    "name": "reinforced_mace",
+    "display_name": "Reinforced Mace",
     "code": "7ma",
     "type": "mace",
-    "display_name": "Reinforced Mace",
     "uniques": null,
     "sets": [
       "dangoons_teaching"
@@ -1413,20 +1596,23 @@
     "level": 63,
     "levelreq": 47,
     "gemsockets": 2,
-    "damage": [
-      [
-        41,
-        49
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 41,
+        "max": 49,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "war_spike": {
+    "name": "war_spike",
+    "display_name": "War Spike",
     "code": "7mp",
     "type": "axe",
-    "display_name": "War Spike",
     "uniques": [
       "cranebeak"
     ],
@@ -1438,20 +1624,23 @@
     "level": 79,
     "levelreq": 59,
     "gemsockets": 6,
-    "damage": [
-      [
-        30,
-        48
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 30,
+        "max": 48,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "devil_star": {
+    "name": "devil_star",
+    "display_name": "Devil Star",
     "code": "7mt",
     "type": "mace",
-    "display_name": "Devil Star",
     "uniques": [
       "baranars_star"
     ],
@@ -1463,20 +1652,23 @@
     "level": 70,
     "levelreq": 52,
     "gemsockets": 3,
-    "damage": [
-      [
-        43,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 43,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "ogre_axe": {
+    "name": "ogre_axe",
+    "display_name": "Ogre Axe",
     "code": "7o7",
     "type": "polearm",
-    "display_name": "Ogre Axe",
     "uniques": [
       "bonehew"
     ],
@@ -1488,20 +1680,23 @@
     "level": 60,
     "levelreq": 45,
     "gemsockets": 3,
-    "damage": [
-      [
-        28,
-        145
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 28,
+        "max": 145,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 0
   },
   "war_pike": {
+    "name": "war_pike",
+    "display_name": "War Pike",
     "code": "7p7",
     "type": "spear",
-    "display_name": "War Pike",
     "uniques": [
       "steel_pillar"
     ],
@@ -1513,20 +1708,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 6,
-    "damage": [
-      [
-        33,
-        178
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 33,
+        "max": 178,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 20
   },
   "cryptic_axe": {
+    "name": "cryptic_axe",
+    "display_name": "Cryptic Axe",
     "code": "7pa",
     "type": "polearm",
-    "display_name": "Cryptic Axe",
     "uniques": [
       "tomb_reaver"
     ],
@@ -1538,20 +1736,23 @@
     "level": 79,
     "levelreq": 59,
     "gemsockets": 5,
-    "damage": [
-      [
-        33,
-        150
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 33,
+        "max": 150,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 10
   },
   "stygian_pilum": {
+    "name": "stygian_pilum",
+    "display_name": "Stygian Pilum",
     "code": "7pi",
     "type": "javelin",
-    "display_name": "Stygian Pilum",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1561,20 +1762,23 @@
     "level": 62,
     "levelreq": 46,
     "gemsockets": 0,
-    "damage": [
-      [
-        14,
-        64
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 14,
+        "max": 64,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 0
   },
   "scissors_suwayyah": {
+    "name": "scissors_suwayyah",
+    "display_name": "Scissors Suwayyah",
     "code": "7qr",
     "type": "hand_to_hand_2",
-    "display_name": "Scissors Suwayyah",
     "uniques": null,
     "sets": [
       "natalyas_mark"
@@ -1586,20 +1790,23 @@
     "level": 85,
     "levelreq": 64,
     "gemsockets": 3,
-    "damage": [
-      [
-        40,
-        51
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 40,
+        "max": 51,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "seraph_rod": {
+    "name": "seraph_rod",
+    "display_name": "Seraph Rod",
     "code": "7qs",
     "type": "scepter",
-    "display_name": "Seraph Rod",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1609,20 +1816,23 @@
     "level": 76,
     "levelreq": 57,
     "gemsockets": 3,
-    "damage": [
-      [
-        45,
-        54
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 45,
+        "max": 54,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "balrog_spear": {
+    "name": "balrog_spear",
+    "display_name": "Balrog Spear",
     "code": "7s7",
     "type": "javelin",
-    "display_name": "Balrog Spear",
     "uniques": [
       "demons_arch"
     ],
@@ -1634,20 +1844,23 @@
     "level": 71,
     "levelreq": 53,
     "gemsockets": 0,
-    "damage": [
-      [
-        33,
-        63
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 33,
+        "max": 63,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 10
   },
   "thresher": {
+    "name": "thresher",
+    "display_name": "Thresher",
     "code": "7s8",
     "type": "polearm",
-    "display_name": "Thresher",
     "uniques": [
       "the_reapers_toll"
     ],
@@ -1659,20 +1872,23 @@
     "level": 71,
     "levelreq": 53,
     "gemsockets": 5,
-    "damage": [
-      [
-        12,
-        141
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 12,
+        "max": 141,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "elegant_blade": {
+    "name": "elegant_blade",
+    "display_name": "Elegant Blade",
     "code": "7sb",
     "type": "sword",
-    "display_name": "Elegant Blade",
     "uniques": [
       "bloodmoon"
     ],
@@ -1684,20 +1900,23 @@
     "level": 63,
     "levelreq": 47,
     "gemsockets": 2,
-    "damage": [
-      [
-        33,
-        45
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 33,
+        "max": 45,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "mighty_scepter": {
+    "name": "mighty_scepter",
+    "display_name": "Mighty Scepter",
     "code": "7sc",
     "type": "scepter",
-    "display_name": "Mighty Scepter",
     "uniques": [
       "heavens_light",
       "the_redeemer"
@@ -1710,20 +1929,23 @@
     "level": 62,
     "levelreq": 46,
     "gemsockets": 2,
-    "damage": [
-      [
-        40,
-        52
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 40,
+        "max": 52,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "ataghan": {
+    "name": "ataghan",
+    "display_name": "Ataghan",
     "code": "7sm",
     "type": "sword",
-    "display_name": "Ataghan",
     "uniques": [
       "djinn_slayer"
     ],
@@ -1735,20 +1957,23 @@
     "level": 61,
     "levelreq": 45,
     "gemsockets": 2,
-    "damage": [
-      [
-        26,
-        46
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 26,
+        "max": 46,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "tyrant_club": {
+    "name": "tyrant_club",
+    "display_name": "Tyrant Club",
     "code": "7sp",
     "type": "club",
-    "display_name": "Tyrant Club",
     "uniques": [
       "demon_limb"
     ],
@@ -1760,20 +1985,23 @@
     "level": 57,
     "levelreq": 42,
     "gemsockets": 3,
-    "damage": [
-      [
-        32,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 32,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "hyperion_spear": {
+    "name": "hyperion_spear",
+    "display_name": "Hyperion Spear",
     "code": "7sr",
     "type": "spear",
-    "display_name": "Hyperion Spear",
     "uniques": [
       "ariocs_needle"
     ],
@@ -1785,20 +2013,23 @@
     "level": 58,
     "levelreq": 43,
     "gemsockets": 3,
-    "damage": [
-      [
-        35,
-        119
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 35,
+        "max": 119,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": -10
   },
   "falcata": {
+    "name": "falcata",
+    "display_name": "Falcata",
     "code": "7ss",
     "type": "sword",
-    "display_name": "Falcata",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1808,20 +2039,23 @@
     "level": 56,
     "levelreq": 42,
     "gemsockets": 2,
-    "damage": [
-      [
-        31,
-        59
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 31,
+        "max": 59,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "ghost_spear": {
+    "name": "ghost_spear",
+    "display_name": "Ghost Spear",
     "code": "7st",
     "type": "spear",
-    "display_name": "Ghost Spear",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1831,20 +2065,23 @@
     "level": 83,
     "levelreq": 62,
     "gemsockets": 6,
-    "damage": [
-      [
-        18,
-        155
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 18,
+        "max": 155,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "flying_axe": {
+    "name": "flying_axe",
+    "display_name": "Flying Axe",
     "code": "7ta",
     "type": "throwing_axe",
-    "display_name": "Flying Axe",
     "uniques": [
       "gimmershred"
     ],
@@ -1856,20 +2093,23 @@
     "level": 56,
     "levelreq": 42,
     "gemsockets": 0,
-    "damage": [
-      [
-        17,
-        65
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 17,
+        "max": 65,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "flying_knife": {
+    "name": "flying_knife",
+    "display_name": "Flying Knife",
     "code": "7tk",
     "type": "throwing_knife",
-    "display_name": "Flying Knife",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1879,20 +2119,23 @@
     "level": 64,
     "levelreq": 48,
     "gemsockets": 0,
-    "damage": [
-      [
-        23,
-        54
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 23,
+        "max": 54,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "stygian_pike": {
+    "name": "stygian_pike",
+    "display_name": "Stygian Pike",
     "code": "7tr",
     "type": "spear",
-    "display_name": "Stygian Pike",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1902,20 +2145,23 @@
     "level": 66,
     "levelreq": 49,
     "gemsockets": 4,
-    "damage": [
-      [
-        29,
-        144
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 29,
+        "max": 144,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 0
   },
   "winged_harpoon": {
+    "name": "winged_harpoon",
+    "display_name": "Winged Harpoon",
     "code": "7ts",
     "type": "javelin",
-    "display_name": "Winged Harpoon",
     "uniques": [
       "gargoyles_bite"
     ],
@@ -1927,20 +2173,23 @@
     "level": 85,
     "levelreq": 65,
     "gemsockets": 0,
-    "damage": [
-      [
-        27,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 27,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "runic_talons": {
+    "name": "runic_talons",
+    "display_name": "Runic Talons",
     "code": "7tw",
     "type": "hand_to_hand_2",
-    "display_name": "Runic Talons",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1950,20 +2199,23 @@
     "level": 81,
     "levelreq": 60,
     "gemsockets": 3,
-    "damage": [
-      [
-        24,
-        44
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 24,
+        "max": 44,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -30
   },
   "colossus_voulge": {
+    "name": "colossus_voulge",
+    "display_name": "Colossus Voulge",
     "code": "7vo",
     "type": "polearm",
-    "display_name": "Colossus Voulge",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1973,20 +2225,23 @@
     "level": 64,
     "levelreq": 48,
     "gemsockets": 4,
-    "damage": [
-      [
-        17,
-        165
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 17,
+        "max": 165,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 10
   },
   "berserker_axe": {
+    "name": "berserker_axe",
+    "display_name": "Berserker Axe",
     "code": "7wa",
     "type": "axe",
-    "display_name": "Berserker Axe",
     "uniques": [
       "death_cleaver"
     ],
@@ -1998,20 +2253,23 @@
     "level": 85,
     "levelreq": 64,
     "gemsockets": 6,
-    "damage": [
-      [
-        24,
-        71
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 24,
+        "max": 71,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 0
   },
   "wrist_sword": {
+    "name": "wrist_sword",
+    "display_name": "Wrist Sword",
     "code": "7wb",
     "type": "hand_to_hand_2",
-    "display_name": "Wrist Sword",
     "uniques": [
       "jade_talon"
     ],
@@ -2023,20 +2281,23 @@
     "level": 62,
     "levelreq": 46,
     "gemsockets": 3,
-    "damage": [
-      [
-        34,
-        45
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 34,
+        "max": 45,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "giant_thresher": {
+    "name": "giant_thresher",
+    "display_name": "Giant Thresher",
     "code": "7wc",
     "type": "polearm",
-    "display_name": "Giant Thresher",
     "uniques": [
       "stormspire"
     ],
@@ -2048,20 +2309,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 6,
-    "damage": [
-      [
-        40,
-        114
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 40,
+        "max": 114,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": -10
   },
   "mythical_sword": {
+    "name": "mythical_sword",
+    "display_name": "Mythical Sword",
     "code": "7wd",
     "type": "sword",
-    "display_name": "Mythical Sword",
     "uniques": null,
     "sets": [
       "bulkathos_tribal_guardian"
@@ -2073,20 +2337,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 3,
-    "damage": [
-      [
-        40,
-        50
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 40,
+        "max": 50,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "legendary_mallet": {
+    "name": "legendary_mallet",
+    "display_name": "Legendary Mallet",
     "code": "7wh",
     "type": "hammer",
-    "display_name": "Legendary Mallet",
     "uniques": [
       "schaefers_hammer",
       "stone_crusher"
@@ -2099,20 +2366,23 @@
     "level": 82,
     "levelreq": 61,
     "gemsockets": 4,
-    "damage": [
-      [
-        50,
-        61
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 50,
+        "max": 61,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 20
   },
   "polished_wand": {
+    "name": "polished_wand",
+    "display_name": "Polished Wand",
     "code": "7wn",
     "type": "wand",
-    "display_name": "Polished Wand",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2122,20 +2392,23 @@
     "level": 55,
     "levelreq": 41,
     "gemsockets": 2,
-    "damage": [
-      [
-        18,
-        33
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 18,
+        "max": 33,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "caduceus": {
+    "name": "caduceus",
+    "display_name": "Caduceus",
     "code": "7ws",
     "type": "scepter",
-    "display_name": "Caduceus",
     "uniques": [
       "astreons_iron_ward"
     ],
@@ -2149,20 +2422,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 5,
-    "damage": [
-      [
-        37,
-        43
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 37,
+        "max": 43,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "war_fist": {
+    "name": "war_fist",
+    "display_name": "War Fist",
     "code": "7xf",
     "type": "hand_to_hand_2",
-    "display_name": "War Fist",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2172,20 +2448,23 @@
     "level": 68,
     "levelreq": 51,
     "gemsockets": 2,
-    "damage": [
-      [
-        44,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 44,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "ghost_wand": {
+    "name": "ghost_wand",
+    "display_name": "Ghost Wand",
     "code": "7yw",
     "type": "wand",
-    "display_name": "Ghost Wand",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2195,20 +2474,23 @@
     "level": 65,
     "levelreq": 48,
     "gemsockets": 2,
-    "damage": [
-      [
-        20,
-        40
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 20,
+        "max": 40,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "gothic_staff": {
+    "name": "gothic_staff",
+    "display_name": "Gothic Staff",
     "code": "8bs",
     "type": "staff",
-    "display_name": "Gothic Staff",
     "uniques": [
       "warpspear"
     ],
@@ -2220,20 +2502,23 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        14,
-        34
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 34,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "double_bow": {
+    "name": "double_bow",
+    "display_name": "Double Bow",
     "code": "8cb",
     "type": "bow",
-    "display_name": "Double Bow",
     "uniques": [
       "endlesshail"
     ],
@@ -2245,20 +2530,23 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        11,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 11,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "cedar_staff": {
+    "name": "cedar_staff",
+    "display_name": "Cedar Staff",
     "code": "8cs",
     "type": "staff",
-    "display_name": "Cedar Staff",
     "uniques": [
       "chromatic_ire"
     ],
@@ -2270,20 +2558,23 @@
     "level": 38,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        11,
-        32
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 11,
+        "max": 32,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "razor_bow": {
+    "name": "razor_bow",
+    "display_name": "Razor Bow",
     "code": "8hb",
     "type": "bow",
-    "display_name": "Razor Bow",
     "uniques": [
       "riphook"
     ],
@@ -2295,20 +2586,23 @@
     "level": 33,
     "levelreq": 21,
     "gemsockets": 4,
-    "damage": [
-      [
-        8,
-        22
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 8,
+        "max": 22,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "ballista": {
+    "name": "ballista",
+    "display_name": "Ballista",
     "code": "8hx",
     "type": "crossbow",
-    "display_name": "Ballista",
     "uniques": [
       "burizado_kyanon"
     ],
@@ -2320,20 +2614,23 @@
     "level": 47,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        33,
-        55
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 33,
+        "max": 55,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "large_siege_bow": {
+    "name": "large_siege_bow",
+    "display_name": "Large Siege Bow",
     "code": "8l8",
     "type": "bow",
-    "display_name": "Large Siege Bow",
     "uniques": [
       "cliffkiller"
     ],
@@ -2345,20 +2642,23 @@
     "level": 46,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        10,
-        42
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 42,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "cedar_bow": {
+    "name": "cedar_bow",
+    "display_name": "Cedar Bow",
     "code": "8lb",
     "type": "bow",
-    "display_name": "Cedar Bow",
     "uniques": [
       "kuko_shakaku"
     ],
@@ -2370,20 +2670,23 @@
     "level": 35,
     "levelreq": 23,
     "gemsockets": 5,
-    "damage": [
-      [
-        10,
-        29
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 29,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "quarterstaff": {
+    "name": "quarterstaff",
+    "display_name": "Quarterstaff",
     "code": "8ls",
     "type": "staff",
-    "display_name": "Quarterstaff",
     "uniques": [
       "ribcracker"
     ],
@@ -2395,20 +2698,23 @@
     "level": 35,
     "levelreq": 23,
     "gemsockets": 3,
-    "damage": [
-      [
-        8,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 8,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "gothic_bow": {
+    "name": "gothic_bow",
+    "display_name": "Gothic Bow",
     "code": "8lw",
     "type": "bow",
-    "display_name": "Gothic Bow",
     "uniques": [
       "goldstrike_arch"
     ],
@@ -2420,20 +2726,23 @@
     "level": 52,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        10,
-        50
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 50,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "arbalest": {
+    "name": "arbalest",
+    "display_name": "Arbalest",
     "code": "8lx",
     "type": "crossbow",
-    "display_name": "Arbalest",
     "uniques": [
       "langer_briser"
     ],
@@ -2445,20 +2754,23 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 3,
-    "damage": [
-      [
-        14,
-        27
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 27,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "siege_crossbow": {
+    "name": "siege_crossbow",
+    "display_name": "Siege Crossbow",
     "code": "8mx",
     "type": "crossbow",
-    "display_name": "Siege Crossbow",
     "uniques": [
       "pus_spitter"
     ],
@@ -2470,20 +2782,23 @@
     "level": 40,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        20,
-        42
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 20,
+        "max": 42,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "chukonu": {
+    "name": "chukonu",
+    "display_name": "Chu-Ko-Nu",
     "code": "8rx",
     "type": "crossbow",
-    "display_name": "Chu-Ko-Nu",
     "uniques": [
       "demon_machine"
     ],
@@ -2495,20 +2810,23 @@
     "level": 54,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        14,
-        32
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 32,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -60
   },
   "short_siege_bow": {
+    "name": "short_siege_bow",
+    "display_name": "Short Siege Bow",
     "code": "8s8",
     "type": "bow",
-    "display_name": "Short Siege Bow",
     "uniques": [
       "witchwild_string"
     ],
@@ -2520,20 +2838,23 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        13,
-        30
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 13,
+        "max": 30,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "edge_bow": {
+    "name": "edge_bow",
+    "display_name": "Edge Bow",
     "code": "8sb",
     "type": "bow",
-    "display_name": "Edge Bow",
     "uniques": [
       "skystrike"
     ],
@@ -2545,20 +2866,23 @@
     "level": 30,
     "levelreq": 18,
     "gemsockets": 3,
-    "damage": [
-      [
-        6,
-        19
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 19,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 5
   },
   "jo_staff": {
+    "name": "jo_staff",
+    "display_name": "Jo Staff",
     "code": "8ss",
     "type": "staff",
-    "display_name": "Jo Staff",
     "uniques": [
       "razorswitch"
     ],
@@ -2570,20 +2894,23 @@
     "level": 30,
     "levelreq": 18,
     "gemsockets": 2,
-    "damage": [
-      [
-        6,
-        21
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 21,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "rune_bow": {
+    "name": "rune_bow",
+    "display_name": "Rune Bow",
     "code": "8sw",
     "type": "bow",
-    "display_name": "Rune Bow",
     "uniques": [
       "magewrath"
     ],
@@ -2595,20 +2922,23 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        14,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "rune_staff": {
+    "name": "rune_staff",
+    "display_name": "Rune Staff",
     "code": "8ws",
     "type": "staff",
-    "display_name": "Rune Staff",
     "uniques": [
       "skull_collector"
     ],
@@ -2620,20 +2950,23 @@
     "level": 47,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        24,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 24,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 20
   },
   "twin_axe": {
+    "name": "twin_axe",
+    "display_name": "Twin Axe",
     "code": "92a",
     "type": "axe",
-    "display_name": "Twin Axe",
     "uniques": [
       "islestrike"
     ],
@@ -2645,20 +2978,23 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        13,
-        38
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 38,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "espandon": {
+    "name": "espandon",
+    "display_name": "Espandon",
     "code": "92h",
     "type": "sword",
-    "display_name": "Espandon",
     "uniques": [
       "crainte_vomir"
     ],
@@ -2670,24 +3006,29 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 3,
-    "damage": [
-      [
-        8,
-        26
-      ],
-      [
-        18,
-        40
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 26,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 18,
+        "max": 40,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 0
   },
   "quhab": {
+    "name": "quhab",
+    "display_name": "Quhab",
     "code": "9ar",
     "type": "hand_to_hand",
-    "display_name": "Quhab",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -2697,20 +3038,23 @@
     "level": 28,
     "levelreq": 21,
     "gemsockets": 3,
-    "damage": [
-      [
-        11,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 11,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "cleaver": {
+    "name": "cleaver",
+    "display_name": "Cleaver",
     "code": "9ax",
     "type": "axe",
-    "display_name": "Cleaver",
     "uniques": [
       "butchers_pupil"
     ],
@@ -2722,20 +3066,23 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 4,
-    "damage": [
-      [
-        10,
-        33
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 33,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "lochaber_axe": {
+    "name": "lochaber_axe",
+    "display_name": "Lochaber Axe",
     "code": "9b7",
     "type": "polearm",
-    "display_name": "Lochaber Axe",
     "uniques": [
       "the_meat_scraper"
     ],
@@ -2747,20 +3094,23 @@
     "level": 33,
     "levelreq": 21,
     "gemsockets": 3,
-    "damage": [
-      [
-        6,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 10
   },
   "hurlbat": {
+    "name": "hurlbat",
+    "display_name": "Hurlbat",
     "code": "9b8",
     "type": "throwing_axe",
-    "display_name": "Hurlbat",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -2770,20 +3120,23 @@
     "level": 41,
     "levelreq": 25,
     "gemsockets": 0,
-    "damage": [
-      [
-        13,
-        27
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 27,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "gothic_sword": {
+    "name": "gothic_sword",
+    "display_name": "Gothic Sword",
     "code": "9b9",
     "type": "sword",
-    "display_name": "Gothic Sword",
     "uniques": [
       "cloudcrack"
     ],
@@ -2795,24 +3148,29 @@
     "level": 48,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        14,
-        40
-      ],
-      [
-        39,
-        60
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 14,
+        "max": 40,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 39,
+        "max": 60,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 1,
     "speed": 10
   },
   "bearded_axe": {
+    "name": "bearded_axe",
+    "display_name": "Bearded Axe",
     "code": "9ba",
     "type": "axe",
-    "display_name": "Bearded Axe",
     "uniques": [
       "spellsteel"
     ],
@@ -2824,20 +3182,23 @@
     "level": 38,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        21,
-        49
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 21,
+        "max": 49,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "war_dart": {
+    "name": "war_dart",
+    "display_name": "War Dart",
     "code": "9bk",
     "type": "throwing_knife",
-    "display_name": "War Dart",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -2847,20 +3208,23 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 0,
-    "damage": [
-      [
-        6,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "stiletto": {
+    "name": "stiletto",
+    "display_name": "Stiletto",
     "code": "9bl",
     "type": "knife",
-    "display_name": "Stiletto",
     "uniques": [
       "stormspike"
     ],
@@ -2872,20 +3236,23 @@
     "level": 46,
     "levelreq": 25,
     "gemsockets": 2,
-    "damage": [
-      [
-        19,
-        36
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 19,
+        "max": 36,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "war_fork": {
+    "name": "war_fork",
+    "display_name": "War Fork",
     "code": "9br",
     "type": "spear",
-    "display_name": "War Fork",
     "uniques": [
       "soulfeast_tine"
     ],
@@ -2897,20 +3264,23 @@
     "level": 41,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        16,
-        40
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 16,
+        "max": 40,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": -20
   },
   "battle_sword": {
+    "name": "battle_sword",
+    "display_name": "Battle Sword",
     "code": "9bs",
     "type": "sword",
-    "display_name": "Battle Sword",
     "uniques": [
       "headstriker"
     ],
@@ -2922,20 +3292,23 @@
     "level": 40,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        16,
-        34
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 16,
+        "max": 34,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "tabar": {
+    "name": "tabar",
+    "display_name": "Tabar",
     "code": "9bt",
     "type": "axe",
-    "display_name": "Tabar",
     "uniques": [
       "stormrider"
     ],
@@ -2947,20 +3320,23 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        24,
-        77
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 24,
+        "max": 77,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "tomb_wand": {
+    "name": "tomb_wand",
+    "display_name": "Tomb Wand",
     "code": "9bw",
     "type": "wand",
-    "display_name": "Tomb Wand",
     "uniques": [
       "arm_of_king_leoric"
     ],
@@ -2972,20 +3348,23 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 2,
-    "damage": [
-      [
-        10,
-        22
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 22,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "cudgel": {
+    "name": "cudgel",
+    "display_name": "Cudgel",
     "code": "9cl",
     "type": "club",
-    "display_name": "Cudgel",
     "uniques": [
       "dark_clan_crusher"
     ],
@@ -2997,20 +3376,23 @@
     "level": 30,
     "levelreq": 18,
     "gemsockets": 2,
-    "damage": [
-      [
-        6,
-        21
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 21,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "dacian_falx": {
+    "name": "dacian_falx",
+    "display_name": "Dacian Falx",
     "code": "9cm",
     "type": "sword",
-    "display_name": "Dacian Falx",
     "uniques": [
       "bing_sz_wang"
     ],
@@ -3022,24 +3404,29 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        13,
-        30
-      ],
-      [
-        26,
-        61
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 30,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 26,
+        "max": 61,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 10
   },
   "dimensional_blade": {
+    "name": "dimensional_blade",
+    "display_name": "Dimensional Blade",
     "code": "9cr",
     "type": "sword",
-    "display_name": "Dimensional Blade",
     "uniques": [
       "ginthers_rift"
     ],
@@ -3051,20 +3438,23 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        13,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "hand_scythe": {
+    "name": "hand_scythe",
+    "display_name": "Hand Scythe",
     "code": "9cs",
     "type": "hand_to_hand_2",
-    "display_name": "Hand Scythe",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3074,20 +3464,23 @@
     "level": 41,
     "levelreq": 30,
     "gemsockets": 2,
-    "damage": [
-      [
-        16,
-        37
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 16,
+        "max": 37,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "poignard": {
+    "name": "poignard",
+    "display_name": "Poignard",
     "code": "9dg",
     "type": "knife",
-    "display_name": "Poignard",
     "uniques": [
       "spineripper"
     ],
@@ -3099,20 +3492,23 @@
     "level": 31,
     "levelreq": 19,
     "gemsockets": 1,
-    "damage": [
-      [
-        6,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "rondel": {
+    "name": "rondel",
+    "display_name": "Rondel",
     "code": "9di",
     "type": "knife",
-    "display_name": "Rondel",
     "uniques": [
       "heart_carver"
     ],
@@ -3124,20 +3520,23 @@
     "level": 36,
     "levelreq": 24,
     "gemsockets": 1,
-    "damage": [
-      [
-        10,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "zweihander": {
+    "name": "zweihander",
+    "display_name": "Zweihander",
     "code": "9fb",
     "type": "sword",
-    "display_name": "Zweihander",
     "uniques": [
       "todesfaelle_flamme"
     ],
@@ -3149,24 +3548,29 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        19,
-        35
-      ],
-      [
-        29,
-        54
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 19,
+        "max": 35,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 29,
+        "max": 54,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": -10
   },
   "tulwar": {
+    "name": "tulwar",
+    "display_name": "Tulwar",
     "code": "9fc",
     "type": "sword",
-    "display_name": "Tulwar",
     "uniques": [
       "blade_of_ali_baba"
     ],
@@ -3178,20 +3582,23 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 2,
-    "damage": [
-      [
-        16,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 16,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 20
   },
   "knout": {
+    "name": "knout",
+    "display_name": "Knout",
     "code": "9fl",
     "type": "mace",
-    "display_name": "Knout",
     "uniques": [
       "baezils_vortex"
     ],
@@ -3203,20 +3610,23 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        13,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "gothic_axe": {
+    "name": "gothic_axe",
+    "display_name": "Gothic Axe",
     "code": "9ga",
     "type": "axe",
-    "display_name": "Gothic Axe",
     "uniques": [
       "boneslayer_blade"
     ],
@@ -3228,20 +3638,23 @@
     "level": 46,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        18,
-        70
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 18,
+        "max": 70,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": -10
   },
   "executioner_sword": {
+    "name": "executioner_sword",
+    "display_name": "Executioner Sword",
     "code": "9gd",
     "type": "sword",
-    "display_name": "Executioner Sword",
     "uniques": [
       "swordguard"
     ],
@@ -3253,24 +3666,29 @@
     "level": 54,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        24,
-        40
-      ],
-      [
-        47,
-        80
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 24,
+        "max": 40,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 47,
+        "max": 80,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 10
   },
   "ancient_axe": {
+    "name": "ancient_axe",
+    "display_name": "Ancient Axe",
     "code": "9gi",
     "type": "axe",
-    "display_name": "Ancient Axe",
     "uniques": [
       "the_minotaur"
     ],
@@ -3282,20 +3700,23 @@
     "level": 51,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        43,
-        85
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 43,
+        "max": 85,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 10
   },
   "spiculum": {
+    "name": "spiculum",
+    "display_name": "Spiculum",
     "code": "9gl",
     "type": "javelin",
-    "display_name": "Spiculum",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3305,20 +3726,23 @@
     "level": 46,
     "levelreq": 25,
     "gemsockets": 0,
-    "damage": [
-      [
-        13,
-        38
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 38,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 20
   },
   "martel_de_fer": {
+    "name": "martel_de_fer",
+    "display_name": "Martel de Fer",
     "code": "9gm",
     "type": "hammer",
-    "display_name": "Martel de Fer",
     "uniques": [
       "the_gavel_of_pain"
     ],
@@ -3330,20 +3754,23 @@
     "level": 53,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        61,
-        99
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 61,
+        "max": 99,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 20
   },
   "tusk_sword": {
+    "name": "tusk_sword",
+    "display_name": "Tusk Sword",
     "code": "9gs",
     "type": "sword",
-    "display_name": "Tusk Sword",
     "uniques": [
       "the_vile_husk"
     ],
@@ -3355,24 +3782,29 @@
     "level": 45,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        10,
-        37
-      ],
-      [
-        19,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 37,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 19,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 0
   },
   "grave_wand": {
+    "name": "grave_wand",
+    "display_name": "Grave Wand",
     "code": "9gw",
     "type": "wand",
-    "display_name": "Grave Wand",
     "uniques": [
       "blackhand_key"
     ],
@@ -3384,20 +3816,23 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 2,
-    "damage": [
-      [
-        13,
-        29
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 29,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "becdecorbin": {
+    "name": "becdecorbin",
+    "display_name": "Bec-de-Corbin",
     "code": "9h9",
     "type": "polearm",
-    "display_name": "Bec-de-Corbin",
     "uniques": [
       "husoldal_evo"
     ],
@@ -3409,20 +3844,23 @@
     "level": 51,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        13,
-        85
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 13,
+        "max": 85,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "hatchet": {
+    "name": "hatchet",
+    "display_name": "Hatchet",
     "code": "9ha",
     "type": "axe",
-    "display_name": "Hatchet",
     "uniques": [
       "coldkill"
     ],
@@ -3434,20 +3872,23 @@
     "level": 31,
     "levelreq": 19,
     "gemsockets": 2,
-    "damage": [
-      [
-        10,
-        21
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 21,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "war_javelin": {
+    "name": "war_javelin",
+    "display_name": "War Javelin",
     "code": "9ja",
     "type": "javelin",
-    "display_name": "War Javelin",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3457,20 +3898,23 @@
     "level": 30,
     "levelreq": 18,
     "gemsockets": 0,
-    "damage": [
-      [
-        6,
-        19
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 19,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "cinquedeas": {
+    "name": "cinquedeas",
+    "display_name": "Cinquedeas",
     "code": "9kr",
     "type": "knife",
-    "display_name": "Cinquedeas",
     "uniques": [
       "blackbogs_sharp"
     ],
@@ -3482,20 +3926,23 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 3,
-    "damage": [
-      [
-        15,
-        31
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 15,
+        "max": 31,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "military_axe": {
+    "name": "military_axe",
+    "display_name": "Military Axe",
     "code": "9la",
     "type": "axe",
-    "display_name": "Military Axe",
     "uniques": [
       "warlords_trust"
     ],
@@ -3507,20 +3954,23 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 4,
-    "damage": [
-      [
-        14,
-        34
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 34,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "rune_sword": {
+    "name": "rune_sword",
+    "display_name": "Rune Sword",
     "code": "9ls",
     "type": "sword",
-    "display_name": "Rune Sword",
     "uniques": [
       "plague_bearer"
     ],
@@ -3532,20 +3982,23 @@
     "level": 44,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        10,
-        42
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 42,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "greater_claws": {
+    "name": "greater_claws",
+    "display_name": "Greater Claws",
     "code": "9lw",
     "type": "hand_to_hand_2",
-    "display_name": "Greater Claws",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3555,20 +4008,23 @@
     "level": 45,
     "levelreq": 33,
     "gemsockets": 3,
-    "damage": [
-      [
-        18,
-        37
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 18,
+        "max": 37,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -20
   },
   "war_club": {
+    "name": "war_club",
+    "display_name": "War Club",
     "code": "9m9",
     "type": "hammer",
-    "display_name": "War Club",
     "uniques": [
       "bloodtree_stump"
     ],
@@ -3580,20 +4036,23 @@
     "level": 45,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        53,
-        78
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 53,
+        "max": 78,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "flanged_mace": {
+    "name": "flanged_mace",
+    "display_name": "Flanged Mace",
     "code": "9ma",
     "type": "mace",
-    "display_name": "Flanged Mace",
     "uniques": [
       "sureshrill_frost"
     ],
@@ -3605,20 +4064,23 @@
     "level": 35,
     "levelreq": 23,
     "gemsockets": 2,
-    "damage": [
-      [
-        15,
-        23
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 15,
+        "max": 23,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "crowbill": {
+    "name": "crowbill",
+    "display_name": "Crowbill",
     "code": "9mp",
     "type": "axe",
-    "display_name": "Crowbill",
     "uniques": [
       "pompeiis_wrath"
     ],
@@ -3630,20 +4092,23 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        14,
-        34
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 14,
+        "max": 34,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "jagged_star": {
+    "name": "jagged_star",
+    "display_name": "Jagged Star",
     "code": "9mt",
     "type": "mace",
-    "display_name": "Jagged Star",
     "uniques": [
       "moonfall"
     ],
@@ -3657,20 +4122,23 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 3,
-    "damage": [
-      [
-        20,
-        31
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 20,
+        "max": 31,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "lance": {
+    "name": "lance",
+    "display_name": "Lance",
     "code": "9p9",
     "type": "spear",
-    "display_name": "Lance",
     "uniques": [
       "spire_of_honor"
     ],
@@ -3682,20 +4150,23 @@
     "level": 47,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        27,
-        114
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 27,
+        "max": 114,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 20
   },
   "partizan": {
+    "name": "partizan",
+    "display_name": "Partizan",
     "code": "9pa",
     "type": "polearm",
-    "display_name": "Partizan",
     "uniques": [
       "pierre_tombale_couant"
     ],
@@ -3707,20 +4178,23 @@
     "level": 35,
     "levelreq": 23,
     "gemsockets": 5,
-    "damage": [
-      [
-        34,
-        75
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 34,
+        "max": 75,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 10
   },
   "great_pilum": {
+    "name": "great_pilum",
+    "display_name": "Great Pilum",
     "code": "9pi",
     "type": "javelin",
-    "display_name": "Great Pilum",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3730,20 +4204,23 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 0,
-    "damage": [
-      [
-        11,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 11,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 0
   },
   "scissors_quhab": {
+    "name": "scissors_quhab",
+    "display_name": "Scissors Quhab",
     "code": "9qr",
     "type": "hand_to_hand_2",
-    "display_name": "Scissors Quhab",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3753,20 +4230,23 @@
     "level": 54,
     "levelreq": 40,
     "gemsockets": 3,
-    "damage": [
-      [
-        19,
-        40
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 19,
+        "max": 40,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "holy_water_sprinkler": {
+    "name": "holy_water_sprinkler",
+    "display_name": "Holy Water Sprinkler",
     "code": "9qs",
     "type": "scepter",
-    "display_name": "Holy Water Sprinkler",
     "uniques": [
       "the_fetid_sprinkler"
     ],
@@ -3778,20 +4258,23 @@
     "level": 40,
     "levelreq": 25,
     "gemsockets": 3,
-    "damage": [
-      [
-        14,
-        36
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 14,
+        "max": 36,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "battle_scythe": {
+    "name": "battle_scythe",
+    "display_name": "Battle Scythe",
     "code": "9s8",
     "type": "polearm",
-    "display_name": "Battle Scythe",
     "uniques": [
       "athenas_wrath"
     ],
@@ -3803,20 +4286,23 @@
     "level": 40,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        18,
-        45
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 18,
+        "max": 45,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "simbilan": {
+    "name": "simbilan",
+    "display_name": "Simbilan",
     "code": "9s9",
     "type": "javelin",
-    "display_name": "Simbilan",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -3826,20 +4312,23 @@
     "level": 40,
     "levelreq": 25,
     "gemsockets": 0,
-    "damage": [
-      [
-        8,
-        32
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 32,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 10
   },
   "shamshir": {
+    "name": "shamshir",
+    "display_name": "Shamshir",
     "code": "9sb",
     "type": "sword",
-    "display_name": "Shamshir",
     "uniques": [
       "hexfire"
     ],
@@ -3851,20 +4340,23 @@
     "level": 35,
     "levelreq": 23,
     "gemsockets": 2,
-    "damage": [
-      [
-        10,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "rune_scepter": {
+    "name": "rune_scepter",
+    "display_name": "Rune Scepter",
     "code": "9sc",
     "type": "scepter",
-    "display_name": "Rune Scepter",
     "uniques": [
       "zakarums_hand"
     ],
@@ -3876,20 +4368,23 @@
     "level": 31,
     "levelreq": 19,
     "gemsockets": 2,
-    "damage": [
-      [
-        13,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "cutlass": {
+    "name": "cutlass",
+    "display_name": "Cutlass",
     "code": "9sm",
     "type": "sword",
-    "display_name": "Cutlass",
     "uniques": [
       "coldsteel_eye"
     ],
@@ -3901,20 +4396,23 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 2,
-    "damage": [
-      [
-        8,
-        21
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 21,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -30
   },
   "barbed_club": {
+    "name": "barbed_club",
+    "display_name": "Barbed Club",
     "code": "9sp",
     "type": "club",
-    "display_name": "Barbed Club",
     "uniques": [
       "fleshrender"
     ],
@@ -3926,20 +4424,23 @@
     "level": 32,
     "levelreq": 20,
     "gemsockets": 3,
-    "damage": [
-      [
-        13,
-        25
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 25,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "war_spear": {
+    "name": "war_spear",
+    "display_name": "War Spear",
     "code": "9sr",
     "type": "spear",
-    "display_name": "War Spear",
     "uniques": [
       "the_impaler"
     ],
@@ -3951,20 +4452,23 @@
     "level": 33,
     "levelreq": 21,
     "gemsockets": 3,
-    "damage": [
-      [
-        10,
-        37
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 37,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": -10
   },
   "gladius": {
+    "name": "gladius",
+    "display_name": "Gladius",
     "code": "9ss",
     "type": "sword",
-    "display_name": "Gladius",
     "uniques": [
       "bloodletter"
     ],
@@ -3976,20 +4480,23 @@
     "level": 30,
     "levelreq": 18,
     "gemsockets": 2,
-    "damage": [
-      [
-        8,
-        22
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 22,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "yari": {
+    "name": "yari",
+    "display_name": "Yari",
     "code": "9st",
     "type": "spear",
-    "display_name": "Yari",
     "uniques": [
       "hone_sundan"
     ],
@@ -4001,20 +4508,23 @@
     "level": 44,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        29,
-        59
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 29,
+        "max": 59,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "francisca": {
+    "name": "francisca",
+    "display_name": "Francisca",
     "code": "9ta",
     "type": "throwing_axe",
-    "display_name": "Francisca",
     "uniques": [
       "the_scalper"
     ],
@@ -4026,20 +4536,23 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 0,
-    "damage": [
-      [
-        11,
-        22
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 11,
+        "max": 22,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "battle_dart": {
+    "name": "battle_dart",
+    "display_name": "Battle Dart",
     "code": "9tk",
     "type": "throwing_knife",
-    "display_name": "Battle Dart",
     "uniques": [
       "deathbit"
     ],
@@ -4051,20 +4564,23 @@
     "level": 31,
     "levelreq": 19,
     "gemsockets": 0,
-    "damage": [
-      [
-        8,
-        16
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 16,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "fuscina": {
+    "name": "fuscina",
+    "display_name": "Fuscina",
     "code": "9tr",
     "type": "spear",
-    "display_name": "Fuscina",
     "uniques": [
       "kelpie_snare"
     ],
@@ -4076,20 +4592,23 @@
     "level": 36,
     "levelreq": 24,
     "gemsockets": 4,
-    "damage": [
-      [
-        19,
-        37
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 19,
+        "max": 37,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 0
   },
   "harpoon": {
+    "name": "harpoon",
+    "display_name": "Harpoon",
     "code": "9ts",
     "type": "javelin",
-    "display_name": "Harpoon",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -4099,20 +4618,23 @@
     "level": 51,
     "levelreq": 25,
     "gemsockets": 0,
-    "damage": [
-      [
-        13,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "greater_talons": {
+    "name": "greater_talons",
+    "display_name": "Greater Talons",
     "code": "9tw",
     "type": "hand_to_hand_2",
-    "display_name": "Greater Talons",
     "uniques": [
       "bartucs_cutthroat"
     ],
@@ -4124,20 +4646,23 @@
     "level": 50,
     "levelreq": 37,
     "gemsockets": 3,
-    "damage": [
-      [
-        21,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 21,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -30
   },
   "bill": {
+    "name": "bill",
+    "display_name": "Bill",
     "code": "9vo",
     "type": "polearm",
-    "display_name": "Bill",
     "uniques": [
       "blackleach_blade"
     ],
@@ -4151,20 +4676,23 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        14,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 0
   },
   "naga": {
+    "name": "naga",
+    "display_name": "Naga",
     "code": "9wa",
     "type": "axe",
-    "display_name": "Naga",
     "uniques": [
       "guardian_naga"
     ],
@@ -4176,20 +4704,23 @@
     "level": 48,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        16,
-        45
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 16,
+        "max": 45,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 0
   },
   "wrist_spike": {
+    "name": "wrist_spike",
+    "display_name": "Wrist Spike",
     "code": "9wb",
     "type": "hand_to_hand",
-    "display_name": "Wrist Spike",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -4199,20 +4730,23 @@
     "level": 32,
     "levelreq": 24,
     "gemsockets": 2,
-    "damage": [
-      [
-        13,
-        27
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 27,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "grim_scythe": {
+    "name": "grim_scythe",
+    "display_name": "Grim Scythe",
     "code": "9wc",
     "type": "polearm",
-    "display_name": "Grim Scythe",
     "uniques": [
       "grims_burning_dead"
     ],
@@ -4224,20 +4758,23 @@
     "level": 55,
     "levelreq": 25,
     "gemsockets": 6,
-    "damage": [
-      [
-        30,
-        70
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 30,
+        "max": 70,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": -10
   },
   "ancient_sword": {
+    "name": "ancient_sword",
+    "display_name": "Ancient Sword",
     "code": "9wd",
     "type": "sword",
-    "display_name": "Ancient Sword",
     "uniques": [
       "the_atlantean"
     ],
@@ -4249,20 +4786,23 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 3,
-    "damage": [
-      [
-        18,
-        43
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 18,
+        "max": 43,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "battle_hammer": {
+    "name": "battle_hammer",
+    "display_name": "Battle Hammer",
     "code": "9wh",
     "type": "hammer",
-    "display_name": "Battle Hammer",
     "uniques": [
       "earthshaker"
     ],
@@ -4274,20 +4814,23 @@
     "level": 48,
     "levelreq": 25,
     "gemsockets": 4,
-    "damage": [
-      [
-        35,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 35,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 20
   },
   "burnt_wand": {
+    "name": "burnt_wand",
+    "display_name": "Burnt Wand",
     "code": "9wn",
     "type": "wand",
-    "display_name": "Burnt Wand",
     "uniques": [
       "suicide_branch"
     ],
@@ -4299,20 +4842,23 @@
     "level": 31,
     "levelreq": 19,
     "gemsockets": 1,
-    "damage": [
-      [
-        8,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "divine_scepter": {
+    "name": "divine_scepter",
+    "display_name": "Divine Scepter",
     "code": "9ws",
     "type": "scepter",
-    "display_name": "Divine Scepter",
     "uniques": [
       "hand_of_blessed_light"
     ],
@@ -4324,20 +4870,23 @@
     "level": 45,
     "levelreq": 25,
     "gemsockets": 5,
-    "damage": [
-      [
-        16,
-        38
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 16,
+        "max": 38,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "fascia": {
+    "name": "fascia",
+    "display_name": "Fascia",
     "code": "9xf",
     "type": "hand_to_hand",
-    "display_name": "Fascia",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -4347,20 +4896,23 @@
     "level": 36,
     "levelreq": 27,
     "gemsockets": 2,
-    "damage": [
-      [
-        8,
-        37
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 37,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "petrified_wand": {
+    "name": "petrified_wand",
+    "display_name": "Petrified Wand",
     "code": "9yw",
     "type": "wand",
-    "display_name": "Petrified Wand",
     "uniques": [
       "carin_shard"
     ],
@@ -4372,20 +4924,23 @@
     "level": 38,
     "levelreq": 25,
     "gemsockets": 2,
-    "damage": [
-      [
-        8,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "stag_bow": {
+    "name": "stag_bow",
+    "display_name": "Stag Bow",
     "code": "am1",
     "type": "amazon_bow",
-    "display_name": "Stag Bow",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4395,20 +4950,23 @@
     "level": 18,
     "levelreq": 14,
     "gemsockets": 5,
-    "damage": [
-      [
-        7,
-        12
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 7,
+        "max": 12,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "reflex_bow": {
+    "name": "reflex_bow",
+    "display_name": "Reflex Bow",
     "code": "am2",
     "type": "amazon_bow",
-    "display_name": "Reflex Bow",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4418,20 +4976,23 @@
     "level": 27,
     "levelreq": 20,
     "gemsockets": 5,
-    "damage": [
-      [
-        9,
-        19
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 9,
+        "max": 19,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "maiden_spear": {
+    "name": "maiden_spear",
+    "display_name": "Maiden Spear",
     "code": "am3",
     "type": "amazon_spear",
-    "display_name": "Maiden Spear",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4441,20 +5002,23 @@
     "level": 18,
     "levelreq": 14,
     "gemsockets": 6,
-    "damage": [
-      [
-        18,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 18,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "maiden_pike": {
+    "name": "maiden_pike",
+    "display_name": "Maiden Pike",
     "code": "am4",
     "type": "amazon_spear",
-    "display_name": "Maiden Pike",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4464,20 +5028,23 @@
     "level": 27,
     "levelreq": 20,
     "gemsockets": 6,
-    "damage": [
-      [
-        23,
-        55
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 23,
+        "max": 55,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 10
   },
   "maiden_javelin": {
+    "name": "maiden_javelin",
+    "display_name": "Maiden Javelin",
     "code": "am5",
     "type": "amazon_javelin",
-    "display_name": "Maiden Javelin",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4487,20 +5054,23 @@
     "level": 23,
     "levelreq": 17,
     "gemsockets": 0,
-    "damage": [
-      [
-        8,
-        14
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 14,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "ashwood_bow": {
+    "name": "ashwood_bow",
+    "display_name": "Ashwood Bow",
     "code": "am6",
     "type": "amazon_bow",
-    "display_name": "Ashwood Bow",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -4510,20 +5080,23 @@
     "level": 39,
     "levelreq": 29,
     "gemsockets": 5,
-    "damage": [
-      [
-        16,
-        29
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 16,
+        "max": 29,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "ceremonial_bow": {
+    "name": "ceremonial_bow",
+    "display_name": "Ceremonial Bow",
     "code": "am7",
     "type": "amazon_bow",
-    "display_name": "Ceremonial Bow",
     "uniques": [
       "lycanders_aim"
     ],
@@ -4535,20 +5108,23 @@
     "level": 47,
     "levelreq": 35,
     "gemsockets": 5,
-    "damage": [
-      [
-        19,
-        41
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 19,
+        "max": 41,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "ceremonial_spear": {
+    "name": "ceremonial_spear",
+    "display_name": "Ceremonial Spear",
     "code": "am8",
     "type": "amazon_spear",
-    "display_name": "Ceremonial Spear",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -4558,20 +5134,23 @@
     "level": 43,
     "levelreq": 32,
     "gemsockets": 6,
-    "damage": [
-      [
-        34,
-        51
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 34,
+        "max": 51,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "ceremonial_pike": {
+    "name": "ceremonial_pike",
+    "display_name": "Ceremonial Pike",
     "code": "am9",
     "type": "amazon_spear",
-    "display_name": "Ceremonial Pike",
     "uniques": [
       "lycanders_flank"
     ],
@@ -4583,20 +5162,23 @@
     "level": 51,
     "levelreq": 38,
     "gemsockets": 6,
-    "damage": [
-      [
-        42,
-        101
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 42,
+        "max": 101,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 20
   },
   "ceremonial_javelin": {
+    "name": "ceremonial_javelin",
+    "display_name": "Ceremonial Javelin",
     "code": "ama",
     "type": "amazon_javelin",
-    "display_name": "Ceremonial Javelin",
     "uniques": [
       "titans_revenge"
     ],
@@ -4608,20 +5190,23 @@
     "level": 35,
     "levelreq": 26,
     "gemsockets": 0,
-    "damage": [
-      [
-        18,
-        35
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 18,
+        "max": 35,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "matriarchal_bow": {
+    "name": "matriarchal_bow",
+    "display_name": "Matriarchal Bow",
     "code": "amb",
     "type": "amazon_bow",
-    "display_name": "Matriarchal Bow",
     "uniques": [
       "blood_ravens_charge"
     ],
@@ -4633,20 +5218,23 @@
     "level": 53,
     "levelreq": 39,
     "gemsockets": 5,
-    "damage": [
-      [
-        20,
-        47
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 20,
+        "max": 47,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "grand_matron_bow": {
+    "name": "grand_matron_bow",
+    "display_name": "Grand Matron Bow",
     "code": "amc",
     "type": "amazon_bow",
-    "display_name": "Grand Matron Bow",
     "uniques": null,
     "sets": [
       "mavinas_caster"
@@ -4658,20 +5246,23 @@
     "level": 78,
     "levelreq": 58,
     "gemsockets": 5,
-    "damage": [
-      [
-        14,
-        72
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 72,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "matriarchal_spear": {
+    "name": "matriarchal_spear",
+    "display_name": "Matriarchal Spear",
     "code": "amd",
     "type": "amazon_spear",
-    "display_name": "Matriarchal Spear",
     "uniques": [
       "stoneraven"
     ],
@@ -4683,20 +5274,23 @@
     "level": 61,
     "levelreq": 45,
     "gemsockets": 6,
-    "damage": [
-      [
-        65,
-        95
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 65,
+        "max": 95,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "matriarchal_pike": {
+    "name": "matriarchal_pike",
+    "display_name": "Matriarchal Pike",
     "code": "ame",
     "type": "amazon_spear",
-    "display_name": "Matriarchal Pike",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -4706,20 +5300,23 @@
     "level": 81,
     "levelreq": 60,
     "gemsockets": 6,
-    "damage": [
-      [
-        37,
-        153
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 37,
+        "max": 153,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 20
   },
   "matriarchal_javelin": {
+    "name": "matriarchal_javelin",
+    "display_name": "Matriarchal Javelin",
     "code": "amf",
     "type": "amazon_javelin",
-    "display_name": "Matriarchal Javelin",
     "uniques": [
       "thunderstroke"
     ],
@@ -4731,20 +5328,23 @@
     "level": 65,
     "levelreq": 48,
     "gemsockets": 0,
-    "damage": [
-      [
-        30,
-        54
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 30,
+        "max": 54,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "axe": {
+    "name": "axe",
+    "display_name": "Axe",
     "code": "axe",
     "type": "axe",
-    "display_name": "Axe",
     "uniques": [
       "deathspade"
     ],
@@ -4756,20 +5356,23 @@
     "level": 7,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        4,
-        11
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 4,
+        "max": 11,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "hatchet_hands": {
+    "name": "hatchet_hands",
+    "display_name": "Hatchet Hands",
     "code": "axf",
     "type": "hand_to_hand",
-    "display_name": "Hatchet Hands",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4779,20 +5382,23 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        2,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "balanced_axe": {
+    "name": "balanced_axe",
+    "display_name": "Balanced Axe",
     "code": "bal",
     "type": "throwing_axe",
-    "display_name": "Balanced Axe",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4802,20 +5408,23 @@
     "level": 16,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        5,
-        10
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 10,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "bardiche": {
+    "name": "bardiche",
+    "display_name": "Bardiche",
     "code": "bar",
     "type": "polearm",
-    "display_name": "Bardiche",
     "uniques": [
       "dimoaks_hew"
     ],
@@ -4827,20 +5436,23 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        1,
-        27
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 1,
+        "max": 27,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 10
   },
   "broad_axe": {
+    "name": "broad_axe",
+    "display_name": "Broad Axe",
     "code": "bax",
     "type": "axe",
-    "display_name": "Broad Axe",
     "uniques": [
       "goreshovel"
     ],
@@ -4852,20 +5464,23 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        10,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "balanced_knife": {
+    "name": "balanced_knife",
+    "display_name": "Balanced Knife",
     "code": "bkf",
     "type": "throwing_knife",
-    "display_name": "Balanced Knife",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -4875,20 +5490,23 @@
     "level": 13,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        1,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "blade": {
+    "name": "blade",
+    "display_name": "Blade",
     "code": "bld",
     "type": "knife",
-    "display_name": "Blade",
     "uniques": [
       "spectral_shard"
     ],
@@ -4900,20 +5518,23 @@
     "level": 23,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        4,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 4,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "brandistock": {
+    "name": "brandistock",
+    "display_name": "Brandistock",
     "code": "brn",
     "type": "spear",
-    "display_name": "Brandistock",
     "uniques": [
       "bloodthief"
     ],
@@ -4925,20 +5546,23 @@
     "level": 16,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        7,
-        17
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 7,
+        "max": 17,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": -20
   },
   "broad_sword": {
+    "name": "broad_sword",
+    "display_name": "Broad Sword",
     "code": "bsd",
     "type": "sword",
-    "display_name": "Broad Sword",
     "uniques": [
       "griswolds_edge"
     ],
@@ -4952,20 +5576,23 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        7,
-        14
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 7,
+        "max": 14,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "battle_staff": {
+    "name": "battle_staff",
+    "display_name": "Battle Staff",
     "code": "bst",
     "type": "staff",
-    "display_name": "Battle Staff",
     "uniques": [
       "the_salamander"
     ],
@@ -4979,20 +5606,23 @@
     "level": 17,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        6,
-        13
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 13,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "bastard_sword": {
+    "name": "bastard_sword",
+    "display_name": "Bastard Sword",
     "code": "bsw",
     "type": "sword",
-    "display_name": "Bastard Sword",
     "uniques": [
       "blacktongue"
     ],
@@ -5004,24 +5634,29 @@
     "level": 24,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        7,
-        19
-      ],
-      [
-        20,
-        28
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 7,
+        "max": 19,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 20,
+        "max": 28,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 1,
     "speed": 10
   },
   "blade_talons": {
+    "name": "blade_talons",
+    "display_name": "Blade Talons",
     "code": "btl",
     "type": "hand_to_hand",
-    "display_name": "Blade Talons",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5031,20 +5666,23 @@
     "level": 21,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        10,
-        14
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 14,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -20
   },
   "battle_axe": {
+    "name": "battle_axe",
+    "display_name": "Battle Axe",
     "code": "btx",
     "type": "axe",
-    "display_name": "Battle Axe",
     "uniques": [
       "the_chieftain"
     ],
@@ -5056,20 +5694,23 @@
     "level": 17,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        12,
-        32
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 12,
+        "max": 32,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "bone_wand": {
+    "name": "bone_wand",
+    "display_name": "Bone Wand",
     "code": "bwn",
     "type": "wand",
-    "display_name": "Bone Wand",
     "uniques": [
       "gravenspine"
     ],
@@ -5083,20 +5724,23 @@
     "level": 18,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        3,
-        7
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 7,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "composite_bow": {
+    "name": "composite_bow",
+    "display_name": "Composite Bow",
     "code": "cbw",
     "type": "bow",
-    "display_name": "Composite Bow",
     "uniques": [
       "rogues_bow"
     ],
@@ -5108,20 +5752,23 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        4,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 4,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "cestus": {
+    "name": "cestus",
+    "display_name": "Cestus",
     "code": "ces",
     "type": "hand_to_hand",
-    "display_name": "Cestus",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5131,20 +5778,23 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        7,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 7,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "club": {
+    "name": "club",
+    "display_name": "Club",
     "code": "clb",
     "type": "club",
-    "display_name": "Club",
     "uniques": [
       "felloak"
     ],
@@ -5156,20 +5806,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        1,
-        6
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 6,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "claymore": {
+    "name": "claymore",
+    "display_name": "Claymore",
     "code": "clm",
     "type": "sword",
-    "display_name": "Claymore",
     "uniques": [
       "soulflay"
     ],
@@ -5181,24 +5834,29 @@
     "level": 17,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        5,
-        12
-      ],
-      [
-        13,
-        30
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 12,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 13,
+        "max": 30,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 10
   },
   "claws": {
+    "name": "claws",
+    "display_name": "Claws",
     "code": "clw",
     "type": "hand_to_hand",
-    "display_name": "Claws",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5208,20 +5866,23 @@
     "level": 18,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        8,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "crystal_sword": {
+    "name": "crystal_sword",
+    "display_name": "Crystal Sword",
     "code": "crs",
     "type": "sword",
-    "display_name": "Crystal Sword",
     "uniques": [
       "azurewrath"
     ],
@@ -5233,20 +5894,23 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        5,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "gnarled_staff": {
+    "name": "gnarled_staff",
+    "display_name": "Gnarled Staff",
     "code": "cst",
     "type": "staff",
-    "display_name": "Gnarled Staff",
     "uniques": [
       "spire_of_lazarus"
     ],
@@ -5258,20 +5922,23 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        4,
-        12
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 4,
+        "max": 12,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "decoy_gidbinn": {
+    "name": "decoy_gidbinn",
+    "display_name": "Decoy Gidbinn",
     "code": "d33",
     "type": "knife",
-    "display_name": "Decoy Gidbinn",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5281,20 +5948,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        1,
-        2
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 2,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "dagger": {
+    "name": "dagger",
+    "display_name": "Dagger",
     "code": "dgr",
     "type": "knife",
-    "display_name": "Dagger",
     "uniques": [
       "gull"
     ],
@@ -5306,20 +5976,23 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 1,
-    "damage": [
-      [
-        1,
-        4
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 4,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "dirk": {
+    "name": "dirk",
+    "display_name": "Dirk",
     "code": "dir",
     "type": "knife",
-    "display_name": "Dirk",
     "uniques": [
       "the_diggler"
     ],
@@ -5331,20 +6004,23 @@
     "level": 9,
     "levelreq": 0,
     "gemsockets": 1,
-    "damage": [
-      [
-        3,
-        9
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 9,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "flail": {
+    "name": "flail",
+    "display_name": "Flail",
     "code": "fla",
     "type": "mace",
-    "display_name": "Flail",
     "uniques": [
       "the_generals_tan_do_li_ga"
     ],
@@ -5356,20 +6032,23 @@
     "level": 19,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        1,
-        24
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 24,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "flamberge": {
+    "name": "flamberge",
+    "display_name": "Flamberge",
     "code": "flb",
     "type": "sword",
-    "display_name": "Flamberge",
     "uniques": [
       "ripsaw"
     ],
@@ -5381,24 +6060,29 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        9,
-        15
-      ],
-      [
-        13,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 9,
+        "max": 15,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 13,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": -10
   },
   "falchion": {
+    "name": "falchion",
+    "display_name": "Falchion",
     "code": "flc",
     "type": "sword",
-    "display_name": "Falchion",
     "uniques": [
       "gleamscythe"
     ],
@@ -5410,20 +6094,23 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        9,
-        17
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 9,
+        "max": 17,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 20
   },
   "the_gidbinn": {
+    "name": "the_gidbinn",
+    "display_name": "The Gidbinn",
     "code": "g33",
     "type": "knife",
-    "display_name": "The Gidbinn",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5433,20 +6120,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        3,
-        7
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 7,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "great_axe": {
+    "name": "great_axe",
+    "display_name": "Great Axe",
     "code": "gax",
     "type": "axe",
-    "display_name": "Great Axe",
     "uniques": [
       "brainhew"
     ],
@@ -5458,20 +6148,23 @@
     "level": 23,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        9,
-        30
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 9,
+        "max": 30,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": -10
   },
   "giant_sword": {
+    "name": "giant_sword",
+    "display_name": "Giant Sword",
     "code": "gis",
     "type": "sword",
-    "display_name": "Giant Sword",
     "uniques": [
       "kinemils_awl"
     ],
@@ -5483,24 +6176,29 @@
     "level": 21,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        3,
-        16
-      ],
-      [
-        9,
-        28
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 16,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 9,
+        "max": 28,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 0
   },
   "giant_axe": {
+    "name": "giant_axe",
+    "display_name": "Giant Axe",
     "code": "gix",
     "type": "axe",
-    "display_name": "Giant Axe",
     "uniques": [
       "humongous"
     ],
@@ -5512,20 +6210,23 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        22,
-        45
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 22,
+        "max": 45,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 10
   },
   "glaive": {
+    "name": "glaive",
+    "display_name": "Glaive",
     "code": "glv",
     "type": "javelin",
-    "display_name": "Glaive",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5535,20 +6236,23 @@
     "level": 23,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        5,
-        17
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 17,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 20
   },
   "great_maul": {
+    "name": "great_maul",
+    "display_name": "Great Maul",
     "code": "gma",
     "type": "hammer",
-    "display_name": "Great Maul",
     "uniques": [
       "steeldriver"
     ],
@@ -5560,20 +6264,23 @@
     "level": 32,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        38,
-        58
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 38,
+        "max": 58,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 20
   },
   "strangling_gas_potion": {
+    "name": "strangling_gas_potion",
+    "display_name": "Strangling Gas Potion",
     "code": "gpl",
     "type": "missile_potion",
-    "display_name": "Strangling Gas Potion",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5583,15 +6290,16 @@
     "level": 8,
     "levelreq": 6,
     "gemsockets": 0,
-    "damage": null,
+    "props": null,
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "choking_gas_potion": {
+    "name": "choking_gas_potion",
+    "display_name": "Choking Gas Potion",
     "code": "gpm",
     "type": "missile_potion",
-    "display_name": "Choking Gas Potion",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5601,15 +6309,16 @@
     "level": 20,
     "levelreq": 16,
     "gemsockets": 0,
-    "damage": null,
+    "props": null,
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "rancid_gas_potion": {
+    "name": "rancid_gas_potion",
+    "display_name": "Rancid Gas Potion",
     "code": "gps",
     "type": "missile_potion",
-    "display_name": "Rancid Gas Potion",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5619,15 +6328,16 @@
     "level": 32,
     "levelreq": 24,
     "gemsockets": 0,
-    "damage": null,
+    "props": null,
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "grand_scepter": {
+    "name": "grand_scepter",
+    "display_name": "Grand Scepter",
     "code": "gsc",
     "type": "scepter",
-    "display_name": "Grand Scepter",
     "uniques": [
       "rusthandle"
     ],
@@ -5641,20 +6351,23 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        8,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "great_sword": {
+    "name": "great_sword",
+    "display_name": "Great Sword",
     "code": "gsd",
     "type": "sword",
-    "display_name": "Great Sword",
     "uniques": [
       "the_patriarch"
     ],
@@ -5666,24 +6379,29 @@
     "level": 33,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        12,
-        20
-      ],
-      [
-        25,
-        42
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 12,
+        "max": 20,
+        "par": null
+      },
+      {
+        "name": "base_damage_2hand",
+        "min": 25,
+        "max": 42,
+        "par": null
+      }
     ],
     "hands": "both",
     "range": 2,
     "speed": 10
   },
   "grim_wand": {
+    "name": "grim_wand",
+    "display_name": "Grim Wand",
     "code": "gwn",
     "type": "wand",
-    "display_name": "Grim Wand",
     "uniques": [
       "umes_lament"
     ],
@@ -5697,20 +6415,23 @@
     "level": 26,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        5,
-        11
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 11,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "halberd": {
+    "name": "halberd",
+    "display_name": "Halberd",
     "code": "hal",
     "type": "polearm",
-    "display_name": "Halberd",
     "uniques": [
       "woestave"
     ],
@@ -5722,20 +6443,23 @@
     "level": 29,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        12,
-        45
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 12,
+        "max": 45,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "hand_axe": {
+    "name": "hand_axe",
+    "display_name": "Hand Axe",
     "code": "hax",
     "type": "axe",
-    "display_name": "Hand Axe",
     "uniques": [
       "the_gnasher"
     ],
@@ -5747,20 +6471,23 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        3,
-        6
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 6,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "hunters_bow": {
+    "name": "hunters_bow",
+    "display_name": "Hunter's Bow",
     "code": "hbw",
     "type": "bow",
-    "display_name": "Hunter's Bow",
     "uniques": [
       "witherstring"
     ],
@@ -5772,20 +6499,23 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        2,
-        6
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 2,
+        "max": 6,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "horadric_malus": {
+    "name": "horadric_malus",
+    "display_name": "Horadric Malus",
     "code": "hdm",
     "type": "hammer",
-    "display_name": "Horadric Malus",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5795,20 +6525,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        6,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 20
   },
   "hell_forge_hammer": {
+    "name": "hell_forge_hammer",
+    "display_name": "Hell Forge Hammer",
     "code": "hfh",
     "type": "hammer",
-    "display_name": "Hell Forge Hammer",
     "uniques": [
       "hell_forge_hammer"
     ],
@@ -5820,20 +6553,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        6,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "horadric_staff": {
+    "name": "horadric_staff",
+    "display_name": "Horadric Staff",
     "code": "hst",
     "type": "staff",
-    "display_name": "Horadric Staff",
     "uniques": [
       "horadric_staff"
     ],
@@ -5845,20 +6581,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        12,
-        20
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 12,
+        "max": 20,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 0
   },
   "heavy_crossbow": {
+    "name": "heavy_crossbow",
+    "display_name": "Heavy Crossbow",
     "code": "hxb",
     "type": "crossbow",
-    "display_name": "Heavy Crossbow",
     "uniques": [
       "hellcast"
     ],
@@ -5870,20 +6609,23 @@
     "level": 24,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        14,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "javelin": {
+    "name": "javelin",
+    "display_name": "Javelin",
     "code": "jav",
     "type": "javelin",
-    "display_name": "Javelin",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5893,20 +6635,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        1,
-        5
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 5,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "kris": {
+    "name": "kris",
+    "display_name": "Kris",
     "code": "kri",
     "type": "knife",
-    "display_name": "Kris",
     "uniques": [
       "the_jade_tan_do"
     ],
@@ -5918,20 +6663,23 @@
     "level": 17,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        2,
-        11
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 11,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "katar": {
+    "name": "katar",
+    "display_name": "Katar",
     "code": "ktr",
     "type": "hand_to_hand",
-    "display_name": "Katar",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -5941,20 +6689,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        4,
-        7
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 4,
+        "max": 7,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "large_axe": {
+    "name": "large_axe",
+    "display_name": "Large Axe",
     "code": "lax",
     "type": "axe",
-    "display_name": "Large Axe",
     "uniques": [
       "axe_of_fechmar"
     ],
@@ -5966,20 +6717,23 @@
     "level": 6,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        6,
-        13
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 13,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "long_battle_bow": {
+    "name": "long_battle_bow",
+    "display_name": "Long Battle Bow",
     "code": "lbb",
     "type": "bow",
-    "display_name": "Long Battle Bow",
     "uniques": [
       "wizendraw"
     ],
@@ -5993,20 +6747,23 @@
     "level": 23,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        3,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 3,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "long_bow": {
+    "name": "long_bow",
+    "display_name": "Long Bow",
     "code": "lbw",
     "type": "bow",
-    "display_name": "Long Bow",
     "uniques": [
       "raven_claw"
     ],
@@ -6018,20 +6775,23 @@
     "level": 8,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        3,
-        10
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 3,
+        "max": 10,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "wirts_leg": {
+    "name": "wirts_leg",
+    "display_name": "Wirt's Leg",
     "code": "leg",
     "type": "club",
-    "display_name": "Wirt's Leg",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6041,20 +6801,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        2,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "long_sword": {
+    "name": "long_sword",
+    "display_name": "Long Sword",
     "code": "lsd",
     "type": "sword",
-    "display_name": "Long Sword",
     "uniques": [
       "hellplague"
     ],
@@ -6068,20 +6831,23 @@
     "level": 20,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        3,
-        19
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 19,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "long_staff": {
+    "name": "long_staff",
+    "display_name": "Long Staff",
     "code": "lst",
     "type": "staff",
-    "display_name": "Long Staff",
     "uniques": [
       "serpent_lord"
     ],
@@ -6093,20 +6859,23 @@
     "level": 8,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        2,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 2,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 0
   },
   "long_war_bow": {
+    "name": "long_war_bow",
+    "display_name": "Long War Bow",
     "code": "lwb",
     "type": "bow",
-    "display_name": "Long War Bow",
     "uniques": [
       "blastbark"
     ],
@@ -6118,20 +6887,23 @@
     "level": 31,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        3,
-        23
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 3,
+        "max": 23,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 10
   },
   "light_crossbow": {
+    "name": "light_crossbow",
+    "display_name": "Light Crossbow",
     "code": "lxb",
     "type": "crossbow",
-    "display_name": "Light Crossbow",
     "uniques": [
       "leadcrow"
     ],
@@ -6143,20 +6915,23 @@
     "level": 6,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        6,
-        9
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 9,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -10
   },
   "mace": {
+    "name": "mace",
+    "display_name": "Mace",
     "code": "mac",
     "type": "mace",
-    "display_name": "Mace",
     "uniques": [
       "crushflange"
     ],
@@ -6168,20 +6943,23 @@
     "level": 8,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        3,
-        10
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 10,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "maul": {
+    "name": "maul",
+    "display_name": "Maul",
     "code": "mau",
     "type": "hammer",
-    "display_name": "Maul",
     "uniques": [
       "bonesnap"
     ],
@@ -6193,20 +6971,23 @@
     "level": 21,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        30,
-        43
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 30,
+        "max": 43,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 10
   },
   "military_pick": {
+    "name": "military_pick",
+    "display_name": "Military Pick",
     "code": "mpi",
     "type": "axe",
-    "display_name": "Military Pick",
     "uniques": [
       "skull_splitter"
     ],
@@ -6220,20 +7001,23 @@
     "level": 19,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        7,
-        11
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 7,
+        "max": 11,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "shaft_of_the_horadric_staff": {
+    "name": "shaft_of_the_horadric_staff",
+    "display_name": "Shaft of the Horadric Staff",
     "code": "msf",
     "type": "staff",
-    "display_name": "Shaft of the Horadric Staff",
     "uniques": [
       "staff_of_kings"
     ],
@@ -6245,20 +7029,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        10,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 10,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 0
   },
   "morning_star": {
+    "name": "morning_star",
+    "display_name": "Morning Star",
     "code": "mst",
     "type": "mace",
-    "display_name": "Morning Star",
     "uniques": [
       "bloodrise"
     ],
@@ -6270,20 +7057,23 @@
     "level": 13,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        7,
-        16
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 7,
+        "max": 16,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 10
   },
   "crossbow": {
+    "name": "crossbow",
+    "display_name": "Crossbow",
     "code": "mxb",
     "type": "crossbow",
-    "display_name": "Crossbow",
     "uniques": [
       "ichorsting"
     ],
@@ -6295,20 +7085,23 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        9,
-        16
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 9,
+        "max": 16,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "eagle_orb": {
+    "name": "eagle_orb",
+    "display_name": "Eagle Orb",
     "code": "ob1",
     "type": "orb",
-    "display_name": "Eagle Orb",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6318,20 +7111,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        2,
-        5
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 5,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "sacred_globe": {
+    "name": "sacred_globe",
+    "display_name": "Sacred Globe",
     "code": "ob2",
     "type": "orb",
-    "display_name": "Sacred Globe",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6341,20 +7137,23 @@
     "level": 8,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        3,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "smoked_sphere": {
+    "name": "smoked_sphere",
+    "display_name": "Smoked Sphere",
     "code": "ob3",
     "type": "orb",
-    "display_name": "Smoked Sphere",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6364,20 +7163,23 @@
     "level": 12,
     "levelreq": 8,
     "gemsockets": 4,
-    "damage": [
-      [
-        4,
-        10
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 4,
+        "max": 10,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "clasped_orb": {
+    "name": "clasped_orb",
+    "display_name": "Clasped Orb",
     "code": "ob4",
     "type": "orb",
-    "display_name": "Clasped Orb",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6387,20 +7189,23 @@
     "level": 17,
     "levelreq": 13,
     "gemsockets": 4,
-    "damage": [
-      [
-        5,
-        12
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 12,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "jareds_stone": {
+    "name": "jareds_stone",
+    "display_name": "Jared's Stone",
     "code": "ob5",
     "type": "orb",
-    "display_name": "Jared's Stone",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6410,20 +7215,23 @@
     "level": 24,
     "levelreq": 18,
     "gemsockets": 4,
-    "damage": [
-      [
-        8,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "glowing_orb": {
+    "name": "glowing_orb",
+    "display_name": "Glowing Orb",
     "code": "ob6",
     "type": "orb",
-    "display_name": "Glowing Orb",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -6433,20 +7241,23 @@
     "level": 32,
     "levelreq": 24,
     "gemsockets": 4,
-    "damage": [
-      [
-        8,
-        21
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 21,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "crystalline_globe": {
+    "name": "crystalline_globe",
+    "display_name": "Crystalline Globe",
     "code": "ob7",
     "type": "orb",
-    "display_name": "Crystalline Globe",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -6456,20 +7267,23 @@
     "level": 37,
     "levelreq": 27,
     "gemsockets": 4,
-    "damage": [
-      [
-        10,
-        26
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 26,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "cloudy_sphere": {
+    "name": "cloudy_sphere",
+    "display_name": "Cloudy Sphere",
     "code": "ob8",
     "type": "orb",
-    "display_name": "Cloudy Sphere",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -6479,20 +7293,23 @@
     "level": 41,
     "levelreq": 30,
     "gemsockets": 4,
-    "damage": [
-      [
-        11,
-        29
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 11,
+        "max": 29,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "sparkling_ball": {
+    "name": "sparkling_ball",
+    "display_name": "Sparkling Ball",
     "code": "ob9",
     "type": "orb",
-    "display_name": "Sparkling Ball",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -6502,20 +7319,23 @@
     "level": 46,
     "levelreq": 34,
     "gemsockets": 4,
-    "damage": [
-      [
-        13,
-        32
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 13,
+        "max": 32,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "swirling_crystal": {
+    "name": "swirling_crystal",
+    "display_name": "Swirling Crystal",
     "code": "oba",
     "type": "orb",
-    "display_name": "Swirling Crystal",
     "uniques": [
       "the_oculus"
     ],
@@ -6529,20 +7349,23 @@
     "level": 50,
     "levelreq": 37,
     "gemsockets": 4,
-    "damage": [
-      [
-        18,
-        42
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 18,
+        "max": 42,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "heavenly_stone": {
+    "name": "heavenly_stone",
+    "display_name": "Heavenly Stone",
     "code": "obb",
     "type": "orb",
-    "display_name": "Heavenly Stone",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -6552,20 +7375,23 @@
     "level": 59,
     "levelreq": 44,
     "gemsockets": 4,
-    "damage": [
-      [
-        21,
-        46
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 21,
+        "max": 46,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "eldritch_orb": {
+    "name": "eldritch_orb",
+    "display_name": "Eldritch Orb",
     "code": "obc",
     "type": "orb",
-    "display_name": "Eldritch Orb",
     "uniques": [
       "eschutas_temper"
     ],
@@ -6577,20 +7403,23 @@
     "level": 67,
     "levelreq": 50,
     "gemsockets": 4,
-    "damage": [
-      [
-        18,
-        50
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 18,
+        "max": 50,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "demon_heart": {
+    "name": "demon_heart",
+    "display_name": "Demon Heart",
     "code": "obd",
     "type": "orb",
-    "display_name": "Demon Heart",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -6600,20 +7429,23 @@
     "level": 75,
     "levelreq": 56,
     "gemsockets": 4,
-    "damage": [
-      [
-        23,
-        55
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 23,
+        "max": 55,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "vortex_orb": {
+    "name": "vortex_orb",
+    "display_name": "Vortex Orb",
     "code": "obe",
     "type": "orb",
-    "display_name": "Vortex Orb",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -6623,20 +7455,23 @@
     "level": 84,
     "levelreq": 63,
     "gemsockets": 4,
-    "damage": [
-      [
-        12,
-        66
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 12,
+        "max": 66,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "dimensional_shard": {
+    "name": "dimensional_shard",
+    "display_name": "Dimensional Shard",
     "code": "obf",
     "type": "orb",
-    "display_name": "Dimensional Shard",
     "uniques": [
       "deaths_fathom"
     ],
@@ -6648,20 +7483,23 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 4,
-    "damage": [
-      [
-        30,
-        53
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 30,
+        "max": 53,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "fulminating_potion": {
+    "name": "fulminating_potion",
+    "display_name": "Fulminating Potion",
     "code": "opl",
     "type": "missile_potion",
-    "display_name": "Fulminating Potion",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6671,15 +7509,16 @@
     "level": 4,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": null,
+    "props": null,
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "exploding_potion": {
+    "name": "exploding_potion",
+    "display_name": "Exploding Potion",
     "code": "opm",
     "type": "missile_potion",
-    "display_name": "Exploding Potion",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6689,15 +7528,16 @@
     "level": 16,
     "levelreq": 12,
     "gemsockets": 0,
-    "damage": null,
+    "props": null,
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "oil_potion": {
+    "name": "oil_potion",
+    "display_name": "Oil Potion",
     "code": "ops",
     "type": "missile_potion",
-    "display_name": "Oil Potion",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6707,15 +7547,16 @@
     "level": 28,
     "levelreq": 20,
     "gemsockets": 0,
-    "damage": null,
+    "props": null,
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "poleaxe": {
+    "name": "poleaxe",
+    "display_name": "Poleaxe",
     "code": "pax",
     "type": "polearm",
-    "display_name": "Poleaxe",
     "uniques": [
       "the_battlebranch"
     ],
@@ -6727,20 +7568,23 @@
     "level": 21,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        18,
-        39
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 18,
+        "max": 39,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 10
   },
   "pike": {
+    "name": "pike",
+    "display_name": "Pike",
     "code": "pik",
     "type": "spear",
-    "display_name": "Pike",
     "uniques": [
       "the_tannr_gorerod"
     ],
@@ -6752,20 +7596,23 @@
     "level": 24,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        14,
-        63
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 14,
+        "max": 63,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 20
   },
   "pilum": {
+    "name": "pilum",
+    "display_name": "Pilum",
     "code": "pil",
     "type": "javelin",
-    "display_name": "Pilum",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -6775,20 +7622,23 @@
     "level": 10,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        4,
-        9
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 4,
+        "max": 9,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 0
   },
   "khalims_flail": {
+    "name": "khalims_flail",
+    "display_name": "Khalim's Flail",
     "code": "qf1",
     "type": "mace",
-    "display_name": "Khalim's Flail",
     "uniques": [
       "khalims_flail"
     ],
@@ -6800,20 +7650,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        1,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "khalims_will": {
+    "name": "khalims_will",
+    "display_name": "Khalim's Will",
     "code": "qf2",
     "type": "mace",
-    "display_name": "Khalim's Will",
     "uniques": [
       "khalims_will"
     ],
@@ -6825,20 +7678,23 @@
     "level": 0,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        1,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 1,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "repeating_crossbow": {
+    "name": "repeating_crossbow",
+    "display_name": "Repeating Crossbow",
     "code": "rxb",
     "type": "crossbow",
-    "display_name": "Repeating Crossbow",
     "uniques": [
       "doomslinger"
     ],
@@ -6850,20 +7706,23 @@
     "level": 33,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        6,
-        12
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 12,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": -40
   },
   "short_battle_bow": {
+    "name": "short_battle_bow",
+    "display_name": "Short Battle Bow",
     "code": "sbb",
     "type": "bow",
-    "display_name": "Short Battle Bow",
     "uniques": [
       "stormstrike"
     ],
@@ -6875,20 +7734,23 @@
     "level": 18,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        5,
-        11
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 5,
+        "max": 11,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "sabre": {
+    "name": "sabre",
+    "display_name": "Sabre",
     "code": "sbr",
     "type": "sword",
-    "display_name": "Sabre",
     "uniques": [
       "skewer_of_krintiz"
     ],
@@ -6902,20 +7764,23 @@
     "level": 8,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        3,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 3,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -10
   },
   "short_bow": {
+    "name": "short_bow",
+    "display_name": "Short Bow",
     "code": "sbw",
     "type": "bow",
-    "display_name": "Short Bow",
     "uniques": [
       "pluckeye"
     ],
@@ -6927,20 +7792,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        1,
-        4
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 1,
+        "max": 4,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 5
   },
   "scimitar": {
+    "name": "scimitar",
+    "display_name": "Scimitar",
     "code": "scm",
     "type": "sword",
-    "display_name": "Scimitar",
     "uniques": [
       "blood_crescent"
     ],
@@ -6952,20 +7820,23 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        2,
-        6
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 6,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": -20
   },
   "scepter": {
+    "name": "scepter",
+    "display_name": "Scepter",
     "code": "scp",
     "type": "scepter",
-    "display_name": "Scepter",
     "uniques": [
       "knell_striker"
     ],
@@ -6977,20 +7848,23 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        6,
-        11
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 6,
+        "max": 11,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "scythe": {
+    "name": "scythe",
+    "display_name": "Scythe",
     "code": "scy",
     "type": "polearm",
-    "display_name": "Scythe",
     "uniques": [
       "soul_harvest"
     ],
@@ -7002,20 +7876,23 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        8,
-        20
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 8,
+        "max": 20,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "scissors_katar": {
+    "name": "scissors_katar",
+    "display_name": "Scissors Katar",
     "code": "skr",
     "type": "hand_to_hand",
-    "display_name": "Scissors Katar",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -7025,20 +7902,23 @@
     "level": 24,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        9,
-        17
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 9,
+        "max": 17,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "spiked_club": {
+    "name": "spiked_club",
+    "display_name": "Spiked Club",
     "code": "spc",
     "type": "club",
-    "display_name": "Spiked Club",
     "uniques": [
       "stoutnail"
     ],
@@ -7050,20 +7930,23 @@
     "level": 4,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        5,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "spear": {
+    "name": "spear",
+    "display_name": "Spear",
     "code": "spr",
     "type": "spear",
-    "display_name": "Spear",
     "uniques": [
       "the_dragon_chang"
     ],
@@ -7075,20 +7958,23 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        3,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 3,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": -10
   },
   "spetum": {
+    "name": "spetum",
+    "display_name": "Spetum",
     "code": "spt",
     "type": "spear",
-    "display_name": "Spetum",
     "uniques": [
       "lance_of_yaggai"
     ],
@@ -7100,20 +7986,23 @@
     "level": 20,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        15,
-        23
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 15,
+        "max": 23,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": 0
   },
   "short_sword": {
+    "name": "short_sword",
+    "display_name": "Short Sword",
     "code": "ssd",
     "type": "sword",
-    "display_name": "Short Sword",
     "uniques": [
       "rixots_keen"
     ],
@@ -7125,20 +8014,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        2,
-        7
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 7,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "short_spear": {
+    "name": "short_spear",
+    "display_name": "Short Spear",
     "code": "ssp",
     "type": "javelin",
-    "display_name": "Short Spear",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -7148,20 +8040,23 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        2,
-        13
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 13,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 10
   },
   "short_staff": {
+    "name": "short_staff",
+    "display_name": "Short Staff",
     "code": "sst",
     "type": "staff",
-    "display_name": "Short Staff",
     "uniques": [
       "bane_ash"
     ],
@@ -7173,20 +8068,23 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        1,
-        5
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 1,
+        "max": 5,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": -10
   },
   "short_war_bow": {
+    "name": "short_war_bow",
+    "display_name": "Short War Bow",
     "code": "swb",
     "type": "bow",
-    "display_name": "Short War Bow",
     "uniques": [
       "hellclap"
     ],
@@ -7200,20 +8098,23 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        6,
-        14
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 14,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 0,
     "speed": 0
   },
   "throwing_axe": {
+    "name": "throwing_axe",
+    "display_name": "Throwing Axe",
     "code": "tax",
     "type": "throwing_axe",
-    "display_name": "Throwing Axe",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -7223,20 +8124,23 @@
     "level": 7,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        4,
-        7
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 4,
+        "max": 7,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 10
   },
   "throwing_knife": {
+    "name": "throwing_knife",
+    "display_name": "Throwing Knife",
     "code": "tkf",
     "type": "throwing_knife",
-    "display_name": "Throwing Knife",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -7246,20 +8150,23 @@
     "level": 2,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        2,
-        3
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 3,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "trident": {
+    "name": "trident",
+    "display_name": "Trident",
     "code": "tri",
     "type": "spear",
-    "display_name": "Trident",
     "uniques": [
       "razortine"
     ],
@@ -7271,20 +8178,23 @@
     "level": 9,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        9,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 9,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 3,
     "speed": 0
   },
   "throwing_spear": {
+    "name": "throwing_spear",
+    "display_name": "Throwing Spear",
     "code": "tsp",
     "type": "javelin",
-    "display_name": "Throwing Spear",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -7294,20 +8204,23 @@
     "level": 29,
     "levelreq": 0,
     "gemsockets": 0,
-    "damage": [
-      [
-        5,
-        15
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 15,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": -10
   },
   "voulge": {
+    "name": "voulge",
+    "display_name": "Voulge",
     "code": "vou",
     "type": "polearm",
-    "display_name": "Voulge",
     "uniques": [
       "steelgoad"
     ],
@@ -7319,20 +8232,23 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        6,
-        21
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 6,
+        "max": 21,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 2,
     "speed": 0
   },
   "war_axe": {
+    "name": "war_axe",
+    "display_name": "War Axe",
     "code": "wax",
     "type": "axe",
-    "display_name": "War Axe",
     "uniques": [
       "rakescar"
     ],
@@ -7344,20 +8260,23 @@
     "level": 25,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        10,
-        18
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 18,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 2,
     "speed": 0
   },
   "war_hammer": {
+    "name": "war_hammer",
+    "display_name": "War Hammer",
     "code": "whm",
     "type": "hammer",
-    "display_name": "War Hammer",
     "uniques": [
       "ironstone"
     ],
@@ -7369,20 +8288,23 @@
     "level": 25,
     "levelreq": 0,
     "gemsockets": 4,
-    "damage": [
-      [
-        19,
-        29
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 19,
+        "max": 29,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 20
   },
   "wand": {
+    "name": "wand",
+    "display_name": "Wand",
     "code": "wnd",
     "type": "wand",
-    "display_name": "Wand",
     "uniques": [
       "torch_of_iro"
     ],
@@ -7394,20 +8316,23 @@
     "level": 2,
     "levelreq": 0,
     "gemsockets": 1,
-    "damage": [
-      [
-        2,
-        4
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 4,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,
     "speed": 0
   },
   "wrist_blade": {
+    "name": "wrist_blade",
+    "display_name": "Wrist Blade",
     "code": "wrb",
     "type": "hand_to_hand",
-    "display_name": "Wrist Blade",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -7417,20 +8342,23 @@
     "level": 9,
     "levelreq": 0,
     "gemsockets": 2,
-    "damage": [
-      [
-        5,
-        9
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 5,
+        "max": 9,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "war_scythe": {
+    "name": "war_scythe",
+    "display_name": "War Scythe",
     "code": "wsc",
     "type": "polearm",
-    "display_name": "War Scythe",
     "uniques": [
       "the_grim_reaper"
     ],
@@ -7442,20 +8370,23 @@
     "level": 34,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        15,
-        36
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 15,
+        "max": 36,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 4,
     "speed": -10
   },
   "war_sword": {
+    "name": "war_sword",
+    "display_name": "War Sword",
     "code": "wsd",
     "type": "sword",
-    "display_name": "War Sword",
     "uniques": [
       "culwens_point"
     ],
@@ -7469,20 +8400,23 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 3,
-    "damage": [
-      [
-        8,
-        20
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 8,
+        "max": 20,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": 0
   },
   "war_scepter": {
+    "name": "war_scepter",
+    "display_name": "War Scepter",
     "code": "wsp",
     "type": "scepter",
-    "display_name": "War Scepter",
     "uniques": [
       "stormeye"
     ],
@@ -7496,20 +8430,23 @@
     "level": 21,
     "levelreq": 0,
     "gemsockets": 5,
-    "damage": [
-      [
-        10,
-        17
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 10,
+        "max": 17,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 1,
     "speed": -10
   },
   "war_staff": {
+    "name": "war_staff",
+    "display_name": "War Staff",
     "code": "wst",
     "type": "staff",
-    "display_name": "War Staff",
     "uniques": [
       "the_iron_jang_bong"
     ],
@@ -7523,20 +8460,23 @@
     "level": 24,
     "levelreq": 0,
     "gemsockets": 6,
-    "damage": [
-      [
-        12,
-        28
-      ]
+    "props": [
+      {
+        "name": "base_damage_2hand",
+        "min": 12,
+        "max": 28,
+        "par": null
+      }
     ],
     "hands": "two",
     "range": 1,
     "speed": 20
   },
   "yew_wand": {
+    "name": "yew_wand",
+    "display_name": "Yew Wand",
     "code": "ywn",
     "type": "wand",
-    "display_name": "Yew Wand",
     "uniques": [
       "maelstrom"
     ],
@@ -7548,11 +8488,13 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 1,
-    "damage": [
-      [
-        2,
-        8
-      ]
+    "props": [
+      {
+        "name": "base_damage_1hand",
+        "min": 2,
+        "max": 8,
+        "par": null
+      }
     ],
     "hands": "one",
     "range": 0,

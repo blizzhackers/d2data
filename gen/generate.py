@@ -7,27 +7,36 @@ import re
 outdir="output"
 
 @dataclasses.dataclass
-class CodesRef:
+class Property():
     name: str = None
-    #code: str = None
-    display_name: str = None
-    #type: str = None
+    min: int = None
+    max: int = None
+    par: int = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
 class PropString:
-    #name: str = None
+    name: str = None
+    code: str = None
+    within: list[str] = None
+    children: list[str] = None
     pos: str = None
     neg: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
-class Item:
-    code: str = None # 3 digit code
+class CodesRef:
+    name: str = None
+    display_name: str = None
+    code: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
+@dataclasses.dataclass
+class Item(CodesRef):
     type: str = None # lookup [code] from item_types
-    display_name: str = None # lookup [code] -> strings
     uniques: list[str] = None
     sets: list[str] = None
 
@@ -40,16 +49,15 @@ class ItemBase(Item):
     level: int = 0
     levelreq: int = 0
     gemsockets: int = 0
+    props: list[Property] = None
 
 @dataclasses.dataclass
 class ItemArmor(ItemBase): # name = "Grand Crown" -> convert
-    defense: list[int] = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
 class ItemWeapon(ItemBase):
-    damage: list[list[int]] = None
     hands: str = None
     range: int = 0
     speed: int = 0
@@ -62,13 +70,19 @@ class ItemMisc(Item):
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
-class ItemType:
-    #id: int = None
-    #aliases: list[str] = None
-    code: str = None
-    display_name: str = None
+class ItemType(CodesRef):
     items: list[str] = None
     category: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
+@dataclasses.dataclass
+class ItemSet(CodesRef):
+    base: str = None
+    set: str = None
+    level: int = 0
+    levelreq: int = 0
+    props: list[Property] = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -94,27 +108,27 @@ class ItemParser:
         self.item_classes_names = [ "normal", "exceptional", "elite"]
 
         with open("../json/armor.json", "r",encoding = 'utf-8') as f:
-            self.f_armor = json.load((f))
+            self.f_armor = json.load(f)
         with open("../json/gems.json", "r",encoding = 'utf-8') as f:
-            self.f_gems = json.load((f))
+            self.f_gems = json.load(f)
         with open("../json/ItemTypes.json", "r",encoding = 'utf-8') as f:
-            self.f_item_types = json.load((f))
+            self.f_item_types = json.load(f)
         with open("../json/misc.json", "r",encoding = 'utf-8') as f:
-            self.f_misc = json.load((f))
+            self.f_misc = json.load(f)
         with open("../json/properties.json", "r",encoding = 'utf-8') as f:
-            self.f_properties = json.load((f))
+            self.f_properties = json.load(f)
         with open("../json/weapons.json", "r",encoding = 'utf-8') as f:
-            self.f_weapons = json.load((f))
+            self.f_weapons = json.load(f)
         with open("../json/SetItems.json", "r",encoding = 'utf-8') as f:
-            self.f_set_items = json.load((f))
+            self.f_set_items = json.load(f)
         with open("../json/sets.json", "r",encoding = 'utf-8') as f:
-            self.f_sets = json.load((f))
+            self.f_sets = json.load(f)
         with open("../json/UniqueItems.json", "r",encoding = 'utf-8') as f:
-            self.f_unique_items = json.load((f))
+            self.f_unique_items = json.load(f)
         with open("../json/LocaleStringsEn.json", "r",encoding = 'utf-8') as f:
-            self.f_strings = json.load((f))
+            self.f_strings = json.load(f)
         with open("../json/ItemStatCost.json", "r",encoding = 'utf-8') as f:
-            self.f_stats = json.load((f))
+            self.f_stats = json.load(f)
 
         # with open("NTItemAlias.ntl.cpp", "r",encoding = 'utf-8') as f:
         #     self.f_nit = f.readlines()
@@ -136,6 +150,30 @@ class ItemParser:
     def full_to_short(self, full_name: str = None):
         return re.sub('[^A-Za-z0-9 ]+', '', full_name).replace(' ','_').lower()
 
+    def get_magic_props(self, item: dict):
+        props = []
+        for i in range(1,31):
+            key = "prop" + str(i)
+            obj = Property()
+            #print(item)
+            try:
+                obj.name = item[key]
+            except:
+                break
+            par_key = "par" + str(i)
+            #skill_name =
+            min_key = "min" + str(i)
+            max_key = "max" + str(i)
+            try: obj.par = int(item[par_key])
+            except: pass
+            try: obj.min = int(item[min_key])
+            except: pass
+            try: obj.max = int(item[max_key])
+            except: pass
+            props.append(obj)
+        props = None if props == [] else props
+        return props
+
 if __name__ == "__main__":
 
     item_parser = ItemParser()
@@ -154,32 +192,32 @@ if __name__ == "__main__":
         for file in itemFiles:
             if key in file:
                 obj = CodesRef()
-                code = file[key]["code"] if "code" in file[key] else key
+                obj.code = file[key]["code"] if "code" in file[key] else key
                 obj.display_name = item_parser.f_strings[key]
                 obj.name = item_parser.full_to_short(obj.display_name)
                 #obj.type = file[key]["type"] if "type" in file[key] else None
                 #print(obj)
-                if code not in ref_codes:
-                    ref_codes[code] = obj
+                if obj.code not in ref_codes:
+                    ref_codes[obj.code] = obj
     # add item types to this reference
     file = item_parser.f_item_types
     for key in file:
         obj = CodesRef()
-        code = file[key]["Code"]
+        obj.code = file[key]["Code"]
         obj.display_name = file[key]["ItemType"]
         obj.name = item_parser.full_to_short(obj.display_name)
-        if code not in ref_codes:
-            ref_codes[code] = obj
+        if obj.code not in ref_codes:
+            ref_codes[obj.code] = obj
     # add unique items to this reference
     file = item_parser.f_unique_items
     for key in file:
         try:
             obj = CodesRef()
-            code = file[key]["index"]
-            obj.display_name = item_parser.f_strings[code]
+            obj.code = file[key]["index"]
+            obj.display_name = item_parser.f_strings[obj.code]
             obj.name = item_parser.full_to_short(obj.display_name)
-            if code not in ref_codes:
-                ref_codes[code] = obj
+            if obj.code not in ref_codes:
+                ref_codes[obj.code] = obj
         except:
             #print(f"failed on uniq {key}")
             pass
@@ -188,16 +226,33 @@ if __name__ == "__main__":
 
     # construct reference to get item strings corresponding to properties
     ref_property_strings={}
-    for key in item_parser.f_stats:
-        if "descstrpos" in item_parser.f_stats[key]:
+    file = item_parser.f_stats
+    for key in file:
+        if "descstrpos" in file[key]:
             obj = PropString()
-            #obj.name = key
-            descrPos=item_parser.f_stats[key]["descstrpos"]
-            descrNeg=item_parser.f_stats[key]["descstrneg"]
+            obj.name = key
+            descrPos=file[key]["descstrpos"]
+            descrNeg=file[key]["descstrneg"]
             obj.pos=item_parser.f_strings[descrPos]
             obj.neg=item_parser.f_strings[descrNeg]
-            #print(f"{key}: {descrPosStr}, {descrNegStr}")
             ref_property_strings[key] = obj
+
+            props = []
+            for i in range(1,31):
+                try: props.append(file["op stat" + str(i)])
+                except: break
+            obj.children = None if props == [] else props
+
+            props = []
+            file2 = item_parser.f_properties
+            for key2 in file2:
+                for i in range(1,31):
+                    key3 = "stat" + str(i)
+                    if key3 in file2[key2] and file2[key2][key3] == key:
+                        props.append(key2)
+                        break
+            obj.within = None if props == [] else props
+
     with open('output/ref_property_strings.json', 'w', encoding='utf-8') as f:
         json.dump(ref_property_strings, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
@@ -205,12 +260,12 @@ if __name__ == "__main__":
     types={}
     for key in item_parser.f_item_types:
         obj = ItemType()
-        obj.display_name = ref_codes[key].display_name
-        name = ref_codes[key].name
+        obj.display_name = ref_codes[key]["display_name"]
+        obj.name = ref_codes[key]["name"]
         obj.code = key
         try:
             cat = item_parser.f_item_types[obj.code]["StorePage"]
-            obj.category = ref_codes[cat].name
+            obj.category = ref_codes[cat]["name"]
         except: pass
         obj.items=[]
         for file in [item_parser.f_armor, item_parser.f_misc, item_parser.f_weapons, item_parser.f_gems]:
@@ -220,7 +275,7 @@ if __name__ == "__main__":
                         if typ_no in file[key2] and file[key2][typ_no] == obj.code and ref_codes[key2] not in obj.items:
                             obj.items.append(ref_codes[key2].name)
         obj.items = None if obj.items==[] else obj.items
-        types[name] = obj
+        types[obj.name] = obj
         #print(types[name])
     with open('output/item_types.json', 'w', encoding='utf-8') as f:
         json.dump(types, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
@@ -232,27 +287,45 @@ if __name__ == "__main__":
         obj = ItemWeapon()
         obj.code = key
         obj.quality = "normal"
-        name = ref_codes[key]["name"]
+        obj.name = ref_codes[key]["name"]
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
 
-        damage = []
+        props = []
         if "1or2handed" in item_parser.f_weapons[key]:
             obj.hands="both"
             try:
-                damage.append([int(file[key]["mindam"]), int(file[key]["maxdam"])])
-                damage.append([int(file[key]["2handmindam"]), int(file[key]["2handmaxdam"])])
+                prop_obj = Property()
+                prop_obj.name = "base_damage_1hand"
+                prop_obj.min = int(file[key]["mindam"])
+                prop_obj.max = int(file[key]["maxdam"])
+                props.append(prop_obj)
+                prop_obj = Property()
+                prop_obj.name = "base_damage_2hand"
+                prop_obj.min = int(file[key]["2handmindam"])
+                prop_obj.max = int(file[key]["2handmaxdam"])
+                props.append(prop_obj)
             except: pass
         else:
             if "2handed" in file[key]:
                 obj.hands = "two"
-                try: damage.append([int(file[key]["2handmindam"]), int(file[key]["2handmaxdam"])])
+                try:
+                    prop_obj = Property()
+                    prop_obj.name = "base_damage_2hand"
+                    prop_obj.min = int(file[key]["2handmindam"])
+                    prop_obj.max = int(file[key]["2handmaxdam"])
+                    props.append(prop_obj)
                 except: pass
             else:
                 obj.hands = "one"
-                try: damage.append([int(file[key]["mindam"]), int(file[key]["maxdam"])])
+                try:
+                    prop_obj = Property()
+                    prop_obj.name = "base_damage_1hand"
+                    prop_obj.min = int(file[key]["mindam"])
+                    prop_obj.max = int(file[key]["maxdam"])
+                    props.append(prop_obj)
                 except: pass
-        obj.damage = None if damage==[] else damage
+        obj.props = None if props==[] else props
 
         try: obj.range = int(file[key]["rangeadder"])
         except: pass
@@ -296,7 +369,7 @@ if __name__ == "__main__":
             except: pass
         obj.uniques = None if obj.uniques==[] else obj.uniques
 
-        weapons[name] = obj
+        weapons[obj.name] = obj
         #print(weapons[name])
     with open('output/item_weapons.json', 'w', encoding='utf-8') as f:
         json.dump(weapons, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
@@ -308,12 +381,17 @@ if __name__ == "__main__":
         obj = ItemArmor()
         obj.code = key
         obj.quality = "normal"
-        name = ref_codes[key]["name"]
+        obj.name = ref_codes[key]["name"]
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
 
         if "minac" in item_parser.f_armor[key]:
-            try: obj.defense = ([int(file[key]["minac"]), int(file[key]["maxac"])])
+            try:
+                prop_obj = Property()
+                prop_obj.name = "base_defense"
+                prop_obj.min = int(file[key]["minac"])
+                prop_obj.max = int(file[key]["maxac"])
+                obj.props = [prop_obj]
             except: pass
 
         try: obj.reqstr = int(file[key]["reqstr"])
@@ -354,7 +432,7 @@ if __name__ == "__main__":
             except: pass
         obj.uniques = None if obj.uniques==[] else obj.uniques
 
-        armor[name] = obj
+        armor[obj.name] = obj
         #print(armor[name])
     with open('output/item_armor.json', 'w', encoding='utf-8') as f:
         json.dump(armor, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
@@ -365,7 +443,7 @@ if __name__ == "__main__":
     for key in file:
         obj = ItemMisc()
         obj.code = key
-        try: name = ref_codes[key]["name"]
+        try: obj.name = ref_codes[key]["name"]
         except: continue
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
@@ -392,12 +470,32 @@ if __name__ == "__main__":
             except: pass
         obj.uniques = None if obj.uniques==[] else obj.uniques
 
-        misc[name] = obj
+        misc[obj.name] = obj
         #print(misc[name])
     with open('output/item_misc.json', 'w', encoding='utf-8') as f:
         json.dump(misc, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
     # create sets file
+    set_items={}
+    file = item_parser.f_set_items
+    for key in file:
+        obj = ItemSet()
+        obj.code = file[key]["item"]
+        obj.name = ref_codes[key]["name"]
+        obj.display_name = ref_codes[key]["display_name"]
+        try: obj.base = ref_codes[obj.code]["name"]
+        except: pass
+        try: obj.set = file[key]["set"]
+        except: pass
+        try: obj.level = file[key]["lvl"]
+        except: pass
+        try: obj.levelreq = file[key]["lvl req"]
+        except: pass
+        obj.props = item_parser.get_magic_props(file[key])
+
+        set_items[obj.name] = obj
+    with open('output/item_set_items.json', 'w', encoding='utf-8') as f:
+        json.dump(set_items, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
 
 

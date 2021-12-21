@@ -1,8 +1,9 @@
 {
   "ancient_armor": {
+    "name": "ancient_armor",
+    "display_name": "Ancient Armor",
     "code": "aar",
     "type": "armor",
-    "display_name": "Ancient Armor",
     "uniques": [
       "silks_of_the_victor"
     ],
@@ -16,15 +17,20 @@
     "level": 40,
     "levelreq": 0,
     "gemsockets": 4,
-    "defense": [
-      218,
-      233
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 218,
+        "max": 233,
+        "par": null
+      }
     ]
   },
   "jawbone_cap": {
+    "name": "jawbone_cap",
+    "display_name": "Jawbone Cap",
     "code": "ba1",
     "type": "primal_helm",
-    "display_name": "Jawbone Cap",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -34,15 +40,20 @@
     "level": 4,
     "levelreq": 3,
     "gemsockets": 3,
-    "defense": [
-      10,
-      15
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 10,
+        "max": 15,
+        "par": null
+      }
     ]
   },
   "fanged_helm": {
+    "name": "fanged_helm",
+    "display_name": "Fanged Helm",
     "code": "ba2",
     "type": "primal_helm",
-    "display_name": "Fanged Helm",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -52,15 +63,20 @@
     "level": 8,
     "levelreq": 6,
     "gemsockets": 3,
-    "defense": [
-      15,
-      20
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 15,
+        "max": 20,
+        "par": null
+      }
     ]
   },
   "horned_helm": {
+    "name": "horned_helm",
+    "display_name": "Horned Helm",
     "code": "ba3",
     "type": "primal_helm",
-    "display_name": "Horned Helm",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -70,15 +86,20 @@
     "level": 16,
     "levelreq": 12,
     "gemsockets": 3,
-    "defense": [
-      25,
-      30
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 25,
+        "max": 30,
+        "par": null
+      }
     ]
   },
   "assault_helmet": {
+    "name": "assault_helmet",
+    "display_name": "Assault Helmet",
     "code": "ba4",
     "type": "primal_helm",
-    "display_name": "Assault Helmet",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -88,15 +109,20 @@
     "level": 20,
     "levelreq": 15,
     "gemsockets": 3,
-    "defense": [
-      30,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 30,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "avenger_guard": {
+    "name": "avenger_guard",
+    "display_name": "Avenger Guard",
     "code": "ba5",
     "type": "primal_helm",
-    "display_name": "Avenger Guard",
     "uniques": null,
     "sets": [
       "immortal_kings_will"
@@ -108,15 +134,20 @@
     "level": 24,
     "levelreq": 18,
     "gemsockets": 3,
-    "defense": [
-      35,
-      50
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 35,
+        "max": 50,
+        "par": null
+      }
     ]
   },
   "jawbone_visor": {
+    "name": "jawbone_visor",
+    "display_name": "Jawbone Visor",
     "code": "ba6",
     "type": "primal_helm",
-    "display_name": "Jawbone Visor",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -126,15 +157,20 @@
     "level": 33,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      55,
-      68
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 55,
+        "max": 68,
+        "par": null
+      }
     ]
   },
   "lion_helm": {
+    "name": "lion_helm",
+    "display_name": "Lion Helm",
     "code": "ba7",
     "type": "primal_helm",
-    "display_name": "Lion Helm",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -144,15 +180,20 @@
     "level": 38,
     "levelreq": 29,
     "gemsockets": 3,
-    "defense": [
-      63,
-      75
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 63,
+        "max": 75,
+        "par": null
+      }
     ]
   },
   "rage_mask": {
+    "name": "rage_mask",
+    "display_name": "Rage Mask",
     "code": "ba8",
     "type": "primal_helm",
-    "display_name": "Rage Mask",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -162,15 +203,20 @@
     "level": 44,
     "levelreq": 29,
     "gemsockets": 3,
-    "defense": [
-      78,
-      90
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 78,
+        "max": 90,
+        "par": null
+      }
     ]
   },
   "savage_helmet": {
+    "name": "savage_helmet",
+    "display_name": "Savage Helmet",
     "code": "ba9",
     "type": "primal_helm",
-    "display_name": "Savage Helmet",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -180,15 +226,20 @@
     "level": 49,
     "levelreq": 32,
     "gemsockets": 3,
-    "defense": [
-      85,
-      98
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 85,
+        "max": 98,
+        "par": null
+      }
     ]
   },
   "slayer_guard": {
+    "name": "slayer_guard",
+    "display_name": "Slayer Guard",
     "code": "baa",
     "type": "primal_helm",
-    "display_name": "Slayer Guard",
     "uniques": [
       "arreats_face"
     ],
@@ -200,15 +251,20 @@
     "level": 54,
     "levelreq": 40,
     "gemsockets": 3,
-    "defense": [
-      93,
-      120
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 93,
+        "max": 120,
+        "par": null
+      }
     ]
   },
   "carnage_helm": {
+    "name": "carnage_helm",
+    "display_name": "Carnage Helm",
     "code": "bab",
     "type": "primal_helm",
-    "display_name": "Carnage Helm",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -218,15 +274,20 @@
     "level": 60,
     "levelreq": 45,
     "gemsockets": 3,
-    "defense": [
-      102,
-      147
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 102,
+        "max": 147,
+        "par": null
+      }
     ]
   },
   "fury_visor": {
+    "name": "fury_visor",
+    "display_name": "Fury Visor",
     "code": "bac",
     "type": "primal_helm",
-    "display_name": "Fury Visor",
     "uniques": [
       "wolfhowl"
     ],
@@ -238,15 +299,20 @@
     "level": 66,
     "levelreq": 49,
     "gemsockets": 3,
-    "defense": [
-      105,
-      150
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 105,
+        "max": 150,
+        "par": null
+      }
     ]
   },
   "destroyer_helm": {
+    "name": "destroyer_helm",
+    "display_name": "Destroyer Helm",
     "code": "bad",
     "type": "primal_helm",
-    "display_name": "Destroyer Helm",
     "uniques": [
       "demonhorns_edge"
     ],
@@ -258,15 +324,20 @@
     "level": 73,
     "levelreq": 54,
     "gemsockets": 3,
-    "defense": [
-      111,
-      156
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 111,
+        "max": 156,
+        "par": null
+      }
     ]
   },
   "conqueror_crown": {
+    "name": "conqueror_crown",
+    "display_name": "Conqueror Crown",
     "code": "bae",
     "type": "primal_helm",
-    "display_name": "Conqueror Crown",
     "uniques": [
       "halaberds_reign"
     ],
@@ -278,15 +349,20 @@
     "level": 80,
     "levelreq": 60,
     "gemsockets": 3,
-    "defense": [
-      114,
-      159
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 114,
+        "max": 159,
+        "par": null
+      }
     ]
   },
   "guardian_crown": {
+    "name": "guardian_crown",
+    "display_name": "Guardian Crown",
     "code": "baf",
     "type": "primal_helm",
-    "display_name": "Guardian Crown",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -296,15 +372,20 @@
     "level": 85,
     "levelreq": 65,
     "gemsockets": 3,
-    "defense": [
-      117,
-      168
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 117,
+        "max": 168,
+        "par": null
+      }
     ]
   },
   "bone_helm": {
+    "name": "bone_helm",
+    "display_name": "Bone Helm",
     "code": "bhm",
     "type": "helm",
-    "display_name": "Bone Helm",
     "uniques": [
       "wormskull"
     ],
@@ -318,15 +399,20 @@
     "level": 22,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      33,
-      36
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 33,
+        "max": 36,
+        "par": null
+      }
     ]
   },
   "breast_plate": {
+    "name": "breast_plate",
+    "display_name": "Breast Plate",
     "code": "brs",
     "type": "armor",
-    "display_name": "Breast Plate",
     "uniques": [
       "venom_ward"
     ],
@@ -340,15 +426,20 @@
     "level": 18,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      65,
-      68
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 65,
+        "max": 68,
+        "par": null
+      }
     ]
   },
   "bone_shield": {
+    "name": "bone_shield",
+    "display_name": "Bone Shield",
     "code": "bsh",
     "type": "shield",
-    "display_name": "Bone Shield",
     "uniques": [
       "wall_of_the_eyeless"
     ],
@@ -360,15 +451,20 @@
     "level": 19,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      10,
-      30
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 10,
+        "max": 30,
+        "par": null
+      }
     ]
   },
   "buckler": {
+    "name": "buckler",
+    "display_name": "Buckler",
     "code": "buc",
     "type": "shield",
-    "display_name": "Buckler",
     "uniques": [
       "pelta_lunata"
     ],
@@ -382,15 +478,20 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 1,
-    "defense": [
-      4,
-      6
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 4,
+        "max": 6,
+        "par": null
+      }
     ]
   },
   "cap": {
+    "name": "cap",
+    "display_name": "Cap",
     "code": "cap",
     "type": "helm",
-    "display_name": "Cap",
     "uniques": [
       "biggins_bonnet"
     ],
@@ -405,15 +506,20 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      3,
-      5
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 3,
+        "max": 5,
+        "par": null
+      }
     ]
   },
   "chain_mail": {
+    "name": "chain_mail",
+    "display_name": "Chain Mail",
     "code": "chn",
     "type": "armor",
-    "display_name": "Chain Mail",
     "uniques": [
       "sparking_mail"
     ],
@@ -427,15 +533,20 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      72,
-      75
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 72,
+        "max": 75,
+        "par": null
+      }
     ]
   },
   "circlet": {
+    "name": "circlet",
+    "display_name": "Circlet",
     "code": "ci0",
     "type": "circlet",
-    "display_name": "Circlet",
     "uniques": null,
     "sets": [
       "najs_circlet"
@@ -447,15 +558,20 @@
     "level": 24,
     "levelreq": 16,
     "gemsockets": 2,
-    "defense": [
-      20,
-      30
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 20,
+        "max": 30,
+        "par": null
+      }
     ]
   },
   "coronet": {
+    "name": "coronet",
+    "display_name": "Coronet",
     "code": "ci1",
     "type": "circlet",
-    "display_name": "Coronet",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -465,15 +581,20 @@
     "level": 52,
     "levelreq": 39,
     "gemsockets": 2,
-    "defense": [
-      30,
-      40
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 30,
+        "max": 40,
+        "par": null
+      }
     ]
   },
   "tiara": {
+    "name": "tiara",
+    "display_name": "Tiara",
     "code": "ci2",
     "type": "circlet",
-    "display_name": "Tiara",
     "uniques": [
       "kiras_guardian"
     ],
@@ -485,15 +606,20 @@
     "level": 70,
     "levelreq": 52,
     "gemsockets": 3,
-    "defense": [
-      40,
-      50
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 40,
+        "max": 50,
+        "par": null
+      }
     ]
   },
   "diadem": {
+    "name": "diadem",
+    "display_name": "Diadem",
     "code": "ci3",
     "type": "circlet",
-    "display_name": "Diadem",
     "uniques": [
       "griffons_eye"
     ],
@@ -507,15 +633,20 @@
     "level": 85,
     "levelreq": 64,
     "gemsockets": 3,
-    "defense": [
-      50,
-      60
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 50,
+        "max": 60,
+        "par": null
+      }
     ]
   },
   "crown": {
+    "name": "crown",
+    "display_name": "Crown",
     "code": "crn",
     "type": "helm",
-    "display_name": "Crown",
     "uniques": [
       "undead_crown"
     ],
@@ -530,15 +661,20 @@
     "level": 29,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      25,
-      45
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 25,
+        "max": 45,
+        "par": null
+      }
     ]
   },
   "wolf_head": {
+    "name": "wolf_head",
+    "display_name": "Wolf Head",
     "code": "dr1",
     "type": "pelt",
-    "display_name": "Wolf Head",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -548,15 +684,20 @@
     "level": 4,
     "levelreq": 3,
     "gemsockets": 3,
-    "defense": [
-      8,
-      11
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 11,
+        "par": null
+      }
     ]
   },
   "hawk_helm": {
+    "name": "hawk_helm",
+    "display_name": "Hawk Helm",
     "code": "dr2",
     "type": "pelt",
-    "display_name": "Hawk Helm",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -566,15 +707,20 @@
     "level": 8,
     "levelreq": 6,
     "gemsockets": 3,
-    "defense": [
-      4,
-      15
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 4,
+        "max": 15,
+        "par": null
+      }
     ]
   },
   "antlers": {
+    "name": "antlers",
+    "display_name": "Antlers",
     "code": "dr3",
     "type": "pelt",
-    "display_name": "Antlers",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -584,15 +730,20 @@
     "level": 16,
     "levelreq": 12,
     "gemsockets": 3,
-    "defense": [
-      18,
-      24
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 18,
+        "max": 24,
+        "par": null
+      }
     ]
   },
   "falcon_mask": {
+    "name": "falcon_mask",
+    "display_name": "Falcon Mask",
     "code": "dr4",
     "type": "pelt",
-    "display_name": "Falcon Mask",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -602,15 +753,20 @@
     "level": 20,
     "levelreq": 15,
     "gemsockets": 3,
-    "defense": [
-      12,
-      28
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 12,
+        "max": 28,
+        "par": null
+      }
     ]
   },
   "spirit_mask": {
+    "name": "spirit_mask",
+    "display_name": "Spirit Mask",
     "code": "dr5",
     "type": "pelt",
-    "display_name": "Spirit Mask",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -620,15 +776,20 @@
     "level": 24,
     "levelreq": 18,
     "gemsockets": 3,
-    "defense": [
-      22,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 22,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "alpha_helm": {
+    "name": "alpha_helm",
+    "display_name": "Alpha Helm",
     "code": "dr6",
     "type": "pelt",
-    "display_name": "Alpha Helm",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -638,15 +799,20 @@
     "level": 35,
     "levelreq": 26,
     "gemsockets": 3,
-    "defense": [
-      52,
-      62
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 52,
+        "max": 62,
+        "par": null
+      }
     ]
   },
   "griffon_headdress": {
+    "name": "griffon_headdress",
+    "display_name": "Griffon Headdress",
     "code": "dr7",
     "type": "pelt",
-    "display_name": "Griffon Headdress",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -656,15 +822,20 @@
     "level": 40,
     "levelreq": 30,
     "gemsockets": 3,
-    "defense": [
-      46,
-      68
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 46,
+        "max": 68,
+        "par": null
+      }
     ]
   },
   "hunters_guise": {
+    "name": "hunters_guise",
+    "display_name": "Hunter's Guise",
     "code": "dr8",
     "type": "pelt",
-    "display_name": "Hunter's Guise",
     "uniques": null,
     "sets": [
       "aldurs_stony_gaze"
@@ -676,15 +847,20 @@
     "level": 46,
     "levelreq": 29,
     "gemsockets": 3,
-    "defense": [
-      67,
-      81
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 67,
+        "max": 81,
+        "par": null
+      }
     ]
   },
   "sacred_feathers": {
+    "name": "sacred_feathers",
+    "display_name": "Sacred Feathers",
     "code": "dr9",
     "type": "pelt",
-    "display_name": "Sacred Feathers",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -694,15 +870,20 @@
     "level": 50,
     "levelreq": 32,
     "gemsockets": 3,
-    "defense": [
-      58,
-      87
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 58,
+        "max": 87,
+        "par": null
+      }
     ]
   },
   "totemic_mask": {
+    "name": "totemic_mask",
+    "display_name": "Totemic Mask",
     "code": "dra",
     "type": "pelt",
-    "display_name": "Totemic Mask",
     "uniques": [
       "jalals_mane"
     ],
@@ -714,15 +895,20 @@
     "level": 55,
     "levelreq": 41,
     "gemsockets": 3,
-    "defense": [
-      73,
-      98
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 73,
+        "max": 98,
+        "par": null
+      }
     ]
   },
   "blood_spirit": {
+    "name": "blood_spirit",
+    "display_name": "Blood Spirit",
     "code": "drb",
     "type": "pelt",
-    "display_name": "Blood Spirit",
     "uniques": [
       "cerebus_bite"
     ],
@@ -734,15 +920,20 @@
     "level": 62,
     "levelreq": 46,
     "gemsockets": 3,
-    "defense": [
-      101,
-      145
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 101,
+        "max": 145,
+        "par": null
+      }
     ]
   },
   "sun_spirit": {
+    "name": "sun_spirit",
+    "display_name": "Sun Spirit",
     "code": "drc",
     "type": "pelt",
-    "display_name": "Sun Spirit",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -752,15 +943,20 @@
     "level": 69,
     "levelreq": 51,
     "gemsockets": 3,
-    "defense": [
-      98,
-      147
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 98,
+        "max": 147,
+        "par": null
+      }
     ]
   },
   "earth_spirit": {
+    "name": "earth_spirit",
+    "display_name": "Earth Spirit",
     "code": "drd",
     "type": "pelt",
-    "display_name": "Earth Spirit",
     "uniques": [
       "spirit_keeper"
     ],
@@ -772,15 +968,20 @@
     "level": 76,
     "levelreq": 57,
     "gemsockets": 3,
-    "defense": [
-      107,
-      152
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 107,
+        "max": 152,
+        "par": null
+      }
     ]
   },
   "sky_spirit": {
+    "name": "sky_spirit",
+    "display_name": "Sky Spirit",
     "code": "dre",
     "type": "pelt",
-    "display_name": "Sky Spirit",
     "uniques": [
       "ravenlore"
     ],
@@ -792,15 +993,20 @@
     "level": 83,
     "levelreq": 62,
     "gemsockets": 3,
-    "defense": [
-      103,
-      155
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 103,
+        "max": 155,
+        "par": null
+      }
     ]
   },
   "dream_spirit": {
+    "name": "dream_spirit",
+    "display_name": "Dream Spirit",
     "code": "drf",
     "type": "pelt",
-    "display_name": "Dream Spirit",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -810,15 +1016,20 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 3,
-    "defense": [
-      109,
-      159
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 109,
+        "max": 159,
+        "par": null
+      }
     ]
   },
   "full_helm": {
+    "name": "full_helm",
+    "display_name": "Full Helm",
     "code": "fhl",
     "type": "helm",
-    "display_name": "Full Helm",
     "uniques": [
       "duskdeep"
     ],
@@ -832,15 +1043,20 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      23,
-      26
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 23,
+        "max": 26,
+        "par": null
+      }
     ]
   },
   "field_plate": {
+    "name": "field_plate",
+    "display_name": "Field Plate",
     "code": "fld",
     "type": "armor",
-    "display_name": "Field Plate",
     "uniques": [
       "rockfleece"
     ],
@@ -852,15 +1068,20 @@
     "level": 28,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      101,
-      105
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 101,
+        "max": 105,
+        "par": null
+      }
     ]
   },
   "full_plate_mail": {
+    "name": "full_plate_mail",
+    "display_name": "Full Plate Mail",
     "code": "ful",
     "type": "armor",
-    "display_name": "Full Plate Mail",
     "uniques": [
       "goldskin"
     ],
@@ -874,15 +1095,20 @@
     "level": 37,
     "levelreq": 0,
     "gemsockets": 4,
-    "defense": [
-      150,
-      161
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 150,
+        "max": 161,
+        "par": null
+      }
     ]
   },
   "great_helm": {
+    "name": "great_helm",
+    "display_name": "Great Helm",
     "code": "ghm",
     "type": "helm",
-    "display_name": "Great Helm",
     "uniques": [
       "howltusk"
     ],
@@ -896,15 +1122,20 @@
     "level": 23,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      30,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 30,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "gothic_plate": {
+    "name": "gothic_plate",
+    "display_name": "Gothic Plate",
     "code": "gth",
     "type": "armor",
-    "display_name": "Gothic Plate",
     "uniques": [
       "rattlecage"
     ],
@@ -918,15 +1149,20 @@
     "level": 32,
     "levelreq": 0,
     "gemsockets": 4,
-    "defense": [
-      128,
-      135
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 128,
+        "max": 135,
+        "par": null
+      }
     ]
   },
   "gothic_shield": {
+    "name": "gothic_shield",
+    "display_name": "Gothic Shield",
     "code": "gts",
     "type": "shield",
-    "display_name": "Gothic Shield",
     "uniques": [
       "the_ward"
     ],
@@ -940,15 +1176,20 @@
     "level": 30,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      30,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 30,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "plated_belt": {
+    "name": "plated_belt",
+    "display_name": "Plated Belt",
     "code": "hbl",
     "type": "belt",
-    "display_name": "Plated Belt",
     "uniques": [
       "bladebuckle"
     ],
@@ -962,15 +1203,20 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      8,
-      11
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 11,
+        "par": null
+      }
     ]
   },
   "greaves": {
+    "name": "greaves",
+    "display_name": "Greaves",
     "code": "hbt",
     "type": "boots",
-    "display_name": "Greaves",
     "uniques": [
       "tearhaunch"
     ],
@@ -984,15 +1230,20 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      12,
-      15
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 12,
+        "max": 15,
+        "par": null
+      }
     ]
   },
   "gauntlets": {
+    "name": "gauntlets",
+    "display_name": "Gauntlets",
     "code": "hgl",
     "type": "gloves",
-    "display_name": "Gauntlets",
     "uniques": [
       "frostburn"
     ],
@@ -1006,15 +1257,20 @@
     "level": 27,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      12,
-      15
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 12,
+        "max": 15,
+        "par": null
+      }
     ]
   },
   "hard_leather_armor": {
+    "name": "hard_leather_armor",
+    "display_name": "Hard Leather Armor",
     "code": "hla",
     "type": "armor",
-    "display_name": "Hard Leather Armor",
     "uniques": [
       "the_centurion"
     ],
@@ -1026,15 +1282,20 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      21,
-      24
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 21,
+        "max": 24,
+        "par": null
+      }
     ]
   },
   "helm": {
+    "name": "helm",
+    "display_name": "Helm",
     "code": "hlm",
     "type": "helm",
-    "display_name": "Helm",
     "uniques": [
       "coif_of_glory"
     ],
@@ -1048,15 +1309,20 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      15,
-      18
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 15,
+        "max": 18,
+        "par": null
+      }
     ]
   },
   "kite_shield": {
+    "name": "kite_shield",
+    "display_name": "Kite Shield",
     "code": "kit",
     "type": "shield",
-    "display_name": "Kite Shield",
     "uniques": [
       "steelclash"
     ],
@@ -1070,15 +1336,20 @@
     "level": 15,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      16,
-      18
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 16,
+        "max": 18,
+        "par": null
+      }
     ]
   },
   "sash": {
+    "name": "sash",
+    "display_name": "Sash",
     "code": "lbl",
     "type": "belt",
-    "display_name": "Sash",
     "uniques": [
       "lenymo"
     ],
@@ -1092,15 +1363,20 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      2,
-      2
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 2,
+        "max": 2,
+        "par": null
+      }
     ]
   },
   "boots": {
+    "name": "boots",
+    "display_name": "Boots",
     "code": "lbt",
     "type": "boots",
-    "display_name": "Boots",
     "uniques": [
       "hotspur"
     ],
@@ -1114,15 +1390,20 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      2,
-      3
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 2,
+        "max": 3,
+        "par": null
+      }
     ]
   },
   "leather_armor": {
+    "name": "leather_armor",
+    "display_name": "Leather Armor",
     "code": "lea",
     "type": "armor",
-    "display_name": "Leather Armor",
     "uniques": [
       "blinkbats_form"
     ],
@@ -1136,15 +1417,20 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      14,
-      17
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 14,
+        "max": 17,
+        "par": null
+      }
     ]
   },
   "leather_gloves": {
+    "name": "leather_gloves",
+    "display_name": "Leather Gloves",
     "code": "lgl",
     "type": "gloves",
-    "display_name": "Leather Gloves",
     "uniques": [
       "the_hand_of_broc"
     ],
@@ -1158,15 +1444,20 @@
     "level": 3,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      2,
-      3
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 2,
+        "max": 3,
+        "par": null
+      }
     ]
   },
   "large_shield": {
+    "name": "large_shield",
+    "display_name": "Large Shield",
     "code": "lrg",
     "type": "shield",
-    "display_name": "Large Shield",
     "uniques": [
       "stormguild"
     ],
@@ -1180,15 +1471,20 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      12,
-      14
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 12,
+        "max": 14,
+        "par": null
+      }
     ]
   },
   "light_plate": {
+    "name": "light_plate",
+    "display_name": "Light Plate",
     "code": "ltp",
     "type": "armor",
-    "display_name": "Light Plate",
     "uniques": [
       "heavenly_garb"
     ],
@@ -1202,15 +1498,20 @@
     "level": 35,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      90,
-      107
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 90,
+        "max": 107,
+        "par": null
+      }
     ]
   },
   "belt": {
+    "name": "belt",
+    "display_name": "Belt",
     "code": "mbl",
     "type": "belt",
-    "display_name": "Belt",
     "uniques": [
       "nightsmoke"
     ],
@@ -1225,15 +1526,20 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      5,
-      5
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 5,
+        "max": 5,
+        "par": null
+      }
     ]
   },
   "chain_boots": {
+    "name": "chain_boots",
+    "display_name": "Chain Boots",
     "code": "mbt",
     "type": "boots",
-    "display_name": "Chain Boots",
     "uniques": [
       "treads_of_cthon"
     ],
@@ -1247,15 +1553,20 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      8,
-      9
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 9,
+        "par": null
+      }
     ]
   },
   "chain_gloves": {
+    "name": "chain_gloves",
+    "display_name": "Chain Gloves",
     "code": "mgl",
     "type": "gloves",
-    "display_name": "Chain Gloves",
     "uniques": [
       "chance_guards"
     ],
@@ -1269,15 +1580,20 @@
     "level": 12,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      8,
-      9
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 9,
+        "par": null
+      }
     ]
   },
   "mask": {
+    "name": "mask",
+    "display_name": "Mask",
     "code": "msk",
     "type": "helm",
-    "display_name": "Mask",
     "uniques": [
       "the_face_of_horror"
     ],
@@ -1291,15 +1607,20 @@
     "level": 19,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      9,
-      27
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 9,
+        "max": 27,
+        "par": null
+      }
     ]
   },
   "preserved_head": {
+    "name": "preserved_head",
+    "display_name": "Preserved Head",
     "code": "ne1",
     "type": "voodoo_heads",
-    "display_name": "Preserved Head",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1309,15 +1630,20 @@
     "level": 4,
     "levelreq": 3,
     "gemsockets": 2,
-    "defense": [
-      2,
-      5
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 2,
+        "max": 5,
+        "par": null
+      }
     ]
   },
   "zombie_head": {
+    "name": "zombie_head",
+    "display_name": "Zombie Head",
     "code": "ne2",
     "type": "voodoo_heads",
-    "display_name": "Zombie Head",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1327,15 +1653,20 @@
     "level": 8,
     "levelreq": 6,
     "gemsockets": 2,
-    "defense": [
-      4,
-      8
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 4,
+        "max": 8,
+        "par": null
+      }
     ]
   },
   "unraveller_head": {
+    "name": "unraveller_head",
+    "display_name": "Unraveller Head",
     "code": "ne3",
     "type": "voodoo_heads",
-    "display_name": "Unraveller Head",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1345,15 +1676,20 @@
     "level": 16,
     "levelreq": 12,
     "gemsockets": 2,
-    "defense": [
-      6,
-      10
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 6,
+        "max": 10,
+        "par": null
+      }
     ]
   },
   "gargoyle_head": {
+    "name": "gargoyle_head",
+    "display_name": "Gargoyle Head",
     "code": "ne4",
     "type": "voodoo_heads",
-    "display_name": "Gargoyle Head",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1363,15 +1699,20 @@
     "level": 20,
     "levelreq": 15,
     "gemsockets": 2,
-    "defense": [
-      10,
-      16
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 10,
+        "max": 16,
+        "par": null
+      }
     ]
   },
   "demon_head": {
+    "name": "demon_head",
+    "display_name": "Demon Head",
     "code": "ne5",
     "type": "voodoo_heads",
-    "display_name": "Demon Head",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1381,15 +1722,20 @@
     "level": 24,
     "levelreq": 18,
     "gemsockets": 2,
-    "defense": [
-      15,
-      20
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 15,
+        "max": 20,
+        "par": null
+      }
     ]
   },
   "mummified_trophy": {
+    "name": "mummified_trophy",
+    "display_name": "Mummified Trophy",
     "code": "ne6",
     "type": "voodoo_heads",
-    "display_name": "Mummified Trophy",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1399,15 +1745,20 @@
     "level": 33,
     "levelreq": 24,
     "gemsockets": 2,
-    "defense": [
-      38,
-      48
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 38,
+        "max": 48,
+        "par": null
+      }
     ]
   },
   "fetish_trophy": {
+    "name": "fetish_trophy",
+    "display_name": "Fetish Trophy",
     "code": "ne7",
     "type": "voodoo_heads",
-    "display_name": "Fetish Trophy",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1417,15 +1768,20 @@
     "level": 39,
     "levelreq": 29,
     "gemsockets": 2,
-    "defense": [
-      41,
-      52
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 41,
+        "max": 52,
+        "par": null
+      }
     ]
   },
   "sexton_trophy": {
+    "name": "sexton_trophy",
+    "display_name": "Sexton Trophy",
     "code": "ne8",
     "type": "voodoo_heads",
-    "display_name": "Sexton Trophy",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1435,15 +1791,20 @@
     "level": 45,
     "levelreq": 33,
     "gemsockets": 2,
-    "defense": [
-      44,
-      55
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 44,
+        "max": 55,
+        "par": null
+      }
     ]
   },
   "cantor_trophy": {
+    "name": "cantor_trophy",
+    "display_name": "Cantor Trophy",
     "code": "ne9",
     "type": "voodoo_heads",
-    "display_name": "Cantor Trophy",
     "uniques": null,
     "sets": [
       "trangouls_wing"
@@ -1455,15 +1816,20 @@
     "level": 49,
     "levelreq": 36,
     "gemsockets": 2,
-    "defense": [
-      50,
-      64
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 50,
+        "max": 64,
+        "par": null
+      }
     ]
   },
   "hierophant_trophy": {
+    "name": "hierophant_trophy",
+    "display_name": "Hierophant Trophy",
     "code": "nea",
     "type": "voodoo_heads",
-    "display_name": "Hierophant Trophy",
     "uniques": [
       "homunculus"
     ],
@@ -1475,15 +1841,20 @@
     "level": 54,
     "levelreq": 40,
     "gemsockets": 2,
-    "defense": [
-      58,
-      70
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 58,
+        "max": 70,
+        "par": null
+      }
     ]
   },
   "minion_skull": {
+    "name": "minion_skull",
+    "display_name": "Minion Skull",
     "code": "neb",
     "type": "voodoo_heads",
-    "display_name": "Minion Skull",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1493,15 +1864,20 @@
     "level": 59,
     "levelreq": 44,
     "gemsockets": 2,
-    "defense": [
-      95,
-      139
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 95,
+        "max": 139,
+        "par": null
+      }
     ]
   },
   "overseer_skull": {
+    "name": "overseer_skull",
+    "display_name": "Overseer Skull",
     "code": "ned",
     "type": "voodoo_heads",
-    "display_name": "Overseer Skull",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1511,15 +1887,20 @@
     "level": 66,
     "levelreq": 49,
     "gemsockets": 2,
-    "defense": [
-      98,
-      142
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 98,
+        "max": 142,
+        "par": null
+      }
     ]
   },
   "succubus_skull": {
+    "name": "succubus_skull",
+    "display_name": "Succubus Skull",
     "code": "nee",
     "type": "voodoo_heads",
-    "display_name": "Succubus Skull",
     "uniques": [
       "boneflame"
     ],
@@ -1531,15 +1912,20 @@
     "level": 81,
     "levelreq": 60,
     "gemsockets": 2,
-    "defense": [
-      100,
-      146
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 100,
+        "max": 146,
+        "par": null
+      }
     ]
   },
   "bloodlord_skull": {
+    "name": "bloodlord_skull",
+    "display_name": "Bloodlord Skull",
     "code": "nef",
     "type": "voodoo_heads",
-    "display_name": "Bloodlord Skull",
     "uniques": [
       "darkforce_spawn"
     ],
@@ -1551,15 +1937,20 @@
     "level": 85,
     "levelreq": 65,
     "gemsockets": 2,
-    "defense": [
-      103,
-      148
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 103,
+        "max": 148,
+        "par": null
+      }
     ]
   },
   "hellspawn_skull": {
+    "name": "hellspawn_skull",
+    "display_name": "Hellspawn Skull",
     "code": "neg",
     "type": "voodoo_heads",
-    "display_name": "Hellspawn Skull",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1569,15 +1960,20 @@
     "level": 67,
     "levelreq": 50,
     "gemsockets": 2,
-    "defense": [
-      96,
-      141
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 96,
+        "max": 141,
+        "par": null
+      }
     ]
   },
   "targe": {
+    "name": "targe",
+    "display_name": "Targe",
     "code": "pa1",
     "type": "auric_shields",
-    "display_name": "Targe",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1587,15 +1983,20 @@
     "level": 4,
     "levelreq": 3,
     "gemsockets": 4,
-    "defense": [
-      8,
-      12
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 12,
+        "par": null
+      }
     ]
   },
   "rondache": {
+    "name": "rondache",
+    "display_name": "Rondache",
     "code": "pa2",
     "type": "auric_shields",
-    "display_name": "Rondache",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1605,15 +2006,20 @@
     "level": 8,
     "levelreq": 6,
     "gemsockets": 4,
-    "defense": [
-      10,
-      18
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 10,
+        "max": 18,
+        "par": null
+      }
     ]
   },
   "heraldic_shield": {
+    "name": "heraldic_shield",
+    "display_name": "Heraldic Shield",
     "code": "pa3",
     "type": "auric_shields",
-    "display_name": "Heraldic Shield",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1623,15 +2029,20 @@
     "level": 16,
     "levelreq": 12,
     "gemsockets": 4,
-    "defense": [
-      16,
-      26
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 16,
+        "max": 26,
+        "par": null
+      }
     ]
   },
   "aerin_shield": {
+    "name": "aerin_shield",
+    "display_name": "Aerin Shield",
     "code": "pa4",
     "type": "auric_shields",
-    "display_name": "Aerin Shield",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1641,15 +2052,20 @@
     "level": 20,
     "levelreq": 15,
     "gemsockets": 4,
-    "defense": [
-      26,
-      36
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 26,
+        "max": 36,
+        "par": null
+      }
     ]
   },
   "crown_shield": {
+    "name": "crown_shield",
+    "display_name": "Crown Shield",
     "code": "pa5",
     "type": "auric_shields",
-    "display_name": "Crown Shield",
     "uniques": null,
     "sets": null,
     "item_class": "normal",
@@ -1659,15 +2075,20 @@
     "level": 24,
     "levelreq": 18,
     "gemsockets": 4,
-    "defense": [
-      30,
-      40
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 30,
+        "max": 40,
+        "par": null
+      }
     ]
   },
   "akaran_targe": {
+    "name": "akaran_targe",
+    "display_name": "Akaran Targe",
     "code": "pa6",
     "type": "auric_shields",
-    "display_name": "Akaran Targe",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1677,15 +2098,20 @@
     "level": 35,
     "levelreq": 26,
     "gemsockets": 4,
-    "defense": [
-      101,
-      125
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 101,
+        "max": 125,
+        "par": null
+      }
     ]
   },
   "akaran_rondache": {
+    "name": "akaran_rondache",
+    "display_name": "Akaran Rondache",
     "code": "pa7",
     "type": "auric_shields",
-    "display_name": "Akaran Rondache",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1695,15 +2121,20 @@
     "level": 40,
     "levelreq": 30,
     "gemsockets": 4,
-    "defense": [
-      113,
-      137
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 113,
+        "max": 137,
+        "par": null
+      }
     ]
   },
   "protector_shield": {
+    "name": "protector_shield",
+    "display_name": "Protector Shield",
     "code": "pa8",
     "type": "auric_shields",
-    "display_name": "Protector Shield",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1713,15 +2144,20 @@
     "level": 46,
     "levelreq": 34,
     "gemsockets": 4,
-    "defense": [
-      129,
-      153
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 129,
+        "max": 153,
+        "par": null
+      }
     ]
   },
   "gilded_shield": {
+    "name": "gilded_shield",
+    "display_name": "Gilded Shield",
     "code": "pa9",
     "type": "auric_shields",
-    "display_name": "Gilded Shield",
     "uniques": [
       "herald_of_zakarum"
     ],
@@ -1733,15 +2169,20 @@
     "level": 51,
     "levelreq": 38,
     "gemsockets": 4,
-    "defense": [
-      144,
-      168
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 144,
+        "max": 168,
+        "par": null
+      }
     ]
   },
   "royal_shield": {
+    "name": "royal_shield",
+    "display_name": "Royal Shield",
     "code": "paa",
     "type": "auric_shields",
-    "display_name": "Royal Shield",
     "uniques": null,
     "sets": null,
     "item_class": "exceptional",
@@ -1751,15 +2192,20 @@
     "level": 55,
     "levelreq": 41,
     "gemsockets": 4,
-    "defense": [
-      156,
-      181
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 156,
+        "max": 181,
+        "par": null
+      }
     ]
   },
   "sacred_targe": {
+    "name": "sacred_targe",
+    "display_name": "Sacred Targe",
     "code": "pab",
     "type": "auric_shields",
-    "display_name": "Sacred Targe",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1769,15 +2215,20 @@
     "level": 63,
     "levelreq": 47,
     "gemsockets": 4,
-    "defense": [
-      126,
-      158
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 126,
+        "max": 158,
+        "par": null
+      }
     ]
   },
   "sacred_rondache": {
+    "name": "sacred_rondache",
+    "display_name": "Sacred Rondache",
     "code": "pac",
     "type": "auric_shields",
-    "display_name": "Sacred Rondache",
     "uniques": [
       "alma_negra"
     ],
@@ -1789,15 +2240,20 @@
     "level": 70,
     "levelreq": 52,
     "gemsockets": 4,
-    "defense": [
-      138,
-      164
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 138,
+        "max": 164,
+        "par": null
+      }
     ]
   },
   "kurast_shield": {
+    "name": "kurast_shield",
+    "display_name": "Kurast Shield",
     "code": "pad",
     "type": "auric_shields",
-    "display_name": "Kurast Shield",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -1807,15 +2263,20 @@
     "level": 74,
     "levelreq": 55,
     "gemsockets": 4,
-    "defense": [
-      154,
-      172
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 154,
+        "max": 172,
+        "par": null
+      }
     ]
   },
   "zakarum_shield": {
+    "name": "zakarum_shield",
+    "display_name": "Zakarum Shield",
     "code": "pae",
     "type": "auric_shields",
-    "display_name": "Zakarum Shield",
     "uniques": [
       "dragonscale"
     ],
@@ -1827,15 +2288,20 @@
     "level": 82,
     "levelreq": 61,
     "gemsockets": 4,
-    "defense": [
-      169,
-      193
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 169,
+        "max": 193,
+        "par": null
+      }
     ]
   },
   "vortex_shield": {
+    "name": "vortex_shield",
+    "display_name": "Vortex Shield",
     "code": "paf",
     "type": "auric_shields",
-    "display_name": "Vortex Shield",
     "uniques": null,
     "sets": [
       "griswolds_honor"
@@ -1847,15 +2313,20 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 4,
-    "defense": [
-      182,
-      225
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 182,
+        "max": 225,
+        "par": null
+      }
     ]
   },
   "plate_mail": {
+    "name": "plate_mail",
+    "display_name": "Plate Mail",
     "code": "plt",
     "type": "armor",
-    "display_name": "Plate Mail",
     "uniques": [
       "boneflesh"
     ],
@@ -1867,15 +2338,20 @@
     "level": 24,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      108,
-      116
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 108,
+        "max": 116,
+        "par": null
+      }
     ]
   },
   "quilted_armor": {
+    "name": "quilted_armor",
+    "display_name": "Quilted Armor",
     "code": "qui",
     "type": "armor",
-    "display_name": "Quilted Armor",
     "uniques": [
       "greyform"
     ],
@@ -1889,15 +2365,20 @@
     "level": 1,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      8,
-      11
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 11,
+        "par": null
+      }
     ]
   },
   "ring_mail": {
+    "name": "ring_mail",
+    "display_name": "Ring Mail",
     "code": "rng",
     "type": "armor",
-    "display_name": "Ring Mail",
     "uniques": [
       "darkglow"
     ],
@@ -1911,15 +2392,20 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      45,
-      48
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 45,
+        "max": 48,
+        "par": null
+      }
     ]
   },
   "scale_mail": {
+    "name": "scale_mail",
+    "display_name": "Scale Mail",
     "code": "scl",
     "type": "armor",
-    "display_name": "Scale Mail",
     "uniques": [
       "hawkmail"
     ],
@@ -1931,15 +2417,20 @@
     "level": 13,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      57,
-      60
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 57,
+        "max": 60,
+        "par": null
+      }
     ]
   },
   "skull_cap": {
+    "name": "skull_cap",
+    "display_name": "Skull Cap",
     "code": "skp",
     "type": "helm",
-    "display_name": "Skull Cap",
     "uniques": [
       "tarnhelm"
     ],
@@ -1953,15 +2444,20 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      8,
-      11
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 11,
+        "par": null
+      }
     ]
   },
   "small_shield": {
+    "name": "small_shield",
+    "display_name": "Small Shield",
     "code": "sml",
     "type": "shield",
-    "display_name": "Small Shield",
     "uniques": [
       "umbral_disk"
     ],
@@ -1975,15 +2471,20 @@
     "level": 5,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      8,
-      10
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 8,
+        "max": 10,
+        "par": null
+      }
     ]
   },
   "spiked_shield": {
+    "name": "spiked_shield",
+    "display_name": "Spiked Shield",
     "code": "spk",
     "type": "shield",
-    "display_name": "Spiked Shield",
     "uniques": [
       "swordback_hold"
     ],
@@ -1995,15 +2496,20 @@
     "level": 11,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      15,
-      25
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 15,
+        "max": 25,
+        "par": null
+      }
     ]
   },
   "splint_mail": {
+    "name": "splint_mail",
+    "display_name": "Splint Mail",
     "code": "spl",
     "type": "armor",
-    "display_name": "Splint Mail",
     "uniques": [
       "iceblink"
     ],
@@ -2017,15 +2523,20 @@
     "level": 20,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      90,
-      95
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 90,
+        "max": 95,
+        "par": null
+      }
     ]
   },
   "studded_leather": {
+    "name": "studded_leather",
+    "display_name": "Studded Leather",
     "code": "stu",
     "type": "armor",
-    "display_name": "Studded Leather",
     "uniques": [
       "twitchthroe"
     ],
@@ -2039,15 +2550,20 @@
     "level": 8,
     "levelreq": 0,
     "gemsockets": 2,
-    "defense": [
-      32,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 32,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "heavy_belt": {
+    "name": "heavy_belt",
+    "display_name": "Heavy Belt",
     "code": "tbl",
     "type": "belt",
-    "display_name": "Heavy Belt",
     "uniques": [
       "goldwrap"
     ],
@@ -2062,15 +2578,20 @@
     "level": 20,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      6,
-      6
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 6,
+        "max": 6,
+        "par": null
+      }
     ]
   },
   "light_plated_boots": {
+    "name": "light_plated_boots",
+    "display_name": "Light Plated Boots",
     "code": "tbt",
     "type": "boots",
-    "display_name": "Light Plated Boots",
     "uniques": [
       "goblin_toe"
     ],
@@ -2084,15 +2605,20 @@
     "level": 20,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      9,
-      11
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 9,
+        "max": 11,
+        "par": null
+      }
     ]
   },
   "light_gauntlets": {
+    "name": "light_gauntlets",
+    "display_name": "Light Gauntlets",
     "code": "tgl",
     "type": "gloves",
-    "display_name": "Light Gauntlets",
     "uniques": [
       "magefist"
     ],
@@ -2107,15 +2633,20 @@
     "level": 20,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      9,
-      11
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 9,
+        "max": 11,
+        "par": null
+      }
     ]
   },
   "tower_shield": {
+    "name": "tower_shield",
+    "display_name": "Tower Shield",
     "code": "tow",
     "type": "shield",
-    "display_name": "Tower Shield",
     "uniques": [
       "bverrit_keep"
     ],
@@ -2129,15 +2660,20 @@
     "level": 22,
     "levelreq": 0,
     "gemsockets": 3,
-    "defense": [
-      22,
-      25
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 22,
+        "max": 25,
+        "par": null
+      }
     ]
   },
   "shako": {
+    "name": "shako",
+    "display_name": "Shako",
     "code": "uap",
     "type": "helm",
-    "display_name": "Shako",
     "uniques": [
       "harlequin_crest"
     ],
@@ -2149,15 +2685,20 @@
     "level": 58,
     "levelreq": 43,
     "gemsockets": 2,
-    "defense": [
-      98,
-      141
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 98,
+        "max": 141,
+        "par": null
+      }
     ]
   },
   "sacred_armor": {
+    "name": "sacred_armor",
+    "display_name": "Sacred Armor",
     "code": "uar",
     "type": "armor",
-    "display_name": "Sacred Armor",
     "uniques": [
       "tyraels_might",
       "templars_might"
@@ -2172,15 +2713,20 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 4,
-    "defense": [
-      487,
-      600
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 487,
+        "max": 600,
+        "par": null
+      }
     ]
   },
   "loricated_mail": {
+    "name": "loricated_mail",
+    "display_name": "Loricated Mail",
     "code": "ucl",
     "type": "armor",
-    "display_name": "Loricated Mail",
     "uniques": null,
     "sets": [
       "natalyas_shadow"
@@ -2192,15 +2738,20 @@
     "level": 73,
     "levelreq": 55,
     "gemsockets": 4,
-    "defense": [
-      390,
-      496
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 390,
+        "max": 496,
+        "par": null
+      }
     ]
   },
   "wyrmhide": {
+    "name": "wyrmhide",
+    "display_name": "Wyrmhide",
     "code": "uea",
     "type": "armor",
-    "display_name": "Wyrmhide",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2210,15 +2761,20 @@
     "level": 67,
     "levelreq": 50,
     "gemsockets": 4,
-    "defense": [
-      364,
-      470
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 364,
+        "max": 470,
+        "par": null
+      }
     ]
   },
   "bone_visage": {
+    "name": "bone_visage",
+    "display_name": "Bone Visage",
     "code": "uh9",
     "type": "helm",
-    "display_name": "Bone Visage",
     "uniques": [
       "giant_skull"
     ],
@@ -2232,15 +2788,20 @@
     "level": 84,
     "levelreq": 63,
     "gemsockets": 3,
-    "defense": [
-      100,
-      157
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 100,
+        "max": 157,
+        "par": null
+      }
     ]
   },
   "myrmidon_greaves": {
+    "name": "myrmidon_greaves",
+    "display_name": "Myrmidon Greaves",
     "code": "uhb",
     "type": "boots",
-    "display_name": "Myrmidon Greaves",
     "uniques": [
       "shadow_dancer"
     ],
@@ -2252,15 +2813,20 @@
     "level": 85,
     "levelreq": 65,
     "gemsockets": 0,
-    "defense": [
-      62,
-      71
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 62,
+        "max": 71,
+        "par": null
+      }
     ]
   },
   "colossus_girdle": {
+    "name": "colossus_girdle",
+    "display_name": "Colossus Girdle",
     "code": "uhc",
     "type": "belt",
-    "display_name": "Colossus Girdle",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2270,15 +2836,20 @@
     "level": 85,
     "levelreq": 67,
     "gemsockets": 0,
-    "defense": [
-      61,
-      71
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 61,
+        "max": 71,
+        "par": null
+      }
     ]
   },
   "ogre_gauntlets": {
+    "name": "ogre_gauntlets",
+    "display_name": "Ogre Gauntlets",
     "code": "uhg",
     "type": "gloves",
-    "display_name": "Ogre Gauntlets",
     "uniques": [
       "steelrend"
     ],
@@ -2290,15 +2861,20 @@
     "level": 85,
     "levelreq": 64,
     "gemsockets": 0,
-    "defense": [
-      62,
-      71
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 62,
+        "max": 71,
+        "par": null
+      }
     ]
   },
   "giant_conch": {
+    "name": "giant_conch",
+    "display_name": "Giant Conch",
     "code": "uhl",
     "type": "helm",
-    "display_name": "Giant Conch",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2308,15 +2884,20 @@
     "level": 54,
     "levelreq": 40,
     "gemsockets": 2,
-    "defense": [
-      110,
-      154
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 110,
+        "max": 154,
+        "par": null
+      }
     ]
   },
   "spired_helm": {
+    "name": "spired_helm",
+    "display_name": "Spired Helm",
     "code": "uhm",
     "type": "helm",
-    "display_name": "Spired Helm",
     "uniques": [
       "veil_of_steel",
       "nightwings_veil"
@@ -2331,15 +2912,20 @@
     "level": 79,
     "levelreq": 59,
     "gemsockets": 3,
-    "defense": [
-      114,
-      159
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 114,
+        "max": 159,
+        "par": null
+      }
     ]
   },
   "boneweave": {
+    "name": "boneweave",
+    "display_name": "Boneweave",
     "code": "uhn",
     "type": "armor",
-    "display_name": "Boneweave",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2349,15 +2935,20 @@
     "level": 62,
     "levelreq": 47,
     "gemsockets": 4,
-    "defense": [
-      399,
-      505
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 399,
+        "max": 505,
+        "par": null
+      }
     ]
   },
   "monarch": {
+    "name": "monarch",
+    "display_name": "Monarch",
     "code": "uit",
     "type": "shield",
-    "display_name": "Monarch",
     "uniques": [
       "stormshield"
     ],
@@ -2369,15 +2960,20 @@
     "level": 72,
     "levelreq": 54,
     "gemsockets": 4,
-    "defense": [
-      133,
-      148
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 133,
+        "max": 148,
+        "par": null
+      }
     ]
   },
   "hydraskull": {
+    "name": "hydraskull",
+    "display_name": "Hydraskull",
     "code": "ukp",
     "type": "helm",
-    "display_name": "Hydraskull",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2387,15 +2983,20 @@
     "level": 63,
     "levelreq": 47,
     "gemsockets": 2,
-    "defense": [
-      101,
-      145
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 101,
+        "max": 145,
+        "par": null
+      }
     ]
   },
   "scarab_husk": {
+    "name": "scarab_husk",
+    "display_name": "Scarab Husk",
     "code": "ula",
     "type": "armor",
-    "display_name": "Scarab Husk",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2405,15 +3006,20 @@
     "level": 68,
     "levelreq": 51,
     "gemsockets": 4,
-    "defense": [
-      369,
-      474
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 369,
+        "max": 474,
+        "par": null
+      }
     ]
   },
   "wyrmhide_boots": {
+    "name": "wyrmhide_boots",
+    "display_name": "Wyrmhide Boots",
     "code": "ulb",
     "type": "boots",
-    "display_name": "Wyrmhide Boots",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2423,15 +3029,20 @@
     "level": 60,
     "levelreq": 45,
     "gemsockets": 0,
-    "defense": [
-      54,
-      62
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 54,
+        "max": 62,
+        "par": null
+      }
     ]
   },
   "spiderweb_sash": {
+    "name": "spiderweb_sash",
+    "display_name": "Spiderweb Sash",
     "code": "ulc",
     "type": "belt",
-    "display_name": "Spiderweb Sash",
     "uniques": [
       "arachnid_mesh"
     ],
@@ -2443,15 +3054,20 @@
     "level": 61,
     "levelreq": 46,
     "gemsockets": 0,
-    "defense": [
-      55,
-      62
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 55,
+        "max": 62,
+        "par": null
+      }
     ]
   },
   "kraken_shell": {
+    "name": "kraken_shell",
+    "display_name": "Kraken Shell",
     "code": "uld",
     "type": "armor",
-    "display_name": "Kraken Shell",
     "uniques": [
       "leviathan"
     ],
@@ -2465,15 +3081,20 @@
     "level": 81,
     "levelreq": 61,
     "gemsockets": 4,
-    "defense": [
-      417,
-      523
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 417,
+        "max": 523,
+        "par": null
+      }
     ]
   },
   "bramble_mitts": {
+    "name": "bramble_mitts",
+    "display_name": "Bramble Mitts",
     "code": "ulg",
     "type": "gloves",
-    "display_name": "Bramble Mitts",
     "uniques": null,
     "sets": [
       "laying_of_hands"
@@ -2485,15 +3106,20 @@
     "level": 57,
     "levelreq": 42,
     "gemsockets": 0,
-    "defense": [
-      54,
-      62
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 54,
+        "max": 62,
+        "par": null
+      }
     ]
   },
   "armet": {
+    "name": "armet",
+    "display_name": "Armet",
     "code": "ulm",
     "type": "helm",
-    "display_name": "Armet",
     "uniques": [
       "steel_shade",
       "darkfear"
@@ -2506,15 +3132,20 @@
     "level": 68,
     "levelreq": 51,
     "gemsockets": 2,
-    "defense": [
-      105,
-      149
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 105,
+        "max": 149,
+        "par": null
+      }
     ]
   },
   "hellforge_plate": {
+    "name": "hellforge_plate",
+    "display_name": "Hellforge Plate",
     "code": "ult",
     "type": "armor",
-    "display_name": "Hellforge Plate",
     "uniques": null,
     "sets": [
       "najs_light_plate"
@@ -2526,15 +3157,20 @@
     "level": 78,
     "levelreq": 59,
     "gemsockets": 4,
-    "defense": [
-      421,
-      530
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 421,
+        "max": 530,
+        "par": null
+      }
     ]
   },
   "boneweave_boots": {
+    "name": "boneweave_boots",
+    "display_name": "Boneweave Boots",
     "code": "umb",
     "type": "boots",
-    "display_name": "Boneweave Boots",
     "uniques": [
       "marrowwalk"
     ],
@@ -2546,15 +3182,20 @@
     "level": 72,
     "levelreq": 54,
     "gemsockets": 0,
-    "defense": [
-      59,
-      67
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 59,
+        "max": 67,
+        "par": null
+      }
     ]
   },
   "mithril_coil": {
+    "name": "mithril_coil",
+    "display_name": "Mithril Coil",
     "code": "umc",
     "type": "belt",
-    "display_name": "Mithril Coil",
     "uniques": [
       "verdungos_hearty_cord"
     ],
@@ -2568,15 +3209,20 @@
     "level": 75,
     "levelreq": 56,
     "gemsockets": 0,
-    "defense": [
-      58,
-      65
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 58,
+        "max": 65,
+        "par": null
+      }
     ]
   },
   "vambraces": {
+    "name": "vambraces",
+    "display_name": "Vambraces",
     "code": "umg",
     "type": "gloves",
-    "display_name": "Vambraces",
     "uniques": [
       "soul_drainer"
     ],
@@ -2588,15 +3234,20 @@
     "level": 69,
     "levelreq": 51,
     "gemsockets": 0,
-    "defense": [
-      59,
-      67
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 59,
+        "max": 67,
+        "par": null
+      }
     ]
   },
   "luna": {
+    "name": "luna",
+    "display_name": "Luna",
     "code": "uml",
     "type": "shield",
-    "display_name": "Luna",
     "uniques": [
       "blackoak_shield"
     ],
@@ -2608,15 +3259,20 @@
     "level": 61,
     "levelreq": 45,
     "gemsockets": 2,
-    "defense": [
-      108,
-      123
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 108,
+        "max": 123,
+        "par": null
+      }
     ]
   },
   "diamond_mail": {
+    "name": "diamond_mail",
+    "display_name": "Diamond Mail",
     "code": "ung",
     "type": "armor",
-    "display_name": "Diamond Mail",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2626,15 +3282,20 @@
     "level": 72,
     "levelreq": 54,
     "gemsockets": 4,
-    "defense": [
-      383,
-      489
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 383,
+        "max": 489,
+        "par": null
+      }
     ]
   },
   "aegis": {
+    "name": "aegis",
+    "display_name": "Aegis",
     "code": "uow",
     "type": "shield",
-    "display_name": "Aegis",
     "uniques": [
       "medusas_gaze"
     ],
@@ -2646,15 +3307,20 @@
     "level": 79,
     "levelreq": 59,
     "gemsockets": 4,
-    "defense": [
-      145,
-      161
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 145,
+        "max": 161,
+        "par": null
+      }
     ]
   },
   "blade_barrier": {
+    "name": "blade_barrier",
+    "display_name": "Blade Barrier",
     "code": "upk",
     "type": "shield",
-    "display_name": "Blade Barrier",
     "uniques": [
       "spike_thorn"
     ],
@@ -2666,15 +3332,20 @@
     "level": 68,
     "levelreq": 51,
     "gemsockets": 3,
-    "defense": [
-      147,
-      163
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 147,
+        "max": 163,
+        "par": null
+      }
     ]
   },
   "balrog_skin": {
+    "name": "balrog_skin",
+    "display_name": "Balrog Skin",
     "code": "upl",
     "type": "armor",
-    "display_name": "Balrog Skin",
     "uniques": [
       "arkaines_valor"
     ],
@@ -2688,15 +3359,20 @@
     "level": 76,
     "levelreq": 57,
     "gemsockets": 4,
-    "defense": [
-      410,
-      517
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 410,
+        "max": 517,
+        "par": null
+      }
     ]
   },
   "hyperion": {
+    "name": "hyperion",
+    "display_name": "Hyperion",
     "code": "urg",
     "type": "shield",
-    "display_name": "Hyperion",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2706,15 +3382,20 @@
     "level": 64,
     "levelreq": 48,
     "gemsockets": 3,
-    "defense": [
-      119,
-      135
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 119,
+        "max": 135,
+        "par": null
+      }
     ]
   },
   "corona": {
+    "name": "corona",
+    "display_name": "Corona",
     "code": "urn",
     "type": "helm",
-    "display_name": "Corona",
     "uniques": [
       "crown_of_ages"
     ],
@@ -2728,15 +3409,20 @@
     "level": 85,
     "levelreq": 66,
     "gemsockets": 3,
-    "defense": [
-      111,
-      165
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 111,
+        "max": 165,
+        "par": null
+      }
     ]
   },
   "great_hauberk": {
+    "name": "great_hauberk",
+    "display_name": "Great Hauberk",
     "code": "urs",
     "type": "armor",
-    "display_name": "Great Hauberk",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2746,15 +3432,20 @@
     "level": 75,
     "levelreq": 56,
     "gemsockets": 4,
-    "defense": [
-      395,
-      501
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 395,
+        "max": 501,
+        "par": null
+      }
     ]
   },
   "troll_nest": {
+    "name": "troll_nest",
+    "display_name": "Troll Nest",
     "code": "ush",
     "type": "shield",
-    "display_name": "Troll Nest",
     "uniques": [
       "head_hunters_glory"
     ],
@@ -2766,15 +3457,20 @@
     "level": 76,
     "levelreq": 57,
     "gemsockets": 3,
-    "defense": [
-      158,
-      173
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 158,
+        "max": 173,
+        "par": null
+      }
     ]
   },
   "demonhead": {
+    "name": "demonhead",
+    "display_name": "Demonhead",
     "code": "usk",
     "type": "helm",
-    "display_name": "Demonhead",
     "uniques": [
       "andariels_visage"
     ],
@@ -2786,15 +3482,20 @@
     "level": 74,
     "levelreq": 55,
     "gemsockets": 3,
-    "defense": [
-      101,
-      154
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 101,
+        "max": 154,
+        "par": null
+      }
     ]
   },
   "mirrored_boots": {
+    "name": "mirrored_boots",
+    "display_name": "Mirrored Boots",
     "code": "utb",
     "type": "boots",
-    "display_name": "Mirrored Boots",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2804,15 +3505,20 @@
     "level": 81,
     "levelreq": 60,
     "gemsockets": 0,
-    "defense": [
-      59,
-      68
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 59,
+        "max": 68,
+        "par": null
+      }
     ]
   },
   "troll_belt": {
+    "name": "troll_belt",
+    "display_name": "Troll Belt",
     "code": "utc",
     "type": "belt",
-    "display_name": "Troll Belt",
     "uniques": null,
     "sets": [
       "trangouls_girth"
@@ -2824,15 +3530,20 @@
     "level": 82,
     "levelreq": 62,
     "gemsockets": 0,
-    "defense": [
-      59,
-      66
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 59,
+        "max": 66,
+        "par": null
+      }
     ]
   },
   "crusader_gauntlets": {
+    "name": "crusader_gauntlets",
+    "display_name": "Crusader Gauntlets",
     "code": "utg",
     "type": "gloves",
-    "display_name": "Crusader Gauntlets",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2842,15 +3553,20 @@
     "level": 76,
     "levelreq": 57,
     "gemsockets": 0,
-    "defense": [
-      59,
-      68
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 59,
+        "max": 68,
+        "par": null
+      }
     ]
   },
   "lacquered_plate": {
+    "name": "lacquered_plate",
+    "display_name": "Lacquered Plate",
     "code": "uth",
     "type": "armor",
-    "display_name": "Lacquered Plate",
     "uniques": null,
     "sets": [
       "tal_rashas_guardianship"
@@ -2862,15 +3578,20 @@
     "level": 82,
     "levelreq": 62,
     "gemsockets": 4,
-    "defense": [
-      433,
-      541
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 433,
+        "max": 541,
+        "par": null
+      }
     ]
   },
   "archon_plate": {
+    "name": "archon_plate",
+    "display_name": "Archon Plate",
     "code": "utp",
     "type": "armor",
-    "display_name": "Archon Plate",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2880,15 +3601,20 @@
     "level": 84,
     "levelreq": 63,
     "gemsockets": 4,
-    "defense": [
-      410,
-      524
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 410,
+        "max": 524,
+        "par": null
+      }
     ]
   },
   "ward": {
+    "name": "ward",
+    "display_name": "Ward",
     "code": "uts",
     "type": "shield",
-    "display_name": "Ward",
     "uniques": [
       "spirit_ward"
     ],
@@ -2902,15 +3628,20 @@
     "level": 84,
     "levelreq": 63,
     "gemsockets": 4,
-    "defense": [
-      153,
-      170
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 153,
+        "max": 170,
+        "par": null
+      }
     ]
   },
   "wire_fleece": {
+    "name": "wire_fleece",
+    "display_name": "Wire Fleece",
     "code": "utu",
     "type": "armor",
-    "display_name": "Wire Fleece",
     "uniques": [
       "the_gladiators_bane"
     ],
@@ -2922,15 +3653,20 @@
     "level": 70,
     "levelreq": 53,
     "gemsockets": 4,
-    "defense": [
-      375,
-      481
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 375,
+        "max": 481,
+        "par": null
+      }
     ]
   },
   "heater": {
+    "name": "heater",
+    "display_name": "Heater",
     "code": "uuc",
     "type": "shield",
-    "display_name": "Heater",
     "uniques": null,
     "sets": null,
     "item_class": "elite",
@@ -2940,15 +3676,20 @@
     "level": 58,
     "levelreq": 43,
     "gemsockets": 2,
-    "defense": [
-      95,
-      110
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 95,
+        "max": 110,
+        "par": null
+      }
     ]
   },
   "dusk_shroud": {
+    "name": "dusk_shroud",
+    "display_name": "Dusk Shroud",
     "code": "uui",
     "type": "armor",
-    "display_name": "Dusk Shroud",
     "uniques": [
       "ormus_robes"
     ],
@@ -2962,15 +3703,20 @@
     "level": 65,
     "levelreq": 49,
     "gemsockets": 4,
-    "defense": [
-      361,
-      467
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 361,
+        "max": 467,
+        "par": null
+      }
     ]
   },
   "shadow_plate": {
+    "name": "shadow_plate",
+    "display_name": "Shadow Plate",
     "code": "uul",
     "type": "armor",
-    "display_name": "Shadow Plate",
     "uniques": [
       "steel_carapace"
     ],
@@ -2984,15 +3730,20 @@
     "level": 83,
     "levelreq": 64,
     "gemsockets": 4,
-    "defense": [
-      446,
-      557
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 446,
+        "max": 557,
+        "par": null
+      }
     ]
   },
   "scarabshell_boots": {
+    "name": "scarabshell_boots",
+    "display_name": "Scarabshell Boots",
     "code": "uvb",
     "type": "boots",
-    "display_name": "Scarabshell Boots",
     "uniques": [
       "sandstorm_trek"
     ],
@@ -3004,15 +3755,20 @@
     "level": 66,
     "levelreq": 49,
     "gemsockets": 0,
-    "defense": [
-      56,
-      65
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 56,
+        "max": 65,
+        "par": null
+      }
     ]
   },
   "vampirefang_belt": {
+    "name": "vampirefang_belt",
+    "display_name": "Vampirefang Belt",
     "code": "uvc",
     "type": "belt",
-    "display_name": "Vampirefang Belt",
     "uniques": [
       "nosferatus_coil"
     ],
@@ -3024,15 +3780,20 @@
     "level": 68,
     "levelreq": 51,
     "gemsockets": 0,
-    "defense": [
-      56,
-      63
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 56,
+        "max": 63,
+        "par": null
+      }
     ]
   },
   "vampirebone_gloves": {
+    "name": "vampirebone_gloves",
+    "display_name": "Vampirebone Gloves",
     "code": "uvg",
     "type": "gloves",
-    "display_name": "Vampirebone Gloves",
     "uniques": [
       "draculs_grasp"
     ],
@@ -3044,15 +3805,20 @@
     "level": 63,
     "levelreq": 47,
     "gemsockets": 0,
-    "defense": [
-      56,
-      65
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 56,
+        "max": 65,
+        "par": null
+      }
     ]
   },
   "light_belt": {
+    "name": "light_belt",
+    "display_name": "Light Belt",
     "code": "vbl",
     "type": "belt",
-    "display_name": "Light Belt",
     "uniques": [
       "snakecord"
     ],
@@ -3066,15 +3832,20 @@
     "level": 7,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      3,
-      3
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 3,
+        "max": 3,
+        "par": null
+      }
     ]
   },
   "heavy_boots": {
+    "name": "heavy_boots",
+    "display_name": "Heavy Boots",
     "code": "vbt",
     "type": "boots",
-    "display_name": "Heavy Boots",
     "uniques": [
       "gorefoot"
     ],
@@ -3089,15 +3860,20 @@
     "level": 7,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      5,
-      6
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 5,
+        "max": 6,
+        "par": null
+      }
     ]
   },
   "heavy_gloves": {
+    "name": "heavy_gloves",
+    "display_name": "Heavy Gloves",
     "code": "vgl",
     "type": "gloves",
-    "display_name": "Heavy Gloves",
     "uniques": [
       "bloodfist"
     ],
@@ -3111,15 +3887,20 @@
     "level": 7,
     "levelreq": 0,
     "gemsockets": 0,
-    "defense": [
-      5,
-      6
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 5,
+        "max": 6,
+        "par": null
+      }
     ]
   },
   "war_hat": {
+    "name": "war_hat",
+    "display_name": "War Hat",
     "code": "xap",
     "type": "helm",
-    "display_name": "War Hat",
     "uniques": [
       "peasant_crown"
     ],
@@ -3133,15 +3914,20 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 2,
-    "defense": [
-      45,
-      53
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 45,
+        "max": 53,
+        "par": null
+      }
     ]
   },
   "ornate_plate": {
+    "name": "ornate_plate",
+    "display_name": "Ornate Plate",
     "code": "xar",
     "type": "armor",
-    "display_name": "Ornate Plate",
     "uniques": [
       "corpsemourn"
     ],
@@ -3155,15 +3941,20 @@
     "level": 64,
     "levelreq": 25,
     "gemsockets": 4,
-    "defense": [
-      417,
-      450
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 417,
+        "max": 450,
+        "par": null
+      }
     ]
   },
   "tigulated_mail": {
+    "name": "tigulated_mail",
+    "display_name": "Tigulated Mail",
     "code": "xcl",
     "type": "armor",
-    "display_name": "Tigulated Mail",
     "uniques": [
       "crow_caw"
     ],
@@ -3177,15 +3968,20 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      176,
-      190
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 176,
+        "max": 190,
+        "par": null
+      }
     ]
   },
   "serpentskin_armor": {
+    "name": "serpentskin_armor",
+    "display_name": "Serpentskin Armor",
     "code": "xea",
     "type": "armor",
-    "display_name": "Serpentskin Armor",
     "uniques": [
       "skin_of_the_vipermagi"
     ],
@@ -3197,15 +3993,20 @@
     "level": 36,
     "levelreq": 24,
     "gemsockets": 2,
-    "defense": [
-      111,
-      126
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 111,
+        "max": 126,
+        "par": null
+      }
     ]
   },
   "grim_helm": {
+    "name": "grim_helm",
+    "display_name": "Grim Helm",
     "code": "xh9",
     "type": "helm",
-    "display_name": "Grim Helm",
     "uniques": [
       "vampire_gaze"
     ],
@@ -3219,15 +4020,20 @@
     "level": 50,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      60,
-      125
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 60,
+        "max": 125,
+        "par": null
+      }
     ]
   },
   "war_boots": {
+    "name": "war_boots",
+    "display_name": "War Boots",
     "code": "xhb",
     "type": "boots",
-    "display_name": "War Boots",
     "uniques": [
       "gore_rider"
     ],
@@ -3241,15 +4047,20 @@
     "level": 54,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      43,
-      53
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 43,
+        "max": 53,
+        "par": null
+      }
     ]
   },
   "war_gauntlets": {
+    "name": "war_gauntlets",
+    "display_name": "War Gauntlets",
     "code": "xhg",
     "type": "gloves",
-    "display_name": "War Gauntlets",
     "uniques": [
       "hellmouth"
     ],
@@ -3263,15 +4074,20 @@
     "level": 54,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      43,
-      53
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 43,
+        "max": 53,
+        "par": null
+      }
     ]
   },
   "basinet": {
+    "name": "basinet",
+    "display_name": "Basinet",
     "code": "xhl",
     "type": "helm",
-    "display_name": "Basinet",
     "uniques": [
       "darksight_helm"
     ],
@@ -3285,15 +4101,20 @@
     "level": 45,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      75,
-      84
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 75,
+        "max": 84,
+        "par": null
+      }
     ]
   },
   "winged_helm": {
+    "name": "winged_helm",
+    "display_name": "Winged Helm",
     "code": "xhm",
     "type": "helm",
-    "display_name": "Winged Helm",
     "uniques": [
       "valkyrie_wing"
     ],
@@ -3307,15 +4128,20 @@
     "level": 51,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      85,
-      98
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 85,
+        "max": 98,
+        "par": null
+      }
     ]
   },
   "mesh_armor": {
+    "name": "mesh_armor",
+    "display_name": "Mesh Armor",
     "code": "xhn",
     "type": "armor",
-    "display_name": "Mesh Armor",
     "uniques": [
       "shaftstop"
     ],
@@ -3327,15 +4153,20 @@
     "level": 45,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      198,
-      213
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 198,
+        "max": 213,
+        "par": null
+      }
     ]
   },
   "dragon_shield": {
+    "name": "dragon_shield",
+    "display_name": "Dragon Shield",
     "code": "xit",
     "type": "shield",
-    "display_name": "Dragon Shield",
     "uniques": [
       "tiamats_rebuke"
     ],
@@ -3347,15 +4178,20 @@
     "level": 45,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      59,
-      67
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 59,
+        "max": 67,
+        "par": null
+      }
     ]
   },
   "sallet": {
+    "name": "sallet",
+    "display_name": "Sallet",
     "code": "xkp",
     "type": "helm",
-    "display_name": "Sallet",
     "uniques": [
       "rockstopper"
     ],
@@ -3367,15 +4203,20 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      52,
-      62
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 52,
+        "max": 62,
+        "par": null
+      }
     ]
   },
   "demonhide_armor": {
+    "name": "demonhide_armor",
+    "display_name": "Demonhide Armor",
     "code": "xla",
     "type": "armor",
-    "display_name": "Demonhide Armor",
     "uniques": [
       "skin_of_the_flayed_one"
     ],
@@ -3387,15 +4228,20 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      122,
-      136
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 122,
+        "max": 136,
+        "par": null
+      }
     ]
   },
   "demonhide_boots": {
+    "name": "demonhide_boots",
+    "display_name": "Demonhide Boots",
     "code": "xlb",
     "type": "boots",
-    "display_name": "Demonhide Boots",
     "uniques": [
       "infernostride"
     ],
@@ -3409,15 +4255,20 @@
     "level": 36,
     "levelreq": 24,
     "gemsockets": 0,
-    "defense": [
-      28,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 28,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "sharktooth_armor": {
+    "name": "sharktooth_armor",
+    "display_name": "Sharktooth Armor",
     "code": "xld",
     "type": "armor",
-    "display_name": "Sharktooth Armor",
     "uniques": [
       "toothrow"
     ],
@@ -3429,15 +4280,20 @@
     "level": 55,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      242,
-      258
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 242,
+        "max": 258,
+        "par": null
+      }
     ]
   },
   "demonhide_gloves": {
+    "name": "demonhide_gloves",
+    "display_name": "Demonhide Gloves",
     "code": "xlg",
     "type": "gloves",
-    "display_name": "Demonhide Gloves",
     "uniques": [
       "venom_grip"
     ],
@@ -3449,15 +4305,20 @@
     "level": 33,
     "levelreq": 21,
     "gemsockets": 0,
-    "defense": [
-      28,
-      35
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 28,
+        "max": 35,
+        "par": null
+      }
     ]
   },
   "casque": {
+    "name": "casque",
+    "display_name": "Casque",
     "code": "xlm",
     "type": "helm",
-    "display_name": "Casque",
     "uniques": [
       "stealskull"
     ],
@@ -3469,15 +4330,20 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      63,
-      72
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 63,
+        "max": 72,
+        "par": null
+      }
     ]
   },
   "templar_coat": {
+    "name": "templar_coat",
+    "display_name": "Templar Coat",
     "code": "xlt",
     "type": "armor",
-    "display_name": "Templar Coat",
     "uniques": [
       "guardian_angel"
     ],
@@ -3489,15 +4355,20 @@
     "level": 52,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      252,
-      274
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 252,
+        "max": 274,
+        "par": null
+      }
     ]
   },
   "mesh_boots": {
+    "name": "mesh_boots",
+    "display_name": "Mesh Boots",
     "code": "xmb",
     "type": "boots",
-    "display_name": "Mesh Boots",
     "uniques": [
       "silkweave"
     ],
@@ -3511,15 +4382,20 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      37,
-      44
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 37,
+        "max": 44,
+        "par": null
+      }
     ]
   },
   "heavy_bracers": {
+    "name": "heavy_bracers",
+    "display_name": "Heavy Bracers",
     "code": "xmg",
     "type": "gloves",
-    "display_name": "Heavy Bracers",
     "uniques": [
       "ghoulhide"
     ],
@@ -3533,15 +4409,20 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      37,
-      44
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 37,
+        "max": 44,
+        "par": null
+      }
     ]
   },
   "round_shield": {
+    "name": "round_shield",
+    "display_name": "Round Shield",
     "code": "xml",
     "type": "shield",
-    "display_name": "Round Shield",
     "uniques": [
       "mosers_blessed_circle"
     ],
@@ -3555,15 +4436,20 @@
     "level": 37,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      47,
-      55
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 47,
+        "max": 55,
+        "par": null
+      }
     ]
   },
   "linked_mail": {
+    "name": "linked_mail",
+    "display_name": "Linked Mail",
     "code": "xng",
     "type": "armor",
-    "display_name": "Linked Mail",
     "uniques": [
       "spirit_forge"
     ],
@@ -3575,15 +4461,20 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      158,
-      172
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 158,
+        "max": 172,
+        "par": null
+      }
     ]
   },
   "pavise": {
+    "name": "pavise",
+    "display_name": "Pavise",
     "code": "xow",
     "type": "shield",
-    "display_name": "Pavise",
     "uniques": [
       "gerkes_sanctuary"
     ],
@@ -3595,15 +4486,20 @@
     "level": 50,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      68,
-      78
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 68,
+        "max": 78,
+        "par": null
+      }
     ]
   },
   "barbed_shield": {
+    "name": "barbed_shield",
+    "display_name": "Barbed Shield",
     "code": "xpk",
     "type": "shield",
-    "display_name": "Barbed Shield",
     "uniques": [
       "lance_guard"
     ],
@@ -3615,15 +4511,20 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      58,
-      78
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 58,
+        "max": 78,
+        "par": null
+      }
     ]
   },
   "russet_armor": {
+    "name": "russet_armor",
+    "display_name": "Russet Armor",
     "code": "xpl",
     "type": "armor",
-    "display_name": "Russet Armor",
     "uniques": [
       "skullders_ire"
     ],
@@ -3635,15 +4536,20 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      225,
-      243
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 225,
+        "max": 243,
+        "par": null
+      }
     ]
   },
   "scutum": {
+    "name": "scutum",
+    "display_name": "Scutum",
     "code": "xrg",
     "type": "shield",
-    "display_name": "Scutum",
     "uniques": [
       "stormchaser"
     ],
@@ -3655,15 +4561,20 @@
     "level": 42,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      53,
-      61
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 53,
+        "max": 61,
+        "par": null
+      }
     ]
   },
   "grand_crown": {
+    "name": "grand_crown",
+    "display_name": "Grand Crown",
     "code": "xrn",
     "type": "helm",
-    "display_name": "Grand Crown",
     "uniques": [
       "crown_of_thieves"
     ],
@@ -3677,15 +4588,20 @@
     "level": 55,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      78,
-      113
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 78,
+        "max": 113,
+        "par": null
+      }
     ]
   },
   "cuirass": {
+    "name": "cuirass",
+    "display_name": "Cuirass",
     "code": "xrs",
     "type": "armor",
-    "display_name": "Cuirass",
     "uniques": [
       "duriels_shell"
     ],
@@ -3699,15 +4615,20 @@
     "level": 47,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      188,
-      202
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 188,
+        "max": 202,
+        "par": null
+      }
     ]
   },
   "grim_shield": {
+    "name": "grim_shield",
+    "display_name": "Grim Shield",
     "code": "xsh",
     "type": "shield",
-    "display_name": "Grim Shield",
     "uniques": [
       "lidless_wall"
     ],
@@ -3719,15 +4640,20 @@
     "level": 48,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      50,
-      150
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 50,
+        "max": 150,
+        "par": null
+      }
     ]
   },
   "death_mask": {
+    "name": "death_mask",
+    "display_name": "Death Mask",
     "code": "xsk",
     "type": "helm",
-    "display_name": "Death Mask",
     "uniques": [
       "blackhorns_face"
     ],
@@ -3741,15 +4667,20 @@
     "level": 48,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      54,
-      86
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 54,
+        "max": 86,
+        "par": null
+      }
     ]
   },
   "battle_boots": {
+    "name": "battle_boots",
+    "display_name": "Battle Boots",
     "code": "xtb",
     "type": "boots",
-    "display_name": "Battle Boots",
     "uniques": [
       "war_traveler"
     ],
@@ -3763,15 +4694,20 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      39,
-      47
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 39,
+        "max": 47,
+        "par": null
+      }
     ]
   },
   "battle_gauntlets": {
+    "name": "battle_gauntlets",
+    "display_name": "Battle Gauntlets",
     "code": "xtg",
     "type": "gloves",
-    "display_name": "Battle Gauntlets",
     "uniques": [
       "lava_gout"
     ],
@@ -3785,15 +4721,20 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      39,
-      47
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 39,
+        "max": 47,
+        "par": null
+      }
     ]
   },
   "embossed_plate": {
+    "name": "embossed_plate",
+    "display_name": "Embossed Plate",
     "code": "xth",
     "type": "armor",
-    "display_name": "Embossed Plate",
     "uniques": [
       "atmas_wail"
     ],
@@ -3805,15 +4746,20 @@
     "level": 58,
     "levelreq": 25,
     "gemsockets": 4,
-    "defense": [
-      282,
-      303
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 282,
+        "max": 303,
+        "par": null
+      }
     ]
   },
   "mage_plate": {
+    "name": "mage_plate",
+    "display_name": "Mage Plate",
     "code": "xtp",
     "type": "armor",
-    "display_name": "Mage Plate",
     "uniques": [
       "quehegans_wisdom"
     ],
@@ -3825,15 +4771,20 @@
     "level": 60,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      225,
-      261
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 225,
+        "max": 261,
+        "par": null
+      }
     ]
   },
   "ancient_shield": {
+    "name": "ancient_shield",
+    "display_name": "Ancient Shield",
     "code": "xts",
     "type": "shield",
-    "display_name": "Ancient Shield",
     "uniques": [
       "radaments_sphere"
     ],
@@ -3845,15 +4796,20 @@
     "level": 56,
     "levelreq": 25,
     "gemsockets": 3,
-    "defense": [
-      80,
-      93
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 80,
+        "max": 93,
+        "par": null
+      }
     ]
   },
   "trellised_armor": {
+    "name": "trellised_armor",
+    "display_name": "Trellised Armor",
     "code": "xtu",
     "type": "armor",
-    "display_name": "Trellised Armor",
     "uniques": [
       "iron_pelt"
     ],
@@ -3865,15 +4821,20 @@
     "level": 40,
     "levelreq": 25,
     "gemsockets": 2,
-    "defense": [
-      138,
-      153
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 138,
+        "max": 153,
+        "par": null
+      }
     ]
   },
   "defender": {
+    "name": "defender",
+    "display_name": "Defender",
     "code": "xuc",
     "type": "shield",
-    "display_name": "Defender",
     "uniques": [
       "visceratuant"
     ],
@@ -3885,15 +4846,20 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 1,
-    "defense": [
-      41,
-      49
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 41,
+        "max": 49,
+        "par": null
+      }
     ]
   },
   "ghost_armor": {
+    "name": "ghost_armor",
+    "display_name": "Ghost Armor",
     "code": "xui",
     "type": "armor",
-    "display_name": "Ghost Armor",
     "uniques": [
       "the_spirit_shroud"
     ],
@@ -3905,15 +4871,20 @@
     "level": 34,
     "levelreq": 22,
     "gemsockets": 2,
-    "defense": [
-      102,
-      117
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 102,
+        "max": 117,
+        "par": null
+      }
     ]
   },
   "chaos_armor": {
+    "name": "chaos_armor",
+    "display_name": "Chaos Armor",
     "code": "xul",
     "type": "armor",
-    "display_name": "Chaos Armor",
     "uniques": [
       "black_hades"
     ],
@@ -3927,15 +4898,20 @@
     "level": 61,
     "levelreq": 25,
     "gemsockets": 4,
-    "defense": [
-      315,
-      342
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 315,
+        "max": 342,
+        "par": null
+      }
     ]
   },
   "sharkskin_boots": {
+    "name": "sharkskin_boots",
+    "display_name": "Sharkskin Boots",
     "code": "xvb",
     "type": "boots",
-    "display_name": "Sharkskin Boots",
     "uniques": [
       "waterwalk"
     ],
@@ -3947,15 +4923,20 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      33,
-      39
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 33,
+        "max": 39,
+        "par": null
+      }
     ]
   },
   "sharkskin_gloves": {
+    "name": "sharkskin_gloves",
+    "display_name": "Sharkskin Gloves",
     "code": "xvg",
     "type": "gloves",
-    "display_name": "Sharkskin Gloves",
     "uniques": [
       "gravepalm"
     ],
@@ -3969,15 +4950,20 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      33,
-      39
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 33,
+        "max": 39,
+        "par": null
+      }
     ]
   },
   "war_belt": {
+    "name": "war_belt",
+    "display_name": "War Belt",
     "code": "zhb",
     "type": "belt",
-    "display_name": "War Belt",
     "uniques": [
       "thundergods_vigor"
     ],
@@ -3991,15 +4977,20 @@
     "level": 54,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      41,
-      52
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 41,
+        "max": 52,
+        "par": null
+      }
     ]
   },
   "demonhide_sash": {
+    "name": "demonhide_sash",
+    "display_name": "Demonhide Sash",
     "code": "zlb",
     "type": "belt",
-    "display_name": "Demonhide Sash",
     "uniques": [
       "string_of_ears"
     ],
@@ -4011,15 +5002,20 @@
     "level": 36,
     "levelreq": 24,
     "gemsockets": 0,
-    "defense": [
-      29,
-      34
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 29,
+        "max": 34,
+        "par": null
+      }
     ]
   },
   "mesh_belt": {
+    "name": "mesh_belt",
+    "display_name": "Mesh Belt",
     "code": "zmb",
     "type": "belt",
-    "display_name": "Mesh Belt",
     "uniques": [
       "glooms_trap"
     ],
@@ -4033,15 +5029,20 @@
     "level": 43,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      35,
-      40
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 35,
+        "max": 40,
+        "par": null
+      }
     ]
   },
   "battle_belt": {
+    "name": "battle_belt",
+    "display_name": "Battle Belt",
     "code": "ztb",
     "type": "belt",
-    "display_name": "Battle Belt",
     "uniques": [
       "snowclash"
     ],
@@ -4055,15 +5056,20 @@
     "level": 49,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      37,
-      42
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 37,
+        "max": 42,
+        "par": null
+      }
     ]
   },
   "sharkskin_belt": {
+    "name": "sharkskin_belt",
+    "display_name": "Sharkskin Belt",
     "code": "zvb",
     "type": "belt",
-    "display_name": "Sharkskin Belt",
     "uniques": [
       "razortail"
     ],
@@ -4077,9 +5083,13 @@
     "level": 39,
     "levelreq": 25,
     "gemsockets": 0,
-    "defense": [
-      31,
-      36
+    "props": [
+      {
+        "name": "base_defense",
+        "min": 31,
+        "max": 36,
+        "par": null
+      }
     ]
   }
 }

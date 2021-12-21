@@ -1,821 +1,2082 @@
 {
   "armorclass": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac"
+    ],
+    "children": null,
     "pos": "Defense",
     "neg": "Defense"
   },
   "armorclass_vs_hth": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac-hth"
+    ],
+    "children": null,
     "pos": "Defense vs. Melee",
     "neg": "Defense vs. Melee"
   },
   "armorclass_vs_missile": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac-miss"
+    ],
+    "children": null,
     "pos": "Defense vs. Missile",
     "neg": "Defense vs. Missile"
   },
   "attack_vs_montype": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-mon%"
+    ],
+    "children": null,
     "pos": "to Attack Rating versus",
     "neg": "to Attack Rating versus"
   },
   "coldmaxdam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "cold-max",
+      "dmg-cold",
+      "dmg-elem",
+      "dmg-elem-max"
+    ],
+    "children": null,
     "pos": "to Maximum Cold Damage",
     "neg": "to Maximum Cold Damage"
   },
   "coldmindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "cold-min",
+      "dmg-cold",
+      "dmg-elem",
+      "dmg-elem-min"
+    ],
+    "children": null,
     "pos": "to Minimum Cold Damage",
     "neg": "to Minimum Cold Damage"
   },
   "coldresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all",
+      "res-cold"
+    ],
+    "children": null,
     "pos": "Cold Resist",
     "neg": "Cold Resist"
   },
   "damage_vs_montype": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-mon%"
+    ],
+    "children": null,
     "pos": "to Damage versus",
     "neg": "to Damage versus"
   },
   "damageresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "red-dmg%"
+    ],
+    "children": null,
     "pos": "Damage Reduced by",
     "neg": "Damage Reduced by"
   },
   "dexterity": {
+    "name": null,
+    "code": null,
+    "within": [
+      "all-stats",
+      "dex"
+    ],
+    "children": null,
     "pos": "to Dexterity",
     "neg": "to Dexterity"
   },
   "energy": {
+    "name": null,
+    "code": null,
+    "within": [
+      "all-stats",
+      "enr"
+    ],
+    "children": null,
     "pos": "to Energy",
     "neg": "to Energy"
   },
   "firemaxdam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-elem",
+      "dmg-elem-max",
+      "dmg-fire",
+      "fire-max"
+    ],
+    "children": null,
     "pos": "to Maximum Fire Damage",
     "neg": "to Maximum Fire Damage"
   },
   "firemindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-elem",
+      "dmg-elem-min",
+      "dmg-fire",
+      "fire-min"
+    ],
+    "children": null,
     "pos": "to Minimum Fire Damage",
     "neg": "to Minimum Fire Damage"
   },
   "fireresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all",
+      "res-fire"
+    ],
+    "children": null,
     "pos": "Fire Resist",
     "neg": "Fire Resist"
   },
   "hpregen": {
+    "name": null,
+    "code": null,
+    "within": [
+      "regen"
+    ],
+    "children": null,
     "pos": "Replenish Life",
     "neg": "Drain Life"
   },
   "item_absorb_cold_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-cold/time"
+    ],
+    "children": null,
     "pos": "Absorbs Cold Damage",
     "neg": "Absorbs Cold Damage"
   },
   "item_absorb_cold_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-cold/lvl"
+    ],
+    "children": null,
     "pos": "Absorbs Cold Damage",
     "neg": "Absorbs Cold Damage"
   },
   "item_absorb_fire_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-fire/time"
+    ],
+    "children": null,
     "pos": "Absorbs Fire Damage",
     "neg": "Absorbs Fire Damage"
   },
   "item_absorb_fire_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-fire/lvl"
+    ],
+    "children": null,
     "pos": "Absorbs Fire Damage",
     "neg": "Absorbs Fire Damage"
   },
   "item_absorb_ltng_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-ltng/time"
+    ],
+    "children": null,
     "pos": "Absorbs Lightning Damage",
     "neg": "Absorbs Lightning Damage"
   },
   "item_absorb_ltng_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-ltng/lvl"
+    ],
+    "children": null,
     "pos": "Absorbs Lightning Damage",
     "neg": "Absorbs Lightning Damage"
   },
   "item_absorbcold": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-cold"
+    ],
+    "children": null,
     "pos": "Cold Absorb",
     "neg": "Cold Absorb"
   },
   "item_absorbcold_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-cold%"
+    ],
+    "children": null,
     "pos": "Cold Absorb",
     "neg": "Cold Absorb"
   },
   "item_absorbfire": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-fire"
+    ],
+    "children": null,
     "pos": "Fire Absorb",
     "neg": "Fire Absorb"
   },
   "item_absorbfire_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-fire%"
+    ],
+    "children": null,
     "pos": "Fire Absorb",
     "neg": "Fire Absorb"
   },
   "item_absorblight": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-ltng"
+    ],
+    "children": null,
     "pos": "Lightning Absorb",
     "neg": "Lightning Absorb"
   },
   "item_absorblight_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-ltng%"
+    ],
+    "children": null,
     "pos": "Lightning Absorb",
     "neg": "Lightning Absorb"
   },
   "item_absorbmagic": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-mag"
+    ],
+    "children": null,
     "pos": "Magic Absorb",
     "neg": "Magic Absorb"
   },
   "item_absorbmagic_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "abs-mag%"
+    ],
+    "children": null,
     "pos": "Magic Absorb",
     "neg": "Magic Absorb"
   },
   "item_addclassskills": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ama",
+      "ass",
+      "bar",
+      "dru",
+      "nec",
+      "pal",
+      "randclassskill",
+      "sor"
+    ],
+    "children": null,
     "pos": "to Amazon Skill Levels",
     "neg": "to Amazon Skill Levels"
   },
   "item_addexperience": {
+    "name": null,
+    "code": null,
+    "within": [
+      "addxp"
+    ],
+    "children": null,
     "pos": "to Experience Gained",
     "neg": "to Experience Gained"
   },
   "item_addskill_tab": {
+    "name": null,
+    "code": null,
+    "within": [
+      "skilltab"
+    ],
+    "children": null,
     "pos": "+%d to Javelin and Spear Skills",
     "neg": "+%d to Javelin and Spear Skills"
   },
   "item_allskills": {
+    "name": null,
+    "code": null,
+    "within": [
+      "allskills"
+    ],
+    "children": null,
     "pos": "to All Skills",
     "neg": "to All Skills"
   },
   "item_armor_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac/time"
+    ],
+    "children": null,
     "pos": "Defense",
     "neg": "Defense"
   },
   "item_armor_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac%"
+    ],
+    "children": null,
     "pos": "Enhanced Defense",
     "neg": "Enhanced Defense"
   },
   "item_armor_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac/lvl"
+    ],
+    "children": null,
     "pos": "Defense",
     "neg": "Defense"
   },
   "item_armorpercent_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac%/time"
+    ],
+    "children": null,
     "pos": "Enhanced Defense",
     "neg": "Enhanced Defense"
   },
   "item_armorpercent_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ac%/lvl"
+    ],
+    "children": null,
     "pos": "Enhanced Defense",
     "neg": "Enhanced Defense"
   },
   "item_attackertakesdamage": {
+    "name": null,
+    "code": null,
+    "within": [
+      "thorns"
+    ],
+    "children": null,
     "pos": "Attacker Takes Damage of",
     "neg": "Attacker Takes Damage of"
   },
   "item_attackertakeslightdamage": {
+    "name": null,
+    "code": null,
+    "within": [
+      "light-thorns"
+    ],
+    "children": null,
     "pos": "Attacker Takes Lightning Damage of",
     "neg": "Attacker Takes Lightning Damage of"
   },
   "item_aura": {
+    "name": null,
+    "code": null,
+    "within": [
+      "aura"
+    ],
+    "children": null,
     "pos": "Level %d %s Aura When Equipped",
     "neg": "Level %d %s Aura When Equipped"
   },
   "item_cannotbefrozen": {
+    "name": null,
+    "code": null,
+    "within": [
+      "nofreeze"
+    ],
+    "children": null,
     "pos": "Cannot Be Frozen",
     "neg": "Cannot Be Frozen"
   },
   "item_charged_skill": {
+    "name": null,
+    "code": null,
+    "within": [
+      "charged"
+    ],
+    "children": null,
     "pos": "(%d/%d Charges)",
     "neg": "(%d/%d Charges)"
   },
   "item_cold_damagemax_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-cold/time"
+    ],
+    "children": null,
     "pos": "to Maximum Cold Damage",
     "neg": "to Maximum Cold Damage"
   },
   "item_cold_damagemax_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-cold/lvl"
+    ],
+    "children": null,
     "pos": "to Maximum Cold Damage",
     "neg": "to Maximum Cold Damage"
   },
   "item_crushingblow": {
+    "name": null,
+    "code": null,
+    "within": [
+      "crush"
+    ],
+    "children": null,
     "pos": "Chance of Crushing Blow",
     "neg": "Chance of Crushing Blow"
   },
   "item_crushingblow_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "crush/time"
+    ],
+    "children": null,
     "pos": "Chance of Crushing Blow",
     "neg": "Chance of Crushing Blow"
   },
   "item_crushingblow_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "crush/lvl"
+    ],
+    "children": null,
     "pos": "Chance of Crushing Blow",
     "neg": "Chance of Crushing Blow"
   },
   "item_damage_demon_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-dem/time"
+    ],
+    "children": null,
     "pos": "Damage to Demons",
     "neg": "Damage to Demons"
   },
   "item_damage_demon_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-dem/lvl"
+    ],
+    "children": null,
     "pos": "Damage to Demons",
     "neg": "Damage to Demons"
   },
   "item_damage_undead_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-und/time"
+    ],
+    "children": null,
     "pos": "Damage to Undead",
     "neg": "Damage to Undead"
   },
   "item_damage_undead_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-und/lvl"
+    ],
+    "children": null,
     "pos": "Damage to Undead",
     "neg": "Damage to Undead"
   },
   "item_damagetargetac": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-ac"
+    ],
+    "children": null,
     "pos": "to Monster Defense Per Hit",
     "neg": "to Monster Defense Per Hit"
   },
   "item_damagetomana": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-to-mana"
+    ],
+    "children": null,
     "pos": "Damage Taken Goes To Mana",
     "neg": "Damage Taken Goes To Mana"
   },
   "item_deadlystrike": {
+    "name": null,
+    "code": null,
+    "within": [
+      "deadly"
+    ],
+    "children": null,
     "pos": "Deadly Strike",
     "neg": "Deadly Strike"
   },
   "item_deadlystrike_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "deadly/time"
+    ],
+    "children": null,
     "pos": "Deadly Strike",
     "neg": "Deadly Strike"
   },
   "item_deadlystrike_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "deadly/lvl"
+    ],
+    "children": null,
     "pos": "Deadly Strike",
     "neg": "Deadly Strike"
   },
   "item_demon_tohit": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-demon"
+    ],
+    "children": null,
     "pos": "to Attack Rating against Demons",
     "neg": "to Attack Rating against Demons"
   },
   "item_demondamage_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-demon"
+    ],
+    "children": null,
     "pos": "Damage to Demons",
     "neg": "Damage to Demons"
   },
   "item_dexterity_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dex/time"
+    ],
+    "children": null,
     "pos": "to Dexterity",
     "neg": "to Dexterity"
   },
   "item_dexterity_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dex/lvl"
+    ],
+    "children": null,
     "pos": "to Dexterity",
     "neg": "to Dexterity"
   },
   "item_elemskill": {
+    "name": null,
+    "code": null,
+    "within": [
+      "fireskill"
+    ],
+    "children": null,
     "pos": "to Fire Skills",
     "neg": "to Fire Skills"
   },
   "item_energy_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "enr/time"
+    ],
+    "children": null,
     "pos": "to Energy",
     "neg": "to Energy"
   },
   "item_energy_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "enr/lvl"
+    ],
+    "children": null,
     "pos": "to Energy",
     "neg": "to Energy"
   },
   "item_explosivearrow": {
+    "name": null,
+    "code": null,
+    "within": [
+      "explosivearrow"
+    ],
+    "children": null,
     "pos": "Fires Explosive Arrows or Bolts",
     "neg": "Fires Explosive Arrows or Bolts"
   },
   "item_extra_stack": {
+    "name": null,
+    "code": null,
+    "within": [
+      "stack"
+    ],
+    "children": null,
     "pos": "Increased Stack Size",
     "neg": "Increased Stack Size"
   },
   "item_fasterattackrate": {
+    "name": null,
+    "code": null,
+    "within": [
+      "swing1",
+      "swing2",
+      "swing3"
+    ],
+    "children": null,
     "pos": "Increased Attack Speed",
     "neg": "Increased Attack Speed"
   },
   "item_fasterblockrate": {
+    "name": null,
+    "code": null,
+    "within": [
+      "block1",
+      "block2",
+      "block3"
+    ],
+    "children": null,
     "pos": "Faster Block Rate",
     "neg": "Faster Block Rate"
   },
   "item_fastercastrate": {
+    "name": null,
+    "code": null,
+    "within": [
+      "cast1",
+      "cast2",
+      "cast3"
+    ],
+    "children": null,
     "pos": "Faster Cast Rate",
     "neg": "Faster Cast Rate"
   },
   "item_fastergethitrate": {
+    "name": null,
+    "code": null,
+    "within": [
+      "balance1",
+      "balance2",
+      "balance3"
+    ],
+    "children": null,
     "pos": "Faster Hit Recovery",
     "neg": "Faster Hit Recovery"
   },
   "item_fastermovevelocity": {
+    "name": null,
+    "code": null,
+    "within": [
+      "move1",
+      "move2",
+      "move3"
+    ],
+    "children": null,
     "pos": "Faster Run/Walk",
     "neg": "Faster Run/Walk"
   },
   "item_find_gold_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "gold%/time"
+    ],
+    "children": null,
     "pos": "Extra Gold from Monsters",
     "neg": "Extra Gold from Monsters"
   },
   "item_find_gold_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "gold%/lvl"
+    ],
+    "children": null,
     "pos": "Extra Gold from Monsters",
     "neg": "Extra Gold from Monsters"
   },
   "item_find_magic_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mag%/time"
+    ],
+    "children": null,
     "pos": "Better Chance of Getting Magic Items",
     "neg": "Better Chance of Getting Magic Items"
   },
   "item_find_magic_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mag%/lvl"
+    ],
+    "children": null,
     "pos": "Better Chance of Getting Magic Items",
     "neg": "Better Chance of Getting Magic Items"
   },
   "item_fire_damagemax_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-fire/time"
+    ],
+    "children": null,
     "pos": "to Maximum Fire Damage",
     "neg": "to Maximum Fire Damage"
   },
   "item_fire_damagemax_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-fire/lvl"
+    ],
+    "children": null,
     "pos": "to Maximum Fire Damage",
     "neg": "to Maximum Fire Damage"
   },
   "item_fractionaltargetac": {
+    "name": null,
+    "code": null,
+    "within": [
+      "reduce-ac"
+    ],
+    "children": null,
     "pos": "Target Defense",
     "neg": "Target Defense"
   },
   "item_freeze": {
+    "name": null,
+    "code": null,
+    "within": [
+      "freeze"
+    ],
+    "children": null,
     "pos": "Freezes target",
     "neg": "Freezes target"
   },
   "item_goldbonus": {
+    "name": null,
+    "code": null,
+    "within": [
+      "gold%"
+    ],
+    "children": null,
     "pos": "Extra Gold from Monsters",
     "neg": "Extra Gold from Monsters"
   },
   "item_halffreezeduration": {
+    "name": null,
+    "code": null,
+    "within": [
+      "half-freeze"
+    ],
+    "children": null,
     "pos": "Half Freeze Duration",
     "neg": "Half Freeze Duration"
   },
   "item_healafterdemonkill": {
+    "name": null,
+    "code": null,
+    "within": [
+      "demon-heal"
+    ],
+    "children": null,
     "pos": "Life after each Demon Kill",
     "neg": "Life after each Demon Kill"
   },
   "item_healafterkill": {
+    "name": null,
+    "code": null,
+    "within": [
+      "heal-kill"
+    ],
+    "children": null,
     "pos": "Life after each Kill",
     "neg": "Life after each Kill"
   },
   "item_howl": {
+    "name": null,
+    "code": null,
+    "within": [
+      "howl"
+    ],
+    "children": null,
     "pos": "Hit Causes Monster to Flee",
     "neg": "Hit Causes Monster to Flee"
   },
   "item_hp_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "hp/time"
+    ],
+    "children": null,
     "pos": "to Life",
     "neg": "to Life"
   },
   "item_hp_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "hp/lvl"
+    ],
+    "children": null,
     "pos": "to Life",
     "neg": "to Life"
   },
   "item_ignoretargetac": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ignore-ac"
+    ],
+    "children": null,
     "pos": "Ignore Target's Defense",
     "neg": "Ignore Target's Defense"
   },
   "item_indesctructible": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "Indestructible",
     "neg": "Indestructible"
   },
   "item_kick_damage_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "kick/time"
+    ],
+    "children": null,
     "pos": "Kick Damage",
     "neg": "Kick Damage"
   },
   "item_kick_damage_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "kick/lvl"
+    ],
+    "children": null,
     "pos": "Kick Damage",
     "neg": "Kick Damage"
   },
   "item_kickdamage": {
+    "name": null,
+    "code": null,
+    "within": [
+      "kick"
+    ],
+    "children": null,
     "pos": "Kick Damage",
     "neg": "Kick Damage"
   },
   "item_knockback": {
+    "name": null,
+    "code": null,
+    "within": [
+      "knock"
+    ],
+    "children": null,
     "pos": "Knockback",
     "neg": "Knockback"
   },
   "item_lightradius": {
+    "name": null,
+    "code": null,
+    "within": [
+      "light"
+    ],
+    "children": null,
     "pos": "to Light Radius",
     "neg": "to Light Radius"
   },
   "item_ltng_damagemax_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-ltng/time"
+    ],
+    "children": null,
     "pos": "to Maximum Lightning Damage",
     "neg": "to Maximum Lightning Damage"
   },
   "item_ltng_damagemax_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-ltng/lvl"
+    ],
+    "children": null,
     "pos": "to Maximum Lightning Damage",
     "neg": "to Maximum Lightning Damage"
   },
   "item_magicarrow": {
+    "name": null,
+    "code": null,
+    "within": [
+      "magicarrow"
+    ],
+    "children": null,
     "pos": "Fires Magic Arrows",
     "neg": "Fires Magic Arrows"
   },
   "item_magicbonus": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mag%"
+    ],
+    "children": null,
     "pos": "Better Chance of Getting Magic Items",
     "neg": "Better Chance of Getting Magic Items"
   },
   "item_mana_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mana/time"
+    ],
+    "children": null,
     "pos": "to Mana",
     "neg": "to Mana"
   },
   "item_mana_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mana/lvl"
+    ],
+    "children": null,
     "pos": "to Mana",
     "neg": "to Mana"
   },
   "item_manaafterkill": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mana-kill"
+    ],
+    "children": null,
     "pos": "to Mana after each Kill",
     "neg": "to Mana after each Kill"
   },
   "item_maxdamage_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg/time"
+    ],
+    "children": null,
     "pos": "to Maximum Damage",
     "neg": "to Maximum Damage"
   },
   "item_maxdamage_percent": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "Enhanced Maximum Damage",
     "neg": "Enhanced Maximum Damage"
   },
   "item_maxdamage_percent_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg%/time"
+    ],
+    "children": null,
     "pos": "Enhanced Maximum Damage",
     "neg": "Enhanced Maximum Damage"
   },
   "item_maxdamage_percent_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg%/lvl"
+    ],
+    "children": null,
     "pos": "Enhanced Maximum Damage",
     "neg": "Enhanced Maximum Damage"
   },
   "item_maxdamage_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg/lvl"
+    ],
+    "children": null,
     "pos": "to Maximum Damage",
     "neg": "to Maximum Damage"
   },
   "item_maxdurability_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dur%"
+    ],
+    "children": null,
     "pos": "Increase Maximum Durability",
     "neg": "Increase Maximum Durability"
   },
   "item_maxhp_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "hp%"
+    ],
+    "children": null,
     "pos": "Increase Maximum Life",
     "neg": "Increase Maximum Life"
   },
   "item_maxmana_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mana%"
+    ],
+    "children": null,
     "pos": "Increase Maximum Mana",
     "neg": "Increase Maximum Mana"
   },
   "item_mindamage_percent": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "Enhanced Minimum Damage",
     "neg": "Enhanced Minimum Damage"
   },
   "item_normaldamage": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg"
+    ],
+    "children": null,
     "pos": "Damage",
     "neg": "Damage"
   },
   "item_openwounds": {
+    "name": null,
+    "code": null,
+    "within": [
+      "openwounds"
+    ],
+    "children": null,
     "pos": "Chance of Open Wounds",
     "neg": "Chance of Open Wounds"
   },
   "item_openwounds_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "wounds/time"
+    ],
+    "children": null,
     "pos": "Chance of Open Wounds",
     "neg": "Chance of Open Wounds"
   },
   "item_openwounds_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "wounds/lvl"
+    ],
+    "children": null,
     "pos": "Chance of Open Wounds",
     "neg": "Chance of Open Wounds"
   },
   "item_pierce": {
+    "name": null,
+    "code": null,
+    "within": [
+      "pierce"
+    ],
+    "children": null,
     "pos": "Piercing Attack",
     "neg": "Piercing Attack"
   },
   "item_pierce_cold": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "to Enemy Cold Resistance",
     "neg": "to Enemy Cold Resistance"
   },
   "item_pierce_fire": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "to Enemy Fire Resistance",
     "neg": "to Enemy Fire Resistance"
   },
   "item_pierce_ltng": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "to Enemy Lightning Resistance",
     "neg": "to Enemy Lightning Resistance"
   },
   "item_pierce_pois": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "to Enemy Poison Resistance",
     "neg": "to Enemy Poison Resistance"
   },
   "item_pois_damagemax_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-pois/time"
+    ],
+    "children": null,
     "pos": "to Maximum Poison Damage",
     "neg": "to Maximum Poison Damage"
   },
   "item_pois_damagemax_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-pois/lvl"
+    ],
+    "children": null,
     "pos": "to Maximum Poison Damage",
     "neg": "to Maximum Poison Damage"
   },
   "item_poisonlengthresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-pois-len"
+    ],
+    "children": null,
     "pos": "Poison Length Reduced by",
     "neg": "Poison Length Reduced by"
   },
   "item_preventheal": {
+    "name": null,
+    "code": null,
+    "within": [
+      "noheal"
+    ],
+    "children": null,
     "pos": "Prevent Monster Heal",
     "neg": "Prevent Monster Heal"
   },
   "item_reanimate": {
+    "name": null,
+    "code": null,
+    "within": [
+      "reanimate"
+    ],
+    "children": null,
     "pos": "Reanimate as:",
     "neg": "Reanimate as:"
   },
   "item_reducedprices": {
+    "name": null,
+    "code": null,
+    "within": [
+      "cheap"
+    ],
+    "children": null,
     "pos": "Reduces all Vendor Prices",
     "neg": "Reduces all Vendor Prices"
   },
   "item_regenstamina_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "regen-stam/time"
+    ],
+    "children": null,
     "pos": "Heal Stamina Plus",
     "neg": "Heal Stamina Plus"
   },
   "item_regenstamina_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "regen-stam/lvl"
+    ],
+    "children": null,
     "pos": "Heal Stamina Plus",
     "neg": "Heal Stamina Plus"
   },
   "item_replenish_durability": {
+    "name": null,
+    "code": null,
+    "within": [
+      "rep-dur"
+    ],
+    "children": null,
     "pos": "Repairs %d durability per second",
     "neg": "Repairs %d durability per second"
   },
   "item_replenish_quantity": {
+    "name": null,
+    "code": null,
+    "within": [
+      "rep-quant"
+    ],
+    "children": null,
     "pos": "Replenishes quantity",
     "neg": "Replenishes quantity"
   },
   "item_req_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "ease"
+    ],
+    "children": null,
     "pos": "Requirements",
     "neg": "Requirements"
   },
   "item_resist_cold_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-cold/time"
+    ],
+    "children": null,
     "pos": "Cold Resist",
     "neg": "Cold Resist"
   },
   "item_resist_cold_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-cold/lvl"
+    ],
+    "children": null,
     "pos": "Cold Resist",
     "neg": "Cold Resist"
   },
   "item_resist_fire_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-fire/time"
+    ],
+    "children": null,
     "pos": "Fire Resist",
     "neg": "Fire Resist"
   },
   "item_resist_fire_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-fire/lvl"
+    ],
+    "children": null,
     "pos": "Fire Resist",
     "neg": "Fire Resist"
   },
   "item_resist_ltng_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-ltng/time"
+    ],
+    "children": null,
     "pos": "Lightning Resist",
     "neg": "Lightning Resist"
   },
   "item_resist_ltng_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-ltng/lvl"
+    ],
+    "children": null,
     "pos": "Lightning Resist",
     "neg": "Lightning Resist"
   },
   "item_resist_pois_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-pois/time"
+    ],
+    "children": null,
     "pos": "Poison Resist",
     "neg": "Poison Resist"
   },
   "item_resist_pois_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-pois/lvl"
+    ],
+    "children": null,
     "pos": "Poison Resist",
     "neg": "Poison Resist"
   },
   "item_restinpeace": {
+    "name": null,
+    "code": null,
+    "within": [
+      "rip"
+    ],
+    "children": null,
     "pos": "Slain Monsters Rest in Peace",
     "neg": "Slain Monsters Rest in Peace"
   },
   "item_skillonattack": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-skill"
+    ],
+    "children": null,
     "pos": "%d%% Chance to cast level %d %s on attack",
     "neg": "%d%% Chance to cast level %d %s on attack"
   },
   "item_skillondeath": {
+    "name": null,
+    "code": null,
+    "within": [
+      "death-skill"
+    ],
+    "children": null,
     "pos": "%d%% Chance to cast level %d %s when you Die",
     "neg": "%d%% Chance to cast level %d %s when you Die"
   },
   "item_skillongethit": {
+    "name": null,
+    "code": null,
+    "within": [
+      "gethit-skill"
+    ],
+    "children": null,
     "pos": "%d%% Chance to cast level %d %s when struck",
     "neg": "%d%% Chance to cast level %d %s when struck"
   },
   "item_skillonhit": {
+    "name": null,
+    "code": null,
+    "within": [
+      "hit-skill"
+    ],
+    "children": null,
     "pos": "%d%% Chance to cast level %d %s on striking",
     "neg": "%d%% Chance to cast level %d %s on striking"
   },
   "item_skillonkill": {
+    "name": null,
+    "code": null,
+    "within": [
+      "kill-skill"
+    ],
+    "children": null,
     "pos": "%d%% Chance to cast level %d %s when you Kill an Enemy",
     "neg": "%d%% Chance to cast level %d %s when you Kill an Enemy"
   },
   "item_skillonlevelup": {
+    "name": null,
+    "code": null,
+    "within": [
+      "levelup-skill"
+    ],
+    "children": null,
     "pos": "%d%% Chance to cast level %d %s when you Level-Up",
     "neg": "%d%% Chance to cast level %d %s when you Level-Up"
   },
   "item_slow": {
+    "name": null,
+    "code": null,
+    "within": [
+      "slow"
+    ],
+    "children": null,
     "pos": "Slows Target by",
     "neg": "Slows Target by"
   },
   "item_stamina_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "stam/time"
+    ],
+    "children": null,
     "pos": "Maximum Stamina",
     "neg": "Maximum Stamina"
   },
   "item_stamina_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "stam/lvl"
+    ],
+    "children": null,
     "pos": "Maximum Stamina",
     "neg": "Maximum Stamina"
   },
   "item_staminadrainpct": {
+    "name": null,
+    "code": null,
+    "within": [
+      "stamdrain"
+    ],
+    "children": null,
     "pos": "Slower Stamina Drain",
     "neg": "Slower Stamina Drain"
   },
   "item_strength_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "str/time"
+    ],
+    "children": null,
     "pos": "to Strength",
     "neg": "to Strength"
   },
   "item_strength_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "str/lvl"
+    ],
+    "children": null,
     "pos": "to Strength",
     "neg": "to Strength"
   },
   "item_stupidity": {
+    "name": null,
+    "code": null,
+    "within": [
+      "stupidity"
+    ],
+    "children": null,
     "pos": "Hit Blinds Target",
     "neg": "Hit Blinds Target"
   },
   "item_thorns_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "thorns/lvl"
+    ],
+    "children": null,
     "pos": "Attacker Takes Damage of",
     "neg": "Attacker Takes Damage of"
   },
   "item_throwable": {
+    "name": null,
+    "code": null,
+    "within": [
+      "throw"
+    ],
+    "children": null,
     "pos": "Throwable",
     "neg": "Throwable"
   },
   "item_tohit_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att/time"
+    ],
+    "children": null,
     "pos": "to Attack Rating",
     "neg": "to Attack Rating"
   },
   "item_tohit_demon_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-dem/time"
+    ],
+    "children": null,
     "pos": "to Attack Rating against Demons",
     "neg": "to Attack Rating against Demons"
   },
   "item_tohit_demon_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-dem/lvl"
+    ],
+    "children": null,
     "pos": "to Attack Rating against Demons",
     "neg": "to Attack Rating against Demons"
   },
   "item_tohit_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att%"
+    ],
+    "children": null,
     "pos": "Bonus to Attack Rating",
     "neg": "Bonus to Attack Rating"
   },
   "item_tohit_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att/lvl"
+    ],
+    "children": null,
     "pos": "to Attack Rating",
     "neg": "to Attack Rating"
   },
   "item_tohit_undead_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-und/time"
+    ],
+    "children": null,
     "pos": "to Attack Rating against Undead",
     "neg": "to Attack Rating against Undead"
   },
   "item_tohit_undead_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-und/lvl"
+    ],
+    "children": null,
     "pos": "to Attack Rating against Undead",
     "neg": "to Attack Rating against Undead"
   },
   "item_tohitpercent_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att%/time"
+    ],
+    "children": null,
     "pos": "Bonus to Attack Rating",
     "neg": "Bonus to Attack Rating"
   },
   "item_tohitpercent_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att%/lvl"
+    ],
+    "children": null,
     "pos": "Bonus to Attack Rating",
     "neg": "Bonus to Attack Rating"
   },
   "item_undead_tohit": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att-undead"
+    ],
+    "children": null,
     "pos": "to Attack Rating against Undead",
     "neg": "to Attack Rating against Undead"
   },
   "item_undeaddamage_percent": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-undead"
+    ],
+    "children": null,
     "pos": "Damage to Undead",
     "neg": "Damage to Undead"
   },
   "item_vitality_bytime": {
+    "name": null,
+    "code": null,
+    "within": [
+      "vit/time"
+    ],
+    "children": null,
     "pos": "to Vitality",
     "neg": "to Vitality"
   },
   "item_vitality_perlevel": {
+    "name": null,
+    "code": null,
+    "within": [
+      "vit/lvl"
+    ],
+    "children": null,
     "pos": "to Vitality",
     "neg": "to Vitality"
   },
   "lifedrainmindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "lifesteal"
+    ],
+    "children": null,
     "pos": "Life stolen per hit",
     "neg": "Life stolen per hit"
   },
   "lightmaxdam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-elem",
+      "dmg-elem-max",
+      "dmg-ltng",
+      "ltng-max"
+    ],
+    "children": null,
     "pos": "to Maximum Lightning Damage",
     "neg": "to Maximum Lightning Damage"
   },
   "lightmindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-elem",
+      "dmg-elem-min",
+      "dmg-ltng",
+      "ltng-min"
+    ],
+    "children": null,
     "pos": "to Minimum Lightning Damage",
     "neg": "to Minimum Lightning Damage"
   },
   "lightresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all",
+      "res-ltng"
+    ],
+    "children": null,
     "pos": "Lightning Resist",
     "neg": "Lightning Resist"
   },
   "magic_damage_reduction": {
+    "name": null,
+    "code": null,
+    "within": [
+      "red-mag"
+    ],
+    "children": null,
     "pos": "Magic Damage Reduced by",
     "neg": "Magic Damage Reduced by"
   },
   "magicmaxdam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-mag"
+    ],
+    "children": null,
     "pos": "+%d magic damage",
     "neg": "+%d magic damage"
   },
   "magicmindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-mag"
+    ],
+    "children": null,
     "pos": "+%d magic damage",
     "neg": "+%d magic damage"
   },
   "magicresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-mag"
+    ],
+    "children": null,
     "pos": "Magic Resist",
     "neg": "Magic Resist"
   },
   "manadrainmindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "manasteal"
+    ],
+    "children": null,
     "pos": "Mana stolen per hit",
     "neg": "Mana stolen per hit"
   },
   "manarecoverybonus": {
+    "name": null,
+    "code": null,
+    "within": [
+      "regen-mana"
+    ],
+    "children": null,
     "pos": "Regenerate Mana",
     "neg": "Regenerate Mana"
   },
   "maxcoldresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all-max",
+      "res-cold-max"
+    ],
+    "children": null,
     "pos": "to Maximum Cold Resist",
     "neg": "to Maximum Cold Resist"
   },
   "maxdamage": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-norm"
+    ],
+    "children": null,
     "pos": "to Maximum Damage",
     "neg": "to Maximum Damage"
   },
   "maxfireresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all-max",
+      "res-fire-max"
+    ],
+    "children": null,
     "pos": "to Maximum Fire Resist",
     "neg": "to Maximum Fire Resist"
   },
   "maxhp": {
+    "name": null,
+    "code": null,
+    "within": [
+      "hp"
+    ],
+    "children": null,
     "pos": "to Life",
     "neg": "to Life"
   },
   "maxlightresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all-max",
+      "res-ltng-max"
+    ],
+    "children": null,
     "pos": "to Maximum Lightning Resist",
     "neg": "to Maximum Lightning Resist"
   },
   "maxmagicresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-mag-max"
+    ],
+    "children": null,
     "pos": "to Maximum Magic Resist",
     "neg": "to Maximum Magic Resist"
   },
   "maxmana": {
+    "name": null,
+    "code": null,
+    "within": [
+      "mana"
+    ],
+    "children": null,
     "pos": "to Mana",
     "neg": "to Mana"
   },
   "maxpoisonresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all-max",
+      "res-pois-max"
+    ],
+    "children": null,
     "pos": "to Maximum Poison Resist",
     "neg": "to Maximum Poison Resist"
   },
   "maxstamina": {
+    "name": null,
+    "code": null,
+    "within": [
+      "stam"
+    ],
+    "children": null,
     "pos": "Maximum Stamina",
     "neg": "Maximum Stamina"
   },
   "mindamage": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-norm"
+    ],
+    "children": null,
     "pos": "to Minimum Damage",
     "neg": "to Minimum Damage"
   },
   "normal_damage_reduction": {
+    "name": null,
+    "code": null,
+    "within": [
+      "red-dmg"
+    ],
+    "children": null,
     "pos": "Damage Reduced by",
     "neg": "Damage Reduced by"
   },
   "passive_cold_mastery": {
+    "name": null,
+    "code": null,
+    "within": [
+      "extra-cold"
+    ],
+    "children": null,
     "pos": "to Cold Skill Damage",
     "neg": "to Cold Skill Damage"
   },
   "passive_cold_pierce": {
+    "name": null,
+    "code": null,
+    "within": [
+      "pierce-cold"
+    ],
+    "children": null,
     "pos": "to Enemy Cold Resistance",
     "neg": "to Enemy Cold Resistance"
   },
   "passive_fire_mastery": {
+    "name": null,
+    "code": null,
+    "within": [
+      "extra-fire"
+    ],
+    "children": null,
     "pos": "to Fire Skill Damage",
     "neg": "to Fire Skill Damage"
   },
   "passive_fire_pierce": {
+    "name": null,
+    "code": null,
+    "within": [
+      "pierce-fire"
+    ],
+    "children": null,
     "pos": "to Enemy Fire Resistance",
     "neg": "to Enemy Fire Resistance"
   },
   "passive_ltng_mastery": {
+    "name": null,
+    "code": null,
+    "within": [
+      "extra-ltng"
+    ],
+    "children": null,
     "pos": "to Lightning Skill Damage",
     "neg": "to Lightning Skill Damage"
   },
   "passive_ltng_pierce": {
+    "name": null,
+    "code": null,
+    "within": [
+      "pierce-ltng"
+    ],
+    "children": null,
     "pos": "to Enemy Lightning Resistance",
     "neg": "to Enemy Lightning Resistance"
   },
   "passive_pois_mastery": {
+    "name": null,
+    "code": null,
+    "within": [
+      "extra-pois"
+    ],
+    "children": null,
     "pos": "to Poison Skill Damage",
     "neg": "to Poison Skill Damage"
   },
   "passive_pois_pierce": {
+    "name": null,
+    "code": null,
+    "within": [
+      "pierce-pois"
+    ],
+    "children": null,
     "pos": "to Enemy Poison Resistance",
     "neg": "to Enemy Poison Resistance"
   },
   "poisonmaxdam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-pois",
+      "pois-max"
+    ],
+    "children": null,
     "pos": "to Maximum Poison Damage",
     "neg": "to Maximum Poison Damage"
   },
   "poisonmindam": {
+    "name": null,
+    "code": null,
+    "within": [
+      "dmg-pois",
+      "pois-min"
+    ],
+    "children": null,
     "pos": "to Minimum Poison Damage",
     "neg": "to Minimum Poison Damage"
   },
   "poisonresist": {
+    "name": null,
+    "code": null,
+    "within": [
+      "res-all",
+      "res-pois"
+    ],
+    "children": null,
     "pos": "Poison Resist",
     "neg": "Poison Resist"
   },
   "secondary_maxdamage": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "to Maximum Damage",
     "neg": "to Maximum Damage"
   },
   "secondary_mindamage": {
+    "name": null,
+    "code": null,
+    "within": null,
+    "children": null,
     "pos": "to Minimum Damage",
     "neg": "to Minimum Damage"
   },
   "staminarecoverybonus": {
+    "name": null,
+    "code": null,
+    "within": [
+      "regen-stam"
+    ],
+    "children": null,
     "pos": "Heal Stamina Plus",
     "neg": "Heal Stamina Plus"
   },
   "strength": {
+    "name": null,
+    "code": null,
+    "within": [
+      "all-stats",
+      "str"
+    ],
+    "children": null,
     "pos": "to Strength",
     "neg": "to Strength"
   },
   "toblock": {
+    "name": null,
+    "code": null,
+    "within": [
+      "block"
+    ],
+    "children": null,
     "pos": "Increased Chance of Blocking",
     "neg": "Increased Chance of Blocking"
   },
   "tohit": {
+    "name": null,
+    "code": null,
+    "within": [
+      "att"
+    ],
+    "children": null,
     "pos": "to Attack Rating",
     "neg": "to Attack Rating"
   },
   "vitality": {
+    "name": null,
+    "code": null,
+    "within": [
+      "all-stats",
+      "vit"
+    ],
+    "children": null,
     "pos": "to Vitality",
     "neg": "to Vitality"
   }

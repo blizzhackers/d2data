@@ -1,5194 +1,6492 @@
 {
   "qf1": {
     "name": "khalims_flail",
-    "display_name": "Khalim's Flail"
+    "display_name": "Khalim's Flail",
+    "code": "qf1"
   },
   "qf2": {
     "name": "khalims_will",
-    "display_name": "Khalim's Will"
+    "display_name": "Khalim's Will",
+    "code": "qf2"
   },
   "qey": {
     "name": "khalims_eye",
-    "display_name": "Khalim's Eye"
+    "display_name": "Khalim's Eye",
+    "code": "qey"
   },
   "qbr": {
     "name": "khalims_brain",
-    "display_name": "Khalim's Brain"
+    "display_name": "Khalim's Brain",
+    "code": "qbr"
   },
   "qhr": {
     "name": "khalims_heart",
-    "display_name": "Khalim's Heart"
+    "display_name": "Khalim's Heart",
+    "code": "qhr"
   },
   "ob1": {
     "name": "eagle_orb",
-    "display_name": "Eagle Orb"
+    "display_name": "Eagle Orb",
+    "code": "ob1"
   },
   "ob2": {
     "name": "sacred_globe",
-    "display_name": "Sacred Globe"
+    "display_name": "Sacred Globe",
+    "code": "ob2"
   },
   "ob3": {
     "name": "smoked_sphere",
-    "display_name": "Smoked Sphere"
+    "display_name": "Smoked Sphere",
+    "code": "ob3"
   },
   "ob4": {
     "name": "clasped_orb",
-    "display_name": "Clasped Orb"
+    "display_name": "Clasped Orb",
+    "code": "ob4"
   },
   "ob5": {
     "name": "jareds_stone",
-    "display_name": "Jared's Stone"
+    "display_name": "Jared's Stone",
+    "code": "ob5"
   },
   "ne1": {
     "name": "preserved_head",
-    "display_name": "Preserved Head"
+    "display_name": "Preserved Head",
+    "code": "ne1"
   },
   "ne2": {
     "name": "zombie_head",
-    "display_name": "Zombie Head"
+    "display_name": "Zombie Head",
+    "code": "ne2"
   },
   "ne3": {
     "name": "unraveller_head",
-    "display_name": "Unraveller Head"
+    "display_name": "Unraveller Head",
+    "code": "ne3"
   },
   "ne4": {
     "name": "gargoyle_head",
-    "display_name": "Gargoyle Head"
+    "display_name": "Gargoyle Head",
+    "code": "ne4"
   },
   "ne5": {
     "name": "demon_head",
-    "display_name": "Demon Head"
+    "display_name": "Demon Head",
+    "code": "ne5"
   },
   "dr1": {
     "name": "wolf_head",
-    "display_name": "Wolf Head"
+    "display_name": "Wolf Head",
+    "code": "dr1"
   },
   "dr2": {
     "name": "hawk_helm",
-    "display_name": "Hawk Helm"
+    "display_name": "Hawk Helm",
+    "code": "dr2"
   },
   "dr3": {
     "name": "antlers",
-    "display_name": "Antlers"
+    "display_name": "Antlers",
+    "code": "dr3"
   },
   "dr4": {
     "name": "falcon_mask",
-    "display_name": "Falcon Mask"
+    "display_name": "Falcon Mask",
+    "code": "dr4"
   },
   "dr5": {
     "name": "spirit_mask",
-    "display_name": "Spirit Mask"
+    "display_name": "Spirit Mask",
+    "code": "dr5"
   },
   "cap": {
     "name": "cap",
-    "display_name": "Cap"
+    "display_name": "Cap",
+    "code": "cap"
   },
   "skp": {
     "name": "skull_cap",
-    "display_name": "Skull Cap"
+    "display_name": "Skull Cap",
+    "code": "skp"
   },
   "hlm": {
     "name": "helm",
-    "display_name": "Helm"
+    "display_name": "Helm",
+    "code": "hlm"
   },
   "fhl": {
     "name": "full_helm",
-    "display_name": "Full Helm"
+    "display_name": "Full Helm",
+    "code": "fhl"
   },
   "ghm": {
     "name": "great_helm",
-    "display_name": "Great Helm"
+    "display_name": "Great Helm",
+    "code": "ghm"
   },
   "crn": {
     "name": "crown",
-    "display_name": "Crown"
+    "display_name": "Crown",
+    "code": "crn"
   },
   "msk": {
     "name": "mask",
-    "display_name": "Mask"
+    "display_name": "Mask",
+    "code": "msk"
   },
   "qui": {
     "name": "quilted_armor",
-    "display_name": "Quilted Armor"
+    "display_name": "Quilted Armor",
+    "code": "qui"
   },
   "lea": {
     "name": "leather_armor",
-    "display_name": "Leather Armor"
+    "display_name": "Leather Armor",
+    "code": "lea"
   },
   "hla": {
     "name": "hard_leather_armor",
-    "display_name": "Hard Leather Armor"
+    "display_name": "Hard Leather Armor",
+    "code": "hla"
   },
   "stu": {
     "name": "studded_leather",
-    "display_name": "Studded Leather"
+    "display_name": "Studded Leather",
+    "code": "stu"
   },
   "rng": {
     "name": "ring_mail",
-    "display_name": "Ring Mail"
+    "display_name": "Ring Mail",
+    "code": "rng"
   },
   "scl": {
     "name": "scale_mail",
-    "display_name": "Scale Mail"
+    "display_name": "Scale Mail",
+    "code": "scl"
   },
   "chn": {
     "name": "chain_mail",
-    "display_name": "Chain Mail"
+    "display_name": "Chain Mail",
+    "code": "chn"
   },
   "brs": {
     "name": "breast_plate",
-    "display_name": "Breast Plate"
+    "display_name": "Breast Plate",
+    "code": "brs"
   },
   "spl": {
     "name": "splint_mail",
-    "display_name": "Splint Mail"
+    "display_name": "Splint Mail",
+    "code": "spl"
   },
   "plt": {
     "name": "plate_mail",
-    "display_name": "Plate Mail"
+    "display_name": "Plate Mail",
+    "code": "plt"
   },
   "fld": {
     "name": "field_plate",
-    "display_name": "Field Plate"
+    "display_name": "Field Plate",
+    "code": "fld"
   },
   "gth": {
     "name": "gothic_plate",
-    "display_name": "Gothic Plate"
+    "display_name": "Gothic Plate",
+    "code": "gth"
   },
   "ful": {
     "name": "full_plate_mail",
-    "display_name": "Full Plate Mail"
+    "display_name": "Full Plate Mail",
+    "code": "ful"
   },
   "aar": {
     "name": "ancient_armor",
-    "display_name": "Ancient Armor"
+    "display_name": "Ancient Armor",
+    "code": "aar"
   },
   "ltp": {
     "name": "light_plate",
-    "display_name": "Light Plate"
+    "display_name": "Light Plate",
+    "code": "ltp"
   },
   "buc": {
     "name": "buckler",
-    "display_name": "Buckler"
+    "display_name": "Buckler",
+    "code": "buc"
   },
   "sml": {
     "name": "small_shield",
-    "display_name": "Small Shield"
+    "display_name": "Small Shield",
+    "code": "sml"
   },
   "lrg": {
     "name": "large_shield",
-    "display_name": "Large Shield"
+    "display_name": "Large Shield",
+    "code": "lrg"
   },
   "kit": {
     "name": "kite_shield",
-    "display_name": "Kite Shield"
+    "display_name": "Kite Shield",
+    "code": "kit"
   },
   "tow": {
     "name": "tower_shield",
-    "display_name": "Tower Shield"
+    "display_name": "Tower Shield",
+    "code": "tow"
   },
   "gts": {
     "name": "gothic_shield",
-    "display_name": "Gothic Shield"
+    "display_name": "Gothic Shield",
+    "code": "gts"
   },
   "lgl": {
     "name": "leather_gloves",
-    "display_name": "Leather Gloves"
+    "display_name": "Leather Gloves",
+    "code": "lgl"
   },
   "vgl": {
     "name": "heavy_gloves",
-    "display_name": "Heavy Gloves"
+    "display_name": "Heavy Gloves",
+    "code": "vgl"
   },
   "mgl": {
     "name": "chain_gloves",
-    "display_name": "Chain Gloves"
+    "display_name": "Chain Gloves",
+    "code": "mgl"
   },
   "tgl": {
     "name": "light_gauntlets",
-    "display_name": "Light Gauntlets"
+    "display_name": "Light Gauntlets",
+    "code": "tgl"
   },
   "hgl": {
     "name": "gauntlets",
-    "display_name": "Gauntlets"
+    "display_name": "Gauntlets",
+    "code": "hgl"
   },
   "lbt": {
     "name": "boots",
-    "display_name": "Boots"
+    "display_name": "Boots",
+    "code": "lbt"
   },
   "vbt": {
     "name": "heavy_boots",
-    "display_name": "Heavy Boots"
+    "display_name": "Heavy Boots",
+    "code": "vbt"
   },
   "mbt": {
     "name": "chain_boots",
-    "display_name": "Chain Boots"
+    "display_name": "Chain Boots",
+    "code": "mbt"
   },
   "tbt": {
     "name": "light_plated_boots",
-    "display_name": "Light Plated Boots"
+    "display_name": "Light Plated Boots",
+    "code": "tbt"
   },
   "hbt": {
     "name": "greaves",
-    "display_name": "Greaves"
+    "display_name": "Greaves",
+    "code": "hbt"
   },
   "lbl": {
     "name": "sash",
-    "display_name": "Sash"
+    "display_name": "Sash",
+    "code": "lbl"
   },
   "vbl": {
     "name": "light_belt",
-    "display_name": "Light Belt"
+    "display_name": "Light Belt",
+    "code": "vbl"
   },
   "mbl": {
     "name": "belt",
-    "display_name": "Belt"
+    "display_name": "Belt",
+    "code": "mbl"
   },
   "tbl": {
     "name": "heavy_belt",
-    "display_name": "Heavy Belt"
+    "display_name": "Heavy Belt",
+    "code": "tbl"
   },
   "hbl": {
     "name": "plated_belt",
-    "display_name": "Plated Belt"
+    "display_name": "Plated Belt",
+    "code": "hbl"
   },
   "bhm": {
     "name": "bone_helm",
-    "display_name": "Bone Helm"
+    "display_name": "Bone Helm",
+    "code": "bhm"
   },
   "bsh": {
     "name": "bone_shield",
-    "display_name": "Bone Shield"
+    "display_name": "Bone Shield",
+    "code": "bsh"
   },
   "spk": {
     "name": "spiked_shield",
-    "display_name": "Spiked Shield"
+    "display_name": "Spiked Shield",
+    "code": "spk"
   },
   "hax": {
     "name": "hand_axe",
-    "display_name": "Hand Axe"
+    "display_name": "Hand Axe",
+    "code": "hax"
   },
   "axe": {
     "name": "axe",
-    "display_name": "Axe"
+    "display_name": "Axe",
+    "code": "axe"
   },
   "2ax": {
     "name": "double_axe",
-    "display_name": "Double Axe"
+    "display_name": "Double Axe",
+    "code": "2ax"
   },
   "mpi": {
     "name": "military_pick",
-    "display_name": "Military Pick"
+    "display_name": "Military Pick",
+    "code": "mpi"
   },
   "wax": {
     "name": "war_axe",
-    "display_name": "War Axe"
+    "display_name": "War Axe",
+    "code": "wax"
   },
   "lax": {
     "name": "large_axe",
-    "display_name": "Large Axe"
+    "display_name": "Large Axe",
+    "code": "lax"
   },
   "bax": {
     "name": "broad_axe",
-    "display_name": "Broad Axe"
+    "display_name": "Broad Axe",
+    "code": "bax"
   },
   "btx": {
     "name": "battle_axe",
-    "display_name": "Battle Axe"
+    "display_name": "Battle Axe",
+    "code": "btx"
   },
   "gax": {
     "name": "great_axe",
-    "display_name": "Great Axe"
+    "display_name": "Great Axe",
+    "code": "gax"
   },
   "gix": {
     "name": "giant_axe",
-    "display_name": "Giant Axe"
+    "display_name": "Giant Axe",
+    "code": "gix"
   },
   "wnd": {
     "name": "wand",
-    "display_name": "Wand"
+    "display_name": "Wand",
+    "code": "wnd"
   },
   "ywn": {
     "name": "yew_wand",
-    "display_name": "Yew Wand"
+    "display_name": "Yew Wand",
+    "code": "ywn"
   },
   "bwn": {
     "name": "bone_wand",
-    "display_name": "Bone Wand"
+    "display_name": "Bone Wand",
+    "code": "bwn"
   },
   "gwn": {
     "name": "grim_wand",
-    "display_name": "Grim Wand"
+    "display_name": "Grim Wand",
+    "code": "gwn"
   },
   "clb": {
     "name": "club",
-    "display_name": "Club"
+    "display_name": "Club",
+    "code": "clb"
   },
   "scp": {
     "name": "scepter",
-    "display_name": "Scepter"
+    "display_name": "Scepter",
+    "code": "scp"
   },
   "gsc": {
     "name": "grand_scepter",
-    "display_name": "Grand Scepter"
+    "display_name": "Grand Scepter",
+    "code": "gsc"
   },
   "wsp": {
     "name": "war_scepter",
-    "display_name": "War Scepter"
+    "display_name": "War Scepter",
+    "code": "wsp"
   },
   "spc": {
     "name": "spiked_club",
-    "display_name": "Spiked Club"
+    "display_name": "Spiked Club",
+    "code": "spc"
   },
   "mac": {
     "name": "mace",
-    "display_name": "Mace"
+    "display_name": "Mace",
+    "code": "mac"
   },
   "mst": {
     "name": "morning_star",
-    "display_name": "Morning Star"
+    "display_name": "Morning Star",
+    "code": "mst"
   },
   "fla": {
     "name": "flail",
-    "display_name": "Flail"
+    "display_name": "Flail",
+    "code": "fla"
   },
   "whm": {
     "name": "war_hammer",
-    "display_name": "War Hammer"
+    "display_name": "War Hammer",
+    "code": "whm"
   },
   "mau": {
     "name": "maul",
-    "display_name": "Maul"
+    "display_name": "Maul",
+    "code": "mau"
   },
   "gma": {
     "name": "great_maul",
-    "display_name": "Great Maul"
+    "display_name": "Great Maul",
+    "code": "gma"
   },
   "ssd": {
     "name": "short_sword",
-    "display_name": "Short Sword"
+    "display_name": "Short Sword",
+    "code": "ssd"
   },
   "scm": {
     "name": "scimitar",
-    "display_name": "Scimitar"
+    "display_name": "Scimitar",
+    "code": "scm"
   },
   "sbr": {
     "name": "sabre",
-    "display_name": "Sabre"
+    "display_name": "Sabre",
+    "code": "sbr"
   },
   "flc": {
     "name": "falchion",
-    "display_name": "Falchion"
+    "display_name": "Falchion",
+    "code": "flc"
   },
   "crs": {
     "name": "crystal_sword",
-    "display_name": "Crystal Sword"
+    "display_name": "Crystal Sword",
+    "code": "crs"
   },
   "bsd": {
     "name": "broad_sword",
-    "display_name": "Broad Sword"
+    "display_name": "Broad Sword",
+    "code": "bsd"
   },
   "lsd": {
     "name": "long_sword",
-    "display_name": "Long Sword"
+    "display_name": "Long Sword",
+    "code": "lsd"
   },
   "wsd": {
     "name": "war_sword",
-    "display_name": "War Sword"
+    "display_name": "War Sword",
+    "code": "wsd"
   },
   "2hs": {
     "name": "twohanded_sword",
-    "display_name": "Two-Handed Sword"
+    "display_name": "Two-Handed Sword",
+    "code": "2hs"
   },
   "clm": {
     "name": "claymore",
-    "display_name": "Claymore"
+    "display_name": "Claymore",
+    "code": "clm"
   },
   "gis": {
     "name": "giant_sword",
-    "display_name": "Giant Sword"
+    "display_name": "Giant Sword",
+    "code": "gis"
   },
   "bsw": {
     "name": "bastard_sword",
-    "display_name": "Bastard Sword"
+    "display_name": "Bastard Sword",
+    "code": "bsw"
   },
   "flb": {
     "name": "flamberge",
-    "display_name": "Flamberge"
+    "display_name": "Flamberge",
+    "code": "flb"
   },
   "gsd": {
     "name": "great_sword",
-    "display_name": "Great Sword"
+    "display_name": "Great Sword",
+    "code": "gsd"
   },
   "dgr": {
     "name": "dagger",
-    "display_name": "Dagger"
+    "display_name": "Dagger",
+    "code": "dgr"
   },
   "dir": {
     "name": "dirk",
-    "display_name": "Dirk"
+    "display_name": "Dirk",
+    "code": "dir"
   },
   "kri": {
     "name": "kris",
-    "display_name": "Kris"
+    "display_name": "Kris",
+    "code": "kri"
   },
   "bld": {
     "name": "blade",
-    "display_name": "Blade"
+    "display_name": "Blade",
+    "code": "bld"
   },
   "tkf": {
     "name": "throwing_knife",
-    "display_name": "Throwing Knife"
+    "display_name": "Throwing Knife",
+    "code": "tkf"
   },
   "tax": {
     "name": "throwing_axe",
-    "display_name": "Throwing Axe"
+    "display_name": "Throwing Axe",
+    "code": "tax"
   },
   "bkf": {
     "name": "balanced_knife",
-    "display_name": "Balanced Knife"
+    "display_name": "Balanced Knife",
+    "code": "bkf"
   },
   "bal": {
     "name": "balanced_axe",
-    "display_name": "Balanced Axe"
+    "display_name": "Balanced Axe",
+    "code": "bal"
   },
   "jav": {
     "name": "javelin",
-    "display_name": "Javelin"
+    "display_name": "Javelin",
+    "code": "jav"
   },
   "pil": {
     "name": "pilum",
-    "display_name": "Pilum"
+    "display_name": "Pilum",
+    "code": "pil"
   },
   "ssp": {
     "name": "short_spear",
-    "display_name": "Short Spear"
+    "display_name": "Short Spear",
+    "code": "ssp"
   },
   "glv": {
     "name": "glaive",
-    "display_name": "Glaive"
+    "display_name": "Glaive",
+    "code": "glv"
   },
   "tsp": {
     "name": "throwing_spear",
-    "display_name": "Throwing Spear"
+    "display_name": "Throwing Spear",
+    "code": "tsp"
   },
   "spr": {
     "name": "spear",
-    "display_name": "Spear"
+    "display_name": "Spear",
+    "code": "spr"
   },
   "tri": {
     "name": "trident",
-    "display_name": "Trident"
+    "display_name": "Trident",
+    "code": "tri"
   },
   "brn": {
     "name": "brandistock",
-    "display_name": "Brandistock"
+    "display_name": "Brandistock",
+    "code": "brn"
   },
   "spt": {
     "name": "spetum",
-    "display_name": "Spetum"
+    "display_name": "Spetum",
+    "code": "spt"
   },
   "pik": {
     "name": "pike",
-    "display_name": "Pike"
+    "display_name": "Pike",
+    "code": "pik"
   },
   "bar": {
     "name": "bardiche",
-    "display_name": "Bardiche"
+    "display_name": "Bardiche",
+    "code": "bar"
   },
   "vou": {
     "name": "voulge",
-    "display_name": "Voulge"
+    "display_name": "Voulge",
+    "code": "vou"
   },
   "scy": {
     "name": "scythe",
-    "display_name": "Scythe"
+    "display_name": "Scythe",
+    "code": "scy"
   },
   "pax": {
     "name": "poleaxe",
-    "display_name": "Poleaxe"
+    "display_name": "Poleaxe",
+    "code": "pax"
   },
   "hal": {
     "name": "halberd",
-    "display_name": "Halberd"
+    "display_name": "Halberd",
+    "code": "hal"
   },
   "wsc": {
     "name": "war_scythe",
-    "display_name": "War Scythe"
+    "display_name": "War Scythe",
+    "code": "wsc"
   },
   "sst": {
     "name": "short_staff",
-    "display_name": "Short Staff"
+    "display_name": "Short Staff",
+    "code": "sst"
   },
   "lst": {
     "name": "long_staff",
-    "display_name": "Long Staff"
+    "display_name": "Long Staff",
+    "code": "lst"
   },
   "cst": {
     "name": "gnarled_staff",
-    "display_name": "Gnarled Staff"
+    "display_name": "Gnarled Staff",
+    "code": "cst"
   },
   "bst": {
     "name": "battle_staff",
-    "display_name": "Battle Staff"
+    "display_name": "Battle Staff",
+    "code": "bst"
   },
   "wst": {
     "name": "war_staff",
-    "display_name": "War Staff"
+    "display_name": "War Staff",
+    "code": "wst"
   },
   "sbw": {
     "name": "short_bow",
-    "display_name": "Short Bow"
+    "display_name": "Short Bow",
+    "code": "sbw"
   },
   "hbw": {
     "name": "hunters_bow",
-    "display_name": "Hunter's Bow"
+    "display_name": "Hunter's Bow",
+    "code": "hbw"
   },
   "lbw": {
     "name": "long_bow",
-    "display_name": "Long Bow"
+    "display_name": "Long Bow",
+    "code": "lbw"
   },
   "cbw": {
     "name": "composite_bow",
-    "display_name": "Composite Bow"
+    "display_name": "Composite Bow",
+    "code": "cbw"
   },
   "sbb": {
     "name": "short_battle_bow",
-    "display_name": "Short Battle Bow"
+    "display_name": "Short Battle Bow",
+    "code": "sbb"
   },
   "lbb": {
     "name": "long_battle_bow",
-    "display_name": "Long Battle Bow"
+    "display_name": "Long Battle Bow",
+    "code": "lbb"
   },
   "swb": {
     "name": "short_war_bow",
-    "display_name": "Short War Bow"
+    "display_name": "Short War Bow",
+    "code": "swb"
   },
   "lwb": {
     "name": "long_war_bow",
-    "display_name": "Long War Bow"
+    "display_name": "Long War Bow",
+    "code": "lwb"
   },
   "lxb": {
     "name": "light_crossbow",
-    "display_name": "Light Crossbow"
+    "display_name": "Light Crossbow",
+    "code": "lxb"
   },
   "mxb": {
     "name": "crossbow",
-    "display_name": "Crossbow"
+    "display_name": "Crossbow",
+    "code": "mxb"
   },
   "hxb": {
     "name": "heavy_crossbow",
-    "display_name": "Heavy Crossbow"
+    "display_name": "Heavy Crossbow",
+    "code": "hxb"
   },
   "rxb": {
     "name": "repeating_crossbow",
-    "display_name": "Repeating Crossbow"
+    "display_name": "Repeating Crossbow",
+    "code": "rxb"
   },
   "xpk": {
     "name": "barbed_shield",
-    "display_name": "Barbed Shield"
+    "display_name": "Barbed Shield",
+    "code": "xpk"
   },
   "xsh": {
     "name": "grim_shield",
-    "display_name": "Grim Shield"
+    "display_name": "Grim Shield",
+    "code": "xsh"
   },
   "xh9": {
     "name": "grim_helm",
-    "display_name": "Grim Helm"
+    "display_name": "Grim Helm",
+    "code": "xh9"
   },
   "zhb": {
     "name": "war_belt",
-    "display_name": "War Belt"
+    "display_name": "War Belt",
+    "code": "zhb"
   },
   "ztb": {
     "name": "battle_belt",
-    "display_name": "Battle Belt"
+    "display_name": "Battle Belt",
+    "code": "ztb"
   },
   "zmb": {
     "name": "mesh_belt",
-    "display_name": "Mesh Belt"
+    "display_name": "Mesh Belt",
+    "code": "zmb"
   },
   "zvb": {
     "name": "sharkskin_belt",
-    "display_name": "Sharkskin Belt"
+    "display_name": "Sharkskin Belt",
+    "code": "zvb"
   },
   "zlb": {
     "name": "demonhide_sash",
-    "display_name": "Demonhide Sash"
+    "display_name": "Demonhide Sash",
+    "code": "zlb"
   },
   "xhb": {
     "name": "war_boots",
-    "display_name": "War Boots"
+    "display_name": "War Boots",
+    "code": "xhb"
   },
   "xtb": {
     "name": "battle_boots",
-    "display_name": "Battle Boots"
+    "display_name": "Battle Boots",
+    "code": "xtb"
   },
   "xmb": {
     "name": "mesh_boots",
-    "display_name": "Mesh Boots"
+    "display_name": "Mesh Boots",
+    "code": "xmb"
   },
   "xvb": {
     "name": "sharkskin_boots",
-    "display_name": "Sharkskin Boots"
+    "display_name": "Sharkskin Boots",
+    "code": "xvb"
   },
   "xlb": {
     "name": "demonhide_boots",
-    "display_name": "Demonhide Boots"
+    "display_name": "Demonhide Boots",
+    "code": "xlb"
   },
   "xhg": {
     "name": "war_gauntlets",
-    "display_name": "War Gauntlets"
+    "display_name": "War Gauntlets",
+    "code": "xhg"
   },
   "xtg": {
     "name": "battle_gauntlets",
-    "display_name": "Battle Gauntlets"
+    "display_name": "Battle Gauntlets",
+    "code": "xtg"
   },
   "xmg": {
     "name": "heavy_bracers",
-    "display_name": "Heavy Bracers"
+    "display_name": "Heavy Bracers",
+    "code": "xmg"
   },
   "xvg": {
     "name": "sharkskin_gloves",
-    "display_name": "Sharkskin Gloves"
+    "display_name": "Sharkskin Gloves",
+    "code": "xvg"
   },
   "xlg": {
     "name": "demonhide_gloves",
-    "display_name": "Demonhide Gloves"
+    "display_name": "Demonhide Gloves",
+    "code": "xlg"
   },
   "xts": {
     "name": "ancient_shield",
-    "display_name": "Ancient Shield"
+    "display_name": "Ancient Shield",
+    "code": "xts"
   },
   "xow": {
     "name": "pavise",
-    "display_name": "Pavise"
+    "display_name": "Pavise",
+    "code": "xow"
   },
   "xit": {
     "name": "dragon_shield",
-    "display_name": "Dragon Shield"
+    "display_name": "Dragon Shield",
+    "code": "xit"
   },
   "xrg": {
     "name": "scutum",
-    "display_name": "Scutum"
+    "display_name": "Scutum",
+    "code": "xrg"
   },
   "xml": {
     "name": "round_shield",
-    "display_name": "Round Shield"
+    "display_name": "Round Shield",
+    "code": "xml"
   },
   "xuc": {
     "name": "defender",
-    "display_name": "Defender"
+    "display_name": "Defender",
+    "code": "xuc"
   },
   "xtp": {
     "name": "mage_plate",
-    "display_name": "Mage Plate"
+    "display_name": "Mage Plate",
+    "code": "xtp"
   },
   "xar": {
     "name": "ornate_plate",
-    "display_name": "Ornate Plate"
+    "display_name": "Ornate Plate",
+    "code": "xar"
   },
   "xul": {
     "name": "chaos_armor",
-    "display_name": "Chaos Armor"
+    "display_name": "Chaos Armor",
+    "code": "xul"
   },
   "xth": {
     "name": "embossed_plate",
-    "display_name": "Embossed Plate"
+    "display_name": "Embossed Plate",
+    "code": "xth"
   },
   "xld": {
     "name": "sharktooth_armor",
-    "display_name": "Sharktooth Armor"
+    "display_name": "Sharktooth Armor",
+    "code": "xld"
   },
   "xlt": {
     "name": "templar_coat",
-    "display_name": "Templar Coat"
+    "display_name": "Templar Coat",
+    "code": "xlt"
   },
   "xpl": {
     "name": "russet_armor",
-    "display_name": "Russet Armor"
+    "display_name": "Russet Armor",
+    "code": "xpl"
   },
   "xrs": {
     "name": "cuirass",
-    "display_name": "Cuirass"
+    "display_name": "Cuirass",
+    "code": "xrs"
   },
   "xhn": {
     "name": "mesh_armor",
-    "display_name": "Mesh Armor"
+    "display_name": "Mesh Armor",
+    "code": "xhn"
   },
   "xcl": {
     "name": "tigulated_mail",
-    "display_name": "Tigulated Mail"
+    "display_name": "Tigulated Mail",
+    "code": "xcl"
   },
   "xng": {
     "name": "linked_mail",
-    "display_name": "Linked Mail"
+    "display_name": "Linked Mail",
+    "code": "xng"
   },
   "xtu": {
     "name": "trellised_armor",
-    "display_name": "Trellised Armor"
+    "display_name": "Trellised Armor",
+    "code": "xtu"
   },
   "xla": {
     "name": "demonhide_armor",
-    "display_name": "Demonhide Armor"
+    "display_name": "Demonhide Armor",
+    "code": "xla"
   },
   "xea": {
     "name": "serpentskin_armor",
-    "display_name": "Serpentskin Armor"
+    "display_name": "Serpentskin Armor",
+    "code": "xea"
   },
   "xui": {
     "name": "ghost_armor",
-    "display_name": "Ghost Armor"
+    "display_name": "Ghost Armor",
+    "code": "xui"
   },
   "xsk": {
     "name": "death_mask",
-    "display_name": "Death Mask"
+    "display_name": "Death Mask",
+    "code": "xsk"
   },
   "xrn": {
     "name": "grand_crown",
-    "display_name": "Grand Crown"
+    "display_name": "Grand Crown",
+    "code": "xrn"
   },
   "xhm": {
     "name": "winged_helm",
-    "display_name": "Winged Helm"
+    "display_name": "Winged Helm",
+    "code": "xhm"
   },
   "xhl": {
     "name": "basinet",
-    "display_name": "Basinet"
+    "display_name": "Basinet",
+    "code": "xhl"
   },
   "xlm": {
     "name": "casque",
-    "display_name": "Casque"
+    "display_name": "Casque",
+    "code": "xlm"
   },
   "xkp": {
     "name": "sallet",
-    "display_name": "Sallet"
+    "display_name": "Sallet",
+    "code": "xkp"
   },
   "xap": {
     "name": "war_hat",
-    "display_name": "War Hat"
+    "display_name": "War Hat",
+    "code": "xap"
   },
   "8rx": {
     "name": "chukonu",
-    "display_name": "Chu-Ko-Nu"
+    "display_name": "Chu-Ko-Nu",
+    "code": "8rx"
   },
   "8hx": {
     "name": "ballista",
-    "display_name": "Ballista"
+    "display_name": "Ballista",
+    "code": "8hx"
   },
   "8mx": {
     "name": "siege_crossbow",
-    "display_name": "Siege Crossbow"
+    "display_name": "Siege Crossbow",
+    "code": "8mx"
   },
   "8lx": {
     "name": "arbalest",
-    "display_name": "Arbalest"
+    "display_name": "Arbalest",
+    "code": "8lx"
   },
   "8lw": {
     "name": "gothic_bow",
-    "display_name": "Gothic Bow"
+    "display_name": "Gothic Bow",
+    "code": "8lw"
   },
   "8sw": {
     "name": "rune_bow",
-    "display_name": "Rune Bow"
+    "display_name": "Rune Bow",
+    "code": "8sw"
   },
   "8l8": {
     "name": "large_siege_bow",
-    "display_name": "Large Siege Bow"
+    "display_name": "Large Siege Bow",
+    "code": "8l8"
   },
   "8s8": {
     "name": "short_siege_bow",
-    "display_name": "Short Siege Bow"
+    "display_name": "Short Siege Bow",
+    "code": "8s8"
   },
   "8cb": {
     "name": "double_bow",
-    "display_name": "Double Bow"
+    "display_name": "Double Bow",
+    "code": "8cb"
   },
   "8lb": {
     "name": "cedar_bow",
-    "display_name": "Cedar Bow"
+    "display_name": "Cedar Bow",
+    "code": "8lb"
   },
   "8hb": {
     "name": "razor_bow",
-    "display_name": "Razor Bow"
+    "display_name": "Razor Bow",
+    "code": "8hb"
   },
   "8sb": {
     "name": "edge_bow",
-    "display_name": "Edge Bow"
+    "display_name": "Edge Bow",
+    "code": "8sb"
   },
   "8ws": {
     "name": "rune_staff",
-    "display_name": "Rune Staff"
+    "display_name": "Rune Staff",
+    "code": "8ws"
   },
   "8bs": {
     "name": "gothic_staff",
-    "display_name": "Gothic Staff"
+    "display_name": "Gothic Staff",
+    "code": "8bs"
   },
   "8cs": {
     "name": "cedar_staff",
-    "display_name": "Cedar Staff"
+    "display_name": "Cedar Staff",
+    "code": "8cs"
   },
   "8ls": {
     "name": "quarterstaff",
-    "display_name": "Quarterstaff"
+    "display_name": "Quarterstaff",
+    "code": "8ls"
   },
   "8ss": {
     "name": "jo_staff",
-    "display_name": "Jo Staff"
+    "display_name": "Jo Staff",
+    "code": "8ss"
   },
   "9wc": {
     "name": "grim_scythe",
-    "display_name": "Grim Scythe"
+    "display_name": "Grim Scythe",
+    "code": "9wc"
   },
   "9h9": {
     "name": "becdecorbin",
-    "display_name": "Bec-de-Corbin"
+    "display_name": "Bec-de-Corbin",
+    "code": "9h9"
   },
   "9pa": {
     "name": "partizan",
-    "display_name": "Partizan"
+    "display_name": "Partizan",
+    "code": "9pa"
   },
   "9s8": {
     "name": "battle_scythe",
-    "display_name": "Battle Scythe"
+    "display_name": "Battle Scythe",
+    "code": "9s8"
   },
   "9vo": {
     "name": "bill",
-    "display_name": "Bill"
+    "display_name": "Bill",
+    "code": "9vo"
   },
   "9b7": {
     "name": "lochaber_axe",
-    "display_name": "Lochaber Axe"
+    "display_name": "Lochaber Axe",
+    "code": "9b7"
   },
   "9p9": {
     "name": "lance",
-    "display_name": "Lance"
+    "display_name": "Lance",
+    "code": "9p9"
   },
   "9st": {
     "name": "yari",
-    "display_name": "Yari"
+    "display_name": "Yari",
+    "code": "9st"
   },
   "9br": {
     "name": "war_fork",
-    "display_name": "War Fork"
+    "display_name": "War Fork",
+    "code": "9br"
   },
   "9tr": {
     "name": "fuscina",
-    "display_name": "Fuscina"
+    "display_name": "Fuscina",
+    "code": "9tr"
   },
   "9sr": {
     "name": "war_spear",
-    "display_name": "War Spear"
+    "display_name": "War Spear",
+    "code": "9sr"
   },
   "9ts": {
     "name": "harpoon",
-    "display_name": "Harpoon"
+    "display_name": "Harpoon",
+    "code": "9ts"
   },
   "9gl": {
     "name": "spiculum",
-    "display_name": "Spiculum"
+    "display_name": "Spiculum",
+    "code": "9gl"
   },
   "9s9": {
     "name": "simbilan",
-    "display_name": "Simbilan"
+    "display_name": "Simbilan",
+    "code": "9s9"
   },
   "9pi": {
     "name": "great_pilum",
-    "display_name": "Great Pilum"
+    "display_name": "Great Pilum",
+    "code": "9pi"
   },
   "9ja": {
     "name": "war_javelin",
-    "display_name": "War Javelin"
+    "display_name": "War Javelin",
+    "code": "9ja"
   },
   "9b8": {
     "name": "hurlbat",
-    "display_name": "Hurlbat"
+    "display_name": "Hurlbat",
+    "code": "9b8"
   },
   "9bk": {
     "name": "war_dart",
-    "display_name": "War Dart"
+    "display_name": "War Dart",
+    "code": "9bk"
   },
   "9ta": {
     "name": "francisca",
-    "display_name": "Francisca"
+    "display_name": "Francisca",
+    "code": "9ta"
   },
   "9tk": {
     "name": "battle_dart",
-    "display_name": "Battle Dart"
+    "display_name": "Battle Dart",
+    "code": "9tk"
   },
   "9bl": {
     "name": "stiletto",
-    "display_name": "Stiletto"
+    "display_name": "Stiletto",
+    "code": "9bl"
   },
   "9kr": {
     "name": "cinquedeas",
-    "display_name": "Cinquedeas"
+    "display_name": "Cinquedeas",
+    "code": "9kr"
   },
   "9di": {
     "name": "rondel",
-    "display_name": "Rondel"
+    "display_name": "Rondel",
+    "code": "9di"
   },
   "9dg": {
     "name": "poignard",
-    "display_name": "Poignard"
+    "display_name": "Poignard",
+    "code": "9dg"
   },
   "9gd": {
     "name": "executioner_sword",
-    "display_name": "Executioner Sword"
+    "display_name": "Executioner Sword",
+    "code": "9gd"
   },
   "9fb": {
     "name": "zweihander",
-    "display_name": "Zweihander"
+    "display_name": "Zweihander",
+    "code": "9fb"
   },
   "9gs": {
     "name": "tusk_sword",
-    "display_name": "Tusk Sword"
+    "display_name": "Tusk Sword",
+    "code": "9gs"
   },
   "9cm": {
     "name": "dacian_falx",
-    "display_name": "Dacian Falx"
+    "display_name": "Dacian Falx",
+    "code": "9cm"
   },
   "92h": {
     "name": "espandon",
-    "display_name": "Espandon"
+    "display_name": "Espandon",
+    "code": "92h"
   },
   "9wd": {
     "name": "ancient_sword",
-    "display_name": "Ancient Sword"
+    "display_name": "Ancient Sword",
+    "code": "9wd"
   },
   "9ls": {
     "name": "rune_sword",
-    "display_name": "Rune Sword"
+    "display_name": "Rune Sword",
+    "code": "9ls"
   },
   "9bs": {
     "name": "battle_sword",
-    "display_name": "Battle Sword"
+    "display_name": "Battle Sword",
+    "code": "9bs"
   },
   "9cr": {
     "name": "dimensional_blade",
-    "display_name": "Dimensional Blade"
+    "display_name": "Dimensional Blade",
+    "code": "9cr"
   },
   "9fc": {
     "name": "tulwar",
-    "display_name": "Tulwar"
+    "display_name": "Tulwar",
+    "code": "9fc"
   },
   "9sb": {
     "name": "shamshir",
-    "display_name": "Shamshir"
+    "display_name": "Shamshir",
+    "code": "9sb"
   },
   "9sm": {
     "name": "cutlass",
-    "display_name": "Cutlass"
+    "display_name": "Cutlass",
+    "code": "9sm"
   },
   "9ss": {
     "name": "gladius",
-    "display_name": "Gladius"
+    "display_name": "Gladius",
+    "code": "9ss"
   },
   "9gm": {
     "name": "martel_de_fer",
-    "display_name": "Martel de Fer"
+    "display_name": "Martel de Fer",
+    "code": "9gm"
   },
   "9m9": {
     "name": "war_club",
-    "display_name": "War Club"
+    "display_name": "War Club",
+    "code": "9m9"
   },
   "9wh": {
     "name": "battle_hammer",
-    "display_name": "Battle Hammer"
+    "display_name": "Battle Hammer",
+    "code": "9wh"
   },
   "9fl": {
     "name": "knout",
-    "display_name": "Knout"
+    "display_name": "Knout",
+    "code": "9fl"
   },
   "9mt": {
     "name": "jagged_star",
-    "display_name": "Jagged Star"
+    "display_name": "Jagged Star",
+    "code": "9mt"
   },
   "9ma": {
     "name": "flanged_mace",
-    "display_name": "Flanged Mace"
+    "display_name": "Flanged Mace",
+    "code": "9ma"
   },
   "9sp": {
     "name": "barbed_club",
-    "display_name": "Barbed Club"
+    "display_name": "Barbed Club",
+    "code": "9sp"
   },
   "9ws": {
     "name": "divine_scepter",
-    "display_name": "Divine Scepter"
+    "display_name": "Divine Scepter",
+    "code": "9ws"
   },
   "9qs": {
     "name": "holy_water_sprinkler",
-    "display_name": "Holy Water Sprinkler"
+    "display_name": "Holy Water Sprinkler",
+    "code": "9qs"
   },
   "9sc": {
     "name": "rune_scepter",
-    "display_name": "Rune Scepter"
+    "display_name": "Rune Scepter",
+    "code": "9sc"
   },
   "9cl": {
     "name": "cudgel",
-    "display_name": "Cudgel"
+    "display_name": "Cudgel",
+    "code": "9cl"
   },
   "9gw": {
     "name": "grave_wand",
-    "display_name": "Grave Wand"
+    "display_name": "Grave Wand",
+    "code": "9gw"
   },
   "9bw": {
     "name": "tomb_wand",
-    "display_name": "Tomb Wand"
+    "display_name": "Tomb Wand",
+    "code": "9bw"
   },
   "9yw": {
     "name": "petrified_wand",
-    "display_name": "Petrified Wand"
+    "display_name": "Petrified Wand",
+    "code": "9yw"
   },
   "9wn": {
     "name": "burnt_wand",
-    "display_name": "Burnt Wand"
+    "display_name": "Burnt Wand",
+    "code": "9wn"
   },
   "9gi": {
     "name": "ancient_axe",
-    "display_name": "Ancient Axe"
+    "display_name": "Ancient Axe",
+    "code": "9gi"
   },
   "9ga": {
     "name": "gothic_axe",
-    "display_name": "Gothic Axe"
+    "display_name": "Gothic Axe",
+    "code": "9ga"
   },
   "9bt": {
     "name": "tabar",
-    "display_name": "Tabar"
+    "display_name": "Tabar",
+    "code": "9bt"
   },
   "9ba": {
     "name": "bearded_axe",
-    "display_name": "Bearded Axe"
+    "display_name": "Bearded Axe",
+    "code": "9ba"
   },
   "9la": {
     "name": "military_axe",
-    "display_name": "Military Axe"
+    "display_name": "Military Axe",
+    "code": "9la"
   },
   "9wa": {
     "name": "naga",
-    "display_name": "Naga"
+    "display_name": "Naga",
+    "code": "9wa"
   },
   "9mp": {
     "name": "crowbill",
-    "display_name": "Crowbill"
+    "display_name": "Crowbill",
+    "code": "9mp"
   },
   "92a": {
     "name": "twin_axe",
-    "display_name": "Twin Axe"
+    "display_name": "Twin Axe",
+    "code": "92a"
   },
   "9ax": {
     "name": "cleaver",
-    "display_name": "Cleaver"
+    "display_name": "Cleaver",
+    "code": "9ax"
   },
   "9ha": {
     "name": "hatchet",
-    "display_name": "Hatchet"
+    "display_name": "Hatchet",
+    "code": "9ha"
   },
   "9b9": {
     "name": "gothic_sword",
-    "display_name": "Gothic Sword"
+    "display_name": "Gothic Sword",
+    "code": "9b9"
   },
   "gpl": {
     "name": "strangling_gas_potion",
-    "display_name": "Strangling Gas Potion"
+    "display_name": "Strangling Gas Potion",
+    "code": "gpl"
   },
   "opl": {
     "name": "fulminating_potion",
-    "display_name": "Fulminating Potion"
+    "display_name": "Fulminating Potion",
+    "code": "opl"
   },
   "gpm": {
     "name": "choking_gas_potion",
-    "display_name": "Choking Gas Potion"
+    "display_name": "Choking Gas Potion",
+    "code": "gpm"
   },
   "opm": {
     "name": "exploding_potion",
-    "display_name": "Exploding Potion"
+    "display_name": "Exploding Potion",
+    "code": "opm"
   },
   "gps": {
     "name": "rancid_gas_potion",
-    "display_name": "Rancid Gas Potion"
+    "display_name": "Rancid Gas Potion",
+    "code": "gps"
   },
   "ops": {
     "name": "oil_potion",
-    "display_name": "Oil Potion"
+    "display_name": "Oil Potion",
+    "code": "ops"
   },
   "g33": {
     "name": "the_gidbinn",
-    "display_name": "The Gidbinn"
+    "display_name": "The Gidbinn",
+    "code": "g33"
   },
   "d33": {
     "name": "decoy_gidbinn",
-    "display_name": "Decoy Gidbinn"
+    "display_name": "Decoy Gidbinn",
+    "code": "d33"
   },
   "leg": {
     "name": "wirts_leg",
-    "display_name": "Wirt's Leg"
+    "display_name": "Wirt's Leg",
+    "code": "leg"
   },
   "hdm": {
     "name": "horadric_malus",
-    "display_name": "Horadric Malus"
+    "display_name": "Horadric Malus",
+    "code": "hdm"
   },
   "hfh": {
     "name": "hell_forge_hammer",
-    "display_name": "Hell Forge Hammer"
+    "display_name": "Hell Forge Hammer",
+    "code": "hfh"
   },
   "hst": {
     "name": "horadric_staff",
-    "display_name": "Horadric Staff"
+    "display_name": "Horadric Staff",
+    "code": "hst"
   },
   "msf": {
     "name": "shaft_of_the_horadric_staff",
-    "display_name": "Shaft of the Horadric Staff"
+    "display_name": "Shaft of the Horadric Staff",
+    "code": "msf"
   },
   "elx": {
     "name": "elixir",
-    "display_name": "Elixir"
+    "display_name": "Elixir",
+    "code": "elx"
   },
   "tbk": {
     "name": "tome_of_town_portal",
-    "display_name": "Tome of Town Portal"
+    "display_name": "Tome of Town Portal",
+    "code": "tbk"
   },
   "tsc": {
     "name": "scroll_of_town_portal",
-    "display_name": "Scroll of Town Portal"
+    "display_name": "Scroll of Town Portal",
+    "code": "tsc"
   },
   "ibk": {
     "name": "tome_of_identify",
-    "display_name": "Tome of Identify"
+    "display_name": "Tome of Identify",
+    "code": "ibk"
   },
   "isc": {
     "name": "scroll_of_identify",
-    "display_name": "Scroll of Identify"
+    "display_name": "Scroll of Identify",
+    "code": "isc"
   },
   "vps": {
     "name": "stamina_potion",
-    "display_name": "Stamina Potion"
+    "display_name": "Stamina Potion",
+    "code": "vps"
   },
   "yps": {
     "name": "antidote_potion",
-    "display_name": "Antidote Potion"
+    "display_name": "Antidote Potion",
+    "code": "yps"
   },
   "rvs": {
     "name": "rejuvenation_potion",
-    "display_name": "Rejuvenation Potion"
+    "display_name": "Rejuvenation Potion",
+    "code": "rvs"
   },
   "rvl": {
     "name": "full_rejuvenation_potion",
-    "display_name": "Full Rejuvenation Potion"
+    "display_name": "Full Rejuvenation Potion",
+    "code": "rvl"
   },
   "wms": {
     "name": "thawing_potion",
-    "display_name": "Thawing Potion"
+    "display_name": "Thawing Potion",
+    "code": "wms"
   },
   "amu": {
     "name": "amulet",
-    "display_name": "Amulet"
+    "display_name": "Amulet",
+    "code": "amu"
   },
   "vip": {
     "name": "top_of_the_horadric_staff",
-    "display_name": "Top of the Horadric Staff"
+    "display_name": "Top of the Horadric Staff",
+    "code": "vip"
   },
   "rin": {
     "name": "ring",
-    "display_name": "Ring"
+    "display_name": "Ring",
+    "code": "rin"
   },
   "gld": {
     "name": "gold",
-    "display_name": "Gold"
+    "display_name": "Gold",
+    "code": "gld"
   },
   "bks": {
     "name": "scroll_of_inifuss",
-    "display_name": "Scroll of Inifuss"
+    "display_name": "Scroll of Inifuss",
+    "code": "bks"
   },
   "bkd": {
     "name": "key_to_the_cairn_stones",
-    "display_name": "Key to the Cairn Stones"
+    "display_name": "Key to the Cairn Stones",
+    "code": "bkd"
   },
   "aqv": {
     "name": "arrows",
-    "display_name": "Arrows"
+    "display_name": "Arrows",
+    "code": "aqv"
   },
   "tch": {
     "name": "torch",
-    "display_name": "Torch"
+    "display_name": "Torch",
+    "code": "tch"
   },
   "cqv": {
     "name": "bolts",
-    "display_name": "Bolts"
+    "display_name": "Bolts",
+    "code": "cqv"
   },
   "key": {
     "name": "key",
-    "display_name": "Key"
+    "display_name": "Key",
+    "code": "key"
   },
   "luv": {
     "name": "the_black_tower_key",
-    "display_name": "The Black Tower Key"
+    "display_name": "The Black Tower Key",
+    "code": "luv"
   },
   "xyz": {
     "name": "right_click_to_permanently_add_20_to_lifepotion_of_life",
-    "display_name": "Right Click to permanently add 20 to Life\nPotion of Life"
+    "display_name": "Right Click to permanently add 20 to Life\nPotion of Life",
+    "code": "xyz"
   },
   "j34": {
     "name": "a_jade_figurine",
-    "display_name": "A Jade Figurine"
+    "display_name": "A Jade Figurine",
+    "code": "j34"
   },
   "g34": {
     "name": "the_golden_bird",
-    "display_name": "The Golden Bird"
+    "display_name": "The Golden Bird",
+    "code": "g34"
   },
   "bbb": {
     "name": "lam_esens_tome",
-    "display_name": "Lam Esen's Tome"
+    "display_name": "Lam Esen's Tome",
+    "code": "bbb"
   },
   "box": {
     "name": "horadric_cube",
-    "display_name": "Horadric Cube"
+    "display_name": "Horadric Cube",
+    "code": "box"
   },
   "tr1": {
     "name": "horadric_scroll",
-    "display_name": "Horadric Scroll"
+    "display_name": "Horadric Scroll",
+    "code": "tr1"
   },
   "mss": {
     "name": "mephistos_soulstone",
-    "display_name": "Mephisto's Soulstone"
+    "display_name": "Mephisto's Soulstone",
+    "code": "mss"
   },
   "ass": {
     "name": "right_click_to_learn_skill_of_your_choicebook_of_skill",
-    "display_name": "Right Click to learn skill of your choice\nBook of Skill"
+    "display_name": "Right Click to learn skill of your choice\nBook of Skill",
+    "code": "ass"
   },
   "ear": {
     "name": "ear",
-    "display_name": "Ear"
+    "display_name": "Ear",
+    "code": "ear"
   },
   "gcv": {
     "name": "chipped_amethyst",
-    "display_name": "Chipped Amethyst"
+    "display_name": "Chipped Amethyst",
+    "code": "gcv"
   },
   "gfv": {
     "name": "flawed_amethyst",
-    "display_name": "Flawed Amethyst"
+    "display_name": "Flawed Amethyst",
+    "code": "gfv"
   },
   "gsv": {
     "name": "amethyst",
-    "display_name": "Amethyst"
+    "display_name": "Amethyst",
+    "code": "gsv"
   },
   "gzv": {
     "name": "flawless_amethyst",
-    "display_name": "Flawless Amethyst"
+    "display_name": "Flawless Amethyst",
+    "code": "gzv"
   },
   "gpv": {
     "name": "perfect_amethyst",
-    "display_name": "Perfect Amethyst"
+    "display_name": "Perfect Amethyst",
+    "code": "gpv"
   },
   "gcy": {
     "name": "chipped_topaz",
-    "display_name": "Chipped Topaz"
+    "display_name": "Chipped Topaz",
+    "code": "gcy"
   },
   "gfy": {
     "name": "flawed_topaz",
-    "display_name": "Flawed Topaz"
+    "display_name": "Flawed Topaz",
+    "code": "gfy"
   },
   "gsy": {
     "name": "topaz",
-    "display_name": "Topaz"
+    "display_name": "Topaz",
+    "code": "gsy"
   },
   "gly": {
     "name": "flawless_topaz",
-    "display_name": "Flawless Topaz"
+    "display_name": "Flawless Topaz",
+    "code": "gly"
   },
   "gpy": {
     "name": "perfect_topaz",
-    "display_name": "Perfect Topaz"
+    "display_name": "Perfect Topaz",
+    "code": "gpy"
   },
   "gcb": {
     "name": "chipped_sapphire",
-    "display_name": "Chipped Sapphire"
+    "display_name": "Chipped Sapphire",
+    "code": "gcb"
   },
   "gfb": {
     "name": "flawed_sapphire",
-    "display_name": "Flawed Sapphire"
+    "display_name": "Flawed Sapphire",
+    "code": "gfb"
   },
   "gsb": {
     "name": "sapphire",
-    "display_name": "Sapphire"
+    "display_name": "Sapphire",
+    "code": "gsb"
   },
   "glb": {
     "name": "flawless_sapphire",
-    "display_name": "Flawless Sapphire"
+    "display_name": "Flawless Sapphire",
+    "code": "glb"
   },
   "gpb": {
     "name": "perfect_sapphire",
-    "display_name": "Perfect Sapphire"
+    "display_name": "Perfect Sapphire",
+    "code": "gpb"
   },
   "gcg": {
     "name": "chipped_emerald",
-    "display_name": "Chipped Emerald"
+    "display_name": "Chipped Emerald",
+    "code": "gcg"
   },
   "gfg": {
     "name": "flawed_emerald",
-    "display_name": "Flawed Emerald"
+    "display_name": "Flawed Emerald",
+    "code": "gfg"
   },
   "glg": {
     "name": "flawless_emerald",
-    "display_name": "Flawless Emerald"
+    "display_name": "Flawless Emerald",
+    "code": "glg"
   },
   "gsg": {
     "name": "emerald",
-    "display_name": "Emerald"
+    "display_name": "Emerald",
+    "code": "gsg"
   },
   "gpg": {
     "name": "perfect_emerald",
-    "display_name": "Perfect Emerald"
+    "display_name": "Perfect Emerald",
+    "code": "gpg"
   },
   "gcr": {
     "name": "chipped_ruby",
-    "display_name": "Chipped Ruby"
+    "display_name": "Chipped Ruby",
+    "code": "gcr"
   },
   "gfr": {
     "name": "flawed_ruby",
-    "display_name": "Flawed Ruby"
+    "display_name": "Flawed Ruby",
+    "code": "gfr"
   },
   "gsr": {
     "name": "ruby",
-    "display_name": "Ruby"
+    "display_name": "Ruby",
+    "code": "gsr"
   },
   "glr": {
     "name": "flawless_ruby",
-    "display_name": "Flawless Ruby"
+    "display_name": "Flawless Ruby",
+    "code": "glr"
   },
   "gpr": {
     "name": "perfect_ruby",
-    "display_name": "Perfect Ruby"
+    "display_name": "Perfect Ruby",
+    "code": "gpr"
   },
   "gcw": {
     "name": "chipped_diamond",
-    "display_name": "Chipped Diamond"
+    "display_name": "Chipped Diamond",
+    "code": "gcw"
   },
   "gfw": {
     "name": "flawed_diamond",
-    "display_name": "Flawed Diamond"
+    "display_name": "Flawed Diamond",
+    "code": "gfw"
   },
   "gsw": {
     "name": "diamond",
-    "display_name": "Diamond"
+    "display_name": "Diamond",
+    "code": "gsw"
   },
   "glw": {
     "name": "flawless_diamond",
-    "display_name": "Flawless Diamond"
+    "display_name": "Flawless Diamond",
+    "code": "glw"
   },
   "gpw": {
     "name": "perfect_diamond",
-    "display_name": "Perfect Diamond"
+    "display_name": "Perfect Diamond",
+    "code": "gpw"
   },
   "hp1": {
     "name": "minor_healing_potion",
-    "display_name": "Minor Healing Potion"
+    "display_name": "Minor Healing Potion",
+    "code": "hp1"
   },
   "hp2": {
     "name": "light_healing_potion",
-    "display_name": "Light Healing Potion"
+    "display_name": "Light Healing Potion",
+    "code": "hp2"
   },
   "hp3": {
     "name": "healing_potion",
-    "display_name": "Healing Potion"
+    "display_name": "Healing Potion",
+    "code": "hp3"
   },
   "hp4": {
     "name": "greater_healing_potion",
-    "display_name": "Greater Healing Potion"
+    "display_name": "Greater Healing Potion",
+    "code": "hp4"
   },
   "hp5": {
     "name": "super_healing_potion",
-    "display_name": "Super Healing Potion"
+    "display_name": "Super Healing Potion",
+    "code": "hp5"
   },
   "mp1": {
     "name": "minor_mana_potion",
-    "display_name": "Minor Mana Potion"
+    "display_name": "Minor Mana Potion",
+    "code": "mp1"
   },
   "mp2": {
     "name": "light_mana_potion",
-    "display_name": "Light Mana Potion"
+    "display_name": "Light Mana Potion",
+    "code": "mp2"
   },
   "mp3": {
     "name": "mana_potion",
-    "display_name": "Mana Potion"
+    "display_name": "Mana Potion",
+    "code": "mp3"
   },
   "mp4": {
     "name": "greater_mana_potion",
-    "display_name": "Greater Mana Potion"
+    "display_name": "Greater Mana Potion",
+    "code": "mp4"
   },
   "mp5": {
     "name": "super_mana_potion",
-    "display_name": "Super Mana Potion"
+    "display_name": "Super Mana Potion",
+    "code": "mp5"
   },
   "hrb": {
     "name": "herb",
-    "display_name": "Herb"
+    "display_name": "Herb",
+    "code": "hrb"
   },
   "skc": {
     "name": "chipped_skull",
-    "display_name": "Chipped Skull"
+    "display_name": "Chipped Skull",
+    "code": "skc"
   },
   "skf": {
     "name": "flawed_skull",
-    "display_name": "Flawed Skull"
+    "display_name": "Flawed Skull",
+    "code": "skf"
   },
   "sku": {
     "name": "skull",
-    "display_name": "Skull"
+    "display_name": "Skull",
+    "code": "sku"
   },
   "skl": {
     "name": "flawless_skull",
-    "display_name": "Flawless Skull"
+    "display_name": "Flawless Skull",
+    "code": "skl"
   },
   "skz": {
     "name": "perfect_skull",
-    "display_name": "Perfect Skull"
+    "display_name": "Perfect Skull",
+    "code": "skz"
   },
   "Civerb's Vestments": {
     "name": "civerbs_vestments",
-    "display_name": "Civerb's Vestments"
+    "display_name": "Civerb's Vestments",
+    "code": "Civerb's Vestments"
   },
   "Cleglaw's Brace": {
     "name": "cleglaws_brace",
-    "display_name": "Cleglaw's Brace"
+    "display_name": "Cleglaw's Brace",
+    "code": "Cleglaw's Brace"
   },
   "Iratha's Finery": {
     "name": "irathas_finery",
-    "display_name": "Iratha's Finery"
+    "display_name": "Iratha's Finery",
+    "code": "Iratha's Finery"
   },
   "Isenhart's Armory": {
     "name": "isenharts_armory",
-    "display_name": "Isenhart's Armory"
+    "display_name": "Isenhart's Armory",
+    "code": "Isenhart's Armory"
   },
   "Vidala's Rig": {
     "name": "vidalas_rig",
-    "display_name": "Vidala's Rig"
+    "display_name": "Vidala's Rig",
+    "code": "Vidala's Rig"
   },
   "Milabrega's Regalia": {
     "name": "milabregas_regalia",
-    "display_name": "Milabrega's Regalia"
+    "display_name": "Milabrega's Regalia",
+    "code": "Milabrega's Regalia"
   },
   "Cathan's Traps": {
     "name": "cathans_traps",
-    "display_name": "Cathan's Traps"
+    "display_name": "Cathan's Traps",
+    "code": "Cathan's Traps"
   },
   "Tancred's Battlegear": {
     "name": "tancreds_battlegear",
-    "display_name": "Tancred's Battlegear"
+    "display_name": "Tancred's Battlegear",
+    "code": "Tancred's Battlegear"
   },
   "Sigon's Complete Steel": {
     "name": "sigons_complete_steel",
-    "display_name": "Sigon's Complete Steel"
+    "display_name": "Sigon's Complete Steel",
+    "code": "Sigon's Complete Steel"
   },
   "Infernal Tools": {
     "name": "infernal_tools",
-    "display_name": "Infernal Tools"
+    "display_name": "Infernal Tools",
+    "code": "Infernal Tools"
   },
   "Berserker's Garb": {
     "name": "berserkers_arsenal",
-    "display_name": "Berserker's Arsenal"
+    "display_name": "Berserker's Arsenal",
+    "code": "Berserker's Garb"
   },
   "Death's Disguise": {
     "name": "deaths_disguise",
-    "display_name": "Death's Disguise"
+    "display_name": "Death's Disguise",
+    "code": "Death's Disguise"
   },
   "Angelical Raiment": {
     "name": "angelic_raiment",
-    "display_name": "Angelic Raiment"
+    "display_name": "Angelic Raiment",
+    "code": "Angelical Raiment"
   },
   "Arctic Gear": {
     "name": "arctic_gear",
-    "display_name": "Arctic Gear"
+    "display_name": "Arctic Gear",
+    "code": "Arctic Gear"
   },
   "Arcanna's Tricks": {
     "name": "arcannas_tricks",
-    "display_name": "Arcanna's Tricks"
+    "display_name": "Arcanna's Tricks",
+    "code": "Arcanna's Tricks"
   },
   "ktr": {
     "name": "katar",
-    "display_name": "Katar"
+    "display_name": "Katar",
+    "code": "ktr"
   },
   "wrb": {
     "name": "wrist_blade",
-    "display_name": "Wrist Blade"
+    "display_name": "Wrist Blade",
+    "code": "wrb"
   },
   "ces": {
     "name": "cestus",
-    "display_name": "Cestus"
+    "display_name": "Cestus",
+    "code": "ces"
   },
   "clw": {
     "name": "claws",
-    "display_name": "Claws"
+    "display_name": "Claws",
+    "code": "clw"
   },
   "btl": {
     "name": "blade_talons",
-    "display_name": "Blade Talons"
+    "display_name": "Blade Talons",
+    "code": "btl"
   },
   "skr": {
     "name": "scissors_katar",
-    "display_name": "Scissors Katar"
+    "display_name": "Scissors Katar",
+    "code": "skr"
   },
   "9ar": {
     "name": "quhab",
-    "display_name": "Quhab"
+    "display_name": "Quhab",
+    "code": "9ar"
   },
   "9wb": {
     "name": "wrist_spike",
-    "display_name": "Wrist Spike"
+    "display_name": "Wrist Spike",
+    "code": "9wb"
   },
   "9xf": {
     "name": "fascia",
-    "display_name": "Fascia"
+    "display_name": "Fascia",
+    "code": "9xf"
   },
   "9cs": {
     "name": "hand_scythe",
-    "display_name": "Hand Scythe"
+    "display_name": "Hand Scythe",
+    "code": "9cs"
   },
   "9lw": {
     "name": "greater_claws",
-    "display_name": "Greater Claws"
+    "display_name": "Greater Claws",
+    "code": "9lw"
   },
   "9tw": {
     "name": "greater_talons",
-    "display_name": "Greater Talons"
+    "display_name": "Greater Talons",
+    "code": "9tw"
   },
   "9qr": {
     "name": "scissors_quhab",
-    "display_name": "Scissors Quhab"
+    "display_name": "Scissors Quhab",
+    "code": "9qr"
   },
   "7ar": {
     "name": "suwayyah",
-    "display_name": "Suwayyah"
+    "display_name": "Suwayyah",
+    "code": "7ar"
   },
   "7wb": {
     "name": "wrist_sword",
-    "display_name": "Wrist Sword"
+    "display_name": "Wrist Sword",
+    "code": "7wb"
   },
   "7xf": {
     "name": "war_fist",
-    "display_name": "War Fist"
+    "display_name": "War Fist",
+    "code": "7xf"
   },
   "7cs": {
     "name": "battle_cestus",
-    "display_name": "Battle Cestus"
+    "display_name": "Battle Cestus",
+    "code": "7cs"
   },
   "7lw": {
     "name": "feral_claws",
-    "display_name": "Feral Claws"
+    "display_name": "Feral Claws",
+    "code": "7lw"
   },
   "7tw": {
     "name": "runic_talons",
-    "display_name": "Runic Talons"
+    "display_name": "Runic Talons",
+    "code": "7tw"
   },
   "7qr": {
     "name": "scissors_suwayyah",
-    "display_name": "Scissors Suwayyah"
+    "display_name": "Scissors Suwayyah",
+    "code": "7qr"
   },
   "7ha": {
     "name": "tomahawk",
-    "display_name": "Tomahawk"
+    "display_name": "Tomahawk",
+    "code": "7ha"
   },
   "7ax": {
     "name": "small_crescent",
-    "display_name": "Small Crescent"
+    "display_name": "Small Crescent",
+    "code": "7ax"
   },
   "72a": {
     "name": "ettin_axe",
-    "display_name": "Ettin Axe"
+    "display_name": "Ettin Axe",
+    "code": "72a"
   },
   "7mp": {
     "name": "war_spike",
-    "display_name": "War Spike"
+    "display_name": "War Spike",
+    "code": "7mp"
   },
   "7wa": {
     "name": "berserker_axe",
-    "display_name": "Berserker Axe"
+    "display_name": "Berserker Axe",
+    "code": "7wa"
   },
   "7la": {
     "name": "feral_axe",
-    "display_name": "Feral Axe"
+    "display_name": "Feral Axe",
+    "code": "7la"
   },
   "7ba": {
     "name": "silveredged_axe",
-    "display_name": "Silver-edged Axe"
+    "display_name": "Silver-edged Axe",
+    "code": "7ba"
   },
   "7bt": {
     "name": "decapitator",
-    "display_name": "Decapitator"
+    "display_name": "Decapitator",
+    "code": "7bt"
   },
   "7ga": {
     "name": "champion_axe",
-    "display_name": "Champion Axe"
+    "display_name": "Champion Axe",
+    "code": "7ga"
   },
   "7gi": {
     "name": "glorious_axe",
-    "display_name": "Glorious Axe"
+    "display_name": "Glorious Axe",
+    "code": "7gi"
   },
   "7wn": {
     "name": "polished_wand",
-    "display_name": "Polished Wand"
+    "display_name": "Polished Wand",
+    "code": "7wn"
   },
   "7yw": {
     "name": "ghost_wand",
-    "display_name": "Ghost Wand"
+    "display_name": "Ghost Wand",
+    "code": "7yw"
   },
   "7bw": {
     "name": "lich_wand",
-    "display_name": "Lich Wand"
+    "display_name": "Lich Wand",
+    "code": "7bw"
   },
   "7gw": {
     "name": "unearthed_wand",
-    "display_name": "Unearthed Wand"
+    "display_name": "Unearthed Wand",
+    "code": "7gw"
   },
   "7cl": {
     "name": "truncheon",
-    "display_name": "Truncheon"
+    "display_name": "Truncheon",
+    "code": "7cl"
   },
   "7sc": {
     "name": "mighty_scepter",
-    "display_name": "Mighty Scepter"
+    "display_name": "Mighty Scepter",
+    "code": "7sc"
   },
   "7qs": {
     "name": "seraph_rod",
-    "display_name": "Seraph Rod"
+    "display_name": "Seraph Rod",
+    "code": "7qs"
   },
   "7ws": {
     "name": "caduceus",
-    "display_name": "Caduceus"
+    "display_name": "Caduceus",
+    "code": "7ws"
   },
   "7sp": {
     "name": "tyrant_club",
-    "display_name": "Tyrant Club"
+    "display_name": "Tyrant Club",
+    "code": "7sp"
   },
   "7ma": {
     "name": "reinforced_mace",
-    "display_name": "Reinforced Mace"
+    "display_name": "Reinforced Mace",
+    "code": "7ma"
   },
   "7mt": {
     "name": "devil_star",
-    "display_name": "Devil Star"
+    "display_name": "Devil Star",
+    "code": "7mt"
   },
   "7fl": {
     "name": "scourge",
-    "display_name": "Scourge"
+    "display_name": "Scourge",
+    "code": "7fl"
   },
   "7wh": {
     "name": "legendary_mallet",
-    "display_name": "Legendary Mallet"
+    "display_name": "Legendary Mallet",
+    "code": "7wh"
   },
   "7m7": {
     "name": "ogre_maul",
-    "display_name": "Ogre Maul"
+    "display_name": "Ogre Maul",
+    "code": "7m7"
   },
   "7gm": {
     "name": "thunder_maul",
-    "display_name": "Thunder Maul"
+    "display_name": "Thunder Maul",
+    "code": "7gm"
   },
   "7ss": {
     "name": "falcata",
-    "display_name": "Falcata"
+    "display_name": "Falcata",
+    "code": "7ss"
   },
   "7sm": {
     "name": "ataghan",
-    "display_name": "Ataghan"
+    "display_name": "Ataghan",
+    "code": "7sm"
   },
   "7sb": {
     "name": "elegant_blade",
-    "display_name": "Elegant Blade"
+    "display_name": "Elegant Blade",
+    "code": "7sb"
   },
   "7fc": {
     "name": "hydra_edge",
-    "display_name": "Hydra Edge"
+    "display_name": "Hydra Edge",
+    "code": "7fc"
   },
   "7cr": {
     "name": "phase_blade",
-    "display_name": "Phase Blade"
+    "display_name": "Phase Blade",
+    "code": "7cr"
   },
   "7bs": {
     "name": "conquest_sword",
-    "display_name": "Conquest Sword"
+    "display_name": "Conquest Sword",
+    "code": "7bs"
   },
   "7ls": {
     "name": "cryptic_sword",
-    "display_name": "Cryptic Sword"
+    "display_name": "Cryptic Sword",
+    "code": "7ls"
   },
   "7wd": {
     "name": "mythical_sword",
-    "display_name": "Mythical Sword"
+    "display_name": "Mythical Sword",
+    "code": "7wd"
   },
   "72h": {
     "name": "legend_sword",
-    "display_name": "Legend Sword"
+    "display_name": "Legend Sword",
+    "code": "72h"
   },
   "7cm": {
     "name": "highland_blade",
-    "display_name": "Highland Blade"
+    "display_name": "Highland Blade",
+    "code": "7cm"
   },
   "7gs": {
     "name": "balrog_blade",
-    "display_name": "Balrog Blade"
+    "display_name": "Balrog Blade",
+    "code": "7gs"
   },
   "7b7": {
     "name": "champion_sword",
-    "display_name": "Champion Sword"
+    "display_name": "Champion Sword",
+    "code": "7b7"
   },
   "7fb": {
     "name": "colossus_sword",
-    "display_name": "Colossus Sword"
+    "display_name": "Colossus Sword",
+    "code": "7fb"
   },
   "7gd": {
     "name": "colossus_blade",
-    "display_name": "Colossus Blade"
+    "display_name": "Colossus Blade",
+    "code": "7gd"
   },
   "7dg": {
     "name": "bone_knife",
-    "display_name": "Bone Knife"
+    "display_name": "Bone Knife",
+    "code": "7dg"
   },
   "7di": {
     "name": "mithril_point",
-    "display_name": "Mithril Point"
+    "display_name": "Mithril Point",
+    "code": "7di"
   },
   "7kr": {
     "name": "fanged_knife",
-    "display_name": "Fanged Knife"
+    "display_name": "Fanged Knife",
+    "code": "7kr"
   },
   "7bl": {
     "name": "legend_spike",
-    "display_name": "Legend Spike"
+    "display_name": "Legend Spike",
+    "code": "7bl"
   },
   "7tk": {
     "name": "flying_knife",
-    "display_name": "Flying Knife"
+    "display_name": "Flying Knife",
+    "code": "7tk"
   },
   "7ta": {
     "name": "flying_axe",
-    "display_name": "Flying Axe"
+    "display_name": "Flying Axe",
+    "code": "7ta"
   },
   "7bk": {
     "name": "winged_knife",
-    "display_name": "Winged Knife"
+    "display_name": "Winged Knife",
+    "code": "7bk"
   },
   "7b8": {
     "name": "winged_axe",
-    "display_name": "Winged Axe"
+    "display_name": "Winged Axe",
+    "code": "7b8"
   },
   "7ja": {
     "name": "hyperion_javelin",
-    "display_name": "Hyperion Javelin"
+    "display_name": "Hyperion Javelin",
+    "code": "7ja"
   },
   "7pi": {
     "name": "stygian_pilum",
-    "display_name": "Stygian Pilum"
+    "display_name": "Stygian Pilum",
+    "code": "7pi"
   },
   "7s7": {
     "name": "balrog_spear",
-    "display_name": "Balrog Spear"
+    "display_name": "Balrog Spear",
+    "code": "7s7"
   },
   "7gl": {
     "name": "ghost_glaive",
-    "display_name": "Ghost Glaive"
+    "display_name": "Ghost Glaive",
+    "code": "7gl"
   },
   "7ts": {
     "name": "winged_harpoon",
-    "display_name": "Winged Harpoon"
+    "display_name": "Winged Harpoon",
+    "code": "7ts"
   },
   "7sr": {
     "name": "hyperion_spear",
-    "display_name": "Hyperion Spear"
+    "display_name": "Hyperion Spear",
+    "code": "7sr"
   },
   "7tr": {
     "name": "stygian_pike",
-    "display_name": "Stygian Pike"
+    "display_name": "Stygian Pike",
+    "code": "7tr"
   },
   "7br": {
     "name": "mancatcher",
-    "display_name": "Mancatcher"
+    "display_name": "Mancatcher",
+    "code": "7br"
   },
   "7st": {
     "name": "ghost_spear",
-    "display_name": "Ghost Spear"
+    "display_name": "Ghost Spear",
+    "code": "7st"
   },
   "7p7": {
     "name": "war_pike",
-    "display_name": "War Pike"
+    "display_name": "War Pike",
+    "code": "7p7"
   },
   "7o7": {
     "name": "ogre_axe",
-    "display_name": "Ogre Axe"
+    "display_name": "Ogre Axe",
+    "code": "7o7"
   },
   "7vo": {
     "name": "colossus_voulge",
-    "display_name": "Colossus Voulge"
+    "display_name": "Colossus Voulge",
+    "code": "7vo"
   },
   "7s8": {
     "name": "thresher",
-    "display_name": "Thresher"
+    "display_name": "Thresher",
+    "code": "7s8"
   },
   "7pa": {
     "name": "cryptic_axe",
-    "display_name": "Cryptic Axe"
+    "display_name": "Cryptic Axe",
+    "code": "7pa"
   },
   "7h7": {
     "name": "great_poleaxe",
-    "display_name": "Great Poleaxe"
+    "display_name": "Great Poleaxe",
+    "code": "7h7"
   },
   "7wc": {
     "name": "giant_thresher",
-    "display_name": "Giant Thresher"
+    "display_name": "Giant Thresher",
+    "code": "7wc"
   },
   "6ss": {
     "name": "walking_stick",
-    "display_name": "Walking Stick"
+    "display_name": "Walking Stick",
+    "code": "6ss"
   },
   "6ls": {
     "name": "stalagmite",
-    "display_name": "Stalagmite"
+    "display_name": "Stalagmite",
+    "code": "6ls"
   },
   "6cs": {
     "name": "elder_staff",
-    "display_name": "Elder Staff"
+    "display_name": "Elder Staff",
+    "code": "6cs"
   },
   "6bs": {
     "name": "shillelagh",
-    "display_name": "Shillelagh"
+    "display_name": "Shillelagh",
+    "code": "6bs"
   },
   "6ws": {
     "name": "archon_staff",
-    "display_name": "Archon Staff"
+    "display_name": "Archon Staff",
+    "code": "6ws"
   },
   "6sb": {
     "name": "spider_bow",
-    "display_name": "Spider Bow"
+    "display_name": "Spider Bow",
+    "code": "6sb"
   },
   "6hb": {
     "name": "blade_bow",
-    "display_name": "Blade Bow"
+    "display_name": "Blade Bow",
+    "code": "6hb"
   },
   "6lb": {
     "name": "shadow_bow",
-    "display_name": "Shadow Bow"
+    "display_name": "Shadow Bow",
+    "code": "6lb"
   },
   "6cb": {
     "name": "great_bow",
-    "display_name": "Great Bow"
+    "display_name": "Great Bow",
+    "code": "6cb"
   },
   "6s7": {
     "name": "diamond_bow",
-    "display_name": "Diamond Bow"
+    "display_name": "Diamond Bow",
+    "code": "6s7"
   },
   "6l7": {
     "name": "crusader_bow",
-    "display_name": "Crusader Bow"
+    "display_name": "Crusader Bow",
+    "code": "6l7"
   },
   "6sw": {
     "name": "ward_bow",
-    "display_name": "Ward Bow"
+    "display_name": "Ward Bow",
+    "code": "6sw"
   },
   "6lw": {
     "name": "hydra_bow",
-    "display_name": "Hydra Bow"
+    "display_name": "Hydra Bow",
+    "code": "6lw"
   },
   "6lx": {
     "name": "pellet_bow",
-    "display_name": "Pellet Bow"
+    "display_name": "Pellet Bow",
+    "code": "6lx"
   },
   "6mx": {
     "name": "gorgon_crossbow",
-    "display_name": "Gorgon Crossbow"
+    "display_name": "Gorgon Crossbow",
+    "code": "6mx"
   },
   "6hx": {
     "name": "colossus_crossbow",
-    "display_name": "Colossus Crossbow"
+    "display_name": "Colossus Crossbow",
+    "code": "6hx"
   },
   "6rx": {
     "name": "demon_crossbow",
-    "display_name": "Demon Crossbow"
+    "display_name": "Demon Crossbow",
+    "code": "6rx"
   },
   "am1": {
     "name": "stag_bow",
-    "display_name": "Stag Bow"
+    "display_name": "Stag Bow",
+    "code": "am1"
   },
   "am2": {
     "name": "reflex_bow",
-    "display_name": "Reflex Bow"
+    "display_name": "Reflex Bow",
+    "code": "am2"
   },
   "am3": {
     "name": "maiden_spear",
-    "display_name": "Maiden Spear"
+    "display_name": "Maiden Spear",
+    "code": "am3"
   },
   "am4": {
     "name": "maiden_pike",
-    "display_name": "Maiden Pike"
+    "display_name": "Maiden Pike",
+    "code": "am4"
   },
   "am5": {
     "name": "maiden_javelin",
-    "display_name": "Maiden Javelin"
+    "display_name": "Maiden Javelin",
+    "code": "am5"
   },
   "ob6": {
     "name": "glowing_orb",
-    "display_name": "Glowing Orb"
+    "display_name": "Glowing Orb",
+    "code": "ob6"
   },
   "ob7": {
     "name": "crystalline_globe",
-    "display_name": "Crystalline Globe"
+    "display_name": "Crystalline Globe",
+    "code": "ob7"
   },
   "ob8": {
     "name": "cloudy_sphere",
-    "display_name": "Cloudy Sphere"
+    "display_name": "Cloudy Sphere",
+    "code": "ob8"
   },
   "ob9": {
     "name": "sparkling_ball",
-    "display_name": "Sparkling Ball"
+    "display_name": "Sparkling Ball",
+    "code": "ob9"
   },
   "oba": {
     "name": "swirling_crystal",
-    "display_name": "Swirling Crystal"
+    "display_name": "Swirling Crystal",
+    "code": "oba"
   },
   "am6": {
     "name": "ashwood_bow",
-    "display_name": "Ashwood Bow"
+    "display_name": "Ashwood Bow",
+    "code": "am6"
   },
   "am7": {
     "name": "ceremonial_bow",
-    "display_name": "Ceremonial Bow"
+    "display_name": "Ceremonial Bow",
+    "code": "am7"
   },
   "am8": {
     "name": "ceremonial_spear",
-    "display_name": "Ceremonial Spear"
+    "display_name": "Ceremonial Spear",
+    "code": "am8"
   },
   "am9": {
     "name": "ceremonial_pike",
-    "display_name": "Ceremonial Pike"
+    "display_name": "Ceremonial Pike",
+    "code": "am9"
   },
   "ama": {
     "name": "ceremonial_javelin",
-    "display_name": "Ceremonial Javelin"
+    "display_name": "Ceremonial Javelin",
+    "code": "ama"
   },
   "obb": {
     "name": "heavenly_stone",
-    "display_name": "Heavenly Stone"
+    "display_name": "Heavenly Stone",
+    "code": "obb"
   },
   "obc": {
     "name": "eldritch_orb",
-    "display_name": "Eldritch Orb"
+    "display_name": "Eldritch Orb",
+    "code": "obc"
   },
   "obd": {
     "name": "demon_heart",
-    "display_name": "Demon Heart"
+    "display_name": "Demon Heart",
+    "code": "obd"
   },
   "obe": {
     "name": "vortex_orb",
-    "display_name": "Vortex Orb"
+    "display_name": "Vortex Orb",
+    "code": "obe"
   },
   "obf": {
     "name": "dimensional_shard",
-    "display_name": "Dimensional Shard"
+    "display_name": "Dimensional Shard",
+    "code": "obf"
   },
   "amb": {
     "name": "matriarchal_bow",
-    "display_name": "Matriarchal Bow"
+    "display_name": "Matriarchal Bow",
+    "code": "amb"
   },
   "amc": {
     "name": "grand_matron_bow",
-    "display_name": "Grand Matron Bow"
+    "display_name": "Grand Matron Bow",
+    "code": "amc"
   },
   "amd": {
     "name": "matriarchal_spear",
-    "display_name": "Matriarchal Spear"
+    "display_name": "Matriarchal Spear",
+    "code": "amd"
   },
   "ame": {
     "name": "matriarchal_pike",
-    "display_name": "Matriarchal Pike"
+    "display_name": "Matriarchal Pike",
+    "code": "ame"
   },
   "amf": {
     "name": "matriarchal_javelin",
-    "display_name": "Matriarchal Javelin"
+    "display_name": "Matriarchal Javelin",
+    "code": "amf"
   },
   "ba1": {
     "name": "jawbone_cap",
-    "display_name": "Jawbone Cap"
+    "display_name": "Jawbone Cap",
+    "code": "ba1"
   },
   "ba2": {
     "name": "fanged_helm",
-    "display_name": "Fanged Helm"
+    "display_name": "Fanged Helm",
+    "code": "ba2"
   },
   "ba3": {
     "name": "horned_helm",
-    "display_name": "Horned Helm"
+    "display_name": "Horned Helm",
+    "code": "ba3"
   },
   "ba4": {
     "name": "assault_helmet",
-    "display_name": "Assault Helmet"
+    "display_name": "Assault Helmet",
+    "code": "ba4"
   },
   "ba5": {
     "name": "avenger_guard",
-    "display_name": "Avenger Guard"
+    "display_name": "Avenger Guard",
+    "code": "ba5"
   },
   "pa1": {
     "name": "targe",
-    "display_name": "Targe"
+    "display_name": "Targe",
+    "code": "pa1"
   },
   "pa2": {
     "name": "rondache",
-    "display_name": "Rondache"
+    "display_name": "Rondache",
+    "code": "pa2"
   },
   "pa3": {
     "name": "heraldic_shield",
-    "display_name": "Heraldic Shield"
+    "display_name": "Heraldic Shield",
+    "code": "pa3"
   },
   "pa4": {
     "name": "aerin_shield",
-    "display_name": "Aerin Shield"
+    "display_name": "Aerin Shield",
+    "code": "pa4"
   },
   "pa5": {
     "name": "crown_shield",
-    "display_name": "Crown Shield"
+    "display_name": "Crown Shield",
+    "code": "pa5"
   },
   "ci0": {
     "name": "circlet",
-    "display_name": "Circlet"
+    "display_name": "Circlet",
+    "code": "ci0"
   },
   "ci1": {
     "name": "coronet",
-    "display_name": "Coronet"
+    "display_name": "Coronet",
+    "code": "ci1"
   },
   "ci2": {
     "name": "tiara",
-    "display_name": "Tiara"
+    "display_name": "Tiara",
+    "code": "ci2"
   },
   "ci3": {
     "name": "diadem",
-    "display_name": "Diadem"
+    "display_name": "Diadem",
+    "code": "ci3"
   },
   "uap": {
     "name": "shako",
-    "display_name": "Shako"
+    "display_name": "Shako",
+    "code": "uap"
   },
   "ukp": {
     "name": "hydraskull",
-    "display_name": "Hydraskull"
+    "display_name": "Hydraskull",
+    "code": "ukp"
   },
   "ulm": {
     "name": "armet",
-    "display_name": "Armet"
+    "display_name": "Armet",
+    "code": "ulm"
   },
   "uhl": {
     "name": "giant_conch",
-    "display_name": "Giant Conch"
+    "display_name": "Giant Conch",
+    "code": "uhl"
   },
   "uhm": {
     "name": "spired_helm",
-    "display_name": "Spired Helm"
+    "display_name": "Spired Helm",
+    "code": "uhm"
   },
   "urn": {
     "name": "corona",
-    "display_name": "Corona"
+    "display_name": "Corona",
+    "code": "urn"
   },
   "usk": {
     "name": "demonhead",
-    "display_name": "Demonhead"
+    "display_name": "Demonhead",
+    "code": "usk"
   },
   "uui": {
     "name": "dusk_shroud",
-    "display_name": "Dusk Shroud"
+    "display_name": "Dusk Shroud",
+    "code": "uui"
   },
   "uea": {
     "name": "wyrmhide",
-    "display_name": "Wyrmhide"
+    "display_name": "Wyrmhide",
+    "code": "uea"
   },
   "ula": {
     "name": "scarab_husk",
-    "display_name": "Scarab Husk"
+    "display_name": "Scarab Husk",
+    "code": "ula"
   },
   "utu": {
     "name": "wire_fleece",
-    "display_name": "Wire Fleece"
+    "display_name": "Wire Fleece",
+    "code": "utu"
   },
   "ung": {
     "name": "diamond_mail",
-    "display_name": "Diamond Mail"
+    "display_name": "Diamond Mail",
+    "code": "ung"
   },
   "ucl": {
     "name": "loricated_mail",
-    "display_name": "Loricated Mail"
+    "display_name": "Loricated Mail",
+    "code": "ucl"
   },
   "uhn": {
     "name": "boneweave",
-    "display_name": "Boneweave"
+    "display_name": "Boneweave",
+    "code": "uhn"
   },
   "urs": {
     "name": "great_hauberk",
-    "display_name": "Great Hauberk"
+    "display_name": "Great Hauberk",
+    "code": "urs"
   },
   "upl": {
     "name": "balrog_skin",
-    "display_name": "Balrog Skin"
+    "display_name": "Balrog Skin",
+    "code": "upl"
   },
   "ult": {
     "name": "hellforge_plate",
-    "display_name": "Hellforge Plate"
+    "display_name": "Hellforge Plate",
+    "code": "ult"
   },
   "uld": {
     "name": "kraken_shell",
-    "display_name": "Kraken Shell"
+    "display_name": "Kraken Shell",
+    "code": "uld"
   },
   "uth": {
     "name": "lacquered_plate",
-    "display_name": "Lacquered Plate"
+    "display_name": "Lacquered Plate",
+    "code": "uth"
   },
   "uul": {
     "name": "shadow_plate",
-    "display_name": "Shadow Plate"
+    "display_name": "Shadow Plate",
+    "code": "uul"
   },
   "uar": {
     "name": "sacred_armor",
-    "display_name": "Sacred Armor"
+    "display_name": "Sacred Armor",
+    "code": "uar"
   },
   "utp": {
     "name": "archon_plate",
-    "display_name": "Archon Plate"
+    "display_name": "Archon Plate",
+    "code": "utp"
   },
   "uuc": {
     "name": "heater",
-    "display_name": "Heater"
+    "display_name": "Heater",
+    "code": "uuc"
   },
   "uml": {
     "name": "luna",
-    "display_name": "Luna"
+    "display_name": "Luna",
+    "code": "uml"
   },
   "urg": {
     "name": "hyperion",
-    "display_name": "Hyperion"
+    "display_name": "Hyperion",
+    "code": "urg"
   },
   "uit": {
     "name": "monarch",
-    "display_name": "Monarch"
+    "display_name": "Monarch",
+    "code": "uit"
   },
   "uow": {
     "name": "aegis",
-    "display_name": "Aegis"
+    "display_name": "Aegis",
+    "code": "uow"
   },
   "uts": {
     "name": "ward",
-    "display_name": "Ward"
+    "display_name": "Ward",
+    "code": "uts"
   },
   "ulg": {
     "name": "bramble_mitts",
-    "display_name": "Bramble Mitts"
+    "display_name": "Bramble Mitts",
+    "code": "ulg"
   },
   "uvg": {
     "name": "vampirebone_gloves",
-    "display_name": "Vampirebone Gloves"
+    "display_name": "Vampirebone Gloves",
+    "code": "uvg"
   },
   "umg": {
     "name": "vambraces",
-    "display_name": "Vambraces"
+    "display_name": "Vambraces",
+    "code": "umg"
   },
   "utg": {
     "name": "crusader_gauntlets",
-    "display_name": "Crusader Gauntlets"
+    "display_name": "Crusader Gauntlets",
+    "code": "utg"
   },
   "uhg": {
     "name": "ogre_gauntlets",
-    "display_name": "Ogre Gauntlets"
+    "display_name": "Ogre Gauntlets",
+    "code": "uhg"
   },
   "ulb": {
     "name": "wyrmhide_boots",
-    "display_name": "Wyrmhide Boots"
+    "display_name": "Wyrmhide Boots",
+    "code": "ulb"
   },
   "uvb": {
     "name": "scarabshell_boots",
-    "display_name": "Scarabshell Boots"
+    "display_name": "Scarabshell Boots",
+    "code": "uvb"
   },
   "umb": {
     "name": "boneweave_boots",
-    "display_name": "Boneweave Boots"
+    "display_name": "Boneweave Boots",
+    "code": "umb"
   },
   "utb": {
     "name": "mirrored_boots",
-    "display_name": "Mirrored Boots"
+    "display_name": "Mirrored Boots",
+    "code": "utb"
   },
   "uhb": {
     "name": "myrmidon_greaves",
-    "display_name": "Myrmidon Greaves"
+    "display_name": "Myrmidon Greaves",
+    "code": "uhb"
   },
   "ulc": {
     "name": "spiderweb_sash",
-    "display_name": "Spiderweb Sash"
+    "display_name": "Spiderweb Sash",
+    "code": "ulc"
   },
   "uvc": {
     "name": "vampirefang_belt",
-    "display_name": "Vampirefang Belt"
+    "display_name": "Vampirefang Belt",
+    "code": "uvc"
   },
   "umc": {
     "name": "mithril_coil",
-    "display_name": "Mithril Coil"
+    "display_name": "Mithril Coil",
+    "code": "umc"
   },
   "utc": {
     "name": "troll_belt",
-    "display_name": "Troll Belt"
+    "display_name": "Troll Belt",
+    "code": "utc"
   },
   "uhc": {
     "name": "colossus_girdle",
-    "display_name": "Colossus Girdle"
+    "display_name": "Colossus Girdle",
+    "code": "uhc"
   },
   "uh9": {
     "name": "bone_visage",
-    "display_name": "Bone Visage"
+    "display_name": "Bone Visage",
+    "code": "uh9"
   },
   "ush": {
     "name": "troll_nest",
-    "display_name": "Troll Nest"
+    "display_name": "Troll Nest",
+    "code": "ush"
   },
   "upk": {
     "name": "blade_barrier",
-    "display_name": "Blade Barrier"
+    "display_name": "Blade Barrier",
+    "code": "upk"
   },
   "dr9": {
     "name": "sacred_feathers",
-    "display_name": "Sacred Feathers"
+    "display_name": "Sacred Feathers",
+    "code": "dr9"
   },
   "dr7": {
     "name": "griffon_headdress",
-    "display_name": "Griffon Headdress"
+    "display_name": "Griffon Headdress",
+    "code": "dr7"
   },
   "dr8": {
     "name": "hunters_guise",
-    "display_name": "Hunter's Guise"
+    "display_name": "Hunter's Guise",
+    "code": "dr8"
   },
   "dr6": {
     "name": "alpha_helm",
-    "display_name": "Alpha Helm"
+    "display_name": "Alpha Helm",
+    "code": "dr6"
   },
   "dra": {
     "name": "totemic_mask",
-    "display_name": "Totemic Mask"
+    "display_name": "Totemic Mask",
+    "code": "dra"
   },
   "ba6": {
     "name": "jawbone_visor",
-    "display_name": "Jawbone Visor"
+    "display_name": "Jawbone Visor",
+    "code": "ba6"
   },
   "ba7": {
     "name": "lion_helm",
-    "display_name": "Lion Helm"
+    "display_name": "Lion Helm",
+    "code": "ba7"
   },
   "ba8": {
     "name": "rage_mask",
-    "display_name": "Rage Mask"
+    "display_name": "Rage Mask",
+    "code": "ba8"
   },
   "ba9": {
     "name": "savage_helmet",
-    "display_name": "Savage Helmet"
+    "display_name": "Savage Helmet",
+    "code": "ba9"
   },
   "baa": {
     "name": "slayer_guard",
-    "display_name": "Slayer Guard"
+    "display_name": "Slayer Guard",
+    "code": "baa"
   },
   "pa6": {
     "name": "akaran_targe",
-    "display_name": "Akaran Targe"
+    "display_name": "Akaran Targe",
+    "code": "pa6"
   },
   "pa7": {
     "name": "akaran_rondache",
-    "display_name": "Akaran Rondache"
+    "display_name": "Akaran Rondache",
+    "code": "pa7"
   },
   "pa8": {
     "name": "protector_shield",
-    "display_name": "Protector Shield"
+    "display_name": "Protector Shield",
+    "code": "pa8"
   },
   "pa9": {
     "name": "gilded_shield",
-    "display_name": "Gilded Shield"
+    "display_name": "Gilded Shield",
+    "code": "pa9"
   },
   "paa": {
     "name": "royal_shield",
-    "display_name": "Royal Shield"
+    "display_name": "Royal Shield",
+    "code": "paa"
   },
   "ne6": {
     "name": "mummified_trophy",
-    "display_name": "Mummified Trophy"
+    "display_name": "Mummified Trophy",
+    "code": "ne6"
   },
   "ne7": {
     "name": "fetish_trophy",
-    "display_name": "Fetish Trophy"
+    "display_name": "Fetish Trophy",
+    "code": "ne7"
   },
   "ne8": {
     "name": "sexton_trophy",
-    "display_name": "Sexton Trophy"
+    "display_name": "Sexton Trophy",
+    "code": "ne8"
   },
   "ne9": {
     "name": "cantor_trophy",
-    "display_name": "Cantor Trophy"
+    "display_name": "Cantor Trophy",
+    "code": "ne9"
   },
   "nea": {
     "name": "hierophant_trophy",
-    "display_name": "Hierophant Trophy"
+    "display_name": "Hierophant Trophy",
+    "code": "nea"
   },
   "dre": {
     "name": "sky_spirit",
-    "display_name": "Sky Spirit"
+    "display_name": "Sky Spirit",
+    "code": "dre"
   },
   "drc": {
     "name": "sun_spirit",
-    "display_name": "Sun Spirit"
+    "display_name": "Sun Spirit",
+    "code": "drc"
   },
   "drd": {
     "name": "earth_spirit",
-    "display_name": "Earth Spirit"
+    "display_name": "Earth Spirit",
+    "code": "drd"
   },
   "drb": {
     "name": "blood_spirit",
-    "display_name": "Blood Spirit"
+    "display_name": "Blood Spirit",
+    "code": "drb"
   },
   "drf": {
     "name": "dream_spirit",
-    "display_name": "Dream Spirit"
+    "display_name": "Dream Spirit",
+    "code": "drf"
   },
   "bab": {
     "name": "carnage_helm",
-    "display_name": "Carnage Helm"
+    "display_name": "Carnage Helm",
+    "code": "bab"
   },
   "bac": {
     "name": "fury_visor",
-    "display_name": "Fury Visor"
+    "display_name": "Fury Visor",
+    "code": "bac"
   },
   "bad": {
     "name": "destroyer_helm",
-    "display_name": "Destroyer Helm"
+    "display_name": "Destroyer Helm",
+    "code": "bad"
   },
   "bae": {
     "name": "conqueror_crown",
-    "display_name": "Conqueror Crown"
+    "display_name": "Conqueror Crown",
+    "code": "bae"
   },
   "baf": {
     "name": "guardian_crown",
-    "display_name": "Guardian Crown"
+    "display_name": "Guardian Crown",
+    "code": "baf"
   },
   "pab": {
     "name": "sacred_targe",
-    "display_name": "Sacred Targe"
+    "display_name": "Sacred Targe",
+    "code": "pab"
   },
   "pac": {
     "name": "sacred_rondache",
-    "display_name": "Sacred Rondache"
+    "display_name": "Sacred Rondache",
+    "code": "pac"
   },
   "pae": {
     "name": "zakarum_shield",
-    "display_name": "Zakarum Shield"
+    "display_name": "Zakarum Shield",
+    "code": "pae"
   },
   "paf": {
     "name": "vortex_shield",
-    "display_name": "Vortex Shield"
+    "display_name": "Vortex Shield",
+    "code": "paf"
   },
   "neb": {
     "name": "minion_skull",
-    "display_name": "Minion Skull"
+    "display_name": "Minion Skull",
+    "code": "neb"
   },
   "ned": {
     "name": "overseer_skull",
-    "display_name": "Overseer Skull"
+    "display_name": "Overseer Skull",
+    "code": "ned"
   },
   "nee": {
     "name": "succubus_skull",
-    "display_name": "Succubus Skull"
+    "display_name": "Succubus Skull",
+    "code": "nee"
   },
   "nef": {
     "name": "bloodlord_skull",
-    "display_name": "Bloodlord Skull"
+    "display_name": "Bloodlord Skull",
+    "code": "nef"
   },
   "jew": {
     "name": "jewel",
-    "display_name": "Jewel"
+    "display_name": "Jewel",
+    "code": "jew"
   },
   "cm1": {
     "name": "small_charm",
-    "display_name": "Small Charm"
+    "display_name": "Small Charm",
+    "code": "cm1"
   },
   "cm2": {
     "name": "large_charm",
-    "display_name": "Large Charm"
+    "display_name": "Large Charm",
+    "code": "cm2"
   },
   "cm3": {
     "name": "grand_charm",
-    "display_name": "Grand Charm"
+    "display_name": "Grand Charm",
+    "code": "cm3"
   },
   "ice": {
     "name": "keep_it_to_thaw_anyamalahs_potion",
-    "display_name": "Keep it to thaw Anya\nMalah's Potion"
+    "display_name": "Keep it to thaw Anya\nMalah's Potion",
+    "code": "ice"
   },
   "r33": {
     "name": "zod_rune",
-    "display_name": "Zod Rune"
+    "display_name": "Zod Rune",
+    "code": "r33"
   },
   "r32": {
     "name": "cham_rune",
-    "display_name": "Cham Rune"
+    "display_name": "Cham Rune",
+    "code": "r32"
   },
   "r31": {
     "name": "jah_rune",
-    "display_name": "Jah Rune"
+    "display_name": "Jah Rune",
+    "code": "r31"
   },
   "r30": {
     "name": "ber_rune",
-    "display_name": "Ber Rune"
+    "display_name": "Ber Rune",
+    "code": "r30"
   },
   "r29": {
     "name": "sur_rune",
-    "display_name": "Sur Rune"
+    "display_name": "Sur Rune",
+    "code": "r29"
   },
   "r28": {
     "name": "lo_rune",
-    "display_name": "Lo Rune"
+    "display_name": "Lo Rune",
+    "code": "r28"
   },
   "r27": {
     "name": "ohm_rune",
-    "display_name": "Ohm Rune"
+    "display_name": "Ohm Rune",
+    "code": "r27"
   },
   "r26": {
     "name": "vex_rune",
-    "display_name": "Vex Rune"
+    "display_name": "Vex Rune",
+    "code": "r26"
   },
   "r25": {
     "name": "gul_rune",
-    "display_name": "Gul Rune"
+    "display_name": "Gul Rune",
+    "code": "r25"
   },
   "r24": {
     "name": "ist_rune",
-    "display_name": "Ist Rune"
+    "display_name": "Ist Rune",
+    "code": "r24"
   },
   "r23": {
     "name": "mal_rune",
-    "display_name": "Mal Rune"
+    "display_name": "Mal Rune",
+    "code": "r23"
   },
   "r22": {
     "name": "um_rune",
-    "display_name": "Um Rune"
+    "display_name": "Um Rune",
+    "code": "r22"
   },
   "r21": {
     "name": "pul_rune",
-    "display_name": "Pul Rune"
+    "display_name": "Pul Rune",
+    "code": "r21"
   },
   "r20": {
     "name": "lem_rune",
-    "display_name": "Lem Rune"
+    "display_name": "Lem Rune",
+    "code": "r20"
   },
   "r19": {
     "name": "fal_rune",
-    "display_name": "Fal Rune"
+    "display_name": "Fal Rune",
+    "code": "r19"
   },
   "r18": {
     "name": "ko_rune",
-    "display_name": "Ko Rune"
+    "display_name": "Ko Rune",
+    "code": "r18"
   },
   "r17": {
     "name": "lum_rune",
-    "display_name": "Lum Rune"
+    "display_name": "Lum Rune",
+    "code": "r17"
   },
   "r16": {
     "name": "io_rune",
-    "display_name": "Io Rune"
+    "display_name": "Io Rune",
+    "code": "r16"
   },
   "r15": {
     "name": "hel_rune",
-    "display_name": "Hel Rune"
+    "display_name": "Hel Rune",
+    "code": "r15"
   },
   "r14": {
     "name": "dol_rune",
-    "display_name": "Dol Rune"
+    "display_name": "Dol Rune",
+    "code": "r14"
   },
   "r13": {
     "name": "shael_rune",
-    "display_name": "Shael Rune"
+    "display_name": "Shael Rune",
+    "code": "r13"
   },
   "r12": {
     "name": "sol_rune",
-    "display_name": "Sol Rune"
+    "display_name": "Sol Rune",
+    "code": "r12"
   },
   "r11": {
     "name": "amn_rune",
-    "display_name": "Amn Rune"
+    "display_name": "Amn Rune",
+    "code": "r11"
   },
   "r10": {
     "name": "thul_rune",
-    "display_name": "Thul Rune"
+    "display_name": "Thul Rune",
+    "code": "r10"
   },
   "r09": {
     "name": "ort_rune",
-    "display_name": "Ort Rune"
+    "display_name": "Ort Rune",
+    "code": "r09"
   },
   "r08": {
     "name": "ral_rune",
-    "display_name": "Ral Rune"
+    "display_name": "Ral Rune",
+    "code": "r08"
   },
   "r07": {
     "name": "tal_rune",
-    "display_name": "Tal Rune"
+    "display_name": "Tal Rune",
+    "code": "r07"
   },
   "r06": {
     "name": "ith_rune",
-    "display_name": "Ith Rune"
+    "display_name": "Ith Rune",
+    "code": "r06"
   },
   "r05": {
     "name": "eth_rune",
-    "display_name": "Eth Rune"
+    "display_name": "Eth Rune",
+    "code": "r05"
   },
   "r04": {
     "name": "nef_rune",
-    "display_name": "Nef Rune"
+    "display_name": "Nef Rune",
+    "code": "r04"
   },
   "r03": {
     "name": "tir_rune",
-    "display_name": "Tir Rune"
+    "display_name": "Tir Rune",
+    "code": "r03"
   },
   "r02": {
     "name": "eld_rune",
-    "display_name": "Eld Rune"
+    "display_name": "Eld Rune",
+    "code": "r02"
   },
   "r01": {
     "name": "el_rune",
-    "display_name": "El Rune"
+    "display_name": "El Rune",
+    "code": "r01"
   },
   "spe": {
     "name": "spleen",
-    "display_name": "Spleen"
+    "display_name": "Spleen",
+    "code": "spe"
   },
   "scz": {
     "name": "scalp",
-    "display_name": "Scalp"
+    "display_name": "Scalp",
+    "code": "scz"
   },
   "sol": {
     "name": "soul",
-    "display_name": "Soul"
+    "display_name": "Soul",
+    "code": "sol"
   },
   "qll": {
     "name": "quill",
-    "display_name": "Quill"
+    "display_name": "Quill",
+    "code": "qll"
   },
   "fng": {
     "name": "fang",
-    "display_name": "Fang"
+    "display_name": "Fang",
+    "code": "fng"
   },
   "flg": {
     "name": "flag",
-    "display_name": "Flag"
+    "display_name": "Flag",
+    "code": "flg"
   },
   "tal": {
     "name": "tail",
-    "display_name": "Tail"
+    "display_name": "Tail",
+    "code": "tal"
   },
   "hrn": {
     "name": "horn",
-    "display_name": "Horn"
+    "display_name": "Horn",
+    "code": "hrn"
   },
   "eyz": {
     "name": "eye",
-    "display_name": "Eye"
+    "display_name": "Eye",
+    "code": "eyz"
   },
   "jaw": {
     "name": "jawbone",
-    "display_name": "Jawbone"
+    "display_name": "Jawbone",
+    "code": "jaw"
   },
   "brz": {
     "name": "brain",
-    "display_name": "Brain"
+    "display_name": "Brain",
+    "code": "brz"
   },
   "hrt": {
     "name": "heart",
-    "display_name": "Heart"
+    "display_name": "Heart",
+    "code": "hrt"
   },
   "Naj's Puzzler": {
     "name": "najs_puzzler",
-    "display_name": "Naj's Puzzler"
+    "display_name": "Naj's Puzzler",
+    "code": "Naj's Puzzler"
   },
   "Trang-Oul's Avatar": {
     "name": "trangouls_avatar",
-    "display_name": "Trang-Oul's Avatar"
+    "display_name": "Trang-Oul's Avatar",
+    "code": "Trang-Oul's Avatar"
   },
   "Trang-Oul's Guise": {
     "name": "trangouls_guise",
-    "display_name": "Trang-Oul's Guise"
+    "display_name": "Trang-Oul's Guise",
+    "code": "Trang-Oul's Guise"
   },
   "Trang-Oul's Wing": {
     "name": "trangouls_wing",
-    "display_name": "Trang-Oul's Wing"
+    "display_name": "Trang-Oul's Wing",
+    "code": "Trang-Oul's Wing"
   },
   "Trang-Oul's Scales": {
     "name": "trangouls_scales",
-    "display_name": "Trang-Oul's Scales"
+    "display_name": "Trang-Oul's Scales",
+    "code": "Trang-Oul's Scales"
   },
   "Trang-Oul's Claws": {
     "name": "trangouls_claws",
-    "display_name": "Trang-Oul's Claws"
+    "display_name": "Trang-Oul's Claws",
+    "code": "Trang-Oul's Claws"
   },
   "Trang-Oul's Girth": {
     "name": "trangouls_girth",
-    "display_name": "Trang-Oul's Girth"
+    "display_name": "Trang-Oul's Girth",
+    "code": "Trang-Oul's Girth"
   },
   "Natalya's Odium": {
     "name": "natalyas_odium",
-    "display_name": "Natalya's Odium"
+    "display_name": "Natalya's Odium",
+    "code": "Natalya's Odium"
   },
   "Natalya's Totem": {
     "name": "natalyas_totem",
-    "display_name": "Natalya's Totem"
+    "display_name": "Natalya's Totem",
+    "code": "Natalya's Totem"
   },
   "Natalya's Mark": {
     "name": "natalyas_mark",
-    "display_name": "Natalya's Mark"
+    "display_name": "Natalya's Mark",
+    "code": "Natalya's Mark"
   },
   "Natalya's Shadow": {
     "name": "natalyas_shadow",
-    "display_name": "Natalya's Shadow"
+    "display_name": "Natalya's Shadow",
+    "code": "Natalya's Shadow"
   },
   "Natalya's Soul": {
     "name": "natalyas_soul",
-    "display_name": "Natalya's Soul"
+    "display_name": "Natalya's Soul",
+    "code": "Natalya's Soul"
   },
   "Griswold's Legacy": {
     "name": "griswolds_legacy",
-    "display_name": "Griswold's Legacy"
+    "display_name": "Griswold's Legacy",
+    "code": "Griswold's Legacy"
   },
   "Griswolds's Redemption": {
     "name": "griswolds_redemption",
-    "display_name": "Griswold's Redemption"
+    "display_name": "Griswold's Redemption",
+    "code": "Griswolds's Redemption"
   },
   "Griswold's Honor": {
     "name": "griswolds_honor",
-    "display_name": "Griswold's Honor"
+    "display_name": "Griswold's Honor",
+    "code": "Griswold's Honor"
   },
   "Griswold's Heart": {
     "name": "griswolds_heart",
-    "display_name": "Griswold's Heart"
+    "display_name": "Griswold's Heart",
+    "code": "Griswold's Heart"
   },
   "Griswold's Valor": {
     "name": "griswolds_valor",
-    "display_name": "Griswold's Valor"
+    "display_name": "Griswold's Valor",
+    "code": "Griswold's Valor"
   },
   "Bul-Kathos' Children": {
     "name": "bulkathos_children",
-    "display_name": "Bul-Kathos' Children"
+    "display_name": "Bul-Kathos' Children",
+    "code": "Bul-Kathos' Children"
   },
   "Bul-Kathos' Sacred Charge": {
     "name": "bulkathos_sacred_charge",
-    "display_name": "Bul-Kathos' Sacred Charge"
+    "display_name": "Bul-Kathos' Sacred Charge",
+    "code": "Bul-Kathos' Sacred Charge"
   },
   "Bul-Kathos' Tribal Guardian": {
     "name": "bulkathos_tribal_guardian",
-    "display_name": "Bul-Kathos' Tribal Guardian"
+    "display_name": "Bul-Kathos' Tribal Guardian",
+    "code": "Bul-Kathos' Tribal Guardian"
   },
   "Aldur's Watchtower": {
     "name": "aldurs_watchtower",
-    "display_name": "Aldur's Watchtower"
+    "display_name": "Aldur's Watchtower",
+    "code": "Aldur's Watchtower"
   },
   "Aldur's Stony Gaze": {
     "name": "aldurs_stony_gaze",
-    "display_name": "Aldur's Stony Gaze"
+    "display_name": "Aldur's Stony Gaze",
+    "code": "Aldur's Stony Gaze"
   },
   "Aldur's Deception": {
     "name": "aldurs_deception",
-    "display_name": "Aldur's Deception"
+    "display_name": "Aldur's Deception",
+    "code": "Aldur's Deception"
   },
   "Aldur's Advance": {
     "name": "aldurs_advance",
-    "display_name": "Aldur's Advance"
+    "display_name": "Aldur's Advance",
+    "code": "Aldur's Advance"
   },
   "M'avina's Battle Hymn": {
     "name": "mavinas_battle_hymn",
-    "display_name": "M'avina's Battle Hymn"
+    "display_name": "M'avina's Battle Hymn",
+    "code": "M'avina's Battle Hymn"
   },
   "M'avina's True Sight": {
     "name": "mavinas_true_sight",
-    "display_name": "M'avina's True Sight"
+    "display_name": "M'avina's True Sight",
+    "code": "M'avina's True Sight"
   },
   "M'avina's Embrace": {
     "name": "mavinas_embrace",
-    "display_name": "M'avina's Embrace"
+    "display_name": "M'avina's Embrace",
+    "code": "M'avina's Embrace"
   },
   "M'avina's Icy Clutch": {
     "name": "mavinas_icy_clutch",
-    "display_name": "M'avina's Icy Clutch"
+    "display_name": "M'avina's Icy Clutch",
+    "code": "M'avina's Icy Clutch"
   },
   "M'avina's Tenet": {
     "name": "mavinas_tenet",
-    "display_name": "M'avina's Tenet"
+    "display_name": "M'avina's Tenet",
+    "code": "M'avina's Tenet"
   },
   "M'avina's Caster": {
     "name": "mavinas_caster",
-    "display_name": "M'avina's Caster"
+    "display_name": "M'avina's Caster",
+    "code": "M'avina's Caster"
   },
   "Sazabi's Grand Tribute": {
     "name": "sazabis_grand_tribute",
-    "display_name": "Sazabi's Grand Tribute"
+    "display_name": "Sazabi's Grand Tribute",
+    "code": "Sazabi's Grand Tribute"
   },
   "Sazabi's Cobalt Redeemer": {
     "name": "sazabis_cobalt_redeemer",
-    "display_name": "Sazabi's Cobalt Redeemer"
+    "display_name": "Sazabi's Cobalt Redeemer",
+    "code": "Sazabi's Cobalt Redeemer"
   },
   "Sazabi's Ghost Liberator": {
     "name": "sazabis_ghost_liberator",
-    "display_name": "Sazabi's Ghost Liberator"
+    "display_name": "Sazabi's Ghost Liberator",
+    "code": "Sazabi's Ghost Liberator"
   },
   "Sazabi's Mental Sheath": {
     "name": "sazabis_mental_sheath",
-    "display_name": "Sazabi's Mental Sheath"
+    "display_name": "Sazabi's Mental Sheath",
+    "code": "Sazabi's Mental Sheath"
   },
   "Hwanin's Majesty": {
     "name": "hwanins_majesty",
-    "display_name": "Hwanin's Majesty"
+    "display_name": "Hwanin's Majesty",
+    "code": "Hwanin's Majesty"
   },
   "Hwanin's Justice": {
     "name": "hwanins_justice",
-    "display_name": "Hwanin's Justice"
+    "display_name": "Hwanin's Justice",
+    "code": "Hwanin's Justice"
   },
   "Hwanin's Splendor": {
     "name": "hwanins_splendor",
-    "display_name": "Hwanin's Splendor"
+    "display_name": "Hwanin's Splendor",
+    "code": "Hwanin's Splendor"
   },
   "Hwanin's Refuge": {
     "name": "hwanins_refuge",
-    "display_name": "Hwanin's Refuge"
+    "display_name": "Hwanin's Refuge",
+    "code": "Hwanin's Refuge"
   },
   "The Disciple": {
     "name": "the_disciple",
-    "display_name": "The Disciple"
+    "display_name": "The Disciple",
+    "code": "The Disciple"
   },
   "Telling of Beads": {
     "name": "telling_of_beads",
-    "display_name": "Telling of Beads"
+    "display_name": "Telling of Beads",
+    "code": "Telling of Beads"
   },
   "Laying of Hands": {
     "name": "laying_of_hands",
-    "display_name": "Laying of Hands"
+    "display_name": "Laying of Hands",
+    "code": "Laying of Hands"
   },
   "Rite of Passage": {
     "name": "rite_of_passage",
-    "display_name": "Rite of Passage"
+    "display_name": "Rite of Passage",
+    "code": "Rite of Passage"
   },
   "Spiritual Custodian": {
     "name": "dark_adherent",
-    "display_name": "Dark Adherent"
+    "display_name": "Dark Adherent",
+    "code": "Spiritual Custodian"
   },
   "Credendum": {
     "name": "credendum",
-    "display_name": "Credendum"
+    "display_name": "Credendum",
+    "code": "Credendum"
   },
   "Cow King's Leathers": {
     "name": "cow_kings_leathers",
-    "display_name": "Cow King's Leathers"
+    "display_name": "Cow King's Leathers",
+    "code": "Cow King's Leathers"
   },
   "Cow King's Horns": {
     "name": "cow_kings_horns",
-    "display_name": "Cow King's Horns"
+    "display_name": "Cow King's Horns",
+    "code": "Cow King's Horns"
   },
   "Cow King's Hide": {
     "name": "cow_kings_hide",
-    "display_name": "Cow King's Hide"
+    "display_name": "Cow King's Hide",
+    "code": "Cow King's Hide"
   },
   "Cow King's Hoofs": {
     "name": "cow_kings_hooves",
-    "display_name": "Cow King's Hooves"
+    "display_name": "Cow King's Hooves",
+    "code": "Cow King's Hoofs"
   },
   "Orphan's Call": {
     "name": "orphans_call",
-    "display_name": "Orphan's Call"
+    "display_name": "Orphan's Call",
+    "code": "Orphan's Call"
   },
   "Guillaume's Face": {
     "name": "guillaumes_face",
-    "display_name": "Guillaume's Face"
+    "display_name": "Guillaume's Face",
+    "code": "Guillaume's Face"
   },
   "Magnus' Skin": {
     "name": "magnus_skin",
-    "display_name": "Magnus' Skin"
+    "display_name": "Magnus' Skin",
+    "code": "Magnus' Skin"
   },
   "Wihtstan's Guard": {
     "name": "whitstans_guard",
-    "display_name": "Whitstan's Guard"
+    "display_name": "Whitstan's Guard",
+    "code": "Wihtstan's Guard"
   },
   "pad": {
     "name": "kurast_shield",
-    "display_name": "Kurast Shield"
+    "display_name": "Kurast Shield",
+    "code": "pad"
   },
   "axf": {
     "name": "hatchet_hands",
-    "display_name": "Hatchet Hands"
+    "display_name": "Hatchet Hands",
+    "code": "axf"
   },
   "0sc": {
     "name": "scroll_of_knowledge",
-    "display_name": "Scroll of Knowledge"
+    "display_name": "Scroll of Knowledge",
+    "code": "0sc"
   },
   "tr2": {
     "name": "right_click_to_castscroll_of_resistance",
-    "display_name": "Right Click to Cast\nScroll of Resistance"
+    "display_name": "Right Click to Cast\nScroll of Resistance",
+    "code": "tr2"
   },
   "Tal Rasha's Wrappings": {
     "name": "tal_rashas_wrappings",
-    "display_name": "Tal Rasha's Wrappings"
+    "display_name": "Tal Rasha's Wrappings",
+    "code": "Tal Rasha's Wrappings"
   },
   "Tal Rasha's Fire-Spun Cloth": {
     "name": "tal_rashas_finespun_cloth",
-    "display_name": "Tal Rasha's Fine-Spun Cloth"
+    "display_name": "Tal Rasha's Fine-Spun Cloth",
+    "code": "Tal Rasha's Fire-Spun Cloth"
   },
   "Tal Rasha's Adjudication": {
     "name": "tal_rashas_adjudication",
-    "display_name": "Tal Rasha's Adjudication"
+    "display_name": "Tal Rasha's Adjudication",
+    "code": "Tal Rasha's Adjudication"
   },
   "Tal Rasha's Howling Wind": {
     "name": "tal_rashas_guardianship",
-    "display_name": "Tal Rasha's Guardianship"
+    "display_name": "Tal Rasha's Guardianship",
+    "code": "Tal Rasha's Howling Wind"
   },
   "Tal Rasha's Lidless Eye": {
     "name": "tal_rashas_lidless_eye",
-    "display_name": "Tal Rasha's Lidless Eye"
+    "display_name": "Tal Rasha's Lidless Eye",
+    "code": "Tal Rasha's Lidless Eye"
   },
   "Tal Rasha's Horadric Crest": {
     "name": "tal_rashas_horadric_crest",
-    "display_name": "Tal Rasha's Horadric Crest"
+    "display_name": "Tal Rasha's Horadric Crest",
+    "code": "Tal Rasha's Horadric Crest"
   },
   "Hwanin's Seal": {
     "name": "hwanins_blessing",
-    "display_name": "Hwanin's Blessing"
+    "display_name": "Hwanin's Blessing",
+    "code": "Hwanin's Seal"
   },
   "Heaven's Brethren": {
     "name": "heavens_brethren",
-    "display_name": "Heaven's Brethren"
+    "display_name": "Heaven's Brethren",
+    "code": "Heaven's Brethren"
   },
   "Dangoon's Teaching": {
     "name": "dangoons_teaching",
-    "display_name": "Dangoon's Teaching"
+    "display_name": "Dangoon's Teaching",
+    "code": "Dangoon's Teaching"
   },
   "Ondal's Almighty": {
     "name": "ondals_almighty",
-    "display_name": "Ondal's Almighty"
+    "display_name": "Ondal's Almighty",
+    "code": "Ondal's Almighty"
   },
   "Heaven's Taebaek": {
     "name": "taebaeks_glory",
-    "display_name": "Taebaek's Glory"
+    "display_name": "Taebaek's Glory",
+    "code": "Heaven's Taebaek"
   },
   "Haemosu's Adament": {
     "name": "haemosus_adamant",
-    "display_name": "Haemosu's Adamant"
+    "display_name": "Haemosu's Adamant",
+    "code": "Haemosu's Adament"
   },
   "Naj's Ancient Set": {
     "name": "najs_ancient_vestige",
-    "display_name": "Naj's Ancient Vestige"
+    "display_name": "Naj's Ancient Vestige",
+    "code": "Naj's Ancient Set"
   },
   "Naj's Light Plate": {
     "name": "najs_light_plate",
-    "display_name": "Naj's Light Plate"
+    "display_name": "Naj's Light Plate",
+    "code": "Naj's Light Plate"
   },
   "Naj's Circlet": {
     "name": "najs_circlet",
-    "display_name": "Naj's Circlet"
+    "display_name": "Naj's Circlet",
+    "code": "Naj's Circlet"
   },
   "Wilhelm's Pride": {
     "name": "wilhelms_pride",
-    "display_name": "Wilhelm's Pride"
+    "display_name": "Wilhelm's Pride",
+    "code": "Wilhelm's Pride"
   },
   "Immortal King's Stone Crusher": {
     "name": "immortal_kings_stone_crusher",
-    "display_name": "Immortal King's Stone Crusher"
+    "display_name": "Immortal King's Stone Crusher",
+    "code": "Immortal King's Stone Crusher"
   },
   "Immortal King's Pillar": {
     "name": "immortal_kings_pillar",
-    "display_name": "Immortal King's Pillar"
+    "display_name": "Immortal King's Pillar",
+    "code": "Immortal King's Pillar"
   },
   "Immortal King's Forge": {
     "name": "immortal_kings_forge",
-    "display_name": "Immortal King's Forge"
+    "display_name": "Immortal King's Forge",
+    "code": "Immortal King's Forge"
   },
   "Immortal King's Detail": {
     "name": "immortal_kings_detail",
-    "display_name": "Immortal King's Detail"
+    "display_name": "Immortal King's Detail",
+    "code": "Immortal King's Detail"
   },
   "Immortal King's Soul Cage": {
     "name": "immortal_kings_soul_cage",
-    "display_name": "Immortal King's Soul Cage"
+    "display_name": "Immortal King's Soul Cage",
+    "code": "Immortal King's Soul Cage"
   },
   "Immortal King's Will": {
     "name": "immortal_kings_will",
-    "display_name": "Immortal King's Will"
+    "display_name": "Immortal King's Will",
+    "code": "Immortal King's Will"
   },
   "Immortal King": {
     "name": "immortal_king",
-    "display_name": "Immortal King"
+    "display_name": "Immortal King",
+    "code": "Immortal King"
   },
   "Aldur's Gauntlet": {
     "name": "aldurs_rhythm",
-    "display_name": "Aldur's Rhythm"
+    "display_name": "Aldur's Rhythm",
+    "code": "Aldur's Gauntlet"
   },
   "McAuley's Superstition": {
     "name": "sanders_superstition",
-    "display_name": "Sander's Superstition"
+    "display_name": "Sander's Superstition",
+    "code": "McAuley's Superstition"
   },
   "McAuley's Taboo": {
     "name": "sanders_taboo",
-    "display_name": "Sander's Taboo"
+    "display_name": "Sander's Taboo",
+    "code": "McAuley's Taboo"
   },
   "McAuley's Riprap": {
     "name": "sanders_riprap",
-    "display_name": "Sander's Riprap"
+    "display_name": "Sander's Riprap",
+    "code": "McAuley's Riprap"
   },
   "McAuley's Paragon": {
     "name": "sanders_paragon",
-    "display_name": "Sander's Paragon"
+    "display_name": "Sander's Paragon",
+    "code": "McAuley's Paragon"
   },
   "McAuley's Folly": {
     "name": "sanders_folly",
-    "display_name": "Sander's Folly"
+    "display_name": "Sander's Folly",
+    "code": "McAuley's Folly"
   },
   "Hsarus' Defense": {
     "name": "hsarus_defense",
-    "display_name": "Hsarus' Defense"
+    "display_name": "Hsarus' Defense",
+    "code": "Hsarus' Defense"
   },
   "Civerb's Ward": {
     "name": "civerbs_ward",
-    "display_name": "Civerb's Ward"
+    "display_name": "Civerb's Ward",
+    "code": "Civerb's Ward"
   },
   "Civerb's Icon": {
     "name": "civerbs_icon",
-    "display_name": "Civerb's Icon"
+    "display_name": "Civerb's Icon",
+    "code": "Civerb's Icon"
   },
   "Civerb's Cudgel": {
     "name": "civerbs_cudgel",
-    "display_name": "Civerb's Cudgel"
+    "display_name": "Civerb's Cudgel",
+    "code": "Civerb's Cudgel"
   },
   "Hsarus' Iron Heel": {
     "name": "hsarus_iron_heel",
-    "display_name": "Hsarus' Iron Heel"
+    "display_name": "Hsarus' Iron Heel",
+    "code": "Hsarus' Iron Heel"
   },
   "Hsarus' Iron Fist": {
     "name": "hsarus_iron_fist",
-    "display_name": "Hsarus' Iron Fist"
+    "display_name": "Hsarus' Iron Fist",
+    "code": "Hsarus' Iron Fist"
   },
   "Hsarus' Iron Stay": {
     "name": "hsarus_iron_stay",
-    "display_name": "Hsarus' Iron Stay"
+    "display_name": "Hsarus' Iron Stay",
+    "code": "Hsarus' Iron Stay"
   },
   "Cleglaw's Tooth": {
     "name": "cleglaws_tooth",
-    "display_name": "Cleglaw's Tooth"
+    "display_name": "Cleglaw's Tooth",
+    "code": "Cleglaw's Tooth"
   },
   "Cleglaw's Claw": {
     "name": "cleglaws_claw",
-    "display_name": "Cleglaw's Claw"
+    "display_name": "Cleglaw's Claw",
+    "code": "Cleglaw's Claw"
   },
   "Cleglaw's Pincers": {
     "name": "cleglaws_pincers",
-    "display_name": "Cleglaw's Pincers"
+    "display_name": "Cleglaw's Pincers",
+    "code": "Cleglaw's Pincers"
   },
   "Iratha's Cord": {
     "name": "irathas_cord",
-    "display_name": "Iratha's Cord"
+    "display_name": "Iratha's Cord",
+    "code": "Iratha's Cord"
   },
   "Iratha's Coil": {
     "name": "irathas_coil",
-    "display_name": "Iratha's Coil"
+    "display_name": "Iratha's Coil",
+    "code": "Iratha's Coil"
   },
   "Iratha's Cuff": {
     "name": "irathas_cuff",
-    "display_name": "Iratha's Cuff"
+    "display_name": "Iratha's Cuff",
+    "code": "Iratha's Cuff"
   },
   "Iratha's Collar": {
     "name": "irathas_collar",
-    "display_name": "Iratha's Collar"
+    "display_name": "Iratha's Collar",
+    "code": "Iratha's Collar"
   },
   "Isenhart's Horns": {
     "name": "isenharts_horns",
-    "display_name": "Isenhart's Horns"
+    "display_name": "Isenhart's Horns",
+    "code": "Isenhart's Horns"
   },
   "Isenhart's Case": {
     "name": "isenharts_case",
-    "display_name": "Isenhart's Case"
+    "display_name": "Isenhart's Case",
+    "code": "Isenhart's Case"
   },
   "Isenhart's Parry": {
     "name": "isenharts_parry",
-    "display_name": "Isenhart's Parry"
+    "display_name": "Isenhart's Parry",
+    "code": "Isenhart's Parry"
   },
   "Isenhart's Lightbrand": {
     "name": "isenharts_lightbrand",
-    "display_name": "Isenhart's Lightbrand"
+    "display_name": "Isenhart's Lightbrand",
+    "code": "Isenhart's Lightbrand"
   },
   "Vidala's Snare": {
     "name": "vidalas_snare",
-    "display_name": "Vidala's Snare"
+    "display_name": "Vidala's Snare",
+    "code": "Vidala's Snare"
   },
   "Vidala's Ambush": {
     "name": "vidalas_ambush",
-    "display_name": "Vidala's Ambush"
+    "display_name": "Vidala's Ambush",
+    "code": "Vidala's Ambush"
   },
   "Vidala's Fetlock": {
     "name": "vidalas_fetlock",
-    "display_name": "Vidala's Fetlock"
+    "display_name": "Vidala's Fetlock",
+    "code": "Vidala's Fetlock"
   },
   "Vidala's Barb": {
     "name": "vidalas_barb",
-    "display_name": "Vidala's Barb"
+    "display_name": "Vidala's Barb",
+    "code": "Vidala's Barb"
   },
   "Milabrega's Robe": {
     "name": "milabregas_robe",
-    "display_name": "Milabrega's Robe"
+    "display_name": "Milabrega's Robe",
+    "code": "Milabrega's Robe"
   },
   "Milabrega's Diadem": {
     "name": "milabregas_diadem",
-    "display_name": "Milabrega's Diadem"
+    "display_name": "Milabrega's Diadem",
+    "code": "Milabrega's Diadem"
   },
   "Milabrega's Rod": {
     "name": "milabregas_rod",
-    "display_name": "Milabrega's Rod"
+    "display_name": "Milabrega's Rod",
+    "code": "Milabrega's Rod"
   },
   "Milabrega's Orb": {
     "name": "milabregas_orb",
-    "display_name": "Milabrega's Orb"
+    "display_name": "Milabrega's Orb",
+    "code": "Milabrega's Orb"
   },
   "Cathan's Seal": {
     "name": "cathans_seal",
-    "display_name": "Cathan's Seal"
+    "display_name": "Cathan's Seal",
+    "code": "Cathan's Seal"
   },
   "Cathan's Sigil": {
     "name": "cathans_sigil",
-    "display_name": "Cathan's Sigil"
+    "display_name": "Cathan's Sigil",
+    "code": "Cathan's Sigil"
   },
   "Cathan's Visage": {
     "name": "cathans_visage",
-    "display_name": "Cathan's Visage"
+    "display_name": "Cathan's Visage",
+    "code": "Cathan's Visage"
   },
   "Cathan's Mesh": {
     "name": "cathans_mesh",
-    "display_name": "Cathan's Mesh"
+    "display_name": "Cathan's Mesh",
+    "code": "Cathan's Mesh"
   },
   "Cathan's Rule": {
     "name": "cathans_rule",
-    "display_name": "Cathan's Rule"
+    "display_name": "Cathan's Rule",
+    "code": "Cathan's Rule"
   },
   "Tancred's Crowbill": {
     "name": "tancreds_crowbill",
-    "display_name": "Tancred's Crowbill"
+    "display_name": "Tancred's Crowbill",
+    "code": "Tancred's Crowbill"
   },
   "Tancred's Spine": {
     "name": "tancreds_spine",
-    "display_name": "Tancred's Spine"
+    "display_name": "Tancred's Spine",
+    "code": "Tancred's Spine"
   },
   "Tancred's Hobnails": {
     "name": "tancreds_hobnails",
-    "display_name": "Tancred's Hobnails"
+    "display_name": "Tancred's Hobnails",
+    "code": "Tancred's Hobnails"
   },
   "Tancred's Weird": {
     "name": "tancreds_weird",
-    "display_name": "Tancred's Weird"
+    "display_name": "Tancred's Weird",
+    "code": "Tancred's Weird"
   },
   "Tancred's Skull": {
     "name": "tancreds_skull",
-    "display_name": "Tancred's Skull"
+    "display_name": "Tancred's Skull",
+    "code": "Tancred's Skull"
   },
   "Sigon's Visor": {
     "name": "sigons_visor",
-    "display_name": "Sigon's Visor"
+    "display_name": "Sigon's Visor",
+    "code": "Sigon's Visor"
   },
   "Sigon's Shelter": {
     "name": "sigons_shelter",
-    "display_name": "Sigon's Shelter"
+    "display_name": "Sigon's Shelter",
+    "code": "Sigon's Shelter"
   },
   "Sigon's Gage": {
     "name": "sigons_gage",
-    "display_name": "Sigon's Gage"
+    "display_name": "Sigon's Gage",
+    "code": "Sigon's Gage"
   },
   "Sigon's Sabot": {
     "name": "sigons_sabot",
-    "display_name": "Sigon's Sabot"
+    "display_name": "Sigon's Sabot",
+    "code": "Sigon's Sabot"
   },
   "Sigon's Wrap": {
     "name": "sigons_wrap",
-    "display_name": "Sigon's Wrap"
+    "display_name": "Sigon's Wrap",
+    "code": "Sigon's Wrap"
   },
   "Sigon's Guard": {
     "name": "sigons_guard",
-    "display_name": "Sigon's Guard"
+    "display_name": "Sigon's Guard",
+    "code": "Sigon's Guard"
   },
   "Infernal Cranium": {
     "name": "infernal_cranium",
-    "display_name": "Infernal Cranium"
+    "display_name": "Infernal Cranium",
+    "code": "Infernal Cranium"
   },
   "Infernal Torch": {
     "name": "infernal_torch",
-    "display_name": "Infernal Torch"
+    "display_name": "Infernal Torch",
+    "code": "Infernal Torch"
   },
   "Infernal Sign": {
     "name": "infernal_sign",
-    "display_name": "Infernal Sign"
+    "display_name": "Infernal Sign",
+    "code": "Infernal Sign"
   },
   "Berserker's Headgear": {
     "name": "berserkers_headgear",
-    "display_name": "Berserker's Headgear"
+    "display_name": "Berserker's Headgear",
+    "code": "Berserker's Headgear"
   },
   "Berserker's Hauberk": {
     "name": "berserkers_hauberk",
-    "display_name": "Berserker's Hauberk"
+    "display_name": "Berserker's Hauberk",
+    "code": "Berserker's Hauberk"
   },
   "Berserker's Hatchet": {
     "name": "berserkers_hatchet",
-    "display_name": "Berserker's Hatchet"
+    "display_name": "Berserker's Hatchet",
+    "code": "Berserker's Hatchet"
   },
   "Death's Hand": {
     "name": "deaths_hand",
-    "display_name": "Death's Hand"
+    "display_name": "Death's Hand",
+    "code": "Death's Hand"
   },
   "Death's Guard": {
     "name": "deaths_guard",
-    "display_name": "Death's Guard"
+    "display_name": "Death's Guard",
+    "code": "Death's Guard"
   },
   "Death's Touch": {
     "name": "deaths_touch",
-    "display_name": "Death's Touch"
+    "display_name": "Death's Touch",
+    "code": "Death's Touch"
   },
   "Angelic Sickle": {
     "name": "angelic_sickle",
-    "display_name": "Angelic Sickle"
+    "display_name": "Angelic Sickle",
+    "code": "Angelic Sickle"
   },
   "Angelic Mantle": {
     "name": "angelic_mantle",
-    "display_name": "Angelic Mantle"
+    "display_name": "Angelic Mantle",
+    "code": "Angelic Mantle"
   },
   "Angelic Halo": {
     "name": "angelic_halo",
-    "display_name": "Angelic Halo"
+    "display_name": "Angelic Halo",
+    "code": "Angelic Halo"
   },
   "Angelic Wings": {
     "name": "angelic_wings",
-    "display_name": "Angelic Wings"
+    "display_name": "Angelic Wings",
+    "code": "Angelic Wings"
   },
   "Arctic Horn": {
     "name": "arctic_horn",
-    "display_name": "Arctic Horn"
+    "display_name": "Arctic Horn",
+    "code": "Arctic Horn"
   },
   "Arctic Furs": {
     "name": "arctic_furs",
-    "display_name": "Arctic Furs"
+    "display_name": "Arctic Furs",
+    "code": "Arctic Furs"
   },
   "Arctic Binding": {
     "name": "arctic_binding",
-    "display_name": "Arctic Binding"
+    "display_name": "Arctic Binding",
+    "code": "Arctic Binding"
   },
   "Arctic Mitts": {
     "name": "arctic_mitts",
-    "display_name": "Arctic Mitts"
+    "display_name": "Arctic Mitts",
+    "code": "Arctic Mitts"
   },
   "Arcanna's Sign": {
     "name": "arcannas_sign",
-    "display_name": "Arcanna's Sign"
+    "display_name": "Arcanna's Sign",
+    "code": "Arcanna's Sign"
   },
   "Arcanna's Deathwand": {
     "name": "arcannas_deathwand",
-    "display_name": "Arcanna's Deathwand"
+    "display_name": "Arcanna's Deathwand",
+    "code": "Arcanna's Deathwand"
   },
   "Arcanna's Head": {
     "name": "arcannas_head",
-    "display_name": "Arcanna's Head"
+    "display_name": "Arcanna's Head",
+    "code": "Arcanna's Head"
   },
   "Arcanna's Flesh": {
     "name": "arcannas_flesh",
-    "display_name": "Arcanna's Flesh"
+    "display_name": "Arcanna's Flesh",
+    "code": "Arcanna's Flesh"
   },
   "neg": {
     "name": "hellspawn_skull",
-    "display_name": "Hellspawn Skull"
+    "display_name": "Hellspawn Skull",
+    "code": "neg"
   },
   "pk1": {
     "name": "key_of_terror",
-    "display_name": "Key of Terror"
+    "display_name": "Key of Terror",
+    "code": "pk1"
   },
   "pk2": {
     "name": "key_of_hate",
-    "display_name": "Key of Hate"
+    "display_name": "Key of Hate",
+    "code": "pk2"
   },
   "pk3": {
     "name": "key_of_destruction",
-    "display_name": "Key of Destruction"
+    "display_name": "Key of Destruction",
+    "code": "pk3"
   },
   "dhn": {
     "name": "diablos_horn",
-    "display_name": "Diablo's Horn"
+    "display_name": "Diablo's Horn",
+    "code": "dhn"
   },
   "bey": {
     "name": "baals_eye",
-    "display_name": "Baal's Eye"
+    "display_name": "Baal's Eye",
+    "code": "bey"
   },
   "mbr": {
     "name": "mephistos_brain",
-    "display_name": "Mephisto's Brain"
+    "display_name": "Mephisto's Brain",
+    "code": "mbr"
   },
   "std": {
     "name": "standard_of_heroes",
-    "display_name": "Standard of Heroes"
+    "display_name": "Standard of Heroes",
+    "code": "std"
   },
   "toa": {
     "name": "rightclick_to_reset_statskill_pointstoken_of_absolution",
-    "display_name": "Right-click to reset Stat/Skill Points\nToken of Absolution"
+    "display_name": "Right-click to reset Stat/Skill Points\nToken of Absolution",
+    "code": "toa"
   },
   "tes": {
     "name": "twisted_essence_of_suffering",
-    "display_name": "Twisted Essence of Suffering"
+    "display_name": "Twisted Essence of Suffering",
+    "code": "tes"
   },
   "ceh": {
     "name": "charged_essence_of_hatred",
-    "display_name": "Charged Essence of Hatred"
+    "display_name": "Charged Essence of Hatred",
+    "code": "ceh"
   },
   "bet": {
     "name": "burning_essence_of_terror",
-    "display_name": "Burning Essence of Terror"
+    "display_name": "Burning Essence of Terror",
+    "code": "bet"
   },
   "fed": {
     "name": "festering_essence_of_destruction",
-    "display_name": "Festering Essence of Destruction"
+    "display_name": "Festering Essence of Destruction",
+    "code": "fed"
   },
   "abow": {
     "name": "amazon_bow",
-    "display_name": "Amazon Bow"
+    "display_name": "Amazon Bow",
+    "code": "abow"
   },
   "ajav": {
     "name": "amazon_javelin",
-    "display_name": "Amazon Javelin"
+    "display_name": "Amazon Javelin",
+    "code": "ajav"
   },
   "amaz": {
     "name": "amazon_item",
-    "display_name": "Amazon Item"
+    "display_name": "Amazon Item",
+    "code": "amaz"
   },
   "amul": {
     "name": "amulet",
-    "display_name": "Amulet"
+    "display_name": "Amulet",
+    "code": "amul"
   },
   "apot": {
     "name": "antidote_potion",
-    "display_name": "Antidote Potion"
+    "display_name": "Antidote Potion",
+    "code": "apot"
   },
   "armo": {
     "name": "any_armor",
-    "display_name": "Any Armor"
+    "display_name": "Any Armor",
+    "code": "armo"
   },
   "ashd": {
     "name": "auric_shields",
-    "display_name": "Auric Shields"
+    "display_name": "Auric Shields",
+    "code": "ashd"
   },
   "aspe": {
     "name": "amazon_spear",
-    "display_name": "Amazon Spear"
+    "display_name": "Amazon Spear",
+    "code": "aspe"
   },
   "assn": {
     "name": "assassin_item",
-    "display_name": "Assassin Item"
+    "display_name": "Assassin Item",
+    "code": "assn"
   },
   "barb": {
     "name": "barbarian_item",
-    "display_name": "Barbarian Item"
+    "display_name": "Barbarian Item",
+    "code": "barb"
   },
   "belt": {
     "name": "belt",
-    "display_name": "Belt"
+    "display_name": "Belt",
+    "code": "belt"
   },
   "blun": {
     "name": "blunt",
-    "display_name": "Blunt"
+    "display_name": "Blunt",
+    "code": "blun"
   },
   "body": {
     "name": "body_part",
-    "display_name": "Body Part"
+    "display_name": "Body Part",
+    "code": "body"
   },
   "book": {
     "name": "book",
-    "display_name": "Book"
+    "display_name": "Book",
+    "code": "book"
   },
   "boot": {
     "name": "boots",
-    "display_name": "Boots"
+    "display_name": "Boots",
+    "code": "boot"
   },
   "bow": {
     "name": "bow",
-    "display_name": "Bow"
+    "display_name": "Bow",
+    "code": "bow"
   },
   "bowq": {
     "name": "bow_quiver",
-    "display_name": "Bow Quiver"
+    "display_name": "Bow Quiver",
+    "code": "bowq"
   },
   "char": {
     "name": "charm",
-    "display_name": "Charm"
+    "display_name": "Charm",
+    "code": "char"
   },
   "circ": {
     "name": "circlet",
-    "display_name": "Circlet"
+    "display_name": "Circlet",
+    "code": "circ"
   },
   "clas": {
     "name": "class_specific",
-    "display_name": "Class Specific"
+    "display_name": "Class Specific",
+    "code": "clas"
   },
   "cloa": {
     "name": "cloak",
-    "display_name": "Cloak"
+    "display_name": "Cloak",
+    "code": "cloa"
   },
   "club": {
     "name": "club",
-    "display_name": "Club"
+    "display_name": "Club",
+    "code": "club"
   },
   "comb": {
     "name": "combo_weapon",
-    "display_name": "Combo Weapon"
+    "display_name": "Combo Weapon",
+    "code": "comb"
   },
   "drui": {
     "name": "druid_item",
-    "display_name": "Druid Item"
+    "display_name": "Druid Item",
+    "code": "drui"
   },
   "elix": {
     "name": "elixir",
-    "display_name": "Elixir"
+    "display_name": "Elixir",
+    "code": "elix"
   },
   "gem": {
     "name": "gem",
-    "display_name": "Gem"
+    "display_name": "Gem",
+    "code": "gem"
   },
   "gem0": {
     "name": "chipped_gem",
-    "display_name": "Chipped Gem"
+    "display_name": "Chipped Gem",
+    "code": "gem0"
   },
   "gem1": {
     "name": "flawed_gem",
-    "display_name": "Flawed Gem"
+    "display_name": "Flawed Gem",
+    "code": "gem1"
   },
   "gem2": {
     "name": "standard_gem",
-    "display_name": "Standard Gem"
+    "display_name": "Standard Gem",
+    "code": "gem2"
   },
   "gem3": {
     "name": "flawless_gem",
-    "display_name": "Flawless Gem"
+    "display_name": "Flawless Gem",
+    "code": "gem3"
   },
   "gem4": {
     "name": "perfect_gem",
-    "display_name": "Perfect Gem"
+    "display_name": "Perfect Gem",
+    "code": "gem4"
   },
   "gema": {
     "name": "amethyst",
-    "display_name": "Amethyst"
+    "display_name": "Amethyst",
+    "code": "gema"
   },
   "gemd": {
     "name": "diamond",
-    "display_name": "Diamond"
+    "display_name": "Diamond",
+    "code": "gemd"
   },
   "geme": {
     "name": "emerald",
-    "display_name": "Emerald"
+    "display_name": "Emerald",
+    "code": "geme"
   },
   "gemr": {
     "name": "ruby",
-    "display_name": "Ruby"
+    "display_name": "Ruby",
+    "code": "gemr"
   },
   "gems": {
     "name": "sapphire",
-    "display_name": "Sapphire"
+    "display_name": "Sapphire",
+    "code": "gems"
   },
   "gemt": {
     "name": "topaz",
-    "display_name": "Topaz"
+    "display_name": "Topaz",
+    "code": "gemt"
   },
   "gemz": {
     "name": "skull",
-    "display_name": "Skull"
+    "display_name": "Skull",
+    "code": "gemz"
   },
   "glov": {
     "name": "gloves",
-    "display_name": "Gloves"
+    "display_name": "Gloves",
+    "code": "glov"
   },
   "gold": {
     "name": "gold",
-    "display_name": "Gold"
+    "display_name": "Gold",
+    "code": "gold"
   },
   "h2h": {
     "name": "hand_to_hand",
-    "display_name": "Hand to Hand"
+    "display_name": "Hand to Hand",
+    "code": "h2h"
   },
   "h2h2": {
     "name": "hand_to_hand_2",
-    "display_name": "Hand to Hand 2"
+    "display_name": "Hand to Hand 2",
+    "code": "h2h2"
   },
   "hamm": {
     "name": "hammer",
-    "display_name": "Hammer"
+    "display_name": "Hammer",
+    "code": "hamm"
   },
   "head": {
     "name": "voodoo_heads",
-    "display_name": "Voodoo Heads"
+    "display_name": "Voodoo Heads",
+    "code": "head"
   },
   "helm": {
     "name": "helm",
-    "display_name": "Helm"
+    "display_name": "Helm",
+    "code": "helm"
   },
   "herb": {
     "name": "herb",
-    "display_name": "Herb"
+    "display_name": "Herb",
+    "code": "herb"
   },
   "hpot": {
     "name": "healing_potion",
-    "display_name": "Healing Potion"
+    "display_name": "Healing Potion",
+    "code": "hpot"
   },
   "jave": {
     "name": "javelin",
-    "display_name": "Javelin"
+    "display_name": "Javelin",
+    "code": "jave"
   },
   "jewl": {
     "name": "jewel",
-    "display_name": "Jewel"
+    "display_name": "Jewel",
+    "code": "jewl"
   },
   "knif": {
     "name": "knife",
-    "display_name": "Knife"
+    "display_name": "Knife",
+    "code": "knif"
   },
   "lcha": {
     "name": "large_charm",
-    "display_name": "Large Charm"
+    "display_name": "Large Charm",
+    "code": "lcha"
   },
   "mace": {
     "name": "mace",
-    "display_name": "Mace"
+    "display_name": "Mace",
+    "code": "mace"
   },
   "mboq": {
     "name": "magic_bow_quiv",
-    "display_name": "Magic Bow Quiv"
+    "display_name": "Magic Bow Quiv",
+    "code": "mboq"
   },
   "mcha": {
     "name": "medium_charm",
-    "display_name": "Medium Charm"
+    "display_name": "Medium Charm",
+    "code": "mcha"
   },
   "mele": {
     "name": "melee_weapon",
-    "display_name": "Melee Weapon"
+    "display_name": "Melee Weapon",
+    "code": "mele"
   },
   "misc": {
     "name": "miscellaneous",
-    "display_name": "Miscellaneous"
+    "display_name": "Miscellaneous",
+    "code": "misc"
   },
   "misl": {
     "name": "missile",
-    "display_name": "Missile"
+    "display_name": "Missile",
+    "code": "misl"
   },
   "miss": {
     "name": "missile_weapon",
-    "display_name": "Missile Weapon"
+    "display_name": "Missile Weapon",
+    "code": "miss"
   },
   "mpot": {
     "name": "mana_potion",
-    "display_name": "Mana Potion"
+    "display_name": "Mana Potion",
+    "code": "mpot"
   },
   "mxbq": {
     "name": "magic_xbow_quiv",
-    "display_name": "Magic Xbow Quiv"
+    "display_name": "Magic Xbow Quiv",
+    "code": "mxbq"
   },
   "necr": {
     "name": "necromancer_item",
-    "display_name": "Necromancer Item"
+    "display_name": "Necromancer Item",
+    "code": "necr"
   },
   "orb": {
     "name": "orb",
-    "display_name": "Orb"
+    "display_name": "Orb",
+    "code": "orb"
   },
   "pala": {
     "name": "paladin_item",
-    "display_name": "Paladin Item"
+    "display_name": "Paladin Item",
+    "code": "pala"
   },
   "pelt": {
     "name": "pelt",
-    "display_name": "Pelt"
+    "display_name": "Pelt",
+    "code": "pelt"
   },
   "phlm": {
     "name": "primal_helm",
-    "display_name": "Primal Helm"
+    "display_name": "Primal Helm",
+    "code": "phlm"
   },
   "play": {
     "name": "player_body_part",
-    "display_name": "Player Body Part"
+    "display_name": "Player Body Part",
+    "code": "play"
   },
   "pole": {
     "name": "polearm",
-    "display_name": "Polearm"
+    "display_name": "Polearm",
+    "code": "pole"
   },
   "poti": {
     "name": "potion",
-    "display_name": "Potion"
+    "display_name": "Potion",
+    "code": "poti"
   },
   "ques": {
     "name": "quest",
-    "display_name": "Quest"
+    "display_name": "Quest",
+    "code": "ques"
   },
   "ring": {
     "name": "ring",
-    "display_name": "Ring"
+    "display_name": "Ring",
+    "code": "ring"
   },
   "rod": {
     "name": "staves_and_rods",
-    "display_name": "Staves And Rods"
+    "display_name": "Staves And Rods",
+    "code": "rod"
   },
   "rpot": {
     "name": "rejuv_potion",
-    "display_name": "Rejuv Potion"
+    "display_name": "Rejuv Potion",
+    "code": "rpot"
   },
   "rune": {
     "name": "rune",
-    "display_name": "Rune"
+    "display_name": "Rune",
+    "code": "rune"
   },
   "scep": {
     "name": "scepter",
-    "display_name": "Scepter"
+    "display_name": "Scepter",
+    "code": "scep"
   },
   "scha": {
     "name": "small_charm",
-    "display_name": "Small Charm"
+    "display_name": "Small Charm",
+    "code": "scha"
   },
   "scro": {
     "name": "scroll",
-    "display_name": "Scroll"
+    "display_name": "Scroll",
+    "code": "scro"
   },
   "seco": {
     "name": "second_hand",
-    "display_name": "Second Hand"
+    "display_name": "Second Hand",
+    "code": "seco"
   },
   "shie": {
     "name": "shield",
-    "display_name": "Shield"
+    "display_name": "Shield",
+    "code": "shie"
   },
   "shld": {
     "name": "any_shield",
-    "display_name": "Any Shield"
+    "display_name": "Any Shield",
+    "code": "shld"
   },
   "sock": {
     "name": "socket_filler",
-    "display_name": "Socket Filler"
+    "display_name": "Socket Filler",
+    "code": "sock"
   },
   "sorc": {
     "name": "sorceress_item",
-    "display_name": "Sorceress Item"
+    "display_name": "Sorceress Item",
+    "code": "sorc"
   },
   "spea": {
     "name": "spear",
-    "display_name": "Spear"
+    "display_name": "Spear",
+    "code": "spea"
   },
   "spot": {
     "name": "stamina_potion",
-    "display_name": "Stamina Potion"
+    "display_name": "Stamina Potion",
+    "code": "spot"
   },
   "staf": {
     "name": "staff",
-    "display_name": "Staff"
+    "display_name": "Staff",
+    "code": "staf"
   },
   "swor": {
     "name": "sword",
-    "display_name": "Sword"
+    "display_name": "Sword",
+    "code": "swor"
   },
   "taxe": {
     "name": "throwing_axe",
-    "display_name": "Throwing Axe"
+    "display_name": "Throwing Axe",
+    "code": "taxe"
   },
   "thro": {
     "name": "thrown_weapon",
-    "display_name": "Thrown Weapon"
+    "display_name": "Thrown Weapon",
+    "code": "thro"
   },
   "tkni": {
     "name": "throwing_knife",
-    "display_name": "Throwing Knife"
+    "display_name": "Throwing Knife",
+    "code": "tkni"
   },
   "torc": {
     "name": "torch",
-    "display_name": "Torch"
+    "display_name": "Torch",
+    "code": "torc"
   },
   "tors": {
     "name": "armor",
-    "display_name": "Armor"
+    "display_name": "Armor",
+    "code": "tors"
   },
   "tpot": {
     "name": "missile_potion",
-    "display_name": "Missile Potion"
+    "display_name": "Missile Potion",
+    "code": "tpot"
   },
   "wand": {
     "name": "wand",
-    "display_name": "Wand"
+    "display_name": "Wand",
+    "code": "wand"
   },
   "weap": {
     "name": "weapon",
-    "display_name": "Weapon"
+    "display_name": "Weapon",
+    "code": "weap"
   },
   "wpot": {
     "name": "thawing_potion",
-    "display_name": "Thawing Potion"
+    "display_name": "Thawing Potion",
+    "code": "wpot"
   },
   "xboq": {
     "name": "crossbow_quiver",
-    "display_name": "Crossbow Quiver"
+    "display_name": "Crossbow Quiver",
+    "code": "xboq"
   },
   "xbow": {
     "name": "crossbow",
-    "display_name": "Crossbow"
+    "display_name": "Crossbow",
+    "code": "xbow"
   },
   "The Gnasher": {
     "name": "the_gnasher",
-    "display_name": "The Gnasher"
+    "display_name": "The Gnasher",
+    "code": "The Gnasher"
   },
   "Deathspade": {
     "name": "deathspade",
-    "display_name": "Deathspade"
+    "display_name": "Deathspade",
+    "code": "Deathspade"
   },
   "Bladebone": {
     "name": "bladebone",
-    "display_name": "Bladebone"
+    "display_name": "Bladebone",
+    "code": "Bladebone"
   },
   "Mindrend": {
     "name": "skull_splitter",
-    "display_name": "Skull Splitter"
+    "display_name": "Skull Splitter",
+    "code": "Mindrend"
   },
   "Rakescar": {
     "name": "rakescar",
-    "display_name": "Rakescar"
+    "display_name": "Rakescar",
+    "code": "Rakescar"
   },
   "Fechmars Axe": {
     "name": "axe_of_fechmar",
-    "display_name": "Axe of Fechmar"
+    "display_name": "Axe of Fechmar",
+    "code": "Fechmars Axe"
   },
   "Goreshovel": {
     "name": "goreshovel",
-    "display_name": "Goreshovel"
+    "display_name": "Goreshovel",
+    "code": "Goreshovel"
   },
   "The Chieftan": {
     "name": "the_chieftain",
-    "display_name": "The Chieftain"
+    "display_name": "The Chieftain",
+    "code": "The Chieftan"
   },
   "Brainhew": {
     "name": "brainhew",
-    "display_name": "Brainhew"
+    "display_name": "Brainhew",
+    "code": "Brainhew"
   },
   "The Humongous": {
     "name": "humongous",
-    "display_name": "Humongous"
+    "display_name": "Humongous",
+    "code": "The Humongous"
   },
   "Iros Torch": {
     "name": "torch_of_iro",
-    "display_name": "Torch of Iro"
+    "display_name": "Torch of Iro",
+    "code": "Iros Torch"
   },
   "Maelstromwrath": {
     "name": "maelstrom",
-    "display_name": "Maelstrom"
+    "display_name": "Maelstrom",
+    "code": "Maelstromwrath"
   },
   "Gravenspine": {
     "name": "gravenspine",
-    "display_name": "Gravenspine"
+    "display_name": "Gravenspine",
+    "code": "Gravenspine"
   },
   "Umes Lament": {
     "name": "umes_lament",
-    "display_name": "Ume's Lament"
+    "display_name": "Ume's Lament",
+    "code": "Umes Lament"
   },
   "Felloak": {
     "name": "felloak",
-    "display_name": "Felloak"
+    "display_name": "Felloak",
+    "code": "Felloak"
   },
   "Knell Striker": {
     "name": "knell_striker",
-    "display_name": "Knell Striker"
+    "display_name": "Knell Striker",
+    "code": "Knell Striker"
   },
   "Rusthandle": {
     "name": "rusthandle",
-    "display_name": "Rusthandle"
+    "display_name": "Rusthandle",
+    "code": "Rusthandle"
   },
   "Stormeye": {
     "name": "stormeye",
-    "display_name": "Stormeye"
+    "display_name": "Stormeye",
+    "code": "Stormeye"
   },
   "Stoutnail": {
     "name": "stoutnail",
-    "display_name": "Stoutnail"
+    "display_name": "Stoutnail",
+    "code": "Stoutnail"
   },
   "Crushflange": {
     "name": "crushflange",
-    "display_name": "Crushflange"
+    "display_name": "Crushflange",
+    "code": "Crushflange"
   },
   "Bloodrise": {
     "name": "bloodrise",
-    "display_name": "Bloodrise"
+    "display_name": "Bloodrise",
+    "code": "Bloodrise"
   },
   "The Generals Tan Do Li Ga": {
     "name": "the_generals_tan_do_li_ga",
-    "display_name": "The General's Tan Do Li Ga"
+    "display_name": "The General's Tan Do Li Ga",
+    "code": "The Generals Tan Do Li Ga"
   },
   "Ironstone": {
     "name": "ironstone",
-    "display_name": "Ironstone"
+    "display_name": "Ironstone",
+    "code": "Ironstone"
   },
   "Bonesob": {
     "name": "bonesnap",
-    "display_name": "Bonesnap"
+    "display_name": "Bonesnap",
+    "code": "Bonesob"
   },
   "Steeldriver": {
     "name": "steeldriver",
-    "display_name": "Steeldriver"
+    "display_name": "Steeldriver",
+    "code": "Steeldriver"
   },
   "Rixots Keen": {
     "name": "rixots_keen",
-    "display_name": "Rixot's Keen"
+    "display_name": "Rixot's Keen",
+    "code": "Rixots Keen"
   },
   "Blood Crescent": {
     "name": "blood_crescent",
-    "display_name": "Blood Crescent"
+    "display_name": "Blood Crescent",
+    "code": "Blood Crescent"
   },
   "Krintizs Skewer": {
     "name": "skewer_of_krintiz",
-    "display_name": "Skewer of Krintiz"
+    "display_name": "Skewer of Krintiz",
+    "code": "Krintizs Skewer"
   },
   "Gleamscythe": {
     "name": "gleamscythe",
-    "display_name": "Gleamscythe"
+    "display_name": "Gleamscythe",
+    "code": "Gleamscythe"
   },
   "Azurewrath": {
     "name": "azurewrath",
-    "display_name": "Azurewrath"
+    "display_name": "Azurewrath",
+    "code": "Azurewrath"
   },
   "Griswolds Edge": {
     "name": "griswolds_edge",
-    "display_name": "Griswold's Edge"
+    "display_name": "Griswold's Edge",
+    "code": "Griswolds Edge"
   },
   "Hellplague": {
     "name": "hellplague",
-    "display_name": "Hellplague"
+    "display_name": "Hellplague",
+    "code": "Hellplague"
   },
   "Culwens Point": {
     "name": "culwens_point",
-    "display_name": "Culwen's Point"
+    "display_name": "Culwen's Point",
+    "code": "Culwens Point"
   },
   "Shadowfang": {
     "name": "shadowfang",
-    "display_name": "Shadowfang"
+    "display_name": "Shadowfang",
+    "code": "Shadowfang"
   },
   "Soulflay": {
     "name": "soulflay",
-    "display_name": "Soulflay"
+    "display_name": "Soulflay",
+    "code": "Soulflay"
   },
   "Kinemils Awl": {
     "name": "kinemils_awl",
-    "display_name": "Kinemil's Awl"
+    "display_name": "Kinemil's Awl",
+    "code": "Kinemils Awl"
   },
   "Blacktongue": {
     "name": "blacktongue",
-    "display_name": "Blacktongue"
+    "display_name": "Blacktongue",
+    "code": "Blacktongue"
   },
   "Ripsaw": {
     "name": "ripsaw",
-    "display_name": "Ripsaw"
+    "display_name": "Ripsaw",
+    "code": "Ripsaw"
   },
   "The Patriarch": {
     "name": "the_patriarch",
-    "display_name": "The Patriarch"
+    "display_name": "The Patriarch",
+    "code": "The Patriarch"
   },
   "Gull": {
     "name": "gull",
-    "display_name": "Gull"
+    "display_name": "Gull",
+    "code": "Gull"
   },
   "The Diggler": {
     "name": "the_diggler",
-    "display_name": "The Diggler"
+    "display_name": "The Diggler",
+    "code": "The Diggler"
   },
   "The Jade Tan Do": {
     "name": "the_jade_tan_do",
-    "display_name": "The Jade Tan Do"
+    "display_name": "The Jade Tan Do",
+    "code": "The Jade Tan Do"
   },
   "Irices Shard": {
     "name": "spectral_shard",
-    "display_name": "Spectral Shard"
+    "display_name": "Spectral Shard",
+    "code": "Irices Shard"
   },
   "The Dragon Chang": {
     "name": "the_dragon_chang",
-    "display_name": "The Dragon Chang"
+    "display_name": "The Dragon Chang",
+    "code": "The Dragon Chang"
   },
   "Razortine": {
     "name": "razortine",
-    "display_name": "Razortine"
+    "display_name": "Razortine",
+    "code": "Razortine"
   },
   "Bloodthief": {
     "name": "bloodthief",
-    "display_name": "Bloodthief"
+    "display_name": "Bloodthief",
+    "code": "Bloodthief"
   },
   "Lance of Yaggai": {
     "name": "lance_of_yaggai",
-    "display_name": "Lance of Yaggai"
+    "display_name": "Lance of Yaggai",
+    "code": "Lance of Yaggai"
   },
   "The Tannr Gorerod": {
     "name": "the_tannr_gorerod",
-    "display_name": "The Tannr Gorerod"
+    "display_name": "The Tannr Gorerod",
+    "code": "The Tannr Gorerod"
   },
   "Dimoaks Hew": {
     "name": "dimoaks_hew",
-    "display_name": "Dimoak's Hew"
+    "display_name": "Dimoak's Hew",
+    "code": "Dimoaks Hew"
   },
   "Steelgoad": {
     "name": "steelgoad",
-    "display_name": "Steelgoad"
+    "display_name": "Steelgoad",
+    "code": "Steelgoad"
   },
   "Soul Harvest": {
     "name": "soul_harvest",
-    "display_name": "Soul Harvest"
+    "display_name": "Soul Harvest",
+    "code": "Soul Harvest"
   },
   "The Battlebranch": {
     "name": "the_battlebranch",
-    "display_name": "The Battlebranch"
+    "display_name": "The Battlebranch",
+    "code": "The Battlebranch"
   },
   "Woestave": {
     "name": "woestave",
-    "display_name": "Woestave"
+    "display_name": "Woestave",
+    "code": "Woestave"
   },
   "The Grim Reaper": {
     "name": "the_grim_reaper",
-    "display_name": "The Grim Reaper"
+    "display_name": "The Grim Reaper",
+    "code": "The Grim Reaper"
   },
   "Bane Ash": {
     "name": "bane_ash",
-    "display_name": "Bane Ash"
+    "display_name": "Bane Ash",
+    "code": "Bane Ash"
   },
   "Serpent Lord": {
     "name": "serpent_lord",
-    "display_name": "Serpent Lord"
+    "display_name": "Serpent Lord",
+    "code": "Serpent Lord"
   },
   "Lazarus Spire": {
     "name": "spire_of_lazarus",
-    "display_name": "Spire of Lazarus"
+    "display_name": "Spire of Lazarus",
+    "code": "Lazarus Spire"
   },
   "The Salamander": {
     "name": "the_salamander",
-    "display_name": "The Salamander"
+    "display_name": "The Salamander",
+    "code": "The Salamander"
   },
   "The Iron Jang Bong": {
     "name": "the_iron_jang_bong",
-    "display_name": "The Iron Jang Bong"
+    "display_name": "The Iron Jang Bong",
+    "code": "The Iron Jang Bong"
   },
   "Pluckeye": {
     "name": "pluckeye",
-    "display_name": "Pluckeye"
+    "display_name": "Pluckeye",
+    "code": "Pluckeye"
   },
   "Witherstring": {
     "name": "witherstring",
-    "display_name": "Witherstring"
+    "display_name": "Witherstring",
+    "code": "Witherstring"
   },
   "Rimeraven": {
     "name": "raven_claw",
-    "display_name": "Raven Claw"
+    "display_name": "Raven Claw",
+    "code": "Rimeraven"
   },
   "Piercerib": {
     "name": "rogues_bow",
-    "display_name": "Rogue's Bow"
+    "display_name": "Rogue's Bow",
+    "code": "Piercerib"
   },
   "Pullspite": {
     "name": "stormstrike",
-    "display_name": "Stormstrike"
+    "display_name": "Stormstrike",
+    "code": "Pullspite"
   },
   "Wizendraw": {
     "name": "wizendraw",
-    "display_name": "Wizendraw"
+    "display_name": "Wizendraw",
+    "code": "Wizendraw"
   },
   "Hellclap": {
     "name": "hellclap",
-    "display_name": "Hellclap"
+    "display_name": "Hellclap",
+    "code": "Hellclap"
   },
   "Blastbark": {
     "name": "blastbark",
-    "display_name": "Blastbark"
+    "display_name": "Blastbark",
+    "code": "Blastbark"
   },
   "Leadcrow": {
     "name": "leadcrow",
-    "display_name": "Leadcrow"
+    "display_name": "Leadcrow",
+    "code": "Leadcrow"
   },
   "Ichorsting": {
     "name": "ichorsting",
-    "display_name": "Ichorsting"
+    "display_name": "Ichorsting",
+    "code": "Ichorsting"
   },
   "Hellcast": {
     "name": "hellcast",
-    "display_name": "Hellcast"
+    "display_name": "Hellcast",
+    "code": "Hellcast"
   },
   "Doomspittle": {
     "name": "doomslinger",
-    "display_name": "Doomslinger"
+    "display_name": "Doomslinger",
+    "code": "Doomspittle"
   },
   "War Bonnet": {
     "name": "biggins_bonnet",
-    "display_name": "Biggin's Bonnet"
+    "display_name": "Biggin's Bonnet",
+    "code": "War Bonnet"
   },
   "Tarnhelm": {
     "name": "tarnhelm",
-    "display_name": "Tarnhelm"
+    "display_name": "Tarnhelm",
+    "code": "Tarnhelm"
   },
   "Coif of Glory": {
     "name": "coif_of_glory",
-    "display_name": "Coif of Glory"
+    "display_name": "Coif of Glory",
+    "code": "Coif of Glory"
   },
   "Duskdeep": {
     "name": "duskdeep",
-    "display_name": "Duskdeep"
+    "display_name": "Duskdeep",
+    "code": "Duskdeep"
   },
   "Wormskull": {
     "name": "wormskull",
-    "display_name": "Wormskull"
+    "display_name": "Wormskull",
+    "code": "Wormskull"
   },
   "Howltusk": {
     "name": "howltusk",
-    "display_name": "Howltusk"
+    "display_name": "Howltusk",
+    "code": "Howltusk"
   },
   "Undead Crown": {
     "name": "undead_crown",
-    "display_name": "Undead Crown"
+    "display_name": "Undead Crown",
+    "code": "Undead Crown"
   },
   "The Face of Horror": {
     "name": "the_face_of_horror",
-    "display_name": "The Face of Horror"
+    "display_name": "The Face of Horror",
+    "code": "The Face of Horror"
   },
   "Greyform": {
     "name": "greyform",
-    "display_name": "Greyform"
+    "display_name": "Greyform",
+    "code": "Greyform"
   },
   "Blinkbats Form": {
     "name": "blinkbats_form",
-    "display_name": "Blinkbat's Form"
+    "display_name": "Blinkbat's Form",
+    "code": "Blinkbats Form"
   },
   "The Centurion": {
     "name": "the_centurion",
-    "display_name": "The Centurion"
+    "display_name": "The Centurion",
+    "code": "The Centurion"
   },
   "Twitchthroe": {
     "name": "twitchthroe",
-    "display_name": "Twitchthroe"
+    "display_name": "Twitchthroe",
+    "code": "Twitchthroe"
   },
   "Darkglow": {
     "name": "darkglow",
-    "display_name": "Darkglow"
+    "display_name": "Darkglow",
+    "code": "Darkglow"
   },
   "Hawkmail": {
     "name": "hawkmail",
-    "display_name": "Hawkmail"
+    "display_name": "Hawkmail",
+    "code": "Hawkmail"
   },
   "Sparking Mail": {
     "name": "sparking_mail",
-    "display_name": "Sparking Mail"
+    "display_name": "Sparking Mail",
+    "code": "Sparking Mail"
   },
   "Venomsward": {
     "name": "venom_ward",
-    "display_name": "Venom Ward"
+    "display_name": "Venom Ward",
+    "code": "Venomsward"
   },
   "Iceblink": {
     "name": "iceblink",
-    "display_name": "Iceblink"
+    "display_name": "Iceblink",
+    "code": "Iceblink"
   },
   "Boneflesh": {
     "name": "boneflesh",
-    "display_name": "Boneflesh"
+    "display_name": "Boneflesh",
+    "code": "Boneflesh"
   },
   "Rockfleece": {
     "name": "rockfleece",
-    "display_name": "Rockfleece"
+    "display_name": "Rockfleece",
+    "code": "Rockfleece"
   },
   "Rattlecage": {
     "name": "rattlecage",
-    "display_name": "Rattlecage"
+    "display_name": "Rattlecage",
+    "code": "Rattlecage"
   },
   "Goldskin": {
     "name": "goldskin",
-    "display_name": "Goldskin"
+    "display_name": "Goldskin",
+    "code": "Goldskin"
   },
   "Victors Silk": {
     "name": "silks_of_the_victor",
-    "display_name": "Silks of the Victor"
+    "display_name": "Silks of the Victor",
+    "code": "Victors Silk"
   },
   "Heavenly Garb": {
     "name": "heavenly_garb",
-    "display_name": "Heavenly Garb"
+    "display_name": "Heavenly Garb",
+    "code": "Heavenly Garb"
   },
   "Pelta Lunata": {
     "name": "pelta_lunata",
-    "display_name": "Pelta Lunata"
+    "display_name": "Pelta Lunata",
+    "code": "Pelta Lunata"
   },
   "Umbral Disk": {
     "name": "umbral_disk",
-    "display_name": "Umbral Disk"
+    "display_name": "Umbral Disk",
+    "code": "Umbral Disk"
   },
   "Stormguild": {
     "name": "stormguild",
-    "display_name": "Stormguild"
+    "display_name": "Stormguild",
+    "code": "Stormguild"
   },
   "Wall of the Eyeless": {
     "name": "wall_of_the_eyeless",
-    "display_name": "Wall of the Eyeless"
+    "display_name": "Wall of the Eyeless",
+    "code": "Wall of the Eyeless"
   },
   "Swordback Hold": {
     "name": "swordback_hold",
-    "display_name": "Swordback Hold"
+    "display_name": "Swordback Hold",
+    "code": "Swordback Hold"
   },
   "Steelclash": {
     "name": "steelclash",
-    "display_name": "Steelclash"
+    "display_name": "Steelclash",
+    "code": "Steelclash"
   },
   "Bverrit Keep": {
     "name": "bverrit_keep",
-    "display_name": "Bverrit Keep"
+    "display_name": "Bverrit Keep",
+    "code": "Bverrit Keep"
   },
   "The Ward": {
     "name": "the_ward",
-    "display_name": "The Ward"
+    "display_name": "The Ward",
+    "code": "The Ward"
   },
   "The Hand of Broc": {
     "name": "the_hand_of_broc",
-    "display_name": "The Hand of Broc"
+    "display_name": "The Hand of Broc",
+    "code": "The Hand of Broc"
   },
   "Bloodfist": {
     "name": "bloodfist",
-    "display_name": "Bloodfist"
+    "display_name": "Bloodfist",
+    "code": "Bloodfist"
   },
   "Chance Guards": {
     "name": "chance_guards",
-    "display_name": "Chance Guards"
+    "display_name": "Chance Guards",
+    "code": "Chance Guards"
   },
   "Magefist": {
     "name": "magefist",
-    "display_name": "Magefist"
+    "display_name": "Magefist",
+    "code": "Magefist"
   },
   "Frostburn": {
     "name": "frostburn",
-    "display_name": "Frostburn"
+    "display_name": "Frostburn",
+    "code": "Frostburn"
   },
   "Hotspur": {
     "name": "hotspur",
-    "display_name": "Hotspur"
+    "display_name": "Hotspur",
+    "code": "Hotspur"
   },
   "Gorefoot": {
     "name": "gorefoot",
-    "display_name": "Gorefoot"
+    "display_name": "Gorefoot",
+    "code": "Gorefoot"
   },
   "Treads of Cthon": {
     "name": "treads_of_cthon",
-    "display_name": "Treads of Cthon"
+    "display_name": "Treads of Cthon",
+    "code": "Treads of Cthon"
   },
   "Goblin Toe": {
     "name": "goblin_toe",
-    "display_name": "Goblin Toe"
+    "display_name": "Goblin Toe",
+    "code": "Goblin Toe"
   },
   "Tearhaunch": {
     "name": "tearhaunch",
-    "display_name": "Tearhaunch"
+    "display_name": "Tearhaunch",
+    "code": "Tearhaunch"
   },
   "Lenyms Cord": {
     "name": "lenymo",
-    "display_name": "Lenymo"
+    "display_name": "Lenymo",
+    "code": "Lenyms Cord"
   },
   "Snakecord": {
     "name": "snakecord",
-    "display_name": "Snakecord"
+    "display_name": "Snakecord",
+    "code": "Snakecord"
   },
   "Nightsmoke": {
     "name": "nightsmoke",
-    "display_name": "Nightsmoke"
+    "display_name": "Nightsmoke",
+    "code": "Nightsmoke"
   },
   "Goldwrap": {
     "name": "goldwrap",
-    "display_name": "Goldwrap"
+    "display_name": "Goldwrap",
+    "code": "Goldwrap"
   },
   "Bladebuckle": {
     "name": "bladebuckle",
-    "display_name": "Bladebuckle"
+    "display_name": "Bladebuckle",
+    "code": "Bladebuckle"
   },
   "Nokozan Relic": {
     "name": "nokozan_relic",
-    "display_name": "Nokozan Relic"
+    "display_name": "Nokozan Relic",
+    "code": "Nokozan Relic"
   },
   "The Eye of Etlich": {
     "name": "the_eye_of_etlich",
-    "display_name": "The Eye of Etlich"
+    "display_name": "The Eye of Etlich",
+    "code": "The Eye of Etlich"
   },
   "The Mahim-Oak Curio": {
     "name": "the_mahimoak_curio",
-    "display_name": "The Mahim-Oak Curio"
+    "display_name": "The Mahim-Oak Curio",
+    "code": "The Mahim-Oak Curio"
   },
   "Nagelring": {
     "name": "nagelring",
-    "display_name": "Nagelring"
+    "display_name": "Nagelring",
+    "code": "Nagelring"
   },
   "Manald Heal": {
     "name": "manald_heal",
-    "display_name": "Manald Heal"
+    "display_name": "Manald Heal",
+    "code": "Manald Heal"
   },
   "The Stone of Jordan": {
     "name": "the_stone_of_jordan",
-    "display_name": "The Stone of Jordan"
+    "display_name": "The Stone of Jordan",
+    "code": "The Stone of Jordan"
   },
   "Amulet of the Viper": {
     "name": "amulet_of_the_viper",
-    "display_name": "Amulet of the Viper"
+    "display_name": "Amulet of the Viper",
+    "code": "Amulet of the Viper"
   },
   "Staff of Kings": {
     "name": "staff_of_kings",
-    "display_name": "Staff of Kings"
+    "display_name": "Staff of Kings",
+    "code": "Staff of Kings"
   },
   "Horadric Staff": {
     "name": "horadric_staff",
-    "display_name": "Horadric Staff"
+    "display_name": "Horadric Staff",
+    "code": "Horadric Staff"
   },
   "Hell Forge Hammer": {
     "name": "hell_forge_hammer",
-    "display_name": "Hell Forge Hammer"
+    "display_name": "Hell Forge Hammer",
+    "code": "Hell Forge Hammer"
   },
   "KhalimFlail": {
     "name": "khalims_flail",
-    "display_name": "Khalim's Flail"
+    "display_name": "Khalim's Flail",
+    "code": "KhalimFlail"
   },
   "SuperKhalimFlail": {
     "name": "khalims_will",
-    "display_name": "Khalim's Will"
+    "display_name": "Khalim's Will",
+    "code": "SuperKhalimFlail"
   },
   "Coldkill": {
     "name": "coldkill",
-    "display_name": "Coldkill"
+    "display_name": "Coldkill",
+    "code": "Coldkill"
   },
   "Butcher's Pupil": {
     "name": "butchers_pupil",
-    "display_name": "Butcher's Pupil"
+    "display_name": "Butcher's Pupil",
+    "code": "Butcher's Pupil"
   },
   "Islestrike": {
     "name": "islestrike",
-    "display_name": "Islestrike"
+    "display_name": "Islestrike",
+    "code": "Islestrike"
   },
   "Pompe's Wrath": {
     "name": "pompeiis_wrath",
-    "display_name": "Pompeii's Wrath"
+    "display_name": "Pompeii's Wrath",
+    "code": "Pompe's Wrath"
   },
   "Guardian Naga": {
     "name": "guardian_naga",
-    "display_name": "Guardian Naga"
+    "display_name": "Guardian Naga",
+    "code": "Guardian Naga"
   },
   "Warlord's Trust": {
     "name": "warlords_trust",
-    "display_name": "Warlord's Trust"
+    "display_name": "Warlord's Trust",
+    "code": "Warlord's Trust"
   },
   "Spellsteel": {
     "name": "spellsteel",
-    "display_name": "Spellsteel"
+    "display_name": "Spellsteel",
+    "code": "Spellsteel"
   },
   "Stormrider": {
     "name": "stormrider",
-    "display_name": "Stormrider"
+    "display_name": "Stormrider",
+    "code": "Stormrider"
   },
   "Boneslayer Blade": {
     "name": "boneslayer_blade",
-    "display_name": "Boneslayer Blade"
+    "display_name": "Boneslayer Blade",
+    "code": "Boneslayer Blade"
   },
   "The Minataur": {
     "name": "the_minotaur",
-    "display_name": "The Minotaur"
+    "display_name": "The Minotaur",
+    "code": "The Minataur"
   },
   "Suicide Branch": {
     "name": "suicide_branch",
-    "display_name": "Suicide Branch"
+    "display_name": "Suicide Branch",
+    "code": "Suicide Branch"
   },
   "Carin Shard": {
     "name": "carin_shard",
-    "display_name": "Carin Shard"
+    "display_name": "Carin Shard",
+    "code": "Carin Shard"
   },
   "Arm of King Leoric": {
     "name": "arm_of_king_leoric",
-    "display_name": "Arm of King Leoric"
+    "display_name": "Arm of King Leoric",
+    "code": "Arm of King Leoric"
   },
   "Blackhand Key": {
     "name": "blackhand_key",
-    "display_name": "Blackhand Key"
+    "display_name": "Blackhand Key",
+    "code": "Blackhand Key"
   },
   "Dark Clan Crusher": {
     "name": "dark_clan_crusher",
-    "display_name": "Dark Clan Crusher"
+    "display_name": "Dark Clan Crusher",
+    "code": "Dark Clan Crusher"
   },
   "Zakarum's Hand": {
     "name": "zakarums_hand",
-    "display_name": "Zakarum's Hand"
+    "display_name": "Zakarum's Hand",
+    "code": "Zakarum's Hand"
   },
   "The Fetid Sprinkler": {
     "name": "the_fetid_sprinkler",
-    "display_name": "The Fetid Sprinkler"
+    "display_name": "The Fetid Sprinkler",
+    "code": "The Fetid Sprinkler"
   },
   "Hand of Blessed Light": {
     "name": "hand_of_blessed_light",
-    "display_name": "Hand of Blessed Light"
+    "display_name": "Hand of Blessed Light",
+    "code": "Hand of Blessed Light"
   },
   "Fleshrender": {
     "name": "fleshrender",
-    "display_name": "Fleshrender"
+    "display_name": "Fleshrender",
+    "code": "Fleshrender"
   },
   "Sureshrill Frost": {
     "name": "sureshrill_frost",
-    "display_name": "Sureshrill Frost"
+    "display_name": "Sureshrill Frost",
+    "code": "Sureshrill Frost"
   },
   "Moonfall": {
     "name": "moonfall",
-    "display_name": "Moonfall"
+    "display_name": "Moonfall",
+    "code": "Moonfall"
   },
   "Baezil's Vortex": {
     "name": "baezils_vortex",
-    "display_name": "Baezil's Vortex"
+    "display_name": "Baezil's Vortex",
+    "code": "Baezil's Vortex"
   },
   "Earthshaker": {
     "name": "earthshaker",
-    "display_name": "Earthshaker"
+    "display_name": "Earthshaker",
+    "code": "Earthshaker"
   },
   "Bloodtree Stump": {
     "name": "bloodtree_stump",
-    "display_name": "Bloodtree Stump"
+    "display_name": "Bloodtree Stump",
+    "code": "Bloodtree Stump"
   },
   "The Gavel of Pain": {
     "name": "the_gavel_of_pain",
-    "display_name": "The Gavel of Pain"
+    "display_name": "The Gavel of Pain",
+    "code": "The Gavel of Pain"
   },
   "Bloodletter": {
     "name": "bloodletter",
-    "display_name": "Bloodletter"
+    "display_name": "Bloodletter",
+    "code": "Bloodletter"
   },
   "Coldsteel Eye": {
     "name": "coldsteel_eye",
-    "display_name": "Coldsteel Eye"
+    "display_name": "Coldsteel Eye",
+    "code": "Coldsteel Eye"
   },
   "Hexfire": {
     "name": "hexfire",
-    "display_name": "Hexfire"
+    "display_name": "Hexfire",
+    "code": "Hexfire"
   },
   "Blade of Ali Baba": {
     "name": "blade_of_ali_baba",
-    "display_name": "Blade of Ali Baba"
+    "display_name": "Blade of Ali Baba",
+    "code": "Blade of Ali Baba"
   },
   "Ginther's Rift": {
     "name": "ginthers_rift",
-    "display_name": "Ginther's Rift"
+    "display_name": "Ginther's Rift",
+    "code": "Ginther's Rift"
   },
   "Headstriker": {
     "name": "headstriker",
-    "display_name": "Headstriker"
+    "display_name": "Headstriker",
+    "code": "Headstriker"
   },
   "Plague Bearer": {
     "name": "plague_bearer",
-    "display_name": "Plague Bearer"
+    "display_name": "Plague Bearer",
+    "code": "Plague Bearer"
   },
   "The Atlantian": {
     "name": "the_atlantean",
-    "display_name": "The Atlantean"
+    "display_name": "The Atlantean",
+    "code": "The Atlantian"
   },
   "Crainte Vomir": {
     "name": "crainte_vomir",
-    "display_name": "Crainte Vomir"
+    "display_name": "Crainte Vomir",
+    "code": "Crainte Vomir"
   },
   "Bing Sz Wang": {
     "name": "bing_sz_wang",
-    "display_name": "Bing Sz Wang"
+    "display_name": "Bing Sz Wang",
+    "code": "Bing Sz Wang"
   },
   "The Vile Husk": {
     "name": "the_vile_husk",
-    "display_name": "The Vile Husk"
+    "display_name": "The Vile Husk",
+    "code": "The Vile Husk"
   },
   "Cloudcrack": {
     "name": "cloudcrack",
-    "display_name": "Cloudcrack"
+    "display_name": "Cloudcrack",
+    "code": "Cloudcrack"
   },
   "Todesfaelle Flamme": {
     "name": "todesfaelle_flamme",
-    "display_name": "Todesfaelle Flamme"
+    "display_name": "Todesfaelle Flamme",
+    "code": "Todesfaelle Flamme"
   },
   "Swordguard": {
     "name": "swordguard",
-    "display_name": "Swordguard"
+    "display_name": "Swordguard",
+    "code": "Swordguard"
   },
   "Spineripper": {
     "name": "spineripper",
-    "display_name": "Spineripper"
+    "display_name": "Spineripper",
+    "code": "Spineripper"
   },
   "Heart Carver": {
     "name": "heart_carver",
-    "display_name": "Heart Carver"
+    "display_name": "Heart Carver",
+    "code": "Heart Carver"
   },
   "Blackbog's Sharp": {
     "name": "blackbogs_sharp",
-    "display_name": "Blackbog's Sharp"
+    "display_name": "Blackbog's Sharp",
+    "code": "Blackbog's Sharp"
   },
   "Stormspike": {
     "name": "stormspike",
-    "display_name": "Stormspike"
+    "display_name": "Stormspike",
+    "code": "Stormspike"
   },
   "The Impaler": {
     "name": "the_impaler",
-    "display_name": "The Impaler"
+    "display_name": "The Impaler",
+    "code": "The Impaler"
   },
   "Kelpie Snare": {
     "name": "kelpie_snare",
-    "display_name": "Kelpie Snare"
+    "display_name": "Kelpie Snare",
+    "code": "Kelpie Snare"
   },
   "Soulfeast Tine": {
     "name": "soulfeast_tine",
-    "display_name": "Soulfeast Tine"
+    "display_name": "Soulfeast Tine",
+    "code": "Soulfeast Tine"
   },
   "Hone Sundan": {
     "name": "hone_sundan",
-    "display_name": "Hone Sundan"
+    "display_name": "Hone Sundan",
+    "code": "Hone Sundan"
   },
   "Spire of Honor": {
     "name": "spire_of_honor",
-    "display_name": "Spire of Honor"
+    "display_name": "Spire of Honor",
+    "code": "Spire of Honor"
   },
   "The Meat Scraper": {
     "name": "the_meat_scraper",
-    "display_name": "The Meat Scraper"
+    "display_name": "The Meat Scraper",
+    "code": "The Meat Scraper"
   },
   "Blackleach Blade": {
     "name": "blackleach_blade",
-    "display_name": "Blackleach Blade"
+    "display_name": "Blackleach Blade",
+    "code": "Blackleach Blade"
   },
   "Athena's Wrath": {
     "name": "athenas_wrath",
-    "display_name": "Athena's Wrath"
+    "display_name": "Athena's Wrath",
+    "code": "Athena's Wrath"
   },
   "Pierre Tombale Couant": {
     "name": "pierre_tombale_couant",
-    "display_name": "Pierre Tombale Couant"
+    "display_name": "Pierre Tombale Couant",
+    "code": "Pierre Tombale Couant"
   },
   "Husoldal Evo": {
     "name": "husoldal_evo",
-    "display_name": "Husoldal Evo"
+    "display_name": "Husoldal Evo",
+    "code": "Husoldal Evo"
   },
   "Grim's Burning Dead": {
     "name": "grims_burning_dead",
-    "display_name": "Grim's Burning Dead"
+    "display_name": "Grim's Burning Dead",
+    "code": "Grim's Burning Dead"
   },
   "Razorswitch": {
     "name": "razorswitch",
-    "display_name": "Razorswitch"
+    "display_name": "Razorswitch",
+    "code": "Razorswitch"
   },
   "Ribcracker": {
     "name": "ribcracker",
-    "display_name": "Ribcracker"
+    "display_name": "Ribcracker",
+    "code": "Ribcracker"
   },
   "Chromatic Ire": {
     "name": "chromatic_ire",
-    "display_name": "Chromatic Ire"
+    "display_name": "Chromatic Ire",
+    "code": "Chromatic Ire"
   },
   "Warpspear": {
     "name": "warpspear",
-    "display_name": "Warpspear"
+    "display_name": "Warpspear",
+    "code": "Warpspear"
   },
   "Skullcollector": {
     "name": "skull_collector",
-    "display_name": "Skull Collector"
+    "display_name": "Skull Collector",
+    "code": "Skullcollector"
   },
   "Skystrike": {
     "name": "skystrike",
-    "display_name": "Skystrike"
+    "display_name": "Skystrike",
+    "code": "Skystrike"
   },
   "Riphook": {
     "name": "riphook",
-    "display_name": "Riphook"
+    "display_name": "Riphook",
+    "code": "Riphook"
   },
   "Kuko Shakaku": {
     "name": "kuko_shakaku",
-    "display_name": "Kuko Shakaku"
+    "display_name": "Kuko Shakaku",
+    "code": "Kuko Shakaku"
   },
   "Endlesshail": {
     "name": "endlesshail",
-    "display_name": "Endlesshail"
+    "display_name": "Endlesshail",
+    "code": "Endlesshail"
   },
   "Whichwild String": {
     "name": "witchwild_string",
-    "display_name": "Witchwild String"
+    "display_name": "Witchwild String",
+    "code": "Whichwild String"
   },
   "Cliffkiller": {
     "name": "cliffkiller",
-    "display_name": "Cliffkiller"
+    "display_name": "Cliffkiller",
+    "code": "Cliffkiller"
   },
   "Magewrath": {
     "name": "magewrath",
-    "display_name": "Magewrath"
+    "display_name": "Magewrath",
+    "code": "Magewrath"
   },
   "Godstrike Arch": {
     "name": "goldstrike_arch",
-    "display_name": "Goldstrike Arch"
+    "display_name": "Goldstrike Arch",
+    "code": "Godstrike Arch"
   },
   "Langer Briser": {
     "name": "langer_briser",
-    "display_name": "Langer Briser"
+    "display_name": "Langer Briser",
+    "code": "Langer Briser"
   },
   "Pus Spiter": {
     "name": "pus_spitter",
-    "display_name": "Pus Spitter"
+    "display_name": "Pus Spitter",
+    "code": "Pus Spiter"
   },
   "Buriza-Do Kyanon": {
     "name": "burizado_kyanon",
-    "display_name": "Buriza-Do Kyanon"
+    "display_name": "Buriza-Do Kyanon",
+    "code": "Buriza-Do Kyanon"
   },
   "Demon Machine": {
     "name": "demon_machine",
-    "display_name": "Demon Machine"
+    "display_name": "Demon Machine",
+    "code": "Demon Machine"
   },
   "Armor": {
     "name": "armor",
-    "display_name": "Armor"
+    "display_name": "Armor",
+    "code": "Armor"
   },
   "Peasent Crown": {
     "name": "peasant_crown",
-    "display_name": "Peasant Crown"
+    "display_name": "Peasant Crown",
+    "code": "Peasent Crown"
   },
   "Rockstopper": {
     "name": "rockstopper",
-    "display_name": "Rockstopper"
+    "display_name": "Rockstopper",
+    "code": "Rockstopper"
   },
   "Stealskull": {
     "name": "stealskull",
-    "display_name": "Stealskull"
+    "display_name": "Stealskull",
+    "code": "Stealskull"
   },
   "Darksight Helm": {
     "name": "darksight_helm",
-    "display_name": "Darksight Helm"
+    "display_name": "Darksight Helm",
+    "code": "Darksight Helm"
   },
   "Valkiry Wing": {
     "name": "valkyrie_wing",
-    "display_name": "Valkyrie Wing"
+    "display_name": "Valkyrie Wing",
+    "code": "Valkiry Wing"
   },
   "Crown of Thieves": {
     "name": "crown_of_thieves",
-    "display_name": "Crown of Thieves"
+    "display_name": "Crown of Thieves",
+    "code": "Crown of Thieves"
   },
   "Blackhorn's Face": {
     "name": "blackhorns_face",
-    "display_name": "Blackhorn's Face"
+    "display_name": "Blackhorn's Face",
+    "code": "Blackhorn's Face"
   },
   "Vampiregaze": {
     "name": "vampire_gaze",
-    "display_name": "Vampire Gaze"
+    "display_name": "Vampire Gaze",
+    "code": "Vampiregaze"
   },
   "The Spirit Shroud": {
     "name": "the_spirit_shroud",
-    "display_name": "The Spirit Shroud"
+    "display_name": "The Spirit Shroud",
+    "code": "The Spirit Shroud"
   },
   "Skin of the Vipermagi": {
     "name": "skin_of_the_vipermagi",
-    "display_name": "Skin of the Vipermagi"
+    "display_name": "Skin of the Vipermagi",
+    "code": "Skin of the Vipermagi"
   },
   "Skin of the Flayerd One": {
     "name": "skin_of_the_flayed_one",
-    "display_name": "Skin of the Flayed One"
+    "display_name": "Skin of the Flayed One",
+    "code": "Skin of the Flayerd One"
   },
   "Ironpelt": {
     "name": "iron_pelt",
-    "display_name": "Iron Pelt"
+    "display_name": "Iron Pelt",
+    "code": "Ironpelt"
   },
   "Spiritforge": {
     "name": "spirit_forge",
-    "display_name": "Spirit Forge"
+    "display_name": "Spirit Forge",
+    "code": "Spiritforge"
   },
   "Crow Caw": {
     "name": "crow_caw",
-    "display_name": "Crow Caw"
+    "display_name": "Crow Caw",
+    "code": "Crow Caw"
   },
   "Shaftstop": {
     "name": "shaftstop",
-    "display_name": "Shaftstop"
+    "display_name": "Shaftstop",
+    "code": "Shaftstop"
   },
   "Duriel's Shell": {
     "name": "duriels_shell",
-    "display_name": "Duriel's Shell"
+    "display_name": "Duriel's Shell",
+    "code": "Duriel's Shell"
   },
   "Skullder's Ire": {
     "name": "skullders_ire",
-    "display_name": "Skullder's Ire"
+    "display_name": "Skullder's Ire",
+    "code": "Skullder's Ire"
   },
   "Guardian Angel": {
     "name": "guardian_angel",
-    "display_name": "Guardian Angel"
+    "display_name": "Guardian Angel",
+    "code": "Guardian Angel"
   },
   "Toothrow": {
     "name": "toothrow",
-    "display_name": "Toothrow"
+    "display_name": "Toothrow",
+    "code": "Toothrow"
   },
   "Atma's Wail": {
     "name": "atmas_wail",
-    "display_name": "Atma's Wail"
+    "display_name": "Atma's Wail",
+    "code": "Atma's Wail"
   },
   "Black Hades": {
     "name": "black_hades",
-    "display_name": "Black Hades"
+    "display_name": "Black Hades",
+    "code": "Black Hades"
   },
   "Corpsemourn": {
     "name": "corpsemourn",
-    "display_name": "Corpsemourn"
+    "display_name": "Corpsemourn",
+    "code": "Corpsemourn"
   },
   "Que-Hegan's Wisdon": {
     "name": "quehegans_wisdom",
-    "display_name": "Que-Hegan's Wisdom"
+    "display_name": "Que-Hegan's Wisdom",
+    "code": "Que-Hegan's Wisdon"
   },
   "Visceratuant": {
     "name": "visceratuant",
-    "display_name": "Visceratuant"
+    "display_name": "Visceratuant",
+    "code": "Visceratuant"
   },
   "Mosers Blessed Circle": {
     "name": "mosers_blessed_circle",
-    "display_name": "Moser's Blessed Circle"
+    "display_name": "Moser's Blessed Circle",
+    "code": "Mosers Blessed Circle"
   },
   "Stormchaser": {
     "name": "stormchaser",
-    "display_name": "Stormchaser"
+    "display_name": "Stormchaser",
+    "code": "Stormchaser"
   },
   "Tiamat's Rebuke": {
     "name": "tiamats_rebuke",
-    "display_name": "Tiamat's Rebuke"
+    "display_name": "Tiamat's Rebuke",
+    "code": "Tiamat's Rebuke"
   },
   "Kerke's Sanctuary": {
     "name": "gerkes_sanctuary",
-    "display_name": "Gerke's Sanctuary"
+    "display_name": "Gerke's Sanctuary",
+    "code": "Kerke's Sanctuary"
   },
   "Radimant's Sphere": {
     "name": "radaments_sphere",
-    "display_name": "Radament's Sphere"
+    "display_name": "Radament's Sphere",
+    "code": "Radimant's Sphere"
   },
   "Lidless Wall": {
     "name": "lidless_wall",
-    "display_name": "Lidless Wall"
+    "display_name": "Lidless Wall",
+    "code": "Lidless Wall"
   },
   "Lance Guard": {
     "name": "lance_guard",
-    "display_name": "Lance Guard"
+    "display_name": "Lance Guard",
+    "code": "Lance Guard"
   },
   "Venom Grip": {
     "name": "venom_grip",
-    "display_name": "Venom Grip"
+    "display_name": "Venom Grip",
+    "code": "Venom Grip"
   },
   "Gravepalm": {
     "name": "gravepalm",
-    "display_name": "Gravepalm"
+    "display_name": "Gravepalm",
+    "code": "Gravepalm"
   },
   "Ghoulhide": {
     "name": "ghoulhide",
-    "display_name": "Ghoulhide"
+    "display_name": "Ghoulhide",
+    "code": "Ghoulhide"
   },
   "Lavagout": {
     "name": "lava_gout",
-    "display_name": "Lava Gout"
+    "display_name": "Lava Gout",
+    "code": "Lavagout"
   },
   "Hellmouth": {
     "name": "hellmouth",
-    "display_name": "Hellmouth"
+    "display_name": "Hellmouth",
+    "code": "Hellmouth"
   },
   "Infernostride": {
     "name": "infernostride",
-    "display_name": "Infernostride"
+    "display_name": "Infernostride",
+    "code": "Infernostride"
   },
   "Waterwalk": {
     "name": "waterwalk",
-    "display_name": "Waterwalk"
+    "display_name": "Waterwalk",
+    "code": "Waterwalk"
   },
   "Silkweave": {
     "name": "silkweave",
-    "display_name": "Silkweave"
+    "display_name": "Silkweave",
+    "code": "Silkweave"
   },
   "Wartraveler": {
     "name": "war_traveler",
-    "display_name": "War Traveler"
+    "display_name": "War Traveler",
+    "code": "Wartraveler"
   },
   "Gorerider": {
     "name": "gore_rider",
-    "display_name": "Gore Rider"
+    "display_name": "Gore Rider",
+    "code": "Gorerider"
   },
   "String of Ears": {
     "name": "string_of_ears",
-    "display_name": "String of Ears"
+    "display_name": "String of Ears",
+    "code": "String of Ears"
   },
   "Razortail": {
     "name": "razortail",
-    "display_name": "Razortail"
+    "display_name": "Razortail",
+    "code": "Razortail"
   },
   "Gloomstrap": {
     "name": "glooms_trap",
-    "display_name": "Gloom's Trap"
+    "display_name": "Gloom's Trap",
+    "code": "Gloomstrap"
   },
   "Snowclash": {
     "name": "snowclash",
-    "display_name": "Snowclash"
+    "display_name": "Snowclash",
+    "code": "Snowclash"
   },
   "Thudergod's Vigor": {
     "name": "thundergods_vigor",
-    "display_name": "Thundergod's Vigor"
+    "display_name": "Thundergod's Vigor",
+    "code": "Thudergod's Vigor"
   },
   "Harlequin Crest": {
     "name": "harlequin_crest",
-    "display_name": "Harlequin Crest"
+    "display_name": "Harlequin Crest",
+    "code": "Harlequin Crest"
   },
   "Veil of Steel": {
     "name": "veil_of_steel",
-    "display_name": "Veil of Steel"
+    "display_name": "Veil of Steel",
+    "code": "Veil of Steel"
   },
   "The Gladiator's Bane": {
     "name": "the_gladiators_bane",
-    "display_name": "The Gladiator's Bane"
+    "display_name": "The Gladiator's Bane",
+    "code": "The Gladiator's Bane"
   },
   "Arkaine's Valor": {
     "name": "arkaines_valor",
-    "display_name": "Arkaine's Valor"
+    "display_name": "Arkaine's Valor",
+    "code": "Arkaine's Valor"
   },
   "Blackoak Shield": {
     "name": "blackoak_shield",
-    "display_name": "Blackoak Shield"
+    "display_name": "Blackoak Shield",
+    "code": "Blackoak Shield"
   },
   "Stormshield": {
     "name": "stormshield",
-    "display_name": "Stormshield"
+    "display_name": "Stormshield",
+    "code": "Stormshield"
   },
   "Hellslayer": {
     "name": "hellslayer",
-    "display_name": "Hellslayer"
+    "display_name": "Hellslayer",
+    "code": "Hellslayer"
   },
   "Messerschmidt's Reaver": {
     "name": "messerschmidts_reaver",
-    "display_name": "Messerschmidt's Reaver"
+    "display_name": "Messerschmidt's Reaver",
+    "code": "Messerschmidt's Reaver"
   },
   "Baranar's Star": {
     "name": "baranars_star",
-    "display_name": "Baranar's Star"
+    "display_name": "Baranar's Star",
+    "code": "Baranar's Star"
   },
   "Schaefer's Hammer": {
     "name": "schaefers_hammer",
-    "display_name": "Schaefer's Hammer"
+    "display_name": "Schaefer's Hammer",
+    "code": "Schaefer's Hammer"
   },
   "The Cranium Basher": {
     "name": "the_cranium_basher",
-    "display_name": "The Cranium Basher"
+    "display_name": "The Cranium Basher",
+    "code": "The Cranium Basher"
   },
   "Lightsabre": {
     "name": "lightsabre",
-    "display_name": "Lightsabre"
+    "display_name": "Lightsabre",
+    "code": "Lightsabre"
   },
   "Doombringer": {
     "name": "doombringer",
-    "display_name": "Doombringer"
+    "display_name": "Doombringer",
+    "code": "Doombringer"
   },
   "The Grandfather": {
     "name": "the_grandfather",
-    "display_name": "The Grandfather"
+    "display_name": "The Grandfather",
+    "code": "The Grandfather"
   },
   "Wizardspike": {
     "name": "wizardspike",
-    "display_name": "Wizardspike"
+    "display_name": "Wizardspike",
+    "code": "Wizardspike"
   },
   "Constricting Ring": {
     "name": "constricting_ring",
-    "display_name": "Constricting Ring"
+    "display_name": "Constricting Ring",
+    "code": "Constricting Ring"
   },
   "Stormspire": {
     "name": "stormspire",
-    "display_name": "Stormspire"
+    "display_name": "Stormspire",
+    "code": "Stormspire"
   },
   "Eaglehorn": {
     "name": "eaglehorn",
-    "display_name": "Eaglehorn"
+    "display_name": "Eaglehorn",
+    "code": "Eaglehorn"
   },
   "Windforce": {
     "name": "windforce",
-    "display_name": "Windforce"
+    "display_name": "Windforce",
+    "code": "Windforce"
   },
   "Rings": {
     "name": "rings",
-    "display_name": "Rings"
+    "display_name": "Rings",
+    "code": "Rings"
   },
   "Bul Katho's Wedding Band": {
     "name": "bulkathos_wedding_band",
-    "display_name": "Bul-Kathos' Wedding Band"
+    "display_name": "Bul-Kathos' Wedding Band",
+    "code": "Bul Katho's Wedding Band"
   },
   "The Cat's Eye": {
     "name": "the_cats_eye",
-    "display_name": "The Cat's Eye"
+    "display_name": "The Cat's Eye",
+    "code": "The Cat's Eye"
   },
   "The Rising Sun": {
     "name": "the_rising_sun",
-    "display_name": "The Rising Sun"
+    "display_name": "The Rising Sun",
+    "code": "The Rising Sun"
   },
   "Crescent Moon": {
     "name": "crescent_moon",
-    "display_name": "Crescent Moon"
+    "display_name": "Crescent Moon",
+    "code": "Crescent Moon"
   },
   "Mara's Kaleidoscope": {
     "name": "maras_kaleidoscope",
-    "display_name": "Mara's Kaleidoscope"
+    "display_name": "Mara's Kaleidoscope",
+    "code": "Mara's Kaleidoscope"
   },
   "Atma's Scarab": {
     "name": "atmas_scarab",
-    "display_name": "Atma's Scarab"
+    "display_name": "Atma's Scarab",
+    "code": "Atma's Scarab"
   },
   "Dwarf Star": {
     "name": "dwarf_star",
-    "display_name": "Dwarf Star"
+    "display_name": "Dwarf Star",
+    "code": "Dwarf Star"
   },
   "Raven Frost": {
     "name": "raven_frost",
-    "display_name": "Raven Frost"
+    "display_name": "Raven Frost",
+    "code": "Raven Frost"
   },
   "Highlord's Wrath": {
     "name": "highlords_wrath",
-    "display_name": "Highlord's Wrath"
+    "display_name": "Highlord's Wrath",
+    "code": "Highlord's Wrath"
   },
   "Saracen's Chance": {
     "name": "saracens_chance",
-    "display_name": "Saracen's Chance"
+    "display_name": "Saracen's Chance",
+    "code": "Saracen's Chance"
   },
   "Class Specific": {
     "name": "classspecific",
-    "display_name": "Class-specific"
+    "display_name": "Class-specific",
+    "code": "Class Specific"
   },
   "Arreat's Face": {
     "name": "arreats_face",
-    "display_name": "Arreat's Face"
+    "display_name": "Arreat's Face",
+    "code": "Arreat's Face"
   },
   "Homunculus": {
     "name": "homunculus",
-    "display_name": "Homunculus"
+    "display_name": "Homunculus",
+    "code": "Homunculus"
   },
   "Titan's Revenge": {
     "name": "titans_revenge",
-    "display_name": "Titan's Revenge"
+    "display_name": "Titan's Revenge",
+    "code": "Titan's Revenge"
   },
   "Lycander's Aim": {
     "name": "lycanders_aim",
-    "display_name": "Lycander's Aim"
+    "display_name": "Lycander's Aim",
+    "code": "Lycander's Aim"
   },
   "Lycander's Flank": {
     "name": "lycanders_flank",
-    "display_name": "Lycander's Flank"
+    "display_name": "Lycander's Flank",
+    "code": "Lycander's Flank"
   },
   "The Oculus": {
     "name": "the_oculus",
-    "display_name": "The Oculus"
+    "display_name": "The Oculus",
+    "code": "The Oculus"
   },
   "Herald of Zakarum": {
     "name": "herald_of_zakarum",
-    "display_name": "Herald of Zakarum"
+    "display_name": "Herald of Zakarum",
+    "code": "Herald of Zakarum"
   },
   "Cutthroat1": {
     "name": "bartucs_cutthroat",
-    "display_name": "Bartuc's Cut-Throat"
+    "display_name": "Bartuc's Cut-Throat",
+    "code": "Cutthroat1"
   },
   "Jalal's Mane": {
     "name": "jalals_mane",
-    "display_name": "Jalal's Mane"
+    "display_name": "Jalal's Mane",
+    "code": "Jalal's Mane"
   },
   "The Scalper": {
     "name": "the_scalper",
-    "display_name": "The Scalper"
+    "display_name": "The Scalper",
+    "code": "The Scalper"
   },
   "Bloodmoon": {
     "name": "bloodmoon",
-    "display_name": "Bloodmoon"
+    "display_name": "Bloodmoon",
+    "code": "Bloodmoon"
   },
   "Djinnslayer": {
     "name": "djinn_slayer",
-    "display_name": "Djinn Slayer"
+    "display_name": "Djinn Slayer",
+    "code": "Djinnslayer"
   },
   "Deathbit": {
     "name": "deathbit",
-    "display_name": "Deathbit"
+    "display_name": "Deathbit",
+    "code": "Deathbit"
   },
   "Warshrike": {
     "name": "warshrike",
-    "display_name": "Warshrike"
+    "display_name": "Warshrike",
+    "code": "Warshrike"
   },
   "Gutsiphon": {
     "name": "gut_siphon",
-    "display_name": "Gut Siphon"
+    "display_name": "Gut Siphon",
+    "code": "Gutsiphon"
   },
   "Razoredge": {
     "name": "razors_edge",
-    "display_name": "Razor's Edge"
+    "display_name": "Razor's Edge",
+    "code": "Razoredge"
   },
   "Gore Ripper": {
     "name": "gore_ripper",
-    "display_name": "Gore Ripper"
+    "display_name": "Gore Ripper",
+    "code": "Gore Ripper"
   },
   "Demonlimb": {
     "name": "demon_limb",
-    "display_name": "Demon Limb"
+    "display_name": "Demon Limb",
+    "code": "Demonlimb"
   },
   "Steelshade": {
     "name": "steel_shade",
-    "display_name": "Steel Shade"
+    "display_name": "Steel Shade",
+    "code": "Steelshade"
   },
   "Tomb Reaver": {
     "name": "tomb_reaver",
-    "display_name": "Tomb Reaver"
+    "display_name": "Tomb Reaver",
+    "code": "Tomb Reaver"
   },
   "Deaths's Web": {
     "name": "deaths_web",
-    "display_name": "Death's Web"
+    "display_name": "Death's Web",
+    "code": "Deaths's Web"
   },
   "Nature's Peace": {
     "name": "natures_peace",
-    "display_name": "Nature's Peace"
+    "display_name": "Nature's Peace",
+    "code": "Nature's Peace"
   },
   "Seraph's Hymn": {
     "name": "seraphs_hymn",
-    "display_name": "Seraph's Hymn"
+    "display_name": "Seraph's Hymn",
+    "code": "Seraph's Hymn"
   },
   "Zakarum's Salvation": {
     "name": "zakarums_salvation",
-    "display_name": "Zakarum's Salvation"
+    "display_name": "Zakarum's Salvation",
+    "code": "Zakarum's Salvation"
   },
   "Fleshripper": {
     "name": "fleshripper",
-    "display_name": "Fleshripper"
+    "display_name": "Fleshripper",
+    "code": "Fleshripper"
   },
   "Odium": {
     "name": "odium",
-    "display_name": "Odium"
+    "display_name": "Odium",
+    "code": "Odium"
   },
   "Horizon's Tornado": {
     "name": "horizons_tornado",
-    "display_name": "Horizon's Tornado"
+    "display_name": "Horizon's Tornado",
+    "code": "Horizon's Tornado"
   },
   "Stone Crusher": {
     "name": "stone_crusher",
-    "display_name": "Stone Crusher"
+    "display_name": "Stone Crusher",
+    "code": "Stone Crusher"
   },
   "Jadetalon": {
     "name": "jade_talon",
-    "display_name": "Jade Talon"
+    "display_name": "Jade Talon",
+    "code": "Jadetalon"
   },
   "Shadowdancer": {
     "name": "shadow_dancer",
-    "display_name": "Shadow Dancer"
+    "display_name": "Shadow Dancer",
+    "code": "Shadowdancer"
   },
   "Cerebus": {
     "name": "cerebus_bite",
-    "display_name": "Cerebus' Bite"
+    "display_name": "Cerebus' Bite",
+    "code": "Cerebus"
   },
   "Tyrael's Might": {
     "name": "tyraels_might",
-    "display_name": "Tyrael's Might"
+    "display_name": "Tyrael's Might",
+    "code": "Tyrael's Might"
   },
   "Souldrain": {
     "name": "soul_drainer",
-    "display_name": "Soul Drainer"
+    "display_name": "Soul Drainer",
+    "code": "Souldrain"
   },
   "Runemaster": {
     "name": "rune_master",
-    "display_name": "Rune Master"
+    "display_name": "Rune Master",
+    "code": "Runemaster"
   },
   "Deathcleaver": {
     "name": "death_cleaver",
-    "display_name": "Death Cleaver"
+    "display_name": "Death Cleaver",
+    "code": "Deathcleaver"
   },
   "Executioner's Justice": {
     "name": "executioners_justice",
-    "display_name": "Executioner's Justice"
+    "display_name": "Executioner's Justice",
+    "code": "Executioner's Justice"
   },
   "Stoneraven": {
     "name": "stoneraven",
-    "display_name": "Stoneraven"
+    "display_name": "Stoneraven",
+    "code": "Stoneraven"
   },
   "Leviathan": {
     "name": "leviathan",
-    "display_name": "Leviathan"
+    "display_name": "Leviathan",
+    "code": "Leviathan"
   },
   "Larzuk's Champion": {
     "name": "larzuks_champion",
-    "display_name": "Larzuk's Champion"
+    "display_name": "Larzuk's Champion",
+    "code": "Larzuk's Champion"
   },
   "Wisp": {
     "name": "wisp_projector",
-    "display_name": "Wisp Projector"
+    "display_name": "Wisp Projector",
+    "code": "Wisp"
   },
   "Gargoyle's Bite": {
     "name": "gargoyles_bite",
-    "display_name": "Gargoyle's Bite"
+    "display_name": "Gargoyle's Bite",
+    "code": "Gargoyle's Bite"
   },
   "Lacerator": {
     "name": "lacerator",
-    "display_name": "Lacerator"
+    "display_name": "Lacerator",
+    "code": "Lacerator"
   },
   "Mang Song's Lesson": {
     "name": "mang_songs_lesson",
-    "display_name": "Mang Song's Lesson"
+    "display_name": "Mang Song's Lesson",
+    "code": "Mang Song's Lesson"
   },
   "Viperfork": {
     "name": "viperfork",
-    "display_name": "Viperfork"
+    "display_name": "Viperfork",
+    "code": "Viperfork"
   },
   "Ethereal Edge": {
     "name": "ethereal_edge",
-    "display_name": "Ethereal Edge"
+    "display_name": "Ethereal Edge",
+    "code": "Ethereal Edge"
   },
   "Demonhorn's Edge": {
     "name": "demonhorns_edge",
-    "display_name": "Demonhorn's Edge"
+    "display_name": "Demonhorn's Edge",
+    "code": "Demonhorn's Edge"
   },
   "The Reaper's Toll": {
     "name": "the_reapers_toll",
-    "display_name": "The Reaper's Toll"
+    "display_name": "The Reaper's Toll",
+    "code": "The Reaper's Toll"
   },
   "Spiritkeeper": {
     "name": "spirit_keeper",
-    "display_name": "Spirit Keeper"
+    "display_name": "Spirit Keeper",
+    "code": "Spiritkeeper"
   },
   "Hellrack": {
     "name": "hellrack",
-    "display_name": "Hellrack"
+    "display_name": "Hellrack",
+    "code": "Hellrack"
   },
   "Alma Negra": {
     "name": "alma_negra",
-    "display_name": "Alma Negra"
+    "display_name": "Alma Negra",
+    "code": "Alma Negra"
   },
   "Darkforge Spawn": {
     "name": "darkforce_spawn",
-    "display_name": "Darkforce Spawn"
+    "display_name": "Darkforce Spawn",
+    "code": "Darkforge Spawn"
   },
   "Widowmaker": {
     "name": "widowmaker",
-    "display_name": "Widowmaker"
+    "display_name": "Widowmaker",
+    "code": "Widowmaker"
   },
   "Bloodraven's Charge": {
     "name": "blood_ravens_charge",
-    "display_name": "Blood Raven's Charge"
+    "display_name": "Blood Raven's Charge",
+    "code": "Bloodraven's Charge"
   },
   "Ghostflame": {
     "name": "ghostflame",
-    "display_name": "Ghostflame"
+    "display_name": "Ghostflame",
+    "code": "Ghostflame"
   },
   "Shadowkiller": {
     "name": "shadow_killer",
-    "display_name": "Shadow Killer"
+    "display_name": "Shadow Killer",
+    "code": "Shadowkiller"
   },
   "Gimmershred": {
     "name": "gimmershred",
-    "display_name": "Gimmershred"
+    "display_name": "Gimmershred",
+    "code": "Gimmershred"
   },
   "Griffon's Eye": {
     "name": "griffons_eye",
-    "display_name": "Griffon's Eye"
+    "display_name": "Griffon's Eye",
+    "code": "Griffon's Eye"
   },
   "Windhammer": {
     "name": "windhammer",
-    "display_name": "Windhammer"
+    "display_name": "Windhammer",
+    "code": "Windhammer"
   },
   "Thunderstroke": {
     "name": "thunderstroke",
-    "display_name": "Thunderstroke"
+    "display_name": "Thunderstroke",
+    "code": "Thunderstroke"
   },
   "Giantmaimer": {
     "name": "giant_maimer",
-    "display_name": "Giant Maimer"
+    "display_name": "Giant Maimer",
+    "code": "Giantmaimer"
   },
   "Demon's Arch": {
     "name": "demons_arch",
-    "display_name": "Demon's Arch"
+    "display_name": "Demon's Arch",
+    "code": "Demon's Arch"
   },
   "Boneflame": {
     "name": "boneflame",
-    "display_name": "Boneflame"
+    "display_name": "Boneflame",
+    "code": "Boneflame"
   },
   "Steelpillar": {
     "name": "steel_pillar",
-    "display_name": "Steel Pillar"
+    "display_name": "Steel Pillar",
+    "code": "Steelpillar"
   },
   "Nightwing's Veil": {
     "name": "nightwings_veil",
-    "display_name": "Nightwing's Veil"
+    "display_name": "Nightwing's Veil",
+    "code": "Nightwing's Veil"
   },
   "Crown of Ages": {
     "name": "crown_of_ages",
-    "display_name": "Crown of Ages"
+    "display_name": "Crown of Ages",
+    "code": "Crown of Ages"
   },
   "Andariel's Visage": {
     "name": "andariels_visage",
-    "display_name": "Andariel's Visage"
+    "display_name": "Andariel's Visage",
+    "code": "Andariel's Visage"
   },
   "Darkfear": {
     "name": "darkfear",
-    "display_name": "Darkfear"
+    "display_name": "Darkfear",
+    "code": "Darkfear"
   },
   "Dragonscale": {
     "name": "dragonscale",
-    "display_name": "Dragonscale"
+    "display_name": "Dragonscale",
+    "code": "Dragonscale"
   },
   "Steel Carapice": {
     "name": "steel_carapace",
-    "display_name": "Steel Carapace"
+    "display_name": "Steel Carapace",
+    "code": "Steel Carapice"
   },
   "Medusa's Gaze": {
     "name": "medusas_gaze",
-    "display_name": "Medusa's Gaze"
+    "display_name": "Medusa's Gaze",
+    "code": "Medusa's Gaze"
   },
   "Ravenlore": {
     "name": "ravenlore",
-    "display_name": "Ravenlore"
+    "display_name": "Ravenlore",
+    "code": "Ravenlore"
   },
   "Boneshade": {
     "name": "boneshade",
-    "display_name": "Boneshade"
+    "display_name": "Boneshade",
+    "code": "Boneshade"
   },
   "Nethercrow": {
     "name": "nethercrow",
-    "display_name": "Nethercrow"
+    "display_name": "Nethercrow",
+    "code": "Nethercrow"
   },
   "Flamebellow": {
     "name": "flamebellow",
-    "display_name": "Flamebellow"
+    "display_name": "Flamebellow",
+    "code": "Flamebellow"
   },
   "Fathom": {
     "name": "deaths_fathom",
-    "display_name": "Death's Fathom"
+    "display_name": "Death's Fathom",
+    "code": "Fathom"
   },
   "Wolfhowl": {
     "name": "wolfhowl",
-    "display_name": "Wolfhowl"
+    "display_name": "Wolfhowl",
+    "code": "Wolfhowl"
   },
   "Spirit Ward": {
     "name": "spirit_ward",
-    "display_name": "Spirit Ward"
+    "display_name": "Spirit Ward",
+    "code": "Spirit Ward"
   },
   "Kira's Guardian": {
     "name": "kiras_guardian",
-    "display_name": "Kira's Guardian"
+    "display_name": "Kira's Guardian",
+    "code": "Kira's Guardian"
   },
   "Ormus' Robes": {
     "name": "ormus_robes",
-    "display_name": "Ormus' Robes"
+    "display_name": "Ormus' Robes",
+    "code": "Ormus' Robes"
   },
   "Gheed's Fortune": {
     "name": "gheeds_fortune",
-    "display_name": "Gheed's Fortune"
+    "display_name": "Gheed's Fortune",
+    "code": "Gheed's Fortune"
   },
   "Stormlash": {
     "name": "stormlash",
-    "display_name": "Stormlash"
+    "display_name": "Stormlash",
+    "code": "Stormlash"
   },
   "Halaberd's Reign": {
     "name": "halaberds_reign",
-    "display_name": "Halaberd's Reign"
+    "display_name": "Halaberd's Reign",
+    "code": "Halaberd's Reign"
   },
   "Warriv's Warder": {
     "name": "warrivs_warder",
-    "display_name": "Warriv's Warder"
+    "display_name": "Warriv's Warder",
+    "code": "Warriv's Warder"
   },
   "Spike Thorn": {
     "name": "spike_thorn",
-    "display_name": "Spike Thorn"
+    "display_name": "Spike Thorn",
+    "code": "Spike Thorn"
   },
   "Dracul's Grasp": {
     "name": "draculs_grasp",
-    "display_name": "Dracul's Grasp"
+    "display_name": "Dracul's Grasp",
+    "code": "Dracul's Grasp"
   },
   "Frostwind": {
     "name": "frostwind",
-    "display_name": "Frostwind"
+    "display_name": "Frostwind",
+    "code": "Frostwind"
   },
   "Templar's Might": {
     "name": "templars_might",
-    "display_name": "Templar's Might"
+    "display_name": "Templar's Might",
+    "code": "Templar's Might"
   },
   "Eschuta's temper": {
     "name": "eschutas_temper",
-    "display_name": "Eschuta's Temper"
+    "display_name": "Eschuta's Temper",
+    "code": "Eschuta's temper"
   },
   "Firelizard's Talons": {
     "name": "firelizards_talons",
-    "display_name": "Firelizard's Talons"
+    "display_name": "Firelizard's Talons",
+    "code": "Firelizard's Talons"
   },
   "Sandstorm Trek": {
     "name": "sandstorm_trek",
-    "display_name": "Sandstorm Trek"
+    "display_name": "Sandstorm Trek",
+    "code": "Sandstorm Trek"
   },
   "Marrowwalk": {
     "name": "marrowwalk",
-    "display_name": "Marrowwalk"
+    "display_name": "Marrowwalk",
+    "code": "Marrowwalk"
   },
   "Heaven's Light": {
     "name": "heavens_light",
-    "display_name": "Heaven's Light"
+    "display_name": "Heaven's Light",
+    "code": "Heaven's Light"
   },
   "Merman's Speed": {
     "name": "mermans_sprocket",
-    "display_name": "Merman's Sprocket"
+    "display_name": "Merman's Sprocket",
+    "code": "Merman's Speed"
   },
   "Arachnid Mesh": {
     "name": "arachnid_mesh",
-    "display_name": "Arachnid Mesh"
+    "display_name": "Arachnid Mesh",
+    "code": "Arachnid Mesh"
   },
   "Nosferatu's Coil": {
     "name": "nosferatus_coil",
-    "display_name": "Nosferatu's Coil"
+    "display_name": "Nosferatu's Coil",
+    "code": "Nosferatu's Coil"
   },
   "Metalgrid": {
     "name": "metalgrid",
-    "display_name": "Metalgrid"
+    "display_name": "Metalgrid",
+    "code": "Metalgrid"
   },
   "Verdugo's Hearty Cord": {
     "name": "verdungos_hearty_cord",
-    "display_name": "Verdungo's Hearty Cord"
+    "display_name": "Verdungo's Hearty Cord",
+    "code": "Verdugo's Hearty Cord"
   },
   "Sigurd's Staunch": {
     "name": "siggards_stealth",
-    "display_name": "Siggard's Stealth"
+    "display_name": "Siggard's Stealth",
+    "code": "Sigurd's Staunch"
   },
   "Carrion Wind": {
     "name": "carrion_wind",
-    "display_name": "Carrion Wind"
+    "display_name": "Carrion Wind",
+    "code": "Carrion Wind"
   },
   "Giantskull": {
     "name": "giant_skull",
-    "display_name": "Giant Skull"
+    "display_name": "Giant Skull",
+    "code": "Giantskull"
   },
   "Ironward": {
     "name": "astreons_iron_ward",
-    "display_name": "Astreon's Iron Ward"
+    "display_name": "Astreon's Iron Ward",
+    "code": "Ironward"
   },
   "Annihilus": {
     "name": "annihilus",
-    "display_name": "Annihilus"
+    "display_name": "Annihilus",
+    "code": "Annihilus"
   },
   "Arioc's Needle": {
     "name": "ariocs_needle",
-    "display_name": "Arioc's Needle"
+    "display_name": "Arioc's Needle",
+    "code": "Arioc's Needle"
   },
   "Cranebeak": {
     "name": "cranebeak",
-    "display_name": "Cranebeak"
+    "display_name": "Cranebeak",
+    "code": "Cranebeak"
   },
   "Nord's Tenderizer": {
     "name": "nords_tenderizer",
-    "display_name": "Nord's Tenderizer"
+    "display_name": "Nord's Tenderizer",
+    "code": "Nord's Tenderizer"
   },
   "Earthshifter": {
     "name": "earth_shifter",
-    "display_name": "Earth Shifter"
+    "display_name": "Earth Shifter",
+    "code": "Earthshifter"
   },
   "Wraithflight": {
     "name": "wraith_flight",
-    "display_name": "Wraith Flight"
+    "display_name": "Wraith Flight",
+    "code": "Wraithflight"
   },
   "Bonehew": {
     "name": "bonehew",
-    "display_name": "Bonehew"
+    "display_name": "Bonehew",
+    "code": "Bonehew"
   },
   "Ondal's Wisdom": {
     "name": "ondals_wisdom",
-    "display_name": "Ondal's Wisdom"
+    "display_name": "Ondal's Wisdom",
+    "code": "Ondal's Wisdom"
   },
   "The Reedeemer": {
     "name": "the_redeemer",
-    "display_name": "The Redeemer"
+    "display_name": "The Redeemer",
+    "code": "The Reedeemer"
   },
   "Headhunter's Glory": {
     "name": "head_hunters_glory",
-    "display_name": "Head Hunter's Glory"
+    "display_name": "Head Hunter's Glory",
+    "code": "Headhunter's Glory"
   },
   "Steelrend": {
     "name": "steelrend",
-    "display_name": "Steelrend"
+    "display_name": "Steelrend",
+    "code": "Steelrend"
   },
   "Rainbow Facet": {
     "name": "rainbow_facet",
-    "display_name": "Rainbow Facet"
+    "display_name": "Rainbow Facet",
+    "code": "Rainbow Facet"
   },
   "Hellfire Torch": {
     "name": "hellfire_torch",
-    "display_name": "Hellfire Torch"
+    "display_name": "Hellfire Torch",
+    "code": "Hellfire Torch"
   }
 }
