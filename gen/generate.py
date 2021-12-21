@@ -7,39 +7,70 @@ import re
 outdir="output"
 
 @dataclasses.dataclass
-class PropString:
+class CodesRef:
     name: str = None
+    #code: str = None
+    display_name: str = None
+    #type: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
+@dataclasses.dataclass
+class PropString:
+    #name: str = None
     pos: str = None
     neg: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
 
 @dataclasses.dataclass
-class ItemArmor:
-    regexp: str = None
-    base_text: str = None
-    prop_name: str = None
+class Item:
+    code: str = None # 3 digit code
+    type: str = None # lookup [code] from item_types
+    display_name: str = None # lookup [code] -> strings
+    uniques: list[str] = None
+    sets: list[str] = None
 
 @dataclasses.dataclass
-class ItemWeapon:
-    regexp: str = None
-    base_text: str = None
-    prop_name: str = None
+class ItemBase(Item):
+    item_class: str = None # computed from ["normcode", etc.]
+    quality: str = None # normal for base item
+    reqstr: int = 0
+    durability: int = None
+    level: int = 0
+    levelreq: int = 0
+    gemsockets: int = 0
 
 @dataclasses.dataclass
-class ItemMisc:
-    regexp: str = None
-    base_text: str = None
-    prop_name: str = None
+class ItemArmor(ItemBase): # name = "Grand Crown" -> convert
+    defense: list[int] = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
+@dataclasses.dataclass
+class ItemWeapon(ItemBase):
+    damage: list[list[int]] = None
+    hands: str = None
+    range: int = 0
+    speed: int = 0
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
+@dataclasses.dataclass
+class ItemMisc(Item):
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
 
 @dataclasses.dataclass
 class ItemType:
-    id: int = None
-    name: str = None
-    aliases: list[str] = None
+    #id: int = None
+    #aliases: list[str] = None
     code: str = None
-    nit_val: int = None
-    description: str = None
-    contains: list[str] = None
+    display_name: str = None
+    items: list[str] = None
     category: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
 
 class EnhancedJSONEncoder(json.JSONEncoder):
         def default(self, o):
@@ -58,6 +89,9 @@ class ItemParser:
         self.lines_flag = [782, 784]
         self.lines_properties = [787, 1422]
         self.lines_display_name = [1425, 2083]
+
+        self.item_classes = ["normcode", "ubercode", "ultracode"]
+        self.item_classes_names = [ "normal", "exceptional", "elite"]
 
         with open("../json/armor.json", "r",encoding = 'utf-8') as f:
             self.f_armor = json.load((f))
@@ -82,8 +116,8 @@ class ItemParser:
         with open("../json/ItemStatCost.json", "r",encoding = 'utf-8') as f:
             self.f_stats = json.load((f))
 
-        with open("NTItemAlias.ntl.cpp", "r",encoding = 'utf-8') as f:
-            self.f_nit = f.readlines()
+        # with open("NTItemAlias.ntl.cpp", "r",encoding = 'utf-8') as f:
+        #     self.f_nit = f.readlines()
 
         # NEED TO PATCH "SAPHIRE"
 
@@ -99,93 +133,272 @@ class ItemParser:
                 return key
         return None
 
+    def full_to_short(self, full_name: str = None):
+        return re.sub('[^A-Za-z0-9 ]+', '', full_name).replace(' ','_').lower()
+
 if __name__ == "__main__":
 
     item_parser = ItemParser()
 
+    # create reference of names/codes/etc from LocaleStringsEn.json
+    ref_codes={}
+    itemFiles = [
+        item_parser.f_armor,
+        item_parser.f_misc,
+        item_parser.f_weapons,
+        item_parser.f_gems,
+        item_parser.f_sets,
+        item_parser.f_set_items,
+    ]
+    for key in item_parser.f_strings:
+        for file in itemFiles:
+            if key in file:
+                obj = CodesRef()
+                code = file[key]["code"] if "code" in file[key] else key
+                obj.display_name = item_parser.f_strings[key]
+                obj.name = item_parser.full_to_short(obj.display_name)
+                #obj.type = file[key]["type"] if "type" in file[key] else None
+                #print(obj)
+                if code not in ref_codes:
+                    ref_codes[code] = obj
+    # add item types to this reference
+    file = item_parser.f_item_types
+    for key in file:
+        obj = CodesRef()
+        code = file[key]["Code"]
+        obj.display_name = file[key]["ItemType"]
+        obj.name = item_parser.full_to_short(obj.display_name)
+        if code not in ref_codes:
+            ref_codes[code] = obj
+    # add unique items to this reference
+    file = item_parser.f_unique_items
+    for key in file:
+        try:
+            obj = CodesRef()
+            code = file[key]["index"]
+            obj.display_name = item_parser.f_strings[code]
+            obj.name = item_parser.full_to_short(obj.display_name)
+            if code not in ref_codes:
+                ref_codes[code] = obj
+        except:
+            #print(f"failed on uniq {key}")
+            pass
+    with open('output/ref_codes.json', 'w', encoding='utf-8') as f:
+        json.dump(ref_codes, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+
     # construct reference to get item strings corresponding to properties
-    property_name_to_string={}
-    for key in item_parser.f_stats.keys():
+    ref_property_strings={}
+    for key in item_parser.f_stats:
         if "descstrpos" in item_parser.f_stats[key]:
             obj = PropString()
-            obj.name = key
+            #obj.name = key
             descrPos=item_parser.f_stats[key]["descstrpos"]
             descrNeg=item_parser.f_stats[key]["descstrneg"]
             obj.pos=item_parser.f_strings[descrPos]
             obj.neg=item_parser.f_strings[descrNeg]
             #print(f"{key}: {descrPosStr}, {descrNegStr}")
-            property_name_to_string[key] = obj
-    with open('output/translate_itemProps.json', 'w', encoding='utf-8') as f:
-        json.dump(property_name_to_string, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder)
+            ref_property_strings[key] = obj
+    with open('output/ref_property_strings.json', 'w', encoding='utf-8') as f:
+        json.dump(ref_property_strings, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
-    # # construct reference to translate 3-char codes to names
-    # code_to_name={}
-    # line_range=[x-1 for x in item_parser.lines_name_short]
-    # for line in itertools.islice(item_parser.f_nit, line_range[0], line_range[1]):
-    #     try: aliases, values = item_parser.parse_line(line)
-    #     except: continue
-    #     code = aliases[0]
-    #     name = aliases[-1]
-    #     code_to_name[code]=name
-    # #print(json.dumps(types, sort_keys=True, cls=EnhancedJSONEncoder))
-    # with open('output/translate_codes.json', 'w', encoding='utf-8') as f:
-    #     json.dump(code_to_name, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder)
-
-    #start with item types (i.e., sword, auricshields, etc.)
+    # create types file
     types={}
-    count_id=0
-    line_range=[x-1 for x in item_parser.lines_type]
-    for count, line in enumerate(itertools.islice(item_parser.f_nit, line_range[0], line_range[1])):
-        try: aliases, values = item_parser.parse_line(line)
-        except: continue
+    for key in item_parser.f_item_types:
         obj = ItemType()
-        obj.id = count_id
-        obj.name = aliases[-1]
-        obj.aliases = aliases
-        if line_range[2]:
-            obj.nit_val = int(values[0]) if count < (line_range[2] - line_range[0]) else int(values[0]) +1
-        else:
-            obj.nit_val = int(values[0])
-        key = item_parser.find_by_line_number(aliases[0], item_parser.f_item_types, obj.nit_val)
+        obj.display_name = ref_codes[key].display_name
+        name = ref_codes[key].name
         obj.code = key
-        try: obj.description = item_parser.f_item_types[key]["ItemType"]
+        try:
+            cat = item_parser.f_item_types[obj.code]["StorePage"]
+            obj.category = ref_codes[cat].name
         except: pass
-        try: obj.category = item_parser.f_item_types[key]["StorePage"]
-        except: pass
-        obj.contains=[]
+        obj.items=[]
         for file in [item_parser.f_armor, item_parser.f_misc, item_parser.f_weapons, item_parser.f_gems]:
-            for key in file.keys():
-                if key in item_parser.f_strings:
+            for key2 in file.keys():
+                if key2 in ref_codes:
                     for typ_no in [ "type", "type2" ]:
-                        if typ_no in file[key] and file[key][typ_no] == obj.code and item_parser.f_strings[key] not in obj.contains:
-                            obj.contains.append(item_parser.f_strings[key])
-        obj.contains = None if obj.contains==[] else obj.contains
-        types[obj.name] = obj
-        count_id += 1
+                        if typ_no in file[key2] and file[key2][typ_no] == obj.code and ref_codes[key2] not in obj.items:
+                            obj.items.append(ref_codes[key2].name)
+        obj.items = None if obj.items==[] else obj.items
+        types[name] = obj
+        #print(types[name])
     with open('output/item_types.json', 'w', encoding='utf-8') as f:
-        json.dump(types, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder)
+        json.dump(types, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
-#        obj.contains=[]
-#        for file in [item_parser.f_armor, item_parser.f_misc, item_parser.f_armor]:
-#            for key in file.keys():
-#                #print(file[key])
-#                if "type" in file[key] and file[key]["type"] == obj.code:
-#                    obj.contains.append(file[key]["code"])
+    # create weapons file
+    weapons={}
+    file = item_parser.f_weapons
+    for key in file:
+        obj = ItemWeapon()
+        obj.code = key
+        obj.quality = "normal"
+        name = ref_codes[key]["name"]
+        try: obj.display_name = ref_codes[key]["display_name"]
+        except: pass
+
+        damage = []
+        if "1or2handed" in item_parser.f_weapons[key]:
+            obj.hands="both"
+            try:
+                damage.append([int(file[key]["mindam"]), int(file[key]["maxdam"])])
+                damage.append([int(file[key]["2handmindam"]), int(file[key]["2handmaxdam"])])
+            except: pass
+        else:
+            if "2handed" in file[key]:
+                obj.hands = "two"
+                try: damage.append([int(file[key]["2handmindam"]), int(file[key]["2handmaxdam"])])
+                except: pass
+            else:
+                obj.hands = "one"
+                try: damage.append([int(file[key]["mindam"]), int(file[key]["maxdam"])])
+                except: pass
+        obj.damage = None if damage==[] else damage
+
+        try: obj.range = int(file[key]["rangeadder"])
+        except: pass
+        try: obj.speed = int(file[key]["speed"])
+        except: pass
+        try: obj.reqstr = int(file[key]["reqstr"])
+        except: pass
+        try: obj.durability = int(file[key]["durability"])
+        except: pass
+        try: obj.level = int(file[key]["level"])
+        except: pass
+        try: obj.levelreq = int(file[key]["levelreq"])
+        except: pass
+        try: obj.gemsockets = int(file[key]["gemsockets"])
+        except: pass
+
+        for key2 in types:
+            if types[key2]["code"] == file[key]["type"]:
+                obj.type = key2
+                break
+
+        for count,class_name in enumerate(item_parser.item_classes):
+            if class_name in file[key] and file[key][class_name] == obj.code:
+                obj.item_class = item_parser.item_classes_names[count]
+                break
+
+        obj.sets = []
+        for key2 in item_parser.f_set_items:
+            item_code=item_parser.f_set_items[key2]["item"]
+            if item_code == obj.code:
+                obj.sets.append(ref_codes[key2]["name"])
+        obj.sets = None if obj.sets==[] else obj.sets
+
+        obj.uniques = []
+        for key2 in item_parser.f_unique_items:
+            try:
+                item_code=item_parser.f_unique_items[key2]["code"]
+                item_index=item_parser.f_unique_items[key2]["index"]
+                if item_code == obj.code:
+                    obj.uniques.append(ref_codes[item_index]["name"])
+            except: pass
+        obj.uniques = None if obj.uniques==[] else obj.uniques
+
+        weapons[name] = obj
+        #print(weapons[name])
+    with open('output/item_weapons.json', 'w', encoding='utf-8') as f:
+        json.dump(weapons, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+
+    # create armor file
+    armor={}
+    file = item_parser.f_armor
+    for key in file:
+        obj = ItemArmor()
+        obj.code = key
+        obj.quality = "normal"
+        name = ref_codes[key]["name"]
+        try: obj.display_name = ref_codes[key]["display_name"]
+        except: pass
+
+        if "minac" in item_parser.f_armor[key]:
+            try: obj.defense = ([int(file[key]["minac"]), int(file[key]["maxac"])])
+            except: pass
+
+        try: obj.reqstr = int(file[key]["reqstr"])
+        except: pass
+        try: obj.durability = int(file[key]["durability"])
+        except: pass
+        try: obj.level = int(file[key]["level"])
+        except: pass
+        try: obj.levelreq = int(file[key]["levelreq"])
+        except: pass
+        try: obj.gemsockets = int(file[key]["gemsockets"])
+        except: pass
+
+        for key2 in types:
+            if types[key2]["code"] == file[key]["type"]:
+                obj.type = key2
+                break
+
+        for count,class_name in enumerate(item_parser.item_classes):
+            if class_name in file[key] and file[key][class_name] == obj.code:
+                obj.item_class = item_parser.item_classes_names[count]
+                break
+
+        obj.sets = []
+        for key2 in item_parser.f_set_items:
+            item_code=item_parser.f_set_items[key2]["item"]
+            if item_code == obj.code:
+                obj.sets.append(ref_codes[key2]["name"])
+        obj.sets = None if obj.sets==[] else obj.sets
+
+        obj.uniques = []
+        for key2 in item_parser.f_unique_items:
+            try:
+                item_code=item_parser.f_unique_items[key2]["code"]
+                item_index=item_parser.f_unique_items[key2]["index"]
+                if item_code == obj.code:
+                    obj.uniques.append(ref_codes[item_index]["name"])
+            except: pass
+        obj.uniques = None if obj.uniques==[] else obj.uniques
+
+        armor[name] = obj
+        #print(armor[name])
+    with open('output/item_armor.json', 'w', encoding='utf-8') as f:
+        json.dump(armor, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+
+    # create misc file
+    misc={}
+    file = item_parser.f_misc
+    for key in file:
+        obj = ItemMisc()
+        obj.code = key
+        try: name = ref_codes[key]["name"]
+        except: continue
+        try: obj.display_name = ref_codes[key]["display_name"]
+        except: pass
+
+        for key2 in types:
+            if types[key2]["code"] == file[key]["type"]:
+                obj.type = key2
+                break
+
+        obj.sets = []
+        for key2 in item_parser.f_set_items:
+            item_code=item_parser.f_set_items[key2]["item"]
+            if item_code == obj.code:
+                obj.sets.append(ref_codes[key2]["name"])
+        obj.sets = None if obj.sets==[] else obj.sets
+
+        obj.uniques = []
+        for key2 in item_parser.f_unique_items:
+            try:
+                item_code=item_parser.f_unique_items[key2]["code"]
+                item_index=item_parser.f_unique_items[key2]["index"]
+                if item_code == obj.code:
+                    obj.uniques.append(ref_codes[item_index]["name"])
+            except: pass
+        obj.uniques = None if obj.uniques==[] else obj.uniques
+
+        misc[name] = obj
+        #print(misc[name])
+    with open('output/item_misc.json', 'w', encoding='utf-8') as f:
+        json.dump(misc, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+
+    # create sets file
 
 
-#    for filename in ["json/armor.json","json/misc.json","json/weapons.json"]:
-#        f = open(filename)
-#        data = json.load(f)
-#        for key in data:
-#            value = data[key]['name']
-#            file2.write(f"{value}\n")
-#
-#
-#    file1 = open('myfile.txt', 'r')
-#    Lines = file1.readlines()
-#
-#    count = 0
-#    # Strips the newline character
-#    for line in Lines:
-#        count += 1
-#        print("Line{}: {}".format(count, line.strip()))
+
+    # create uniques file

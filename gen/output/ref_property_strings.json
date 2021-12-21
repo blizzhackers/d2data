@@ -1,0 +1,822 @@
+{
+  "armorclass": {
+    "pos": "Defense",
+    "neg": "Defense"
+  },
+  "armorclass_vs_hth": {
+    "pos": "Defense vs. Melee",
+    "neg": "Defense vs. Melee"
+  },
+  "armorclass_vs_missile": {
+    "pos": "Defense vs. Missile",
+    "neg": "Defense vs. Missile"
+  },
+  "attack_vs_montype": {
+    "pos": "to Attack Rating versus",
+    "neg": "to Attack Rating versus"
+  },
+  "coldmaxdam": {
+    "pos": "to Maximum Cold Damage",
+    "neg": "to Maximum Cold Damage"
+  },
+  "coldmindam": {
+    "pos": "to Minimum Cold Damage",
+    "neg": "to Minimum Cold Damage"
+  },
+  "coldresist": {
+    "pos": "Cold Resist",
+    "neg": "Cold Resist"
+  },
+  "damage_vs_montype": {
+    "pos": "to Damage versus",
+    "neg": "to Damage versus"
+  },
+  "damageresist": {
+    "pos": "Damage Reduced by",
+    "neg": "Damage Reduced by"
+  },
+  "dexterity": {
+    "pos": "to Dexterity",
+    "neg": "to Dexterity"
+  },
+  "energy": {
+    "pos": "to Energy",
+    "neg": "to Energy"
+  },
+  "firemaxdam": {
+    "pos": "to Maximum Fire Damage",
+    "neg": "to Maximum Fire Damage"
+  },
+  "firemindam": {
+    "pos": "to Minimum Fire Damage",
+    "neg": "to Minimum Fire Damage"
+  },
+  "fireresist": {
+    "pos": "Fire Resist",
+    "neg": "Fire Resist"
+  },
+  "hpregen": {
+    "pos": "Replenish Life",
+    "neg": "Drain Life"
+  },
+  "item_absorb_cold_bytime": {
+    "pos": "Absorbs Cold Damage",
+    "neg": "Absorbs Cold Damage"
+  },
+  "item_absorb_cold_perlevel": {
+    "pos": "Absorbs Cold Damage",
+    "neg": "Absorbs Cold Damage"
+  },
+  "item_absorb_fire_bytime": {
+    "pos": "Absorbs Fire Damage",
+    "neg": "Absorbs Fire Damage"
+  },
+  "item_absorb_fire_perlevel": {
+    "pos": "Absorbs Fire Damage",
+    "neg": "Absorbs Fire Damage"
+  },
+  "item_absorb_ltng_bytime": {
+    "pos": "Absorbs Lightning Damage",
+    "neg": "Absorbs Lightning Damage"
+  },
+  "item_absorb_ltng_perlevel": {
+    "pos": "Absorbs Lightning Damage",
+    "neg": "Absorbs Lightning Damage"
+  },
+  "item_absorbcold": {
+    "pos": "Cold Absorb",
+    "neg": "Cold Absorb"
+  },
+  "item_absorbcold_percent": {
+    "pos": "Cold Absorb",
+    "neg": "Cold Absorb"
+  },
+  "item_absorbfire": {
+    "pos": "Fire Absorb",
+    "neg": "Fire Absorb"
+  },
+  "item_absorbfire_percent": {
+    "pos": "Fire Absorb",
+    "neg": "Fire Absorb"
+  },
+  "item_absorblight": {
+    "pos": "Lightning Absorb",
+    "neg": "Lightning Absorb"
+  },
+  "item_absorblight_percent": {
+    "pos": "Lightning Absorb",
+    "neg": "Lightning Absorb"
+  },
+  "item_absorbmagic": {
+    "pos": "Magic Absorb",
+    "neg": "Magic Absorb"
+  },
+  "item_absorbmagic_percent": {
+    "pos": "Magic Absorb",
+    "neg": "Magic Absorb"
+  },
+  "item_addclassskills": {
+    "pos": "to Amazon Skill Levels",
+    "neg": "to Amazon Skill Levels"
+  },
+  "item_addexperience": {
+    "pos": "to Experience Gained",
+    "neg": "to Experience Gained"
+  },
+  "item_addskill_tab": {
+    "pos": "+%d to Javelin and Spear Skills",
+    "neg": "+%d to Javelin and Spear Skills"
+  },
+  "item_allskills": {
+    "pos": "to All Skills",
+    "neg": "to All Skills"
+  },
+  "item_armor_bytime": {
+    "pos": "Defense",
+    "neg": "Defense"
+  },
+  "item_armor_percent": {
+    "pos": "Enhanced Defense",
+    "neg": "Enhanced Defense"
+  },
+  "item_armor_perlevel": {
+    "pos": "Defense",
+    "neg": "Defense"
+  },
+  "item_armorpercent_bytime": {
+    "pos": "Enhanced Defense",
+    "neg": "Enhanced Defense"
+  },
+  "item_armorpercent_perlevel": {
+    "pos": "Enhanced Defense",
+    "neg": "Enhanced Defense"
+  },
+  "item_attackertakesdamage": {
+    "pos": "Attacker Takes Damage of",
+    "neg": "Attacker Takes Damage of"
+  },
+  "item_attackertakeslightdamage": {
+    "pos": "Attacker Takes Lightning Damage of",
+    "neg": "Attacker Takes Lightning Damage of"
+  },
+  "item_aura": {
+    "pos": "Level %d %s Aura When Equipped",
+    "neg": "Level %d %s Aura When Equipped"
+  },
+  "item_cannotbefrozen": {
+    "pos": "Cannot Be Frozen",
+    "neg": "Cannot Be Frozen"
+  },
+  "item_charged_skill": {
+    "pos": "(%d/%d Charges)",
+    "neg": "(%d/%d Charges)"
+  },
+  "item_cold_damagemax_bytime": {
+    "pos": "to Maximum Cold Damage",
+    "neg": "to Maximum Cold Damage"
+  },
+  "item_cold_damagemax_perlevel": {
+    "pos": "to Maximum Cold Damage",
+    "neg": "to Maximum Cold Damage"
+  },
+  "item_crushingblow": {
+    "pos": "Chance of Crushing Blow",
+    "neg": "Chance of Crushing Blow"
+  },
+  "item_crushingblow_bytime": {
+    "pos": "Chance of Crushing Blow",
+    "neg": "Chance of Crushing Blow"
+  },
+  "item_crushingblow_perlevel": {
+    "pos": "Chance of Crushing Blow",
+    "neg": "Chance of Crushing Blow"
+  },
+  "item_damage_demon_bytime": {
+    "pos": "Damage to Demons",
+    "neg": "Damage to Demons"
+  },
+  "item_damage_demon_perlevel": {
+    "pos": "Damage to Demons",
+    "neg": "Damage to Demons"
+  },
+  "item_damage_undead_bytime": {
+    "pos": "Damage to Undead",
+    "neg": "Damage to Undead"
+  },
+  "item_damage_undead_perlevel": {
+    "pos": "Damage to Undead",
+    "neg": "Damage to Undead"
+  },
+  "item_damagetargetac": {
+    "pos": "to Monster Defense Per Hit",
+    "neg": "to Monster Defense Per Hit"
+  },
+  "item_damagetomana": {
+    "pos": "Damage Taken Goes To Mana",
+    "neg": "Damage Taken Goes To Mana"
+  },
+  "item_deadlystrike": {
+    "pos": "Deadly Strike",
+    "neg": "Deadly Strike"
+  },
+  "item_deadlystrike_bytime": {
+    "pos": "Deadly Strike",
+    "neg": "Deadly Strike"
+  },
+  "item_deadlystrike_perlevel": {
+    "pos": "Deadly Strike",
+    "neg": "Deadly Strike"
+  },
+  "item_demon_tohit": {
+    "pos": "to Attack Rating against Demons",
+    "neg": "to Attack Rating against Demons"
+  },
+  "item_demondamage_percent": {
+    "pos": "Damage to Demons",
+    "neg": "Damage to Demons"
+  },
+  "item_dexterity_bytime": {
+    "pos": "to Dexterity",
+    "neg": "to Dexterity"
+  },
+  "item_dexterity_perlevel": {
+    "pos": "to Dexterity",
+    "neg": "to Dexterity"
+  },
+  "item_elemskill": {
+    "pos": "to Fire Skills",
+    "neg": "to Fire Skills"
+  },
+  "item_energy_bytime": {
+    "pos": "to Energy",
+    "neg": "to Energy"
+  },
+  "item_energy_perlevel": {
+    "pos": "to Energy",
+    "neg": "to Energy"
+  },
+  "item_explosivearrow": {
+    "pos": "Fires Explosive Arrows or Bolts",
+    "neg": "Fires Explosive Arrows or Bolts"
+  },
+  "item_extra_stack": {
+    "pos": "Increased Stack Size",
+    "neg": "Increased Stack Size"
+  },
+  "item_fasterattackrate": {
+    "pos": "Increased Attack Speed",
+    "neg": "Increased Attack Speed"
+  },
+  "item_fasterblockrate": {
+    "pos": "Faster Block Rate",
+    "neg": "Faster Block Rate"
+  },
+  "item_fastercastrate": {
+    "pos": "Faster Cast Rate",
+    "neg": "Faster Cast Rate"
+  },
+  "item_fastergethitrate": {
+    "pos": "Faster Hit Recovery",
+    "neg": "Faster Hit Recovery"
+  },
+  "item_fastermovevelocity": {
+    "pos": "Faster Run/Walk",
+    "neg": "Faster Run/Walk"
+  },
+  "item_find_gold_bytime": {
+    "pos": "Extra Gold from Monsters",
+    "neg": "Extra Gold from Monsters"
+  },
+  "item_find_gold_perlevel": {
+    "pos": "Extra Gold from Monsters",
+    "neg": "Extra Gold from Monsters"
+  },
+  "item_find_magic_bytime": {
+    "pos": "Better Chance of Getting Magic Items",
+    "neg": "Better Chance of Getting Magic Items"
+  },
+  "item_find_magic_perlevel": {
+    "pos": "Better Chance of Getting Magic Items",
+    "neg": "Better Chance of Getting Magic Items"
+  },
+  "item_fire_damagemax_bytime": {
+    "pos": "to Maximum Fire Damage",
+    "neg": "to Maximum Fire Damage"
+  },
+  "item_fire_damagemax_perlevel": {
+    "pos": "to Maximum Fire Damage",
+    "neg": "to Maximum Fire Damage"
+  },
+  "item_fractionaltargetac": {
+    "pos": "Target Defense",
+    "neg": "Target Defense"
+  },
+  "item_freeze": {
+    "pos": "Freezes target",
+    "neg": "Freezes target"
+  },
+  "item_goldbonus": {
+    "pos": "Extra Gold from Monsters",
+    "neg": "Extra Gold from Monsters"
+  },
+  "item_halffreezeduration": {
+    "pos": "Half Freeze Duration",
+    "neg": "Half Freeze Duration"
+  },
+  "item_healafterdemonkill": {
+    "pos": "Life after each Demon Kill",
+    "neg": "Life after each Demon Kill"
+  },
+  "item_healafterkill": {
+    "pos": "Life after each Kill",
+    "neg": "Life after each Kill"
+  },
+  "item_howl": {
+    "pos": "Hit Causes Monster to Flee",
+    "neg": "Hit Causes Monster to Flee"
+  },
+  "item_hp_bytime": {
+    "pos": "to Life",
+    "neg": "to Life"
+  },
+  "item_hp_perlevel": {
+    "pos": "to Life",
+    "neg": "to Life"
+  },
+  "item_ignoretargetac": {
+    "pos": "Ignore Target's Defense",
+    "neg": "Ignore Target's Defense"
+  },
+  "item_indesctructible": {
+    "pos": "Indestructible",
+    "neg": "Indestructible"
+  },
+  "item_kick_damage_bytime": {
+    "pos": "Kick Damage",
+    "neg": "Kick Damage"
+  },
+  "item_kick_damage_perlevel": {
+    "pos": "Kick Damage",
+    "neg": "Kick Damage"
+  },
+  "item_kickdamage": {
+    "pos": "Kick Damage",
+    "neg": "Kick Damage"
+  },
+  "item_knockback": {
+    "pos": "Knockback",
+    "neg": "Knockback"
+  },
+  "item_lightradius": {
+    "pos": "to Light Radius",
+    "neg": "to Light Radius"
+  },
+  "item_ltng_damagemax_bytime": {
+    "pos": "to Maximum Lightning Damage",
+    "neg": "to Maximum Lightning Damage"
+  },
+  "item_ltng_damagemax_perlevel": {
+    "pos": "to Maximum Lightning Damage",
+    "neg": "to Maximum Lightning Damage"
+  },
+  "item_magicarrow": {
+    "pos": "Fires Magic Arrows",
+    "neg": "Fires Magic Arrows"
+  },
+  "item_magicbonus": {
+    "pos": "Better Chance of Getting Magic Items",
+    "neg": "Better Chance of Getting Magic Items"
+  },
+  "item_mana_bytime": {
+    "pos": "to Mana",
+    "neg": "to Mana"
+  },
+  "item_mana_perlevel": {
+    "pos": "to Mana",
+    "neg": "to Mana"
+  },
+  "item_manaafterkill": {
+    "pos": "to Mana after each Kill",
+    "neg": "to Mana after each Kill"
+  },
+  "item_maxdamage_bytime": {
+    "pos": "to Maximum Damage",
+    "neg": "to Maximum Damage"
+  },
+  "item_maxdamage_percent": {
+    "pos": "Enhanced Maximum Damage",
+    "neg": "Enhanced Maximum Damage"
+  },
+  "item_maxdamage_percent_bytime": {
+    "pos": "Enhanced Maximum Damage",
+    "neg": "Enhanced Maximum Damage"
+  },
+  "item_maxdamage_percent_perlevel": {
+    "pos": "Enhanced Maximum Damage",
+    "neg": "Enhanced Maximum Damage"
+  },
+  "item_maxdamage_perlevel": {
+    "pos": "to Maximum Damage",
+    "neg": "to Maximum Damage"
+  },
+  "item_maxdurability_percent": {
+    "pos": "Increase Maximum Durability",
+    "neg": "Increase Maximum Durability"
+  },
+  "item_maxhp_percent": {
+    "pos": "Increase Maximum Life",
+    "neg": "Increase Maximum Life"
+  },
+  "item_maxmana_percent": {
+    "pos": "Increase Maximum Mana",
+    "neg": "Increase Maximum Mana"
+  },
+  "item_mindamage_percent": {
+    "pos": "Enhanced Minimum Damage",
+    "neg": "Enhanced Minimum Damage"
+  },
+  "item_normaldamage": {
+    "pos": "Damage",
+    "neg": "Damage"
+  },
+  "item_openwounds": {
+    "pos": "Chance of Open Wounds",
+    "neg": "Chance of Open Wounds"
+  },
+  "item_openwounds_bytime": {
+    "pos": "Chance of Open Wounds",
+    "neg": "Chance of Open Wounds"
+  },
+  "item_openwounds_perlevel": {
+    "pos": "Chance of Open Wounds",
+    "neg": "Chance of Open Wounds"
+  },
+  "item_pierce": {
+    "pos": "Piercing Attack",
+    "neg": "Piercing Attack"
+  },
+  "item_pierce_cold": {
+    "pos": "to Enemy Cold Resistance",
+    "neg": "to Enemy Cold Resistance"
+  },
+  "item_pierce_fire": {
+    "pos": "to Enemy Fire Resistance",
+    "neg": "to Enemy Fire Resistance"
+  },
+  "item_pierce_ltng": {
+    "pos": "to Enemy Lightning Resistance",
+    "neg": "to Enemy Lightning Resistance"
+  },
+  "item_pierce_pois": {
+    "pos": "to Enemy Poison Resistance",
+    "neg": "to Enemy Poison Resistance"
+  },
+  "item_pois_damagemax_bytime": {
+    "pos": "to Maximum Poison Damage",
+    "neg": "to Maximum Poison Damage"
+  },
+  "item_pois_damagemax_perlevel": {
+    "pos": "to Maximum Poison Damage",
+    "neg": "to Maximum Poison Damage"
+  },
+  "item_poisonlengthresist": {
+    "pos": "Poison Length Reduced by",
+    "neg": "Poison Length Reduced by"
+  },
+  "item_preventheal": {
+    "pos": "Prevent Monster Heal",
+    "neg": "Prevent Monster Heal"
+  },
+  "item_reanimate": {
+    "pos": "Reanimate as:",
+    "neg": "Reanimate as:"
+  },
+  "item_reducedprices": {
+    "pos": "Reduces all Vendor Prices",
+    "neg": "Reduces all Vendor Prices"
+  },
+  "item_regenstamina_bytime": {
+    "pos": "Heal Stamina Plus",
+    "neg": "Heal Stamina Plus"
+  },
+  "item_regenstamina_perlevel": {
+    "pos": "Heal Stamina Plus",
+    "neg": "Heal Stamina Plus"
+  },
+  "item_replenish_durability": {
+    "pos": "Repairs %d durability per second",
+    "neg": "Repairs %d durability per second"
+  },
+  "item_replenish_quantity": {
+    "pos": "Replenishes quantity",
+    "neg": "Replenishes quantity"
+  },
+  "item_req_percent": {
+    "pos": "Requirements",
+    "neg": "Requirements"
+  },
+  "item_resist_cold_bytime": {
+    "pos": "Cold Resist",
+    "neg": "Cold Resist"
+  },
+  "item_resist_cold_perlevel": {
+    "pos": "Cold Resist",
+    "neg": "Cold Resist"
+  },
+  "item_resist_fire_bytime": {
+    "pos": "Fire Resist",
+    "neg": "Fire Resist"
+  },
+  "item_resist_fire_perlevel": {
+    "pos": "Fire Resist",
+    "neg": "Fire Resist"
+  },
+  "item_resist_ltng_bytime": {
+    "pos": "Lightning Resist",
+    "neg": "Lightning Resist"
+  },
+  "item_resist_ltng_perlevel": {
+    "pos": "Lightning Resist",
+    "neg": "Lightning Resist"
+  },
+  "item_resist_pois_bytime": {
+    "pos": "Poison Resist",
+    "neg": "Poison Resist"
+  },
+  "item_resist_pois_perlevel": {
+    "pos": "Poison Resist",
+    "neg": "Poison Resist"
+  },
+  "item_restinpeace": {
+    "pos": "Slain Monsters Rest in Peace",
+    "neg": "Slain Monsters Rest in Peace"
+  },
+  "item_skillonattack": {
+    "pos": "%d%% Chance to cast level %d %s on attack",
+    "neg": "%d%% Chance to cast level %d %s on attack"
+  },
+  "item_skillondeath": {
+    "pos": "%d%% Chance to cast level %d %s when you Die",
+    "neg": "%d%% Chance to cast level %d %s when you Die"
+  },
+  "item_skillongethit": {
+    "pos": "%d%% Chance to cast level %d %s when struck",
+    "neg": "%d%% Chance to cast level %d %s when struck"
+  },
+  "item_skillonhit": {
+    "pos": "%d%% Chance to cast level %d %s on striking",
+    "neg": "%d%% Chance to cast level %d %s on striking"
+  },
+  "item_skillonkill": {
+    "pos": "%d%% Chance to cast level %d %s when you Kill an Enemy",
+    "neg": "%d%% Chance to cast level %d %s when you Kill an Enemy"
+  },
+  "item_skillonlevelup": {
+    "pos": "%d%% Chance to cast level %d %s when you Level-Up",
+    "neg": "%d%% Chance to cast level %d %s when you Level-Up"
+  },
+  "item_slow": {
+    "pos": "Slows Target by",
+    "neg": "Slows Target by"
+  },
+  "item_stamina_bytime": {
+    "pos": "Maximum Stamina",
+    "neg": "Maximum Stamina"
+  },
+  "item_stamina_perlevel": {
+    "pos": "Maximum Stamina",
+    "neg": "Maximum Stamina"
+  },
+  "item_staminadrainpct": {
+    "pos": "Slower Stamina Drain",
+    "neg": "Slower Stamina Drain"
+  },
+  "item_strength_bytime": {
+    "pos": "to Strength",
+    "neg": "to Strength"
+  },
+  "item_strength_perlevel": {
+    "pos": "to Strength",
+    "neg": "to Strength"
+  },
+  "item_stupidity": {
+    "pos": "Hit Blinds Target",
+    "neg": "Hit Blinds Target"
+  },
+  "item_thorns_perlevel": {
+    "pos": "Attacker Takes Damage of",
+    "neg": "Attacker Takes Damage of"
+  },
+  "item_throwable": {
+    "pos": "Throwable",
+    "neg": "Throwable"
+  },
+  "item_tohit_bytime": {
+    "pos": "to Attack Rating",
+    "neg": "to Attack Rating"
+  },
+  "item_tohit_demon_bytime": {
+    "pos": "to Attack Rating against Demons",
+    "neg": "to Attack Rating against Demons"
+  },
+  "item_tohit_demon_perlevel": {
+    "pos": "to Attack Rating against Demons",
+    "neg": "to Attack Rating against Demons"
+  },
+  "item_tohit_percent": {
+    "pos": "Bonus to Attack Rating",
+    "neg": "Bonus to Attack Rating"
+  },
+  "item_tohit_perlevel": {
+    "pos": "to Attack Rating",
+    "neg": "to Attack Rating"
+  },
+  "item_tohit_undead_bytime": {
+    "pos": "to Attack Rating against Undead",
+    "neg": "to Attack Rating against Undead"
+  },
+  "item_tohit_undead_perlevel": {
+    "pos": "to Attack Rating against Undead",
+    "neg": "to Attack Rating against Undead"
+  },
+  "item_tohitpercent_bytime": {
+    "pos": "Bonus to Attack Rating",
+    "neg": "Bonus to Attack Rating"
+  },
+  "item_tohitpercent_perlevel": {
+    "pos": "Bonus to Attack Rating",
+    "neg": "Bonus to Attack Rating"
+  },
+  "item_undead_tohit": {
+    "pos": "to Attack Rating against Undead",
+    "neg": "to Attack Rating against Undead"
+  },
+  "item_undeaddamage_percent": {
+    "pos": "Damage to Undead",
+    "neg": "Damage to Undead"
+  },
+  "item_vitality_bytime": {
+    "pos": "to Vitality",
+    "neg": "to Vitality"
+  },
+  "item_vitality_perlevel": {
+    "pos": "to Vitality",
+    "neg": "to Vitality"
+  },
+  "lifedrainmindam": {
+    "pos": "Life stolen per hit",
+    "neg": "Life stolen per hit"
+  },
+  "lightmaxdam": {
+    "pos": "to Maximum Lightning Damage",
+    "neg": "to Maximum Lightning Damage"
+  },
+  "lightmindam": {
+    "pos": "to Minimum Lightning Damage",
+    "neg": "to Minimum Lightning Damage"
+  },
+  "lightresist": {
+    "pos": "Lightning Resist",
+    "neg": "Lightning Resist"
+  },
+  "magic_damage_reduction": {
+    "pos": "Magic Damage Reduced by",
+    "neg": "Magic Damage Reduced by"
+  },
+  "magicmaxdam": {
+    "pos": "+%d magic damage",
+    "neg": "+%d magic damage"
+  },
+  "magicmindam": {
+    "pos": "+%d magic damage",
+    "neg": "+%d magic damage"
+  },
+  "magicresist": {
+    "pos": "Magic Resist",
+    "neg": "Magic Resist"
+  },
+  "manadrainmindam": {
+    "pos": "Mana stolen per hit",
+    "neg": "Mana stolen per hit"
+  },
+  "manarecoverybonus": {
+    "pos": "Regenerate Mana",
+    "neg": "Regenerate Mana"
+  },
+  "maxcoldresist": {
+    "pos": "to Maximum Cold Resist",
+    "neg": "to Maximum Cold Resist"
+  },
+  "maxdamage": {
+    "pos": "to Maximum Damage",
+    "neg": "to Maximum Damage"
+  },
+  "maxfireresist": {
+    "pos": "to Maximum Fire Resist",
+    "neg": "to Maximum Fire Resist"
+  },
+  "maxhp": {
+    "pos": "to Life",
+    "neg": "to Life"
+  },
+  "maxlightresist": {
+    "pos": "to Maximum Lightning Resist",
+    "neg": "to Maximum Lightning Resist"
+  },
+  "maxmagicresist": {
+    "pos": "to Maximum Magic Resist",
+    "neg": "to Maximum Magic Resist"
+  },
+  "maxmana": {
+    "pos": "to Mana",
+    "neg": "to Mana"
+  },
+  "maxpoisonresist": {
+    "pos": "to Maximum Poison Resist",
+    "neg": "to Maximum Poison Resist"
+  },
+  "maxstamina": {
+    "pos": "Maximum Stamina",
+    "neg": "Maximum Stamina"
+  },
+  "mindamage": {
+    "pos": "to Minimum Damage",
+    "neg": "to Minimum Damage"
+  },
+  "normal_damage_reduction": {
+    "pos": "Damage Reduced by",
+    "neg": "Damage Reduced by"
+  },
+  "passive_cold_mastery": {
+    "pos": "to Cold Skill Damage",
+    "neg": "to Cold Skill Damage"
+  },
+  "passive_cold_pierce": {
+    "pos": "to Enemy Cold Resistance",
+    "neg": "to Enemy Cold Resistance"
+  },
+  "passive_fire_mastery": {
+    "pos": "to Fire Skill Damage",
+    "neg": "to Fire Skill Damage"
+  },
+  "passive_fire_pierce": {
+    "pos": "to Enemy Fire Resistance",
+    "neg": "to Enemy Fire Resistance"
+  },
+  "passive_ltng_mastery": {
+    "pos": "to Lightning Skill Damage",
+    "neg": "to Lightning Skill Damage"
+  },
+  "passive_ltng_pierce": {
+    "pos": "to Enemy Lightning Resistance",
+    "neg": "to Enemy Lightning Resistance"
+  },
+  "passive_pois_mastery": {
+    "pos": "to Poison Skill Damage",
+    "neg": "to Poison Skill Damage"
+  },
+  "passive_pois_pierce": {
+    "pos": "to Enemy Poison Resistance",
+    "neg": "to Enemy Poison Resistance"
+  },
+  "poisonmaxdam": {
+    "pos": "to Maximum Poison Damage",
+    "neg": "to Maximum Poison Damage"
+  },
+  "poisonmindam": {
+    "pos": "to Minimum Poison Damage",
+    "neg": "to Minimum Poison Damage"
+  },
+  "poisonresist": {
+    "pos": "Poison Resist",
+    "neg": "Poison Resist"
+  },
+  "secondary_maxdamage": {
+    "pos": "to Maximum Damage",
+    "neg": "to Maximum Damage"
+  },
+  "secondary_mindamage": {
+    "pos": "to Minimum Damage",
+    "neg": "to Minimum Damage"
+  },
+  "staminarecoverybonus": {
+    "pos": "Heal Stamina Plus",
+    "neg": "Heal Stamina Plus"
+  },
+  "strength": {
+    "pos": "to Strength",
+    "neg": "to Strength"
+  },
+  "toblock": {
+    "pos": "Increased Chance of Blocking",
+    "neg": "Increased Chance of Blocking"
+  },
+  "tohit": {
+    "pos": "to Attack Rating",
+    "neg": "to Attack Rating"
+  },
+  "vitality": {
+    "pos": "to Vitality",
+    "neg": "to Vitality"
+  }
+}

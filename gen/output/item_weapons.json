@@ -1,0 +1,7561 @@
+{
+  "double_axe": {
+    "code": "2ax",
+    "type": "axe",
+    "display_name": "Double Axe",
+    "uniques": [
+      "bladebone"
+    ],
+    "sets": [
+      "berserkers_hatchet"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 43,
+    "durability": 24,
+    "level": 13,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        5,
+        13
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "twohanded_sword": {
+    "code": "2hs",
+    "type": "sword",
+    "display_name": "Two-Handed Sword",
+    "uniques": [
+      "shadowfang"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 35,
+    "durability": 44,
+    "level": 10,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        2,
+        9
+      ],
+      [
+        8,
+        17
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 0
+  },
+  "shillelagh": {
+    "code": "6bs",
+    "type": "staff",
+    "display_name": "Shillelagh",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 52,
+    "durability": 40,
+    "level": 83,
+    "levelreq": 62,
+    "gemsockets": 4,
+    "damage": [
+      [
+        65,
+        108
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "great_bow": {
+    "code": "6cb",
+    "type": "bow",
+    "display_name": "Great Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 121,
+    "durability": 36,
+    "level": 68,
+    "levelreq": 51,
+    "gemsockets": 4,
+    "damage": [
+      [
+        12,
+        52
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "elder_staff": {
+    "code": "6cs",
+    "type": "staff",
+    "display_name": "Elder Staff",
+    "uniques": [
+      "ondals_wisdom"
+    ],
+    "sets": [
+      "najs_puzzler"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 44,
+    "durability": 35,
+    "level": 74,
+    "levelreq": 55,
+    "gemsockets": 4,
+    "damage": [
+      [
+        80,
+        93
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "blade_bow": {
+    "code": "6hb",
+    "type": "bow",
+    "display_name": "Blade Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 76,
+    "durability": 32,
+    "level": 60,
+    "levelreq": 45,
+    "gemsockets": 4,
+    "damage": [
+      [
+        21,
+        41
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "colossus_crossbow": {
+    "code": "6hx",
+    "type": "crossbow",
+    "display_name": "Colossus Crossbow",
+    "uniques": [
+      "hellrack"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 163,
+    "durability": 50,
+    "level": 75,
+    "levelreq": 56,
+    "gemsockets": 6,
+    "damage": [
+      [
+        32,
+        91
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "crusader_bow": {
+    "code": "6l7",
+    "type": "bow",
+    "display_name": "Crusader Bow",
+    "uniques": [
+      "eaglehorn"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 97,
+    "durability": 44,
+    "level": 77,
+    "levelreq": 57,
+    "gemsockets": 6,
+    "damage": [
+      [
+        15,
+        63
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "shadow_bow": {
+    "code": "6lb",
+    "type": "bow",
+    "display_name": "Shadow Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 52,
+    "durability": 28,
+    "level": 63,
+    "levelreq": 47,
+    "gemsockets": 5,
+    "damage": [
+      [
+        15,
+        59
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "stalagmite": {
+    "code": "6ls",
+    "type": "staff",
+    "display_name": "Stalagmite",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 63,
+    "durability": 30,
+    "level": 66,
+    "levelreq": 49,
+    "gemsockets": 3,
+    "damage": [
+      [
+        75,
+        107
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "hydra_bow": {
+    "code": "6lw",
+    "type": "bow",
+    "display_name": "Hydra Bow",
+    "uniques": [
+      "windforce"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 134,
+    "durability": 55,
+    "level": 85,
+    "levelreq": 63,
+    "gemsockets": 6,
+    "damage": [
+      [
+        10,
+        68
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "pellet_bow": {
+    "code": "6lx",
+    "type": "crossbow",
+    "display_name": "Pellet Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 83,
+    "durability": 30,
+    "level": 57,
+    "levelreq": 42,
+    "gemsockets": 3,
+    "damage": [
+      [
+        28,
+        73
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "gorgon_crossbow": {
+    "code": "6mx",
+    "type": "crossbow",
+    "display_name": "Gorgon Crossbow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 117,
+    "durability": 40,
+    "level": 67,
+    "levelreq": 50,
+    "gemsockets": 4,
+    "damage": [
+      [
+        25,
+        87
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "demon_crossbow": {
+    "code": "6rx",
+    "type": "crossbow",
+    "display_name": "Demon Crossbow",
+    "uniques": [
+      "gut_siphon"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 141,
+    "durability": 40,
+    "level": 84,
+    "levelreq": 63,
+    "gemsockets": 5,
+    "damage": [
+      [
+        26,
+        40
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -60
+  },
+  "diamond_bow": {
+    "code": "6s7",
+    "type": "bow",
+    "display_name": "Diamond Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 89,
+    "durability": 40,
+    "level": 72,
+    "levelreq": 54,
+    "gemsockets": 5,
+    "damage": [
+      [
+        33,
+        40
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "spider_bow": {
+    "code": "6sb",
+    "type": "bow",
+    "display_name": "Spider Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 64,
+    "durability": 20,
+    "level": 55,
+    "levelreq": 41,
+    "gemsockets": 3,
+    "damage": [
+      [
+        23,
+        50
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 5
+  },
+  "walking_stick": {
+    "code": "6ss",
+    "type": "staff",
+    "display_name": "Walking Stick",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 20,
+    "level": 58,
+    "levelreq": 43,
+    "gemsockets": 2,
+    "damage": [
+      [
+        69,
+        85
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "ward_bow": {
+    "code": "6sw",
+    "type": "bow",
+    "display_name": "Ward Bow",
+    "uniques": [
+      "widowmaker"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 72,
+    "durability": 48,
+    "level": 80,
+    "levelreq": 60,
+    "gemsockets": 5,
+    "damage": [
+      [
+        20,
+        53
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "archon_staff": {
+    "code": "6ws",
+    "type": "staff",
+    "display_name": "Archon Staff",
+    "uniques": [
+      "mang_songs_lesson"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 34,
+    "durability": 26,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 6,
+    "damage": [
+      [
+        83,
+        99
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "ettin_axe": {
+    "code": "72a",
+    "type": "axe",
+    "display_name": "Ettin Axe",
+    "uniques": [
+      "rune_master"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 145,
+    "durability": 24,
+    "level": 70,
+    "levelreq": 52,
+    "gemsockets": 5,
+    "damage": [
+      [
+        33,
+        66
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "legend_sword": {
+    "code": "72h",
+    "type": "sword",
+    "display_name": "Legend Sword",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 175,
+    "durability": 44,
+    "level": 59,
+    "levelreq": 44,
+    "gemsockets": 3,
+    "damage": [
+      [
+        22,
+        56
+      ],
+      [
+        50,
+        94
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": -15
+  },
+  "suwayyah": {
+    "code": "7ar",
+    "type": "hand_to_hand_2",
+    "display_name": "Suwayyah",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 99,
+    "durability": 48,
+    "level": 59,
+    "levelreq": 44,
+    "gemsockets": 3,
+    "damage": [
+      [
+        39,
+        52
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "small_crescent": {
+    "code": "7ax",
+    "type": "axe",
+    "display_name": "Small Crescent",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 115,
+    "durability": 24,
+    "level": 61,
+    "levelreq": 45,
+    "gemsockets": 4,
+    "damage": [
+      [
+        38,
+        60
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "champion_sword": {
+    "code": "7b7",
+    "type": "sword",
+    "display_name": "Champion Sword",
+    "uniques": [
+      "doombringer"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 163,
+    "durability": 40,
+    "level": 77,
+    "levelreq": 57,
+    "gemsockets": 4,
+    "damage": [
+      [
+        24,
+        54
+      ],
+      [
+        71,
+        83
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": -10
+  },
+  "winged_axe": {
+    "code": "7b8",
+    "type": "throwing_axe",
+    "display_name": "Winged Axe",
+    "uniques": [
+      "lacerator"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 96,
+    "durability": 16,
+    "level": 80,
+    "levelreq": 60,
+    "gemsockets": 0,
+    "damage": [
+      [
+        11,
+        56
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "silveredged_axe": {
+    "code": "7ba",
+    "type": "axe",
+    "display_name": "Silver-edged Axe",
+    "uniques": [
+      "ethereal_edge"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 166,
+    "durability": 35,
+    "level": 65,
+    "levelreq": 48,
+    "gemsockets": 5,
+    "damage": [
+      [
+        62,
+        110
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 0
+  },
+  "winged_knife": {
+    "code": "7bk",
+    "type": "throwing_knife",
+    "display_name": "Winged Knife",
+    "uniques": [
+      "warshrike"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 45,
+    "durability": 20,
+    "level": 77,
+    "levelreq": 57,
+    "gemsockets": 0,
+    "damage": [
+      [
+        27,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "legend_spike": {
+    "code": "7bl",
+    "type": "knife",
+    "display_name": "Legend Spike",
+    "uniques": [
+      "ghostflame"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 65,
+    "durability": 47,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 2,
+    "damage": [
+      [
+        31,
+        47
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "mancatcher": {
+    "code": "7br",
+    "type": "spear",
+    "display_name": "Mancatcher",
+    "uniques": [
+      "viperfork"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 132,
+    "durability": 28,
+    "level": 74,
+    "levelreq": 55,
+    "gemsockets": 5,
+    "damage": [
+      [
+        42,
+        92
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": -20
+  },
+  "conquest_sword": {
+    "code": "7bs",
+    "type": "sword",
+    "display_name": "Conquest Sword",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 142,
+    "durability": 32,
+    "level": 78,
+    "levelreq": 58,
+    "gemsockets": 4,
+    "damage": [
+      [
+        37,
+        53
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "decapitator": {
+    "code": "7bt",
+    "type": "axe",
+    "display_name": "Decapitator",
+    "uniques": [
+      "hellslayer"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 189,
+    "durability": 40,
+    "level": 73,
+    "levelreq": 54,
+    "gemsockets": 5,
+    "damage": [
+      [
+        49,
+        137
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 10
+  },
+  "lich_wand": {
+    "code": "7bw",
+    "type": "wand",
+    "display_name": "Lich Wand",
+    "uniques": [
+      "boneshade"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 17,
+    "level": 75,
+    "levelreq": 56,
+    "gemsockets": 2,
+    "damage": [
+      [
+        10,
+        31
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "truncheon": {
+    "code": "7cl",
+    "type": "club",
+    "display_name": "Truncheon",
+    "uniques": [
+      "nords_tenderizer"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 88,
+    "durability": 55,
+    "level": 52,
+    "levelreq": 39,
+    "gemsockets": 2,
+    "damage": [
+      [
+        35,
+        43
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "highland_blade": {
+    "code": "7cm",
+    "type": "sword",
+    "display_name": "Highland Blade",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 171,
+    "durability": 50,
+    "level": 66,
+    "levelreq": 49,
+    "gemsockets": 4,
+    "damage": [
+      [
+        22,
+        62
+      ],
+      [
+        67,
+        96
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": -5
+  },
+  "phase_blade": {
+    "code": "7cr",
+    "type": "sword",
+    "display_name": "Phase Blade",
+    "uniques": [
+      "lightsabre",
+      "azurewrath"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": null,
+    "level": 73,
+    "levelreq": 54,
+    "gemsockets": 6,
+    "damage": [
+      [
+        31,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -30
+  },
+  "battle_cestus": {
+    "code": "7cs",
+    "type": "hand_to_hand_2",
+    "display_name": "Battle Cestus",
+    "uniques": [
+      "shadow_killer"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 110,
+    "durability": 72,
+    "level": 73,
+    "levelreq": 54,
+    "gemsockets": 2,
+    "damage": [
+      [
+        36,
+        42
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "bone_knife": {
+    "code": "7dg",
+    "type": "knife",
+    "display_name": "Bone Knife",
+    "uniques": [
+      "wizardspike"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 38,
+    "durability": 26,
+    "level": 58,
+    "levelreq": 43,
+    "gemsockets": 1,
+    "damage": [
+      [
+        23,
+        49
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "mithril_point": {
+    "code": "7di",
+    "type": "knife",
+    "display_name": "Mithril Point",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 55,
+    "durability": 55,
+    "level": 70,
+    "levelreq": 52,
+    "gemsockets": 1,
+    "damage": [
+      [
+        37,
+        53
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "colossus_sword": {
+    "code": "7fb",
+    "type": "sword",
+    "display_name": "Colossus Sword",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 182,
+    "durability": 50,
+    "level": 80,
+    "levelreq": 60,
+    "gemsockets": 5,
+    "damage": [
+      [
+        26,
+        70
+      ],
+      [
+        61,
+        121
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 10
+  },
+  "hydra_edge": {
+    "code": "7fc",
+    "type": "sword",
+    "display_name": "Hydra Edge",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 142,
+    "durability": 32,
+    "level": 69,
+    "levelreq": 51,
+    "gemsockets": 2,
+    "damage": [
+      [
+        28,
+        68
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "scourge": {
+    "code": "7fl",
+    "type": "mace",
+    "display_name": "Scourge",
+    "uniques": [
+      "horizons_tornado",
+      "stormlash"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 125,
+    "durability": 65,
+    "level": 76,
+    "levelreq": 57,
+    "gemsockets": 5,
+    "damage": [
+      [
+        3,
+        80
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "champion_axe": {
+    "code": "7ga",
+    "type": "axe",
+    "display_name": "Champion Axe",
+    "uniques": [
+      "messerschmidts_reaver"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 167,
+    "durability": 50,
+    "level": 82,
+    "levelreq": 61,
+    "gemsockets": 6,
+    "damage": [
+      [
+        59,
+        94
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": -10
+  },
+  "colossus_blade": {
+    "code": "7gd",
+    "type": "sword",
+    "display_name": "Colossus Blade",
+    "uniques": [
+      "the_grandfather"
+    ],
+    "sets": [
+      "bulkathos_sacred_charge"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 189,
+    "durability": 50,
+    "level": 85,
+    "levelreq": 63,
+    "gemsockets": 6,
+    "damage": [
+      [
+        25,
+        65
+      ],
+      [
+        58,
+        115
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 5
+  },
+  "glorious_axe": {
+    "code": "7gi",
+    "type": "axe",
+    "display_name": "Glorious Axe",
+    "uniques": [
+      "executioners_justice"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 164,
+    "durability": 50,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 6,
+    "damage": [
+      [
+        60,
+        124
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 10
+  },
+  "ghost_glaive": {
+    "code": "7gl",
+    "type": "javelin",
+    "display_name": "Ghost Glaive",
+    "uniques": [
+      "wraith_flight"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 89,
+    "durability": 16,
+    "level": 79,
+    "levelreq": 59,
+    "gemsockets": 0,
+    "damage": [
+      [
+        19,
+        60
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 20
+  },
+  "thunder_maul": {
+    "code": "7gm",
+    "type": "hammer",
+    "display_name": "Thunder Maul",
+    "uniques": [
+      "the_cranium_basher",
+      "earth_shifter"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 253,
+    "durability": 60,
+    "level": 85,
+    "levelreq": 65,
+    "gemsockets": 6,
+    "damage": [
+      [
+        33,
+        180
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 20
+  },
+  "balrog_blade": {
+    "code": "7gs",
+    "type": "sword",
+    "display_name": "Balrog Blade",
+    "uniques": [
+      "flamebellow"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 185,
+    "durability": 50,
+    "level": 71,
+    "levelreq": 53,
+    "gemsockets": 4,
+    "damage": [
+      [
+        15,
+        75
+      ],
+      [
+        55,
+        118
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 0
+  },
+  "unearthed_wand": {
+    "code": "7gw",
+    "type": "wand",
+    "display_name": "Unearthed Wand",
+    "uniques": [
+      "deaths_web"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 18,
+    "level": 86,
+    "levelreq": 64,
+    "gemsockets": 2,
+    "damage": [
+      [
+        22,
+        28
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "great_poleaxe": {
+    "code": "7h7",
+    "type": "polearm",
+    "display_name": "Great Poleaxe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 179,
+    "durability": 55,
+    "level": 84,
+    "levelreq": 63,
+    "gemsockets": 6,
+    "damage": [
+      [
+        46,
+        127
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "tomahawk": {
+    "code": "7ha",
+    "type": "axe",
+    "display_name": "Tomahawk",
+    "uniques": [
+      "razors_edge"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 125,
+    "durability": 28,
+    "level": 54,
+    "levelreq": 40,
+    "gemsockets": 2,
+    "damage": [
+      [
+        33,
+        58
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "hyperion_javelin": {
+    "code": "7ja",
+    "type": "javelin",
+    "display_name": "Hyperion Javelin",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 98,
+    "durability": 10,
+    "level": 54,
+    "levelreq": 40,
+    "gemsockets": 0,
+    "damage": [
+      [
+        21,
+        57
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "fanged_knife": {
+    "code": "7kr",
+    "type": "knife",
+    "display_name": "Fanged Knife",
+    "uniques": [
+      "fleshripper"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 42,
+    "durability": 36,
+    "level": 83,
+    "levelreq": 62,
+    "gemsockets": 3,
+    "damage": [
+      [
+        15,
+        57
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "feral_axe": {
+    "code": "7la",
+    "type": "axe",
+    "display_name": "Feral Axe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 196,
+    "durability": 30,
+    "level": 57,
+    "levelreq": 42,
+    "gemsockets": 4,
+    "damage": [
+      [
+        25,
+        123
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": -15
+  },
+  "cryptic_sword": {
+    "code": "7ls",
+    "type": "sword",
+    "display_name": "Cryptic Sword",
+    "uniques": [
+      "frostwind"
+    ],
+    "sets": [
+      "sazabis_cobalt_redeemer"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 99,
+    "durability": 44,
+    "level": 82,
+    "levelreq": 61,
+    "gemsockets": 4,
+    "damage": [
+      [
+        5,
+        77
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "feral_claws": {
+    "code": "7lw",
+    "type": "hand_to_hand_2",
+    "display_name": "Feral Claws",
+    "uniques": [
+      "firelizards_talons"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 113,
+    "durability": 52,
+    "level": 78,
+    "levelreq": 58,
+    "gemsockets": 3,
+    "damage": [
+      [
+        22,
+        53
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -20
+  },
+  "ogre_maul": {
+    "code": "7m7",
+    "type": "hammer",
+    "display_name": "Ogre Maul",
+    "uniques": [
+      "windhammer"
+    ],
+    "sets": [
+      "immortal_kings_stone_crusher"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 225,
+    "durability": 60,
+    "level": 69,
+    "levelreq": 51,
+    "gemsockets": 6,
+    "damage": [
+      [
+        77,
+        106
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "reinforced_mace": {
+    "code": "7ma",
+    "type": "mace",
+    "display_name": "Reinforced Mace",
+    "uniques": null,
+    "sets": [
+      "dangoons_teaching"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 145,
+    "durability": 60,
+    "level": 63,
+    "levelreq": 47,
+    "gemsockets": 2,
+    "damage": [
+      [
+        41,
+        49
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "war_spike": {
+    "code": "7mp",
+    "type": "axe",
+    "display_name": "War Spike",
+    "uniques": [
+      "cranebeak"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 133,
+    "durability": 26,
+    "level": 79,
+    "levelreq": 59,
+    "gemsockets": 6,
+    "damage": [
+      [
+        30,
+        48
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "devil_star": {
+    "code": "7mt",
+    "type": "mace",
+    "display_name": "Devil Star",
+    "uniques": [
+      "baranars_star"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 153,
+    "durability": 72,
+    "level": 70,
+    "levelreq": 52,
+    "gemsockets": 3,
+    "damage": [
+      [
+        43,
+        53
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "ogre_axe": {
+    "code": "7o7",
+    "type": "polearm",
+    "display_name": "Ogre Axe",
+    "uniques": [
+      "bonehew"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 195,
+    "durability": 50,
+    "level": 60,
+    "levelreq": 45,
+    "gemsockets": 3,
+    "damage": [
+      [
+        28,
+        145
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 0
+  },
+  "war_pike": {
+    "code": "7p7",
+    "type": "spear",
+    "display_name": "War Pike",
+    "uniques": [
+      "steel_pillar"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 165,
+    "durability": 25,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 6,
+    "damage": [
+      [
+        33,
+        178
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 20
+  },
+  "cryptic_axe": {
+    "code": "7pa",
+    "type": "polearm",
+    "display_name": "Cryptic Axe",
+    "uniques": [
+      "tomb_reaver"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 165,
+    "durability": 65,
+    "level": 79,
+    "levelreq": 59,
+    "gemsockets": 5,
+    "damage": [
+      [
+        33,
+        150
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 10
+  },
+  "stygian_pilum": {
+    "code": "7pi",
+    "type": "javelin",
+    "display_name": "Stygian Pilum",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 118,
+    "durability": 12,
+    "level": 62,
+    "levelreq": 46,
+    "gemsockets": 0,
+    "damage": [
+      [
+        14,
+        64
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 0
+  },
+  "scissors_suwayyah": {
+    "code": "7qr",
+    "type": "hand_to_hand_2",
+    "display_name": "Scissors Suwayyah",
+    "uniques": null,
+    "sets": [
+      "natalyas_mark"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 118,
+    "durability": 68,
+    "level": 85,
+    "levelreq": 64,
+    "gemsockets": 3,
+    "damage": [
+      [
+        40,
+        51
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "seraph_rod": {
+    "code": "7qs",
+    "type": "scepter",
+    "display_name": "Seraph Rod",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 108,
+    "durability": 60,
+    "level": 76,
+    "levelreq": 57,
+    "gemsockets": 3,
+    "damage": [
+      [
+        45,
+        54
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "balrog_spear": {
+    "code": "7s7",
+    "type": "javelin",
+    "display_name": "Balrog Spear",
+    "uniques": [
+      "demons_arch"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 127,
+    "durability": 14,
+    "level": 71,
+    "levelreq": 53,
+    "gemsockets": 0,
+    "damage": [
+      [
+        33,
+        63
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 10
+  },
+  "thresher": {
+    "code": "7s8",
+    "type": "polearm",
+    "display_name": "Thresher",
+    "uniques": [
+      "the_reapers_toll"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 152,
+    "durability": 65,
+    "level": 71,
+    "levelreq": 53,
+    "gemsockets": 5,
+    "damage": [
+      [
+        12,
+        141
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "elegant_blade": {
+    "code": "7sb",
+    "type": "sword",
+    "display_name": "Elegant Blade",
+    "uniques": [
+      "bloodmoon"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 109,
+    "durability": 32,
+    "level": 63,
+    "levelreq": 47,
+    "gemsockets": 2,
+    "damage": [
+      [
+        33,
+        45
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "mighty_scepter": {
+    "code": "7sc",
+    "type": "scepter",
+    "display_name": "Mighty Scepter",
+    "uniques": [
+      "heavens_light",
+      "the_redeemer"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 125,
+    "durability": 50,
+    "level": 62,
+    "levelreq": 46,
+    "gemsockets": 2,
+    "damage": [
+      [
+        40,
+        52
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "ataghan": {
+    "code": "7sm",
+    "type": "sword",
+    "display_name": "Ataghan",
+    "uniques": [
+      "djinn_slayer"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 138,
+    "durability": 22,
+    "level": 61,
+    "levelreq": 45,
+    "gemsockets": 2,
+    "damage": [
+      [
+        26,
+        46
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "tyrant_club": {
+    "code": "7sp",
+    "type": "club",
+    "display_name": "Tyrant Club",
+    "uniques": [
+      "demon_limb"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 133,
+    "durability": 65,
+    "level": 57,
+    "levelreq": 42,
+    "gemsockets": 3,
+    "damage": [
+      [
+        32,
+        58
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "hyperion_spear": {
+    "code": "7sr",
+    "type": "spear",
+    "display_name": "Hyperion Spear",
+    "uniques": [
+      "ariocs_needle"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 155,
+    "durability": 30,
+    "level": 58,
+    "levelreq": 43,
+    "gemsockets": 3,
+    "damage": [
+      [
+        35,
+        119
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": -10
+  },
+  "falcata": {
+    "code": "7ss",
+    "type": "sword",
+    "display_name": "Falcata",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 150,
+    "durability": 24,
+    "level": 56,
+    "levelreq": 42,
+    "gemsockets": 2,
+    "damage": [
+      [
+        31,
+        59
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "ghost_spear": {
+    "code": "7st",
+    "type": "spear",
+    "display_name": "Ghost Spear",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 122,
+    "durability": 28,
+    "level": 83,
+    "levelreq": 62,
+    "gemsockets": 6,
+    "damage": [
+      [
+        18,
+        155
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "flying_axe": {
+    "code": "7ta",
+    "type": "throwing_axe",
+    "display_name": "Flying Axe",
+    "uniques": [
+      "gimmershred"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 88,
+    "durability": 15,
+    "level": 56,
+    "levelreq": 42,
+    "gemsockets": 0,
+    "damage": [
+      [
+        17,
+        65
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "flying_knife": {
+    "code": "7tk",
+    "type": "throwing_knife",
+    "display_name": "Flying Knife",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 48,
+    "durability": 6,
+    "level": 64,
+    "levelreq": 48,
+    "gemsockets": 0,
+    "damage": [
+      [
+        23,
+        54
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "stygian_pike": {
+    "code": "7tr",
+    "type": "spear",
+    "display_name": "Stygian Pike",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 168,
+    "durability": 35,
+    "level": 66,
+    "levelreq": 49,
+    "gemsockets": 4,
+    "damage": [
+      [
+        29,
+        144
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 0
+  },
+  "winged_harpoon": {
+    "code": "7ts",
+    "type": "javelin",
+    "display_name": "Winged Harpoon",
+    "uniques": [
+      "gargoyles_bite"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 76,
+    "durability": 18,
+    "level": 85,
+    "levelreq": 65,
+    "gemsockets": 0,
+    "damage": [
+      [
+        27,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "runic_talons": {
+    "code": "7tw",
+    "type": "hand_to_hand_2",
+    "display_name": "Runic Talons",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 115,
+    "durability": 69,
+    "level": 81,
+    "levelreq": 60,
+    "gemsockets": 3,
+    "damage": [
+      [
+        24,
+        44
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -30
+  },
+  "colossus_voulge": {
+    "code": "7vo",
+    "type": "polearm",
+    "display_name": "Colossus Voulge",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 210,
+    "durability": 50,
+    "level": 64,
+    "levelreq": 48,
+    "gemsockets": 4,
+    "damage": [
+      [
+        17,
+        165
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 10
+  },
+  "berserker_axe": {
+    "code": "7wa",
+    "type": "axe",
+    "display_name": "Berserker Axe",
+    "uniques": [
+      "death_cleaver"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 138,
+    "durability": 26,
+    "level": 85,
+    "levelreq": 64,
+    "gemsockets": 6,
+    "damage": [
+      [
+        24,
+        71
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 0
+  },
+  "wrist_sword": {
+    "code": "7wb",
+    "type": "hand_to_hand_2",
+    "display_name": "Wrist Sword",
+    "uniques": [
+      "jade_talon"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 105,
+    "durability": 56,
+    "level": 62,
+    "levelreq": 46,
+    "gemsockets": 3,
+    "damage": [
+      [
+        34,
+        45
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "giant_thresher": {
+    "code": "7wc",
+    "type": "polearm",
+    "display_name": "Giant Thresher",
+    "uniques": [
+      "stormspire"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 188,
+    "durability": 55,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 6,
+    "damage": [
+      [
+        40,
+        114
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": -10
+  },
+  "mythical_sword": {
+    "code": "7wd",
+    "type": "sword",
+    "display_name": "Mythical Sword",
+    "uniques": null,
+    "sets": [
+      "bulkathos_tribal_guardian"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 147,
+    "durability": 44,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 3,
+    "damage": [
+      [
+        40,
+        50
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "legendary_mallet": {
+    "code": "7wh",
+    "type": "hammer",
+    "display_name": "Legendary Mallet",
+    "uniques": [
+      "schaefers_hammer",
+      "stone_crusher"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 189,
+    "durability": 65,
+    "level": 82,
+    "levelreq": 61,
+    "gemsockets": 4,
+    "damage": [
+      [
+        50,
+        61
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 20
+  },
+  "polished_wand": {
+    "code": "7wn",
+    "type": "wand",
+    "display_name": "Polished Wand",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 22,
+    "level": 55,
+    "levelreq": 41,
+    "gemsockets": 2,
+    "damage": [
+      [
+        18,
+        33
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "caduceus": {
+    "code": "7ws",
+    "type": "scepter",
+    "display_name": "Caduceus",
+    "uniques": [
+      "astreons_iron_ward"
+    ],
+    "sets": [
+      "griswolds_redemption"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 97,
+    "durability": 70,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 5,
+    "damage": [
+      [
+        37,
+        43
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "war_fist": {
+    "code": "7xf",
+    "type": "hand_to_hand_2",
+    "display_name": "War Fist",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 108,
+    "durability": 64,
+    "level": 68,
+    "levelreq": 51,
+    "gemsockets": 2,
+    "damage": [
+      [
+        44,
+        53
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "ghost_wand": {
+    "code": "7yw",
+    "type": "wand",
+    "display_name": "Ghost Wand",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 14,
+    "level": 65,
+    "levelreq": 48,
+    "gemsockets": 2,
+    "damage": [
+      [
+        20,
+        40
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "gothic_staff": {
+    "code": "8bs",
+    "type": "staff",
+    "display_name": "Gothic Staff",
+    "uniques": [
+      "warpspear"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 40,
+    "level": 42,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        14,
+        34
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "double_bow": {
+    "code": "8cb",
+    "type": "bow",
+    "display_name": "Double Bow",
+    "uniques": [
+      "endlesshail"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 58,
+    "durability": 36,
+    "level": 39,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        11,
+        26
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "cedar_staff": {
+    "code": "8cs",
+    "type": "staff",
+    "display_name": "Cedar Staff",
+    "uniques": [
+      "chromatic_ire"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 35,
+    "level": 38,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        11,
+        32
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "razor_bow": {
+    "code": "8hb",
+    "type": "bow",
+    "display_name": "Razor Bow",
+    "uniques": [
+      "riphook"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 32,
+    "level": 33,
+    "levelreq": 21,
+    "gemsockets": 4,
+    "damage": [
+      [
+        8,
+        22
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "ballista": {
+    "code": "8hx",
+    "type": "crossbow",
+    "display_name": "Ballista",
+    "uniques": [
+      "burizado_kyanon"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 110,
+    "durability": 50,
+    "level": 47,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        33,
+        55
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "large_siege_bow": {
+    "code": "8l8",
+    "type": "bow",
+    "display_name": "Large Siege Bow",
+    "uniques": [
+      "cliffkiller"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 44,
+    "level": 46,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        10,
+        42
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "cedar_bow": {
+    "code": "8lb",
+    "type": "bow",
+    "display_name": "Cedar Bow",
+    "uniques": [
+      "kuko_shakaku"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 53,
+    "durability": 28,
+    "level": 35,
+    "levelreq": 23,
+    "gemsockets": 5,
+    "damage": [
+      [
+        10,
+        29
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "quarterstaff": {
+    "code": "8ls",
+    "type": "staff",
+    "display_name": "Quarterstaff",
+    "uniques": [
+      "ribcracker"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 30,
+    "level": 35,
+    "levelreq": 23,
+    "gemsockets": 3,
+    "damage": [
+      [
+        8,
+        26
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "gothic_bow": {
+    "code": "8lw",
+    "type": "bow",
+    "display_name": "Gothic Bow",
+    "uniques": [
+      "goldstrike_arch"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 95,
+    "durability": 55,
+    "level": 52,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        10,
+        50
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "arbalest": {
+    "code": "8lx",
+    "type": "crossbow",
+    "display_name": "Arbalest",
+    "uniques": [
+      "langer_briser"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 52,
+    "durability": 30,
+    "level": 34,
+    "levelreq": 22,
+    "gemsockets": 3,
+    "damage": [
+      [
+        14,
+        27
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "siege_crossbow": {
+    "code": "8mx",
+    "type": "crossbow",
+    "display_name": "Siege Crossbow",
+    "uniques": [
+      "pus_spitter"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 40,
+    "level": 40,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        20,
+        42
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "chukonu": {
+    "code": "8rx",
+    "type": "crossbow",
+    "display_name": "Chu-Ko-Nu",
+    "uniques": [
+      "demon_machine"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 40,
+    "level": 54,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        14,
+        32
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -60
+  },
+  "short_siege_bow": {
+    "code": "8s8",
+    "type": "bow",
+    "display_name": "Short Siege Bow",
+    "uniques": [
+      "witchwild_string"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 65,
+    "durability": 40,
+    "level": 43,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        13,
+        30
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "edge_bow": {
+    "code": "8sb",
+    "type": "bow",
+    "display_name": "Edge Bow",
+    "uniques": [
+      "skystrike"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 20,
+    "level": 30,
+    "levelreq": 18,
+    "gemsockets": 3,
+    "damage": [
+      [
+        6,
+        19
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 5
+  },
+  "jo_staff": {
+    "code": "8ss",
+    "type": "staff",
+    "display_name": "Jo Staff",
+    "uniques": [
+      "razorswitch"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 20,
+    "level": 30,
+    "levelreq": 18,
+    "gemsockets": 2,
+    "damage": [
+      [
+        6,
+        21
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "rune_bow": {
+    "code": "8sw",
+    "type": "bow",
+    "display_name": "Rune Bow",
+    "uniques": [
+      "magewrath"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 73,
+    "durability": 48,
+    "level": 49,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        14,
+        35
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "rune_staff": {
+    "code": "8ws",
+    "type": "staff",
+    "display_name": "Rune Staff",
+    "uniques": [
+      "skull_collector"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 50,
+    "level": 47,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        24,
+        58
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 20
+  },
+  "twin_axe": {
+    "code": "92a",
+    "type": "axe",
+    "display_name": "Twin Axe",
+    "uniques": [
+      "islestrike"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 85,
+    "durability": 24,
+    "level": 39,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        13,
+        38
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "espandon": {
+    "code": "92h",
+    "type": "sword",
+    "display_name": "Espandon",
+    "uniques": [
+      "crainte_vomir"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 73,
+    "durability": 44,
+    "level": 37,
+    "levelreq": 25,
+    "gemsockets": 3,
+    "damage": [
+      [
+        8,
+        26
+      ],
+      [
+        18,
+        40
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 0
+  },
+  "quhab": {
+    "code": "9ar",
+    "type": "hand_to_hand",
+    "display_name": "Quhab",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 57,
+    "durability": 48,
+    "level": 28,
+    "levelreq": 21,
+    "gemsockets": 3,
+    "damage": [
+      [
+        11,
+        24
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "cleaver": {
+    "code": "9ax",
+    "type": "axe",
+    "display_name": "Cleaver",
+    "uniques": [
+      "butchers_pupil"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 68,
+    "durability": 24,
+    "level": 34,
+    "levelreq": 22,
+    "gemsockets": 4,
+    "damage": [
+      [
+        10,
+        33
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "lochaber_axe": {
+    "code": "9b7",
+    "type": "polearm",
+    "display_name": "Lochaber Axe",
+    "uniques": [
+      "the_meat_scraper"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 50,
+    "level": 33,
+    "levelreq": 21,
+    "gemsockets": 3,
+    "damage": [
+      [
+        6,
+        58
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 10
+  },
+  "hurlbat": {
+    "code": "9b8",
+    "type": "throwing_axe",
+    "display_name": "Hurlbat",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 16,
+    "level": 41,
+    "levelreq": 25,
+    "gemsockets": 0,
+    "damage": [
+      [
+        13,
+        27
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "gothic_sword": {
+    "code": "9b9",
+    "type": "sword",
+    "display_name": "Gothic Sword",
+    "uniques": [
+      "cloudcrack"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 113,
+    "durability": 40,
+    "level": 48,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        14,
+        40
+      ],
+      [
+        39,
+        60
+      ]
+    ],
+    "hands": "both",
+    "range": 1,
+    "speed": 10
+  },
+  "bearded_axe": {
+    "code": "9ba",
+    "type": "axe",
+    "display_name": "Bearded Axe",
+    "uniques": [
+      "spellsteel"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 92,
+    "durability": 35,
+    "level": 38,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        21,
+        49
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "war_dart": {
+    "code": "9bk",
+    "type": "throwing_knife",
+    "display_name": "War Dart",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 20,
+    "level": 39,
+    "levelreq": 25,
+    "gemsockets": 0,
+    "damage": [
+      [
+        6,
+        24
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "stiletto": {
+    "code": "9bl",
+    "type": "knife",
+    "display_name": "Stiletto",
+    "uniques": [
+      "stormspike"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 47,
+    "durability": 24,
+    "level": 46,
+    "levelreq": 25,
+    "gemsockets": 2,
+    "damage": [
+      [
+        19,
+        36
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "war_fork": {
+    "code": "9br",
+    "type": "spear",
+    "display_name": "War Fork",
+    "uniques": [
+      "soulfeast_tine"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 28,
+    "level": 41,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        16,
+        40
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": -20
+  },
+  "battle_sword": {
+    "code": "9bs",
+    "type": "sword",
+    "display_name": "Battle Sword",
+    "uniques": [
+      "headstriker"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 92,
+    "durability": 32,
+    "level": 40,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        16,
+        34
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "tabar": {
+    "code": "9bt",
+    "type": "axe",
+    "display_name": "Tabar",
+    "uniques": [
+      "stormrider"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 101,
+    "durability": 40,
+    "level": 42,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        24,
+        77
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "tomb_wand": {
+    "code": "9bw",
+    "type": "wand",
+    "display_name": "Tomb Wand",
+    "uniques": [
+      "arm_of_king_leoric"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 15,
+    "level": 43,
+    "levelreq": 25,
+    "gemsockets": 2,
+    "damage": [
+      [
+        10,
+        22
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "cudgel": {
+    "code": "9cl",
+    "type": "club",
+    "display_name": "Cudgel",
+    "uniques": [
+      "dark_clan_crusher"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 24,
+    "level": 30,
+    "levelreq": 18,
+    "gemsockets": 2,
+    "damage": [
+      [
+        6,
+        21
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "dacian_falx": {
+    "code": "9cm",
+    "type": "sword",
+    "display_name": "Dacian Falx",
+    "uniques": [
+      "bing_sz_wang"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 91,
+    "durability": 50,
+    "level": 42,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        13,
+        30
+      ],
+      [
+        26,
+        61
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 10
+  },
+  "dimensional_blade": {
+    "code": "9cr",
+    "type": "sword",
+    "display_name": "Dimensional Blade",
+    "uniques": [
+      "ginthers_rift"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 85,
+    "durability": 20,
+    "level": 37,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        13,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "hand_scythe": {
+    "code": "9cs",
+    "type": "hand_to_hand_2",
+    "display_name": "Hand Scythe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 73,
+    "durability": 72,
+    "level": 41,
+    "levelreq": 30,
+    "gemsockets": 2,
+    "damage": [
+      [
+        16,
+        37
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "poignard": {
+    "code": "9dg",
+    "type": "knife",
+    "display_name": "Poignard",
+    "uniques": [
+      "spineripper"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 16,
+    "level": 31,
+    "levelreq": 19,
+    "gemsockets": 1,
+    "damage": [
+      [
+        6,
+        18
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "rondel": {
+    "code": "9di",
+    "type": "knife",
+    "display_name": "Rondel",
+    "uniques": [
+      "heart_carver"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 20,
+    "level": 36,
+    "levelreq": 24,
+    "gemsockets": 1,
+    "damage": [
+      [
+        10,
+        26
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "zweihander": {
+    "code": "9fb",
+    "type": "sword",
+    "display_name": "Zweihander",
+    "uniques": [
+      "todesfaelle_flamme"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 125,
+    "durability": 50,
+    "level": 49,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        19,
+        35
+      ],
+      [
+        29,
+        54
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": -10
+  },
+  "tulwar": {
+    "code": "9fc",
+    "type": "sword",
+    "display_name": "Tulwar",
+    "uniques": [
+      "blade_of_ali_baba"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 70,
+    "durability": 32,
+    "level": 37,
+    "levelreq": 25,
+    "gemsockets": 2,
+    "damage": [
+      [
+        16,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 20
+  },
+  "knout": {
+    "code": "9fl",
+    "type": "mace",
+    "display_name": "Knout",
+    "uniques": [
+      "baezils_vortex"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 82,
+    "durability": 30,
+    "level": 43,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        13,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "gothic_axe": {
+    "code": "9ga",
+    "type": "axe",
+    "display_name": "Gothic Axe",
+    "uniques": [
+      "boneslayer_blade"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 115,
+    "durability": 50,
+    "level": 46,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        18,
+        70
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": -10
+  },
+  "executioner_sword": {
+    "code": "9gd",
+    "type": "sword",
+    "display_name": "Executioner Sword",
+    "uniques": [
+      "swordguard"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 170,
+    "durability": 50,
+    "level": 54,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        24,
+        40
+      ],
+      [
+        47,
+        80
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 10
+  },
+  "ancient_axe": {
+    "code": "9gi",
+    "type": "axe",
+    "display_name": "Ancient Axe",
+    "uniques": [
+      "the_minotaur"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 125,
+    "durability": 50,
+    "level": 51,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        43,
+        85
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 10
+  },
+  "spiculum": {
+    "code": "9gl",
+    "type": "javelin",
+    "display_name": "Spiculum",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 98,
+    "durability": 16,
+    "level": 46,
+    "levelreq": 25,
+    "gemsockets": 0,
+    "damage": [
+      [
+        13,
+        38
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 20
+  },
+  "martel_de_fer": {
+    "code": "9gm",
+    "type": "hammer",
+    "display_name": "Martel de Fer",
+    "uniques": [
+      "the_gavel_of_pain"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 169,
+    "durability": 60,
+    "level": 53,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        61,
+        99
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 20
+  },
+  "tusk_sword": {
+    "code": "9gs",
+    "type": "sword",
+    "display_name": "Tusk Sword",
+    "uniques": [
+      "the_vile_husk"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 104,
+    "durability": 50,
+    "level": 45,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        10,
+        37
+      ],
+      [
+        19,
+        58
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 0
+  },
+  "grave_wand": {
+    "code": "9gw",
+    "type": "wand",
+    "display_name": "Grave Wand",
+    "uniques": [
+      "blackhand_key"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 15,
+    "level": 49,
+    "levelreq": 25,
+    "gemsockets": 2,
+    "damage": [
+      [
+        13,
+        29
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "becdecorbin": {
+    "code": "9h9",
+    "type": "polearm",
+    "display_name": "Bec-de-Corbin",
+    "uniques": [
+      "husoldal_evo"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 133,
+    "durability": 55,
+    "level": 51,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        13,
+        85
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "hatchet": {
+    "code": "9ha",
+    "type": "axe",
+    "display_name": "Hatchet",
+    "uniques": [
+      "coldkill"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 28,
+    "level": 31,
+    "levelreq": 19,
+    "gemsockets": 2,
+    "damage": [
+      [
+        10,
+        21
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "war_javelin": {
+    "code": "9ja",
+    "type": "javelin",
+    "display_name": "War Javelin",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 10,
+    "level": 30,
+    "levelreq": 18,
+    "gemsockets": 0,
+    "damage": [
+      [
+        6,
+        19
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "cinquedeas": {
+    "code": "9kr",
+    "type": "knife",
+    "display_name": "Cinquedeas",
+    "uniques": [
+      "blackbogs_sharp"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 24,
+    "level": 42,
+    "levelreq": 25,
+    "gemsockets": 3,
+    "damage": [
+      [
+        15,
+        31
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "military_axe": {
+    "code": "9la",
+    "type": "axe",
+    "display_name": "Military Axe",
+    "uniques": [
+      "warlords_trust"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 73,
+    "durability": 30,
+    "level": 34,
+    "levelreq": 22,
+    "gemsockets": 4,
+    "damage": [
+      [
+        14,
+        34
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "rune_sword": {
+    "code": "9ls",
+    "type": "sword",
+    "display_name": "Rune Sword",
+    "uniques": [
+      "plague_bearer"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 103,
+    "durability": 44,
+    "level": 44,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        10,
+        42
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "greater_claws": {
+    "code": "9lw",
+    "type": "hand_to_hand_2",
+    "display_name": "Greater Claws",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 76,
+    "durability": 52,
+    "level": 45,
+    "levelreq": 33,
+    "gemsockets": 3,
+    "damage": [
+      [
+        18,
+        37
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -20
+  },
+  "war_club": {
+    "code": "9m9",
+    "type": "hammer",
+    "display_name": "War Club",
+    "uniques": [
+      "bloodtree_stump"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 124,
+    "durability": 60,
+    "level": 45,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        53,
+        78
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "flanged_mace": {
+    "code": "9ma",
+    "type": "mace",
+    "display_name": "Flanged Mace",
+    "uniques": [
+      "sureshrill_frost"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 61,
+    "durability": 60,
+    "level": 35,
+    "levelreq": 23,
+    "gemsockets": 2,
+    "damage": [
+      [
+        15,
+        23
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "crowbill": {
+    "code": "9mp",
+    "type": "axe",
+    "display_name": "Crowbill",
+    "uniques": [
+      "pompeiis_wrath"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 94,
+    "durability": 26,
+    "level": 43,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        14,
+        34
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "jagged_star": {
+    "code": "9mt",
+    "type": "mace",
+    "display_name": "Jagged Star",
+    "uniques": [
+      "moonfall"
+    ],
+    "sets": [
+      "aldurs_rhythm"
+    ],
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 74,
+    "durability": 72,
+    "level": 39,
+    "levelreq": 25,
+    "gemsockets": 3,
+    "damage": [
+      [
+        20,
+        31
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "lance": {
+    "code": "9p9",
+    "type": "spear",
+    "display_name": "Lance",
+    "uniques": [
+      "spire_of_honor"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 110,
+    "durability": 25,
+    "level": 47,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        27,
+        114
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 20
+  },
+  "partizan": {
+    "code": "9pa",
+    "type": "polearm",
+    "display_name": "Partizan",
+    "uniques": [
+      "pierre_tombale_couant"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 113,
+    "durability": 65,
+    "level": 35,
+    "levelreq": 23,
+    "gemsockets": 5,
+    "damage": [
+      [
+        34,
+        75
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 10
+  },
+  "great_pilum": {
+    "code": "9pi",
+    "type": "javelin",
+    "display_name": "Great Pilum",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 12,
+    "level": 37,
+    "levelreq": 25,
+    "gemsockets": 0,
+    "damage": [
+      [
+        11,
+        26
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 0
+  },
+  "scissors_quhab": {
+    "code": "9qr",
+    "type": "hand_to_hand_2",
+    "display_name": "Scissors Quhab",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 82,
+    "durability": 68,
+    "level": 54,
+    "levelreq": 40,
+    "gemsockets": 3,
+    "damage": [
+      [
+        19,
+        40
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "holy_water_sprinkler": {
+    "code": "9qs",
+    "type": "scepter",
+    "display_name": "Holy Water Sprinkler",
+    "uniques": [
+      "the_fetid_sprinkler"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 76,
+    "durability": 60,
+    "level": 40,
+    "levelreq": 25,
+    "gemsockets": 3,
+    "damage": [
+      [
+        14,
+        36
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "battle_scythe": {
+    "code": "9s8",
+    "type": "polearm",
+    "display_name": "Battle Scythe",
+    "uniques": [
+      "athenas_wrath"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 82,
+    "durability": 65,
+    "level": 40,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        18,
+        45
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "simbilan": {
+    "code": "9s9",
+    "type": "javelin",
+    "display_name": "Simbilan",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 14,
+    "level": 40,
+    "levelreq": 25,
+    "gemsockets": 0,
+    "damage": [
+      [
+        8,
+        32
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 10
+  },
+  "shamshir": {
+    "code": "9sb",
+    "type": "sword",
+    "display_name": "Shamshir",
+    "uniques": [
+      "hexfire"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 58,
+    "durability": 32,
+    "level": 35,
+    "levelreq": 23,
+    "gemsockets": 2,
+    "damage": [
+      [
+        10,
+        24
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "rune_scepter": {
+    "code": "9sc",
+    "type": "scepter",
+    "display_name": "Rune Scepter",
+    "uniques": [
+      "zakarums_hand"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 58,
+    "durability": 50,
+    "level": 31,
+    "levelreq": 19,
+    "gemsockets": 2,
+    "damage": [
+      [
+        13,
+        24
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "cutlass": {
+    "code": "9sm",
+    "type": "sword",
+    "display_name": "Cutlass",
+    "uniques": [
+      "coldsteel_eye"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 22,
+    "level": 43,
+    "levelreq": 25,
+    "gemsockets": 2,
+    "damage": [
+      [
+        8,
+        21
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -30
+  },
+  "barbed_club": {
+    "code": "9sp",
+    "type": "club",
+    "display_name": "Barbed Club",
+    "uniques": [
+      "fleshrender"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 30,
+    "durability": 36,
+    "level": 32,
+    "levelreq": 20,
+    "gemsockets": 3,
+    "damage": [
+      [
+        13,
+        25
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "war_spear": {
+    "code": "9sr",
+    "type": "spear",
+    "display_name": "War Spear",
+    "uniques": [
+      "the_impaler"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 30,
+    "level": 33,
+    "levelreq": 21,
+    "gemsockets": 3,
+    "damage": [
+      [
+        10,
+        37
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": -10
+  },
+  "gladius": {
+    "code": "9ss",
+    "type": "sword",
+    "display_name": "Gladius",
+    "uniques": [
+      "bloodletter"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 24,
+    "level": 30,
+    "levelreq": 18,
+    "gemsockets": 2,
+    "damage": [
+      [
+        8,
+        22
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "yari": {
+    "code": "9st",
+    "type": "spear",
+    "display_name": "Yari",
+    "uniques": [
+      "hone_sundan"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 101,
+    "durability": 28,
+    "level": 44,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        29,
+        59
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "francisca": {
+    "code": "9ta",
+    "type": "throwing_axe",
+    "display_name": "Francisca",
+    "uniques": [
+      "the_scalper"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 15,
+    "level": 34,
+    "levelreq": 22,
+    "gemsockets": 0,
+    "damage": [
+      [
+        11,
+        22
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "battle_dart": {
+    "code": "9tk",
+    "type": "throwing_knife",
+    "display_name": "Battle Dart",
+    "uniques": [
+      "deathbit"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 6,
+    "level": 31,
+    "levelreq": 19,
+    "gemsockets": 0,
+    "damage": [
+      [
+        8,
+        16
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "fuscina": {
+    "code": "9tr",
+    "type": "spear",
+    "display_name": "Fuscina",
+    "uniques": [
+      "kelpie_snare"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 77,
+    "durability": 35,
+    "level": 36,
+    "levelreq": 24,
+    "gemsockets": 4,
+    "damage": [
+      [
+        19,
+        37
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 0
+  },
+  "harpoon": {
+    "code": "9ts",
+    "type": "javelin",
+    "display_name": "Harpoon",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 18,
+    "level": 51,
+    "levelreq": 25,
+    "gemsockets": 0,
+    "damage": [
+      [
+        13,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "greater_talons": {
+    "code": "9tw",
+    "type": "hand_to_hand_2",
+    "display_name": "Greater Talons",
+    "uniques": [
+      "bartucs_cutthroat"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 79,
+    "durability": 69,
+    "level": 50,
+    "levelreq": 37,
+    "gemsockets": 3,
+    "damage": [
+      [
+        21,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -30
+  },
+  "bill": {
+    "code": "9vo",
+    "type": "polearm",
+    "display_name": "Bill",
+    "uniques": [
+      "blackleach_blade"
+    ],
+    "sets": [
+      "hwanins_justice"
+    ],
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 95,
+    "durability": 50,
+    "level": 37,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        14,
+        53
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 0
+  },
+  "naga": {
+    "code": "9wa",
+    "type": "axe",
+    "display_name": "Naga",
+    "uniques": [
+      "guardian_naga"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 121,
+    "durability": 26,
+    "level": 48,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        16,
+        45
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 0
+  },
+  "wrist_spike": {
+    "code": "9wb",
+    "type": "hand_to_hand",
+    "display_name": "Wrist Spike",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 66,
+    "durability": 56,
+    "level": 32,
+    "levelreq": 24,
+    "gemsockets": 2,
+    "damage": [
+      [
+        13,
+        27
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "grim_scythe": {
+    "code": "9wc",
+    "type": "polearm",
+    "display_name": "Grim Scythe",
+    "uniques": [
+      "grims_burning_dead"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 140,
+    "durability": 55,
+    "level": 55,
+    "levelreq": 25,
+    "gemsockets": 6,
+    "damage": [
+      [
+        30,
+        70
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": -10
+  },
+  "ancient_sword": {
+    "code": "9wd",
+    "type": "sword",
+    "display_name": "Ancient Sword",
+    "uniques": [
+      "the_atlantean"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 127,
+    "durability": 44,
+    "level": 49,
+    "levelreq": 25,
+    "gemsockets": 3,
+    "damage": [
+      [
+        18,
+        43
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "battle_hammer": {
+    "code": "9wh",
+    "type": "hammer",
+    "display_name": "Battle Hammer",
+    "uniques": [
+      "earthshaker"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 100,
+    "durability": 55,
+    "level": 48,
+    "levelreq": 25,
+    "gemsockets": 4,
+    "damage": [
+      [
+        35,
+        58
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 20
+  },
+  "burnt_wand": {
+    "code": "9wn",
+    "type": "wand",
+    "display_name": "Burnt Wand",
+    "uniques": [
+      "suicide_branch"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 15,
+    "level": 31,
+    "levelreq": 19,
+    "gemsockets": 1,
+    "damage": [
+      [
+        8,
+        18
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "divine_scepter": {
+    "code": "9ws",
+    "type": "scepter",
+    "display_name": "Divine Scepter",
+    "uniques": [
+      "hand_of_blessed_light"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 103,
+    "durability": 70,
+    "level": 45,
+    "levelreq": 25,
+    "gemsockets": 5,
+    "damage": [
+      [
+        16,
+        38
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "fascia": {
+    "code": "9xf",
+    "type": "hand_to_hand",
+    "display_name": "Fascia",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 69,
+    "durability": 64,
+    "level": 36,
+    "levelreq": 27,
+    "gemsockets": 2,
+    "damage": [
+      [
+        8,
+        37
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "petrified_wand": {
+    "code": "9yw",
+    "type": "wand",
+    "display_name": "Petrified Wand",
+    "uniques": [
+      "carin_shard"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 15,
+    "level": 38,
+    "levelreq": 25,
+    "gemsockets": 2,
+    "damage": [
+      [
+        8,
+        24
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "stag_bow": {
+    "code": "am1",
+    "type": "amazon_bow",
+    "display_name": "Stag Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 30,
+    "durability": 48,
+    "level": 18,
+    "levelreq": 14,
+    "gemsockets": 5,
+    "damage": [
+      [
+        7,
+        12
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "reflex_bow": {
+    "code": "am2",
+    "type": "amazon_bow",
+    "display_name": "Reflex Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 35,
+    "durability": 55,
+    "level": 27,
+    "levelreq": 20,
+    "gemsockets": 5,
+    "damage": [
+      [
+        9,
+        19
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "maiden_spear": {
+    "code": "am3",
+    "type": "amazon_spear",
+    "display_name": "Maiden Spear",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 54,
+    "durability": 28,
+    "level": 18,
+    "levelreq": 14,
+    "gemsockets": 6,
+    "damage": [
+      [
+        18,
+        24
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "maiden_pike": {
+    "code": "am4",
+    "type": "amazon_spear",
+    "display_name": "Maiden Pike",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 63,
+    "durability": 25,
+    "level": 27,
+    "levelreq": 20,
+    "gemsockets": 6,
+    "damage": [
+      [
+        23,
+        55
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 10
+  },
+  "maiden_javelin": {
+    "code": "am5",
+    "type": "amazon_javelin",
+    "display_name": "Maiden Javelin",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 33,
+    "durability": 6,
+    "level": 23,
+    "levelreq": 17,
+    "gemsockets": 0,
+    "damage": [
+      [
+        8,
+        14
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "ashwood_bow": {
+    "code": "am6",
+    "type": "amazon_bow",
+    "display_name": "Ashwood Bow",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 56,
+    "durability": 48,
+    "level": 39,
+    "levelreq": 29,
+    "gemsockets": 5,
+    "damage": [
+      [
+        16,
+        29
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "ceremonial_bow": {
+    "code": "am7",
+    "type": "amazon_bow",
+    "display_name": "Ceremonial Bow",
+    "uniques": [
+      "lycanders_aim"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 73,
+    "durability": 55,
+    "level": 47,
+    "levelreq": 35,
+    "gemsockets": 5,
+    "damage": [
+      [
+        19,
+        41
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "ceremonial_spear": {
+    "code": "am8",
+    "type": "amazon_spear",
+    "display_name": "Ceremonial Spear",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 101,
+    "durability": 28,
+    "level": 43,
+    "levelreq": 32,
+    "gemsockets": 6,
+    "damage": [
+      [
+        34,
+        51
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "ceremonial_pike": {
+    "code": "am9",
+    "type": "amazon_spear",
+    "display_name": "Ceremonial Pike",
+    "uniques": [
+      "lycanders_flank"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 115,
+    "durability": 25,
+    "level": 51,
+    "levelreq": 38,
+    "gemsockets": 6,
+    "damage": [
+      [
+        42,
+        101
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 20
+  },
+  "ceremonial_javelin": {
+    "code": "ama",
+    "type": "amazon_javelin",
+    "display_name": "Ceremonial Javelin",
+    "uniques": [
+      "titans_revenge"
+    ],
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 6,
+    "level": 35,
+    "levelreq": 26,
+    "gemsockets": 0,
+    "damage": [
+      [
+        18,
+        35
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "matriarchal_bow": {
+    "code": "amb",
+    "type": "amazon_bow",
+    "display_name": "Matriarchal Bow",
+    "uniques": [
+      "blood_ravens_charge"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 87,
+    "durability": 48,
+    "level": 53,
+    "levelreq": 39,
+    "gemsockets": 5,
+    "damage": [
+      [
+        20,
+        47
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "grand_matron_bow": {
+    "code": "amc",
+    "type": "amazon_bow",
+    "display_name": "Grand Matron Bow",
+    "uniques": null,
+    "sets": [
+      "mavinas_caster"
+    ],
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 108,
+    "durability": 55,
+    "level": 78,
+    "levelreq": 58,
+    "gemsockets": 5,
+    "damage": [
+      [
+        14,
+        72
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "matriarchal_spear": {
+    "code": "amd",
+    "type": "amazon_spear",
+    "display_name": "Matriarchal Spear",
+    "uniques": [
+      "stoneraven"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 114,
+    "durability": 28,
+    "level": 61,
+    "levelreq": 45,
+    "gemsockets": 6,
+    "damage": [
+      [
+        65,
+        95
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "matriarchal_pike": {
+    "code": "ame",
+    "type": "amazon_spear",
+    "display_name": "Matriarchal Pike",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 132,
+    "durability": 25,
+    "level": 81,
+    "levelreq": 60,
+    "gemsockets": 6,
+    "damage": [
+      [
+        37,
+        153
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 20
+  },
+  "matriarchal_javelin": {
+    "code": "amf",
+    "type": "amazon_javelin",
+    "display_name": "Matriarchal Javelin",
+    "uniques": [
+      "thunderstroke"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 107,
+    "durability": 6,
+    "level": 65,
+    "levelreq": 48,
+    "gemsockets": 0,
+    "damage": [
+      [
+        30,
+        54
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "axe": {
+    "code": "axe",
+    "type": "axe",
+    "display_name": "Axe",
+    "uniques": [
+      "deathspade"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 32,
+    "durability": 24,
+    "level": 7,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        4,
+        11
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "hatchet_hands": {
+    "code": "axf",
+    "type": "hand_to_hand",
+    "display_name": "Hatchet Hands",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 37,
+    "durability": 56,
+    "level": 12,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        2,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "balanced_axe": {
+    "code": "bal",
+    "type": "throwing_axe",
+    "display_name": "Balanced Axe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 10,
+    "level": 16,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        5,
+        10
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "bardiche": {
+    "code": "bar",
+    "type": "polearm",
+    "display_name": "Bardiche",
+    "uniques": [
+      "dimoaks_hew"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 40,
+    "durability": 50,
+    "level": 5,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        1,
+        27
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 10
+  },
+  "broad_axe": {
+    "code": "bax",
+    "type": "axe",
+    "display_name": "Broad Axe",
+    "uniques": [
+      "goreshovel"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 48,
+    "durability": 35,
+    "level": 12,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        10,
+        18
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "balanced_knife": {
+    "code": "bkf",
+    "type": "throwing_knife",
+    "display_name": "Balanced Knife",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 8,
+    "level": 13,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        1,
+        8
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "blade": {
+    "code": "bld",
+    "type": "knife",
+    "display_name": "Blade",
+    "uniques": [
+      "spectral_shard"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 35,
+    "durability": 24,
+    "level": 23,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        4,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "brandistock": {
+    "code": "brn",
+    "type": "spear",
+    "display_name": "Brandistock",
+    "uniques": [
+      "bloodthief"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 40,
+    "durability": 28,
+    "level": 16,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        7,
+        17
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": -20
+  },
+  "broad_sword": {
+    "code": "bsd",
+    "type": "sword",
+    "display_name": "Broad Sword",
+    "uniques": [
+      "griswolds_edge"
+    ],
+    "sets": [
+      "isenharts_lightbrand"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 48,
+    "durability": 32,
+    "level": 15,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        7,
+        14
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "battle_staff": {
+    "code": "bst",
+    "type": "staff",
+    "display_name": "Battle Staff",
+    "uniques": [
+      "the_salamander"
+    ],
+    "sets": [
+      "cathans_rule"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 40,
+    "level": 17,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        6,
+        13
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "bastard_sword": {
+    "code": "bsw",
+    "type": "sword",
+    "display_name": "Bastard Sword",
+    "uniques": [
+      "blacktongue"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 62,
+    "durability": 40,
+    "level": 24,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        7,
+        19
+      ],
+      [
+        20,
+        28
+      ]
+    ],
+    "hands": "both",
+    "range": 1,
+    "speed": 10
+  },
+  "blade_talons": {
+    "code": "btl",
+    "type": "hand_to_hand",
+    "display_name": "Blade Talons",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 50,
+    "durability": 69,
+    "level": 21,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        10,
+        14
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -20
+  },
+  "battle_axe": {
+    "code": "btx",
+    "type": "axe",
+    "display_name": "Battle Axe",
+    "uniques": [
+      "the_chieftain"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 54,
+    "durability": 40,
+    "level": 17,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        12,
+        32
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "bone_wand": {
+    "code": "bwn",
+    "type": "wand",
+    "display_name": "Bone Wand",
+    "uniques": [
+      "gravenspine"
+    ],
+    "sets": [
+      "sanders_superstition"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 15,
+    "level": 18,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        3,
+        7
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "composite_bow": {
+    "code": "cbw",
+    "type": "bow",
+    "display_name": "Composite Bow",
+    "uniques": [
+      "rogues_bow"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 36,
+    "level": 12,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        4,
+        8
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "cestus": {
+    "code": "ces",
+    "type": "hand_to_hand",
+    "display_name": "Cestus",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 42,
+    "durability": 72,
+    "level": 15,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        7,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "club": {
+    "code": "clb",
+    "type": "club",
+    "display_name": "Club",
+    "uniques": [
+      "felloak"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 24,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        1,
+        6
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "claymore": {
+    "code": "clm",
+    "type": "sword",
+    "display_name": "Claymore",
+    "uniques": [
+      "soulflay"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 47,
+    "durability": 50,
+    "level": 17,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        5,
+        12
+      ],
+      [
+        13,
+        30
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 10
+  },
+  "claws": {
+    "code": "clw",
+    "type": "hand_to_hand",
+    "display_name": "Claws",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 46,
+    "durability": 64,
+    "level": 18,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        8,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "crystal_sword": {
+    "code": "crs",
+    "type": "sword",
+    "display_name": "Crystal Sword",
+    "uniques": [
+      "azurewrath"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 43,
+    "durability": 20,
+    "level": 11,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        5,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "gnarled_staff": {
+    "code": "cst",
+    "type": "staff",
+    "display_name": "Gnarled Staff",
+    "uniques": [
+      "spire_of_lazarus"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 35,
+    "level": 12,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        4,
+        12
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "decoy_gidbinn": {
+    "code": "d33",
+    "type": "knife",
+    "display_name": "Decoy Gidbinn",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 15,
+    "durability": 10,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        1,
+        2
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "dagger": {
+    "code": "dgr",
+    "type": "knife",
+    "display_name": "Dagger",
+    "uniques": [
+      "gull"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 16,
+    "level": 3,
+    "levelreq": 0,
+    "gemsockets": 1,
+    "damage": [
+      [
+        1,
+        4
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "dirk": {
+    "code": "dir",
+    "type": "knife",
+    "display_name": "Dirk",
+    "uniques": [
+      "the_diggler"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 20,
+    "level": 9,
+    "levelreq": 0,
+    "gemsockets": 1,
+    "damage": [
+      [
+        3,
+        9
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "flail": {
+    "code": "fla",
+    "type": "mace",
+    "display_name": "Flail",
+    "uniques": [
+      "the_generals_tan_do_li_ga"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 41,
+    "durability": 30,
+    "level": 19,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        1,
+        24
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "flamberge": {
+    "code": "flb",
+    "type": "sword",
+    "display_name": "Flamberge",
+    "uniques": [
+      "ripsaw"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 70,
+    "durability": 50,
+    "level": 27,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        9,
+        15
+      ],
+      [
+        13,
+        26
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": -10
+  },
+  "falchion": {
+    "code": "flc",
+    "type": "sword",
+    "display_name": "Falchion",
+    "uniques": [
+      "gleamscythe"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 33,
+    "durability": 32,
+    "level": 11,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        9,
+        17
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 20
+  },
+  "the_gidbinn": {
+    "code": "g33",
+    "type": "knife",
+    "display_name": "The Gidbinn",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 15,
+    "durability": 30,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        3,
+        7
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "great_axe": {
+    "code": "gax",
+    "type": "axe",
+    "display_name": "Great Axe",
+    "uniques": [
+      "brainhew"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 63,
+    "durability": 50,
+    "level": 23,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        9,
+        30
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": -10
+  },
+  "giant_sword": {
+    "code": "gis",
+    "type": "sword",
+    "display_name": "Giant Sword",
+    "uniques": [
+      "kinemils_awl"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 56,
+    "durability": 50,
+    "level": 21,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        3,
+        16
+      ],
+      [
+        9,
+        28
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 0
+  },
+  "giant_axe": {
+    "code": "gix",
+    "type": "axe",
+    "display_name": "Giant Axe",
+    "uniques": [
+      "humongous"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 70,
+    "durability": 50,
+    "level": 27,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        22,
+        45
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 10
+  },
+  "glaive": {
+    "code": "glv",
+    "type": "javelin",
+    "display_name": "Glaive",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 52,
+    "durability": 5,
+    "level": 23,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        5,
+        17
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 20
+  },
+  "great_maul": {
+    "code": "gma",
+    "type": "hammer",
+    "display_name": "Great Maul",
+    "uniques": [
+      "steeldriver"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 99,
+    "durability": 60,
+    "level": 32,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        38,
+        58
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 20
+  },
+  "strangling_gas_potion": {
+    "code": "gpl",
+    "type": "missile_potion",
+    "display_name": "Strangling Gas Potion",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 8,
+    "levelreq": 6,
+    "gemsockets": 0,
+    "damage": null,
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "choking_gas_potion": {
+    "code": "gpm",
+    "type": "missile_potion",
+    "display_name": "Choking Gas Potion",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 20,
+    "levelreq": 16,
+    "gemsockets": 0,
+    "damage": null,
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "rancid_gas_potion": {
+    "code": "gps",
+    "type": "missile_potion",
+    "display_name": "Rancid Gas Potion",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 32,
+    "levelreq": 24,
+    "gemsockets": 0,
+    "damage": null,
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "grand_scepter": {
+    "code": "gsc",
+    "type": "scepter",
+    "display_name": "Grand Scepter",
+    "uniques": [
+      "rusthandle"
+    ],
+    "sets": [
+      "civerbs_cudgel"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 37,
+    "durability": 60,
+    "level": 15,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        8,
+        18
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "great_sword": {
+    "code": "gsd",
+    "type": "sword",
+    "display_name": "Great Sword",
+    "uniques": [
+      "the_patriarch"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 100,
+    "durability": 50,
+    "level": 33,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        12,
+        20
+      ],
+      [
+        25,
+        42
+      ]
+    ],
+    "hands": "both",
+    "range": 2,
+    "speed": 10
+  },
+  "grim_wand": {
+    "code": "gwn",
+    "type": "wand",
+    "display_name": "Grim Wand",
+    "uniques": [
+      "umes_lament"
+    ],
+    "sets": [
+      "infernal_torch"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 15,
+    "level": 26,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        5,
+        11
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "halberd": {
+    "code": "hal",
+    "type": "polearm",
+    "display_name": "Halberd",
+    "uniques": [
+      "woestave"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 75,
+    "durability": 55,
+    "level": 29,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        12,
+        45
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "hand_axe": {
+    "code": "hax",
+    "type": "axe",
+    "display_name": "Hand Axe",
+    "uniques": [
+      "the_gnasher"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 28,
+    "level": 3,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        3,
+        6
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "hunters_bow": {
+    "code": "hbw",
+    "type": "bow",
+    "display_name": "Hunter's Bow",
+    "uniques": [
+      "witherstring"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 32,
+    "level": 5,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        2,
+        6
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "horadric_malus": {
+    "code": "hdm",
+    "type": "hammer",
+    "display_name": "Horadric Malus",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 15,
+    "durability": 55,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        6,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 20
+  },
+  "hell_forge_hammer": {
+    "code": "hfh",
+    "type": "hammer",
+    "display_name": "Hell Forge Hammer",
+    "uniques": [
+      "hell_forge_hammer"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 55,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        6,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "horadric_staff": {
+    "code": "hst",
+    "type": "staff",
+    "display_name": "Horadric Staff",
+    "uniques": [
+      "horadric_staff"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 30,
+    "durability": 50,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        12,
+        20
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 0
+  },
+  "heavy_crossbow": {
+    "code": "hxb",
+    "type": "crossbow",
+    "display_name": "Heavy Crossbow",
+    "uniques": [
+      "hellcast"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 60,
+    "durability": 50,
+    "level": 24,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        14,
+        26
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "javelin": {
+    "code": "jav",
+    "type": "javelin",
+    "display_name": "Javelin",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        1,
+        5
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "kris": {
+    "code": "kri",
+    "type": "knife",
+    "display_name": "Kris",
+    "uniques": [
+      "the_jade_tan_do"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 24,
+    "level": 17,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        2,
+        11
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "katar": {
+    "code": "ktr",
+    "type": "hand_to_hand",
+    "display_name": "Katar",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 20,
+    "durability": 48,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        4,
+        7
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "large_axe": {
+    "code": "lax",
+    "type": "axe",
+    "display_name": "Large Axe",
+    "uniques": [
+      "axe_of_fechmar"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 35,
+    "durability": 30,
+    "level": 6,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        6,
+        13
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "long_battle_bow": {
+    "code": "lbb",
+    "type": "bow",
+    "display_name": "Long Battle Bow",
+    "uniques": [
+      "wizendraw"
+    ],
+    "sets": [
+      "vidalas_barb"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 40,
+    "durability": 44,
+    "level": 23,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        3,
+        18
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "long_bow": {
+    "code": "lbw",
+    "type": "bow",
+    "display_name": "Long Bow",
+    "uniques": [
+      "raven_claw"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 22,
+    "durability": 28,
+    "level": 8,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        3,
+        10
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "wirts_leg": {
+    "code": "leg",
+    "type": "club",
+    "display_name": "Wirt's Leg",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 66,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        2,
+        8
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "long_sword": {
+    "code": "lsd",
+    "type": "sword",
+    "display_name": "Long Sword",
+    "uniques": [
+      "hellplague"
+    ],
+    "sets": [
+      "cleglaws_tooth"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 55,
+    "durability": 44,
+    "level": 20,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        3,
+        19
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "long_staff": {
+    "code": "lst",
+    "type": "staff",
+    "display_name": "Long Staff",
+    "uniques": [
+      "serpent_lord"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 30,
+    "level": 8,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        2,
+        8
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 0
+  },
+  "long_war_bow": {
+    "code": "lwb",
+    "type": "bow",
+    "display_name": "Long War Bow",
+    "uniques": [
+      "blastbark"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 50,
+    "durability": 55,
+    "level": 31,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        3,
+        23
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 10
+  },
+  "light_crossbow": {
+    "code": "lxb",
+    "type": "crossbow",
+    "display_name": "Light Crossbow",
+    "uniques": [
+      "leadcrow"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 21,
+    "durability": 30,
+    "level": 6,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        6,
+        9
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -10
+  },
+  "mace": {
+    "code": "mac",
+    "type": "mace",
+    "display_name": "Mace",
+    "uniques": [
+      "crushflange"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 27,
+    "durability": 60,
+    "level": 8,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        3,
+        10
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "maul": {
+    "code": "mau",
+    "type": "hammer",
+    "display_name": "Maul",
+    "uniques": [
+      "bonesnap"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 69,
+    "durability": 60,
+    "level": 21,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        30,
+        43
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 10
+  },
+  "military_pick": {
+    "code": "mpi",
+    "type": "axe",
+    "display_name": "Military Pick",
+    "uniques": [
+      "skull_splitter"
+    ],
+    "sets": [
+      "tancreds_crowbill"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 49,
+    "durability": 26,
+    "level": 19,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        7,
+        11
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "shaft_of_the_horadric_staff": {
+    "code": "msf",
+    "type": "staff",
+    "display_name": "Shaft of the Horadric Staff",
+    "uniques": [
+      "staff_of_kings"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 45,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        10,
+        15
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 0
+  },
+  "morning_star": {
+    "code": "mst",
+    "type": "mace",
+    "display_name": "Morning Star",
+    "uniques": [
+      "bloodrise"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 36,
+    "durability": 72,
+    "level": 13,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        7,
+        16
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 10
+  },
+  "crossbow": {
+    "code": "mxb",
+    "type": "crossbow",
+    "display_name": "Crossbow",
+    "uniques": [
+      "ichorsting"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 40,
+    "durability": 40,
+    "level": 15,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        9,
+        16
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "eagle_orb": {
+    "code": "ob1",
+    "type": "orb",
+    "display_name": "Eagle Orb",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 20,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        2,
+        5
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "sacred_globe": {
+    "code": "ob2",
+    "type": "orb",
+    "display_name": "Sacred Globe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 30,
+    "level": 8,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        3,
+        8
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "smoked_sphere": {
+    "code": "ob3",
+    "type": "orb",
+    "display_name": "Smoked Sphere",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 35,
+    "level": 12,
+    "levelreq": 8,
+    "gemsockets": 4,
+    "damage": [
+      [
+        4,
+        10
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "clasped_orb": {
+    "code": "ob4",
+    "type": "orb",
+    "display_name": "Clasped Orb",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 40,
+    "level": 17,
+    "levelreq": 13,
+    "gemsockets": 4,
+    "damage": [
+      [
+        5,
+        12
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "jareds_stone": {
+    "code": "ob5",
+    "type": "orb",
+    "display_name": "Jared's Stone",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 50,
+    "level": 24,
+    "levelreq": 18,
+    "gemsockets": 4,
+    "damage": [
+      [
+        8,
+        18
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "glowing_orb": {
+    "code": "ob6",
+    "type": "orb",
+    "display_name": "Glowing Orb",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 20,
+    "level": 32,
+    "levelreq": 24,
+    "gemsockets": 4,
+    "damage": [
+      [
+        8,
+        21
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "crystalline_globe": {
+    "code": "ob7",
+    "type": "orb",
+    "display_name": "Crystalline Globe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 30,
+    "level": 37,
+    "levelreq": 27,
+    "gemsockets": 4,
+    "damage": [
+      [
+        10,
+        26
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "cloudy_sphere": {
+    "code": "ob8",
+    "type": "orb",
+    "display_name": "Cloudy Sphere",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 35,
+    "level": 41,
+    "levelreq": 30,
+    "gemsockets": 4,
+    "damage": [
+      [
+        11,
+        29
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "sparkling_ball": {
+    "code": "ob9",
+    "type": "orb",
+    "display_name": "Sparkling Ball",
+    "uniques": null,
+    "sets": null,
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 40,
+    "level": 46,
+    "levelreq": 34,
+    "gemsockets": 4,
+    "damage": [
+      [
+        13,
+        32
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "swirling_crystal": {
+    "code": "oba",
+    "type": "orb",
+    "display_name": "Swirling Crystal",
+    "uniques": [
+      "the_oculus"
+    ],
+    "sets": [
+      "tal_rashas_lidless_eye"
+    ],
+    "item_class": "exceptional",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 50,
+    "level": 50,
+    "levelreq": 37,
+    "gemsockets": 4,
+    "damage": [
+      [
+        18,
+        42
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "heavenly_stone": {
+    "code": "obb",
+    "type": "orb",
+    "display_name": "Heavenly Stone",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 20,
+    "level": 59,
+    "levelreq": 44,
+    "gemsockets": 4,
+    "damage": [
+      [
+        21,
+        46
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "eldritch_orb": {
+    "code": "obc",
+    "type": "orb",
+    "display_name": "Eldritch Orb",
+    "uniques": [
+      "eschutas_temper"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 30,
+    "level": 67,
+    "levelreq": 50,
+    "gemsockets": 4,
+    "damage": [
+      [
+        18,
+        50
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "demon_heart": {
+    "code": "obd",
+    "type": "orb",
+    "display_name": "Demon Heart",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 35,
+    "level": 75,
+    "levelreq": 56,
+    "gemsockets": 4,
+    "damage": [
+      [
+        23,
+        55
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "vortex_orb": {
+    "code": "obe",
+    "type": "orb",
+    "display_name": "Vortex Orb",
+    "uniques": null,
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 40,
+    "level": 84,
+    "levelreq": 63,
+    "gemsockets": 4,
+    "damage": [
+      [
+        12,
+        66
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "dimensional_shard": {
+    "code": "obf",
+    "type": "orb",
+    "display_name": "Dimensional Shard",
+    "uniques": [
+      "deaths_fathom"
+    ],
+    "sets": null,
+    "item_class": "elite",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 50,
+    "level": 85,
+    "levelreq": 66,
+    "gemsockets": 4,
+    "damage": [
+      [
+        30,
+        53
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "fulminating_potion": {
+    "code": "opl",
+    "type": "missile_potion",
+    "display_name": "Fulminating Potion",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 4,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": null,
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "exploding_potion": {
+    "code": "opm",
+    "type": "missile_potion",
+    "display_name": "Exploding Potion",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 16,
+    "levelreq": 12,
+    "gemsockets": 0,
+    "damage": null,
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "oil_potion": {
+    "code": "ops",
+    "type": "missile_potion",
+    "display_name": "Oil Potion",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 2,
+    "level": 28,
+    "levelreq": 20,
+    "gemsockets": 0,
+    "damage": null,
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "poleaxe": {
+    "code": "pax",
+    "type": "polearm",
+    "display_name": "Poleaxe",
+    "uniques": [
+      "the_battlebranch"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 62,
+    "durability": 65,
+    "level": 21,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        18,
+        39
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 10
+  },
+  "pike": {
+    "code": "pik",
+    "type": "spear",
+    "display_name": "Pike",
+    "uniques": [
+      "the_tannr_gorerod"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 60,
+    "durability": 25,
+    "level": 24,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        14,
+        63
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 20
+  },
+  "pilum": {
+    "code": "pil",
+    "type": "javelin",
+    "display_name": "Pilum",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 3,
+    "level": 10,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        4,
+        9
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 0
+  },
+  "khalims_flail": {
+    "code": "qf1",
+    "type": "mace",
+    "display_name": "Khalim's Flail",
+    "uniques": [
+      "khalims_flail"
+    ],
+    "sets": null,
+    "item_class": null,
+    "quality": "normal",
+    "reqstr": 41,
+    "durability": 30,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        1,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "khalims_will": {
+    "code": "qf2",
+    "type": "mace",
+    "display_name": "Khalim's Will",
+    "uniques": [
+      "khalims_will"
+    ],
+    "sets": null,
+    "item_class": null,
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 30,
+    "level": 0,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        1,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "repeating_crossbow": {
+    "code": "rxb",
+    "type": "crossbow",
+    "display_name": "Repeating Crossbow",
+    "uniques": [
+      "doomslinger"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 40,
+    "durability": 40,
+    "level": 33,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        6,
+        12
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": -40
+  },
+  "short_battle_bow": {
+    "code": "sbb",
+    "type": "bow",
+    "display_name": "Short Battle Bow",
+    "uniques": [
+      "stormstrike"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 30,
+    "durability": 40,
+    "level": 18,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        5,
+        11
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "sabre": {
+    "code": "sbr",
+    "type": "sword",
+    "display_name": "Sabre",
+    "uniques": [
+      "skewer_of_krintiz"
+    ],
+    "sets": [
+      "angelic_sickle"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 32,
+    "level": 8,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        3,
+        8
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -10
+  },
+  "short_bow": {
+    "code": "sbw",
+    "type": "bow",
+    "display_name": "Short Bow",
+    "uniques": [
+      "pluckeye"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 20,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        1,
+        4
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 5
+  },
+  "scimitar": {
+    "code": "scm",
+    "type": "sword",
+    "display_name": "Scimitar",
+    "uniques": [
+      "blood_crescent"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 22,
+    "level": 5,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        2,
+        6
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": -20
+  },
+  "scepter": {
+    "code": "scp",
+    "type": "scepter",
+    "display_name": "Scepter",
+    "uniques": [
+      "knell_striker"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 25,
+    "durability": 50,
+    "level": 3,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        6,
+        11
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "scythe": {
+    "code": "scy",
+    "type": "polearm",
+    "display_name": "Scythe",
+    "uniques": [
+      "soul_harvest"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 41,
+    "durability": 65,
+    "level": 15,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        8,
+        20
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "scissors_katar": {
+    "code": "skr",
+    "type": "hand_to_hand",
+    "display_name": "Scissors Katar",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 55,
+    "durability": 68,
+    "level": 24,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        9,
+        17
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "spiked_club": {
+    "code": "spc",
+    "type": "club",
+    "display_name": "Spiked Club",
+    "uniques": [
+      "stoutnail"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 36,
+    "level": 4,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        5,
+        8
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "spear": {
+    "code": "spr",
+    "type": "spear",
+    "display_name": "Spear",
+    "uniques": [
+      "the_dragon_chang"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 30,
+    "level": 5,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        3,
+        15
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": -10
+  },
+  "spetum": {
+    "code": "spt",
+    "type": "spear",
+    "display_name": "Spetum",
+    "uniques": [
+      "lance_of_yaggai"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 54,
+    "durability": 28,
+    "level": 20,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        15,
+        23
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": 0
+  },
+  "short_sword": {
+    "code": "ssd",
+    "type": "sword",
+    "display_name": "Short Sword",
+    "uniques": [
+      "rixots_keen"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 24,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        2,
+        7
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "short_spear": {
+    "code": "ssp",
+    "type": "javelin",
+    "display_name": "Short Spear",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 40,
+    "durability": 4,
+    "level": 15,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        2,
+        13
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 10
+  },
+  "short_staff": {
+    "code": "sst",
+    "type": "staff",
+    "display_name": "Short Staff",
+    "uniques": [
+      "bane_ash"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 20,
+    "level": 1,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        1,
+        5
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": -10
+  },
+  "short_war_bow": {
+    "code": "swb",
+    "type": "bow",
+    "display_name": "Short War Bow",
+    "uniques": [
+      "hellclap"
+    ],
+    "sets": [
+      "arctic_horn"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 35,
+    "durability": 48,
+    "level": 27,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        6,
+        14
+      ]
+    ],
+    "hands": "two",
+    "range": 0,
+    "speed": 0
+  },
+  "throwing_axe": {
+    "code": "tax",
+    "type": "throwing_axe",
+    "display_name": "Throwing Axe",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 6,
+    "level": 7,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        4,
+        7
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  },
+  "throwing_knife": {
+    "code": "tkf",
+    "type": "throwing_knife",
+    "display_name": "Throwing Knife",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 4,
+    "level": 2,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        2,
+        3
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "trident": {
+    "code": "tri",
+    "type": "spear",
+    "display_name": "Trident",
+    "uniques": [
+      "razortine"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 38,
+    "durability": 35,
+    "level": 9,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        9,
+        15
+      ]
+    ],
+    "hands": "two",
+    "range": 3,
+    "speed": 0
+  },
+  "throwing_spear": {
+    "code": "tsp",
+    "type": "javelin",
+    "display_name": "Throwing Spear",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 6,
+    "level": 29,
+    "levelreq": 0,
+    "gemsockets": 0,
+    "damage": [
+      [
+        5,
+        15
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": -10
+  },
+  "voulge": {
+    "code": "vou",
+    "type": "polearm",
+    "display_name": "Voulge",
+    "uniques": [
+      "steelgoad"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 50,
+    "durability": 50,
+    "level": 11,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        6,
+        21
+      ]
+    ],
+    "hands": "two",
+    "range": 2,
+    "speed": 0
+  },
+  "war_axe": {
+    "code": "wax",
+    "type": "axe",
+    "display_name": "War Axe",
+    "uniques": [
+      "rakescar"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 67,
+    "durability": 26,
+    "level": 25,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        10,
+        18
+      ]
+    ],
+    "hands": "one",
+    "range": 2,
+    "speed": 0
+  },
+  "war_hammer": {
+    "code": "whm",
+    "type": "hammer",
+    "display_name": "War Hammer",
+    "uniques": [
+      "ironstone"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 53,
+    "durability": 55,
+    "level": 25,
+    "levelreq": 0,
+    "gemsockets": 4,
+    "damage": [
+      [
+        19,
+        29
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 20
+  },
+  "wand": {
+    "code": "wnd",
+    "type": "wand",
+    "display_name": "Wand",
+    "uniques": [
+      "torch_of_iro"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 15,
+    "level": 2,
+    "levelreq": 0,
+    "gemsockets": 1,
+    "damage": [
+      [
+        2,
+        4
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 0
+  },
+  "wrist_blade": {
+    "code": "wrb",
+    "type": "hand_to_hand",
+    "display_name": "Wrist Blade",
+    "uniques": null,
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 33,
+    "durability": 52,
+    "level": 9,
+    "levelreq": 0,
+    "gemsockets": 2,
+    "damage": [
+      [
+        5,
+        9
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "war_scythe": {
+    "code": "wsc",
+    "type": "polearm",
+    "display_name": "War Scythe",
+    "uniques": [
+      "the_grim_reaper"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 80,
+    "durability": 55,
+    "level": 34,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        15,
+        36
+      ]
+    ],
+    "hands": "two",
+    "range": 4,
+    "speed": -10
+  },
+  "war_sword": {
+    "code": "wsd",
+    "type": "sword",
+    "display_name": "War Sword",
+    "uniques": [
+      "culwens_point"
+    ],
+    "sets": [
+      "deaths_touch"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 71,
+    "durability": 44,
+    "level": 27,
+    "levelreq": 0,
+    "gemsockets": 3,
+    "damage": [
+      [
+        8,
+        20
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": 0
+  },
+  "war_scepter": {
+    "code": "wsp",
+    "type": "scepter",
+    "display_name": "War Scepter",
+    "uniques": [
+      "stormeye"
+    ],
+    "sets": [
+      "milabregas_rod"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 55,
+    "durability": 70,
+    "level": 21,
+    "levelreq": 0,
+    "gemsockets": 5,
+    "damage": [
+      [
+        10,
+        17
+      ]
+    ],
+    "hands": "one",
+    "range": 1,
+    "speed": -10
+  },
+  "war_staff": {
+    "code": "wst",
+    "type": "staff",
+    "display_name": "War Staff",
+    "uniques": [
+      "the_iron_jang_bong"
+    ],
+    "sets": [
+      "arcannas_deathwand"
+    ],
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 50,
+    "level": 24,
+    "levelreq": 0,
+    "gemsockets": 6,
+    "damage": [
+      [
+        12,
+        28
+      ]
+    ],
+    "hands": "two",
+    "range": 1,
+    "speed": 20
+  },
+  "yew_wand": {
+    "code": "ywn",
+    "type": "wand",
+    "display_name": "Yew Wand",
+    "uniques": [
+      "maelstrom"
+    ],
+    "sets": null,
+    "item_class": "normal",
+    "quality": "normal",
+    "reqstr": 0,
+    "durability": 15,
+    "level": 12,
+    "levelreq": 0,
+    "gemsockets": 1,
+    "damage": [
+      [
+        2,
+        8
+      ]
+    ],
+    "hands": "one",
+    "range": 0,
+    "speed": 10
+  }
+}
