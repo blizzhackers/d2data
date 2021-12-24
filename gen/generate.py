@@ -3,13 +3,16 @@ import dataclasses
 import json
 import itertools
 import re
+import parse
+
 
 outdir="output"
 
 @dataclasses.dataclass
 class PropertyBase():
-    name: str = None
     code: str = None
+    #code_clean: str = None
+    aliases: list = dataclasses.field(default_factory=list)
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -23,10 +26,9 @@ class ItemProperty(PropertyBase):
 
 @dataclasses.dataclass
 class PropertyDef(PropertyBase):
-    within: list[str] = None
-    children: list[str] = None
-    posStr: str = None
-    negStr: str = None
+    within: list = dataclasses.field(default_factory=list)
+    children: list = dataclasses.field(default_factory=list)
+    patterns: dict = dataclasses.field(default_factory=dict)
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -45,6 +47,19 @@ class Item(CodesRef):
     sets: list[str] = None
 
 @dataclasses.dataclass
+class PropString:
+    pos_code: str = None
+    neg_code: str = None
+    pos_str: str = None
+    neg_str: str = None
+    second_code: str = None
+    second_str: str = None
+    descval: int = 0
+    descfunc: int = None
+    pos_pattern: str = None
+    neg_pattern: str = None
+
+@dataclasses.dataclass
 class ItemBase(Item):
     item_class: str = None # computed from ["normcode", etc.]
     quality: str = None # normal for base item
@@ -53,7 +68,7 @@ class ItemBase(Item):
     level: int = 0
     levelreq: int = 0
     gemsockets: int = 0
-    props: list[Property] = None
+    props: list[ItemProperty] = None
 
 @dataclasses.dataclass
 class ItemArmor(ItemBase): # name = "Grand Crown" -> convert
@@ -86,7 +101,7 @@ class ItemSet(CodesRef):
     set: str = None
     level: int = 0
     levelreq: int = 0
-    props: list[Property] = None
+    props: list[ItemProperty] = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -110,6 +125,20 @@ class ItemParser:
 
         self.item_classes = ["normcode", "ubercode", "ultracode"]
         self.item_classes_names = [ "normal", "exceptional", "elite"]
+
+        self.classes = [ "Amazon", "Sorceress", "Assassin", "Paladin", "Druid", "Barbarian", "Necromancer" ]
+
+        self.clean_prop_strings = [
+            { "o": re.escape('%'), "r": '-percent' },
+            { "o": re.escape('/lvl'), "r": '-perlevel' },
+            { "o": re.escape('/time'), "r": '-bytime' }
+        ]
+        self.string_spec_repl = [
+            { "o": re.escape('%d%'), "r": '{:d}' },
+            { "o": re.escape('%d'), "r": '{:d}' },
+            { "o": re.escape('%s%'), "r": '{}' },
+            { "o": re.escape('%s'), "r": '{}' }
+        ]
 
         with open("../json/armor.json", "r",encoding = 'utf-8') as f:
             self.f_armor = json.load(f)
@@ -137,7 +166,106 @@ class ItemParser:
         # with open("NTItemAlias.ntl.cpp", "r",encoding = 'utf-8') as f:
         #     self.f_nit = f.readlines()
 
-        # NEED TO PATCH "SAPHIRE"
+        # NEED TO PATCH "SAPHIRE"?
+
+    def gen_from_descval(self, param_in: str = None, str_in: str = None, descval: int = None):
+        # descval
+        # 0 = no stat
+        # 1 = stat before description
+        # 2 = stat after
+        if not descval:
+            return str_in
+        elif descval == 1:
+            return param_in + " " + str_in
+        elif descval == 2:
+            return str_in + " " + param_in
+        return None
+
+    def string_spec(self, string_obj: PropString = None):
+        # descfunc:
+        # 1. "+{:d} to Mana after each Kill"
+        # 2. "{:d}% life stolen per hit"
+        # 3.  "magic damage reduced by {:d}"
+        # 4. "magic resist +{:d}%"
+        # 5. "hit causes monster to flee {:d}%"
+        # 6. "+{:d} to Life (Based on Character Level)"
+        # 7. "{:d}% chance of open wounds (Based on Character Level)"
+        # 8. "heal stamina plus {:d}% (based on character level)"
+        # 9. "attacker takes damage of {:d} (based on character level)"
+        # 11. "Repairs %d durability per second"
+        # 12. "hit blinds target +{:d}"
+        # 13. "+{:d} to {} skill levels"
+        # 14. "+{:d} to {} ({} only)"
+        # 15. "{:d}% chance to cast level {:d} {} on attack"
+        # 16. "level {:d} {} aura when equipped"
+        # 17. "+{:d} to attack rating against undead"
+        # 18. "+{:d} Absorbs Cold Damage"
+        # 20. "-{:d}% target defense"
+        # 22. "+{:d} to Attack Rating versus {}"
+        # 23. "{:d}% reanimate as: {}"
+        # 24. "level {:d} {} ({:d}/{:d} charges)"
+        # 27. "+{:d} to {} ({} only)"
+        # 28. "+{:d} to {}"
+
+        try: string_obj.second_str = self.f_strings[string_obj.second_code]
+        except: pass
+        try: string_obj.pos_str = self.f_strings[string_obj.pos_code]
+        except: pass
+        try: string_obj.neg_str = self.f_strings[string_obj.neg_code]
+        except: pass
+
+        if string_obj.pos_code:
+            for i in self.string_spec_repl:
+                string_obj.pos_str = string_obj.pos_str.replace(i['o'], i['r'])
+                string_obj.neg_str = string_obj.neg_str.replace(i['o'], i['r'])
+
+        if string_obj.descfunc == 0:
+            pass
+        elif string_obj.descfunc in [1, 6, 12, 17, 18]:
+            string_obj.pos_pattern = self.gen_from_descval("+{:d}", string_obj.pos_str, string_obj.descval)
+            string_obj.neg_pattern = self.gen_from_descval("-{:d}", string_obj.neg_str, string_obj.descval)
+        elif string_obj.descfunc in [2, 5, 7, 8]:
+            string_obj.pos_pattern = self.gen_from_descval("{:d}%", string_obj.pos_str, string_obj.descval)
+            string_obj.neg_pattern = self.gen_from_descval("{:d}%", string_obj.neg_str, string_obj.descval)
+        elif string_obj.descfunc in [3, 9]:
+            string_obj.pos_pattern = self.gen_from_descval("{:d}", string_obj.pos_str, string_obj.descval)
+            string_obj.neg_pattern = self.gen_from_descval("{:d}", string_obj.neg_str, string_obj.descval)
+        elif string_obj.descfunc in [4, 20]:
+            string_obj.pos_pattern = self.gen_from_descval("+{:d}%", string_obj.pos_str, string_obj.descval)
+            string_obj.neg_pattern = self.gen_from_descval("-{:d}%", string_obj.neg_str, string_obj.descval)
+        elif string_obj.descfunc in [11, 15, 16]:
+            string_obj.pos_pattern = string_obj.pos_str
+            string_obj.neg_pattern = string_obj.neg_str
+        elif string_obj.descfunc in [13]:
+            for i in self.classes:
+                string_obj.pos_str = string_obj.pos_str.replace(i, '{}')
+                string_obj.neg_str = string_obj.neg_str.replace(i, '{}')
+            string_obj.pos_pattern = self.gen_from_descval("+{:d}", string_obj.pos_str, string_obj.descval)
+            string_obj.neg_pattern = self.gen_from_descval("-{:d}", string_obj.neg_str, string_obj.descval)
+        elif string_obj.descfunc in [14]:
+            string_obj.pos_pattern = "+{:d} to {} ({} only)"
+            string_obj.neg_pattern = "-{:d} to {} ({} only)"
+        elif string_obj.descfunc in [22]:
+            string_obj.pos_pattern = "+{:d} to Attack Rating versus {}"
+            string_obj.neg_pattern = "-{:d} to Attack Rating versus {}"
+        elif string_obj.descfunc in [23]:
+            string_obj.pos_pattern = string_obj.neg_pattern = "{:d}% Reanimate as: {}"
+        elif string_obj.descfunc in [24]:
+            string_obj.pos_pattern = string_obj.neg_pattern = "Level {:d} {} ({:d}/{:d} Charges)"
+        elif string_obj.descfunc in [27]:
+            string_obj.pos_pattern = string_obj.neg_pattern = "+{:d} to {} ({} only)"
+        elif string_obj.descfunc in [28]:
+            string_obj.pos_pattern = string_obj.neg_pattern = "+{:d} to {}"
+        else:
+            print("fail")
+
+        # add based on character level
+        # if string_obj.descfunc in [6, 7, 8, 9]:
+        if string_obj.second_code:
+            string_obj.pos_pattern = string_obj.pos_pattern + " " + string_obj.second_str
+            string_obj.neg_pattern = string_obj.neg_pattern + " " + string_obj.second_str
+
+        return string_obj
 
     def parse_line(self, line: str = None):
         aliases = re.findall(r'"(.*?)"', line)
@@ -153,6 +281,18 @@ class ItemParser:
 
     def full_to_short(self, full_name: str = None):
         return re.sub('[^A-Za-z0-9 ]+', '', full_name).replace(' ','_').lower()
+
+    def clean_prop_code(self, code: str = None):
+        for i in self.clean_prop_strings:
+            #print(i)
+            code = code.replace(i['o'], i['r'])
+        return code
+
+    def conv_statname_propname(self, code: str = None):
+        for key in self.f_properties:
+            if "stat1" in self.f_properties[key] and self.f_properties[key]["stat1"] == code:
+                return key
+        return code
 
     def get_magic_props(self, item: dict):
         props = []
@@ -181,6 +321,15 @@ class ItemParser:
 if __name__ == "__main__":
 
     item_parser = ItemParser()
+
+    f_properties = item_parser.f_properties
+    f_stats = item_parser.f_stats
+    f_strings = item_parser.f_strings
+
+    # str = "+3 to Cold Skills (Sorceress only)"
+    # print(str)
+    # form="+{:d} to {} ({} only)"
+    # print(parse.search(form,str))
 
     # create reference of names/codes/etc from LocaleStringsEn.json
     ref_codes={}
@@ -230,36 +379,79 @@ if __name__ == "__main__":
 
 
     # construct properties file
-    ref_properties={}
-    props_file = item_parser.f_properties
-    stats_file = item_parser.f_stats
-    strings_file = item_parser.f_strings
-    for key in file:
+    properties={}
+    for key in f_properties:
+        obj = PropertyDef()
+        obj.code = key
+        if "stat2" in f_properties[key]:
+            within={}
+            for i in range(1,31):
+                stat = "stat" + str(i)
+                if stat in f_properties[key]:
+                    value = f_properties[key][stat]
+                    obj.children.append(value)
+                    if value in within:
+                        within[value].append(key)
+                    else:
+                        within[value] = [key]
+            print(key)
+            print(obj.children)
+            print(within)
+            # strings = PropString()
+            # for key2 in f_stats:
+            #     if "dgrpstrpos" in f_stats[key2]:
+            #         obj.posStr = f_strings[f_stats[key2]["dgrpstrpos"]]
+            #         obj.negStr = f_strings[f_stats[key2]["dgrpstrneg"]]
+            # # no aliases because it's a group property
+            obj.aliases = None
+        properties[obj.code]=obj
+    for key in f_properties:
+        if "stat2" not in f_properties[key]:
+            obj = PropertyDef()
+            obj.code = key
+            strings = PropString()
+            for key2 in f_stats:
+                if "stat1" in f_properties[key] and key2 == f_properties[key]["stat1"]:
+                    obj.aliases.append(key2)
+                    break
+            #obj.aliases = None if obj.aliases == [] else obj.aliases
+            try: strings.descfunc = f_stats[obj.aliases[0]]["descfunc"]
+            except: pass
+            try: strings.descval = f_stats[obj.aliases[0]]["descval"]
+            except: pass
+            try: strings.pos_code = f_stats[obj.aliases[0]]["descstrpos"]
+            except: pass
+            try: strings.neg_code = f_stats[obj.aliases[0]]["descstrneg"]
+            except: pass
+            try: strings.second_code = f_stats[obj.aliases[0]]["descstr2"]
+            except: pass
 
-            # props = []
-            # for i in range(1,31):
-            #     key2="op stat" + str(i)
-            #     if key2 in file[key]:
-            #         props.append(file[key][key2])
-            #     else:
-            #         break
-            # obj.within = None if props == [] else props
-#
-            # props = []
-            # file2 = item_parser.f_properties
-            # for key2 in file2:
-            #     code = file2[key2]["code"]
-            #     for i in range(1,31):
-            #         key3 = "stat" + str(i)
-            #         if (key3 in file2[key2]) and (file2[key2][key3] == key):
-            #             #print(f"{key2} {code}")
-            #             if code != key2:
-            #                 props.append(key2)
-            #             break
-            # obj.children = None if props == [] else props
+            if strings.descfunc:
+                strings = item_parser.string_spec(strings)
+            obj.patterns["pos"] = strings.pos_pattern
+            obj.patterns["neg"] = strings.neg_pattern
 
-    with open('output/ref_properties.json', 'w', encoding='utf-8') as f:
-        json.dump(ref_properties, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+            # need to update to make list of patterns for res-all, etc.
+
+            props = []
+            for i in range(1,31):
+                key2="op stat" + str(i)
+                if obj.aliases and obj.aliases[0] in f_stats and key2 in f_stats[obj.aliases[0]]:
+                    props.append(item_parser.conv_statname_propname(f_stats[obj.aliases[0]][key2]))
+                else:
+                    break
+            #obj.within = None if props == [] else props
+            obj.within = props
+        properties[obj.code]=obj
+    # get children
+    for key in properties:
+        for key2 in properties:
+            if key is not key2 and properties[key2]["within"] and (key in properties[key2]["within"]):
+                properties[key]["children"].append(key2)
+    with open('output/item_properties.json', 'w', encoding='utf-8') as f:
+        json.dump(properties, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+
+    exit()
 
     # create types file
     types={}
