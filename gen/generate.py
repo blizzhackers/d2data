@@ -17,10 +17,11 @@ class PropertyBase():
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
-class ItemProperty(PropertyBase):
+class ItemProperty():
     min: int = None
     max: int = None
-    par: int = None
+    par: str = None
+    prop: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -28,7 +29,7 @@ class ItemProperty(PropertyBase):
 class PropertyDef(PropertyBase):
     within: list = dataclasses.field(default_factory=list)
     children: list = dataclasses.field(default_factory=list)
-    patterns: dict = dataclasses.field(default_factory=dict)
+    patterns: list = dataclasses.field(default_factory=list)
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -58,6 +59,12 @@ class PropString:
     descfunc: int = None
     pos_pattern: str = None
     neg_pattern: str = None
+    dgrp: int = None
+    dgrpfunc: int = None
+    dgrpstrpos: str = None
+    dgrpstrneg: str = None
+    code: str = None
+    par_pos: int = None
 
 @dataclasses.dataclass
 class ItemBase(Item):
@@ -96,14 +103,18 @@ class ItemType(CodesRef):
         return super().__getattribute__(key)
 
 @dataclasses.dataclass
-class ItemSet(CodesRef):
+class SpecialItem(CodesRef):
     base: str = None
-    set: str = None
     level: int = 0
     levelreq: int = 0
     props: list[ItemProperty] = None
+
+@dataclasses.dataclass
+class SetItem(SpecialItem):
+    set: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
+
 
 class EnhancedJSONEncoder(json.JSONEncoder):
         def default(self, o):
@@ -127,6 +138,7 @@ class ItemParser:
         self.item_classes_names = [ "normal", "exceptional", "elite"]
 
         self.classes = [ "Amazon", "Sorceress", "Assassin", "Paladin", "Druid", "Barbarian", "Necromancer" ]
+        self.classes_short = [ "ama", "sor", "ass", "pal", "dru", "bar", "nec" ]
 
         self.clean_prop_strings = [
             { "o": re.escape('%'), "r": '-percent' },
@@ -162,6 +174,8 @@ class ItemParser:
             self.f_strings = json.load(f)
         with open("../json/ItemStatCost.json", "r",encoding = 'utf-8') as f:
             self.f_stats = json.load(f)
+        with open("../json/skills.json", "r",encoding = 'utf-8') as f:
+            self.f_skills = json.load(f)
 
         # with open("NTItemAlias.ntl.cpp", "r",encoding = 'utf-8') as f:
         #     self.f_nit = f.readlines()
@@ -200,6 +214,8 @@ class ItemParser:
         # 16. "level {:d} {} aura when equipped"
         # 17. "+{:d} to attack rating against undead"
         # 18. "+{:d} Absorbs Cold Damage"
+        # 19. this is a special sprintf blizzard function, only used in one case, so manually ent
+        #     "All Resistances +%d"
         # 20. "-{:d}% target defense"
         # 22. "+{:d} to Attack Rating versus {}"
         # 23. "{:d}% reanimate as: {}"
@@ -233,13 +249,17 @@ class ItemParser:
         elif string_obj.descfunc in [4, 20]:
             string_obj.pos_pattern = self.gen_from_descval("+{:d}%", string_obj.pos_str, string_obj.descval)
             string_obj.neg_pattern = self.gen_from_descval("-{:d}%", string_obj.neg_str, string_obj.descval)
-        elif string_obj.descfunc in [11, 15, 16]:
+        elif string_obj.descfunc in [11, 15, 16, 19]:
             string_obj.pos_pattern = string_obj.pos_str
             string_obj.neg_pattern = string_obj.neg_str
         elif string_obj.descfunc in [13]:
+            repl="{}"
+            for count, i in enumerate(self.classes_short):
+                if string_obj.code == i:
+                    repl = self.classes[count]
             for i in self.classes:
-                string_obj.pos_str = string_obj.pos_str.replace(i, '{}')
-                string_obj.neg_str = string_obj.neg_str.replace(i, '{}')
+                string_obj.pos_str = string_obj.pos_str.replace(i, repl)
+                string_obj.neg_str = string_obj.neg_str.replace(i, repl)
             string_obj.pos_pattern = self.gen_from_descval("+{:d}", string_obj.pos_str, string_obj.descval)
             string_obj.neg_pattern = self.gen_from_descval("-{:d}", string_obj.neg_str, string_obj.descval)
         elif string_obj.descfunc in [14]:
@@ -288,24 +308,22 @@ class ItemParser:
             code = code.replace(i['o'], i['r'])
         return code
 
-    def conv_statname_propname(self, code: str = None):
+    def conv_statname_propname(self, alias: str = None):
         for key in self.f_properties:
-            if "stat1" in self.f_properties[key] and self.f_properties[key]["stat1"] == code:
+            if "stat1" in self.f_properties[key] and "stat2" not in self.f_properties[key] and self.f_properties[key]["stat1"] == alias:
                 return key
-        return code
+        return False
 
     def get_magic_props(self, item: dict):
         props = []
         for i in range(1,31):
             key = "prop" + str(i)
             obj = ItemProperty()
-            #print(item)
             try:
-                obj.name = item[key]
+                obj.prop = item[key]
             except:
                 break
             par_key = "par" + str(i)
-            #skill_name =
             min_key = "min" + str(i)
             max_key = "max" + str(i)
             try: obj.par = int(item[par_key])
@@ -325,6 +343,7 @@ if __name__ == "__main__":
     f_properties = item_parser.f_properties
     f_stats = item_parser.f_stats
     f_strings = item_parser.f_strings
+    f_skills = item_parser.f_skills
 
     # str = "+3 to Cold Skills (Sorceress only)"
     # print(str)
@@ -380,29 +399,23 @@ if __name__ == "__main__":
 
     # construct properties file
     properties={}
+    within={}
     for key in f_properties:
         obj = PropertyDef()
         obj.code = key
         if "stat2" in f_properties[key]:
-            within={}
+
             for i in range(1,31):
                 stat = "stat" + str(i)
                 if stat in f_properties[key]:
-                    value = f_properties[key][stat]
-                    obj.children.append(value)
-                    if value in within:
-                        within[value].append(key)
-                    else:
-                        within[value] = [key]
-            print(key)
-            print(obj.children)
-            print(within)
-            # strings = PropString()
-            # for key2 in f_stats:
-            #     if "dgrpstrpos" in f_stats[key2]:
-            #         obj.posStr = f_strings[f_stats[key2]["dgrpstrpos"]]
-            #         obj.negStr = f_strings[f_stats[key2]["dgrpstrneg"]]
-            # # no aliases because it's a group property
+                    alias = f_properties[key][stat]
+                    sub_code = item_parser.conv_statname_propname(alias)
+                    if sub_code:
+                        obj.children.append(sub_code)
+                        if sub_code in within:
+                            within[sub_code].append(key)
+                        else:
+                            within[sub_code] = [key]
             obj.aliases = None
         properties[obj.code]=obj
     for key in f_properties:
@@ -425,33 +438,54 @@ if __name__ == "__main__":
             except: pass
             try: strings.second_code = f_stats[obj.aliases[0]]["descstr2"]
             except: pass
+            try: strings.code = obj.code
+            except: pass
 
             if strings.descfunc:
                 strings = item_parser.string_spec(strings)
-            obj.patterns["pos"] = strings.pos_pattern
-            obj.patterns["neg"] = strings.neg_pattern
+            if strings.pos_pattern:
+                obj.patterns.append({
+                    "pos": strings.pos_pattern,
+                    "neg": strings.neg_pattern,
+                    "par_pos": strings.par_pos })
 
-            # need to update to make list of patterns for res-all, etc.
-
-            props = []
-            for i in range(1,31):
-                key2="op stat" + str(i)
-                if obj.aliases and obj.aliases[0] in f_stats and key2 in f_stats[obj.aliases[0]]:
-                    props.append(item_parser.conv_statname_propname(f_stats[obj.aliases[0]][key2]))
-                else:
-                    break
-            #obj.within = None if props == [] else props
-            obj.within = props
         properties[obj.code]=obj
-    # get children
-    for key in properties:
-        for key2 in properties:
-            if key is not key2 and properties[key2]["within"] and (key in properties[key2]["within"]):
-                properties[key]["children"].append(key2)
-    with open('output/item_properties.json', 'w', encoding='utf-8') as f:
-        json.dump(properties, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+    for key in f_stats:
+        if "dgrpstrpos" in f_stats[key]:
+            strings = PropString()
+            alias = key
 
-    exit()
+            try: strings.descfunc = f_stats[key]["dgrpfunc"]
+            except: pass
+            try: strings.descval = f_stats[key]["dgrp"]
+            except: pass
+            try: strings.pos_code = f_stats[key]["dgrpstrpos"]
+            except: pass
+            try: strings.neg_code = f_stats[key]["dgrpstrneg"]
+            except: pass
+            if strings.descfunc:
+                strings = item_parser.string_spec(strings)
+
+            code = item_parser.conv_statname_propname(alias)
+            if code:
+                for key2 in properties:
+                    if code in properties[key2]["children"]:
+                        group_code = key2
+                        break
+                if strings.pos_pattern:
+                    val = { "pos": strings.pos_pattern, "neg": strings.neg_pattern }
+                    if val not in properties[group_code]["patterns"]:
+                        properties[group_code]["patterns"].append(val)
+    for key in properties:
+        if len(properties[key]["children"]) > 1 and not properties[key]["patterns"]:
+            for x in properties[key]["children"]:
+                try:
+                    pattern = properties[x]["patterns"][0]
+                    properties[key]["patterns"].append(pattern)
+                except: pass
+
+    with open('output/item_properties.json', 'w', encoding='utf-8') as f:
+        json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create types file
     types={}
@@ -492,13 +526,13 @@ if __name__ == "__main__":
         if "1or2handed" in item_parser.f_weapons[key]:
             obj.hands="both"
             try:
-                prop_obj = Property()
-                prop_obj.name = "base_damage_1hand"
+                prop_obj = ItemProperty()
+                prop_obj.prop = "base_damage_1hand"
                 prop_obj.min = int(file[key]["mindam"])
                 prop_obj.max = int(file[key]["maxdam"])
                 props.append(prop_obj)
-                prop_obj = Property()
-                prop_obj.name = "base_damage_2hand"
+                prop_obj = ItemProperty()
+                prop_obj.prop = "base_damage_2hand"
                 prop_obj.min = int(file[key]["2handmindam"])
                 prop_obj.max = int(file[key]["2handmaxdam"])
                 props.append(prop_obj)
@@ -507,8 +541,8 @@ if __name__ == "__main__":
             if "2handed" in file[key]:
                 obj.hands = "two"
                 try:
-                    prop_obj = Property()
-                    prop_obj.name = "base_damage_2hand"
+                    prop_obj = ItemProperty()
+                    prop_obj.prop = "base_damage_2hand"
                     prop_obj.min = int(file[key]["2handmindam"])
                     prop_obj.max = int(file[key]["2handmaxdam"])
                     props.append(prop_obj)
@@ -516,8 +550,8 @@ if __name__ == "__main__":
             else:
                 obj.hands = "one"
                 try:
-                    prop_obj = Property()
-                    prop_obj.name = "base_damage_1hand"
+                    prop_obj = ItemProperty()
+                    prop_obj.prop = "base_damage_1hand"
                     prop_obj.min = int(file[key]["mindam"])
                     prop_obj.max = int(file[key]["maxdam"])
                     props.append(prop_obj)
@@ -584,8 +618,8 @@ if __name__ == "__main__":
 
         if "minac" in item_parser.f_armor[key]:
             try:
-                prop_obj = Property()
-                prop_obj.name = "base_defense"
+                prop_obj = ItemProperty()
+                prop_obj.prop = "base_defense"
                 prop_obj.min = int(file[key]["minac"])
                 prop_obj.max = int(file[key]["maxac"])
                 obj.props = [prop_obj]
@@ -676,7 +710,7 @@ if __name__ == "__main__":
     set_items={}
     file = item_parser.f_set_items
     for key in file:
-        obj = ItemSet()
+        obj = SetItem()
         obj.code = file[key]["item"]
         obj.name = ref_codes[key]["name"]
         obj.display_name = ref_codes[key]["display_name"]
@@ -688,7 +722,7 @@ if __name__ == "__main__":
         except: pass
         try: obj.levelreq = file[key]["lvl req"]
         except: pass
-        #obj.props = item_parser.get_magic_props(file[key])
+        obj.props = item_parser.get_magic_props(file[key])
 
         set_items[obj.name] = obj
     with open('output/item_set_items.json', 'w', encoding='utf-8') as f:

@@ -1,3424 +1,3548 @@
 {
   "abs-cold": {
-    "code": "abs-cold",
     "aliases": [
       "item_absorbcold"
     ],
-    "within": [],
-    "children": [
-      "abs-cold/lvl",
-      "abs-cold/time"
+    "children": [],
+    "code": "abs-cold",
+    "patterns": [
+      {
+        "neg": "-{:d} Cold Absorb",
+        "pos": "+{:d} Cold Absorb"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Cold Absorb",
-      "neg": "-{:d} Cold Absorb"
-    }
+    "within": []
   },
   "abs-cold%": {
-    "code": "abs-cold%",
     "aliases": [
       "item_absorbcold_percent"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Cold Absorb {:d}%",
-      "neg": "Cold Absorb {:d}%"
-    }
+    "code": "abs-cold%",
+    "patterns": [
+      {
+        "neg": "Cold Absorb {:d}%",
+        "pos": "Cold Absorb {:d}%"
+      }
+    ],
+    "within": []
   },
   "abs-cold/lvl": {
-    "code": "abs-cold/lvl",
     "aliases": [
       "item_absorb_cold_perlevel"
     ],
-    "within": [
-      "abs-cold"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Absorbs Cold Damage (Based on Character Level)",
-      "neg": "-{:d} Absorbs Cold Damage (Based on Character Level)"
-    }
+    "code": "abs-cold/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} Absorbs Cold Damage (Based on Character Level)",
+        "pos": "+{:d} Absorbs Cold Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "abs-cold/time": {
-    "code": "abs-cold/time",
     "aliases": [
       "item_absorb_cold_bytime"
     ],
-    "within": [
-      "abs-cold"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Absorbs Cold Damage",
-      "neg": "-{:d} Absorbs Cold Damage"
-    }
+    "code": "abs-cold/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Absorbs Cold Damage",
+        "pos": "+{:d} Absorbs Cold Damage"
+      }
+    ],
+    "within": []
   },
   "abs-crush": {
-    "code": "abs-crush",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-crush",
+    "patterns": [],
+    "within": []
   },
   "abs-crush%": {
-    "code": "abs-crush%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-crush%",
+    "patterns": [],
+    "within": []
   },
   "abs-fire": {
-    "code": "abs-fire",
     "aliases": [
       "item_absorbfire"
     ],
-    "within": [],
-    "children": [
-      "abs-fire/lvl",
-      "abs-fire/time"
+    "children": [],
+    "code": "abs-fire",
+    "patterns": [
+      {
+        "neg": "-{:d} Fire Absorb",
+        "pos": "+{:d} Fire Absorb"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Fire Absorb",
-      "neg": "-{:d} Fire Absorb"
-    }
+    "within": []
   },
   "abs-fire%": {
-    "code": "abs-fire%",
     "aliases": [
       "item_absorbfire_percent"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Fire Absorb {:d}%",
-      "neg": "Fire Absorb {:d}%"
-    }
+    "code": "abs-fire%",
+    "patterns": [
+      {
+        "neg": "Fire Absorb {:d}%",
+        "pos": "Fire Absorb {:d}%"
+      }
+    ],
+    "within": []
   },
   "abs-fire/lvl": {
-    "code": "abs-fire/lvl",
     "aliases": [
       "item_absorb_fire_perlevel"
     ],
-    "within": [
-      "abs-fire"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Absorbs Fire Damage (Based on Character Level)",
-      "neg": "-{:d} Absorbs Fire Damage (Based on Character Level)"
-    }
+    "code": "abs-fire/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} Absorbs Fire Damage (Based on Character Level)",
+        "pos": "+{:d} Absorbs Fire Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "abs-fire/time": {
-    "code": "abs-fire/time",
     "aliases": [
       "item_absorb_fire_bytime"
     ],
-    "within": [
-      "abs-fire"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Absorbs Fire Damage",
-      "neg": "-{:d} Absorbs Fire Damage"
-    }
+    "code": "abs-fire/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Absorbs Fire Damage",
+        "pos": "+{:d} Absorbs Fire Damage"
+      }
+    ],
+    "within": []
   },
   "abs-ltng": {
-    "code": "abs-ltng",
     "aliases": [
       "item_absorblight"
     ],
-    "within": [],
-    "children": [
-      "abs-ltng/lvl",
-      "abs-ltng/time"
+    "children": [],
+    "code": "abs-ltng",
+    "patterns": [
+      {
+        "neg": "-{:d} Lightning Absorb",
+        "pos": "+{:d} Lightning Absorb"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Lightning Absorb",
-      "neg": "-{:d} Lightning Absorb"
-    }
+    "within": []
   },
   "abs-ltng%": {
-    "code": "abs-ltng%",
     "aliases": [
       "item_absorblight_percent"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Lightning Absorb {:d}%",
-      "neg": "Lightning Absorb {:d}%"
-    }
+    "code": "abs-ltng%",
+    "patterns": [
+      {
+        "neg": "Lightning Absorb {:d}%",
+        "pos": "Lightning Absorb {:d}%"
+      }
+    ],
+    "within": []
   },
   "abs-ltng/lvl": {
-    "code": "abs-ltng/lvl",
     "aliases": [
       "item_absorb_ltng_perlevel"
     ],
-    "within": [
-      "abs-ltng"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Absorbs Lightning Damage (Based on Character Level)",
-      "neg": "-{:d} Absorbs Lightning Damage (Based on Character Level)"
-    }
+    "code": "abs-ltng/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} Absorbs Lightning Damage (Based on Character Level)",
+        "pos": "+{:d} Absorbs Lightning Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "abs-ltng/time": {
-    "code": "abs-ltng/time",
     "aliases": [
       "item_absorb_ltng_bytime"
     ],
-    "within": [
-      "abs-ltng"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Absorbs Lightning Damage",
-      "neg": "-{:d} Absorbs Lightning Damage"
-    }
+    "code": "abs-ltng/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Absorbs Lightning Damage",
+        "pos": "+{:d} Absorbs Lightning Damage"
+      }
+    ],
+    "within": []
   },
   "abs-mag": {
-    "code": "abs-mag",
     "aliases": [
       "item_absorbmagic"
     ],
-    "within": [],
-    "children": [
-      "abs-pois/lvl",
-      "abs-pois/time"
+    "children": [],
+    "code": "abs-mag",
+    "patterns": [
+      {
+        "neg": "-{:d} Magic Absorb",
+        "pos": "+{:d} Magic Absorb"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Magic Absorb",
-      "neg": "-{:d} Magic Absorb"
-    }
+    "within": []
   },
   "abs-mag%": {
-    "code": "abs-mag%",
     "aliases": [
       "item_absorbmagic_percent"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Magic Absorb {:d}%",
-      "neg": "Magic Absorb {:d}%"
-    }
+    "code": "abs-mag%",
+    "patterns": [
+      {
+        "neg": "Magic Absorb {:d}%",
+        "pos": "Magic Absorb {:d}%"
+      }
+    ],
+    "within": []
   },
   "abs-pois/lvl": {
-    "code": "abs-pois/lvl",
     "aliases": [
       "item_absorb_pois_perlevel"
     ],
-    "within": [
-      "abs-mag"
-    ],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-pois/lvl",
+    "patterns": [],
+    "within": []
   },
   "abs-pois/time": {
-    "code": "abs-pois/time",
     "aliases": [
       "item_absorb_pois_bytime"
     ],
-    "within": [
-      "abs-mag"
-    ],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-pois/time",
+    "patterns": [],
+    "within": []
   },
   "abs-slash": {
-    "code": "abs-slash",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-slash",
+    "patterns": [],
+    "within": []
   },
   "abs-slash%": {
-    "code": "abs-slash%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-slash%",
+    "patterns": [],
+    "within": []
   },
   "abs-thrust": {
-    "code": "abs-thrust",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-thrust",
+    "patterns": [],
+    "within": []
   },
   "abs-thrust%": {
-    "code": "abs-thrust%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "abs-thrust%",
+    "patterns": [],
+    "within": []
   },
   "ac": {
-    "code": "ac",
     "aliases": [
       "armorclass"
     ],
-    "within": [],
-    "children": [
-      "ac%",
-      "ac%/lvl",
-      "ac%/time",
-      "ac/lvl",
-      "ac/time"
+    "children": [],
+    "code": "ac",
+    "patterns": [
+      {
+        "neg": "-{:d} Defense",
+        "pos": "+{:d} Defense"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Defense",
-      "neg": "-{:d} Defense"
-    }
+    "within": []
   },
   "ac%": {
-    "code": "ac%",
     "aliases": [
       "item_armor_percent"
     ],
-    "within": [
-      "ac"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Enhanced Defense",
-      "neg": "-{:d}% Enhanced Defense"
-    }
+    "code": "ac%",
+    "patterns": [
+      {
+        "neg": "-{:d}% Enhanced Defense",
+        "pos": "+{:d}% Enhanced Defense"
+      }
+    ],
+    "within": []
   },
   "ac%-mon": {
-    "code": "ac%-mon",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "ac%-mon",
+    "patterns": [],
+    "within": []
   },
   "ac%/lvl": {
-    "code": "ac%/lvl",
     "aliases": [
       "item_armorpercent_perlevel"
     ],
-    "within": [
-      "ac"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Enhanced Defense (Based on Character Level)",
-      "neg": "{:d}% Enhanced Defense (Based on Character Level)"
-    }
+    "code": "ac%/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Enhanced Defense (Based on Character Level)",
+        "pos": "{:d}% Enhanced Defense (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "ac%/time": {
-    "code": "ac%/time",
     "aliases": [
       "item_armorpercent_bytime"
     ],
-    "within": [
-      "ac"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Enhanced Defense",
-      "neg": "-{:d} Enhanced Defense"
-    }
+    "code": "ac%/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Enhanced Defense",
+        "pos": "+{:d} Enhanced Defense"
+      }
+    ],
+    "within": []
   },
   "ac-hth": {
-    "code": "ac-hth",
     "aliases": [
       "armorclass_vs_hth"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Defense vs. Melee",
-      "neg": "-{:d} Defense vs. Melee"
-    }
+    "code": "ac-hth",
+    "patterns": [
+      {
+        "neg": "-{:d} Defense vs. Melee",
+        "pos": "+{:d} Defense vs. Melee"
+      }
+    ],
+    "within": []
   },
   "ac-miss": {
-    "code": "ac-miss",
     "aliases": [
       "armorclass_vs_missile"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Defense vs. Missile",
-      "neg": "-{:d} Defense vs. Missile"
-    }
+    "code": "ac-miss",
+    "patterns": [
+      {
+        "neg": "-{:d} Defense vs. Missile",
+        "pos": "+{:d} Defense vs. Missile"
+      }
+    ],
+    "within": []
   },
   "ac-mon": {
-    "code": "ac-mon",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "ac-mon",
+    "patterns": [],
+    "within": []
   },
   "ac/lvl": {
-    "code": "ac/lvl",
     "aliases": [
       "item_armor_perlevel"
     ],
-    "within": [
-      "ac"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Defense (Based on Character Level)",
-      "neg": "-{:d} Defense (Based on Character Level)"
-    }
+    "code": "ac/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} Defense (Based on Character Level)",
+        "pos": "+{:d} Defense (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "ac/time": {
-    "code": "ac/time",
     "aliases": [
       "item_armor_bytime"
     ],
-    "within": [
-      "ac"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Defense",
-      "neg": "-{:d} Defense"
-    }
+    "code": "ac/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Defense",
+        "pos": "+{:d} Defense"
+      }
+    ],
+    "within": []
   },
   "addxp": {
-    "code": "addxp",
     "aliases": [
       "item_addexperience"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Experience Gained",
-      "neg": "-{:d}% to Experience Gained"
-    }
+    "code": "addxp",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Experience Gained",
+        "pos": "+{:d}% to Experience Gained"
+      }
+    ],
+    "within": []
   },
   "all-stats": {
-    "code": "all-stats",
     "aliases": null,
-    "within": [],
     "children": [
-      "strength",
-      "energy",
-      "dexterity",
-      "vitality",
-      "str/lvl",
-      "str/time"
+      "str",
+      "enr",
+      "dex",
+      "vit"
     ],
-    "patterns": {}
+    "code": "all-stats",
+    "patterns": [
+      {
+        "neg": "-{:d} to all Attributes",
+        "pos": "+{:d} to all Attributes"
+      }
+    ],
+    "within": []
   },
   "allskills": {
-    "code": "allskills",
     "aliases": [
       "item_allskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to All Skills",
-      "neg": "-{:d} to All Skills"
-    }
+    "code": "allskills",
+    "patterns": [
+      {
+        "neg": "-{:d} to All Skills",
+        "pos": "+{:d} to All Skills"
+      }
+    ],
+    "within": []
   },
   "ama": {
-    "code": "ama",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "ama",
+    "patterns": [
+      {
+        "neg": "-{:d} to Amazon Skill Levels",
+        "pos": "+{:d} to Amazon Skill Levels"
+      }
+    ],
+    "within": []
   },
   "ass": {
-    "code": "ass",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "ass",
+    "patterns": [
+      {
+        "neg": "-{:d} to Assassin Skill Levels",
+        "pos": "+{:d} to Assassin Skill Levels"
+      }
+    ],
+    "within": []
   },
   "att": {
-    "code": "att",
     "aliases": [
       "tohit"
     ],
-    "within": [],
-    "children": [
-      "att/lvl",
-      "att/time"
+    "children": [],
+    "code": "att",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating",
+        "pos": "+{:d} to Attack Rating"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating",
-      "neg": "-{:d} to Attack Rating"
-    }
+    "within": []
   },
   "att%": {
-    "code": "att%",
     "aliases": [
       "item_tohit_percent"
     ],
-    "within": [],
-    "children": [
-      "att%/lvl",
-      "att%/time"
+    "children": [],
+    "code": "att%",
+    "patterns": [
+      {
+        "neg": "{:d}% Bonus to Attack Rating",
+        "pos": "{:d}% Bonus to Attack Rating"
+      }
     ],
-    "patterns": {
-      "pos": "{:d}% Bonus to Attack Rating",
-      "neg": "{:d}% Bonus to Attack Rating"
-    }
+    "within": []
   },
   "att%-mon": {
-    "code": "att%-mon",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "att%-mon",
+    "patterns": [],
+    "within": []
   },
   "att%/lvl": {
-    "code": "att%/lvl",
     "aliases": [
       "item_tohitpercent_perlevel"
     ],
-    "within": [
-      "att%"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Bonus to Attack Rating (Based on Character Level)",
-      "neg": "{:d}% Bonus to Attack Rating (Based on Character Level)"
-    }
+    "code": "att%/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Bonus to Attack Rating (Based on Character Level)",
+        "pos": "{:d}% Bonus to Attack Rating (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "att%/time": {
-    "code": "att%/time",
     "aliases": [
       "item_tohitpercent_bytime"
     ],
-    "within": [
-      "att%"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Bonus to Attack Rating",
-      "neg": "-{:d} Bonus to Attack Rating"
-    }
+    "code": "att%/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Bonus to Attack Rating",
+        "pos": "+{:d} Bonus to Attack Rating"
+      }
+    ],
+    "within": []
   },
   "att-dem/lvl": {
-    "code": "att-dem/lvl",
     "aliases": [
       "item_tohit_demon_perlevel"
     ],
-    "within": [
-      "att-demon"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating against Demons (Based on Character Level)",
-      "neg": "-{:d} to Attack Rating against Demons (Based on Character Level)"
-    }
+    "code": "att-dem/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating against Demons (Based on Character Level)",
+        "pos": "+{:d} to Attack Rating against Demons (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "att-dem/time": {
-    "code": "att-dem/time",
     "aliases": [
       "item_tohit_demon_bytime"
     ],
-    "within": [
-      "att-demon"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating against Demons",
-      "neg": "-{:d} to Attack Rating against Demons"
-    }
+    "code": "att-dem/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating against Demons",
+        "pos": "+{:d} to Attack Rating against Demons"
+      }
+    ],
+    "within": []
   },
   "att-demon": {
-    "code": "att-demon",
     "aliases": [
       "item_demon_tohit"
     ],
-    "within": [],
-    "children": [
-      "att-dem/lvl",
-      "att-dem/time"
+    "children": [],
+    "code": "att-demon",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating against Demons",
+        "pos": "+{:d} to Attack Rating against Demons"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating against Demons",
-      "neg": "-{:d} to Attack Rating against Demons"
-    }
+    "within": []
   },
   "att-mon": {
-    "code": "att-mon",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "att-mon",
+    "patterns": [],
+    "within": []
   },
   "att-mon%": {
-    "code": "att-mon%",
     "aliases": [
       "attack_vs_montype"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating versus {}",
-      "neg": "-{:d} to Attack Rating versus {}"
-    }
+    "code": "att-mon%",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating versus {}",
+        "pos": "+{:d} to Attack Rating versus {}"
+      }
+    ],
+    "within": []
   },
   "att-skill": {
-    "code": "att-skill",
     "aliases": [
       "item_skillonattack"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance to cast level {:d} {} on attack",
-      "neg": "{:d}% Chance to cast level {:d} {} on attack"
-    }
+    "code": "att-skill",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance to cast level {:d} {} on attack",
+        "pos": "{:d}% Chance to cast level {:d} {} on attack"
+      }
+    ],
+    "within": []
   },
   "att-und/lvl": {
-    "code": "att-und/lvl",
     "aliases": [
       "item_tohit_undead_perlevel"
     ],
-    "within": [
-      "att-undead"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating against Undead (Based on Character Level)",
-      "neg": "-{:d} to Attack Rating against Undead (Based on Character Level)"
-    }
+    "code": "att-und/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating against Undead (Based on Character Level)",
+        "pos": "+{:d} to Attack Rating against Undead (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "att-und/time": {
-    "code": "att-und/time",
     "aliases": [
       "item_tohit_undead_bytime"
     ],
-    "within": [
-      "att-undead"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating against Undead",
-      "neg": "-{:d} to Attack Rating against Undead"
-    }
+    "code": "att-und/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating against Undead",
+        "pos": "+{:d} to Attack Rating against Undead"
+      }
+    ],
+    "within": []
   },
   "att-undead": {
-    "code": "att-undead",
     "aliases": [
       "item_undead_tohit"
     ],
-    "within": [],
-    "children": [
-      "att-und/lvl",
-      "att-und/time"
+    "children": [],
+    "code": "att-undead",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating against Undead",
+        "pos": "+{:d} to Attack Rating against Undead"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating against Undead",
-      "neg": "-{:d} to Attack Rating against Undead"
-    }
+    "within": []
   },
   "att/lvl": {
-    "code": "att/lvl",
     "aliases": [
       "item_tohit_perlevel"
     ],
-    "within": [
-      "att"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating (Based on Character Level)",
-      "neg": "-{:d} to Attack Rating (Based on Character Level)"
-    }
+    "code": "att/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating (Based on Character Level)",
+        "pos": "+{:d} to Attack Rating (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "att/time": {
-    "code": "att/time",
     "aliases": [
       "item_tohit_bytime"
     ],
-    "within": [
-      "att"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating",
-      "neg": "-{:d} to Attack Rating"
-    }
+    "code": "att/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating",
+        "pos": "+{:d} to Attack Rating"
+      }
+    ],
+    "within": []
   },
   "aura": {
-    "code": "aura",
     "aliases": [
       "item_aura"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Level {:d} {} Aura When Equipped",
-      "neg": "Level {:d} {} Aura When Equipped"
-    }
+    "code": "aura",
+    "patterns": [
+      {
+        "neg": "Level {:d} {} Aura When Equipped",
+        "pos": "Level {:d} {} Aura When Equipped"
+      }
+    ],
+    "within": []
   },
   "balance1": {
-    "code": "balance1",
     "aliases": [
       "item_fastergethitrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Hit Recovery",
-      "neg": "-{:d}% Faster Hit Recovery"
-    }
+    "code": "balance1",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Hit Recovery",
+        "pos": "+{:d}% Faster Hit Recovery"
+      }
+    ],
+    "within": []
   },
   "balance2": {
-    "code": "balance2",
     "aliases": [
       "item_fastergethitrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Hit Recovery",
-      "neg": "-{:d}% Faster Hit Recovery"
-    }
+    "code": "balance2",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Hit Recovery",
+        "pos": "+{:d}% Faster Hit Recovery"
+      }
+    ],
+    "within": []
   },
   "balance3": {
-    "code": "balance3",
     "aliases": [
       "item_fastergethitrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Hit Recovery",
-      "neg": "-{:d}% Faster Hit Recovery"
-    }
+    "code": "balance3",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Hit Recovery",
+        "pos": "+{:d}% Faster Hit Recovery"
+      }
+    ],
+    "within": []
   },
   "bar": {
-    "code": "bar",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "bar",
+    "patterns": [
+      {
+        "neg": "-{:d} to Barbarian Skill Levels",
+        "pos": "+{:d} to Barbarian Skill Levels"
+      }
+    ],
+    "within": []
   },
   "block": {
-    "code": "block",
     "aliases": [
       "toblock"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Increased Chance of Blocking",
-      "neg": "{:d}% Increased Chance of Blocking"
-    }
+    "code": "block",
+    "patterns": [
+      {
+        "neg": "{:d}% Increased Chance of Blocking",
+        "pos": "{:d}% Increased Chance of Blocking"
+      }
+    ],
+    "within": []
   },
   "block1": {
-    "code": "block1",
     "aliases": [
       "item_fasterblockrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Block Rate",
-      "neg": "-{:d}% Faster Block Rate"
-    }
+    "code": "block1",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Block Rate",
+        "pos": "+{:d}% Faster Block Rate"
+      }
+    ],
+    "within": []
   },
   "block2": {
-    "code": "block2",
     "aliases": [
       "item_fasterblockrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Block Rate",
-      "neg": "-{:d}% Faster Block Rate"
-    }
+    "code": "block2",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Block Rate",
+        "pos": "+{:d}% Faster Block Rate"
+      }
+    ],
+    "within": []
   },
   "block3": {
-    "code": "block3",
     "aliases": [
       "item_fasterblockrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Block Rate",
-      "neg": "-{:d}% Faster Block Rate"
-    }
+    "code": "block3",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Block Rate",
+        "pos": "+{:d}% Faster Block Rate"
+      }
+    ],
+    "within": []
   },
   "bloody": {
-    "code": "bloody",
     "aliases": [
       "item_extrablood"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "bloody",
+    "patterns": [],
+    "within": []
   },
   "cast1": {
-    "code": "cast1",
     "aliases": [
       "item_fastercastrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Cast Rate",
-      "neg": "-{:d}% Faster Cast Rate"
-    }
+    "code": "cast1",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Cast Rate",
+        "pos": "+{:d}% Faster Cast Rate"
+      }
+    ],
+    "within": []
   },
   "cast2": {
-    "code": "cast2",
     "aliases": [
       "item_fastercastrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Cast Rate",
-      "neg": "-{:d}% Faster Cast Rate"
-    }
+    "code": "cast2",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Cast Rate",
+        "pos": "+{:d}% Faster Cast Rate"
+      }
+    ],
+    "within": []
   },
   "cast3": {
-    "code": "cast3",
     "aliases": [
       "item_fastercastrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Cast Rate",
-      "neg": "-{:d}% Faster Cast Rate"
-    }
+    "code": "cast3",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Cast Rate",
+        "pos": "+{:d}% Faster Cast Rate"
+      }
+    ],
+    "within": []
   },
   "charged": {
-    "code": "charged",
     "aliases": [
       "item_charged_skill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Level {:d} {} ({:d}/{:d} Charges)",
-      "neg": "Level {:d} {} ({:d}/{:d} Charges)"
-    }
+    "code": "charged",
+    "patterns": [
+      {
+        "neg": "Level {:d} {} ({:d}/{:d} Charges)",
+        "pos": "Level {:d} {} ({:d}/{:d} Charges)"
+      }
+    ],
+    "within": []
   },
   "cheap": {
-    "code": "cheap",
     "aliases": [
       "item_reducedprices"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Reduces all Vendor Prices {:d}%",
-      "neg": "Reduces all Vendor Prices {:d}%"
-    }
+    "code": "cheap",
+    "patterns": [
+      {
+        "neg": "Reduces all Vendor Prices {:d}%",
+        "pos": "Reduces all Vendor Prices {:d}%"
+      }
+    ],
+    "within": []
   },
   "cold-len": {
-    "code": "cold-len",
     "aliases": [
       "coldlength"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "cold-len",
+    "patterns": [],
+    "within": []
   },
   "cold-max": {
-    "code": "cold-max",
     "aliases": [
       "coldmaxdam"
     ],
-    "within": [],
-    "children": [
-      "dmg-cold/lvl",
-      "dmg-cold/time"
+    "children": [],
+    "code": "cold-max",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Cold Damage",
+        "pos": "+{:d} to Maximum Cold Damage"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Maximum Cold Damage",
-      "neg": "-{:d} to Maximum Cold Damage"
-    }
+    "within": []
   },
   "cold-min": {
-    "code": "cold-min",
     "aliases": [
       "coldmindam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Minimum Cold Damage",
-      "neg": "-{:d} to Minimum Cold Damage"
-    }
+    "code": "cold-min",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Cold Damage",
+        "pos": "+{:d} to Minimum Cold Damage"
+      }
+    ],
+    "within": []
   },
   "color": {
-    "code": "color",
     "aliases": [
       "item_lightcolor"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "color",
+    "patterns": [],
+    "within": []
   },
   "crush": {
-    "code": "crush",
     "aliases": [
       "item_crushingblow"
     ],
-    "within": [],
-    "children": [
-      "crush/lvl",
-      "crush/time"
+    "children": [],
+    "code": "crush",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance of Crushing Blow",
+        "pos": "{:d}% Chance of Crushing Blow"
+      }
     ],
-    "patterns": {
-      "pos": "{:d}% Chance of Crushing Blow",
-      "neg": "{:d}% Chance of Crushing Blow"
-    }
+    "within": []
   },
   "crush/lvl": {
-    "code": "crush/lvl",
     "aliases": [
       "item_crushingblow_perlevel"
     ],
-    "within": [
-      "crush"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance of Crushing Blow (Based on Character Level)",
-      "neg": "{:d}% Chance of Crushing Blow (Based on Character Level)"
-    }
+    "code": "crush/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance of Crushing Blow (Based on Character Level)",
+        "pos": "{:d}% Chance of Crushing Blow (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "crush/time": {
-    "code": "crush/time",
     "aliases": [
       "item_crushingblow_bytime"
     ],
-    "within": [
-      "crush"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Chance of Crushing Blow",
-      "neg": "-{:d} Chance of Crushing Blow"
-    }
+    "code": "crush/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Chance of Crushing Blow",
+        "pos": "+{:d} Chance of Crushing Blow"
+      }
+    ],
+    "within": []
   },
   "deadly": {
-    "code": "deadly",
     "aliases": [
       "item_deadlystrike"
     ],
-    "within": [],
-    "children": [
-      "deadly/lvl",
-      "deadly/time"
+    "children": [],
+    "code": "deadly",
+    "patterns": [
+      {
+        "neg": "{:d}% Deadly Strike",
+        "pos": "{:d}% Deadly Strike"
+      }
     ],
-    "patterns": {
-      "pos": "{:d}% Deadly Strike",
-      "neg": "{:d}% Deadly Strike"
-    }
+    "within": []
   },
   "deadly/lvl": {
-    "code": "deadly/lvl",
     "aliases": [
       "item_deadlystrike_perlevel"
     ],
-    "within": [
-      "deadly"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Deadly Strike (Based on Character Level)",
-      "neg": "{:d}% Deadly Strike (Based on Character Level)"
-    }
+    "code": "deadly/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Deadly Strike (Based on Character Level)",
+        "pos": "{:d}% Deadly Strike (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "deadly/time": {
-    "code": "deadly/time",
     "aliases": [
       "item_deadlystrike_bytime"
     ],
-    "within": [
-      "deadly"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Deadly Strike",
-      "neg": "-{:d} Deadly Strike"
-    }
+    "code": "deadly/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Deadly Strike",
+        "pos": "+{:d} Deadly Strike"
+      }
+    ],
+    "within": []
   },
   "death-skill": {
-    "code": "death-skill",
     "aliases": [
       "item_skillondeath"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance to cast level {:d} {} when you Die",
-      "neg": "{:d}% Chance to cast level {:d} {} when you Die"
-    }
+    "code": "death-skill",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance to cast level {:d} {} when you Die",
+        "pos": "{:d}% Chance to cast level {:d} {} when you Die"
+      }
+    ],
+    "within": []
   },
   "demon-heal": {
-    "code": "demon-heal",
     "aliases": [
       "item_healafterdemonkill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Life after each Demon Kill",
-      "neg": "-{:d} Life after each Demon Kill"
-    }
+    "code": "demon-heal",
+    "patterns": [
+      {
+        "neg": "-{:d} Life after each Demon Kill",
+        "pos": "+{:d} Life after each Demon Kill"
+      }
+    ],
+    "within": []
   },
   "dex": {
-    "code": "dex",
     "aliases": [
       "dexterity"
     ],
-    "within": [],
-    "children": [
-      "dex/lvl",
-      "dex/time"
+    "children": [],
+    "code": "dex",
+    "patterns": [
+      {
+        "neg": "-{:d} to Dexterity",
+        "pos": "+{:d} to Dexterity"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Dexterity",
-      "neg": "-{:d} to Dexterity"
-    }
+    "within": []
   },
   "dex/lvl": {
-    "code": "dex/lvl",
     "aliases": [
       "item_dexterity_perlevel"
     ],
-    "within": [
-      "dex"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Dexterity (Based on Character Level)",
-      "neg": "-{:d} to Dexterity (Based on Character Level)"
-    }
+    "code": "dex/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Dexterity (Based on Character Level)",
+        "pos": "+{:d} to Dexterity (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dex/time": {
-    "code": "dex/time",
     "aliases": [
       "item_dexterity_bytime"
     ],
-    "within": [
-      "dex"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Dexterity",
-      "neg": "-{:d} to Dexterity"
-    }
+    "code": "dex/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Dexterity",
+        "pos": "+{:d} to Dexterity"
+      }
+    ],
+    "within": []
   },
   "dmg": {
-    "code": "dmg",
     "aliases": [
       "item_normaldamage"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Damage +{:d}",
-      "neg": "Damage -{:d}"
-    }
+    "code": "dmg",
+    "patterns": [
+      {
+        "neg": "Damage -{:d}",
+        "pos": "Damage +{:d}"
+      }
+    ],
+    "within": []
   },
   "dmg%": {
-    "code": "dmg%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg%",
+    "patterns": [],
+    "within": []
   },
   "dmg%-mon": {
-    "code": "dmg%-mon",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg%-mon",
+    "patterns": [],
+    "within": []
   },
   "dmg%/lvl": {
-    "code": "dmg%/lvl",
     "aliases": [
       "item_maxdamage_percent_perlevel"
     ],
-    "within": [
-      "maxdamage",
-      "secondary_maxdamage",
-      "item_throw_maxdamage"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
-      "neg": "{:d}% Enhanced Maximum Damage (Based on Character Level)"
-    }
+    "code": "dmg%/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
+        "pos": "{:d}% Enhanced Maximum Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg%/time": {
-    "code": "dmg%/time",
     "aliases": [
       "item_maxdamage_percent_bytime"
     ],
-    "within": [
-      "maxdamage",
-      "secondary_mindamage",
-      "dmg-throw"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Enhanced Maximum Damage",
-      "neg": "-{:d} Enhanced Maximum Damage"
-    }
+    "code": "dmg%/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Enhanced Maximum Damage",
+        "pos": "+{:d} Enhanced Maximum Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-ac": {
-    "code": "dmg-ac",
     "aliases": [
       "item_damagetargetac"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Monster Defense Per Hit",
-      "neg": "-{:d} to Monster Defense Per Hit"
-    }
+    "code": "dmg-ac",
+    "patterns": [
+      {
+        "neg": "-{:d} to Monster Defense Per Hit",
+        "pos": "+{:d} to Monster Defense Per Hit"
+      }
+    ],
+    "within": []
   },
   "dmg-cold": {
-    "code": "dmg-cold",
     "aliases": null,
-    "within": [],
     "children": [
-      "coldmindam",
-      "coldmaxdam",
-      "coldlength"
+      "cold-min",
+      "cold-max",
+      "cold-len"
     ],
-    "patterns": {}
+    "code": "dmg-cold",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Cold Damage",
+        "pos": "+{:d} to Minimum Cold Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Cold Damage",
+        "pos": "+{:d} to Maximum Cold Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-cold/lvl": {
-    "code": "dmg-cold/lvl",
     "aliases": [
       "item_cold_damagemax_perlevel"
     ],
-    "within": [
-      "cold-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Cold Damage (Based on Character Level)",
-      "neg": "-{:d} to Maximum Cold Damage (Based on Character Level)"
-    }
+    "code": "dmg-cold/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Cold Damage (Based on Character Level)",
+        "pos": "+{:d} to Maximum Cold Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg-cold/time": {
-    "code": "dmg-cold/time",
     "aliases": [
       "item_cold_damagemax_bytime"
     ],
-    "within": [
-      "cold-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Cold Damage",
-      "neg": "-{:d} to Maximum Cold Damage"
-    }
+    "code": "dmg-cold/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Cold Damage",
+        "pos": "+{:d} to Maximum Cold Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-crush": {
-    "code": "dmg-crush",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-crush",
+    "patterns": [],
+    "within": []
   },
   "dmg-crush%": {
-    "code": "dmg-crush%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-crush%",
+    "patterns": [],
+    "within": []
   },
   "dmg-dem/lvl": {
-    "code": "dmg-dem/lvl",
     "aliases": [
       "item_damage_demon_perlevel"
     ],
-    "within": [
-      "dmg-demon"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Damage to Demons (Based on Character Level)",
-      "neg": "{:d}% Damage to Demons (Based on Character Level)"
-    }
+    "code": "dmg-dem/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Damage to Demons (Based on Character Level)",
+        "pos": "{:d}% Damage to Demons (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg-dem/time": {
-    "code": "dmg-dem/time",
     "aliases": [
       "item_damage_demon_bytime"
     ],
-    "within": [
-      "dmg-demon"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Damage to Demons",
-      "neg": "-{:d} Damage to Demons"
-    }
+    "code": "dmg-dem/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Damage to Demons",
+        "pos": "+{:d} Damage to Demons"
+      }
+    ],
+    "within": []
   },
   "dmg-demon": {
-    "code": "dmg-demon",
     "aliases": [
       "item_demondamage_percent"
     ],
-    "within": [],
-    "children": [
-      "dmg-dem/lvl",
-      "dmg-dem/time"
+    "children": [],
+    "code": "dmg-demon",
+    "patterns": [
+      {
+        "neg": "-{:d}% Damage to Demons",
+        "pos": "+{:d}% Damage to Demons"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d}% Damage to Demons",
-      "neg": "-{:d}% Damage to Demons"
-    }
+    "within": []
   },
   "dmg-elem": {
-    "code": "dmg-elem",
     "aliases": null,
-    "within": [],
     "children": [
-      "firemindam",
-      "firemaxdam",
-      "lightmindam",
-      "lightmaxdam",
-      "coldmindam",
-      "coldmaxdam",
-      "coldlength"
+      "fire-min",
+      "fire-max",
+      "ltng-min",
+      "ltng-max",
+      "cold-min",
+      "cold-max",
+      "cold-len"
     ],
-    "patterns": {}
+    "code": "dmg-elem",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Fire Damage",
+        "pos": "+{:d} to Minimum Fire Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Fire Damage",
+        "pos": "+{:d} to Maximum Fire Damage"
+      },
+      {
+        "neg": "-{:d} to Minimum Lightning Damage",
+        "pos": "+{:d} to Minimum Lightning Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Lightning Damage",
+        "pos": "+{:d} to Maximum Lightning Damage"
+      },
+      {
+        "neg": "-{:d} to Minimum Cold Damage",
+        "pos": "+{:d} to Minimum Cold Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Cold Damage",
+        "pos": "+{:d} to Maximum Cold Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-elem-max": {
-    "code": "dmg-elem-max",
     "aliases": null,
-    "within": [],
     "children": [
-      "firemaxdam",
-      "lightmaxdam",
-      "coldmaxdam",
-      "coldlength",
-      "dmg-fire/lvl",
-      "dmg-fire/time"
+      "fire-max",
+      "ltng-max",
+      "cold-max",
+      "cold-len"
     ],
-    "patterns": {}
+    "code": "dmg-elem-max",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Fire Damage",
+        "pos": "+{:d} to Maximum Fire Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Lightning Damage",
+        "pos": "+{:d} to Maximum Lightning Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Cold Damage",
+        "pos": "+{:d} to Maximum Cold Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-elem-min": {
-    "code": "dmg-elem-min",
     "aliases": null,
-    "within": [],
     "children": [
-      "firemindam",
-      "lightmindam",
-      "coldmindam"
+      "fire-min",
+      "ltng-min",
+      "cold-min"
     ],
-    "patterns": {}
+    "code": "dmg-elem-min",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Fire Damage",
+        "pos": "+{:d} to Minimum Fire Damage"
+      },
+      {
+        "neg": "-{:d} to Minimum Lightning Damage",
+        "pos": "+{:d} to Minimum Lightning Damage"
+      },
+      {
+        "neg": "-{:d} to Minimum Cold Damage",
+        "pos": "+{:d} to Minimum Cold Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-fire": {
-    "code": "dmg-fire",
     "aliases": null,
-    "within": [],
     "children": [
-      "firemindam",
-      "firemaxdam"
+      "fire-min",
+      "fire-max"
     ],
-    "patterns": {}
+    "code": "dmg-fire",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Fire Damage",
+        "pos": "+{:d} to Minimum Fire Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Fire Damage",
+        "pos": "+{:d} to Maximum Fire Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-fire/lvl": {
-    "code": "dmg-fire/lvl",
     "aliases": [
       "item_fire_damagemax_perlevel"
     ],
-    "within": [
-      "dmg-elem-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Fire Damage (Based on Character Level)",
-      "neg": "-{:d} to Maximum Fire Damage (Based on Character Level)"
-    }
+    "code": "dmg-fire/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Fire Damage (Based on Character Level)",
+        "pos": "+{:d} to Maximum Fire Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg-fire/time": {
-    "code": "dmg-fire/time",
     "aliases": [
       "item_fire_damagemax_bytime"
     ],
-    "within": [
-      "dmg-elem-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Fire Damage",
-      "neg": "-{:d} to Maximum Fire Damage"
-    }
+    "code": "dmg-fire/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Fire Damage",
+        "pos": "+{:d} to Maximum Fire Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-ltng": {
-    "code": "dmg-ltng",
     "aliases": null,
-    "within": [],
     "children": [
-      "lightmindam",
-      "lightmaxdam"
+      "ltng-min",
+      "ltng-max"
     ],
-    "patterns": {}
+    "code": "dmg-ltng",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Lightning Damage",
+        "pos": "+{:d} to Minimum Lightning Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Lightning Damage",
+        "pos": "+{:d} to Maximum Lightning Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-ltng/lvl": {
-    "code": "dmg-ltng/lvl",
     "aliases": [
       "item_ltng_damagemax_perlevel"
     ],
-    "within": [
-      "ltng-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Lightning Damage (Based on Character Level)",
-      "neg": "-{:d} to Maximum Lightning Damage (Based on Character Level)"
-    }
+    "code": "dmg-ltng/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Lightning Damage (Based on Character Level)",
+        "pos": "+{:d} to Maximum Lightning Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg-ltng/time": {
-    "code": "dmg-ltng/time",
     "aliases": [
       "item_ltng_damagemax_bytime"
     ],
-    "within": [
-      "ltng-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Lightning Damage",
-      "neg": "-{:d} to Maximum Lightning Damage"
-    }
+    "code": "dmg-ltng/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Lightning Damage",
+        "pos": "+{:d} to Maximum Lightning Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-mag": {
-    "code": "dmg-mag",
     "aliases": null,
-    "within": [],
-    "children": [
-      "magicmindam",
-      "magicmaxdam"
-    ],
-    "patterns": {}
+    "children": [],
+    "code": "dmg-mag",
+    "patterns": [],
+    "within": []
   },
   "dmg-max": {
-    "code": "dmg-max",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-max",
+    "patterns": [],
+    "within": []
   },
   "dmg-min": {
-    "code": "dmg-min",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-min",
+    "patterns": [],
+    "within": []
   },
   "dmg-mon": {
-    "code": "dmg-mon",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-mon",
+    "patterns": [],
+    "within": []
   },
   "dmg-mon%": {
-    "code": "dmg-mon%",
     "aliases": [
       "damage_vs_montype"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Attack Rating versus {}",
-      "neg": "-{:d} to Attack Rating versus {}"
-    }
+    "code": "dmg-mon%",
+    "patterns": [
+      {
+        "neg": "-{:d} to Attack Rating versus {}",
+        "pos": "+{:d} to Attack Rating versus {}"
+      }
+    ],
+    "within": []
   },
   "dmg-norm": {
-    "code": "dmg-norm",
     "aliases": null,
-    "within": [],
-    "children": [
-      "mindamage",
-      "maxdamage"
-    ],
-    "patterns": {}
+    "children": [],
+    "code": "dmg-norm",
+    "patterns": [],
+    "within": []
   },
   "dmg-pois": {
-    "code": "dmg-pois",
     "aliases": null,
-    "within": [],
     "children": [
-      "poisonmindam",
-      "poisonmaxdam",
-      "poisonlength"
+      "pois-min",
+      "pois-max",
+      "pois-len"
     ],
-    "patterns": {}
+    "code": "dmg-pois",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Poison Damage",
+        "pos": "+{:d} to Minimum Poison Damage"
+      },
+      {
+        "neg": "-{:d} to Maximum Poison Damage",
+        "pos": "+{:d} to Maximum Poison Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-pois/lvl": {
-    "code": "dmg-pois/lvl",
     "aliases": [
       "item_pois_damagemax_perlevel"
     ],
-    "within": [
-      "pois-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Poison Damage (Based on Character Level)",
-      "neg": "-{:d} to Maximum Poison Damage (Based on Character Level)"
-    }
+    "code": "dmg-pois/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Poison Damage (Based on Character Level)",
+        "pos": "+{:d} to Maximum Poison Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg-pois/time": {
-    "code": "dmg-pois/time",
     "aliases": [
       "item_pois_damagemax_bytime"
     ],
-    "within": [
-      "pois-max"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Poison Damage",
-      "neg": "-{:d} to Maximum Poison Damage"
-    }
+    "code": "dmg-pois/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Poison Damage",
+        "pos": "+{:d} to Maximum Poison Damage"
+      }
+    ],
+    "within": []
   },
   "dmg-slash": {
-    "code": "dmg-slash",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-slash",
+    "patterns": [],
+    "within": []
   },
   "dmg-slash%": {
-    "code": "dmg-slash%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-slash%",
+    "patterns": [],
+    "within": []
   },
   "dmg-throw": {
-    "code": "dmg-throw",
     "aliases": null,
-    "within": [],
-    "children": [
-      "item_throw_mindamage",
-      "item_throw_maxdamage",
-      "dmg%/time"
-    ],
-    "patterns": {}
+    "children": [],
+    "code": "dmg-throw",
+    "patterns": [],
+    "within": []
   },
   "dmg-thrust": {
-    "code": "dmg-thrust",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-thrust",
+    "patterns": [],
+    "within": []
   },
   "dmg-thrust%": {
-    "code": "dmg-thrust%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "dmg-thrust%",
+    "patterns": [],
+    "within": []
   },
   "dmg-to-mana": {
-    "code": "dmg-to-mana",
     "aliases": [
       "item_damagetomana"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Damage Taken Goes To Mana",
-      "neg": "{:d}% Damage Taken Goes To Mana"
-    }
+    "code": "dmg-to-mana",
+    "patterns": [
+      {
+        "neg": "{:d}% Damage Taken Goes To Mana",
+        "pos": "{:d}% Damage Taken Goes To Mana"
+      }
+    ],
+    "within": []
   },
   "dmg-und/lvl": {
-    "code": "dmg-und/lvl",
     "aliases": [
       "item_damage_undead_perlevel"
     ],
-    "within": [
-      "dmg-undead"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Damage to Undead (Based on Character Level)",
-      "neg": "{:d}% Damage to Undead (Based on Character Level)"
-    }
+    "code": "dmg-und/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Damage to Undead (Based on Character Level)",
+        "pos": "{:d}% Damage to Undead (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg-und/time": {
-    "code": "dmg-und/time",
     "aliases": [
       "item_damage_undead_bytime"
     ],
-    "within": [
-      "dmg-undead"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Damage to Undead",
-      "neg": "-{:d} Damage to Undead"
-    }
+    "code": "dmg-und/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Damage to Undead",
+        "pos": "+{:d} Damage to Undead"
+      }
+    ],
+    "within": []
   },
   "dmg-undead": {
-    "code": "dmg-undead",
     "aliases": [
       "item_undeaddamage_percent"
     ],
-    "within": [],
-    "children": [
-      "dmg-und/lvl",
-      "dmg-und/time"
+    "children": [],
+    "code": "dmg-undead",
+    "patterns": [
+      {
+        "neg": "-{:d}% Damage to Undead",
+        "pos": "+{:d}% Damage to Undead"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d}% Damage to Undead",
-      "neg": "-{:d}% Damage to Undead"
-    }
+    "within": []
   },
   "dmg/lvl": {
-    "code": "dmg/lvl",
     "aliases": [
       "item_maxdamage_perlevel"
     ],
-    "within": [
-      "maxdamage",
-      "secondary_maxdamage",
-      "item_throw_maxdamage"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Damage (Based on Character Level)",
-      "neg": "-{:d} to Maximum Damage (Based on Character Level)"
-    }
+    "code": "dmg/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Damage (Based on Character Level)",
+        "pos": "+{:d} to Maximum Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "dmg/time": {
-    "code": "dmg/time",
     "aliases": [
       "item_maxdamage_bytime"
     ],
-    "within": [
-      "maxdamage",
-      "secondary_maxdamage",
-      "item_throw_maxdamage"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Damage",
-      "neg": "-{:d} to Maximum Damage"
-    }
+    "code": "dmg/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Damage",
+        "pos": "+{:d} to Maximum Damage"
+      }
+    ],
+    "within": []
   },
   "dru": {
-    "code": "dru",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "dru",
+    "patterns": [
+      {
+        "neg": "-{:d} to Druid Skill Levels",
+        "pos": "+{:d} to Druid Skill Levels"
+      }
+    ],
+    "within": []
   },
   "dur": {
-    "code": "dur",
     "aliases": [
       "maxdurability"
     ],
-    "within": [],
-    "children": [
-      "dur%"
-    ],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "children": [],
+    "code": "dur",
+    "patterns": [],
+    "within": []
   },
   "dur%": {
-    "code": "dur%",
     "aliases": [
       "item_maxdurability_percent"
     ],
-    "within": [
-      "dur"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Increase Maximum Durability {:d}%",
-      "neg": "Increase Maximum Durability {:d}%"
-    }
+    "code": "dur%",
+    "patterns": [
+      {
+        "neg": "Increase Maximum Durability {:d}%",
+        "pos": "Increase Maximum Durability {:d}%"
+      }
+    ],
+    "within": []
   },
   "ease": {
-    "code": "ease",
     "aliases": [
       "item_req_percent"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Requirements +{:d}%",
-      "neg": "Requirements -{:d}%"
-    }
+    "code": "ease",
+    "patterns": [
+      {
+        "neg": "Requirements -{:d}%",
+        "pos": "Requirements +{:d}%"
+      }
+    ],
+    "within": []
   },
   "enr": {
-    "code": "enr",
     "aliases": [
       "energy"
     ],
-    "within": [
-      "mana"
+    "children": [],
+    "code": "enr",
+    "patterns": [
+      {
+        "neg": "-{:d} to Energy",
+        "pos": "+{:d} to Energy"
+      }
     ],
-    "children": [
-      "enr/lvl",
-      "enr/time"
-    ],
-    "patterns": {
-      "pos": "+{:d} to Energy",
-      "neg": "-{:d} to Energy"
-    }
+    "within": []
   },
   "enr/lvl": {
-    "code": "enr/lvl",
     "aliases": [
       "item_energy_perlevel"
     ],
-    "within": [
-      "enr"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Energy (Based on Character Level)",
-      "neg": "-{:d} to Energy (Based on Character Level)"
-    }
+    "code": "enr/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Energy (Based on Character Level)",
+        "pos": "+{:d} to Energy (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "enr/time": {
-    "code": "enr/time",
     "aliases": [
       "item_energy_bytime"
     ],
-    "within": [
-      "enr"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Energy",
-      "neg": "-{:d} to Energy"
-    }
+    "code": "enr/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Energy",
+        "pos": "+{:d} to Energy"
+      }
+    ],
+    "within": []
   },
   "ethereal": {
-    "code": "ethereal",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "ethereal",
+    "patterns": [],
+    "within": []
   },
   "explosivearrow": {
-    "code": "explosivearrow",
     "aliases": [
       "item_explosivearrow"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Fires Explosive Arrows or Bolts",
-      "neg": "Fires Explosive Arrows or Bolts"
-    }
+    "code": "explosivearrow",
+    "patterns": [
+      {
+        "neg": "Fires Explosive Arrows or Bolts",
+        "pos": "Fires Explosive Arrows or Bolts"
+      }
+    ],
+    "within": []
   },
   "extra-cold": {
-    "code": "extra-cold",
     "aliases": [
       "passive_cold_mastery"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Cold Skill Damage",
-      "neg": "-{:d}% to Cold Skill Damage"
-    }
+    "code": "extra-cold",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Cold Skill Damage",
+        "pos": "+{:d}% to Cold Skill Damage"
+      }
+    ],
+    "within": []
   },
   "extra-fire": {
-    "code": "extra-fire",
     "aliases": [
       "passive_fire_mastery"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Fire Skill Damage",
-      "neg": "-{:d}% to Fire Skill Damage"
-    }
+    "code": "extra-fire",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Fire Skill Damage",
+        "pos": "+{:d}% to Fire Skill Damage"
+      }
+    ],
+    "within": []
   },
   "extra-ltng": {
-    "code": "extra-ltng",
     "aliases": [
       "passive_ltng_mastery"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Lightning Skill Damage",
-      "neg": "-{:d}% to Lightning Skill Damage"
-    }
+    "code": "extra-ltng",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Lightning Skill Damage",
+        "pos": "+{:d}% to Lightning Skill Damage"
+      }
+    ],
+    "within": []
   },
   "extra-pois": {
-    "code": "extra-pois",
     "aliases": [
       "passive_pois_mastery"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Poison Skill Damage",
-      "neg": "-{:d}% to Poison Skill Damage"
-    }
+    "code": "extra-pois",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Poison Skill Damage",
+        "pos": "+{:d}% to Poison Skill Damage"
+      }
+    ],
+    "within": []
   },
   "fade": {
-    "code": "fade",
     "aliases": [
       "fade"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "fade",
+    "patterns": [],
+    "within": []
   },
   "fire-fx": {
-    "code": "fire-fx",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "fire-fx",
+    "patterns": [],
+    "within": []
   },
   "fire-max": {
-    "code": "fire-max",
     "aliases": [
       "firemaxdam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Maximum Fire Damage",
-      "neg": "-{:d} to Maximum Fire Damage"
-    }
+    "code": "fire-max",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Fire Damage",
+        "pos": "+{:d} to Maximum Fire Damage"
+      }
+    ],
+    "within": []
   },
   "fire-min": {
-    "code": "fire-min",
     "aliases": [
       "firemindam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Minimum Fire Damage",
-      "neg": "-{:d} to Minimum Fire Damage"
-    }
+    "code": "fire-min",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Fire Damage",
+        "pos": "+{:d} to Minimum Fire Damage"
+      }
+    ],
+    "within": []
   },
   "fireskill": {
-    "code": "fireskill",
     "aliases": [
       "item_elemskill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Fire Skills",
-      "neg": "-{:d} to Fire Skills"
-    }
+    "code": "fireskill",
+    "patterns": [
+      {
+        "neg": "-{:d} to Fire Skills",
+        "pos": "+{:d} to Fire Skills"
+      }
+    ],
+    "within": []
   },
   "freeze": {
-    "code": "freeze",
     "aliases": [
       "item_freeze"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Freezes target +{:d}",
-      "neg": "Freezes target -{:d}"
-    }
+    "code": "freeze",
+    "patterns": [
+      {
+        "neg": "Freezes target -{:d}",
+        "pos": "Freezes target +{:d}"
+      }
+    ],
+    "within": []
   },
   "gembonus": {
-    "code": "gembonus",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "gembonus",
+    "patterns": [],
+    "within": []
   },
   "gems%/lvl": {
-    "code": "gems%/lvl",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "gems%/lvl",
+    "patterns": [],
+    "within": []
   },
   "gems%/time": {
-    "code": "gems%/time",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "gems%/time",
+    "patterns": [],
+    "within": []
   },
   "gethit-skill": {
-    "code": "gethit-skill",
     "aliases": [
       "item_skillongethit"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance to cast level {:d} {} when struck",
-      "neg": "{:d}% Chance to cast level {:d} {} when struck"
-    }
+    "code": "gethit-skill",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance to cast level {:d} {} when struck",
+        "pos": "{:d}% Chance to cast level {:d} {} when struck"
+      }
+    ],
+    "within": []
   },
   "gold%": {
-    "code": "gold%",
     "aliases": [
       "item_goldbonus"
     ],
-    "within": [],
-    "children": [
-      "gold%/lvl",
-      "gold%/time"
+    "children": [],
+    "code": "gold%",
+    "patterns": [
+      {
+        "neg": "{:d}% Extra Gold from Monsters",
+        "pos": "{:d}% Extra Gold from Monsters"
+      }
     ],
-    "patterns": {
-      "pos": "{:d}% Extra Gold from Monsters",
-      "neg": "{:d}% Extra Gold from Monsters"
-    }
+    "within": []
   },
   "gold%/lvl": {
-    "code": "gold%/lvl",
     "aliases": [
       "item_find_gold_perlevel"
     ],
-    "within": [
-      "gold%"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Extra Gold from Monsters (Based on Character Level)",
-      "neg": "{:d}% Extra Gold from Monsters (Based on Character Level)"
-    }
+    "code": "gold%/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Extra Gold from Monsters (Based on Character Level)",
+        "pos": "{:d}% Extra Gold from Monsters (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "gold%/time": {
-    "code": "gold%/time",
     "aliases": [
       "item_find_gold_bytime"
     ],
-    "within": [
-      "gold%"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Extra Gold from Monsters +{:d}",
-      "neg": "Extra Gold from Monsters -{:d}"
-    }
+    "code": "gold%/time",
+    "patterns": [
+      {
+        "neg": "Extra Gold from Monsters -{:d}",
+        "pos": "Extra Gold from Monsters +{:d}"
+      }
+    ],
+    "within": []
   },
   "half-freeze": {
-    "code": "half-freeze",
     "aliases": [
       "item_halffreezeduration"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Half Freeze Duration",
-      "neg": "Half Freeze Duration"
-    }
+    "code": "half-freeze",
+    "patterns": [
+      {
+        "neg": "Half Freeze Duration",
+        "pos": "Half Freeze Duration"
+      }
+    ],
+    "within": []
   },
   "heal-kill": {
-    "code": "heal-kill",
     "aliases": [
       "item_healafterkill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Life after each Kill",
-      "neg": "-{:d} Life after each Kill"
-    }
+    "code": "heal-kill",
+    "patterns": [
+      {
+        "neg": "-{:d} Life after each Kill",
+        "pos": "+{:d} Life after each Kill"
+      }
+    ],
+    "within": []
   },
   "herb": {
-    "code": "herb",
     "aliases": [
       "item_doubleherbduration"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "herb",
+    "patterns": [],
+    "within": []
   },
   "hit-skill": {
-    "code": "hit-skill",
     "aliases": [
       "item_skillonhit"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance to cast level {:d} {} on striking",
-      "neg": "{:d}% Chance to cast level {:d} {} on striking"
-    }
+    "code": "hit-skill",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance to cast level {:d} {} on striking",
+        "pos": "{:d}% Chance to cast level {:d} {} on striking"
+      }
+    ],
+    "within": []
   },
   "howl": {
-    "code": "howl",
     "aliases": [
       "item_howl"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Hit Causes Monster to Flee {:d}%",
-      "neg": "Hit Causes Monster to Flee {:d}%"
-    }
+    "code": "howl",
+    "patterns": [
+      {
+        "neg": "Hit Causes Monster to Flee {:d}%",
+        "pos": "Hit Causes Monster to Flee {:d}%"
+      }
+    ],
+    "within": []
   },
   "hp": {
-    "code": "hp",
     "aliases": [
       "maxhp"
     ],
-    "within": [],
-    "children": [
-      "hp%",
-      "hp/lvl",
-      "hp/time",
-      "vit"
+    "children": [],
+    "code": "hp",
+    "patterns": [
+      {
+        "neg": "-{:d} to Life",
+        "pos": "+{:d} to Life"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Life",
-      "neg": "-{:d} to Life"
-    }
+    "within": []
   },
   "hp%": {
-    "code": "hp%",
     "aliases": [
       "item_maxhp_percent"
     ],
-    "within": [
-      "hp"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Increase Maximum Life {:d}%",
-      "neg": "Increase Maximum Life {:d}%"
-    }
+    "code": "hp%",
+    "patterns": [
+      {
+        "neg": "Increase Maximum Life {:d}%",
+        "pos": "Increase Maximum Life {:d}%"
+      }
+    ],
+    "within": []
   },
   "hp/lvl": {
-    "code": "hp/lvl",
     "aliases": [
       "item_hp_perlevel"
     ],
-    "within": [
-      "hp"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Life (Based on Character Level)",
-      "neg": "-{:d} to Life (Based on Character Level)"
-    }
+    "code": "hp/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Life (Based on Character Level)",
+        "pos": "+{:d} to Life (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "hp/time": {
-    "code": "hp/time",
     "aliases": [
       "item_hp_bytime"
     ],
-    "within": [
-      "hp"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Life",
-      "neg": "-{:d} to Life"
-    }
+    "code": "hp/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Life",
+        "pos": "+{:d} to Life"
+      }
+    ],
+    "within": []
   },
   "ignore-ac": {
-    "code": "ignore-ac",
     "aliases": [
       "item_ignoretargetac"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Ignore Target's Defense",
-      "neg": "Ignore Target's Defense"
-    }
+    "code": "ignore-ac",
+    "patterns": [
+      {
+        "neg": "Ignore Target's Defense",
+        "pos": "Ignore Target's Defense"
+      }
+    ],
+    "within": []
   },
   "indestruct": {
-    "code": "indestruct",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "indestruct",
+    "patterns": [],
+    "within": []
   },
   "item%": {
-    "code": "item%",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "item%",
+    "patterns": [],
+    "within": []
   },
   "kick": {
-    "code": "kick",
     "aliases": [
       "item_kickdamage"
     ],
-    "within": [],
-    "children": [
-      "kick/lvl",
-      "kick/time"
+    "children": [],
+    "code": "kick",
+    "patterns": [
+      {
+        "neg": "-{:d} Kick Damage",
+        "pos": "+{:d} Kick Damage"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Kick Damage",
-      "neg": "-{:d} Kick Damage"
-    }
+    "within": []
   },
   "kick/lvl": {
-    "code": "kick/lvl",
     "aliases": [
       "item_kick_damage_perlevel"
     ],
-    "within": [
-      "kick"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Kick Damage (Based on Character Level)",
-      "neg": "-{:d} Kick Damage (Based on Character Level)"
-    }
+    "code": "kick/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} Kick Damage (Based on Character Level)",
+        "pos": "+{:d} Kick Damage (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "kick/time": {
-    "code": "kick/time",
     "aliases": [
       "item_kick_damage_bytime"
     ],
-    "within": [
-      "kick"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Kick Damage",
-      "neg": "-{:d} Kick Damage"
-    }
+    "code": "kick/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Kick Damage",
+        "pos": "+{:d} Kick Damage"
+      }
+    ],
+    "within": []
   },
   "kill-skill": {
-    "code": "kill-skill",
     "aliases": [
       "item_skillonkill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
-      "neg": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy"
-    }
+    "code": "kill-skill",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
+        "pos": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy"
+      }
+    ],
+    "within": []
   },
   "knock": {
-    "code": "knock",
     "aliases": [
       "item_knockback"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Knockback",
-      "neg": "Knockback"
-    }
+    "code": "knock",
+    "patterns": [
+      {
+        "neg": "Knockback",
+        "pos": "Knockback"
+      }
+    ],
+    "within": []
   },
   "levelreq": {
-    "code": "levelreq",
     "aliases": [
       "item_levelreq"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "levelreq",
+    "patterns": [],
+    "within": []
   },
   "levelup-skill": {
-    "code": "levelup-skill",
     "aliases": [
       "item_skillonlevelup"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance to cast level {:d} {} when you Level-Up",
-      "neg": "{:d}% Chance to cast level {:d} {} when you Level-Up"
-    }
+    "code": "levelup-skill",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance to cast level {:d} {} when you Level-Up",
+        "pos": "{:d}% Chance to cast level {:d} {} when you Level-Up"
+      }
+    ],
+    "within": []
   },
   "lifesteal": {
-    "code": "lifesteal",
     "aliases": [
       "lifedrainmindam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Life stolen per hit",
-      "neg": "{:d}% Life stolen per hit"
-    }
+    "code": "lifesteal",
+    "patterns": [
+      {
+        "neg": "{:d}% Life stolen per hit",
+        "pos": "{:d}% Life stolen per hit"
+      }
+    ],
+    "within": []
   },
   "light": {
-    "code": "light",
     "aliases": [
       "item_lightradius"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Light Radius",
-      "neg": "-{:d} to Light Radius"
-    }
+    "code": "light",
+    "patterns": [
+      {
+        "neg": "-{:d} to Light Radius",
+        "pos": "+{:d} to Light Radius"
+      }
+    ],
+    "within": []
   },
   "light-thorns": {
-    "code": "light-thorns",
     "aliases": [
       "item_attackertakeslightdamage"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Attacker Takes Lightning Damage of {:d}",
-      "neg": "Attacker Takes Lightning Damage of {:d}"
-    }
+    "code": "light-thorns",
+    "patterns": [
+      {
+        "neg": "Attacker Takes Lightning Damage of {:d}",
+        "pos": "Attacker Takes Lightning Damage of {:d}"
+      }
+    ],
+    "within": []
   },
   "ltng-fx": {
-    "code": "ltng-fx",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "ltng-fx",
+    "patterns": [],
+    "within": []
   },
   "ltng-max": {
-    "code": "ltng-max",
     "aliases": [
       "lightmaxdam"
     ],
-    "within": [],
-    "children": [
-      "dmg-ltng/lvl",
-      "dmg-ltng/time"
+    "children": [],
+    "code": "ltng-max",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Lightning Damage",
+        "pos": "+{:d} to Maximum Lightning Damage"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Maximum Lightning Damage",
-      "neg": "-{:d} to Maximum Lightning Damage"
-    }
+    "within": []
   },
   "ltng-min": {
-    "code": "ltng-min",
     "aliases": [
       "lightmindam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Minimum Lightning Damage",
-      "neg": "-{:d} to Minimum Lightning Damage"
-    }
+    "code": "ltng-min",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Lightning Damage",
+        "pos": "+{:d} to Minimum Lightning Damage"
+      }
+    ],
+    "within": []
   },
   "mag%": {
-    "code": "mag%",
     "aliases": [
       "item_magicbonus"
     ],
-    "within": [],
-    "children": [
-      "mag%/lvl",
-      "mag%/time"
+    "children": [],
+    "code": "mag%",
+    "patterns": [
+      {
+        "neg": "{:d}% Better Chance of Getting Magic Items",
+        "pos": "{:d}% Better Chance of Getting Magic Items"
+      }
     ],
-    "patterns": {
-      "pos": "{:d}% Better Chance of Getting Magic Items",
-      "neg": "{:d}% Better Chance of Getting Magic Items"
-    }
+    "within": []
   },
   "mag%/lvl": {
-    "code": "mag%/lvl",
     "aliases": [
       "item_find_magic_perlevel"
     ],
-    "within": [
-      "mag%"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
-      "neg": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)"
-    }
+    "code": "mag%/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
+        "pos": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "mag%/time": {
-    "code": "mag%/time",
     "aliases": [
       "item_find_magic_bytime"
     ],
-    "within": [
-      "mag%"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Better Chance of Getting Magic Items",
-      "neg": "-{:d} Better Chance of Getting Magic Items"
-    }
+    "code": "mag%/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Better Chance of Getting Magic Items",
+        "pos": "+{:d} Better Chance of Getting Magic Items"
+      }
+    ],
+    "within": []
   },
   "magicarrow": {
-    "code": "magicarrow",
     "aliases": [
       "item_magicarrow"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Fires Magic Arrows",
-      "neg": "Fires Magic Arrows"
-    }
+    "code": "magicarrow",
+    "patterns": [
+      {
+        "neg": "Fires Magic Arrows",
+        "pos": "Fires Magic Arrows"
+      }
+    ],
+    "within": []
   },
   "mana": {
-    "code": "mana",
     "aliases": [
       "maxmana"
     ],
-    "within": [],
-    "children": [
-      "enr",
-      "mana%",
-      "mana/lvl",
-      "mana/time"
+    "children": [],
+    "code": "mana",
+    "patterns": [
+      {
+        "neg": "-{:d} to Mana",
+        "pos": "+{:d} to Mana"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Mana",
-      "neg": "-{:d} to Mana"
-    }
+    "within": []
   },
   "mana%": {
-    "code": "mana%",
     "aliases": [
       "item_maxmana_percent"
     ],
-    "within": [
-      "mana"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Increase Maximum Mana {:d}%",
-      "neg": "Increase Maximum Mana {:d}%"
-    }
+    "code": "mana%",
+    "patterns": [
+      {
+        "neg": "Increase Maximum Mana {:d}%",
+        "pos": "Increase Maximum Mana {:d}%"
+      }
+    ],
+    "within": []
   },
   "mana-kill": {
-    "code": "mana-kill",
     "aliases": [
       "item_manaafterkill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Mana after each Kill",
-      "neg": "-{:d} to Mana after each Kill"
-    }
+    "code": "mana-kill",
+    "patterns": [
+      {
+        "neg": "-{:d} to Mana after each Kill",
+        "pos": "+{:d} to Mana after each Kill"
+      }
+    ],
+    "within": []
   },
   "mana/lvl": {
-    "code": "mana/lvl",
     "aliases": [
       "item_mana_perlevel"
     ],
-    "within": [
-      "mana"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Mana (Based on Character Level)",
-      "neg": "-{:d} to Mana (Based on Character Level)"
-    }
+    "code": "mana/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Mana (Based on Character Level)",
+        "pos": "+{:d} to Mana (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "mana/time": {
-    "code": "mana/time",
     "aliases": [
       "item_mana_bytime"
     ],
-    "within": [
-      "mana"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Mana",
-      "neg": "-{:d} to Mana"
-    }
+    "code": "mana/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Mana",
+        "pos": "+{:d} to Mana"
+      }
+    ],
+    "within": []
   },
   "manasteal": {
-    "code": "manasteal",
     "aliases": [
       "manadrainmindam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Mana stolen per hit",
-      "neg": "{:d}% Mana stolen per hit"
-    }
+    "code": "manasteal",
+    "patterns": [
+      {
+        "neg": "{:d}% Mana stolen per hit",
+        "pos": "{:d}% Mana stolen per hit"
+      }
+    ],
+    "within": []
   },
   "move1": {
-    "code": "move1",
     "aliases": [
       "item_fastermovevelocity"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Run/Walk",
-      "neg": "-{:d}% Faster Run/Walk"
-    }
+    "code": "move1",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Run/Walk",
+        "pos": "+{:d}% Faster Run/Walk"
+      }
+    ],
+    "within": []
   },
   "move2": {
-    "code": "move2",
     "aliases": [
       "item_fastermovevelocity"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Run/Walk",
-      "neg": "-{:d}% Faster Run/Walk"
-    }
+    "code": "move2",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Run/Walk",
+        "pos": "+{:d}% Faster Run/Walk"
+      }
+    ],
+    "within": []
   },
   "move3": {
-    "code": "move3",
     "aliases": [
       "item_fastermovevelocity"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Faster Run/Walk",
-      "neg": "-{:d}% Faster Run/Walk"
-    }
+    "code": "move3",
+    "patterns": [
+      {
+        "neg": "-{:d}% Faster Run/Walk",
+        "pos": "+{:d}% Faster Run/Walk"
+      }
+    ],
+    "within": []
   },
   "nec": {
-    "code": "nec",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "nec",
+    "patterns": [
+      {
+        "neg": "-{:d} to Necromancer Skill Levels",
+        "pos": "+{:d} to Necromancer Skill Levels"
+      }
+    ],
+    "within": []
   },
   "nofreeze": {
-    "code": "nofreeze",
     "aliases": [
       "item_cannotbefrozen"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Cannot Be Frozen",
-      "neg": "Cannot Be Frozen"
-    }
+    "code": "nofreeze",
+    "patterns": [
+      {
+        "neg": "Cannot Be Frozen",
+        "pos": "Cannot Be Frozen"
+      }
+    ],
+    "within": []
   },
   "noheal": {
-    "code": "noheal",
     "aliases": [
       "item_preventheal"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Prevent Monster Heal",
-      "neg": "Prevent Monster Heal"
-    }
+    "code": "noheal",
+    "patterns": [
+      {
+        "neg": "Prevent Monster Heal",
+        "pos": "Prevent Monster Heal"
+      }
+    ],
+    "within": []
   },
   "openwounds": {
-    "code": "openwounds",
     "aliases": [
       "item_openwounds"
     ],
-    "within": [],
-    "children": [
-      "wounds/lvl",
-      "wounds/time"
+    "children": [],
+    "code": "openwounds",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance of Open Wounds",
+        "pos": "{:d}% Chance of Open Wounds"
+      }
     ],
-    "patterns": {
-      "pos": "{:d}% Chance of Open Wounds",
-      "neg": "{:d}% Chance of Open Wounds"
-    }
+    "within": []
   },
   "oskill": {
-    "code": "oskill",
     "aliases": [
       "item_nonclassskill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {}",
-      "neg": "+{:d} to {}"
-    }
+    "code": "oskill",
+    "patterns": [
+      {
+        "neg": "+{:d} to {}",
+        "pos": "+{:d} to {}"
+      }
+    ],
+    "within": []
   },
   "pal": {
-    "code": "pal",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "pal",
+    "patterns": [
+      {
+        "neg": "-{:d} to Paladin Skill Levels",
+        "pos": "+{:d} to Paladin Skill Levels"
+      }
+    ],
+    "within": []
   },
   "pierce": {
-    "code": "pierce",
     "aliases": [
       "item_pierce"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Piercing Attack",
-      "neg": "Piercing Attack"
-    }
+    "code": "pierce",
+    "patterns": [
+      {
+        "neg": "Piercing Attack",
+        "pos": "Piercing Attack"
+      }
+    ],
+    "within": []
   },
   "pierce-cold": {
-    "code": "pierce-cold",
     "aliases": [
       "passive_cold_pierce"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Enemy Cold Resistance",
-      "neg": "-{:d}% to Enemy Cold Resistance"
-    }
+    "code": "pierce-cold",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Enemy Cold Resistance",
+        "pos": "+{:d}% to Enemy Cold Resistance"
+      }
+    ],
+    "within": []
   },
   "pierce-fire": {
-    "code": "pierce-fire",
     "aliases": [
       "passive_fire_pierce"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Enemy Fire Resistance",
-      "neg": "-{:d}% to Enemy Fire Resistance"
-    }
+    "code": "pierce-fire",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Enemy Fire Resistance",
+        "pos": "+{:d}% to Enemy Fire Resistance"
+      }
+    ],
+    "within": []
   },
   "pierce-ltng": {
-    "code": "pierce-ltng",
     "aliases": [
       "passive_ltng_pierce"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Enemy Lightning Resistance",
-      "neg": "-{:d}% to Enemy Lightning Resistance"
-    }
+    "code": "pierce-ltng",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Enemy Lightning Resistance",
+        "pos": "+{:d}% to Enemy Lightning Resistance"
+      }
+    ],
+    "within": []
   },
   "pierce-pois": {
-    "code": "pierce-pois",
     "aliases": [
       "passive_pois_pierce"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Enemy Poison Resistance",
-      "neg": "-{:d}% to Enemy Poison Resistance"
-    }
+    "code": "pierce-pois",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Enemy Poison Resistance",
+        "pos": "+{:d}% to Enemy Poison Resistance"
+      }
+    ],
+    "within": []
   },
   "pois-len": {
-    "code": "pois-len",
     "aliases": [
       "poisonlength"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "pois-len",
+    "patterns": [],
+    "within": []
   },
   "pois-max": {
-    "code": "pois-max",
     "aliases": [
       "poisonmaxdam"
     ],
-    "within": [],
-    "children": [
-      "dmg-pois/lvl",
-      "dmg-pois/time"
+    "children": [],
+    "code": "pois-max",
+    "patterns": [
+      {
+        "neg": "-{:d} to Maximum Poison Damage",
+        "pos": "+{:d} to Maximum Poison Damage"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} to Maximum Poison Damage",
-      "neg": "-{:d} to Maximum Poison Damage"
-    }
+    "within": []
   },
   "pois-min": {
-    "code": "pois-min",
     "aliases": [
       "poisonmindam"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Minimum Poison Damage",
-      "neg": "-{:d} to Minimum Poison Damage"
-    }
+    "code": "pois-min",
+    "patterns": [
+      {
+        "neg": "-{:d} to Minimum Poison Damage",
+        "pos": "+{:d} to Minimum Poison Damage"
+      }
+    ],
+    "within": []
   },
   "randclassskill": {
-    "code": "randclassskill",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "randclassskill",
+    "patterns": [
+      {
+        "neg": "-{:d} to {} Skill Levels",
+        "pos": "+{:d} to {} Skill Levels"
+      }
+    ],
+    "within": []
   },
   "reanimate": {
-    "code": "reanimate",
     "aliases": [
       "item_reanimate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Reanimate as: {}",
-      "neg": "{:d}% Reanimate as: {}"
-    }
+    "code": "reanimate",
+    "patterns": [
+      {
+        "neg": "{:d}% Reanimate as: {}",
+        "pos": "{:d}% Reanimate as: {}"
+      }
+    ],
+    "within": []
   },
   "red-dmg": {
-    "code": "red-dmg",
     "aliases": [
       "normal_damage_reduction"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Damage Reduced by {:d}",
-      "neg": "Damage Reduced by {:d}"
-    }
+    "code": "red-dmg",
+    "patterns": [
+      {
+        "neg": "Damage Reduced by {:d}",
+        "pos": "Damage Reduced by {:d}"
+      }
+    ],
+    "within": []
   },
   "red-dmg%": {
-    "code": "red-dmg%",
     "aliases": [
       "damageresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Damage Reduced by {:d}%",
-      "neg": "Damage Reduced by {:d}%"
-    }
+    "code": "red-dmg%",
+    "patterns": [
+      {
+        "neg": "Damage Reduced by {:d}%",
+        "pos": "Damage Reduced by {:d}%"
+      }
+    ],
+    "within": []
   },
   "red-mag": {
-    "code": "red-mag",
     "aliases": [
       "magic_damage_reduction"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Magic Damage Reduced by {:d}",
-      "neg": "Magic Damage Reduced by {:d}"
-    }
+    "code": "red-mag",
+    "patterns": [
+      {
+        "neg": "Magic Damage Reduced by {:d}",
+        "pos": "Magic Damage Reduced by {:d}"
+      }
+    ],
+    "within": []
   },
   "reduce-ac": {
-    "code": "reduce-ac",
     "aliases": [
       "item_fractionaltargetac"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Target Defense",
-      "neg": "-{:d}% Target Defense"
-    }
+    "code": "reduce-ac",
+    "patterns": [
+      {
+        "neg": "-{:d}% Target Defense",
+        "pos": "+{:d}% Target Defense"
+      }
+    ],
+    "within": []
   },
   "regen": {
-    "code": "regen",
     "aliases": [
       "hpregen"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Replenish Life +{:d}",
-      "neg": "Drain Life -{:d}"
-    }
+    "code": "regen",
+    "patterns": [
+      {
+        "neg": "Drain Life -{:d}",
+        "pos": "Replenish Life +{:d}"
+      }
+    ],
+    "within": []
   },
   "regen-dur": {
-    "code": "regen-dur",
     "aliases": [],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "regen-dur",
+    "patterns": [],
+    "within": []
   },
   "regen-mana": {
-    "code": "regen-mana",
     "aliases": [
       "manarecoverybonus"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Regenerate Mana {:d}%",
-      "neg": "Regenerate Mana {:d}%"
-    }
+    "code": "regen-mana",
+    "patterns": [
+      {
+        "neg": "Regenerate Mana {:d}%",
+        "pos": "Regenerate Mana {:d}%"
+      }
+    ],
+    "within": []
   },
   "regen-stam": {
-    "code": "regen-stam",
     "aliases": [
       "staminarecoverybonus"
     ],
-    "within": [],
-    "children": [
-      "regen-stam/lvl",
-      "regen-stam/time"
+    "children": [],
+    "code": "regen-stam",
+    "patterns": [
+      {
+        "neg": "Heal Stamina Plus {:d}%",
+        "pos": "Heal Stamina Plus {:d}%"
+      }
     ],
-    "patterns": {
-      "pos": "Heal Stamina Plus {:d}%",
-      "neg": "Heal Stamina Plus {:d}%"
-    }
+    "within": []
   },
   "regen-stam/lvl": {
-    "code": "regen-stam/lvl",
     "aliases": [
       "item_regenstamina_perlevel"
     ],
-    "within": [
-      "regen-stam"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Heal Stamina Plus {:d}% (Based on Character Level)",
-      "neg": "Heal Stamina Plus {:d}% (Based on Character Level)"
-    }
+    "code": "regen-stam/lvl",
+    "patterns": [
+      {
+        "neg": "Heal Stamina Plus {:d}% (Based on Character Level)",
+        "pos": "Heal Stamina Plus {:d}% (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "regen-stam/time": {
-    "code": "regen-stam/time",
     "aliases": [
       "item_regenstamina_bytime"
     ],
-    "within": [
-      "regen-stam"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Heal Stamina Plus +{:d}",
-      "neg": "Heal Stamina Plus -{:d}"
-    }
+    "code": "regen-stam/time",
+    "patterns": [
+      {
+        "neg": "Heal Stamina Plus -{:d}",
+        "pos": "Heal Stamina Plus +{:d}"
+      }
+    ],
+    "within": []
   },
   "rep-dur": {
-    "code": "rep-dur",
     "aliases": [
       "item_replenish_durability"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Repairs {:d} durability per second",
-      "neg": "Repairs {:d} durability per second"
-    }
+    "code": "rep-dur",
+    "patterns": [
+      {
+        "neg": "Repairs {:d} durability per second",
+        "pos": "Repairs {:d} durability per second"
+      }
+    ],
+    "within": []
   },
   "rep-quant": {
-    "code": "rep-quant",
     "aliases": [
       "item_replenish_quantity"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Replenishes quantity",
-      "neg": "Replenishes quantity"
-    }
+    "code": "rep-quant",
+    "patterns": [
+      {
+        "neg": "Replenishes quantity",
+        "pos": "Replenishes quantity"
+      }
+    ],
+    "within": []
   },
   "res-all": {
-    "code": "res-all",
     "aliases": null,
-    "within": [],
     "children": [
-      "fireresist",
-      "lightresist",
-      "coldresist",
-      "poisonresist",
-      "res-fire/lvl",
-      "res-fire/time"
+      "res-fire",
+      "res-ltng",
+      "res-cold",
+      "res-pois"
     ],
-    "patterns": {}
+    "code": "res-all",
+    "patterns": [
+      {
+        "neg": "All Resistances +{:d}",
+        "pos": "All Resistances +{:d}"
+      }
+    ],
+    "within": []
   },
   "res-all-max": {
-    "code": "res-all-max",
     "aliases": null,
-    "within": [],
     "children": [
-      "maxfireresist",
-      "maxlightresist",
-      "maxcoldresist",
-      "maxpoisonresist"
+      "res-fire-max",
+      "res-ltng-max",
+      "res-cold-max",
+      "res-pois-max"
     ],
-    "patterns": {}
+    "code": "res-all-max",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Maximum Fire Resist",
+        "pos": "+{:d}% to Maximum Fire Resist"
+      },
+      {
+        "neg": "-{:d}% to Maximum Lightning Resist",
+        "pos": "+{:d}% to Maximum Lightning Resist"
+      },
+      {
+        "neg": "-{:d}% to Maximum Cold Resist",
+        "pos": "+{:d}% to Maximum Cold Resist"
+      },
+      {
+        "neg": "-{:d}% to Maximum Poison Resist",
+        "pos": "+{:d}% to Maximum Poison Resist"
+      }
+    ],
+    "within": []
   },
   "res-cold": {
-    "code": "res-cold",
     "aliases": [
       "coldresist"
     ],
-    "within": [],
-    "children": [
-      "res-cold/lvl",
-      "res-cold/time"
+    "children": [],
+    "code": "res-cold",
+    "patterns": [
+      {
+        "neg": "Cold Resist -{:d}%",
+        "pos": "Cold Resist +{:d}%"
+      }
     ],
-    "patterns": {
-      "pos": "Cold Resist +{:d}%",
-      "neg": "Cold Resist -{:d}%"
-    }
+    "within": []
   },
   "res-cold-max": {
-    "code": "res-cold-max",
     "aliases": [
       "maxcoldresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Maximum Cold Resist",
-      "neg": "-{:d}% to Maximum Cold Resist"
-    }
+    "code": "res-cold-max",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Maximum Cold Resist",
+        "pos": "+{:d}% to Maximum Cold Resist"
+      }
+    ],
+    "within": []
   },
   "res-cold/lvl": {
-    "code": "res-cold/lvl",
     "aliases": [
       "item_resist_cold_perlevel"
     ],
-    "within": [
-      "res-cold"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Cold Resist {:d}% (Based on Character Level)",
-      "neg": "Cold Resist {:d}% (Based on Character Level)"
-    }
+    "code": "res-cold/lvl",
+    "patterns": [
+      {
+        "neg": "Cold Resist {:d}% (Based on Character Level)",
+        "pos": "Cold Resist {:d}% (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "res-cold/time": {
-    "code": "res-cold/time",
     "aliases": [
       "item_resist_cold_bytime"
     ],
-    "within": [
-      "res-cold"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Cold Resist +{:d}",
-      "neg": "Cold Resist -{:d}"
-    }
+    "code": "res-cold/time",
+    "patterns": [
+      {
+        "neg": "Cold Resist -{:d}",
+        "pos": "Cold Resist +{:d}"
+      }
+    ],
+    "within": []
   },
   "res-fire": {
-    "code": "res-fire",
     "aliases": [
       "fireresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Fire Resist +{:d}%",
-      "neg": "Fire Resist -{:d}%"
-    }
+    "code": "res-fire",
+    "patterns": [
+      {
+        "neg": "Fire Resist -{:d}%",
+        "pos": "Fire Resist +{:d}%"
+      }
+    ],
+    "within": []
   },
   "res-fire-max": {
-    "code": "res-fire-max",
     "aliases": [
       "maxfireresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Maximum Fire Resist",
-      "neg": "-{:d}% to Maximum Fire Resist"
-    }
+    "code": "res-fire-max",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Maximum Fire Resist",
+        "pos": "+{:d}% to Maximum Fire Resist"
+      }
+    ],
+    "within": []
   },
   "res-fire/lvl": {
-    "code": "res-fire/lvl",
     "aliases": [
       "item_resist_fire_perlevel"
     ],
-    "within": [
-      "res-all"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Fire Resist {:d}% (Based on Character Level)",
-      "neg": "Fire Resist {:d}% (Based on Character Level)"
-    }
+    "code": "res-fire/lvl",
+    "patterns": [
+      {
+        "neg": "Fire Resist {:d}% (Based on Character Level)",
+        "pos": "Fire Resist {:d}% (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "res-fire/time": {
-    "code": "res-fire/time",
     "aliases": [
       "item_resist_fire_bytime"
     ],
-    "within": [
-      "res-all"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Fire Resist +{:d}",
-      "neg": "Fire Resist -{:d}"
-    }
+    "code": "res-fire/time",
+    "patterns": [
+      {
+        "neg": "Fire Resist -{:d}",
+        "pos": "Fire Resist +{:d}"
+      }
+    ],
+    "within": []
   },
   "res-ltng": {
-    "code": "res-ltng",
     "aliases": [
       "lightresist"
     ],
-    "within": [],
-    "children": [
-      "res-ltng/lvl",
-      "res-ltng/time"
+    "children": [],
+    "code": "res-ltng",
+    "patterns": [
+      {
+        "neg": "Lightning Resist -{:d}%",
+        "pos": "Lightning Resist +{:d}%"
+      }
     ],
-    "patterns": {
-      "pos": "Lightning Resist +{:d}%",
-      "neg": "Lightning Resist -{:d}%"
-    }
+    "within": []
   },
   "res-ltng-max": {
-    "code": "res-ltng-max",
     "aliases": [
       "maxlightresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Maximum Lightning Resist",
-      "neg": "-{:d}% to Maximum Lightning Resist"
-    }
+    "code": "res-ltng-max",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Maximum Lightning Resist",
+        "pos": "+{:d}% to Maximum Lightning Resist"
+      }
+    ],
+    "within": []
   },
   "res-ltng/lvl": {
-    "code": "res-ltng/lvl",
     "aliases": [
       "item_resist_ltng_perlevel"
     ],
-    "within": [
-      "res-ltng"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Lightning Resist {:d}% (Based on Character Level)",
-      "neg": "Lightning Resist {:d}% (Based on Character Level)"
-    }
+    "code": "res-ltng/lvl",
+    "patterns": [
+      {
+        "neg": "Lightning Resist {:d}% (Based on Character Level)",
+        "pos": "Lightning Resist {:d}% (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "res-ltng/time": {
-    "code": "res-ltng/time",
     "aliases": [
       "item_resist_ltng_bytime"
     ],
-    "within": [
-      "res-ltng"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Lightning Resist +{:d}",
-      "neg": "Lightning Resist -{:d}"
-    }
+    "code": "res-ltng/time",
+    "patterns": [
+      {
+        "neg": "Lightning Resist -{:d}",
+        "pos": "Lightning Resist +{:d}"
+      }
+    ],
+    "within": []
   },
   "res-mag": {
-    "code": "res-mag",
     "aliases": [
       "magicresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Magic Resist +{:d}%",
-      "neg": "Magic Resist -{:d}%"
-    }
+    "code": "res-mag",
+    "patterns": [
+      {
+        "neg": "Magic Resist -{:d}%",
+        "pos": "Magic Resist +{:d}%"
+      }
+    ],
+    "within": []
   },
   "res-mag-max": {
-    "code": "res-mag-max",
     "aliases": [
       "maxmagicresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Maximum Magic Resist",
-      "neg": "-{:d}% to Maximum Magic Resist"
-    }
+    "code": "res-mag-max",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Maximum Magic Resist",
+        "pos": "+{:d}% to Maximum Magic Resist"
+      }
+    ],
+    "within": []
   },
   "res-pois": {
-    "code": "res-pois",
     "aliases": [
       "poisonresist"
     ],
-    "within": [],
-    "children": [
-      "res-pois/lvl",
-      "res-pois/time"
+    "children": [],
+    "code": "res-pois",
+    "patterns": [
+      {
+        "neg": "Poison Resist -{:d}%",
+        "pos": "Poison Resist +{:d}%"
+      }
     ],
-    "patterns": {
-      "pos": "Poison Resist +{:d}%",
-      "neg": "Poison Resist -{:d}%"
-    }
+    "within": []
   },
   "res-pois-len": {
-    "code": "res-pois-len",
     "aliases": [
       "item_poisonlengthresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Poison Length Reduced by {:d}%",
-      "neg": "Poison Length Reduced by {:d}%"
-    }
+    "code": "res-pois-len",
+    "patterns": [
+      {
+        "neg": "Poison Length Reduced by {:d}%",
+        "pos": "Poison Length Reduced by {:d}%"
+      }
+    ],
+    "within": []
   },
   "res-pois-max": {
-    "code": "res-pois-max",
     "aliases": [
       "maxpoisonresist"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% to Maximum Poison Resist",
-      "neg": "-{:d}% to Maximum Poison Resist"
-    }
+    "code": "res-pois-max",
+    "patterns": [
+      {
+        "neg": "-{:d}% to Maximum Poison Resist",
+        "pos": "+{:d}% to Maximum Poison Resist"
+      }
+    ],
+    "within": []
   },
   "res-pois/lvl": {
-    "code": "res-pois/lvl",
     "aliases": [
       "item_resist_pois_perlevel"
     ],
-    "within": [
-      "res-pois"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Poison Resist {:d}% (Based on Character Level)",
-      "neg": "Poison Resist {:d}% (Based on Character Level)"
-    }
+    "code": "res-pois/lvl",
+    "patterns": [
+      {
+        "neg": "Poison Resist {:d}% (Based on Character Level)",
+        "pos": "Poison Resist {:d}% (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "res-pois/time": {
-    "code": "res-pois/time",
     "aliases": [
       "item_resist_pois_bytime"
     ],
-    "within": [
-      "res-pois"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Poison Resist +{:d}",
-      "neg": "Poison Resist -{:d}"
-    }
+    "code": "res-pois/time",
+    "patterns": [
+      {
+        "neg": "Poison Resist -{:d}",
+        "pos": "Poison Resist +{:d}"
+      }
+    ],
+    "within": []
   },
   "rip": {
-    "code": "rip",
     "aliases": [
       "item_restinpeace"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Slain Monsters Rest in Peace",
-      "neg": "Slain Monsters Rest in Peace"
-    }
+    "code": "rip",
+    "patterns": [
+      {
+        "neg": "Slain Monsters Rest in Peace",
+        "pos": "Slain Monsters Rest in Peace"
+      }
+    ],
+    "within": []
   },
   "skill": {
-    "code": "skill",
     "aliases": [
       "item_singleskill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} ({} only)",
-      "neg": "+{:d} to {} ({} only)"
-    }
+    "code": "skill",
+    "patterns": [
+      {
+        "neg": "+{:d} to {} ({} only)",
+        "pos": "+{:d} to {} ({} only)"
+      }
+    ],
+    "within": []
   },
   "skill-rand": {
-    "code": "skill-rand",
     "aliases": [
       "item_singleskill"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} ({} only)",
-      "neg": "+{:d} to {} ({} only)"
-    }
+    "code": "skill-rand",
+    "patterns": [
+      {
+        "neg": "+{:d} to {} ({} only)",
+        "pos": "+{:d} to {} ({} only)"
+      }
+    ],
+    "within": []
   },
   "skilltab": {
-    "code": "skilltab",
     "aliases": [
       "item_addskill_tab"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} ({} only)",
-      "neg": "-{:d} to {} ({} only)"
-    }
+    "code": "skilltab",
+    "patterns": [
+      {
+        "neg": "-{:d} to {} ({} only)",
+        "pos": "+{:d} to {} ({} only)"
+      }
+    ],
+    "within": []
   },
   "slow": {
-    "code": "slow",
     "aliases": [
       "item_slow"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Slows Target by {:d}%",
-      "neg": "Slows Target by {:d}%"
-    }
+    "code": "slow",
+    "patterns": [
+      {
+        "neg": "Slows Target by {:d}%",
+        "pos": "Slows Target by {:d}%"
+      }
+    ],
+    "within": []
   },
   "sock": {
-    "code": "sock",
     "aliases": [
       "item_numsockets"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "sock",
+    "patterns": [],
+    "within": []
   },
   "sor": {
-    "code": "sor",
     "aliases": [
       "item_addclassskills"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to {} Skill Levels",
-      "neg": "-{:d} to {} Skill Levels"
-    }
+    "code": "sor",
+    "patterns": [
+      {
+        "neg": "-{:d} to Sorceress Skill Levels",
+        "pos": "+{:d} to Sorceress Skill Levels"
+      }
+    ],
+    "within": []
   },
   "stack": {
-    "code": "stack",
     "aliases": [
       "item_extra_stack"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Increased Stack Size",
-      "neg": "Increased Stack Size"
-    }
+    "code": "stack",
+    "patterns": [
+      {
+        "neg": "Increased Stack Size",
+        "pos": "Increased Stack Size"
+      }
+    ],
+    "within": []
   },
   "stam": {
-    "code": "stam",
     "aliases": [
       "maxstamina"
     ],
-    "within": [],
-    "children": [
-      "stam/lvl",
-      "stam/time",
-      "vit"
+    "children": [],
+    "code": "stam",
+    "patterns": [
+      {
+        "neg": "-{:d} Maximum Stamina",
+        "pos": "+{:d} Maximum Stamina"
+      }
     ],
-    "patterns": {
-      "pos": "+{:d} Maximum Stamina",
-      "neg": "-{:d} Maximum Stamina"
-    }
+    "within": []
   },
   "stam/lvl": {
-    "code": "stam/lvl",
     "aliases": [
       "item_stamina_perlevel"
     ],
-    "within": [
-      "stam"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Maximum Stamina (Based on Character Level)",
-      "neg": "-{:d} Maximum Stamina (Based on Character Level)"
-    }
+    "code": "stam/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} Maximum Stamina (Based on Character Level)",
+        "pos": "+{:d} Maximum Stamina (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "stam/time": {
-    "code": "stam/time",
     "aliases": [
       "item_stamina_bytime"
     ],
-    "within": [
-      "stam"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Maximum Stamina",
-      "neg": "-{:d} Maximum Stamina"
-    }
+    "code": "stam/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Maximum Stamina",
+        "pos": "+{:d} Maximum Stamina"
+      }
+    ],
+    "within": []
   },
   "stamdrain": {
-    "code": "stamdrain",
     "aliases": [
       "item_staminadrainpct"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Slower Stamina Drain",
-      "neg": "{:d}% Slower Stamina Drain"
-    }
+    "code": "stamdrain",
+    "patterns": [
+      {
+        "neg": "{:d}% Slower Stamina Drain",
+        "pos": "{:d}% Slower Stamina Drain"
+      }
+    ],
+    "within": []
   },
   "state": {
-    "code": "state",
     "aliases": [
       "state"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "state",
+    "patterns": [],
+    "within": []
   },
   "str": {
-    "code": "str",
     "aliases": [
       "strength"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Strength",
-      "neg": "-{:d} to Strength"
-    }
+    "code": "str",
+    "patterns": [
+      {
+        "neg": "-{:d} to Strength",
+        "pos": "+{:d} to Strength"
+      }
+    ],
+    "within": []
   },
   "str/lvl": {
-    "code": "str/lvl",
     "aliases": [
       "item_strength_perlevel"
     ],
-    "within": [
-      "all-stats"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Strength (Based on Character Level)",
-      "neg": "-{:d} to Strength (Based on Character Level)"
-    }
+    "code": "str/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Strength (Based on Character Level)",
+        "pos": "+{:d} to Strength (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "str/time": {
-    "code": "str/time",
     "aliases": [
       "item_strength_bytime"
     ],
-    "within": [
-      "all-stats"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Strength",
-      "neg": "-{:d} to Strength"
-    }
+    "code": "str/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Strength",
+        "pos": "+{:d} to Strength"
+      }
+    ],
+    "within": []
   },
   "stupidity": {
-    "code": "stupidity",
     "aliases": [
       "item_stupidity"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Hit Blinds Target +{:d}",
-      "neg": "Hit Blinds Target -{:d}"
-    }
+    "code": "stupidity",
+    "patterns": [
+      {
+        "neg": "Hit Blinds Target -{:d}",
+        "pos": "Hit Blinds Target +{:d}"
+      }
+    ],
+    "within": []
   },
   "swing1": {
-    "code": "swing1",
     "aliases": [
       "item_fasterattackrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Increased Attack Speed",
-      "neg": "-{:d}% Increased Attack Speed"
-    }
+    "code": "swing1",
+    "patterns": [
+      {
+        "neg": "-{:d}% Increased Attack Speed",
+        "pos": "+{:d}% Increased Attack Speed"
+      }
+    ],
+    "within": []
   },
   "swing2": {
-    "code": "swing2",
     "aliases": [
       "item_fasterattackrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Increased Attack Speed",
-      "neg": "-{:d}% Increased Attack Speed"
-    }
+    "code": "swing2",
+    "patterns": [
+      {
+        "neg": "-{:d}% Increased Attack Speed",
+        "pos": "+{:d}% Increased Attack Speed"
+      }
+    ],
+    "within": []
   },
   "swing3": {
-    "code": "swing3",
     "aliases": [
       "item_fasterattackrate"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "+{:d}% Increased Attack Speed",
-      "neg": "-{:d}% Increased Attack Speed"
-    }
+    "code": "swing3",
+    "patterns": [
+      {
+        "neg": "-{:d}% Increased Attack Speed",
+        "pos": "+{:d}% Increased Attack Speed"
+      }
+    ],
+    "within": []
   },
   "thorns": {
-    "code": "thorns",
     "aliases": [
       "item_attackertakesdamage"
     ],
-    "within": [],
-    "children": [
-      "thorns/lvl"
+    "children": [],
+    "code": "thorns",
+    "patterns": [
+      {
+        "neg": "Attacker Takes Damage of {:d}",
+        "pos": "Attacker Takes Damage of {:d}"
+      }
     ],
-    "patterns": {
-      "pos": "Attacker Takes Damage of {:d}",
-      "neg": "Attacker Takes Damage of {:d}"
-    }
+    "within": []
   },
   "thorns/lvl": {
-    "code": "thorns/lvl",
     "aliases": [
       "item_thorns_perlevel"
     ],
-    "within": [
-      "thorns"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "Attacker Takes Damage of {:d} (Based on Character Level)",
-      "neg": "Attacker Takes Damage of {:d} (Based on Character Level)"
-    }
+    "code": "thorns/lvl",
+    "patterns": [
+      {
+        "neg": "Attacker Takes Damage of {:d} (Based on Character Level)",
+        "pos": "Attacker Takes Damage of {:d} (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "throw": {
-    "code": "throw",
     "aliases": [
       "item_throwable"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": "Throwable",
-      "neg": "Throwable"
-    }
+    "code": "throw",
+    "patterns": [
+      {
+        "neg": "Throwable",
+        "pos": "Throwable"
+      }
+    ],
+    "within": []
   },
   "time": {
-    "code": "time",
     "aliases": [
       "item_timeduration"
     ],
-    "within": [],
     "children": [],
-    "patterns": {
-      "pos": null,
-      "neg": null
-    }
+    "code": "time",
+    "patterns": [],
+    "within": []
   },
   "vit": {
-    "code": "vit",
     "aliases": [
       "vitality"
     ],
-    "within": [
-      "hp",
-      "stam"
+    "children": [],
+    "code": "vit",
+    "patterns": [
+      {
+        "neg": "-{:d} to Vitality",
+        "pos": "+{:d} to Vitality"
+      }
     ],
-    "children": [
-      "vit/lvl",
-      "vit/time"
-    ],
-    "patterns": {
-      "pos": "+{:d} to Vitality",
-      "neg": "-{:d} to Vitality"
-    }
+    "within": []
   },
   "vit/lvl": {
-    "code": "vit/lvl",
     "aliases": [
       "item_vitality_perlevel"
     ],
-    "within": [
-      "vit"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Vitality (Based on Character Level)",
-      "neg": "-{:d} to Vitality (Based on Character Level)"
-    }
+    "code": "vit/lvl",
+    "patterns": [
+      {
+        "neg": "-{:d} to Vitality (Based on Character Level)",
+        "pos": "+{:d} to Vitality (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "vit/time": {
-    "code": "vit/time",
     "aliases": [
       "item_vitality_bytime"
     ],
-    "within": [
-      "vit"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} to Vitality",
-      "neg": "-{:d} to Vitality"
-    }
+    "code": "vit/time",
+    "patterns": [
+      {
+        "neg": "-{:d} to Vitality",
+        "pos": "+{:d} to Vitality"
+      }
+    ],
+    "within": []
   },
   "wounds/lvl": {
-    "code": "wounds/lvl",
     "aliases": [
       "item_openwounds_perlevel"
     ],
-    "within": [
-      "openwounds"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "{:d}% Chance of Open Wounds (Based on Character Level)",
-      "neg": "{:d}% Chance of Open Wounds (Based on Character Level)"
-    }
+    "code": "wounds/lvl",
+    "patterns": [
+      {
+        "neg": "{:d}% Chance of Open Wounds (Based on Character Level)",
+        "pos": "{:d}% Chance of Open Wounds (Based on Character Level)"
+      }
+    ],
+    "within": []
   },
   "wounds/time": {
-    "code": "wounds/time",
     "aliases": [
       "item_openwounds_bytime"
     ],
-    "within": [
-      "openwounds"
-    ],
     "children": [],
-    "patterns": {
-      "pos": "+{:d} Chance of Open Wounds",
-      "neg": "-{:d} Chance of Open Wounds"
-    }
+    "code": "wounds/time",
+    "patterns": [
+      {
+        "neg": "-{:d} Chance of Open Wounds",
+        "pos": "+{:d} Chance of Open Wounds"
+      }
+    ],
+    "within": []
   }
 }

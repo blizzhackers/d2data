@@ -19,10 +19,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 13,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -47,16 +47,16 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 9,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 8,
         "max": 17,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -79,10 +79,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 65,
         "max": 108,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -105,10 +105,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 12,
         "max": 52,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -135,10 +135,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 80,
         "max": 93,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -161,10 +161,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 21,
         "max": 41,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -189,10 +189,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 32,
         "max": 91,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -217,10 +217,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 15,
         "max": 63,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -243,10 +243,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 15,
         "max": 59,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -269,10 +269,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 75,
         "max": 107,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -297,10 +297,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 68,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -323,10 +323,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 28,
         "max": 73,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -349,10 +349,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 25,
         "max": 87,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -377,10 +377,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 26,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -403,10 +403,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 33,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -429,10 +429,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 23,
         "max": 50,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -455,10 +455,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 69,
         "max": 85,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -483,10 +483,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 20,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -511,10 +511,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 83,
         "max": 99,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -539,10 +539,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 33,
         "max": 66,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -565,16 +565,16 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 22,
         "max": 56,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 50,
         "max": 94,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -597,10 +597,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 39,
         "max": 52,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -623,10 +623,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 38,
         "max": 60,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -651,16 +651,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 24,
         "max": 54,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 71,
         "max": 83,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -685,10 +685,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 11,
         "max": 56,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -713,10 +713,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 62,
         "max": 110,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -741,10 +741,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 27,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -769,10 +769,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 31,
         "max": 47,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -797,10 +797,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 42,
         "max": 92,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -823,10 +823,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 37,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -851,10 +851,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 49,
         "max": 137,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -879,10 +879,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 31,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -907,10 +907,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 35,
         "max": 43,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -933,16 +933,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 22,
         "max": 62,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 67,
         "max": 96,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -968,10 +968,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 31,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -996,10 +996,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 36,
         "max": 42,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1024,10 +1024,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 23,
         "max": 49,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1050,10 +1050,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 37,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1076,16 +1076,16 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 26,
         "max": 70,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 61,
         "max": 121,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -1108,10 +1108,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 28,
         "max": 68,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1137,10 +1137,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 80,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1165,10 +1165,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 59,
         "max": 94,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1195,16 +1195,16 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 25,
         "max": 65,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 58,
         "max": 115,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -1229,10 +1229,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 60,
         "max": 124,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1257,10 +1257,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 19,
         "max": 60,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1286,10 +1286,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 33,
         "max": 180,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1314,16 +1314,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 15,
         "max": 75,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 55,
         "max": 118,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -1348,10 +1348,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 22,
         "max": 28,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1374,10 +1374,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 46,
         "max": 127,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1402,10 +1402,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 33,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1428,10 +1428,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 21,
         "max": 57,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1456,10 +1456,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 15,
         "max": 57,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1482,10 +1482,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 25,
         "max": 123,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1512,10 +1512,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 77,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1540,10 +1540,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 22,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1570,10 +1570,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 77,
         "max": 106,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1598,10 +1598,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 41,
         "max": 49,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1626,10 +1626,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 30,
         "max": 48,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1654,10 +1654,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 43,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1682,10 +1682,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 28,
         "max": 145,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1710,10 +1710,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 33,
         "max": 178,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1738,10 +1738,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 33,
         "max": 150,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1764,10 +1764,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 14,
         "max": 64,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1792,10 +1792,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 40,
         "max": 51,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1818,10 +1818,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 45,
         "max": 54,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1846,10 +1846,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 33,
         "max": 63,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1874,10 +1874,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 12,
         "max": 141,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -1902,10 +1902,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 33,
         "max": 45,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1931,10 +1931,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 40,
         "max": 52,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1959,10 +1959,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 26,
         "max": 46,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -1987,10 +1987,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 32,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2015,10 +2015,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 35,
         "max": 119,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2041,10 +2041,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 31,
         "max": 59,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2067,10 +2067,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 18,
         "max": 155,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2095,10 +2095,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 17,
         "max": 65,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2121,10 +2121,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 23,
         "max": 54,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2147,10 +2147,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 29,
         "max": 144,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2175,10 +2175,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 27,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2201,10 +2201,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 24,
         "max": 44,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2227,10 +2227,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 17,
         "max": 165,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2255,10 +2255,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 24,
         "max": 71,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2283,10 +2283,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 34,
         "max": 45,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2311,10 +2311,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 40,
         "max": 114,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2339,10 +2339,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 40,
         "max": 50,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2368,10 +2368,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 50,
         "max": 61,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2394,10 +2394,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 18,
         "max": 33,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2424,10 +2424,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 37,
         "max": 43,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2450,10 +2450,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 44,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2476,10 +2476,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 20,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -2504,10 +2504,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 34,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2532,10 +2532,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 11,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2560,10 +2560,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 11,
         "max": 32,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2588,10 +2588,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 8,
         "max": 22,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2616,10 +2616,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 33,
         "max": 55,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2644,10 +2644,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 42,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2672,10 +2672,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 29,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2700,10 +2700,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 8,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2728,10 +2728,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 50,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2756,10 +2756,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 27,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2784,10 +2784,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 20,
         "max": 42,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2812,10 +2812,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 32,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2840,10 +2840,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 13,
         "max": 30,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2868,10 +2868,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 19,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2896,10 +2896,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 21,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2924,10 +2924,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2952,10 +2952,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 24,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -2980,10 +2980,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 38,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3008,16 +3008,16 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 18,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -3040,10 +3040,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 11,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3068,10 +3068,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 33,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3096,10 +3096,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3122,10 +3122,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 27,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3150,16 +3150,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 14,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 39,
         "max": 60,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -3184,10 +3184,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 21,
         "max": 49,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3210,10 +3210,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3238,10 +3238,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 19,
         "max": 36,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3266,10 +3266,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 16,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3294,10 +3294,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 16,
         "max": 34,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3322,10 +3322,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 24,
         "max": 77,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3350,10 +3350,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 22,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3378,10 +3378,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 21,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3406,16 +3406,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 30,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 26,
         "max": 61,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -3440,10 +3440,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3466,10 +3466,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 16,
         "max": 37,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3494,10 +3494,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3522,10 +3522,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3550,16 +3550,16 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 19,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 29,
         "max": 54,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -3584,10 +3584,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 16,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3612,10 +3612,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3640,10 +3640,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 18,
         "max": 70,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3668,16 +3668,16 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 24,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 47,
         "max": 80,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -3702,10 +3702,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 43,
         "max": 85,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3728,10 +3728,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 38,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3756,10 +3756,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 61,
         "max": 99,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3784,16 +3784,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 37,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 19,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -3818,10 +3818,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 29,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3846,10 +3846,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 13,
         "max": 85,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3874,10 +3874,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 21,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3900,10 +3900,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 19,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3928,10 +3928,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 15,
         "max": 31,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -3956,10 +3956,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 34,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -3984,10 +3984,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 42,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4010,10 +4010,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 18,
         "max": 37,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4038,10 +4038,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 53,
         "max": 78,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4066,10 +4066,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 15,
         "max": 23,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4094,10 +4094,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 14,
         "max": 34,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4124,10 +4124,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 20,
         "max": 31,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4152,10 +4152,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 27,
         "max": 114,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4180,10 +4180,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 34,
         "max": 75,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4206,10 +4206,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 11,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4232,10 +4232,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 19,
         "max": 40,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4260,10 +4260,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 14,
         "max": 36,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4288,10 +4288,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 18,
         "max": 45,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4314,10 +4314,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 32,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4342,10 +4342,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4370,10 +4370,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4398,10 +4398,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 21,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4426,10 +4426,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 25,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4454,10 +4454,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 37,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4482,10 +4482,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 22,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4510,10 +4510,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 29,
         "max": 59,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4538,10 +4538,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 11,
         "max": 22,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4566,10 +4566,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 16,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4594,10 +4594,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 19,
         "max": 37,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4620,10 +4620,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4648,10 +4648,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 21,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4678,10 +4678,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4706,10 +4706,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 16,
         "max": 45,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4732,10 +4732,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 27,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4760,10 +4760,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 30,
         "max": 70,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4788,10 +4788,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 18,
         "max": 43,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4816,10 +4816,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 35,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4844,10 +4844,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4872,10 +4872,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 16,
         "max": 38,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4898,10 +4898,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 37,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4926,10 +4926,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -4952,10 +4952,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 7,
         "max": 12,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -4978,10 +4978,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 9,
         "max": 19,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5004,10 +5004,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 18,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5030,10 +5030,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 23,
         "max": 55,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5056,10 +5056,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 14,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5082,10 +5082,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 16,
         "max": 29,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5110,10 +5110,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 19,
         "max": 41,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5136,10 +5136,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 34,
         "max": 51,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5164,10 +5164,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 42,
         "max": 101,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5192,10 +5192,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 18,
         "max": 35,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5220,10 +5220,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 20,
         "max": 47,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5248,10 +5248,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 72,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5276,10 +5276,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 65,
         "max": 95,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5302,10 +5302,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 37,
         "max": 153,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5330,10 +5330,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 30,
         "max": 54,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5358,10 +5358,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 4,
         "max": 11,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5384,10 +5384,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5410,10 +5410,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 10,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5438,10 +5438,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 1,
         "max": 27,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5466,10 +5466,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5492,10 +5492,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5520,10 +5520,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 4,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5548,10 +5548,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 7,
         "max": 17,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5578,10 +5578,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 7,
         "max": 14,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5608,10 +5608,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 13,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5636,16 +5636,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 7,
         "max": 19,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 20,
         "max": 28,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -5668,10 +5668,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 14,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5696,10 +5696,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 12,
         "max": 32,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5726,10 +5726,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 7,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5754,10 +5754,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 4,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5780,10 +5780,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 7,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5808,10 +5808,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 6,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5836,16 +5836,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 12,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 13,
         "max": 30,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -5868,10 +5868,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5896,10 +5896,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5924,10 +5924,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 4,
         "max": 12,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -5950,10 +5950,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 2,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -5978,10 +5978,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 4,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6006,10 +6006,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 9,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6034,10 +6034,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 24,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6062,16 +6062,16 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 9,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 13,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -6096,10 +6096,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 9,
         "max": 17,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6122,10 +6122,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 7,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6150,10 +6150,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 9,
         "max": 30,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6178,16 +6178,16 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 16,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 9,
         "max": 28,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -6212,10 +6212,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 22,
         "max": 45,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6238,10 +6238,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 17,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6266,10 +6266,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 38,
         "max": 58,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6353,10 +6353,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6381,16 +6381,16 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 12,
         "max": 20,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       },
       {
-        "name": "base_damage_2hand",
         "min": 25,
         "max": 42,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "both",
@@ -6417,10 +6417,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 11,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6445,10 +6445,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 12,
         "max": 45,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6473,10 +6473,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 6,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6501,10 +6501,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 2,
         "max": 6,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6527,10 +6527,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6555,10 +6555,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6583,10 +6583,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 12,
         "max": 20,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6611,10 +6611,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6637,10 +6637,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 5,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6665,10 +6665,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 11,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6691,10 +6691,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 4,
         "max": 7,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6719,10 +6719,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 13,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6749,10 +6749,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 3,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6777,10 +6777,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 3,
         "max": 10,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6803,10 +6803,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6833,10 +6833,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 19,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6861,10 +6861,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 2,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6889,10 +6889,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 3,
         "max": 23,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6917,10 +6917,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 9,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -6945,10 +6945,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 10,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -6973,10 +6973,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 30,
         "max": 43,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7003,10 +7003,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 7,
         "max": 11,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7031,10 +7031,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 10,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7059,10 +7059,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 7,
         "max": 16,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7087,10 +7087,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 9,
         "max": 16,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7113,10 +7113,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 5,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7139,10 +7139,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7165,10 +7165,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 4,
         "max": 10,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7191,10 +7191,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 12,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7217,10 +7217,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7243,10 +7243,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 21,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7269,10 +7269,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 26,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7295,10 +7295,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 11,
         "max": 29,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7321,10 +7321,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 13,
         "max": 32,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7351,10 +7351,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 18,
         "max": 42,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7377,10 +7377,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 21,
         "max": 46,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7405,10 +7405,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 18,
         "max": 50,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7431,10 +7431,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 23,
         "max": 55,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7457,10 +7457,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 12,
         "max": 66,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7485,10 +7485,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 30,
         "max": 53,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7570,10 +7570,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 18,
         "max": 39,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7598,10 +7598,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 14,
         "max": 63,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7624,10 +7624,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 4,
         "max": 9,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7652,10 +7652,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7680,10 +7680,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 1,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7708,10 +7708,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 12,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7736,10 +7736,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 5,
         "max": 11,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7766,10 +7766,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 3,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7794,10 +7794,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 1,
         "max": 4,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7822,10 +7822,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 6,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7850,10 +7850,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 6,
         "max": 11,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7878,10 +7878,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 8,
         "max": 20,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7904,10 +7904,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 9,
         "max": 17,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7932,10 +7932,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -7960,10 +7960,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 3,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -7988,10 +7988,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 15,
         "max": 23,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8016,10 +8016,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 7,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8042,10 +8042,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 13,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8070,10 +8070,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 1,
         "max": 5,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8100,10 +8100,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 14,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8126,10 +8126,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 4,
         "max": 7,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8152,10 +8152,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 3,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8180,10 +8180,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 9,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8206,10 +8206,10 @@
     "gemsockets": 0,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 15,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8234,10 +8234,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 6,
         "max": 21,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8262,10 +8262,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 18,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8290,10 +8290,10 @@
     "gemsockets": 4,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 19,
         "max": 29,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8318,10 +8318,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 4,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8344,10 +8344,10 @@
     "gemsockets": 2,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 5,
         "max": 9,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8372,10 +8372,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 15,
         "max": 36,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8402,10 +8402,10 @@
     "gemsockets": 3,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 8,
         "max": 20,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8432,10 +8432,10 @@
     "gemsockets": 5,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 10,
         "max": 17,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
@@ -8462,10 +8462,10 @@
     "gemsockets": 6,
     "props": [
       {
-        "name": "base_damage_2hand",
         "min": 12,
         "max": 28,
-        "par": null
+        "par": null,
+        "prop": "base_damage_2hand"
       }
     ],
     "hands": "two",
@@ -8490,10 +8490,10 @@
     "gemsockets": 1,
     "props": [
       {
-        "name": "base_damage_1hand",
         "min": 2,
         "max": 8,
-        "par": null
+        "par": null,
+        "prop": "base_damage_1hand"
       }
     ],
     "hands": "one",
