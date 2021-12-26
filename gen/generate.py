@@ -902,7 +902,8 @@ if __name__ == "__main__":
         for key2 in item_parser.f_unique_items:
             try:
                 item_code=item_parser.f_unique_items[key2]["code"]
-                item_index=item_parser.f_unique_items[key2]["index"]
+                #item_index=item_parser.f_unique_items[key2]["index"]
+                item_index=key2
                 if item_code == obj.code:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
