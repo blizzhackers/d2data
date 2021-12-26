@@ -555,7 +555,12 @@
     "patterns": [
       {
         "neg": "-{:d} to all Attributes",
-        "pos": "+{:d} to all Attributes"
+        "pos": "+{:d} to all Attributes",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
     "patterns_range": [],
@@ -1623,7 +1628,7 @@
           "pos": "Adds {:d}-{:d} cold damage",
           "spec": [
             0,
-            -1,
+            1,
             -1
           ]
         }
@@ -1905,7 +1910,7 @@
           "pos": "Adds {:d}-{:d} fire damage",
           "spec": [
             0,
-            -1,
+            1,
             -1
           ]
         }
@@ -1980,7 +1985,7 @@
           "pos": "Adds {:d}-{:d} lightning damage",
           "spec": [
             0,
-            -1,
+            1,
             -1
           ]
         }
@@ -2052,7 +2057,7 @@
           "pos": "Adds {:d}-{:d} magic damage",
           "spec": [
             0,
-            -1,
+            1,
             -1
           ]
         }
@@ -2164,7 +2169,7 @@
           "pos": "Adds {:d}-{:d} poison damage over {:d} seconds",
           "spec": [
             0,
-            -1,
+            1,
             -1
           ]
         }
@@ -4066,7 +4071,12 @@
     "patterns": [
       {
         "neg": "All Resistances +{:d}",
-        "pos": "All Resistances +{:d}"
+        "pos": "All Resistances +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
     "patterns_range": [],

@@ -186,31 +186,36 @@ class ItemParser:
                 "pos_code": "strModColdDamage",
                 "neg_code": "strModColdDamage",
                 "range_pos_code": "strModColdDamageRange",
-                "range_neg_code": "strModColdDamageRange"
+                "range_neg_code": "strModColdDamageRange",
+                "range_spec": [0, 1, -1]
             }],
             "dmg-fire": [{
                 "pos_code": "strModFireDamage",
                 "neg_code": "strModFireDamage",
                 "range_pos_code": "strModFireDamageRange",
-                "range_neg_code": "strModFireDamageRange"
+                "range_neg_code": "strModFireDamageRange",
+                "range_spec": [0, 1, -1]
             }],
             "dmg-ltng": [{
                 "pos_code": "strModLightningDamage",
                 "neg_code": "strModLightningDamage",
                 "range_pos_code": "strModLightningDamageRange",
-                "range_neg_code": "strModLightningDamageRange"
+                "range_neg_code": "strModLightningDamageRange",
+                "range_spec": [0, 1, -1]
             }],
             "dmg-mag": [{
                 "pos_code": "strModMagicDamage",
                 "neg_code": "strModMagicDamage",
                 "range_pos_code": "strModMagicDamageRange",
-                "range_neg_code": "strModMagicDamageRange"
+                "range_neg_code": "strModMagicDamageRange",
+                "range_spec": [0, 1, -1]
             }],
             "dmg-pois":[{
                 "pos_code": "strModPoisonDamage",
                 "neg_code": "strModPoisonDamage",
                 "range_pos_code": "strModPoisonDamageRange",
-                "range_neg_code": "strModPoisonDamageRange"
+                "range_neg_code": "strModPoisonDamageRange",
+                "range_spec": [0, 1, -1]
             }],
             "dmg%":[{
                 "pos_code": "strModEnhancedDamage",
@@ -445,7 +450,6 @@ class ItemParser:
             obj.par = round(int(obj.par)/25)
         elif "sock" in obj.prop:
             obj.min = obj.par
-            obj.par = -1
         # elif "dmg%" in obj.prop: # doesn't seem to use? see sander's
         #     obj.par = None
         # elif "ignore-ac" in obj.prop: # doesn't seem to use? see lightsabre
@@ -626,7 +630,7 @@ if __name__ == "__main__":
                         group_code = key2
                         break
                 if strings.pos_pattern  and (key not in item_parser.range_types):
-                    val = { "pos": strings.pos_pattern, "neg": strings.neg_pattern }
+                    val = { "pos": strings.pos_pattern, "neg": strings.neg_pattern, "spec": strings.spec }
                     if val not in properties[group_code]["patterns"]:
                         properties[group_code]["patterns"].append(val)
     for key in properties:
