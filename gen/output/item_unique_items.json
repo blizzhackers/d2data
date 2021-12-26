@@ -68,8 +68,8 @@
         "prop": "mana"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 25,
+        "min": 25,
         "par": 0,
         "prop": "res-pois"
       },
@@ -97,8 +97,8 @@
         "prop": "ac%"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 70,
+        "min": 70,
         "par": 0,
         "prop": "res-pois"
       },
@@ -109,8 +109,8 @@
         "prop": "allskills"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 10,
+        "min": 10,
         "par": 0,
         "prop": "res-pois-max"
       },
@@ -586,8 +586,8 @@
         "prop": "dmg-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "res-pois"
       },
@@ -1446,8 +1446,8 @@
         "prop": "att"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       },
@@ -2692,8 +2692,8 @@
         "prop": "lifesteal"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 55,
+        "min": 55,
         "par": 0,
         "prop": "res-pois"
       },
@@ -3592,8 +3592,8 @@
         "prop": "allskills"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois-len"
       },
@@ -3972,8 +3972,8 @@
         "prop": "allskills"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 40,
         "par": 0,
         "prop": "pierce-pois"
       },
@@ -4572,8 +4572,8 @@
         "prop": "res-ltng"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 20,
+        "min": 20,
         "par": 0,
         "prop": "res-pois"
       },
@@ -6571,8 +6571,8 @@
         "prop": "thorns"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 30,
+        "min": 30,
         "par": 0,
         "prop": "res-pois"
       },
@@ -6924,8 +6924,8 @@
         "prop": "ac-miss"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 40,
+        "min": 30,
         "par": 0,
         "prop": "res-pois"
       },
@@ -7412,20 +7412,20 @@
         "prop": "lifesteal"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 48,
+        "min": 48,
         "par": 0,
         "prop": "pois-min"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 96,
+        "min": 96,
         "par": 0,
         "prop": "pois-max"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 150,
+        "min": 150,
         "par": 0,
         "prop": "pois-len"
       },
@@ -7842,8 +7842,8 @@
         "prop": "mana"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 25,
+        "min": 25,
         "par": 0,
         "prop": "res-pois"
       },
@@ -8759,8 +8759,8 @@
         "prop": "res-fire"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 20,
+        "min": 20,
         "par": 0,
         "prop": "res-pois"
       },
@@ -9106,8 +9106,8 @@
         "prop": "dmg%"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 30,
+        "min": 30,
         "par": 0,
         "prop": "res-pois"
       },
@@ -10142,8 +10142,8 @@
         "prop": "red-dmg"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 30,
+        "min": 20,
         "par": 0,
         "prop": "res-pois"
       },
@@ -10689,8 +10689,8 @@
         "prop": "dmg%"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 45,
+        "min": 45,
         "par": 0,
         "prop": "res-pois"
       },
@@ -10924,8 +10924,8 @@
         "prop": "gethit-skill"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "res-pois"
       },
@@ -10977,14 +10977,14 @@
         "prop": "dmg-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 5,
+        "min": 3,
         "par": 0,
         "prop": "pierce-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 5,
+        "min": 3,
         "par": 0,
         "prop": "extra-pois"
       },
@@ -11006,20 +11006,20 @@
     "name": "rakescar",
     "props": [
       {
-        "max": 0,
-        "min": 0,
+        "max": 128,
+        "min": 128,
         "par": 0,
         "prop": "pois-min"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 128,
+        "min": 128,
         "par": 0,
         "prop": "pois-max"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "pois-len"
       },
@@ -11030,8 +11030,8 @@
         "prop": "att"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       },
@@ -11876,8 +11876,8 @@
         "prop": "stamdrain"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 70,
+        "min": 40,
         "par": 0,
         "prop": "res-pois"
       },
@@ -12088,8 +12088,8 @@
         "prop": "dmg-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       },
@@ -12734,8 +12734,8 @@
         "prop": "dmg-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 25,
+        "min": 25,
         "par": 0,
         "prop": "res-pois"
       },
@@ -12758,8 +12758,8 @@
         "prop": "regen"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois-len"
       }
@@ -13476,8 +13476,8 @@
         "prop": "abs-cold%"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 10,
+        "min": 10,
         "par": 0,
         "prop": "res-pois-max"
       },
@@ -15640,8 +15640,8 @@
         "prop": "thorns"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois-len"
       },
@@ -15840,8 +15840,8 @@
         "prop": "lifesteal"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 10,
+        "min": 10,
         "par": 0,
         "prop": "res-pois"
       },
@@ -16011,14 +16011,14 @@
         "prop": "dmg-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 95,
+        "min": 95,
         "par": 0,
         "prop": "res-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 20,
+        "min": 20,
         "par": 0,
         "prop": "res-pois-max"
       }
@@ -16723,8 +16723,8 @@
         "prop": "dmg-und/lvl"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       },
@@ -17560,8 +17560,8 @@
         "prop": "ac"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       },
@@ -17760,14 +17760,14 @@
     "name": "venom_grip",
     "props": [
       {
-        "max": 0,
-        "min": 0,
+        "max": 30,
+        "min": 30,
         "par": 0,
         "prop": "res-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 5,
+        "min": 5,
         "par": 0,
         "prop": "res-pois-max"
       },
@@ -17813,20 +17813,20 @@
     "name": "venom_ward",
     "props": [
       {
-        "max": 0,
-        "min": 0,
+        "max": 15,
+        "min": 15,
         "par": 0,
         "prop": "res-pois-max"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois-len"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 90,
+        "min": 90,
         "par": 0,
         "prop": "res-pois"
       },
@@ -17931,8 +17931,8 @@
         "prop": "hit-skill"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 30,
         "par": 0,
         "prop": "res-pois"
       }
@@ -18007,8 +18007,8 @@
         "prop": "cast2"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 20,
+        "min": 20,
         "par": 0,
         "prop": "res-pois"
       },
@@ -18843,8 +18843,8 @@
         "prop": "mana"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 25,
+        "min": 25,
         "par": 0,
         "prop": "res-pois"
       },

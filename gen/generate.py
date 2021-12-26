@@ -440,7 +440,7 @@ class ItemParser:
         elif any(map(obj.prop.__contains__, ["skill", "charged", "aura"])):
             if type(obj.par) == int and obj.par != 0:
                 obj.par = self.f_skills[str(obj.par)]["skill"]
-        elif "pois" in obj.prop:
+        elif "dmg-pois" in obj.prop:
             #true_min:      round((min*par)/256)
             #true_max:      round((max*par)/256)
             #true_length:   round(par/25)

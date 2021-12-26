@@ -831,8 +831,8 @@
         "prop": "ac"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "res-pois-len"
       }
@@ -1133,14 +1133,14 @@
     "name": "deaths_hand",
     "props": [
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "res-pois-len"
       }
@@ -1588,8 +1588,8 @@
         "prop": "ac"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 27,
+        "min": 27,
         "par": 0,
         "prop": "res-pois"
       },
@@ -1775,8 +1775,8 @@
         "prop": "skilltab"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 50,
         "par": 0,
         "prop": "res-pois"
       }
@@ -1984,14 +1984,14 @@
     "name": "irathas_collar",
     "props": [
       {
-        "max": 0,
-        "min": 0,
+        "max": 30,
+        "min": 30,
         "par": 0,
         "prop": "res-pois"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "res-pois-len"
       }
@@ -2736,14 +2736,14 @@
         "prop": "skilltab"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 75,
+        "min": 75,
         "par": 0,
         "prop": "res-pois-len"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 25,
+        "min": 25,
         "par": 0,
         "prop": "res-pois"
       },
@@ -3745,8 +3745,8 @@
     "name": "telling_of_beads",
     "props": [
       {
-        "max": 0,
-        "min": 0,
+        "max": 50,
+        "min": 35,
         "par": 0,
         "prop": "res-pois"
       },
@@ -3921,8 +3921,8 @@
         "prop": "ac-miss"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 40,
+        "min": 40,
         "par": 0,
         "prop": "res-pois"
       },
@@ -3986,8 +3986,8 @@
         "prop": "block"
       },
       {
-        "max": 0,
-        "min": 0,
+        "max": 40,
+        "min": 40,
         "par": 0,
         "prop": "res-pois"
       },
