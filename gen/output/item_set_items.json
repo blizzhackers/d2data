@@ -1,4168 +1,4168 @@
 {
   "aldurs_advance": {
-    "name": "aldurs_advance",
-    "display_name": "Aldur's Advance",
-    "code": "xtb",
     "base": "battle_boots",
+    "code": "xtb",
+    "display_name": "Aldur's Advance",
     "level": 29,
     "levelreq": 45,
+    "name": "aldurs_advance",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "indestruct"
       },
       {
-        "min": 32,
         "max": 32,
-        "par": null,
+        "min": 32,
+        "par": 0,
         "prop": "regen-stam"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "dmg-to-mana"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "move3"
       },
       {
-        "min": 180,
         "max": 180,
-        "par": null,
+        "min": 180,
+        "par": 0,
         "prop": "stam"
       },
       {
-        "min": 40,
         "max": 50,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-fire"
       }
     ],
     "set": "Aldur's Watchtower"
   },
   "aldurs_deception": {
-    "name": "aldurs_deception",
-    "display_name": "Aldur's Deception",
-    "code": "uul",
     "base": "shadow_plate",
+    "code": "uul",
+    "display_name": "Aldur's Deception",
     "level": 29,
     "levelreq": 76,
+    "name": "aldurs_deception",
     "props": [
       {
-        "min": 300,
         "max": 300,
-        "par": null,
+        "min": 300,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": 16,
+        "min": 1,
+        "par": "Shape Shifting Skills",
         "prop": "skilltab"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 40,
         "max": 50,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-ltng"
       },
       {
-        "min": -50,
         "max": -50,
-        "par": null,
+        "min": -50,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": 17,
+        "min": 1,
+        "par": "Elemental Skills",
         "prop": "skilltab"
       }
     ],
     "set": "Aldur's Watchtower"
   },
   "aldurs_rhythm": {
-    "name": "aldurs_rhythm",
-    "display_name": "Aldur's Rhythm",
-    "code": "9mt",
     "base": "jagged_star",
+    "code": "9mt",
+    "display_name": "Aldur's Rhythm",
     "level": 29,
     "levelreq": 42,
+    "name": "aldurs_rhythm",
     "props": [
       {
-        "min": 40,
         "max": 62,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "dmg-norm"
       },
       {
-        "min": 50,
         "max": 75,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "dmg-ltng"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "lifesteal"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg-demon"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "manasteal"
       },
       {
-        "min": 2,
         "max": 5,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       }
     ],
     "set": "Aldur's Watchtower"
   },
   "aldurs_stony_gaze": {
-    "name": "aldurs_stony_gaze",
-    "display_name": "Aldur's Stony Gaze",
-    "code": "dr8",
     "base": "hunters_guise",
+    "code": "dr8",
+    "display_name": "Aldur's Stony Gaze",
     "level": 29,
     "levelreq": 36,
+    "name": "aldurs_stony_gaze",
     "props": [
       {
-        "min": 90,
         "max": 90,
-        "par": null,
+        "min": 90,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 17,
         "max": 17,
-        "par": null,
+        "min": 17,
+        "par": 0,
         "prop": "regen-mana"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "light"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "balance3"
       },
       {
-        "min": 40,
         "max": 50,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       }
     ],
     "set": "Aldur's Watchtower"
   },
   "angelic_halo": {
-    "name": "angelic_halo",
-    "display_name": "Angelic Halo",
-    "code": "rin",
     "base": "ring",
+    "code": "rin",
+    "display_name": "Angelic Halo",
     "level": 17,
     "levelreq": 12,
+    "name": "angelic_halo",
     "props": [
       {
-        "min": 6,
         "max": 6,
-        "par": null,
+        "min": 6,
+        "par": 0,
         "prop": "regen"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "hp"
       }
     ],
-    "set": "Angelical Raiment"
+    "set": "Angelic Raiment"
   },
   "angelic_mantle": {
-    "name": "angelic_mantle",
-    "display_name": "Angelic Mantle",
-    "code": "rng",
     "base": "ring_mail",
+    "code": "rng",
+    "display_name": "Angelic Mantle",
     "level": 17,
     "levelreq": 12,
+    "name": "angelic_mantle",
     "props": [
       {
-        "min": 3,
         "max": 3,
-        "par": null,
+        "min": 3,
+        "par": 0,
         "prop": "red-dmg"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "ac%"
       }
     ],
-    "set": "Angelical Raiment"
+    "set": "Angelic Raiment"
   },
   "angelic_sickle": {
-    "name": "angelic_sickle",
-    "display_name": "Angelic Sickle",
-    "code": "sbr",
     "base": "sabre",
+    "code": "sbr",
+    "display_name": "Angelic Sickle",
     "level": 17,
     "levelreq": 12,
+    "name": "angelic_sickle",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "att"
       },
       {
-        "min": 250,
         "max": 250,
-        "par": null,
+        "min": 250,
+        "par": 0,
         "prop": "dmg-undead"
       }
     ],
-    "set": "Angelical Raiment"
+    "set": "Angelic Raiment"
   },
   "angelic_wings": {
-    "name": "angelic_wings",
-    "display_name": "Angelic Wings",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Angelic Wings",
     "level": 17,
     "levelreq": 12,
+    "name": "angelic_wings",
     "props": [
       {
-        "min": 3,
         "max": 3,
-        "par": null,
+        "min": 3,
+        "par": 0,
         "prop": "light"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dmg-to-mana"
       }
     ],
-    "set": "Angelical Raiment"
+    "set": "Angelic Raiment"
   },
   "arcannas_deathwand": {
-    "name": "arcannas_deathwand",
-    "display_name": "Arcanna's Deathwand",
-    "code": "wst",
     "base": "war_staff",
+    "code": "wst",
+    "display_name": "Arcanna's Deathwand",
     "level": 20,
     "levelreq": 15,
+    "name": "arcannas_deathwand",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "sor"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "deadly"
       }
     ],
     "set": "Arcanna's Tricks"
   },
   "arcannas_flesh": {
-    "name": "arcannas_flesh",
-    "display_name": "Arcanna's Flesh",
-    "code": "ltp",
     "base": "light_plate",
+    "code": "ltp",
+    "display_name": "Arcanna's Flesh",
     "level": 20,
     "levelreq": 15,
+    "name": "arcannas_flesh",
     "props": [
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "light"
       },
       {
-        "min": 3,
         "max": 3,
-        "par": null,
+        "min": 3,
+        "par": 0,
         "prop": "red-dmg"
       }
     ],
     "set": "Arcanna's Tricks"
   },
   "arcannas_head": {
-    "name": "arcannas_head",
-    "display_name": "Arcanna's Head",
-    "code": "skp",
     "base": "skull_cap",
+    "code": "skp",
+    "display_name": "Arcanna's Head",
     "level": 20,
     "levelreq": 15,
+    "name": "arcannas_head",
     "props": [
       {
-        "min": 4,
         "max": 4,
-        "par": null,
+        "min": 4,
+        "par": 0,
         "prop": "regen"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "thorns"
       }
     ],
     "set": "Arcanna's Tricks"
   },
   "arcannas_sign": {
-    "name": "arcannas_sign",
-    "display_name": "Arcanna's Sign",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Arcanna's Sign",
     "level": 20,
     "levelreq": 15,
+    "name": "arcannas_sign",
     "props": [
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "regen-mana"
       }
     ],
     "set": "Arcanna's Tricks"
   },
   "arctic_binding": {
-    "name": "arctic_binding",
-    "display_name": "Arctic Binding",
-    "code": "vbl",
     "base": "light_belt",
+    "code": "vbl",
+    "display_name": "Arctic Binding",
     "level": 3,
     "levelreq": 2,
+    "name": "arctic_binding",
     "props": [
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "ac"
       }
     ],
     "set": "Arctic Gear"
   },
   "arctic_furs": {
-    "name": "arctic_furs",
-    "display_name": "Arctic Furs",
-    "code": "qui",
     "base": "quilted_armor",
+    "code": "qui",
+    "display_name": "Arctic Furs",
     "level": 3,
     "levelreq": 2,
+    "name": "arctic_furs",
     "props": [
       {
-        "min": 275,
         "max": 325,
-        "par": null,
+        "min": 275,
+        "par": 0,
         "prop": "ac%"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "res-all"
       }
     ],
     "set": "Arctic Gear"
   },
   "arctic_horn": {
-    "name": "arctic_horn",
-    "display_name": "Arctic Horn",
-    "code": "swb",
     "base": "short_war_bow",
+    "code": "swb",
+    "display_name": "Arctic Horn",
     "level": 3,
     "levelreq": 2,
+    "name": "arctic_horn",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "att%"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "dmg%"
       }
     ],
     "set": "Arctic Gear"
   },
   "arctic_mitts": {
-    "name": "arctic_mitts",
-    "display_name": "Arctic Mitts",
-    "code": "tgl",
     "base": "light_gauntlets",
+    "code": "tgl",
+    "display_name": "Arctic Mitts",
     "level": 3,
     "levelreq": 2,
+    "name": "arctic_mitts",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "swing1"
       }
     ],
     "set": "Arctic Gear"
   },
   "berserkers_hatchet": {
-    "name": "berserkers_hatchet",
-    "display_name": "Berserker's Hatchet",
-    "code": "2ax",
     "base": "double_axe",
+    "code": "2ax",
+    "display_name": "Berserker's Hatchet",
     "level": 5,
     "levelreq": 3,
+    "name": "berserkers_hatchet",
     "props": [
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "att%"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "manasteal"
       }
     ],
-    "set": "Berserker's Garb"
+    "set": "Berserker's Arsenal"
   },
   "berserkers_hauberk": {
-    "name": "berserkers_hauberk",
-    "display_name": "Berserker's Hauberk",
-    "code": "spl",
     "base": "splint_mail",
+    "code": "spl",
+    "display_name": "Berserker's Hauberk",
     "level": 5,
     "levelreq": 3,
+    "name": "berserkers_hauberk",
     "props": [
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-mag"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "bar"
       }
     ],
-    "set": "Berserker's Garb"
+    "set": "Berserker's Arsenal"
   },
   "berserkers_headgear": {
-    "name": "berserkers_headgear",
-    "display_name": "Berserker's Headgear",
-    "code": "hlm",
     "base": "helm",
+    "code": "hlm",
+    "display_name": "Berserker's Headgear",
     "level": 5,
     "levelreq": 3,
+    "name": "berserkers_headgear",
     "props": [
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "res-fire"
       }
     ],
-    "set": "Berserker's Garb"
+    "set": "Berserker's Arsenal"
   },
   "bulkathos_sacred_charge": {
-    "name": "bulkathos_sacred_charge",
-    "display_name": "Bul-Kathos' Sacred Charge",
-    "code": "7gd",
     "base": "colossus_blade",
+    "code": "7gd",
+    "display_name": "Bul-Kathos' Sacred Charge",
     "level": 50,
     "levelreq": 61,
+    "name": "bulkathos_sacred_charge",
     "props": [
       {
-        "min": 35,
         "max": 35,
-        "par": null,
+        "min": 35,
+        "par": 0,
         "prop": "crush"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "res-all"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "swing2"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "knock"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg%"
       }
     ],
     "set": "Bul-Kathos' Children"
   },
   "bulkathos_tribal_guardian": {
-    "name": "bulkathos_tribal_guardian",
-    "display_name": "Bul-Kathos' Tribal Guardian",
-    "code": "7wd",
     "base": "mythical_sword",
+    "code": "7wd",
+    "display_name": "Bul-Kathos' Tribal Guardian",
     "level": 50,
     "levelreq": 54,
+    "name": "bulkathos_tribal_guardian",
     "props": [
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 255,
-        "max": 255,
+        "max": 50,
+        "min": 50,
         "par": 50,
         "prop": "dmg-pois"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "swing2"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg%"
       }
     ],
     "set": "Bul-Kathos' Children"
   },
   "cathans_mesh": {
-    "name": "cathans_mesh",
-    "display_name": "Cathan's Mesh",
-    "code": "chn",
     "base": "chain_mail",
+    "code": "chn",
+    "display_name": "Cathan's Mesh",
     "level": 15,
     "levelreq": 11,
+    "name": "cathans_mesh",
     "props": [
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": -50,
         "max": -50,
-        "par": null,
+        "min": -50,
+        "par": 0,
         "prop": "ease"
       }
     ],
     "set": "Cathan's Traps"
   },
   "cathans_rule": {
-    "name": "cathans_rule",
-    "display_name": "Cathan's Rule",
-    "code": "bst",
     "base": "battle_staff",
+    "code": "bst",
+    "display_name": "Cathan's Rule",
     "level": 15,
     "levelreq": 11,
+    "name": "cathans_rule",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "fireskill"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "fire-max"
       }
     ],
     "set": "Cathan's Traps"
   },
   "cathans_seal": {
-    "name": "cathans_seal",
-    "display_name": "Cathan's Seal",
-    "code": "rin",
     "base": "ring",
+    "code": "rin",
+    "display_name": "Cathan's Seal",
     "level": 15,
     "levelreq": 11,
+    "name": "cathans_seal",
     "props": [
       {
-        "min": 6,
         "max": 6,
-        "par": null,
+        "min": 6,
+        "par": 0,
         "prop": "lifesteal"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-dmg"
       }
     ],
     "set": "Cathan's Traps"
   },
   "cathans_sigil": {
-    "name": "cathans_sigil",
-    "display_name": "Cathan's Sigil",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Cathan's Sigil",
     "level": 15,
     "levelreq": 11,
+    "name": "cathans_sigil",
     "props": [
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "balance1"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "light-thorns"
       }
     ],
     "set": "Cathan's Traps"
   },
   "cathans_visage": {
-    "name": "cathans_visage",
-    "display_name": "Cathan's Visage",
-    "code": "msk",
     "base": "mask",
+    "code": "msk",
+    "display_name": "Cathan's Visage",
     "level": 15,
     "levelreq": 11,
+    "name": "cathans_visage",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "res-cold"
       }
     ],
     "set": "Cathan's Traps"
   },
   "civerbs_cudgel": {
-    "name": "civerbs_cudgel",
-    "display_name": "Civerb's Cudgel",
-    "code": "gsc",
     "base": "grand_scepter",
+    "code": "gsc",
+    "display_name": "Civerb's Cudgel",
     "level": 13,
     "levelreq": 9,
+    "name": "civerbs_cudgel",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "att"
       },
       {
-        "min": 17,
         "max": 23,
-        "par": null,
+        "min": 17,
+        "par": 0,
         "prop": "dmg-max"
       }
     ],
     "set": "Civerb's Vestments"
   },
   "civerbs_icon": {
-    "name": "civerbs_icon",
-    "display_name": "Civerb's Icon",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Civerb's Icon",
     "level": 13,
     "levelreq": 9,
+    "name": "civerbs_icon",
     "props": [
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "regen-mana"
       },
       {
-        "min": 4,
         "max": 4,
-        "par": null,
+        "min": 4,
+        "par": 0,
         "prop": "regen"
       }
     ],
     "set": "Civerb's Vestments"
   },
   "civerbs_ward": {
-    "name": "civerbs_ward",
-    "display_name": "Civerb's Ward",
-    "code": "lrg",
     "base": "large_shield",
+    "code": "lrg",
+    "display_name": "Civerb's Ward",
     "level": 13,
     "levelreq": 9,
+    "name": "civerbs_ward",
     "props": [
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "block"
       }
     ],
     "set": "Civerb's Vestments"
   },
   "cleglaws_claw": {
-    "name": "cleglaws_claw",
-    "display_name": "Cleglaw's Claw",
-    "code": "sml",
     "base": "small_shield",
+    "code": "sml",
+    "display_name": "Cleglaw's Claw",
     "level": 6,
     "levelreq": 4,
+    "name": "cleglaws_claw",
     "props": [
       {
-        "min": 17,
         "max": 17,
-        "par": null,
+        "min": 17,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 75,
-        "max": 75,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois-len"
       }
     ],
     "set": "Cleglaw's Brace"
   },
   "cleglaws_pincers": {
-    "name": "cleglaws_pincers",
-    "display_name": "Cleglaw's Pincers",
-    "code": "mgl",
     "base": "chain_gloves",
+    "code": "mgl",
+    "display_name": "Cleglaw's Pincers",
     "level": 6,
     "levelreq": 4,
+    "name": "cleglaws_pincers",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "knock"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "slow"
       }
     ],
     "set": "Cleglaw's Brace"
   },
   "cleglaws_tooth": {
-    "name": "cleglaws_tooth",
-    "display_name": "Cleglaw's Tooth",
-    "code": "lsd",
     "base": "long_sword",
+    "code": "lsd",
+    "display_name": "Cleglaw's Tooth",
     "level": 6,
     "levelreq": 4,
+    "name": "cleglaws_tooth",
     "props": [
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "att%"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "deadly"
       }
     ],
     "set": "Cleglaw's Brace"
   },
   "cow_kings_hide": {
-    "name": "cow_kings_hide",
-    "display_name": "Cow King's Hide",
-    "code": "stu",
     "base": "studded_leather",
+    "code": "stu",
+    "display_name": "Cow King's Hide",
     "level": 20,
     "levelreq": 18,
+    "name": "cow_kings_hide",
     "props": [
       {
-        "min": 18,
         "max": 18,
-        "par": null,
+        "min": 18,
+        "par": 0,
         "prop": "res-all"
       },
       {
-        "min": 60,
         "max": 60,
-        "par": null,
+        "min": 60,
+        "par": 0,
         "prop": "ac%"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 18,
         "max": 5,
-        "par": 53,
+        "min": 18,
+        "par": "Chain Lightning",
         "prop": "gethit-skill"
       }
     ],
     "set": "Cow King's Leathers"
   },
   "cow_kings_hooves": {
-    "name": "cow_kings_hooves",
-    "display_name": "Cow King's Hooves",
-    "code": "vbt",
     "base": "heavy_boots",
+    "code": "vbt",
+    "display_name": "Cow King's Hooves",
     "level": 20,
     "levelreq": 13,
+    "name": "cow_kings_hooves",
     "props": [
       {
-        "min": 25,
         "max": 35,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "move3"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "mag%"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 25,
         "max": 35,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "dmg-fire"
       }
     ],
     "set": "Cow King's Leathers"
   },
   "cow_kings_horns": {
-    "name": "cow_kings_horns",
-    "display_name": "Cow King's Horns",
-    "code": "xap",
     "base": "war_hat",
+    "code": "xap",
+    "display_name": "Cow King's Horns",
     "level": 20,
     "levelreq": 25,
+    "name": "cow_kings_horns",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "half-freeze"
       },
       {
-        "min": 35,
         "max": 35,
-        "par": null,
+        "min": 35,
+        "par": 0,
         "prop": "dmg-to-mana"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "thorns"
       }
     ],
     "set": "Cow King's Leathers"
   },
   "credendum": {
-    "name": "credendum",
-    "display_name": "Credendum",
-    "code": "umc",
     "base": "mithril_coil",
+    "code": "umc",
+    "display_name": "Credendum",
     "level": 39,
     "levelreq": 65,
+    "name": "credendum",
     "props": [
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "res-all"
       }
     ],
     "set": "The Disciple"
   },
   "dangoons_teaching": {
-    "name": "dangoons_teaching",
-    "display_name": "Dangoon's Teaching",
-    "code": "7ma",
     "base": "reinforced_mace",
+    "code": "7ma",
+    "display_name": "Dangoon's Teaching",
     "level": 55,
     "levelreq": 68,
+    "name": "dangoons_teaching",
     "props": [
       {
-        "min": null,
         "max": null,
+        "min": null,
         "par": 12,
         "prop": "dmg/lvl"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 10,
         "max": 3,
-        "par": 44,
+        "min": 10,
+        "par": "Frost Nova",
         "prop": "hit-skill"
       },
       {
-        "min": 20,
         "max": 30,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dmg-fire"
       }
     ],
     "set": "Heaven's Brethren"
   },
-  "deaths_guard": {
-    "name": "deaths_guard",
-    "display_name": "Death's Guard",
-    "code": "lbl",
-    "base": "sash",
-    "level": 8,
-    "levelreq": 6,
+  "dark_adherent": {
+    "base": "dusk_shroud",
+    "code": "uui",
+    "display_name": "Dark Adherent",
+    "level": 39,
+    "levelreq": 43,
+    "name": "dark_adherent",
     "props": [
       {
-        "min": 20,
-        "max": 20,
-        "par": null,
+        "max": 415,
+        "min": 305,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 1,
+        "max": 24,
+        "min": 24,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 3,
+        "min": 25,
+        "par": "Nova",
+        "prop": "gethit-skill"
+      },
+      {
+        "max": 34,
+        "min": 24,
+        "par": 50,
+        "prop": "dmg-pois"
+      }
+    ],
+    "set": "The Disciple"
+  },
+  "deaths_guard": {
+    "base": "sash",
+    "code": "lbl",
+    "display_name": "Death's Guard",
+    "level": 8,
+    "levelreq": 6,
+    "name": "deaths_guard",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "nofreeze"
       }
     ],
     "set": "Death's Disguise"
   },
   "deaths_hand": {
-    "name": "deaths_hand",
-    "display_name": "Death's Hand",
-    "code": "lgl",
     "base": "leather_gloves",
+    "code": "lgl",
+    "display_name": "Death's Hand",
     "level": 8,
     "levelreq": 6,
+    "name": "deaths_hand",
     "props": [
       {
-        "min": 50,
-        "max": 50,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 75,
-        "max": 75,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois-len"
       }
     ],
     "set": "Death's Disguise"
   },
   "deaths_touch": {
-    "name": "deaths_touch",
-    "display_name": "Death's Touch",
-    "code": "wsd",
     "base": "war_sword",
+    "code": "wsd",
+    "display_name": "Death's Touch",
     "level": 8,
     "levelreq": 6,
+    "name": "deaths_touch",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 4,
         "max": 4,
-        "par": null,
+        "min": 4,
+        "par": 0,
         "prop": "lifesteal"
       }
     ],
     "set": "Death's Disguise"
   },
   "griswolds_heart": {
-    "name": "griswolds_heart",
-    "display_name": "Griswold's Heart",
-    "code": "xar",
     "base": "ornate_plate",
+    "code": "xar",
+    "display_name": "Griswold's Heart",
     "level": 44,
     "levelreq": 45,
+    "name": "griswolds_heart",
     "props": [
       {
-        "min": 500,
         "max": 500,
-        "par": null,
+        "min": 500,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 11,
+        "min": 2,
+        "par": "Defensive Auras",
         "prop": "skilltab"
       },
       {
-        "min": 3,
         "max": 3,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": -40,
         "max": -40,
-        "par": null,
+        "min": -40,
+        "par": 0,
         "prop": "ease"
       }
     ],
     "set": "Griswold's Legacy"
   },
   "griswolds_honor": {
-    "name": "griswolds_honor",
-    "display_name": "Griswold's Honor",
-    "code": "paf",
     "base": "vortex_shield",
+    "code": "paf",
+    "display_name": "Griswold's Honor",
     "level": 44,
     "levelreq": 68,
+    "name": "griswolds_honor",
     "props": [
       {
-        "min": 108,
         "max": 108,
-        "par": null,
+        "min": 108,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": null,
         "max": null,
-        "par": 3,
+        "min": 3,
+        "par": -1,
         "prop": "sock"
       },
       {
-        "min": 65,
         "max": 65,
-        "par": null,
+        "min": 65,
+        "par": 0,
         "prop": "block2"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "block"
       },
       {
-        "min": 45,
         "max": 45,
-        "par": null,
-        "prop": "res-all"
-      }
-    ],
-    "set": "Griswold's Legacy"
-  },
-  "griswolds_valor": {
-    "name": "griswolds_valor",
-    "display_name": "Griswold's Valor",
-    "code": "urn",
-    "base": "corona",
-    "level": 44,
-    "levelreq": 69,
-    "props": [
-      {
-        "min": 50,
-        "max": 75,
-        "par": null,
-        "prop": "ac%"
-      },
-      {
-        "min": 2,
-        "max": 2,
-        "par": null,
-        "prop": "abs-cold/lvl"
-      },
-      {
-        "min": 2,
-        "max": 2,
-        "par": null,
-        "prop": "sock"
-      },
-      {
-        "min": -40,
-        "max": -40,
-        "par": null,
-        "prop": "ease"
-      },
-      {
-        "min": 20,
-        "max": 30,
-        "par": null,
-        "prop": "mag%"
-      },
-      {
-        "min": 5,
-        "max": 5,
-        "par": null,
+        "min": 45,
+        "par": 0,
         "prop": "res-all"
       }
     ],
     "set": "Griswold's Legacy"
   },
   "griswolds_redemption": {
-    "name": "griswolds_redemption",
-    "display_name": "Griswold's Redemption",
-    "code": "7ws",
     "base": "caduceus",
+    "code": "7ws",
+    "display_name": "Griswold's Redemption",
     "level": 44,
     "levelreq": 53,
+    "name": "griswolds_redemption",
     "props": [
       {
-        "min": 200,
         "max": 240,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing2"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg-undead"
       },
       {
-        "min": -20,
         "max": -20,
-        "par": null,
+        "min": -20,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 3,
         "max": 4,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       }
     ],
     "set": "Griswold's Legacy"
   },
-  "guillaumes_face": {
-    "name": "guillaumes_face",
-    "display_name": "Guillaume's Face",
-    "code": "xhm",
-    "base": "winged_helm",
-    "level": 41,
-    "levelreq": 34,
+  "griswolds_valor": {
+    "base": "corona",
+    "code": "urn",
+    "display_name": "Griswold's Valor",
+    "level": 44,
+    "levelreq": 69,
+    "name": "griswolds_valor",
     "props": [
       {
-        "min": 120,
-        "max": 120,
-        "par": null,
+        "max": 75,
+        "min": 50,
+        "par": 0,
         "prop": "ac%"
       },
       {
-        "min": 30,
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "abs-cold/lvl"
+      },
+      {
+        "max": 2,
+        "min": 0,
+        "par": -1,
+        "prop": "sock"
+      },
+      {
+        "max": -40,
+        "min": -40,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
         "max": 30,
-        "par": null,
+        "min": 20,
+        "par": 0,
+        "prop": "mag%"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "res-all"
+      }
+    ],
+    "set": "Griswold's Legacy"
+  },
+  "guillaumes_face": {
+    "base": "winged_helm",
+    "code": "xhm",
+    "display_name": "Guillaume's Face",
+    "level": 41,
+    "levelreq": 34,
+    "name": "guillaumes_face",
+    "props": [
+      {
+        "max": 120,
+        "min": 120,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
         "prop": "balance3"
       },
       {
-        "min": 35,
         "max": 35,
-        "par": null,
+        "min": 35,
+        "par": 0,
         "prop": "crush"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "deadly"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "str"
       }
     ],
     "set": "Orphan's Call"
   },
   "haemosus_adamant": {
-    "name": "haemosus_adamant",
-    "display_name": "Haemosu's Adamant",
-    "code": "xrs",
     "base": "cuirass",
+    "code": "xrs",
+    "display_name": "Haemosu's Adamant",
     "level": 55,
     "levelreq": 44,
+    "name": "haemosus_adamant",
     "props": [
       {
-        "min": 500,
         "max": 500,
-        "par": null,
+        "min": 500,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 35,
         "max": 35,
-        "par": null,
+        "min": 35,
+        "par": 0,
         "prop": "ac-miss"
       },
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "ac-hth"
       },
       {
-        "min": -20,
         "max": -20,
-        "par": null,
+        "min": -20,
+        "par": 0,
         "prop": "ease"
       }
     ],
     "set": "Heaven's Brethren"
   },
-  "taebaeks_glory": {
-    "name": "taebaeks_glory",
-    "display_name": "Taebaek's Glory",
-    "code": "uts",
-    "base": "ward",
-    "level": 55,
-    "levelreq": 81,
-    "props": [
-      {
-        "min": 50,
-        "max": 50,
-        "par": null,
-        "prop": "ac"
-      },
-      {
-        "min": 100,
-        "max": 100,
-        "par": null,
-        "prop": "mana"
-      },
-      {
-        "min": 30,
-        "max": 30,
-        "par": null,
-        "prop": "res-ltng"
-      },
-      {
-        "min": 30,
-        "max": 30,
-        "par": null,
-        "prop": "thorns"
-      },
-      {
-        "min": 1,
-        "max": 1,
-        "par": null,
-        "prop": "indestruct"
-      },
-      {
-        "min": 25,
-        "max": 25,
-        "par": null,
-        "prop": "block"
-      },
-      {
-        "min": 30,
-        "max": 30,
-        "par": null,
-        "prop": "block3"
-      }
-    ],
-    "set": "Heaven's Brethren"
-  },
   "hsarus_iron_fist": {
-    "name": "hsarus_iron_fist",
-    "display_name": "Hsarus' Iron Fist",
-    "code": "buc",
     "base": "buckler",
+    "code": "buc",
+    "display_name": "Hsarus' Iron Fist",
     "level": 4,
     "levelreq": 3,
+    "name": "hsarus_iron_fist",
     "props": [
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-dmg"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "str"
       }
     ],
     "set": "Hsarus' Defense"
   },
   "hsarus_iron_heel": {
-    "name": "hsarus_iron_heel",
-    "display_name": "Hsarus' Iron Heel",
-    "code": "mbt",
     "base": "chain_boots",
+    "code": "mbt",
+    "display_name": "Hsarus' Iron Heel",
     "level": 4,
     "levelreq": 3,
+    "name": "hsarus_iron_heel",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "move2"
       }
     ],
     "set": "Hsarus' Defense"
   },
   "hsarus_iron_stay": {
-    "name": "hsarus_iron_stay",
-    "display_name": "Hsarus' Iron Stay",
-    "code": "mbl",
     "base": "belt",
+    "code": "mbl",
+    "display_name": "Hsarus' Iron Stay",
     "level": 4,
     "levelreq": 3,
+    "name": "hsarus_iron_stay",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "hp"
       }
     ],
     "set": "Hsarus' Defense"
   },
-  "hwanins_justice": {
-    "name": "hwanins_justice",
-    "display_name": "Hwanin's Justice",
-    "code": "9vo",
-    "base": "bill",
+  "hwanins_blessing": {
+    "base": "belt",
+    "code": "mbl",
+    "display_name": "Hwanin's Blessing",
     "level": 28,
-    "levelreq": 28,
+    "levelreq": 35,
+    "name": "hwanins_blessing",
     "props": [
       {
-        "min": 330,
+        "max": 33,
+        "min": 3,
+        "par": 0,
+        "prop": "dmg-ltng"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "noheal"
+      },
+      {
+        "max": null,
+        "min": null,
+        "par": 12,
+        "prop": "ac/lvl"
+      },
+      {
+        "max": 12,
+        "min": 12,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      }
+    ],
+    "set": "Hwanin's Majesty"
+  },
+  "hwanins_justice": {
+    "base": "bill",
+    "code": "9vo",
+    "display_name": "Hwanin's Justice",
+    "level": 28,
+    "levelreq": 28,
+    "name": "hwanins_justice",
+    "props": [
+      {
         "max": 330,
-        "par": null,
+        "min": 330,
+        "par": 0,
         "prop": "att"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "indestruct"
       },
       {
-        "min": 10,
         "max": 3,
-        "par": 45,
+        "min": 10,
+        "par": "Ice Blast",
         "prop": "hit-skill"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 5,
         "max": 25,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "dmg-ltng"
       }
     ],
     "set": "Hwanin's Majesty"
   },
   "hwanins_refuge": {
-    "name": "hwanins_refuge",
-    "display_name": "Hwanin's Refuge",
-    "code": "xcl",
     "base": "tigulated_mail",
+    "code": "xcl",
+    "display_name": "Hwanin's Refuge",
     "level": 28,
     "levelreq": 30,
+    "name": "hwanins_refuge",
     "props": [
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 27,
-        "max": 27,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 100,
         "max": 100,
-        "par": null,
+        "min": 100,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 10,
         "max": 3,
-        "par": 42,
+        "min": 10,
+        "par": "Static Field",
         "prop": "gethit-skill"
       }
     ],
     "set": "Hwanin's Majesty"
   },
-  "hwanins_blessing": {
-    "name": "hwanins_blessing",
-    "display_name": "Hwanin's Blessing",
-    "code": "mbl",
-    "base": "belt",
-    "level": 28,
-    "levelreq": 35,
-    "props": [
-      {
-        "min": 3,
-        "max": 33,
-        "par": null,
-        "prop": "dmg-ltng"
-      },
-      {
-        "min": 1,
-        "max": 1,
-        "par": null,
-        "prop": "noheal"
-      },
-      {
-        "min": null,
-        "max": null,
-        "par": 12,
-        "prop": "ac/lvl"
-      },
-      {
-        "min": 12,
-        "max": 12,
-        "par": null,
-        "prop": "dmg-to-mana"
-      }
-    ],
-    "set": "Hwanin's Majesty"
-  },
   "hwanins_splendor": {
-    "name": "hwanins_splendor",
-    "display_name": "Hwanin's Splendor",
-    "code": "xrn",
     "base": "grand_crown",
+    "code": "xrn",
+    "display_name": "Hwanin's Splendor",
     "level": 28,
     "levelreq": 45,
+    "name": "hwanins_splendor",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "regen"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "red-mag"
       },
       {
-        "min": 37,
         "max": 37,
-        "par": null,
+        "min": 37,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 100,
         "max": 100,
-        "par": null,
+        "min": 100,
+        "par": 0,
         "prop": "ac%"
       }
     ],
     "set": "Hwanin's Majesty"
   },
   "immortal_kings_detail": {
-    "name": "immortal_kings_detail",
-    "display_name": "Immortal King's Detail",
-    "code": "zhb",
     "base": "war_belt",
+    "code": "zhb",
+    "display_name": "Immortal King's Detail",
     "level": 37,
     "levelreq": 29,
+    "name": "immortal_kings_detail",
     "props": [
       {
-        "min": 36,
         "max": 36,
-        "par": null,
+        "min": 36,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 28,
         "max": 28,
-        "par": null,
+        "min": 28,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 31,
         "max": 31,
-        "par": null,
+        "min": 31,
+        "par": 0,
         "prop": "res-ltng"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "str"
       }
     ],
     "set": "Immortal King"
   },
   "immortal_kings_forge": {
-    "name": "immortal_kings_forge",
-    "display_name": "Immortal King's Forge",
-    "code": "xhg",
     "base": "war_gauntlets",
+    "code": "xhg",
+    "display_name": "Immortal King's Forge",
     "level": 37,
     "levelreq": 30,
+    "name": "immortal_kings_forge",
     "props": [
       {
-        "min": 65,
         "max": 65,
-        "par": null,
+        "min": 65,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 12,
         "max": 4,
-        "par": 38,
+        "min": 12,
+        "par": "Charged Bolt",
         "prop": "gethit-skill"
       }
     ],
     "set": "Immortal King"
   },
   "immortal_kings_pillar": {
-    "name": "immortal_kings_pillar",
-    "display_name": "Immortal King's Pillar",
-    "code": "xhb",
     "base": "war_boots",
+    "code": "xhb",
+    "display_name": "Immortal King's Pillar",
     "level": 37,
     "levelreq": 31,
+    "name": "immortal_kings_pillar",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "move3"
       },
       {
-        "min": 110,
         "max": 110,
-        "par": null,
+        "min": 110,
+        "par": 0,
         "prop": "att"
       },
       {
-        "min": 44,
         "max": 44,
-        "par": null,
+        "min": 44,
+        "par": 0,
         "prop": "hp"
       }
     ],
     "set": "Immortal King"
   },
   "immortal_kings_soul_cage": {
-    "name": "immortal_kings_soul_cage",
-    "display_name": "Immortal King's Soul Cage",
-    "code": "uar",
     "base": "sacred_armor",
+    "code": "uar",
+    "display_name": "Immortal King's Soul Cage",
     "level": 37,
     "levelreq": 76,
+    "name": "immortal_kings_soul_cage",
     "props": [
       {
-        "min": 400,
         "max": 400,
-        "par": null,
+        "min": 400,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": 52,
+        "min": 5,
+        "par": "Enchant",
         "prop": "gethit-skill"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 12,
+        "min": 2,
+        "par": "Combat Skills",
         "prop": "skilltab"
       },
       {
-        "min": 50,
-        "max": 50,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       }
     ],
     "set": "Immortal King"
   },
   "immortal_kings_stone_crusher": {
-    "name": "immortal_kings_stone_crusher",
-    "display_name": "Immortal King's Stone Crusher",
-    "code": "7m7",
     "base": "ogre_maul",
+    "code": "7m7",
+    "display_name": "Immortal King's Stone Crusher",
     "level": 37,
     "levelreq": 76,
+    "name": "immortal_kings_stone_crusher",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "indestruct"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg-demon"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg-undead"
       },
       {
-        "min": 35,
         "max": 40,
-        "par": null,
+        "min": 35,
+        "par": 0,
         "prop": "crush"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       }
     ],
     "set": "Immortal King"
   },
   "immortal_kings_will": {
-    "name": "immortal_kings_will",
-    "display_name": "Immortal King's Will",
-    "code": "ba5",
     "base": "avenger_guard",
+    "code": "ba5",
+    "display_name": "Immortal King's Will",
     "level": 37,
     "levelreq": 47,
+    "name": "immortal_kings_will",
     "props": [
       {
-        "min": 125,
         "max": 125,
-        "par": null,
+        "min": 125,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 37,
         "max": 37,
-        "par": null,
+        "min": 37,
+        "par": 0,
         "prop": "gold%"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 14,
+        "min": 2,
+        "par": "Warcries",
         "prop": "skilltab"
       },
       {
-        "min": 4,
         "max": 4,
-        "par": null,
+        "min": 4,
+        "par": 0,
         "prop": "light"
       },
       {
-        "min": 25,
         "max": 40,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "mag%"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       }
     ],
     "set": "Immortal King"
   },
   "infernal_cranium": {
-    "name": "infernal_cranium",
-    "display_name": "Infernal Cranium",
-    "code": "cap",
     "base": "cap",
+    "code": "cap",
+    "display_name": "Infernal Cranium",
     "level": 7,
     "levelreq": 5,
+    "name": "infernal_cranium",
     "props": [
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "res-all"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dmg-to-mana"
       }
     ],
     "set": "Infernal Tools"
   },
   "infernal_sign": {
-    "name": "infernal_sign",
-    "display_name": "Infernal Sign",
-    "code": "tbl",
     "base": "heavy_belt",
+    "code": "tbl",
+    "display_name": "Infernal Sign",
     "level": 7,
     "levelreq": 5,
+    "name": "infernal_sign",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "hp"
       }
     ],
     "set": "Infernal Tools"
   },
   "infernal_torch": {
-    "name": "infernal_torch",
-    "display_name": "Infernal Torch",
-    "code": "gwn",
     "base": "grim_wand",
+    "code": "gwn",
+    "display_name": "Infernal Torch",
     "level": 7,
     "levelreq": 5,
+    "name": "infernal_torch",
     "props": [
       {
-        "min": 8,
         "max": 8,
-        "par": null,
+        "min": 8,
+        "par": 0,
         "prop": "dmg-min"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "nec"
       }
     ],
     "set": "Infernal Tools"
   },
   "irathas_coil": {
-    "name": "irathas_coil",
-    "display_name": "Iratha's Coil",
-    "code": "crn",
     "base": "crown",
+    "code": "crn",
+    "display_name": "Iratha's Coil",
     "level": 21,
     "levelreq": 15,
+    "name": "irathas_coil",
     "props": [
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "res-ltng"
       }
     ],
     "set": "Iratha's Finery"
   },
   "irathas_collar": {
-    "name": "irathas_collar",
-    "display_name": "Iratha's Collar",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Iratha's Collar",
     "level": 21,
     "levelreq": 15,
+    "name": "irathas_collar",
     "props": [
       {
-        "min": 30,
-        "max": 30,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 75,
-        "max": 75,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois-len"
       }
     ],
     "set": "Iratha's Finery"
   },
   "irathas_cord": {
-    "name": "irathas_cord",
-    "display_name": "Iratha's Cord",
-    "code": "tbl",
     "base": "heavy_belt",
+    "code": "tbl",
+    "display_name": "Iratha's Cord",
     "level": 21,
     "levelreq": 15,
+    "name": "irathas_cord",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "dmg-min"
       }
     ],
     "set": "Iratha's Finery"
   },
   "irathas_cuff": {
-    "name": "irathas_cuff",
-    "display_name": "Iratha's Cuff",
-    "code": "tgl",
     "base": "light_gauntlets",
+    "code": "tgl",
+    "display_name": "Iratha's Cuff",
     "level": 21,
     "levelreq": 15,
+    "name": "irathas_cuff",
     "props": [
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "half-freeze"
       }
     ],
     "set": "Iratha's Finery"
   },
   "isenharts_case": {
-    "name": "isenharts_case",
-    "display_name": "Isenhart's Case",
-    "code": "brs",
     "base": "breast_plate",
+    "code": "brs",
+    "display_name": "Isenhart's Case",
     "level": 11,
     "levelreq": 8,
+    "name": "isenharts_case",
     "props": [
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-mag"
       }
     ],
     "set": "Isenhart's Armory"
   },
   "isenharts_horns": {
-    "name": "isenharts_horns",
-    "display_name": "Isenhart's Horns",
-    "code": "fhl",
     "base": "full_helm",
+    "code": "fhl",
+    "display_name": "Isenhart's Horns",
     "level": 11,
     "levelreq": 8,
+    "name": "isenharts_horns",
     "props": [
       {
-        "min": 6,
         "max": 6,
-        "par": null,
+        "min": 6,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-dmg"
       }
     ],
     "set": "Isenhart's Armory"
   },
   "isenharts_lightbrand": {
-    "name": "isenharts_lightbrand",
-    "display_name": "Isenhart's Lightbrand",
-    "code": "bsd",
     "base": "broad_sword",
+    "code": "bsd",
+    "display_name": "Isenhart's Lightbrand",
     "level": 11,
     "levelreq": 8,
+    "name": "isenharts_lightbrand",
     "props": [
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "dmg-min"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "swing2"
       }
     ],
     "set": "Isenhart's Armory"
   },
   "isenharts_parry": {
-    "name": "isenharts_parry",
-    "display_name": "Isenhart's Parry",
-    "code": "gts",
     "base": "gothic_shield",
+    "code": "gts",
+    "display_name": "Isenhart's Parry",
     "level": 11,
     "levelreq": 8,
+    "name": "isenharts_parry",
     "props": [
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 4,
         "max": 4,
-        "par": null,
+        "min": 4,
+        "par": 0,
         "prop": "light-thorns"
       }
     ],
     "set": "Isenhart's Armory"
   },
   "laying_of_hands": {
-    "name": "laying_of_hands",
-    "display_name": "Laying of Hands",
-    "code": "ulg",
     "base": "bramble_mitts",
+    "code": "ulg",
+    "display_name": "Laying of Hands",
     "level": 39,
     "levelreq": 63,
+    "name": "laying_of_hands",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "swing2"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 350,
         "max": 350,
-        "par": null,
+        "min": 350,
+        "par": 0,
         "prop": "dmg-demon"
       },
       {
-        "min": 10,
         "max": 3,
-        "par": 101,
+        "min": 10,
+        "par": "Holy Bolt",
         "prop": "hit-skill"
       }
     ],
     "set": "The Disciple"
   },
-  "mavinas_caster": {
-    "name": "mavinas_caster",
-    "display_name": "M'avina's Caster",
-    "code": "amc",
-    "base": "grand_matron_bow",
-    "level": 21,
-    "levelreq": 70,
+  "magnus_skin": {
+    "base": "sharkskin_gloves",
+    "code": "xvg",
+    "display_name": "Magnus' Skin",
+    "level": 41,
+    "levelreq": 37,
+    "name": "magnus_skin",
     "props": [
       {
-        "min": 188,
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "light"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "att"
+      }
+    ],
+    "set": "Orphan's Call"
+  },
+  "mavinas_caster": {
+    "base": "grand_matron_bow",
+    "code": "amc",
+    "display_name": "M'avina's Caster",
+    "level": 21,
+    "levelreq": 70,
+    "name": "mavinas_caster",
+    "props": [
+      {
         "max": 188,
-        "par": null,
+        "min": 188,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "magicarrow"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "att"
       }
     ],
     "set": "M'avina's Battle Hymn"
   },
   "mavinas_embrace": {
-    "name": "mavinas_embrace",
-    "display_name": "M'avina's Embrace",
-    "code": "uld",
     "base": "kraken_shell",
+    "code": "uld",
+    "display_name": "M'avina's Embrace",
     "level": 21,
     "levelreq": 70,
+    "name": "mavinas_embrace",
     "props": [
       {
-        "min": 10,
         "max": 3,
-        "par": 55,
+        "min": 10,
+        "par": "Glacial Spike",
         "prop": "gethit-skill"
       },
       {
-        "min": -30,
         "max": -30,
-        "par": null,
+        "min": -30,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 5,
         "max": 12,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "red-mag"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 1,
+        "min": 2,
+        "par": "Passive and Magic Skills",
         "prop": "skilltab"
       },
       {
-        "min": null,
         "max": null,
+        "min": null,
         "par": 32,
         "prop": "ac/lvl"
       },
       {
-        "min": 350,
         "max": 350,
-        "par": null,
+        "min": 350,
+        "par": 0,
         "prop": "ac"
       }
     ],
     "set": "M'avina's Battle Hymn"
   },
   "mavinas_icy_clutch": {
-    "name": "mavinas_icy_clutch",
-    "display_name": "M'avina's Icy Clutch",
-    "code": "xtg",
     "base": "battle_gauntlets",
+    "code": "xtg",
+    "display_name": "M'avina's Icy Clutch",
     "level": 21,
     "levelreq": 32,
+    "name": "mavinas_icy_clutch",
     "props": [
       {
-        "min": 45,
         "max": 50,
-        "par": null,
+        "min": 45,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 6,
         "max": 18,
-        "par": 150,
+        "min": 6,
+        "par": 6,
         "prop": "dmg-cold"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "half-freeze"
       },
       {
-        "min": 56,
         "max": 56,
-        "par": null,
+        "min": 56,
+        "par": 0,
         "prop": "gold%"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "dex"
       }
     ],
     "set": "M'avina's Battle Hymn"
   },
   "mavinas_tenet": {
-    "name": "mavinas_tenet",
-    "display_name": "M'avina's Tenet",
-    "code": "zvb",
     "base": "sharkskin_belt",
+    "code": "zvb",
+    "display_name": "M'avina's Tenet",
     "level": 21,
     "levelreq": 45,
+    "name": "mavinas_tenet",
     "props": [
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "move2"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "manasteal"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "light"
       }
     ],
     "set": "M'avina's Battle Hymn"
   },
   "mavinas_true_sight": {
-    "name": "mavinas_true_sight",
-    "display_name": "M'avina's True Sight",
-    "code": "ci3",
     "base": "diadem",
+    "code": "ci3",
+    "display_name": "M'avina's True Sight",
     "level": 21,
     "levelreq": 59,
+    "name": "mavinas_true_sight",
     "props": [
       {
-        "min": 150,
         "max": 150,
-        "par": null,
+        "min": 150,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "regen"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "swing2"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "mana"
       }
     ],
     "set": "M'avina's Battle Hymn"
   },
-  "magnus_skin": {
-    "name": "magnus_skin",
-    "display_name": "Magnus' Skin",
-    "code": "xvg",
-    "base": "sharkskin_gloves",
-    "level": 41,
-    "levelreq": 37,
-    "props": [
-      {
-        "min": 50,
-        "max": 50,
-        "par": null,
-        "prop": "ac%"
-      },
-      {
-        "min": 15,
-        "max": 15,
-        "par": null,
-        "prop": "res-fire"
-      },
-      {
-        "min": 20,
-        "max": 20,
-        "par": null,
-        "prop": "swing2"
-      },
-      {
-        "min": 3,
-        "max": 3,
-        "par": null,
-        "prop": "light"
-      },
-      {
-        "min": 100,
-        "max": 100,
-        "par": null,
-        "prop": "att"
-      }
-    ],
-    "set": "Orphan's Call"
-  },
-  "sanders_paragon": {
-    "name": "sanders_paragon",
-    "display_name": "Sander's Paragon",
-    "code": "cap",
-    "base": "cap",
-    "level": 20,
-    "levelreq": 25,
-    "props": [
-      {
-        "min": 35,
-        "max": 35,
-        "par": null,
-        "prop": "mag%"
-      },
-      {
-        "min": 8,
-        "max": 8,
-        "par": null,
-        "prop": "thorns"
-      },
-      {
-        "min": null,
-        "max": null,
-        "par": 8,
-        "prop": "ac/lvl"
-      }
-    ],
-    "set": "McAuley's Folly"
-  },
-  "sanders_riprap": {
-    "name": "sanders_riprap",
-    "display_name": "Sander's Riprap",
-    "code": "vbt",
-    "base": "heavy_boots",
-    "level": 20,
-    "levelreq": 20,
-    "props": [
-      {
-        "min": 40,
-        "max": 40,
-        "par": null,
-        "prop": "move3"
-      },
-      {
-        "min": 100,
-        "max": 100,
-        "par": null,
-        "prop": "att"
-      },
-      {
-        "min": 5,
-        "max": 5,
-        "par": null,
-        "prop": "str"
-      },
-      {
-        "min": 10,
-        "max": 10,
-        "par": null,
-        "prop": "dex"
-      }
-    ],
-    "set": "McAuley's Folly"
-  },
-  "sanders_superstition": {
-    "name": "sanders_superstition",
-    "display_name": "Sander's Superstition",
-    "code": "bwn",
-    "base": "bone_wand",
-    "level": 20,
-    "levelreq": 25,
-    "props": [
-      {
-        "min": 75,
-        "max": 75,
-        "par": 2,
-        "prop": "dmg%"
-      },
-      {
-        "min": 25,
-        "max": 25,
-        "par": null,
-        "prop": "mana"
-      },
-      {
-        "min": 8,
-        "max": 8,
-        "par": null,
-        "prop": "manasteal"
-      },
-      {
-        "min": 20,
-        "max": 20,
-        "par": null,
-        "prop": "cast3"
-      },
-      {
-        "min": 25,
-        "max": 75,
-        "par": 50,
-        "prop": "dmg-cold"
-      }
-    ],
-    "set": "McAuley's Folly"
-  },
-  "sanders_taboo": {
-    "name": "sanders_taboo",
-    "display_name": "Sander's Taboo",
-    "code": "vgl",
-    "base": "heavy_gloves",
-    "level": 20,
-    "levelreq": 28,
-    "props": [
-      {
-        "min": 20,
-        "max": 25,
-        "par": null,
-        "prop": "ac"
-      },
-      {
-        "min": 20,
-        "max": 20,
-        "par": null,
-        "prop": "swing2"
-      },
-      {
-        "min": 40,
-        "max": 40,
-        "par": null,
-        "prop": "hp"
-      },
-      {
-        "min": 30,
-        "max": 36,
-        "par": 75,
-        "prop": "dmg-pois"
-      }
-    ],
-    "set": "McAuley's Folly"
-  },
   "milabregas_diadem": {
-    "name": "milabregas_diadem",
-    "display_name": "Milabrega's Diadem",
-    "code": "crn",
     "base": "crown",
+    "code": "crn",
+    "display_name": "Milabrega's Diadem",
     "level": 23,
     "levelreq": 17,
+    "name": "milabregas_diadem",
     "props": [
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "mana"
       }
     ],
     "set": "Milabrega's Regalia"
   },
   "milabregas_orb": {
-    "name": "milabregas_orb",
-    "display_name": "Milabrega's Orb",
-    "code": "kit",
     "base": "kite_shield",
+    "code": "kit",
+    "display_name": "Milabrega's Orb",
     "level": 23,
     "levelreq": 17,
+    "name": "milabregas_orb",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "mag%"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       }
     ],
     "set": "Milabrega's Regalia"
   },
   "milabregas_robe": {
-    "name": "milabregas_robe",
-    "display_name": "Milabrega's Robe",
-    "code": "aar",
     "base": "ancient_armor",
+    "code": "aar",
+    "display_name": "Milabrega's Robe",
     "level": 23,
     "levelreq": 17,
+    "name": "milabregas_robe",
     "props": [
       {
-        "min": 3,
         "max": 3,
-        "par": null,
+        "min": 3,
+        "par": 0,
         "prop": "thorns"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-dmg"
       }
     ],
     "set": "Milabrega's Regalia"
   },
   "milabregas_rod": {
-    "name": "milabregas_rod",
-    "display_name": "Milabrega's Rod",
-    "code": "wsp",
     "base": "war_scepter",
+    "code": "wsp",
+    "display_name": "Milabrega's Rod",
     "level": 23,
     "levelreq": 17,
+    "name": "milabregas_rod",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "pal"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "light"
       }
     ],
     "set": "Milabrega's Regalia"
   },
   "najs_circlet": {
-    "name": "najs_circlet",
-    "display_name": "Naj's Circlet",
-    "code": "ci0",
     "base": "circlet",
+    "code": "ci0",
+    "display_name": "Naj's Circlet",
     "level": 43,
     "levelreq": 28,
+    "name": "najs_circlet",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 25,
         "max": 35,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "dmg-fire"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "Light"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 12,
         "max": 5,
-        "par": 53,
+        "min": 12,
+        "par": "Chain Lightning",
         "prop": "gethit-skill"
       }
     ],
-    "set": "Naj's Ancient Set"
+    "set": "Naj's Ancient Vestige"
   },
   "najs_light_plate": {
-    "name": "najs_light_plate",
-    "display_name": "Naj's Light Plate",
-    "code": "ult",
     "base": "hellforge_plate",
+    "code": "ult",
+    "display_name": "Naj's Light Plate",
     "level": 43,
     "levelreq": 71,
+    "name": "najs_light_plate",
     "props": [
       {
-        "min": -60,
         "max": -60,
-        "par": null,
+        "min": -60,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 65,
         "max": 65,
-        "par": null,
+        "min": 65,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "res-all"
       },
       {
-        "min": 45,
         "max": 45,
-        "par": null,
+        "min": 45,
+        "par": 0,
         "prop": "dmg-to-mana"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "allskills"
       },
       {
-        "min": 300,
         "max": 300,
-        "par": null,
+        "min": 300,
+        "par": 0,
         "prop": "ac"
       }
     ],
-    "set": "Naj's Ancient Set"
+    "set": "Naj's Ancient Vestige"
   },
   "najs_puzzler": {
-    "name": "najs_puzzler",
-    "display_name": "Naj's Puzzler",
-    "code": "6cs",
     "base": "elder_staff",
+    "code": "6cs",
+    "display_name": "Naj's Puzzler",
     "level": 43,
     "levelreq": 78,
+    "name": "najs_puzzler",
     "props": [
       {
-        "min": 35,
         "max": 35,
-        "par": null,
+        "min": 35,
+        "par": 0,
         "prop": "enr"
       },
       {
-        "min": 150,
         "max": 150,
-        "par": null,
+        "min": 150,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 69,
         "max": 11,
-        "par": 54,
+        "min": 69,
+        "par": "Teleport",
         "prop": "charged"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "cast3"
       },
       {
-        "min": 6,
         "max": 45,
-        "par": null,
+        "min": 6,
+        "par": 0,
         "prop": "dmg-ltng"
       },
       {
-        "min": 70,
         "max": 70,
-        "par": null,
+        "min": 70,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "allskills"
       }
     ],
-    "set": "Naj's Ancient Set"
+    "set": "Naj's Ancient Vestige"
   },
   "natalyas_mark": {
-    "name": "natalyas_mark",
-    "display_name": "Natalya's Mark",
-    "code": "7qr",
     "base": "scissors_suwayyah",
+    "code": "7qr",
+    "display_name": "Natalya's Mark",
     "level": 22,
     "levelreq": 79,
+    "name": "natalyas_mark",
     "props": [
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "ignore-ac"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": 100,
+        "min": 50,
+        "par": 4,
         "prop": "dmg-cold"
       },
       {
-        "min": 12,
         "max": 17,
-        "par": null,
+        "min": 12,
+        "par": 0,
         "prop": "dmg-fire"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg-undead"
       },
       {
-        "min": 200,
         "max": 200,
-        "par": null,
+        "min": 200,
+        "par": 0,
         "prop": "dmg-demon"
       }
     ],
     "set": "Natalya's Odium"
   },
   "natalyas_shadow": {
-    "name": "natalyas_shadow",
-    "display_name": "Natalya's Shadow",
-    "code": "ucl",
     "base": "loricated_mail",
+    "code": "ucl",
+    "display_name": "Natalya's Shadow",
     "level": 22,
     "levelreq": 73,
+    "name": "natalyas_shadow",
     "props": [
       {
-        "min": 150,
         "max": 225,
-        "par": null,
+        "min": 150,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": null,
         "max": null,
+        "min": null,
         "par": 8,
         "prop": "hp/lvl"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 19,
+        "min": 2,
+        "par": "Shadow Disciplines",
         "prop": "skilltab"
       },
       {
-        "min": 75,
-        "max": 75,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois-len"
       },
       {
-        "min": 25,
-        "max": 25,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 1,
         "max": 3,
-        "par": null,
+        "min": 0,
+        "par": -1,
         "prop": "sock"
       }
     ],
     "set": "Natalya's Odium"
   },
   "natalyas_soul": {
-    "name": "natalyas_soul",
-    "display_name": "Natalya's Soul",
-    "code": "xmb",
     "base": "mesh_boots",
+    "code": "xmb",
+    "display_name": "Natalya's Soul",
     "level": 22,
     "levelreq": 25,
+    "name": "natalyas_soul",
     "props": [
       {
-        "min": 75,
         "max": 125,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "move3"
       },
       {
-        "min": null,
         "max": null,
+        "min": null,
         "par": 2,
         "prop": "regen-stam/lvl"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "dur"
       },
       {
-        "min": 15,
         "max": 25,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 15,
         "max": 25,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "res-ltng"
       }
     ],
     "set": "Natalya's Odium"
   },
   "natalyas_totem": {
-    "name": "natalyas_totem",
-    "display_name": "Natalya's Totem",
-    "code": "xh9",
     "base": "grim_helm",
+    "code": "xh9",
+    "display_name": "Natalya's Totem",
     "level": 22,
     "levelreq": 59,
+    "name": "natalyas_totem",
     "props": [
       {
-        "min": 135,
         "max": 175,
-        "par": null,
+        "min": 135,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 20,
         "max": 30,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 10,
         "max": 20,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 10,
         "max": 20,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "res-all"
       },
       {
-        "min": 3,
         "max": 3,
-        "par": null,
+        "min": 3,
+        "par": 0,
         "prop": "red-mag"
       }
     ],
     "set": "Natalya's Odium"
   },
   "ondals_almighty": {
-    "name": "ondals_almighty",
-    "display_name": "Ondal's Almighty",
-    "code": "uhm",
     "base": "spired_helm",
+    "code": "uhm",
+    "display_name": "Ondal's Almighty",
     "level": 55,
     "levelreq": 69,
+    "name": "ondals_almighty",
     "props": [
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": -40,
         "max": -40,
-        "par": null,
+        "min": -40,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 10,
         "max": 3,
-        "par": 72,
+        "min": 10,
+        "par": "Weaken",
         "prop": "hit-skill"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 24,
         "max": 24,
-        "par": null,
+        "min": 24,
+        "par": 0,
         "prop": "balance3"
       }
     ],
     "set": "Heaven's Brethren"
   },
   "rite_of_passage": {
-    "name": "rite_of_passage",
-    "display_name": "Rite of Passage",
-    "code": "xlb",
     "base": "demonhide_boots",
+    "code": "xlb",
+    "display_name": "Rite of Passage",
     "level": 39,
     "levelreq": 29,
+    "name": "rite_of_passage",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "move3"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "half-freeze"
       },
       {
-        "min": 15,
         "max": 25,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "stam"
       }
     ],
     "set": "The Disciple"
   },
-  "sazabis_cobalt_redeemer": {
-    "name": "sazabis_cobalt_redeemer",
-    "display_name": "Sazabi's Cobalt Redeemer",
-    "code": "7ls",
-    "base": "cryptic_sword",
-    "level": 34,
-    "levelreq": 73,
+  "sanders_paragon": {
+    "base": "cap",
+    "code": "cap",
+    "display_name": "Sander's Paragon",
+    "level": 20,
+    "levelreq": 25,
+    "name": "sanders_paragon",
     "props": [
       {
-        "min": 150,
-        "max": 150,
-        "par": null,
+        "max": 35,
+        "min": 35,
+        "par": 0,
+        "prop": "mag%"
+      },
+      {
+        "max": 8,
+        "min": 8,
+        "par": 0,
+        "prop": "thorns"
+      },
+      {
+        "max": null,
+        "min": null,
+        "par": 8,
+        "prop": "ac/lvl"
+      }
+    ],
+    "set": "Sander's Folly"
+  },
+  "sanders_riprap": {
+    "base": "heavy_boots",
+    "code": "vbt",
+    "display_name": "Sander's Riprap",
+    "level": 20,
+    "levelreq": 20,
+    "name": "sanders_riprap",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "att"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dex"
+      }
+    ],
+    "set": "Sander's Folly"
+  },
+  "sanders_superstition": {
+    "base": "bone_wand",
+    "code": "bwn",
+    "display_name": "Sander's Superstition",
+    "level": 20,
+    "levelreq": 25,
+    "name": "sanders_superstition",
+    "props": [
+      {
+        "max": 75,
+        "min": 75,
+        "par": 2,
         "prop": "dmg%"
       },
       {
+        "max": 25,
         "min": 25,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 8,
+        "min": 8,
+        "par": 0,
+        "prop": "manasteal"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "cast3"
+      },
+      {
+        "max": 75,
+        "min": 25,
+        "par": 2,
+        "prop": "dmg-cold"
+      }
+    ],
+    "set": "Sander's Folly"
+  },
+  "sanders_taboo": {
+    "base": "heavy_gloves",
+    "code": "vgl",
+    "display_name": "Sander's Taboo",
+    "level": 20,
+    "levelreq": 28,
+    "name": "sanders_taboo",
+    "props": [
+      {
+        "max": 25,
+        "min": 20,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 11,
+        "min": 9,
+        "par": 75,
+        "prop": "dmg-pois"
+      }
+    ],
+    "set": "Sander's Folly"
+  },
+  "sazabis_cobalt_redeemer": {
+    "base": "cryptic_sword",
+    "code": "7ls",
+    "display_name": "Sazabi's Cobalt Redeemer",
+    "level": 34,
+    "levelreq": 73,
+    "name": "sazabis_cobalt_redeemer",
+    "props": [
+      {
+        "max": 150,
+        "min": 150,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
         "max": 35,
-        "par": 50,
+        "min": 25,
+        "par": 2,
         "prop": "dmg-cold"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "swing3"
       },
       {
-        "min": 318,
         "max": 318,
-        "par": null,
+        "min": 318,
+        "par": 0,
         "prop": "dmg-demon"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "indestruct"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "str"
       }
     ],
     "set": "Sazabi's Grand Tribute"
   },
   "sazabis_ghost_liberator": {
-    "name": "sazabis_ghost_liberator",
-    "display_name": "Sazabi's Ghost Liberator",
-    "code": "upl",
     "base": "balrog_skin",
+    "code": "upl",
+    "display_name": "Sazabi's Ghost Liberator",
     "level": 34,
     "levelreq": 67,
+    "name": "sazabis_ghost_liberator",
     "props": [
       {
-        "min": 400,
         "max": 400,
-        "par": null,
+        "min": 400,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "balance3"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 300,
         "max": 300,
-        "par": null,
+        "min": 300,
+        "par": 0,
         "prop": "att-demon"
       },
       {
-        "min": 50,
         "max": 75,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "hp"
       }
     ],
     "set": "Sazabi's Grand Tribute"
   },
   "sazabis_mental_sheath": {
-    "name": "sazabis_mental_sheath",
-    "display_name": "Sazabi's Mental Sheath",
-    "code": "xhl",
     "base": "basinet",
+    "code": "xhl",
+    "display_name": "Sazabi's Mental Sheath",
     "level": 34,
     "levelreq": 43,
+    "name": "sazabis_mental_sheath",
     "props": [
       {
-        "min": 100,
         "max": 100,
-        "par": null,
+        "min": 100,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "allskills"
       },
       {
-        "min": 15,
         "max": 20,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 15,
         "max": 20,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "res-ltng"
       }
     ],
     "set": "Sazabi's Grand Tribute"
   },
   "sigons_gage": {
-    "name": "sigons_gage",
-    "display_name": "Sigon's Gage",
-    "code": "hgl",
     "base": "gauntlets",
+    "code": "hgl",
+    "display_name": "Sigon's Gage",
     "level": 9,
     "levelreq": 6,
+    "name": "sigons_gage",
     "props": [
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "att"
       }
     ],
     "set": "Sigon's Complete Steel"
   },
   "sigons_guard": {
-    "name": "sigons_guard",
-    "display_name": "Sigon's Guard",
-    "code": "tow",
     "base": "tower_shield",
+    "code": "tow",
+    "display_name": "Sigon's Guard",
     "level": 9,
     "levelreq": 6,
+    "name": "sigons_guard",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "allskills"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "block"
       }
     ],
     "set": "Sigon's Complete Steel"
   },
   "sigons_sabot": {
-    "name": "sigons_sabot",
-    "display_name": "Sigon's Sabot",
-    "code": "hbt",
     "base": "greaves",
+    "code": "hbt",
+    "display_name": "Sigon's Sabot",
     "level": 9,
     "levelreq": 6,
+    "name": "sigons_sabot",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "move2"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-cold"
       }
     ],
     "set": "Sigon's Complete Steel"
   },
   "sigons_shelter": {
-    "name": "sigons_shelter",
-    "display_name": "Sigon's Shelter",
-    "code": "gth",
     "base": "gothic_plate",
+    "code": "gth",
+    "display_name": "Sigon's Shelter",
     "level": 9,
     "levelreq": 6,
+    "name": "sigons_shelter",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac%"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "res-ltng"
       }
     ],
     "set": "Sigon's Complete Steel"
   },
   "sigons_visor": {
-    "name": "sigons_visor",
-    "display_name": "Sigon's Visor",
-    "code": "ghm",
     "base": "great_helm",
+    "code": "ghm",
+    "display_name": "Sigon's Visor",
     "level": 9,
     "levelreq": 6,
+    "name": "sigons_visor",
     "props": [
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "ac"
       }
     ],
     "set": "Sigon's Complete Steel"
   },
   "sigons_wrap": {
-    "name": "sigons_wrap",
-    "display_name": "Sigon's Wrap",
-    "code": "hbl",
     "base": "plated_belt",
+    "code": "hbl",
+    "display_name": "Sigon's Wrap",
     "level": 9,
     "levelreq": 6,
+    "name": "sigons_wrap",
     "props": [
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "hp"
       }
     ],
     "set": "Sigon's Complete Steel"
   },
-  "dark_adherent": {
-    "name": "dark_adherent",
-    "display_name": "Dark Adherent",
-    "code": "uui",
-    "base": "dusk_shroud",
-    "level": 39,
-    "levelreq": 43,
+  "taebaeks_glory": {
+    "base": "ward",
+    "code": "uts",
+    "display_name": "Taebaek's Glory",
+    "level": 55,
+    "levelreq": 81,
+    "name": "taebaeks_glory",
     "props": [
       {
-        "min": 305,
-        "max": 415,
-        "par": null,
+        "max": 50,
+        "min": 50,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 24,
-        "max": 24,
-        "par": null,
-        "prop": "res-fire"
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "mana"
       },
       {
-        "min": 25,
-        "max": 3,
-        "par": 48,
-        "prop": "gethit-skill"
-      },
-      {
-        "min": 125,
-        "max": 175,
-        "par": 50,
-        "prop": "dmg-pois"
-      }
-    ],
-    "set": "The Disciple"
-  },
-  "tal_rashas_adjudication": {
-    "name": "tal_rashas_adjudication",
-    "display_name": "Tal Rasha's Adjudication",
-    "code": "amu",
-    "base": "amulet",
-    "level": 26,
-    "levelreq": 67,
-    "props": [
-      {
-        "min": 33,
-        "max": 33,
-        "par": null,
+        "max": 30,
+        "min": 30,
+        "par": 0,
         "prop": "res-ltng"
       },
       {
-        "min": 2,
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "thorns"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "indestruct"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "block"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "block3"
+      }
+    ],
+    "set": "Heaven's Brethren"
+  },
+  "tal_rashas_adjudication": {
+    "base": "amulet",
+    "code": "amu",
+    "display_name": "Tal Rasha's Adjudication",
+    "level": 26,
+    "levelreq": 67,
+    "name": "tal_rashas_adjudication",
+    "props": [
+      {
+        "max": 33,
+        "min": 33,
+        "par": 0,
+        "prop": "res-ltng"
+      },
+      {
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "sor"
       },
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 3,
         "max": 32,
-        "par": null,
+        "min": 3,
+        "par": 0,
         "prop": "dmg-ltng"
       },
       {
-        "min": 42,
         "max": 42,
-        "par": null,
+        "min": 42,
+        "par": 0,
         "prop": "mana"
       }
     ],
     "set": "Tal Rasha's Wrappings"
   },
   "tal_rashas_finespun_cloth": {
-    "name": "tal_rashas_finespun_cloth",
-    "display_name": "Tal Rasha's Fine-Spun Cloth",
-    "code": "zmb",
     "base": "mesh_belt",
+    "code": "zmb",
+    "display_name": "Tal Rasha's Fine-Spun Cloth",
     "level": 26,
     "levelreq": 53,
+    "name": "tal_rashas_finespun_cloth",
     "props": [
       {
-        "min": -20,
         "max": -20,
-        "par": null,
+        "min": -20,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 37,
         "max": 37,
-        "par": null,
+        "min": 37,
+        "par": 0,
         "prop": "dmg-to-mana"
       },
       {
-        "min": 10,
         "max": 15,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "mag%"
-      }
-    ],
-    "set": "Tal Rasha's Wrappings"
-  },
-  "tal_rashas_horadric_crest": {
-    "name": "tal_rashas_horadric_crest",
-    "display_name": "Tal Rasha's Horadric Crest",
-    "code": "xsk",
-    "base": "death_mask",
-    "level": 26,
-    "levelreq": 66,
-    "props": [
-      {
-        "min": 30,
-        "max": 30,
-        "par": null,
-        "prop": "mana"
-      },
-      {
-        "min": 60,
-        "max": 60,
-        "par": null,
-        "prop": "hp"
-      },
-      {
-        "min": 45,
-        "max": 45,
-        "par": null,
-        "prop": "ac"
-      },
-      {
-        "min": 15,
-        "max": 15,
-        "par": null,
-        "prop": "res-all"
-      },
-      {
-        "min": 10,
-        "max": 10,
-        "par": null,
-        "prop": "lifesteal"
-      },
-      {
-        "min": 10,
-        "max": 10,
-        "par": null,
-        "prop": "manasteal"
       }
     ],
     "set": "Tal Rasha's Wrappings"
   },
   "tal_rashas_guardianship": {
-    "name": "tal_rashas_guardianship",
-    "display_name": "Tal Rasha's Guardianship",
-    "code": "uth",
     "base": "lacquered_plate",
+    "code": "uth",
+    "display_name": "Tal Rasha's Guardianship",
     "level": 26,
     "levelreq": 71,
+    "name": "tal_rashas_guardianship",
     "props": [
       {
-        "min": -60,
         "max": -60,
-        "par": null,
+        "min": -60,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "red-mag"
       },
       {
-        "min": 88,
         "max": 88,
-        "par": null,
+        "min": 88,
+        "par": 0,
         "prop": "mag%"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "res-ltng"
       },
       {
-        "min": 400,
         "max": 400,
-        "par": null,
+        "min": 400,
+        "par": 0,
         "prop": "ac"
       }
     ],
     "set": "Tal Rasha's Wrappings"
   },
-  "tal_rashas_lidless_eye": {
-    "name": "tal_rashas_lidless_eye",
-    "display_name": "Tal Rasha's Lidless Eye",
-    "code": "oba",
-    "base": "swirling_crystal",
+  "tal_rashas_horadric_crest": {
+    "base": "death_mask",
+    "code": "xsk",
+    "display_name": "Tal Rasha's Horadric Crest",
     "level": 26,
-    "levelreq": 65,
+    "levelreq": 66,
+    "name": "tal_rashas_horadric_crest",
     "props": [
       {
-        "min": 57,
-        "max": 57,
-        "par": null,
-        "prop": "hp"
-      },
-      {
-        "min": 77,
-        "max": 77,
-        "par": null,
+        "max": 30,
+        "min": 30,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 10,
+        "max": 60,
+        "min": 60,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
+        "prop": "lifesteal"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "manasteal"
+      }
+    ],
+    "set": "Tal Rasha's Wrappings"
+  },
+  "tal_rashas_lidless_eye": {
+    "base": "swirling_crystal",
+    "code": "oba",
+    "display_name": "Tal Rasha's Lidless Eye",
+    "level": 26,
+    "levelreq": 65,
+    "name": "tal_rashas_lidless_eye",
+    "props": [
+      {
+        "max": 57,
+        "min": 57,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 77,
+        "min": 77,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
         "prop": "enr"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "cast3"
       },
       {
-        "min": 1,
         "max": 2,
-        "par": null,
+        "min": 1,
+        "par": "Fire Mastery",
         "prop": "skill"
       },
       {
-        "min": 1,
         "max": 2,
-        "par": null,
+        "min": 1,
+        "par": "Lightning Mastery",
         "prop": "skill"
       },
       {
-        "min": 1,
         "max": 2,
-        "par": null,
+        "min": 1,
+        "par": "Cold Mastery",
         "prop": "skill"
       }
     ],
     "set": "Tal Rasha's Wrappings"
   },
   "tancreds_crowbill": {
-    "name": "tancreds_crowbill",
-    "display_name": "Tancred's Crowbill",
-    "code": "mpi",
     "base": "military_pick",
+    "code": "mpi",
+    "display_name": "Tancred's Crowbill",
     "level": 27,
     "levelreq": 20,
+    "name": "tancreds_crowbill",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "att"
       },
       {
-        "min": 80,
         "max": 80,
-        "par": null,
+        "min": 80,
+        "par": 0,
         "prop": "dmg%"
       }
     ],
     "set": "Tancred's Battlegear"
   },
   "tancreds_hobnails": {
-    "name": "tancreds_hobnails",
-    "display_name": "Tancred's Hobnails",
-    "code": "lbt",
     "base": "boots",
+    "code": "lbt",
+    "display_name": "Tancred's Hobnails",
     "level": 27,
     "levelreq": 20,
+    "name": "tancreds_hobnails",
     "props": [
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "regen-stam"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "dex"
       }
     ],
     "set": "Tancred's Battlegear"
   },
   "tancreds_skull": {
-    "name": "tancreds_skull",
-    "display_name": "Tancred's Skull",
-    "code": "bhm",
     "base": "bone_helm",
+    "code": "bhm",
+    "display_name": "Tancred's Skull",
     "level": 27,
     "levelreq": 20,
+    "name": "tancreds_skull",
     "props": [
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "dmg%"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "att"
       }
     ],
     "set": "Tancred's Battlegear"
   },
   "tancreds_spine": {
-    "name": "tancreds_spine",
-    "display_name": "Tancred's Spine",
-    "code": "ful",
     "base": "full_plate_mail",
+    "code": "ful",
+    "display_name": "Tancred's Spine",
     "level": 27,
     "levelreq": 20,
+    "name": "tancreds_spine",
     "props": [
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "str"
       }
     ],
     "set": "Tancred's Battlegear"
   },
   "tancreds_weird": {
-    "name": "tancreds_weird",
-    "display_name": "Tancred's Weird",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Tancred's Weird",
     "level": 27,
     "levelreq": 20,
+    "name": "tancreds_weird",
     "props": [
       {
-        "min": 2,
         "max": 2,
-        "par": null,
+        "min": 2,
+        "par": 0,
         "prop": "red-dmg"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "red-mag"
       }
     ],
     "set": "Tancred's Battlegear"
   },
   "telling_of_beads": {
-    "name": "telling_of_beads",
-    "display_name": "Telling of Beads",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Telling of Beads",
     "level": 39,
     "levelreq": 30,
+    "name": "telling_of_beads",
     "props": [
       {
-        "min": 35,
-        "max": 50,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "allskills"
       },
       {
-        "min": 18,
         "max": 18,
-        "par": null,
+        "min": 18,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 8,
         "max": 10,
-        "par": null,
+        "min": 8,
+        "par": 0,
         "prop": "thorns"
       }
     ],
     "set": "The Disciple"
   },
   "trangouls_claws": {
-    "name": "trangouls_claws",
-    "display_name": "Trang-Oul's Claws",
-    "code": "xmg",
     "base": "heavy_bracers",
+    "code": "xmg",
+    "display_name": "Trang-Oul's Claws",
     "level": 32,
     "levelreq": 45,
+    "name": "trangouls_claws",
     "props": [
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "cast3"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 6,
+        "min": 2,
+        "par": "Curses",
         "prop": "skilltab"
       }
     ],
     "set": "Trang-Oul's Avatar"
   },
   "trangouls_girth": {
-    "name": "trangouls_girth",
-    "display_name": "Trang-Oul's Girth",
-    "code": "utc",
     "base": "troll_belt",
+    "code": "utc",
+    "display_name": "Trang-Oul's Girth",
     "level": 32,
     "levelreq": 47,
+    "name": "trangouls_girth",
     "props": [
       {
-        "min": 75,
         "max": 100,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "stam"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "regen"
       },
       {
-        "min": 66,
         "max": 66,
-        "par": null,
+        "min": 66,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "nofreeze"
       },
       {
-        "min": -40,
         "max": -40,
-        "par": null,
+        "min": -40,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 25,
         "max": 50,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "mana"
       }
     ],
     "set": "Trang-Oul's Avatar"
   },
   "trangouls_guise": {
-    "name": "trangouls_guise",
-    "display_name": "Trang-Oul's Guise",
-    "code": "uh9",
     "base": "bone_visage",
+    "code": "uh9",
+    "display_name": "Trang-Oul's Guise",
     "level": 32,
     "levelreq": 65,
+    "name": "trangouls_guise",
     "props": [
       {
-        "min": 80,
         "max": 100,
-        "par": null,
+        "min": 80,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "balance2"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "thorns"
       },
       {
-        "min": 150,
         "max": 150,
-        "par": null,
+        "min": 150,
+        "par": 0,
         "prop": "mana"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "regen"
       }
     ],
     "set": "Trang-Oul's Avatar"
   },
   "trangouls_scales": {
-    "name": "trangouls_scales",
-    "display_name": "Trang-Oul's Scales",
-    "code": "xul",
     "base": "chaos_armor",
+    "code": "xul",
+    "display_name": "Trang-Oul's Scales",
     "level": 32,
     "levelreq": 49,
+    "name": "trangouls_scales",
     "props": [
       {
-        "min": -40,
         "max": -40,
-        "par": null,
+        "min": -40,
+        "par": 0,
         "prop": "ease"
       },
       {
-        "min": 100,
         "max": 100,
-        "par": null,
+        "min": 100,
+        "par": 0,
         "prop": "ac-miss"
       },
       {
-        "min": 40,
-        "max": 40,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 8,
+        "min": 2,
+        "par": "Summoning Skills",
         "prop": "skilltab"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "move3"
       },
       {
-        "min": 150,
         "max": 150,
-        "par": null,
+        "min": 150,
+        "par": 0,
         "prop": "ac%"
       }
     ],
     "set": "Trang-Oul's Avatar"
   },
   "trangouls_wing": {
-    "name": "trangouls_wing",
-    "display_name": "Trang-Oul's Wing",
-    "code": "ne9",
     "base": "cantor_trophy",
+    "code": "ne9",
+    "display_name": "Trang-Oul's Wing",
     "level": 32,
     "levelreq": 54,
+    "name": "trangouls_wing",
     "props": [
       {
-        "min": 125,
         "max": 125,
-        "par": null,
+        "min": 125,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 25,
         "max": 25,
-        "par": null,
+        "min": 25,
+        "par": 0,
         "prop": "str"
       },
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "dex"
       },
       {
-        "min": 38,
         "max": 45,
-        "par": null,
+        "min": 38,
+        "par": 0,
         "prop": "res-fire"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "block"
       },
       {
-        "min": 40,
-        "max": 40,
-        "par": null,
+        "max": 0,
+        "min": 0,
+        "par": 0,
         "prop": "res-pois"
       },
       {
-        "min": 2,
         "max": 2,
-        "par": 7,
+        "min": 2,
+        "par": "Poison and Bone Skills",
         "prop": "skilltab"
       }
     ],
     "set": "Trang-Oul's Avatar"
   },
   "vidalas_ambush": {
-    "name": "vidalas_ambush",
-    "display_name": "Vidala's Ambush",
-    "code": "lea",
     "base": "leather_armor",
+    "code": "lea",
+    "display_name": "Vidala's Ambush",
     "level": 19,
     "levelreq": 14,
+    "name": "vidalas_ambush",
     "props": [
       {
-        "min": 50,
         "max": 50,
-        "par": null,
+        "min": 50,
+        "par": 0,
         "prop": "ac"
       },
       {
-        "min": 11,
         "max": 11,
-        "par": null,
+        "min": 11,
+        "par": 0,
         "prop": "dex"
       }
     ],
     "set": "Vidala's Rig"
   },
   "vidalas_barb": {
-    "name": "vidalas_barb",
-    "display_name": "Vidala's Barb",
-    "code": "lbb",
     "base": "long_battle_bow",
+    "code": "lbb",
+    "display_name": "Vidala's Barb",
     "level": 19,
     "levelreq": 14,
+    "name": "vidalas_barb",
     "props": [
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "ltng-min"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "ltng-max"
       }
     ],
     "set": "Vidala's Rig"
   },
   "vidalas_fetlock": {
-    "name": "vidalas_fetlock",
-    "display_name": "Vidala's Fetlock",
-    "code": "tbt",
     "base": "light_plated_boots",
+    "code": "tbt",
+    "display_name": "Vidala's Fetlock",
     "level": 19,
     "levelreq": 14,
+    "name": "vidalas_fetlock",
     "props": [
       {
-        "min": 150,
         "max": 150,
-        "par": null,
+        "min": 150,
+        "par": 0,
         "prop": "stam"
       },
       {
-        "min": 30,
         "max": 30,
-        "par": null,
+        "min": 30,
+        "par": 0,
         "prop": "move3"
       }
     ],
     "set": "Vidala's Rig"
   },
   "vidalas_snare": {
-    "name": "vidalas_snare",
-    "display_name": "Vidala's Snare",
-    "code": "amu",
     "base": "amulet",
+    "code": "amu",
+    "display_name": "Vidala's Snare",
     "level": 19,
     "levelreq": 14,
+    "name": "vidalas_snare",
     "props": [
       {
-        "min": 15,
         "max": 15,
-        "par": null,
+        "min": 15,
+        "par": 0,
         "prop": "hp"
       },
       {
-        "min": 20,
         "max": 20,
-        "par": null,
+        "min": 20,
+        "par": 0,
         "prop": "res-cold"
       }
     ],
     "set": "Vidala's Rig"
   },
   "whitstans_guard": {
-    "name": "whitstans_guard",
-    "display_name": "Whitstan's Guard",
-    "code": "xml",
     "base": "round_shield",
+    "code": "xml",
+    "display_name": "Whitstan's Guard",
     "level": 41,
     "levelreq": 29,
+    "name": "whitstans_guard",
     "props": [
       {
-        "min": 175,
         "max": 175,
-        "par": null,
+        "min": 175,
+        "par": 0,
         "prop": "ac%"
       },
       {
-        "min": 40,
         "max": 40,
-        "par": null,
+        "min": 40,
+        "par": 0,
         "prop": "block3"
       },
       {
-        "min": 55,
         "max": 55,
-        "par": null,
+        "min": 55,
+        "par": 0,
         "prop": "block"
       },
       {
-        "min": 1,
         "max": 1,
-        "par": null,
+        "min": 1,
+        "par": 0,
         "prop": "half-freeze"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "light"
       }
     ],
     "set": "Orphan's Call"
   },
   "wilhelms_pride": {
-    "name": "wilhelms_pride",
-    "display_name": "Wilhelm's Pride",
-    "code": "ztb",
     "base": "battle_belt",
+    "code": "ztb",
+    "display_name": "Wilhelm's Pride",
     "level": 41,
     "levelreq": 42,
+    "name": "wilhelms_pride",
     "props": [
       {
-        "min": 75,
         "max": 75,
-        "par": null,
+        "min": 75,
+        "par": 0,
         "prop": "ac%"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "manasteal"
       },
       {
-        "min": 10,
         "max": 10,
-        "par": null,
+        "min": 10,
+        "par": 0,
         "prop": "res-cold"
       },
       {
-        "min": 5,
         "max": 5,
-        "par": null,
+        "min": 5,
+        "par": 0,
         "prop": "lifesteal"
       }
     ],

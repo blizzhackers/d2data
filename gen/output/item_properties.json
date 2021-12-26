@@ -8,9 +8,15 @@
     "patterns": [
       {
         "neg": "-{:d} Cold Absorb",
-        "pos": "+{:d} Cold Absorb"
+        "pos": "+{:d} Cold Absorb",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-cold%": {
@@ -22,9 +28,15 @@
     "patterns": [
       {
         "neg": "Cold Absorb {:d}%",
-        "pos": "Cold Absorb {:d}%"
+        "pos": "Cold Absorb {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-cold/lvl": {
@@ -36,9 +48,15 @@
     "patterns": [
       {
         "neg": "-{:d} Absorbs Cold Damage (Based on Character Level)",
-        "pos": "+{:d} Absorbs Cold Damage (Based on Character Level)"
+        "pos": "+{:d} Absorbs Cold Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-cold/time": {
@@ -50,9 +68,15 @@
     "patterns": [
       {
         "neg": "-{:d} Absorbs Cold Damage",
-        "pos": "+{:d} Absorbs Cold Damage"
+        "pos": "+{:d} Absorbs Cold Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-crush": {
@@ -60,6 +84,7 @@
     "children": [],
     "code": "abs-crush",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-crush%": {
@@ -67,6 +92,7 @@
     "children": [],
     "code": "abs-crush%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-fire": {
@@ -78,9 +104,15 @@
     "patterns": [
       {
         "neg": "-{:d} Fire Absorb",
-        "pos": "+{:d} Fire Absorb"
+        "pos": "+{:d} Fire Absorb",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-fire%": {
@@ -92,9 +124,15 @@
     "patterns": [
       {
         "neg": "Fire Absorb {:d}%",
-        "pos": "Fire Absorb {:d}%"
+        "pos": "Fire Absorb {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-fire/lvl": {
@@ -106,9 +144,15 @@
     "patterns": [
       {
         "neg": "-{:d} Absorbs Fire Damage (Based on Character Level)",
-        "pos": "+{:d} Absorbs Fire Damage (Based on Character Level)"
+        "pos": "+{:d} Absorbs Fire Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-fire/time": {
@@ -120,9 +164,15 @@
     "patterns": [
       {
         "neg": "-{:d} Absorbs Fire Damage",
-        "pos": "+{:d} Absorbs Fire Damage"
+        "pos": "+{:d} Absorbs Fire Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-ltng": {
@@ -134,9 +184,15 @@
     "patterns": [
       {
         "neg": "-{:d} Lightning Absorb",
-        "pos": "+{:d} Lightning Absorb"
+        "pos": "+{:d} Lightning Absorb",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-ltng%": {
@@ -148,9 +204,15 @@
     "patterns": [
       {
         "neg": "Lightning Absorb {:d}%",
-        "pos": "Lightning Absorb {:d}%"
+        "pos": "Lightning Absorb {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-ltng/lvl": {
@@ -162,9 +224,15 @@
     "patterns": [
       {
         "neg": "-{:d} Absorbs Lightning Damage (Based on Character Level)",
-        "pos": "+{:d} Absorbs Lightning Damage (Based on Character Level)"
+        "pos": "+{:d} Absorbs Lightning Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-ltng/time": {
@@ -176,9 +244,15 @@
     "patterns": [
       {
         "neg": "-{:d} Absorbs Lightning Damage",
-        "pos": "+{:d} Absorbs Lightning Damage"
+        "pos": "+{:d} Absorbs Lightning Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-mag": {
@@ -190,9 +264,15 @@
     "patterns": [
       {
         "neg": "-{:d} Magic Absorb",
-        "pos": "+{:d} Magic Absorb"
+        "pos": "+{:d} Magic Absorb",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-mag%": {
@@ -204,9 +284,15 @@
     "patterns": [
       {
         "neg": "Magic Absorb {:d}%",
-        "pos": "Magic Absorb {:d}%"
+        "pos": "Magic Absorb {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "abs-pois/lvl": {
@@ -216,6 +302,7 @@
     "children": [],
     "code": "abs-pois/lvl",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-pois/time": {
@@ -225,6 +312,7 @@
     "children": [],
     "code": "abs-pois/time",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-slash": {
@@ -232,6 +320,7 @@
     "children": [],
     "code": "abs-slash",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-slash%": {
@@ -239,6 +328,7 @@
     "children": [],
     "code": "abs-slash%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-thrust": {
@@ -246,6 +336,7 @@
     "children": [],
     "code": "abs-thrust",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "abs-thrust%": {
@@ -253,6 +344,7 @@
     "children": [],
     "code": "abs-thrust%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "ac": {
@@ -264,9 +356,15 @@
     "patterns": [
       {
         "neg": "-{:d} Defense",
-        "pos": "+{:d} Defense"
+        "pos": "+{:d} Defense",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac%": {
@@ -278,9 +376,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Enhanced Defense",
-        "pos": "+{:d}% Enhanced Defense"
+        "pos": "+{:d}% Enhanced Defense",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac%-mon": {
@@ -288,6 +392,7 @@
     "children": [],
     "code": "ac%-mon",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "ac%/lvl": {
@@ -299,9 +404,15 @@
     "patterns": [
       {
         "neg": "{:d}% Enhanced Defense (Based on Character Level)",
-        "pos": "{:d}% Enhanced Defense (Based on Character Level)"
+        "pos": "{:d}% Enhanced Defense (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac%/time": {
@@ -313,9 +424,15 @@
     "patterns": [
       {
         "neg": "-{:d} Enhanced Defense",
-        "pos": "+{:d} Enhanced Defense"
+        "pos": "+{:d} Enhanced Defense",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac-hth": {
@@ -327,9 +444,15 @@
     "patterns": [
       {
         "neg": "-{:d} Defense vs. Melee",
-        "pos": "+{:d} Defense vs. Melee"
+        "pos": "+{:d} Defense vs. Melee",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac-miss": {
@@ -341,9 +464,15 @@
     "patterns": [
       {
         "neg": "-{:d} Defense vs. Missile",
-        "pos": "+{:d} Defense vs. Missile"
+        "pos": "+{:d} Defense vs. Missile",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac-mon": {
@@ -351,6 +480,7 @@
     "children": [],
     "code": "ac-mon",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "ac/lvl": {
@@ -362,9 +492,15 @@
     "patterns": [
       {
         "neg": "-{:d} Defense (Based on Character Level)",
-        "pos": "+{:d} Defense (Based on Character Level)"
+        "pos": "+{:d} Defense (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ac/time": {
@@ -376,9 +512,15 @@
     "patterns": [
       {
         "neg": "-{:d} Defense",
-        "pos": "+{:d} Defense"
+        "pos": "+{:d} Defense",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "addxp": {
@@ -390,9 +532,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Experience Gained",
-        "pos": "+{:d}% to Experience Gained"
+        "pos": "+{:d}% to Experience Gained",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "all-stats": {
@@ -410,6 +558,7 @@
         "pos": "+{:d} to all Attributes"
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "allskills": {
@@ -421,9 +570,15 @@
     "patterns": [
       {
         "neg": "-{:d} to All Skills",
-        "pos": "+{:d} to All Skills"
+        "pos": "+{:d} to All Skills",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ama": {
@@ -435,9 +590,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Amazon Skill Levels",
-        "pos": "+{:d} to Amazon Skill Levels"
+        "pos": "+{:d} to Amazon Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ass": {
@@ -449,9 +610,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Assassin Skill Levels",
-        "pos": "+{:d} to Assassin Skill Levels"
+        "pos": "+{:d} to Assassin Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att": {
@@ -463,9 +630,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating",
-        "pos": "+{:d} to Attack Rating"
+        "pos": "+{:d} to Attack Rating",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att%": {
@@ -477,9 +650,15 @@
     "patterns": [
       {
         "neg": "{:d}% Bonus to Attack Rating",
-        "pos": "{:d}% Bonus to Attack Rating"
+        "pos": "{:d}% Bonus to Attack Rating",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att%-mon": {
@@ -487,6 +666,7 @@
     "children": [],
     "code": "att%-mon",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "att%/lvl": {
@@ -498,9 +678,15 @@
     "patterns": [
       {
         "neg": "{:d}% Bonus to Attack Rating (Based on Character Level)",
-        "pos": "{:d}% Bonus to Attack Rating (Based on Character Level)"
+        "pos": "{:d}% Bonus to Attack Rating (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att%/time": {
@@ -512,9 +698,15 @@
     "patterns": [
       {
         "neg": "-{:d} Bonus to Attack Rating",
-        "pos": "+{:d} Bonus to Attack Rating"
+        "pos": "+{:d} Bonus to Attack Rating",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-dem/lvl": {
@@ -526,9 +718,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Demons (Based on Character Level)",
-        "pos": "+{:d} to Attack Rating against Demons (Based on Character Level)"
+        "pos": "+{:d} to Attack Rating against Demons (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-dem/time": {
@@ -540,9 +738,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Demons",
-        "pos": "+{:d} to Attack Rating against Demons"
+        "pos": "+{:d} to Attack Rating against Demons",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-demon": {
@@ -554,9 +758,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Demons",
-        "pos": "+{:d} to Attack Rating against Demons"
+        "pos": "+{:d} to Attack Rating against Demons",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-mon": {
@@ -564,6 +774,7 @@
     "children": [],
     "code": "att-mon",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "att-mon%": {
@@ -575,9 +786,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating versus {}",
-        "pos": "+{:d} to Attack Rating versus {}"
+        "pos": "+{:d} to Attack Rating versus {}",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-skill": {
@@ -589,9 +806,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} on attack",
-        "pos": "{:d}% Chance to cast level {:d} {} on attack"
+        "pos": "{:d}% Chance to cast level {:d} {} on attack",
+        "spec": [
+          0,
+          -1,
+          2
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-und/lvl": {
@@ -603,9 +826,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Undead (Based on Character Level)",
-        "pos": "+{:d} to Attack Rating against Undead (Based on Character Level)"
+        "pos": "+{:d} to Attack Rating against Undead (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-und/time": {
@@ -617,9 +846,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Undead",
-        "pos": "+{:d} to Attack Rating against Undead"
+        "pos": "+{:d} to Attack Rating against Undead",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att-undead": {
@@ -631,9 +866,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Undead",
-        "pos": "+{:d} to Attack Rating against Undead"
+        "pos": "+{:d} to Attack Rating against Undead",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att/lvl": {
@@ -645,9 +886,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating (Based on Character Level)",
-        "pos": "+{:d} to Attack Rating (Based on Character Level)"
+        "pos": "+{:d} to Attack Rating (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "att/time": {
@@ -659,9 +906,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating",
-        "pos": "+{:d} to Attack Rating"
+        "pos": "+{:d} to Attack Rating",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "aura": {
@@ -673,9 +926,15 @@
     "patterns": [
       {
         "neg": "Level {:d} {} Aura When Equipped",
-        "pos": "Level {:d} {} Aura When Equipped"
+        "pos": "Level {:d} {} Aura When Equipped",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "balance1": {
@@ -687,9 +946,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Hit Recovery",
-        "pos": "+{:d}% Faster Hit Recovery"
+        "pos": "+{:d}% Faster Hit Recovery",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "balance2": {
@@ -701,9 +966,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Hit Recovery",
-        "pos": "+{:d}% Faster Hit Recovery"
+        "pos": "+{:d}% Faster Hit Recovery",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "balance3": {
@@ -715,9 +986,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Hit Recovery",
-        "pos": "+{:d}% Faster Hit Recovery"
+        "pos": "+{:d}% Faster Hit Recovery",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "bar": {
@@ -729,9 +1006,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Barbarian Skill Levels",
-        "pos": "+{:d} to Barbarian Skill Levels"
+        "pos": "+{:d} to Barbarian Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "block": {
@@ -743,9 +1026,15 @@
     "patterns": [
       {
         "neg": "{:d}% Increased Chance of Blocking",
-        "pos": "{:d}% Increased Chance of Blocking"
+        "pos": "{:d}% Increased Chance of Blocking",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "block1": {
@@ -757,9 +1046,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Block Rate",
-        "pos": "+{:d}% Faster Block Rate"
+        "pos": "+{:d}% Faster Block Rate",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "block2": {
@@ -771,9 +1066,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Block Rate",
-        "pos": "+{:d}% Faster Block Rate"
+        "pos": "+{:d}% Faster Block Rate",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "block3": {
@@ -785,9 +1086,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Block Rate",
-        "pos": "+{:d}% Faster Block Rate"
+        "pos": "+{:d}% Faster Block Rate",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "bloody": {
@@ -797,6 +1104,7 @@
     "children": [],
     "code": "bloody",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "cast1": {
@@ -808,9 +1116,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Cast Rate",
-        "pos": "+{:d}% Faster Cast Rate"
+        "pos": "+{:d}% Faster Cast Rate",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "cast2": {
@@ -822,9 +1136,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Cast Rate",
-        "pos": "+{:d}% Faster Cast Rate"
+        "pos": "+{:d}% Faster Cast Rate",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "cast3": {
@@ -836,9 +1156,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Cast Rate",
-        "pos": "+{:d}% Faster Cast Rate"
+        "pos": "+{:d}% Faster Cast Rate",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "charged": {
@@ -850,9 +1176,15 @@
     "patterns": [
       {
         "neg": "Level {:d} {} ({:d}/{:d} Charges)",
-        "pos": "Level {:d} {} ({:d}/{:d} Charges)"
+        "pos": "Level {:d} {} ({:d}/{:d} Charges)",
+        "spec": [
+          3,
+          0,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "cheap": {
@@ -864,9 +1196,15 @@
     "patterns": [
       {
         "neg": "Reduces all Vendor Prices {:d}%",
-        "pos": "Reduces all Vendor Prices {:d}%"
+        "pos": "Reduces all Vendor Prices {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "cold-len": {
@@ -876,6 +1214,7 @@
     "children": [],
     "code": "cold-len",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "cold-max": {
@@ -887,9 +1226,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage"
+        "pos": "+{:d} to Maximum Cold Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "cold-min": {
@@ -901,9 +1246,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Minimum Cold Damage",
-        "pos": "+{:d} to Minimum Cold Damage"
+        "pos": "+{:d} to Minimum Cold Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "color": {
@@ -913,6 +1264,7 @@
     "children": [],
     "code": "color",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "crush": {
@@ -924,9 +1276,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance of Crushing Blow",
-        "pos": "{:d}% Chance of Crushing Blow"
+        "pos": "{:d}% Chance of Crushing Blow",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "crush/lvl": {
@@ -938,9 +1296,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance of Crushing Blow (Based on Character Level)",
-        "pos": "{:d}% Chance of Crushing Blow (Based on Character Level)"
+        "pos": "{:d}% Chance of Crushing Blow (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "crush/time": {
@@ -952,9 +1316,15 @@
     "patterns": [
       {
         "neg": "-{:d} Chance of Crushing Blow",
-        "pos": "+{:d} Chance of Crushing Blow"
+        "pos": "+{:d} Chance of Crushing Blow",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "deadly": {
@@ -966,9 +1336,15 @@
     "patterns": [
       {
         "neg": "{:d}% Deadly Strike",
-        "pos": "{:d}% Deadly Strike"
+        "pos": "{:d}% Deadly Strike",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "deadly/lvl": {
@@ -980,9 +1356,15 @@
     "patterns": [
       {
         "neg": "{:d}% Deadly Strike (Based on Character Level)",
-        "pos": "{:d}% Deadly Strike (Based on Character Level)"
+        "pos": "{:d}% Deadly Strike (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "deadly/time": {
@@ -994,9 +1376,15 @@
     "patterns": [
       {
         "neg": "-{:d} Deadly Strike",
-        "pos": "+{:d} Deadly Strike"
+        "pos": "+{:d} Deadly Strike",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "death-skill": {
@@ -1008,9 +1396,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when you Die",
-        "pos": "{:d}% Chance to cast level {:d} {} when you Die"
+        "pos": "{:d}% Chance to cast level {:d} {} when you Die",
+        "spec": [
+          0,
+          -1,
+          2
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "demon-heal": {
@@ -1022,9 +1416,15 @@
     "patterns": [
       {
         "neg": "-{:d} Life after each Demon Kill",
-        "pos": "+{:d} Life after each Demon Kill"
+        "pos": "+{:d} Life after each Demon Kill",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dex": {
@@ -1036,9 +1436,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Dexterity",
-        "pos": "+{:d} to Dexterity"
+        "pos": "+{:d} to Dexterity",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dex/lvl": {
@@ -1050,9 +1456,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Dexterity (Based on Character Level)",
-        "pos": "+{:d} to Dexterity (Based on Character Level)"
+        "pos": "+{:d} to Dexterity (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dex/time": {
@@ -1064,9 +1476,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Dexterity",
-        "pos": "+{:d} to Dexterity"
+        "pos": "+{:d} to Dexterity",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg": {
@@ -1078,16 +1496,35 @@
     "patterns": [
       {
         "neg": "Damage -{:d}",
-        "pos": "Damage +{:d}"
+        "pos": "Damage +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg%": {
     "aliases": [],
     "children": [],
     "code": "dmg%",
-    "patterns": [],
+    "patterns": [
+      [
+        {
+          "neg": "-{:d}% Enhanced damage",
+          "pos": "+{:d}% Enhanced damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [],
     "within": []
   },
   "dmg%-mon": {
@@ -1095,6 +1532,7 @@
     "children": [],
     "code": "dmg%-mon",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg%/lvl": {
@@ -1106,9 +1544,15 @@
     "patterns": [
       {
         "neg": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
-        "pos": "{:d}% Enhanced Maximum Damage (Based on Character Level)"
+        "pos": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg%/time": {
@@ -1120,9 +1564,15 @@
     "patterns": [
       {
         "neg": "-{:d} Enhanced Maximum Damage",
-        "pos": "+{:d} Enhanced Maximum Damage"
+        "pos": "+{:d} Enhanced Maximum Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-ac": {
@@ -1134,9 +1584,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Monster Defense Per Hit",
-        "pos": "+{:d} to Monster Defense Per Hit"
+        "pos": "+{:d} to Monster Defense Per Hit",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-cold": {
@@ -1148,14 +1604,30 @@
     ],
     "code": "dmg-cold",
     "patterns": [
-      {
-        "neg": "-{:d} to Minimum Cold Damage",
-        "pos": "+{:d} to Minimum Cold Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage"
-      }
+      [
+        {
+          "neg": "+{:d} cold damage",
+          "pos": "+{:d} cold damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} cold damage",
+          "pos": "Adds {:d}-{:d} cold damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
     ],
     "within": []
   },
@@ -1168,9 +1640,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Cold Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Cold Damage (Based on Character Level)"
+        "pos": "+{:d} to Maximum Cold Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-cold/time": {
@@ -1182,9 +1660,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage"
+        "pos": "+{:d} to Maximum Cold Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-crush": {
@@ -1192,6 +1676,7 @@
     "children": [],
     "code": "dmg-crush",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-crush%": {
@@ -1199,6 +1684,7 @@
     "children": [],
     "code": "dmg-crush%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-dem/lvl": {
@@ -1210,9 +1696,15 @@
     "patterns": [
       {
         "neg": "{:d}% Damage to Demons (Based on Character Level)",
-        "pos": "{:d}% Damage to Demons (Based on Character Level)"
+        "pos": "{:d}% Damage to Demons (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-dem/time": {
@@ -1224,9 +1716,15 @@
     "patterns": [
       {
         "neg": "-{:d} Damage to Demons",
-        "pos": "+{:d} Damage to Demons"
+        "pos": "+{:d} Damage to Demons",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-demon": {
@@ -1238,9 +1736,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Damage to Demons",
-        "pos": "+{:d}% Damage to Demons"
+        "pos": "+{:d}% Damage to Demons",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-elem": {
@@ -1255,31 +1759,41 @@
       "cold-len"
     ],
     "code": "dmg-elem",
-    "patterns": [
-      {
-        "neg": "-{:d} to Minimum Fire Damage",
-        "pos": "+{:d} to Minimum Fire Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage"
-      },
-      {
-        "neg": "-{:d} to Minimum Lightning Damage",
-        "pos": "+{:d} to Minimum Lightning Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage"
-      },
-      {
-        "neg": "-{:d} to Minimum Cold Damage",
-        "pos": "+{:d} to Minimum Cold Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage"
-      }
+    "patterns": [],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} cold damage",
+          "pos": "Adds {:d}-{:d} cold damage",
+          "spec": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ],
+      [
+        {
+          "neg": "Adds {:d}-{:d} fire damage",
+          "pos": "Adds {:d}-{:d} fire damage",
+          "spec": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ],
+      [
+        {
+          "neg": "Adds {:d}-{:d} lightning damage",
+          "pos": "Adds {:d}-{:d} lightning damage",
+          "spec": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ]
     ],
     "within": []
   },
@@ -1295,17 +1809,33 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage"
+        "pos": "+{:d} to Maximum Fire Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage"
+        "pos": "+{:d} to Maximum Lightning Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage"
+        "pos": "+{:d} to Maximum Cold Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-elem-min": {
@@ -1319,17 +1849,33 @@
     "patterns": [
       {
         "neg": "-{:d} to Minimum Fire Damage",
-        "pos": "+{:d} to Minimum Fire Damage"
+        "pos": "+{:d} to Minimum Fire Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d} to Minimum Lightning Damage",
-        "pos": "+{:d} to Minimum Lightning Damage"
+        "pos": "+{:d} to Minimum Lightning Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d} to Minimum Cold Damage",
-        "pos": "+{:d} to Minimum Cold Damage"
+        "pos": "+{:d} to Minimum Cold Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-fire": {
@@ -1340,14 +1886,30 @@
     ],
     "code": "dmg-fire",
     "patterns": [
-      {
-        "neg": "-{:d} to Minimum Fire Damage",
-        "pos": "+{:d} to Minimum Fire Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage"
-      }
+      [
+        {
+          "neg": "+{:d} fire damage",
+          "pos": "+{:d} fire damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} fire damage",
+          "pos": "Adds {:d}-{:d} fire damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
     ],
     "within": []
   },
@@ -1360,9 +1922,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Fire Damage (Based on Character Level)"
+        "pos": "+{:d} to Maximum Fire Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-fire/time": {
@@ -1374,9 +1942,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage"
+        "pos": "+{:d} to Maximum Fire Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-ltng": {
@@ -1387,14 +1961,30 @@
     ],
     "code": "dmg-ltng",
     "patterns": [
-      {
-        "neg": "-{:d} to Minimum Lightning Damage",
-        "pos": "+{:d} to Minimum Lightning Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage"
-      }
+      [
+        {
+          "neg": "+{:d} lightning damage",
+          "pos": "+{:d} lightning damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} lightning damage",
+          "pos": "Adds {:d}-{:d} lightning damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
     ],
     "within": []
   },
@@ -1407,9 +1997,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Lightning Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Lightning Damage (Based on Character Level)"
+        "pos": "+{:d} to Maximum Lightning Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-ltng/time": {
@@ -1421,16 +2017,47 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage"
+        "pos": "+{:d} to Maximum Lightning Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-mag": {
     "aliases": null,
     "children": [],
     "code": "dmg-mag",
-    "patterns": [],
+    "patterns": [
+      [
+        {
+          "neg": "+{:d} magic damage",
+          "pos": "+{:d} magic damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} magic damage",
+          "pos": "Adds {:d}-{:d} magic damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
     "within": []
   },
   "dmg-max": {
@@ -1438,6 +2065,7 @@
     "children": [],
     "code": "dmg-max",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-min": {
@@ -1445,6 +2073,7 @@
     "children": [],
     "code": "dmg-min",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-mon": {
@@ -1452,6 +2081,7 @@
     "children": [],
     "code": "dmg-mon",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-mon%": {
@@ -1463,16 +2093,47 @@
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating versus {}",
-        "pos": "+{:d} to Attack Rating versus {}"
+        "pos": "+{:d} to Attack Rating versus {}",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-norm": {
     "aliases": null,
     "children": [],
     "code": "dmg-norm",
-    "patterns": [],
+    "patterns": [
+      [
+        {
+          "neg": "+{:d} damage",
+          "pos": "+{:d} damage",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} damage",
+          "pos": "Adds {:d}-{:d} damage",
+          "spec": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ]
+    ],
     "within": []
   },
   "dmg-pois": {
@@ -1484,14 +2145,30 @@
     ],
     "code": "dmg-pois",
     "patterns": [
-      {
-        "neg": "-{:d} to Minimum Poison Damage",
-        "pos": "+{:d} to Minimum Poison Damage"
-      },
-      {
-        "neg": "-{:d} to Maximum Poison Damage",
-        "pos": "+{:d} to Maximum Poison Damage"
-      }
+      [
+        {
+          "neg": "+{:d} poison damage over {:d} seconds",
+          "pos": "+{:d} poison damage over {:d} seconds",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
+    ],
+    "patterns_range": [
+      [
+        {
+          "neg": "Adds {:d}-{:d} poison damage over {:d} seconds",
+          "pos": "Adds {:d}-{:d} poison damage over {:d} seconds",
+          "spec": [
+            0,
+            -1,
+            -1
+          ]
+        }
+      ]
     ],
     "within": []
   },
@@ -1504,9 +2181,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Poison Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Poison Damage (Based on Character Level)"
+        "pos": "+{:d} to Maximum Poison Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-pois/time": {
@@ -1518,9 +2201,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Poison Damage",
-        "pos": "+{:d} to Maximum Poison Damage"
+        "pos": "+{:d} to Maximum Poison Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-slash": {
@@ -1528,6 +2217,7 @@
     "children": [],
     "code": "dmg-slash",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-slash%": {
@@ -1535,6 +2225,7 @@
     "children": [],
     "code": "dmg-slash%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-throw": {
@@ -1542,6 +2233,7 @@
     "children": [],
     "code": "dmg-throw",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-thrust": {
@@ -1549,6 +2241,7 @@
     "children": [],
     "code": "dmg-thrust",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-thrust%": {
@@ -1556,6 +2249,7 @@
     "children": [],
     "code": "dmg-thrust%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dmg-to-mana": {
@@ -1567,9 +2261,15 @@
     "patterns": [
       {
         "neg": "{:d}% Damage Taken Goes To Mana",
-        "pos": "{:d}% Damage Taken Goes To Mana"
+        "pos": "{:d}% Damage Taken Goes To Mana",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-und/lvl": {
@@ -1581,9 +2281,15 @@
     "patterns": [
       {
         "neg": "{:d}% Damage to Undead (Based on Character Level)",
-        "pos": "{:d}% Damage to Undead (Based on Character Level)"
+        "pos": "{:d}% Damage to Undead (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-und/time": {
@@ -1595,9 +2301,15 @@
     "patterns": [
       {
         "neg": "-{:d} Damage to Undead",
-        "pos": "+{:d} Damage to Undead"
+        "pos": "+{:d} Damage to Undead",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg-undead": {
@@ -1609,9 +2321,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Damage to Undead",
-        "pos": "+{:d}% Damage to Undead"
+        "pos": "+{:d}% Damage to Undead",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg/lvl": {
@@ -1623,9 +2341,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Damage (Based on Character Level)"
+        "pos": "+{:d} to Maximum Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dmg/time": {
@@ -1637,9 +2361,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Damage",
-        "pos": "+{:d} to Maximum Damage"
+        "pos": "+{:d} to Maximum Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dru": {
@@ -1651,9 +2381,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Druid Skill Levels",
-        "pos": "+{:d} to Druid Skill Levels"
+        "pos": "+{:d} to Druid Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "dur": {
@@ -1663,6 +2399,7 @@
     "children": [],
     "code": "dur",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "dur%": {
@@ -1674,9 +2411,15 @@
     "patterns": [
       {
         "neg": "Increase Maximum Durability {:d}%",
-        "pos": "Increase Maximum Durability {:d}%"
+        "pos": "Increase Maximum Durability {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ease": {
@@ -1688,9 +2431,15 @@
     "patterns": [
       {
         "neg": "Requirements -{:d}%",
-        "pos": "Requirements +{:d}%"
+        "pos": "Requirements +{:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "enr": {
@@ -1702,9 +2451,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Energy",
-        "pos": "+{:d} to Energy"
+        "pos": "+{:d} to Energy",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "enr/lvl": {
@@ -1716,9 +2471,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Energy (Based on Character Level)",
-        "pos": "+{:d} to Energy (Based on Character Level)"
+        "pos": "+{:d} to Energy (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "enr/time": {
@@ -1730,9 +2491,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Energy",
-        "pos": "+{:d} to Energy"
+        "pos": "+{:d} to Energy",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ethereal": {
@@ -1740,6 +2507,7 @@
     "children": [],
     "code": "ethereal",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "explosivearrow": {
@@ -1751,9 +2519,15 @@
     "patterns": [
       {
         "neg": "Fires Explosive Arrows or Bolts",
-        "pos": "Fires Explosive Arrows or Bolts"
+        "pos": "Fires Explosive Arrows or Bolts",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "extra-cold": {
@@ -1765,9 +2539,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Cold Skill Damage",
-        "pos": "+{:d}% to Cold Skill Damage"
+        "pos": "+{:d}% to Cold Skill Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "extra-fire": {
@@ -1779,9 +2559,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Fire Skill Damage",
-        "pos": "+{:d}% to Fire Skill Damage"
+        "pos": "+{:d}% to Fire Skill Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "extra-ltng": {
@@ -1793,9 +2579,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Lightning Skill Damage",
-        "pos": "+{:d}% to Lightning Skill Damage"
+        "pos": "+{:d}% to Lightning Skill Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "extra-pois": {
@@ -1807,9 +2599,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Poison Skill Damage",
-        "pos": "+{:d}% to Poison Skill Damage"
+        "pos": "+{:d}% to Poison Skill Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "fade": {
@@ -1819,6 +2617,7 @@
     "children": [],
     "code": "fade",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "fire-fx": {
@@ -1826,6 +2625,7 @@
     "children": [],
     "code": "fire-fx",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "fire-max": {
@@ -1837,9 +2637,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage"
+        "pos": "+{:d} to Maximum Fire Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "fire-min": {
@@ -1851,9 +2657,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Minimum Fire Damage",
-        "pos": "+{:d} to Minimum Fire Damage"
+        "pos": "+{:d} to Minimum Fire Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "fireskill": {
@@ -1865,9 +2677,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Fire Skills",
-        "pos": "+{:d} to Fire Skills"
+        "pos": "+{:d} to Fire Skills",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "freeze": {
@@ -1879,9 +2697,15 @@
     "patterns": [
       {
         "neg": "Freezes target -{:d}",
-        "pos": "Freezes target +{:d}"
+        "pos": "Freezes target +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "gembonus": {
@@ -1889,6 +2713,7 @@
     "children": [],
     "code": "gembonus",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "gems%/lvl": {
@@ -1896,6 +2721,7 @@
     "children": [],
     "code": "gems%/lvl",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "gems%/time": {
@@ -1903,6 +2729,7 @@
     "children": [],
     "code": "gems%/time",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "gethit-skill": {
@@ -1914,9 +2741,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when struck",
-        "pos": "{:d}% Chance to cast level {:d} {} when struck"
+        "pos": "{:d}% Chance to cast level {:d} {} when struck",
+        "spec": [
+          0,
+          -1,
+          2
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "gold%": {
@@ -1928,9 +2761,15 @@
     "patterns": [
       {
         "neg": "{:d}% Extra Gold from Monsters",
-        "pos": "{:d}% Extra Gold from Monsters"
+        "pos": "{:d}% Extra Gold from Monsters",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "gold%/lvl": {
@@ -1942,9 +2781,15 @@
     "patterns": [
       {
         "neg": "{:d}% Extra Gold from Monsters (Based on Character Level)",
-        "pos": "{:d}% Extra Gold from Monsters (Based on Character Level)"
+        "pos": "{:d}% Extra Gold from Monsters (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "gold%/time": {
@@ -1956,9 +2801,15 @@
     "patterns": [
       {
         "neg": "Extra Gold from Monsters -{:d}",
-        "pos": "Extra Gold from Monsters +{:d}"
+        "pos": "Extra Gold from Monsters +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "half-freeze": {
@@ -1970,9 +2821,15 @@
     "patterns": [
       {
         "neg": "Half Freeze Duration",
-        "pos": "Half Freeze Duration"
+        "pos": "Half Freeze Duration",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "heal-kill": {
@@ -1984,9 +2841,15 @@
     "patterns": [
       {
         "neg": "-{:d} Life after each Kill",
-        "pos": "+{:d} Life after each Kill"
+        "pos": "+{:d} Life after each Kill",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "herb": {
@@ -1996,6 +2859,7 @@
     "children": [],
     "code": "herb",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "hit-skill": {
@@ -2007,9 +2871,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} on striking",
-        "pos": "{:d}% Chance to cast level {:d} {} on striking"
+        "pos": "{:d}% Chance to cast level {:d} {} on striking",
+        "spec": [
+          0,
+          -1,
+          2
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "howl": {
@@ -2021,9 +2891,15 @@
     "patterns": [
       {
         "neg": "Hit Causes Monster to Flee {:d}%",
-        "pos": "Hit Causes Monster to Flee {:d}%"
+        "pos": "Hit Causes Monster to Flee {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "hp": {
@@ -2035,9 +2911,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Life",
-        "pos": "+{:d} to Life"
+        "pos": "+{:d} to Life",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "hp%": {
@@ -2049,9 +2931,15 @@
     "patterns": [
       {
         "neg": "Increase Maximum Life {:d}%",
-        "pos": "Increase Maximum Life {:d}%"
+        "pos": "Increase Maximum Life {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "hp/lvl": {
@@ -2063,9 +2951,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Life (Based on Character Level)",
-        "pos": "+{:d} to Life (Based on Character Level)"
+        "pos": "+{:d} to Life (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "hp/time": {
@@ -2077,9 +2971,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Life",
-        "pos": "+{:d} to Life"
+        "pos": "+{:d} to Life",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ignore-ac": {
@@ -2091,9 +2991,15 @@
     "patterns": [
       {
         "neg": "Ignore Target's Defense",
-        "pos": "Ignore Target's Defense"
+        "pos": "Ignore Target's Defense",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "indestruct": {
@@ -2101,6 +3007,7 @@
     "children": [],
     "code": "indestruct",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "item%": {
@@ -2108,6 +3015,7 @@
     "children": [],
     "code": "item%",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "kick": {
@@ -2119,9 +3027,15 @@
     "patterns": [
       {
         "neg": "-{:d} Kick Damage",
-        "pos": "+{:d} Kick Damage"
+        "pos": "+{:d} Kick Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "kick/lvl": {
@@ -2133,9 +3047,15 @@
     "patterns": [
       {
         "neg": "-{:d} Kick Damage (Based on Character Level)",
-        "pos": "+{:d} Kick Damage (Based on Character Level)"
+        "pos": "+{:d} Kick Damage (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "kick/time": {
@@ -2147,9 +3067,15 @@
     "patterns": [
       {
         "neg": "-{:d} Kick Damage",
-        "pos": "+{:d} Kick Damage"
+        "pos": "+{:d} Kick Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "kill-skill": {
@@ -2161,9 +3087,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
-        "pos": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy"
+        "pos": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
+        "spec": [
+          0,
+          -1,
+          2
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "knock": {
@@ -2175,9 +3107,15 @@
     "patterns": [
       {
         "neg": "Knockback",
-        "pos": "Knockback"
+        "pos": "Knockback",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "levelreq": {
@@ -2187,6 +3125,7 @@
     "children": [],
     "code": "levelreq",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "levelup-skill": {
@@ -2198,9 +3137,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when you Level-Up",
-        "pos": "{:d}% Chance to cast level {:d} {} when you Level-Up"
+        "pos": "{:d}% Chance to cast level {:d} {} when you Level-Up",
+        "spec": [
+          0,
+          -1,
+          2
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "lifesteal": {
@@ -2212,9 +3157,15 @@
     "patterns": [
       {
         "neg": "{:d}% Life stolen per hit",
-        "pos": "{:d}% Life stolen per hit"
+        "pos": "{:d}% Life stolen per hit",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "light": {
@@ -2226,9 +3177,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Light Radius",
-        "pos": "+{:d} to Light Radius"
+        "pos": "+{:d} to Light Radius",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "light-thorns": {
@@ -2240,9 +3197,15 @@
     "patterns": [
       {
         "neg": "Attacker Takes Lightning Damage of {:d}",
-        "pos": "Attacker Takes Lightning Damage of {:d}"
+        "pos": "Attacker Takes Lightning Damage of {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ltng-fx": {
@@ -2250,6 +3213,7 @@
     "children": [],
     "code": "ltng-fx",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "ltng-max": {
@@ -2261,9 +3225,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage"
+        "pos": "+{:d} to Maximum Lightning Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "ltng-min": {
@@ -2275,9 +3245,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Minimum Lightning Damage",
-        "pos": "+{:d} to Minimum Lightning Damage"
+        "pos": "+{:d} to Minimum Lightning Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mag%": {
@@ -2289,9 +3265,15 @@
     "patterns": [
       {
         "neg": "{:d}% Better Chance of Getting Magic Items",
-        "pos": "{:d}% Better Chance of Getting Magic Items"
+        "pos": "{:d}% Better Chance of Getting Magic Items",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mag%/lvl": {
@@ -2303,9 +3285,15 @@
     "patterns": [
       {
         "neg": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
-        "pos": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)"
+        "pos": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mag%/time": {
@@ -2317,9 +3305,15 @@
     "patterns": [
       {
         "neg": "-{:d} Better Chance of Getting Magic Items",
-        "pos": "+{:d} Better Chance of Getting Magic Items"
+        "pos": "+{:d} Better Chance of Getting Magic Items",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "magicarrow": {
@@ -2331,9 +3325,15 @@
     "patterns": [
       {
         "neg": "Fires Magic Arrows",
-        "pos": "Fires Magic Arrows"
+        "pos": "Fires Magic Arrows",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mana": {
@@ -2345,9 +3345,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Mana",
-        "pos": "+{:d} to Mana"
+        "pos": "+{:d} to Mana",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mana%": {
@@ -2359,9 +3365,15 @@
     "patterns": [
       {
         "neg": "Increase Maximum Mana {:d}%",
-        "pos": "Increase Maximum Mana {:d}%"
+        "pos": "Increase Maximum Mana {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mana-kill": {
@@ -2373,9 +3385,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Mana after each Kill",
-        "pos": "+{:d} to Mana after each Kill"
+        "pos": "+{:d} to Mana after each Kill",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mana/lvl": {
@@ -2387,9 +3405,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Mana (Based on Character Level)",
-        "pos": "+{:d} to Mana (Based on Character Level)"
+        "pos": "+{:d} to Mana (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "mana/time": {
@@ -2401,9 +3425,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Mana",
-        "pos": "+{:d} to Mana"
+        "pos": "+{:d} to Mana",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "manasteal": {
@@ -2415,9 +3445,15 @@
     "patterns": [
       {
         "neg": "{:d}% Mana stolen per hit",
-        "pos": "{:d}% Mana stolen per hit"
+        "pos": "{:d}% Mana stolen per hit",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "move1": {
@@ -2429,9 +3465,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Run/Walk",
-        "pos": "+{:d}% Faster Run/Walk"
+        "pos": "+{:d}% Faster Run/Walk",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "move2": {
@@ -2443,9 +3485,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Run/Walk",
-        "pos": "+{:d}% Faster Run/Walk"
+        "pos": "+{:d}% Faster Run/Walk",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "move3": {
@@ -2457,9 +3505,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Faster Run/Walk",
-        "pos": "+{:d}% Faster Run/Walk"
+        "pos": "+{:d}% Faster Run/Walk",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "nec": {
@@ -2471,9 +3525,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Necromancer Skill Levels",
-        "pos": "+{:d} to Necromancer Skill Levels"
+        "pos": "+{:d} to Necromancer Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "nofreeze": {
@@ -2485,9 +3545,15 @@
     "patterns": [
       {
         "neg": "Cannot Be Frozen",
-        "pos": "Cannot Be Frozen"
+        "pos": "Cannot Be Frozen",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "noheal": {
@@ -2499,9 +3565,15 @@
     "patterns": [
       {
         "neg": "Prevent Monster Heal",
-        "pos": "Prevent Monster Heal"
+        "pos": "Prevent Monster Heal",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "openwounds": {
@@ -2513,9 +3585,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance of Open Wounds",
-        "pos": "{:d}% Chance of Open Wounds"
+        "pos": "{:d}% Chance of Open Wounds",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "oskill": {
@@ -2527,9 +3605,15 @@
     "patterns": [
       {
         "neg": "+{:d} to {}",
-        "pos": "+{:d} to {}"
+        "pos": "+{:d} to {}",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pal": {
@@ -2541,9 +3625,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Paladin Skill Levels",
-        "pos": "+{:d} to Paladin Skill Levels"
+        "pos": "+{:d} to Paladin Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pierce": {
@@ -2555,9 +3645,15 @@
     "patterns": [
       {
         "neg": "Piercing Attack",
-        "pos": "Piercing Attack"
+        "pos": "Piercing Attack",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pierce-cold": {
@@ -2569,9 +3665,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Cold Resistance",
-        "pos": "+{:d}% to Enemy Cold Resistance"
+        "pos": "+{:d}% to Enemy Cold Resistance",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pierce-fire": {
@@ -2583,9 +3685,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Fire Resistance",
-        "pos": "+{:d}% to Enemy Fire Resistance"
+        "pos": "+{:d}% to Enemy Fire Resistance",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pierce-ltng": {
@@ -2597,9 +3705,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Lightning Resistance",
-        "pos": "+{:d}% to Enemy Lightning Resistance"
+        "pos": "+{:d}% to Enemy Lightning Resistance",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pierce-pois": {
@@ -2611,9 +3725,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Poison Resistance",
-        "pos": "+{:d}% to Enemy Poison Resistance"
+        "pos": "+{:d}% to Enemy Poison Resistance",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pois-len": {
@@ -2623,6 +3743,7 @@
     "children": [],
     "code": "pois-len",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "pois-max": {
@@ -2634,9 +3755,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Maximum Poison Damage",
-        "pos": "+{:d} to Maximum Poison Damage"
+        "pos": "+{:d} to Maximum Poison Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "pois-min": {
@@ -2648,9 +3775,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Minimum Poison Damage",
-        "pos": "+{:d} to Minimum Poison Damage"
+        "pos": "+{:d} to Minimum Poison Damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "randclassskill": {
@@ -2662,9 +3795,15 @@
     "patterns": [
       {
         "neg": "-{:d} to {} Skill Levels",
-        "pos": "+{:d} to {} Skill Levels"
+        "pos": "+{:d} to {} Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "reanimate": {
@@ -2676,9 +3815,15 @@
     "patterns": [
       {
         "neg": "{:d}% Reanimate as: {}",
-        "pos": "{:d}% Reanimate as: {}"
+        "pos": "{:d}% Reanimate as: {}",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "red-dmg": {
@@ -2690,9 +3835,15 @@
     "patterns": [
       {
         "neg": "Damage Reduced by {:d}",
-        "pos": "Damage Reduced by {:d}"
+        "pos": "Damage Reduced by {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "red-dmg%": {
@@ -2704,9 +3855,15 @@
     "patterns": [
       {
         "neg": "Damage Reduced by {:d}%",
-        "pos": "Damage Reduced by {:d}%"
+        "pos": "Damage Reduced by {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "red-mag": {
@@ -2718,9 +3875,15 @@
     "patterns": [
       {
         "neg": "Magic Damage Reduced by {:d}",
-        "pos": "Magic Damage Reduced by {:d}"
+        "pos": "Magic Damage Reduced by {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "reduce-ac": {
@@ -2732,9 +3895,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Target Defense",
-        "pos": "+{:d}% Target Defense"
+        "pos": "+{:d}% Target Defense",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "regen": {
@@ -2746,9 +3915,15 @@
     "patterns": [
       {
         "neg": "Drain Life -{:d}",
-        "pos": "Replenish Life +{:d}"
+        "pos": "Replenish Life +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "regen-dur": {
@@ -2756,6 +3931,7 @@
     "children": [],
     "code": "regen-dur",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "regen-mana": {
@@ -2767,9 +3943,15 @@
     "patterns": [
       {
         "neg": "Regenerate Mana {:d}%",
-        "pos": "Regenerate Mana {:d}%"
+        "pos": "Regenerate Mana {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "regen-stam": {
@@ -2781,9 +3963,15 @@
     "patterns": [
       {
         "neg": "Heal Stamina Plus {:d}%",
-        "pos": "Heal Stamina Plus {:d}%"
+        "pos": "Heal Stamina Plus {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "regen-stam/lvl": {
@@ -2795,9 +3983,15 @@
     "patterns": [
       {
         "neg": "Heal Stamina Plus {:d}% (Based on Character Level)",
-        "pos": "Heal Stamina Plus {:d}% (Based on Character Level)"
+        "pos": "Heal Stamina Plus {:d}% (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "regen-stam/time": {
@@ -2809,9 +4003,15 @@
     "patterns": [
       {
         "neg": "Heal Stamina Plus -{:d}",
-        "pos": "Heal Stamina Plus +{:d}"
+        "pos": "Heal Stamina Plus +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "rep-dur": {
@@ -2822,10 +4022,16 @@
     "code": "rep-dur",
     "patterns": [
       {
-        "neg": "Repairs {:d} durability per second",
-        "pos": "Repairs {:d} durability per second"
+        "neg": "Repairs {} durability {}",
+        "pos": "Repairs {} durability {}",
+        "spec": [
+          -1,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "rep-quant": {
@@ -2837,9 +4043,15 @@
     "patterns": [
       {
         "neg": "Replenishes quantity",
-        "pos": "Replenishes quantity"
+        "pos": "Replenishes quantity",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-all": {
@@ -2857,6 +4069,7 @@
         "pos": "All Resistances +{:d}"
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-all-max": {
@@ -2871,21 +4084,42 @@
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Fire Resist",
-        "pos": "+{:d}% to Maximum Fire Resist"
+        "pos": "+{:d}% to Maximum Fire Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d}% to Maximum Lightning Resist",
-        "pos": "+{:d}% to Maximum Lightning Resist"
+        "pos": "+{:d}% to Maximum Lightning Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d}% to Maximum Cold Resist",
-        "pos": "+{:d}% to Maximum Cold Resist"
+        "pos": "+{:d}% to Maximum Cold Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       },
       {
         "neg": "-{:d}% to Maximum Poison Resist",
-        "pos": "+{:d}% to Maximum Poison Resist"
+        "pos": "+{:d}% to Maximum Poison Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-cold": {
@@ -2897,9 +4131,15 @@
     "patterns": [
       {
         "neg": "Cold Resist -{:d}%",
-        "pos": "Cold Resist +{:d}%"
+        "pos": "Cold Resist +{:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-cold-max": {
@@ -2911,9 +4151,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Cold Resist",
-        "pos": "+{:d}% to Maximum Cold Resist"
+        "pos": "+{:d}% to Maximum Cold Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-cold/lvl": {
@@ -2925,9 +4171,15 @@
     "patterns": [
       {
         "neg": "Cold Resist {:d}% (Based on Character Level)",
-        "pos": "Cold Resist {:d}% (Based on Character Level)"
+        "pos": "Cold Resist {:d}% (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-cold/time": {
@@ -2939,9 +4191,15 @@
     "patterns": [
       {
         "neg": "Cold Resist -{:d}",
-        "pos": "Cold Resist +{:d}"
+        "pos": "Cold Resist +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-fire": {
@@ -2953,9 +4211,15 @@
     "patterns": [
       {
         "neg": "Fire Resist -{:d}%",
-        "pos": "Fire Resist +{:d}%"
+        "pos": "Fire Resist +{:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-fire-max": {
@@ -2967,9 +4231,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Fire Resist",
-        "pos": "+{:d}% to Maximum Fire Resist"
+        "pos": "+{:d}% to Maximum Fire Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-fire/lvl": {
@@ -2981,9 +4251,15 @@
     "patterns": [
       {
         "neg": "Fire Resist {:d}% (Based on Character Level)",
-        "pos": "Fire Resist {:d}% (Based on Character Level)"
+        "pos": "Fire Resist {:d}% (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-fire/time": {
@@ -2995,9 +4271,15 @@
     "patterns": [
       {
         "neg": "Fire Resist -{:d}",
-        "pos": "Fire Resist +{:d}"
+        "pos": "Fire Resist +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-ltng": {
@@ -3009,9 +4291,15 @@
     "patterns": [
       {
         "neg": "Lightning Resist -{:d}%",
-        "pos": "Lightning Resist +{:d}%"
+        "pos": "Lightning Resist +{:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-ltng-max": {
@@ -3023,9 +4311,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Lightning Resist",
-        "pos": "+{:d}% to Maximum Lightning Resist"
+        "pos": "+{:d}% to Maximum Lightning Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-ltng/lvl": {
@@ -3037,9 +4331,15 @@
     "patterns": [
       {
         "neg": "Lightning Resist {:d}% (Based on Character Level)",
-        "pos": "Lightning Resist {:d}% (Based on Character Level)"
+        "pos": "Lightning Resist {:d}% (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-ltng/time": {
@@ -3051,9 +4351,15 @@
     "patterns": [
       {
         "neg": "Lightning Resist -{:d}",
-        "pos": "Lightning Resist +{:d}"
+        "pos": "Lightning Resist +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-mag": {
@@ -3065,9 +4371,15 @@
     "patterns": [
       {
         "neg": "Magic Resist -{:d}%",
-        "pos": "Magic Resist +{:d}%"
+        "pos": "Magic Resist +{:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-mag-max": {
@@ -3079,9 +4391,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Magic Resist",
-        "pos": "+{:d}% to Maximum Magic Resist"
+        "pos": "+{:d}% to Maximum Magic Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-pois": {
@@ -3093,9 +4411,15 @@
     "patterns": [
       {
         "neg": "Poison Resist -{:d}%",
-        "pos": "Poison Resist +{:d}%"
+        "pos": "Poison Resist +{:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-pois-len": {
@@ -3107,9 +4431,15 @@
     "patterns": [
       {
         "neg": "Poison Length Reduced by {:d}%",
-        "pos": "Poison Length Reduced by {:d}%"
+        "pos": "Poison Length Reduced by {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-pois-max": {
@@ -3121,9 +4451,15 @@
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Poison Resist",
-        "pos": "+{:d}% to Maximum Poison Resist"
+        "pos": "+{:d}% to Maximum Poison Resist",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-pois/lvl": {
@@ -3135,9 +4471,15 @@
     "patterns": [
       {
         "neg": "Poison Resist {:d}% (Based on Character Level)",
-        "pos": "Poison Resist {:d}% (Based on Character Level)"
+        "pos": "Poison Resist {:d}% (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "res-pois/time": {
@@ -3149,9 +4491,15 @@
     "patterns": [
       {
         "neg": "Poison Resist -{:d}",
-        "pos": "Poison Resist +{:d}"
+        "pos": "Poison Resist +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "rip": {
@@ -3163,9 +4511,15 @@
     "patterns": [
       {
         "neg": "Slain Monsters Rest in Peace",
-        "pos": "Slain Monsters Rest in Peace"
+        "pos": "Slain Monsters Rest in Peace",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "skill": {
@@ -3177,9 +4531,15 @@
     "patterns": [
       {
         "neg": "+{:d} to {} ({} only)",
-        "pos": "+{:d} to {} ({} only)"
+        "pos": "+{:d} to {} ({} only)",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "skill-rand": {
@@ -3191,9 +4551,15 @@
     "patterns": [
       {
         "neg": "+{:d} to {} ({} only)",
-        "pos": "+{:d} to {} ({} only)"
+        "pos": "+{:d} to {} ({} only)",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "skilltab": {
@@ -3205,9 +4571,15 @@
     "patterns": [
       {
         "neg": "-{:d} to {} ({} only)",
-        "pos": "+{:d} to {} ({} only)"
+        "pos": "+{:d} to {} ({} only)",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "slow": {
@@ -3219,9 +4591,15 @@
     "patterns": [
       {
         "neg": "Slows Target by {:d}%",
-        "pos": "Slows Target by {:d}%"
+        "pos": "Slows Target by {:d}%",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "sock": {
@@ -3230,7 +4608,18 @@
     ],
     "children": [],
     "code": "sock",
-    "patterns": [],
+    "patterns": [
+      {
+        "neg": "Socketed ({d})",
+        "pos": "Socketed ({d})",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "patterns_range": [],
     "within": []
   },
   "sor": {
@@ -3242,9 +4631,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Sorceress Skill Levels",
-        "pos": "+{:d} to Sorceress Skill Levels"
+        "pos": "+{:d} to Sorceress Skill Levels",
+        "spec": [
+          0,
+          -1,
+          1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "stack": {
@@ -3256,9 +4651,15 @@
     "patterns": [
       {
         "neg": "Increased Stack Size",
-        "pos": "Increased Stack Size"
+        "pos": "Increased Stack Size",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "stam": {
@@ -3270,9 +4671,15 @@
     "patterns": [
       {
         "neg": "-{:d} Maximum Stamina",
-        "pos": "+{:d} Maximum Stamina"
+        "pos": "+{:d} Maximum Stamina",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "stam/lvl": {
@@ -3284,9 +4691,15 @@
     "patterns": [
       {
         "neg": "-{:d} Maximum Stamina (Based on Character Level)",
-        "pos": "+{:d} Maximum Stamina (Based on Character Level)"
+        "pos": "+{:d} Maximum Stamina (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "stam/time": {
@@ -3298,9 +4711,15 @@
     "patterns": [
       {
         "neg": "-{:d} Maximum Stamina",
-        "pos": "+{:d} Maximum Stamina"
+        "pos": "+{:d} Maximum Stamina",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "stamdrain": {
@@ -3312,9 +4731,15 @@
     "patterns": [
       {
         "neg": "{:d}% Slower Stamina Drain",
-        "pos": "{:d}% Slower Stamina Drain"
+        "pos": "{:d}% Slower Stamina Drain",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "state": {
@@ -3324,6 +4749,7 @@
     "children": [],
     "code": "state",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "str": {
@@ -3335,9 +4761,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Strength",
-        "pos": "+{:d} to Strength"
+        "pos": "+{:d} to Strength",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "str/lvl": {
@@ -3349,9 +4781,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Strength (Based on Character Level)",
-        "pos": "+{:d} to Strength (Based on Character Level)"
+        "pos": "+{:d} to Strength (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "str/time": {
@@ -3363,9 +4801,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Strength",
-        "pos": "+{:d} to Strength"
+        "pos": "+{:d} to Strength",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "stupidity": {
@@ -3377,9 +4821,15 @@
     "patterns": [
       {
         "neg": "Hit Blinds Target -{:d}",
-        "pos": "Hit Blinds Target +{:d}"
+        "pos": "Hit Blinds Target +{:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "swing1": {
@@ -3391,9 +4841,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Increased Attack Speed",
-        "pos": "+{:d}% Increased Attack Speed"
+        "pos": "+{:d}% Increased Attack Speed",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "swing2": {
@@ -3405,9 +4861,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Increased Attack Speed",
-        "pos": "+{:d}% Increased Attack Speed"
+        "pos": "+{:d}% Increased Attack Speed",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "swing3": {
@@ -3419,9 +4881,15 @@
     "patterns": [
       {
         "neg": "-{:d}% Increased Attack Speed",
-        "pos": "+{:d}% Increased Attack Speed"
+        "pos": "+{:d}% Increased Attack Speed",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "thorns": {
@@ -3433,9 +4901,15 @@
     "patterns": [
       {
         "neg": "Attacker Takes Damage of {:d}",
-        "pos": "Attacker Takes Damage of {:d}"
+        "pos": "Attacker Takes Damage of {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "thorns/lvl": {
@@ -3447,9 +4921,15 @@
     "patterns": [
       {
         "neg": "Attacker Takes Damage of {:d} (Based on Character Level)",
-        "pos": "Attacker Takes Damage of {:d} (Based on Character Level)"
+        "pos": "Attacker Takes Damage of {:d} (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "throw": {
@@ -3461,9 +4941,15 @@
     "patterns": [
       {
         "neg": "Throwable",
-        "pos": "Throwable"
+        "pos": "Throwable",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "time": {
@@ -3473,6 +4959,7 @@
     "children": [],
     "code": "time",
     "patterns": [],
+    "patterns_range": [],
     "within": []
   },
   "vit": {
@@ -3484,9 +4971,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Vitality",
-        "pos": "+{:d} to Vitality"
+        "pos": "+{:d} to Vitality",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "vit/lvl": {
@@ -3498,9 +4991,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Vitality (Based on Character Level)",
-        "pos": "+{:d} to Vitality (Based on Character Level)"
+        "pos": "+{:d} to Vitality (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "vit/time": {
@@ -3512,9 +5011,15 @@
     "patterns": [
       {
         "neg": "-{:d} to Vitality",
-        "pos": "+{:d} to Vitality"
+        "pos": "+{:d} to Vitality",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "wounds/lvl": {
@@ -3526,9 +5031,15 @@
     "patterns": [
       {
         "neg": "{:d}% Chance of Open Wounds (Based on Character Level)",
-        "pos": "{:d}% Chance of Open Wounds (Based on Character Level)"
+        "pos": "{:d}% Chance of Open Wounds (Based on Character Level)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   },
   "wounds/time": {
@@ -3540,9 +5051,15 @@
     "patterns": [
       {
         "neg": "-{:d} Chance of Open Wounds",
-        "pos": "+{:d} Chance of Open Wounds"
+        "pos": "+{:d} Chance of Open Wounds",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
       }
     ],
+    "patterns_range": [],
     "within": []
   }
 }

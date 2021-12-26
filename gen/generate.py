@@ -3,7 +3,7 @@ import dataclasses
 import json
 import itertools
 import re
-import parse
+#import parse
 
 
 outdir="output"
@@ -30,6 +30,7 @@ class PropertyDef(PropertyBase):
     within: list = dataclasses.field(default_factory=list)
     children: list = dataclasses.field(default_factory=list)
     patterns: list = dataclasses.field(default_factory=list)
+    patterns_range: list = dataclasses.field(default_factory=list)
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -64,7 +65,7 @@ class PropString:
     dgrpstrpos: str = None
     dgrpstrneg: str = None
     code: str = None
-    par_pos: int = None
+    spec: list = dataclasses.field(default_factory=lambda: [0, -1, -1])
 
 @dataclasses.dataclass
 class ItemBase(Item):
@@ -115,12 +116,18 @@ class SetItem(SpecialItem):
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
+@dataclasses.dataclass
+class UniqueItem(SpecialItem):
+    index: str = None
+    def __getitem__(self, key):
+        return super().__getattribute__(key)
+
 
 class EnhancedJSONEncoder(json.JSONEncoder):
-        def default(self, o):
-            if dataclasses.is_dataclass(o):
-                return dataclasses.asdict(o)
-            return super().default(o)
+    def default(self, o):
+        if dataclasses.is_dataclass(o):
+            return dataclasses.asdict(o)
+        return super().default(o)
 
 class ItemParser:
     def __init__(self):
@@ -151,6 +158,88 @@ class ItemParser:
             { "o": re.escape('%s%'), "r": '{}' },
             { "o": re.escape('%s'), "r": '{}' }
         ]
+        # skilltabs:
+        # 0. bow and crossbow (not defined)
+        # 1. passive and magic
+        # 2. javelin
+        # 3. fire
+        # 4. lightning
+        # 5. cold
+        # 6. curses
+        # 7. poison and bone
+        # 8. summoning
+        # 9. Combat skills (paladin)
+        # 10. Offensive auras
+        # 11. Defensive skills
+        # 12. Combat skills
+        # 13. Masteries
+        # 14. Warcries
+        # 15. summoning druid
+        # 16. shapeshifting
+        # 17. elemental
+        # 18. traps
+        # 19. shadow disciplines
+        self.skilltabs = [ "StrSklTabItem3", "StrSklTabItem2", "StrSklTabItem1", "StrSklTabItem15", "StrSklTabItem14", "StrSklTabItem13", "StrSklTabItem8", "StrSklTabItem7", "StrSklTabItem6", "StrSklTabItem11", "StrSklTabItem5", "StrSklTabItem4", "StrSklTabItem11", "StrSklTabItem12", "StrSklTabItem10", "StrSklTabItem16", "StrSklTabItem17", "StrSklTabItem18", "StrSklTabItem19", "StrSklTabItem20", "StrSklTabItem21" ]
+        # manual overrides, bleh
+        self.range_types = {
+            "dmg-cold": [{
+                "pos_code": "strModColdDamage",
+                "neg_code": "strModColdDamage",
+                "range_pos_code": "strModColdDamageRange",
+                "range_neg_code": "strModColdDamageRange"
+            }],
+            "dmg-fire": [{
+                "pos_code": "strModFireDamage",
+                "neg_code": "strModFireDamage",
+                "range_pos_code": "strModFireDamageRange",
+                "range_neg_code": "strModFireDamageRange"
+            }],
+            "dmg-ltng": [{
+                "pos_code": "strModLightningDamage",
+                "neg_code": "strModLightningDamage",
+                "range_pos_code": "strModLightningDamageRange",
+                "range_neg_code": "strModLightningDamageRange"
+            }],
+            "dmg-mag": [{
+                "pos_code": "strModMagicDamage",
+                "neg_code": "strModMagicDamage",
+                "range_pos_code": "strModMagicDamageRange",
+                "range_neg_code": "strModMagicDamageRange"
+            }],
+            "dmg-pois":[{
+                "pos_code": "strModPoisonDamage",
+                "neg_code": "strModPoisonDamage",
+                "range_pos_code": "strModPoisonDamageRange",
+                "range_neg_code": "strModPoisonDamageRange"
+            }],
+            "dmg%":[{
+                "pos_code": "strModEnhancedDamage",
+                "neg_code": "strModEnhancedDamage",
+                "descval": 1,
+                "descfunc": 4
+            }],
+            "dmg-norm":[{
+                "pos_code": "strModMinDamage",
+                "neg_code": "strModMinDamage",
+                "range_pos_code": "strModMinDamageRange",
+                "range_neg_code": "strModMinDamageRange",
+                "range_spec": [0, 1, -1]
+            }],
+            #dmg-elem will override any case where min=max, but I don't think this exists. Would have 6 properties!
+            "dmg-elem":[{
+                "range_pos_code": "strModColdDamageRange",
+                "range_neg_code": "strModColdDamageRange",
+                "range_spec": [0, 1, -1]
+            },{
+                "range_pos_code": "strModFireDamageRange",
+                "range_neg_code": "strModFireDamageRange",
+                "range_spec": [0, 1, -1]
+            },{
+                "range_pos_code": "strModLightningDamageRange",
+                "range_neg_code": "strModLightningDamageRange",
+                "range_spec": [0, 1, -1]
+            }]
+        }
 
         with open("../json/armor.json", "r",encoding = 'utf-8') as f:
             self.f_armor = json.load(f)
@@ -174,6 +263,8 @@ class ItemParser:
             self.f_strings = json.load(f)
         with open("../json/ItemStatCost.json", "r",encoding = 'utf-8') as f:
             self.f_stats = json.load(f)
+        with open("../json/monstats.json", "r",encoding = 'utf-8') as f:
+            self.f_monstats = json.load(f)
         with open("../json/skills.json", "r",encoding = 'utf-8') as f:
             self.f_skills = json.load(f)
 
@@ -209,7 +300,7 @@ class ItemParser:
         # 11. "Repairs %d durability per second"
         # 12. "hit blinds target +{:d}"
         # 13. "+{:d} to {} skill levels"
-        # 14. "+{:d} to {} ({} only)"
+        # 14. "+{:d} to {} (*CLASS* only)"
         # 15. "{:d}% chance to cast level {:d} {} on attack"
         # 16. "level {:d} {} aura when equipped"
         # 17. "+{:d} to attack rating against undead"
@@ -220,13 +311,18 @@ class ItemParser:
         # 22. "+{:d} to Attack Rating versus {}"
         # 23. "{:d}% reanimate as: {}"
         # 24. "level {:d} {} ({:d}/{:d} charges)"
-        # 27. "+{:d} to {} ({} only)"
+        # 27. "+{:d} to {} (*CLASS* only)"
         # 28. "+{:d} to {}"
+        if not string_obj.descfunc:
+            string_obj.descfunc = 0
 
         try: string_obj.second_str = self.f_strings[string_obj.second_code]
         except: pass
-        try: string_obj.pos_str = self.f_strings[string_obj.pos_code]
-        except: pass
+        try:
+            string_obj.pos_str = self.f_strings[string_obj.pos_code]
+        except:
+            #print(f"failed on {string_obj}")
+            pass
         try: string_obj.neg_str = self.f_strings[string_obj.neg_code]
         except: pass
 
@@ -235,9 +331,7 @@ class ItemParser:
                 string_obj.pos_str = string_obj.pos_str.replace(i['o'], i['r'])
                 string_obj.neg_str = string_obj.neg_str.replace(i['o'], i['r'])
 
-        if string_obj.descfunc == 0:
-            pass
-        elif string_obj.descfunc in [1, 6, 12, 17, 18]:
+        if string_obj.descfunc in [1, 6, 12, 17, 18]:
             string_obj.pos_pattern = self.gen_from_descval("+{:d}", string_obj.pos_str, string_obj.descval)
             string_obj.neg_pattern = self.gen_from_descval("-{:d}", string_obj.neg_str, string_obj.descval)
         elif string_obj.descfunc in [2, 5, 7, 8]:
@@ -277,7 +371,24 @@ class ItemParser:
         elif string_obj.descfunc in [28]:
             string_obj.pos_pattern = string_obj.neg_pattern = "+{:d} to {}"
         else:
-            print("fail")
+            pass
+
+        # manual overrides
+        if string_obj.descfunc == 11 and string_obj.code == "rep-dur":
+            string_obj.pos_pattern = string_obj.neg_pattern = "Repairs {} durability {}"
+            string_obj.spec = [-1, -1, -1]
+        elif string_obj.code == "sock":
+            string_obj.pos_pattern = string_obj.neg_pattern = "Socketed ({d})"
+
+        # construct list of indices
+        # spec: min index, max index, param index; -1 ignores
+        if string_obj.descfunc in [13, 14, 16, 22, 23, 27, 28]:
+            string_obj.spec[2] = 1
+        elif string_obj.descfunc in [15]:
+            string_obj.spec[2] = 2
+        elif string_obj.descfunc in [24]:
+            # level (max3) (par3) ({d}/(min3 charges))
+            string_obj.spec = [3, 0, 1]
 
         # add based on character level
         # if string_obj.descfunc in [6, 7, 8, 9]:
@@ -314,6 +425,47 @@ class ItemParser:
                 return key
         return False
 
+    def process_magic_prop(self, obj: dict):
+        if obj.prop == "skilltab":
+            if type(obj.par) == int:
+                skill_string = self.skilltabs[obj.par]
+                obj.par = self.f_strings[skill_string].replace('+%d to ','')
+        # elif "oskill" == obj.prop:
+        #     ?
+        elif any(map(obj.prop.__contains__, ["skill", "charged", "aura"])):
+            if type(obj.par) == int and obj.par != 0:
+                obj.par = self.f_skills[str(obj.par)]["skill"]
+        elif "pois" in obj.prop:
+            #true_min:      round((min*par)/256)
+            #true_max:      round((max*par)/256)
+            #true_length:   round(par/25)
+            obj.min = round(obj.min*int(obj.par)/256)
+            obj.max = round(obj.max*int(obj.par)/256)
+        elif any(map(obj.prop.__contains__, ["pois", "cold"])):
+            obj.par = round(int(obj.par)/25)
+        elif "sock" in obj.prop:
+            obj.min = obj.par
+            obj.par = -1
+        # elif "dmg%" in obj.prop: # doesn't seem to use? see sander's
+        #     obj.par = None
+        # elif "ignore-ac" in obj.prop: # doesn't seem to use? see lightsabre
+        #     obj.par = None
+        elif "reanimate" == obj.prop:
+            obj.par = self.f_monstats[str(obj.par)]["NameStr"]
+        # elif "dmg-elem" == obj.prop:
+        #     # shouldn't be anything to do here...sometimes passes a param?
+        # elif "rep-dur" in obj.prop:
+        #     # repairs {d} durability in {d} seconds
+        #     # [0] = 1 always, [1] = 100/par
+        #     obj.min = 1
+        #     obj.max = 1
+        #     obj.par = round(100 / int(obj.par))
+
+
+        # 20. martial arts
+
+        return obj
+
     def get_magic_props(self, item: dict):
         props = []
         for i in range(1,31):
@@ -326,12 +478,13 @@ class ItemParser:
             par_key = "par" + str(i)
             min_key = "min" + str(i)
             max_key = "max" + str(i)
-            try: obj.par = int(item[par_key])
-            except: pass
+            try: obj.par = item[par_key]
+            except: obj.par = 0
             try: obj.min = int(item[min_key])
             except: pass
             try: obj.max = int(item[max_key])
             except: pass
+            obj = self.process_magic_prop(obj)
             props.append(obj)
         props = None if props == [] else props
         return props
@@ -385,8 +538,8 @@ if __name__ == "__main__":
     for key in file:
         try:
             obj = CodesRef()
-            obj.code = file[key]["index"]
-            obj.display_name = item_parser.f_strings[obj.code]
+            obj.code = key
+            obj.display_name = item_parser.f_strings[file[key]["index"]]
             obj.name = item_parser.full_to_short(obj.display_name)
             if obj.code not in ref_codes:
                 ref_codes[obj.code] = obj
@@ -441,13 +594,13 @@ if __name__ == "__main__":
             try: strings.code = obj.code
             except: pass
 
-            if strings.descfunc:
-                strings = item_parser.string_spec(strings)
-            if strings.pos_pattern:
+            strings = item_parser.string_spec(strings)
+            if strings.pos_pattern and (key not in item_parser.range_types):
                 obj.patterns.append({
                     "pos": strings.pos_pattern,
                     "neg": strings.neg_pattern,
-                    "par_pos": strings.par_pos })
+                    "spec": strings.spec
+                })
 
         properties[obj.code]=obj
     for key in f_stats:
@@ -472,17 +625,61 @@ if __name__ == "__main__":
                     if code in properties[key2]["children"]:
                         group_code = key2
                         break
-                if strings.pos_pattern:
+                if strings.pos_pattern  and (key not in item_parser.range_types):
                     val = { "pos": strings.pos_pattern, "neg": strings.neg_pattern }
                     if val not in properties[group_code]["patterns"]:
                         properties[group_code]["patterns"].append(val)
     for key in properties:
-        if len(properties[key]["children"]) > 1 and not properties[key]["patterns"]:
+        if len(properties[key]["children"]) > 1 and not properties[key]["patterns"] and (key not in item_parser.range_types):
             for x in properties[key]["children"]:
                 try:
                     pattern = properties[x]["patterns"][0]
                     properties[key]["patterns"].append(pattern)
                 except: pass
+    # manual overrides =/
+    for key in properties:
+        if key in item_parser.range_types:
+            for i, _ in enumerate(item_parser.range_types[key]):
+                strings = PropString()
+
+                try: strings.descval = item_parser.range_types[key][i]["descval"]
+                except: strings.descval = 0
+                try: strings.descfunc = item_parser.range_types[key][i]["descfunc"]
+                except: strings.descfunc = 11
+                try: strings.pos_code = item_parser.range_types[key][i]["pos_code"]
+                except: pass
+                try: strings.neg_code = item_parser.range_types[key][i]["neg_code"]
+                except: pass
+                try: strings.spec = item_parser.range_types[key][i]["spec"]
+                except: pass
+                strings = item_parser.string_spec(strings)
+
+                #print(strings)
+                if strings.pos_pattern:
+                    val = [{
+                        "pos": strings.pos_pattern,
+                        "neg": strings.neg_pattern,
+                        "spec": strings.spec
+                    }]
+                    #print(val)
+                    properties[key]["patterns"].append(val)
+                if "range_pos_code" in item_parser.range_types[key][i]:
+                    try: strings.pos_code = item_parser.range_types[key][i]["range_pos_code"]
+                    except: pass
+                    try: strings.neg_code = item_parser.range_types[key][i]["range_neg_code"]
+                    except: pass
+                    try: strings.spec = item_parser.range_types[key][i]["range_spec"]
+                    except: pass
+                    strings = item_parser.string_spec(strings)
+
+                    if strings.pos_pattern:
+                        strings = item_parser.string_spec(strings)
+                        val  = [{
+                            "pos": strings.pos_pattern,
+                            "neg": strings.neg_pattern,
+                            "spec": strings.spec
+                        }]
+                        properties[key]["patterns_range"].append(val)
 
     with open('output/item_properties.json', 'w', encoding='utf-8') as f:
         json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
@@ -714,9 +911,11 @@ if __name__ == "__main__":
         obj.code = file[key]["item"]
         obj.name = ref_codes[key]["name"]
         obj.display_name = ref_codes[key]["display_name"]
+
         try: obj.base = ref_codes[obj.code]["name"]
         except: pass
-        try: obj.set = file[key]["set"]
+        # some weird sets out there, sanders -> mcauley's?
+        try: obj.set = ref_codes[file[key]["set"]]["display_name"]
         except: pass
         try: obj.level = file[key]["lvl"]
         except: pass
@@ -726,8 +925,42 @@ if __name__ == "__main__":
 
         set_items[obj.name] = obj
     with open('output/item_set_items.json', 'w', encoding='utf-8') as f:
-        json.dump(set_items, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+        json.dump(set_items, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
-
+    # items={}
+    # for file in [item_parser.f_set_items, item_parser.f_unique_items]:
+    #     for key in file:
+    #         obj = {}
+    #         obj["name"] = key
+    #         try: obj["index"] = file[key]["index"]
+    #         except: pass
+    #         if [key2 for key2 in file[key] if "par" in key2]:
+    #             for key2 in file[key]:
+    #                 if any(map(key2.__contains__, ["prop", "min", "max", "par"])):
+    #                     obj[key2] = file[key][key2]
+    #             items[obj["name"]] = obj
+    #
+    # with open('output/ref_item_props.json', 'w', encoding='utf-8') as f:
+    #     json.dump(items, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
     # create uniques file
+
+    # create sets file
+    unique_items={}
+    file = item_parser.f_unique_items
+    for key in file:
+        obj = UniqueItem()
+        try: obj.base = file[key]["code"]
+        except: continue # this item is unused, skip
+        obj.code = key
+        obj.name = ref_codes[key]["name"]
+        obj.display_name = ref_codes[key]["display_name"]
+        obj.index = file[key]["index"]
+        try: obj.level = file[key]["lvl"]
+        except: pass
+        try: obj.levelreq = file[key]["lvl req"]
+        except: pass
+        obj.props = item_parser.get_magic_props(file[key])
+        unique_items[obj.name] = obj
+    with open('output/item_unique_items.json', 'w', encoding='utf-8') as f:
+        json.dump(unique_items, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
