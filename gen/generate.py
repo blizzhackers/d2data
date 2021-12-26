@@ -801,7 +801,7 @@ if __name__ == "__main__":
                 item_code=item_parser.f_unique_items[key2]["code"]
                 #item_index=item_parser.f_unique_items[key2]["index"]
                 item_index=key2
-                if item_code == obj.code:
+                if item_code == obj.code and ref_codes[item_index]["name"] not in obj.uniques:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
         obj.uniques = None if obj.uniques==[] else obj.uniques
@@ -865,7 +865,7 @@ if __name__ == "__main__":
                 item_code=item_parser.f_unique_items[key2]["code"]
                 #item_index=item_parser.f_unique_items[key2]["index"]
                 item_index=key2
-                if item_code == obj.code:
+                if item_code == obj.code and ref_codes[item_index]["name"] not in obj.uniques:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
         obj.uniques = None if obj.uniques==[] else obj.uniques
@@ -904,7 +904,7 @@ if __name__ == "__main__":
                 item_code=item_parser.f_unique_items[key2]["code"]
                 #item_index=item_parser.f_unique_items[key2]["index"]
                 item_index=key2
-                if item_code == obj.code:
+                if item_code == obj.code and ref_codes[item_index]["name"] not in obj.uniques:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
         obj.uniques = None if obj.uniques==[] else obj.uniques
