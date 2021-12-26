@@ -1,8 +1,8 @@
 {
   "amazon_bow": {
-    "name": "amazon_bow",
-    "display_name": "Amazon Bow",
+    "category": "weapon",
     "code": "abow",
+    "display_name": "Amazon Bow",
     "items": [
       "stag_bow",
       "reflex_bow",
@@ -11,79 +11,30 @@
       "matriarchal_bow",
       "grand_matron_bow"
     ],
-    "category": "weapon"
+    "name": "amazon_bow"
+  },
+  "amazon_item": {
+    "category": null,
+    "code": "amaz",
+    "display_name": "Amazon Item",
+    "items": null,
+    "name": "amazon_item"
   },
   "amazon_javelin": {
-    "name": "amazon_javelin",
-    "display_name": "Amazon Javelin",
+    "category": "miscellaneous",
     "code": "ajav",
+    "display_name": "Amazon Javelin",
     "items": [
       "maiden_javelin",
       "ceremonial_javelin",
       "matriarchal_javelin"
     ],
-    "category": "miscellaneous"
-  },
-  "amazon_item": {
-    "name": "amazon_item",
-    "display_name": "Amazon Item",
-    "code": "amaz",
-    "items": null,
-    "category": null
-  },
-  "amulet": {
-    "name": "amulet",
-    "display_name": "Amulet",
-    "code": "amul",
-    "items": [
-      "amulet",
-      "top_of_the_horadric_staff"
-    ],
-    "category": "miscellaneous"
-  },
-  "antidote_potion": {
-    "name": "antidote_potion",
-    "display_name": "Antidote Potion",
-    "code": "apot",
-    "items": [
-      "antidote_potion"
-    ],
-    "category": "miscellaneous"
-  },
-  "any_armor": {
-    "name": "any_armor",
-    "display_name": "Any Armor",
-    "code": "armo",
-    "items": null,
-    "category": null
-  },
-  "auric_shields": {
-    "name": "auric_shields",
-    "display_name": "Auric Shields",
-    "code": "ashd",
-    "items": [
-      "targe",
-      "rondache",
-      "heraldic_shield",
-      "aerin_shield",
-      "crown_shield",
-      "akaran_targe",
-      "akaran_rondache",
-      "protector_shield",
-      "gilded_shield",
-      "royal_shield",
-      "sacred_targe",
-      "sacred_rondache",
-      "kurast_shield",
-      "zakarum_shield",
-      "vortex_shield"
-    ],
-    "category": "any_armor"
+    "name": "amazon_javelin"
   },
   "amazon_spear": {
-    "name": "amazon_spear",
-    "display_name": "Amazon Spear",
+    "category": "weapon",
     "code": "aspe",
+    "display_name": "Amazon Spear",
     "items": [
       "maiden_spear",
       "maiden_pike",
@@ -92,341 +43,12 @@
       "matriarchal_spear",
       "matriarchal_pike"
     ],
-    "category": "weapon"
-  },
-  "assassin_item": {
-    "name": "assassin_item",
-    "display_name": "Assassin Item",
-    "code": "assn",
-    "items": null,
-    "category": null
-  },
-  "axe": {
-    "name": "axe",
-    "display_name": "Axe",
-    "code": "axe",
-    "items": [
-      "double_axe",
-      "ettin_axe",
-      "small_crescent",
-      "silveredged_axe",
-      "decapitator",
-      "champion_axe",
-      "glorious_axe",
-      "tomahawk",
-      "feral_axe",
-      "war_spike",
-      "berserker_axe",
-      "twin_axe",
-      "cleaver",
-      "bearded_axe",
-      "tabar",
-      "gothic_axe",
-      "ancient_axe",
-      "hatchet",
-      "military_axe",
-      "crowbill",
-      "naga",
-      "axe",
-      "broad_axe",
-      "battle_axe",
-      "great_axe",
-      "giant_axe",
-      "hand_axe",
-      "large_axe",
-      "military_pick",
-      "war_axe"
-    ],
-    "category": "weapon"
-  },
-  "barbarian_item": {
-    "name": "barbarian_item",
-    "display_name": "Barbarian Item",
-    "code": "barb",
-    "items": null,
-    "category": null
-  },
-  "belt": {
-    "name": "belt",
-    "display_name": "Belt",
-    "code": "belt",
-    "items": [
-      "plated_belt",
-      "sash",
-      "belt",
-      "heavy_belt",
-      "colossus_girdle",
-      "spiderweb_sash",
-      "mithril_coil",
-      "troll_belt",
-      "vampirefang_belt",
-      "light_belt",
-      "war_belt",
-      "demonhide_sash",
-      "mesh_belt",
-      "battle_belt",
-      "sharkskin_belt"
-    ],
-    "category": "any_armor"
-  },
-  "blunt": {
-    "name": "blunt",
-    "display_name": "Blunt",
-    "code": "blun",
-    "items": null,
-    "category": null
-  },
-  "body_part": {
-    "name": "body_part",
-    "display_name": "Body Part",
-    "code": "body",
-    "items": [
-      "brain",
-      "eye",
-      "flag",
-      "fang",
-      "horn",
-      "heart",
-      "jawbone",
-      "quill",
-      "scalp",
-      "soul",
-      "spleen",
-      "tail"
-    ],
-    "category": "miscellaneous"
-  },
-  "book": {
-    "name": "book",
-    "display_name": "Book",
-    "code": "book",
-    "items": [
-      "tome_of_identify",
-      "tome_of_town_portal"
-    ],
-    "category": "miscellaneous"
-  },
-  "boots": {
-    "name": "boots",
-    "display_name": "Boots",
-    "code": "boot",
-    "items": [
-      "greaves",
-      "boots",
-      "chain_boots",
-      "light_plated_boots",
-      "myrmidon_greaves",
-      "wyrmhide_boots",
-      "boneweave_boots",
-      "mirrored_boots",
-      "scarabshell_boots",
-      "heavy_boots",
-      "war_boots",
-      "demonhide_boots",
-      "mesh_boots",
-      "battle_boots",
-      "sharkskin_boots"
-    ],
-    "category": "any_armor"
-  },
-  "bow": {
-    "name": "bow",
-    "display_name": "Bow",
-    "code": "bow",
-    "items": [
-      "great_bow",
-      "blade_bow",
-      "crusader_bow",
-      "shadow_bow",
-      "hydra_bow",
-      "diamond_bow",
-      "spider_bow",
-      "ward_bow",
-      "double_bow",
-      "razor_bow",
-      "large_siege_bow",
-      "cedar_bow",
-      "gothic_bow",
-      "short_siege_bow",
-      "edge_bow",
-      "rune_bow",
-      "composite_bow",
-      "hunters_bow",
-      "long_battle_bow",
-      "long_bow",
-      "long_war_bow",
-      "short_battle_bow",
-      "short_bow",
-      "short_war_bow"
-    ],
-    "category": "weapon"
-  },
-  "bow_quiver": {
-    "name": "bow_quiver",
-    "display_name": "Bow Quiver",
-    "code": "bowq",
-    "items": [
-      "arrows"
-    ],
-    "category": "miscellaneous"
-  },
-  "charm": {
-    "name": "charm",
-    "display_name": "Charm",
-    "code": "char",
-    "items": null,
-    "category": "miscellaneous"
-  },
-  "circlet": {
-    "name": "circlet",
-    "display_name": "Circlet",
-    "code": "circ",
-    "items": [
-      "circlet",
-      "coronet",
-      "tiara",
-      "diadem"
-    ],
-    "category": "any_armor"
-  },
-  "class_specific": {
-    "name": "class_specific",
-    "display_name": "Class Specific",
-    "code": "clas",
-    "items": null,
-    "category": null
-  },
-  "cloak": {
-    "name": "cloak",
-    "display_name": "Cloak",
-    "code": "cloa",
-    "items": null,
-    "category": "any_armor"
-  },
-  "club": {
-    "name": "club",
-    "display_name": "Club",
-    "code": "club",
-    "items": [
-      "truncheon",
-      "tyrant_club",
-      "cudgel",
-      "barbed_club",
-      "club",
-      "wirts_leg",
-      "spiked_club"
-    ],
-    "category": "weapon"
-  },
-  "combo_weapon": {
-    "name": "combo_weapon",
-    "display_name": "Combo Weapon",
-    "code": "comb",
-    "items": null,
-    "category": null
-  },
-  "druid_item": {
-    "name": "druid_item",
-    "display_name": "Druid Item",
-    "code": "drui",
-    "items": null,
-    "category": null
-  },
-  "elixir": {
-    "name": "elixir",
-    "display_name": "Elixir",
-    "code": "elix",
-    "items": [
-      "elixir"
-    ],
-    "category": "miscellaneous"
-  },
-  "gem": {
-    "name": "gem",
-    "display_name": "Gem",
-    "code": "gem",
-    "items": null,
-    "category": "miscellaneous"
-  },
-  "chipped_gem": {
-    "name": "chipped_gem",
-    "display_name": "Chipped Gem",
-    "code": "gem0",
-    "items": [
-      "chipped_sapphire",
-      "chipped_emerald",
-      "chipped_ruby",
-      "chipped_amethyst",
-      "chipped_diamond",
-      "chipped_topaz",
-      "chipped_skull"
-    ],
-    "category": "miscellaneous"
-  },
-  "flawed_gem": {
-    "name": "flawed_gem",
-    "display_name": "Flawed Gem",
-    "code": "gem1",
-    "items": [
-      "flawed_sapphire",
-      "flawed_emerald",
-      "flawed_ruby",
-      "flawed_amethyst",
-      "flawed_diamond",
-      "flawed_topaz",
-      "flawed_skull"
-    ],
-    "category": "miscellaneous"
-  },
-  "standard_gem": {
-    "name": "standard_gem",
-    "display_name": "Standard Gem",
-    "code": "gem2",
-    "items": [
-      "sapphire",
-      "emerald",
-      "ruby",
-      "amethyst",
-      "diamond",
-      "topaz",
-      "skull"
-    ],
-    "category": "miscellaneous"
-  },
-  "flawless_gem": {
-    "name": "flawless_gem",
-    "display_name": "Flawless Gem",
-    "code": "gem3",
-    "items": [
-      "flawless_sapphire",
-      "flawless_emerald",
-      "flawless_ruby",
-      "flawless_diamond",
-      "flawless_topaz",
-      "flawless_amethyst",
-      "flawless_skull"
-    ],
-    "category": "miscellaneous"
-  },
-  "perfect_gem": {
-    "name": "perfect_gem",
-    "display_name": "Perfect Gem",
-    "code": "gem4",
-    "items": [
-      "perfect_sapphire",
-      "perfect_emerald",
-      "perfect_ruby",
-      "perfect_amethyst",
-      "perfect_diamond",
-      "perfect_topaz",
-      "perfect_skull"
-    ],
-    "category": "miscellaneous"
+    "name": "amazon_spear"
   },
   "amethyst": {
-    "name": "amethyst",
-    "display_name": "Amethyst",
+    "category": "miscellaneous",
     "code": "gema",
+    "display_name": "Amethyst",
     "items": [
       "chipped_amethyst",
       "flawed_amethyst",
@@ -434,886 +56,45 @@
       "amethyst",
       "flawless_amethyst"
     ],
-    "category": "miscellaneous"
+    "name": "amethyst"
   },
-  "diamond": {
-    "name": "diamond",
-    "display_name": "Diamond",
-    "code": "gemd",
+  "amulet": {
+    "category": "miscellaneous",
+    "code": "amul",
+    "display_name": "Amulet",
     "items": [
-      "chipped_diamond",
-      "flawed_diamond",
-      "flawless_diamond",
-      "perfect_diamond",
-      "diamond"
+      "amulet",
+      "top_of_the_horadric_staff"
     ],
-    "category": "miscellaneous"
+    "name": "amulet"
   },
-  "emerald": {
-    "name": "emerald",
-    "display_name": "Emerald",
-    "code": "geme",
+  "antidote_potion": {
+    "category": "miscellaneous",
+    "code": "apot",
+    "display_name": "Antidote Potion",
     "items": [
-      "chipped_emerald",
-      "flawed_emerald",
-      "flawless_emerald",
-      "perfect_emerald",
-      "emerald"
+      "antidote_potion"
     ],
-    "category": "miscellaneous"
+    "name": "antidote_potion"
   },
-  "ruby": {
-    "name": "ruby",
-    "display_name": "Ruby",
-    "code": "gemr",
-    "items": [
-      "chipped_ruby",
-      "flawed_ruby",
-      "flawless_ruby",
-      "perfect_ruby",
-      "ruby"
-    ],
-    "category": "miscellaneous"
-  },
-  "sapphire": {
-    "name": "sapphire",
-    "display_name": "Sapphire",
-    "code": "gems",
-    "items": [
-      "chipped_sapphire",
-      "flawed_sapphire",
-      "flawless_sapphire",
-      "perfect_sapphire",
-      "sapphire"
-    ],
-    "category": "miscellaneous"
-  },
-  "topaz": {
-    "name": "topaz",
-    "display_name": "Topaz",
-    "code": "gemt",
-    "items": [
-      "chipped_topaz",
-      "flawed_topaz",
-      "flawless_topaz",
-      "perfect_topaz",
-      "topaz"
-    ],
-    "category": "miscellaneous"
-  },
-  "skull": {
-    "name": "skull",
-    "display_name": "Skull",
-    "code": "gemz",
-    "items": [
-      "chipped_skull",
-      "flawed_skull",
-      "flawless_skull",
-      "skull",
-      "perfect_skull"
-    ],
-    "category": "miscellaneous"
-  },
-  "gloves": {
-    "name": "gloves",
-    "display_name": "Gloves",
-    "code": "glov",
-    "items": [
-      "gauntlets",
-      "leather_gloves",
-      "chain_gloves",
-      "light_gauntlets",
-      "ogre_gauntlets",
-      "bramble_mitts",
-      "vambraces",
-      "crusader_gauntlets",
-      "vampirebone_gloves",
-      "heavy_gloves",
-      "war_gauntlets",
-      "demonhide_gloves",
-      "heavy_bracers",
-      "battle_gauntlets",
-      "sharkskin_gloves"
-    ],
-    "category": "any_armor"
-  },
-  "gold": {
-    "name": "gold",
-    "display_name": "Gold",
-    "code": "gold",
-    "items": [
-      "gold"
-    ],
-    "category": null
-  },
-  "hand_to_hand": {
-    "name": "hand_to_hand",
-    "display_name": "Hand to Hand",
-    "code": "h2h",
-    "items": [
-      "quhab",
-      "wrist_spike",
-      "fascia",
-      "hatchet_hands",
-      "blade_talons",
-      "cestus",
-      "claws",
-      "katar",
-      "scissors_katar",
-      "wrist_blade"
-    ],
-    "category": "weapon"
-  },
-  "hand_to_hand_2": {
-    "name": "hand_to_hand_2",
-    "display_name": "Hand to Hand 2",
-    "code": "h2h2",
-    "items": [
-      "suwayyah",
-      "battle_cestus",
-      "feral_claws",
-      "scissors_suwayyah",
-      "runic_talons",
-      "wrist_sword",
-      "war_fist",
-      "hand_scythe",
-      "greater_claws",
-      "scissors_quhab",
-      "greater_talons"
-    ],
-    "category": "weapon"
-  },
-  "hammer": {
-    "name": "hammer",
-    "display_name": "Hammer",
-    "code": "hamm",
-    "items": [
-      "thunder_maul",
-      "ogre_maul",
-      "legendary_mallet",
-      "martel_de_fer",
-      "war_club",
-      "battle_hammer",
-      "great_maul",
-      "horadric_malus",
-      "hell_forge_hammer",
-      "maul",
-      "war_hammer"
-    ],
-    "category": "weapon"
-  },
-  "voodoo_heads": {
-    "name": "voodoo_heads",
-    "display_name": "Voodoo Heads",
-    "code": "head",
-    "items": [
-      "preserved_head",
-      "zombie_head",
-      "unraveller_head",
-      "gargoyle_head",
-      "demon_head",
-      "mummified_trophy",
-      "fetish_trophy",
-      "sexton_trophy",
-      "cantor_trophy",
-      "hierophant_trophy",
-      "minion_skull",
-      "overseer_skull",
-      "succubus_skull",
-      "bloodlord_skull",
-      "hellspawn_skull"
-    ],
-    "category": "any_armor"
-  },
-  "helm": {
-    "name": "helm",
-    "display_name": "Helm",
-    "code": "helm",
-    "items": [
-      "bone_helm",
-      "cap",
-      "crown",
-      "full_helm",
-      "great_helm",
-      "helm",
-      "mask",
-      "skull_cap",
-      "shako",
-      "bone_visage",
-      "giant_conch",
-      "spired_helm",
-      "hydraskull",
-      "armet",
-      "corona",
-      "demonhead",
-      "war_hat",
-      "grim_helm",
-      "basinet",
-      "winged_helm",
-      "sallet",
-      "casque",
-      "grand_crown",
-      "death_mask"
-    ],
-    "category": "any_armor"
-  },
-  "herb": {
-    "name": "herb",
-    "display_name": "Herb",
-    "code": "herb",
-    "items": [
-      "herb"
-    ],
-    "category": "miscellaneous"
-  },
-  "healing_potion": {
-    "name": "healing_potion",
-    "display_name": "Healing Potion",
-    "code": "hpot",
-    "items": [
-      "minor_healing_potion",
-      "light_healing_potion",
-      "healing_potion",
-      "greater_healing_potion",
-      "super_healing_potion"
-    ],
-    "category": "miscellaneous"
-  },
-  "javelin": {
-    "name": "javelin",
-    "display_name": "Javelin",
-    "code": "jave",
-    "items": [
-      "ghost_glaive",
-      "hyperion_javelin",
-      "stygian_pilum",
-      "balrog_spear",
-      "winged_harpoon",
-      "spiculum",
-      "war_javelin",
-      "great_pilum",
-      "simbilan",
-      "harpoon",
-      "glaive",
-      "javelin",
-      "pilum",
-      "short_spear",
-      "throwing_spear"
-    ],
-    "category": "miscellaneous"
-  },
-  "jewel": {
-    "name": "jewel",
-    "display_name": "Jewel",
-    "code": "jewl",
-    "items": [
-      "jewel"
-    ],
-    "category": "miscellaneous"
-  },
-  "key": {
-    "name": "key",
-    "display_name": "Key",
-    "code": "key",
-    "items": [
-      "key",
-      "the_black_tower_key"
-    ],
-    "category": "miscellaneous"
-  },
-  "knife": {
-    "name": "knife",
-    "display_name": "Knife",
-    "code": "knif",
-    "items": [
-      "legend_spike",
-      "bone_knife",
-      "mithril_point",
-      "fanged_knife",
-      "stiletto",
-      "poignard",
-      "rondel",
-      "cinquedeas",
-      "blade",
-      "decoy_gidbinn",
-      "dagger",
-      "dirk",
-      "the_gidbinn",
-      "kris"
-    ],
-    "category": "weapon"
-  },
-  "large_charm": {
-    "name": "large_charm",
-    "display_name": "Large Charm",
-    "code": "lcha",
-    "items": [
-      "grand_charm"
-    ],
-    "category": "miscellaneous"
-  },
-  "mace": {
-    "name": "mace",
-    "display_name": "Mace",
-    "code": "mace",
-    "items": [
-      "scourge",
-      "reinforced_mace",
-      "devil_star",
-      "knout",
-      "flanged_mace",
-      "jagged_star",
-      "flail",
-      "mace",
-      "morning_star",
-      "khalims_flail",
-      "khalims_will"
-    ],
-    "category": "weapon"
-  },
-  "magic_bow_quiv": {
-    "name": "magic_bow_quiv",
-    "display_name": "Magic Bow Quiv",
-    "code": "mboq",
+  "any_armor": {
+    "category": null,
+    "code": "armo",
+    "display_name": "Any Armor",
     "items": null,
-    "category": "miscellaneous"
-  },
-  "medium_charm": {
-    "name": "medium_charm",
-    "display_name": "Medium Charm",
-    "code": "mcha",
-    "items": [
-      "large_charm"
-    ],
-    "category": "miscellaneous"
-  },
-  "melee_weapon": {
-    "name": "melee_weapon",
-    "display_name": "Melee Weapon",
-    "code": "mele",
-    "items": null,
-    "category": null
-  },
-  "miscellaneous": {
-    "name": "miscellaneous",
-    "display_name": "Miscellaneous",
-    "code": "misc",
-    "items": null,
-    "category": null
-  },
-  "missile": {
-    "name": "missile",
-    "display_name": "Missile",
-    "code": "misl",
-    "items": null,
-    "category": null
-  },
-  "missile_weapon": {
-    "name": "missile_weapon",
-    "display_name": "Missile Weapon",
-    "code": "miss",
-    "items": null,
-    "category": null
-  },
-  "mana_potion": {
-    "name": "mana_potion",
-    "display_name": "Mana Potion",
-    "code": "mpot",
-    "items": [
-      "minor_mana_potion",
-      "light_mana_potion",
-      "mana_potion",
-      "greater_mana_potion",
-      "super_mana_potion"
-    ],
-    "category": "miscellaneous"
-  },
-  "magic_xbow_quiv": {
-    "name": "magic_xbow_quiv",
-    "display_name": "Magic Xbow Quiv",
-    "code": "mxbq",
-    "items": null,
-    "category": "miscellaneous"
-  },
-  "necromancer_item": {
-    "name": "necromancer_item",
-    "display_name": "Necromancer Item",
-    "code": "necr",
-    "items": null,
-    "category": null
-  },
-  "orb": {
-    "name": "orb",
-    "display_name": "Orb",
-    "code": "orb",
-    "items": [
-      "eagle_orb",
-      "sacred_globe",
-      "smoked_sphere",
-      "clasped_orb",
-      "jareds_stone",
-      "glowing_orb",
-      "crystalline_globe",
-      "cloudy_sphere",
-      "sparkling_ball",
-      "swirling_crystal",
-      "heavenly_stone",
-      "eldritch_orb",
-      "demon_heart",
-      "vortex_orb",
-      "dimensional_shard"
-    ],
-    "category": "weapon"
-  },
-  "paladin_item": {
-    "name": "paladin_item",
-    "display_name": "Paladin Item",
-    "code": "pala",
-    "items": null,
-    "category": null
-  },
-  "pelt": {
-    "name": "pelt",
-    "display_name": "Pelt",
-    "code": "pelt",
-    "items": [
-      "wolf_head",
-      "hawk_helm",
-      "antlers",
-      "falcon_mask",
-      "spirit_mask",
-      "alpha_helm",
-      "griffon_headdress",
-      "hunters_guise",
-      "sacred_feathers",
-      "totemic_mask",
-      "blood_spirit",
-      "sun_spirit",
-      "earth_spirit",
-      "sky_spirit",
-      "dream_spirit"
-    ],
-    "category": "any_armor"
-  },
-  "primal_helm": {
-    "name": "primal_helm",
-    "display_name": "Primal Helm",
-    "code": "phlm",
-    "items": [
-      "jawbone_cap",
-      "fanged_helm",
-      "horned_helm",
-      "assault_helmet",
-      "avenger_guard",
-      "jawbone_visor",
-      "lion_helm",
-      "rage_mask",
-      "savage_helmet",
-      "slayer_guard",
-      "carnage_helm",
-      "fury_visor",
-      "destroyer_helm",
-      "conqueror_crown",
-      "guardian_crown"
-    ],
-    "category": "any_armor"
-  },
-  "player_body_part": {
-    "name": "player_body_part",
-    "display_name": "Player Body Part",
-    "code": "play",
-    "items": [
-      "ear"
-    ],
-    "category": "miscellaneous"
-  },
-  "polearm": {
-    "name": "polearm",
-    "display_name": "Polearm",
-    "code": "pole",
-    "items": [
-      "great_poleaxe",
-      "ogre_axe",
-      "cryptic_axe",
-      "thresher",
-      "colossus_voulge",
-      "giant_thresher",
-      "lochaber_axe",
-      "becdecorbin",
-      "partizan",
-      "battle_scythe",
-      "bill",
-      "grim_scythe",
-      "bardiche",
-      "halberd",
-      "poleaxe",
-      "scythe",
-      "voulge",
-      "war_scythe"
-    ],
-    "category": "weapon"
-  },
-  "potion": {
-    "name": "potion",
-    "display_name": "Potion",
-    "code": "poti",
-    "items": null,
-    "category": "miscellaneous"
-  },
-  "quest": {
-    "name": "quest",
-    "display_name": "Quest",
-    "code": "ques",
-    "items": [
-      "right_click_to_learn_skill_of_your_choicebook_of_skill",
-      "lam_esens_tome",
-      "burning_essence_of_terror",
-      "baals_eye",
-      "key_to_the_cairn_stones",
-      "scroll_of_inifuss",
-      "horadric_cube",
-      "charged_essence_of_hatred",
-      "diablos_horn",
-      "festering_essence_of_destruction",
-      "the_golden_bird",
-      "keep_it_to_thaw_anyamalahs_potion",
-      "a_jade_figurine",
-      "mephistos_brain",
-      "mephistos_soulstone",
-      "key_of_terror",
-      "key_of_hate",
-      "key_of_destruction",
-      "khalims_brain",
-      "khalims_eye",
-      "khalims_heart",
-      "standard_of_heroes",
-      "twisted_essence_of_suffering",
-      "rightclick_to_reset_statskill_pointstoken_of_absolution",
-      "horadric_scroll",
-      "right_click_to_castscroll_of_resistance",
-      "right_click_to_permanently_add_20_to_lifepotion_of_life"
-    ],
-    "category": null
-  },
-  "ring": {
-    "name": "ring",
-    "display_name": "Ring",
-    "code": "ring",
-    "items": [
-      "ring"
-    ],
-    "category": "miscellaneous"
-  },
-  "staves_and_rods": {
-    "name": "staves_and_rods",
-    "display_name": "Staves And Rods",
-    "code": "rod",
-    "items": null,
-    "category": null
-  },
-  "rejuv_potion": {
-    "name": "rejuv_potion",
-    "display_name": "Rejuv Potion",
-    "code": "rpot",
-    "items": [
-      "full_rejuvenation_potion",
-      "rejuvenation_potion"
-    ],
-    "category": "miscellaneous"
-  },
-  "rune": {
-    "name": "rune",
-    "display_name": "Rune",
-    "code": "rune",
-    "items": [
-      "el_rune",
-      "eld_rune",
-      "tir_rune",
-      "nef_rune",
-      "eth_rune",
-      "ith_rune",
-      "tal_rune",
-      "ral_rune",
-      "ort_rune",
-      "thul_rune",
-      "amn_rune",
-      "sol_rune",
-      "shael_rune",
-      "dol_rune",
-      "hel_rune",
-      "io_rune",
-      "lum_rune",
-      "ko_rune",
-      "fal_rune",
-      "lem_rune",
-      "pul_rune",
-      "um_rune",
-      "mal_rune",
-      "ist_rune",
-      "gul_rune",
-      "vex_rune",
-      "ohm_rune",
-      "lo_rune",
-      "sur_rune",
-      "ber_rune",
-      "jah_rune",
-      "cham_rune",
-      "zod_rune"
-    ],
-    "category": "miscellaneous"
-  },
-  "scepter": {
-    "name": "scepter",
-    "display_name": "Scepter",
-    "code": "scep",
-    "items": [
-      "seraph_rod",
-      "mighty_scepter",
-      "caduceus",
-      "holy_water_sprinkler",
-      "rune_scepter",
-      "divine_scepter",
-      "grand_scepter",
-      "scepter",
-      "war_scepter"
-    ],
-    "category": "weapon"
-  },
-  "small_charm": {
-    "name": "small_charm",
-    "display_name": "Small Charm",
-    "code": "scha",
-    "items": [
-      "small_charm"
-    ],
-    "category": "miscellaneous"
-  },
-  "scroll": {
-    "name": "scroll",
-    "display_name": "Scroll",
-    "code": "scro",
-    "items": [
-      "scroll_of_knowledge",
-      "scroll_of_identify",
-      "scroll_of_town_portal"
-    ],
-    "category": "miscellaneous"
-  },
-  "second_hand": {
-    "name": "second_hand",
-    "display_name": "Second Hand",
-    "code": "seco",
-    "items": null,
-    "category": null
-  },
-  "shield": {
-    "name": "shield",
-    "display_name": "Shield",
-    "code": "shie",
-    "items": [
-      "bone_shield",
-      "buckler",
-      "gothic_shield",
-      "kite_shield",
-      "large_shield",
-      "small_shield",
-      "spiked_shield",
-      "tower_shield",
-      "monarch",
-      "luna",
-      "aegis",
-      "blade_barrier",
-      "hyperion",
-      "troll_nest",
-      "ward",
-      "heater",
-      "dragon_shield",
-      "round_shield",
-      "pavise",
-      "barbed_shield",
-      "scutum",
-      "grim_shield",
-      "ancient_shield",
-      "defender"
-    ],
-    "category": "any_armor"
+    "name": "any_armor"
   },
   "any_shield": {
-    "name": "any_shield",
-    "display_name": "Any Shield",
+    "category": null,
     "code": "shld",
+    "display_name": "Any Shield",
     "items": null,
-    "category": null
-  },
-  "socket_filler": {
-    "name": "socket_filler",
-    "display_name": "Socket Filler",
-    "code": "sock",
-    "items": null,
-    "category": null
-  },
-  "sorceress_item": {
-    "name": "sorceress_item",
-    "display_name": "Sorceress Item",
-    "code": "sorc",
-    "items": null,
-    "category": null
-  },
-  "spear": {
-    "name": "spear",
-    "display_name": "Spear",
-    "code": "spea",
-    "items": [
-      "mancatcher",
-      "war_pike",
-      "hyperion_spear",
-      "ghost_spear",
-      "stygian_pike",
-      "war_fork",
-      "lance",
-      "war_spear",
-      "yari",
-      "fuscina",
-      "brandistock",
-      "pike",
-      "spear",
-      "spetum",
-      "trident"
-    ],
-    "category": "weapon"
-  },
-  "stamina_potion": {
-    "name": "stamina_potion",
-    "display_name": "Stamina Potion",
-    "code": "spot",
-    "items": [
-      "stamina_potion"
-    ],
-    "category": "miscellaneous"
-  },
-  "staff": {
-    "name": "staff",
-    "display_name": "Staff",
-    "code": "staf",
-    "items": [
-      "shillelagh",
-      "elder_staff",
-      "stalagmite",
-      "walking_stick",
-      "archon_staff",
-      "gothic_staff",
-      "cedar_staff",
-      "quarterstaff",
-      "jo_staff",
-      "rune_staff",
-      "battle_staff",
-      "gnarled_staff",
-      "horadric_staff",
-      "long_staff",
-      "shaft_of_the_horadric_staff",
-      "short_staff",
-      "war_staff"
-    ],
-    "category": "weapon"
-  },
-  "sword": {
-    "name": "sword",
-    "display_name": "Sword",
-    "code": "swor",
-    "items": [
-      "twohanded_sword",
-      "legend_sword",
-      "champion_sword",
-      "conquest_sword",
-      "highland_blade",
-      "phase_blade",
-      "colossus_sword",
-      "hydra_edge",
-      "colossus_blade",
-      "balrog_blade",
-      "cryptic_sword",
-      "elegant_blade",
-      "ataghan",
-      "falcata",
-      "mythical_sword",
-      "espandon",
-      "gothic_sword",
-      "battle_sword",
-      "dacian_falx",
-      "dimensional_blade",
-      "zweihander",
-      "tulwar",
-      "executioner_sword",
-      "tusk_sword",
-      "rune_sword",
-      "shamshir",
-      "cutlass",
-      "gladius",
-      "ancient_sword",
-      "broad_sword",
-      "bastard_sword",
-      "claymore",
-      "crystal_sword",
-      "flamberge",
-      "falchion",
-      "giant_sword",
-      "great_sword",
-      "long_sword",
-      "sabre",
-      "scimitar",
-      "short_sword",
-      "war_sword"
-    ],
-    "category": "weapon"
-  },
-  "throwing_axe": {
-    "name": "throwing_axe",
-    "display_name": "Throwing Axe",
-    "code": "taxe",
-    "items": [
-      "winged_axe",
-      "flying_axe",
-      "hurlbat",
-      "francisca",
-      "balanced_axe",
-      "throwing_axe"
-    ],
-    "category": "miscellaneous"
-  },
-  "thrown_weapon": {
-    "name": "thrown_weapon",
-    "display_name": "Thrown Weapon",
-    "code": "thro",
-    "items": null,
-    "category": null
-  },
-  "throwing_knife": {
-    "name": "throwing_knife",
-    "display_name": "Throwing Knife",
-    "code": "tkni",
-    "items": [
-      "winged_knife",
-      "flying_knife",
-      "war_dart",
-      "battle_dart",
-      "balanced_knife",
-      "throwing_knife"
-    ],
-    "category": "miscellaneous"
-  },
-  "torch": {
-    "name": "torch",
-    "display_name": "Torch",
-    "code": "torc",
-    "items": [
-      "torch"
-    ],
-    "category": "miscellaneous"
+    "name": "any_shield"
   },
   "armor": {
-    "name": "armor",
-    "display_name": "Armor",
+    "category": "any_armor",
     "code": "tors",
+    "display_name": "Armor",
     "items": [
       "ancient_armor",
       "breast_plate",
@@ -1361,71 +142,281 @@
       "ghost_armor",
       "chaos_armor"
     ],
-    "category": "any_armor"
+    "name": "armor"
   },
-  "missile_potion": {
-    "name": "missile_potion",
-    "display_name": "Missile Potion",
-    "code": "tpot",
-    "items": [
-      "strangling_gas_potion",
-      "choking_gas_potion",
-      "rancid_gas_potion",
-      "fulminating_potion",
-      "exploding_potion",
-      "oil_potion"
-    ],
-    "category": "miscellaneous"
-  },
-  "wand": {
-    "name": "wand",
-    "display_name": "Wand",
-    "code": "wand",
-    "items": [
-      "lich_wand",
-      "unearthed_wand",
-      "polished_wand",
-      "ghost_wand",
-      "tomb_wand",
-      "grave_wand",
-      "burnt_wand",
-      "petrified_wand",
-      "bone_wand",
-      "grim_wand",
-      "wand",
-      "yew_wand"
-    ],
-    "category": "weapon"
-  },
-  "weapon": {
-    "name": "weapon",
-    "display_name": "Weapon",
-    "code": "weap",
+  "assassin_item": {
+    "category": null,
+    "code": "assn",
+    "display_name": "Assassin Item",
     "items": null,
-    "category": null
+    "name": "assassin_item"
   },
-  "thawing_potion": {
-    "name": "thawing_potion",
-    "display_name": "Thawing Potion",
-    "code": "wpot",
+  "auric_shields": {
+    "category": "any_armor",
+    "code": "ashd",
+    "display_name": "Auric Shields",
     "items": [
-      "thawing_potion"
+      "targe",
+      "rondache",
+      "heraldic_shield",
+      "aerin_shield",
+      "crown_shield",
+      "akaran_targe",
+      "akaran_rondache",
+      "protector_shield",
+      "gilded_shield",
+      "royal_shield",
+      "sacred_targe",
+      "sacred_rondache",
+      "kurast_shield",
+      "zakarum_shield",
+      "vortex_shield"
     ],
-    "category": "miscellaneous"
+    "name": "auric_shields"
   },
-  "crossbow_quiver": {
-    "name": "crossbow_quiver",
-    "display_name": "Crossbow Quiver",
-    "code": "xboq",
+  "axe": {
+    "category": "weapon",
+    "code": "axe",
+    "display_name": "Axe",
     "items": [
-      "bolts"
+      "double_axe",
+      "ettin_axe",
+      "small_crescent",
+      "silveredged_axe",
+      "decapitator",
+      "champion_axe",
+      "glorious_axe",
+      "tomahawk",
+      "feral_axe",
+      "war_spike",
+      "berserker_axe",
+      "twin_axe",
+      "cleaver",
+      "bearded_axe",
+      "tabar",
+      "gothic_axe",
+      "ancient_axe",
+      "hatchet",
+      "military_axe",
+      "crowbill",
+      "naga",
+      "axe",
+      "broad_axe",
+      "battle_axe",
+      "great_axe",
+      "giant_axe",
+      "hand_axe",
+      "large_axe",
+      "military_pick",
+      "war_axe"
     ],
-    "category": "miscellaneous"
+    "name": "axe"
+  },
+  "barbarian_item": {
+    "category": null,
+    "code": "barb",
+    "display_name": "Barbarian Item",
+    "items": null,
+    "name": "barbarian_item"
+  },
+  "belt": {
+    "category": "any_armor",
+    "code": "belt",
+    "display_name": "Belt",
+    "items": [
+      "plated_belt",
+      "sash",
+      "belt",
+      "heavy_belt",
+      "colossus_girdle",
+      "spiderweb_sash",
+      "mithril_coil",
+      "troll_belt",
+      "vampirefang_belt",
+      "light_belt",
+      "war_belt",
+      "demonhide_sash",
+      "mesh_belt",
+      "battle_belt",
+      "sharkskin_belt"
+    ],
+    "name": "belt"
+  },
+  "blunt": {
+    "category": null,
+    "code": "blun",
+    "display_name": "Blunt",
+    "items": null,
+    "name": "blunt"
+  },
+  "body_part": {
+    "category": "miscellaneous",
+    "code": "body",
+    "display_name": "Body Part",
+    "items": [
+      "brain",
+      "eye",
+      "flag",
+      "fang",
+      "horn",
+      "heart",
+      "jawbone",
+      "quill",
+      "scalp",
+      "soul",
+      "spleen",
+      "tail"
+    ],
+    "name": "body_part"
+  },
+  "book": {
+    "category": "miscellaneous",
+    "code": "book",
+    "display_name": "Book",
+    "items": [
+      "tome_of_identify",
+      "tome_of_town_portal"
+    ],
+    "name": "book"
+  },
+  "boots": {
+    "category": "any_armor",
+    "code": "boot",
+    "display_name": "Boots",
+    "items": [
+      "greaves",
+      "boots",
+      "chain_boots",
+      "light_plated_boots",
+      "myrmidon_greaves",
+      "wyrmhide_boots",
+      "boneweave_boots",
+      "mirrored_boots",
+      "scarabshell_boots",
+      "heavy_boots",
+      "war_boots",
+      "demonhide_boots",
+      "mesh_boots",
+      "battle_boots",
+      "sharkskin_boots"
+    ],
+    "name": "boots"
+  },
+  "bow": {
+    "category": "weapon",
+    "code": "bow",
+    "display_name": "Bow",
+    "items": [
+      "great_bow",
+      "blade_bow",
+      "crusader_bow",
+      "shadow_bow",
+      "hydra_bow",
+      "diamond_bow",
+      "spider_bow",
+      "ward_bow",
+      "double_bow",
+      "razor_bow",
+      "large_siege_bow",
+      "cedar_bow",
+      "gothic_bow",
+      "short_siege_bow",
+      "edge_bow",
+      "rune_bow",
+      "composite_bow",
+      "hunters_bow",
+      "long_battle_bow",
+      "long_bow",
+      "long_war_bow",
+      "short_battle_bow",
+      "short_bow",
+      "short_war_bow"
+    ],
+    "name": "bow"
+  },
+  "bow_quiver": {
+    "category": "miscellaneous",
+    "code": "bowq",
+    "display_name": "Bow Quiver",
+    "items": [
+      "arrows"
+    ],
+    "name": "bow_quiver"
+  },
+  "charm": {
+    "category": "miscellaneous",
+    "code": "char",
+    "display_name": "Charm",
+    "items": null,
+    "name": "charm"
+  },
+  "chipped_gem": {
+    "category": "miscellaneous",
+    "code": "gem0",
+    "display_name": "Chipped Gem",
+    "items": [
+      "chipped_sapphire",
+      "chipped_emerald",
+      "chipped_ruby",
+      "chipped_amethyst",
+      "chipped_diamond",
+      "chipped_topaz",
+      "chipped_skull"
+    ],
+    "name": "chipped_gem"
+  },
+  "circlet": {
+    "category": "any_armor",
+    "code": "circ",
+    "display_name": "Circlet",
+    "items": [
+      "circlet",
+      "coronet",
+      "tiara",
+      "diadem"
+    ],
+    "name": "circlet"
+  },
+  "class_specific": {
+    "category": null,
+    "code": "clas",
+    "display_name": "Class Specific",
+    "items": null,
+    "name": "class_specific"
+  },
+  "cloak": {
+    "category": "any_armor",
+    "code": "cloa",
+    "display_name": "Cloak",
+    "items": null,
+    "name": "cloak"
+  },
+  "club": {
+    "category": "weapon",
+    "code": "club",
+    "display_name": "Club",
+    "items": [
+      "truncheon",
+      "tyrant_club",
+      "cudgel",
+      "barbed_club",
+      "club",
+      "wirts_leg",
+      "spiked_club"
+    ],
+    "name": "club"
+  },
+  "combo_weapon": {
+    "category": null,
+    "code": "comb",
+    "display_name": "Combo Weapon",
+    "items": null,
+    "name": "combo_weapon"
   },
   "crossbow": {
-    "name": "crossbow",
-    "display_name": "Crossbow",
+    "category": "weapon",
     "code": "xbow",
+    "display_name": "Crossbow",
     "items": [
       "colossus_crossbow",
       "pellet_bow",
@@ -1440,6 +431,1015 @@
       "crossbow",
       "repeating_crossbow"
     ],
-    "category": "weapon"
+    "name": "crossbow"
+  },
+  "crossbow_quiver": {
+    "category": "miscellaneous",
+    "code": "xboq",
+    "display_name": "Crossbow Quiver",
+    "items": [
+      "bolts"
+    ],
+    "name": "crossbow_quiver"
+  },
+  "diamond": {
+    "category": "miscellaneous",
+    "code": "gemd",
+    "display_name": "Diamond",
+    "items": [
+      "chipped_diamond",
+      "flawed_diamond",
+      "flawless_diamond",
+      "perfect_diamond",
+      "diamond"
+    ],
+    "name": "diamond"
+  },
+  "druid_item": {
+    "category": null,
+    "code": "drui",
+    "display_name": "Druid Item",
+    "items": null,
+    "name": "druid_item"
+  },
+  "elixir": {
+    "category": "miscellaneous",
+    "code": "elix",
+    "display_name": "Elixir",
+    "items": [
+      "elixir"
+    ],
+    "name": "elixir"
+  },
+  "emerald": {
+    "category": "miscellaneous",
+    "code": "geme",
+    "display_name": "Emerald",
+    "items": [
+      "chipped_emerald",
+      "flawed_emerald",
+      "flawless_emerald",
+      "perfect_emerald",
+      "emerald"
+    ],
+    "name": "emerald"
+  },
+  "flawed_gem": {
+    "category": "miscellaneous",
+    "code": "gem1",
+    "display_name": "Flawed Gem",
+    "items": [
+      "flawed_sapphire",
+      "flawed_emerald",
+      "flawed_ruby",
+      "flawed_amethyst",
+      "flawed_diamond",
+      "flawed_topaz",
+      "flawed_skull"
+    ],
+    "name": "flawed_gem"
+  },
+  "flawless_gem": {
+    "category": "miscellaneous",
+    "code": "gem3",
+    "display_name": "Flawless Gem",
+    "items": [
+      "flawless_sapphire",
+      "flawless_emerald",
+      "flawless_ruby",
+      "flawless_diamond",
+      "flawless_topaz",
+      "flawless_amethyst",
+      "flawless_skull"
+    ],
+    "name": "flawless_gem"
+  },
+  "gem": {
+    "category": "miscellaneous",
+    "code": "gem",
+    "display_name": "Gem",
+    "items": null,
+    "name": "gem"
+  },
+  "gloves": {
+    "category": "any_armor",
+    "code": "glov",
+    "display_name": "Gloves",
+    "items": [
+      "gauntlets",
+      "leather_gloves",
+      "chain_gloves",
+      "light_gauntlets",
+      "ogre_gauntlets",
+      "bramble_mitts",
+      "vambraces",
+      "crusader_gauntlets",
+      "vampirebone_gloves",
+      "heavy_gloves",
+      "war_gauntlets",
+      "demonhide_gloves",
+      "heavy_bracers",
+      "battle_gauntlets",
+      "sharkskin_gloves"
+    ],
+    "name": "gloves"
+  },
+  "gold": {
+    "category": null,
+    "code": "gold",
+    "display_name": "Gold",
+    "items": [
+      "gold"
+    ],
+    "name": "gold"
+  },
+  "hammer": {
+    "category": "weapon",
+    "code": "hamm",
+    "display_name": "Hammer",
+    "items": [
+      "thunder_maul",
+      "ogre_maul",
+      "legendary_mallet",
+      "martel_de_fer",
+      "war_club",
+      "battle_hammer",
+      "great_maul",
+      "horadric_malus",
+      "hell_forge_hammer",
+      "maul",
+      "war_hammer"
+    ],
+    "name": "hammer"
+  },
+  "hand_to_hand": {
+    "category": "weapon",
+    "code": "h2h",
+    "display_name": "Hand to Hand",
+    "items": [
+      "quhab",
+      "wrist_spike",
+      "fascia",
+      "hatchet_hands",
+      "blade_talons",
+      "cestus",
+      "claws",
+      "katar",
+      "scissors_katar",
+      "wrist_blade"
+    ],
+    "name": "hand_to_hand"
+  },
+  "hand_to_hand_2": {
+    "category": "weapon",
+    "code": "h2h2",
+    "display_name": "Hand to Hand 2",
+    "items": [
+      "suwayyah",
+      "battle_cestus",
+      "feral_claws",
+      "scissors_suwayyah",
+      "runic_talons",
+      "wrist_sword",
+      "war_fist",
+      "hand_scythe",
+      "greater_claws",
+      "scissors_quhab",
+      "greater_talons"
+    ],
+    "name": "hand_to_hand_2"
+  },
+  "healing_potion": {
+    "category": "miscellaneous",
+    "code": "hpot",
+    "display_name": "Healing Potion",
+    "items": [
+      "minor_healing_potion",
+      "light_healing_potion",
+      "healing_potion",
+      "greater_healing_potion",
+      "super_healing_potion"
+    ],
+    "name": "healing_potion"
+  },
+  "helm": {
+    "category": "any_armor",
+    "code": "helm",
+    "display_name": "Helm",
+    "items": [
+      "bone_helm",
+      "cap",
+      "crown",
+      "full_helm",
+      "great_helm",
+      "helm",
+      "mask",
+      "skull_cap",
+      "shako",
+      "bone_visage",
+      "giant_conch",
+      "spired_helm",
+      "hydraskull",
+      "armet",
+      "corona",
+      "demonhead",
+      "war_hat",
+      "grim_helm",
+      "basinet",
+      "winged_helm",
+      "sallet",
+      "casque",
+      "grand_crown",
+      "death_mask"
+    ],
+    "name": "helm"
+  },
+  "herb": {
+    "category": "miscellaneous",
+    "code": "herb",
+    "display_name": "Herb",
+    "items": [
+      "herb"
+    ],
+    "name": "herb"
+  },
+  "javelin": {
+    "category": "miscellaneous",
+    "code": "jave",
+    "display_name": "Javelin",
+    "items": [
+      "ghost_glaive",
+      "hyperion_javelin",
+      "stygian_pilum",
+      "balrog_spear",
+      "winged_harpoon",
+      "spiculum",
+      "war_javelin",
+      "great_pilum",
+      "simbilan",
+      "harpoon",
+      "glaive",
+      "javelin",
+      "pilum",
+      "short_spear",
+      "throwing_spear"
+    ],
+    "name": "javelin"
+  },
+  "jewel": {
+    "category": "miscellaneous",
+    "code": "jewl",
+    "display_name": "Jewel",
+    "items": [
+      "jewel"
+    ],
+    "name": "jewel"
+  },
+  "key": {
+    "category": "miscellaneous",
+    "code": "key",
+    "display_name": "Key",
+    "items": [
+      "key",
+      "the_black_tower_key"
+    ],
+    "name": "key"
+  },
+  "knife": {
+    "category": "weapon",
+    "code": "knif",
+    "display_name": "Knife",
+    "items": [
+      "legend_spike",
+      "bone_knife",
+      "mithril_point",
+      "fanged_knife",
+      "stiletto",
+      "poignard",
+      "rondel",
+      "cinquedeas",
+      "blade",
+      "decoy_gidbinn",
+      "dagger",
+      "dirk",
+      "the_gidbinn",
+      "kris"
+    ],
+    "name": "knife"
+  },
+  "large_charm": {
+    "category": "miscellaneous",
+    "code": "lcha",
+    "display_name": "Large Charm",
+    "items": [
+      "grand_charm"
+    ],
+    "name": "large_charm"
+  },
+  "mace": {
+    "category": "weapon",
+    "code": "mace",
+    "display_name": "Mace",
+    "items": [
+      "scourge",
+      "reinforced_mace",
+      "devil_star",
+      "knout",
+      "flanged_mace",
+      "jagged_star",
+      "flail",
+      "mace",
+      "morning_star",
+      "khalims_flail",
+      "khalims_will"
+    ],
+    "name": "mace"
+  },
+  "magic_bow_quiv": {
+    "category": "miscellaneous",
+    "code": "mboq",
+    "display_name": "Magic Bow Quiv",
+    "items": null,
+    "name": "magic_bow_quiv"
+  },
+  "magic_xbow_quiv": {
+    "category": "miscellaneous",
+    "code": "mxbq",
+    "display_name": "Magic Xbow Quiv",
+    "items": null,
+    "name": "magic_xbow_quiv"
+  },
+  "mana_potion": {
+    "category": "miscellaneous",
+    "code": "mpot",
+    "display_name": "Mana Potion",
+    "items": [
+      "minor_mana_potion",
+      "light_mana_potion",
+      "mana_potion",
+      "greater_mana_potion",
+      "super_mana_potion"
+    ],
+    "name": "mana_potion"
+  },
+  "medium_charm": {
+    "category": "miscellaneous",
+    "code": "mcha",
+    "display_name": "Medium Charm",
+    "items": [
+      "large_charm"
+    ],
+    "name": "medium_charm"
+  },
+  "melee_weapon": {
+    "category": null,
+    "code": "mele",
+    "display_name": "Melee Weapon",
+    "items": null,
+    "name": "melee_weapon"
+  },
+  "miscellaneous": {
+    "category": null,
+    "code": "misc",
+    "display_name": "Miscellaneous",
+    "items": null,
+    "name": "miscellaneous"
+  },
+  "missile": {
+    "category": null,
+    "code": "misl",
+    "display_name": "Missile",
+    "items": null,
+    "name": "missile"
+  },
+  "missile_potion": {
+    "category": "miscellaneous",
+    "code": "tpot",
+    "display_name": "Missile Potion",
+    "items": [
+      "strangling_gas_potion",
+      "choking_gas_potion",
+      "rancid_gas_potion",
+      "fulminating_potion",
+      "exploding_potion",
+      "oil_potion"
+    ],
+    "name": "missile_potion"
+  },
+  "missile_weapon": {
+    "category": null,
+    "code": "miss",
+    "display_name": "Missile Weapon",
+    "items": null,
+    "name": "missile_weapon"
+  },
+  "necromancer_item": {
+    "category": null,
+    "code": "necr",
+    "display_name": "Necromancer Item",
+    "items": null,
+    "name": "necromancer_item"
+  },
+  "orb": {
+    "category": "weapon",
+    "code": "orb",
+    "display_name": "Orb",
+    "items": [
+      "eagle_orb",
+      "sacred_globe",
+      "smoked_sphere",
+      "clasped_orb",
+      "jareds_stone",
+      "glowing_orb",
+      "crystalline_globe",
+      "cloudy_sphere",
+      "sparkling_ball",
+      "swirling_crystal",
+      "heavenly_stone",
+      "eldritch_orb",
+      "demon_heart",
+      "vortex_orb",
+      "dimensional_shard"
+    ],
+    "name": "orb"
+  },
+  "paladin_item": {
+    "category": null,
+    "code": "pala",
+    "display_name": "Paladin Item",
+    "items": null,
+    "name": "paladin_item"
+  },
+  "pelt": {
+    "category": "any_armor",
+    "code": "pelt",
+    "display_name": "Pelt",
+    "items": [
+      "wolf_head",
+      "hawk_helm",
+      "antlers",
+      "falcon_mask",
+      "spirit_mask",
+      "alpha_helm",
+      "griffon_headdress",
+      "hunters_guise",
+      "sacred_feathers",
+      "totemic_mask",
+      "blood_spirit",
+      "sun_spirit",
+      "earth_spirit",
+      "sky_spirit",
+      "dream_spirit"
+    ],
+    "name": "pelt"
+  },
+  "perfect_gem": {
+    "category": "miscellaneous",
+    "code": "gem4",
+    "display_name": "Perfect Gem",
+    "items": [
+      "perfect_sapphire",
+      "perfect_emerald",
+      "perfect_ruby",
+      "perfect_amethyst",
+      "perfect_diamond",
+      "perfect_topaz",
+      "perfect_skull"
+    ],
+    "name": "perfect_gem"
+  },
+  "player_body_part": {
+    "category": "miscellaneous",
+    "code": "play",
+    "display_name": "Player Body Part",
+    "items": [
+      "ear"
+    ],
+    "name": "player_body_part"
+  },
+  "polearm": {
+    "category": "weapon",
+    "code": "pole",
+    "display_name": "Polearm",
+    "items": [
+      "great_poleaxe",
+      "ogre_axe",
+      "cryptic_axe",
+      "thresher",
+      "colossus_voulge",
+      "giant_thresher",
+      "lochaber_axe",
+      "becdecorbin",
+      "partizan",
+      "battle_scythe",
+      "bill",
+      "grim_scythe",
+      "bardiche",
+      "halberd",
+      "poleaxe",
+      "scythe",
+      "voulge",
+      "war_scythe"
+    ],
+    "name": "polearm"
+  },
+  "potion": {
+    "category": "miscellaneous",
+    "code": "poti",
+    "display_name": "Potion",
+    "items": null,
+    "name": "potion"
+  },
+  "primal_helm": {
+    "category": "any_armor",
+    "code": "phlm",
+    "display_name": "Primal Helm",
+    "items": [
+      "jawbone_cap",
+      "fanged_helm",
+      "horned_helm",
+      "assault_helmet",
+      "avenger_guard",
+      "jawbone_visor",
+      "lion_helm",
+      "rage_mask",
+      "savage_helmet",
+      "slayer_guard",
+      "carnage_helm",
+      "fury_visor",
+      "destroyer_helm",
+      "conqueror_crown",
+      "guardian_crown"
+    ],
+    "name": "primal_helm"
+  },
+  "quest": {
+    "category": null,
+    "code": "ques",
+    "display_name": "Quest",
+    "items": [
+      "right_click_to_learn_skill_of_your_choicebook_of_skill",
+      "lam_esens_tome",
+      "burning_essence_of_terror",
+      "baals_eye",
+      "key_to_the_cairn_stones",
+      "scroll_of_inifuss",
+      "horadric_cube",
+      "charged_essence_of_hatred",
+      "diablos_horn",
+      "festering_essence_of_destruction",
+      "the_golden_bird",
+      "keep_it_to_thaw_anyamalahs_potion",
+      "a_jade_figurine",
+      "mephistos_brain",
+      "mephistos_soulstone",
+      "key_of_terror",
+      "key_of_hate",
+      "key_of_destruction",
+      "khalims_brain",
+      "khalims_eye",
+      "khalims_heart",
+      "standard_of_heroes",
+      "twisted_essence_of_suffering",
+      "rightclick_to_reset_statskill_pointstoken_of_absolution",
+      "horadric_scroll",
+      "right_click_to_castscroll_of_resistance",
+      "right_click_to_permanently_add_20_to_lifepotion_of_life"
+    ],
+    "name": "quest"
+  },
+  "rejuv_potion": {
+    "category": "miscellaneous",
+    "code": "rpot",
+    "display_name": "Rejuv Potion",
+    "items": [
+      "full_rejuvenation_potion",
+      "rejuvenation_potion"
+    ],
+    "name": "rejuv_potion"
+  },
+  "ring": {
+    "category": "miscellaneous",
+    "code": "ring",
+    "display_name": "Ring",
+    "items": [
+      "ring"
+    ],
+    "name": "ring"
+  },
+  "ruby": {
+    "category": "miscellaneous",
+    "code": "gemr",
+    "display_name": "Ruby",
+    "items": [
+      "chipped_ruby",
+      "flawed_ruby",
+      "flawless_ruby",
+      "perfect_ruby",
+      "ruby"
+    ],
+    "name": "ruby"
+  },
+  "rune": {
+    "category": "miscellaneous",
+    "code": "rune",
+    "display_name": "Rune",
+    "items": [
+      "el_rune",
+      "eld_rune",
+      "tir_rune",
+      "nef_rune",
+      "eth_rune",
+      "ith_rune",
+      "tal_rune",
+      "ral_rune",
+      "ort_rune",
+      "thul_rune",
+      "amn_rune",
+      "sol_rune",
+      "shael_rune",
+      "dol_rune",
+      "hel_rune",
+      "io_rune",
+      "lum_rune",
+      "ko_rune",
+      "fal_rune",
+      "lem_rune",
+      "pul_rune",
+      "um_rune",
+      "mal_rune",
+      "ist_rune",
+      "gul_rune",
+      "vex_rune",
+      "ohm_rune",
+      "lo_rune",
+      "sur_rune",
+      "ber_rune",
+      "jah_rune",
+      "cham_rune",
+      "zod_rune"
+    ],
+    "name": "rune"
+  },
+  "sapphire": {
+    "category": "miscellaneous",
+    "code": "gems",
+    "display_name": "Sapphire",
+    "items": [
+      "chipped_sapphire",
+      "flawed_sapphire",
+      "flawless_sapphire",
+      "perfect_sapphire",
+      "sapphire"
+    ],
+    "name": "sapphire"
+  },
+  "scepter": {
+    "category": "weapon",
+    "code": "scep",
+    "display_name": "Scepter",
+    "items": [
+      "seraph_rod",
+      "mighty_scepter",
+      "caduceus",
+      "holy_water_sprinkler",
+      "rune_scepter",
+      "divine_scepter",
+      "grand_scepter",
+      "scepter",
+      "war_scepter"
+    ],
+    "name": "scepter"
+  },
+  "scroll": {
+    "category": "miscellaneous",
+    "code": "scro",
+    "display_name": "Scroll",
+    "items": [
+      "scroll_of_knowledge",
+      "scroll_of_identify",
+      "scroll_of_town_portal"
+    ],
+    "name": "scroll"
+  },
+  "second_hand": {
+    "category": null,
+    "code": "seco",
+    "display_name": "Second Hand",
+    "items": null,
+    "name": "second_hand"
+  },
+  "shield": {
+    "category": "any_armor",
+    "code": "shie",
+    "display_name": "Shield",
+    "items": [
+      "bone_shield",
+      "buckler",
+      "gothic_shield",
+      "kite_shield",
+      "large_shield",
+      "small_shield",
+      "spiked_shield",
+      "tower_shield",
+      "monarch",
+      "luna",
+      "aegis",
+      "blade_barrier",
+      "hyperion",
+      "troll_nest",
+      "ward",
+      "heater",
+      "dragon_shield",
+      "round_shield",
+      "pavise",
+      "barbed_shield",
+      "scutum",
+      "grim_shield",
+      "ancient_shield",
+      "defender"
+    ],
+    "name": "shield"
+  },
+  "skull": {
+    "category": "miscellaneous",
+    "code": "gemz",
+    "display_name": "Skull",
+    "items": [
+      "chipped_skull",
+      "flawed_skull",
+      "flawless_skull",
+      "skull",
+      "perfect_skull"
+    ],
+    "name": "skull"
+  },
+  "small_charm": {
+    "category": "miscellaneous",
+    "code": "scha",
+    "display_name": "Small Charm",
+    "items": [
+      "small_charm"
+    ],
+    "name": "small_charm"
+  },
+  "socket_filler": {
+    "category": null,
+    "code": "sock",
+    "display_name": "Socket Filler",
+    "items": null,
+    "name": "socket_filler"
+  },
+  "sorceress_item": {
+    "category": null,
+    "code": "sorc",
+    "display_name": "Sorceress Item",
+    "items": null,
+    "name": "sorceress_item"
+  },
+  "spear": {
+    "category": "weapon",
+    "code": "spea",
+    "display_name": "Spear",
+    "items": [
+      "mancatcher",
+      "war_pike",
+      "hyperion_spear",
+      "ghost_spear",
+      "stygian_pike",
+      "war_fork",
+      "lance",
+      "war_spear",
+      "yari",
+      "fuscina",
+      "brandistock",
+      "pike",
+      "spear",
+      "spetum",
+      "trident"
+    ],
+    "name": "spear"
+  },
+  "staff": {
+    "category": "weapon",
+    "code": "staf",
+    "display_name": "Staff",
+    "items": [
+      "shillelagh",
+      "elder_staff",
+      "stalagmite",
+      "walking_stick",
+      "archon_staff",
+      "gothic_staff",
+      "cedar_staff",
+      "quarterstaff",
+      "jo_staff",
+      "rune_staff",
+      "battle_staff",
+      "gnarled_staff",
+      "horadric_staff",
+      "long_staff",
+      "shaft_of_the_horadric_staff",
+      "short_staff",
+      "war_staff"
+    ],
+    "name": "staff"
+  },
+  "stamina_potion": {
+    "category": "miscellaneous",
+    "code": "spot",
+    "display_name": "Stamina Potion",
+    "items": [
+      "stamina_potion"
+    ],
+    "name": "stamina_potion"
+  },
+  "standard_gem": {
+    "category": "miscellaneous",
+    "code": "gem2",
+    "display_name": "Standard Gem",
+    "items": [
+      "sapphire",
+      "emerald",
+      "ruby",
+      "amethyst",
+      "diamond",
+      "topaz",
+      "skull"
+    ],
+    "name": "standard_gem"
+  },
+  "staves_and_rods": {
+    "category": null,
+    "code": "rod",
+    "display_name": "Staves And Rods",
+    "items": null,
+    "name": "staves_and_rods"
+  },
+  "sword": {
+    "category": "weapon",
+    "code": "swor",
+    "display_name": "Sword",
+    "items": [
+      "twohanded_sword",
+      "legend_sword",
+      "champion_sword",
+      "conquest_sword",
+      "highland_blade",
+      "phase_blade",
+      "colossus_sword",
+      "hydra_edge",
+      "colossus_blade",
+      "balrog_blade",
+      "cryptic_sword",
+      "elegant_blade",
+      "ataghan",
+      "falcata",
+      "mythical_sword",
+      "espandon",
+      "gothic_sword",
+      "battle_sword",
+      "dacian_falx",
+      "dimensional_blade",
+      "zweihander",
+      "tulwar",
+      "executioner_sword",
+      "tusk_sword",
+      "rune_sword",
+      "shamshir",
+      "cutlass",
+      "gladius",
+      "ancient_sword",
+      "broad_sword",
+      "bastard_sword",
+      "claymore",
+      "crystal_sword",
+      "flamberge",
+      "falchion",
+      "giant_sword",
+      "great_sword",
+      "long_sword",
+      "sabre",
+      "scimitar",
+      "short_sword",
+      "war_sword"
+    ],
+    "name": "sword"
+  },
+  "thawing_potion": {
+    "category": "miscellaneous",
+    "code": "wpot",
+    "display_name": "Thawing Potion",
+    "items": [
+      "thawing_potion"
+    ],
+    "name": "thawing_potion"
+  },
+  "throwing_axe": {
+    "category": "miscellaneous",
+    "code": "taxe",
+    "display_name": "Throwing Axe",
+    "items": [
+      "winged_axe",
+      "flying_axe",
+      "hurlbat",
+      "francisca",
+      "balanced_axe",
+      "throwing_axe"
+    ],
+    "name": "throwing_axe"
+  },
+  "throwing_knife": {
+    "category": "miscellaneous",
+    "code": "tkni",
+    "display_name": "Throwing Knife",
+    "items": [
+      "winged_knife",
+      "flying_knife",
+      "war_dart",
+      "battle_dart",
+      "balanced_knife",
+      "throwing_knife"
+    ],
+    "name": "throwing_knife"
+  },
+  "thrown_weapon": {
+    "category": null,
+    "code": "thro",
+    "display_name": "Thrown Weapon",
+    "items": null,
+    "name": "thrown_weapon"
+  },
+  "topaz": {
+    "category": "miscellaneous",
+    "code": "gemt",
+    "display_name": "Topaz",
+    "items": [
+      "chipped_topaz",
+      "flawed_topaz",
+      "flawless_topaz",
+      "perfect_topaz",
+      "topaz"
+    ],
+    "name": "topaz"
+  },
+  "torch": {
+    "category": "miscellaneous",
+    "code": "torc",
+    "display_name": "Torch",
+    "items": [
+      "torch"
+    ],
+    "name": "torch"
+  },
+  "voodoo_heads": {
+    "category": "any_armor",
+    "code": "head",
+    "display_name": "Voodoo Heads",
+    "items": [
+      "preserved_head",
+      "zombie_head",
+      "unraveller_head",
+      "gargoyle_head",
+      "demon_head",
+      "mummified_trophy",
+      "fetish_trophy",
+      "sexton_trophy",
+      "cantor_trophy",
+      "hierophant_trophy",
+      "minion_skull",
+      "overseer_skull",
+      "succubus_skull",
+      "bloodlord_skull",
+      "hellspawn_skull"
+    ],
+    "name": "voodoo_heads"
+  },
+  "wand": {
+    "category": "weapon",
+    "code": "wand",
+    "display_name": "Wand",
+    "items": [
+      "lich_wand",
+      "unearthed_wand",
+      "polished_wand",
+      "ghost_wand",
+      "tomb_wand",
+      "grave_wand",
+      "burnt_wand",
+      "petrified_wand",
+      "bone_wand",
+      "grim_wand",
+      "wand",
+      "yew_wand"
+    ],
+    "name": "wand"
+  },
+  "weapon": {
+    "category": null,
+    "code": "weap",
+    "display_name": "Weapon",
+    "items": null,
+    "name": "weapon"
   }
 }

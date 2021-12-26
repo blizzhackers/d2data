@@ -1,4822 +1,4822 @@
 {
+  "aegis": {
+    "code": "uow",
+    "display_name": "Aegis",
+    "durability": 92,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 79,
+    "levelreq": 59,
+    "name": "aegis",
+    "props": [
+      {
+        "max": 161,
+        "min": 145,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 219,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "aerin_shield": {
+    "code": "pa4",
+    "display_name": "Aerin Shield",
+    "durability": 50,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 15,
+    "name": "aerin_shield",
+    "props": [
+      {
+        "max": 36,
+        "min": 26,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "akaran_rondache": {
+    "code": "pa7",
+    "display_name": "Akaran Rondache",
+    "durability": 30,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 40,
+    "levelreq": 30,
+    "name": "akaran_rondache",
+    "props": [
+      {
+        "max": 137,
+        "min": 113,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 59,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "akaran_targe": {
+    "code": "pa6",
+    "display_name": "Akaran Targe",
+    "durability": 20,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 35,
+    "levelreq": 26,
+    "name": "akaran_targe",
+    "props": [
+      {
+        "max": 125,
+        "min": 101,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 44,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "alpha_helm": {
+    "code": "dr6",
+    "display_name": "Alpha Helm",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 35,
+    "levelreq": 26,
+    "name": "alpha_helm",
+    "props": [
+      {
+        "max": 62,
+        "min": 52,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 44,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
   "ancient_armor": {
-    "name": "ancient_armor",
-    "display_name": "Ancient Armor",
     "code": "aar",
-    "type": "armor",
-    "uniques": null,
+    "display_name": "Ancient Armor",
+    "durability": 60,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 40,
+    "levelreq": 0,
+    "name": "ancient_armor",
+    "props": [
+      {
+        "max": 233,
+        "min": 218,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 100,
     "sets": [
       "milabregas_robe"
     ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 100,
-    "durability": 60,
-    "level": 40,
-    "levelreq": 0,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 218,
-        "max": 233,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "type": "armor",
+    "uniques": null
   },
-  "jawbone_cap": {
-    "name": "jawbone_cap",
-    "display_name": "Jawbone Cap",
-    "code": "ba1",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 25,
-    "durability": 25,
-    "level": 4,
-    "levelreq": 3,
+  "ancient_shield": {
+    "code": "xts",
+    "display_name": "Ancient Shield",
+    "durability": 80,
     "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 56,
+    "levelreq": 25,
+    "name": "ancient_shield",
     "props": [
       {
-        "min": 10,
-        "max": 15,
+        "max": 93,
+        "min": 80,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "fanged_helm": {
-    "name": "fanged_helm",
-    "display_name": "Fanged Helm",
-    "code": "ba2",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
+    ],
     "quality": "normal",
-    "reqstr": 35,
-    "durability": 35,
-    "level": 8,
-    "levelreq": 6,
+    "reqstr": 110,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "antlers": {
+    "code": "dr3",
+    "display_name": "Antlers",
+    "durability": 20,
     "gemsockets": 3,
-    "props": [
-      {
-        "min": 15,
-        "max": 20,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "horned_helm": {
-    "name": "horned_helm",
-    "display_name": "Horned Helm",
-    "code": "ba3",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
     "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 45,
-    "durability": 45,
     "level": 16,
     "levelreq": 12,
-    "gemsockets": 3,
+    "name": "antlers",
     "props": [
       {
-        "min": 25,
-        "max": 30,
+        "max": 24,
+        "min": 18,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 24,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "archon_plate": {
+    "code": "utp",
+    "display_name": "Archon Plate",
+    "durability": 60,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 84,
+    "levelreq": 63,
+    "name": "archon_plate",
+    "props": [
+      {
+        "max": 524,
+        "min": 410,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 103,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "armet": {
+    "code": "ulm",
+    "display_name": "Armet",
+    "durability": 24,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 68,
+    "levelreq": 51,
+    "name": "armet",
+    "props": [
+      {
+        "max": 149,
+        "min": 105,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 109,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
   },
   "assault_helmet": {
-    "name": "assault_helmet",
-    "display_name": "Assault Helmet",
     "code": "ba4",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 55,
+    "display_name": "Assault Helmet",
     "durability": 50,
+    "gemsockets": 3,
+    "item_class": "normal",
     "level": 20,
     "levelreq": 15,
-    "gemsockets": 3,
+    "name": "assault_helmet",
     "props": [
       {
-        "min": 30,
         "max": 35,
+        "min": 30,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 55,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
   },
   "avenger_guard": {
-    "name": "avenger_guard",
-    "display_name": "Avenger Guard",
     "code": "ba5",
-    "type": "primal_helm",
-    "uniques": null,
+    "display_name": "Avenger Guard",
+    "durability": 55,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 24,
+    "levelreq": 18,
+    "name": "avenger_guard",
+    "props": [
+      {
+        "max": 50,
+        "min": 35,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 65,
     "sets": [
       "immortal_kings_will"
     ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 55,
-    "level": 24,
-    "levelreq": 18,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 35,
-        "max": 50,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "jawbone_visor": {
-    "name": "jawbone_visor",
-    "display_name": "Jawbone Visor",
-    "code": "ba6",
     "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 58,
-    "durability": 25,
-    "level": 33,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 55,
-        "max": 68,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "uniques": null
   },
-  "lion_helm": {
-    "name": "lion_helm",
-    "display_name": "Lion Helm",
-    "code": "ba7",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 73,
-    "durability": 35,
-    "level": 38,
-    "levelreq": 29,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 63,
-        "max": 75,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "rage_mask": {
-    "name": "rage_mask",
-    "display_name": "Rage Mask",
-    "code": "ba8",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 88,
-    "durability": 45,
-    "level": 44,
-    "levelreq": 29,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 78,
-        "max": 90,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "savage_helmet": {
-    "name": "savage_helmet",
-    "display_name": "Savage Helmet",
-    "code": "ba9",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 103,
-    "durability": 50,
-    "level": 49,
-    "levelreq": 32,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 85,
-        "max": 98,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "slayer_guard": {
-    "name": "slayer_guard",
-    "display_name": "Slayer Guard",
-    "code": "baa",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 118,
-    "durability": 55,
-    "level": 54,
-    "levelreq": 40,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 93,
-        "max": 120,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "carnage_helm": {
-    "name": "carnage_helm",
-    "display_name": "Carnage Helm",
-    "code": "bab",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 106,
-    "durability": 25,
-    "level": 60,
-    "levelreq": 45,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 102,
-        "max": 147,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "fury_visor": {
-    "name": "fury_visor",
-    "display_name": "Fury Visor",
-    "code": "bac",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 129,
-    "durability": 35,
-    "level": 66,
-    "levelreq": 49,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 105,
-        "max": 150,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "destroyer_helm": {
-    "name": "destroyer_helm",
-    "display_name": "Destroyer Helm",
-    "code": "bad",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 151,
-    "durability": 45,
-    "level": 73,
-    "levelreq": 54,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 111,
-        "max": 156,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "conqueror_crown": {
-    "name": "conqueror_crown",
-    "display_name": "Conqueror Crown",
-    "code": "bae",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 174,
-    "durability": 50,
-    "level": 80,
-    "levelreq": 60,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 114,
-        "max": 159,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "guardian_crown": {
-    "name": "guardian_crown",
-    "display_name": "Guardian Crown",
-    "code": "baf",
-    "type": "primal_helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 196,
-    "durability": 55,
-    "level": 85,
-    "levelreq": 65,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 117,
-        "max": 168,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "bone_helm": {
-    "name": "bone_helm",
-    "display_name": "Bone Helm",
-    "code": "bhm",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "tancreds_skull"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 25,
-    "durability": 40,
-    "level": 22,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 33,
-        "max": 36,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "breast_plate": {
-    "name": "breast_plate",
-    "display_name": "Breast Plate",
-    "code": "brs",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "isenharts_case"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 30,
-    "durability": 50,
-    "level": 18,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 65,
-        "max": 68,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "bone_shield": {
-    "name": "bone_shield",
-    "display_name": "Bone Shield",
-    "code": "bsh",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 25,
-    "durability": 40,
-    "level": 19,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 10,
-        "max": 30,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "buckler": {
-    "name": "buckler",
-    "display_name": "Buckler",
-    "code": "buc",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "hsarus_iron_fist"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 12,
-    "durability": 12,
-    "level": 1,
-    "levelreq": 0,
-    "gemsockets": 1,
-    "props": [
-      {
-        "min": 4,
-        "max": 6,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "cap": {
-    "name": "cap",
-    "display_name": "Cap",
-    "code": "cap",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "infernal_cranium",
-      "sanders_paragon"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 12,
-    "level": 1,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 3,
-        "max": 5,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "chain_mail": {
-    "name": "chain_mail",
-    "display_name": "Chain Mail",
-    "code": "chn",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "cathans_mesh"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 48,
-    "durability": 45,
-    "level": 15,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 72,
-        "max": 75,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "circlet": {
-    "name": "circlet",
-    "display_name": "Circlet",
-    "code": "ci0",
-    "type": "circlet",
-    "uniques": null,
-    "sets": [
-      "najs_circlet"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 35,
-    "level": 24,
-    "levelreq": 16,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 20,
-        "max": 30,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "coronet": {
-    "name": "coronet",
-    "display_name": "Coronet",
-    "code": "ci1",
-    "type": "circlet",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
+  "balrog_skin": {
+    "code": "upl",
+    "display_name": "Balrog Skin",
     "durability": 30,
-    "level": 52,
-    "levelreq": 39,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 30,
-        "max": 40,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "tiara": {
-    "name": "tiara",
-    "display_name": "Tiara",
-    "code": "ci2",
-    "type": "circlet",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 25,
-    "level": 70,
-    "levelreq": 52,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 40,
-        "max": 50,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "diadem": {
-    "name": "diadem",
-    "display_name": "Diadem",
-    "code": "ci3",
-    "type": "circlet",
-    "uniques": null,
-    "sets": [
-      "mavinas_true_sight"
-    ],
+    "gemsockets": 4,
     "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 20,
-    "level": 85,
-    "levelreq": 64,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 50,
-        "max": 60,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "crown": {
-    "name": "crown",
-    "display_name": "Crown",
-    "code": "crn",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "irathas_coil",
-      "milabregas_diadem"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 55,
-    "durability": 50,
-    "level": 29,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 25,
-        "max": 45,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "wolf_head": {
-    "name": "wolf_head",
-    "display_name": "Wolf Head",
-    "code": "dr1",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 16,
-    "durability": 20,
-    "level": 4,
-    "levelreq": 3,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 8,
-        "max": 11,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hawk_helm": {
-    "name": "hawk_helm",
-    "display_name": "Hawk Helm",
-    "code": "dr2",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 20,
-    "level": 8,
-    "levelreq": 6,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 4,
-        "max": 15,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "antlers": {
-    "name": "antlers",
-    "display_name": "Antlers",
-    "code": "dr3",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 24,
-    "durability": 20,
-    "level": 16,
-    "levelreq": 12,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 18,
-        "max": 24,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "falcon_mask": {
-    "name": "falcon_mask",
-    "display_name": "Falcon Mask",
-    "code": "dr4",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 28,
-    "durability": 20,
-    "level": 20,
-    "levelreq": 15,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 12,
-        "max": 28,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "spirit_mask": {
-    "name": "spirit_mask",
-    "display_name": "Spirit Mask",
-    "code": "dr5",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 30,
-    "durability": 20,
-    "level": 24,
-    "levelreq": 18,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 22,
-        "max": 35,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "alpha_helm": {
-    "name": "alpha_helm",
-    "display_name": "Alpha Helm",
-    "code": "dr6",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 44,
-    "durability": 20,
-    "level": 35,
-    "levelreq": 26,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 52,
-        "max": 62,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "griffon_headdress": {
-    "name": "griffon_headdress",
-    "display_name": "Griffon Headdress",
-    "code": "dr7",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 20,
-    "level": 40,
-    "levelreq": 30,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 46,
-        "max": 68,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hunters_guise": {
-    "name": "hunters_guise",
-    "display_name": "Hunter's Guise",
-    "code": "dr8",
-    "type": "pelt",
-    "uniques": null,
-    "sets": [
-      "aldurs_stony_gaze"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 56,
-    "durability": 20,
-    "level": 46,
-    "levelreq": 29,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 67,
-        "max": 81,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sacred_feathers": {
-    "name": "sacred_feathers",
-    "display_name": "Sacred Feathers",
-    "code": "dr9",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 62,
-    "durability": 20,
-    "level": 50,
-    "levelreq": 32,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 58,
-        "max": 87,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "totemic_mask": {
-    "name": "totemic_mask",
-    "display_name": "Totemic Mask",
-    "code": "dra",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 20,
-    "level": 55,
-    "levelreq": 41,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 73,
-        "max": 98,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "blood_spirit": {
-    "name": "blood_spirit",
-    "display_name": "Blood Spirit",
-    "code": "drb",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 86,
-    "durability": 20,
-    "level": 62,
-    "levelreq": 46,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 101,
-        "max": 145,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sun_spirit": {
-    "name": "sun_spirit",
-    "display_name": "Sun Spirit",
-    "code": "drc",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 95,
-    "durability": 20,
-    "level": 69,
-    "levelreq": 51,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 98,
-        "max": 147,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "earth_spirit": {
-    "name": "earth_spirit",
-    "display_name": "Earth Spirit",
-    "code": "drd",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 104,
-    "durability": 20,
     "level": 76,
     "levelreq": 57,
-    "gemsockets": 3,
+    "name": "balrog_skin",
     "props": [
       {
-        "min": 107,
-        "max": 152,
+        "max": 517,
+        "min": 410,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "sky_spirit": {
-    "name": "sky_spirit",
-    "display_name": "Sky Spirit",
-    "code": "dre",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 113,
-    "durability": 20,
-    "level": 83,
-    "levelreq": 62,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 103,
-        "max": 155,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "dream_spirit": {
-    "name": "dream_spirit",
-    "display_name": "Dream Spirit",
-    "code": "drf",
-    "type": "pelt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 118,
-    "durability": 20,
-    "level": 85,
-    "levelreq": 66,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 109,
-        "max": 159,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "full_helm": {
-    "name": "full_helm",
-    "display_name": "Full Helm",
-    "code": "fhl",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "isenharts_horns"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 41,
-    "durability": 30,
-    "level": 15,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 23,
-        "max": 26,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "field_plate": {
-    "name": "field_plate",
-    "display_name": "Field Plate",
-    "code": "fld",
+    "reqstr": 165,
+    "sets": [
+      "sazabis_ghost_liberator"
+    ],
     "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 55,
-    "durability": 48,
-    "level": 28,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 101,
-        "max": 105,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "uniques": null
   },
-  "full_plate_mail": {
-    "name": "full_plate_mail",
-    "display_name": "Full Plate Mail",
-    "code": "ful",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "tancreds_spine"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 80,
-    "durability": 70,
-    "level": 37,
-    "levelreq": 0,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 150,
-        "max": 161,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "great_helm": {
-    "name": "great_helm",
-    "display_name": "Great Helm",
-    "code": "ghm",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "sigons_visor"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 63,
-    "durability": 40,
-    "level": 23,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 30,
-        "max": 35,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "gothic_plate": {
-    "name": "gothic_plate",
-    "display_name": "Gothic Plate",
-    "code": "gth",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "sigons_shelter"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 70,
+  "barbed_shield": {
+    "code": "xpk",
+    "display_name": "Barbed Shield",
     "durability": 55,
-    "level": 32,
-    "levelreq": 0,
-    "gemsockets": 4,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 42,
+    "levelreq": 25,
+    "name": "barbed_shield",
     "props": [
       {
-        "min": 128,
-        "max": 135,
+        "max": 78,
+        "min": 58,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "gothic_shield": {
-    "name": "gothic_shield",
-    "display_name": "Gothic Shield",
-    "code": "gts",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "isenharts_parry"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 60,
-    "durability": 40,
-    "level": 30,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 30,
-        "max": 35,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "plated_belt": {
-    "name": "plated_belt",
-    "display_name": "Plated Belt",
-    "code": "hbl",
-    "type": "belt",
-    "uniques": null,
-    "sets": [
-      "sigons_wrap"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 60,
-    "durability": 24,
-    "level": 27,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 8,
-        "max": 11,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "greaves": {
-    "name": "greaves",
-    "display_name": "Greaves",
-    "code": "hbt",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "sigons_sabot"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 70,
-    "durability": 24,
-    "level": 27,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 12,
-        "max": 15,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "gauntlets": {
-    "name": "gauntlets",
-    "display_name": "Gauntlets",
-    "code": "hgl",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "sigons_gage"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 60,
-    "durability": 24,
-    "level": 27,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 12,
-        "max": 15,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hard_leather_armor": {
-    "name": "hard_leather_armor",
-    "display_name": "Hard Leather Armor",
-    "code": "hla",
-    "type": "armor",
-    "uniques": null,
+    "reqstr": 65,
     "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 28,
-    "level": 5,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 21,
-        "max": 24,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "helm": {
-    "name": "helm",
-    "display_name": "Helm",
-    "code": "hlm",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "berserkers_headgear"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 26,
-    "durability": 24,
-    "level": 11,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 15,
-        "max": 18,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "kite_shield": {
-    "name": "kite_shield",
-    "display_name": "Kite Shield",
-    "code": "kit",
     "type": "shield",
-    "uniques": null,
-    "sets": [
-      "milabregas_orb"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 47,
+    "uniques": null
+  },
+  "basinet": {
+    "code": "xhl",
+    "display_name": "Basinet",
     "durability": 30,
-    "level": 15,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 16,
-        "max": 18,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sash": {
-    "name": "sash",
-    "display_name": "Sash",
-    "code": "lbl",
-    "type": "belt",
-    "uniques": null,
-    "sets": [
-      "deaths_guard"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 12,
-    "level": 3,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 2,
-        "max": 2,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "boots": {
-    "name": "boots",
-    "display_name": "Boots",
-    "code": "lbt",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "tancreds_hobnails"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 12,
-    "level": 3,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 2,
-        "max": 3,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "leather_armor": {
-    "name": "leather_armor",
-    "display_name": "Leather Armor",
-    "code": "lea",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "vidalas_ambush"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 15,
-    "durability": 24,
-    "level": 3,
-    "levelreq": 0,
     "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 45,
+    "levelreq": 25,
+    "name": "basinet",
     "props": [
       {
-        "min": 14,
-        "max": 17,
+        "max": 84,
+        "min": 75,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "leather_gloves": {
-    "name": "leather_gloves",
-    "display_name": "Leather Gloves",
-    "code": "lgl",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "deaths_hand"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 0,
-    "durability": 12,
-    "level": 3,
-    "levelreq": 0,
+    "reqstr": 82,
+    "sets": [
+      "sazabis_mental_sheath"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "battle_belt": {
+    "code": "ztb",
+    "display_name": "Battle Belt",
+    "durability": 18,
     "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 49,
+    "levelreq": 25,
+    "name": "battle_belt",
     "props": [
       {
-        "min": 2,
-        "max": 3,
+        "max": 42,
+        "min": 37,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "large_shield": {
-    "name": "large_shield",
-    "display_name": "Large Shield",
-    "code": "lrg",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "civerbs_ward"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 34,
-    "durability": 24,
-    "level": 11,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 12,
-        "max": 14,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "light_plate": {
-    "name": "light_plate",
-    "display_name": "Light Plate",
-    "code": "ltp",
-    "type": "armor",
-    "uniques": null,
+    "reqstr": 88,
     "sets": [
-      "arcannas_flesh"
+      "wilhelms_pride"
     ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 41,
-    "durability": 60,
-    "level": 35,
-    "levelreq": 0,
-    "gemsockets": 3,
+    "type": "belt",
+    "uniques": null
+  },
+  "battle_boots": {
+    "code": "xtb",
+    "display_name": "Battle Boots",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 49,
+    "levelreq": 25,
+    "name": "battle_boots",
     "props": [
       {
-        "min": 90,
-        "max": 107,
+        "max": 47,
+        "min": 39,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 95,
+    "sets": [
+      "aldurs_advance"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "battle_gauntlets": {
+    "code": "xtg",
+    "display_name": "Battle Gauntlets",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 49,
+    "levelreq": 25,
+    "name": "battle_gauntlets",
+    "props": [
+      {
+        "max": 47,
+        "min": 39,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 88,
+    "sets": [
+      "mavinas_icy_clutch"
+    ],
+    "type": "gloves",
+    "uniques": null
   },
   "belt": {
-    "name": "belt",
-    "display_name": "Belt",
     "code": "mbl",
-    "type": "belt",
-    "uniques": null,
+    "display_name": "Belt",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 12,
+    "levelreq": 0,
+    "name": "belt",
+    "props": [
+      {
+        "max": 5,
+        "min": 5,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 25,
     "sets": [
       "hsarus_iron_stay",
       "hwanins_blessing"
     ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 25,
-    "durability": 16,
-    "level": 12,
-    "levelreq": 0,
-    "gemsockets": 0,
+    "type": "belt",
+    "uniques": null
+  },
+  "blade_barrier": {
+    "code": "upk",
+    "display_name": "Blade Barrier",
+    "durability": 83,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 68,
+    "levelreq": 51,
+    "name": "blade_barrier",
     "props": [
       {
-        "min": 5,
-        "max": 5,
+        "max": 163,
+        "min": 147,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "chain_boots": {
-    "name": "chain_boots",
-    "display_name": "Chain Boots",
-    "code": "mbt",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "hsarus_iron_heel"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 30,
-    "durability": 16,
-    "level": 12,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 8,
-        "max": 9,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "reqstr": 118,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
   },
-  "chain_gloves": {
-    "name": "chain_gloves",
-    "display_name": "Chain Gloves",
-    "code": "mgl",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "cleglaws_pincers"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 25,
-    "durability": 16,
-    "level": 12,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 8,
-        "max": 9,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mask": {
-    "name": "mask",
-    "display_name": "Mask",
-    "code": "msk",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "cathans_visage"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 23,
+  "blood_spirit": {
+    "code": "drb",
+    "display_name": "Blood Spirit",
     "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 62,
+    "levelreq": 46,
+    "name": "blood_spirit",
+    "props": [
+      {
+        "max": 145,
+        "min": 101,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 86,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "bloodlord_skull": {
+    "code": "nef",
+    "display_name": "Bloodlord Skull",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 65,
+    "name": "bloodlord_skull",
+    "props": [
+      {
+        "max": 148,
+        "min": 103,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 106,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "bone_helm": {
+    "code": "bhm",
+    "display_name": "Bone Helm",
+    "durability": 40,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 22,
+    "levelreq": 0,
+    "name": "bone_helm",
+    "props": [
+      {
+        "max": 36,
+        "min": 33,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 25,
+    "sets": [
+      "tancreds_skull"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "bone_shield": {
+    "code": "bsh",
+    "display_name": "Bone Shield",
+    "durability": 40,
+    "gemsockets": 2,
+    "item_class": "normal",
     "level": 19,
     "levelreq": 0,
-    "gemsockets": 3,
+    "name": "bone_shield",
     "props": [
       {
-        "min": 9,
-        "max": 27,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "preserved_head": {
-    "name": "preserved_head",
-    "display_name": "Preserved Head",
-    "code": "ne1",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 12,
-    "durability": 20,
-    "level": 4,
-    "levelreq": 3,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 2,
-        "max": 5,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "zombie_head": {
-    "name": "zombie_head",
-    "display_name": "Zombie Head",
-    "code": "ne2",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 14,
-    "durability": 20,
-    "level": 8,
-    "levelreq": 6,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 4,
-        "max": 8,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "unraveller_head": {
-    "name": "unraveller_head",
-    "display_name": "Unraveller Head",
-    "code": "ne3",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 18,
-    "durability": 20,
-    "level": 16,
-    "levelreq": 12,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 6,
-        "max": 10,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "gargoyle_head": {
-    "name": "gargoyle_head",
-    "display_name": "Gargoyle Head",
-    "code": "ne4",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 20,
-    "level": 20,
-    "levelreq": 15,
-    "gemsockets": 2,
-    "props": [
-      {
+        "max": 30,
         "min": 10,
-        "max": 16,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "demon_head": {
-    "name": "demon_head",
-    "display_name": "Demon Head",
-    "code": "ne5",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
+    ],
     "quality": "normal",
     "reqstr": 25,
-    "durability": 20,
-    "level": 24,
-    "levelreq": 18,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 15,
-        "max": 20,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mummified_trophy": {
-    "name": "mummified_trophy",
-    "display_name": "Mummified Trophy",
-    "code": "ne6",
-    "type": "voodoo_heads",
-    "uniques": null,
     "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 38,
-    "durability": 20,
-    "level": 33,
-    "levelreq": 24,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 38,
-        "max": 48,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "type": "shield",
+    "uniques": null
   },
-  "fetish_trophy": {
-    "name": "fetish_trophy",
-    "display_name": "Fetish Trophy",
-    "code": "ne7",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 41,
-    "durability": 20,
-    "level": 39,
-    "levelreq": 29,
-    "gemsockets": 2,
+  "bone_visage": {
+    "code": "uh9",
+    "display_name": "Bone Visage",
+    "durability": 40,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 84,
+    "levelreq": 63,
+    "name": "bone_visage",
     "props": [
       {
-        "min": 41,
-        "max": 52,
+        "max": 157,
+        "min": 100,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 106,
+    "sets": [
+      "trangouls_guise"
+    ],
+    "type": "helm",
+    "uniques": null
   },
-  "sexton_trophy": {
-    "name": "sexton_trophy",
-    "display_name": "Sexton Trophy",
-    "code": "ne8",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 47,
-    "durability": 20,
-    "level": 45,
-    "levelreq": 33,
-    "gemsockets": 2,
+  "boneweave": {
+    "code": "uhn",
+    "display_name": "Boneweave",
+    "durability": 45,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 62,
+    "levelreq": 47,
+    "name": "boneweave",
     "props": [
       {
-        "min": 44,
-        "max": 55,
+        "max": 505,
+        "min": 399,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 158,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "boneweave_boots": {
+    "code": "umb",
+    "display_name": "Boneweave Boots",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 72,
+    "levelreq": 54,
+    "name": "boneweave_boots",
+    "props": [
+      {
+        "max": 67,
+        "min": 59,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 118,
+    "sets": null,
+    "type": "boots",
+    "uniques": null
+  },
+  "boots": {
+    "code": "lbt",
+    "display_name": "Boots",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 3,
+    "levelreq": 0,
+    "name": "boots",
+    "props": [
+      {
+        "max": 3,
+        "min": 2,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": [
+      "tancreds_hobnails"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "bramble_mitts": {
+    "code": "ulg",
+    "display_name": "Bramble Mitts",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 57,
+    "levelreq": 42,
+    "name": "bramble_mitts",
+    "props": [
+      {
+        "max": 62,
+        "min": 54,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": [
+      "laying_of_hands"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "breast_plate": {
+    "code": "brs",
+    "display_name": "Breast Plate",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 18,
+    "levelreq": 0,
+    "name": "breast_plate",
+    "props": [
+      {
+        "max": 68,
+        "min": 65,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 30,
+    "sets": [
+      "isenharts_case"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "buckler": {
+    "code": "buc",
+    "display_name": "Buckler",
+    "durability": 12,
+    "gemsockets": 1,
+    "item_class": "normal",
+    "level": 1,
+    "levelreq": 0,
+    "name": "buckler",
+    "props": [
+      {
+        "max": 6,
+        "min": 4,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 12,
+    "sets": [
+      "hsarus_iron_fist"
+    ],
+    "type": "shield",
+    "uniques": null
   },
   "cantor_trophy": {
-    "name": "cantor_trophy",
-    "display_name": "Cantor Trophy",
     "code": "ne9",
-    "type": "voodoo_heads",
-    "uniques": null,
+    "display_name": "Cantor Trophy",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 49,
+    "levelreq": 36,
+    "name": "cantor_trophy",
+    "props": [
+      {
+        "max": 64,
+        "min": 50,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
     "sets": [
       "trangouls_wing"
     ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 20,
-    "level": 49,
-    "levelreq": 36,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 50,
-        "max": 64,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hierophant_trophy": {
-    "name": "hierophant_trophy",
-    "display_name": "Hierophant Trophy",
-    "code": "nea",
     "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 58,
-    "durability": 20,
-    "level": 54,
-    "levelreq": 40,
+    "uniques": null
+  },
+  "cap": {
+    "code": "cap",
+    "display_name": "Cap",
+    "durability": 12,
     "gemsockets": 2,
-    "props": [
-      {
-        "min": 58,
-        "max": 70,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "minion_skull": {
-    "name": "minion_skull",
-    "display_name": "Minion Skull",
-    "code": "neb",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 77,
-    "durability": 20,
-    "level": 59,
-    "levelreq": 44,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 95,
-        "max": 139,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "overseer_skull": {
-    "name": "overseer_skull",
-    "display_name": "Overseer Skull",
-    "code": "ned",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 91,
-    "durability": 20,
-    "level": 66,
-    "levelreq": 49,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 98,
-        "max": 142,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "succubus_skull": {
-    "name": "succubus_skull",
-    "display_name": "Succubus Skull",
-    "code": "nee",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 95,
-    "durability": 20,
-    "level": 81,
-    "levelreq": 60,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 100,
-        "max": 146,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "bloodlord_skull": {
-    "name": "bloodlord_skull",
-    "display_name": "Bloodlord Skull",
-    "code": "nef",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 106,
-    "durability": 20,
-    "level": 85,
-    "levelreq": 65,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 103,
-        "max": 148,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hellspawn_skull": {
-    "name": "hellspawn_skull",
-    "display_name": "Hellspawn Skull",
-    "code": "neg",
-    "type": "voodoo_heads",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 82,
-    "durability": 20,
-    "level": 67,
-    "levelreq": 50,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 96,
-        "max": 141,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "targe": {
-    "name": "targe",
-    "display_name": "Targe",
-    "code": "pa1",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
     "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 16,
-    "durability": 20,
-    "level": 4,
-    "levelreq": 3,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 8,
-        "max": 12,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "rondache": {
-    "name": "rondache",
-    "display_name": "Rondache",
-    "code": "pa2",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 26,
-    "durability": 30,
-    "level": 8,
-    "levelreq": 6,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 10,
-        "max": 18,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "heraldic_shield": {
-    "name": "heraldic_shield",
-    "display_name": "Heraldic Shield",
-    "code": "pa3",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 40,
-    "durability": 40,
-    "level": 16,
-    "levelreq": 12,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 16,
-        "max": 26,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "aerin_shield": {
-    "name": "aerin_shield",
-    "display_name": "Aerin Shield",
-    "code": "pa4",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 50,
-    "level": 20,
-    "levelreq": 15,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 26,
-        "max": 36,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "crown_shield": {
-    "name": "crown_shield",
-    "display_name": "Crown Shield",
-    "code": "pa5",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 60,
-    "level": 24,
-    "levelreq": 18,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 30,
-        "max": 40,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "akaran_targe": {
-    "name": "akaran_targe",
-    "display_name": "Akaran Targe",
-    "code": "pa6",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 44,
-    "durability": 20,
-    "level": 35,
-    "levelreq": 26,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 101,
-        "max": 125,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "akaran_rondache": {
-    "name": "akaran_rondache",
-    "display_name": "Akaran Rondache",
-    "code": "pa7",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 59,
-    "durability": 30,
-    "level": 40,
-    "levelreq": 30,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 113,
-        "max": 137,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "protector_shield": {
-    "name": "protector_shield",
-    "display_name": "Protector Shield",
-    "code": "pa8",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 69,
-    "durability": 40,
-    "level": 46,
-    "levelreq": 34,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 129,
-        "max": 153,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "gilded_shield": {
-    "name": "gilded_shield",
-    "display_name": "Gilded Shield",
-    "code": "pa9",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 89,
-    "durability": 50,
-    "level": 51,
-    "levelreq": 38,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 144,
-        "max": 168,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "royal_shield": {
-    "name": "royal_shield",
-    "display_name": "Royal Shield",
-    "code": "paa",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 114,
-    "durability": 60,
-    "level": 55,
-    "levelreq": 41,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 156,
-        "max": 181,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sacred_targe": {
-    "name": "sacred_targe",
-    "display_name": "Sacred Targe",
-    "code": "pab",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 86,
-    "durability": 45,
-    "level": 63,
-    "levelreq": 47,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 126,
-        "max": 158,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sacred_rondache": {
-    "name": "sacred_rondache",
-    "display_name": "Sacred Rondache",
-    "code": "pac",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 109,
-    "durability": 68,
-    "level": 70,
-    "levelreq": 52,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 138,
-        "max": 164,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "kurast_shield": {
-    "name": "kurast_shield",
-    "display_name": "Kurast Shield",
-    "code": "pad",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 124,
-    "durability": 55,
-    "level": 74,
-    "levelreq": 55,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 154,
-        "max": 172,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "zakarum_shield": {
-    "name": "zakarum_shield",
-    "display_name": "Zakarum Shield",
-    "code": "pae",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 142,
-    "durability": 65,
-    "level": 82,
-    "levelreq": 61,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 169,
-        "max": 193,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "vortex_shield": {
-    "name": "vortex_shield",
-    "display_name": "Vortex Shield",
-    "code": "paf",
-    "type": "auric_shields",
-    "uniques": null,
-    "sets": [
-      "griswolds_honor"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 148,
-    "durability": 90,
-    "level": 85,
-    "levelreq": 66,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 182,
-        "max": 225,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "plate_mail": {
-    "name": "plate_mail",
-    "display_name": "Plate Mail",
-    "code": "plt",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 60,
-    "level": 24,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 108,
-        "max": 116,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "quilted_armor": {
-    "name": "quilted_armor",
-    "display_name": "Quilted Armor",
-    "code": "qui",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "arctic_furs"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 12,
-    "durability": 20,
     "level": 1,
     "levelreq": 0,
-    "gemsockets": 2,
+    "name": "cap",
     "props": [
       {
-        "min": 8,
-        "max": 11,
+        "max": 5,
+        "min": 3,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "ring_mail": {
-    "name": "ring_mail",
-    "display_name": "Ring Mail",
-    "code": "rng",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "angelic_mantle"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 36,
-    "durability": 26,
-    "level": 11,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 45,
-        "max": 48,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "scale_mail": {
-    "name": "scale_mail",
-    "display_name": "Scale Mail",
-    "code": "scl",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 44,
-    "durability": 36,
-    "level": 13,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 57,
-        "max": 60,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "skull_cap": {
-    "name": "skull_cap",
-    "display_name": "Skull Cap",
-    "code": "skp",
+    "reqstr": 0,
+    "sets": [
+      "infernal_cranium",
+      "sanders_paragon"
+    ],
     "type": "helm",
-    "uniques": null,
-    "sets": [
-      "arcannas_head"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 15,
-    "durability": 18,
-    "level": 5,
-    "levelreq": 0,
-    "gemsockets": 2,
+    "uniques": null
+  },
+  "carnage_helm": {
+    "code": "bab",
+    "display_name": "Carnage Helm",
+    "durability": 25,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 60,
+    "levelreq": 45,
+    "name": "carnage_helm",
     "props": [
       {
-        "min": 8,
-        "max": 11,
+        "max": 147,
+        "min": 102,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "small_shield": {
-    "name": "small_shield",
-    "display_name": "Small Shield",
-    "code": "sml",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "cleglaws_claw"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 22,
-    "durability": 16,
-    "level": 5,
-    "levelreq": 0,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 8,
-        "max": 10,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "spiked_shield": {
-    "name": "spiked_shield",
-    "display_name": "Spiked Shield",
-    "code": "spk",
-    "type": "shield",
-    "uniques": null,
+    "reqstr": 106,
     "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "casque": {
+    "code": "xlm",
+    "display_name": "Casque",
+    "durability": 24,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 42,
+    "levelreq": 25,
+    "name": "casque",
+    "props": [
+      {
+        "max": 72,
+        "min": 63,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 59,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
+  },
+  "chain_boots": {
+    "code": "mbt",
+    "display_name": "Chain Boots",
+    "durability": 16,
+    "gemsockets": 0,
     "item_class": "normal",
+    "level": 12,
+    "levelreq": 0,
+    "name": "chain_boots",
+    "props": [
+      {
+        "max": 9,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
     "quality": "normal",
     "reqstr": 30,
-    "durability": 40,
-    "level": 11,
+    "sets": [
+      "hsarus_iron_heel"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "chain_gloves": {
+    "code": "mgl",
+    "display_name": "Chain Gloves",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 12,
     "levelreq": 0,
-    "gemsockets": 2,
+    "name": "chain_gloves",
     "props": [
       {
-        "min": 15,
-        "max": 25,
+        "max": 9,
+        "min": 8,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "splint_mail": {
-    "name": "splint_mail",
-    "display_name": "Splint Mail",
-    "code": "spl",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "berserkers_hauberk"
     ],
-    "item_class": "normal",
     "quality": "normal",
-    "reqstr": 51,
+    "reqstr": 25,
+    "sets": [
+      "cleglaws_pincers"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "chain_mail": {
+    "code": "chn",
+    "display_name": "Chain Mail",
+    "durability": 45,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 15,
+    "levelreq": 0,
+    "name": "chain_mail",
+    "props": [
+      {
+        "max": 75,
+        "min": 72,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 48,
+    "sets": [
+      "cathans_mesh"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "chaos_armor": {
+    "code": "xul",
+    "display_name": "Chaos Armor",
+    "durability": 70,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 61,
+    "levelreq": 25,
+    "name": "chaos_armor",
+    "props": [
+      {
+        "max": 342,
+        "min": 315,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 140,
+    "sets": [
+      "trangouls_scales"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "circlet": {
+    "code": "ci0",
+    "display_name": "Circlet",
+    "durability": 35,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 24,
+    "levelreq": 16,
+    "name": "circlet",
+    "props": [
+      {
+        "max": 30,
+        "min": 20,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": [
+      "najs_circlet"
+    ],
+    "type": "circlet",
+    "uniques": null
+  },
+  "colossus_girdle": {
+    "code": "uhc",
+    "display_name": "Colossus Girdle",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 67,
+    "name": "colossus_girdle",
+    "props": [
+      {
+        "max": 71,
+        "min": 61,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 185,
+    "sets": null,
+    "type": "belt",
+    "uniques": null
+  },
+  "conqueror_crown": {
+    "code": "bae",
+    "display_name": "Conqueror Crown",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 80,
+    "levelreq": 60,
+    "name": "conqueror_crown",
+    "props": [
+      {
+        "max": 159,
+        "min": 114,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 174,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "corona": {
+    "code": "urn",
+    "display_name": "Corona",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 66,
+    "name": "corona",
+    "props": [
+      {
+        "max": 165,
+        "min": 111,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 174,
+    "sets": [
+      "griswolds_valor"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "coronet": {
+    "code": "ci1",
+    "display_name": "Coronet",
     "durability": 30,
-    "level": 20,
-    "levelreq": 0,
     "gemsockets": 2,
-    "props": [
-      {
-        "min": 90,
-        "max": 95,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "studded_leather": {
-    "name": "studded_leather",
-    "display_name": "Studded Leather",
-    "code": "stu",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "cow_kings_hide"
-    ],
     "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 27,
-    "durability": 32,
-    "level": 8,
-    "levelreq": 0,
-    "gemsockets": 2,
+    "level": 52,
+    "levelreq": 39,
+    "name": "coronet",
     "props": [
       {
-        "min": 32,
-        "max": 35,
+        "max": 40,
+        "min": 30,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": null,
+    "type": "circlet",
+    "uniques": null
+  },
+  "crown": {
+    "code": "crn",
+    "display_name": "Crown",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 29,
+    "levelreq": 0,
+    "name": "crown",
+    "props": [
+      {
+        "max": 45,
+        "min": 25,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 55,
+    "sets": [
+      "irathas_coil",
+      "milabregas_diadem"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "crown_shield": {
+    "code": "pa5",
+    "display_name": "Crown Shield",
+    "durability": 60,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 24,
+    "levelreq": 18,
+    "name": "crown_shield",
+    "props": [
+      {
+        "max": 40,
+        "min": 30,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 65,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "crusader_gauntlets": {
+    "code": "utg",
+    "display_name": "Crusader Gauntlets",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 76,
+    "levelreq": 57,
+    "name": "crusader_gauntlets",
+    "props": [
+      {
+        "max": 68,
+        "min": 59,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 151,
+    "sets": null,
+    "type": "gloves",
+    "uniques": null
+  },
+  "cuirass": {
+    "code": "xrs",
+    "display_name": "Cuirass",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 47,
+    "levelreq": 25,
+    "name": "cuirass",
+    "props": [
+      {
+        "max": 202,
+        "min": 188,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 65,
+    "sets": [
+      "haemosus_adamant"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "death_mask": {
+    "code": "xsk",
+    "display_name": "Death Mask",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 48,
+    "levelreq": 25,
+    "name": "death_mask",
+    "props": [
+      {
+        "max": 86,
+        "min": 54,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 55,
+    "sets": [
+      "tal_rashas_horadric_crest"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "defender": {
+    "code": "xuc",
+    "display_name": "Defender",
+    "durability": 68,
+    "gemsockets": 1,
+    "item_class": "exceptional",
+    "level": 34,
+    "levelreq": 22,
+    "name": "defender",
+    "props": [
+      {
+        "max": 49,
+        "min": 41,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 38,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "demon_head": {
+    "code": "ne5",
+    "display_name": "Demon Head",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 24,
+    "levelreq": 18,
+    "name": "demon_head",
+    "props": [
+      {
+        "max": 20,
+        "min": 15,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 25,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "demonhead": {
+    "code": "usk",
+    "display_name": "Demonhead",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 74,
+    "levelreq": 55,
+    "name": "demonhead",
+    "props": [
+      {
+        "max": 154,
+        "min": 101,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 102,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
+  },
+  "demonhide_armor": {
+    "code": "xla",
+    "display_name": "Demonhide Armor",
+    "durability": 28,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 37,
+    "levelreq": 25,
+    "name": "demonhide_armor",
+    "props": [
+      {
+        "max": 136,
+        "min": 122,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "demonhide_boots": {
+    "code": "xlb",
+    "display_name": "Demonhide Boots",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 36,
+    "levelreq": 24,
+    "name": "demonhide_boots",
+    "props": [
+      {
+        "max": 35,
+        "min": 28,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": [
+      "rite_of_passage"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "demonhide_gloves": {
+    "code": "xlg",
+    "display_name": "Demonhide Gloves",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 33,
+    "levelreq": 21,
+    "name": "demonhide_gloves",
+    "props": [
+      {
+        "max": 35,
+        "min": 28,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": null,
+    "type": "gloves",
+    "uniques": null
+  },
+  "demonhide_sash": {
+    "code": "zlb",
+    "display_name": "Demonhide Sash",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 36,
+    "levelreq": 24,
+    "name": "demonhide_sash",
+    "props": [
+      {
+        "max": 34,
+        "min": 29,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": null,
+    "type": "belt",
+    "uniques": null
+  },
+  "destroyer_helm": {
+    "code": "bad",
+    "display_name": "Destroyer Helm",
+    "durability": 45,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 73,
+    "levelreq": 54,
+    "name": "destroyer_helm",
+    "props": [
+      {
+        "max": 156,
+        "min": 111,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 151,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "diadem": {
+    "code": "ci3",
+    "display_name": "Diadem",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 64,
+    "name": "diadem",
+    "props": [
+      {
+        "max": 60,
+        "min": 50,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": [
+      "mavinas_true_sight"
+    ],
+    "type": "circlet",
+    "uniques": null
+  },
+  "diamond_mail": {
+    "code": "ung",
+    "display_name": "Diamond Mail",
+    "durability": 26,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 72,
+    "levelreq": 54,
+    "name": "diamond_mail",
+    "props": [
+      {
+        "max": 489,
+        "min": 383,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 131,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "dragon_shield": {
+    "code": "xit",
+    "display_name": "Dragon Shield",
+    "durability": 76,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 45,
+    "levelreq": 25,
+    "name": "dragon_shield",
+    "props": [
+      {
+        "max": 67,
+        "min": 59,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 91,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "dream_spirit": {
+    "code": "drf",
+    "display_name": "Dream Spirit",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 66,
+    "name": "dream_spirit",
+    "props": [
+      {
+        "max": 159,
+        "min": 109,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 118,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "dusk_shroud": {
+    "code": "uui",
+    "display_name": "Dusk Shroud",
+    "durability": 20,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 65,
+    "levelreq": 49,
+    "name": "dusk_shroud",
+    "props": [
+      {
+        "max": 467,
+        "min": 361,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 77,
+    "sets": [
+      "dark_adherent"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "earth_spirit": {
+    "code": "drd",
+    "display_name": "Earth Spirit",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 76,
+    "levelreq": 57,
+    "name": "earth_spirit",
+    "props": [
+      {
+        "max": 152,
+        "min": 107,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 104,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "embossed_plate": {
+    "code": "xth",
+    "display_name": "Embossed Plate",
+    "durability": 55,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 58,
+    "levelreq": 25,
+    "name": "embossed_plate",
+    "props": [
+      {
+        "max": 303,
+        "min": 282,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 125,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "falcon_mask": {
+    "code": "dr4",
+    "display_name": "Falcon Mask",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 15,
+    "name": "falcon_mask",
+    "props": [
+      {
+        "max": 28,
+        "min": 12,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 28,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "fanged_helm": {
+    "code": "ba2",
+    "display_name": "Fanged Helm",
+    "durability": 35,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 8,
+    "levelreq": 6,
+    "name": "fanged_helm",
+    "props": [
+      {
+        "max": 20,
+        "min": 15,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 35,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "fetish_trophy": {
+    "code": "ne7",
+    "display_name": "Fetish Trophy",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 39,
+    "levelreq": 29,
+    "name": "fetish_trophy",
+    "props": [
+      {
+        "max": 52,
+        "min": 41,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 41,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "field_plate": {
+    "code": "fld",
+    "display_name": "Field Plate",
+    "durability": 48,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 28,
+    "levelreq": 0,
+    "name": "field_plate",
+    "props": [
+      {
+        "max": 105,
+        "min": 101,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 55,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "full_helm": {
+    "code": "fhl",
+    "display_name": "Full Helm",
+    "durability": 30,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 15,
+    "levelreq": 0,
+    "name": "full_helm",
+    "props": [
+      {
+        "max": 26,
+        "min": 23,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 41,
+    "sets": [
+      "isenharts_horns"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "full_plate_mail": {
+    "code": "ful",
+    "display_name": "Full Plate Mail",
+    "durability": 70,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 37,
+    "levelreq": 0,
+    "name": "full_plate_mail",
+    "props": [
+      {
+        "max": 161,
+        "min": 150,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 80,
+    "sets": [
+      "tancreds_spine"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "fury_visor": {
+    "code": "bac",
+    "display_name": "Fury Visor",
+    "durability": 35,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 66,
+    "levelreq": 49,
+    "name": "fury_visor",
+    "props": [
+      {
+        "max": 150,
+        "min": 105,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 129,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "gargoyle_head": {
+    "code": "ne4",
+    "display_name": "Gargoyle Head",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 15,
+    "name": "gargoyle_head",
+    "props": [
+      {
+        "max": 16,
+        "min": 10,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "gauntlets": {
+    "code": "hgl",
+    "display_name": "Gauntlets",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 27,
+    "levelreq": 0,
+    "name": "gauntlets",
+    "props": [
+      {
+        "max": 15,
+        "min": 12,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 60,
+    "sets": [
+      "sigons_gage"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "ghost_armor": {
+    "code": "xui",
+    "display_name": "Ghost Armor",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 34,
+    "levelreq": 22,
+    "name": "ghost_armor",
+    "props": [
+      {
+        "max": 117,
+        "min": 102,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 38,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "giant_conch": {
+    "code": "uhl",
+    "display_name": "Giant Conch",
+    "durability": 30,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 54,
+    "levelreq": 40,
+    "name": "giant_conch",
+    "props": [
+      {
+        "max": 154,
+        "min": 110,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 142,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
+  },
+  "gilded_shield": {
+    "code": "pa9",
+    "display_name": "Gilded Shield",
+    "durability": 50,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 51,
+    "levelreq": 38,
+    "name": "gilded_shield",
+    "props": [
+      {
+        "max": 168,
+        "min": 144,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 89,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "gothic_plate": {
+    "code": "gth",
+    "display_name": "Gothic Plate",
+    "durability": 55,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 32,
+    "levelreq": 0,
+    "name": "gothic_plate",
+    "props": [
+      {
+        "max": 135,
+        "min": 128,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 70,
+    "sets": [
+      "sigons_shelter"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "gothic_shield": {
+    "code": "gts",
+    "display_name": "Gothic Shield",
+    "durability": 40,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 30,
+    "levelreq": 0,
+    "name": "gothic_shield",
+    "props": [
+      {
+        "max": 35,
+        "min": 30,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 60,
+    "sets": [
+      "isenharts_parry"
+    ],
+    "type": "shield",
+    "uniques": null
+  },
+  "grand_crown": {
+    "code": "xrn",
+    "display_name": "Grand Crown",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 55,
+    "levelreq": 25,
+    "name": "grand_crown",
+    "props": [
+      {
+        "max": 113,
+        "min": 78,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 103,
+    "sets": [
+      "hwanins_splendor"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "great_hauberk": {
+    "code": "urs",
+    "display_name": "Great Hauberk",
+    "durability": 50,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 75,
+    "levelreq": 56,
+    "name": "great_hauberk",
+    "props": [
+      {
+        "max": 501,
+        "min": 395,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 118,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "great_helm": {
+    "code": "ghm",
+    "display_name": "Great Helm",
+    "durability": 40,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 23,
+    "levelreq": 0,
+    "name": "great_helm",
+    "props": [
+      {
+        "max": 35,
+        "min": 30,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 63,
+    "sets": [
+      "sigons_visor"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "greaves": {
+    "code": "hbt",
+    "display_name": "Greaves",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 27,
+    "levelreq": 0,
+    "name": "greaves",
+    "props": [
+      {
+        "max": 15,
+        "min": 12,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 70,
+    "sets": [
+      "sigons_sabot"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "griffon_headdress": {
+    "code": "dr7",
+    "display_name": "Griffon Headdress",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 40,
+    "levelreq": 30,
+    "name": "griffon_headdress",
+    "props": [
+      {
+        "max": 68,
+        "min": 46,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "grim_helm": {
+    "code": "xh9",
+    "display_name": "Grim Helm",
+    "durability": 40,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 50,
+    "levelreq": 25,
+    "name": "grim_helm",
+    "props": [
+      {
+        "max": 125,
+        "min": 60,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 58,
+    "sets": [
+      "natalyas_totem"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "grim_shield": {
+    "code": "xsh",
+    "display_name": "Grim Shield",
+    "durability": 70,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 48,
+    "levelreq": 25,
+    "name": "grim_shield",
+    "props": [
+      {
+        "max": 150,
+        "min": 50,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 58,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "guardian_crown": {
+    "code": "baf",
+    "display_name": "Guardian Crown",
+    "durability": 55,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 65,
+    "name": "guardian_crown",
+    "props": [
+      {
+        "max": 168,
+        "min": 117,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 196,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "hard_leather_armor": {
+    "code": "hla",
+    "display_name": "Hard Leather Armor",
+    "durability": 28,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 5,
+    "levelreq": 0,
+    "name": "hard_leather_armor",
+    "props": [
+      {
+        "max": 24,
+        "min": 21,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "hawk_helm": {
+    "code": "dr2",
+    "display_name": "Hawk Helm",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 8,
+    "levelreq": 6,
+    "name": "hawk_helm",
+    "props": [
+      {
+        "max": 15,
+        "min": 4,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "heater": {
+    "code": "uuc",
+    "display_name": "Heater",
+    "durability": 88,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 58,
+    "levelreq": 43,
+    "name": "heater",
+    "props": [
+      {
+        "max": 110,
+        "min": 95,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 77,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
   },
   "heavy_belt": {
-    "name": "heavy_belt",
-    "display_name": "Heavy Belt",
     "code": "tbl",
-    "type": "belt",
-    "uniques": null,
+    "display_name": "Heavy Belt",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 0,
+    "name": "heavy_belt",
+    "props": [
+      {
+        "max": 6,
+        "min": 6,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 45,
     "sets": [
       "infernal_sign",
       "irathas_cord"
     ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 45,
-    "durability": 18,
-    "level": 20,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 6,
-        "max": 6,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "light_plated_boots": {
-    "name": "light_plated_boots",
-    "display_name": "Light Plated Boots",
-    "code": "tbt",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "vidalas_fetlock"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 18,
-    "level": 20,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 9,
-        "max": 11,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "light_gauntlets": {
-    "name": "light_gauntlets",
-    "display_name": "Light Gauntlets",
-    "code": "tgl",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "arctic_mitts",
-      "irathas_cuff"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 45,
-    "durability": 18,
-    "level": 20,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 9,
-        "max": 11,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "tower_shield": {
-    "name": "tower_shield",
-    "display_name": "Tower Shield",
-    "code": "tow",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "sigons_guard"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 75,
-    "durability": 60,
-    "level": 22,
-    "levelreq": 0,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 22,
-        "max": 25,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "shako": {
-    "name": "shako",
-    "display_name": "Shako",
-    "code": "uap",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 12,
-    "level": 58,
-    "levelreq": 43,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 98,
-        "max": 141,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sacred_armor": {
-    "name": "sacred_armor",
-    "display_name": "Sacred Armor",
-    "code": "uar",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "immortal_kings_soul_cage"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 232,
-    "durability": 60,
-    "level": 85,
-    "levelreq": 66,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 487,
-        "max": 600,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "loricated_mail": {
-    "name": "loricated_mail",
-    "display_name": "Loricated Mail",
-    "code": "ucl",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "natalyas_shadow"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 149,
-    "durability": 36,
-    "level": 73,
-    "levelreq": 55,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 390,
-        "max": 496,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "wyrmhide": {
-    "name": "wyrmhide",
-    "display_name": "Wyrmhide",
-    "code": "uea",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 84,
-    "durability": 24,
-    "level": 67,
-    "levelreq": 50,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 364,
-        "max": 470,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "bone_visage": {
-    "name": "bone_visage",
-    "display_name": "Bone Visage",
-    "code": "uh9",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "trangouls_guise"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 106,
-    "durability": 40,
-    "level": 84,
-    "levelreq": 63,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 100,
-        "max": 157,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "myrmidon_greaves": {
-    "name": "myrmidon_greaves",
-    "display_name": "Myrmidon Greaves",
-    "code": "uhb",
-    "type": "boots",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 208,
-    "durability": 24,
-    "level": 85,
-    "levelreq": 65,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 62,
-        "max": 71,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "colossus_girdle": {
-    "name": "colossus_girdle",
-    "display_name": "Colossus Girdle",
-    "code": "uhc",
     "type": "belt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 185,
-    "durability": 24,
-    "level": 85,
-    "levelreq": 67,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 61,
-        "max": 71,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "ogre_gauntlets": {
-    "name": "ogre_gauntlets",
-    "display_name": "Ogre Gauntlets",
-    "code": "uhg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 185,
-    "durability": 24,
-    "level": 85,
-    "levelreq": 64,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 62,
-        "max": 71,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "giant_conch": {
-    "name": "giant_conch",
-    "display_name": "Giant Conch",
-    "code": "uhl",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 142,
-    "durability": 30,
-    "level": 54,
-    "levelreq": 40,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 110,
-        "max": 154,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "spired_helm": {
-    "name": "spired_helm",
-    "display_name": "Spired Helm",
-    "code": "uhm",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "ondals_almighty"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 192,
-    "durability": 40,
-    "level": 79,
-    "levelreq": 59,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 114,
-        "max": 159,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "boneweave": {
-    "name": "boneweave",
-    "display_name": "Boneweave",
-    "code": "uhn",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 158,
-    "durability": 45,
-    "level": 62,
-    "levelreq": 47,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 399,
-        "max": 505,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "monarch": {
-    "name": "monarch",
-    "display_name": "Monarch",
-    "code": "uit",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 156,
-    "durability": 86,
-    "level": 72,
-    "levelreq": 54,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 133,
-        "max": 148,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hydraskull": {
-    "name": "hydraskull",
-    "display_name": "Hydraskull",
-    "code": "ukp",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 84,
-    "durability": 18,
-    "level": 63,
-    "levelreq": 47,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 101,
-        "max": 145,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "scarab_husk": {
-    "name": "scarab_husk",
-    "display_name": "Scarab Husk",
-    "code": "ula",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 95,
-    "durability": 28,
-    "level": 68,
-    "levelreq": 51,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 369,
-        "max": 474,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "wyrmhide_boots": {
-    "name": "wyrmhide_boots",
-    "display_name": "Wyrmhide Boots",
-    "code": "ulb",
-    "type": "boots",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 12,
-    "level": 60,
-    "levelreq": 45,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 54,
-        "max": 62,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "spiderweb_sash": {
-    "name": "spiderweb_sash",
-    "display_name": "Spiderweb Sash",
-    "code": "ulc",
-    "type": "belt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 12,
-    "level": 61,
-    "levelreq": 46,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 55,
-        "max": 62,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "kraken_shell": {
-    "name": "kraken_shell",
-    "display_name": "Kraken Shell",
-    "code": "uld",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "mavinas_embrace"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 174,
-    "durability": 48,
-    "level": 81,
-    "levelreq": 61,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 417,
-        "max": 523,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "bramble_mitts": {
-    "name": "bramble_mitts",
-    "display_name": "Bramble Mitts",
-    "code": "ulg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "laying_of_hands"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 12,
-    "level": 57,
-    "levelreq": 42,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 54,
-        "max": 62,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "armet": {
-    "name": "armet",
-    "display_name": "Armet",
-    "code": "ulm",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 109,
-    "durability": 24,
-    "level": 68,
-    "levelreq": 51,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 105,
-        "max": 149,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hellforge_plate": {
-    "name": "hellforge_plate",
-    "display_name": "Hellforge Plate",
-    "code": "ult",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "najs_light_plate"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 196,
-    "durability": 60,
-    "level": 78,
-    "levelreq": 59,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 421,
-        "max": 530,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "boneweave_boots": {
-    "name": "boneweave_boots",
-    "display_name": "Boneweave Boots",
-    "code": "umb",
-    "type": "boots",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 118,
-    "durability": 16,
-    "level": 72,
-    "levelreq": 54,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 59,
-        "max": 67,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mithril_coil": {
-    "name": "mithril_coil",
-    "display_name": "Mithril Coil",
-    "code": "umc",
-    "type": "belt",
-    "uniques": null,
-    "sets": [
-      "credendum"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 106,
-    "durability": 16,
-    "level": 75,
-    "levelreq": 56,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 58,
-        "max": 65,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "vambraces": {
-    "name": "vambraces",
-    "display_name": "Vambraces",
-    "code": "umg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 106,
-    "durability": 16,
-    "level": 69,
-    "levelreq": 51,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 59,
-        "max": 67,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "luna": {
-    "name": "luna",
-    "display_name": "Luna",
-    "code": "uml",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 100,
-    "durability": 84,
-    "level": 61,
-    "levelreq": 45,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 108,
-        "max": 123,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "diamond_mail": {
-    "name": "diamond_mail",
-    "display_name": "Diamond Mail",
-    "code": "ung",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 131,
-    "durability": 26,
-    "level": 72,
-    "levelreq": 54,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 383,
-        "max": 489,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "aegis": {
-    "name": "aegis",
-    "display_name": "Aegis",
-    "code": "uow",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 219,
-    "durability": 92,
-    "level": 79,
-    "levelreq": 59,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 145,
-        "max": 161,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "blade_barrier": {
-    "name": "blade_barrier",
-    "display_name": "Blade Barrier",
-    "code": "upk",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 118,
-    "durability": 83,
-    "level": 68,
-    "levelreq": 51,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 147,
-        "max": 163,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "balrog_skin": {
-    "name": "balrog_skin",
-    "display_name": "Balrog Skin",
-    "code": "upl",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "sazabis_ghost_liberator"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 165,
-    "durability": 30,
-    "level": 76,
-    "levelreq": 57,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 410,
-        "max": 517,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "hyperion": {
-    "name": "hyperion",
-    "display_name": "Hyperion",
-    "code": "urg",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 127,
-    "durability": 82,
-    "level": 64,
-    "levelreq": 48,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 119,
-        "max": 135,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "corona": {
-    "name": "corona",
-    "display_name": "Corona",
-    "code": "urn",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "griswolds_valor"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 174,
-    "durability": 50,
-    "level": 85,
-    "levelreq": 66,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 111,
-        "max": 165,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "great_hauberk": {
-    "name": "great_hauberk",
-    "display_name": "Great Hauberk",
-    "code": "urs",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 118,
-    "durability": 50,
-    "level": 75,
-    "levelreq": 56,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 395,
-        "max": 501,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "troll_nest": {
-    "name": "troll_nest",
-    "display_name": "Troll Nest",
-    "code": "ush",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 106,
-    "durability": 74,
-    "level": 76,
-    "levelreq": 57,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 158,
-        "max": 173,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "demonhead": {
-    "name": "demonhead",
-    "display_name": "Demonhead",
-    "code": "usk",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 102,
-    "durability": 20,
-    "level": 74,
-    "levelreq": 55,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 101,
-        "max": 154,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mirrored_boots": {
-    "name": "mirrored_boots",
-    "display_name": "Mirrored Boots",
-    "code": "utb",
-    "type": "boots",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 163,
-    "durability": 18,
-    "level": 81,
-    "levelreq": 60,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 59,
-        "max": 68,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "troll_belt": {
-    "name": "troll_belt",
-    "display_name": "Troll Belt",
-    "code": "utc",
-    "type": "belt",
-    "uniques": null,
-    "sets": [
-      "trangouls_girth"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 151,
-    "durability": 18,
-    "level": 82,
-    "levelreq": 62,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 59,
-        "max": 66,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "crusader_gauntlets": {
-    "name": "crusader_gauntlets",
-    "display_name": "Crusader Gauntlets",
-    "code": "utg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 151,
-    "durability": 18,
-    "level": 76,
-    "levelreq": 57,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 59,
-        "max": 68,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "lacquered_plate": {
-    "name": "lacquered_plate",
-    "display_name": "Lacquered Plate",
-    "code": "uth",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "tal_rashas_guardianship"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 208,
-    "durability": 55,
-    "level": 82,
-    "levelreq": 62,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 433,
-        "max": 541,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "archon_plate": {
-    "name": "archon_plate",
-    "display_name": "Archon Plate",
-    "code": "utp",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 103,
-    "durability": 60,
-    "level": 84,
-    "levelreq": 63,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 410,
-        "max": 524,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "ward": {
-    "name": "ward",
-    "display_name": "Ward",
-    "code": "uts",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "taebaeks_glory"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 185,
-    "durability": 100,
-    "level": 84,
-    "levelreq": 63,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 153,
-        "max": 170,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "wire_fleece": {
-    "name": "wire_fleece",
-    "display_name": "Wire Fleece",
-    "code": "utu",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 111,
-    "durability": 32,
-    "level": 70,
-    "levelreq": 53,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 375,
-        "max": 481,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "heater": {
-    "name": "heater",
-    "display_name": "Heater",
-    "code": "uuc",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 77,
-    "durability": 88,
-    "level": 58,
-    "levelreq": 43,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 95,
-        "max": 110,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "dusk_shroud": {
-    "name": "dusk_shroud",
-    "display_name": "Dusk Shroud",
-    "code": "uui",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "dark_adherent"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 77,
-    "durability": 20,
-    "level": 65,
-    "levelreq": 49,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 361,
-        "max": 467,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "shadow_plate": {
-    "name": "shadow_plate",
-    "display_name": "Shadow Plate",
-    "code": "uul",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "aldurs_deception"
-    ],
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 230,
-    "durability": 70,
-    "level": 83,
-    "levelreq": 64,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 446,
-        "max": 557,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "scarabshell_boots": {
-    "name": "scarabshell_boots",
-    "display_name": "Scarabshell Boots",
-    "code": "uvb",
-    "type": "boots",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 91,
-    "durability": 14,
-    "level": 66,
-    "levelreq": 49,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 56,
-        "max": 65,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "vampirefang_belt": {
-    "name": "vampirefang_belt",
-    "display_name": "Vampirefang Belt",
-    "code": "uvc",
-    "type": "belt",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 14,
-    "level": 68,
-    "levelreq": 51,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 56,
-        "max": 63,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "vampirebone_gloves": {
-    "name": "vampirebone_gloves",
-    "display_name": "Vampirebone Gloves",
-    "code": "uvg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": null,
-    "item_class": "elite",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 14,
-    "level": 63,
-    "levelreq": 47,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 56,
-        "max": 65,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "light_belt": {
-    "name": "light_belt",
-    "display_name": "Light Belt",
-    "code": "vbl",
-    "type": "belt",
-    "uniques": null,
-    "sets": [
-      "arctic_binding"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 14,
-    "level": 7,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 3,
-        "max": 3,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "uniques": null
   },
   "heavy_boots": {
-    "name": "heavy_boots",
-    "display_name": "Heavy Boots",
     "code": "vbt",
-    "type": "boots",
-    "uniques": null,
+    "display_name": "Heavy Boots",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 7,
+    "levelreq": 0,
+    "name": "heavy_boots",
+    "props": [
+      {
+        "max": 6,
+        "min": 5,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 18,
     "sets": [
       "cow_kings_hooves",
       "sanders_riprap"
     ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 18,
-    "durability": 14,
-    "level": 7,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 5,
-        "max": 6,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "heavy_gloves": {
-    "name": "heavy_gloves",
-    "display_name": "Heavy Gloves",
-    "code": "vgl",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "sanders_taboo"
-    ],
-    "item_class": "normal",
-    "quality": "normal",
-    "reqstr": 0,
-    "durability": 14,
-    "level": 7,
-    "levelreq": 0,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 5,
-        "max": 6,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "war_hat": {
-    "name": "war_hat",
-    "display_name": "War Hat",
-    "code": "xap",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "cow_kings_horns"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 12,
-    "level": 34,
-    "levelreq": 22,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 45,
-        "max": 53,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "ornate_plate": {
-    "name": "ornate_plate",
-    "display_name": "Ornate Plate",
-    "code": "xar",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "griswolds_heart"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 170,
-    "durability": 60,
-    "level": 64,
-    "levelreq": 25,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 417,
-        "max": 450,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "tigulated_mail": {
-    "name": "tigulated_mail",
-    "display_name": "Tigulated Mail",
-    "code": "xcl",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "hwanins_refuge"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 86,
-    "durability": 36,
-    "level": 43,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 176,
-        "max": 190,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "serpentskin_armor": {
-    "name": "serpentskin_armor",
-    "display_name": "Serpentskin Armor",
-    "code": "xea",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 43,
-    "durability": 24,
-    "level": 36,
-    "levelreq": 24,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 111,
-        "max": 126,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "grim_helm": {
-    "name": "grim_helm",
-    "display_name": "Grim Helm",
-    "code": "xh9",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "natalyas_totem"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 58,
-    "durability": 40,
-    "level": 50,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 60,
-        "max": 125,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "war_boots": {
-    "name": "war_boots",
-    "display_name": "War Boots",
-    "code": "xhb",
     "type": "boots",
-    "uniques": null,
-    "sets": [
-      "immortal_kings_pillar"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 125,
-    "durability": 24,
-    "level": 54,
-    "levelreq": 25,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 43,
-        "max": 53,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "war_gauntlets": {
-    "name": "war_gauntlets",
-    "display_name": "War Gauntlets",
-    "code": "xhg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "immortal_kings_forge"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 110,
-    "durability": 24,
-    "level": 54,
-    "levelreq": 25,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 43,
-        "max": 53,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "basinet": {
-    "name": "basinet",
-    "display_name": "Basinet",
-    "code": "xhl",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "sazabis_mental_sheath"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 82,
-    "durability": 30,
-    "level": 45,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 75,
-        "max": 84,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "winged_helm": {
-    "name": "winged_helm",
-    "display_name": "Winged Helm",
-    "code": "xhm",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "guillaumes_face"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 115,
-    "durability": 40,
-    "level": 51,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 85,
-        "max": 98,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mesh_armor": {
-    "name": "mesh_armor",
-    "display_name": "Mesh Armor",
-    "code": "xhn",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 92,
-    "durability": 45,
-    "level": 45,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 198,
-        "max": 213,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "dragon_shield": {
-    "name": "dragon_shield",
-    "display_name": "Dragon Shield",
-    "code": "xit",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 91,
-    "durability": 76,
-    "level": 45,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 59,
-        "max": 67,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sallet": {
-    "name": "sallet",
-    "display_name": "Sallet",
-    "code": "xkp",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 43,
-    "durability": 18,
-    "level": 37,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 52,
-        "max": 62,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "demonhide_armor": {
-    "name": "demonhide_armor",
-    "display_name": "Demonhide Armor",
-    "code": "xla",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 50,
-    "durability": 28,
-    "level": 37,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 122,
-        "max": 136,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "demonhide_boots": {
-    "name": "demonhide_boots",
-    "display_name": "Demonhide Boots",
-    "code": "xlb",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "rite_of_passage"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 12,
-    "level": 36,
-    "levelreq": 24,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 28,
-        "max": 35,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sharktooth_armor": {
-    "name": "sharktooth_armor",
-    "display_name": "Sharktooth Armor",
-    "code": "xld",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 103,
-    "durability": 48,
-    "level": 55,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 242,
-        "max": 258,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "demonhide_gloves": {
-    "name": "demonhide_gloves",
-    "display_name": "Demonhide Gloves",
-    "code": "xlg",
-    "type": "gloves",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 12,
-    "level": 33,
-    "levelreq": 21,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 28,
-        "max": 35,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "casque": {
-    "name": "casque",
-    "display_name": "Casque",
-    "code": "xlm",
-    "type": "helm",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 59,
-    "durability": 24,
-    "level": 42,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 63,
-        "max": 72,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "templar_coat": {
-    "name": "templar_coat",
-    "display_name": "Templar Coat",
-    "code": "xlt",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 118,
-    "durability": 60,
-    "level": 52,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 252,
-        "max": 274,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mesh_boots": {
-    "name": "mesh_boots",
-    "display_name": "Mesh Boots",
-    "code": "xmb",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "natalyas_soul"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 16,
-    "level": 43,
-    "levelreq": 25,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 37,
-        "max": 44,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
+    "uniques": null
   },
   "heavy_bracers": {
-    "name": "heavy_bracers",
-    "display_name": "Heavy Bracers",
     "code": "xmg",
-    "type": "gloves",
-    "uniques": null,
+    "display_name": "Heavy Bracers",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 43,
+    "levelreq": 25,
+    "name": "heavy_bracers",
+    "props": [
+      {
+        "max": 44,
+        "min": 37,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 58,
     "sets": [
       "trangouls_claws"
     ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 58,
-    "durability": 16,
-    "level": 43,
-    "levelreq": 25,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 37,
-        "max": 44,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "round_shield": {
-    "name": "round_shield",
-    "display_name": "Round Shield",
-    "code": "xml",
-    "type": "shield",
-    "uniques": null,
-    "sets": [
-      "whitstans_guard"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 53,
-    "durability": 64,
-    "level": 37,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 47,
-        "max": 55,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "linked_mail": {
-    "name": "linked_mail",
-    "display_name": "Linked Mail",
-    "code": "xng",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 74,
-    "durability": 26,
-    "level": 42,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 158,
-        "max": 172,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "pavise": {
-    "name": "pavise",
-    "display_name": "Pavise",
-    "code": "xow",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 133,
-    "durability": 72,
-    "level": 50,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 68,
-        "max": 78,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "barbed_shield": {
-    "name": "barbed_shield",
-    "display_name": "Barbed Shield",
-    "code": "xpk",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 55,
-    "level": 42,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 58,
-        "max": 78,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "russet_armor": {
-    "name": "russet_armor",
-    "display_name": "Russet Armor",
-    "code": "xpl",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 97,
-    "durability": 30,
-    "level": 49,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 225,
-        "max": 243,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "scutum": {
-    "name": "scutum",
-    "display_name": "Scutum",
-    "code": "xrg",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 71,
-    "durability": 62,
-    "level": 42,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 53,
-        "max": 61,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "grand_crown": {
-    "name": "grand_crown",
-    "display_name": "Grand Crown",
-    "code": "xrn",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "hwanins_splendor"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 103,
-    "durability": 50,
-    "level": 55,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 78,
-        "max": 113,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "cuirass": {
-    "name": "cuirass",
-    "display_name": "Cuirass",
-    "code": "xrs",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "haemosus_adamant"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 65,
-    "durability": 50,
-    "level": 47,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 188,
-        "max": 202,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "grim_shield": {
-    "name": "grim_shield",
-    "display_name": "Grim Shield",
-    "code": "xsh",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 58,
-    "durability": 70,
-    "level": 48,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 50,
-        "max": 150,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "death_mask": {
-    "name": "death_mask",
-    "display_name": "Death Mask",
-    "code": "xsk",
-    "type": "helm",
-    "uniques": null,
-    "sets": [
-      "tal_rashas_horadric_crest"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 55,
-    "durability": 20,
-    "level": 48,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 54,
-        "max": 86,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "battle_boots": {
-    "name": "battle_boots",
-    "display_name": "Battle Boots",
-    "code": "xtb",
-    "type": "boots",
-    "uniques": null,
-    "sets": [
-      "aldurs_advance"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 95,
-    "durability": 18,
-    "level": 49,
-    "levelreq": 25,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 39,
-        "max": 47,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "battle_gauntlets": {
-    "name": "battle_gauntlets",
-    "display_name": "Battle Gauntlets",
-    "code": "xtg",
     "type": "gloves",
-    "uniques": null,
-    "sets": [
-      "mavinas_icy_clutch"
-    ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 88,
-    "durability": 18,
-    "level": 49,
-    "levelreq": 25,
+    "uniques": null
+  },
+  "heavy_gloves": {
+    "code": "vgl",
+    "display_name": "Heavy Gloves",
+    "durability": 14,
     "gemsockets": 0,
+    "item_class": "normal",
+    "level": 7,
+    "levelreq": 0,
+    "name": "heavy_gloves",
     "props": [
       {
-        "min": 39,
-        "max": 47,
+        "max": 6,
+        "min": 5,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "embossed_plate": {
-    "name": "embossed_plate",
-    "display_name": "Embossed Plate",
-    "code": "xth",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 125,
-    "durability": 55,
-    "level": 58,
-    "levelreq": 25,
-    "gemsockets": 4,
-    "props": [
-      {
-        "min": 282,
-        "max": 303,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "mage_plate": {
-    "name": "mage_plate",
-    "display_name": "Mage Plate",
-    "code": "xtp",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 55,
-    "durability": 60,
-    "level": 60,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 225,
-        "max": 261,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "ancient_shield": {
-    "name": "ancient_shield",
-    "display_name": "Ancient Shield",
-    "code": "xts",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 110,
-    "durability": 80,
-    "level": 56,
-    "levelreq": 25,
-    "gemsockets": 3,
-    "props": [
-      {
-        "min": 80,
-        "max": 93,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "trellised_armor": {
-    "name": "trellised_armor",
-    "display_name": "Trellised Armor",
-    "code": "xtu",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 61,
-    "durability": 32,
-    "level": 40,
-    "levelreq": 25,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 138,
-        "max": 153,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "defender": {
-    "name": "defender",
-    "display_name": "Defender",
-    "code": "xuc",
-    "type": "shield",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 38,
-    "durability": 68,
-    "level": 34,
-    "levelreq": 22,
-    "gemsockets": 1,
-    "props": [
-      {
-        "min": 41,
-        "max": 49,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "ghost_armor": {
-    "name": "ghost_armor",
-    "display_name": "Ghost Armor",
-    "code": "xui",
-    "type": "armor",
-    "uniques": null,
-    "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 38,
-    "durability": 20,
-    "level": 34,
-    "levelreq": 22,
-    "gemsockets": 2,
-    "props": [
-      {
-        "min": 102,
-        "max": 117,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "chaos_armor": {
-    "name": "chaos_armor",
-    "display_name": "Chaos Armor",
-    "code": "xul",
-    "type": "armor",
-    "uniques": null,
-    "sets": [
-      "trangouls_scales"
     ],
-    "item_class": "exceptional",
     "quality": "normal",
-    "reqstr": 140,
-    "durability": 70,
-    "level": 61,
-    "levelreq": 25,
+    "reqstr": 0,
+    "sets": [
+      "sanders_taboo"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "hellforge_plate": {
+    "code": "ult",
+    "display_name": "Hellforge Plate",
+    "durability": 60,
     "gemsockets": 4,
+    "item_class": "elite",
+    "level": 78,
+    "levelreq": 59,
+    "name": "hellforge_plate",
     "props": [
       {
-        "min": 315,
-        "max": 342,
+        "max": 530,
+        "min": 421,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 196,
+    "sets": [
+      "najs_light_plate"
+    ],
+    "type": "armor",
+    "uniques": null
   },
-  "sharkskin_boots": {
-    "name": "sharkskin_boots",
-    "display_name": "Sharkskin Boots",
-    "code": "xvb",
-    "type": "boots",
-    "uniques": null,
+  "hellspawn_skull": {
+    "code": "neg",
+    "display_name": "Hellspawn Skull",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 67,
+    "levelreq": 50,
+    "name": "hellspawn_skull",
+    "props": [
+      {
+        "max": 141,
+        "min": 96,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 82,
     "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "helm": {
+    "code": "hlm",
+    "display_name": "Helm",
+    "durability": 24,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 11,
+    "levelreq": 0,
+    "name": "helm",
+    "props": [
+      {
+        "max": 18,
+        "min": 15,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 26,
+    "sets": [
+      "berserkers_headgear"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "heraldic_shield": {
+    "code": "pa3",
+    "display_name": "Heraldic Shield",
+    "durability": 40,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 16,
+    "levelreq": 12,
+    "name": "heraldic_shield",
+    "props": [
+      {
+        "max": 26,
+        "min": 16,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 40,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "hierophant_trophy": {
+    "code": "nea",
+    "display_name": "Hierophant Trophy",
+    "durability": 20,
+    "gemsockets": 2,
     "item_class": "exceptional",
+    "level": 54,
+    "levelreq": 40,
+    "name": "hierophant_trophy",
+    "props": [
+      {
+        "max": 70,
+        "min": 58,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 58,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "horned_helm": {
+    "code": "ba3",
+    "display_name": "Horned Helm",
+    "durability": 45,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 16,
+    "levelreq": 12,
+    "name": "horned_helm",
+    "props": [
+      {
+        "max": 30,
+        "min": 25,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 45,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "hunters_guise": {
+    "code": "dr8",
+    "display_name": "Hunter's Guise",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 46,
+    "levelreq": 29,
+    "name": "hunters_guise",
+    "props": [
+      {
+        "max": 81,
+        "min": 67,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 56,
+    "sets": [
+      "aldurs_stony_gaze"
+    ],
+    "type": "pelt",
+    "uniques": null
+  },
+  "hydraskull": {
+    "code": "ukp",
+    "display_name": "Hydraskull",
+    "durability": 18,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 63,
+    "levelreq": 47,
+    "name": "hydraskull",
+    "props": [
+      {
+        "max": 145,
+        "min": 101,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 84,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
+  },
+  "hyperion": {
+    "code": "urg",
+    "display_name": "Hyperion",
+    "durability": 82,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 64,
+    "levelreq": 48,
+    "name": "hyperion",
+    "props": [
+      {
+        "max": 135,
+        "min": 119,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 127,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "jawbone_cap": {
+    "code": "ba1",
+    "display_name": "Jawbone Cap",
+    "durability": 25,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 4,
+    "levelreq": 3,
+    "name": "jawbone_cap",
+    "props": [
+      {
+        "max": 15,
+        "min": 10,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 25,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "jawbone_visor": {
+    "code": "ba6",
+    "display_name": "Jawbone Visor",
+    "durability": 25,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 33,
+    "levelreq": 25,
+    "name": "jawbone_visor",
+    "props": [
+      {
+        "max": 68,
+        "min": 55,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 58,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "kite_shield": {
+    "code": "kit",
+    "display_name": "Kite Shield",
+    "durability": 30,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 15,
+    "levelreq": 0,
+    "name": "kite_shield",
+    "props": [
+      {
+        "max": 18,
+        "min": 16,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
     "quality": "normal",
     "reqstr": 47,
-    "durability": 14,
-    "level": 39,
-    "levelreq": 25,
-    "gemsockets": 0,
-    "props": [
-      {
-        "min": 33,
-        "max": 39,
-        "par": null,
-        "prop": "base_defense"
-      }
-    ]
-  },
-  "sharkskin_gloves": {
-    "name": "sharkskin_gloves",
-    "display_name": "Sharkskin Gloves",
-    "code": "xvg",
-    "type": "gloves",
-    "uniques": null,
     "sets": [
-      "magnus_skin"
+      "milabregas_orb"
     ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 14,
-    "level": 39,
-    "levelreq": 25,
-    "gemsockets": 0,
+    "type": "shield",
+    "uniques": null
+  },
+  "kraken_shell": {
+    "code": "uld",
+    "display_name": "Kraken Shell",
+    "durability": 48,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 81,
+    "levelreq": 61,
+    "name": "kraken_shell",
     "props": [
       {
-        "min": 33,
-        "max": 39,
+        "max": 523,
+        "min": 417,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "war_belt": {
-    "name": "war_belt",
-    "display_name": "War Belt",
-    "code": "zhb",
-    "type": "belt",
-    "uniques": null,
+    ],
+    "quality": "normal",
+    "reqstr": 174,
     "sets": [
-      "immortal_kings_detail"
+      "mavinas_embrace"
     ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 110,
-    "durability": 24,
-    "level": 54,
-    "levelreq": 25,
-    "gemsockets": 0,
+    "type": "armor",
+    "uniques": null
+  },
+  "kurast_shield": {
+    "code": "pad",
+    "display_name": "Kurast Shield",
+    "durability": 55,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 74,
+    "levelreq": 55,
+    "name": "kurast_shield",
     "props": [
       {
-        "min": 41,
-        "max": 52,
+        "max": 172,
+        "min": 154,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "demonhide_sash": {
-    "name": "demonhide_sash",
-    "display_name": "Demonhide Sash",
-    "code": "zlb",
-    "type": "belt",
-    "uniques": null,
+    ],
+    "quality": "normal",
+    "reqstr": 124,
     "sets": null,
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 20,
-    "durability": 12,
-    "level": 36,
-    "levelreq": 24,
-    "gemsockets": 0,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "lacquered_plate": {
+    "code": "uth",
+    "display_name": "Lacquered Plate",
+    "durability": 55,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 82,
+    "levelreq": 62,
+    "name": "lacquered_plate",
     "props": [
       {
-        "min": 29,
-        "max": 34,
+        "max": 541,
+        "min": 433,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 208,
+    "sets": [
+      "tal_rashas_guardianship"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "large_shield": {
+    "code": "lrg",
+    "display_name": "Large Shield",
+    "durability": 24,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 11,
+    "levelreq": 0,
+    "name": "large_shield",
+    "props": [
+      {
+        "max": 14,
+        "min": 12,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 34,
+    "sets": [
+      "civerbs_ward"
+    ],
+    "type": "shield",
+    "uniques": null
+  },
+  "leather_armor": {
+    "code": "lea",
+    "display_name": "Leather Armor",
+    "durability": 24,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 3,
+    "levelreq": 0,
+    "name": "leather_armor",
+    "props": [
+      {
+        "max": 17,
+        "min": 14,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 15,
+    "sets": [
+      "vidalas_ambush"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "leather_gloves": {
+    "code": "lgl",
+    "display_name": "Leather Gloves",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 3,
+    "levelreq": 0,
+    "name": "leather_gloves",
+    "props": [
+      {
+        "max": 3,
+        "min": 2,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": [
+      "deaths_hand"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "light_belt": {
+    "code": "vbl",
+    "display_name": "Light Belt",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 7,
+    "levelreq": 0,
+    "name": "light_belt",
+    "props": [
+      {
+        "max": 3,
+        "min": 3,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": [
+      "arctic_binding"
+    ],
+    "type": "belt",
+    "uniques": null
+  },
+  "light_gauntlets": {
+    "code": "tgl",
+    "display_name": "Light Gauntlets",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 0,
+    "name": "light_gauntlets",
+    "props": [
+      {
+        "max": 11,
+        "min": 9,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 45,
+    "sets": [
+      "arctic_mitts",
+      "irathas_cuff"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "light_plate": {
+    "code": "ltp",
+    "display_name": "Light Plate",
+    "durability": 60,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 35,
+    "levelreq": 0,
+    "name": "light_plate",
+    "props": [
+      {
+        "max": 107,
+        "min": 90,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 41,
+    "sets": [
+      "arcannas_flesh"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "light_plated_boots": {
+    "code": "tbt",
+    "display_name": "Light Plated Boots",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 0,
+    "name": "light_plated_boots",
+    "props": [
+      {
+        "max": 11,
+        "min": 9,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": [
+      "vidalas_fetlock"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "linked_mail": {
+    "code": "xng",
+    "display_name": "Linked Mail",
+    "durability": 26,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 42,
+    "levelreq": 25,
+    "name": "linked_mail",
+    "props": [
+      {
+        "max": 172,
+        "min": 158,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 74,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "lion_helm": {
+    "code": "ba7",
+    "display_name": "Lion Helm",
+    "durability": 35,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 38,
+    "levelreq": 29,
+    "name": "lion_helm",
+    "props": [
+      {
+        "max": 75,
+        "min": 63,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 73,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "loricated_mail": {
+    "code": "ucl",
+    "display_name": "Loricated Mail",
+    "durability": 36,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 73,
+    "levelreq": 55,
+    "name": "loricated_mail",
+    "props": [
+      {
+        "max": 496,
+        "min": 390,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 149,
+    "sets": [
+      "natalyas_shadow"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "luna": {
+    "code": "uml",
+    "display_name": "Luna",
+    "durability": 84,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 61,
+    "levelreq": 45,
+    "name": "luna",
+    "props": [
+      {
+        "max": 123,
+        "min": 108,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 100,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "mage_plate": {
+    "code": "xtp",
+    "display_name": "Mage Plate",
+    "durability": 60,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 60,
+    "levelreq": 25,
+    "name": "mage_plate",
+    "props": [
+      {
+        "max": 261,
+        "min": 225,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 55,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "mask": {
+    "code": "msk",
+    "display_name": "Mask",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 19,
+    "levelreq": 0,
+    "name": "mask",
+    "props": [
+      {
+        "max": 27,
+        "min": 9,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 23,
+    "sets": [
+      "cathans_visage"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "mesh_armor": {
+    "code": "xhn",
+    "display_name": "Mesh Armor",
+    "durability": 45,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 45,
+    "levelreq": 25,
+    "name": "mesh_armor",
+    "props": [
+      {
+        "max": 213,
+        "min": 198,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 92,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
   },
   "mesh_belt": {
-    "name": "mesh_belt",
-    "display_name": "Mesh Belt",
     "code": "zmb",
-    "type": "belt",
-    "uniques": null,
+    "display_name": "Mesh Belt",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 43,
+    "levelreq": 25,
+    "name": "mesh_belt",
+    "props": [
+      {
+        "max": 40,
+        "min": 35,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 58,
     "sets": [
       "tal_rashas_finespun_cloth"
     ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 58,
+    "type": "belt",
+    "uniques": null
+  },
+  "mesh_boots": {
+    "code": "xmb",
+    "display_name": "Mesh Boots",
     "durability": 16,
+    "gemsockets": 0,
+    "item_class": "exceptional",
     "level": 43,
     "levelreq": 25,
-    "gemsockets": 0,
+    "name": "mesh_boots",
     "props": [
       {
-        "min": 35,
-        "max": 40,
+        "max": 44,
+        "min": 37,
         "par": null,
         "prop": "base_defense"
       }
-    ]
-  },
-  "battle_belt": {
-    "name": "battle_belt",
-    "display_name": "Battle Belt",
-    "code": "ztb",
-    "type": "belt",
-    "uniques": null,
-    "sets": [
-      "wilhelms_pride"
     ],
+    "quality": "normal",
+    "reqstr": 65,
+    "sets": [
+      "natalyas_soul"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "minion_skull": {
+    "code": "neb",
+    "display_name": "Minion Skull",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 59,
+    "levelreq": 44,
+    "name": "minion_skull",
+    "props": [
+      {
+        "max": 139,
+        "min": 95,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 77,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "mirrored_boots": {
+    "code": "utb",
+    "display_name": "Mirrored Boots",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 81,
+    "levelreq": 60,
+    "name": "mirrored_boots",
+    "props": [
+      {
+        "max": 68,
+        "min": 59,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 163,
+    "sets": null,
+    "type": "boots",
+    "uniques": null
+  },
+  "mithril_coil": {
+    "code": "umc",
+    "display_name": "Mithril Coil",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 75,
+    "levelreq": 56,
+    "name": "mithril_coil",
+    "props": [
+      {
+        "max": 65,
+        "min": 58,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 106,
+    "sets": [
+      "credendum"
+    ],
+    "type": "belt",
+    "uniques": null
+  },
+  "monarch": {
+    "code": "uit",
+    "display_name": "Monarch",
+    "durability": 86,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 72,
+    "levelreq": 54,
+    "name": "monarch",
+    "props": [
+      {
+        "max": 148,
+        "min": 133,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 156,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "mummified_trophy": {
+    "code": "ne6",
+    "display_name": "Mummified Trophy",
+    "durability": 20,
+    "gemsockets": 2,
     "item_class": "exceptional",
+    "level": 33,
+    "levelreq": 24,
+    "name": "mummified_trophy",
+    "props": [
+      {
+        "max": 48,
+        "min": 38,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 38,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "myrmidon_greaves": {
+    "code": "uhb",
+    "display_name": "Myrmidon Greaves",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 65,
+    "name": "myrmidon_greaves",
+    "props": [
+      {
+        "max": 71,
+        "min": 62,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 208,
+    "sets": null,
+    "type": "boots",
+    "uniques": null
+  },
+  "ogre_gauntlets": {
+    "code": "uhg",
+    "display_name": "Ogre Gauntlets",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 64,
+    "name": "ogre_gauntlets",
+    "props": [
+      {
+        "max": 71,
+        "min": 62,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 185,
+    "sets": null,
+    "type": "gloves",
+    "uniques": null
+  },
+  "ornate_plate": {
+    "code": "xar",
+    "display_name": "Ornate Plate",
+    "durability": 60,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 64,
+    "levelreq": 25,
+    "name": "ornate_plate",
+    "props": [
+      {
+        "max": 450,
+        "min": 417,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 170,
+    "sets": [
+      "griswolds_heart"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "overseer_skull": {
+    "code": "ned",
+    "display_name": "Overseer Skull",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 66,
+    "levelreq": 49,
+    "name": "overseer_skull",
+    "props": [
+      {
+        "max": 142,
+        "min": 98,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 91,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "pavise": {
+    "code": "xow",
+    "display_name": "Pavise",
+    "durability": 72,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 50,
+    "levelreq": 25,
+    "name": "pavise",
+    "props": [
+      {
+        "max": 78,
+        "min": 68,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 133,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "plate_mail": {
+    "code": "plt",
+    "display_name": "Plate Mail",
+    "durability": 60,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 24,
+    "levelreq": 0,
+    "name": "plate_mail",
+    "props": [
+      {
+        "max": 116,
+        "min": 108,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 65,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "plated_belt": {
+    "code": "hbl",
+    "display_name": "Plated Belt",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 27,
+    "levelreq": 0,
+    "name": "plated_belt",
+    "props": [
+      {
+        "max": 11,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 60,
+    "sets": [
+      "sigons_wrap"
+    ],
+    "type": "belt",
+    "uniques": null
+  },
+  "preserved_head": {
+    "code": "ne1",
+    "display_name": "Preserved Head",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 4,
+    "levelreq": 3,
+    "name": "preserved_head",
+    "props": [
+      {
+        "max": 5,
+        "min": 2,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 12,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "protector_shield": {
+    "code": "pa8",
+    "display_name": "Protector Shield",
+    "durability": 40,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 46,
+    "levelreq": 34,
+    "name": "protector_shield",
+    "props": [
+      {
+        "max": 153,
+        "min": 129,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 69,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "quilted_armor": {
+    "code": "qui",
+    "display_name": "Quilted Armor",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 1,
+    "levelreq": 0,
+    "name": "quilted_armor",
+    "props": [
+      {
+        "max": 11,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 12,
+    "sets": [
+      "arctic_furs"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "rage_mask": {
+    "code": "ba8",
+    "display_name": "Rage Mask",
+    "durability": 45,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 44,
+    "levelreq": 29,
+    "name": "rage_mask",
+    "props": [
+      {
+        "max": 90,
+        "min": 78,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
     "quality": "normal",
     "reqstr": 88,
-    "durability": 18,
-    "level": 49,
-    "levelreq": 25,
-    "gemsockets": 0,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "ring_mail": {
+    "code": "rng",
+    "display_name": "Ring Mail",
+    "durability": 26,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 11,
+    "levelreq": 0,
+    "name": "ring_mail",
     "props": [
       {
-        "min": 37,
-        "max": 42,
+        "max": 48,
+        "min": 45,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 36,
+    "sets": [
+      "angelic_mantle"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "rondache": {
+    "code": "pa2",
+    "display_name": "Rondache",
+    "durability": 30,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 8,
+    "levelreq": 6,
+    "name": "rondache",
+    "props": [
+      {
+        "max": 18,
+        "min": 10,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 26,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "round_shield": {
+    "code": "xml",
+    "display_name": "Round Shield",
+    "durability": 64,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 37,
+    "levelreq": 25,
+    "name": "round_shield",
+    "props": [
+      {
+        "max": 55,
+        "min": 47,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 53,
+    "sets": [
+      "whitstans_guard"
+    ],
+    "type": "shield",
+    "uniques": null
+  },
+  "royal_shield": {
+    "code": "paa",
+    "display_name": "Royal Shield",
+    "durability": 60,
+    "gemsockets": 4,
+    "item_class": "exceptional",
+    "level": 55,
+    "levelreq": 41,
+    "name": "royal_shield",
+    "props": [
+      {
+        "max": 181,
+        "min": 156,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 114,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "russet_armor": {
+    "code": "xpl",
+    "display_name": "Russet Armor",
+    "durability": 30,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 49,
+    "levelreq": 25,
+    "name": "russet_armor",
+    "props": [
+      {
+        "max": 243,
+        "min": 225,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 97,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "sacred_armor": {
+    "code": "uar",
+    "display_name": "Sacred Armor",
+    "durability": 60,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 66,
+    "name": "sacred_armor",
+    "props": [
+      {
+        "max": 600,
+        "min": 487,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 232,
+    "sets": [
+      "immortal_kings_soul_cage"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "sacred_feathers": {
+    "code": "dr9",
+    "display_name": "Sacred Feathers",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 50,
+    "levelreq": 32,
+    "name": "sacred_feathers",
+    "props": [
+      {
+        "max": 87,
+        "min": 58,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 62,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "sacred_rondache": {
+    "code": "pac",
+    "display_name": "Sacred Rondache",
+    "durability": 68,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 70,
+    "levelreq": 52,
+    "name": "sacred_rondache",
+    "props": [
+      {
+        "max": 164,
+        "min": 138,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 109,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "sacred_targe": {
+    "code": "pab",
+    "display_name": "Sacred Targe",
+    "durability": 45,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 63,
+    "levelreq": 47,
+    "name": "sacred_targe",
+    "props": [
+      {
+        "max": 158,
+        "min": 126,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 86,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "sallet": {
+    "code": "xkp",
+    "display_name": "Sallet",
+    "durability": 18,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 37,
+    "levelreq": 25,
+    "name": "sallet",
+    "props": [
+      {
+        "max": 62,
+        "min": 52,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 43,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
+  },
+  "sash": {
+    "code": "lbl",
+    "display_name": "Sash",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "normal",
+    "level": 3,
+    "levelreq": 0,
+    "name": "sash",
+    "props": [
+      {
+        "max": 2,
+        "min": 2,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": [
+      "deaths_guard"
+    ],
+    "type": "belt",
+    "uniques": null
+  },
+  "savage_helmet": {
+    "code": "ba9",
+    "display_name": "Savage Helmet",
+    "durability": 50,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 49,
+    "levelreq": 32,
+    "name": "savage_helmet",
+    "props": [
+      {
+        "max": 98,
+        "min": 85,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 103,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "scale_mail": {
+    "code": "scl",
+    "display_name": "Scale Mail",
+    "durability": 36,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 13,
+    "levelreq": 0,
+    "name": "scale_mail",
+    "props": [
+      {
+        "max": 60,
+        "min": 57,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 44,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "scarab_husk": {
+    "code": "ula",
+    "display_name": "Scarab Husk",
+    "durability": 28,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 68,
+    "levelreq": 51,
+    "name": "scarab_husk",
+    "props": [
+      {
+        "max": 474,
+        "min": 369,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 95,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "scarabshell_boots": {
+    "code": "uvb",
+    "display_name": "Scarabshell Boots",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 66,
+    "levelreq": 49,
+    "name": "scarabshell_boots",
+    "props": [
+      {
+        "max": 65,
+        "min": 56,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 91,
+    "sets": null,
+    "type": "boots",
+    "uniques": null
+  },
+  "scutum": {
+    "code": "xrg",
+    "display_name": "Scutum",
+    "durability": 62,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 42,
+    "levelreq": 25,
+    "name": "scutum",
+    "props": [
+      {
+        "max": 61,
+        "min": 53,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 71,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "serpentskin_armor": {
+    "code": "xea",
+    "display_name": "Serpentskin Armor",
+    "durability": 24,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 36,
+    "levelreq": 24,
+    "name": "serpentskin_armor",
+    "props": [
+      {
+        "max": 126,
+        "min": 111,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 43,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "sexton_trophy": {
+    "code": "ne8",
+    "display_name": "Sexton Trophy",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 45,
+    "levelreq": 33,
+    "name": "sexton_trophy",
+    "props": [
+      {
+        "max": 55,
+        "min": 44,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 47,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "shadow_plate": {
+    "code": "uul",
+    "display_name": "Shadow Plate",
+    "durability": 70,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 83,
+    "levelreq": 64,
+    "name": "shadow_plate",
+    "props": [
+      {
+        "max": 557,
+        "min": 446,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 230,
+    "sets": [
+      "aldurs_deception"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "shako": {
+    "code": "uap",
+    "display_name": "Shako",
+    "durability": 12,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 58,
+    "levelreq": 43,
+    "name": "shako",
+    "props": [
+      {
+        "max": 141,
+        "min": 98,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "helm",
+    "uniques": null
   },
   "sharkskin_belt": {
-    "name": "sharkskin_belt",
-    "display_name": "Sharkskin Belt",
     "code": "zvb",
-    "type": "belt",
-    "uniques": null,
+    "display_name": "Sharkskin Belt",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 39,
+    "levelreq": 25,
+    "name": "sharkskin_belt",
+    "props": [
+      {
+        "max": 36,
+        "min": 31,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
     "sets": [
       "mavinas_tenet"
     ],
-    "item_class": "exceptional",
-    "quality": "normal",
-    "reqstr": 20,
+    "type": "belt",
+    "uniques": null
+  },
+  "sharkskin_boots": {
+    "code": "xvb",
+    "display_name": "Sharkskin Boots",
     "durability": 14,
+    "gemsockets": 0,
+    "item_class": "exceptional",
     "level": 39,
     "levelreq": 25,
-    "gemsockets": 0,
+    "name": "sharkskin_boots",
     "props": [
       {
-        "min": 31,
-        "max": 36,
+        "max": 39,
+        "min": 33,
         "par": null,
         "prop": "base_defense"
       }
-    ]
+    ],
+    "quality": "normal",
+    "reqstr": 47,
+    "sets": null,
+    "type": "boots",
+    "uniques": null
+  },
+  "sharkskin_gloves": {
+    "code": "xvg",
+    "display_name": "Sharkskin Gloves",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 39,
+    "levelreq": 25,
+    "name": "sharkskin_gloves",
+    "props": [
+      {
+        "max": 39,
+        "min": 33,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": [
+      "magnus_skin"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "sharktooth_armor": {
+    "code": "xld",
+    "display_name": "Sharktooth Armor",
+    "durability": 48,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 55,
+    "levelreq": 25,
+    "name": "sharktooth_armor",
+    "props": [
+      {
+        "max": 258,
+        "min": 242,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 103,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "skull_cap": {
+    "code": "skp",
+    "display_name": "Skull Cap",
+    "durability": 18,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 5,
+    "levelreq": 0,
+    "name": "skull_cap",
+    "props": [
+      {
+        "max": 11,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 15,
+    "sets": [
+      "arcannas_head"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "sky_spirit": {
+    "code": "dre",
+    "display_name": "Sky Spirit",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 83,
+    "levelreq": 62,
+    "name": "sky_spirit",
+    "props": [
+      {
+        "max": 155,
+        "min": 103,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 113,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "slayer_guard": {
+    "code": "baa",
+    "display_name": "Slayer Guard",
+    "durability": 55,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 54,
+    "levelreq": 40,
+    "name": "slayer_guard",
+    "props": [
+      {
+        "max": 120,
+        "min": 93,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 118,
+    "sets": null,
+    "type": "primal_helm",
+    "uniques": null
+  },
+  "small_shield": {
+    "code": "sml",
+    "display_name": "Small Shield",
+    "durability": 16,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 5,
+    "levelreq": 0,
+    "name": "small_shield",
+    "props": [
+      {
+        "max": 10,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 22,
+    "sets": [
+      "cleglaws_claw"
+    ],
+    "type": "shield",
+    "uniques": null
+  },
+  "spiderweb_sash": {
+    "code": "ulc",
+    "display_name": "Spiderweb Sash",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 61,
+    "levelreq": 46,
+    "name": "spiderweb_sash",
+    "props": [
+      {
+        "max": 62,
+        "min": 55,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "belt",
+    "uniques": null
+  },
+  "spiked_shield": {
+    "code": "spk",
+    "display_name": "Spiked Shield",
+    "durability": 40,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 11,
+    "levelreq": 0,
+    "name": "spiked_shield",
+    "props": [
+      {
+        "max": 25,
+        "min": 15,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 30,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "spired_helm": {
+    "code": "uhm",
+    "display_name": "Spired Helm",
+    "durability": 40,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 79,
+    "levelreq": 59,
+    "name": "spired_helm",
+    "props": [
+      {
+        "max": 159,
+        "min": 114,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 192,
+    "sets": [
+      "ondals_almighty"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "spirit_mask": {
+    "code": "dr5",
+    "display_name": "Spirit Mask",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 24,
+    "levelreq": 18,
+    "name": "spirit_mask",
+    "props": [
+      {
+        "max": 35,
+        "min": 22,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 30,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "splint_mail": {
+    "code": "spl",
+    "display_name": "Splint Mail",
+    "durability": 30,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 20,
+    "levelreq": 0,
+    "name": "splint_mail",
+    "props": [
+      {
+        "max": 95,
+        "min": 90,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 51,
+    "sets": [
+      "berserkers_hauberk"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "studded_leather": {
+    "code": "stu",
+    "display_name": "Studded Leather",
+    "durability": 32,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 8,
+    "levelreq": 0,
+    "name": "studded_leather",
+    "props": [
+      {
+        "max": 35,
+        "min": 32,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 27,
+    "sets": [
+      "cow_kings_hide"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "succubus_skull": {
+    "code": "nee",
+    "display_name": "Succubus Skull",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "elite",
+    "level": 81,
+    "levelreq": 60,
+    "name": "succubus_skull",
+    "props": [
+      {
+        "max": 146,
+        "min": 100,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 95,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "sun_spirit": {
+    "code": "drc",
+    "display_name": "Sun Spirit",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 69,
+    "levelreq": 51,
+    "name": "sun_spirit",
+    "props": [
+      {
+        "max": 147,
+        "min": 98,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 95,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "targe": {
+    "code": "pa1",
+    "display_name": "Targe",
+    "durability": 20,
+    "gemsockets": 4,
+    "item_class": "normal",
+    "level": 4,
+    "levelreq": 3,
+    "name": "targe",
+    "props": [
+      {
+        "max": 12,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 16,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "templar_coat": {
+    "code": "xlt",
+    "display_name": "Templar Coat",
+    "durability": 60,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 52,
+    "levelreq": 25,
+    "name": "templar_coat",
+    "props": [
+      {
+        "max": 274,
+        "min": 252,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 118,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "tiara": {
+    "code": "ci2",
+    "display_name": "Tiara",
+    "durability": 25,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 70,
+    "levelreq": 52,
+    "name": "tiara",
+    "props": [
+      {
+        "max": 50,
+        "min": 40,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 0,
+    "sets": null,
+    "type": "circlet",
+    "uniques": null
+  },
+  "tigulated_mail": {
+    "code": "xcl",
+    "display_name": "Tigulated Mail",
+    "durability": 36,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 43,
+    "levelreq": 25,
+    "name": "tigulated_mail",
+    "props": [
+      {
+        "max": 190,
+        "min": 176,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 86,
+    "sets": [
+      "hwanins_refuge"
+    ],
+    "type": "armor",
+    "uniques": null
+  },
+  "totemic_mask": {
+    "code": "dra",
+    "display_name": "Totemic Mask",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 55,
+    "levelreq": 41,
+    "name": "totemic_mask",
+    "props": [
+      {
+        "max": 98,
+        "min": 73,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 65,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "tower_shield": {
+    "code": "tow",
+    "display_name": "Tower Shield",
+    "durability": 60,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 22,
+    "levelreq": 0,
+    "name": "tower_shield",
+    "props": [
+      {
+        "max": 25,
+        "min": 22,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 75,
+    "sets": [
+      "sigons_guard"
+    ],
+    "type": "shield",
+    "uniques": null
+  },
+  "trellised_armor": {
+    "code": "xtu",
+    "display_name": "Trellised Armor",
+    "durability": 32,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 40,
+    "levelreq": 25,
+    "name": "trellised_armor",
+    "props": [
+      {
+        "max": 153,
+        "min": 138,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 61,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "troll_belt": {
+    "code": "utc",
+    "display_name": "Troll Belt",
+    "durability": 18,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 82,
+    "levelreq": 62,
+    "name": "troll_belt",
+    "props": [
+      {
+        "max": 66,
+        "min": 59,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 151,
+    "sets": [
+      "trangouls_girth"
+    ],
+    "type": "belt",
+    "uniques": null
+  },
+  "troll_nest": {
+    "code": "ush",
+    "display_name": "Troll Nest",
+    "durability": 74,
+    "gemsockets": 3,
+    "item_class": "elite",
+    "level": 76,
+    "levelreq": 57,
+    "name": "troll_nest",
+    "props": [
+      {
+        "max": 173,
+        "min": 158,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 106,
+    "sets": null,
+    "type": "shield",
+    "uniques": null
+  },
+  "unraveller_head": {
+    "code": "ne3",
+    "display_name": "Unraveller Head",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 16,
+    "levelreq": 12,
+    "name": "unraveller_head",
+    "props": [
+      {
+        "max": 10,
+        "min": 6,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 18,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
+  },
+  "vambraces": {
+    "code": "umg",
+    "display_name": "Vambraces",
+    "durability": 16,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 69,
+    "levelreq": 51,
+    "name": "vambraces",
+    "props": [
+      {
+        "max": 67,
+        "min": 59,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 106,
+    "sets": null,
+    "type": "gloves",
+    "uniques": null
+  },
+  "vampirebone_gloves": {
+    "code": "uvg",
+    "display_name": "Vampirebone Gloves",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 63,
+    "levelreq": 47,
+    "name": "vampirebone_gloves",
+    "props": [
+      {
+        "max": 65,
+        "min": 56,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "gloves",
+    "uniques": null
+  },
+  "vampirefang_belt": {
+    "code": "uvc",
+    "display_name": "Vampirefang Belt",
+    "durability": 14,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 68,
+    "levelreq": 51,
+    "name": "vampirefang_belt",
+    "props": [
+      {
+        "max": 63,
+        "min": 56,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "belt",
+    "uniques": null
+  },
+  "vortex_shield": {
+    "code": "paf",
+    "display_name": "Vortex Shield",
+    "durability": 90,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 85,
+    "levelreq": 66,
+    "name": "vortex_shield",
+    "props": [
+      {
+        "max": 225,
+        "min": 182,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 148,
+    "sets": [
+      "griswolds_honor"
+    ],
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "war_belt": {
+    "code": "zhb",
+    "display_name": "War Belt",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 54,
+    "levelreq": 25,
+    "name": "war_belt",
+    "props": [
+      {
+        "max": 52,
+        "min": 41,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 110,
+    "sets": [
+      "immortal_kings_detail"
+    ],
+    "type": "belt",
+    "uniques": null
+  },
+  "war_boots": {
+    "code": "xhb",
+    "display_name": "War Boots",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 54,
+    "levelreq": 25,
+    "name": "war_boots",
+    "props": [
+      {
+        "max": 53,
+        "min": 43,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 125,
+    "sets": [
+      "immortal_kings_pillar"
+    ],
+    "type": "boots",
+    "uniques": null
+  },
+  "war_gauntlets": {
+    "code": "xhg",
+    "display_name": "War Gauntlets",
+    "durability": 24,
+    "gemsockets": 0,
+    "item_class": "exceptional",
+    "level": 54,
+    "levelreq": 25,
+    "name": "war_gauntlets",
+    "props": [
+      {
+        "max": 53,
+        "min": 43,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 110,
+    "sets": [
+      "immortal_kings_forge"
+    ],
+    "type": "gloves",
+    "uniques": null
+  },
+  "war_hat": {
+    "code": "xap",
+    "display_name": "War Hat",
+    "durability": 12,
+    "gemsockets": 2,
+    "item_class": "exceptional",
+    "level": 34,
+    "levelreq": 22,
+    "name": "war_hat",
+    "props": [
+      {
+        "max": 53,
+        "min": 45,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 20,
+    "sets": [
+      "cow_kings_horns"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "ward": {
+    "code": "uts",
+    "display_name": "Ward",
+    "durability": 100,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 84,
+    "levelreq": 63,
+    "name": "ward",
+    "props": [
+      {
+        "max": 170,
+        "min": 153,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 185,
+    "sets": [
+      "taebaeks_glory"
+    ],
+    "type": "shield",
+    "uniques": null
+  },
+  "winged_helm": {
+    "code": "xhm",
+    "display_name": "Winged Helm",
+    "durability": 40,
+    "gemsockets": 3,
+    "item_class": "exceptional",
+    "level": 51,
+    "levelreq": 25,
+    "name": "winged_helm",
+    "props": [
+      {
+        "max": 98,
+        "min": 85,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 115,
+    "sets": [
+      "guillaumes_face"
+    ],
+    "type": "helm",
+    "uniques": null
+  },
+  "wire_fleece": {
+    "code": "utu",
+    "display_name": "Wire Fleece",
+    "durability": 32,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 70,
+    "levelreq": 53,
+    "name": "wire_fleece",
+    "props": [
+      {
+        "max": 481,
+        "min": 375,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 111,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "wolf_head": {
+    "code": "dr1",
+    "display_name": "Wolf Head",
+    "durability": 20,
+    "gemsockets": 3,
+    "item_class": "normal",
+    "level": 4,
+    "levelreq": 3,
+    "name": "wolf_head",
+    "props": [
+      {
+        "max": 11,
+        "min": 8,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 16,
+    "sets": null,
+    "type": "pelt",
+    "uniques": null
+  },
+  "wyrmhide": {
+    "code": "uea",
+    "display_name": "Wyrmhide",
+    "durability": 24,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 67,
+    "levelreq": 50,
+    "name": "wyrmhide",
+    "props": [
+      {
+        "max": 470,
+        "min": 364,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 84,
+    "sets": null,
+    "type": "armor",
+    "uniques": null
+  },
+  "wyrmhide_boots": {
+    "code": "ulb",
+    "display_name": "Wyrmhide Boots",
+    "durability": 12,
+    "gemsockets": 0,
+    "item_class": "elite",
+    "level": 60,
+    "levelreq": 45,
+    "name": "wyrmhide_boots",
+    "props": [
+      {
+        "max": 62,
+        "min": 54,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 50,
+    "sets": null,
+    "type": "boots",
+    "uniques": null
+  },
+  "zakarum_shield": {
+    "code": "pae",
+    "display_name": "Zakarum Shield",
+    "durability": 65,
+    "gemsockets": 4,
+    "item_class": "elite",
+    "level": 82,
+    "levelreq": 61,
+    "name": "zakarum_shield",
+    "props": [
+      {
+        "max": 193,
+        "min": 169,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 142,
+    "sets": null,
+    "type": "auric_shields",
+    "uniques": null
+  },
+  "zombie_head": {
+    "code": "ne2",
+    "display_name": "Zombie Head",
+    "durability": 20,
+    "gemsockets": 2,
+    "item_class": "normal",
+    "level": 8,
+    "levelreq": 6,
+    "name": "zombie_head",
+    "props": [
+      {
+        "max": 8,
+        "min": 4,
+        "par": null,
+        "prop": "base_defense"
+      }
+    ],
+    "quality": "normal",
+    "reqstr": 14,
+    "sets": null,
+    "type": "voodoo_heads",
+    "uniques": null
   }
 }

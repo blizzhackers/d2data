@@ -547,7 +547,7 @@ if __name__ == "__main__":
             #print(f"failed on uniq {key}")
             pass
     with open('output/ref_codes.json', 'w', encoding='utf-8') as f:
-        json.dump(ref_codes, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+        json.dump(ref_codes, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
 
     # construct properties file
@@ -706,7 +706,7 @@ if __name__ == "__main__":
         types[obj.name] = obj
         #print(types[name])
     with open('output/item_types.json', 'w', encoding='utf-8') as f:
-        json.dump(types, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+        json.dump(types, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create weapons file
     weapons={}
@@ -800,7 +800,7 @@ if __name__ == "__main__":
         weapons[obj.name] = obj
         #print(weapons[name])
     with open('output/item_weapons.json', 'w', encoding='utf-8') as f:
-        json.dump(weapons, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+        json.dump(weapons, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create armor file
     armor={}
@@ -863,7 +863,7 @@ if __name__ == "__main__":
         armor[obj.name] = obj
         #print(armor[name])
     with open('output/item_armor.json', 'w', encoding='utf-8') as f:
-        json.dump(armor, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+        json.dump(armor, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create misc file
     misc={}
@@ -901,7 +901,7 @@ if __name__ == "__main__":
         misc[obj.name] = obj
         #print(misc[name])
     with open('output/item_misc.json', 'w', encoding='utf-8') as f:
-        json.dump(misc, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
+        json.dump(misc, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create sets file
     set_items={}
