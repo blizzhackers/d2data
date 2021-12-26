@@ -384,6 +384,7 @@ class ItemParser:
             string_obj.spec = [-1, -1, -1]
         elif string_obj.code == "sock":
             string_obj.pos_pattern = string_obj.neg_pattern = "Socketed ({d})"
+            string_obj.spec = [0, -1, -1]
 
         # construct list of indices
         # spec: min index, max index, param index; -1 ignores
@@ -449,7 +450,11 @@ class ItemParser:
         elif any(map(obj.prop.__contains__, ["pois", "cold"])):
             obj.par = round(int(obj.par)/25)
         elif "sock" in obj.prop:
-            obj.min = obj.par
+            # if obj.par is >0 then # sockets is FIXED
+            if obj.par:
+                obj.min = obj.par
+                obj.max = obj.par
+                obj.par = 0
         # elif "dmg%" in obj.prop: # doesn't seem to use? see sander's
         #     obj.par = None
         # elif "ignore-ac" in obj.prop: # doesn't seem to use? see lightsabre
