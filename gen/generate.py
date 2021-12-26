@@ -384,7 +384,6 @@ class ItemParser:
             string_obj.spec = [-1, -1, -1]
         elif string_obj.code == "sock":
             string_obj.pos_pattern = string_obj.neg_pattern = "Socketed ({d})"
-            string_obj.spec = [0, -1, -1]
 
         # construct list of indices
         # spec: min index, max index, param index; -1 ignores
@@ -800,7 +799,8 @@ if __name__ == "__main__":
         for key2 in item_parser.f_unique_items:
             try:
                 item_code=item_parser.f_unique_items[key2]["code"]
-                item_index=item_parser.f_unique_items[key2]["index"]
+                #item_index=item_parser.f_unique_items[key2]["index"]
+                item_index=key2
                 if item_code == obj.code:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
@@ -863,7 +863,8 @@ if __name__ == "__main__":
         for key2 in item_parser.f_unique_items:
             try:
                 item_code=item_parser.f_unique_items[key2]["code"]
-                item_index=item_parser.f_unique_items[key2]["index"]
+                #item_index=item_parser.f_unique_items[key2]["index"]
+                item_index=key2
                 if item_code == obj.code:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
