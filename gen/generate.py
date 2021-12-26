@@ -944,8 +944,6 @@ if __name__ == "__main__":
     #     json.dump(items, f, ensure_ascii=False, sort_keys=False, cls=EnhancedJSONEncoder, indent=2)
 
     # create uniques file
-
-    # create sets file
     unique_items={}
     file = item_parser.f_unique_items
     for key in file:
