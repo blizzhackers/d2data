@@ -1128,9 +1128,9 @@
         "prop": "half-freeze"
       },
       {
-        "max": null,
+        "max": 3,
         "min": 3,
-        "par": 3,
+        "par": 0,
         "prop": "sock"
       },
       {
@@ -1475,9 +1475,9 @@
     "name": "blade_of_ali_baba",
     "props": [
       {
-        "max": null,
+        "max": 3,
         "min": 3,
-        "par": 3,
+        "par": 0,
         "prop": "sock"
       },
       {
@@ -2217,7 +2217,7 @@
       },
       {
         "max": 2,
-        "min": 0,
+        "min": 2,
         "par": 0,
         "prop": "sock"
       }
@@ -3470,7 +3470,7 @@
       },
       {
         "max": 2,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       }
@@ -4326,7 +4326,7 @@
       },
       {
         "max": 2,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       }
@@ -5649,7 +5649,7 @@
       },
       {
         "max": 2,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       },
@@ -6931,7 +6931,7 @@
       },
       {
         "max": 3,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       },
@@ -7137,7 +7137,7 @@
       },
       {
         "max": 3,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       },
@@ -7484,7 +7484,7 @@
       },
       {
         "max": 2,
-        "min": 0,
+        "min": 2,
         "par": 0,
         "prop": "sock"
       },
@@ -7795,9 +7795,9 @@
     "name": "hone_sundan",
     "props": [
       {
-        "max": null,
+        "max": 3,
         "min": 3,
-        "par": 3,
+        "par": 0,
         "prop": "sock"
       },
       {
@@ -10060,9 +10060,9 @@
         "prop": "block"
       },
       {
-        "max": null,
+        "max": 2,
         "min": 2,
-        "par": 2,
+        "par": 0,
         "prop": "sock"
       },
       {
@@ -11759,7 +11759,7 @@
       },
       {
         "max": 5,
-        "min": 0,
+        "min": 3,
         "par": 0,
         "prop": "sock"
       },
@@ -13188,7 +13188,7 @@
       },
       {
         "max": 1,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       }
@@ -13429,9 +13429,9 @@
         "prop": "str"
       },
       {
-        "max": null,
+        "max": 2,
         "min": 2,
-        "par": 2,
+        "par": 0,
         "prop": "sock"
       }
     ]
@@ -17167,7 +17167,7 @@
       },
       {
         "max": 3,
-        "min": 0,
+        "min": 1,
         "par": 0,
         "prop": "sock"
       }
@@ -18525,9 +18525,9 @@
         "prop": "magicarrow"
       },
       {
-        "max": null,
+        "max": 2,
         "min": 2,
-        "par": 2,
+        "par": 0,
         "prop": "sock"
       }
     ]
