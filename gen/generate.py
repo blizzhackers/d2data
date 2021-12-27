@@ -120,7 +120,7 @@ class SetItem(SpecialItem):
 
 @dataclasses.dataclass
 class UniqueItem(SpecialItem):
-    index: str = None
+    #index: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -996,18 +996,153 @@ if __name__ == "__main__":
     unique_items={}
     file = item_parser.f_unique_items
     for key in file:
-        obj = UniqueItem()
-        try: obj.base = ref_codes[file[key]["code"]]["name"]
-        except: continue # this item is unused, skip
-        code = key
-        name = ref_codes[key]["name"]
-        obj.display_name = ref_codes[key]["display_name"]
-        obj.index = file[key]["index"]
-        try: obj.level = file[key]["lvl"]
-        except: pass
-        try: obj.levelreq = file[key]["lvl req"]
-        except: pass
-        obj.props = item_parser.get_magic_props(file[key])
-        unique_items[name] = obj
+        if obj.display_name != "Rainbow Facet":
+            obj = UniqueItem()
+            try: obj.base = ref_codes[file[key]["code"]]["name"]
+            except: continue # this item is unused, skip
+            code = key
+            name = ref_codes[key]["name"]
+            obj.display_name = ref_codes[key]["display_name"]
+            #obj.index = file[key]["index"]
+            try: obj.level = file[key]["lvl"]
+            except: pass
+            try: obj.levelreq = file[key]["lvl req"]
+            except: pass
+            obj.props = item_parser.get_magic_props(file[key])
+            unique_items[name] = obj
+    # rainbow facet override:
+    obj = UniqueItem()
+    obj.base = "jewel"
+    obj.display_name = "Rainbow Facet"
+    obj.level = 85
+    obj.levelreq = 49
+    obj.props = [
+    # poison
+      {
+        "max": 37,
+        "min": 37,
+        "par": 50,
+        "prop": "dmg-pois"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "pierce-pois"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "extra-pois"
+      },
+      {
+        "max": 23,
+        "min": 100,
+        "par": "Venom",
+        "prop": "levelup-skill"
+      },
+      {
+        "max": 51,
+        "min": 100,
+        "par": "Poison Nova",
+        "prop": "death-skill"
+      },
+    # lightning
+      {
+        "max": 74,
+        "min": 1,
+        "par": 0,
+        "prop": "dmg-ltng"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "pierce-ltng"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "extra-ltng"
+      },
+      {
+        "max": 41,
+        "min": 100,
+        "par": "Nova",
+        "prop": "levelup-skill"
+      },
+      {
+        "max": 47,
+        "min": 100,
+        "par": "Chain Lightning",
+        "prop": "death-skill"
+      },
+    # cold
+      {
+        "max": 38,
+        "min": 24,
+        "par": 3,
+        "prop": "dmg-cold"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "pierce-cold"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "extra-cold"
+      },
+      {
+        "max": 43,
+        "min": 100,
+        "par": "Frost Nova",
+        "prop": "levelup-skill"
+      },
+      {
+        "max": 37,
+        "min": 100,
+        "par": "Blizzard",
+        "prop": "death-skill"
+      },
+      # fire
+      {
+        "max": 45,
+        "min": 17,
+        "par": 0,
+        "prop": "dmg-fire"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "pierce-fire"
+      },
+      {
+        "max": 5,
+        "min": 3,
+        "par": 0,
+        "prop": "extra-fire"
+      },
+      {
+        "max": 29,
+        "min": 100,
+        "par": "Blaze",
+        "prop": "levelup-skill"
+      },
+      {
+        "max": 31,
+        "min": 100,
+        "par": "Meteor",
+        "prop": "death-skill"
+      },
+    ]
+    unique_items[name] = obj
+
     with open('output/item_unique_items.json', 'w', encoding='utf-8') as f:
         json.dump(unique_items, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
