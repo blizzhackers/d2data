@@ -10,7 +10,7 @@ outdir="output"
 
 @dataclasses.dataclass
 class PropertyBase():
-    code: str = None
+    #code: str = None
     #code_clean: str = None
     aliases: list = dataclasses.field(default_factory=list)
     def __getitem__(self, key):
@@ -392,7 +392,7 @@ class ItemParser:
         if string_obj.descfunc in [13, 14, 16, 22, 23, 27, 28]:
             string_obj.spec[2] = 1
         elif string_obj.descfunc in [15]:
-            string_obj.spec[2] = 2
+            string_obj.spec = [0, 1, 2]
         elif string_obj.descfunc in [24]:
             # level (max3) (par3) ({d}/(min3 charges))
             string_obj.spec = [3, 0, 1]
@@ -690,6 +690,41 @@ if __name__ == "__main__":
                             "spec": strings.spec
                         }]
                         properties[key]["patterns_range"].append(val)
+    # create properties: damage_1hand, damage_2hand, defense
+    obj = PropertyDef()
+    prop = "damage_1hand"
+    obj.patterns = [{
+            "neg": "One-Hand Damage: {:d}",
+            "pos": "One-Hand Damage: {:d}",
+            "spec": [0, -1, -1 ]
+        }]
+    obj.patterns_range = [{
+            "neg": "One-Hand Damage: {:d} to {:d}",
+            "pos": "One-Hand Damage: {:d} to {:d}",
+            "spec": [0, 1, -1 ]
+        }]
+    properties[prop]=obj
+    obj = PropertyDef()
+    prop = "damage_2hand"
+    obj.patterns = [{
+            "neg": "Two-Hand Damage: {:d}",
+            "pos": "Two-Hand Damage: {:d}",
+            "spec": [0, -1, -1 ]
+        }]
+    obj.patterns_range = [{
+            "neg": "Two-Hand Damage: {:d} to {:d}",
+            "pos": "Two-Hand Damage: {:d} to {:d}",
+            "spec": [0, 1, -1 ]
+        }]
+    properties[prop]=obj
+    obj = PropertyDef()
+    prop = "defense"
+    obj.patterns = [{
+            "neg": "Defense: {:d}",
+            "pos": "Defense: {:d}",
+            "spec": [0, -1, -1 ]
+        }]
+    properties[prop]=obj
 
     with open('output/item_properties.json', 'w', encoding='utf-8') as f:
         json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
@@ -735,12 +770,12 @@ if __name__ == "__main__":
             obj.hands="both"
             try:
                 prop_obj = ItemProperty()
-                prop_obj.prop = "base_damage_1hand"
+                prop_obj.prop = "damage_1hand"
                 prop_obj.min = int(file[key]["mindam"])
                 prop_obj.max = int(file[key]["maxdam"])
                 props.append(prop_obj)
                 prop_obj = ItemProperty()
-                prop_obj.prop = "base_damage_2hand"
+                prop_obj.prop = "damage_2hand"
                 prop_obj.min = int(file[key]["2handmindam"])
                 prop_obj.max = int(file[key]["2handmaxdam"])
                 props.append(prop_obj)
@@ -750,7 +785,7 @@ if __name__ == "__main__":
                 obj.hands = "two"
                 try:
                     prop_obj = ItemProperty()
-                    prop_obj.prop = "base_damage_2hand"
+                    prop_obj.prop = "damage_2hand"
                     prop_obj.min = int(file[key]["2handmindam"])
                     prop_obj.max = int(file[key]["2handmaxdam"])
                     props.append(prop_obj)
@@ -759,7 +794,7 @@ if __name__ == "__main__":
                 obj.hands = "one"
                 try:
                     prop_obj = ItemProperty()
-                    prop_obj.prop = "base_damage_1hand"
+                    prop_obj.prop = "damage_1hand"
                     prop_obj.min = int(file[key]["mindam"])
                     prop_obj.max = int(file[key]["maxdam"])
                     props.append(prop_obj)
@@ -828,7 +863,7 @@ if __name__ == "__main__":
         if "minac" in item_parser.f_armor[key]:
             try:
                 prop_obj = ItemProperty()
-                prop_obj.prop = "base_defense"
+                prop_obj.prop = "defense"
                 prop_obj.min = int(file[key]["minac"])
                 prop_obj.max = int(file[key]["maxac"])
                 obj.props = [prop_obj]

@@ -4,7 +4,6 @@
       "item_absorbcold"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Cold Absorb",
@@ -24,7 +23,6 @@
       "item_absorbcold_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Cold Absorb {:d}%",
@@ -44,7 +42,6 @@
       "item_absorb_cold_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Absorbs Cold Damage (Based on Character Level)",
@@ -64,7 +61,6 @@
       "item_absorb_cold_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Absorbs Cold Damage",
@@ -82,7 +78,6 @@
   "abs-crush": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -90,7 +85,6 @@
   "abs-crush%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -100,7 +94,6 @@
       "item_absorbfire"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Fire Absorb",
@@ -120,7 +113,6 @@
       "item_absorbfire_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Fire Absorb {:d}%",
@@ -140,7 +132,6 @@
       "item_absorb_fire_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Absorbs Fire Damage (Based on Character Level)",
@@ -160,7 +151,6 @@
       "item_absorb_fire_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Absorbs Fire Damage",
@@ -180,7 +170,6 @@
       "item_absorblight"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Lightning Absorb",
@@ -200,7 +189,6 @@
       "item_absorblight_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Lightning Absorb {:d}%",
@@ -220,7 +208,6 @@
       "item_absorb_ltng_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Absorbs Lightning Damage (Based on Character Level)",
@@ -240,7 +227,6 @@
       "item_absorb_ltng_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Absorbs Lightning Damage",
@@ -260,7 +246,6 @@
       "item_absorbmagic"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Magic Absorb",
@@ -280,7 +265,6 @@
       "item_absorbmagic_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Magic Absorb {:d}%",
@@ -300,7 +284,6 @@
       "item_absorb_pois_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -310,7 +293,6 @@
       "item_absorb_pois_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -318,7 +300,6 @@
   "abs-slash": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -326,7 +307,6 @@
   "abs-slash%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -334,7 +314,6 @@
   "abs-thrust": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -342,7 +321,6 @@
   "abs-thrust%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -352,7 +330,6 @@
       "armorclass"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Defense",
@@ -372,7 +349,6 @@
       "item_armor_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Enhanced Defense",
@@ -390,7 +366,6 @@
   "ac%-mon": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -400,7 +375,6 @@
       "item_armorpercent_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Enhanced Defense (Based on Character Level)",
@@ -420,7 +394,6 @@
       "item_armorpercent_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Enhanced Defense",
@@ -440,7 +413,6 @@
       "armorclass_vs_hth"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Defense vs. Melee",
@@ -460,7 +432,6 @@
       "armorclass_vs_missile"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Defense vs. Missile",
@@ -478,7 +449,6 @@
   "ac-mon": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -488,7 +458,6 @@
       "item_armor_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Defense (Based on Character Level)",
@@ -508,7 +477,6 @@
       "item_armor_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Defense",
@@ -528,7 +496,6 @@
       "item_addexperience"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Experience Gained",
@@ -551,7 +518,6 @@
       "dex",
       "vit"
     ],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to all Attributes",
@@ -571,7 +537,6 @@
       "item_allskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to All Skills",
@@ -591,7 +556,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Amazon Skill Levels",
@@ -611,7 +575,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Assassin Skill Levels",
@@ -631,7 +594,6 @@
       "tohit"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating",
@@ -651,7 +613,6 @@
       "item_tohit_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Bonus to Attack Rating",
@@ -669,7 +630,6 @@
   "att%-mon": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -679,7 +639,6 @@
       "item_tohitpercent_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Bonus to Attack Rating (Based on Character Level)",
@@ -699,7 +658,6 @@
       "item_tohitpercent_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Bonus to Attack Rating",
@@ -719,7 +677,6 @@
       "item_tohit_demon_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Demons (Based on Character Level)",
@@ -739,7 +696,6 @@
       "item_tohit_demon_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Demons",
@@ -759,7 +715,6 @@
       "item_demon_tohit"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Demons",
@@ -777,7 +732,6 @@
   "att-mon": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -787,7 +741,6 @@
       "attack_vs_montype"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating versus {}",
@@ -807,14 +760,13 @@
       "item_skillonattack"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} on attack",
         "pos": "{:d}% Chance to cast level {:d} {} on attack",
         "spec": [
           0,
-          -1,
+          1,
           2
         ]
       }
@@ -827,7 +779,6 @@
       "item_tohit_undead_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Undead (Based on Character Level)",
@@ -847,7 +798,6 @@
       "item_tohit_undead_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Undead",
@@ -867,7 +817,6 @@
       "item_undead_tohit"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating against Undead",
@@ -887,7 +836,6 @@
       "item_tohit_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating (Based on Character Level)",
@@ -907,7 +855,6 @@
       "item_tohit_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating",
@@ -927,7 +874,6 @@
       "item_aura"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Level {:d} {} Aura When Equipped",
@@ -947,7 +893,6 @@
       "item_fastergethitrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Hit Recovery",
@@ -967,7 +912,6 @@
       "item_fastergethitrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Hit Recovery",
@@ -987,7 +931,6 @@
       "item_fastergethitrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Hit Recovery",
@@ -1007,7 +950,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Barbarian Skill Levels",
@@ -1027,7 +969,6 @@
       "toblock"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Increased Chance of Blocking",
@@ -1047,7 +988,6 @@
       "item_fasterblockrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Block Rate",
@@ -1067,7 +1007,6 @@
       "item_fasterblockrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Block Rate",
@@ -1087,7 +1026,6 @@
       "item_fasterblockrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Block Rate",
@@ -1107,7 +1045,6 @@
       "item_extrablood"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -1117,7 +1054,6 @@
       "item_fastercastrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Cast Rate",
@@ -1137,7 +1073,6 @@
       "item_fastercastrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Cast Rate",
@@ -1157,7 +1092,6 @@
       "item_fastercastrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Cast Rate",
@@ -1177,7 +1111,6 @@
       "item_charged_skill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Level {:d} {} ({:d}/{:d} Charges)",
@@ -1197,7 +1130,6 @@
       "item_reducedprices"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Reduces all Vendor Prices {:d}%",
@@ -1217,7 +1149,6 @@
       "coldlength"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -1227,7 +1158,6 @@
       "coldmaxdam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Cold Damage",
@@ -1247,7 +1177,6 @@
       "coldmindam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Minimum Cold Damage",
@@ -1267,7 +1196,6 @@
       "item_lightcolor"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -1277,7 +1205,6 @@
       "item_crushingblow"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance of Crushing Blow",
@@ -1297,7 +1224,6 @@
       "item_crushingblow_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance of Crushing Blow (Based on Character Level)",
@@ -1317,7 +1243,6 @@
       "item_crushingblow_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Chance of Crushing Blow",
@@ -1332,12 +1257,65 @@
     "patterns_range": [],
     "within": []
   },
+  "damage_1hand": {
+    "aliases": [],
+    "children": [],
+    "patterns": [
+      {
+        "neg": "One-Hand Damage: {:d}",
+        "pos": "One-Hand Damage: {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "patterns_range": [
+      {
+        "neg": "One-Hand Damage: {:d} to {:d}",
+        "pos": "One-Hand Damage: {:d} to {:d}",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
+    ],
+    "within": []
+  },
+  "damage_2hand": {
+    "aliases": [],
+    "children": [],
+    "patterns": [
+      {
+        "neg": "Two-Hand Damage: {:d}",
+        "pos": "Two-Hand Damage: {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "patterns_range": [
+      {
+        "neg": "Two-Hand Damage: {:d} to {:d}",
+        "pos": "Two-Hand Damage: {:d} to {:d}",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
+    ],
+    "within": []
+  },
   "deadly": {
     "aliases": [
       "item_deadlystrike"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Deadly Strike",
@@ -1357,7 +1335,6 @@
       "item_deadlystrike_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Deadly Strike (Based on Character Level)",
@@ -1377,7 +1354,6 @@
       "item_deadlystrike_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Deadly Strike",
@@ -1397,15 +1373,31 @@
       "item_skillondeath"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when you Die",
         "pos": "{:d}% Chance to cast level {:d} {} when you Die",
         "spec": [
           0,
-          -1,
+          1,
           2
+        ]
+      }
+    ],
+    "patterns_range": [],
+    "within": []
+  },
+  "defense": {
+    "aliases": [],
+    "children": [],
+    "patterns": [
+      {
+        "neg": "Defense: {:d}",
+        "pos": "Defense: {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
         ]
       }
     ],
@@ -1417,7 +1409,6 @@
       "item_healafterdemonkill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Life after each Demon Kill",
@@ -1437,7 +1428,6 @@
       "dexterity"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Dexterity",
@@ -1457,7 +1447,6 @@
       "item_dexterity_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Dexterity (Based on Character Level)",
@@ -1477,7 +1466,6 @@
       "item_dexterity_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Dexterity",
@@ -1497,7 +1485,6 @@
       "item_normaldamage"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Damage -{:d}",
@@ -1515,7 +1502,6 @@
   "dmg%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [
       [
         {
@@ -1535,7 +1521,6 @@
   "dmg%-mon": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -1545,7 +1530,6 @@
       "item_maxdamage_percent_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
@@ -1565,7 +1549,6 @@
       "item_maxdamage_percent_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Enhanced Maximum Damage",
@@ -1585,7 +1568,6 @@
       "item_damagetargetac"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Monster Defense Per Hit",
@@ -1607,7 +1589,6 @@
       "cold-max",
       "cold-len"
     ],
-    "code": null,
     "patterns": [
       [
         {
@@ -1641,7 +1622,6 @@
       "item_cold_damagemax_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Cold Damage (Based on Character Level)",
@@ -1661,7 +1641,6 @@
       "item_cold_damagemax_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Cold Damage",
@@ -1679,7 +1658,6 @@
   "dmg-crush": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -1687,7 +1665,6 @@
   "dmg-crush%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -1697,7 +1674,6 @@
       "item_damage_demon_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Damage to Demons (Based on Character Level)",
@@ -1717,7 +1693,6 @@
       "item_damage_demon_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Damage to Demons",
@@ -1737,7 +1712,6 @@
       "item_demondamage_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Damage to Demons",
@@ -1763,7 +1737,6 @@
       "cold-max",
       "cold-len"
     ],
-    "code": null,
     "patterns": [],
     "patterns_range": [
       [
@@ -1810,7 +1783,6 @@
       "cold-max",
       "cold-len"
     ],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage",
@@ -1850,7 +1822,6 @@
       "ltng-min",
       "cold-min"
     ],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Minimum Fire Damage",
@@ -1889,7 +1860,6 @@
       "fire-min",
       "fire-max"
     ],
-    "code": null,
     "patterns": [
       [
         {
@@ -1923,7 +1893,6 @@
       "item_fire_damagemax_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage (Based on Character Level)",
@@ -1943,7 +1912,6 @@
       "item_fire_damagemax_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage",
@@ -1964,7 +1932,6 @@
       "ltng-min",
       "ltng-max"
     ],
-    "code": null,
     "patterns": [
       [
         {
@@ -1998,7 +1965,6 @@
       "item_ltng_damagemax_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Lightning Damage (Based on Character Level)",
@@ -2018,7 +1984,6 @@
       "item_ltng_damagemax_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Lightning Damage",
@@ -2036,7 +2001,6 @@
   "dmg-mag": {
     "aliases": null,
     "children": [],
-    "code": null,
     "patterns": [
       [
         {
@@ -2068,7 +2032,6 @@
   "dmg-max": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2076,7 +2039,6 @@
   "dmg-min": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2084,7 +2046,6 @@
   "dmg-mon": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2094,7 +2055,6 @@
       "damage_vs_montype"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Attack Rating versus {}",
@@ -2112,7 +2072,6 @@
   "dmg-norm": {
     "aliases": null,
     "children": [],
-    "code": null,
     "patterns": [
       [
         {
@@ -2148,7 +2107,6 @@
       "pois-max",
       "pois-len"
     ],
-    "code": null,
     "patterns": [
       [
         {
@@ -2182,7 +2140,6 @@
       "item_pois_damagemax_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Poison Damage (Based on Character Level)",
@@ -2202,7 +2159,6 @@
       "item_pois_damagemax_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Poison Damage",
@@ -2220,7 +2176,6 @@
   "dmg-slash": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2228,7 +2183,6 @@
   "dmg-slash%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2236,7 +2190,6 @@
   "dmg-throw": {
     "aliases": null,
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2244,7 +2197,6 @@
   "dmg-thrust": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2252,7 +2204,6 @@
   "dmg-thrust%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2262,7 +2213,6 @@
       "item_damagetomana"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Damage Taken Goes To Mana",
@@ -2282,7 +2232,6 @@
       "item_damage_undead_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Damage to Undead (Based on Character Level)",
@@ -2302,7 +2251,6 @@
       "item_damage_undead_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Damage to Undead",
@@ -2322,7 +2270,6 @@
       "item_undeaddamage_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Damage to Undead",
@@ -2342,7 +2289,6 @@
       "item_maxdamage_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Damage (Based on Character Level)",
@@ -2362,7 +2308,6 @@
       "item_maxdamage_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Damage",
@@ -2382,7 +2327,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Druid Skill Levels",
@@ -2402,7 +2346,6 @@
       "maxdurability"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2412,7 +2355,6 @@
       "item_maxdurability_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Increase Maximum Durability {:d}%",
@@ -2432,7 +2374,6 @@
       "item_req_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Requirements -{:d}%",
@@ -2452,7 +2393,6 @@
       "energy"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Energy",
@@ -2472,7 +2412,6 @@
       "item_energy_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Energy (Based on Character Level)",
@@ -2492,7 +2431,6 @@
       "item_energy_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Energy",
@@ -2510,7 +2448,6 @@
   "ethereal": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2520,7 +2457,6 @@
       "item_explosivearrow"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Fires Explosive Arrows or Bolts",
@@ -2540,7 +2476,6 @@
       "passive_cold_mastery"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Cold Skill Damage",
@@ -2560,7 +2495,6 @@
       "passive_fire_mastery"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Fire Skill Damage",
@@ -2580,7 +2514,6 @@
       "passive_ltng_mastery"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Lightning Skill Damage",
@@ -2600,7 +2533,6 @@
       "passive_pois_mastery"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Poison Skill Damage",
@@ -2620,7 +2552,6 @@
       "fade"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2628,7 +2559,6 @@
   "fire-fx": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2638,7 +2568,6 @@
       "firemaxdam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Fire Damage",
@@ -2658,7 +2587,6 @@
       "firemindam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Minimum Fire Damage",
@@ -2678,7 +2606,6 @@
       "item_elemskill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Fire Skills",
@@ -2698,7 +2625,6 @@
       "item_freeze"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Freezes target -{:d}",
@@ -2716,7 +2642,6 @@
   "gembonus": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2724,7 +2649,6 @@
   "gems%/lvl": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2732,7 +2656,6 @@
   "gems%/time": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2742,14 +2665,13 @@
       "item_skillongethit"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when struck",
         "pos": "{:d}% Chance to cast level {:d} {} when struck",
         "spec": [
           0,
-          -1,
+          1,
           2
         ]
       }
@@ -2762,7 +2684,6 @@
       "item_goldbonus"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Extra Gold from Monsters",
@@ -2782,7 +2703,6 @@
       "item_find_gold_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Extra Gold from Monsters (Based on Character Level)",
@@ -2802,7 +2722,6 @@
       "item_find_gold_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Extra Gold from Monsters -{:d}",
@@ -2822,7 +2741,6 @@
       "item_halffreezeduration"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Half Freeze Duration",
@@ -2842,7 +2760,6 @@
       "item_healafterkill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Life after each Kill",
@@ -2862,7 +2779,6 @@
       "item_doubleherbduration"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -2872,14 +2788,13 @@
       "item_skillonhit"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} on striking",
         "pos": "{:d}% Chance to cast level {:d} {} on striking",
         "spec": [
           0,
-          -1,
+          1,
           2
         ]
       }
@@ -2892,7 +2807,6 @@
       "item_howl"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Hit Causes Monster to Flee {:d}%",
@@ -2912,7 +2826,6 @@
       "maxhp"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Life",
@@ -2932,7 +2845,6 @@
       "item_maxhp_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Increase Maximum Life {:d}%",
@@ -2952,7 +2864,6 @@
       "item_hp_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Life (Based on Character Level)",
@@ -2972,7 +2883,6 @@
       "item_hp_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Life",
@@ -2992,7 +2902,6 @@
       "item_ignoretargetac"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Ignore Target's Defense",
@@ -3010,7 +2919,6 @@
   "indestruct": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -3018,7 +2926,6 @@
   "item%": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -3028,7 +2935,6 @@
       "item_kickdamage"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Kick Damage",
@@ -3048,7 +2954,6 @@
       "item_kick_damage_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Kick Damage (Based on Character Level)",
@@ -3068,7 +2973,6 @@
       "item_kick_damage_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Kick Damage",
@@ -3088,14 +2992,13 @@
       "item_skillonkill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
         "pos": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
         "spec": [
           0,
-          -1,
+          1,
           2
         ]
       }
@@ -3108,7 +3011,6 @@
       "item_knockback"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Knockback",
@@ -3128,7 +3030,6 @@
       "item_levelreq"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -3138,14 +3039,13 @@
       "item_skillonlevelup"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance to cast level {:d} {} when you Level-Up",
         "pos": "{:d}% Chance to cast level {:d} {} when you Level-Up",
         "spec": [
           0,
-          -1,
+          1,
           2
         ]
       }
@@ -3158,7 +3058,6 @@
       "lifedrainmindam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Life stolen per hit",
@@ -3178,7 +3077,6 @@
       "item_lightradius"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Light Radius",
@@ -3198,7 +3096,6 @@
       "item_attackertakeslightdamage"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Attacker Takes Lightning Damage of {:d}",
@@ -3216,7 +3113,6 @@
   "ltng-fx": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -3226,7 +3122,6 @@
       "lightmaxdam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Lightning Damage",
@@ -3246,7 +3141,6 @@
       "lightmindam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Minimum Lightning Damage",
@@ -3266,7 +3160,6 @@
       "item_magicbonus"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Better Chance of Getting Magic Items",
@@ -3286,7 +3179,6 @@
       "item_find_magic_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
@@ -3306,7 +3198,6 @@
       "item_find_magic_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Better Chance of Getting Magic Items",
@@ -3326,7 +3217,6 @@
       "item_magicarrow"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Fires Magic Arrows",
@@ -3346,7 +3236,6 @@
       "maxmana"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Mana",
@@ -3366,7 +3255,6 @@
       "item_maxmana_percent"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Increase Maximum Mana {:d}%",
@@ -3386,7 +3274,6 @@
       "item_manaafterkill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Mana after each Kill",
@@ -3406,7 +3293,6 @@
       "item_mana_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Mana (Based on Character Level)",
@@ -3426,7 +3312,6 @@
       "item_mana_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Mana",
@@ -3446,7 +3331,6 @@
       "manadrainmindam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Mana stolen per hit",
@@ -3466,7 +3350,6 @@
       "item_fastermovevelocity"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Run/Walk",
@@ -3486,7 +3369,6 @@
       "item_fastermovevelocity"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Run/Walk",
@@ -3506,7 +3388,6 @@
       "item_fastermovevelocity"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Faster Run/Walk",
@@ -3526,7 +3407,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Necromancer Skill Levels",
@@ -3546,7 +3426,6 @@
       "item_cannotbefrozen"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Cannot Be Frozen",
@@ -3566,7 +3445,6 @@
       "item_preventheal"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Prevent Monster Heal",
@@ -3586,7 +3464,6 @@
       "item_openwounds"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance of Open Wounds",
@@ -3606,7 +3483,6 @@
       "item_nonclassskill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "+{:d} to {}",
@@ -3626,7 +3502,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Paladin Skill Levels",
@@ -3646,7 +3521,6 @@
       "item_pierce"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Piercing Attack",
@@ -3666,7 +3540,6 @@
       "passive_cold_pierce"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Cold Resistance",
@@ -3686,7 +3559,6 @@
       "passive_fire_pierce"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Fire Resistance",
@@ -3706,7 +3578,6 @@
       "passive_ltng_pierce"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Lightning Resistance",
@@ -3726,7 +3597,6 @@
       "passive_pois_pierce"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Enemy Poison Resistance",
@@ -3746,7 +3616,6 @@
       "poisonlength"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -3756,7 +3625,6 @@
       "poisonmaxdam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Maximum Poison Damage",
@@ -3776,7 +3644,6 @@
       "poisonmindam"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Minimum Poison Damage",
@@ -3796,7 +3663,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to {} Skill Levels",
@@ -3816,7 +3682,6 @@
       "item_reanimate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Reanimate as: {}",
@@ -3836,7 +3701,6 @@
       "normal_damage_reduction"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Damage Reduced by {:d}",
@@ -3856,7 +3720,6 @@
       "damageresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Damage Reduced by {:d}%",
@@ -3876,7 +3739,6 @@
       "magic_damage_reduction"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Magic Damage Reduced by {:d}",
@@ -3896,7 +3758,6 @@
       "item_fractionaltargetac"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Target Defense",
@@ -3916,7 +3777,6 @@
       "hpregen"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Drain Life -{:d}",
@@ -3934,7 +3794,6 @@
   "regen-dur": {
     "aliases": [],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -3944,7 +3803,6 @@
       "manarecoverybonus"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Regenerate Mana {:d}%",
@@ -3964,7 +3822,6 @@
       "staminarecoverybonus"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Heal Stamina Plus {:d}%",
@@ -3984,7 +3841,6 @@
       "item_regenstamina_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Heal Stamina Plus {:d}% (Based on Character Level)",
@@ -4004,7 +3860,6 @@
       "item_regenstamina_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Heal Stamina Plus -{:d}",
@@ -4024,7 +3879,6 @@
       "item_replenish_durability"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Repairs {} durability {}",
@@ -4044,7 +3898,6 @@
       "item_replenish_quantity"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Replenishes quantity",
@@ -4067,7 +3920,6 @@
       "res-cold",
       "res-pois"
     ],
-    "code": null,
     "patterns": [
       {
         "neg": "All Resistances +{:d}",
@@ -4090,7 +3942,6 @@
       "res-cold-max",
       "res-pois-max"
     ],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Fire Resist",
@@ -4137,7 +3988,6 @@
       "coldresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Cold Resist -{:d}%",
@@ -4157,7 +4007,6 @@
       "maxcoldresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Cold Resist",
@@ -4177,7 +4026,6 @@
       "item_resist_cold_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Cold Resist {:d}% (Based on Character Level)",
@@ -4197,7 +4045,6 @@
       "item_resist_cold_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Cold Resist -{:d}",
@@ -4217,7 +4064,6 @@
       "fireresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Fire Resist -{:d}%",
@@ -4237,7 +4083,6 @@
       "maxfireresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Fire Resist",
@@ -4257,7 +4102,6 @@
       "item_resist_fire_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Fire Resist {:d}% (Based on Character Level)",
@@ -4277,7 +4121,6 @@
       "item_resist_fire_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Fire Resist -{:d}",
@@ -4297,7 +4140,6 @@
       "lightresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Lightning Resist -{:d}%",
@@ -4317,7 +4159,6 @@
       "maxlightresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Lightning Resist",
@@ -4337,7 +4178,6 @@
       "item_resist_ltng_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Lightning Resist {:d}% (Based on Character Level)",
@@ -4357,7 +4197,6 @@
       "item_resist_ltng_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Lightning Resist -{:d}",
@@ -4377,7 +4216,6 @@
       "magicresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Magic Resist -{:d}%",
@@ -4397,7 +4235,6 @@
       "maxmagicresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Magic Resist",
@@ -4417,7 +4254,6 @@
       "poisonresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Poison Resist -{:d}%",
@@ -4437,7 +4273,6 @@
       "item_poisonlengthresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Poison Length Reduced by {:d}%",
@@ -4457,7 +4292,6 @@
       "maxpoisonresist"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% to Maximum Poison Resist",
@@ -4477,7 +4311,6 @@
       "item_resist_pois_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Poison Resist {:d}% (Based on Character Level)",
@@ -4497,7 +4330,6 @@
       "item_resist_pois_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Poison Resist -{:d}",
@@ -4517,7 +4349,6 @@
       "item_restinpeace"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Slain Monsters Rest in Peace",
@@ -4537,7 +4368,6 @@
       "item_singleskill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "+{:d} to {} ({} only)",
@@ -4557,7 +4387,6 @@
       "item_singleskill"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "+{:d} to {} ({} only)",
@@ -4577,7 +4406,6 @@
       "item_addskill_tab"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to {} ({} only)",
@@ -4597,7 +4425,6 @@
       "item_slow"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Slows Target by {:d}%",
@@ -4617,7 +4444,6 @@
       "item_numsockets"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Socketed ({d})",
@@ -4637,7 +4463,6 @@
       "item_addclassskills"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Sorceress Skill Levels",
@@ -4657,7 +4482,6 @@
       "item_extra_stack"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Increased Stack Size",
@@ -4677,7 +4501,6 @@
       "maxstamina"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Maximum Stamina",
@@ -4697,7 +4520,6 @@
       "item_stamina_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Maximum Stamina (Based on Character Level)",
@@ -4717,7 +4539,6 @@
       "item_stamina_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Maximum Stamina",
@@ -4737,7 +4558,6 @@
       "item_staminadrainpct"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Slower Stamina Drain",
@@ -4757,7 +4577,6 @@
       "state"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -4767,7 +4586,6 @@
       "strength"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Strength",
@@ -4787,7 +4605,6 @@
       "item_strength_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Strength (Based on Character Level)",
@@ -4807,7 +4624,6 @@
       "item_strength_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Strength",
@@ -4827,7 +4643,6 @@
       "item_stupidity"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Hit Blinds Target -{:d}",
@@ -4847,7 +4662,6 @@
       "item_fasterattackrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Increased Attack Speed",
@@ -4867,7 +4681,6 @@
       "item_fasterattackrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Increased Attack Speed",
@@ -4887,7 +4700,6 @@
       "item_fasterattackrate"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d}% Increased Attack Speed",
@@ -4907,7 +4719,6 @@
       "item_attackertakesdamage"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Attacker Takes Damage of {:d}",
@@ -4927,7 +4738,6 @@
       "item_thorns_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Attacker Takes Damage of {:d} (Based on Character Level)",
@@ -4947,7 +4757,6 @@
       "item_throwable"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "Throwable",
@@ -4967,7 +4776,6 @@
       "item_timeduration"
     ],
     "children": [],
-    "code": null,
     "patterns": [],
     "patterns_range": [],
     "within": []
@@ -4977,7 +4785,6 @@
       "vitality"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Vitality",
@@ -4997,7 +4804,6 @@
       "item_vitality_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Vitality (Based on Character Level)",
@@ -5017,7 +4823,6 @@
       "item_vitality_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} to Vitality",
@@ -5037,7 +4842,6 @@
       "item_openwounds_perlevel"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "{:d}% Chance of Open Wounds (Based on Character Level)",
@@ -5057,7 +4861,6 @@
       "item_openwounds_bytime"
     ],
     "children": [],
-    "code": null,
     "patterns": [
       {
         "neg": "-{:d} Chance of Open Wounds",
