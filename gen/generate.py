@@ -448,6 +448,7 @@ class ItemParser:
             #true_length:   round(par/25)
             obj.min = round(obj.min*int(obj.par)/256)
             obj.max = round(obj.max*int(obj.par)/256)
+            obj.par = round(obj.par/25)
         elif any(map(obj.prop.__contains__, ["pois", "cold"])):
             obj.par = round(int(obj.par)/25)
         elif "sock" in obj.prop:
@@ -996,13 +997,13 @@ if __name__ == "__main__":
     unique_items={}
     file = item_parser.f_unique_items
     for key in file:
+        obj = UniqueItem()
+        try: obj.base = ref_codes[file[key]["code"]]["name"]
+        except: continue # this item is unused, skip
+        obj.display_name = ref_codes[key]["display_name"]
         if obj.display_name != "Rainbow Facet":
-            obj = UniqueItem()
-            try: obj.base = ref_codes[file[key]["code"]]["name"]
-            except: continue # this item is unused, skip
             code = key
             name = ref_codes[key]["name"]
-            obj.display_name = ref_codes[key]["display_name"]
             #obj.index = file[key]["index"]
             try: obj.level = file[key]["lvl"]
             except: pass
@@ -1010,17 +1011,17 @@ if __name__ == "__main__":
             except: pass
             obj.props = item_parser.get_magic_props(file[key])
             unique_items[name] = obj
-    # rainbow facet override:
+    # manual rainbow facet override:
     obj = UniqueItem()
     obj.base = "jewel"
     obj.display_name = "Rainbow Facet"
     obj.level = 85
     obj.levelreq = 49
-    obj.props = [
+    props = [
     # poison
       {
-        "max": 37,
-        "min": 37,
+        "max": 187,
+        "min": 187,
         "par": 50,
         "prop": "dmg-pois"
       },
@@ -1142,7 +1143,16 @@ if __name__ == "__main__":
         "prop": "death-skill"
       },
     ]
-    unique_items[name] = obj
+    obj.props = []
+    for prop in props:
+        prop_obj = ItemProperty()
+        prop_obj.max = prop["max"]
+        prop_obj.min = prop["min"]
+        prop_obj.par = prop["par"]
+        prop_obj.prop = prop["prop"]
+        obj.props.append(item_parser.process_magic_prop(prop_obj))
+
+    unique_items["rainbow_facet"] = obj
 
     with open('output/item_unique_items.json', 'w', encoding='utf-8') as f:
         json.dump(unique_items, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)

@@ -234,7 +234,7 @@
       {
         "max": 394,
         "min": 394,
-        "par": 250,
+        "par": 10,
         "prop": "dmg-pois"
       },
       {
@@ -546,7 +546,7 @@
       {
         "max": 40,
         "min": 40,
-        "par": 100,
+        "par": 4,
         "prop": "dmg-pois"
       },
       {
@@ -1114,7 +1114,7 @@
       {
         "max": 488,
         "min": 488,
-        "par": 250,
+        "par": 10,
         "prop": "dmg-pois"
       },
       {
@@ -1346,7 +1346,7 @@
       {
         "max": 112,
         "min": 112,
-        "par": 150,
+        "par": 6,
         "prop": "dmg-pois"
       },
       {
@@ -5097,7 +5097,7 @@
       {
         "max": 293,
         "min": 293,
-        "par": 250,
+        "par": 10,
         "prop": "dmg-pois"
       },
       {
@@ -6183,7 +6183,7 @@
       {
         "max": 250,
         "min": 250,
-        "par": 250,
+        "par": 10,
         "prop": "dmg-pois"
       },
       {
@@ -6849,6 +6849,50 @@
         "min": 1,
         "par": 0,
         "prop": "fireskill"
+      }
+    ]
+  },
+  "hellfire_torch": {
+    "base": "large_charm",
+    "display_name": "Hellfire Torch",
+    "level": 110,
+    "levelreq": 75,
+    "props": [
+      {
+        "max": 6,
+        "min": null,
+        "par": 0,
+        "prop": "randclassskill"
+      },
+      {
+        "max": 20,
+        "min": 10,
+        "par": 0,
+        "prop": "all-stats"
+      },
+      {
+        "max": 20,
+        "min": 10,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
+        "max": 8,
+        "min": 8,
+        "par": 0,
+        "prop": "light"
+      },
+      {
+        "max": 10,
+        "min": 5,
+        "par": "DiabWall",
+        "prop": "hit-skill"
+      },
+      {
+        "max": 30,
+        "min": 10,
+        "par": "Hydra",
+        "prop": "charged"
       }
     ]
   },
@@ -7607,7 +7651,7 @@
       {
         "max": 30,
         "min": 30,
-        "par": 75,
+        "par": 3,
         "prop": "dmg-pois"
       },
       {
@@ -9981,7 +10025,7 @@
       {
         "max": 300,
         "min": 300,
-        "par": 200,
+        "par": 8,
         "prop": "dmg-pois"
       },
       {
@@ -10101,7 +10145,7 @@
       {
         "max": 150,
         "min": 150,
-        "par": 200,
+        "par": 8,
         "prop": "dmg-pois"
       },
       {
@@ -10207,7 +10251,7 @@
       {
         "max": 80,
         "min": 80,
-        "par": 100,
+        "par": 4,
         "prop": "dmg-pois"
       },
       {
@@ -10263,7 +10307,7 @@
       {
         "max": 37,
         "min": 37,
-        "par": 50,
+        "par": 2,
         "prop": "dmg-pois"
       },
       {
@@ -10323,7 +10367,7 @@
       {
         "max": 38,
         "min": 24,
-        "par": 3,
+        "par": 0,
         "prop": "dmg-cold"
       },
       {
@@ -11401,7 +11445,7 @@
       {
         "max": 12,
         "min": 12,
-        "par": 75,
+        "par": 3,
         "prop": "dmg-pois"
       },
       {
@@ -12005,7 +12049,7 @@
       {
         "max": 12,
         "min": 12,
-        "par": 75,
+        "par": 3,
         "prop": "dmg-pois"
       },
       {
@@ -14587,7 +14631,7 @@
       {
         "max": 160,
         "min": 160,
-        "par": 100,
+        "par": 4,
         "prop": "dmg-pois"
       },
       {
@@ -15087,7 +15131,7 @@
       {
         "max": 180,
         "min": 180,
-        "par": 100,
+        "par": 4,
         "prop": "dmg-pois"
       },
       {
@@ -15769,7 +15813,7 @@
       {
         "max": 250,
         "min": 250,
-        "par": 150,
+        "par": 6,
         "prop": "dmg-pois"
       },
       {
@@ -16755,7 +16799,7 @@
       {
         "max": 60,
         "min": 60,
-        "par": 100,
+        "par": 4,
         "prop": "dmg-pois"
       },
       {
@@ -16881,7 +16925,7 @@
       {
         "max": 325,
         "min": 325,
-        "par": 250,
+        "par": 10,
         "prop": "dmg-pois"
       },
       {
@@ -17769,7 +17813,7 @@
       {
         "max": 80,
         "min": 80,
-        "par": 200,
+        "par": 8,
         "prop": "dmg-pois"
       }
     ]
