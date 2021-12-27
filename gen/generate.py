@@ -500,6 +500,19 @@ class ItemParser:
         props = None if props == [] else props
         return props
 
+    def manage_aliases(self, property: str, alias: str, properties: dict, aliases: dict):
+        try:
+            if alias not in properties[property]["aliases"]:
+                properties[property]["aliases"].append(alias)
+            else:
+                properties[property]["aliases"] = [alias]
+            if alias not in aliases:
+                aliases[alias] = [property]
+            else:
+                aliases[alias].append(property)
+        except: pass
+        return properties, aliases
+
 if __name__ == "__main__":
 
     item_parser = ItemParser()
@@ -563,6 +576,7 @@ if __name__ == "__main__":
 
     # construct properties file
     properties={}
+    aliases={}
     within={}
     for key in f_properties:
         obj = PropertyDef()
@@ -573,13 +587,13 @@ if __name__ == "__main__":
                 stat = "stat" + str(i)
                 if stat in f_properties[key]:
                     alias = f_properties[key][stat]
-                    sub_code = item_parser.conv_statname_propname(alias)
-                    if sub_code:
-                        obj.children.append(sub_code)
-                        if sub_code in within:
-                            within[sub_code].append(key)
+                    property = item_parser.conv_statname_propname(alias)
+                    if property:
+                        obj.children.append(property)
+                        if property in within:
+                            within[property].append(key)
                         else:
-                            within[sub_code] = [key]
+                            within[property] = [key]
             obj.aliases = None
         properties[code]=obj
     for key in f_properties:
@@ -589,8 +603,15 @@ if __name__ == "__main__":
             strings = PropString()
             for key2 in f_stats:
                 if "stat1" in f_properties[key] and key2 == f_properties[key]["stat1"]:
-                    obj.aliases.append(key2)
-                    break
+                    alias = key2
+                    short_alias = item_parser.full_to_short(key2)
+                    property = code
+                    if alias not in obj.aliases:
+                        obj.aliases.append(alias)
+                        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+                    if alias is not short_alias:
+                        obj.aliases.append(short_alias)
+                        properties, aliases = item_parser.manage_aliases(property, short_alias, properties, aliases)
             #obj.aliases = None if obj.aliases == [] else obj.aliases
             try: strings.descfunc = f_stats[obj.aliases[0]]["descfunc"]
             except: pass
@@ -734,12 +755,154 @@ if __name__ == "__main__":
             "spec": [0, -1, -1 ]
         }]
     properties[prop]=obj
+    obj = PropertyDef()
+    prop = "ethereal"
+    obj.patterns = [{
+            "neg": "Ethereal (Cannot be Repaired)",
+            "pos": "Ethereal (Cannot be Repaired)",
+            "spec": [0, -1, -1 ]
+        }]
+    properties[prop]=obj
 
-    # create aliases for use by pickit
-    properties["abs-cold"]["aliases"].append("cold_absorb")
+    # create aliases for use in pickit config
+    for property in [ "abs-cold", "abs-cold%", "abs-cold/time" ]:
+        alias = "coldabsorb"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "abs-fire", "abs-fire%", "abs-fire/time" ]:
+        alias = "fireabsorb"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "abs-ltng", "abs-ltng%", "abs-ltng/time" ]:
+        alias = "lightningabsorb"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "abs-magic", "abs-magic%" ]:
+        alias = "magicabsorb"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "defensebonus", "bonusdefense", "adddefense" ]:
+        for property in [ "ac", "ac/time" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "ac%", "ac%/time" ]:
+        alias = "enhanceddefense"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("ac-hth", alias, properties, aliases)
+    for alias in [ "itemaddamazonskills", "amazonskills" ]:
+        property = "ama"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "itemaddsorceressskills", "sorceressskills" ]:
+        property = "sor"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "itemaddnecromancerskills", "necromancerskills" ]:
+        property = "nec"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "itemaddpaladinskills", "paladinskills" ]:
+        property = "pal"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "itemaddbarbarianskills", "barbarianskills" ]:
+        property = "bar"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "druidskills", "itemadddruidskills" ]:
+        property = "dru"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "itemaddassassinskills", "assassinskills" ]:
+        property = "ass"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "skill", "skill-rand", "skilltab" ]:
+        alias = "skills"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+
+    properties, aliases = item_parser.manage_aliases("att", "attackrating", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("att%", "attackratingpercent", properties, aliases)
+    for alias in [ "fhr", "fasterhitrecovery" ]:
+        for property in [ "balance1", "balance2", "balance3" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("block", "chanceofblocking", properties, aliases)
+    for alias in [ "fbr", "fasterblockrate" ]:
+        for property in [ "block1", "block2", "block3" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "fcr", "fastercastrate" ]:
+        for property in [ "cast1", "cast2", "cast3" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("charged", "chargedskill", properties, aliases)
+    for alias in [ "reduceprices", "reducedvendorprices" ]:
+        property = "cheap"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "crush", "crush/time" ]:
+        alias = "crushingblow"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "deadly", "deadly/time" ]:
+        alias = "deadlystrike"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    #for property in [ "dex", "dex/time" ]:
+    #    alias = "dexterity"
+    #    properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "damagebonus", "bonusdamage", "adddamage" ]:
+        for property in [ "dmg", "dmg/time", "dmg-norm" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "dmg%", "dmg%/time" ]:
+        alias = "enhanceddamage"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-elem", "itemelementaldamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-elem-min", "itemelementaldamagemin", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-elem-max", "itemelementaldamagemax", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-fire", "itemfiredamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-fire/time", "itemfiredamagemax", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-cold", "itemcolddamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-cold/time", "itemcolddamagemax", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-magic", "itemmagicdamage", properties, aliases)
+    for alias in [ "itemlightningdamage", "itemltngdamage" ]:
+        property = "dmg-ltng"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for alias in [ "itemlightningdamagemax", "itemltngdamagemax" ]:
+        property = "dmg-ltng/time"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-pois", "itempoisondamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dmg-pois/time", "itempoisondamagemax", properties, aliases)
+    for alias in [ "itemmaxdamage", "maxdamage" ]:
+        property = "dmg/time"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("dur%", "maxdurabilitypercent", properties, aliases)
+    # for property in [ "enr", "enr/time" ]:
+    #     alias = "energy"
+    #     properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("extra-cold", "coldskilldamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("extra-fire", "fireskilldamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("extra-ltng", "lightningskilldamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("extra-pois", "poisonskilldamage", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("fireskill", "fireskills", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("freeze", "freezetarget", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("gethit-skill", "chancetocastwhenstruck", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("hit-skill", "chancetocastonstrike", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("kill-skill", "chancetocastonkill", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("levelup-skill", "chancetocastonlevelup", properties, aliases)
+    for alias in [ "extragold", "goldfind" ]:
+        property = "gold%"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("hp", "life", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("hp/time", "life", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("knock", "knockback", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("lifesteal", "lifeleech", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("mag%", "magicfind", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("manasteal", "manaleech", properties, aliases)
+    for alias in [ "frw", "fasterrunwalk" ]:
+        for property in [ "move1", "move2", "move3" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    properties, aliases = item_parser.manage_aliases("red-dmg%", "damagereduction", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("reduce-ac", "targetdefense", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("res-all", "allresist", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("res-all-max", "allresistmax", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("sock", "sockets", properties, aliases)
+    properties, aliases = item_parser.manage_aliases("stupidity", "hitblindstarget", properties, aliases)
+    for alias in [ "ias", "increasedattackspeed", "attackspeed" ]:
+        for property in [ "swing1", "swing2", "swing3" ]:
+            properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
+    for property in [ "wounds", "wounds/time" ]:
+        alias = "openwounds"
+        properties, aliases = item_parser.manage_aliases(property, alias, properties, aliases)
 
     with open('output/item_properties.json', 'w', encoding='utf-8') as f:
         json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
+    with open('output/ref_properties.json', 'w', encoding='utf-8') as f:
+        json.dump(aliases, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
+
 
     # create a reference file for property patterns
     with open('output/ref_patterns.txt', 'w', encoding='utf-8') as f:

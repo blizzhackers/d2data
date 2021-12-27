@@ -2,7 +2,8 @@
   "abs-cold": {
     "aliases": [
       "item_absorbcold",
-      "cold_absorb"
+      "itemabsorbcold",
+      "coldabsorb"
     ],
     "children": [],
     "patterns": [
@@ -21,7 +22,9 @@
   },
   "abs-cold%": {
     "aliases": [
-      "item_absorbcold_percent"
+      "item_absorbcold_percent",
+      "itemabsorbcoldpercent",
+      "coldabsorb"
     ],
     "children": [],
     "patterns": [
@@ -40,7 +43,8 @@
   },
   "abs-cold/lvl": {
     "aliases": [
-      "item_absorb_cold_perlevel"
+      "item_absorb_cold_perlevel",
+      "itemabsorbcoldperlevel"
     ],
     "children": [],
     "patterns": [
@@ -59,7 +63,9 @@
   },
   "abs-cold/time": {
     "aliases": [
-      "item_absorb_cold_bytime"
+      "item_absorb_cold_bytime",
+      "itemabsorbcoldbytime",
+      "coldabsorb"
     ],
     "children": [],
     "patterns": [
@@ -92,7 +98,9 @@
   },
   "abs-fire": {
     "aliases": [
-      "item_absorbfire"
+      "item_absorbfire",
+      "itemabsorbfire",
+      "fireabsorb"
     ],
     "children": [],
     "patterns": [
@@ -111,7 +119,9 @@
   },
   "abs-fire%": {
     "aliases": [
-      "item_absorbfire_percent"
+      "item_absorbfire_percent",
+      "itemabsorbfirepercent",
+      "fireabsorb"
     ],
     "children": [],
     "patterns": [
@@ -130,7 +140,8 @@
   },
   "abs-fire/lvl": {
     "aliases": [
-      "item_absorb_fire_perlevel"
+      "item_absorb_fire_perlevel",
+      "itemabsorbfireperlevel"
     ],
     "children": [],
     "patterns": [
@@ -149,7 +160,9 @@
   },
   "abs-fire/time": {
     "aliases": [
-      "item_absorb_fire_bytime"
+      "item_absorb_fire_bytime",
+      "itemabsorbfirebytime",
+      "fireabsorb"
     ],
     "children": [],
     "patterns": [
@@ -168,7 +181,9 @@
   },
   "abs-ltng": {
     "aliases": [
-      "item_absorblight"
+      "item_absorblight",
+      "itemabsorblight",
+      "lightningabsorb"
     ],
     "children": [],
     "patterns": [
@@ -187,7 +202,9 @@
   },
   "abs-ltng%": {
     "aliases": [
-      "item_absorblight_percent"
+      "item_absorblight_percent",
+      "itemabsorblightpercent",
+      "lightningabsorb"
     ],
     "children": [],
     "patterns": [
@@ -206,7 +223,8 @@
   },
   "abs-ltng/lvl": {
     "aliases": [
-      "item_absorb_ltng_perlevel"
+      "item_absorb_ltng_perlevel",
+      "itemabsorbltngperlevel"
     ],
     "children": [],
     "patterns": [
@@ -225,7 +243,9 @@
   },
   "abs-ltng/time": {
     "aliases": [
-      "item_absorb_ltng_bytime"
+      "item_absorb_ltng_bytime",
+      "itemabsorbltngbytime",
+      "lightningabsorb"
     ],
     "children": [],
     "patterns": [
@@ -244,7 +264,8 @@
   },
   "abs-mag": {
     "aliases": [
-      "item_absorbmagic"
+      "item_absorbmagic",
+      "itemabsorbmagic"
     ],
     "children": [],
     "patterns": [
@@ -263,7 +284,8 @@
   },
   "abs-mag%": {
     "aliases": [
-      "item_absorbmagic_percent"
+      "item_absorbmagic_percent",
+      "itemabsorbmagicpercent"
     ],
     "children": [],
     "patterns": [
@@ -282,7 +304,8 @@
   },
   "abs-pois/lvl": {
     "aliases": [
-      "item_absorb_pois_perlevel"
+      "item_absorb_pois_perlevel",
+      "itemabsorbpoisperlevel"
     ],
     "children": [],
     "patterns": [],
@@ -291,7 +314,8 @@
   },
   "abs-pois/time": {
     "aliases": [
-      "item_absorb_pois_bytime"
+      "item_absorb_pois_bytime",
+      "itemabsorbpoisbytime"
     ],
     "children": [],
     "patterns": [],
@@ -328,7 +352,11 @@
   },
   "ac": {
     "aliases": [
-      "armorclass"
+      "armorclass",
+      "armorclass",
+      "defensebonus",
+      "bonusdefense",
+      "adddefense"
     ],
     "children": [],
     "patterns": [
@@ -347,7 +375,9 @@
   },
   "ac%": {
     "aliases": [
-      "item_armor_percent"
+      "item_armor_percent",
+      "itemarmorpercent",
+      "enhanceddefense"
     ],
     "children": [],
     "patterns": [
@@ -373,7 +403,8 @@
   },
   "ac%/lvl": {
     "aliases": [
-      "item_armorpercent_perlevel"
+      "item_armorpercent_perlevel",
+      "itemarmorpercentperlevel"
     ],
     "children": [],
     "patterns": [
@@ -392,7 +423,9 @@
   },
   "ac%/time": {
     "aliases": [
-      "item_armorpercent_bytime"
+      "item_armorpercent_bytime",
+      "itemarmorpercentbytime",
+      "enhanceddefense"
     ],
     "children": [],
     "patterns": [
@@ -411,7 +444,9 @@
   },
   "ac-hth": {
     "aliases": [
-      "armorclass_vs_hth"
+      "armorclass_vs_hth",
+      "armorclassvshth",
+      "enhanceddefense"
     ],
     "children": [],
     "patterns": [
@@ -430,7 +465,8 @@
   },
   "ac-miss": {
     "aliases": [
-      "armorclass_vs_missile"
+      "armorclass_vs_missile",
+      "armorclassvsmissile"
     ],
     "children": [],
     "patterns": [
@@ -456,7 +492,8 @@
   },
   "ac/lvl": {
     "aliases": [
-      "item_armor_perlevel"
+      "item_armor_perlevel",
+      "itemarmorperlevel"
     ],
     "children": [],
     "patterns": [
@@ -475,7 +512,11 @@
   },
   "ac/time": {
     "aliases": [
-      "item_armor_bytime"
+      "item_armor_bytime",
+      "itemarmorbytime",
+      "defensebonus",
+      "bonusdefense",
+      "adddefense"
     ],
     "children": [],
     "patterns": [
@@ -494,7 +535,8 @@
   },
   "addxp": {
     "aliases": [
-      "item_addexperience"
+      "item_addexperience",
+      "itemaddexperience"
     ],
     "children": [],
     "patterns": [
@@ -535,7 +577,8 @@
   },
   "allskills": {
     "aliases": [
-      "item_allskills"
+      "item_allskills",
+      "itemallskills"
     ],
     "children": [],
     "patterns": [
@@ -554,7 +597,10 @@
   },
   "ama": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "itemaddamazonskills",
+      "amazonskills"
     ],
     "children": [],
     "patterns": [
@@ -573,7 +619,10 @@
   },
   "ass": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "itemaddassassinskills",
+      "assassinskills"
     ],
     "children": [],
     "patterns": [
@@ -592,7 +641,9 @@
   },
   "att": {
     "aliases": [
-      "tohit"
+      "tohit",
+      "tohit",
+      "attackrating"
     ],
     "children": [],
     "patterns": [
@@ -611,7 +662,9 @@
   },
   "att%": {
     "aliases": [
-      "item_tohit_percent"
+      "item_tohit_percent",
+      "itemtohitpercent",
+      "attackratingpercent"
     ],
     "children": [],
     "patterns": [
@@ -637,7 +690,8 @@
   },
   "att%/lvl": {
     "aliases": [
-      "item_tohitpercent_perlevel"
+      "item_tohitpercent_perlevel",
+      "itemtohitpercentperlevel"
     ],
     "children": [],
     "patterns": [
@@ -656,7 +710,8 @@
   },
   "att%/time": {
     "aliases": [
-      "item_tohitpercent_bytime"
+      "item_tohitpercent_bytime",
+      "itemtohitpercentbytime"
     ],
     "children": [],
     "patterns": [
@@ -675,7 +730,8 @@
   },
   "att-dem/lvl": {
     "aliases": [
-      "item_tohit_demon_perlevel"
+      "item_tohit_demon_perlevel",
+      "itemtohitdemonperlevel"
     ],
     "children": [],
     "patterns": [
@@ -694,7 +750,8 @@
   },
   "att-dem/time": {
     "aliases": [
-      "item_tohit_demon_bytime"
+      "item_tohit_demon_bytime",
+      "itemtohitdemonbytime"
     ],
     "children": [],
     "patterns": [
@@ -713,7 +770,8 @@
   },
   "att-demon": {
     "aliases": [
-      "item_demon_tohit"
+      "item_demon_tohit",
+      "itemdemontohit"
     ],
     "children": [],
     "patterns": [
@@ -739,7 +797,8 @@
   },
   "att-mon%": {
     "aliases": [
-      "attack_vs_montype"
+      "attack_vs_montype",
+      "attackvsmontype"
     ],
     "children": [],
     "patterns": [
@@ -758,7 +817,8 @@
   },
   "att-skill": {
     "aliases": [
-      "item_skillonattack"
+      "item_skillonattack",
+      "itemskillonattack"
     ],
     "children": [],
     "patterns": [
@@ -777,7 +837,8 @@
   },
   "att-und/lvl": {
     "aliases": [
-      "item_tohit_undead_perlevel"
+      "item_tohit_undead_perlevel",
+      "itemtohitundeadperlevel"
     ],
     "children": [],
     "patterns": [
@@ -796,7 +857,8 @@
   },
   "att-und/time": {
     "aliases": [
-      "item_tohit_undead_bytime"
+      "item_tohit_undead_bytime",
+      "itemtohitundeadbytime"
     ],
     "children": [],
     "patterns": [
@@ -815,7 +877,8 @@
   },
   "att-undead": {
     "aliases": [
-      "item_undead_tohit"
+      "item_undead_tohit",
+      "itemundeadtohit"
     ],
     "children": [],
     "patterns": [
@@ -834,7 +897,8 @@
   },
   "att/lvl": {
     "aliases": [
-      "item_tohit_perlevel"
+      "item_tohit_perlevel",
+      "itemtohitperlevel"
     ],
     "children": [],
     "patterns": [
@@ -853,7 +917,8 @@
   },
   "att/time": {
     "aliases": [
-      "item_tohit_bytime"
+      "item_tohit_bytime",
+      "itemtohitbytime"
     ],
     "children": [],
     "patterns": [
@@ -872,7 +937,8 @@
   },
   "aura": {
     "aliases": [
-      "item_aura"
+      "item_aura",
+      "itemaura"
     ],
     "children": [],
     "patterns": [
@@ -891,7 +957,10 @@
   },
   "balance1": {
     "aliases": [
-      "item_fastergethitrate"
+      "item_fastergethitrate",
+      "itemfastergethitrate",
+      "fhr",
+      "fasterhitrecovery"
     ],
     "children": [],
     "patterns": [
@@ -910,7 +979,10 @@
   },
   "balance2": {
     "aliases": [
-      "item_fastergethitrate"
+      "item_fastergethitrate",
+      "itemfastergethitrate",
+      "fhr",
+      "fasterhitrecovery"
     ],
     "children": [],
     "patterns": [
@@ -929,7 +1001,10 @@
   },
   "balance3": {
     "aliases": [
-      "item_fastergethitrate"
+      "item_fastergethitrate",
+      "itemfastergethitrate",
+      "fhr",
+      "fasterhitrecovery"
     ],
     "children": [],
     "patterns": [
@@ -948,7 +1023,10 @@
   },
   "bar": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "itemaddbarbarianskills",
+      "barbarianskills"
     ],
     "children": [],
     "patterns": [
@@ -967,7 +1045,9 @@
   },
   "block": {
     "aliases": [
-      "toblock"
+      "toblock",
+      "toblock",
+      "chanceofblocking"
     ],
     "children": [],
     "patterns": [
@@ -986,7 +1066,10 @@
   },
   "block1": {
     "aliases": [
-      "item_fasterblockrate"
+      "item_fasterblockrate",
+      "itemfasterblockrate",
+      "fbr",
+      "fasterblockrate"
     ],
     "children": [],
     "patterns": [
@@ -1005,7 +1088,10 @@
   },
   "block2": {
     "aliases": [
-      "item_fasterblockrate"
+      "item_fasterblockrate",
+      "itemfasterblockrate",
+      "fbr",
+      "fasterblockrate"
     ],
     "children": [],
     "patterns": [
@@ -1024,7 +1110,10 @@
   },
   "block3": {
     "aliases": [
-      "item_fasterblockrate"
+      "item_fasterblockrate",
+      "itemfasterblockrate",
+      "fbr",
+      "fasterblockrate"
     ],
     "children": [],
     "patterns": [
@@ -1043,7 +1132,8 @@
   },
   "bloody": {
     "aliases": [
-      "item_extrablood"
+      "item_extrablood",
+      "itemextrablood"
     ],
     "children": [],
     "patterns": [],
@@ -1052,7 +1142,10 @@
   },
   "cast1": {
     "aliases": [
-      "item_fastercastrate"
+      "item_fastercastrate",
+      "itemfastercastrate",
+      "fcr",
+      "fastercastrate"
     ],
     "children": [],
     "patterns": [
@@ -1071,7 +1164,10 @@
   },
   "cast2": {
     "aliases": [
-      "item_fastercastrate"
+      "item_fastercastrate",
+      "itemfastercastrate",
+      "fcr",
+      "fastercastrate"
     ],
     "children": [],
     "patterns": [
@@ -1090,7 +1186,10 @@
   },
   "cast3": {
     "aliases": [
-      "item_fastercastrate"
+      "item_fastercastrate",
+      "itemfastercastrate",
+      "fcr",
+      "fastercastrate"
     ],
     "children": [],
     "patterns": [
@@ -1109,7 +1208,9 @@
   },
   "charged": {
     "aliases": [
-      "item_charged_skill"
+      "item_charged_skill",
+      "itemchargedskill",
+      "chargedskill"
     ],
     "children": [],
     "patterns": [
@@ -1128,7 +1229,10 @@
   },
   "cheap": {
     "aliases": [
-      "item_reducedprices"
+      "item_reducedprices",
+      "itemreducedprices",
+      "reduceprices",
+      "reducedvendorprices"
     ],
     "children": [],
     "patterns": [
@@ -1147,6 +1251,7 @@
   },
   "cold-len": {
     "aliases": [
+      "coldlength",
       "coldlength"
     ],
     "children": [],
@@ -1156,6 +1261,7 @@
   },
   "cold-max": {
     "aliases": [
+      "coldmaxdam",
       "coldmaxdam"
     ],
     "children": [],
@@ -1175,6 +1281,7 @@
   },
   "cold-min": {
     "aliases": [
+      "coldmindam",
       "coldmindam"
     ],
     "children": [],
@@ -1194,7 +1301,8 @@
   },
   "color": {
     "aliases": [
-      "item_lightcolor"
+      "item_lightcolor",
+      "itemlightcolor"
     ],
     "children": [],
     "patterns": [],
@@ -1203,7 +1311,9 @@
   },
   "crush": {
     "aliases": [
-      "item_crushingblow"
+      "item_crushingblow",
+      "itemcrushingblow",
+      "crushingblow"
     ],
     "children": [],
     "patterns": [
@@ -1222,7 +1332,8 @@
   },
   "crush/lvl": {
     "aliases": [
-      "item_crushingblow_perlevel"
+      "item_crushingblow_perlevel",
+      "itemcrushingblowperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1241,7 +1352,9 @@
   },
   "crush/time": {
     "aliases": [
-      "item_crushingblow_bytime"
+      "item_crushingblow_bytime",
+      "itemcrushingblowbytime",
+      "crushingblow"
     ],
     "children": [],
     "patterns": [
@@ -1314,7 +1427,9 @@
   },
   "deadly": {
     "aliases": [
-      "item_deadlystrike"
+      "item_deadlystrike",
+      "itemdeadlystrike",
+      "deadlystrike"
     ],
     "children": [],
     "patterns": [
@@ -1333,7 +1448,8 @@
   },
   "deadly/lvl": {
     "aliases": [
-      "item_deadlystrike_perlevel"
+      "item_deadlystrike_perlevel",
+      "itemdeadlystrikeperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1352,7 +1468,9 @@
   },
   "deadly/time": {
     "aliases": [
-      "item_deadlystrike_bytime"
+      "item_deadlystrike_bytime",
+      "itemdeadlystrikebytime",
+      "deadlystrike"
     ],
     "children": [],
     "patterns": [
@@ -1371,7 +1489,8 @@
   },
   "death-skill": {
     "aliases": [
-      "item_skillondeath"
+      "item_skillondeath",
+      "itemskillondeath"
     ],
     "children": [],
     "patterns": [
@@ -1407,7 +1526,8 @@
   },
   "demon-heal": {
     "aliases": [
-      "item_healafterdemonkill"
+      "item_healafterdemonkill",
+      "itemhealafterdemonkill"
     ],
     "children": [],
     "patterns": [
@@ -1426,6 +1546,7 @@
   },
   "dex": {
     "aliases": [
+      "dexterity",
       "dexterity"
     ],
     "children": [],
@@ -1445,7 +1566,8 @@
   },
   "dex/lvl": {
     "aliases": [
-      "item_dexterity_perlevel"
+      "item_dexterity_perlevel",
+      "itemdexterityperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1464,7 +1586,8 @@
   },
   "dex/time": {
     "aliases": [
-      "item_dexterity_bytime"
+      "item_dexterity_bytime",
+      "itemdexteritybytime"
     ],
     "children": [],
     "patterns": [
@@ -1483,7 +1606,11 @@
   },
   "dmg": {
     "aliases": [
-      "item_normaldamage"
+      "item_normaldamage",
+      "itemnormaldamage",
+      "damagebonus",
+      "bonusdamage",
+      "adddamage"
     ],
     "children": [],
     "patterns": [
@@ -1501,7 +1628,9 @@
     "within": []
   },
   "dmg%": {
-    "aliases": [],
+    "aliases": [
+      "enhanceddamage"
+    ],
     "children": [],
     "patterns": [
       {
@@ -1526,7 +1655,8 @@
   },
   "dmg%/lvl": {
     "aliases": [
-      "item_maxdamage_percent_perlevel"
+      "item_maxdamage_percent_perlevel",
+      "itemmaxdamagepercentperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1545,7 +1675,9 @@
   },
   "dmg%/time": {
     "aliases": [
-      "item_maxdamage_percent_bytime"
+      "item_maxdamage_percent_bytime",
+      "itemmaxdamagepercentbytime",
+      "enhanceddamage"
     ],
     "children": [],
     "patterns": [
@@ -1564,7 +1696,8 @@
   },
   "dmg-ac": {
     "aliases": [
-      "item_damagetargetac"
+      "item_damagetargetac",
+      "itemdamagetargetac"
     ],
     "children": [],
     "patterns": [
@@ -1614,7 +1747,8 @@
   },
   "dmg-cold/lvl": {
     "aliases": [
-      "item_cold_damagemax_perlevel"
+      "item_cold_damagemax_perlevel",
+      "itemcolddamagemaxperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1633,7 +1767,9 @@
   },
   "dmg-cold/time": {
     "aliases": [
-      "item_cold_damagemax_bytime"
+      "item_cold_damagemax_bytime",
+      "itemcolddamagemaxbytime",
+      "itemcolddamagemax"
     ],
     "children": [],
     "patterns": [
@@ -1666,7 +1802,8 @@
   },
   "dmg-dem/lvl": {
     "aliases": [
-      "item_damage_demon_perlevel"
+      "item_damage_demon_perlevel",
+      "itemdamagedemonperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1685,7 +1822,8 @@
   },
   "dmg-dem/time": {
     "aliases": [
-      "item_damage_demon_bytime"
+      "item_damage_demon_bytime",
+      "itemdamagedemonbytime"
     ],
     "children": [],
     "patterns": [
@@ -1704,7 +1842,8 @@
   },
   "dmg-demon": {
     "aliases": [
-      "item_demondamage_percent"
+      "item_demondamage_percent",
+      "itemdemondamagepercent"
     ],
     "children": [],
     "patterns": [
@@ -1875,7 +2014,8 @@
   },
   "dmg-fire/lvl": {
     "aliases": [
-      "item_fire_damagemax_perlevel"
+      "item_fire_damagemax_perlevel",
+      "itemfiredamagemaxperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1894,7 +2034,9 @@
   },
   "dmg-fire/time": {
     "aliases": [
-      "item_fire_damagemax_bytime"
+      "item_fire_damagemax_bytime",
+      "itemfiredamagemaxbytime",
+      "itemfiredamagemax"
     ],
     "children": [],
     "patterns": [
@@ -1943,7 +2085,8 @@
   },
   "dmg-ltng/lvl": {
     "aliases": [
-      "item_ltng_damagemax_perlevel"
+      "item_ltng_damagemax_perlevel",
+      "itemltngdamagemaxperlevel"
     ],
     "children": [],
     "patterns": [
@@ -1962,7 +2105,10 @@
   },
   "dmg-ltng/time": {
     "aliases": [
-      "item_ltng_damagemax_bytime"
+      "item_ltng_damagemax_bytime",
+      "itemltngdamagemaxbytime",
+      "itemlightningdamagemax",
+      "itemltngdamagemax"
     ],
     "children": [],
     "patterns": [
@@ -2029,7 +2175,8 @@
   },
   "dmg-mon%": {
     "aliases": [
-      "damage_vs_montype"
+      "damage_vs_montype",
+      "damagevsmontype"
     ],
     "children": [],
     "patterns": [
@@ -2106,7 +2253,8 @@
   },
   "dmg-pois/lvl": {
     "aliases": [
-      "item_pois_damagemax_perlevel"
+      "item_pois_damagemax_perlevel",
+      "itempoisdamagemaxperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2125,7 +2273,9 @@
   },
   "dmg-pois/time": {
     "aliases": [
-      "item_pois_damagemax_bytime"
+      "item_pois_damagemax_bytime",
+      "itempoisdamagemaxbytime",
+      "itempoisondamagemax"
     ],
     "children": [],
     "patterns": [
@@ -2179,7 +2329,8 @@
   },
   "dmg-to-mana": {
     "aliases": [
-      "item_damagetomana"
+      "item_damagetomana",
+      "itemdamagetomana"
     ],
     "children": [],
     "patterns": [
@@ -2198,7 +2349,8 @@
   },
   "dmg-und/lvl": {
     "aliases": [
-      "item_damage_undead_perlevel"
+      "item_damage_undead_perlevel",
+      "itemdamageundeadperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2217,7 +2369,8 @@
   },
   "dmg-und/time": {
     "aliases": [
-      "item_damage_undead_bytime"
+      "item_damage_undead_bytime",
+      "itemdamageundeadbytime"
     ],
     "children": [],
     "patterns": [
@@ -2236,7 +2389,8 @@
   },
   "dmg-undead": {
     "aliases": [
-      "item_undeaddamage_percent"
+      "item_undeaddamage_percent",
+      "itemundeaddamagepercent"
     ],
     "children": [],
     "patterns": [
@@ -2255,7 +2409,8 @@
   },
   "dmg/lvl": {
     "aliases": [
-      "item_maxdamage_perlevel"
+      "item_maxdamage_perlevel",
+      "itemmaxdamageperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2274,7 +2429,13 @@
   },
   "dmg/time": {
     "aliases": [
-      "item_maxdamage_bytime"
+      "item_maxdamage_bytime",
+      "itemmaxdamagebytime",
+      "damagebonus",
+      "bonusdamage",
+      "adddamage",
+      "itemmaxdamage",
+      "maxdamage"
     ],
     "children": [],
     "patterns": [
@@ -2293,7 +2454,10 @@
   },
   "dru": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "druidskills",
+      "itemadddruidskills"
     ],
     "children": [],
     "patterns": [
@@ -2312,6 +2476,7 @@
   },
   "dur": {
     "aliases": [
+      "maxdurability",
       "maxdurability"
     ],
     "children": [],
@@ -2321,7 +2486,9 @@
   },
   "dur%": {
     "aliases": [
-      "item_maxdurability_percent"
+      "item_maxdurability_percent",
+      "itemmaxdurabilitypercent",
+      "maxdurabilitypercent"
     ],
     "children": [],
     "patterns": [
@@ -2357,7 +2524,8 @@
   },
   "ease": {
     "aliases": [
-      "item_req_percent"
+      "item_req_percent",
+      "itemreqpercent"
     ],
     "children": [],
     "patterns": [
@@ -2376,6 +2544,7 @@
   },
   "enr": {
     "aliases": [
+      "energy",
       "energy"
     ],
     "children": [],
@@ -2395,7 +2564,8 @@
   },
   "enr/lvl": {
     "aliases": [
-      "item_energy_perlevel"
+      "item_energy_perlevel",
+      "itemenergyperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2414,7 +2584,8 @@
   },
   "enr/time": {
     "aliases": [
-      "item_energy_bytime"
+      "item_energy_bytime",
+      "itemenergybytime"
     ],
     "children": [],
     "patterns": [
@@ -2434,13 +2605,24 @@
   "ethereal": {
     "aliases": [],
     "children": [],
-    "patterns": [],
+    "patterns": [
+      {
+        "neg": "Ethereal (Cannot be Repaired)",
+        "pos": "Ethereal (Cannot be Repaired)",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
+    ],
     "patterns_range": [],
     "within": []
   },
   "explosivearrow": {
     "aliases": [
-      "item_explosivearrow"
+      "item_explosivearrow",
+      "itemexplosivearrow"
     ],
     "children": [],
     "patterns": [
@@ -2459,7 +2641,9 @@
   },
   "extra-cold": {
     "aliases": [
-      "passive_cold_mastery"
+      "passive_cold_mastery",
+      "passivecoldmastery",
+      "coldskilldamage"
     ],
     "children": [],
     "patterns": [
@@ -2478,7 +2662,9 @@
   },
   "extra-fire": {
     "aliases": [
-      "passive_fire_mastery"
+      "passive_fire_mastery",
+      "passivefiremastery",
+      "fireskilldamage"
     ],
     "children": [],
     "patterns": [
@@ -2497,7 +2683,9 @@
   },
   "extra-ltng": {
     "aliases": [
-      "passive_ltng_mastery"
+      "passive_ltng_mastery",
+      "passiveltngmastery",
+      "lightningskilldamage"
     ],
     "children": [],
     "patterns": [
@@ -2516,7 +2704,9 @@
   },
   "extra-pois": {
     "aliases": [
-      "passive_pois_mastery"
+      "passive_pois_mastery",
+      "passivepoismastery",
+      "poisonskilldamage"
     ],
     "children": [],
     "patterns": [
@@ -2535,6 +2725,7 @@
   },
   "fade": {
     "aliases": [
+      "fade",
       "fade"
     ],
     "children": [],
@@ -2551,6 +2742,7 @@
   },
   "fire-max": {
     "aliases": [
+      "firemaxdam",
       "firemaxdam"
     ],
     "children": [],
@@ -2570,6 +2762,7 @@
   },
   "fire-min": {
     "aliases": [
+      "firemindam",
       "firemindam"
     ],
     "children": [],
@@ -2589,7 +2782,9 @@
   },
   "fireskill": {
     "aliases": [
-      "item_elemskill"
+      "item_elemskill",
+      "itemelemskill",
+      "fireskills"
     ],
     "children": [],
     "patterns": [
@@ -2608,7 +2803,9 @@
   },
   "freeze": {
     "aliases": [
-      "item_freeze"
+      "item_freeze",
+      "itemfreeze",
+      "freezetarget"
     ],
     "children": [],
     "patterns": [
@@ -2648,7 +2845,9 @@
   },
   "gethit-skill": {
     "aliases": [
-      "item_skillongethit"
+      "item_skillongethit",
+      "itemskillongethit",
+      "chancetocastwhenstruck"
     ],
     "children": [],
     "patterns": [
@@ -2667,7 +2866,10 @@
   },
   "gold%": {
     "aliases": [
-      "item_goldbonus"
+      "item_goldbonus",
+      "itemgoldbonus",
+      "extragold",
+      "goldfind"
     ],
     "children": [],
     "patterns": [
@@ -2686,7 +2888,8 @@
   },
   "gold%/lvl": {
     "aliases": [
-      "item_find_gold_perlevel"
+      "item_find_gold_perlevel",
+      "itemfindgoldperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2705,7 +2908,8 @@
   },
   "gold%/time": {
     "aliases": [
-      "item_find_gold_bytime"
+      "item_find_gold_bytime",
+      "itemfindgoldbytime"
     ],
     "children": [],
     "patterns": [
@@ -2724,7 +2928,8 @@
   },
   "half-freeze": {
     "aliases": [
-      "item_halffreezeduration"
+      "item_halffreezeduration",
+      "itemhalffreezeduration"
     ],
     "children": [],
     "patterns": [
@@ -2743,7 +2948,8 @@
   },
   "heal-kill": {
     "aliases": [
-      "item_healafterkill"
+      "item_healafterkill",
+      "itemhealafterkill"
     ],
     "children": [],
     "patterns": [
@@ -2762,7 +2968,8 @@
   },
   "herb": {
     "aliases": [
-      "item_doubleherbduration"
+      "item_doubleherbduration",
+      "itemdoubleherbduration"
     ],
     "children": [],
     "patterns": [],
@@ -2771,7 +2978,9 @@
   },
   "hit-skill": {
     "aliases": [
-      "item_skillonhit"
+      "item_skillonhit",
+      "itemskillonhit",
+      "chancetocastonstrike"
     ],
     "children": [],
     "patterns": [
@@ -2790,7 +2999,8 @@
   },
   "howl": {
     "aliases": [
-      "item_howl"
+      "item_howl",
+      "itemhowl"
     ],
     "children": [],
     "patterns": [
@@ -2809,7 +3019,9 @@
   },
   "hp": {
     "aliases": [
-      "maxhp"
+      "maxhp",
+      "maxhp",
+      "life"
     ],
     "children": [],
     "patterns": [
@@ -2828,7 +3040,8 @@
   },
   "hp%": {
     "aliases": [
-      "item_maxhp_percent"
+      "item_maxhp_percent",
+      "itemmaxhppercent"
     ],
     "children": [],
     "patterns": [
@@ -2847,7 +3060,8 @@
   },
   "hp/lvl": {
     "aliases": [
-      "item_hp_perlevel"
+      "item_hp_perlevel",
+      "itemhpperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2866,7 +3080,9 @@
   },
   "hp/time": {
     "aliases": [
-      "item_hp_bytime"
+      "item_hp_bytime",
+      "itemhpbytime",
+      "life"
     ],
     "children": [],
     "patterns": [
@@ -2885,7 +3101,8 @@
   },
   "ignore-ac": {
     "aliases": [
-      "item_ignoretargetac"
+      "item_ignoretargetac",
+      "itemignoretargetac"
     ],
     "children": [],
     "patterns": [
@@ -2918,7 +3135,8 @@
   },
   "kick": {
     "aliases": [
-      "item_kickdamage"
+      "item_kickdamage",
+      "itemkickdamage"
     ],
     "children": [],
     "patterns": [
@@ -2937,7 +3155,8 @@
   },
   "kick/lvl": {
     "aliases": [
-      "item_kick_damage_perlevel"
+      "item_kick_damage_perlevel",
+      "itemkickdamageperlevel"
     ],
     "children": [],
     "patterns": [
@@ -2956,7 +3175,8 @@
   },
   "kick/time": {
     "aliases": [
-      "item_kick_damage_bytime"
+      "item_kick_damage_bytime",
+      "itemkickdamagebytime"
     ],
     "children": [],
     "patterns": [
@@ -2975,7 +3195,9 @@
   },
   "kill-skill": {
     "aliases": [
-      "item_skillonkill"
+      "item_skillonkill",
+      "itemskillonkill",
+      "chancetocastonkill"
     ],
     "children": [],
     "patterns": [
@@ -2994,7 +3216,9 @@
   },
   "knock": {
     "aliases": [
-      "item_knockback"
+      "item_knockback",
+      "itemknockback",
+      "knockback"
     ],
     "children": [],
     "patterns": [
@@ -3013,7 +3237,8 @@
   },
   "levelreq": {
     "aliases": [
-      "item_levelreq"
+      "item_levelreq",
+      "itemlevelreq"
     ],
     "children": [],
     "patterns": [],
@@ -3022,7 +3247,9 @@
   },
   "levelup-skill": {
     "aliases": [
-      "item_skillonlevelup"
+      "item_skillonlevelup",
+      "itemskillonlevelup",
+      "chancetocastonlevelup"
     ],
     "children": [],
     "patterns": [
@@ -3041,7 +3268,9 @@
   },
   "lifesteal": {
     "aliases": [
-      "lifedrainmindam"
+      "lifedrainmindam",
+      "lifedrainmindam",
+      "lifeleech"
     ],
     "children": [],
     "patterns": [
@@ -3060,7 +3289,8 @@
   },
   "light": {
     "aliases": [
-      "item_lightradius"
+      "item_lightradius",
+      "itemlightradius"
     ],
     "children": [],
     "patterns": [
@@ -3079,7 +3309,8 @@
   },
   "light-thorns": {
     "aliases": [
-      "item_attackertakeslightdamage"
+      "item_attackertakeslightdamage",
+      "itemattackertakeslightdamage"
     ],
     "children": [],
     "patterns": [
@@ -3105,6 +3336,7 @@
   },
   "ltng-max": {
     "aliases": [
+      "lightmaxdam",
       "lightmaxdam"
     ],
     "children": [],
@@ -3124,6 +3356,7 @@
   },
   "ltng-min": {
     "aliases": [
+      "lightmindam",
       "lightmindam"
     ],
     "children": [],
@@ -3143,7 +3376,9 @@
   },
   "mag%": {
     "aliases": [
-      "item_magicbonus"
+      "item_magicbonus",
+      "itemmagicbonus",
+      "magicfind"
     ],
     "children": [],
     "patterns": [
@@ -3162,7 +3397,8 @@
   },
   "mag%/lvl": {
     "aliases": [
-      "item_find_magic_perlevel"
+      "item_find_magic_perlevel",
+      "itemfindmagicperlevel"
     ],
     "children": [],
     "patterns": [
@@ -3181,7 +3417,8 @@
   },
   "mag%/time": {
     "aliases": [
-      "item_find_magic_bytime"
+      "item_find_magic_bytime",
+      "itemfindmagicbytime"
     ],
     "children": [],
     "patterns": [
@@ -3200,7 +3437,8 @@
   },
   "magicarrow": {
     "aliases": [
-      "item_magicarrow"
+      "item_magicarrow",
+      "itemmagicarrow"
     ],
     "children": [],
     "patterns": [
@@ -3219,6 +3457,7 @@
   },
   "mana": {
     "aliases": [
+      "maxmana",
       "maxmana"
     ],
     "children": [],
@@ -3238,7 +3477,8 @@
   },
   "mana%": {
     "aliases": [
-      "item_maxmana_percent"
+      "item_maxmana_percent",
+      "itemmaxmanapercent"
     ],
     "children": [],
     "patterns": [
@@ -3257,7 +3497,8 @@
   },
   "mana-kill": {
     "aliases": [
-      "item_manaafterkill"
+      "item_manaafterkill",
+      "itemmanaafterkill"
     ],
     "children": [],
     "patterns": [
@@ -3276,7 +3517,8 @@
   },
   "mana/lvl": {
     "aliases": [
-      "item_mana_perlevel"
+      "item_mana_perlevel",
+      "itemmanaperlevel"
     ],
     "children": [],
     "patterns": [
@@ -3295,7 +3537,8 @@
   },
   "mana/time": {
     "aliases": [
-      "item_mana_bytime"
+      "item_mana_bytime",
+      "itemmanabytime"
     ],
     "children": [],
     "patterns": [
@@ -3314,7 +3557,9 @@
   },
   "manasteal": {
     "aliases": [
-      "manadrainmindam"
+      "manadrainmindam",
+      "manadrainmindam",
+      "manaleech"
     ],
     "children": [],
     "patterns": [
@@ -3333,7 +3578,10 @@
   },
   "move1": {
     "aliases": [
-      "item_fastermovevelocity"
+      "item_fastermovevelocity",
+      "itemfastermovevelocity",
+      "frw",
+      "fasterrunwalk"
     ],
     "children": [],
     "patterns": [
@@ -3352,7 +3600,10 @@
   },
   "move2": {
     "aliases": [
-      "item_fastermovevelocity"
+      "item_fastermovevelocity",
+      "itemfastermovevelocity",
+      "frw",
+      "fasterrunwalk"
     ],
     "children": [],
     "patterns": [
@@ -3371,7 +3622,10 @@
   },
   "move3": {
     "aliases": [
-      "item_fastermovevelocity"
+      "item_fastermovevelocity",
+      "itemfastermovevelocity",
+      "frw",
+      "fasterrunwalk"
     ],
     "children": [],
     "patterns": [
@@ -3390,7 +3644,10 @@
   },
   "nec": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "itemaddnecromancerskills",
+      "necromancerskills"
     ],
     "children": [],
     "patterns": [
@@ -3409,7 +3666,8 @@
   },
   "nofreeze": {
     "aliases": [
-      "item_cannotbefrozen"
+      "item_cannotbefrozen",
+      "itemcannotbefrozen"
     ],
     "children": [],
     "patterns": [
@@ -3428,7 +3686,8 @@
   },
   "noheal": {
     "aliases": [
-      "item_preventheal"
+      "item_preventheal",
+      "itempreventheal"
     ],
     "children": [],
     "patterns": [
@@ -3447,7 +3706,8 @@
   },
   "openwounds": {
     "aliases": [
-      "item_openwounds"
+      "item_openwounds",
+      "itemopenwounds"
     ],
     "children": [],
     "patterns": [
@@ -3466,7 +3726,8 @@
   },
   "oskill": {
     "aliases": [
-      "item_nonclassskill"
+      "item_nonclassskill",
+      "itemnonclassskill"
     ],
     "children": [],
     "patterns": [
@@ -3485,7 +3746,10 @@
   },
   "pal": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "itemaddpaladinskills",
+      "paladinskills"
     ],
     "children": [],
     "patterns": [
@@ -3504,7 +3768,8 @@
   },
   "pierce": {
     "aliases": [
-      "item_pierce"
+      "item_pierce",
+      "itempierce"
     ],
     "children": [],
     "patterns": [
@@ -3523,7 +3788,8 @@
   },
   "pierce-cold": {
     "aliases": [
-      "passive_cold_pierce"
+      "passive_cold_pierce",
+      "passivecoldpierce"
     ],
     "children": [],
     "patterns": [
@@ -3542,7 +3808,8 @@
   },
   "pierce-fire": {
     "aliases": [
-      "passive_fire_pierce"
+      "passive_fire_pierce",
+      "passivefirepierce"
     ],
     "children": [],
     "patterns": [
@@ -3561,7 +3828,8 @@
   },
   "pierce-ltng": {
     "aliases": [
-      "passive_ltng_pierce"
+      "passive_ltng_pierce",
+      "passiveltngpierce"
     ],
     "children": [],
     "patterns": [
@@ -3580,7 +3848,8 @@
   },
   "pierce-pois": {
     "aliases": [
-      "passive_pois_pierce"
+      "passive_pois_pierce",
+      "passivepoispierce"
     ],
     "children": [],
     "patterns": [
@@ -3599,6 +3868,7 @@
   },
   "pois-len": {
     "aliases": [
+      "poisonlength",
       "poisonlength"
     ],
     "children": [],
@@ -3608,6 +3878,7 @@
   },
   "pois-max": {
     "aliases": [
+      "poisonmaxdam",
       "poisonmaxdam"
     ],
     "children": [],
@@ -3627,6 +3898,7 @@
   },
   "pois-min": {
     "aliases": [
+      "poisonmindam",
       "poisonmindam"
     ],
     "children": [],
@@ -3646,7 +3918,8 @@
   },
   "randclassskill": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills"
     ],
     "children": [],
     "patterns": [
@@ -3665,7 +3938,8 @@
   },
   "reanimate": {
     "aliases": [
-      "item_reanimate"
+      "item_reanimate",
+      "itemreanimate"
     ],
     "children": [],
     "patterns": [
@@ -3684,7 +3958,8 @@
   },
   "red-dmg": {
     "aliases": [
-      "normal_damage_reduction"
+      "normal_damage_reduction",
+      "normaldamagereduction"
     ],
     "children": [],
     "patterns": [
@@ -3703,7 +3978,9 @@
   },
   "red-dmg%": {
     "aliases": [
-      "damageresist"
+      "damageresist",
+      "damageresist",
+      "damagereduction"
     ],
     "children": [],
     "patterns": [
@@ -3722,7 +3999,8 @@
   },
   "red-mag": {
     "aliases": [
-      "magic_damage_reduction"
+      "magic_damage_reduction",
+      "magicdamagereduction"
     ],
     "children": [],
     "patterns": [
@@ -3741,7 +4019,9 @@
   },
   "reduce-ac": {
     "aliases": [
-      "item_fractionaltargetac"
+      "item_fractionaltargetac",
+      "itemfractionaltargetac",
+      "targetdefense"
     ],
     "children": [],
     "patterns": [
@@ -3760,6 +4040,7 @@
   },
   "regen": {
     "aliases": [
+      "hpregen",
       "hpregen"
     ],
     "children": [],
@@ -3786,6 +4067,7 @@
   },
   "regen-mana": {
     "aliases": [
+      "manarecoverybonus",
       "manarecoverybonus"
     ],
     "children": [],
@@ -3805,6 +4087,7 @@
   },
   "regen-stam": {
     "aliases": [
+      "staminarecoverybonus",
       "staminarecoverybonus"
     ],
     "children": [],
@@ -3824,7 +4107,8 @@
   },
   "regen-stam/lvl": {
     "aliases": [
-      "item_regenstamina_perlevel"
+      "item_regenstamina_perlevel",
+      "itemregenstaminaperlevel"
     ],
     "children": [],
     "patterns": [
@@ -3843,7 +4127,8 @@
   },
   "regen-stam/time": {
     "aliases": [
-      "item_regenstamina_bytime"
+      "item_regenstamina_bytime",
+      "itemregenstaminabytime"
     ],
     "children": [],
     "patterns": [
@@ -3862,7 +4147,8 @@
   },
   "rep-dur": {
     "aliases": [
-      "item_replenish_durability"
+      "item_replenish_durability",
+      "itemreplenishdurability"
     ],
     "children": [],
     "patterns": [
@@ -3881,7 +4167,8 @@
   },
   "rep-quant": {
     "aliases": [
-      "item_replenish_quantity"
+      "item_replenish_quantity",
+      "itemreplenishquantity"
     ],
     "children": [],
     "patterns": [
@@ -3971,6 +4258,7 @@
   },
   "res-cold": {
     "aliases": [
+      "coldresist",
       "coldresist"
     ],
     "children": [],
@@ -3990,6 +4278,7 @@
   },
   "res-cold-max": {
     "aliases": [
+      "maxcoldresist",
       "maxcoldresist"
     ],
     "children": [],
@@ -4009,7 +4298,8 @@
   },
   "res-cold/lvl": {
     "aliases": [
-      "item_resist_cold_perlevel"
+      "item_resist_cold_perlevel",
+      "itemresistcoldperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4028,7 +4318,8 @@
   },
   "res-cold/time": {
     "aliases": [
-      "item_resist_cold_bytime"
+      "item_resist_cold_bytime",
+      "itemresistcoldbytime"
     ],
     "children": [],
     "patterns": [
@@ -4047,6 +4338,7 @@
   },
   "res-fire": {
     "aliases": [
+      "fireresist",
       "fireresist"
     ],
     "children": [],
@@ -4066,6 +4358,7 @@
   },
   "res-fire-max": {
     "aliases": [
+      "maxfireresist",
       "maxfireresist"
     ],
     "children": [],
@@ -4085,7 +4378,8 @@
   },
   "res-fire/lvl": {
     "aliases": [
-      "item_resist_fire_perlevel"
+      "item_resist_fire_perlevel",
+      "itemresistfireperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4104,7 +4398,8 @@
   },
   "res-fire/time": {
     "aliases": [
-      "item_resist_fire_bytime"
+      "item_resist_fire_bytime",
+      "itemresistfirebytime"
     ],
     "children": [],
     "patterns": [
@@ -4123,6 +4418,7 @@
   },
   "res-ltng": {
     "aliases": [
+      "lightresist",
       "lightresist"
     ],
     "children": [],
@@ -4142,6 +4438,7 @@
   },
   "res-ltng-max": {
     "aliases": [
+      "maxlightresist",
       "maxlightresist"
     ],
     "children": [],
@@ -4161,7 +4458,8 @@
   },
   "res-ltng/lvl": {
     "aliases": [
-      "item_resist_ltng_perlevel"
+      "item_resist_ltng_perlevel",
+      "itemresistltngperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4180,7 +4478,8 @@
   },
   "res-ltng/time": {
     "aliases": [
-      "item_resist_ltng_bytime"
+      "item_resist_ltng_bytime",
+      "itemresistltngbytime"
     ],
     "children": [],
     "patterns": [
@@ -4199,6 +4498,7 @@
   },
   "res-mag": {
     "aliases": [
+      "magicresist",
       "magicresist"
     ],
     "children": [],
@@ -4218,6 +4518,7 @@
   },
   "res-mag-max": {
     "aliases": [
+      "maxmagicresist",
       "maxmagicresist"
     ],
     "children": [],
@@ -4237,6 +4538,7 @@
   },
   "res-pois": {
     "aliases": [
+      "poisonresist",
       "poisonresist"
     ],
     "children": [],
@@ -4256,7 +4558,8 @@
   },
   "res-pois-len": {
     "aliases": [
-      "item_poisonlengthresist"
+      "item_poisonlengthresist",
+      "itempoisonlengthresist"
     ],
     "children": [],
     "patterns": [
@@ -4275,6 +4578,7 @@
   },
   "res-pois-max": {
     "aliases": [
+      "maxpoisonresist",
       "maxpoisonresist"
     ],
     "children": [],
@@ -4294,7 +4598,8 @@
   },
   "res-pois/lvl": {
     "aliases": [
-      "item_resist_pois_perlevel"
+      "item_resist_pois_perlevel",
+      "itemresistpoisperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4313,7 +4618,8 @@
   },
   "res-pois/time": {
     "aliases": [
-      "item_resist_pois_bytime"
+      "item_resist_pois_bytime",
+      "itemresistpoisbytime"
     ],
     "children": [],
     "patterns": [
@@ -4332,7 +4638,8 @@
   },
   "rip": {
     "aliases": [
-      "item_restinpeace"
+      "item_restinpeace",
+      "itemrestinpeace"
     ],
     "children": [],
     "patterns": [
@@ -4351,7 +4658,9 @@
   },
   "skill": {
     "aliases": [
-      "item_singleskill"
+      "item_singleskill",
+      "itemsingleskill",
+      "skills"
     ],
     "children": [],
     "patterns": [
@@ -4370,7 +4679,9 @@
   },
   "skill-rand": {
     "aliases": [
-      "item_singleskill"
+      "item_singleskill",
+      "itemsingleskill",
+      "skills"
     ],
     "children": [],
     "patterns": [
@@ -4389,7 +4700,9 @@
   },
   "skilltab": {
     "aliases": [
-      "item_addskill_tab"
+      "item_addskill_tab",
+      "itemaddskilltab",
+      "skills"
     ],
     "children": [],
     "patterns": [
@@ -4408,7 +4721,8 @@
   },
   "slow": {
     "aliases": [
-      "item_slow"
+      "item_slow",
+      "itemslow"
     ],
     "children": [],
     "patterns": [
@@ -4427,7 +4741,9 @@
   },
   "sock": {
     "aliases": [
-      "item_numsockets"
+      "item_numsockets",
+      "itemnumsockets",
+      "sockets"
     ],
     "children": [],
     "patterns": [
@@ -4446,7 +4762,10 @@
   },
   "sor": {
     "aliases": [
-      "item_addclassskills"
+      "item_addclassskills",
+      "itemaddclassskills",
+      "itemaddsorceressskills",
+      "sorceressskills"
     ],
     "children": [],
     "patterns": [
@@ -4465,7 +4784,8 @@
   },
   "stack": {
     "aliases": [
-      "item_extra_stack"
+      "item_extra_stack",
+      "itemextrastack"
     ],
     "children": [],
     "patterns": [
@@ -4484,6 +4804,7 @@
   },
   "stam": {
     "aliases": [
+      "maxstamina",
       "maxstamina"
     ],
     "children": [],
@@ -4503,7 +4824,8 @@
   },
   "stam/lvl": {
     "aliases": [
-      "item_stamina_perlevel"
+      "item_stamina_perlevel",
+      "itemstaminaperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4522,7 +4844,8 @@
   },
   "stam/time": {
     "aliases": [
-      "item_stamina_bytime"
+      "item_stamina_bytime",
+      "itemstaminabytime"
     ],
     "children": [],
     "patterns": [
@@ -4541,7 +4864,8 @@
   },
   "stamdrain": {
     "aliases": [
-      "item_staminadrainpct"
+      "item_staminadrainpct",
+      "itemstaminadrainpct"
     ],
     "children": [],
     "patterns": [
@@ -4560,6 +4884,7 @@
   },
   "state": {
     "aliases": [
+      "state",
       "state"
     ],
     "children": [],
@@ -4569,6 +4894,7 @@
   },
   "str": {
     "aliases": [
+      "strength",
       "strength"
     ],
     "children": [],
@@ -4588,7 +4914,8 @@
   },
   "str/lvl": {
     "aliases": [
-      "item_strength_perlevel"
+      "item_strength_perlevel",
+      "itemstrengthperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4607,7 +4934,8 @@
   },
   "str/time": {
     "aliases": [
-      "item_strength_bytime"
+      "item_strength_bytime",
+      "itemstrengthbytime"
     ],
     "children": [],
     "patterns": [
@@ -4626,7 +4954,9 @@
   },
   "stupidity": {
     "aliases": [
-      "item_stupidity"
+      "item_stupidity",
+      "itemstupidity",
+      "hitblindstarget"
     ],
     "children": [],
     "patterns": [
@@ -4645,7 +4975,11 @@
   },
   "swing1": {
     "aliases": [
-      "item_fasterattackrate"
+      "item_fasterattackrate",
+      "itemfasterattackrate",
+      "ias",
+      "increasedattackspeed",
+      "attackspeed"
     ],
     "children": [],
     "patterns": [
@@ -4664,7 +4998,11 @@
   },
   "swing2": {
     "aliases": [
-      "item_fasterattackrate"
+      "item_fasterattackrate",
+      "itemfasterattackrate",
+      "ias",
+      "increasedattackspeed",
+      "attackspeed"
     ],
     "children": [],
     "patterns": [
@@ -4683,7 +5021,11 @@
   },
   "swing3": {
     "aliases": [
-      "item_fasterattackrate"
+      "item_fasterattackrate",
+      "itemfasterattackrate",
+      "ias",
+      "increasedattackspeed",
+      "attackspeed"
     ],
     "children": [],
     "patterns": [
@@ -4702,7 +5044,8 @@
   },
   "thorns": {
     "aliases": [
-      "item_attackertakesdamage"
+      "item_attackertakesdamage",
+      "itemattackertakesdamage"
     ],
     "children": [],
     "patterns": [
@@ -4721,7 +5064,8 @@
   },
   "thorns/lvl": {
     "aliases": [
-      "item_thorns_perlevel"
+      "item_thorns_perlevel",
+      "itemthornsperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4740,7 +5084,8 @@
   },
   "throw": {
     "aliases": [
-      "item_throwable"
+      "item_throwable",
+      "itemthrowable"
     ],
     "children": [],
     "patterns": [
@@ -4759,7 +5104,8 @@
   },
   "time": {
     "aliases": [
-      "item_timeduration"
+      "item_timeduration",
+      "itemtimeduration"
     ],
     "children": [],
     "patterns": [],
@@ -4768,6 +5114,7 @@
   },
   "vit": {
     "aliases": [
+      "vitality",
       "vitality"
     ],
     "children": [],
@@ -4787,7 +5134,8 @@
   },
   "vit/lvl": {
     "aliases": [
-      "item_vitality_perlevel"
+      "item_vitality_perlevel",
+      "itemvitalityperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4806,7 +5154,8 @@
   },
   "vit/time": {
     "aliases": [
-      "item_vitality_bytime"
+      "item_vitality_bytime",
+      "itemvitalitybytime"
     ],
     "children": [],
     "patterns": [
@@ -4825,7 +5174,8 @@
   },
   "wounds/lvl": {
     "aliases": [
-      "item_openwounds_perlevel"
+      "item_openwounds_perlevel",
+      "itemopenwoundsperlevel"
     ],
     "children": [],
     "patterns": [
@@ -4844,7 +5194,9 @@
   },
   "wounds/time": {
     "aliases": [
-      "item_openwounds_bytime"
+      "item_openwounds_bytime",
+      "itemopenwoundsbytime",
+      "openwounds"
     ],
     "children": [],
     "patterns": [
