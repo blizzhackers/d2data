@@ -2338,6 +2338,23 @@
     "patterns_range": [],
     "within": []
   },
+  "durability": {
+    "aliases": [],
+    "children": [],
+    "patterns": [
+      {
+        "neg": "Durability: {:d}",
+        "pos": "Durability: {:d}",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "patterns_range": [],
+    "within": []
+  },
   "ease": {
     "aliases": [
       "item_req_percent"

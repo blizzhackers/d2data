@@ -73,10 +73,10 @@ class ItemBase(Item):
     item_class: str = None # computed from ["normcode", etc.]
     quality: str = None # normal for base item
     reqstr: int = 0
-    durability: int = None
+    #durability: int = None
     level: int = 0
     levelreq: int = 0
-    gemsockets: int = 0
+    #gemsockets: int = 0
     props: list[ItemProperty] = None
 
 @dataclasses.dataclass
@@ -691,7 +691,7 @@ if __name__ == "__main__":
                             "spec": strings.spec
                         }
                         properties[key]["patterns_range"].append(val)
-    # create properties: damage_1hand, damage_2hand, defense
+    # create properties: damage_1hand, damage_2hand, defense, durability
     obj = PropertyDef()
     prop = "damage_1hand"
     obj.patterns = [{
@@ -723,6 +723,14 @@ if __name__ == "__main__":
     obj.patterns = [{
             "neg": "Defense: {:d}",
             "pos": "Defense: {:d}",
+            "spec": [0, -1, -1 ]
+        }]
+    properties[prop]=obj
+    obj = PropertyDef()
+    prop = "durability"
+    obj.patterns = [{
+            "neg": "Durability: {:d}",
+            "pos": "Durability: {:d}",
             "spec": [0, -1, -1 ]
         }]
     properties[prop]=obj
@@ -781,6 +789,19 @@ if __name__ == "__main__":
         except: pass
 
         props = []
+        try:
+            prop_obj = ItemProperty()
+            prop_obj.prop = "sock"
+            prop_obj.min = 0
+            prop_obj.max = int(file[key]["gemsockets"])
+            props.append(prop_obj)
+        except: pass
+        try:
+            prop_obj = ItemProperty()
+            prop_obj.prop = "durability"
+            prop_obj.min = prop_obj.max = int(file[key]["durability"])
+            props.append(prop_obj)
+        except: pass
         if "1or2handed" in item_parser.f_weapons[key]:
             obj.hands="both"
             try:
@@ -822,14 +843,12 @@ if __name__ == "__main__":
         except: pass
         try: obj.reqstr = int(file[key]["reqstr"])
         except: pass
-        try: obj.durability = int(file[key]["durability"])
-        except: pass
         try: obj.level = int(file[key]["level"])
         except: pass
         try: obj.levelreq = int(file[key]["levelreq"])
         except: pass
-        try: obj.gemsockets = int(file[key]["gemsockets"])
-        except: pass
+        #try: obj.gemsockets = int(file[key]["gemsockets"])
+        #except: pass
 
         for key2 in ref_codes:
             if key2 == file[key]["type"]:
@@ -875,14 +894,28 @@ if __name__ == "__main__":
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
 
-        if "minac" in item_parser.f_armor[key]:
-            try:
-                prop_obj = ItemProperty()
-                prop_obj.prop = "defense"
-                prop_obj.min = int(file[key]["minac"])
-                prop_obj.max = int(file[key]["maxac"])
-                obj.props = [prop_obj]
-            except: pass
+        props = []
+        try:
+            prop_obj = ItemProperty()
+            prop_obj.prop = "sock"
+            prop_obj.min = 0
+            prop_obj.max = int(file[key]["gemsockets"])
+            props.append(prop_obj)
+        except: pass
+        try:
+            prop_obj = ItemProperty()
+            prop_obj.prop = "durability"
+            prop_obj.min = prop_obj.max = int(file[key]["durability"])
+            props.append(prop_obj)
+        except: pass
+        try:
+            prop_obj = ItemProperty()
+            prop_obj.prop = "defense"
+            prop_obj.min = int(file[key]["minac"])
+            prop_obj.max = int(file[key]["maxac"])
+            props.append(prop_obj)
+        except: pass
+        obj.props = None if props==[] else props
 
         try: obj.reqstr = int(file[key]["reqstr"])
         except: pass
@@ -892,8 +925,8 @@ if __name__ == "__main__":
         except: pass
         try: obj.levelreq = int(file[key]["levelreq"])
         except: pass
-        try: obj.gemsockets = int(file[key]["gemsockets"])
-        except: pass
+        # try: obj.gemsockets = int(file[key]["gemsockets"])
+        # except: pass
 
         for key2 in ref_codes:
             if key2 == file[key]["type"]:

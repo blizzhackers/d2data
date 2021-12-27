@@ -1,12 +1,22 @@
 {
   "aegis": {
     "display_name": "Aegis",
-    "durability": 92,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 79,
     "levelreq": 59,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 92,
+        "min": 92,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 161,
         "min": 145,
@@ -24,12 +34,22 @@
   },
   "aerin_shield": {
     "display_name": "Aerin Shield",
-    "durability": 50,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 20,
     "levelreq": 15,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 36,
         "min": 26,
@@ -45,12 +65,22 @@
   },
   "akaran_rondache": {
     "display_name": "Akaran Rondache",
-    "durability": 30,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 40,
     "levelreq": 30,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 137,
         "min": 113,
@@ -66,12 +96,22 @@
   },
   "akaran_targe": {
     "display_name": "Akaran Targe",
-    "durability": 20,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 35,
     "levelreq": 26,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 125,
         "min": 101,
@@ -87,12 +127,22 @@
   },
   "alpha_helm": {
     "display_name": "Alpha Helm",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 35,
     "levelreq": 26,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 62,
         "min": 52,
@@ -108,12 +158,22 @@
   },
   "ancient_armor": {
     "display_name": "Ancient Armor",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 40,
     "levelreq": 0,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 233,
         "min": 218,
@@ -133,12 +193,22 @@
   },
   "ancient_shield": {
     "display_name": "Ancient Shield",
-    "durability": 80,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 56,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 80,
+        "min": 80,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 93,
         "min": 80,
@@ -156,12 +226,22 @@
   },
   "antlers": {
     "display_name": "Antlers",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 16,
     "levelreq": 12,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 24,
         "min": 18,
@@ -177,12 +257,22 @@
   },
   "archon_plate": {
     "display_name": "Archon Plate",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 84,
     "levelreq": 63,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 524,
         "min": 410,
@@ -198,12 +288,22 @@
   },
   "armet": {
     "display_name": "Armet",
-    "durability": 24,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 68,
     "levelreq": 51,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 149,
         "min": 105,
@@ -222,12 +322,22 @@
   },
   "assault_helmet": {
     "display_name": "Assault Helmet",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 20,
     "levelreq": 15,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 30,
@@ -243,12 +353,22 @@
   },
   "avenger_guard": {
     "display_name": "Avenger Guard",
-    "durability": 55,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 24,
     "levelreq": 18,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 50,
         "min": 35,
@@ -266,12 +386,22 @@
   },
   "balrog_skin": {
     "display_name": "Balrog Skin",
-    "durability": 30,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 76,
     "levelreq": 57,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 517,
         "min": 410,
@@ -291,12 +421,22 @@
   },
   "barbed_shield": {
     "display_name": "Barbed Shield",
-    "durability": 55,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 42,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 78,
         "min": 58,
@@ -314,12 +454,22 @@
   },
   "basinet": {
     "display_name": "Basinet",
-    "durability": 30,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 45,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 84,
         "min": 75,
@@ -339,12 +489,16 @@
   },
   "battle_belt": {
     "display_name": "Battle Belt",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 49,
     "levelreq": 25,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 42,
         "min": 37,
@@ -364,12 +518,16 @@
   },
   "battle_boots": {
     "display_name": "Battle Boots",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 49,
     "levelreq": 25,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 47,
         "min": 39,
@@ -389,12 +547,16 @@
   },
   "battle_gauntlets": {
     "display_name": "Battle Gauntlets",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 49,
     "levelreq": 25,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 47,
         "min": 39,
@@ -414,12 +576,16 @@
   },
   "belt": {
     "display_name": "Belt",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 12,
     "levelreq": 0,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 5,
         "min": 5,
@@ -440,12 +606,22 @@
   },
   "blade_barrier": {
     "display_name": "Blade Barrier",
-    "durability": 83,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 68,
     "levelreq": 51,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 83,
+        "min": 83,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 163,
         "min": 147,
@@ -463,12 +639,22 @@
   },
   "blood_spirit": {
     "display_name": "Blood Spirit",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 62,
     "levelreq": 46,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 145,
         "min": 101,
@@ -486,12 +672,22 @@
   },
   "bloodlord_skull": {
     "display_name": "Bloodlord Skull",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 85,
     "levelreq": 65,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 148,
         "min": 103,
@@ -509,12 +705,22 @@
   },
   "bone_helm": {
     "display_name": "Bone Helm",
-    "durability": 40,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 22,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 36,
         "min": 33,
@@ -534,12 +740,22 @@
   },
   "bone_shield": {
     "display_name": "Bone Shield",
-    "durability": 40,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 19,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 30,
         "min": 10,
@@ -557,12 +773,22 @@
   },
   "bone_visage": {
     "display_name": "Bone Visage",
-    "durability": 40,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 84,
     "levelreq": 63,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 157,
         "min": 100,
@@ -582,12 +808,22 @@
   },
   "boneweave": {
     "display_name": "Boneweave",
-    "durability": 45,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 62,
     "levelreq": 47,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 505,
         "min": 399,
@@ -603,12 +839,16 @@
   },
   "boneweave_boots": {
     "display_name": "Boneweave Boots",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 72,
     "levelreq": 54,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 67,
         "min": 59,
@@ -626,12 +866,16 @@
   },
   "boots": {
     "display_name": "Boots",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 3,
     "levelreq": 0,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 3,
         "min": 2,
@@ -651,12 +895,16 @@
   },
   "bramble_mitts": {
     "display_name": "Bramble Mitts",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 57,
     "levelreq": 42,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 62,
         "min": 54,
@@ -674,12 +922,22 @@
   },
   "breast_plate": {
     "display_name": "Breast Plate",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 18,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 68,
         "min": 65,
@@ -699,12 +957,22 @@
   },
   "buckler": {
     "display_name": "Buckler",
-    "durability": 12,
-    "gemsockets": 1,
     "item_class": "normal",
     "level": 1,
     "levelreq": 0,
     "props": [
+      {
+        "max": 1,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 6,
         "min": 4,
@@ -724,12 +992,22 @@
   },
   "cantor_trophy": {
     "display_name": "Cantor Trophy",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 49,
     "levelreq": 36,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 64,
         "min": 50,
@@ -747,12 +1025,22 @@
   },
   "cap": {
     "display_name": "Cap",
-    "durability": 12,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 1,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 5,
         "min": 3,
@@ -773,12 +1061,22 @@
   },
   "carnage_helm": {
     "display_name": "Carnage Helm",
-    "durability": 25,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 60,
     "levelreq": 45,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 147,
         "min": 102,
@@ -794,12 +1092,22 @@
   },
   "casque": {
     "display_name": "Casque",
-    "durability": 24,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 42,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 72,
         "min": 63,
@@ -817,12 +1125,16 @@
   },
   "chain_boots": {
     "display_name": "Chain Boots",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 12,
     "levelreq": 0,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 9,
         "min": 8,
@@ -842,12 +1154,16 @@
   },
   "chain_gloves": {
     "display_name": "Chain Gloves",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 12,
     "levelreq": 0,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 9,
         "min": 8,
@@ -867,12 +1183,22 @@
   },
   "chain_mail": {
     "display_name": "Chain Mail",
-    "durability": 45,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 15,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 75,
         "min": 72,
@@ -892,12 +1218,22 @@
   },
   "chaos_armor": {
     "display_name": "Chaos Armor",
-    "durability": 70,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 61,
     "levelreq": 25,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 70,
+        "min": 70,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 342,
         "min": 315,
@@ -917,12 +1253,22 @@
   },
   "circlet": {
     "display_name": "Circlet",
-    "durability": 35,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 24,
     "levelreq": 16,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 35,
+        "min": 35,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 30,
         "min": 20,
@@ -940,12 +1286,16 @@
   },
   "colossus_girdle": {
     "display_name": "Colossus Girdle",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 85,
     "levelreq": 67,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 71,
         "min": 61,
@@ -961,12 +1311,22 @@
   },
   "conqueror_crown": {
     "display_name": "Conqueror Crown",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 80,
     "levelreq": 60,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 159,
         "min": 114,
@@ -984,12 +1344,22 @@
   },
   "corona": {
     "display_name": "Corona",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 85,
     "levelreq": 66,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 165,
         "min": 111,
@@ -1009,12 +1379,22 @@
   },
   "coronet": {
     "display_name": "Coronet",
-    "durability": 30,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 52,
     "levelreq": 39,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 40,
         "min": 30,
@@ -1030,12 +1410,22 @@
   },
   "crown": {
     "display_name": "Crown",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 29,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 45,
         "min": 25,
@@ -1056,12 +1446,22 @@
   },
   "crown_shield": {
     "display_name": "Crown Shield",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 24,
     "levelreq": 18,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 40,
         "min": 30,
@@ -1077,12 +1477,16 @@
   },
   "crusader_gauntlets": {
     "display_name": "Crusader Gauntlets",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 76,
     "levelreq": 57,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 68,
         "min": 59,
@@ -1098,12 +1502,22 @@
   },
   "cuirass": {
     "display_name": "Cuirass",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 47,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 202,
         "min": 188,
@@ -1123,12 +1537,22 @@
   },
   "death_mask": {
     "display_name": "Death Mask",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 48,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 86,
         "min": 54,
@@ -1148,12 +1572,22 @@
   },
   "defender": {
     "display_name": "Defender",
-    "durability": 68,
-    "gemsockets": 1,
     "item_class": "exceptional",
     "level": 34,
     "levelreq": 22,
     "props": [
+      {
+        "max": 1,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 68,
+        "min": 68,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 49,
         "min": 41,
@@ -1171,12 +1605,22 @@
   },
   "demon_head": {
     "display_name": "Demon Head",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 24,
     "levelreq": 18,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 20,
         "min": 15,
@@ -1192,12 +1636,22 @@
   },
   "demonhead": {
     "display_name": "Demonhead",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 74,
     "levelreq": 55,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 154,
         "min": 101,
@@ -1215,12 +1669,22 @@
   },
   "demonhide_armor": {
     "display_name": "Demonhide Armor",
-    "durability": 28,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 37,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 28,
+        "min": 28,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 136,
         "min": 122,
@@ -1238,12 +1702,16 @@
   },
   "demonhide_boots": {
     "display_name": "Demonhide Boots",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 36,
     "levelreq": 24,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 28,
@@ -1263,12 +1731,16 @@
   },
   "demonhide_gloves": {
     "display_name": "Demonhide Gloves",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 33,
     "levelreq": 21,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 28,
@@ -1286,12 +1758,16 @@
   },
   "demonhide_sash": {
     "display_name": "Demonhide Sash",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 36,
     "levelreq": 24,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 34,
         "min": 29,
@@ -1309,12 +1785,22 @@
   },
   "destroyer_helm": {
     "display_name": "Destroyer Helm",
-    "durability": 45,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 73,
     "levelreq": 54,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 156,
         "min": 111,
@@ -1332,12 +1818,22 @@
   },
   "diadem": {
     "display_name": "Diadem",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 85,
     "levelreq": 64,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 60,
         "min": 50,
@@ -1357,12 +1853,22 @@
   },
   "diamond_mail": {
     "display_name": "Diamond Mail",
-    "durability": 26,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 72,
     "levelreq": 54,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 26,
+        "min": 26,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 489,
         "min": 383,
@@ -1378,12 +1884,22 @@
   },
   "dragon_shield": {
     "display_name": "Dragon Shield",
-    "durability": 76,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 45,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 76,
+        "min": 76,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 67,
         "min": 59,
@@ -1401,12 +1917,22 @@
   },
   "dream_spirit": {
     "display_name": "Dream Spirit",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 85,
     "levelreq": 66,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 159,
         "min": 109,
@@ -1422,12 +1948,22 @@
   },
   "dusk_shroud": {
     "display_name": "Dusk Shroud",
-    "durability": 20,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 65,
     "levelreq": 49,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 467,
         "min": 361,
@@ -1447,12 +1983,22 @@
   },
   "earth_spirit": {
     "display_name": "Earth Spirit",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 76,
     "levelreq": 57,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 152,
         "min": 107,
@@ -1470,12 +2016,22 @@
   },
   "embossed_plate": {
     "display_name": "Embossed Plate",
-    "durability": 55,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 58,
     "levelreq": 25,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 303,
         "min": 282,
@@ -1493,12 +2049,22 @@
   },
   "falcon_mask": {
     "display_name": "Falcon Mask",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 20,
     "levelreq": 15,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 28,
         "min": 12,
@@ -1514,12 +2080,22 @@
   },
   "fanged_helm": {
     "display_name": "Fanged Helm",
-    "durability": 35,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 8,
     "levelreq": 6,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 35,
+        "min": 35,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 20,
         "min": 15,
@@ -1535,12 +2111,22 @@
   },
   "fetish_trophy": {
     "display_name": "Fetish Trophy",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 39,
     "levelreq": 29,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 52,
         "min": 41,
@@ -1556,12 +2142,22 @@
   },
   "field_plate": {
     "display_name": "Field Plate",
-    "durability": 48,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 28,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 48,
+        "min": 48,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 105,
         "min": 101,
@@ -1579,12 +2175,22 @@
   },
   "full_helm": {
     "display_name": "Full Helm",
-    "durability": 30,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 15,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 26,
         "min": 23,
@@ -1604,12 +2210,22 @@
   },
   "full_plate_mail": {
     "display_name": "Full Plate Mail",
-    "durability": 70,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 37,
     "levelreq": 0,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 70,
+        "min": 70,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 161,
         "min": 150,
@@ -1629,12 +2245,22 @@
   },
   "fury_visor": {
     "display_name": "Fury Visor",
-    "durability": 35,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 66,
     "levelreq": 49,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 35,
+        "min": 35,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 150,
         "min": 105,
@@ -1652,12 +2278,22 @@
   },
   "gargoyle_head": {
     "display_name": "Gargoyle Head",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 20,
     "levelreq": 15,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 16,
         "min": 10,
@@ -1673,12 +2309,16 @@
   },
   "gauntlets": {
     "display_name": "Gauntlets",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 27,
     "levelreq": 0,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 15,
         "min": 12,
@@ -1698,12 +2338,22 @@
   },
   "ghost_armor": {
     "display_name": "Ghost Armor",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 34,
     "levelreq": 22,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 117,
         "min": 102,
@@ -1721,12 +2371,22 @@
   },
   "giant_conch": {
     "display_name": "Giant Conch",
-    "durability": 30,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 54,
     "levelreq": 40,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 154,
         "min": 110,
@@ -1742,12 +2402,22 @@
   },
   "gilded_shield": {
     "display_name": "Gilded Shield",
-    "durability": 50,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 51,
     "levelreq": 38,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 168,
         "min": 144,
@@ -1765,12 +2435,22 @@
   },
   "gothic_plate": {
     "display_name": "Gothic Plate",
-    "durability": 55,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 32,
     "levelreq": 0,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 135,
         "min": 128,
@@ -1790,12 +2470,22 @@
   },
   "gothic_shield": {
     "display_name": "Gothic Shield",
-    "durability": 40,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 30,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 30,
@@ -1815,12 +2505,22 @@
   },
   "grand_crown": {
     "display_name": "Grand Crown",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 55,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 113,
         "min": 78,
@@ -1840,12 +2540,22 @@
   },
   "great_hauberk": {
     "display_name": "Great Hauberk",
-    "durability": 50,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 75,
     "levelreq": 56,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 501,
         "min": 395,
@@ -1861,12 +2571,22 @@
   },
   "great_helm": {
     "display_name": "Great Helm",
-    "durability": 40,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 23,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 30,
@@ -1886,12 +2606,16 @@
   },
   "greaves": {
     "display_name": "Greaves",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 27,
     "levelreq": 0,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 15,
         "min": 12,
@@ -1911,12 +2635,22 @@
   },
   "griffon_headdress": {
     "display_name": "Griffon Headdress",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 40,
     "levelreq": 30,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 68,
         "min": 46,
@@ -1932,12 +2666,22 @@
   },
   "grim_helm": {
     "display_name": "Grim Helm",
-    "durability": 40,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 50,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 125,
         "min": 60,
@@ -1957,12 +2701,22 @@
   },
   "grim_shield": {
     "display_name": "Grim Shield",
-    "durability": 70,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 48,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 70,
+        "min": 70,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 150,
         "min": 50,
@@ -1980,12 +2734,22 @@
   },
   "guardian_crown": {
     "display_name": "Guardian Crown",
-    "durability": 55,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 85,
     "levelreq": 65,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 168,
         "min": 117,
@@ -2001,12 +2765,22 @@
   },
   "hard_leather_armor": {
     "display_name": "Hard Leather Armor",
-    "durability": 28,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 5,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 28,
+        "min": 28,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 24,
         "min": 21,
@@ -2024,12 +2798,22 @@
   },
   "hawk_helm": {
     "display_name": "Hawk Helm",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 8,
     "levelreq": 6,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 15,
         "min": 4,
@@ -2045,12 +2829,22 @@
   },
   "heater": {
     "display_name": "Heater",
-    "durability": 88,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 58,
     "levelreq": 43,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 88,
+        "min": 88,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 110,
         "min": 95,
@@ -2066,12 +2860,16 @@
   },
   "heavy_belt": {
     "display_name": "Heavy Belt",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 20,
     "levelreq": 0,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 6,
         "min": 6,
@@ -2092,12 +2890,16 @@
   },
   "heavy_boots": {
     "display_name": "Heavy Boots",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 7,
     "levelreq": 0,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 6,
         "min": 5,
@@ -2118,12 +2920,16 @@
   },
   "heavy_bracers": {
     "display_name": "Heavy Bracers",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 43,
     "levelreq": 25,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 44,
         "min": 37,
@@ -2143,12 +2949,16 @@
   },
   "heavy_gloves": {
     "display_name": "Heavy Gloves",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 7,
     "levelreq": 0,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 6,
         "min": 5,
@@ -2168,12 +2978,22 @@
   },
   "hellforge_plate": {
     "display_name": "Hellforge Plate",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 78,
     "levelreq": 59,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 530,
         "min": 421,
@@ -2191,12 +3011,22 @@
   },
   "hellspawn_skull": {
     "display_name": "Hellspawn Skull",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 67,
     "levelreq": 50,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 141,
         "min": 96,
@@ -2212,12 +3042,22 @@
   },
   "helm": {
     "display_name": "Helm",
-    "durability": 24,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 11,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 18,
         "min": 15,
@@ -2237,12 +3077,22 @@
   },
   "heraldic_shield": {
     "display_name": "Heraldic Shield",
-    "durability": 40,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 16,
     "levelreq": 12,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 26,
         "min": 16,
@@ -2258,12 +3108,22 @@
   },
   "hierophant_trophy": {
     "display_name": "Hierophant Trophy",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 54,
     "levelreq": 40,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 70,
         "min": 58,
@@ -2281,12 +3141,22 @@
   },
   "horned_helm": {
     "display_name": "Horned Helm",
-    "durability": 45,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 16,
     "levelreq": 12,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 30,
         "min": 25,
@@ -2302,12 +3172,22 @@
   },
   "hunters_guise": {
     "display_name": "Hunter's Guise",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 46,
     "levelreq": 29,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 81,
         "min": 67,
@@ -2325,12 +3205,22 @@
   },
   "hydraskull": {
     "display_name": "Hydraskull",
-    "durability": 18,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 63,
     "levelreq": 47,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 145,
         "min": 101,
@@ -2346,12 +3236,22 @@
   },
   "hyperion": {
     "display_name": "Hyperion",
-    "durability": 82,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 64,
     "levelreq": 48,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 82,
+        "min": 82,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 135,
         "min": 119,
@@ -2367,12 +3267,22 @@
   },
   "jawbone_cap": {
     "display_name": "Jawbone Cap",
-    "durability": 25,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 4,
     "levelreq": 3,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 15,
         "min": 10,
@@ -2388,12 +3298,22 @@
   },
   "jawbone_visor": {
     "display_name": "Jawbone Visor",
-    "durability": 25,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 33,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 68,
         "min": 55,
@@ -2409,12 +3329,22 @@
   },
   "kite_shield": {
     "display_name": "Kite Shield",
-    "durability": 30,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 15,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 18,
         "min": 16,
@@ -2434,12 +3364,22 @@
   },
   "kraken_shell": {
     "display_name": "Kraken Shell",
-    "durability": 48,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 81,
     "levelreq": 61,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 48,
+        "min": 48,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 523,
         "min": 417,
@@ -2459,12 +3399,22 @@
   },
   "kurast_shield": {
     "display_name": "Kurast Shield",
-    "durability": 55,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 74,
     "levelreq": 55,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 172,
         "min": 154,
@@ -2480,12 +3430,22 @@
   },
   "lacquered_plate": {
     "display_name": "Lacquered Plate",
-    "durability": 55,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 82,
     "levelreq": 62,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 541,
         "min": 433,
@@ -2503,12 +3463,22 @@
   },
   "large_shield": {
     "display_name": "Large Shield",
-    "durability": 24,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 11,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 14,
         "min": 12,
@@ -2528,12 +3498,22 @@
   },
   "leather_armor": {
     "display_name": "Leather Armor",
-    "durability": 24,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 3,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 17,
         "min": 14,
@@ -2553,12 +3533,16 @@
   },
   "leather_gloves": {
     "display_name": "Leather Gloves",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 3,
     "levelreq": 0,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 3,
         "min": 2,
@@ -2578,12 +3562,16 @@
   },
   "light_belt": {
     "display_name": "Light Belt",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 7,
     "levelreq": 0,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 3,
         "min": 3,
@@ -2603,12 +3591,16 @@
   },
   "light_gauntlets": {
     "display_name": "Light Gauntlets",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 20,
     "levelreq": 0,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 11,
         "min": 9,
@@ -2629,12 +3621,22 @@
   },
   "light_plate": {
     "display_name": "Light Plate",
-    "durability": 60,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 35,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 107,
         "min": 90,
@@ -2654,12 +3656,16 @@
   },
   "light_plated_boots": {
     "display_name": "Light Plated Boots",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 20,
     "levelreq": 0,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 11,
         "min": 9,
@@ -2679,12 +3685,22 @@
   },
   "linked_mail": {
     "display_name": "Linked Mail",
-    "durability": 26,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 42,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 26,
+        "min": 26,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 172,
         "min": 158,
@@ -2702,12 +3718,22 @@
   },
   "lion_helm": {
     "display_name": "Lion Helm",
-    "durability": 35,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 38,
     "levelreq": 29,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 35,
+        "min": 35,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 75,
         "min": 63,
@@ -2723,12 +3749,22 @@
   },
   "loricated_mail": {
     "display_name": "Loricated Mail",
-    "durability": 36,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 73,
     "levelreq": 55,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 36,
+        "min": 36,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 496,
         "min": 390,
@@ -2746,12 +3782,22 @@
   },
   "luna": {
     "display_name": "Luna",
-    "durability": 84,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 61,
     "levelreq": 45,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 84,
+        "min": 84,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 123,
         "min": 108,
@@ -2769,12 +3815,22 @@
   },
   "mage_plate": {
     "display_name": "Mage Plate",
-    "durability": 60,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 60,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 261,
         "min": 225,
@@ -2792,12 +3848,22 @@
   },
   "mask": {
     "display_name": "Mask",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 19,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 27,
         "min": 9,
@@ -2817,12 +3883,22 @@
   },
   "mesh_armor": {
     "display_name": "Mesh Armor",
-    "durability": 45,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 45,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 213,
         "min": 198,
@@ -2840,12 +3916,16 @@
   },
   "mesh_belt": {
     "display_name": "Mesh Belt",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 43,
     "levelreq": 25,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 40,
         "min": 35,
@@ -2865,12 +3945,16 @@
   },
   "mesh_boots": {
     "display_name": "Mesh Boots",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 43,
     "levelreq": 25,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 44,
         "min": 37,
@@ -2890,12 +3974,22 @@
   },
   "minion_skull": {
     "display_name": "Minion Skull",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 59,
     "levelreq": 44,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 139,
         "min": 95,
@@ -2911,12 +4005,16 @@
   },
   "mirrored_boots": {
     "display_name": "Mirrored Boots",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 81,
     "levelreq": 60,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 68,
         "min": 59,
@@ -2932,12 +4030,16 @@
   },
   "mithril_coil": {
     "display_name": "Mithril Coil",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 75,
     "levelreq": 56,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 65,
         "min": 58,
@@ -2957,12 +4059,22 @@
   },
   "monarch": {
     "display_name": "Monarch",
-    "durability": 86,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 72,
     "levelreq": 54,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 86,
+        "min": 86,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 148,
         "min": 133,
@@ -2980,12 +4092,22 @@
   },
   "mummified_trophy": {
     "display_name": "Mummified Trophy",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 33,
     "levelreq": 24,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 48,
         "min": 38,
@@ -3001,12 +4123,16 @@
   },
   "myrmidon_greaves": {
     "display_name": "Myrmidon Greaves",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 85,
     "levelreq": 65,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 71,
         "min": 62,
@@ -3024,12 +4150,16 @@
   },
   "ogre_gauntlets": {
     "display_name": "Ogre Gauntlets",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 85,
     "levelreq": 64,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 71,
         "min": 62,
@@ -3047,12 +4177,22 @@
   },
   "ornate_plate": {
     "display_name": "Ornate Plate",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 64,
     "levelreq": 25,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 450,
         "min": 417,
@@ -3072,12 +4212,22 @@
   },
   "overseer_skull": {
     "display_name": "Overseer Skull",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 66,
     "levelreq": 49,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 142,
         "min": 98,
@@ -3093,12 +4243,22 @@
   },
   "pavise": {
     "display_name": "Pavise",
-    "durability": 72,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 50,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 72,
+        "min": 72,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 78,
         "min": 68,
@@ -3116,12 +4276,22 @@
   },
   "plate_mail": {
     "display_name": "Plate Mail",
-    "durability": 60,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 24,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 116,
         "min": 108,
@@ -3139,12 +4309,16 @@
   },
   "plated_belt": {
     "display_name": "Plated Belt",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 27,
     "levelreq": 0,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 11,
         "min": 8,
@@ -3164,12 +4338,22 @@
   },
   "preserved_head": {
     "display_name": "Preserved Head",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 4,
     "levelreq": 3,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 5,
         "min": 2,
@@ -3185,12 +4369,22 @@
   },
   "protector_shield": {
     "display_name": "Protector Shield",
-    "durability": 40,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 46,
     "levelreq": 34,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 153,
         "min": 129,
@@ -3206,12 +4400,22 @@
   },
   "quilted_armor": {
     "display_name": "Quilted Armor",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 1,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 11,
         "min": 8,
@@ -3231,12 +4435,22 @@
   },
   "rage_mask": {
     "display_name": "Rage Mask",
-    "durability": 45,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 44,
     "levelreq": 29,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 90,
         "min": 78,
@@ -3252,12 +4466,22 @@
   },
   "ring_mail": {
     "display_name": "Ring Mail",
-    "durability": 26,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 11,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 26,
+        "min": 26,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 48,
         "min": 45,
@@ -3277,12 +4501,22 @@
   },
   "rondache": {
     "display_name": "Rondache",
-    "durability": 30,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 8,
     "levelreq": 6,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 18,
         "min": 10,
@@ -3298,12 +4532,22 @@
   },
   "round_shield": {
     "display_name": "Round Shield",
-    "durability": 64,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 37,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 64,
+        "min": 64,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 55,
         "min": 47,
@@ -3323,12 +4567,22 @@
   },
   "royal_shield": {
     "display_name": "Royal Shield",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "exceptional",
     "level": 55,
     "levelreq": 41,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 181,
         "min": 156,
@@ -3344,12 +4598,22 @@
   },
   "russet_armor": {
     "display_name": "Russet Armor",
-    "durability": 30,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 49,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 243,
         "min": 225,
@@ -3367,12 +4631,22 @@
   },
   "sacred_armor": {
     "display_name": "Sacred Armor",
-    "durability": 60,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 85,
     "levelreq": 66,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 600,
         "min": 487,
@@ -3393,12 +4667,22 @@
   },
   "sacred_feathers": {
     "display_name": "Sacred Feathers",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 50,
     "levelreq": 32,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 87,
         "min": 58,
@@ -3414,12 +4698,22 @@
   },
   "sacred_rondache": {
     "display_name": "Sacred Rondache",
-    "durability": 68,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 70,
     "levelreq": 52,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 68,
+        "min": 68,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 164,
         "min": 138,
@@ -3437,12 +4731,22 @@
   },
   "sacred_targe": {
     "display_name": "Sacred Targe",
-    "durability": 45,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 63,
     "levelreq": 47,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 158,
         "min": 126,
@@ -3458,12 +4762,22 @@
   },
   "sallet": {
     "display_name": "Sallet",
-    "durability": 18,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 37,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 62,
         "min": 52,
@@ -3481,12 +4795,16 @@
   },
   "sash": {
     "display_name": "Sash",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "normal",
     "level": 3,
     "levelreq": 0,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 2,
         "min": 2,
@@ -3506,12 +4824,22 @@
   },
   "savage_helmet": {
     "display_name": "Savage Helmet",
-    "durability": 50,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 49,
     "levelreq": 32,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 98,
         "min": 85,
@@ -3527,12 +4855,22 @@
   },
   "scale_mail": {
     "display_name": "Scale Mail",
-    "durability": 36,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 13,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 36,
+        "min": 36,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 60,
         "min": 57,
@@ -3550,12 +4888,22 @@
   },
   "scarab_husk": {
     "display_name": "Scarab Husk",
-    "durability": 28,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 68,
     "levelreq": 51,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 28,
+        "min": 28,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 474,
         "min": 369,
@@ -3571,12 +4919,16 @@
   },
   "scarabshell_boots": {
     "display_name": "Scarabshell Boots",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 66,
     "levelreq": 49,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 65,
         "min": 56,
@@ -3594,12 +4946,22 @@
   },
   "scutum": {
     "display_name": "Scutum",
-    "durability": 62,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 42,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 62,
+        "min": 62,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 61,
         "min": 53,
@@ -3617,12 +4979,22 @@
   },
   "serpentskin_armor": {
     "display_name": "Serpentskin Armor",
-    "durability": 24,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 36,
     "levelreq": 24,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 126,
         "min": 111,
@@ -3640,12 +5012,22 @@
   },
   "sexton_trophy": {
     "display_name": "Sexton Trophy",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 45,
     "levelreq": 33,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 55,
         "min": 44,
@@ -3661,12 +5043,22 @@
   },
   "shadow_plate": {
     "display_name": "Shadow Plate",
-    "durability": 70,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 83,
     "levelreq": 64,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 70,
+        "min": 70,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 557,
         "min": 446,
@@ -3686,12 +5078,22 @@
   },
   "shako": {
     "display_name": "Shako",
-    "durability": 12,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 58,
     "levelreq": 43,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 141,
         "min": 98,
@@ -3709,12 +5111,16 @@
   },
   "sharkskin_belt": {
     "display_name": "Sharkskin Belt",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 39,
     "levelreq": 25,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 36,
         "min": 31,
@@ -3734,12 +5140,16 @@
   },
   "sharkskin_boots": {
     "display_name": "Sharkskin Boots",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 39,
     "levelreq": 25,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 39,
         "min": 33,
@@ -3757,12 +5167,16 @@
   },
   "sharkskin_gloves": {
     "display_name": "Sharkskin Gloves",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 39,
     "levelreq": 25,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 39,
         "min": 33,
@@ -3782,12 +5196,22 @@
   },
   "sharktooth_armor": {
     "display_name": "Sharktooth Armor",
-    "durability": 48,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 55,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 48,
+        "min": 48,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 258,
         "min": 242,
@@ -3805,12 +5229,22 @@
   },
   "skull_cap": {
     "display_name": "Skull Cap",
-    "durability": 18,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 5,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 11,
         "min": 8,
@@ -3830,12 +5264,22 @@
   },
   "sky_spirit": {
     "display_name": "Sky Spirit",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 83,
     "levelreq": 62,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 155,
         "min": 103,
@@ -3853,12 +5297,22 @@
   },
   "slayer_guard": {
     "display_name": "Slayer Guard",
-    "durability": 55,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 54,
     "levelreq": 40,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 55,
+        "min": 55,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 120,
         "min": 93,
@@ -3876,12 +5330,22 @@
   },
   "small_shield": {
     "display_name": "Small Shield",
-    "durability": 16,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 5,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 10,
         "min": 8,
@@ -3901,12 +5365,16 @@
   },
   "spiderweb_sash": {
     "display_name": "Spiderweb Sash",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 61,
     "levelreq": 46,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 62,
         "min": 55,
@@ -3924,12 +5392,22 @@
   },
   "spiked_shield": {
     "display_name": "Spiked Shield",
-    "durability": 40,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 11,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 25,
         "min": 15,
@@ -3947,12 +5425,22 @@
   },
   "spired_helm": {
     "display_name": "Spired Helm",
-    "durability": 40,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 79,
     "levelreq": 59,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 159,
         "min": 114,
@@ -3973,12 +5461,22 @@
   },
   "spirit_mask": {
     "display_name": "Spirit Mask",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 24,
     "levelreq": 18,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 22,
@@ -3994,12 +5492,22 @@
   },
   "splint_mail": {
     "display_name": "Splint Mail",
-    "durability": 30,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 20,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 95,
         "min": 90,
@@ -4019,12 +5527,22 @@
   },
   "studded_leather": {
     "display_name": "Studded Leather",
-    "durability": 32,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 8,
     "levelreq": 0,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 32,
+        "min": 32,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 35,
         "min": 32,
@@ -4044,12 +5562,22 @@
   },
   "succubus_skull": {
     "display_name": "Succubus Skull",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "elite",
     "level": 81,
     "levelreq": 60,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 146,
         "min": 100,
@@ -4067,12 +5595,22 @@
   },
   "sun_spirit": {
     "display_name": "Sun Spirit",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 69,
     "levelreq": 51,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 147,
         "min": 98,
@@ -4088,12 +5626,22 @@
   },
   "targe": {
     "display_name": "Targe",
-    "durability": 20,
-    "gemsockets": 4,
     "item_class": "normal",
     "level": 4,
     "levelreq": 3,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 12,
         "min": 8,
@@ -4109,12 +5657,22 @@
   },
   "templar_coat": {
     "display_name": "Templar Coat",
-    "durability": 60,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 52,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 274,
         "min": 252,
@@ -4132,12 +5690,22 @@
   },
   "tiara": {
     "display_name": "Tiara",
-    "durability": 25,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 70,
     "levelreq": 52,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 50,
         "min": 40,
@@ -4155,12 +5723,22 @@
   },
   "tigulated_mail": {
     "display_name": "Tigulated Mail",
-    "durability": 36,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 43,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 36,
+        "min": 36,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 190,
         "min": 176,
@@ -4180,12 +5758,22 @@
   },
   "totemic_mask": {
     "display_name": "Totemic Mask",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 55,
     "levelreq": 41,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 98,
         "min": 73,
@@ -4203,12 +5791,22 @@
   },
   "tower_shield": {
     "display_name": "Tower Shield",
-    "durability": 60,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 22,
     "levelreq": 0,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 25,
         "min": 22,
@@ -4228,12 +5826,22 @@
   },
   "trellised_armor": {
     "display_name": "Trellised Armor",
-    "durability": 32,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 40,
     "levelreq": 25,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 32,
+        "min": 32,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 153,
         "min": 138,
@@ -4251,12 +5859,16 @@
   },
   "troll_belt": {
     "display_name": "Troll Belt",
-    "durability": 18,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 82,
     "levelreq": 62,
     "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 66,
         "min": 59,
@@ -4274,12 +5886,22 @@
   },
   "troll_nest": {
     "display_name": "Troll Nest",
-    "durability": 74,
-    "gemsockets": 3,
     "item_class": "elite",
     "level": 76,
     "levelreq": 57,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 74,
+        "min": 74,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 173,
         "min": 158,
@@ -4297,12 +5919,22 @@
   },
   "unraveller_head": {
     "display_name": "Unraveller Head",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 16,
     "levelreq": 12,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 10,
         "min": 6,
@@ -4318,12 +5950,16 @@
   },
   "vambraces": {
     "display_name": "Vambraces",
-    "durability": 16,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 69,
     "levelreq": 51,
     "props": [
+      {
+        "max": 16,
+        "min": 16,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 67,
         "min": 59,
@@ -4341,12 +5977,16 @@
   },
   "vampirebone_gloves": {
     "display_name": "Vampirebone Gloves",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 63,
     "levelreq": 47,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 65,
         "min": 56,
@@ -4364,12 +6004,16 @@
   },
   "vampirefang_belt": {
     "display_name": "Vampirefang Belt",
-    "durability": 14,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 68,
     "levelreq": 51,
     "props": [
+      {
+        "max": 14,
+        "min": 14,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 63,
         "min": 56,
@@ -4387,12 +6031,22 @@
   },
   "vortex_shield": {
     "display_name": "Vortex Shield",
-    "durability": 90,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 85,
     "levelreq": 66,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 90,
+        "min": 90,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 225,
         "min": 182,
@@ -4410,12 +6064,16 @@
   },
   "war_belt": {
     "display_name": "War Belt",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 54,
     "levelreq": 25,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 52,
         "min": 41,
@@ -4435,12 +6093,16 @@
   },
   "war_boots": {
     "display_name": "War Boots",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 54,
     "levelreq": 25,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 53,
         "min": 43,
@@ -4460,12 +6122,16 @@
   },
   "war_gauntlets": {
     "display_name": "War Gauntlets",
-    "durability": 24,
-    "gemsockets": 0,
     "item_class": "exceptional",
     "level": 54,
     "levelreq": 25,
     "props": [
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 53,
         "min": 43,
@@ -4485,12 +6151,22 @@
   },
   "war_hat": {
     "display_name": "War Hat",
-    "durability": 12,
-    "gemsockets": 2,
     "item_class": "exceptional",
     "level": 34,
     "levelreq": 22,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 53,
         "min": 45,
@@ -4510,12 +6186,22 @@
   },
   "ward": {
     "display_name": "Ward",
-    "durability": 100,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 84,
     "levelreq": 63,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 170,
         "min": 153,
@@ -4535,12 +6221,22 @@
   },
   "winged_helm": {
     "display_name": "Winged Helm",
-    "durability": 40,
-    "gemsockets": 3,
     "item_class": "exceptional",
     "level": 51,
     "levelreq": 25,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 98,
         "min": 85,
@@ -4560,12 +6256,22 @@
   },
   "wire_fleece": {
     "display_name": "Wire Fleece",
-    "durability": 32,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 70,
     "levelreq": 53,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 32,
+        "min": 32,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 481,
         "min": 375,
@@ -4583,12 +6289,22 @@
   },
   "wolf_head": {
     "display_name": "Wolf Head",
-    "durability": 20,
-    "gemsockets": 3,
     "item_class": "normal",
     "level": 4,
     "levelreq": 3,
     "props": [
+      {
+        "max": 3,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 11,
         "min": 8,
@@ -4604,12 +6320,22 @@
   },
   "wyrmhide": {
     "display_name": "Wyrmhide",
-    "durability": 24,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 67,
     "levelreq": 50,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 470,
         "min": 364,
@@ -4625,12 +6351,16 @@
   },
   "wyrmhide_boots": {
     "display_name": "Wyrmhide Boots",
-    "durability": 12,
-    "gemsockets": 0,
     "item_class": "elite",
     "level": 60,
     "levelreq": 45,
     "props": [
+      {
+        "max": 12,
+        "min": 12,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 62,
         "min": 54,
@@ -4646,12 +6376,22 @@
   },
   "zakarum_shield": {
     "display_name": "Zakarum Shield",
-    "durability": 65,
-    "gemsockets": 4,
     "item_class": "elite",
     "level": 82,
     "levelreq": 61,
     "props": [
+      {
+        "max": 4,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 65,
+        "min": 65,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 193,
         "min": 169,
@@ -4669,12 +6409,22 @@
   },
   "zombie_head": {
     "display_name": "Zombie Head",
-    "durability": 20,
-    "gemsockets": 2,
     "item_class": "normal",
     "level": 8,
     "levelreq": 6,
     "props": [
+      {
+        "max": 2,
+        "min": 0,
+        "par": null,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": null,
+        "prop": "durability"
+      },
       {
         "max": 8,
         "min": 4,
