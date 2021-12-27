@@ -1503,17 +1503,15 @@
     "aliases": [],
     "children": [],
     "patterns": [
-      [
-        {
-          "neg": "-{:d}% Enhanced damage",
-          "pos": "+{:d}% Enhanced damage",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "-{:d}% Enhanced damage",
+        "pos": "+{:d}% Enhanced damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [],
     "within": []
@@ -1590,30 +1588,26 @@
       "cold-len"
     ],
     "patterns": [
-      [
-        {
-          "neg": "+{:d} cold damage",
-          "pos": "+{:d} cold damage",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "+{:d} cold damage",
+        "pos": "+{:d} cold damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} cold damage",
-          "pos": "Adds {:d}-{:d} cold damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} cold damage",
+        "pos": "Adds {:d}-{:d} cold damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },
@@ -1739,39 +1733,33 @@
     ],
     "patterns": [],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} cold damage",
-          "pos": "Adds {:d}-{:d} cold damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ],
-      [
-        {
-          "neg": "Adds {:d}-{:d} fire damage",
-          "pos": "Adds {:d}-{:d} fire damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ],
-      [
-        {
-          "neg": "Adds {:d}-{:d} lightning damage",
-          "pos": "Adds {:d}-{:d} lightning damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} cold damage",
+        "pos": "Adds {:d}-{:d} cold damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "neg": "Adds {:d}-{:d} fire damage",
+        "pos": "Adds {:d}-{:d} fire damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      },
+      {
+        "neg": "Adds {:d}-{:d} lightning damage",
+        "pos": "Adds {:d}-{:d} lightning damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },
@@ -1861,30 +1849,26 @@
       "fire-max"
     ],
     "patterns": [
-      [
-        {
-          "neg": "+{:d} fire damage",
-          "pos": "+{:d} fire damage",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "+{:d} fire damage",
+        "pos": "+{:d} fire damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} fire damage",
-          "pos": "Adds {:d}-{:d} fire damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} fire damage",
+        "pos": "Adds {:d}-{:d} fire damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },
@@ -1933,30 +1917,26 @@
       "ltng-max"
     ],
     "patterns": [
-      [
-        {
-          "neg": "+{:d} lightning damage",
-          "pos": "+{:d} lightning damage",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "+{:d} lightning damage",
+        "pos": "+{:d} lightning damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} lightning damage",
-          "pos": "Adds {:d}-{:d} lightning damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} lightning damage",
+        "pos": "Adds {:d}-{:d} lightning damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },
@@ -2002,30 +1982,26 @@
     "aliases": null,
     "children": [],
     "patterns": [
-      [
-        {
-          "neg": "+{:d} magic damage",
-          "pos": "+{:d} magic damage",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "+{:d} magic damage",
+        "pos": "+{:d} magic damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} magic damage",
-          "pos": "Adds {:d}-{:d} magic damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} magic damage",
+        "pos": "Adds {:d}-{:d} magic damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },
@@ -2073,30 +2049,26 @@
     "aliases": null,
     "children": [],
     "patterns": [
-      [
-        {
-          "neg": "+{:d} damage",
-          "pos": "+{:d} damage",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "+{:d} damage",
+        "pos": "+{:d} damage",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} damage",
-          "pos": "Adds {:d}-{:d} damage",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} damage",
+        "pos": "Adds {:d}-{:d} damage",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },
@@ -2108,30 +2080,26 @@
       "pois-len"
     ],
     "patterns": [
-      [
-        {
-          "neg": "+{:d} poison damage over {:d} seconds",
-          "pos": "+{:d} poison damage over {:d} seconds",
-          "spec": [
-            0,
-            -1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "+{:d} poison damage over {:d} seconds",
+        "pos": "+{:d} poison damage over {:d} seconds",
+        "spec": [
+          0,
+          -1,
+          -1
+        ]
+      }
     ],
     "patterns_range": [
-      [
-        {
-          "neg": "Adds {:d}-{:d} poison damage over {:d} seconds",
-          "pos": "Adds {:d}-{:d} poison damage over {:d} seconds",
-          "spec": [
-            0,
-            1,
-            -1
-          ]
-        }
-      ]
+      {
+        "neg": "Adds {:d}-{:d} poison damage over {:d} seconds",
+        "pos": "Adds {:d}-{:d} poison damage over {:d} seconds",
+        "spec": [
+          0,
+          1,
+          -1
+        ]
+      }
     ],
     "within": []
   },

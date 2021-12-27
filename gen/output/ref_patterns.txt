@@ -1,0 +1,517 @@
+abs-cold:
+    +{:d} Cold Absorb
+abs-cold%:
+    Cold Absorb {:d}%
+abs-cold/lvl:
+    +{:d} Absorbs Cold Damage (Based on Character Level)
+abs-cold/time:
+    +{:d} Absorbs Cold Damage
+abs-crush:
+abs-crush%:
+abs-fire:
+    +{:d} Fire Absorb
+abs-fire%:
+    Fire Absorb {:d}%
+abs-fire/lvl:
+    +{:d} Absorbs Fire Damage (Based on Character Level)
+abs-fire/time:
+    +{:d} Absorbs Fire Damage
+abs-ltng:
+    +{:d} Lightning Absorb
+abs-ltng%:
+    Lightning Absorb {:d}%
+abs-ltng/lvl:
+    +{:d} Absorbs Lightning Damage (Based on Character Level)
+abs-ltng/time:
+    +{:d} Absorbs Lightning Damage
+abs-mag:
+    +{:d} Magic Absorb
+abs-mag%:
+    Magic Absorb {:d}%
+abs-pois/lvl:
+abs-pois/time:
+abs-slash:
+abs-slash%:
+abs-thrust:
+abs-thrust%:
+ac:
+    +{:d} Defense
+ac%:
+    +{:d}% Enhanced Defense
+ac%-mon:
+ac%/lvl:
+    {:d}% Enhanced Defense (Based on Character Level)
+ac%/time:
+    +{:d} Enhanced Defense
+ac-hth:
+    +{:d} Defense vs. Melee
+ac-miss:
+    +{:d} Defense vs. Missile
+ac-mon:
+ac/lvl:
+    +{:d} Defense (Based on Character Level)
+ac/time:
+    +{:d} Defense
+addxp:
+    +{:d}% to Experience Gained
+all-stats:
+    +{:d} to all Attributes
+allskills:
+    +{:d} to All Skills
+ama:
+    +{:d} to Amazon Skill Levels
+ass:
+    +{:d} to Assassin Skill Levels
+att:
+    +{:d} to Attack Rating
+att%:
+    {:d}% Bonus to Attack Rating
+att%-mon:
+att%/lvl:
+    {:d}% Bonus to Attack Rating (Based on Character Level)
+att%/time:
+    +{:d} Bonus to Attack Rating
+att-dem/lvl:
+    +{:d} to Attack Rating against Demons (Based on Character Level)
+att-dem/time:
+    +{:d} to Attack Rating against Demons
+att-demon:
+    +{:d} to Attack Rating against Demons
+att-mon:
+att-mon%:
+    +{:d} to Attack Rating versus {}
+att-skill:
+    {:d}% Chance to cast level {:d} {} on attack
+att-und/lvl:
+    +{:d} to Attack Rating against Undead (Based on Character Level)
+att-und/time:
+    +{:d} to Attack Rating against Undead
+att-undead:
+    +{:d} to Attack Rating against Undead
+att/lvl:
+    +{:d} to Attack Rating (Based on Character Level)
+att/time:
+    +{:d} to Attack Rating
+aura:
+    Level {:d} {} Aura When Equipped
+balance1:
+    +{:d}% Faster Hit Recovery
+balance2:
+    +{:d}% Faster Hit Recovery
+balance3:
+    +{:d}% Faster Hit Recovery
+bar:
+    +{:d} to Barbarian Skill Levels
+block:
+    {:d}% Increased Chance of Blocking
+block1:
+    +{:d}% Faster Block Rate
+block2:
+    +{:d}% Faster Block Rate
+block3:
+    +{:d}% Faster Block Rate
+bloody:
+cast1:
+    +{:d}% Faster Cast Rate
+cast2:
+    +{:d}% Faster Cast Rate
+cast3:
+    +{:d}% Faster Cast Rate
+charged:
+    Level {:d} {} ({:d}/{:d} Charges)
+cheap:
+    Reduces all Vendor Prices {:d}%
+cold-len:
+cold-max:
+    +{:d} to Maximum Cold Damage
+cold-min:
+    +{:d} to Minimum Cold Damage
+color:
+crush:
+    {:d}% Chance of Crushing Blow
+crush/lvl:
+    {:d}% Chance of Crushing Blow (Based on Character Level)
+crush/time:
+    +{:d} Chance of Crushing Blow
+deadly:
+    {:d}% Deadly Strike
+deadly/lvl:
+    {:d}% Deadly Strike (Based on Character Level)
+deadly/time:
+    +{:d} Deadly Strike
+death-skill:
+    {:d}% Chance to cast level {:d} {} when you Die
+demon-heal:
+    +{:d} Life after each Demon Kill
+dex:
+    +{:d} to Dexterity
+dex/lvl:
+    +{:d} to Dexterity (Based on Character Level)
+dex/time:
+    +{:d} to Dexterity
+dmg:
+    Damage +{:d}
+dmg%:
+    +{:d}% Enhanced damage
+dmg%-mon:
+dmg%/lvl:
+    {:d}% Enhanced Maximum Damage (Based on Character Level)
+dmg%/time:
+    +{:d} Enhanced Maximum Damage
+dmg-ac:
+    +{:d} to Monster Defense Per Hit
+dmg-cold:
+    +{:d} cold damage
+    Adds {:d}-{:d} cold damage
+dmg-cold/lvl:
+    +{:d} to Maximum Cold Damage (Based on Character Level)
+dmg-cold/time:
+    +{:d} to Maximum Cold Damage
+dmg-crush:
+dmg-crush%:
+dmg-dem/lvl:
+    {:d}% Damage to Demons (Based on Character Level)
+dmg-dem/time:
+    +{:d} Damage to Demons
+dmg-demon:
+    +{:d}% Damage to Demons
+dmg-elem:
+    Adds {:d}-{:d} cold damage
+    Adds {:d}-{:d} fire damage
+    Adds {:d}-{:d} lightning damage
+dmg-elem-max:
+    +{:d} to Maximum Fire Damage
+    +{:d} to Maximum Lightning Damage
+    +{:d} to Maximum Cold Damage
+dmg-elem-min:
+    +{:d} to Minimum Fire Damage
+    +{:d} to Minimum Lightning Damage
+    +{:d} to Minimum Cold Damage
+dmg-fire:
+    +{:d} fire damage
+    Adds {:d}-{:d} fire damage
+dmg-fire/lvl:
+    +{:d} to Maximum Fire Damage (Based on Character Level)
+dmg-fire/time:
+    +{:d} to Maximum Fire Damage
+dmg-ltng:
+    +{:d} lightning damage
+    Adds {:d}-{:d} lightning damage
+dmg-ltng/lvl:
+    +{:d} to Maximum Lightning Damage (Based on Character Level)
+dmg-ltng/time:
+    +{:d} to Maximum Lightning Damage
+dmg-mag:
+    +{:d} magic damage
+    Adds {:d}-{:d} magic damage
+dmg-max:
+dmg-min:
+dmg-mon:
+dmg-mon%:
+    +{:d} to Attack Rating versus {}
+dmg-norm:
+    +{:d} damage
+    Adds {:d}-{:d} damage
+dmg-pois:
+    +{:d} poison damage over {:d} seconds
+    Adds {:d}-{:d} poison damage over {:d} seconds
+dmg-pois/lvl:
+    +{:d} to Maximum Poison Damage (Based on Character Level)
+dmg-pois/time:
+    +{:d} to Maximum Poison Damage
+dmg-slash:
+dmg-slash%:
+dmg-throw:
+dmg-thrust:
+dmg-thrust%:
+dmg-to-mana:
+    {:d}% Damage Taken Goes To Mana
+dmg-und/lvl:
+    {:d}% Damage to Undead (Based on Character Level)
+dmg-und/time:
+    +{:d} Damage to Undead
+dmg-undead:
+    +{:d}% Damage to Undead
+dmg/lvl:
+    +{:d} to Maximum Damage (Based on Character Level)
+dmg/time:
+    +{:d} to Maximum Damage
+dru:
+    +{:d} to Druid Skill Levels
+dur:
+dur%:
+    Increase Maximum Durability {:d}%
+ease:
+    Requirements +{:d}%
+enr:
+    +{:d} to Energy
+enr/lvl:
+    +{:d} to Energy (Based on Character Level)
+enr/time:
+    +{:d} to Energy
+ethereal:
+explosivearrow:
+    Fires Explosive Arrows or Bolts
+extra-cold:
+    +{:d}% to Cold Skill Damage
+extra-fire:
+    +{:d}% to Fire Skill Damage
+extra-ltng:
+    +{:d}% to Lightning Skill Damage
+extra-pois:
+    +{:d}% to Poison Skill Damage
+fade:
+fire-fx:
+fire-max:
+    +{:d} to Maximum Fire Damage
+fire-min:
+    +{:d} to Minimum Fire Damage
+fireskill:
+    +{:d} to Fire Skills
+freeze:
+    Freezes target +{:d}
+gembonus:
+gems%/lvl:
+gems%/time:
+gethit-skill:
+    {:d}% Chance to cast level {:d} {} when struck
+gold%:
+    {:d}% Extra Gold from Monsters
+gold%/lvl:
+    {:d}% Extra Gold from Monsters (Based on Character Level)
+gold%/time:
+    Extra Gold from Monsters +{:d}
+half-freeze:
+    Half Freeze Duration
+heal-kill:
+    +{:d} Life after each Kill
+herb:
+hit-skill:
+    {:d}% Chance to cast level {:d} {} on striking
+howl:
+    Hit Causes Monster to Flee {:d}%
+hp:
+    +{:d} to Life
+hp%:
+    Increase Maximum Life {:d}%
+hp/lvl:
+    +{:d} to Life (Based on Character Level)
+hp/time:
+    +{:d} to Life
+ignore-ac:
+    Ignore Target's Defense
+indestruct:
+item%:
+kick:
+    +{:d} Kick Damage
+kick/lvl:
+    +{:d} Kick Damage (Based on Character Level)
+kick/time:
+    +{:d} Kick Damage
+kill-skill:
+    {:d}% Chance to cast level {:d} {} when you Kill an Enemy
+knock:
+    Knockback
+levelreq:
+levelup-skill:
+    {:d}% Chance to cast level {:d} {} when you Level-Up
+lifesteal:
+    {:d}% Life stolen per hit
+light:
+    +{:d} to Light Radius
+light-thorns:
+    Attacker Takes Lightning Damage of {:d}
+ltng-fx:
+ltng-max:
+    +{:d} to Maximum Lightning Damage
+ltng-min:
+    +{:d} to Minimum Lightning Damage
+mag%:
+    {:d}% Better Chance of Getting Magic Items
+mag%/lvl:
+    {:d}% Better Chance of Getting Magic Items (Based on Character Level)
+mag%/time:
+    +{:d} Better Chance of Getting Magic Items
+magicarrow:
+    Fires Magic Arrows
+mana:
+    +{:d} to Mana
+mana%:
+    Increase Maximum Mana {:d}%
+mana-kill:
+    +{:d} to Mana after each Kill
+mana/lvl:
+    +{:d} to Mana (Based on Character Level)
+mana/time:
+    +{:d} to Mana
+manasteal:
+    {:d}% Mana stolen per hit
+move1:
+    +{:d}% Faster Run/Walk
+move2:
+    +{:d}% Faster Run/Walk
+move3:
+    +{:d}% Faster Run/Walk
+nec:
+    +{:d} to Necromancer Skill Levels
+nofreeze:
+    Cannot Be Frozen
+noheal:
+    Prevent Monster Heal
+openwounds:
+    {:d}% Chance of Open Wounds
+oskill:
+    +{:d} to {}
+pal:
+    +{:d} to Paladin Skill Levels
+pierce:
+    Piercing Attack
+pierce-cold:
+    +{:d}% to Enemy Cold Resistance
+pierce-fire:
+    +{:d}% to Enemy Fire Resistance
+pierce-ltng:
+    +{:d}% to Enemy Lightning Resistance
+pierce-pois:
+    +{:d}% to Enemy Poison Resistance
+pois-len:
+pois-max:
+    +{:d} to Maximum Poison Damage
+pois-min:
+    +{:d} to Minimum Poison Damage
+randclassskill:
+    +{:d} to {} Skill Levels
+reanimate:
+    {:d}% Reanimate as: {}
+red-dmg:
+    Damage Reduced by {:d}
+red-dmg%:
+    Damage Reduced by {:d}%
+red-mag:
+    Magic Damage Reduced by {:d}
+reduce-ac:
+    +{:d}% Target Defense
+regen:
+    Replenish Life +{:d}
+regen-dur:
+regen-mana:
+    Regenerate Mana {:d}%
+regen-stam:
+    Heal Stamina Plus {:d}%
+regen-stam/lvl:
+    Heal Stamina Plus {:d}% (Based on Character Level)
+regen-stam/time:
+    Heal Stamina Plus +{:d}
+rep-dur:
+    Repairs {} durability {}
+rep-quant:
+    Replenishes quantity
+res-all:
+    All Resistances +{:d}
+res-all-max:
+    +{:d}% to Maximum Fire Resist
+    +{:d}% to Maximum Lightning Resist
+    +{:d}% to Maximum Cold Resist
+    +{:d}% to Maximum Poison Resist
+res-cold:
+    Cold Resist +{:d}%
+res-cold-max:
+    +{:d}% to Maximum Cold Resist
+res-cold/lvl:
+    Cold Resist {:d}% (Based on Character Level)
+res-cold/time:
+    Cold Resist +{:d}
+res-fire:
+    Fire Resist +{:d}%
+res-fire-max:
+    +{:d}% to Maximum Fire Resist
+res-fire/lvl:
+    Fire Resist {:d}% (Based on Character Level)
+res-fire/time:
+    Fire Resist +{:d}
+res-ltng:
+    Lightning Resist +{:d}%
+res-ltng-max:
+    +{:d}% to Maximum Lightning Resist
+res-ltng/lvl:
+    Lightning Resist {:d}% (Based on Character Level)
+res-ltng/time:
+    Lightning Resist +{:d}
+res-mag:
+    Magic Resist +{:d}%
+res-mag-max:
+    +{:d}% to Maximum Magic Resist
+res-pois:
+    Poison Resist +{:d}%
+res-pois-len:
+    Poison Length Reduced by {:d}%
+res-pois-max:
+    +{:d}% to Maximum Poison Resist
+res-pois/lvl:
+    Poison Resist {:d}% (Based on Character Level)
+res-pois/time:
+    Poison Resist +{:d}
+rip:
+    Slain Monsters Rest in Peace
+skill:
+    +{:d} to {} ({} only)
+skill-rand:
+    +{:d} to {} ({} only)
+skilltab:
+    +{:d} to {} ({} only)
+slow:
+    Slows Target by {:d}%
+sock:
+    Socketed ({d})
+sor:
+    +{:d} to Sorceress Skill Levels
+stack:
+    Increased Stack Size
+stam:
+    +{:d} Maximum Stamina
+stam/lvl:
+    +{:d} Maximum Stamina (Based on Character Level)
+stam/time:
+    +{:d} Maximum Stamina
+stamdrain:
+    {:d}% Slower Stamina Drain
+state:
+str:
+    +{:d} to Strength
+str/lvl:
+    +{:d} to Strength (Based on Character Level)
+str/time:
+    +{:d} to Strength
+stupidity:
+    Hit Blinds Target +{:d}
+swing1:
+    +{:d}% Increased Attack Speed
+swing2:
+    +{:d}% Increased Attack Speed
+swing3:
+    +{:d}% Increased Attack Speed
+thorns:
+    Attacker Takes Damage of {:d}
+thorns/lvl:
+    Attacker Takes Damage of {:d} (Based on Character Level)
+throw:
+    Throwable
+time:
+vit:
+    +{:d} to Vitality
+vit/lvl:
+    +{:d} to Vitality (Based on Character Level)
+vit/time:
+    +{:d} to Vitality
+wounds/lvl:
+    {:d}% Chance of Open Wounds (Based on Character Level)
+wounds/time:
+    +{:d} Chance of Open Wounds
+damage_1hand:
+    One-Hand Damage: {:d}
+    One-Hand Damage: {:d} to {:d}
+damage_2hand:
+    Two-Hand Damage: {:d}
+    Two-Hand Damage: {:d} to {:d}
+defense:
+    Defense: {:d}

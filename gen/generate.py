@@ -385,7 +385,7 @@ class ItemParser:
             string_obj.pos_pattern = string_obj.neg_pattern = "Repairs {} durability {}"
             string_obj.spec = [-1, -1, -1]
         elif string_obj.code == "sock":
-            string_obj.pos_pattern = string_obj.neg_pattern = "Socketed ({d})"
+            string_obj.pos_pattern = string_obj.neg_pattern = "Socketed ({:d})"
 
         # construct list of indices
         # spec: min index, max index, param index; -1 ignores
@@ -394,7 +394,7 @@ class ItemParser:
         elif string_obj.descfunc in [15]:
             string_obj.spec = [0, 1, 2]
         elif string_obj.descfunc in [24]:
-            # level (max3) (par3) ({d}/(min3 charges))
+            # level (max3) (par3) ({:d}/(min3 charges))
             string_obj.spec = [3, 0, 1]
 
         # add based on character level
@@ -466,7 +466,7 @@ class ItemParser:
         # elif "dmg-elem" == obj.prop:
         #     # shouldn't be anything to do here...sometimes passes a param?
         # elif "rep-dur" in obj.prop:
-        #     # repairs {d} durability in {d} seconds
+        #     # repairs {:d} durability in {:d} seconds
         #     # [0] = 1 always, [1] = 100/par
         #     obj.min = 1
         #     obj.max = 1
@@ -667,11 +667,11 @@ if __name__ == "__main__":
 
                 #print(strings)
                 if strings.pos_pattern:
-                    val = [{
+                    val = {
                         "pos": strings.pos_pattern,
                         "neg": strings.neg_pattern,
                         "spec": strings.spec
-                    }]
+                    }
                     #print(val)
                     properties[key]["patterns"].append(val)
                 if "range_pos_code" in item_parser.range_types[key][i]:
@@ -685,11 +685,11 @@ if __name__ == "__main__":
 
                     if strings.pos_pattern:
                         strings = item_parser.string_spec(strings)
-                        val  = [{
+                        val  = {
                             "pos": strings.pos_pattern,
                             "neg": strings.neg_pattern,
                             "spec": strings.spec
-                        }]
+                        }
                         properties[key]["patterns_range"].append(val)
     # create properties: damage_1hand, damage_2hand, defense
     obj = PropertyDef()
@@ -729,6 +729,18 @@ if __name__ == "__main__":
 
     with open('output/item_properties.json', 'w', encoding='utf-8') as f:
         json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
+
+    # create a reference file for property patterns
+    with open('output/ref_patterns.txt', 'w', encoding='utf-8') as f:
+        for key in properties:
+            f.write(f"{key}:\n")
+            for pattern in properties[key]["patterns"]:
+                #print(pattern)
+                line = pattern['pos']
+                f.write(f"    {line}\n")
+            for pattern in properties[key]["patterns_range"]:
+                line = pattern['pos']
+                f.write(f"    {line}\n")
 
     # create types file
     types={}
