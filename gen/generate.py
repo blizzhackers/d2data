@@ -727,6 +727,9 @@ if __name__ == "__main__":
         }]
     properties[prop]=obj
 
+    # create aliases for use by pickit
+    properties["abs-cold"]["aliases"].append("cold_absorb")
+
     with open('output/item_properties.json', 'w', encoding='utf-8') as f:
         json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
