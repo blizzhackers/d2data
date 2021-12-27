@@ -1,0 +1,50 @@
+{
+    "items": [
+        {
+            "type": "small_charm",
+            "props": [
+                {
+                    "name": "all-stats",
+                    "arg1": 5
+                },
+                {
+                    "name": "rep-quant"
+                }
+            ]
+        },
+        {
+            "display_name": "Tal Rasha's Guardianship",
+            "props": [
+                {
+                    "name": "ac",
+                    "arg1": ">900"
+                }
+            ]
+        },
+        {
+            "type": "amulet",
+            "props": [
+                {
+                    "name": "charged",
+                    "arg2": "teleport"
+                }
+            ]
+        },
+        {
+            "type": "auric_shields",
+            "props": [
+              {
+                "name": "socketed",
+                "arg1": 4
+              },
+              {
+                "name": "res-all",
+                "arg1": 45
+              }
+            ]
+        },
+        {
+          "name": "ancient_axe"
+        }
+    ]
+}

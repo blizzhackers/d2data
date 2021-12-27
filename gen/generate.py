@@ -1,7 +1,5 @@
-import os
 import dataclasses
 import json
-import itertools
 import re
 #import parse
 
@@ -39,6 +37,7 @@ class CodesRef:
     name: str = None
     display_name: str = None
     code: str = None
+    quality: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -71,11 +70,11 @@ class PropString:
 @dataclasses.dataclass
 class ItemBase(Item):
     item_class: str = None # computed from ["normcode", etc.]
-    quality: str = None # normal for base item
-    reqstr: int = 0
+    #quality: str = None # normal for base item
+    #reqstr: int = 0
     #durability: int = None
-    level: int = 0
-    levelreq: int = 0
+    #level: int = 0
+    #levelreq: int = 0
     #gemsockets: int = 0
     props: list[ItemProperty] = None
 
@@ -87,8 +86,8 @@ class ItemArmor(ItemBase): # name = "Grand Crown" -> convert
 @dataclasses.dataclass
 class ItemWeapon(ItemBase):
     hands: str = None
-    range: int = 0
-    speed: int = 0
+    # range: int = 0
+    # speed: int = 0
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -108,8 +107,8 @@ class ItemType():
 class SpecialItem():
     display_name: str = None
     base: str = None
-    level: int = 0
-    levelreq: int = 0
+    # level: int = 0
+    # levelreq: int = 0
     props: list[ItemProperty] = None
 
 @dataclasses.dataclass
@@ -537,14 +536,15 @@ if __name__ == "__main__":
         item_parser.f_sets,
         item_parser.f_set_items,
     ]
+    quality = [ "normal", "normal", "normal", "normal", "set", "set"]
     for key in item_parser.f_strings:
-        for file in itemFiles:
+        for count, file in enumerate(itemFiles):
             if key in file:
                 obj = CodesRef()
                 obj.code = file[key]["code"] if "code" in file[key] else key
                 obj.display_name = item_parser.f_strings[key]
                 obj.name = item_parser.full_to_short(obj.display_name)
-                #obj.type = file[key]["type"] if "type" in file[key] else None
+                obj.quality = quality[count]
                 #print(obj)
                 if obj.code not in ref_codes:
                     ref_codes[obj.code] = obj
@@ -565,6 +565,7 @@ if __name__ == "__main__":
             obj.code = key
             obj.display_name = item_parser.f_strings[file[key]["index"]]
             obj.name = item_parser.full_to_short(obj.display_name)
+            obj.quality = "unique"
             if obj.code not in ref_codes:
                 ref_codes[obj.code] = obj
         except:
@@ -750,8 +751,8 @@ if __name__ == "__main__":
     obj = PropertyDef()
     prop = "durability"
     obj.patterns = [{
-            "neg": "Durability: {:d}",
-            "pos": "Durability: {:d}",
+            "neg": "Durability: {:d} of {:d}",
+            "pos": "Durability: {:d} of {:d}",
             "spec": [0, -1, -1 ]
         }]
     properties[prop]=obj
@@ -946,7 +947,7 @@ if __name__ == "__main__":
     for key in file:
         obj = ItemWeapon()
         code = key
-        obj.quality = "normal"
+        # obj.quality = "normal"
         name = ref_codes[key]["name"]
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
@@ -1000,18 +1001,18 @@ if __name__ == "__main__":
                 except: pass
         obj.props = None if props==[] else props
 
-        try: obj.range = int(file[key]["rangeadder"])
-        except: pass
-        try: obj.speed = int(file[key]["speed"])
-        except: pass
-        try: obj.reqstr = int(file[key]["reqstr"])
-        except: pass
-        try: obj.level = int(file[key]["level"])
-        except: pass
-        try: obj.levelreq = int(file[key]["levelreq"])
-        except: pass
-        #try: obj.gemsockets = int(file[key]["gemsockets"])
-        #except: pass
+        # try: obj.range = int(file[key]["rangeadder"])
+        # except: pass
+        # try: obj.speed = int(file[key]["speed"])
+        # except: pass
+        # try: obj.reqstr = int(file[key]["reqstr"])
+        # except: pass
+        # try: obj.level = int(file[key]["level"])
+        # except: pass
+        # try: obj.levelreq = int(file[key]["levelreq"])
+        # except: pass
+        # try: obj.gemsockets = int(file[key]["gemsockets"])
+        # except: pass
 
         for key2 in ref_codes:
             if key2 == file[key]["type"]:
@@ -1052,7 +1053,7 @@ if __name__ == "__main__":
     for key in file:
         obj = ItemArmor()
         code = key
-        obj.quality = "normal"
+        # obj.quality = "normal"
         name = ref_codes[key]["name"]
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
@@ -1080,14 +1081,14 @@ if __name__ == "__main__":
         except: pass
         obj.props = None if props==[] else props
 
-        try: obj.reqstr = int(file[key]["reqstr"])
-        except: pass
-        try: obj.durability = int(file[key]["durability"])
-        except: pass
-        try: obj.level = int(file[key]["level"])
-        except: pass
-        try: obj.levelreq = int(file[key]["levelreq"])
-        except: pass
+        # try: obj.reqstr = int(file[key]["reqstr"])
+        # except: pass
+        # try: obj.durability = int(file[key]["durability"])
+        # except: pass
+        # try: obj.level = int(file[key]["level"])
+        # except: pass
+        # try: obj.levelreq = int(file[key]["levelreq"])
+        # except: pass
         # try: obj.gemsockets = int(file[key]["gemsockets"])
         # except: pass
 
