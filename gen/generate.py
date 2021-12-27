@@ -735,12 +735,11 @@ if __name__ == "__main__":
         for key in properties:
             f.write(f"{key}:\n")
             for pattern in properties[key]["patterns"]:
-                #print(pattern)
                 line = pattern['pos']
-                f.write(f"    {line}\n")
+                f.write(f"    single: {line}\n")
             for pattern in properties[key]["patterns_range"]:
                 line = pattern['pos']
-                f.write(f"    {line}\n")
+                f.write(f"    range: {line}\n")
 
     # create types file
     types={}

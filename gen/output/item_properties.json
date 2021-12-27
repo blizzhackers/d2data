@@ -4414,8 +4414,8 @@
     "children": [],
     "patterns": [
       {
-        "neg": "Socketed ({d})",
-        "pos": "Socketed ({d})",
+        "neg": "Socketed ({:d})",
+        "pos": "Socketed ({:d})",
         "spec": [
           0,
           -1,
