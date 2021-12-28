@@ -38,6 +38,7 @@ class CodesRef:
     display_name: str = None
     code: str = None
     quality: str = None
+    type_code: str = None
     def __getitem__(self, key):
         return super().__getattribute__(key)
 
@@ -544,7 +545,12 @@ if __name__ == "__main__":
                 obj.code = file[key]["code"] if "code" in file[key] else key
                 obj.display_name = item_parser.f_strings[key]
                 obj.name = item_parser.full_to_short(obj.display_name)
-                obj.quality = quality[count]
+                try: obj.type_code = item_parser.full_to_short(file[key]["type"])
+                except: pass
+                if obj.type_code== "rune" or obj.type_code == "ques":
+                    obj.quality = "special"
+                else:
+                    obj.quality = quality[count]
                 #print(obj)
                 if obj.code not in ref_codes:
                     ref_codes[obj.code] = obj
@@ -573,7 +579,6 @@ if __name__ == "__main__":
             pass
     with open('output/ref_codes.json', 'w', encoding='utf-8') as f:
         json.dump(ref_codes, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
-
 
     # construct properties file
     properties={}
@@ -1018,6 +1023,12 @@ if __name__ == "__main__":
             if key2 == file[key]["type"]:
                 obj.type = ref_codes[key2]["name"]
                 break
+        if obj.type and not ( obj.type in ("amazon_bow", "bow", "crossbow") or name == "phase_blade"):
+            prop_obj = ItemProperty()
+            prop_obj.prop = "ethereal"
+            prop_obj.min = 0
+            prop_obj.max = 1
+            obj.props.append(prop_obj)
 
         for count,class_name in enumerate(item_parser.item_classes):
             if class_name in file[key] and file[key][class_name] == code:
@@ -1096,6 +1107,13 @@ if __name__ == "__main__":
             if key2 == file[key]["type"]:
                 obj.type = ref_codes[key2]["name"]
                 break
+
+        if obj.type and not obj.type in ("amazon_bow", "bow", "crossbow"):
+            prop_obj = ItemProperty()
+            prop_obj.prop = "ethereal"
+            prop_obj.min = 0
+            prop_obj.max = 1
+            obj.props.append(prop_obj)
 
         for count,class_name in enumerate(item_parser.item_classes):
             if class_name in file[key] and file[key][class_name] == code:

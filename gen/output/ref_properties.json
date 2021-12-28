@@ -1,0 +1,1430 @@
+{
+  "adddamage": [
+    "dmg",
+    "dmg/time"
+  ],
+  "adddefense": [
+    "ac",
+    "ac/time"
+  ],
+  "amazonskills": [
+    "ama"
+  ],
+  "armorclass": [
+    "ac"
+  ],
+  "armorclass_vs_hth": [
+    "ac-hth"
+  ],
+  "armorclass_vs_missile": [
+    "ac-miss"
+  ],
+  "armorclassvshth": [
+    "ac-hth"
+  ],
+  "armorclassvsmissile": [
+    "ac-miss"
+  ],
+  "assassinskills": [
+    "ass"
+  ],
+  "attack_vs_montype": [
+    "att-mon%"
+  ],
+  "attackrating": [
+    "att"
+  ],
+  "attackratingpercent": [
+    "att%"
+  ],
+  "attackspeed": [
+    "swing1",
+    "swing2",
+    "swing3"
+  ],
+  "attackvsmontype": [
+    "att-mon%"
+  ],
+  "barbarianskills": [
+    "bar"
+  ],
+  "bonusdamage": [
+    "dmg",
+    "dmg/time"
+  ],
+  "bonusdefense": [
+    "ac",
+    "ac/time"
+  ],
+  "chanceofblocking": [
+    "block"
+  ],
+  "chancetocastonkill": [
+    "kill-skill"
+  ],
+  "chancetocastonlevelup": [
+    "levelup-skill"
+  ],
+  "chancetocastonstrike": [
+    "hit-skill"
+  ],
+  "chancetocastwhenstruck": [
+    "gethit-skill"
+  ],
+  "chargedskill": [
+    "charged"
+  ],
+  "coldabsorb": [
+    "abs-cold",
+    "abs-cold%",
+    "abs-cold/time"
+  ],
+  "coldlength": [
+    "cold-len"
+  ],
+  "coldmaxdam": [
+    "cold-max"
+  ],
+  "coldmindam": [
+    "cold-min"
+  ],
+  "coldresist": [
+    "res-cold"
+  ],
+  "coldskilldamage": [
+    "extra-cold"
+  ],
+  "crushingblow": [
+    "crush",
+    "crush/time"
+  ],
+  "damage_vs_montype": [
+    "dmg-mon%"
+  ],
+  "damagebonus": [
+    "dmg",
+    "dmg/time"
+  ],
+  "damagereduction": [
+    "red-dmg%"
+  ],
+  "damageresist": [
+    "red-dmg%"
+  ],
+  "damagevsmontype": [
+    "dmg-mon%"
+  ],
+  "deadlystrike": [
+    "deadly",
+    "deadly/time"
+  ],
+  "defensebonus": [
+    "ac",
+    "ac/time"
+  ],
+  "dexterity": [
+    "dex"
+  ],
+  "druidskills": [
+    "dru"
+  ],
+  "energy": [
+    "enr"
+  ],
+  "enhanceddamage": [
+    "dmg%",
+    "dmg%/time"
+  ],
+  "enhanceddefense": [
+    "ac%",
+    "ac%/time",
+    "ac-hth"
+  ],
+  "extragold": [
+    "gold%"
+  ],
+  "fade": [
+    "fade"
+  ],
+  "fasterblockrate": [
+    "block1",
+    "block2",
+    "block3"
+  ],
+  "fastercastrate": [
+    "cast1",
+    "cast2",
+    "cast3"
+  ],
+  "fasterhitrecovery": [
+    "balance1",
+    "balance2",
+    "balance3"
+  ],
+  "fasterrunwalk": [
+    "move1",
+    "move2",
+    "move3"
+  ],
+  "fbr": [
+    "block1",
+    "block2",
+    "block3"
+  ],
+  "fcr": [
+    "cast1",
+    "cast2",
+    "cast3"
+  ],
+  "fhr": [
+    "balance1",
+    "balance2",
+    "balance3"
+  ],
+  "fireabsorb": [
+    "abs-fire",
+    "abs-fire%",
+    "abs-fire/time"
+  ],
+  "firemaxdam": [
+    "fire-max"
+  ],
+  "firemindam": [
+    "fire-min"
+  ],
+  "fireresist": [
+    "res-fire"
+  ],
+  "fireskilldamage": [
+    "extra-fire"
+  ],
+  "fireskills": [
+    "fireskill"
+  ],
+  "freezetarget": [
+    "freeze"
+  ],
+  "frw": [
+    "move1",
+    "move2",
+    "move3"
+  ],
+  "goldfind": [
+    "gold%"
+  ],
+  "hitblindstarget": [
+    "stupidity"
+  ],
+  "hpregen": [
+    "regen"
+  ],
+  "ias": [
+    "swing1",
+    "swing2",
+    "swing3"
+  ],
+  "increasedattackspeed": [
+    "swing1",
+    "swing2",
+    "swing3"
+  ],
+  "item_absorb_cold_bytime": [
+    "abs-cold/time"
+  ],
+  "item_absorb_cold_perlevel": [
+    "abs-cold/lvl"
+  ],
+  "item_absorb_fire_bytime": [
+    "abs-fire/time"
+  ],
+  "item_absorb_fire_perlevel": [
+    "abs-fire/lvl"
+  ],
+  "item_absorb_ltng_bytime": [
+    "abs-ltng/time"
+  ],
+  "item_absorb_ltng_perlevel": [
+    "abs-ltng/lvl"
+  ],
+  "item_absorb_pois_bytime": [
+    "abs-pois/time"
+  ],
+  "item_absorb_pois_perlevel": [
+    "abs-pois/lvl"
+  ],
+  "item_absorbcold": [
+    "abs-cold"
+  ],
+  "item_absorbcold_percent": [
+    "abs-cold%"
+  ],
+  "item_absorbfire": [
+    "abs-fire"
+  ],
+  "item_absorbfire_percent": [
+    "abs-fire%"
+  ],
+  "item_absorblight": [
+    "abs-ltng"
+  ],
+  "item_absorblight_percent": [
+    "abs-ltng%"
+  ],
+  "item_absorbmagic": [
+    "abs-mag"
+  ],
+  "item_absorbmagic_percent": [
+    "abs-mag%"
+  ],
+  "item_addclassskills": [
+    "ama",
+    "ass",
+    "bar",
+    "dru",
+    "nec",
+    "pal",
+    "randclassskill",
+    "sor"
+  ],
+  "item_addexperience": [
+    "addxp"
+  ],
+  "item_addskill_tab": [
+    "skilltab"
+  ],
+  "item_allskills": [
+    "allskills"
+  ],
+  "item_armor_bytime": [
+    "ac/time"
+  ],
+  "item_armor_percent": [
+    "ac%"
+  ],
+  "item_armor_perlevel": [
+    "ac/lvl"
+  ],
+  "item_armorpercent_bytime": [
+    "ac%/time"
+  ],
+  "item_armorpercent_perlevel": [
+    "ac%/lvl"
+  ],
+  "item_attackertakesdamage": [
+    "thorns"
+  ],
+  "item_attackertakeslightdamage": [
+    "light-thorns"
+  ],
+  "item_aura": [
+    "aura"
+  ],
+  "item_cannotbefrozen": [
+    "nofreeze"
+  ],
+  "item_charged_skill": [
+    "charged"
+  ],
+  "item_cold_damagemax_bytime": [
+    "dmg-cold/time"
+  ],
+  "item_cold_damagemax_perlevel": [
+    "dmg-cold/lvl"
+  ],
+  "item_crushingblow": [
+    "crush"
+  ],
+  "item_crushingblow_bytime": [
+    "crush/time"
+  ],
+  "item_crushingblow_perlevel": [
+    "crush/lvl"
+  ],
+  "item_damage_demon_bytime": [
+    "dmg-dem/time"
+  ],
+  "item_damage_demon_perlevel": [
+    "dmg-dem/lvl"
+  ],
+  "item_damage_undead_bytime": [
+    "dmg-und/time"
+  ],
+  "item_damage_undead_perlevel": [
+    "dmg-und/lvl"
+  ],
+  "item_damagetargetac": [
+    "dmg-ac"
+  ],
+  "item_damagetomana": [
+    "dmg-to-mana"
+  ],
+  "item_deadlystrike": [
+    "deadly"
+  ],
+  "item_deadlystrike_bytime": [
+    "deadly/time"
+  ],
+  "item_deadlystrike_perlevel": [
+    "deadly/lvl"
+  ],
+  "item_demon_tohit": [
+    "att-demon"
+  ],
+  "item_demondamage_percent": [
+    "dmg-demon"
+  ],
+  "item_dexterity_bytime": [
+    "dex/time"
+  ],
+  "item_dexterity_perlevel": [
+    "dex/lvl"
+  ],
+  "item_doubleherbduration": [
+    "herb"
+  ],
+  "item_elemskill": [
+    "fireskill"
+  ],
+  "item_energy_bytime": [
+    "enr/time"
+  ],
+  "item_energy_perlevel": [
+    "enr/lvl"
+  ],
+  "item_explosivearrow": [
+    "explosivearrow"
+  ],
+  "item_extra_stack": [
+    "stack"
+  ],
+  "item_extrablood": [
+    "bloody"
+  ],
+  "item_fasterattackrate": [
+    "swing1",
+    "swing2",
+    "swing3"
+  ],
+  "item_fasterblockrate": [
+    "block1",
+    "block2",
+    "block3"
+  ],
+  "item_fastercastrate": [
+    "cast1",
+    "cast2",
+    "cast3"
+  ],
+  "item_fastergethitrate": [
+    "balance1",
+    "balance2",
+    "balance3"
+  ],
+  "item_fastermovevelocity": [
+    "move1",
+    "move2",
+    "move3"
+  ],
+  "item_find_gold_bytime": [
+    "gold%/time"
+  ],
+  "item_find_gold_perlevel": [
+    "gold%/lvl"
+  ],
+  "item_find_magic_bytime": [
+    "mag%/time"
+  ],
+  "item_find_magic_perlevel": [
+    "mag%/lvl"
+  ],
+  "item_fire_damagemax_bytime": [
+    "dmg-fire/time"
+  ],
+  "item_fire_damagemax_perlevel": [
+    "dmg-fire/lvl"
+  ],
+  "item_fractionaltargetac": [
+    "reduce-ac"
+  ],
+  "item_freeze": [
+    "freeze"
+  ],
+  "item_goldbonus": [
+    "gold%"
+  ],
+  "item_halffreezeduration": [
+    "half-freeze"
+  ],
+  "item_healafterdemonkill": [
+    "demon-heal"
+  ],
+  "item_healafterkill": [
+    "heal-kill"
+  ],
+  "item_howl": [
+    "howl"
+  ],
+  "item_hp_bytime": [
+    "hp/time"
+  ],
+  "item_hp_perlevel": [
+    "hp/lvl"
+  ],
+  "item_ignoretargetac": [
+    "ignore-ac"
+  ],
+  "item_kick_damage_bytime": [
+    "kick/time"
+  ],
+  "item_kick_damage_perlevel": [
+    "kick/lvl"
+  ],
+  "item_kickdamage": [
+    "kick"
+  ],
+  "item_knockback": [
+    "knock"
+  ],
+  "item_levelreq": [
+    "levelreq"
+  ],
+  "item_lightcolor": [
+    "color"
+  ],
+  "item_lightradius": [
+    "light"
+  ],
+  "item_ltng_damagemax_bytime": [
+    "dmg-ltng/time"
+  ],
+  "item_ltng_damagemax_perlevel": [
+    "dmg-ltng/lvl"
+  ],
+  "item_magicarrow": [
+    "magicarrow"
+  ],
+  "item_magicbonus": [
+    "mag%"
+  ],
+  "item_mana_bytime": [
+    "mana/time"
+  ],
+  "item_mana_perlevel": [
+    "mana/lvl"
+  ],
+  "item_manaafterkill": [
+    "mana-kill"
+  ],
+  "item_maxdamage_bytime": [
+    "dmg/time"
+  ],
+  "item_maxdamage_percent_bytime": [
+    "dmg%/time"
+  ],
+  "item_maxdamage_percent_perlevel": [
+    "dmg%/lvl"
+  ],
+  "item_maxdamage_perlevel": [
+    "dmg/lvl"
+  ],
+  "item_maxdurability_percent": [
+    "dur%"
+  ],
+  "item_maxhp_percent": [
+    "hp%"
+  ],
+  "item_maxmana_percent": [
+    "mana%"
+  ],
+  "item_nonclassskill": [
+    "oskill"
+  ],
+  "item_normaldamage": [
+    "dmg"
+  ],
+  "item_numsockets": [
+    "sock"
+  ],
+  "item_openwounds": [
+    "openwounds"
+  ],
+  "item_openwounds_bytime": [
+    "wounds/time"
+  ],
+  "item_openwounds_perlevel": [
+    "wounds/lvl"
+  ],
+  "item_pierce": [
+    "pierce"
+  ],
+  "item_pois_damagemax_bytime": [
+    "dmg-pois/time"
+  ],
+  "item_pois_damagemax_perlevel": [
+    "dmg-pois/lvl"
+  ],
+  "item_poisonlengthresist": [
+    "res-pois-len"
+  ],
+  "item_preventheal": [
+    "noheal"
+  ],
+  "item_reanimate": [
+    "reanimate"
+  ],
+  "item_reducedprices": [
+    "cheap"
+  ],
+  "item_regenstamina_bytime": [
+    "regen-stam/time"
+  ],
+  "item_regenstamina_perlevel": [
+    "regen-stam/lvl"
+  ],
+  "item_replenish_durability": [
+    "rep-dur"
+  ],
+  "item_replenish_quantity": [
+    "rep-quant"
+  ],
+  "item_req_percent": [
+    "ease"
+  ],
+  "item_resist_cold_bytime": [
+    "res-cold/time"
+  ],
+  "item_resist_cold_perlevel": [
+    "res-cold/lvl"
+  ],
+  "item_resist_fire_bytime": [
+    "res-fire/time"
+  ],
+  "item_resist_fire_perlevel": [
+    "res-fire/lvl"
+  ],
+  "item_resist_ltng_bytime": [
+    "res-ltng/time"
+  ],
+  "item_resist_ltng_perlevel": [
+    "res-ltng/lvl"
+  ],
+  "item_resist_pois_bytime": [
+    "res-pois/time"
+  ],
+  "item_resist_pois_perlevel": [
+    "res-pois/lvl"
+  ],
+  "item_restinpeace": [
+    "rip"
+  ],
+  "item_singleskill": [
+    "skill",
+    "skill-rand"
+  ],
+  "item_skillonattack": [
+    "att-skill"
+  ],
+  "item_skillondeath": [
+    "death-skill"
+  ],
+  "item_skillongethit": [
+    "gethit-skill"
+  ],
+  "item_skillonhit": [
+    "hit-skill"
+  ],
+  "item_skillonkill": [
+    "kill-skill"
+  ],
+  "item_skillonlevelup": [
+    "levelup-skill"
+  ],
+  "item_slow": [
+    "slow"
+  ],
+  "item_stamina_bytime": [
+    "stam/time"
+  ],
+  "item_stamina_perlevel": [
+    "stam/lvl"
+  ],
+  "item_staminadrainpct": [
+    "stamdrain"
+  ],
+  "item_strength_bytime": [
+    "str/time"
+  ],
+  "item_strength_perlevel": [
+    "str/lvl"
+  ],
+  "item_stupidity": [
+    "stupidity"
+  ],
+  "item_thorns_perlevel": [
+    "thorns/lvl"
+  ],
+  "item_throwable": [
+    "throw"
+  ],
+  "item_timeduration": [
+    "time"
+  ],
+  "item_tohit_bytime": [
+    "att/time"
+  ],
+  "item_tohit_demon_bytime": [
+    "att-dem/time"
+  ],
+  "item_tohit_demon_perlevel": [
+    "att-dem/lvl"
+  ],
+  "item_tohit_percent": [
+    "att%"
+  ],
+  "item_tohit_perlevel": [
+    "att/lvl"
+  ],
+  "item_tohit_undead_bytime": [
+    "att-und/time"
+  ],
+  "item_tohit_undead_perlevel": [
+    "att-und/lvl"
+  ],
+  "item_tohitpercent_bytime": [
+    "att%/time"
+  ],
+  "item_tohitpercent_perlevel": [
+    "att%/lvl"
+  ],
+  "item_undead_tohit": [
+    "att-undead"
+  ],
+  "item_undeaddamage_percent": [
+    "dmg-undead"
+  ],
+  "item_vitality_bytime": [
+    "vit/time"
+  ],
+  "item_vitality_perlevel": [
+    "vit/lvl"
+  ],
+  "itemabsorbcold": [
+    "abs-cold"
+  ],
+  "itemabsorbcoldbytime": [
+    "abs-cold/time"
+  ],
+  "itemabsorbcoldpercent": [
+    "abs-cold%"
+  ],
+  "itemabsorbcoldperlevel": [
+    "abs-cold/lvl"
+  ],
+  "itemabsorbfire": [
+    "abs-fire"
+  ],
+  "itemabsorbfirebytime": [
+    "abs-fire/time"
+  ],
+  "itemabsorbfirepercent": [
+    "abs-fire%"
+  ],
+  "itemabsorbfireperlevel": [
+    "abs-fire/lvl"
+  ],
+  "itemabsorblight": [
+    "abs-ltng"
+  ],
+  "itemabsorblightpercent": [
+    "abs-ltng%"
+  ],
+  "itemabsorbltngbytime": [
+    "abs-ltng/time"
+  ],
+  "itemabsorbltngperlevel": [
+    "abs-ltng/lvl"
+  ],
+  "itemabsorbmagic": [
+    "abs-mag"
+  ],
+  "itemabsorbmagicpercent": [
+    "abs-mag%"
+  ],
+  "itemabsorbpoisbytime": [
+    "abs-pois/time"
+  ],
+  "itemabsorbpoisperlevel": [
+    "abs-pois/lvl"
+  ],
+  "itemaddamazonskills": [
+    "ama"
+  ],
+  "itemaddassassinskills": [
+    "ass"
+  ],
+  "itemaddbarbarianskills": [
+    "bar"
+  ],
+  "itemaddclassskills": [
+    "ama",
+    "ass",
+    "bar",
+    "dru",
+    "nec",
+    "pal",
+    "randclassskill",
+    "sor"
+  ],
+  "itemadddruidskills": [
+    "dru"
+  ],
+  "itemaddexperience": [
+    "addxp"
+  ],
+  "itemaddnecromancerskills": [
+    "nec"
+  ],
+  "itemaddpaladinskills": [
+    "pal"
+  ],
+  "itemaddskilltab": [
+    "skilltab"
+  ],
+  "itemaddsorceressskills": [
+    "sor"
+  ],
+  "itemallskills": [
+    "allskills"
+  ],
+  "itemarmorbytime": [
+    "ac/time"
+  ],
+  "itemarmorpercent": [
+    "ac%"
+  ],
+  "itemarmorpercentbytime": [
+    "ac%/time"
+  ],
+  "itemarmorpercentperlevel": [
+    "ac%/lvl"
+  ],
+  "itemarmorperlevel": [
+    "ac/lvl"
+  ],
+  "itemattackertakesdamage": [
+    "thorns"
+  ],
+  "itemattackertakeslightdamage": [
+    "light-thorns"
+  ],
+  "itemaura": [
+    "aura"
+  ],
+  "itemcannotbefrozen": [
+    "nofreeze"
+  ],
+  "itemchargedskill": [
+    "charged"
+  ],
+  "itemcolddamagemax": [
+    "dmg-cold/time"
+  ],
+  "itemcolddamagemaxbytime": [
+    "dmg-cold/time"
+  ],
+  "itemcolddamagemaxperlevel": [
+    "dmg-cold/lvl"
+  ],
+  "itemcrushingblow": [
+    "crush"
+  ],
+  "itemcrushingblowbytime": [
+    "crush/time"
+  ],
+  "itemcrushingblowperlevel": [
+    "crush/lvl"
+  ],
+  "itemdamagedemonbytime": [
+    "dmg-dem/time"
+  ],
+  "itemdamagedemonperlevel": [
+    "dmg-dem/lvl"
+  ],
+  "itemdamagetargetac": [
+    "dmg-ac"
+  ],
+  "itemdamagetomana": [
+    "dmg-to-mana"
+  ],
+  "itemdamageundeadbytime": [
+    "dmg-und/time"
+  ],
+  "itemdamageundeadperlevel": [
+    "dmg-und/lvl"
+  ],
+  "itemdeadlystrike": [
+    "deadly"
+  ],
+  "itemdeadlystrikebytime": [
+    "deadly/time"
+  ],
+  "itemdeadlystrikeperlevel": [
+    "deadly/lvl"
+  ],
+  "itemdemondamagepercent": [
+    "dmg-demon"
+  ],
+  "itemdemontohit": [
+    "att-demon"
+  ],
+  "itemdexteritybytime": [
+    "dex/time"
+  ],
+  "itemdexterityperlevel": [
+    "dex/lvl"
+  ],
+  "itemdoubleherbduration": [
+    "herb"
+  ],
+  "itemelemskill": [
+    "fireskill"
+  ],
+  "itemenergybytime": [
+    "enr/time"
+  ],
+  "itemenergyperlevel": [
+    "enr/lvl"
+  ],
+  "itemexplosivearrow": [
+    "explosivearrow"
+  ],
+  "itemextrablood": [
+    "bloody"
+  ],
+  "itemextrastack": [
+    "stack"
+  ],
+  "itemfasterattackrate": [
+    "swing1",
+    "swing2",
+    "swing3"
+  ],
+  "itemfasterblockrate": [
+    "block1",
+    "block2",
+    "block3"
+  ],
+  "itemfastercastrate": [
+    "cast1",
+    "cast2",
+    "cast3"
+  ],
+  "itemfastergethitrate": [
+    "balance1",
+    "balance2",
+    "balance3"
+  ],
+  "itemfastermovevelocity": [
+    "move1",
+    "move2",
+    "move3"
+  ],
+  "itemfindgoldbytime": [
+    "gold%/time"
+  ],
+  "itemfindgoldperlevel": [
+    "gold%/lvl"
+  ],
+  "itemfindmagicbytime": [
+    "mag%/time"
+  ],
+  "itemfindmagicperlevel": [
+    "mag%/lvl"
+  ],
+  "itemfiredamagemax": [
+    "dmg-fire/time"
+  ],
+  "itemfiredamagemaxbytime": [
+    "dmg-fire/time"
+  ],
+  "itemfiredamagemaxperlevel": [
+    "dmg-fire/lvl"
+  ],
+  "itemfractionaltargetac": [
+    "reduce-ac"
+  ],
+  "itemfreeze": [
+    "freeze"
+  ],
+  "itemgoldbonus": [
+    "gold%"
+  ],
+  "itemhalffreezeduration": [
+    "half-freeze"
+  ],
+  "itemhealafterdemonkill": [
+    "demon-heal"
+  ],
+  "itemhealafterkill": [
+    "heal-kill"
+  ],
+  "itemhowl": [
+    "howl"
+  ],
+  "itemhpbytime": [
+    "hp/time"
+  ],
+  "itemhpperlevel": [
+    "hp/lvl"
+  ],
+  "itemignoretargetac": [
+    "ignore-ac"
+  ],
+  "itemkickdamage": [
+    "kick"
+  ],
+  "itemkickdamagebytime": [
+    "kick/time"
+  ],
+  "itemkickdamageperlevel": [
+    "kick/lvl"
+  ],
+  "itemknockback": [
+    "knock"
+  ],
+  "itemlevelreq": [
+    "levelreq"
+  ],
+  "itemlightcolor": [
+    "color"
+  ],
+  "itemlightningdamagemax": [
+    "dmg-ltng/time"
+  ],
+  "itemlightradius": [
+    "light"
+  ],
+  "itemltngdamagemax": [
+    "dmg-ltng/time"
+  ],
+  "itemltngdamagemaxbytime": [
+    "dmg-ltng/time"
+  ],
+  "itemltngdamagemaxperlevel": [
+    "dmg-ltng/lvl"
+  ],
+  "itemmagicarrow": [
+    "magicarrow"
+  ],
+  "itemmagicbonus": [
+    "mag%"
+  ],
+  "itemmanaafterkill": [
+    "mana-kill"
+  ],
+  "itemmanabytime": [
+    "mana/time"
+  ],
+  "itemmanaperlevel": [
+    "mana/lvl"
+  ],
+  "itemmaxdamage": [
+    "dmg/time"
+  ],
+  "itemmaxdamagebytime": [
+    "dmg/time"
+  ],
+  "itemmaxdamagepercentbytime": [
+    "dmg%/time"
+  ],
+  "itemmaxdamagepercentperlevel": [
+    "dmg%/lvl"
+  ],
+  "itemmaxdamageperlevel": [
+    "dmg/lvl"
+  ],
+  "itemmaxdurabilitypercent": [
+    "dur%"
+  ],
+  "itemmaxhppercent": [
+    "hp%"
+  ],
+  "itemmaxmanapercent": [
+    "mana%"
+  ],
+  "itemnonclassskill": [
+    "oskill"
+  ],
+  "itemnormaldamage": [
+    "dmg"
+  ],
+  "itemnumsockets": [
+    "sock"
+  ],
+  "itemopenwounds": [
+    "openwounds"
+  ],
+  "itemopenwoundsbytime": [
+    "wounds/time"
+  ],
+  "itemopenwoundsperlevel": [
+    "wounds/lvl"
+  ],
+  "itempierce": [
+    "pierce"
+  ],
+  "itempoisdamagemaxbytime": [
+    "dmg-pois/time"
+  ],
+  "itempoisdamagemaxperlevel": [
+    "dmg-pois/lvl"
+  ],
+  "itempoisondamagemax": [
+    "dmg-pois/time"
+  ],
+  "itempoisonlengthresist": [
+    "res-pois-len"
+  ],
+  "itempreventheal": [
+    "noheal"
+  ],
+  "itemreanimate": [
+    "reanimate"
+  ],
+  "itemreducedprices": [
+    "cheap"
+  ],
+  "itemregenstaminabytime": [
+    "regen-stam/time"
+  ],
+  "itemregenstaminaperlevel": [
+    "regen-stam/lvl"
+  ],
+  "itemreplenishdurability": [
+    "rep-dur"
+  ],
+  "itemreplenishquantity": [
+    "rep-quant"
+  ],
+  "itemreqpercent": [
+    "ease"
+  ],
+  "itemresistcoldbytime": [
+    "res-cold/time"
+  ],
+  "itemresistcoldperlevel": [
+    "res-cold/lvl"
+  ],
+  "itemresistfirebytime": [
+    "res-fire/time"
+  ],
+  "itemresistfireperlevel": [
+    "res-fire/lvl"
+  ],
+  "itemresistltngbytime": [
+    "res-ltng/time"
+  ],
+  "itemresistltngperlevel": [
+    "res-ltng/lvl"
+  ],
+  "itemresistpoisbytime": [
+    "res-pois/time"
+  ],
+  "itemresistpoisperlevel": [
+    "res-pois/lvl"
+  ],
+  "itemrestinpeace": [
+    "rip"
+  ],
+  "itemsingleskill": [
+    "skill",
+    "skill-rand"
+  ],
+  "itemskillonattack": [
+    "att-skill"
+  ],
+  "itemskillondeath": [
+    "death-skill"
+  ],
+  "itemskillongethit": [
+    "gethit-skill"
+  ],
+  "itemskillonhit": [
+    "hit-skill"
+  ],
+  "itemskillonkill": [
+    "kill-skill"
+  ],
+  "itemskillonlevelup": [
+    "levelup-skill"
+  ],
+  "itemslow": [
+    "slow"
+  ],
+  "itemstaminabytime": [
+    "stam/time"
+  ],
+  "itemstaminadrainpct": [
+    "stamdrain"
+  ],
+  "itemstaminaperlevel": [
+    "stam/lvl"
+  ],
+  "itemstrengthbytime": [
+    "str/time"
+  ],
+  "itemstrengthperlevel": [
+    "str/lvl"
+  ],
+  "itemstupidity": [
+    "stupidity"
+  ],
+  "itemthornsperlevel": [
+    "thorns/lvl"
+  ],
+  "itemthrowable": [
+    "throw"
+  ],
+  "itemtimeduration": [
+    "time"
+  ],
+  "itemtohitbytime": [
+    "att/time"
+  ],
+  "itemtohitdemonbytime": [
+    "att-dem/time"
+  ],
+  "itemtohitdemonperlevel": [
+    "att-dem/lvl"
+  ],
+  "itemtohitpercent": [
+    "att%"
+  ],
+  "itemtohitpercentbytime": [
+    "att%/time"
+  ],
+  "itemtohitpercentperlevel": [
+    "att%/lvl"
+  ],
+  "itemtohitperlevel": [
+    "att/lvl"
+  ],
+  "itemtohitundeadbytime": [
+    "att-und/time"
+  ],
+  "itemtohitundeadperlevel": [
+    "att-und/lvl"
+  ],
+  "itemundeaddamagepercent": [
+    "dmg-undead"
+  ],
+  "itemundeadtohit": [
+    "att-undead"
+  ],
+  "itemvitalitybytime": [
+    "vit/time"
+  ],
+  "itemvitalityperlevel": [
+    "vit/lvl"
+  ],
+  "knockback": [
+    "knock"
+  ],
+  "life": [
+    "hp",
+    "hp/time"
+  ],
+  "lifedrainmindam": [
+    "lifesteal"
+  ],
+  "lifeleech": [
+    "lifesteal"
+  ],
+  "lightmaxdam": [
+    "ltng-max"
+  ],
+  "lightmindam": [
+    "ltng-min"
+  ],
+  "lightningabsorb": [
+    "abs-ltng",
+    "abs-ltng%",
+    "abs-ltng/time"
+  ],
+  "lightningskilldamage": [
+    "extra-ltng"
+  ],
+  "lightresist": [
+    "res-ltng"
+  ],
+  "magic_damage_reduction": [
+    "red-mag"
+  ],
+  "magicdamagereduction": [
+    "red-mag"
+  ],
+  "magicfind": [
+    "mag%"
+  ],
+  "magicresist": [
+    "res-mag"
+  ],
+  "manadrainmindam": [
+    "manasteal"
+  ],
+  "manaleech": [
+    "manasteal"
+  ],
+  "manarecoverybonus": [
+    "regen-mana"
+  ],
+  "maxcoldresist": [
+    "res-cold-max"
+  ],
+  "maxdamage": [
+    "dmg/time"
+  ],
+  "maxdurability": [
+    "dur"
+  ],
+  "maxdurabilitypercent": [
+    "dur%"
+  ],
+  "maxfireresist": [
+    "res-fire-max"
+  ],
+  "maxhp": [
+    "hp"
+  ],
+  "maxlightresist": [
+    "res-ltng-max"
+  ],
+  "maxmagicresist": [
+    "res-mag-max"
+  ],
+  "maxmana": [
+    "mana"
+  ],
+  "maxpoisonresist": [
+    "res-pois-max"
+  ],
+  "maxstamina": [
+    "stam"
+  ],
+  "necromancerskills": [
+    "nec"
+  ],
+  "normal_damage_reduction": [
+    "red-dmg"
+  ],
+  "normaldamagereduction": [
+    "red-dmg"
+  ],
+  "openwounds": [
+    "wounds/time"
+  ],
+  "paladinskills": [
+    "pal"
+  ],
+  "passive_cold_mastery": [
+    "extra-cold"
+  ],
+  "passive_cold_pierce": [
+    "pierce-cold"
+  ],
+  "passive_fire_mastery": [
+    "extra-fire"
+  ],
+  "passive_fire_pierce": [
+    "pierce-fire"
+  ],
+  "passive_ltng_mastery": [
+    "extra-ltng"
+  ],
+  "passive_ltng_pierce": [
+    "pierce-ltng"
+  ],
+  "passive_pois_mastery": [
+    "extra-pois"
+  ],
+  "passive_pois_pierce": [
+    "pierce-pois"
+  ],
+  "passivecoldmastery": [
+    "extra-cold"
+  ],
+  "passivecoldpierce": [
+    "pierce-cold"
+  ],
+  "passivefiremastery": [
+    "extra-fire"
+  ],
+  "passivefirepierce": [
+    "pierce-fire"
+  ],
+  "passiveltngmastery": [
+    "extra-ltng"
+  ],
+  "passiveltngpierce": [
+    "pierce-ltng"
+  ],
+  "passivepoismastery": [
+    "extra-pois"
+  ],
+  "passivepoispierce": [
+    "pierce-pois"
+  ],
+  "poisonlength": [
+    "pois-len"
+  ],
+  "poisonmaxdam": [
+    "pois-max"
+  ],
+  "poisonmindam": [
+    "pois-min"
+  ],
+  "poisonresist": [
+    "res-pois"
+  ],
+  "poisonskilldamage": [
+    "extra-pois"
+  ],
+  "reducedvendorprices": [
+    "cheap"
+  ],
+  "reduceprices": [
+    "cheap"
+  ],
+  "skills": [
+    "skill",
+    "skill-rand",
+    "skilltab"
+  ],
+  "sockets": [
+    "sock"
+  ],
+  "sorceressskills": [
+    "sor"
+  ],
+  "staminarecoverybonus": [
+    "regen-stam"
+  ],
+  "state": [
+    "state"
+  ],
+  "strength": [
+    "str"
+  ],
+  "targetdefense": [
+    "reduce-ac"
+  ],
+  "toblock": [
+    "block"
+  ],
+  "tohit": [
+    "att"
+  ],
+  "vitality": [
+    "vit"
+  ]
+}
