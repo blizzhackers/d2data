@@ -554,7 +554,7 @@
     "within": []
   },
   "all-stats": {
-    "aliases": null,
+    "aliases": [],
     "children": [
       "str",
       "enr",
@@ -1371,7 +1371,7 @@
     "patterns_range": [],
     "within": []
   },
-  "damage_1hand": {
+  "damage-1hand": {
     "aliases": [],
     "children": [],
     "patterns": [
@@ -1398,7 +1398,7 @@
     ],
     "within": []
   },
-  "damage_2hand": {
+  "damage-2hand": {
     "aliases": [],
     "children": [],
     "patterns": [
@@ -1715,7 +1715,9 @@
     "within": []
   },
   "dmg-cold": {
-    "aliases": null,
+    "aliases": [
+      "itemcolddamage"
+    ],
     "children": [
       "cold-min",
       "cold-max",
@@ -1861,7 +1863,9 @@
     "within": []
   },
   "dmg-elem": {
-    "aliases": null,
+    "aliases": [
+      "itemelementaldamage"
+    ],
     "children": [
       "fire-min",
       "fire-max",
@@ -1904,7 +1908,9 @@
     "within": []
   },
   "dmg-elem-max": {
-    "aliases": null,
+    "aliases": [
+      "itemelementaldamagemax"
+    ],
     "children": [
       "fire-max",
       "ltng-max",
@@ -1944,7 +1950,9 @@
     "within": []
   },
   "dmg-elem-min": {
-    "aliases": null,
+    "aliases": [
+      "itemelementaldamagemin"
+    ],
     "children": [
       "fire-min",
       "ltng-min",
@@ -1983,7 +1991,9 @@
     "within": []
   },
   "dmg-fire": {
-    "aliases": null,
+    "aliases": [
+      "itemfiredamage"
+    ],
     "children": [
       "fire-min",
       "fire-max"
@@ -2054,7 +2064,10 @@
     "within": []
   },
   "dmg-ltng": {
-    "aliases": null,
+    "aliases": [
+      "itemlightningdamage",
+      "itemltngdamage"
+    ],
     "children": [
       "ltng-min",
       "ltng-max"
@@ -2126,7 +2139,7 @@
     "within": []
   },
   "dmg-mag": {
-    "aliases": null,
+    "aliases": [],
     "children": [],
     "patterns": [
       {
@@ -2194,7 +2207,11 @@
     "within": []
   },
   "dmg-norm": {
-    "aliases": null,
+    "aliases": [
+      "damagebonus",
+      "bonusdamage",
+      "adddamage"
+    ],
     "children": [],
     "patterns": [
       {
@@ -2221,7 +2238,9 @@
     "within": []
   },
   "dmg-pois": {
-    "aliases": null,
+    "aliases": [
+      "itempoisondamage"
+    ],
     "children": [
       "pois-min",
       "pois-max",
@@ -2307,7 +2326,7 @@
     "within": []
   },
   "dmg-throw": {
-    "aliases": null,
+    "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
@@ -4186,7 +4205,9 @@
     "within": []
   },
   "res-all": {
-    "aliases": null,
+    "aliases": [
+      "allresist"
+    ],
     "children": [
       "res-fire",
       "res-ltng",
@@ -4208,7 +4229,9 @@
     "within": []
   },
   "res-all-max": {
-    "aliases": null,
+    "aliases": [
+      "allresistmax"
+    ],
     "children": [
       "res-fire-max",
       "res-ltng-max",

@@ -8,8 +8,6 @@ outdir="output"
 
 @dataclasses.dataclass
 class PropertyBase():
-    #code: str = None
-    #code_clean: str = None
     aliases: list = dataclasses.field(default_factory=list)
     def __getitem__(self, key):
         return super().__getattribute__(key)
@@ -501,16 +499,19 @@ class ItemParser:
         return props
 
     def manage_aliases(self, property: str, alias: str, properties: dict, aliases: dict):
-        try:
+    #try:
+        print(property)
+        if property in properties:
             if alias not in properties[property]["aliases"]:
                 properties[property]["aliases"].append(alias)
             else:
-                properties[property]["aliases"] = [alias]
-            if alias not in aliases:
-                aliases[alias] = [property]
-            else:
-                aliases[alias].append(property)
-        except: pass
+                #properties[property]["aliases"] = [ alias ]
+                setattr(properties[property],"aliases", [alias])
+        if alias not in aliases:
+            aliases[alias] = [property]
+        else:
+            aliases[alias].append(property)
+    #except: pass
         return properties, aliases
 
 if __name__ == "__main__":
@@ -522,9 +523,9 @@ if __name__ == "__main__":
     f_strings = item_parser.f_strings
     f_skills = item_parser.f_skills
 
-    # str = "+3 to Cold Skills (Sorceress only)"
+    # str = "-3 to Cold Skills (Sorceress only)"
     # print(str)
-    # form="+{:d} to {} ({} only)"
+    # form="{:d} to {} ({} only)"
     # print(parse.search(form,str))
 
     # create reference of names/codes/etc from LocaleStringsEn.json
@@ -600,7 +601,7 @@ if __name__ == "__main__":
                             within[property].append(key)
                         else:
                             within[property] = [key]
-            obj.aliases = None
+            #obj.aliases = None
         properties[code]=obj
     for key in f_properties:
         if "stat2" not in f_properties[key]:
@@ -720,7 +721,7 @@ if __name__ == "__main__":
                         properties[key]["patterns_range"].append(val)
     # create properties: damage_1hand, damage_2hand, defense, durability
     obj = PropertyDef()
-    prop = "damage_1hand"
+    prop = "damage-1hand"
     obj.patterns = [{
             "neg": "One-Hand Damage: {:d}",
             "pos": "One-Hand Damage: {:d}",
@@ -733,7 +734,7 @@ if __name__ == "__main__":
         }]
     properties[prop]=obj
     obj = PropertyDef()
-    prop = "damage_2hand"
+    prop = "damage-2hand"
     obj.patterns = [{
             "neg": "Two-Hand Damage: {:d}",
             "pos": "Two-Hand Damage: {:d}",
@@ -906,20 +907,63 @@ if __name__ == "__main__":
 
     with open('output/item_properties.json', 'w', encoding='utf-8') as f:
         json.dump(properties, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
-    with open('output/ref_properties.json', 'w', encoding='utf-8') as f:
-        json.dump(aliases, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
-
+    # with open('output/ref_properties.json', 'w', encoding='utf-8') as f:
+    #     json.dump(aliases, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create a reference file for property patterns
     with open('output/ref_patterns.txt', 'w', encoding='utf-8') as f:
         for key in properties:
             f.write(f"{key}:\n")
             for pattern in properties[key]["patterns"]:
-                line = pattern['pos']
+                line = pattern['pos'].replace("+{","{")
                 f.write(f"    single: {line}\n")
             for pattern in properties[key]["patterns_range"]:
-                line = pattern['pos']
+                line = pattern['pos'].replace("+{","{")
                 f.write(f"    range: {line}\n")
+
+    # build reverse reference file with high level of pattern with included aliases
+
+    allPatterns = {}
+    for key in properties:
+        for pattern in properties[key]["patterns"]:
+            line = pattern['pos'].replace("+{","{")
+            # add key and aliases to array
+            props = [ key ]
+            if properties[key]["aliases"]:
+                for alias in properties[key]["aliases"]:
+                    if alias not in props:
+                        props.append(alias)
+            # if pattern doesn't exist in all patterns dict, then make a new one
+            if line not in allPatterns:
+                allPatterns[line] = props
+            # if pattern already exists in all patterns dict, append key / aliases
+            else:
+                # add key and aliases to array
+                if key not in allPatterns[line]:
+                    for prop in props:
+                        if prop not in allPatterns[line]:
+                            allPatterns[line].append(prop)
+        for pattern in properties[key]["patterns_range"]:
+            line = pattern['pos'].replace("+{","{")
+            # add key and aliases to array
+            props = [ key ]
+            if properties[key]["aliases"]:
+                for alias in properties[key]["aliases"]:
+                    if alias not in props:
+                        props.append(alias)
+            # if pattern doesn't exist in all patterns dict, then make a new one
+            if line not in allPatterns:
+                allPatterns[line] = props
+            # if pattern already exists in all patterns dict, append key / aliases
+            else:
+                # add key and aliases to array
+                if key not in allPatterns[line]:
+                    for prop in props:
+                        if prop not in allPatterns[line]:
+                            allPatterns[line].append(prop)
+
+    with open('output/ref_patterns.json', 'w', encoding='utf-8') as f:
+        json.dump(allPatterns, f, ensure_ascii=False, sort_keys=True, cls=EnhancedJSONEncoder, indent=2)
 
     # create types file
     types={}
@@ -940,7 +984,7 @@ if __name__ == "__main__":
                     for typ_no in [ "type", "type2" ]:
                         if typ_no in file[key2] and file[key2][typ_no] == code and ref_codes[key2] not in obj.items:
                             obj.items.append(ref_codes[key2].name)
-        obj.items = None if obj.items==[] else obj.items
+        #obj.items = None if obj.items==[] else obj.items
         types[name] = obj
         #print(types[name])
     with open('output/item_types.json', 'w', encoding='utf-8') as f:
@@ -1004,7 +1048,8 @@ if __name__ == "__main__":
                     prop_obj.max = int(file[key]["maxdam"])
                     props.append(prop_obj)
                 except: pass
-        obj.props = None if props==[] else props
+        #obj.props = None if props==[] else props
+        obj.props = props
 
         # try: obj.range = int(file[key]["rangeadder"])
         # except: pass
@@ -1040,7 +1085,7 @@ if __name__ == "__main__":
             item_code=item_parser.f_set_items[key2]["item"]
             if item_code == code:
                 obj.sets.append(ref_codes[key2]["name"])
-        obj.sets = None if obj.sets==[] else obj.sets
+        #obj.sets = None if obj.sets==[] else obj.sets
 
         obj.uniques = []
         for key2 in item_parser.f_unique_items:
@@ -1051,7 +1096,7 @@ if __name__ == "__main__":
                 if item_code == code and ref_codes[item_index]["name"] not in obj.uniques:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
-        obj.uniques = None if obj.uniques==[] else obj.uniques
+        #obj.uniques = None if obj.uniques==[] else obj.uniques
 
         weapons[name] = obj
         #print(weapons[name])
@@ -1090,7 +1135,8 @@ if __name__ == "__main__":
             prop_obj.max = int(file[key]["maxac"])
             props.append(prop_obj)
         except: pass
-        obj.props = None if props==[] else props
+        #obj.props = None if props==[] else props
+        obj.props = props
 
         # try: obj.reqstr = int(file[key]["reqstr"])
         # except: pass
@@ -1125,7 +1171,7 @@ if __name__ == "__main__":
             item_code=item_parser.f_set_items[key2]["item"]
             if item_code == code:
                 obj.sets.append(ref_codes[key2]["name"])
-        obj.sets = None if obj.sets==[] else obj.sets
+        #obj.sets = None if obj.sets==[] else obj.sets
 
         obj.uniques = []
         for key2 in item_parser.f_unique_items:
@@ -1136,7 +1182,7 @@ if __name__ == "__main__":
                 if item_code == code and ref_codes[item_index]["name"] not in obj.uniques:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
-        obj.uniques = None if obj.uniques==[] else obj.uniques
+        #obj.uniques = None if obj.uniques==[] else obj.uniques
 
         armor[name] = obj
         #print(armor[name])
@@ -1164,7 +1210,7 @@ if __name__ == "__main__":
             item_code=item_parser.f_set_items[key2]["item"]
             if item_code == code:
                 obj.sets.append(ref_codes[key2]["name"])
-        obj.sets = None if obj.sets==[] else obj.sets
+        #obj.sets = None if obj.sets==[] else obj.sets
 
         obj.uniques = []
         for key2 in item_parser.f_unique_items:
@@ -1175,7 +1221,7 @@ if __name__ == "__main__":
                 if item_code == code and ref_codes[item_index]["name"] not in obj.uniques:
                     obj.uniques.append(ref_codes[item_index]["name"])
             except: pass
-        obj.uniques = None if obj.uniques==[] else obj.uniques
+        #obj.uniques = None if obj.uniques==[] else obj.uniques
 
         misc[name] = obj
         #print(misc[name])

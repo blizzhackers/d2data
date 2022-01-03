@@ -1,16 +1,24 @@
 {
   "adddamage": [
     "dmg",
-    "dmg/time"
+    "dmg/time",
+    "dmg-norm"
   ],
   "adddefense": [
     "ac",
     "ac/time"
   ],
+  "allresist": [
+    "res-all"
+  ],
+  "allresistmax": [
+    "res-all-max"
+  ],
   "amazonskills": [
     "ama"
   ],
   "armorclass": [
+    "ac",
     "ac"
   ],
   "armorclass_vs_hth": [
@@ -50,7 +58,8 @@
   ],
   "bonusdamage": [
     "dmg",
-    "dmg/time"
+    "dmg/time",
+    "dmg-norm"
   ],
   "bonusdefense": [
     "ac",
@@ -80,15 +89,19 @@
     "abs-cold/time"
   ],
   "coldlength": [
+    "cold-len",
     "cold-len"
   ],
   "coldmaxdam": [
+    "cold-max",
     "cold-max"
   ],
   "coldmindam": [
+    "cold-min",
     "cold-min"
   ],
   "coldresist": [
+    "res-cold",
     "res-cold"
   ],
   "coldskilldamage": [
@@ -103,12 +116,14 @@
   ],
   "damagebonus": [
     "dmg",
-    "dmg/time"
+    "dmg/time",
+    "dmg-norm"
   ],
   "damagereduction": [
     "red-dmg%"
   ],
   "damageresist": [
+    "red-dmg%",
     "red-dmg%"
   ],
   "damagevsmontype": [
@@ -123,12 +138,14 @@
     "ac/time"
   ],
   "dexterity": [
+    "dex",
     "dex"
   ],
   "druidskills": [
     "dru"
   ],
   "energy": [
+    "enr",
     "enr"
   ],
   "enhanceddamage": [
@@ -144,6 +161,7 @@
     "gold%"
   ],
   "fade": [
+    "fade",
     "fade"
   ],
   "fasterblockrate": [
@@ -187,12 +205,15 @@
     "abs-fire/time"
   ],
   "firemaxdam": [
+    "fire-max",
     "fire-max"
   ],
   "firemindam": [
+    "fire-min",
     "fire-min"
   ],
   "fireresist": [
+    "res-fire",
     "res-fire"
   ],
   "fireskilldamage": [
@@ -216,6 +237,7 @@
     "stupidity"
   ],
   "hpregen": [
+    "regen",
     "regen"
   ],
   "ias": [
@@ -826,6 +848,9 @@
   "itemchargedskill": [
     "charged"
   ],
+  "itemcolddamage": [
+    "dmg-cold"
+  ],
   "itemcolddamagemax": [
     "dmg-cold/time"
   ],
@@ -886,6 +911,15 @@
   "itemdoubleherbduration": [
     "herb"
   ],
+  "itemelementaldamage": [
+    "dmg-elem"
+  ],
+  "itemelementaldamagemax": [
+    "dmg-elem-max"
+  ],
+  "itemelementaldamagemin": [
+    "dmg-elem-min"
+  ],
   "itemelemskill": [
     "fireskill"
   ],
@@ -940,6 +974,9 @@
   ],
   "itemfindmagicperlevel": [
     "mag%/lvl"
+  ],
+  "itemfiredamage": [
+    "dmg-fire"
   ],
   "itemfiredamagemax": [
     "dmg-fire/time"
@@ -998,11 +1035,17 @@
   "itemlightcolor": [
     "color"
   ],
+  "itemlightningdamage": [
+    "dmg-ltng"
+  ],
   "itemlightningdamagemax": [
     "dmg-ltng/time"
   ],
   "itemlightradius": [
     "light"
+  ],
+  "itemltngdamage": [
+    "dmg-ltng"
   ],
   "itemltngdamagemax": [
     "dmg-ltng/time"
@@ -1018,6 +1061,9 @@
   ],
   "itemmagicbonus": [
     "mag%"
+  ],
+  "itemmagicdamage": [
+    "dmg-magic"
   ],
   "itemmanaafterkill": [
     "mana-kill"
@@ -1078,6 +1124,9 @@
   ],
   "itempoisdamagemaxperlevel": [
     "dmg-pois/lvl"
+  ],
+  "itempoisondamage": [
+    "dmg-pois"
   ],
   "itempoisondamagemax": [
     "dmg-pois/time"
@@ -1235,15 +1284,18 @@
     "hp/time"
   ],
   "lifedrainmindam": [
+    "lifesteal",
     "lifesteal"
   ],
   "lifeleech": [
     "lifesteal"
   ],
   "lightmaxdam": [
+    "ltng-max",
     "ltng-max"
   ],
   "lightmindam": [
+    "ltng-min",
     "ltng-min"
   ],
   "lightningabsorb": [
@@ -1255,10 +1307,15 @@
     "extra-ltng"
   ],
   "lightresist": [
+    "res-ltng",
     "res-ltng"
   ],
   "magic_damage_reduction": [
     "red-mag"
+  ],
+  "magicabsorb": [
+    "abs-magic",
+    "abs-magic%"
   ],
   "magicdamagereduction": [
     "red-mag"
@@ -1267,48 +1324,60 @@
     "mag%"
   ],
   "magicresist": [
+    "res-mag",
     "res-mag"
   ],
   "manadrainmindam": [
+    "manasteal",
     "manasteal"
   ],
   "manaleech": [
     "manasteal"
   ],
   "manarecoverybonus": [
+    "regen-mana",
     "regen-mana"
   ],
   "maxcoldresist": [
+    "res-cold-max",
     "res-cold-max"
   ],
   "maxdamage": [
     "dmg/time"
   ],
   "maxdurability": [
+    "dur",
     "dur"
   ],
   "maxdurabilitypercent": [
     "dur%"
   ],
   "maxfireresist": [
+    "res-fire-max",
     "res-fire-max"
   ],
   "maxhp": [
+    "hp",
     "hp"
   ],
   "maxlightresist": [
+    "res-ltng-max",
     "res-ltng-max"
   ],
   "maxmagicresist": [
+    "res-mag-max",
     "res-mag-max"
   ],
   "maxmana": [
+    "mana",
     "mana"
   ],
   "maxpoisonresist": [
+    "res-pois-max",
     "res-pois-max"
   ],
   "maxstamina": [
+    "stam",
     "stam"
   ],
   "necromancerskills": [
@@ -1321,6 +1390,7 @@
     "red-dmg"
   ],
   "openwounds": [
+    "wounds",
     "wounds/time"
   ],
   "paladinskills": [
@@ -1375,15 +1445,19 @@
     "pierce-pois"
   ],
   "poisonlength": [
+    "pois-len",
     "pois-len"
   ],
   "poisonmaxdam": [
+    "pois-max",
     "pois-max"
   ],
   "poisonmindam": [
+    "pois-min",
     "pois-min"
   ],
   "poisonresist": [
+    "res-pois",
     "res-pois"
   ],
   "poisonskilldamage": [
@@ -1407,24 +1481,30 @@
     "sor"
   ],
   "staminarecoverybonus": [
+    "regen-stam",
     "regen-stam"
   ],
   "state": [
+    "state",
     "state"
   ],
   "strength": [
+    "str",
     "str"
   ],
   "targetdefense": [
     "reduce-ac"
   ],
   "toblock": [
+    "block",
     "block"
   ],
   "tohit": [
+    "att",
     "att"
   ],
   "vitality": [
+    "vit",
     "vit"
   ]
 }
