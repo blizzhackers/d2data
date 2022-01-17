@@ -131,6 +131,17 @@ if __name__ == "__main__":
 
     test = Test()
 
+    # # potential operators:
+    # '!=': _not_equal_to,
+    # '>': _greater_than,
+    # '>=': _greater_than_or_equal_to,
+    # '<': _less_than,
+    # '<=': _less_than_or_equal_to,
+    # 'and': _and,
+    # 'or': _or,
+
+
+
     # generate a file containing all the items that should be picked up
 
     # item and type properties:
