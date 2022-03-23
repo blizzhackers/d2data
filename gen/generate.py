@@ -69,6 +69,7 @@ class PropString:
 @dataclasses.dataclass
 class ItemBase(Item):
     item_class: str = None # computed from ["normcode", etc.]
+    dimensions: list = dataclasses.field(default_factory=lambda: [0, 0])
     #quality: str = None # normal for base item
     #reqstr: int = 0
     #durability: int = None
@@ -1000,6 +1001,8 @@ if __name__ == "__main__":
         name = ref_codes[key]["name"]
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
+        try: obj.dimensions = [int(file[key]["invwidth"]), int(file[key]["invheight"])]
+        except: pass
 
         props = []
         try:
@@ -1113,6 +1116,8 @@ if __name__ == "__main__":
         name = ref_codes[key]["name"]
         try: obj.display_name = ref_codes[key]["display_name"]
         except: pass
+        try: obj.dimensions = [int(file[key]["invwidth"]), int(file[key]["invheight"])]
+        except: pass
 
         props = []
         try:
@@ -1198,6 +1203,8 @@ if __name__ == "__main__":
         try: name = ref_codes[key]["name"]
         except: continue
         try: obj.display_name = ref_codes[key]["display_name"]
+        except: pass
+        try: obj.dimensions = [int(file[key]["invwidth"]), int(file[key]["invheight"])]
         except: pass
 
         for key2 in ref_codes:
