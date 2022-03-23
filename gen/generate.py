@@ -46,6 +46,7 @@ class Item():
     type: str = None # lookup [code] from item_types
     uniques: list[str] = None
     sets: list[str] = None
+    dimensions: list = dataclasses.field(default_factory=lambda: [0, 0])
 
 @dataclasses.dataclass
 class PropString:
@@ -69,7 +70,6 @@ class PropString:
 @dataclasses.dataclass
 class ItemBase(Item):
     item_class: str = None # computed from ["normcode", etc.]
-    dimensions: list = dataclasses.field(default_factory=lambda: [0, 0])
     #quality: str = None # normal for base item
     #reqstr: int = 0
     #durability: int = None
