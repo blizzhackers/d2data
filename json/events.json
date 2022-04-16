@@ -1,54 +1,58 @@
 {
  "0": {
   "event": "hitbymissile",
-  "*desc": "hit by a missile"
+  "*description": "Unit is hit by a missile"
  },
  "1": {
   "event": "damagedinmelee",
-  "*desc": "damaged in melee"
+  "*description": "Unit takes damage from a melee attack"
  },
  "2": {
   "event": "damagedbymissile",
-  "*desc": "damaged by missile"
+  "*description": "Unit takes damage from a missile"
  },
  "3": {
   "event": "attackedinmelee",
-  "*desc": "melee attack atttempt"
+  "*description": "Unit is attacked by a melee attack"
  },
  "4": {
   "event": "doactive",
-  "*desc": "do active state skill"
+  "*description": "Unit used a skill"
  },
  "5": {
   "event": "domeleedamage",
-  "*desc": "do damage in melee"
+  "*description": "Unit dealt damage with a melee attack"
  },
  "6": {
   "event": "domissiledamage",
-  "*desc": "do missile damage"
+  "*description": "Unit dealt damage with a missile"
  },
  "7": {
   "event": "domeleeattack",
-  "*desc": "do melee attack"
+  "*description": "Unit used a melee attack"
  },
  "8": {
   "event": "domissileattack",
-  "*desc": "do missile attack"
+  "*description": "Unit used a missile attack"
  },
  "9": {
   "event": "kill",
-  "*desc": "killed something"
+  "*description": "Unit killed another Unit"
  },
  "10": {
   "event": "killed",
-  "*desc": "killed by something"
+  "*description": "Unit dies"
  },
  "11": {
   "event": "absorbdamage",
-  "*desc": "dealt damage"
+  "*description": "Unit takes damage"
  },
  "12": {
   "event": "levelup",
-  "*desc": "gain a level"
+  "*description": "Unit gained a Level"
+ },
+ "13": {
+  "event": "death",
+  "*description": "Monster dies"
  }
 }

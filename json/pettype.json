@@ -1,13 +1,11 @@
 {
  "assassintrap": {
   "pet type": "assassintrap",
-  "idx": 17,
   "range": 1,
   "lineNumber": 17
  },
  "dopplezon": {
   "pet type": "dopplezon",
-  "idx": 8,
   "unsummon": 1,
   "automap": 1,
   "drawhp": 1,
@@ -15,8 +13,6 @@
  },
  "fenris": {
   "pet type": "fenris",
-  "idx": 12,
-  "group": 1,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -29,7 +25,6 @@
  },
  "golem": {
   "pet type": "golem",
-  "idx": 3,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -48,8 +43,6 @@
  },
  "grizzly": {
   "pet type": "grizzly",
-  "idx": 15,
-  "group": 1,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -62,7 +55,6 @@
  },
  "hireable": {
   "pet type": "hireable",
-  "idx": 7,
   "basemax": 1,
   "warp": 1,
   "partysend": 1,
@@ -75,33 +67,27 @@
   "micon2": "act3hireableicon",
   "mclass3": 561,
   "micon3": "barbhirable_icon",
+  "mclass4": 560,
+  "micon4": "barbhirable_icon",
   "lineNumber": 7
  },
  "hydra": {
   "pet type": "hydra",
-  "idx": 19,
   "range": 1,
   "lineNumber": 19
  },
  "invis": {
   "pet type": "invis",
-  "idx": 9,
   "warp": 1,
   "lineNumber": 9
  },
- "none": {
-  "pet type": "none",
-  "lineNumber": 0
- },
  "pettrap": {
   "pet type": "pettrap",
-  "idx": 18,
   "range": 1,
   "lineNumber": 18
  },
  "raven": {
   "pet type": "raven",
-  "idx": 10,
   "warp": 1,
   "name": "strUI5",
   "icontype": 2,
@@ -110,7 +96,6 @@
  },
  "revive": {
   "pet type": "revive",
-  "idx": 6,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -123,7 +108,6 @@
  },
  "shadowwarrior": {
   "pet type": "shadowwarrior",
-  "idx": 16,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -136,7 +120,6 @@
  },
  "single": {
   "pet type": "single",
-  "idx": 1,
   "basemax": 1,
   "warp": 1,
   "partysend": 1,
@@ -145,7 +128,6 @@
  },
  "skeleton": {
   "pet type": "skeleton",
-  "idx": 4,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -158,7 +140,6 @@
  },
  "skeletonmage": {
   "pet type": "skeletonmage",
-  "idx": 5,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -171,8 +152,6 @@
  },
  "spiritwolf": {
   "pet type": "spiritwolf",
-  "idx": 11,
-  "group": 1,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -185,7 +164,6 @@
  },
  "totem": {
   "pet type": "totem",
-  "idx": 13,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -202,7 +180,6 @@
  },
  "valkyrie": {
   "pet type": "valkyrie",
-  "idx": 2,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,
@@ -215,7 +192,6 @@
  },
  "vine": {
   "pet type": "vine",
-  "idx": 14,
   "warp": 1,
   "partysend": 1,
   "unsummon": 1,

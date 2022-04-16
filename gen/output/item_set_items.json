@@ -1,1608 +1,101 @@
 {
-  "aldurs_advance": {
-    "base": "battle_boots",
-    "display_name": "Aldur's Advance",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "indestruct"
-      },
-      {
-        "max": 32,
-        "min": 32,
-        "par": 0,
-        "prop": "regen-stam"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "move3"
-      },
-      {
-        "max": 180,
-        "min": 180,
-        "par": 0,
-        "prop": "stam"
-      },
-      {
-        "max": 50,
-        "min": 40,
-        "par": 0,
-        "prop": "res-fire"
-      }
-    ],
-    "set": "Aldur's Watchtower"
-  },
-  "aldurs_deception": {
-    "base": "shadow_plate",
-    "display_name": "Aldur's Deception",
-    "props": [
-      {
-        "max": 300,
-        "min": 300,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": "Shape Shifting Skills",
-        "prop": "skilltab"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 50,
-        "min": 40,
-        "par": 0,
-        "prop": "res-ltng"
-      },
-      {
-        "max": -50,
-        "min": -50,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": "Elemental Skills",
-        "prop": "skilltab"
-      }
-    ],
-    "set": "Aldur's Watchtower"
-  },
-  "aldurs_rhythm": {
-    "base": "jagged_star",
-    "display_name": "Aldur's Rhythm",
-    "props": [
-      {
-        "max": 62,
-        "min": 40,
-        "par": 0,
-        "prop": "dmg-norm"
-      },
-      {
-        "max": 75,
-        "min": 50,
-        "par": 0,
-        "prop": "dmg-ltng"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "lifesteal"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "swing3"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg-demon"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "manasteal"
-      },
-      {
-        "max": 5,
-        "min": 2,
-        "par": 0,
-        "prop": "sock"
-      }
-    ],
-    "set": "Aldur's Watchtower"
-  },
-  "aldurs_stony_gaze": {
-    "base": "hunters_guise",
-    "display_name": "Aldur's Stony Gaze",
-    "props": [
-      {
-        "max": 90,
-        "min": 90,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 17,
-        "min": 17,
-        "par": 0,
-        "prop": "regen-mana"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "light"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "balance3"
-      },
-      {
-        "max": 50,
-        "min": 40,
-        "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "sock"
-      }
-    ],
-    "set": "Aldur's Watchtower"
-  },
-  "angelic_halo": {
-    "base": "ring",
-    "display_name": "Angelic Halo",
-    "props": [
-      {
-        "max": 6,
-        "min": 6,
-        "par": 0,
-        "prop": "regen"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "hp"
-      }
-    ],
-    "set": "Angelic Raiment"
-  },
-  "angelic_mantle": {
-    "base": "ring_mail",
-    "display_name": "Angelic Mantle",
-    "props": [
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "red-dmg"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "ac%"
-      }
-    ],
-    "set": "Angelic Raiment"
-  },
-  "angelic_sickle": {
-    "base": "sabre",
-    "display_name": "Angelic Sickle",
+  "amulet_of_the_viper": {
+    "base": "circlet",
+    "display_name": "Amulet of the Viper",
     "props": [
       {
         "max": 75,
         "min": 75,
         "par": 0,
-        "prop": "att"
-      },
-      {
-        "max": 250,
-        "min": 250,
-        "par": 0,
-        "prop": "dmg-undead"
-      }
-    ],
-    "set": "Angelic Raiment"
-  },
-  "angelic_wings": {
-    "base": "amulet",
-    "display_name": "Angelic Wings",
-    "props": [
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "light"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      }
-    ],
-    "set": "Angelic Raiment"
-  },
-  "arcannas_deathwand": {
-    "base": "war_staff",
-    "display_name": "Arcanna's Deathwand",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "sor"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "deadly"
-      }
-    ],
-    "set": "Arcanna's Tricks"
-  },
-  "arcannas_flesh": {
-    "base": "light_plate",
-    "display_name": "Arcanna's Flesh",
-    "props": [
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "light"
-      },
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "red-dmg"
-      }
-    ],
-    "set": "Arcanna's Tricks"
-  },
-  "arcannas_head": {
-    "base": "skull_cap",
-    "display_name": "Arcanna's Head",
-    "props": [
-      {
-        "max": 4,
-        "min": 4,
-        "par": 0,
-        "prop": "regen"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "thorns"
-      }
-    ],
-    "set": "Arcanna's Tricks"
-  },
-  "arcannas_sign": {
-    "base": "amulet",
-    "display_name": "Arcanna's Sign",
-    "props": [
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "regen-mana"
-      }
-    ],
-    "set": "Arcanna's Tricks"
-  },
-  "arctic_binding": {
-    "base": "light_belt",
-    "display_name": "Arctic Binding",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "ac"
-      }
-    ],
-    "set": "Arctic Gear"
-  },
-  "arctic_furs": {
-    "base": "quilted_armor",
-    "display_name": "Arctic Furs",
-    "props": [
-      {
-        "max": 325,
-        "min": 275,
-        "par": 0,
-        "prop": "ac%"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "res-all"
-      }
-    ],
-    "set": "Arctic Gear"
-  },
-  "arctic_horn": {
-    "base": "short_war_bow",
-    "display_name": "Arctic Horn",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "att%"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "dmg%"
-      }
-    ],
-    "set": "Arctic Gear"
-  },
-  "arctic_mitts": {
-    "base": "light_gauntlets",
-    "display_name": "Arctic Mitts",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "swing1"
-      }
-    ],
-    "set": "Arctic Gear"
-  },
-  "berserkers_hatchet": {
-    "base": "double_axe",
-    "display_name": "Berserker's Hatchet",
-    "props": [
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "att%"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "manasteal"
-      }
-    ],
-    "set": "Berserker's Arsenal"
-  },
-  "berserkers_hauberk": {
-    "base": "splint_mail",
-    "display_name": "Berserker's Hauberk",
-    "props": [
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "red-mag"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "bar"
-      }
-    ],
-    "set": "Berserker's Arsenal"
-  },
-  "berserkers_headgear": {
-    "base": "helm",
-    "display_name": "Berserker's Headgear",
-    "props": [
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
         "prop": "ac"
       },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "res-fire"
-      }
-    ],
-    "set": "Berserker's Arsenal"
-  },
-  "bulkathos_sacred_charge": {
-    "base": "colossus_blade",
-    "display_name": "Bul-Kathos' Sacred Charge",
-    "props": [
       {
         "max": 35,
-        "min": 35,
+        "min": 25,
         "par": 0,
-        "prop": "crush"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "res-all"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "knock"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg%"
-      }
-    ],
-    "set": "Bul-Kathos' Children"
-  },
-  "bulkathos_tribal_guardian": {
-    "base": "mythical_sword",
-    "display_name": "Bul-Kathos' Tribal Guardian",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 2,
-        "prop": "dmg-pois"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg%"
-      }
-    ],
-    "set": "Bul-Kathos' Children"
-  },
-  "cathans_mesh": {
-    "base": "chain_mail",
-    "display_name": "Cathan's Mesh",
-    "props": [
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": -50,
-        "min": -50,
-        "par": 0,
-        "prop": "ease"
-      }
-    ],
-    "set": "Cathan's Traps"
-  },
-  "cathans_rule": {
-    "base": "battle_staff",
-    "display_name": "Cathan's Rule",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "fireskill"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "fire-max"
-      }
-    ],
-    "set": "Cathan's Traps"
-  },
-  "cathans_seal": {
-    "base": "ring",
-    "display_name": "Cathan's Seal",
-    "props": [
-      {
-        "max": 6,
-        "min": 6,
-        "par": 0,
-        "prop": "lifesteal"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "red-dmg"
-      }
-    ],
-    "set": "Cathan's Traps"
-  },
-  "cathans_sigil": {
-    "base": "amulet",
-    "display_name": "Cathan's Sigil",
-    "props": [
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "balance1"
+        "prop": "dmg-fire"
       },
       {
         "max": 5,
         "min": 5,
         "par": 0,
-        "prop": "light-thorns"
-      }
-    ],
-    "set": "Cathan's Traps"
-  },
-  "cathans_visage": {
-    "base": "mask",
-    "display_name": "Cathan's Visage",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "res-cold"
-      }
-    ],
-    "set": "Cathan's Traps"
-  },
-  "civerbs_cudgel": {
-    "base": "grand_scepter",
-    "display_name": "Civerb's Cudgel",
-    "props": [
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "att"
-      },
-      {
-        "max": 23,
-        "min": 17,
-        "par": 0,
-        "prop": "dmg-max"
-      }
-    ],
-    "set": "Civerb's Vestments"
-  },
-  "civerbs_icon": {
-    "base": "amulet",
-    "display_name": "Civerb's Icon",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "regen-mana"
-      },
-      {
-        "max": 4,
-        "min": 4,
-        "par": 0,
-        "prop": "regen"
-      }
-    ],
-    "set": "Civerb's Vestments"
-  },
-  "civerbs_ward": {
-    "base": "large_shield",
-    "display_name": "Civerb's Ward",
-    "props": [
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "ac"
+        "prop": "light"
       },
       {
         "max": 15,
         "min": 15,
         "par": 0,
-        "prop": "block"
-      }
-    ],
-    "set": "Civerb's Vestments"
-  },
-  "cleglaws_claw": {
-    "base": "small_shield",
-    "display_name": "Cleglaw's Claw",
-    "props": [
-      {
-        "max": 17,
-        "min": 17,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "res-pois-len"
-      }
-    ],
-    "set": "Cleglaw's Brace"
-  },
-  "cleglaws_pincers": {
-    "base": "chain_gloves",
-    "display_name": "Cleglaw's Pincers",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "knock"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "slow"
-      }
-    ],
-    "set": "Cleglaw's Brace"
-  },
-  "cleglaws_tooth": {
-    "base": "long_sword",
-    "display_name": "Cleglaw's Tooth",
-    "props": [
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "att%"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "deadly"
-      }
-    ],
-    "set": "Cleglaw's Brace"
-  },
-  "cow_kings_hide": {
-    "base": "studded_leather",
-    "display_name": "Cow King's Hide",
-    "props": [
-      {
-        "max": 18,
-        "min": 18,
-        "par": 0,
-        "prop": "res-all"
-      },
-      {
-        "max": 60,
-        "min": 60,
-        "par": 0,
-        "prop": "ac%"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "hp"
+        "prop": "str"
       },
       {
         "max": 5,
-        "min": 18,
+        "min": 12,
         "par": "Chain Lightning",
         "prop": "gethit-skill"
       }
     ],
-    "set": "Cow King's Leathers"
+    "set": null
   },
-  "cow_kings_hooves": {
-    "base": "heavy_boots",
-    "display_name": "Cow King's Hooves",
-    "props": [
-      {
-        "max": 35,
-        "min": 25,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "move3"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "mag%"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 35,
-        "min": 25,
-        "par": 0,
-        "prop": "dmg-fire"
-      }
-    ],
-    "set": "Cow King's Leathers"
-  },
-  "cow_kings_horns": {
-    "base": "war_hat",
-    "display_name": "Cow King's Horns",
-    "props": [
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "half-freeze"
-      },
-      {
-        "max": 35,
-        "min": 35,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "thorns"
-      }
-    ],
-    "set": "Cow King's Leathers"
-  },
-  "credendum": {
-    "base": "mithril_coil",
-    "display_name": "Credendum",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "res-all"
-      }
-    ],
-    "set": "The Disciple"
-  },
-  "dangoons_teaching": {
-    "base": "reinforced_mace",
-    "display_name": "Dangoon's Teaching",
-    "props": [
-      {
-        "max": null,
-        "min": null,
-        "par": 12,
-        "prop": "dmg/lvl"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing3"
-      },
-      {
-        "max": 3,
-        "min": 10,
-        "par": "Frost Nova",
-        "prop": "hit-skill"
-      },
-      {
-        "max": 30,
-        "min": 20,
-        "par": 0,
-        "prop": "dmg-fire"
-      }
-    ],
-    "set": "Heaven's Brethren"
-  },
-  "dark_adherent": {
-    "base": "dusk_shroud",
-    "display_name": "Dark Adherent",
-    "props": [
-      {
-        "max": 415,
-        "min": 305,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 24,
-        "min": 24,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 3,
-        "min": 25,
-        "par": "Nova",
-        "prop": "gethit-skill"
-      },
-      {
-        "max": 34,
-        "min": 24,
-        "par": 2,
-        "prop": "dmg-pois"
-      }
-    ],
-    "set": "The Disciple"
-  },
-  "deaths_guard": {
-    "base": "sash",
-    "display_name": "Death's Guard",
+  "axe_of_fechmar": {
+    "base": "belt",
+    "display_name": "Axe of Fechmar",
     "props": [
       {
         "max": 20,
         "min": 20,
         "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "nofreeze"
-      }
-    ],
-    "set": "Death's Disguise"
-  },
-  "deaths_hand": {
-    "base": "leather_gloves",
-    "display_name": "Death's Hand",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "res-pois"
-      },
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "res-pois-len"
-      }
-    ],
-    "set": "Death's Disguise"
-  },
-  "deaths_touch": {
-    "base": "war_sword",
-    "display_name": "Death's Touch",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 4,
-        "min": 4,
-        "par": 0,
-        "prop": "lifesteal"
-      }
-    ],
-    "set": "Death's Disguise"
-  },
-  "griswolds_heart": {
-    "base": "ornate_plate",
-    "display_name": "Griswold's Heart",
-    "props": [
-      {
-        "max": 500,
-        "min": 500,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": "Defensive Auras",
-        "prop": "skilltab"
-      },
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "sock"
+        "prop": "res-cold"
       },
       {
         "max": 20,
         "min": 20,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": -40,
-        "min": -40,
-        "par": 0,
-        "prop": "ease"
-      }
-    ],
-    "set": "Griswold's Legacy"
-  },
-  "griswolds_honor": {
-    "base": "vortex_shield",
-    "display_name": "Griswold's Honor",
-    "props": [
-      {
-        "max": 108,
-        "min": 108,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "sock"
-      },
-      {
-        "max": 65,
-        "min": 65,
-        "par": 0,
-        "prop": "block2"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "block"
-      },
-      {
-        "max": 45,
-        "min": 45,
-        "par": 0,
-        "prop": "res-all"
-      }
-    ],
-    "set": "Griswold's Legacy"
-  },
-  "griswolds_redemption": {
-    "base": "caduceus",
-    "display_name": "Griswold's Redemption",
-    "props": [
-      {
-        "max": 240,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg-undead"
-      },
-      {
-        "max": -20,
-        "min": -20,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 4,
-        "min": 3,
-        "par": 0,
-        "prop": "sock"
-      }
-    ],
-    "set": "Griswold's Legacy"
-  },
-  "griswolds_valor": {
-    "base": "corona",
-    "display_name": "Griswold's Valor",
-    "props": [
-      {
-        "max": 75,
-        "min": 50,
-        "par": 0,
-        "prop": "ac%"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "abs-cold/lvl"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "sock"
-      },
-      {
-        "max": -40,
-        "min": -40,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 30,
-        "min": 20,
-        "par": 0,
-        "prop": "mag%"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "res-all"
-      }
-    ],
-    "set": "Griswold's Legacy"
-  },
-  "guillaumes_face": {
-    "base": "winged_helm",
-    "display_name": "Guillaume's Face",
-    "props": [
-      {
-        "max": 120,
-        "min": 120,
-        "par": 0,
-        "prop": "ac%"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "balance3"
-      },
-      {
-        "max": 35,
-        "min": 35,
-        "par": 0,
-        "prop": "crush"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "deadly"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "str"
-      }
-    ],
-    "set": "Orphan's Call"
-  },
-  "haemosus_adamant": {
-    "base": "cuirass",
-    "display_name": "Haemosu's Adamant",
-    "props": [
-      {
-        "max": 500,
-        "min": 500,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 35,
-        "min": 35,
-        "par": 0,
-        "prop": "ac-miss"
-      },
-      {
-        "max": 75,
-        "min": 75,
         "par": 0,
         "prop": "hp"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "ac-hth"
-      },
-      {
-        "max": -20,
-        "min": -20,
-        "par": 0,
-        "prop": "ease"
       }
     ],
-    "set": "Heaven's Brethren"
+    "set": null
   },
-  "hsarus_iron_fist": {
-    "base": "buckler",
-    "display_name": "Hsarus' Iron Fist",
+  "azurewrath": {
+    "base": "ring",
+    "display_name": "Azurewrath",
     "props": [
+      {
+        "max": 6,
+        "min": 6,
+        "par": 0,
+        "prop": "lifesteal"
+      },
       {
         "max": 2,
         "min": 2,
         "par": 0,
         "prop": "red-dmg"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "str"
       }
     ],
-    "set": "Hsarus' Defense"
+    "set": null
   },
-  "hsarus_iron_heel": {
-    "base": "chain_boots",
-    "display_name": "Hsarus' Iron Heel",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "move2"
-      }
-    ],
-    "set": "Hsarus' Defense"
-  },
-  "hsarus_iron_stay": {
-    "base": "belt",
-    "display_name": "Hsarus' Iron Stay",
+  "bane_ash": {
+    "base": "short_war_bow",
+    "display_name": "Bane Ash",
     "props": [
       {
         "max": 20,
         "min": 20,
         "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "hp"
-      }
-    ],
-    "set": "Hsarus' Defense"
-  },
-  "hwanins_blessing": {
-    "base": "belt",
-    "display_name": "Hwanin's Blessing",
-    "props": [
-      {
-        "max": 33,
-        "min": 3,
-        "par": 0,
-        "prop": "dmg-ltng"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "noheal"
-      },
-      {
-        "max": null,
-        "min": null,
-        "par": 12,
-        "prop": "ac/lvl"
-      },
-      {
-        "max": 12,
-        "min": 12,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      }
-    ],
-    "set": "Hwanin's Majesty"
-  },
-  "hwanins_justice": {
-    "base": "bill",
-    "display_name": "Hwanin's Justice",
-    "props": [
-      {
-        "max": 330,
-        "min": 330,
-        "par": 0,
-        "prop": "att"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "indestruct"
-      },
-      {
-        "max": 3,
-        "min": 10,
-        "par": "Ice Blast",
-        "prop": "hit-skill"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing3"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 25,
-        "min": 5,
-        "par": 0,
-        "prop": "dmg-ltng"
-      }
-    ],
-    "set": "Hwanin's Majesty"
-  },
-  "hwanins_refuge": {
-    "base": "tigulated_mail",
-    "display_name": "Hwanin's Refuge",
-    "props": [
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 27,
-        "min": 27,
-        "par": 0,
-        "prop": "res-pois"
-      },
-      {
-        "max": 100,
-        "min": 100,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 3,
-        "min": 10,
-        "par": "Static Field",
-        "prop": "gethit-skill"
-      }
-    ],
-    "set": "Hwanin's Majesty"
-  },
-  "hwanins_splendor": {
-    "base": "grand_crown",
-    "display_name": "Hwanin's Splendor",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "regen"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "red-mag"
-      },
-      {
-        "max": 37,
-        "min": 37,
-        "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 100,
-        "min": 100,
-        "par": 0,
-        "prop": "ac%"
-      }
-    ],
-    "set": "Hwanin's Majesty"
-  },
-  "immortal_kings_detail": {
-    "base": "war_belt",
-    "display_name": "Immortal King's Detail",
-    "props": [
-      {
-        "max": 36,
-        "min": 36,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 28,
-        "min": 28,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 31,
-        "min": 31,
-        "par": 0,
-        "prop": "res-ltng"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "str"
-      }
-    ],
-    "set": "Immortal King"
-  },
-  "immortal_kings_forge": {
-    "base": "war_gauntlets",
-    "display_name": "Immortal King's Forge",
-    "props": [
-      {
-        "max": 65,
-        "min": 65,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 4,
-        "min": 12,
-        "par": "Charged Bolt",
-        "prop": "gethit-skill"
-      }
-    ],
-    "set": "Immortal King"
-  },
-  "immortal_kings_pillar": {
-    "base": "war_boots",
-    "display_name": "Immortal King's Pillar",
-    "props": [
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "move3"
-      },
-      {
-        "max": 110,
-        "min": 110,
-        "par": 0,
-        "prop": "att"
-      },
-      {
-        "max": 44,
-        "min": 44,
-        "par": 0,
-        "prop": "hp"
-      }
-    ],
-    "set": "Immortal King"
-  },
-  "immortal_kings_soul_cage": {
-    "base": "sacred_armor",
-    "display_name": "Immortal King's Soul Cage",
-    "props": [
-      {
-        "max": 400,
-        "min": 400,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": "Enchant",
-        "prop": "gethit-skill"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": "Combat Skills",
-        "prop": "skilltab"
+        "prop": "att%"
       },
       {
         "max": 50,
         "min": 50,
         "par": 0,
-        "prop": "res-pois"
-      }
-    ],
-    "set": "Immortal King"
-  },
-  "immortal_kings_stone_crusher": {
-    "base": "ogre_maul",
-    "display_name": "Immortal King's Stone Crusher",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "indestruct"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing3"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg-demon"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg-undead"
-      },
-      {
-        "max": 40,
-        "min": 35,
-        "par": 0,
-        "prop": "crush"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
         "prop": "dmg%"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "sock"
       }
     ],
-    "set": "Immortal King"
+    "set": null
   },
-  "immortal_kings_will": {
+  "biggins_bonnet": {
     "base": "avenger_guard",
-    "display_name": "Immortal King's Will",
+    "display_name": "Biggin's Bonnet",
     "props": [
       {
         "max": 125,
@@ -1641,498 +134,17 @@
         "prop": "sock"
       }
     ],
-    "set": "Immortal King"
+    "set": null
   },
-  "infernal_cranium": {
-    "base": "cap",
-    "display_name": "Infernal Cranium",
-    "props": [
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "res-all"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      }
-    ],
-    "set": "Infernal Tools"
-  },
-  "infernal_sign": {
-    "base": "heavy_belt",
-    "display_name": "Infernal Sign",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "hp"
-      }
-    ],
-    "set": "Infernal Tools"
-  },
-  "infernal_torch": {
-    "base": "grim_wand",
-    "display_name": "Infernal Torch",
-    "props": [
-      {
-        "max": 8,
-        "min": 8,
-        "par": 0,
-        "prop": "dmg-min"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "nec"
-      }
-    ],
-    "set": "Infernal Tools"
-  },
-  "irathas_coil": {
-    "base": "crown",
-    "display_name": "Iratha's Coil",
+  "blacktongue": {
+    "base": "great_helm",
+    "display_name": "Blacktongue",
     "props": [
       {
         "max": 30,
         "min": 30,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "res-ltng"
-      }
-    ],
-    "set": "Iratha's Finery"
-  },
-  "irathas_collar": {
-    "base": "amulet",
-    "display_name": "Iratha's Collar",
-    "props": [
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "res-pois"
-      },
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "res-pois-len"
-      }
-    ],
-    "set": "Iratha's Finery"
-  },
-  "irathas_cord": {
-    "base": "heavy_belt",
-    "display_name": "Iratha's Cord",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "dmg-min"
-      }
-    ],
-    "set": "Iratha's Finery"
-  },
-  "irathas_cuff": {
-    "base": "light_gauntlets",
-    "display_name": "Iratha's Cuff",
-    "props": [
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "half-freeze"
-      }
-    ],
-    "set": "Iratha's Finery"
-  },
-  "isenharts_case": {
-    "base": "breast_plate",
-    "display_name": "Isenhart's Case",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "red-mag"
-      }
-    ],
-    "set": "Isenhart's Armory"
-  },
-  "isenharts_horns": {
-    "base": "full_helm",
-    "display_name": "Isenhart's Horns",
-    "props": [
-      {
-        "max": 6,
-        "min": 6,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "red-dmg"
-      }
-    ],
-    "set": "Isenhart's Armory"
-  },
-  "isenharts_lightbrand": {
-    "base": "broad_sword",
-    "display_name": "Isenhart's Lightbrand",
-    "props": [
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "dmg-min"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "swing2"
-      }
-    ],
-    "set": "Isenhart's Armory"
-  },
-  "isenharts_parry": {
-    "base": "gothic_shield",
-    "display_name": "Isenhart's Parry",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 4,
-        "min": 4,
-        "par": 0,
-        "prop": "light-thorns"
-      }
-    ],
-    "set": "Isenhart's Armory"
-  },
-  "laying_of_hands": {
-    "base": "bramble_mitts",
-    "display_name": "Laying of Hands",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 350,
-        "min": 350,
-        "par": 0,
-        "prop": "dmg-demon"
-      },
-      {
-        "max": 3,
-        "min": 10,
-        "par": "Holy Bolt",
-        "prop": "hit-skill"
-      }
-    ],
-    "set": "The Disciple"
-  },
-  "magnus_skin": {
-    "base": "sharkskin_gloves",
-    "display_name": "Magnus' Skin",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "ac%"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "light"
-      },
-      {
-        "max": 100,
-        "min": 100,
-        "par": 0,
-        "prop": "att"
-      }
-    ],
-    "set": "Orphan's Call"
-  },
-  "mavinas_caster": {
-    "base": "grand_matron_bow",
-    "display_name": "M'avina's Caster",
-    "props": [
-      {
-        "max": 188,
-        "min": 188,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing3"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "magicarrow"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "att"
-      }
-    ],
-    "set": "M'avina's Battle Hymn"
-  },
-  "mavinas_embrace": {
-    "base": "kraken_shell",
-    "display_name": "M'avina's Embrace",
-    "props": [
-      {
-        "max": 3,
-        "min": 10,
-        "par": "Glacial Spike",
-        "prop": "gethit-skill"
-      },
-      {
-        "max": -30,
-        "min": -30,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 12,
-        "min": 5,
-        "par": 0,
-        "prop": "red-mag"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": "Passive and Magic Skills",
-        "prop": "skilltab"
-      },
-      {
-        "max": null,
-        "min": null,
-        "par": 32,
-        "prop": "ac/lvl"
-      },
-      {
-        "max": 350,
-        "min": 350,
-        "par": 0,
-        "prop": "ac"
-      }
-    ],
-    "set": "M'avina's Battle Hymn"
-  },
-  "mavinas_icy_clutch": {
-    "base": "battle_gauntlets",
-    "display_name": "M'avina's Icy Clutch",
-    "props": [
-      {
-        "max": 50,
-        "min": 45,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 18,
-        "min": 6,
-        "par": 6,
-        "prop": "dmg-cold"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "half-freeze"
-      },
-      {
-        "max": 56,
-        "min": 56,
-        "par": 0,
-        "prop": "gold%"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "dex"
-      }
-    ],
-    "set": "M'avina's Battle Hymn"
-  },
-  "mavinas_tenet": {
-    "base": "sharkskin_belt",
-    "display_name": "M'avina's Tenet",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "move2"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "manasteal"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "light"
-      }
-    ],
-    "set": "M'avina's Battle Hymn"
-  },
-  "mavinas_true_sight": {
-    "base": "diadem",
-    "display_name": "M'avina's True Sight",
-    "props": [
-      {
-        "max": 150,
-        "min": 150,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "regen"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 25,
-        "min": 25,
         "par": 0,
         "prop": "mana"
-      }
-    ],
-    "set": "M'avina's Battle Hymn"
-  },
-  "milabregas_diadem": {
-    "base": "crown",
-    "display_name": "Milabrega's Diadem",
-    "props": [
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "mana"
-      }
-    ],
-    "set": "Milabrega's Regalia"
-  },
-  "milabregas_orb": {
-    "base": "kite_shield",
-    "display_name": "Milabrega's Orb",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "mag%"
       },
       {
         "max": 25,
@@ -2141,276 +153,67 @@
         "prop": "ac"
       }
     ],
-    "set": "Milabrega's Regalia"
+    "set": null
   },
-  "milabregas_robe": {
-    "base": "ancient_armor",
-    "display_name": "Milabrega's Robe",
-    "props": [
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "thorns"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "red-dmg"
-      }
-    ],
-    "set": "Milabrega's Regalia"
-  },
-  "milabregas_rod": {
-    "base": "war_scepter",
-    "display_name": "Milabrega's Rod",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "pal"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "light"
-      }
-    ],
-    "set": "Milabrega's Regalia"
-  },
-  "najs_circlet": {
-    "base": "circlet",
-    "display_name": "Naj's Circlet",
+  "bladebone": {
+    "base": "grand_scepter",
+    "display_name": "Bladebone",
     "props": [
       {
         "max": 75,
         "min": 75,
         "par": 0,
-        "prop": "ac"
+        "prop": "att"
       },
       {
-        "max": 35,
-        "min": 25,
+        "max": 23,
+        "min": 17,
         "par": 0,
-        "prop": "dmg-fire"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "Light"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 5,
-        "min": 12,
-        "par": "Chain Lightning",
-        "prop": "gethit-skill"
+        "prop": "dmg-max"
       }
     ],
-    "set": "Naj's Ancient Vestige"
+    "set": null
   },
-  "najs_light_plate": {
-    "base": "hellforge_plate",
-    "display_name": "Naj's Light Plate",
-    "props": [
-      {
-        "max": -60,
-        "min": -60,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 65,
-        "min": 65,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "res-all"
-      },
-      {
-        "max": 45,
-        "min": 45,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "allskills"
-      },
-      {
-        "max": 300,
-        "min": 300,
-        "par": 0,
-        "prop": "ac"
-      }
-    ],
-    "set": "Naj's Ancient Vestige"
-  },
-  "najs_puzzler": {
-    "base": "elder_staff",
-    "display_name": "Naj's Puzzler",
+  "bladebuckle": {
+    "base": "colossus_blade",
+    "display_name": "Bladebuckle",
     "props": [
       {
         "max": 35,
         "min": 35,
         "par": 0,
-        "prop": "enr"
+        "prop": "crush"
       },
       {
-        "max": 150,
-        "min": 150,
+        "max": 20,
+        "min": 20,
         "par": 0,
-        "prop": "dmg%"
+        "prop": "res-all"
       },
       {
-        "max": 11,
-        "min": 69,
-        "par": "Teleport",
-        "prop": "charged"
-      },
-      {
-        "max": 30,
-        "min": 30,
+        "max": 20,
+        "min": 20,
         "par": 0,
-        "prop": "cast3"
-      },
-      {
-        "max": 45,
-        "min": 6,
-        "par": 0,
-        "prop": "dmg-ltng"
-      },
-      {
-        "max": 70,
-        "min": 70,
-        "par": 0,
-        "prop": "mana"
+        "prop": "swing2"
       },
       {
         "max": 1,
         "min": 1,
         "par": 0,
-        "prop": "allskills"
-      }
-    ],
-    "set": "Naj's Ancient Vestige"
-  },
-  "natalyas_mark": {
-    "base": "scissors_suwayyah",
-    "display_name": "Natalya's Mark",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing3"
+        "prop": "knock"
       },
       {
         "max": 200,
         "min": 200,
         "par": 0,
         "prop": "dmg%"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "ignore-ac"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 4,
-        "prop": "dmg-cold"
-      },
-      {
-        "max": 17,
-        "min": 12,
-        "par": 0,
-        "prop": "dmg-fire"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg-undead"
-      },
-      {
-        "max": 200,
-        "min": 200,
-        "par": 0,
-        "prop": "dmg-demon"
       }
     ],
-    "set": "Natalya's Odium"
+    "set": null
   },
-  "natalyas_shadow": {
-    "base": "loricated_mail",
-    "display_name": "Natalya's Shadow",
-    "props": [
-      {
-        "max": 225,
-        "min": 150,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": null,
-        "min": null,
-        "par": 8,
-        "prop": "hp/lvl"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": "Shadow Disciplines",
-        "prop": "skilltab"
-      },
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "res-pois-len"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "res-pois"
-      },
-      {
-        "max": 3,
-        "min": 1,
-        "par": 0,
-        "prop": "sock"
-      }
-    ],
-    "set": "Natalya's Odium"
-  },
-  "natalyas_soul": {
+  "blastbark": {
     "base": "mesh_boots",
-    "display_name": "Natalya's Soul",
+    "display_name": "Blastbark",
     "props": [
       {
         "max": 125,
@@ -2449,600 +252,11 @@
         "prop": "res-ltng"
       }
     ],
-    "set": "Natalya's Odium"
+    "set": null
   },
-  "natalyas_totem": {
-    "base": "grim_helm",
-    "display_name": "Natalya's Totem",
-    "props": [
-      {
-        "max": 175,
-        "min": 135,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 30,
-        "min": 20,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 20,
-        "min": 10,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 20,
-        "min": 10,
-        "par": 0,
-        "prop": "res-all"
-      },
-      {
-        "max": 3,
-        "min": 3,
-        "par": 0,
-        "prop": "red-mag"
-      }
-    ],
-    "set": "Natalya's Odium"
-  },
-  "ondals_almighty": {
-    "base": "spired_helm",
-    "display_name": "Ondal's Almighty",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": -40,
-        "min": -40,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 3,
-        "min": 10,
-        "par": "Weaken",
-        "prop": "hit-skill"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 24,
-        "min": 24,
-        "par": 0,
-        "prop": "balance3"
-      }
-    ],
-    "set": "Heaven's Brethren"
-  },
-  "rite_of_passage": {
-    "base": "demonhide_boots",
-    "display_name": "Rite of Passage",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "move3"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "half-freeze"
-      },
-      {
-        "max": 25,
-        "min": 15,
-        "par": 0,
-        "prop": "stam"
-      }
-    ],
-    "set": "The Disciple"
-  },
-  "sanders_paragon": {
-    "base": "cap",
-    "display_name": "Sander's Paragon",
-    "props": [
-      {
-        "max": 35,
-        "min": 35,
-        "par": 0,
-        "prop": "mag%"
-      },
-      {
-        "max": 8,
-        "min": 8,
-        "par": 0,
-        "prop": "thorns"
-      },
-      {
-        "max": null,
-        "min": null,
-        "par": 8,
-        "prop": "ac/lvl"
-      }
-    ],
-    "set": "Sander's Folly"
-  },
-  "sanders_riprap": {
-    "base": "heavy_boots",
-    "display_name": "Sander's Riprap",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "move3"
-      },
-      {
-        "max": 100,
-        "min": 100,
-        "par": 0,
-        "prop": "att"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "dex"
-      }
-    ],
-    "set": "Sander's Folly"
-  },
-  "sanders_superstition": {
-    "base": "bone_wand",
-    "display_name": "Sander's Superstition",
-    "props": [
-      {
-        "max": 75,
-        "min": 75,
-        "par": 2,
-        "prop": "dmg%"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 8,
-        "min": 8,
-        "par": 0,
-        "prop": "manasteal"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "cast3"
-      },
-      {
-        "max": 75,
-        "min": 25,
-        "par": 2,
-        "prop": "dmg-cold"
-      }
-    ],
-    "set": "Sander's Folly"
-  },
-  "sanders_taboo": {
-    "base": "heavy_gloves",
-    "display_name": "Sander's Taboo",
-    "props": [
-      {
-        "max": 25,
-        "min": 20,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "swing2"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 11,
-        "min": 9,
-        "par": 3,
-        "prop": "dmg-pois"
-      }
-    ],
-    "set": "Sander's Folly"
-  },
-  "sazabis_cobalt_redeemer": {
-    "base": "cryptic_sword",
-    "display_name": "Sazabi's Cobalt Redeemer",
-    "props": [
-      {
-        "max": 150,
-        "min": 150,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 35,
-        "min": 25,
-        "par": 2,
-        "prop": "dmg-cold"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "swing3"
-      },
-      {
-        "max": 318,
-        "min": 318,
-        "par": 0,
-        "prop": "dmg-demon"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "indestruct"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "str"
-      }
-    ],
-    "set": "Sazabi's Grand Tribute"
-  },
-  "sazabis_ghost_liberator": {
-    "base": "balrog_skin",
-    "display_name": "Sazabi's Ghost Liberator",
-    "props": [
-      {
-        "max": 400,
-        "min": 400,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "balance3"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 300,
-        "min": 300,
-        "par": 0,
-        "prop": "att-demon"
-      },
-      {
-        "max": 75,
-        "min": 50,
-        "par": 0,
-        "prop": "hp"
-      }
-    ],
-    "set": "Sazabi's Grand Tribute"
-  },
-  "sazabis_mental_sheath": {
-    "base": "basinet",
-    "display_name": "Sazabi's Mental Sheath",
-    "props": [
-      {
-        "max": 100,
-        "min": 100,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "allskills"
-      },
-      {
-        "max": 20,
-        "min": 15,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 20,
-        "min": 15,
-        "par": 0,
-        "prop": "res-ltng"
-      }
-    ],
-    "set": "Sazabi's Grand Tribute"
-  },
-  "sigons_gage": {
-    "base": "gauntlets",
-    "display_name": "Sigon's Gage",
-    "props": [
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "str"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "att"
-      }
-    ],
-    "set": "Sigon's Complete Steel"
-  },
-  "sigons_guard": {
-    "base": "tower_shield",
-    "display_name": "Sigon's Guard",
-    "props": [
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "allskills"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "block"
-      }
-    ],
-    "set": "Sigon's Complete Steel"
-  },
-  "sigons_sabot": {
-    "base": "greaves",
-    "display_name": "Sigon's Sabot",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "move2"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "res-cold"
-      }
-    ],
-    "set": "Sigon's Complete Steel"
-  },
-  "sigons_shelter": {
-    "base": "gothic_plate",
-    "display_name": "Sigon's Shelter",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "ac%"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "res-ltng"
-      }
-    ],
-    "set": "Sigon's Complete Steel"
-  },
-  "sigons_visor": {
-    "base": "great_helm",
-    "display_name": "Sigon's Visor",
-    "props": [
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "ac"
-      }
-    ],
-    "set": "Sigon's Complete Steel"
-  },
-  "sigons_wrap": {
-    "base": "plated_belt",
-    "display_name": "Sigon's Wrap",
-    "props": [
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "res-fire"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "hp"
-      }
-    ],
-    "set": "Sigon's Complete Steel"
-  },
-  "taebaeks_glory": {
-    "base": "ward",
-    "display_name": "Taebaek's Glory",
-    "props": [
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 100,
-        "min": 100,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "res-ltng"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "thorns"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "indestruct"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "block"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "block3"
-      }
-    ],
-    "set": "Heaven's Brethren"
-  },
-  "tal_rashas_adjudication": {
-    "base": "amulet",
-    "display_name": "Tal Rasha's Adjudication",
-    "props": [
-      {
-        "max": 33,
-        "min": 33,
-        "par": 0,
-        "prop": "res-ltng"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "sor"
-      },
-      {
-        "max": 50,
-        "min": 50,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 32,
-        "min": 3,
-        "par": 0,
-        "prop": "dmg-ltng"
-      },
-      {
-        "max": 42,
-        "min": 42,
-        "par": 0,
-        "prop": "mana"
-      }
-    ],
-    "set": "Tal Rasha's Wrappings"
-  },
-  "tal_rashas_finespun_cloth": {
-    "base": "mesh_belt",
-    "display_name": "Tal Rasha's Fine-Spun Cloth",
-    "props": [
-      {
-        "max": -20,
-        "min": -20,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "dex"
-      },
-      {
-        "max": 37,
-        "min": 37,
-        "par": 0,
-        "prop": "dmg-to-mana"
-      },
-      {
-        "max": 15,
-        "min": 10,
-        "par": 0,
-        "prop": "mag%"
-      }
-    ],
-    "set": "Tal Rasha's Wrappings"
-  },
-  "tal_rashas_guardianship": {
+  "blinkbats_form": {
     "base": "lacquered_plate",
-    "display_name": "Tal Rasha's Guardianship",
+    "display_name": "Blinkbat's Form",
     "props": [
       {
         "max": -60,
@@ -3087,389 +301,105 @@
         "prop": "ac"
       }
     ],
-    "set": "Tal Rasha's Wrappings"
+    "set": null
   },
-  "tal_rashas_horadric_crest": {
-    "base": "death_mask",
-    "display_name": "Tal Rasha's Horadric Crest",
+  "blood_crescent": {
+    "base": "chain_mail",
+    "display_name": "Blood Crescent",
     "props": [
       {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 60,
-        "min": 60,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 45,
-        "min": 45,
+        "max": 15,
+        "min": 15,
         "par": 0,
         "prop": "ac"
       },
       {
-        "max": 15,
-        "min": 15,
+        "max": -50,
+        "min": -50,
         "par": 0,
-        "prop": "res-all"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "lifesteal"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "manasteal"
+        "prop": "ease"
       }
     ],
-    "set": "Tal Rasha's Wrappings"
+    "set": null
   },
-  "tal_rashas_lidless_eye": {
-    "base": "swirling_crystal",
-    "display_name": "Tal Rasha's Lidless Eye",
+  "bloodfist": {
+    "base": "cuirass",
+    "display_name": "Bloodfist",
     "props": [
       {
-        "max": 57,
-        "min": 57,
+        "max": 500,
+        "min": 500,
         "par": 0,
-        "prop": "hp"
+        "prop": "ac"
       },
       {
-        "max": 77,
-        "min": 77,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "enr"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "cast3"
-      },
-      {
-        "max": 2,
-        "min": 1,
-        "par": "Fire Mastery",
-        "prop": "skill"
-      },
-      {
-        "max": 2,
-        "min": 1,
-        "par": "Lightning Mastery",
-        "prop": "skill"
-      },
-      {
-        "max": 2,
-        "min": 1,
-        "par": "Cold Mastery",
-        "prop": "skill"
-      }
-    ],
-    "set": "Tal Rasha's Wrappings"
-  },
-  "tancreds_crowbill": {
-    "base": "military_pick",
-    "display_name": "Tancred's Crowbill",
-    "props": [
-      {
-        "max": 75,
-        "min": 75,
-        "par": 0,
-        "prop": "att"
-      },
-      {
-        "max": 80,
-        "min": 80,
-        "par": 0,
-        "prop": "dmg%"
-      }
-    ],
-    "set": "Tancred's Battlegear"
-  },
-  "tancreds_hobnails": {
-    "base": "boots",
-    "display_name": "Tancred's Hobnails",
-    "props": [
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "regen-stam"
-      },
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "dex"
-      }
-    ],
-    "set": "Tancred's Battlegear"
-  },
-  "tancreds_skull": {
-    "base": "bone_helm",
-    "display_name": "Tancred's Skull",
-    "props": [
-      {
-        "max": 10,
-        "min": 10,
-        "par": 0,
-        "prop": "dmg%"
-      },
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "att"
-      }
-    ],
-    "set": "Tancred's Battlegear"
-  },
-  "tancreds_spine": {
-    "base": "full_plate_mail",
-    "display_name": "Tancred's Spine",
-    "props": [
-      {
-        "max": 40,
-        "min": 40,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 15,
-        "min": 15,
-        "par": 0,
-        "prop": "str"
-      }
-    ],
-    "set": "Tancred's Battlegear"
-  },
-  "tancreds_weird": {
-    "base": "amulet",
-    "display_name": "Tancred's Weird",
-    "props": [
-      {
-        "max": 2,
-        "min": 2,
-        "par": 0,
-        "prop": "red-dmg"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "red-mag"
-      }
-    ],
-    "set": "Tancred's Battlegear"
-  },
-  "telling_of_beads": {
-    "base": "amulet",
-    "display_name": "Telling of Beads",
-    "props": [
-      {
-        "max": 50,
+        "max": 35,
         "min": 35,
-        "par": 0,
-        "prop": "res-pois"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "allskills"
-      },
-      {
-        "max": 18,
-        "min": 18,
-        "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 10,
-        "min": 8,
-        "par": 0,
-        "prop": "thorns"
-      }
-    ],
-    "set": "The Disciple"
-  },
-  "trangouls_claws": {
-    "base": "heavy_bracers",
-    "display_name": "Trang-Oul's Claws",
-    "props": [
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "cast3"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "res-cold"
-      },
-      {
-        "max": 2,
-        "min": 2,
-        "par": "Curses",
-        "prop": "skilltab"
-      }
-    ],
-    "set": "Trang-Oul's Avatar"
-  },
-  "trangouls_girth": {
-    "base": "troll_belt",
-    "display_name": "Trang-Oul's Girth",
-    "props": [
-      {
-        "max": 100,
-        "min": 75,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 30,
-        "min": 30,
-        "par": 0,
-        "prop": "stam"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "regen"
-      },
-      {
-        "max": 66,
-        "min": 66,
-        "par": 0,
-        "prop": "hp"
-      },
-      {
-        "max": 1,
-        "min": 1,
-        "par": 0,
-        "prop": "nofreeze"
-      },
-      {
-        "max": -40,
-        "min": -40,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 50,
-        "min": 25,
-        "par": 0,
-        "prop": "mana"
-      }
-    ],
-    "set": "Trang-Oul's Avatar"
-  },
-  "trangouls_guise": {
-    "base": "bone_visage",
-    "display_name": "Trang-Oul's Guise",
-    "props": [
-      {
-        "max": 100,
-        "min": 80,
-        "par": 0,
-        "prop": "ac"
-      },
-      {
-        "max": 25,
-        "min": 25,
-        "par": 0,
-        "prop": "balance2"
-      },
-      {
-        "max": 20,
-        "min": 20,
-        "par": 0,
-        "prop": "thorns"
-      },
-      {
-        "max": 150,
-        "min": 150,
-        "par": 0,
-        "prop": "mana"
-      },
-      {
-        "max": 5,
-        "min": 5,
-        "par": 0,
-        "prop": "regen"
-      }
-    ],
-    "set": "Trang-Oul's Avatar"
-  },
-  "trangouls_scales": {
-    "base": "chaos_armor",
-    "display_name": "Trang-Oul's Scales",
-    "props": [
-      {
-        "max": -40,
-        "min": -40,
-        "par": 0,
-        "prop": "ease"
-      },
-      {
-        "max": 100,
-        "min": 100,
         "par": 0,
         "prop": "ac-miss"
       },
       {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
         "max": 40,
         "min": 40,
         "par": 0,
-        "prop": "res-pois"
+        "prop": "ac-hth"
       },
+      {
+        "max": -20,
+        "min": -20,
+        "par": 0,
+        "prop": "ease"
+      }
+    ],
+    "set": null
+  },
+  "bloodrise": {
+    "base": "amulet",
+    "display_name": "Bloodrise",
+    "props": [
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "res-cold"
+      }
+    ],
+    "set": null
+  },
+  "bloodthief": {
+    "base": "splint_mail",
+    "display_name": "Bloodthief",
+    "props": [
       {
         "max": 2,
         "min": 2,
-        "par": "Summoning Skills",
-        "prop": "skilltab"
+        "par": 0,
+        "prop": "red-mag"
       },
       {
-        "max": 40,
-        "min": 40,
+        "max": 1,
+        "min": 1,
         "par": 0,
-        "prop": "move3"
-      },
-      {
-        "max": 150,
-        "min": 150,
-        "par": 0,
-        "prop": "ac%"
+        "prop": "bar"
       }
     ],
-    "set": "Trang-Oul's Avatar"
+    "set": null
   },
-  "trangouls_wing": {
+  "boneflesh": {
     "base": "cantor_trophy",
-    "display_name": "Trang-Oul's Wing",
+    "display_name": "Boneflesh",
     "props": [
       {
         "max": 125,
@@ -3514,11 +444,154 @@
         "prop": "skilltab"
       }
     ],
-    "set": "Trang-Oul's Avatar"
+    "set": null
   },
-  "vidalas_ambush": {
+  "bonesnap": {
+    "base": "crown",
+    "display_name": "Bonesnap",
+    "props": [
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "mana"
+      }
+    ],
+    "set": null
+  },
+  "brainhew": {
+    "base": "chain_gloves",
+    "display_name": "Brainhew",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "knock"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "slow"
+      }
+    ],
+    "set": null
+  },
+  "bverrit_keep": {
+    "base": "mithril_coil",
+    "display_name": "Bverrit Keep",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "res-all"
+      }
+    ],
+    "set": null
+  },
+  "chance_guards": {
+    "base": "spired_helm",
+    "display_name": "Chance Guards",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": -40,
+        "min": -40,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 3,
+        "min": 10,
+        "par": "Weaken",
+        "prop": "hit-skill"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": 0,
+        "prop": "balance3"
+      }
+    ],
+    "set": null
+  },
+  "coif_of_glory": {
+    "base": "war_belt",
+    "display_name": "Coif of Glory",
+    "props": [
+      {
+        "max": 36,
+        "min": 36,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 28,
+        "min": 28,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 31,
+        "min": 31,
+        "par": 0,
+        "prop": "res-ltng"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "str"
+      }
+    ],
+    "set": null
+  },
+  "crushflange": {
     "base": "leather_armor",
-    "display_name": "Vidala's Ambush",
+    "display_name": "Crushflange",
     "props": [
       {
         "max": 50,
@@ -3533,68 +606,347 @@
         "prop": "dex"
       }
     ],
-    "set": "Vidala's Rig"
+    "set": null
   },
-  "vidalas_barb": {
-    "base": "long_battle_bow",
-    "display_name": "Vidala's Barb",
+  "culwens_point": {
+    "base": "boots",
+    "display_name": "Culwen's Point",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "regen-stam"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dex"
+      }
+    ],
+    "set": null
+  },
+  "darkglow": {
+    "base": "ornate_plate",
+    "display_name": "Darkglow",
+    "props": [
+      {
+        "max": 500,
+        "min": 500,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": "Defensive Auras",
+        "prop": "skilltab"
+      },
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "sock"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": -40,
+        "min": -40,
+        "par": 0,
+        "prop": "ease"
+      }
+    ],
+    "set": null
+  },
+  "deathspade": {
+    "base": "amulet",
+    "display_name": "Deathspade",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "regen-mana"
+      },
+      {
+        "max": 4,
+        "min": 4,
+        "par": 0,
+        "prop": "regen"
+      }
+    ],
+    "set": null
+  },
+  "dimoaks_hew": {
+    "base": "sash",
+    "display_name": "Dimoak's Hew",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "nofreeze"
+      }
+    ],
+    "set": null
+  },
+  "doomslinger": {
+    "base": "battle_boots",
+    "display_name": "Doomslinger",
     "props": [
       {
         "max": 1,
         "min": 1,
         "par": 0,
-        "prop": "ltng-min"
+        "prop": "indestruct"
+      },
+      {
+        "max": 32,
+        "min": 32,
+        "par": 0,
+        "prop": "regen-stam"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 180,
+        "min": 180,
+        "par": 0,
+        "prop": "stam"
+      },
+      {
+        "max": 50,
+        "min": 40,
+        "par": 0,
+        "prop": "res-fire"
+      }
+    ],
+    "set": null
+  },
+  "duskdeep": {
+    "base": "war_gauntlets",
+    "display_name": "Duskdeep",
+    "props": [
+      {
+        "max": 65,
+        "min": 65,
+        "par": 0,
+        "prop": "ac"
       },
       {
         "max": 20,
         "min": 20,
         "par": 0,
-        "prop": "ltng-max"
+        "prop": "str"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 4,
+        "min": 12,
+        "par": "Charged Bolt",
+        "prop": "gethit-skill"
       }
     ],
-    "set": "Vidala's Rig"
+    "set": null
   },
-  "vidalas_fetlock": {
-    "base": "light_plated_boots",
-    "display_name": "Vidala's Fetlock",
+  "felloak": {
+    "base": "gothic_shield",
+    "display_name": "Felloak",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 4,
+        "min": 4,
+        "par": 0,
+        "prop": "light-thorns"
+      }
+    ],
+    "set": null
+  },
+  "frostburn": {
+    "base": "battle_belt",
+    "display_name": "Frostburn",
+    "props": [
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "manasteal"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "lifesteal"
+      }
+    ],
+    "set": null
+  },
+  "gleamscythe": {
+    "base": "amulet",
+    "display_name": "Gleamscythe",
+    "props": [
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "balance1"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "light-thorns"
+      }
+    ],
+    "set": null
+  },
+  "goblin_toe": {
+    "base": "tigulated_mail",
+    "display_name": "Goblin Toe",
+    "props": [
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 27,
+        "min": 27,
+        "par": 0,
+        "prop": "res-pois"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 3,
+        "min": 10,
+        "par": "Static Field",
+        "prop": "gethit-skill"
+      }
+    ],
+    "set": null
+  },
+  "goldskin": {
+    "base": "diadem",
+    "display_name": "Goldskin",
     "props": [
       {
         "max": 150,
         "min": 150,
         "par": 0,
-        "prop": "stam"
+        "prop": "ac"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "regen"
       },
       {
         "max": 30,
         "min": 30,
         "par": 0,
-        "prop": "move3"
+        "prop": "swing2"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "mana"
       }
     ],
-    "set": "Vidala's Rig"
+    "set": null
   },
-  "vidalas_snare": {
-    "base": "amulet",
-    "display_name": "Vidala's Snare",
+  "goldwrap": {
+    "base": "basinet",
+    "display_name": "Goldwrap",
     "props": [
       {
-        "max": 15,
-        "min": 15,
+        "max": 100,
+        "min": 100,
         "par": 0,
-        "prop": "hp"
+        "prop": "ac"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "allskills"
       },
       {
         "max": 20,
-        "min": 20,
+        "min": 15,
         "par": 0,
-        "prop": "res-cold"
+        "prop": "res-fire"
+      },
+      {
+        "max": 20,
+        "min": 15,
+        "par": 0,
+        "prop": "res-ltng"
       }
     ],
-    "set": "Vidala's Rig"
+    "set": null
   },
-  "whitstans_guard": {
+  "gorefoot": {
     "base": "round_shield",
-    "display_name": "Whitstan's Guard",
+    "display_name": "Gorefoot",
     "props": [
       {
         "max": 175,
@@ -3627,17 +979,277 @@
         "prop": "light"
       }
     ],
-    "set": "Orphan's Call"
+    "set": null
   },
-  "wilhelms_pride": {
-    "base": "battle_belt",
-    "display_name": "Wilhelm's Pride",
+  "goreshovel": {
+    "base": "long_sword",
+    "display_name": "Goreshovel",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "att%"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "deadly"
+      }
+    ],
+    "set": null
+  },
+  "gravenspine": {
+    "base": "heavy_belt",
+    "display_name": "Gravenspine",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "dmg-min"
+      }
+    ],
+    "set": null
+  },
+  "greyform": {
+    "base": "swirling_crystal",
+    "display_name": "Greyform",
+    "props": [
+      {
+        "max": 57,
+        "min": 57,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 77,
+        "min": 77,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "enr"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "cast3"
+      },
+      {
+        "max": 2,
+        "min": 1,
+        "par": "Fire Mastery",
+        "prop": "skill"
+      },
+      {
+        "max": 2,
+        "min": 1,
+        "par": "Lightning Mastery",
+        "prop": "skill"
+      },
+      {
+        "max": 2,
+        "min": 1,
+        "par": "Cold Mastery",
+        "prop": "skill"
+      }
+    ],
+    "set": null
+  },
+  "griswolds_edge": {
+    "base": "military_pick",
+    "display_name": "Griswold's Edge",
     "props": [
       {
         "max": 75,
         "min": 75,
         "par": 0,
-        "prop": "ac%"
+        "prop": "att"
+      },
+      {
+        "max": 80,
+        "min": 80,
+        "par": 0,
+        "prop": "dmg%"
+      }
+    ],
+    "set": null
+  },
+  "gull": {
+    "base": "plated_belt",
+    "display_name": "Gull",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "hp"
+      }
+    ],
+    "set": null
+  },
+  "hawkmail": {
+    "base": "caduceus",
+    "display_name": "Hawkmail",
+    "props": [
+      {
+        "max": 240,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg-undead"
+      },
+      {
+        "max": -20,
+        "min": -20,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 4,
+        "min": 3,
+        "par": 0,
+        "prop": "sock"
+      }
+    ],
+    "set": null
+  },
+  "heavenly_garb": {
+    "base": "battle_gauntlets",
+    "display_name": "Heavenly Garb",
+    "props": [
+      {
+        "max": 50,
+        "min": 45,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 18,
+        "min": 6,
+        "par": 6,
+        "prop": "dmg-cold"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "half-freeze"
+      },
+      {
+        "max": 56,
+        "min": 56,
+        "par": 0,
+        "prop": "gold%"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "dex"
+      }
+    ],
+    "set": null
+  },
+  "hell_forge_hammer": {
+    "base": "heavy_gloves",
+    "display_name": "Hell Forge Hammer",
+    "props": [
+      {
+        "max": 25,
+        "min": 20,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 11,
+        "min": 9,
+        "par": 3,
+        "prop": "dmg-pois"
+      }
+    ],
+    "set": null
+  },
+  "hellcast": {
+    "base": "jagged_star",
+    "display_name": "Hellcast",
+    "props": [
+      {
+        "max": 62,
+        "min": 40,
+        "par": 0,
+        "prop": "dmg-norm"
+      },
+      {
+        "max": 75,
+        "min": 50,
+        "par": 0,
+        "prop": "dmg-ltng"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "lifesteal"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg-demon"
       },
       {
         "max": 5,
@@ -3646,18 +1258,2406 @@
         "prop": "manasteal"
       },
       {
-        "max": 10,
-        "min": 10,
+        "max": 5,
+        "min": 2,
         "par": 0,
-        "prop": "res-cold"
+        "prop": "sock"
+      }
+    ],
+    "set": null
+  },
+  "hellclap": {
+    "base": "loricated_mail",
+    "display_name": "Hellclap",
+    "props": [
+      {
+        "max": 225,
+        "min": 150,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": null,
+        "min": null,
+        "par": 8,
+        "prop": "hp/lvl"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": "Shadow Disciplines",
+        "prop": "skilltab"
+      },
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "res-pois-len"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "res-pois"
+      },
+      {
+        "max": 3,
+        "min": 1,
+        "par": 0,
+        "prop": "sock"
+      }
+    ],
+    "set": null
+  },
+  "hellplague": {
+    "base": "full_plate_mail",
+    "display_name": "Hellplague",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "str"
+      }
+    ],
+    "set": null
+  },
+  "horadric_staff": {
+    "base": "heavy_boots",
+    "display_name": "Horadric Staff",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "att"
       },
       {
         "max": 5,
         "min": 5,
         "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dex"
+      }
+    ],
+    "set": null
+  },
+  "hotspur": {
+    "base": "sharkskin_gloves",
+    "display_name": "Hotspur",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "light"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "att"
+      }
+    ],
+    "set": null
+  },
+  "howltusk": {
+    "base": "ogre_maul",
+    "display_name": "Howltusk",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "indestruct"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg-demon"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg-undead"
+      },
+      {
+        "max": 40,
+        "min": 35,
+        "par": 0,
+        "prop": "crush"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "sock"
+      }
+    ],
+    "set": null
+  },
+  "humongous": {
+    "base": "amulet",
+    "display_name": "Humongous",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-pois"
+      },
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "res-pois-len"
+      }
+    ],
+    "set": null
+  },
+  "iceblink": {
+    "base": "chaos_armor",
+    "display_name": "Iceblink",
+    "props": [
+      {
+        "max": -40,
+        "min": -40,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "ac-miss"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "res-pois"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": "Summoning Skills",
+        "prop": "skilltab"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 150,
+        "min": 150,
+        "par": 0,
+        "prop": "ac%"
+      }
+    ],
+    "set": null
+  },
+  "ichorsting": {
+    "base": "shadow_plate",
+    "display_name": "Ichorsting",
+    "props": [
+      {
+        "max": 300,
+        "min": 300,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": "Shape Shifting Skills",
+        "prop": "skilltab"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 50,
+        "min": 40,
+        "par": 0,
+        "prop": "res-ltng"
+      },
+      {
+        "max": -50,
+        "min": -50,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": "Elemental Skills",
+        "prop": "skilltab"
+      }
+    ],
+    "set": null
+  },
+  "ironstone": {
+    "base": "war_scepter",
+    "display_name": "Ironstone",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "pal"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "light"
+      }
+    ],
+    "set": null
+  },
+  "khalims_flail": {
+    "base": "bone_wand",
+    "display_name": "Khalim's Flail",
+    "props": [
+      {
+        "max": 75,
+        "min": 75,
+        "par": 2,
+        "prop": "dmg%"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 8,
+        "min": 8,
+        "par": 0,
+        "prop": "manasteal"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "cast3"
+      },
+      {
+        "max": 75,
+        "min": 25,
+        "par": 2,
+        "prop": "dmg-cold"
+      }
+    ],
+    "set": null
+  },
+  "kinemils_awl": {
+    "base": "gauntlets",
+    "display_name": "Kinemil's Awl",
+    "props": [
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "att"
+      }
+    ],
+    "set": null
+  },
+  "knell_striker": {
+    "base": "breast_plate",
+    "display_name": "Knell Striker",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "red-mag"
+      }
+    ],
+    "set": null
+  },
+  "lance_of_yaggai": {
+    "base": "double_axe",
+    "display_name": "Lance of Yaggai",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "att%"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "manasteal"
+      }
+    ],
+    "set": null
+  },
+  "leadcrow": {
+    "base": "hunters_guise",
+    "display_name": "Leadcrow",
+    "props": [
+      {
+        "max": 90,
+        "min": 90,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 17,
+        "min": 17,
+        "par": 0,
+        "prop": "regen-mana"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "light"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "balance3"
+      },
+      {
+        "max": 50,
+        "min": 40,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "sock"
+      }
+    ],
+    "set": null
+  },
+  "lenymo": {
+    "base": "bill",
+    "display_name": "Lenymo",
+    "props": [
+      {
+        "max": 330,
+        "min": 330,
+        "par": 0,
+        "prop": "att"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "indestruct"
+      },
+      {
+        "max": 3,
+        "min": 10,
+        "par": "Ice Blast",
+        "prop": "hit-skill"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 25,
+        "min": 5,
+        "par": 0,
+        "prop": "dmg-ltng"
+      }
+    ],
+    "set": null
+  },
+  "maelstrom": {
+    "base": "crown",
+    "display_name": "Maelstrom",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-ltng"
+      }
+    ],
+    "set": null
+  },
+  "magefist": {
+    "base": "winged_helm",
+    "display_name": "Magefist",
+    "props": [
+      {
+        "max": 120,
+        "min": 120,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "balance3"
+      },
+      {
+        "max": 35,
+        "min": 35,
+        "par": 0,
+        "prop": "crush"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "deadly"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "str"
+      }
+    ],
+    "set": null
+  },
+  "manald_heal": {
+    "base": "elder_staff",
+    "display_name": "Manald Heal",
+    "props": [
+      {
+        "max": 35,
+        "min": 35,
+        "par": 0,
+        "prop": "enr"
+      },
+      {
+        "max": 150,
+        "min": 150,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 11,
+        "min": 69,
+        "par": "Teleport",
+        "prop": "charged"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "cast3"
+      },
+      {
+        "max": 45,
+        "min": 6,
+        "par": 0,
+        "prop": "dmg-ltng"
+      },
+      {
+        "max": 70,
+        "min": 70,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "allskills"
+      }
+    ],
+    "set": null
+  },
+  "nagelring": {
+    "base": "heavy_boots",
+    "display_name": "Nagelring",
+    "props": [
+      {
+        "max": 35,
+        "min": 25,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "mag%"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 35,
+        "min": 25,
+        "par": 0,
+        "prop": "dmg-fire"
+      }
+    ],
+    "set": null
+  },
+  "nightsmoke": {
+    "base": "balrog_skin",
+    "display_name": "Nightsmoke",
+    "props": [
+      {
+        "max": 400,
+        "min": 400,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "balance3"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 300,
+        "min": 300,
+        "par": 0,
+        "prop": "att-demon"
+      },
+      {
+        "max": 75,
+        "min": 50,
+        "par": 0,
+        "prop": "hp"
+      }
+    ],
+    "set": null
+  },
+  "nokozan_relic": {
+    "base": "mythical_sword",
+    "display_name": "Nokozan Relic",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 2,
+        "prop": "dmg-pois"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg%"
+      }
+    ],
+    "set": null
+  },
+  "pelta_lunata": {
+    "base": "sharkskin_belt",
+    "display_name": "Pelta Lunata",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "move2"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "manasteal"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "light"
+      }
+    ],
+    "set": null
+  },
+  "pluckeye": {
+    "base": "war_staff",
+    "display_name": "Pluckeye",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "sor"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "deadly"
+      }
+    ],
+    "set": null
+  },
+  "rakescar": {
+    "base": "buckler",
+    "display_name": "Rakescar",
+    "props": [
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "red-dmg"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "str"
+      }
+    ],
+    "set": null
+  },
+  "rattlecage": {
+    "base": "troll_belt",
+    "display_name": "Rattlecage",
+    "props": [
+      {
+        "max": 100,
+        "min": 75,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "stam"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "regen"
+      },
+      {
+        "max": 66,
+        "min": 66,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "nofreeze"
+      },
+      {
+        "max": -40,
+        "min": -40,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 50,
+        "min": 25,
+        "par": 0,
+        "prop": "mana"
+      }
+    ],
+    "set": null
+  },
+  "raven_claw": {
+    "base": "light_plate",
+    "display_name": "Raven Claw",
+    "props": [
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "light"
+      },
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "red-dmg"
+      }
+    ],
+    "set": null
+  },
+  "razortine": {
+    "base": "helm",
+    "display_name": "Razortine",
+    "props": [
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "res-fire"
+      }
+    ],
+    "set": null
+  },
+  "ripsaw": {
+    "base": "gothic_plate",
+    "display_name": "Ripsaw",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-ltng"
+      }
+    ],
+    "set": null
+  },
+  "rixots_keen": {
+    "base": "battle_staff",
+    "display_name": "Rixot's Keen",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "fireskill"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "fire-max"
+      }
+    ],
+    "set": null
+  },
+  "rockfleece": {
+    "base": "heavy_bracers",
+    "display_name": "Rockfleece",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "cast3"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": "Curses",
+        "prop": "skilltab"
+      }
+    ],
+    "set": null
+  },
+  "rusthandle": {
+    "base": "full_helm",
+    "display_name": "Rusthandle",
+    "props": [
+      {
+        "max": 6,
+        "min": 6,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "red-dmg"
+      }
+    ],
+    "set": null
+  },
+  "serpent_lord": {
+    "base": "quilted_armor",
+    "display_name": "Serpent Lord",
+    "props": [
+      {
+        "max": 325,
+        "min": 275,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "res-all"
+      }
+    ],
+    "set": null
+  },
+  "shadowfang": {
+    "base": "amulet",
+    "display_name": "Shadowfang",
+    "props": [
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "red-dmg"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "red-mag"
+      }
+    ],
+    "set": null
+  },
+  "silks_of_the_victor": {
+    "base": "kraken_shell",
+    "display_name": "Silks of the Victor",
+    "props": [
+      {
+        "max": 3,
+        "min": 10,
+        "par": "Glacial Spike",
+        "prop": "gethit-skill"
+      },
+      {
+        "max": -30,
+        "min": -30,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 12,
+        "min": 5,
+        "par": 0,
+        "prop": "red-mag"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": "Passive and Magic Skills",
+        "prop": "skilltab"
+      },
+      {
+        "max": null,
+        "min": null,
+        "par": 32,
+        "prop": "ac/lvl"
+      },
+      {
+        "max": 350,
+        "min": 350,
+        "par": 0,
+        "prop": "ac"
+      }
+    ],
+    "set": null
+  },
+  "skewer_of_krintiz": {
+    "base": "mask",
+    "display_name": "Skewer of Krintiz",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "res-cold"
+      }
+    ],
+    "set": null
+  },
+  "skull_splitter": {
+    "base": "chain_boots",
+    "display_name": "Skull Splitter",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "move2"
+      }
+    ],
+    "set": null
+  },
+  "snakecord": {
+    "base": "cryptic_sword",
+    "display_name": "Snakecord",
+    "props": [
+      {
+        "max": 150,
+        "min": 150,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 35,
+        "min": 25,
+        "par": 2,
+        "prop": "dmg-cold"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 318,
+        "min": 318,
+        "par": 0,
+        "prop": "dmg-demon"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "indestruct"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "str"
+      }
+    ],
+    "set": null
+  },
+  "soul_harvest": {
+    "base": "sabre",
+    "display_name": "Soul Harvest",
+    "props": [
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "att"
+      },
+      {
+        "max": 250,
+        "min": 250,
+        "par": 0,
+        "prop": "dmg-undead"
+      }
+    ],
+    "set": null
+  },
+  "soulflay": {
+    "base": "bone_helm",
+    "display_name": "Soulflay",
+    "props": [
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "att"
+      }
+    ],
+    "set": null
+  },
+  "sparking_mail": {
+    "base": "vortex_shield",
+    "display_name": "Sparking Mail",
+    "props": [
+      {
+        "max": 108,
+        "min": 108,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "sock"
+      },
+      {
+        "max": 65,
+        "min": 65,
+        "par": 0,
+        "prop": "block2"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "block"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": 0,
+        "prop": "res-all"
+      }
+    ],
+    "set": null
+  },
+  "spectral_shard": {
+    "base": "grim_wand",
+    "display_name": "Spectral Shard",
+    "props": [
+      {
+        "max": 8,
+        "min": 8,
+        "par": 0,
+        "prop": "dmg-min"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "nec"
+      }
+    ],
+    "set": null
+  },
+  "spire_of_lazarus": {
+    "base": "light_belt",
+    "display_name": "Spire of Lazarus",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "ac"
+      }
+    ],
+    "set": null
+  },
+  "staff_of_kings": {
+    "base": "cap",
+    "display_name": "Staff of Kings",
+    "props": [
+      {
+        "max": 35,
+        "min": 35,
+        "par": 0,
+        "prop": "mag%"
+      },
+      {
+        "max": 8,
+        "min": 8,
+        "par": 0,
+        "prop": "thorns"
+      },
+      {
+        "max": null,
+        "min": null,
+        "par": 8,
+        "prop": "ac/lvl"
+      }
+    ],
+    "set": null
+  },
+  "steelclash": {
+    "base": "dusk_shroud",
+    "display_name": "Steelclash",
+    "props": [
+      {
+        "max": 415,
+        "min": 305,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 24,
+        "min": 24,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 3,
+        "min": 25,
+        "par": "Nova",
+        "prop": "gethit-skill"
+      },
+      {
+        "max": 34,
+        "min": 24,
+        "par": 2,
+        "prop": "dmg-pois"
+      }
+    ],
+    "set": null
+  },
+  "steeldriver": {
+    "base": "ancient_armor",
+    "display_name": "Steeldriver",
+    "props": [
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "thorns"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "red-dmg"
+      }
+    ],
+    "set": null
+  },
+  "steelgoad": {
+    "base": "war_sword",
+    "display_name": "Steelgoad",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 4,
+        "min": 4,
+        "par": 0,
         "prop": "lifesteal"
       }
     ],
-    "set": "Orphan's Call"
+    "set": null
+  },
+  "stormeye": {
+    "base": "long_battle_bow",
+    "display_name": "Stormeye",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "ltng-min"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "ltng-max"
+      }
+    ],
+    "set": null
+  },
+  "stormguild": {
+    "base": "amulet",
+    "display_name": "Stormguild",
+    "props": [
+      {
+        "max": 50,
+        "min": 35,
+        "par": 0,
+        "prop": "res-pois"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "allskills"
+      },
+      {
+        "max": 18,
+        "min": 18,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 10,
+        "min": 8,
+        "par": 0,
+        "prop": "thorns"
+      }
+    ],
+    "set": null
+  },
+  "stormstrike": {
+    "base": "grim_helm",
+    "display_name": "Stormstrike",
+    "props": [
+      {
+        "max": 175,
+        "min": 135,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 30,
+        "min": 20,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 20,
+        "min": 10,
+        "par": 0,
+        "prop": "str"
+      },
+      {
+        "max": 20,
+        "min": 10,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "red-mag"
+      }
+    ],
+    "set": null
+  },
+  "stoutnail": {
+    "base": "light_plated_boots",
+    "display_name": "Stoutnail",
+    "props": [
+      {
+        "max": 150,
+        "min": 150,
+        "par": 0,
+        "prop": "stam"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "move3"
+      }
+    ],
+    "set": null
+  },
+  "swordback_hold": {
+    "base": "demonhide_boots",
+    "display_name": "Swordback Hold",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "half-freeze"
+      },
+      {
+        "max": 25,
+        "min": 15,
+        "par": 0,
+        "prop": "stam"
+      }
+    ],
+    "set": null
+  },
+  "tarnhelm": {
+    "base": "sacred_armor",
+    "display_name": "Tarnhelm",
+    "props": [
+      {
+        "max": 400,
+        "min": 400,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": "Enchant",
+        "prop": "gethit-skill"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": "Combat Skills",
+        "prop": "skilltab"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "res-pois"
+      }
+    ],
+    "set": null
+  },
+  "tearhaunch": {
+    "base": "belt",
+    "display_name": "Tearhaunch",
+    "props": [
+      {
+        "max": 33,
+        "min": 3,
+        "par": 0,
+        "prop": "dmg-ltng"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "noheal"
+      },
+      {
+        "max": null,
+        "min": null,
+        "par": 12,
+        "prop": "ac/lvl"
+      },
+      {
+        "max": 12,
+        "min": 12,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      }
+    ],
+    "set": null
+  },
+  "the_battlebranch": {
+    "base": "ring_mail",
+    "display_name": "The Battlebranch",
+    "props": [
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "red-dmg"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "ac%"
+      }
+    ],
+    "set": null
+  },
+  "the_centurion": {
+    "base": "death_mask",
+    "display_name": "The Centurion",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "lifesteal"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "manasteal"
+      }
+    ],
+    "set": null
+  },
+  "the_chieftain": {
+    "base": "small_shield",
+    "display_name": "The Chieftain",
+    "props": [
+      {
+        "max": 17,
+        "min": 17,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "res-pois-len"
+      }
+    ],
+    "set": null
+  },
+  "the_diggler": {
+    "base": "tower_shield",
+    "display_name": "The Diggler",
+    "props": [
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "allskills"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "block"
+      }
+    ],
+    "set": null
+  },
+  "the_dragon_chang": {
+    "base": "heavy_belt",
+    "display_name": "The Dragon Chang",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "hp"
+      }
+    ],
+    "set": null
+  },
+  "the_eye_of_etlich": {
+    "base": "war_hat",
+    "display_name": "The Eye of Etlich",
+    "props": [
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "half-freeze"
+      },
+      {
+        "max": 35,
+        "min": 35,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "thorns"
+      }
+    ],
+    "set": null
+  },
+  "the_face_of_horror": {
+    "base": "amulet",
+    "display_name": "The Face of Horror",
+    "props": [
+      {
+        "max": 33,
+        "min": 33,
+        "par": 0,
+        "prop": "res-ltng"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "sor"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 32,
+        "min": 3,
+        "par": 0,
+        "prop": "dmg-ltng"
+      },
+      {
+        "max": 42,
+        "min": 42,
+        "par": 0,
+        "prop": "mana"
+      }
+    ],
+    "set": null
+  },
+  "the_generals_tan_do_li_ga": {
+    "base": "kite_shield",
+    "display_name": "The General's Tan Do Li Ga",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "mag%"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "ac"
+      }
+    ],
+    "set": null
+  },
+  "the_gnasher": {
+    "base": "large_shield",
+    "display_name": "The Gnasher",
+    "props": [
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "block"
+      }
+    ],
+    "set": null
+  },
+  "the_grim_reaper": {
+    "base": "amulet",
+    "display_name": "The Grim Reaper",
+    "props": [
+      {
+        "max": 3,
+        "min": 3,
+        "par": 0,
+        "prop": "light"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      }
+    ],
+    "set": null
+  },
+  "the_hand_of_broc": {
+    "base": "ward",
+    "display_name": "The Hand of Broc",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-ltng"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "thorns"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "indestruct"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "block"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "block3"
+      }
+    ],
+    "set": null
+  },
+  "the_iron_jang_bong": {
+    "base": "amulet",
+    "display_name": "The Iron Jang Bong",
+    "props": [
+      {
+        "max": 15,
+        "min": 15,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "regen-mana"
+      }
+    ],
+    "set": null
+  },
+  "the_jade_tan_do": {
+    "base": "cap",
+    "display_name": "The Jade Tan Do",
+    "props": [
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      }
+    ],
+    "set": null
+  },
+  "the_mahimoak_curio": {
+    "base": "studded_leather",
+    "display_name": "The Mahim-Oak Curio",
+    "props": [
+      {
+        "max": 18,
+        "min": 18,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
+        "max": 60,
+        "min": 60,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 5,
+        "min": 18,
+        "par": "Chain Lightning",
+        "prop": "gethit-skill"
+      }
+    ],
+    "set": null
+  },
+  "the_patriarch": {
+    "base": "greaves",
+    "display_name": "The Patriarch",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "move2"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "res-cold"
+      }
+    ],
+    "set": null
+  },
+  "the_salamander": {
+    "base": "light_gauntlets",
+    "display_name": "The Salamander",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "swing1"
+      }
+    ],
+    "set": null
+  },
+  "the_stone_of_jordan": {
+    "base": "hellforge_plate",
+    "display_name": "The Stone of Jordan",
+    "props": [
+      {
+        "max": -60,
+        "min": -60,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 65,
+        "min": 65,
+        "par": 0,
+        "prop": "hp"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "res-all"
+      },
+      {
+        "max": 45,
+        "min": 45,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "allskills"
+      },
+      {
+        "max": 300,
+        "min": 300,
+        "par": 0,
+        "prop": "ac"
+      }
+    ],
+    "set": null
+  },
+  "the_tannr_gorerod": {
+    "base": "leather_gloves",
+    "display_name": "The Tannr Gorerod",
+    "props": [
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "res-pois"
+      },
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "res-pois-len"
+      }
+    ],
+    "set": null
+  },
+  "the_ward": {
+    "base": "reinforced_mace",
+    "display_name": "The Ward",
+    "props": [
+      {
+        "max": null,
+        "min": null,
+        "par": 12,
+        "prop": "dmg/lvl"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 3,
+        "min": 10,
+        "par": "Frost Nova",
+        "prop": "hit-skill"
+      },
+      {
+        "max": 30,
+        "min": 20,
+        "par": 0,
+        "prop": "dmg-fire"
+      }
+    ],
+    "set": null
+  },
+  "torch_of_iro": {
+    "base": "light_gauntlets",
+    "display_name": "Torch of Iro",
+    "props": [
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "half-freeze"
+      }
+    ],
+    "set": null
+  },
+  "treads_of_cthon": {
+    "base": "grand_crown",
+    "display_name": "Treads of Cthon",
+    "props": [
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "regen"
+      },
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "red-mag"
+      },
+      {
+        "max": 37,
+        "min": 37,
+        "par": 0,
+        "prop": "res-cold"
+      },
+      {
+        "max": 100,
+        "min": 100,
+        "par": 0,
+        "prop": "ac%"
+      }
+    ],
+    "set": null
+  },
+  "twitchthroe": {
+    "base": "corona",
+    "display_name": "Twitchthroe",
+    "props": [
+      {
+        "max": 75,
+        "min": 50,
+        "par": 0,
+        "prop": "ac%"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "abs-cold/lvl"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "sock"
+      },
+      {
+        "max": -40,
+        "min": -40,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 30,
+        "min": 20,
+        "par": 0,
+        "prop": "mag%"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "res-all"
+      }
+    ],
+    "set": null
+  },
+  "umbral_disk": {
+    "base": "grand_matron_bow",
+    "display_name": "Umbral Disk",
+    "props": [
+      {
+        "max": 188,
+        "min": 188,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "magicarrow"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "att"
+      }
+    ],
+    "set": null
+  },
+  "umes_lament": {
+    "base": "broad_sword",
+    "display_name": "Ume's Lament",
+    "props": [
+      {
+        "max": 10,
+        "min": 10,
+        "par": 0,
+        "prop": "dmg-min"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      }
+    ],
+    "set": null
+  },
+  "undead_crown": {
+    "base": "mesh_belt",
+    "display_name": "Undead Crown",
+    "props": [
+      {
+        "max": -20,
+        "min": -20,
+        "par": 0,
+        "prop": "ease"
+      },
+      {
+        "max": 30,
+        "min": 30,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "dex"
+      },
+      {
+        "max": 37,
+        "min": 37,
+        "par": 0,
+        "prop": "dmg-to-mana"
+      },
+      {
+        "max": 15,
+        "min": 10,
+        "par": 0,
+        "prop": "mag%"
+      }
+    ],
+    "set": null
+  },
+  "venom_ward": {
+    "base": "bone_visage",
+    "display_name": "Venom Ward",
+    "props": [
+      {
+        "max": 100,
+        "min": 80,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "balance2"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "thorns"
+      },
+      {
+        "max": 150,
+        "min": 150,
+        "par": 0,
+        "prop": "mana"
+      },
+      {
+        "max": 5,
+        "min": 5,
+        "par": 0,
+        "prop": "regen"
+      }
+    ],
+    "set": null
+  },
+  "wall_of_the_eyeless": {
+    "base": "bramble_mitts",
+    "display_name": "Wall of the Eyeless",
+    "props": [
+      {
+        "max": 25,
+        "min": 25,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "swing2"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 0,
+        "prop": "res-fire"
+      },
+      {
+        "max": 350,
+        "min": 350,
+        "par": 0,
+        "prop": "dmg-demon"
+      },
+      {
+        "max": 3,
+        "min": 10,
+        "par": "Holy Bolt",
+        "prop": "hit-skill"
+      }
+    ],
+    "set": null
+  },
+  "witherstring": {
+    "base": "skull_cap",
+    "display_name": "Witherstring",
+    "props": [
+      {
+        "max": 4,
+        "min": 4,
+        "par": 0,
+        "prop": "regen"
+      },
+      {
+        "max": 2,
+        "min": 2,
+        "par": 0,
+        "prop": "thorns"
+      }
+    ],
+    "set": null
+  },
+  "wizendraw": {
+    "base": "scissors_suwayyah",
+    "display_name": "Wizendraw",
+    "props": [
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "swing3"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg%"
+      },
+      {
+        "max": 1,
+        "min": 1,
+        "par": 0,
+        "prop": "ignore-ac"
+      },
+      {
+        "max": 50,
+        "min": 50,
+        "par": 4,
+        "prop": "dmg-cold"
+      },
+      {
+        "max": 17,
+        "min": 12,
+        "par": 0,
+        "prop": "dmg-fire"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg-undead"
+      },
+      {
+        "max": 200,
+        "min": 200,
+        "par": 0,
+        "prop": "dmg-demon"
+      }
+    ],
+    "set": null
+  },
+  "woestave": {
+    "base": "ring",
+    "display_name": "Woestave",
+    "props": [
+      {
+        "max": 6,
+        "min": 6,
+        "par": 0,
+        "prop": "regen"
+      },
+      {
+        "max": 20,
+        "min": 20,
+        "par": 0,
+        "prop": "hp"
+      }
+    ],
+    "set": null
+  },
+  "wormskull": {
+    "base": "war_boots",
+    "display_name": "Wormskull",
+    "props": [
+      {
+        "max": 75,
+        "min": 75,
+        "par": 0,
+        "prop": "ac"
+      },
+      {
+        "max": 40,
+        "min": 40,
+        "par": 0,
+        "prop": "move3"
+      },
+      {
+        "max": 110,
+        "min": 110,
+        "par": 0,
+        "prop": "att"
+      },
+      {
+        "max": 44,
+        "min": 44,
+        "par": 0,
+        "prop": "hp"
+      }
+    ],
+    "set": null
   }
 }

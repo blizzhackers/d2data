@@ -1,513 +1,272 @@
-abs-cold:
-    single: {:d} Cold Absorb
-abs-cold%:
-    single: Cold Absorb {:d}%
-abs-cold/lvl:
-    single: {:d} Absorbs Cold Damage (Based on Character Level)
-abs-cold/time:
-    single: {:d} Absorbs Cold Damage
-abs-crush:
-abs-crush%:
-abs-fire:
-    single: {:d} Fire Absorb
-abs-fire%:
-    single: Fire Absorb {:d}%
-abs-fire/lvl:
-    single: {:d} Absorbs Fire Damage (Based on Character Level)
-abs-fire/time:
-    single: {:d} Absorbs Fire Damage
-abs-ltng:
-    single: {:d} Lightning Absorb
-abs-ltng%:
-    single: Lightning Absorb {:d}%
-abs-ltng/lvl:
-    single: {:d} Absorbs Lightning Damage (Based on Character Level)
-abs-ltng/time:
-    single: {:d} Absorbs Lightning Damage
-abs-mag:
-    single: {:d} Magic Absorb
-abs-mag%:
-    single: Magic Absorb {:d}%
-abs-pois/lvl:
-abs-pois/time:
-abs-slash:
-abs-slash%:
-abs-thrust:
-abs-thrust%:
-ac:
-    single: {:d} Defense
-ac%:
-    single: {:d}% Enhanced Defense
-ac%-mon:
-ac%/lvl:
-    single: {:d}% Enhanced Defense (Based on Character Level)
-ac%/time:
-    single: {:d} Enhanced Defense
-ac-hth:
-    single: {:d} Defense vs. Melee
-ac-miss:
-    single: {:d} Defense vs. Missile
-ac-mon:
-ac/lvl:
-    single: {:d} Defense (Based on Character Level)
-ac/time:
-    single: {:d} Defense
-addxp:
-    single: {:d}% to Experience Gained
-all-stats:
-    single: {:d} to all Attributes
-allskills:
-    single: {:d} to All Skills
-ama:
-    single: {:d} to Amazon Skill Levels
-ass:
-    single: {:d} to Assassin Skill Levels
-att:
-    single: {:d} to Attack Rating
-att%:
-    single: {:d}% Bonus to Attack Rating
-att%-mon:
-att%/lvl:
-    single: {:d}% Bonus to Attack Rating (Based on Character Level)
-att%/time:
-    single: {:d} Bonus to Attack Rating
-att-dem/lvl:
-    single: {:d} to Attack Rating against Demons (Based on Character Level)
-att-dem/time:
-    single: {:d} to Attack Rating against Demons
-att-demon:
-    single: {:d} to Attack Rating against Demons
-att-mon:
-att-mon%:
-    single: {:d} to Attack Rating versus {}
-att-skill:
-    single: {:d}% Chance to cast level {:d} {} on attack
-att-und/lvl:
-    single: {:d} to Attack Rating against Undead (Based on Character Level)
-att-und/time:
-    single: {:d} to Attack Rating against Undead
-att-undead:
-    single: {:d} to Attack Rating against Undead
-att/lvl:
-    single: {:d} to Attack Rating (Based on Character Level)
-att/time:
-    single: {:d} to Attack Rating
-aura:
-    single: Level {:d} {} Aura When Equipped
-balance1:
-    single: {:d}% Faster Hit Recovery
-balance2:
-    single: {:d}% Faster Hit Recovery
-balance3:
-    single: {:d}% Faster Hit Recovery
-bar:
-    single: {:d} to Barbarian Skill Levels
-block:
-    single: {:d}% Increased Chance of Blocking
-block1:
-    single: {:d}% Faster Block Rate
-block2:
-    single: {:d}% Faster Block Rate
-block3:
-    single: {:d}% Faster Block Rate
-bloody:
-cast1:
-    single: {:d}% Faster Cast Rate
-cast2:
-    single: {:d}% Faster Cast Rate
-cast3:
-    single: {:d}% Faster Cast Rate
-charged:
-    single: Level {:d} {} ({:d}/{:d} Charges)
-cheap:
-    single: Reduces all Vendor Prices {:d}%
-cold-len:
-cold-max:
-    single: {:d} to Maximum Cold Damage
-cold-min:
-    single: {:d} to Minimum Cold Damage
-color:
-crush:
-    single: {:d}% Chance of Crushing Blow
-crush/lvl:
-    single: {:d}% Chance of Crushing Blow (Based on Character Level)
-crush/time:
-    single: {:d} Chance of Crushing Blow
-deadly:
-    single: {:d}% Deadly Strike
-deadly/lvl:
-    single: {:d}% Deadly Strike (Based on Character Level)
-deadly/time:
-    single: {:d} Deadly Strike
-death-skill:
-    single: {:d}% Chance to cast level {:d} {} when you Die
-demon-heal:
-    single: {:d} Life after each Demon Kill
-dex:
-    single: {:d} to Dexterity
-dex/lvl:
-    single: {:d} to Dexterity (Based on Character Level)
-dex/time:
-    single: {:d} to Dexterity
-dmg:
-    single: Damage {:d}
-dmg%:
-    single: {:d}% Enhanced damage
-dmg%-mon:
-dmg%/lvl:
-    single: {:d}% Enhanced Maximum Damage (Based on Character Level)
-dmg%/time:
-    single: {:d} Enhanced Maximum Damage
-dmg-ac:
-    single: {:d} to Monster Defense Per Hit
-dmg-cold:
-    single: {:d} cold damage
-    range: Adds {:d}-{:d} cold damage
-dmg-cold/lvl:
-    single: {:d} to Maximum Cold Damage (Based on Character Level)
-dmg-cold/time:
-    single: {:d} to Maximum Cold Damage
-dmg-crush:
-dmg-crush%:
-dmg-dem/lvl:
-    single: {:d}% Damage to Demons (Based on Character Level)
-dmg-dem/time:
-    single: {:d} Damage to Demons
-dmg-demon:
-    single: {:d}% Damage to Demons
-dmg-elem:
-    range: Adds {:d}-{:d} cold damage
-    range: Adds {:d}-{:d} fire damage
-    range: Adds {:d}-{:d} lightning damage
-dmg-elem-max:
-    single: {:d} to Maximum Fire Damage
-    single: {:d} to Maximum Lightning Damage
-    single: {:d} to Maximum Cold Damage
-dmg-elem-min:
-    single: {:d} to Minimum Fire Damage
-    single: {:d} to Minimum Lightning Damage
-    single: {:d} to Minimum Cold Damage
-dmg-fire:
-    single: {:d} fire damage
-    range: Adds {:d}-{:d} fire damage
-dmg-fire/lvl:
-    single: {:d} to Maximum Fire Damage (Based on Character Level)
-dmg-fire/time:
-    single: {:d} to Maximum Fire Damage
-dmg-ltng:
-    single: {:d} lightning damage
-    range: Adds {:d}-{:d} lightning damage
-dmg-ltng/lvl:
-    single: {:d} to Maximum Lightning Damage (Based on Character Level)
-dmg-ltng/time:
-    single: {:d} to Maximum Lightning Damage
-dmg-mag:
-    single: {:d} magic damage
-    range: Adds {:d}-{:d} magic damage
-dmg-max:
-dmg-min:
-dmg-mon:
-dmg-mon%:
-    single: {:d} to Attack Rating versus {}
-dmg-norm:
-    single: {:d} damage
-    range: Adds {:d}-{:d} damage
-dmg-pois:
-    single: {:d} poison damage over {:d} seconds
-    range: Adds {:d}-{:d} poison damage over {:d} seconds
-dmg-pois/lvl:
-    single: {:d} to Maximum Poison Damage (Based on Character Level)
-dmg-pois/time:
-    single: {:d} to Maximum Poison Damage
-dmg-slash:
-dmg-slash%:
-dmg-throw:
-dmg-thrust:
-dmg-thrust%:
-dmg-to-mana:
-    single: {:d}% Damage Taken Goes To Mana
-dmg-und/lvl:
-    single: {:d}% Damage to Undead (Based on Character Level)
-dmg-und/time:
-    single: {:d} Damage to Undead
-dmg-undead:
-    single: {:d}% Damage to Undead
-dmg/lvl:
-    single: {:d} to Maximum Damage (Based on Character Level)
-dmg/time:
-    single: {:d} to Maximum Damage
-dru:
-    single: {:d} to Druid Skill Levels
-dur:
-dur%:
-    single: Increase Maximum Durability {:d}%
-ease:
-    single: Requirements {:d}%
-enr:
-    single: {:d} to Energy
-enr/lvl:
-    single: {:d} to Energy (Based on Character Level)
-enr/time:
-    single: {:d} to Energy
-ethereal:
-    single: Ethereal (Cannot be Repaired)
-explosivearrow:
-    single: Fires Explosive Arrows or Bolts
-extra-cold:
-    single: {:d}% to Cold Skill Damage
-extra-fire:
-    single: {:d}% to Fire Skill Damage
-extra-ltng:
-    single: {:d}% to Lightning Skill Damage
-extra-pois:
-    single: {:d}% to Poison Skill Damage
-fade:
-fire-fx:
-fire-max:
-    single: {:d} to Maximum Fire Damage
-fire-min:
-    single: {:d} to Minimum Fire Damage
-fireskill:
-    single: {:d} to Fire Skills
-freeze:
-    single: Freezes target {:d}
-gembonus:
-gems%/lvl:
-gems%/time:
-gethit-skill:
-    single: {:d}% Chance to cast level {:d} {} when struck
-gold%:
-    single: {:d}% Extra Gold from Monsters
-gold%/lvl:
-    single: {:d}% Extra Gold from Monsters (Based on Character Level)
-gold%/time:
-    single: Extra Gold from Monsters {:d}
-half-freeze:
-    single: Half Freeze Duration
-heal-kill:
-    single: {:d} Life after each Kill
-herb:
-hit-skill:
-    single: {:d}% Chance to cast level {:d} {} on striking
-howl:
-    single: Hit Causes Monster to Flee {:d}%
-hp:
-    single: {:d} to Life
-hp%:
-    single: Increase Maximum Life {:d}%
-hp/lvl:
-    single: {:d} to Life (Based on Character Level)
-hp/time:
-    single: {:d} to Life
-ignore-ac:
-    single: Ignore Target's Defense
-indestruct:
-item%:
-kick:
-    single: {:d} Kick Damage
-kick/lvl:
-    single: {:d} Kick Damage (Based on Character Level)
-kick/time:
-    single: {:d} Kick Damage
-kill-skill:
-    single: {:d}% Chance to cast level {:d} {} when you Kill an Enemy
-knock:
-    single: Knockback
-levelreq:
-levelup-skill:
-    single: {:d}% Chance to cast level {:d} {} when you Level-Up
-lifesteal:
-    single: {:d}% Life stolen per hit
-light:
-    single: {:d} to Light Radius
-light-thorns:
-    single: Attacker Takes Lightning Damage of {:d}
-ltng-fx:
-ltng-max:
-    single: {:d} to Maximum Lightning Damage
-ltng-min:
-    single: {:d} to Minimum Lightning Damage
-mag%:
-    single: {:d}% Better Chance of Getting Magic Items
-mag%/lvl:
-    single: {:d}% Better Chance of Getting Magic Items (Based on Character Level)
-mag%/time:
-    single: {:d} Better Chance of Getting Magic Items
-magicarrow:
-    single: Fires Magic Arrows
-mana:
-    single: {:d} to Mana
-mana%:
-    single: Increase Maximum Mana {:d}%
-mana-kill:
-    single: {:d} to Mana after each Kill
-mana/lvl:
-    single: {:d} to Mana (Based on Character Level)
-mana/time:
-    single: {:d} to Mana
-manasteal:
-    single: {:d}% Mana stolen per hit
-move1:
-    single: {:d}% Faster Run/Walk
-move2:
-    single: {:d}% Faster Run/Walk
-move3:
-    single: {:d}% Faster Run/Walk
-nec:
-    single: {:d} to Necromancer Skill Levels
-nofreeze:
-    single: Cannot Be Frozen
-noheal:
-    single: Prevent Monster Heal
-openwounds:
-    single: {:d}% Chance of Open Wounds
-oskill:
-    single: {:d} to {}
-pal:
-    single: {:d} to Paladin Skill Levels
-pierce:
-    single: Piercing Attack
-pierce-cold:
-    single: {:d}% to Enemy Cold Resistance
-pierce-fire:
-    single: {:d}% to Enemy Fire Resistance
-pierce-ltng:
-    single: {:d}% to Enemy Lightning Resistance
-pierce-pois:
-    single: {:d}% to Enemy Poison Resistance
-pois-len:
-pois-max:
-    single: {:d} to Maximum Poison Damage
-pois-min:
-    single: {:d} to Minimum Poison Damage
-randclassskill:
-    single: {:d} to {} Skill Levels
-reanimate:
-    single: {:d}% Reanimate as: {}
-red-dmg:
-    single: Damage Reduced by {:d}
-red-dmg%:
-    single: Damage Reduced by {:d}%
-red-mag:
-    single: Magic Damage Reduced by {:d}
-reduce-ac:
-    single: {:d}% Target Defense
-regen:
-    single: Replenish Life {:d}
-regen-dur:
-regen-mana:
-    single: Regenerate Mana {:d}%
-regen-stam:
-    single: Heal Stamina Plus {:d}%
-regen-stam/lvl:
-    single: Heal Stamina Plus {:d}% (Based on Character Level)
-regen-stam/time:
-    single: Heal Stamina Plus {:d}
-rep-dur:
-    single: Repairs {} durability {}
-rep-quant:
-    single: Replenishes quantity
-res-all:
-    single: All Resistances {:d}
-res-all-max:
-    single: {:d}% to Maximum Fire Resist
-    single: {:d}% to Maximum Lightning Resist
-    single: {:d}% to Maximum Cold Resist
-    single: {:d}% to Maximum Poison Resist
-res-cold:
-    single: Cold Resist {:d}%
-res-cold-max:
-    single: {:d}% to Maximum Cold Resist
-res-cold/lvl:
-    single: Cold Resist {:d}% (Based on Character Level)
-res-cold/time:
-    single: Cold Resist {:d}
-res-fire:
-    single: Fire Resist {:d}%
-res-fire-max:
-    single: {:d}% to Maximum Fire Resist
-res-fire/lvl:
-    single: Fire Resist {:d}% (Based on Character Level)
-res-fire/time:
-    single: Fire Resist {:d}
-res-ltng:
-    single: Lightning Resist {:d}%
-res-ltng-max:
-    single: {:d}% to Maximum Lightning Resist
-res-ltng/lvl:
-    single: Lightning Resist {:d}% (Based on Character Level)
-res-ltng/time:
-    single: Lightning Resist {:d}
-res-mag:
-    single: Magic Resist {:d}%
-res-mag-max:
-    single: {:d}% to Maximum Magic Resist
-res-pois:
-    single: Poison Resist {:d}%
-res-pois-len:
-    single: Poison Length Reduced by {:d}%
-res-pois-max:
-    single: {:d}% to Maximum Poison Resist
-res-pois/lvl:
-    single: Poison Resist {:d}% (Based on Character Level)
-res-pois/time:
-    single: Poison Resist {:d}
-rip:
-    single: Slain Monsters Rest in Peace
-skill:
-    single: {:d} to {} ({} only)
-skill-rand:
-    single: {:d} to {} ({} only)
-skilltab:
-    single: {:d} to {} ({} only)
-slow:
-    single: Slows Target by {:d}%
-sock:
-    single: Socketed ({:d})
-sor:
-    single: {:d} to Sorceress Skill Levels
-stack:
-    single: Increased Stack Size
-stam:
-    single: {:d} Maximum Stamina
-stam/lvl:
-    single: {:d} Maximum Stamina (Based on Character Level)
-stam/time:
-    single: {:d} Maximum Stamina
-stamdrain:
-    single: {:d}% Slower Stamina Drain
-state:
-str:
-    single: {:d} to Strength
-str/lvl:
-    single: {:d} to Strength (Based on Character Level)
-str/time:
-    single: {:d} to Strength
-stupidity:
-    single: Hit Blinds Target {:d}
-swing1:
-    single: {:d}% Increased Attack Speed
-swing2:
-    single: {:d}% Increased Attack Speed
-swing3:
-    single: {:d}% Increased Attack Speed
-thorns:
-    single: Attacker Takes Damage of {:d}
-thorns/lvl:
-    single: Attacker Takes Damage of {:d} (Based on Character Level)
-throw:
-    single: Throwable
-time:
-vit:
-    single: {:d} to Vitality
-vit/lvl:
-    single: {:d} to Vitality (Based on Character Level)
-vit/time:
-    single: {:d} to Vitality
-wounds/lvl:
-    single: {:d}% Chance of Open Wounds (Based on Character Level)
-wounds/time:
-    single: {:d} Chance of Open Wounds
+0:
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+13:
+14:
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30:
+31:
+32:
+33:
+34:
+35:
+36:
+37:
+38:
+39:
+40:
+41:
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:
+51:
+52:
+53:
+54:
+55:
+56:
+57:
+58:
+59:
+60:
+61:
+62:
+63:
+64:
+65:
+66:
+67:
+68:
+69:
+70:
+71:
+72:
+73:
+74:
+75:
+76:
+77:
+78:
+79:
+80:
+81:
+82:
+83:
+84:
+85:
+86:
+87:
+88:
+89:
+90:
+91:
+92:
+93:
+94:
+95:
+96:
+97:
+98:
+99:
+100:
+101:
+102:
+103:
+104:
+105:
+106:
+107:
+108:
+109:
+110:
+111:
+112:
+113:
+114:
+115:
+116:
+117:
+118:
+119:
+120:
+122:
+123:
+124:
+125:
+126:
+127:
+128:
+129:
+130:
+131:
+132:
+133:
+134:
+135:
+136:
+137:
+138:
+139:
+140:
+141:
+142:
+143:
+144:
+145:
+146:
+147:
+148:
+149:
+150:
+151:
+152:
+153:
+154:
+155:
+156:
+157:
+158:
+159:
+160:
+161:
+162:
+163:
+164:
+165:
+166:
+167:
+168:
+169:
+170:
+171:
+172:
+173:
+174:
+175:
+176:
+177:
+178:
+179:
+180:
+181:
+182:
+183:
+184:
+185:
+186:
+187:
+188:
+189:
+190:
+191:
+192:
+193:
+194:
+195:
+196:
+197:
+198:
+199:
+200:
+201:
+202:
+203:
+204:
+205:
+206:
+207:
+208:
+209:
+210:
+211:
+212:
+213:
+214:
+215:
+216:
+217:
+218:
+219:
+220:
+221:
+222:
+223:
+224:
+225:
+226:
+227:
+228:
+229:
+230:
+231:
+232:
+233:
+234:
+235:
+236:
+237:
+238:
+239:
+240:
+241:
+242:
+243:
+244:
+245:
+246:
+247:
+248:
+249:
+250:
+251:
+252:
+253:
+254:
+255:
+256:
+257:
+258:
+259:
+260:
+261:
+262:
+263:
+264:
+265:
+266:
+267:
+268:
+269:
 damage-1hand:
     single: One-Hand Damage: {:d}
     range: One-Hand Damage: {:d} to {:d}
@@ -518,3 +277,5 @@ defense:
     single: Defense: {:d}
 durability:
     single: Durability: {:d} of {:d}
+ethereal:
+    single: Ethereal (Cannot be Repaired)

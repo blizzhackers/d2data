@@ -1,1373 +1,1930 @@
 {
-  "abs-cold": {
-    "aliases": [
-      "item_absorbcold",
-      "itemabsorbcold",
-      "coldabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Cold Absorb",
-        "pos": "+{:d} Cold Absorb",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-cold%": {
-    "aliases": [
-      "item_absorbcold_percent",
-      "itemabsorbcoldpercent",
-      "coldabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Cold Absorb {:d}%",
-        "pos": "Cold Absorb {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-cold/lvl": {
-    "aliases": [
-      "item_absorb_cold_perlevel",
-      "itemabsorbcoldperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Absorbs Cold Damage (Based on Character Level)",
-        "pos": "+{:d} Absorbs Cold Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-cold/time": {
-    "aliases": [
-      "item_absorb_cold_bytime",
-      "itemabsorbcoldbytime",
-      "coldabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Absorbs Cold Damage",
-        "pos": "+{:d} Absorbs Cold Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-crush": {
+  "0": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "abs-crush%": {
+  "1": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "abs-fire": {
-    "aliases": [
-      "item_absorbfire",
-      "itemabsorbfire",
-      "fireabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Fire Absorb",
-        "pos": "+{:d} Fire Absorb",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-fire%": {
-    "aliases": [
-      "item_absorbfire_percent",
-      "itemabsorbfirepercent",
-      "fireabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Fire Absorb {:d}%",
-        "pos": "Fire Absorb {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-fire/lvl": {
-    "aliases": [
-      "item_absorb_fire_perlevel",
-      "itemabsorbfireperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Absorbs Fire Damage (Based on Character Level)",
-        "pos": "+{:d} Absorbs Fire Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-fire/time": {
-    "aliases": [
-      "item_absorb_fire_bytime",
-      "itemabsorbfirebytime",
-      "fireabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Absorbs Fire Damage",
-        "pos": "+{:d} Absorbs Fire Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-ltng": {
-    "aliases": [
-      "item_absorblight",
-      "itemabsorblight",
-      "lightningabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Lightning Absorb",
-        "pos": "+{:d} Lightning Absorb",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-ltng%": {
-    "aliases": [
-      "item_absorblight_percent",
-      "itemabsorblightpercent",
-      "lightningabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Lightning Absorb {:d}%",
-        "pos": "Lightning Absorb {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-ltng/lvl": {
-    "aliases": [
-      "item_absorb_ltng_perlevel",
-      "itemabsorbltngperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Absorbs Lightning Damage (Based on Character Level)",
-        "pos": "+{:d} Absorbs Lightning Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-ltng/time": {
-    "aliases": [
-      "item_absorb_ltng_bytime",
-      "itemabsorbltngbytime",
-      "lightningabsorb"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Absorbs Lightning Damage",
-        "pos": "+{:d} Absorbs Lightning Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-mag": {
-    "aliases": [
-      "item_absorbmagic",
-      "itemabsorbmagic"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Magic Absorb",
-        "pos": "+{:d} Magic Absorb",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-mag%": {
-    "aliases": [
-      "item_absorbmagic_percent",
-      "itemabsorbmagicpercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Magic Absorb {:d}%",
-        "pos": "Magic Absorb {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-pois/lvl": {
-    "aliases": [
-      "item_absorb_pois_perlevel",
-      "itemabsorbpoisperlevel"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-pois/time": {
-    "aliases": [
-      "item_absorb_pois_bytime",
-      "itemabsorbpoisbytime"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "abs-slash": {
+  "10": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "abs-slash%": {
+  "100": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "abs-thrust": {
+  "101": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "abs-thrust%": {
+  "102": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "ac": {
-    "aliases": [
-      "armorclass",
-      "armorclass",
-      "defensebonus",
-      "bonusdefense",
-      "adddefense"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Defense",
-        "pos": "+{:d} Defense",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ac%": {
-    "aliases": [
-      "item_armor_percent",
-      "itemarmorpercent",
-      "enhanceddefense"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Enhanced Defense",
-        "pos": "+{:d}% Enhanced Defense",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ac%-mon": {
+  "103": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "ac%/lvl": {
-    "aliases": [
-      "item_armorpercent_perlevel",
-      "itemarmorpercentperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Enhanced Defense (Based on Character Level)",
-        "pos": "{:d}% Enhanced Defense (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ac%/time": {
-    "aliases": [
-      "item_armorpercent_bytime",
-      "itemarmorpercentbytime",
-      "enhanceddefense"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Enhanced Defense",
-        "pos": "+{:d} Enhanced Defense",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ac-hth": {
-    "aliases": [
-      "armorclass_vs_hth",
-      "armorclassvshth",
-      "enhanceddefense"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Defense vs. Melee",
-        "pos": "+{:d} Defense vs. Melee",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ac-miss": {
-    "aliases": [
-      "armorclass_vs_missile",
-      "armorclassvsmissile"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Defense vs. Missile",
-        "pos": "+{:d} Defense vs. Missile",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ac-mon": {
+  "104": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "ac/lvl": {
-    "aliases": [
-      "item_armor_perlevel",
-      "itemarmorperlevel"
-    ],
+  "105": {
+    "aliases": [],
     "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Defense (Based on Character Level)",
-        "pos": "+{:d} Defense (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "ac/time": {
-    "aliases": [
-      "item_armor_bytime",
-      "itemarmorbytime",
-      "defensebonus",
-      "bonusdefense",
-      "adddefense"
-    ],
+  "106": {
+    "aliases": [],
     "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Defense",
-        "pos": "+{:d} Defense",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "addxp": {
-    "aliases": [
-      "item_addexperience",
-      "itemaddexperience"
-    ],
+  "107": {
+    "aliases": [],
     "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Experience Gained",
-        "pos": "+{:d}% to Experience Gained",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "all-stats": {
+  "108": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "109": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "11": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "110": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "111": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "112": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "113": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "114": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "115": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "116": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "117": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "118": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "119": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "12": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "120": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "122": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "123": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "124": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "125": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "126": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "127": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "128": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "129": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "13": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "130": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "131": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "132": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "133": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "134": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "135": {
     "aliases": [],
     "children": [
-      "str",
-      "enr",
-      "dex",
-      "vit"
+      "20",
+      "21"
     ],
-    "patterns": [
-      {
-        "neg": "-{:d} to all Attributes",
-        "pos": "+{:d} to all Attributes",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "allskills": {
-    "aliases": [
-      "item_allskills",
-      "itemallskills"
+  "136": {
+    "aliases": [],
+    "children": [
+      "22",
+      "23"
     ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to All Skills",
-        "pos": "+{:d} to All Skills",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "ama": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "itemaddamazonskills",
-      "amazonskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Amazon Skill Levels",
-        "pos": "+{:d} to Amazon Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ass": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "itemaddassassinskills",
-      "assassinskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Assassin Skill Levels",
-        "pos": "+{:d} to Assassin Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att": {
-    "aliases": [
-      "tohit",
-      "tohit",
-      "attackrating"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating",
-        "pos": "+{:d} to Attack Rating",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att%": {
-    "aliases": [
-      "item_tohit_percent",
-      "itemtohitpercent",
-      "attackratingpercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Bonus to Attack Rating",
-        "pos": "{:d}% Bonus to Attack Rating",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att%-mon": {
+  "137": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "att%/lvl": {
-    "aliases": [
-      "item_tohitpercent_perlevel",
-      "itemtohitpercentperlevel"
+  "138": {
+    "aliases": [],
+    "children": [
+      "17",
+      "18",
+      "19"
     ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Bonus to Attack Rating (Based on Character Level)",
-        "pos": "{:d}% Bonus to Attack Rating (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "att%/time": {
-    "aliases": [
-      "item_tohitpercent_bytime",
-      "itemtohitpercentbytime"
+  "139": {
+    "aliases": [],
+    "children": [
+      "24",
+      "25",
+      "26"
     ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Bonus to Attack Rating",
-        "pos": "+{:d} Bonus to Attack Rating",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "att-dem/lvl": {
-    "aliases": [
-      "item_tohit_demon_perlevel",
-      "itemtohitdemonperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating against Demons (Based on Character Level)",
-        "pos": "+{:d} to Attack Rating against Demons (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-dem/time": {
-    "aliases": [
-      "item_tohit_demon_bytime",
-      "itemtohitdemonbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating against Demons",
-        "pos": "+{:d} to Attack Rating against Demons",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-demon": {
-    "aliases": [
-      "item_demon_tohit",
-      "itemdemontohit"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating against Demons",
-        "pos": "+{:d} to Attack Rating against Demons",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-mon": {
+  "14": {
     "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "att-mon%": {
-    "aliases": [
-      "attack_vs_montype",
-      "attackvsmontype"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating versus {}",
-        "pos": "+{:d} to Attack Rating versus {}",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-skill": {
-    "aliases": [
-      "item_skillonattack",
-      "itemskillonattack"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance to cast level {:d} {} on attack",
-        "pos": "{:d}% Chance to cast level {:d} {} on attack",
-        "spec": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-und/lvl": {
-    "aliases": [
-      "item_tohit_undead_perlevel",
-      "itemtohitundeadperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating against Undead (Based on Character Level)",
-        "pos": "+{:d} to Attack Rating against Undead (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-und/time": {
-    "aliases": [
-      "item_tohit_undead_bytime",
-      "itemtohitundeadbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating against Undead",
-        "pos": "+{:d} to Attack Rating against Undead",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att-undead": {
-    "aliases": [
-      "item_undead_tohit",
-      "itemundeadtohit"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating against Undead",
-        "pos": "+{:d} to Attack Rating against Undead",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att/lvl": {
-    "aliases": [
-      "item_tohit_perlevel",
-      "itemtohitperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating (Based on Character Level)",
-        "pos": "+{:d} to Attack Rating (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "att/time": {
-    "aliases": [
-      "item_tohit_bytime",
-      "itemtohitbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating",
-        "pos": "+{:d} to Attack Rating",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "aura": {
-    "aliases": [
-      "item_aura",
-      "itemaura"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Level {:d} {} Aura When Equipped",
-        "pos": "Level {:d} {} Aura When Equipped",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "balance1": {
-    "aliases": [
-      "item_fastergethitrate",
-      "itemfastergethitrate",
-      "fhr",
-      "fasterhitrecovery"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Hit Recovery",
-        "pos": "+{:d}% Faster Hit Recovery",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "balance2": {
-    "aliases": [
-      "item_fastergethitrate",
-      "itemfastergethitrate",
-      "fhr",
-      "fasterhitrecovery"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Hit Recovery",
-        "pos": "+{:d}% Faster Hit Recovery",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "balance3": {
-    "aliases": [
-      "item_fastergethitrate",
-      "itemfastergethitrate",
-      "fhr",
-      "fasterhitrecovery"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Hit Recovery",
-        "pos": "+{:d}% Faster Hit Recovery",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "bar": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "itemaddbarbarianskills",
-      "barbarianskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Barbarian Skill Levels",
-        "pos": "+{:d} to Barbarian Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "block": {
-    "aliases": [
-      "toblock",
-      "toblock",
-      "chanceofblocking"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Increased Chance of Blocking",
-        "pos": "{:d}% Increased Chance of Blocking",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "block1": {
-    "aliases": [
-      "item_fasterblockrate",
-      "itemfasterblockrate",
-      "fbr",
-      "fasterblockrate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Block Rate",
-        "pos": "+{:d}% Faster Block Rate",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "block2": {
-    "aliases": [
-      "item_fasterblockrate",
-      "itemfasterblockrate",
-      "fbr",
-      "fasterblockrate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Block Rate",
-        "pos": "+{:d}% Faster Block Rate",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "block3": {
-    "aliases": [
-      "item_fasterblockrate",
-      "itemfasterblockrate",
-      "fbr",
-      "fasterblockrate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Block Rate",
-        "pos": "+{:d}% Faster Block Rate",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "bloody": {
-    "aliases": [
-      "item_extrablood",
-      "itemextrablood"
-    ],
+  "140": {
+    "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "cast1": {
-    "aliases": [
-      "item_fastercastrate",
-      "itemfastercastrate",
-      "fcr",
-      "fastercastrate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Cast Rate",
-        "pos": "+{:d}% Faster Cast Rate",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "cast2": {
-    "aliases": [
-      "item_fastercastrate",
-      "itemfastercastrate",
-      "fcr",
-      "fastercastrate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Cast Rate",
-        "pos": "+{:d}% Faster Cast Rate",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "cast3": {
-    "aliases": [
-      "item_fastercastrate",
-      "itemfastercastrate",
-      "fcr",
-      "fastercastrate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Cast Rate",
-        "pos": "+{:d}% Faster Cast Rate",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "charged": {
-    "aliases": [
-      "item_charged_skill",
-      "itemchargedskill",
-      "chargedskill"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Level {:d} {} ({:d}/{:d} Charges)",
-        "pos": "Level {:d} {} ({:d}/{:d} Charges)",
-        "spec": [
-          3,
-          0,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "cheap": {
-    "aliases": [
-      "item_reducedprices",
-      "itemreducedprices",
-      "reduceprices",
-      "reducedvendorprices"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Reduces all Vendor Prices {:d}%",
-        "pos": "Reduces all Vendor Prices {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "cold-len": {
-    "aliases": [
-      "coldlength",
-      "coldlength"
-    ],
+  "141": {
+    "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "cold-max": {
-    "aliases": [
-      "coldmaxdam",
-      "coldmaxdam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "cold-min": {
-    "aliases": [
-      "coldmindam",
-      "coldmindam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Minimum Cold Damage",
-        "pos": "+{:d} to Minimum Cold Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "color": {
-    "aliases": [
-      "item_lightcolor",
-      "itemlightcolor"
-    ],
+  "142": {
+    "aliases": [],
     "children": [],
     "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "crush": {
-    "aliases": [
-      "item_crushingblow",
-      "itemcrushingblow",
-      "crushingblow"
-    ],
+  "143": {
+    "aliases": [],
     "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance of Crushing Blow",
-        "pos": "{:d}% Chance of Crushing Blow",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "crush/lvl": {
-    "aliases": [
-      "item_crushingblow_perlevel",
-      "itemcrushingblowperlevel"
-    ],
+  "144": {
+    "aliases": [],
     "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance of Crushing Blow (Based on Character Level)",
-        "pos": "{:d}% Chance of Crushing Blow (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
-  "crush/time": {
-    "aliases": [
-      "item_crushingblow_bytime",
-      "itemcrushingblowbytime",
-      "crushingblow"
-    ],
+  "145": {
+    "aliases": [],
     "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Chance of Crushing Blow",
-        "pos": "+{:d} Chance of Crushing Blow",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "146": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "147": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "148": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "149": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "15": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "150": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "151": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "152": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "153": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "154": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "155": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "156": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "157": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "158": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "159": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "16": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "160": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "161": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "162": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "163": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "164": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "165": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "166": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "167": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "168": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "169": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "17": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "170": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "171": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "172": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "173": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "174": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "175": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "176": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "177": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "178": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "179": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "18": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "180": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "181": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "182": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "183": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "184": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "185": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "186": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "187": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "188": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "189": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "19": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "190": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "191": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "192": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "193": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "194": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "195": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "196": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "197": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "198": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "199": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "2": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "20": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "200": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "201": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "202": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "203": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "204": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "205": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "206": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "207": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "208": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "209": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "21": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "210": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "211": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "212": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "213": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "214": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "215": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "216": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "217": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "218": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "219": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "22": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "220": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "221": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "222": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "223": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "224": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "225": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "226": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "227": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "228": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "229": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "23": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "230": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "231": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "232": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "233": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "234": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "235": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "236": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "237": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "238": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "239": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "24": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "240": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "241": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "242": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "243": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "244": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "245": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "246": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "247": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "248": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "249": {
+    "aliases": [],
+    "children": [
+      "20",
+      "21",
+      "22",
+      "23",
+      "17",
+      "18",
+      "19"
     ],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "25": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "250": {
+    "aliases": [],
+    "children": [
+      "20",
+      "22",
+      "17"
+    ],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "251": {
+    "aliases": [],
+    "children": [
+      "21",
+      "23",
+      "18",
+      "19"
+    ],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "252": {
+    "aliases": [],
+    "children": [
+      "7",
+      "10",
+      "8",
+      "9"
+    ],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "253": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "254": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "255": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "256": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "257": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "258": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "259": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "26": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "260": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "261": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "262": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "263": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "264": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "265": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "266": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "267": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "268": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "269": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "27": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "28": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "29": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "3": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "30": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "31": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "32": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "33": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "34": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "35": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "36": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "37": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "38": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "39": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "4": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "40": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "41": {
+    "aliases": [],
+    "children": [
+      "31",
+      "33",
+      "35",
+      "39"
+    ],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "42": {
+    "aliases": [],
+    "children": [
+      "32",
+      "34",
+      "36",
+      "40"
+    ],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "43": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "44": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "45": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "46": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "47": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "48": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "49": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "5": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "50": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "51": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "52": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "53": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "54": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "55": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "56": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "57": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "58": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "59": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "6": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "60": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "61": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "62": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "63": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "64": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "65": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "66": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "67": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "68": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "69": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "7": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "70": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "71": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "72": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "73": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "74": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "75": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "76": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "77": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "78": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "79": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "8": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "80": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "81": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "82": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "83": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "84": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "85": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "86": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "87": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "88": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "89": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "9": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "90": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "91": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "92": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "93": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "94": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "95": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "96": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "97": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "98": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
+    "patterns_range": [],
+    "within": []
+  },
+  "99": {
+    "aliases": [],
+    "children": [],
+    "patterns": [],
     "patterns_range": [],
     "within": []
   },
@@ -1425,88 +1982,6 @@
     ],
     "within": []
   },
-  "deadly": {
-    "aliases": [
-      "item_deadlystrike",
-      "itemdeadlystrike",
-      "deadlystrike"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Deadly Strike",
-        "pos": "{:d}% Deadly Strike",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "deadly/lvl": {
-    "aliases": [
-      "item_deadlystrike_perlevel",
-      "itemdeadlystrikeperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Deadly Strike (Based on Character Level)",
-        "pos": "{:d}% Deadly Strike (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "deadly/time": {
-    "aliases": [
-      "item_deadlystrike_bytime",
-      "itemdeadlystrikebytime",
-      "deadlystrike"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Deadly Strike",
-        "pos": "+{:d} Deadly Strike",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "death-skill": {
-    "aliases": [
-      "item_skillondeath",
-      "itemskillondeath"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance to cast level {:d} {} when you Die",
-        "pos": "{:d}% Chance to cast level {:d} {} when you Die",
-        "spec": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
   "defense": {
     "aliases": [],
     "children": [],
@@ -1514,1006 +1989,6 @@
       {
         "neg": "Defense: {:d}",
         "pos": "Defense: {:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "demon-heal": {
-    "aliases": [
-      "item_healafterdemonkill",
-      "itemhealafterdemonkill"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Life after each Demon Kill",
-        "pos": "+{:d} Life after each Demon Kill",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dex": {
-    "aliases": [
-      "dexterity",
-      "dexterity"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Dexterity",
-        "pos": "+{:d} to Dexterity",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dex/lvl": {
-    "aliases": [
-      "item_dexterity_perlevel",
-      "itemdexterityperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Dexterity (Based on Character Level)",
-        "pos": "+{:d} to Dexterity (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dex/time": {
-    "aliases": [
-      "item_dexterity_bytime",
-      "itemdexteritybytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Dexterity",
-        "pos": "+{:d} to Dexterity",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg": {
-    "aliases": [
-      "item_normaldamage",
-      "itemnormaldamage",
-      "damagebonus",
-      "bonusdamage",
-      "adddamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Damage -{:d}",
-        "pos": "Damage +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg%": {
-    "aliases": [
-      "enhanceddamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Enhanced damage",
-        "pos": "+{:d}% Enhanced damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg%-mon": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg%/lvl": {
-    "aliases": [
-      "item_maxdamage_percent_perlevel",
-      "itemmaxdamagepercentperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
-        "pos": "{:d}% Enhanced Maximum Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg%/time": {
-    "aliases": [
-      "item_maxdamage_percent_bytime",
-      "itemmaxdamagepercentbytime",
-      "enhanceddamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Enhanced Maximum Damage",
-        "pos": "+{:d} Enhanced Maximum Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-ac": {
-    "aliases": [
-      "item_damagetargetac",
-      "itemdamagetargetac"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Monster Defense Per Hit",
-        "pos": "+{:d} to Monster Defense Per Hit",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-cold": {
-    "aliases": [
-      "itemcolddamage"
-    ],
-    "children": [
-      "cold-min",
-      "cold-max",
-      "cold-len"
-    ],
-    "patterns": [
-      {
-        "neg": "+{:d} cold damage",
-        "pos": "+{:d} cold damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} cold damage",
-        "pos": "Adds {:d}-{:d} cold damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-cold/lvl": {
-    "aliases": [
-      "item_cold_damagemax_perlevel",
-      "itemcolddamagemaxperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Cold Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Cold Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-cold/time": {
-    "aliases": [
-      "item_cold_damagemax_bytime",
-      "itemcolddamagemaxbytime",
-      "itemcolddamagemax"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-crush": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-crush%": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-dem/lvl": {
-    "aliases": [
-      "item_damage_demon_perlevel",
-      "itemdamagedemonperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Damage to Demons (Based on Character Level)",
-        "pos": "{:d}% Damage to Demons (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-dem/time": {
-    "aliases": [
-      "item_damage_demon_bytime",
-      "itemdamagedemonbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Damage to Demons",
-        "pos": "+{:d} Damage to Demons",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-demon": {
-    "aliases": [
-      "item_demondamage_percent",
-      "itemdemondamagepercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Damage to Demons",
-        "pos": "+{:d}% Damage to Demons",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-elem": {
-    "aliases": [
-      "itemelementaldamage"
-    ],
-    "children": [
-      "fire-min",
-      "fire-max",
-      "ltng-min",
-      "ltng-max",
-      "cold-min",
-      "cold-max",
-      "cold-len"
-    ],
-    "patterns": [],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} cold damage",
-        "pos": "Adds {:d}-{:d} cold damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      },
-      {
-        "neg": "Adds {:d}-{:d} fire damage",
-        "pos": "Adds {:d}-{:d} fire damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      },
-      {
-        "neg": "Adds {:d}-{:d} lightning damage",
-        "pos": "Adds {:d}-{:d} lightning damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-elem-max": {
-    "aliases": [
-      "itemelementaldamagemax"
-    ],
-    "children": [
-      "fire-max",
-      "ltng-max",
-      "cold-max",
-      "cold-len"
-    ],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d} to Maximum Cold Damage",
-        "pos": "+{:d} to Maximum Cold Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-elem-min": {
-    "aliases": [
-      "itemelementaldamagemin"
-    ],
-    "children": [
-      "fire-min",
-      "ltng-min",
-      "cold-min"
-    ],
-    "patterns": [
-      {
-        "neg": "-{:d} to Minimum Fire Damage",
-        "pos": "+{:d} to Minimum Fire Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d} to Minimum Lightning Damage",
-        "pos": "+{:d} to Minimum Lightning Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d} to Minimum Cold Damage",
-        "pos": "+{:d} to Minimum Cold Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-fire": {
-    "aliases": [
-      "itemfiredamage"
-    ],
-    "children": [
-      "fire-min",
-      "fire-max"
-    ],
-    "patterns": [
-      {
-        "neg": "+{:d} fire damage",
-        "pos": "+{:d} fire damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} fire damage",
-        "pos": "Adds {:d}-{:d} fire damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-fire/lvl": {
-    "aliases": [
-      "item_fire_damagemax_perlevel",
-      "itemfiredamagemaxperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Fire Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Fire Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-fire/time": {
-    "aliases": [
-      "item_fire_damagemax_bytime",
-      "itemfiredamagemaxbytime",
-      "itemfiredamagemax"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-ltng": {
-    "aliases": [
-      "itemlightningdamage",
-      "itemltngdamage"
-    ],
-    "children": [
-      "ltng-min",
-      "ltng-max"
-    ],
-    "patterns": [
-      {
-        "neg": "+{:d} lightning damage",
-        "pos": "+{:d} lightning damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} lightning damage",
-        "pos": "Adds {:d}-{:d} lightning damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-ltng/lvl": {
-    "aliases": [
-      "item_ltng_damagemax_perlevel",
-      "itemltngdamagemaxperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Lightning Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Lightning Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-ltng/time": {
-    "aliases": [
-      "item_ltng_damagemax_bytime",
-      "itemltngdamagemaxbytime",
-      "itemlightningdamagemax",
-      "itemltngdamagemax"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-mag": {
-    "aliases": [],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "+{:d} magic damage",
-        "pos": "+{:d} magic damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} magic damage",
-        "pos": "Adds {:d}-{:d} magic damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-max": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-min": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-mon": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-mon%": {
-    "aliases": [
-      "damage_vs_montype",
-      "damagevsmontype"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Attack Rating versus {}",
-        "pos": "+{:d} to Attack Rating versus {}",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-norm": {
-    "aliases": [
-      "damagebonus",
-      "bonusdamage",
-      "adddamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "+{:d} damage",
-        "pos": "+{:d} damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} damage",
-        "pos": "Adds {:d}-{:d} damage",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-pois": {
-    "aliases": [
-      "itempoisondamage"
-    ],
-    "children": [
-      "pois-min",
-      "pois-max",
-      "pois-len"
-    ],
-    "patterns": [
-      {
-        "neg": "+{:d} poison damage over {:d} seconds",
-        "pos": "+{:d} poison damage over {:d} seconds",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [
-      {
-        "neg": "Adds {:d}-{:d} poison damage over {:d} seconds",
-        "pos": "Adds {:d}-{:d} poison damage over {:d} seconds",
-        "spec": [
-          0,
-          1,
-          -1
-        ]
-      }
-    ],
-    "within": []
-  },
-  "dmg-pois/lvl": {
-    "aliases": [
-      "item_pois_damagemax_perlevel",
-      "itempoisdamagemaxperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Poison Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Poison Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-pois/time": {
-    "aliases": [
-      "item_pois_damagemax_bytime",
-      "itempoisdamagemaxbytime",
-      "itempoisondamagemax"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Poison Damage",
-        "pos": "+{:d} to Maximum Poison Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-slash": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-slash%": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-throw": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-thrust": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-thrust%": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-to-mana": {
-    "aliases": [
-      "item_damagetomana",
-      "itemdamagetomana"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Damage Taken Goes To Mana",
-        "pos": "{:d}% Damage Taken Goes To Mana",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-und/lvl": {
-    "aliases": [
-      "item_damage_undead_perlevel",
-      "itemdamageundeadperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Damage to Undead (Based on Character Level)",
-        "pos": "{:d}% Damage to Undead (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-und/time": {
-    "aliases": [
-      "item_damage_undead_bytime",
-      "itemdamageundeadbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Damage to Undead",
-        "pos": "+{:d} Damage to Undead",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg-undead": {
-    "aliases": [
-      "item_undeaddamage_percent",
-      "itemundeaddamagepercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Damage to Undead",
-        "pos": "+{:d}% Damage to Undead",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg/lvl": {
-    "aliases": [
-      "item_maxdamage_perlevel",
-      "itemmaxdamageperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Damage (Based on Character Level)",
-        "pos": "+{:d} to Maximum Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dmg/time": {
-    "aliases": [
-      "item_maxdamage_bytime",
-      "itemmaxdamagebytime",
-      "damagebonus",
-      "bonusdamage",
-      "adddamage",
-      "itemmaxdamage",
-      "maxdamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Damage",
-        "pos": "+{:d} to Maximum Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dru": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "druidskills",
-      "itemadddruidskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Druid Skill Levels",
-        "pos": "+{:d} to Druid Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "dur": {
-    "aliases": [
-      "maxdurability",
-      "maxdurability"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "dur%": {
-    "aliases": [
-      "item_maxdurability_percent",
-      "itemmaxdurabilitypercent",
-      "maxdurabilitypercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Increase Maximum Durability {:d}%",
-        "pos": "Increase Maximum Durability {:d}%",
         "spec": [
           0,
           -1,
@@ -2541,86 +2016,6 @@
     "patterns_range": [],
     "within": []
   },
-  "ease": {
-    "aliases": [
-      "item_req_percent",
-      "itemreqpercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Requirements -{:d}%",
-        "pos": "Requirements +{:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "enr": {
-    "aliases": [
-      "energy",
-      "energy"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Energy",
-        "pos": "+{:d} to Energy",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "enr/lvl": {
-    "aliases": [
-      "item_energy_perlevel",
-      "itemenergyperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Energy (Based on Character Level)",
-        "pos": "+{:d} to Energy (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "enr/time": {
-    "aliases": [
-      "item_energy_bytime",
-      "itemenergybytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Energy",
-        "pos": "+{:d} to Energy",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
   "ethereal": {
     "aliases": [],
     "children": [],
@@ -2628,2604 +2023,6 @@
       {
         "neg": "Ethereal (Cannot be Repaired)",
         "pos": "Ethereal (Cannot be Repaired)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "explosivearrow": {
-    "aliases": [
-      "item_explosivearrow",
-      "itemexplosivearrow"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Fires Explosive Arrows or Bolts",
-        "pos": "Fires Explosive Arrows or Bolts",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "extra-cold": {
-    "aliases": [
-      "passive_cold_mastery",
-      "passivecoldmastery",
-      "coldskilldamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Cold Skill Damage",
-        "pos": "+{:d}% to Cold Skill Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "extra-fire": {
-    "aliases": [
-      "passive_fire_mastery",
-      "passivefiremastery",
-      "fireskilldamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Fire Skill Damage",
-        "pos": "+{:d}% to Fire Skill Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "extra-ltng": {
-    "aliases": [
-      "passive_ltng_mastery",
-      "passiveltngmastery",
-      "lightningskilldamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Lightning Skill Damage",
-        "pos": "+{:d}% to Lightning Skill Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "extra-pois": {
-    "aliases": [
-      "passive_pois_mastery",
-      "passivepoismastery",
-      "poisonskilldamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Poison Skill Damage",
-        "pos": "+{:d}% to Poison Skill Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "fade": {
-    "aliases": [
-      "fade",
-      "fade"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "fire-fx": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "fire-max": {
-    "aliases": [
-      "firemaxdam",
-      "firemaxdam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Fire Damage",
-        "pos": "+{:d} to Maximum Fire Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "fire-min": {
-    "aliases": [
-      "firemindam",
-      "firemindam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Minimum Fire Damage",
-        "pos": "+{:d} to Minimum Fire Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "fireskill": {
-    "aliases": [
-      "item_elemskill",
-      "itemelemskill",
-      "fireskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Fire Skills",
-        "pos": "+{:d} to Fire Skills",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "freeze": {
-    "aliases": [
-      "item_freeze",
-      "itemfreeze",
-      "freezetarget"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Freezes target -{:d}",
-        "pos": "Freezes target +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "gembonus": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "gems%/lvl": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "gems%/time": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "gethit-skill": {
-    "aliases": [
-      "item_skillongethit",
-      "itemskillongethit",
-      "chancetocastwhenstruck"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance to cast level {:d} {} when struck",
-        "pos": "{:d}% Chance to cast level {:d} {} when struck",
-        "spec": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "gold%": {
-    "aliases": [
-      "item_goldbonus",
-      "itemgoldbonus",
-      "extragold",
-      "goldfind"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Extra Gold from Monsters",
-        "pos": "{:d}% Extra Gold from Monsters",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "gold%/lvl": {
-    "aliases": [
-      "item_find_gold_perlevel",
-      "itemfindgoldperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Extra Gold from Monsters (Based on Character Level)",
-        "pos": "{:d}% Extra Gold from Monsters (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "gold%/time": {
-    "aliases": [
-      "item_find_gold_bytime",
-      "itemfindgoldbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Extra Gold from Monsters -{:d}",
-        "pos": "Extra Gold from Monsters +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "half-freeze": {
-    "aliases": [
-      "item_halffreezeduration",
-      "itemhalffreezeduration"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Half Freeze Duration",
-        "pos": "Half Freeze Duration",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "heal-kill": {
-    "aliases": [
-      "item_healafterkill",
-      "itemhealafterkill"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Life after each Kill",
-        "pos": "+{:d} Life after each Kill",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "herb": {
-    "aliases": [
-      "item_doubleherbduration",
-      "itemdoubleherbduration"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "hit-skill": {
-    "aliases": [
-      "item_skillonhit",
-      "itemskillonhit",
-      "chancetocastonstrike"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance to cast level {:d} {} on striking",
-        "pos": "{:d}% Chance to cast level {:d} {} on striking",
-        "spec": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "howl": {
-    "aliases": [
-      "item_howl",
-      "itemhowl"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Hit Causes Monster to Flee {:d}%",
-        "pos": "Hit Causes Monster to Flee {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "hp": {
-    "aliases": [
-      "maxhp",
-      "maxhp",
-      "life"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Life",
-        "pos": "+{:d} to Life",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "hp%": {
-    "aliases": [
-      "item_maxhp_percent",
-      "itemmaxhppercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Increase Maximum Life {:d}%",
-        "pos": "Increase Maximum Life {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "hp/lvl": {
-    "aliases": [
-      "item_hp_perlevel",
-      "itemhpperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Life (Based on Character Level)",
-        "pos": "+{:d} to Life (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "hp/time": {
-    "aliases": [
-      "item_hp_bytime",
-      "itemhpbytime",
-      "life"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Life",
-        "pos": "+{:d} to Life",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ignore-ac": {
-    "aliases": [
-      "item_ignoretargetac",
-      "itemignoretargetac"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Ignore Target's Defense",
-        "pos": "Ignore Target's Defense",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "indestruct": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "item%": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "kick": {
-    "aliases": [
-      "item_kickdamage",
-      "itemkickdamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Kick Damage",
-        "pos": "+{:d} Kick Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "kick/lvl": {
-    "aliases": [
-      "item_kick_damage_perlevel",
-      "itemkickdamageperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Kick Damage (Based on Character Level)",
-        "pos": "+{:d} Kick Damage (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "kick/time": {
-    "aliases": [
-      "item_kick_damage_bytime",
-      "itemkickdamagebytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Kick Damage",
-        "pos": "+{:d} Kick Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "kill-skill": {
-    "aliases": [
-      "item_skillonkill",
-      "itemskillonkill",
-      "chancetocastonkill"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
-        "pos": "{:d}% Chance to cast level {:d} {} when you Kill an Enemy",
-        "spec": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "knock": {
-    "aliases": [
-      "item_knockback",
-      "itemknockback",
-      "knockback"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Knockback",
-        "pos": "Knockback",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "levelreq": {
-    "aliases": [
-      "item_levelreq",
-      "itemlevelreq"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "levelup-skill": {
-    "aliases": [
-      "item_skillonlevelup",
-      "itemskillonlevelup",
-      "chancetocastonlevelup"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance to cast level {:d} {} when you Level-Up",
-        "pos": "{:d}% Chance to cast level {:d} {} when you Level-Up",
-        "spec": [
-          0,
-          1,
-          2
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "lifesteal": {
-    "aliases": [
-      "lifedrainmindam",
-      "lifedrainmindam",
-      "lifeleech"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Life stolen per hit",
-        "pos": "{:d}% Life stolen per hit",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "light": {
-    "aliases": [
-      "item_lightradius",
-      "itemlightradius"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Light Radius",
-        "pos": "+{:d} to Light Radius",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "light-thorns": {
-    "aliases": [
-      "item_attackertakeslightdamage",
-      "itemattackertakeslightdamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Attacker Takes Lightning Damage of {:d}",
-        "pos": "Attacker Takes Lightning Damage of {:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ltng-fx": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "ltng-max": {
-    "aliases": [
-      "lightmaxdam",
-      "lightmaxdam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Lightning Damage",
-        "pos": "+{:d} to Maximum Lightning Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "ltng-min": {
-    "aliases": [
-      "lightmindam",
-      "lightmindam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Minimum Lightning Damage",
-        "pos": "+{:d} to Minimum Lightning Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mag%": {
-    "aliases": [
-      "item_magicbonus",
-      "itemmagicbonus",
-      "magicfind"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Better Chance of Getting Magic Items",
-        "pos": "{:d}% Better Chance of Getting Magic Items",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mag%/lvl": {
-    "aliases": [
-      "item_find_magic_perlevel",
-      "itemfindmagicperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
-        "pos": "{:d}% Better Chance of Getting Magic Items (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mag%/time": {
-    "aliases": [
-      "item_find_magic_bytime",
-      "itemfindmagicbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Better Chance of Getting Magic Items",
-        "pos": "+{:d} Better Chance of Getting Magic Items",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "magicarrow": {
-    "aliases": [
-      "item_magicarrow",
-      "itemmagicarrow"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Fires Magic Arrows",
-        "pos": "Fires Magic Arrows",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mana": {
-    "aliases": [
-      "maxmana",
-      "maxmana"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Mana",
-        "pos": "+{:d} to Mana",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mana%": {
-    "aliases": [
-      "item_maxmana_percent",
-      "itemmaxmanapercent"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Increase Maximum Mana {:d}%",
-        "pos": "Increase Maximum Mana {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mana-kill": {
-    "aliases": [
-      "item_manaafterkill",
-      "itemmanaafterkill"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Mana after each Kill",
-        "pos": "+{:d} to Mana after each Kill",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mana/lvl": {
-    "aliases": [
-      "item_mana_perlevel",
-      "itemmanaperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Mana (Based on Character Level)",
-        "pos": "+{:d} to Mana (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "mana/time": {
-    "aliases": [
-      "item_mana_bytime",
-      "itemmanabytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Mana",
-        "pos": "+{:d} to Mana",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "manasteal": {
-    "aliases": [
-      "manadrainmindam",
-      "manadrainmindam",
-      "manaleech"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Mana stolen per hit",
-        "pos": "{:d}% Mana stolen per hit",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "move1": {
-    "aliases": [
-      "item_fastermovevelocity",
-      "itemfastermovevelocity",
-      "frw",
-      "fasterrunwalk"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Run/Walk",
-        "pos": "+{:d}% Faster Run/Walk",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "move2": {
-    "aliases": [
-      "item_fastermovevelocity",
-      "itemfastermovevelocity",
-      "frw",
-      "fasterrunwalk"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Run/Walk",
-        "pos": "+{:d}% Faster Run/Walk",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "move3": {
-    "aliases": [
-      "item_fastermovevelocity",
-      "itemfastermovevelocity",
-      "frw",
-      "fasterrunwalk"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Faster Run/Walk",
-        "pos": "+{:d}% Faster Run/Walk",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "nec": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "itemaddnecromancerskills",
-      "necromancerskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Necromancer Skill Levels",
-        "pos": "+{:d} to Necromancer Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "nofreeze": {
-    "aliases": [
-      "item_cannotbefrozen",
-      "itemcannotbefrozen"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Cannot Be Frozen",
-        "pos": "Cannot Be Frozen",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "noheal": {
-    "aliases": [
-      "item_preventheal",
-      "itempreventheal"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Prevent Monster Heal",
-        "pos": "Prevent Monster Heal",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "openwounds": {
-    "aliases": [
-      "item_openwounds",
-      "itemopenwounds"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance of Open Wounds",
-        "pos": "{:d}% Chance of Open Wounds",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "oskill": {
-    "aliases": [
-      "item_nonclassskill",
-      "itemnonclassskill"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "+{:d} to {}",
-        "pos": "+{:d} to {}",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pal": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "itemaddpaladinskills",
-      "paladinskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Paladin Skill Levels",
-        "pos": "+{:d} to Paladin Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pierce": {
-    "aliases": [
-      "item_pierce",
-      "itempierce"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Piercing Attack",
-        "pos": "Piercing Attack",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pierce-cold": {
-    "aliases": [
-      "passive_cold_pierce",
-      "passivecoldpierce"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Enemy Cold Resistance",
-        "pos": "+{:d}% to Enemy Cold Resistance",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pierce-fire": {
-    "aliases": [
-      "passive_fire_pierce",
-      "passivefirepierce"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Enemy Fire Resistance",
-        "pos": "+{:d}% to Enemy Fire Resistance",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pierce-ltng": {
-    "aliases": [
-      "passive_ltng_pierce",
-      "passiveltngpierce"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Enemy Lightning Resistance",
-        "pos": "+{:d}% to Enemy Lightning Resistance",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pierce-pois": {
-    "aliases": [
-      "passive_pois_pierce",
-      "passivepoispierce"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Enemy Poison Resistance",
-        "pos": "+{:d}% to Enemy Poison Resistance",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pois-len": {
-    "aliases": [
-      "poisonlength",
-      "poisonlength"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "pois-max": {
-    "aliases": [
-      "poisonmaxdam",
-      "poisonmaxdam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Maximum Poison Damage",
-        "pos": "+{:d} to Maximum Poison Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "pois-min": {
-    "aliases": [
-      "poisonmindam",
-      "poisonmindam"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Minimum Poison Damage",
-        "pos": "+{:d} to Minimum Poison Damage",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "randclassskill": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to {} Skill Levels",
-        "pos": "+{:d} to {} Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "reanimate": {
-    "aliases": [
-      "item_reanimate",
-      "itemreanimate"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Reanimate as: {}",
-        "pos": "{:d}% Reanimate as: {}",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "red-dmg": {
-    "aliases": [
-      "normal_damage_reduction",
-      "normaldamagereduction"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Damage Reduced by {:d}",
-        "pos": "Damage Reduced by {:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "red-dmg%": {
-    "aliases": [
-      "damageresist",
-      "damageresist",
-      "damagereduction"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Damage Reduced by {:d}%",
-        "pos": "Damage Reduced by {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "red-mag": {
-    "aliases": [
-      "magic_damage_reduction",
-      "magicdamagereduction"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Magic Damage Reduced by {:d}",
-        "pos": "Magic Damage Reduced by {:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "reduce-ac": {
-    "aliases": [
-      "item_fractionaltargetac",
-      "itemfractionaltargetac",
-      "targetdefense"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Target Defense",
-        "pos": "+{:d}% Target Defense",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "regen": {
-    "aliases": [
-      "hpregen",
-      "hpregen"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Drain Life -{:d}",
-        "pos": "Replenish Life +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "regen-dur": {
-    "aliases": [],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "regen-mana": {
-    "aliases": [
-      "manarecoverybonus",
-      "manarecoverybonus"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Regenerate Mana {:d}%",
-        "pos": "Regenerate Mana {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "regen-stam": {
-    "aliases": [
-      "staminarecoverybonus",
-      "staminarecoverybonus"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Heal Stamina Plus {:d}%",
-        "pos": "Heal Stamina Plus {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "regen-stam/lvl": {
-    "aliases": [
-      "item_regenstamina_perlevel",
-      "itemregenstaminaperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Heal Stamina Plus {:d}% (Based on Character Level)",
-        "pos": "Heal Stamina Plus {:d}% (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "regen-stam/time": {
-    "aliases": [
-      "item_regenstamina_bytime",
-      "itemregenstaminabytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Heal Stamina Plus -{:d}",
-        "pos": "Heal Stamina Plus +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "rep-dur": {
-    "aliases": [
-      "item_replenish_durability",
-      "itemreplenishdurability"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Repairs {} durability {}",
-        "pos": "Repairs {} durability {}",
-        "spec": [
-          -1,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "rep-quant": {
-    "aliases": [
-      "item_replenish_quantity",
-      "itemreplenishquantity"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Replenishes quantity",
-        "pos": "Replenishes quantity",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-all": {
-    "aliases": [
-      "allresist"
-    ],
-    "children": [
-      "res-fire",
-      "res-ltng",
-      "res-cold",
-      "res-pois"
-    ],
-    "patterns": [
-      {
-        "neg": "All Resistances +{:d}",
-        "pos": "All Resistances +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-all-max": {
-    "aliases": [
-      "allresistmax"
-    ],
-    "children": [
-      "res-fire-max",
-      "res-ltng-max",
-      "res-cold-max",
-      "res-pois-max"
-    ],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Maximum Fire Resist",
-        "pos": "+{:d}% to Maximum Fire Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d}% to Maximum Lightning Resist",
-        "pos": "+{:d}% to Maximum Lightning Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d}% to Maximum Cold Resist",
-        "pos": "+{:d}% to Maximum Cold Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      },
-      {
-        "neg": "-{:d}% to Maximum Poison Resist",
-        "pos": "+{:d}% to Maximum Poison Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-cold": {
-    "aliases": [
-      "coldresist",
-      "coldresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Cold Resist -{:d}%",
-        "pos": "Cold Resist +{:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-cold-max": {
-    "aliases": [
-      "maxcoldresist",
-      "maxcoldresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Maximum Cold Resist",
-        "pos": "+{:d}% to Maximum Cold Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-cold/lvl": {
-    "aliases": [
-      "item_resist_cold_perlevel",
-      "itemresistcoldperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Cold Resist {:d}% (Based on Character Level)",
-        "pos": "Cold Resist {:d}% (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-cold/time": {
-    "aliases": [
-      "item_resist_cold_bytime",
-      "itemresistcoldbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Cold Resist -{:d}",
-        "pos": "Cold Resist +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-fire": {
-    "aliases": [
-      "fireresist",
-      "fireresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Fire Resist -{:d}%",
-        "pos": "Fire Resist +{:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-fire-max": {
-    "aliases": [
-      "maxfireresist",
-      "maxfireresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Maximum Fire Resist",
-        "pos": "+{:d}% to Maximum Fire Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-fire/lvl": {
-    "aliases": [
-      "item_resist_fire_perlevel",
-      "itemresistfireperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Fire Resist {:d}% (Based on Character Level)",
-        "pos": "Fire Resist {:d}% (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-fire/time": {
-    "aliases": [
-      "item_resist_fire_bytime",
-      "itemresistfirebytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Fire Resist -{:d}",
-        "pos": "Fire Resist +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-ltng": {
-    "aliases": [
-      "lightresist",
-      "lightresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Lightning Resist -{:d}%",
-        "pos": "Lightning Resist +{:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-ltng-max": {
-    "aliases": [
-      "maxlightresist",
-      "maxlightresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Maximum Lightning Resist",
-        "pos": "+{:d}% to Maximum Lightning Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-ltng/lvl": {
-    "aliases": [
-      "item_resist_ltng_perlevel",
-      "itemresistltngperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Lightning Resist {:d}% (Based on Character Level)",
-        "pos": "Lightning Resist {:d}% (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-ltng/time": {
-    "aliases": [
-      "item_resist_ltng_bytime",
-      "itemresistltngbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Lightning Resist -{:d}",
-        "pos": "Lightning Resist +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-mag": {
-    "aliases": [
-      "magicresist",
-      "magicresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Magic Resist -{:d}%",
-        "pos": "Magic Resist +{:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-mag-max": {
-    "aliases": [
-      "maxmagicresist",
-      "maxmagicresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Maximum Magic Resist",
-        "pos": "+{:d}% to Maximum Magic Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-pois": {
-    "aliases": [
-      "poisonresist",
-      "poisonresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Poison Resist -{:d}%",
-        "pos": "Poison Resist +{:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-pois-len": {
-    "aliases": [
-      "item_poisonlengthresist",
-      "itempoisonlengthresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Poison Length Reduced by {:d}%",
-        "pos": "Poison Length Reduced by {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-pois-max": {
-    "aliases": [
-      "maxpoisonresist",
-      "maxpoisonresist"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% to Maximum Poison Resist",
-        "pos": "+{:d}% to Maximum Poison Resist",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-pois/lvl": {
-    "aliases": [
-      "item_resist_pois_perlevel",
-      "itemresistpoisperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Poison Resist {:d}% (Based on Character Level)",
-        "pos": "Poison Resist {:d}% (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "res-pois/time": {
-    "aliases": [
-      "item_resist_pois_bytime",
-      "itemresistpoisbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Poison Resist -{:d}",
-        "pos": "Poison Resist +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "rip": {
-    "aliases": [
-      "item_restinpeace",
-      "itemrestinpeace"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Slain Monsters Rest in Peace",
-        "pos": "Slain Monsters Rest in Peace",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "skill": {
-    "aliases": [
-      "item_singleskill",
-      "itemsingleskill",
-      "skills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "+{:d} to {} ({} only)",
-        "pos": "+{:d} to {} ({} only)",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "skill-rand": {
-    "aliases": [
-      "item_singleskill",
-      "itemsingleskill",
-      "skills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "+{:d} to {} ({} only)",
-        "pos": "+{:d} to {} ({} only)",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "skilltab": {
-    "aliases": [
-      "item_addskill_tab",
-      "itemaddskilltab",
-      "skills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to {} ({} only)",
-        "pos": "+{:d} to {} ({} only)",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "slow": {
-    "aliases": [
-      "item_slow",
-      "itemslow"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Slows Target by {:d}%",
-        "pos": "Slows Target by {:d}%",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "sock": {
-    "aliases": [
-      "item_numsockets",
-      "itemnumsockets",
-      "sockets"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Socketed ({:d})",
-        "pos": "Socketed ({:d})",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "sor": {
-    "aliases": [
-      "item_addclassskills",
-      "itemaddclassskills",
-      "itemaddsorceressskills",
-      "sorceressskills"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Sorceress Skill Levels",
-        "pos": "+{:d} to Sorceress Skill Levels",
-        "spec": [
-          0,
-          -1,
-          1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "stack": {
-    "aliases": [
-      "item_extra_stack",
-      "itemextrastack"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Increased Stack Size",
-        "pos": "Increased Stack Size",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "stam": {
-    "aliases": [
-      "maxstamina",
-      "maxstamina"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Maximum Stamina",
-        "pos": "+{:d} Maximum Stamina",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "stam/lvl": {
-    "aliases": [
-      "item_stamina_perlevel",
-      "itemstaminaperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Maximum Stamina (Based on Character Level)",
-        "pos": "+{:d} Maximum Stamina (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "stam/time": {
-    "aliases": [
-      "item_stamina_bytime",
-      "itemstaminabytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Maximum Stamina",
-        "pos": "+{:d} Maximum Stamina",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "stamdrain": {
-    "aliases": [
-      "item_staminadrainpct",
-      "itemstaminadrainpct"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Slower Stamina Drain",
-        "pos": "{:d}% Slower Stamina Drain",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "state": {
-    "aliases": [
-      "state",
-      "state"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "str": {
-    "aliases": [
-      "strength",
-      "strength"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Strength",
-        "pos": "+{:d} to Strength",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "str/lvl": {
-    "aliases": [
-      "item_strength_perlevel",
-      "itemstrengthperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Strength (Based on Character Level)",
-        "pos": "+{:d} to Strength (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "str/time": {
-    "aliases": [
-      "item_strength_bytime",
-      "itemstrengthbytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Strength",
-        "pos": "+{:d} to Strength",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "stupidity": {
-    "aliases": [
-      "item_stupidity",
-      "itemstupidity",
-      "hitblindstarget"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Hit Blinds Target -{:d}",
-        "pos": "Hit Blinds Target +{:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "swing1": {
-    "aliases": [
-      "item_fasterattackrate",
-      "itemfasterattackrate",
-      "ias",
-      "increasedattackspeed",
-      "attackspeed"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Increased Attack Speed",
-        "pos": "+{:d}% Increased Attack Speed",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "swing2": {
-    "aliases": [
-      "item_fasterattackrate",
-      "itemfasterattackrate",
-      "ias",
-      "increasedattackspeed",
-      "attackspeed"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Increased Attack Speed",
-        "pos": "+{:d}% Increased Attack Speed",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "swing3": {
-    "aliases": [
-      "item_fasterattackrate",
-      "itemfasterattackrate",
-      "ias",
-      "increasedattackspeed",
-      "attackspeed"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d}% Increased Attack Speed",
-        "pos": "+{:d}% Increased Attack Speed",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "thorns": {
-    "aliases": [
-      "item_attackertakesdamage",
-      "itemattackertakesdamage"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Attacker Takes Damage of {:d}",
-        "pos": "Attacker Takes Damage of {:d}",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "thorns/lvl": {
-    "aliases": [
-      "item_thorns_perlevel",
-      "itemthornsperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Attacker Takes Damage of {:d} (Based on Character Level)",
-        "pos": "Attacker Takes Damage of {:d} (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "throw": {
-    "aliases": [
-      "item_throwable",
-      "itemthrowable"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "Throwable",
-        "pos": "Throwable",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "time": {
-    "aliases": [
-      "item_timeduration",
-      "itemtimeduration"
-    ],
-    "children": [],
-    "patterns": [],
-    "patterns_range": [],
-    "within": []
-  },
-  "vit": {
-    "aliases": [
-      "vitality",
-      "vitality"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Vitality",
-        "pos": "+{:d} to Vitality",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "vit/lvl": {
-    "aliases": [
-      "item_vitality_perlevel",
-      "itemvitalityperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Vitality (Based on Character Level)",
-        "pos": "+{:d} to Vitality (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "vit/time": {
-    "aliases": [
-      "item_vitality_bytime",
-      "itemvitalitybytime"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} to Vitality",
-        "pos": "+{:d} to Vitality",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "wounds/lvl": {
-    "aliases": [
-      "item_openwounds_perlevel",
-      "itemopenwoundsperlevel"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "{:d}% Chance of Open Wounds (Based on Character Level)",
-        "pos": "{:d}% Chance of Open Wounds (Based on Character Level)",
-        "spec": [
-          0,
-          -1,
-          -1
-        ]
-      }
-    ],
-    "patterns_range": [],
-    "within": []
-  },
-  "wounds/time": {
-    "aliases": [
-      "item_openwounds_bytime",
-      "itemopenwoundsbytime",
-      "openwounds"
-    ],
-    "children": [],
-    "patterns": [
-      {
-        "neg": "-{:d} Chance of Open Wounds",
-        "pos": "+{:d} Chance of Open Wounds",
         "spec": [
           0,
           -1,

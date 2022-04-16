@@ -1,22 +1,18 @@
 {
- "armo": {
+ "0": {
   "Store Page": "Armor Page",
-  "Code": "armo",
-  "lineNumber": 0
+  "Code": "armo"
  },
- "mag": {
-  "Store Page": "Magic Page",
-  "Code": "mag",
-  "lineNumber": 2
- },
- "misc": {
-  "Store Page": "Misc Page",
-  "Code": "misc",
-  "lineNumber": 3
- },
- "weap": {
+ "1": {
   "Store Page": "Weapons Page",
-  "Code": "weap",
-  "lineNumber": 1
+  "Code": "weap"
+ },
+ "2": {
+  "Store Page": "Magic Page",
+  "Code": "mag"
+ },
+ "3": {
+  "Store Page": "Misc Page",
+  "Code": "misc"
  }
 }

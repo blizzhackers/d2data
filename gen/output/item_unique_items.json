@@ -1710,7 +1710,7 @@
       {
         "max": 4,
         "min": 2,
-        "par": "Sword Mastery",
+        "par": "Blade Mastery",
         "prop": "skill"
       },
       {
@@ -6781,12 +6781,6 @@
         "min": 10,
         "par": "Fire Ball",
         "prop": "att-skill"
-      },
-      {
-        "max": -25,
-        "min": -25,
-        "par": 0,
-        "prop": "*mana"
       }
     ]
   },
@@ -11461,18 +11455,6 @@
         "min": null,
         "par": 20,
         "prop": "rep-dur"
-      },
-      {
-        "max": -10,
-        "min": -10,
-        "par": 0,
-        "prop": "*vit"
-      },
-      {
-        "max": -10,
-        "min": -10,
-        "par": 0,
-        "prop": "*enr"
       }
     ]
   },
@@ -13105,12 +13087,6 @@
         "min": 27,
         "par": 0,
         "prop": "light-thorns"
-      },
-      {
-        "max": -10,
-        "min": -10,
-        "par": 0,
-        "prop": "*enr"
       }
     ]
   },
@@ -13807,12 +13783,6 @@
         "min": 4,
         "par": "Amplify Damage",
         "prop": "hit-skill"
-      },
-      {
-        "max": -30,
-        "min": -30,
-        "par": 0,
-        "prop": "*mana"
       }
     ]
   },
@@ -16057,12 +16027,6 @@
         "min": 140,
         "par": 0,
         "prop": "ac"
-      },
-      {
-        "max": -30,
-        "min": -30,
-        "par": 0,
-        "prop": "*mana"
       }
     ]
   },
@@ -16453,18 +16417,6 @@
         "min": 250,
         "par": 0,
         "prop": "ac-miss"
-      },
-      {
-        "max": 1,
-        "min": 50,
-        "par": "Teleport",
-        "prop": "*hit-skill"
-      },
-      {
-        "max": 1,
-        "min": 25,
-        "par": "Teleport",
-        "prop": "*gethit-skill"
       }
     ]
   },
@@ -16957,12 +16909,6 @@
         "min": 20,
         "par": 0,
         "prop": "dmg%"
-      },
-      {
-        "max": -30,
-        "min": -30,
-        "par": 0,
-        "prop": "*enr"
       }
     ]
   },
