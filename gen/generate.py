@@ -251,7 +251,7 @@ class ItemParser:
             self.f_armor = json.load(f)
         with open("../json/gems.json", "r",encoding = 'utf-8') as f:
             self.f_gems = json.load(f)
-        with open("../json/itemtypes.json", "r",encoding = 'utf-8') as f:
+        with open("../json/ItemTypes.json", "r",encoding = 'utf-8') as f:
             self.f_item_types = json.load(f)
         with open("../json/misc.json", "r",encoding = 'utf-8') as f:
             self.f_misc = json.load(f)
@@ -259,15 +259,15 @@ class ItemParser:
             self.f_properties = json.load(f)
         with open("../json/weapons.json", "r",encoding = 'utf-8') as f:
             self.f_weapons = json.load(f)
-        with open("../json/setitems.json", "r",encoding = 'utf-8') as f:
+        with open("../json/SetItems.json", "r",encoding = 'utf-8') as f:
             self.f_set_items = json.load(f)
         with open("../json/sets.json", "r",encoding = 'utf-8') as f:
             self.f_sets = json.load(f)
-        with open("../json/uniqueitems.json", "r",encoding = 'utf-8') as f:
+        with open("../json/UniqueItems.json", "r",encoding = 'utf-8') as f:
             self.f_unique_items = json.load(f)
         with open("../json/LocaleStringsEn.json", "r",encoding = 'utf-8') as f:
             self.f_strings = json.load(f)
-        with open("../json/itemstatcost.json", "r",encoding = 'utf-8') as f:
+        with open("../json/ItemStatCost.json", "r",encoding = 'utf-8') as f:
             self.f_stats = json.load(f)
         with open("../json/monstats.json", "r",encoding = 'utf-8') as f:
             self.f_monstats = json.load(f)
@@ -560,12 +560,11 @@ if __name__ == "__main__":
     file = item_parser.f_item_types
     for key in file:
         obj = CodesRef()
-        if "Code" in file[key]:
-            obj.code = file[key]["Code"]
-            obj.display_name = file[key]["ItemType"]
-            obj.name = item_parser.full_to_short(obj.display_name)
-            if obj.code not in ref_codes:
-                ref_codes[obj.code] = obj
+        obj.code = file[key]["Code"]
+        obj.display_name = file[key]["ItemType"]
+        obj.name = item_parser.full_to_short(obj.display_name)
+        if obj.code not in ref_codes:
+            ref_codes[obj.code] = obj
     # add unique items to this reference
     file = item_parser.f_unique_items
     for key in file:

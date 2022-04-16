@@ -1,6 +1,7 @@
 {
  "0": {
-  "Name": "Tome of Town Portal",
+  "Namco": "of Town Portal",
+  "Completed": 1,
   "ScrollSpellCode": "tsc",
   "BookSpellCode": "tbk",
   "pSpell": 2,
@@ -11,7 +12,8 @@
   "CostPerCharge": 50
  },
  "1": {
-  "Name": "Tome of Identify",
+  "Namco": "of Identify",
+  "Completed": 1,
   "ScrollSpellCode": "isc",
   "BookSpellCode": "ibk",
   "pSpell": 1,
@@ -21,8 +23,7 @@
   "CostPerCharge": 40
  },
  "2": {
-  "Name": "Tome of Resurrect",
-  "pSpell": -1,
+  "Namco": "of Ressurect",
   "SpellIcon": -1,
   "BaseCost": 500,
   "CostPerCharge": 100

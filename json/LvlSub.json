@@ -3,27 +3,31 @@
   "Name": "Border - Cliffs",
   "File": "Act1/Outdoors/BorderCliffs.ds1",
   "BordType": 1,
-  "GridSize": 1
+  "GridSize": 1,
+  "Beta": 1
  },
  "1": {
   "Name": "Border - Middle",
   "Type": 1,
   "File": "Act1/Outdoors/BorderMiddle.ds1",
-  "GridSize": 1
+  "GridSize": 1,
+  "Beta": 1
  },
  "2": {
   "Name": "Border - Corner",
   "Type": 2,
   "File": "Act1/Outdoors/BorderCorner.ds1",
   "BordType": 1,
-  "GridSize": 1
+  "GridSize": 1,
+  "Beta": 1
  },
  "3": {
   "Name": "Border - Border",
   "Type": 3,
   "File": "Act1/Outdoors/BorderBorder.ds1",
   "BordType": 2,
-  "GridSize": 1
+  "GridSize": 1,
+  "Beta": 1
  },
  "4": {
   "Name": "Act 1 Waypoint L",
@@ -46,7 +50,8 @@
   "Max3": 1,
   "Prob4": 100,
   "Trials4": -1,
-  "Max4": 1
+  "Max4": 1,
+  "Beta": 1
  },
  "5": {
   "Name": "Act 1 Waypoint S",
@@ -69,7 +74,8 @@
   "Max3": 1,
   "Prob4": 100,
   "Trials4": -1,
-  "Max4": 1
+  "Max4": 1,
+  "Beta": 1
  },
  "6": {
   "Name": "Healing Well",
@@ -92,7 +98,8 @@
   "Max3": 1,
   "Prob4": 100,
   "Trials4": -1,
-  "Max4": 1
+  "Max4": 1,
+  "Beta": 1
  },
  "7": {
   "Name": "Deer Shrine",
@@ -115,7 +122,8 @@
   "Max3": 1,
   "Prob4": 100,
   "Trials4": -1,
-  "Max4": 1
+  "Max4": 1,
+  "Beta": 1
  },
  "8": {
   "Name": "Forest Shrine",
@@ -138,7 +146,8 @@
   "Max3": 1,
   "Prob4": 100,
   "Trials4": -1,
-  "Max4": 1
+  "Max4": 1,
+  "Beta": 1
  },
  "9": {
   "Name": "Horn Shrine",
@@ -161,7 +170,8 @@
   "Max3": 1,
   "Prob4": 100,
   "Trials4": -1,
-  "Max4": 1
+  "Max4": 1,
+  "Beta": 1
  },
  "10": {
   "Name": "Stone",
@@ -181,7 +191,8 @@
   "Max2": 12,
   "Prob3": 30,
   "Trials3": 5,
-  "Max3": 2
+  "Max3": 2,
+  "Beta": 1
  },
  "11": {
   "Name": "Trees",
@@ -204,7 +215,8 @@
   "Max3": 12,
   "Prob4": 50,
   "Trials4": 5,
-  "Max4": 2
+  "Max4": 2,
+  "Beta": 1
  },
  "12": {
   "Name": "Puddles",
@@ -227,7 +239,8 @@
   "Max3": 2,
   "Prob4": 50,
   "Trials4": 20,
-  "Max4": 8
+  "Max4": 8,
+  "Beta": 1
  },
  "13": {
   "Name": "Swamp Big",
@@ -238,7 +251,8 @@
   "Dt1Mask": 4194305,
   "Prob4": 90,
   "Trials4": 5,
-  "Max4": 2
+  "Max4": 2,
+  "Beta": 1
  },
  "14": {
   "Name": "Swamp Small",
@@ -255,7 +269,8 @@
   "Max3": 2,
   "Prob4": 90,
   "Trials4": 10,
-  "Max4": 6
+  "Max4": 6,
+  "Beta": 1
  },
  "15": {
   "Name": "Wild Objects",
@@ -278,7 +293,8 @@
   "Max3": 2,
   "Prob4": 20,
   "Trials4": 5,
-  "Max4": 2
+  "Max4": 2,
+  "Beta": 1
  },
  "16": {
   "Name": "Act 2 Waypoint",
@@ -560,6 +576,7 @@
   "Name": "Snow Large",
   "Type": 10,
   "File": "Expansion/Siege/Snowpatchlg.ds1",
+  "Expansion": 1,
   "BordType": -1,
   "GridSize": 1,
   "Dt1Mask": 524305,
@@ -584,6 +601,7 @@
   "Name": "Trees and Rocks",
   "Type": 10,
   "File": "Expansion/Siege/treesandrocks.ds1",
+  "Expansion": 1,
   "BordType": -1,
   "GridSize": 1,
   "Dt1Mask": 3671091,
@@ -608,6 +626,7 @@
   "Name": "Small stuff",
   "Type": 10,
   "File": "Expansion/Siege/treesandrocksSmall.ds1",
+  "Expansion": 1,
   "BordType": -1,
   "GridSize": 1,
   "Dt1Mask": 1572865,
@@ -632,6 +651,7 @@
   "Name": "Dirt patches",
   "Type": 11,
   "File": "Expansion/Siege/snowpatchlg_inv.ds1",
+  "Expansion": 1,
   "BordType": -1,
   "GridSize": 1,
   "Dt1Mask": 524305,
@@ -656,6 +676,7 @@
   "Name": "snowy objects",
   "Type": 11,
   "File": "Expansion/Siege/treesandrocksSnow.ds1",
+  "Expansion": 1,
   "BordType": -1,
   "GridSize": 1,
   "Dt1Mask": 3671091,
@@ -680,6 +701,7 @@
   "Name": "Barricade",
   "Type": 12,
   "File": "Expansion/Siege/4x3barricade_rules.ds1",
+  "Expansion": 1,
   "BordType": 2,
   "GridSize": 2,
   "expansion": 1

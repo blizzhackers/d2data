@@ -1,34 +1,42 @@
 {
- "0": {
+ "NU": {
   "Name": "Neutral",
-  "Token": "NU"
+  "Token": "NU",
+  "lineNumber": 0
  },
- "1": {
-  "Name": "Operating",
-  "Token": "OP"
- },
- "2": {
+ "ON": {
   "Name": "Opened",
-  "Token": "ON"
+  "Token": "ON",
+  "lineNumber": 2
  },
- "3": {
+ "OP": {
+  "Name": "Operating",
+  "Token": "OP",
+  "lineNumber": 1
+ },
+ "S1": {
   "Name": "Special1",
-  "Token": "S1"
+  "Token": "S1",
+  "lineNumber": 3
  },
- "4": {
+ "S2": {
   "Name": "Special2",
-  "Token": "S2"
+  "Token": "S2",
+  "lineNumber": 4
  },
- "5": {
+ "S3": {
   "Name": "Special3",
-  "Token": "S3"
+  "Token": "S3",
+  "lineNumber": 5
  },
- "6": {
+ "S4": {
   "Name": "Special4",
-  "Token": "S4"
+  "Token": "S4",
+  "lineNumber": 6
  },
- "7": {
+ "S5": {
   "Name": "Special5",
-  "Token": "S5"
+  "Token": "S5",
+  "lineNumber": 7
  }
 }
