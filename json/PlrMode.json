@@ -1,122 +1,102 @@
 {
- "A1": {
-  "Name": "Attack1",
-  "Token": "A1",
-  "Code": "A1",
-  "lineNumber": 7
- },
- "A2": {
-  "Name": "Attack2",
-  "Token": "A2",
-  "Code": "A2",
-  "lineNumber": 8
- },
- "BL": {
-  "Name": "Block",
-  "Token": "BL",
-  "Code": "BL",
-  "lineNumber": 9
- },
- "DD": {
-  "Name": "Dead",
-  "Token": "DD",
-  "Code": "DD",
-  "lineNumber": 17
- },
- "DT": {
+ "0": {
   "Name": "Death",
   "Token": "DT",
-  "Code": "DT",
-  "lineNumber": 0
+  "Code": "DT"
  },
- "GH": {
-  "Name": "Get Hit",
-  "Token": "GH",
-  "Code": "GH",
-  "lineNumber": 4
- },
- "KB": {
-  "Name": "Knock back",
-  "Token": "GH",
-  "Code": "KB",
-  "lineNumber": 19
- },
- "KK": {
-  "Name": "Kick",
-  "Token": "KK",
-  "Code": "KK",
-  "lineNumber": 12
- },
- "NU": {
+ "1": {
   "Name": "Neutral",
   "Token": "NU",
-  "Code": "NU",
-  "lineNumber": 1
+  "Code": "NU"
  },
- "RN": {
-  "Name": "Run",
-  "Token": "RN",
-  "Code": "RN",
-  "lineNumber": 3
- },
- "S1": {
-  "Name": "Skill1",
-  "Token": "S1",
-  "Code": "S1",
-  "lineNumber": 13
- },
- "S2": {
-  "Name": "Skill2",
-  "Token": "S2",
-  "Code": "S2",
-  "lineNumber": 14
- },
- "S3": {
-  "Name": "Skill3",
-  "Token": "S3",
-  "Code": "S3",
-  "lineNumber": 15
- },
- "S4": {
-  "Name": "Skill4",
-  "Token": "S4",
-  "Code": "S4",
-  "lineNumber": 16
- },
- "SC": {
-  "Name": "Cast",
-  "Token": "SC",
-  "Code": "SC",
-  "lineNumber": 10
- },
- "SQ": {
-  "Name": "Sequence",
-  "Token": "GH",
-  "Code": "SQ",
-  "lineNumber": 18
- },
- "TH": {
-  "Name": "Throw",
-  "Token": "TH",
-  "Code": "TH",
-  "lineNumber": 11
- },
- "TN": {
-  "Name": "Town Neutral",
-  "Token": "TN",
-  "Code": "TN",
-  "lineNumber": 5
- },
- "TW": {
-  "Name": "Town Walk",
-  "Token": "TW",
-  "Code": "TW",
-  "lineNumber": 6
- },
- "WL": {
+ "2": {
   "Name": "Walk",
   "Token": "WL",
-  "Code": "WL",
-  "lineNumber": 2
+  "Code": "WL"
+ },
+ "3": {
+  "Name": "Run",
+  "Token": "RN",
+  "Code": "RN"
+ },
+ "4": {
+  "Name": "Get Hit",
+  "Token": "GH",
+  "Code": "GH"
+ },
+ "5": {
+  "Name": "Town Neutral",
+  "Token": "TN",
+  "Code": "TN"
+ },
+ "6": {
+  "Name": "Town Walk",
+  "Token": "TW",
+  "Code": "TW"
+ },
+ "7": {
+  "Name": "Attack1",
+  "Token": "A1",
+  "Code": "A1"
+ },
+ "8": {
+  "Name": "Attack2",
+  "Token": "A2",
+  "Code": "A2"
+ },
+ "9": {
+  "Name": "Block",
+  "Token": "BL",
+  "Code": "BL"
+ },
+ "10": {
+  "Name": "Cast",
+  "Token": "SC",
+  "Code": "SC"
+ },
+ "11": {
+  "Name": "Throw",
+  "Token": "TH",
+  "Code": "TH"
+ },
+ "12": {
+  "Name": "Kick",
+  "Token": "KK",
+  "Code": "KK"
+ },
+ "13": {
+  "Name": "Skill1",
+  "Token": "S1",
+  "Code": "S1"
+ },
+ "14": {
+  "Name": "Skill2",
+  "Token": "S2",
+  "Code": "S2"
+ },
+ "15": {
+  "Name": "Skill3",
+  "Token": "S3",
+  "Code": "S3"
+ },
+ "16": {
+  "Name": "Skill4",
+  "Token": "S4",
+  "Code": "S4"
+ },
+ "17": {
+  "Name": "Dead",
+  "Token": "DD",
+  "Code": "DD"
+ },
+ "18": {
+  "Name": "Sequence",
+  "Token": "GH",
+  "Code": "SQ"
+ },
+ "19": {
+  "Name": "Knock back",
+  "Token": "GH",
+  "Code": "KB"
  }
 }

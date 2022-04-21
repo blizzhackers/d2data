@@ -1,174 +1,174 @@
 {
  "0": {
   "code": "par1",
-  "*desc": "param1"
+  "*description": "The Param1 field value"
  },
  "1": {
   "code": "par2",
-  "*desc": "param2"
+  "*description": "The Param2 field value"
  },
  "2": {
   "code": "par3",
-  "*desc": "param3"
+  "*description": "The Param3 field value"
  },
  "3": {
   "code": "par4",
-  "*desc": "param4"
+  "*description": "The Param4 field value"
  },
  "4": {
   "code": "par5",
-  "*desc": "param5"
+  "*description": "The Param5 field value"
  },
  "5": {
   "code": "cpa1",
-  "*desc": "cltparam1"
+  "*description": "The CltParam1 field value"
  },
  "6": {
   "code": "cpa2",
-  "*desc": "cltparam2"
+  "*description": "The CltParam2 field value"
  },
  "7": {
   "code": "cpa3",
-  "*desc": "cltparam3"
+  "*description": "The CltParam3 field value"
  },
  "8": {
   "code": "cpa4",
-  "*desc": "cltparam4"
+  "*description": "The CltParam4 field value"
  },
  "9": {
   "code": "cpa5",
-  "*desc": "cltparam5"
+  "*description": "The CltParam5 field value"
  },
  "10": {
   "code": "hpa1",
-  "*desc": "hitparam1"
+  "*description": "The sHitPar1 field value"
  },
  "11": {
   "code": "hpa2",
-  "*desc": "hitparam2"
+  "*description": "The sHitPar2 field value"
  },
  "12": {
   "code": "hpa3",
-  "*desc": "hitparam3"
+  "*description": "The sHitPar3 field value"
  },
  "13": {
   "code": "chp1",
-  "*desc": "clthitpar1"
+  "*description": "The cHitPar1 field value"
  },
  "14": {
   "code": "chp2",
-  "*desc": "clthitpar2"
+  "*description": "The cHitPar2 field value"
  },
  "15": {
   "code": "chp3",
-  "*desc": "clthitpar3"
+  "*description": "The cHitPar3 field value"
  },
  "16": {
   "code": "dpa1",
-  "*desc": "dmgparam1"
+  "*description": "The dParam1 field value"
  },
  "17": {
   "code": "dpa2",
-  "*desc": "dmgparam2"
+  "*description": "The dParam2 field value"
  },
  "18": {
   "code": "lvl",
-  "*desc": "missile level"
+  "*description": "The current Missile Level"
  },
  "19": {
   "code": "edmn",
-  "*desc": "elemental damage min"
+  "*description": "Elemental Damage Min"
  },
  "20": {
   "code": "edmx",
-  "*desc": "elemental damage max"
+  "*description": "Elemental Damage Max"
  },
  "21": {
   "code": "edln",
-  "*desc": "elemental damage len"
+  "*description": "Elemental Damage Length"
  },
  "22": {
   "code": "edns",
-  "*desc": "\"elemental damage min, 256ths\""
+  "*description": "Elemental Damage Min (256ths)"
  },
  "23": {
   "code": "edxs",
-  "*desc": "\"elemental damage max, 256ths\""
+  "*description": "Elemental Damage Max (256ths)"
  },
  "24": {
   "code": "damn",
-  "*desc": "damage min"
+  "*description": "Physical Damage Min"
  },
  "25": {
   "code": "damx",
-  "*desc": "damage max"
+  "*description": "Physical Damage Max"
  },
  "26": {
   "code": "dmns",
-  "*desc": "\"damage min, 256ths\""
+  "*description": "Physical Damage Min (256ths)"
  },
  "27": {
   "code": "dmxs",
-  "*desc": "\"damage max, 256ths\""
+  "*description": "Physical Damage Max (256ths)"
  },
  "28": {
   "code": "rang",
-  "*desc": "range"
+  "*description": "The Range field value"
  },
  "29": {
   "code": "sl12",
-  "*desc": "par1 + (lvl-1) * par2"
+  "*description": "par1 + (lvl - 1) * par2"
  },
  "30": {
   "code": "sd12",
-  "*desc": "((110*lvl) * (par2-par1))/(100 * (lvl+6)) + par1"
+  "*description": "((110 * lvl) * (par2 - par1)) / (100 * (lvl + 6)) + par1"
  },
  "31": {
   "code": "sl34",
-  "*desc": "par3 + (lvl-1) * par4"
+  "*description": "par3 + (lvl - 1) * par4"
  },
  "32": {
   "code": "sd34",
-  "*desc": "((110*lvl) * (par4-par3))/(100 * (lvl+6)) + par3"
+  "*description": "((110 * lvl) * (par4 - par3)) / (100 * (lvl + 6)) + par3"
  },
  "33": {
   "code": "cl12",
-  "*desc": "cpa1 + (lvl-1) * cpa2"
+  "*description": "cpa1 + (lvl - 1) * cpa2"
  },
  "34": {
   "code": "cd12",
-  "*desc": "((110*lvl) * (cpa2-cpa1))/(100 * (lvl+6)) + cpa1"
+  "*description": "((110 * lvl) * (cpa2 - cpa1)) / (100 * (lvl + 6)) + cpa1"
  },
  "35": {
   "code": "cl34",
-  "*desc": "cpa3 + (lvl-1) * cpa4"
+  "*description": "cpa3 + (lvl - 1) * cpa4"
  },
  "36": {
   "code": "cd34",
-  "*desc": "((110*lvl) * (cpa4-cpa3))/(100 * (lvl+6)) + cpa3"
+  "*description": "((110 * lvl) * (cpa4 - cpa3)) / (100 * (lvl + 6)) + cpa3"
  },
  "37": {
   "code": "shl1",
-  "*desc": "hpa1 + (lvl-1) * hpa2"
+  "*description": "hpa1 + (lvl - 1) * hpa2"
  },
  "38": {
   "code": "shd1",
-  "*desc": "((110*lvl) * (hpa2-hpa1))/(100 * (lvl+6)) + hpa1"
+  "*description": "((110 * lvl) * (hpa2 - hpa1)) / (100 * (lvl + 6)) + hpa1"
  },
  "39": {
   "code": "chl1",
-  "*desc": "chp1 + (lvl-1) * chp2"
+  "*description": "chp1 + (lvl - 1) * chp2"
  },
  "40": {
   "code": "chd1",
-  "*desc": "((110*lvl) * (chp2-chp1))/(100 * (lvl+6)) + chp1"
+  "*description": "((110 * lvl) * (chp2 - chp1)) / (100 * (lvl + 6)) + chp1"
  },
  "41": {
   "code": "dl12",
-  "*desc": "dpa1 + (lvl-1) * dpa2"
+  "*description": "dpa1 + (lvl - 1) * dpa2"
  },
  "42": {
   "code": "dd12",
-  "*desc": "((110*lvl) * (dpa2-dpa1))/(100 * (lvl+6)) + dpa1"
+  "*description": "((110 * lvl) * (dpa2 - dpa1)) / (100 * (lvl + 6)) + dpa1"
  }
 }

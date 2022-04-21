@@ -1,16 +1,5 @@
 {
  "0": {
-  "Name": "Act 1 - Cave 1 Treasure",
-  "Level": 0,
-  "Rooms": 1,
-  "Rooms(N)": 1,
-  "Rooms(H)": 1,
-  "SizeX": 24,
-  "SizeY": 24,
-  "Beta": 1,
-  "lineNumber": 5
- },
- "8": {
   "Name": "Act 1 - Cave 1",
   "Level": 8,
   "Rooms": 1,
@@ -18,11 +7,9 @@
   "Rooms(H)": 1,
   "SizeX": 24,
   "SizeY": 24,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 0
+  "Merge": 500
  },
- "9": {
+ "1": {
   "Name": "Act 1 - Cave 2",
   "Level": 9,
   "Rooms": 4,
@@ -30,11 +17,9 @@
   "Rooms(H)": 4,
   "SizeX": 24,
   "SizeY": 24,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 1
+  "Merge": 500
  },
- "10": {
+ "2": {
   "Name": "Act 1 - Cave 3",
   "Level": 10,
   "Rooms": 6,
@@ -42,11 +27,9 @@
   "Rooms(H)": 6,
   "SizeX": 24,
   "SizeY": 24,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 2
+  "Merge": 500
  },
- "11": {
+ "3": {
   "Name": "Act 1 - Cave 4",
   "Level": 11,
   "Rooms": 4,
@@ -54,11 +37,9 @@
   "Rooms(H)": 4,
   "SizeX": 24,
   "SizeY": 24,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 3
+  "Merge": 500
  },
- "12": {
+ "4": {
   "Name": "Act 1 - Cave 5",
   "Level": 12,
   "Rooms": 4,
@@ -66,55 +47,53 @@
   "Rooms(H)": 4,
   "SizeX": 24,
   "SizeY": 24,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 4
+  "Merge": 500
  },
- "13": {
+ "5": {
+  "Name": "Act 1 - Cave 1 Treasure",
+  "Rooms": 1,
+  "Rooms(N)": 1,
+  "Rooms(H)": 1,
+  "SizeX": 24,
+  "SizeY": 24
+ },
+ "6": {
   "Name": "Act 1 - Cave 2 Treasure",
   "Level": 13,
   "Rooms": 1,
   "Rooms(N)": 1,
   "Rooms(H)": 1,
   "SizeX": 24,
-  "SizeY": 24,
-  "Beta": 1,
-  "lineNumber": 6
+  "SizeY": 24
  },
- "14": {
+ "7": {
   "Name": "Act 1 - Cave 3 Treasure",
   "Level": 14,
   "Rooms": 1,
   "Rooms(N)": 1,
   "Rooms(H)": 1,
   "SizeX": 24,
-  "SizeY": 24,
-  "Beta": 1,
-  "lineNumber": 7
+  "SizeY": 24
  },
- "15": {
+ "8": {
   "Name": "Act 1 - Cave 4 Treasure",
   "Level": 15,
   "Rooms": 1,
   "Rooms(N)": 1,
   "Rooms(H)": 1,
   "SizeX": 24,
-  "SizeY": 24,
-  "Beta": 1,
-  "lineNumber": 8
+  "SizeY": 24
  },
- "16": {
+ "9": {
   "Name": "Act 1 - Cave 5 Treasure",
   "Level": 16,
   "Rooms": 1,
   "Rooms(N)": 1,
   "Rooms(H)": 1,
   "SizeX": 24,
-  "SizeY": 24,
-  "Beta": 1,
-  "lineNumber": 9
+  "SizeY": 24
  },
- "18": {
+ "10": {
   "Name": "Act 1 - Crypt 1 A",
   "Level": 18,
   "Rooms": 12,
@@ -122,11 +101,9 @@
   "Rooms(H)": 36,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 10
+  "Merge": 500
  },
- "19": {
+ "11": {
   "Name": "Act 1 - Crypt 2 A",
   "Level": 19,
   "Rooms": 12,
@@ -134,11 +111,9 @@
   "Rooms(H)": 36,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 11
+  "Merge": 500
  },
- "21": {
+ "12": {
   "Name": "Act 1 - Crypt 3 A",
   "Level": 21,
   "Rooms": 6,
@@ -146,11 +121,9 @@
   "Rooms(H)": 24,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 12
+  "Merge": 500
  },
- "22": {
+ "13": {
   "Name": "Act 1 - Crypt 3 B",
   "Level": 22,
   "Rooms": 6,
@@ -158,11 +131,9 @@
   "Rooms(H)": 20,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 13
+  "Merge": 500
  },
- "23": {
+ "14": {
   "Name": "Act 1 - Crypt 3 C",
   "Level": 23,
   "Rooms": 6,
@@ -170,11 +141,9 @@
   "Rooms(H)": 16,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 14
+  "Merge": 500
  },
- "24": {
+ "15": {
   "Name": "Act 1 - Crypt 3 D",
   "Level": 24,
   "Rooms": 6,
@@ -182,11 +151,9 @@
   "Rooms(H)": 12,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 15
+  "Merge": 500
  },
- "25": {
+ "16": {
   "Name": "Act 1 - Crypt 3 E",
   "Level": 25,
   "Rooms": 6,
@@ -194,11 +161,9 @@
   "Rooms(H)": 6,
   "SizeX": 8,
   "SizeY": 8,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 16
+  "Merge": 500
  },
- "28": {
+ "17": {
   "Name": "Act 1 - Barracks",
   "Level": 28,
   "Rooms": 10,
@@ -206,11 +171,9 @@
   "Rooms(H)": 10,
   "SizeX": 10,
   "SizeY": 14,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 17
+  "Merge": 500
  },
- "29": {
+ "18": {
   "Name": "Act 1 - Jail 1",
   "Level": 29,
   "Rooms": 12,
@@ -218,11 +181,9 @@
   "Rooms(H)": 12,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 18
+  "Merge": 500
  },
- "30": {
+ "19": {
   "Name": "Act 1 - Jail 2",
   "Level": 30,
   "Rooms": 14,
@@ -230,11 +191,9 @@
   "Rooms(H)": 14,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 19
+  "Merge": 500
  },
- "31": {
+ "20": {
   "Name": "Act 1 - Jail 3",
   "Level": 31,
   "Rooms": 16,
@@ -242,11 +201,9 @@
   "Rooms(H)": 16,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 20
+  "Merge": 500
  },
- "34": {
+ "21": {
   "Name": "Act 1 - Catacombs 1",
   "Level": 34,
   "Rooms": 12,
@@ -254,11 +211,9 @@
   "Rooms(H)": 12,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 21
+  "Merge": 500
  },
- "35": {
+ "22": {
   "Name": "Act 1 - Catacombs 2",
   "Level": 35,
   "Rooms": 14,
@@ -266,11 +221,9 @@
   "Rooms(H)": 14,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 22
+  "Merge": 500
  },
- "36": {
+ "23": {
   "Name": "Act 1 - Catacombs 3",
   "Level": 36,
   "Rooms": 16,
@@ -278,11 +231,9 @@
   "Rooms(H)": 16,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 23
+  "Merge": 500
  },
- "37": {
+ "24": {
   "Name": "Act 1 - Catacombs 4",
   "Level": 37,
   "Rooms": 18,
@@ -290,11 +241,9 @@
   "Rooms(H)": 18,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "Beta": 1,
-  "lineNumber": 24
+  "Merge": 500
  },
- "47": {
+ "25": {
   "Name": "Act 2 - Sewer 1",
   "Level": 47,
   "Rooms": 6,
@@ -302,10 +251,9 @@
   "Rooms(H)": 6,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "lineNumber": 25
+  "Merge": 500
  },
- "48": {
+ "26": {
   "Name": "Act 2 - Sewer 2",
   "Level": 48,
   "Rooms": 12,
@@ -313,10 +261,9 @@
   "Rooms(H)": 12,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "lineNumber": 26
+  "Merge": 500
  },
- "49": {
+ "27": {
   "Name": "Act 2 - Sewer 3",
   "Level": 49,
   "Rooms": 14,
@@ -324,10 +271,9 @@
   "Rooms(H)": 14,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "lineNumber": 27
+  "Merge": 500
  },
- "51": {
+ "28": {
   "Name": "Act 2 - Corrupt Harem 1",
   "Level": 51,
   "Rooms": 4,
@@ -335,10 +281,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 1000,
-  "lineNumber": 28
+  "Merge": 1000
  },
- "52": {
+ "29": {
   "Name": "Act 2 - Basement  1",
   "Level": 52,
   "Rooms": 4,
@@ -346,10 +291,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 1000,
-  "lineNumber": 29
+  "Merge": 1000
  },
- "53": {
+ "30": {
   "Name": "Act 2 - Basement  2",
   "Level": 53,
   "Rooms": 4,
@@ -357,10 +301,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 1000,
-  "lineNumber": 30
+  "Merge": 1000
  },
- "54": {
+ "31": {
   "Name": "Act 2 - Basement  3",
   "Level": 54,
   "Rooms": 4,
@@ -368,10 +311,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 1000,
-  "lineNumber": 31
+  "Merge": 1000
  },
- "55": {
+ "32": {
   "Name": "Act 2 - Tomb 1 A",
   "Level": 55,
   "Rooms": 4,
@@ -379,10 +321,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 32
+  "Merge": 500
  },
- "56": {
+ "33": {
   "Name": "Act 2 - Tomb 2 A",
   "Level": 56,
   "Rooms": 6,
@@ -390,10 +331,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 33
+  "Merge": 500
  },
- "57": {
+ "34": {
   "Name": "Act 2 - Tomb 2 B",
   "Level": 57,
   "Rooms": 6,
@@ -401,10 +341,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 34
+  "Merge": 500
  },
- "58": {
+ "35": {
   "Name": "Act 2 - Tomb 3 A",
   "Level": 58,
   "Rooms": 12,
@@ -412,10 +351,9 @@
   "Rooms(H)": 12,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 35
+  "Merge": 500
  },
- "59": {
+ "36": {
   "Name": "Act 2 - Tomb 1 Treasure",
   "Level": 59,
   "Rooms": 4,
@@ -423,10 +361,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 36
+  "Merge": 500
  },
- "60": {
+ "37": {
   "Name": "Act 2 - Tomb 2 Treasure",
   "Level": 60,
   "Rooms": 6,
@@ -434,10 +371,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 37
+  "Merge": 500
  },
- "61": {
+ "38": {
   "Name": "Act 2 - Tomb 3 Treasure",
   "Level": 61,
   "Rooms": 6,
@@ -445,10 +381,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 38
+  "Merge": 500
  },
- "62": {
+ "39": {
   "Name": "Act 2 - Lair 1 A",
   "Level": 62,
   "Rooms": 18,
@@ -456,10 +391,9 @@
   "Rooms(H)": 18,
   "SizeX": 10,
   "SizeY": 10,
-  "Merge": 500,
-  "lineNumber": 39
+  "Merge": 500
  },
- "63": {
+ "40": {
   "Name": "Act 2 - Lair 1 B",
   "Level": 63,
   "Rooms": 14,
@@ -467,10 +401,9 @@
   "Rooms(H)": 14,
   "SizeX": 10,
   "SizeY": 10,
-  "Merge": 500,
-  "lineNumber": 40
+  "Merge": 500
  },
- "64": {
+ "41": {
   "Name": "Act 2 - Lair 1 Treasure",
   "Level": 64,
   "Rooms": 10,
@@ -478,10 +411,9 @@
   "Rooms(H)": 10,
   "SizeX": 10,
   "SizeY": 10,
-  "Merge": 500,
-  "lineNumber": 41
+  "Merge": 500
  },
- "65": {
+ "42": {
   "Name": "Act 2 - Sewer 4",
   "Level": 65,
   "Rooms": 10,
@@ -489,10 +421,9 @@
   "Rooms(H)": 10,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "lineNumber": 42
+  "Merge": 500
  },
- "66": {
+ "43": {
   "Name": "Act 2 - Tomb Tal 1",
   "Level": 66,
   "Rooms": 6,
@@ -500,10 +431,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 43
+  "Merge": 500
  },
- "67": {
+ "44": {
   "Name": "Act 2 - Tomb Tal 2",
   "Level": 67,
   "Rooms": 6,
@@ -511,10 +441,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 44
+  "Merge": 500
  },
- "68": {
+ "45": {
   "Name": "Act 2 - Tomb Tal 3",
   "Level": 68,
   "Rooms": 6,
@@ -522,10 +451,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 45
+  "Merge": 500
  },
- "69": {
+ "46": {
   "Name": "Act 2 - Tomb Tal 4",
   "Level": 69,
   "Rooms": 6,
@@ -533,10 +461,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 46
+  "Merge": 500
  },
- "70": {
+ "47": {
   "Name": "Act 2 - Tomb Tal 5",
   "Level": 70,
   "Rooms": 6,
@@ -544,10 +471,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 47
+  "Merge": 500
  },
- "71": {
+ "48": {
   "Name": "Act 2 - Tomb Tal 6",
   "Level": 71,
   "Rooms": 6,
@@ -555,10 +481,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 48
+  "Merge": 500
  },
- "72": {
+ "49": {
   "Name": "Act 2 - Tomb Tal 7",
   "Level": 72,
   "Rooms": 6,
@@ -566,10 +491,9 @@
   "Rooms(H)": 6,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 49
+  "Merge": 500
  },
- "74": {
+ "50": {
   "Name": "Act 2 - Arcane",
   "Level": 74,
   "Rooms": 61,
@@ -577,10 +501,9 @@
   "Rooms(H)": 61,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 1000,
-  "lineNumber": 50
+  "Merge": 1000
  },
- "84": {
+ "51": {
   "Name": "Act 3 - Spider 1",
   "Level": 84,
   "Rooms": 4,
@@ -588,10 +511,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 51
+  "Merge": 500
  },
- "85": {
+ "52": {
   "Name": "Act 3 - Spider 2",
   "Level": 85,
   "Rooms": 4,
@@ -599,10 +521,9 @@
   "Rooms(H)": 4,
   "SizeX": 16,
   "SizeY": 16,
-  "Merge": 500,
-  "lineNumber": 52
+  "Merge": 500
  },
- "86": {
+ "53": {
   "Name": "Act 3 - Dungeon 1 A",
   "Level": 86,
   "Rooms": 4,
@@ -610,10 +531,9 @@
   "Rooms(H)": 4,
   "SizeX": 14,
   "SizeY": 14,
-  "Merge": 500,
-  "lineNumber": 53
+  "Merge": 500
  },
- "87": {
+ "54": {
   "Name": "Act 3 - Dungeon 1 B",
   "Level": 87,
   "Rooms": 4,
@@ -621,10 +541,9 @@
   "Rooms(H)": 4,
   "SizeX": 14,
   "SizeY": 14,
-  "Merge": 500,
-  "lineNumber": 54
+  "Merge": 500
  },
- "88": {
+ "55": {
   "Name": "Act 3 - Dungeon 2 A",
   "Level": 88,
   "Rooms": 4,
@@ -632,10 +551,9 @@
   "Rooms(H)": 4,
   "SizeX": 14,
   "SizeY": 14,
-  "Merge": 500,
-  "lineNumber": 55
+  "Merge": 500
  },
- "89": {
+ "56": {
   "Name": "Act 3 - Dungeon 2 B",
   "Level": 89,
   "Rooms": 4,
@@ -643,10 +561,9 @@
   "Rooms(H)": 4,
   "SizeX": 14,
   "SizeY": 14,
-  "Merge": 500,
-  "lineNumber": 56
+  "Merge": 500
  },
- "90": {
+ "57": {
   "Name": "Act 3 - Dungeon 1 Treasure",
   "Level": 90,
   "Rooms": 4,
@@ -654,10 +571,9 @@
   "Rooms(H)": 4,
   "SizeX": 14,
   "SizeY": 14,
-  "Merge": 500,
-  "lineNumber": 57
+  "Merge": 500
  },
- "91": {
+ "58": {
   "Name": "Act 3 - Dungeon 2 Treasure",
   "Level": 91,
   "Rooms": 4,
@@ -665,10 +581,9 @@
   "Rooms(H)": 4,
   "SizeX": 14,
   "SizeY": 14,
-  "Merge": 500,
-  "lineNumber": 58
+  "Merge": 500
  },
- "92": {
+ "59": {
   "Name": "Act 3 - Sewer 1",
   "Level": 92,
   "Rooms": 32,
@@ -676,10 +591,9 @@
   "Rooms(H)": 32,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 800,
-  "lineNumber": 59
+  "Merge": 800
  },
- "93": {
+ "60": {
   "Name": "Act 3 - Sewer 2",
   "Level": 93,
   "Rooms": 6,
@@ -687,10 +601,9 @@
   "Rooms(H)": 6,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 800,
-  "lineNumber": 60
+  "Merge": 800
  },
- "100": {
+ "61": {
   "Name": "Act 3 - Mephisto 1",
   "Level": 100,
   "Rooms": 10,
@@ -698,10 +611,9 @@
   "Rooms(H)": 16,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "lineNumber": 61
+  "Merge": 500
  },
- "101": {
+ "62": {
   "Name": "Act 3 - Mephisto 2",
   "Level": 101,
   "Rooms": 12,
@@ -709,10 +621,9 @@
   "Rooms(H)": 48,
   "SizeX": 12,
   "SizeY": 12,
-  "Merge": 500,
-  "lineNumber": 62
+  "Merge": 500
  },
- "107": {
+ "63": {
   "Name": "Act 4 - Lava 1",
   "Level": 107,
   "Rooms": 6,
@@ -720,10 +631,9 @@
   "Rooms(H)": 6,
   "SizeX": 24,
   "SizeY": 24,
-  "Merge": 500,
-  "lineNumber": 63
+  "Merge": 500
  },
- "113": {
+ "65": {
   "Name": "Act 5 - Ice Caves 1",
   "Level": 113,
   "Rooms": 10,
@@ -732,22 +642,9 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 65
+  "expansion": 1
  },
- "114": {
-  "Name": "Act 5 - Ice Caves 1A",
-  "Level": 114,
-  "Rooms": 1,
-  "Rooms(N)": 1,
-  "Rooms(H)": 1,
-  "SizeX": 64,
-  "SizeY": 64,
-  "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 68
- },
- "115": {
+ "66": {
   "Name": "Act 5 - Ice Caves 2",
   "Level": 115,
   "Rooms": 10,
@@ -756,22 +653,9 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 66
+  "expansion": 1
  },
- "116": {
-  "Name": "Act 5 - Ice Caves 2A",
-  "Level": 116,
-  "Rooms": 1,
-  "Rooms(N)": 1,
-  "Rooms(H)": 1,
-  "SizeX": 32,
-  "SizeY": 32,
-  "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 69
- },
- "118": {
+ "67": {
   "Name": "Act 5 - Ice Caves 3",
   "Level": 118,
   "Rooms": 15,
@@ -780,10 +664,31 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 67
+  "expansion": 1
  },
- "119": {
+ "68": {
+  "Name": "Act 5 - Ice Caves 1A",
+  "Level": 114,
+  "Rooms": 1,
+  "Rooms(N)": 1,
+  "Rooms(H)": 1,
+  "SizeX": 64,
+  "SizeY": 64,
+  "Merge": 500,
+  "expansion": 1
+ },
+ "69": {
+  "Name": "Act 5 - Ice Caves 2A",
+  "Level": 116,
+  "Rooms": 1,
+  "Rooms(N)": 1,
+  "Rooms(H)": 1,
+  "SizeX": 32,
+  "SizeY": 32,
+  "Merge": 500,
+  "expansion": 1
+ },
+ "70": {
   "Name": "Act 5 - Ice Caves 3A",
   "Level": 119,
   "Rooms": 1,
@@ -792,10 +697,9 @@
   "SizeX": 32,
   "SizeY": 32,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 70
+  "expansion": 1
  },
- "122": {
+ "71": {
   "Name": "Act 5 - Temple 1",
   "Level": 122,
   "Rooms": 4,
@@ -804,10 +708,9 @@
   "SizeX": 40,
   "SizeY": 40,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 71
+  "expansion": 1
  },
- "123": {
+ "72": {
   "Name": "Act 5 - Temple 2",
   "Level": 123,
   "Rooms": 4,
@@ -816,10 +719,9 @@
   "SizeX": 40,
   "SizeY": 40,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 72
+  "expansion": 1
  },
- "125": {
+ "73": {
   "Name": "Act 5 - Hell 1",
   "Level": 125,
   "Rooms": 3,
@@ -828,10 +730,9 @@
   "SizeX": 24,
   "SizeY": 24,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 73
+  "expansion": 1
  },
- "126": {
+ "74": {
   "Name": "Act 5 - Hell 2",
   "Level": 126,
   "Rooms": 3,
@@ -840,10 +741,9 @@
   "SizeX": 24,
   "SizeY": 24,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 74
+  "expansion": 1
  },
- "127": {
+ "75": {
   "Name": "Act 5 - Hell 3",
   "Level": 127,
   "Rooms": 3,
@@ -852,10 +752,9 @@
   "SizeX": 24,
   "SizeY": 24,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 75
+  "expansion": 1
  },
- "128": {
+ "76": {
   "Name": "Act 5 - Baal 1",
   "Level": 128,
   "Rooms": 9,
@@ -864,10 +763,9 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 76
+  "expansion": 1
  },
- "129": {
+ "77": {
   "Name": "Act 5 - Baal 1",
   "Level": 129,
   "Rooms": 9,
@@ -876,10 +774,9 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 77
+  "expansion": 1
  },
- "130": {
+ "78": {
   "Name": "Act 5 - Baal 1",
   "Level": 130,
   "Rooms": 9,
@@ -888,10 +785,9 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 78
+  "expansion": 1
  },
- "132": {
+ "79": {
   "Name": "Act 5 - Baal 1",
   "Level": 132,
   "Rooms": 9,
@@ -900,10 +796,9 @@
   "SizeX": 16,
   "SizeY": 16,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 79
+  "expansion": 1
  },
- "133": {
+ "80": {
   "Name": "Act 5 - Pandemonium Run 1",
   "Level": 133,
   "Rooms": 12,
@@ -912,10 +807,9 @@
   "SizeX": 8,
   "SizeY": 8,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 80
+  "expansion": 1
  },
- "135": {
+ "81": {
   "Name": "Act 5 - Pandemonium Run 3",
   "Level": 135,
   "Rooms": 3,
@@ -924,7 +818,6 @@
   "SizeX": 24,
   "SizeY": 24,
   "Merge": 500,
-  "expansion": 1,
-  "lineNumber": 81
+  "expansion": 1
  }
 }

@@ -1,17 +1,14 @@
 {
- "hvy": {
-  "Name": "Heavy",
-  "Token": "hvy",
-  "lineNumber": 2
- },
- "lit": {
+ "0": {
   "Name": "Lite",
-  "Token": "lit",
-  "lineNumber": 0
+  "Token": "lit"
  },
- "med": {
+ "1": {
   "Name": "Medium",
-  "Token": "med",
-  "lineNumber": 1
+  "Token": "med"
+ },
+ "2": {
+  "Name": "Heavy",
+  "Token": "hvy"
  }
 }

@@ -4,219 +4,217 @@
  },
  "2": {
   "AI": "Skeleton",
-  "*aip1": "approach?",
-  "*aip2": "stall time",
-  "*aip3": "attack?",
-  "*aip4": "att1/att2?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\""
  },
  "3": {
   "AI": "Zombie",
-  "*aip1": "approach?",
-  "*aip2": "aware dist",
-  "*aip4": "att1/att2?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Enemy Awareness (Range)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\""
  },
  "4": {
   "AI": "Bighead",
-  "*aip1": "hurt%",
-  "*aip2": "circle?",
-  "*aip3": "fire while healthy?",
-  "*aip4": "fire while hurt?"
+  "*aip1": "Hurt State (Life % threshold)",
+  "*aip2": "Circle Walk (% Chance)",
+  "*aip3": "Ranged Attack Not Hurt (% Chance)",
+  "*aip4": "Ranged Attack Hurt (% Chance)"
  },
  "5": {
   "AI": "BloodHawk",
-  "*aip1": "charge?",
-  "*aip2": "wander?",
-  "*aip3": "attack?",
-  "*aip4": "run vel",
-  "*aip5": "charge vel"
+  "*aip1": "Charge (% Chance)",
+  "*aip2": "Wander behavior (% Chance)",
+  "*aip3": "Attack1 (% Chance)",
+  "*aip4": "Attack1 Move Velocity",
+  "*aip5": "Charge Velocity"
  },
  "6": {
   "AI": "Fallen",
-  "*aip1": "cmd:attack?",
-  "*aip3": "attack?",
-  "*aip4": "att1/att2?"
+  "*aip1": "Command Attack (% Chance)",
+  "*aip2": "Non-command Wander behavior (% Chance)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\""
  },
  "7": {
   "AI": "Brute",
-  "*aip2": "circle?",
-  "*aip3": "attack?",
-  "*aip4": "att1/att2?"
+  "*aip3": "Attack Enemy / Circle Walk (% Chance)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\""
  },
  "8": {
   "AI": "SandRaider",
-  "*aip1": "hurt%",
-  "*aip2": "circle?",
-  "*aip3": "attack?",
-  "*aip4": "approach?",
-  "*aip5": "charge time",
-  "*aip6": "charge color",
-  "*aip7": "att1/att2?"
+  "*aip1": "Regroup Life % threshold",
+  "*aip2": "Circle Walk (% Chance)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "Approach Enemy (% Chance)",
+  "*aip5": "Charge time (Frames)",
+  "*aip6": "\"Charge overlay (1 = blue, else red)\"",
+  "*aip7": "\"Attack1 (% Chance), else Attack2\""
  },
  "9": {
   "AI": "Wraith",
-  "*aip1": "approach?",
-  "*aip2": "stall time",
-  "*aip3": "attack?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Attack Enemy (% Chance)"
  },
  "10": {
   "AI": "CorruptRogue",
-  "*aip1": "approach?",
-  "*aip2": "stall time",
-  "*aip3": "attack?",
-  "*aip4": "run vel",
-  "*aip5": "run?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "Run Velocity",
+  "*aip5": "Run During Approach (% Chance)"
  },
  "11": {
   "AI": "Baboon",
-  "*aip1": "hurt%",
-  "*aip2": "circle?",
-  "*aip3": "attack?",
-  "*aip4": "att1/att2?",
-  "*aip5": "regen bonus"
+  "*aip1": "Hurt State (Life % threshold)",
+  "*aip2": "Circle Walk (% Chance)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\"",
+  "*aip5": "\"\"\"hpregen\"\" bonus when hurt\""
  },
  "12": {
   "AI": "Goatman",
-  "*aip1": "approach?",
-  "*aip2": "stall time",
-  "*aip3": "attack?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Attack Enemy (% Chance)"
  },
  "13": {
   "AI": "FallenShaman",
-  "*aip1": "rez?/cmd?",
-  "*aip2": "shoot?",
-  "*aip3": "melee?/circle?",
-  "*aip4": "rez dist",
-  "*aip5": "shoot dist"
+  "*aip1": "Issue Attack Command / Resurrect (Skill1) (% Chance)",
+  "*aip2": "Fireball (Skill2) (% Chance)",
+  "*aip3": "Attack Enemy / Circle Walk (% Chance)",
+  "*aip4": "Ally Corpse Search Range",
+  "*aip5": "Fireball (Skill2) Search Range"
  },
  "14": {
   "AI": "QuillRat",
-  "*aip1": "activate dist",
-  "*aip2": "shoot?",
-  "*aip4": "walk dist"
+  "*aip1": "Activate Range",
+  "*aip2": "Attack2 (% Chance)",
+  "*aip4": "Walk Away Range"
  },
  "15": {
   "AI": "SandMaggot",
-  "*aip1": "lay?",
-  "*aip2": "spit?",
-  "*aip3": "#of eggs",
-  "*aip4": "melee?",
-  "*aip5": "min down/up time"
+  "*aip1": "Lay an egg (% Chance)",
+  "*aip2": "Attack2 (% Chance)",
+  "*aip3": "Max Egg Unit Spawn Count",
+  "*aip4": "Attack1 (% Chance)",
+  "*aip5": "Min Down/Up State Time (Frames)"
  },
  "16": {
   "AI": "ClawViper",
-  "*aip1": "charge?",
-  "*aip2": "charge dist",
-  "*aip3": "attack?",
-  "*aip4": "att1/att2?",
-  "*aip5": "stall time",
-  "*aip6": "charge color"
+  "*aip1": "Charge (% Chance)",
+  "*aip2": "Charge Max Range",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\"",
+  "*aip5": "AI Delay (Frames)",
+  "*aip6": "\"Charge overlay (0 = none, 1 = red, else blue)\""
  },
  "17": {
   "AI": "SandLeaper",
-  "*aip1": "leap?",
-  "*aip2": "attack?",
-  "*aip3": "approach?",
-  "*aip4": "circle?"
+  "*aip1": "Leap (Skill1) (% Chance)",
+  "*aip2": "Attack2 (% Chance)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "Circle Walk (% Chance)"
  },
  "18": {
   "AI": "PantherWoman",
-  "*aip1": "approach?",
-  "*aip2": "attack?",
-  "*aip3": "pack dist",
-  "*aip4": "stall time",
-  "*aip5": "regroup from melee"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Attack1 (% Chance)",
+  "*aip3": "Find Nearest Ally Range",
+  "*aip4": "AI Delay (Frames)",
+  "*aip5": "Regroup to allies (% Chance)"
  },
  "19": {
   "AI": "Swarm",
-  "*aip1": "approach?",
-  "*aip2": "stall time",
-  "*aip3": "attack?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Attack1 (% Chance)"
  },
  "20": {
   "AI": "Scarab",
-  "*aip1": "attack?",
-  "*aip2": "att1/att2?",
-  "*aip3": "stall time",
-  "*aip4": "jab?",
-  "*aip5": "cmd?"
+  "*aip1": "Attack Enemy (% Chance)",
+  "*aip2": "\"Attack1 (% Chance), else Attack2\"",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "Jab (Skill1) (% Chance)",
+  "*aip5": "Command Attack (% Chance)"
  },
  "21": {
   "AI": "Mummy",
-  "*aip1": "awakedist",
-  "*aip2": "approach?",
-  "*aip3": "attack?",
-  "*aip4": "att1/att2?",
-  "*aip5": "stall time"
+  "*aip1": "Enemy Awareness (Range)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "\"Attack1 (% Chance), else Attack2\"",
+  "*aip5": "AI Delay (Frames)"
  },
  "22": {
   "AI": "GreaterMummy",
-  "*aip1": "melee/breathe?",
-  "*aip2": "raise?",
-  "*aip3": "heal?",
-  "*aip4": "shoot?",
-  "*aip5": "raise range"
+  "*aip1": "\"Attack1 (% Chance), else Attack2\"",
+  "*aip2": "Raise Ally (Skill1) (% Chance)",
+  "*aip3": "Heal (Skill2) (% Chance)",
+  "*aip4": "Shoot (Skill3) (% Chance)",
+  "*aip5": "Ally Corpse Search Range"
  },
  "23": {
   "AI": "Vulture",
-  "*aip1": "attack?",
-  "*aip2": "stall time",
-  "*aip3": "wounded%",
-  "*aip4": "circle?",
-  "*aip5": "move?"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Hurt State (Life % threshold)",
+  "*aip4": "Circle Walk (% Chance)",
+  "*aip5": "Approach Enemy (% Chance)"
  },
  "24": {
   "AI": "Mosquito",
-  "*aip1": "min suck loop",
-  "*aip2": "suck loop rng",
-  "*aip3": "attack?",
-  "*aip4": "suck or att?",
-  "*aip5": "max ambient loop"
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "\"Mosquito (Skill1) (% Chance), else Attack1\"",
+  "*aip5": "Max random walk time (Frames)"
  },
  "25": {
   "AI": "WillOWisp",
-  "*aip1": "cast?",
-  "*aip2": "melee?",
-  "*aip3": "approach?"
+  "*aip1": "Cast (% Chance)",
+  "*aip2": "Attack1 (% Chance)",
+  "*aip3": "Approach Enemy (% Chance)"
  },
  "26": {
   "AI": "Arach",
-  "*aip1": "attack?",
-  "*aip2": "circle in melee?",
-  "*aip3": "engage?",
-  "*aip4": "run dist",
-  "*aip5": "hurt%"
+  "*aip1": "Attack1 (% Chance - 25)",
+  "*aip2": "Circle Walk (% Chance)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "Run Away Range",
+  "*aip5": "Hurt State (Life % threshold)"
  },
  "27": {
   "AI": "ThornHulk",
-  "*aip1": "attack?",
-  "*aip2": "att1/att2?",
-  "*aip3": "melee circle?",
-  "*aip4": "frenzy?",
-  "*aip5": "frenzy speed",
-  "*aip6": "consec. A2"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "\"Attack1 (% Chance), else Attack2\"",
+  "*aip3": "Circle Walk (% Chance)",
+  "*aip4": "Frenzy (Skill1) (% Chance)",
+  "*aip5": "AI Delay After Frenzy Attack2 (Frames)",
+  "*aip6": "Frenzy Attack2 Duration (Frames)"
  },
  "28": {
   "AI": "Vampire",
-  "*aip1": "melee?",
-  "*aip2": "cast?",
-  "*aip3": "active dist",
-  "*aip4": "upgrade cast?",
-  "*aip5": "spell flags"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Use Skill (% Chance)",
+  "*aip3": "Active Range",
+  "*aip4": "Skill1/Skill2/Skill3/Skill4 (% Chance)",
+  "*aip5": "\"Spell bit flags (1=Fireball/Skill1, 2=Firewall/Skill2, 4=Meteor/Skill3)\""
  },
  "29": {
   "AI": "BatDemon",
-  "*aip1": "hurt%",
-  "*aip2": "disengage on hit?",
-  "*aip3": "attack?",
-  "*aip4": "att1/ltng?",
-  "*aip5": "regen roosted"
+  "*aip1": "Hurt State (Life % threshold)",
+  "*aip2": "Run away when hit (% Chance)",
+  "*aip3": "Attack Enemy (% Chance)",
+  "*aip4": "\"Attack2 (% Chance), else Attack1\"",
+  "*aip5": "Life Regen Bonus (hpregen)"
  },
  "30": {
   "AI": "Fetish",
-  "*aip1": "attack?",
-  "*aip2": "stall time",
-  "*aip3": "attack loop",
-  "*aip4": "weak%"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Attack Delay (Frames)",
+  "*aip4": "Life % threshold for Attack Loop"
  },
  "31": {
   "AI": "NpcOutOfTown"
@@ -226,64 +224,67 @@
  },
  "33": {
   "AI": "HellMeteor",
-  "*aip1": "attack?",
-  "*aip2": "stall time",
-  "*aip3": "range"
+  "*aip1": "Skill1 (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Skill1 Range"
  },
  "34": {
   "AI": "Andariel",
-  "*aip1": "spray in melee?",
-  "*aip2": "stall?",
-  "*aip3": "fire or engage?",
-  "*aip4": "spray from dist?"
+  "*aip1": "Skill1/Attack1 in melee (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Skill1/Skill2 in ranged (% Chance)",
+  "*aip4": "\"For ranged, use Skill1 (% Chance), else Skill2\""
  },
  "35": {
   "AI": "CorruptArcher",
-  "*aip1": "approach?",
-  "*aip2": "shoot?",
-  "*aip3": "stall time",
-  "*aip4": "run?",
-  "*aip5": "always run dist",
-  "*aip6": "use skill 2",
-  "*aip7": "use skill 3",
-  "*aip8": "walk tow dist"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Use Skill1/Skill2/Skill3 (% Chance)",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "Run Away (% Chance)",
+  "*aip5": "Run Away Range",
+  "*aip6": "Skill 2 (% Chance)",
+  "*aip7": "Skill 3 (% Chance)",
+  "*aip8": "Approach Range"
  },
  "36": {
   "AI": "CorruptLancer",
-  "*aip1": "approach?",
-  "*aip2": "attack?",
-  "*aip3": "stall time",
-  "*aip4": "run?",
-  "*aip5": "always run dist"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Use Skill1/Skill2/Skill3 (% Chance)",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "\"Run (% Chance), else Walk\"",
+  "*aip5": "Always Run Range",
+  "*aip6": "Skill 1 (% Chance)",
+  "*aip7": "Skill 2 (% Chance)",
+  "*aip8": "Skill 3 (% Chance)"
  },
  "37": {
   "AI": "SkeletonBow",
-  "*aip1": "shoot?",
-  "*aip2": "stall time",
-  "*aip3": "approach?",
-  "*aip4": "walk steps",
-  "*aip5": "tgt dist"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "Walk Steps to take",
+  "*aip5": "Min Target Range"
  },
  "38": {
   "AI": "MaggotLarva",
-  "*aip1": "attack?",
-  "*aip2": "att recovery",
-  "*aip3": "approach?",
-  "*aip4": "idle stall time",
-  "*aip5": "circle?"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Attack1 Delay (Frames)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "AI Delay (Frames)"
  },
  "39": {
   "AI": "PinHead",
-  "*aip1": "attack?",
-  "*aip2": "att stall time",
-  "*aip3": "approach?",
-  "*aip4": "idle stall time",
-  "*aip5": "smite?"
+  "*aip1": "Skill1/Skill2/Attack1 (% Chance)",
+  "*aip2": "Attack Delay (Frames)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "AI Delay (Frames)",
+  "*aip5": "Skill1 (% Chance)",
+  "*aip6": "Skill2 (% Chance)"
  },
  "40": {
   "AI": "MaggotEgg",
-  "*aip1": "stall",
-  "*aip2": "hatch?"
+  "*aip1": "Attack Delay (Frames)",
+  "*aip2": "Hatch (Skill1) (% Chance)"
  },
  "41": {
   "AI": "Towner"
@@ -293,108 +294,109 @@
  },
  "43": {
   "AI": "FoulCrowNest",
-  "*aip1": "spawn interval",
-  "*aip3": "num to spawn"
+  "*aip1": "Unit Spawn Interval (Frames)",
+  "*aip3": "Unit Spawn Count"
  },
  "44": {
   "AI": "Duriel",
-  "*aip1": "holy freeze level",
-  "*aip2": "smite?",
-  "*aip3": "jab?",
-  "*aip4": "att2?",
-  "*aip5": "charge?"
+  "*aip1": "Skill3 (Holy Freeze) Skill Level",
+  "*aip2": "Skill3 (Holy Freeze) (% Chance)",
+  "*aip3": "Skill2 (Jab) (% Chance)",
+  "*aip4": "Attack2 (% Chance)",
+  "*aip5": "Skill1 (Charge) (% Chance)"
  },
  "45": {
   "AI": "Sarcophagus",
-  "*aip1": "spawn interval",
-  "*aip3": "num to spawn"
+  "*aip1": "Unit Spawn Interval (Frames)",
+  "*aip3": "Unit Spawn Count"
  },
  "46": {
   "AI": "ElementalBeast",
-  "*aip1": "approach?",
-  "*aip2": "activation dist",
-  "*aip3": "idle stall"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Enemy Awareness (Range)",
+  "*aip3": "AI Delay (Frames)"
  },
  "47": {
   "AI": "FlyingScimitar",
-  "*aip1": "approach?",
-  "*aip2": "attack?",
-  "*aip3": "stall time",
-  "*aip4": "circle?"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Attack1 (% Chance)",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "Circle Walk (% Chance)"
  },
  "48": {
   "AI": "ZakarumZealot",
-  "*aip1": "attack?",
-  "*aip2": "att2?",
-  "*aip3": "hurt%",
-  "*aip4": "run?"
+  "*aip1": "Attack Enemy (% Chance)",
+  "*aip2": "\"Attack2 (% Chance), else Attack1\"",
+  "*aip3": "Hurt State (Life % threshold)",
+  "*aip4": "\"Run (% Chance), else Walk\""
  },
  "49": {
   "AI": "ZakarumPriest",
-  "*aip1": "attack?",
-  "*aip2": "blizzard?",
-  "*aip3": "ltng?",
-  "*aip4": "cast?",
-  "*aip5": "spell timer",
-  "*aip6": "heal range"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Skill4 (MonBlizzard) (% Chance)",
+  "*aip3": "Skill2 (ZakarumLightning) (% Chance)",
+  "*aip4": "Skill4/Skill2 (% Chance)",
+  "*aip5": "Skill3 (MonTeleport) Interval (Frames)",
+  "*aip6": "Skill1 (ZakarumHeal) Search Range"
  },
  "50": {
-  "AI": "Mephisto"
+  "AI": "Mephisto",
+  "*aip1": "Attack Enemy (% Chance)"
  },
  "51": {
   "AI": "Diablo"
  },
  "52": {
   "AI": "FrogDemon",
-  "*aip1": "attack melee?",
-  "*aip2": "shoot melee?",
-  "*aip3": "circle melee?",
-  "*aip4": "circle ranged?",
-  "*aip5": "shoot?",
-  "*aip6": "shoot dist",
-  "*aip7": "stall time",
-  "*aip8": "emerge dist"
+  "*aip1": "Melee Attack1 (% Chance)",
+  "*aip2": "Melee Attack2 (% Chance)",
+  "*aip3": "Melee Circle Walk (% Chance)",
+  "*aip4": "Ranged Circle Walk (% Chance)",
+  "*aip5": "Ranged Attack2 (% Chance)",
+  "*aip6": "Ranged Attack Range",
+  "*aip7": "AI Delay (Frames)",
+  "*aip8": "Emerge Awareness Range"
  },
  "53": {
   "AI": "Summoner",
-  "*aip1": "cast?",
-  "*aip2": "weaken?",
-  "*aip3": "pref element?",
-  "*aip4": "nova timer",
-  "*aip5": "firewall timer",
-  "*aip6": "walk away?",
-  "*aip7": "nova dist",
-  "*aip8": "missile dist"
+  "*aip1": "Cast (% Chance)",
+  "*aip2": "Skill5 (Weaken) (% Chance)",
+  "*aip3": "Prefer Cold Skills (Skill1/2/3/4) (% Chance)",
+  "*aip4": "Skill2 (Nova) Interval (Frames)",
+  "*aip5": "Skill3 (VampireFirewall) Interval (Frames)",
+  "*aip6": "Run Away (% Chance)",
+  "*aip7": "Skill2 (Frost Nova) Range",
+  "*aip8": "Skill1/3 (Glacial Spike / Fire Ball) Range"
  },
  "54": {
   "AI": "NpcStationary"
  },
  "55": {
   "AI": "Izual",
-  "*aip1": "attack?",
-  "*aip2": "engage?",
-  "*aip3": "nova at range?",
-  "*aip4": "nova in melee?",
-  "*aip5": "post nova doldrums",
-  "*aip6": "num swings"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Ranged Skill1 (Frost Nova) (% Chance)",
+  "*aip4": "Melee Skill1 (Frost Nova) (% Chance)",
+  "*aip5": "Post Skill1 (Frost Nova) AI Delay (Frames)",
+  "*aip6": "Post Skill1 (Frost Nova) Attack Swing Count"
  },
  "56": {
   "AI": "Tentacle",
-  "*aip1": "attack?",
-  "*aip2": "submerge?",
-  "*aip3": "submerge secs",
-  "*aip4": "emerge secs",
-  "*aip5": "stall time",
-  "*aip6": "active dist"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Submerge (% Chance)",
+  "*aip3": "Submerge AI Delay (Frames)",
+  "*aip4": "Emerge AI Delay (Frames)",
+  "*aip5": "AI Delay (Frames)",
+  "*aip6": "Enemy Awareness (Range)"
  },
  "57": {
   "AI": "TentacleHead",
-  "*aip1": "shoot?",
-  "*aip2": "submerge?",
-  "*aip3": "submerge secs",
-  "*aip4": "emerge secs",
-  "*aip5": "stall time",
-  "*aip6": "active dist"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Submerge (% Chance)",
+  "*aip3": "Submerge AI Delay (Frames)",
+  "*aip4": "Emerge AI Delay (Frames)",
+  "*aip5": "AI Delay (Frames)",
+  "*aip6": "Enemy Awareness (Range)"
  },
  "58": {
   "AI": "Navi"
@@ -413,187 +415,189 @@
  },
  "63": {
   "AI": "GargoyleTrap",
-  "*aip1": "shoot dist",
-  "*aip2": "shoot?",
-  "*aip3": "fire recovery",
-  "*aip4": "stall time"
+  "*aip1": "Skill1 Range",
+  "*aip2": "Skill1 (% Chance)",
+  "*aip3": "Skill1 AI Delay (Frames)",
+  "*aip4": "AI Delay (Frames)"
  },
  "64": {
   "AI": "SkeletonMage",
-  "*aip1": "shoot?",
-  "*aip2": "approach dist",
-  "*aip3": "approach?",
-  "*aip4": "too close dist",
-  "*aip5": "walk away?",
-  "*aip6": "fire dist",
-  "*aip7": "circle?",
-  "*aip8": "stall time"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (Range)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "Walk Away Range",
+  "*aip5": "Walk Away (% Chance)",
+  "*aip6": "Attack1 (% Chance)",
+  "*aip7": "Circle Walk (% Chance)",
+  "*aip8": "AI Delay (Frames)"
  },
  "65": {
   "AI": "FetishShaman",
-  "*aip1": "heal?",
-  "*aip2": "heal capability",
-  "*aip3": "heal range",
-  "*aip4": "circle?",
-  "*aip5": "heal search range"
+  "*aip1": "Skill3 (Resurrect2) (% Chance)",
+  "*aip2": "\"Skill3 (Resurrect2) Check (0=only party, 1=any fetish, 2=any fetish/blow, 3=any unique fetish/blow)\"",
+  "*aip3": "Skill3 (Resurrect2) Range",
+  "*aip4": "Circle Walk (% Chance)",
+  "*aip5": "Skill3 (Resurrect2) Unit Search Range"
  },
  "66": {
   "AI": "SandMaggotQueen",
-  "*aip1": "max spawn",
-  "*aip2": "delay"
+  "*aip1": "Max Unit Spawn Count",
+  "*aip2": "AI Delay (Frames)"
  },
  "67": {
   "AI": "NecroPet"
  },
  "68": {
   "AI": "VileMother",
-  "*aip1": "max spawn",
-  "*aip2": "max at once",
-  "*aip3": "spawn?",
-  "*aip4": "attack?",
-  "*aip5": "approach?",
-  "*aip6": "circle?",
-  "*aip7": "stall time"
+  "*aip1": "Max Unit Spawn Count",
+  "*aip2": "Unit Spawn Count Per Use",
+  "*aip3": "Spawn Unit (% Chance)",
+  "*aip4": "Attack1 (% Chance)",
+  "*aip5": "Approach Enemy (Range)",
+  "*aip6": "Circle Walk (% Chance)",
+  "*aip7": "AI Delay (Frames)"
  },
  "69": {
   "AI": "VileDog",
-  "*aip1": "attack?",
-  "*aip2": "melee stall",
-  "*aip3": "approach?"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Melee AI Delay (Frames)",
+  "*aip3": "Approach Enemy (Range)"
  },
  "70": {
   "AI": "FingerMage",
-  "*aip1": "attack/circle?",
-  "*aip2": "cast?",
-  "*aip3": "healthy%",
-  "*aip4": "hurt%",
-  "*aip5": "cast range",
-  "*aip6": "max run tries",
-  "*aip7": "out of range",
-  "*aip8": "melee stall"
+  "*aip1": "\"Attack1 (% Chance), else Skill1/Circle Walk\"",
+  "*aip2": "Skill1 (FingerMageSpider) (% Chance)",
+  "*aip3": "Fight Life % Threshold",
+  "*aip4": "Run Away Life % Threshold",
+  "*aip5": "Skill1 (FingerMageSpider) Range",
+  "*aip6": "Max Run Away Attempts",
+  "*aip7": "Approach Enemy (Range)",
+  "*aip8": "Ranged AI Delay (Frames)"
  },
  "71": {
   "AI": "Regurgitator",
-  "*aip1": "attack?",
-  "*aip2": "eat in melee?",
-  "*aip3": "approach?",
-  "*aip4": "look for food?",
-  "*aip5": "look in melee?",
-  "*aip6": "smell dist"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Eat Corpse In Melee (% Chance)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "Find Corpse (% Chance)",
+  "*aip5": "Find Corpse In Melee (% Chance)",
+  "*aip6": "Find Corpse Target Range"
  },
  "72": {
   "AI": "DoomKnight",
-  "*aip1": "attack?",
-  "*aip2": "melee stall",
-  "*aip3": "approach?",
-  "*aip4": "regular stall"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Melee AI Delay (Frames)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "AI Delay (Frames)"
  },
  "73": {
   "AI": "AbyssKnight",
-  "*aip1": "bone armor hp%",
-  "*aip2": "bonearmor?",
-  "*aip3": "attack?",
-  "*aip4": "melee stall",
-  "*aip5": "no fire dist",
-  "*aip6": "fire recovery",
-  "*aip7": "approach?",
-  "*aip8": "active dist"
+  "*aip1": "Skill2 (MonBoneArmor) Life % Threshold",
+  "*aip2": "Skill2 (MonBoneArmor) (% Chance)",
+  "*aip3": "Attack1 (% Chance)",
+  "*aip4": "Melee AI Delay (Frames)",
+  "*aip5": "Skill1 (DoomKnightMissile) Range",
+  "*aip6": "Skill1 AI Delay (Frames)",
+  "*aip7": "Approach Enemy (% Chance)",
+  "*aip8": "Circle Walk (% Chance)"
  },
  "74": {
   "AI": "OblivionKnight",
-  "*aip1": "flee range",
-  "*aip2": "engage range",
-  "*aip3": "curse timer",
-  "*aip4": "curse?",
-  "*aip5": "shoot?",
-  "*aip6": "bonespirit?",
-  "*aip7": "approach?",
-  "*aip8": "approach dist"
+  "*aip1": "Run Away Range",
+  "*aip2": "Ranged Skill Range",
+  "*aip3": "Skill4 (Decrepify) AI Delay (Frames)",
+  "*aip4": "Skill6 (MonCurseCast) (% Chance)",
+  "*aip5": "Skill1/Skill3 (% Chance)",
+  "*aip6": "\"Skill3 (MonBoneSpirit) (% Chance), else Skill1\"",
+  "*aip7": "Approach Enemy (% Chance)",
+  "*aip8": "Approach Enemy (Range)"
  },
  "75": {
   "AI": "QuillMother",
-  "*aip1": "attack?",
-  "*aip2": "approach?",
-  "*aip3": "melee stall",
-  "*aip4": "regular stall"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Melee AI Delay (Frames)",
+  "*aip4": "AI Delay (Frames)"
  },
  "76": {
   "AI": "EvilHole",
-  "*aip1": "num to spawn",
-  "*aip2": "spawn delay"
+  "*aip1": "Max Unit Spawn Count",
+  "*aip2": "AI Delay (Frames)"
  },
  "77": {
   "AI": "Trap-Missile",
-  "*aip1": "distance",
-  "*aip2": "num to shoot",
-  "*aip3": "delay"
+  "*aip1": "Enemy Awareness (Range)",
+  "*aip2": "Max Use Count",
+  "*aip3": "AI Delay (Frames)"
  },
  "78": {
   "AI": "Trap-RightArrow",
-  "*aip1": "min dist",
-  "*aip2": "max dist",
-  "*aip3": "delay",
-  "*aip4": "delay2"
+  "*aip1": "Min Target Range",
+  "*aip2": "Max Target Range",
+  "*aip3": "Attack AI Delay (Frames)",
+  "*aip4": "Skill1 AI Delay (Frames)"
  },
  "79": {
   "AI": "Trap-LeftArrow",
-  "*aip1": "min dist",
-  "*aip2": "max dist",
-  "*aip3": "delay",
-  "*aip4": "delay2"
+  "*aip1": "Min Target Range",
+  "*aip2": "Max Target Range",
+  "*aip3": "Attack AI Delay (Frames)",
+  "*aip4": "Skill1 AI Delay (Frames)"
  },
  "80": {
   "AI": "Trap-Poison",
-  "*aip1": "range",
-  "*aip2": "num times",
-  "*aip3": "delay"
+  "*aip1": "Enemy Awareness (Range)",
+  "*aip2": "Max Use Count",
+  "*aip3": "AI Delay (Frames)"
  },
  "81": {
   "AI": "JarJar"
  },
  "82": {
   "AI": "InvisoSpawner",
-  "*aip1": "num to spawn",
-  "*aip2": "activation dist",
-  "*aip3": "delay"
+  "*aip1": "Max Unit Spawn Count",
+  "*aip2": "Enemy Awareness (Range)",
+  "*aip3": "Spawn Unit Delay (Frames)"
  },
  "83": {
   "AI": "MosquitoNest",
-  "*aip1": "num to spawn",
-  "*aip2": "activation dist",
-  "*aip3": "delay"
+  "*aip1": "Max Unit Spawn Count",
+  "*aip2": "Enemy Awareness (Range)",
+  "*aip3": "Spawn Unit Delay (Frames)"
  },
  "84": {
   "AI": "BoneWall"
  },
  "85": {
   "AI": "HighPriest",
-  "*aip1": "engage?",
-  "*aip2": "heal at range?",
-  "*aip3": "heal/hydra timer",
-  "*aip4": "hydra at range?",
-  "*aip5": "ltng at range?",
-  "*aip6": "disengage?",
-  "*aip7": "ltng engaged?",
-  "*aip8": "range"
+  "*aip1": "Melee Attack1 (% Chance)",
+  "*aip2": "Skill2 (ZakarumLightning) (% Chance)",
+  "*aip3": "Skill AI Delay (Frames)",
+  "*aip4": "Skill1 (ZakarumHeal) (% Chance)",
+  "*aip5": "Ranged Lightning Skill (% Chance)",
+  "*aip6": "Melee Run Away (% Chance)",
+  "*aip7": "Melee Lightning Skill (% Chance)",
+  "*aip8": "Approach Enemy (Range)"
  },
  "86": {
   "AI": "Hydra"
  },
  "87": {
-  "AI": "Trap-Melee"
+  "AI": "Trap-Melee",
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "AI Delay (Frames)"
  },
  "88": {
   "AI": "7TIllusion"
  },
  "89": {
   "AI": "Megademon",
-  "*aip1": "inferno ranged?",
-  "*aip2": "inferno melee?",
-  "*aip3": "swing melee?",
-  "*aip4": "approach?",
-  "*aip5": "circle melee?",
-  "*aip6": "inferno timer"
+  "*aip1": "Ranged Skill1 (MegademonInferno) (% Chance)",
+  "*aip2": "Melee Skill1 (MegademonInferno) (% Chance)",
+  "*aip3": "Melee Attack1 (% Chance)",
+  "*aip4": "Approach Enemy (% Chance)",
+  "*aip5": "Circle Walk (% Chance)",
+  "*aip6": "Skill1 (MegademonInferno) AI Delay (Frames)"
  },
  "90": {
   "AI": "Griswold"
@@ -603,40 +607,40 @@
  },
  "92": {
   "AI": "Trap-Nova",
-  "*aip1": "range",
-  "*aip2": "num times",
-  "*aip3": "delay"
+  "*aip1": "Activate Range",
+  "*aip2": "Activate Max Count",
+  "*aip3": "AI Delay (Frames)"
  },
  "93": {
   "AI": "ArcaneTower",
-  "*aip1": "num sk1",
-  "*aip2": "sk1 stall",
-  "*aip3": "sk1 long delay",
-  "*aip4": "num sk2",
-  "*aip5": "sk2 stall",
-  "*aip6": "sk2 long delay"
+  "*aip1": "Attack1 Use Count",
+  "*aip2": "Skill1 Interval Delay (Frames)",
+  "*aip3": "Skill1 Depleted AI Delay (Frames)",
+  "*aip4": "Skill1 Use Count",
+  "*aip5": "Attack1 Interval Delay (Frames)",
+  "*aip6": "Attack1 Depleted AI Delay (Frames)"
  },
  "94": {
   "AI": "DesertTurret",
-  "*aip1": "short delay",
-  "*aip2": "num shots",
-  "*aip3": "long delay",
-  "*aip4": "range",
-  "*aip5": "spread"
+  "*aip1": "Skill1 Interval Delay (Frames)",
+  "*aip2": "Skill1 Max Shot Count",
+  "*aip3": "Skill1 Depleted AI Delay (Frames)",
+  "*aip4": "Enemy Awareness (Range)",
+  "*aip5": "Skill1 Missile Direction Spread"
  },
  "95": {
   "AI": "PantherJavelin",
-  "*aip1": "approach?",
-  "*aip2": "throw?",
-  "*aip3": "group dist",
-  "*aip4": "walk away?",
-  "*aip5": "stall time",
-  "*aip6": "throw dist"
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Attack1 (% Chance)",
+  "*aip3": "Find Ally Regroup Range",
+  "*aip4": "Walk Away Range",
+  "*aip5": "AI Delay (Frames)",
+  "*aip6": "Ranged Target Range"
  },
  "96": {
   "AI": "FetishBlowgun",
-  "*aip1": "stay in range",
-  "*aip2": "run away?"
+  "*aip1": "Ranged Max Range",
+  "*aip2": "Run Away Range"
  },
  "97": {
   "AI": "Spirit"
@@ -651,173 +655,219 @@
   "AI": "Buffy"
  },
  "101": {
-  "AI": "AssassinSentry"
+  "AI": "AssassinSentry",
+  "*aip1": "Skill1 (% Chance)",
+  "*aip2": "Skill1 Followup AI Delay (Frames)",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "Skill1 Range"
  },
  "102": {
   "AI": "BladeCreeper"
  },
  "103": {
-  "AI": "InvisoPet"
+  "AI": "InvisoPet",
+  "*aip1": "Teleport Skill Range",
+  "*aip2": "AI Delay (Frames)"
  },
  "104": {
-  "AI": "DeathSentry"
+  "AI": "DeathSentry",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Skill2 (% Chance)",
+  "*aip4": "Skill2 (Range)"
  },
  "105": {
   "AI": "ShadowWarrior",
-  "*aip1": "max target dist",
-  "*aip2": "max boss dist",
-  "*aip3": "attack chance",
-  "*aip4": "skill decrement",
-  "*aip8": "summoning skill/min to use skill/max to use skill"
+  "*aip1": "Max Target Range",
+  "*aip2": "Caster Leash Range",
+  "*aip3": "Attack (% Chance)",
+  "*aip4": "Skill Decrement",
+  "*aip8": "Summon Skill/Skill Min Chance/Skill Max Chance (#/256)"
  },
  "106": {
   "AI": "ShadowMaster",
-  "*aip1": "approach dist/melee bonus/progressive bonus",
-  "*aip2": "random pick/ignore range/boss leash",
-  "*aip3": "attack chance",
-  "*aip8": "summoning skill"
+  "*aip1": "Approach Range/Melee Bonus Rating/Progressive Bonus Rating",
+  "*aip2": "Random Skill Pick/Enemy Awareness Range/Caster Leash Range",
+  "*aip3": "Attack (% Chance)",
+  "*aip8": "Summon Skill"
  },
  "107": {
-  "AI": "Raven"
+  "AI": "Raven",
+  "*aip1": "Caster Min Leash Range",
+  "*aip2": "Caster Ideal Leash Range",
+  "*aip3": "Attack interval (Frames)",
+  "*aip4": "Attack Enemy (% Chance)",
+  "*aip5": "Caster Max Leash Range"
  },
  "108": {
-  "AI": "DruidWolf"
+  "AI": "DruidWolf",
+  "*aip1": "AI Delay (Frames)",
+  "*aip2": "Skill1 (Fenris Rage) (% Chance)",
+  "*aip3": "Walk Randomly (% Chance)",
+  "*aip4": "Max Target Range",
+  "*aip5": "Caster Leash Range"
  },
  "109": {
-  "AI": "Totem"
+  "AI": "Totem",
+  "*aip1": "Run Away From Enemy (% Chance)",
+  "*aip2": "Stay Close to Caster (% Chance)",
+  "*aip3": "Teleport Leash Range to Caster",
+  "*aip4": "Move Leash Range to Caster"
  },
  "110": {
-  "AI": "Vines"
+  "AI": "Vines",
+  "*aip1": "Skill1 Interval (Frames)",
+  "*aip2": "Target Range",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "Move Away From Poisoned Target (Frames)",
+  "*aip5": "Teleport Leash Range to Caster"
  },
  "111": {
-  "AI": "CycleOfLife"
+  "AI": "CycleOfLife",
+  "*aip1": "Skill1 Interval (Frames)",
+  "*aip2": "Find Corpse Range",
+  "*aip3": "AI Delay (Frames)",
+  "*aip4": "Run Away From Target (Frames)",
+  "*aip5": "Teleport Leash Range to Caster"
  },
  "112": {
-  "AI": "DruidBear"
+  "AI": "DruidBear",
+  "*aip1": "AI Delay (Frames)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Attack Enemy (% Chance)"
  },
  "113": {
   "AI": "SiegeTower",
-  "*aip1": "stall time"
+  "*aip1": "AI Delay (Frames)"
  },
  "114": {
   "AI": "ReanimatedHorde",
-  "*aip1": "attack?",
-  "*aip2": "melee stall",
-  "*aip3": "charge range",
-  "*aip4": "charge?",
-  "*aip5": "follow?",
-  "*aip6": "walk forward?",
-  "*aip7": "ranged stall",
-  "*aip8": "reanimate"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Melee AI Delay (Frames)",
+  "*aip3": "Skill2 (Range)",
+  "*aip4": "Skill2 (% Chance)",
+  "*aip5": "Walk Towards Enemy (% Chance)",
+  "*aip6": "Take a few steps toward enemy (% Chance)",
+  "*aip7": "AI Delay (Frames)"
  },
  "115": {
   "AI": "SiegeBeast",
-  "*aip1": "call imp dist",
-  "*aip2": "attack?",
-  "*aip3": "stamp in melee?",
-  "*aip4": "melee stall",
-  "*aip5": "stomp ranged?",
-  "*aip6": "charge?",
-  "*aip7": "charge vel"
+  "*aip1": "Call Nearby Imp Range",
+  "*aip2": "Attack1 (% Chance)",
+  "*aip3": "Melee Skill1 (% Chance)",
+  "*aip4": "Melee AI Delay (Frames)",
+  "*aip5": "\"Ranged Skill1 Max Range, Ranged Skill1 (% Chance)\"",
+  "*aip6": "Approach Enemy (% Chance)",
+  "*aip7": "Approach Enemy (Velocity)"
  },
  "116": {
   "AI": "Minion",
-  "*aip1": "attack?",
-  "*aip2": "melee stall",
-  "*aip3": "approach?",
-  "*aip4": "ranged stall",
-  "*aip5": "att1/att2?"
+  "*aip1": "Melee Attack (% Chance)",
+  "*aip2": "\"Attack2 (% Chance), else Melee AI Delay (Frames)\"",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip4": "AI Delay (Frames)"
  },
  "117": {
   "AI": "SuicideMinion",
-  "*aip1": "blow up delay",
-  "*aip2": "stall time",
-  "*aip3": "approach?"
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Approach Enemy (% Chance)",
+  "*aip5": "Suicide Delay (Frames)"
  },
  "118": {
   "AI": "Succubus",
-  "*aip1": "attack?",
-  "*aip2": "approach?",
-  "*aip3": "curse?",
-  "*aip4": "curse range",
-  "*aip5": "melee stall",
-  "*aip6": "ranged stall",
-  "*aip7": "curse level"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Skill (% Chance)",
+  "*aip4": "Skill Range",
+  "*aip5": "Melee AI Delay (Frames)",
+  "*aip6": "Ranged AI Delay (Frames)",
+  "*aip7": "Skill1 Target Min Life % Threshold",
+  "*aip8": "Skill2 Target Max Life % Threshold"
  },
  "119": {
   "AI": "SuccubusWitch",
-  "*aip1": "attack?",
-  "*aip2": "approach?",
-  "*aip3": "walk away?",
-  "*aip4": "comfort dist",
-  "*aip5": "shoot?",
-  "*aip6": "stall",
-  "*aip7": "amp dam tgt hp%",
-  "*aip8": "weaken my hp%"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "\"Skill (% Chance), else Run Away (% Chance)\"",
+  "*aip4": "Skill Range",
+  "*aip5": "Skill2 (% Chance)",
+  "*aip6": "AI Delay (Frames)",
+  "*aip7": "Skill1 Target Min Life % Threshold",
+  "*aip8": "Skill2 Target Max Life % Threshold"
  },
  "120": {
   "AI": "Overseer",
-  "*aip1": "rally spell timer",
-  "*aip2": "heal?",
-  "*aip3": "whip?",
-  "*aip4": "comfort dist",
-  "*aip5": "comfort zone",
-  "*aip6": "attack?",
-  "*aip7": "att1/att2?"
+  "*aip1": "Skill1 (Cry Help) AI Delay (Frames)",
+  "*aip2": "Skill2 (Healing Vortex) (% Chance)",
+  "*aip3": "Skill3 (Whip) (% Chance)",
+  "*aip4": "Run Away Min Range",
+  "*aip5": "Run Away Max Range",
+  "*aip6": "Attack (% Chance)",
+  "*aip7": "\"Attack2 (% Chance), else Attack1\""
  },
  "121": {
   "AI": "MinionSpawner",
-  "*aip1": "num to spawn",
-  "*aip2": "stall time",
-  "*aip3": "spawn delay",
-  "*aip4": "activation range",
-  "*aip5": "max in area"
+  "*aip1": "Max Spawn Count",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Skill1 Delay (Frames)",
+  "*aip4": "Enemy Awareness (Range)"
  },
  "122": {
   "AI": "Imp",
-  "*aip1": "refer to source"
+  "*aip1": "Approach Ally Range / Hurt Life % Threshold / Run Away Range",
+  "*aip2": "Teleport Range / Run Away (% Chance)",
+  "*aip3": "Skill1 (% Chance) / Skill4 Range",
+  "*aip4": "Skill4 (% Chance)"
  },
  "123": {
   "AI": "Catapult",
-  "*aip1": "attack?"
+  "*aip1": "Attack1 (% Chance)"
  },
  "124": {
   "AI": "FrozenHorror",
-  "*aip1": "attack?",
-  "*aip2": "approach?",
-  "*aip3": "arctic blast?",
-  "*aip4": "stall time"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Aproach Enemy (% Chance)",
+  "*aip3": "Skill1 (Horror Arctic Blast) (% Chance)",
+  "*aip4": "AI Delay (Frames)"
  },
  "125": {
   "AI": "BloodLord",
-  "*aip1": "attack?",
-  "*aip2": "approach?",
-  "*aip3": "frenzy/att1?",
-  "*aip4": "stall time"
+  "*aip1": "Attack (% Chance)",
+  "*aip2": "Aproach Enemy (% Chance)",
+  "*aip3": "\"Attack2 (BloodLordFrenzy) (% Chance), else Attack1\"",
+  "*aip4": "AI Delay (Frames)"
  },
  "126": {
   "AI": "CatapultSpotter",
-  "*aip1": "attack?",
-  "*aip2": "delay",
-  "*aip3": "range",
-  "*aip4": "random range",
-  "*aip5": "shots per skill"
+  "*aip1": "Attack (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip4": "Random Attack Range Around Target",
+  "*aip5": "Max Shot Count Per Skill"
  },
  "127": {
-  "AI": "NpcBarb"
+  "AI": "NpcBarb",
+  "*aip1": "AI Delay (Frames)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Enemy Awareness (Range)"
  },
  "128": {
-  "AI": "Nihlathak"
+  "AI": "Nihlathak",
+  "*aip1": "Teleport (% Chance)",
+  "*aip2": "Teleport Range",
+  "*aip3": "Skill3 (Corpse Explosion) (% Chance)",
+  "*aip4": "Skill2 (Overseer Whip) (% Chance)",
+  "*aip5": "Run Away From Target (Range)"
  },
  "129": {
-  "AI": "GenericSpawner"
+  "AI": "GenericSpawner",
+  "*aip1": "Spawn Interval (Frames)",
+  "*aip3": "Max Spawn Count"
  },
  "130": {
   "AI": "DeathMauler",
-  "*aip1": "attack?",
-  "*aip2": "approach?",
-  "*aip3": "shoot range",
-  "*aip4": "shoot?"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Skill1 Range",
+  "*aip4": "Skill1 (% Chance)"
  },
  "131": {
   "AI": "Wussie"
@@ -826,58 +876,77 @@
   "AI": "AncientStatue"
  },
  "133": {
-  "AI": "Ancient"
+  "AI": "Ancient",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Target Range",
+  "*aip5": "Run Away From Target (Frames)"
  },
  "134": {
-  "AI": "BaalThrone"
+  "AI": "BaalThrone",
+  "*aip1": "Skill1 (% Chance)"
  },
  "135": {
   "AI": "BaalCrab"
  },
  "136": {
-  "AI": "BaalTaunt"
+  "AI": "BaalTaunt",
+  "*aip1": "Approach Enemy (% Chance)",
+  "*aip2": "Taunt Skill (% Chance)",
+  "*aip3": "AI Delay (Frames)"
  },
  "137": {
-  "AI": "PutridDefiler"
+  "AI": "PutridDefiler",
+  "*aip1": "Run Away From Target (Range)",
+  "*aip2": "Run Away From Target (Frames)"
  },
  "138": {
-  "AI": "BaalToStairs"
+  "AI": "BaalToStairs",
+  "*aip1": "Stairs Max Range"
  },
  "139": {
-  "AI": "BaalTentacle"
+  "AI": "BaalTentacle",
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "AI Delay (Frames)",
+  "*aip3": "Base Life Duration (Frames)"
  },
  "140": {
   "AI": "BaalCrabClone"
  },
  "141": {
-  "AI": "BaalMinion"
+  "AI": "BaalMinion",
+  "*aip1": "Skill1/Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "\"Skill1 (% Chance), else Attack1 else AI Delay (Frames)\"",
+  "*aip4": "AI Delay (Frames)"
  },
  "142": {
   "AI": "ClawViperEx",
-  "*aip1": "charge?",
-  "*aip2": "charge dist",
-  "*aip3": "attack?",
-  "*aip4": "shoot?",
-  "*aip5": "stall time",
-  "*aip6": "charge color",
-  "*aip7": "shoot dist",
-  "*aip8": "shoot timer"
+  "*aip1": "Skill1 (Charge) (% Chance)",
+  "*aip2": "Skill1 (Charge) Range",
+  "*aip3": "Attack2 (% Chance)",
+  "*aip4": "Attack1 (% Chance)",
+  "*aip5": "AI Delay (Frames)",
+  "*aip6": "\"Charge overlay (0 = none, 2 = red, else blue)\"",
+  "*aip7": "Attack1 Range",
+  "*aip8": "Attack1 Interval (Frames)"
  },
  "143": {
   "AI": "ShadowMasterNoInit",
-  "*aip1": "approach dist/melee bonus/progressive bonus",
-  "*aip2": "random pick/ignore range",
-  "*aip3": "attack chance",
+  "*aip1": "Approach Enemy Range/Melee bonus rating/Progressive bonus rating",
+  "*aip2": "Caster Leash Range",
+  "*aip3": "Attack (% Chance)",
   "*aip8": "summoning skill"
  },
  "144": {
   "AI": "UberIzual",
-  "*aip1": "attack?",
-  "*aip2": "engage?",
-  "*aip3": "nova at range?",
-  "*aip4": "nova in melee?",
-  "*aip5": "post nova doldrums",
-  "*aip6": "num swings"
+  "*aip1": "Attack1 (% Chance)",
+  "*aip2": "Approach Enemy (% Chance)",
+  "*aip3": "Ranged Skill1 (Frost Nova) (% Chance)",
+  "*aip4": "Melee Skill1 (Frost Nova) (% Chance)",
+  "*aip5": "Post Skill1 (Frost Nova) AI Delay (Frames)",
+  "*aip6": "Post Skill1 (Frost Nova) Attack Swing Count"
  },
  "145": {
   "AI": "UberBaal"

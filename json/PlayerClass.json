@@ -1,39 +1,32 @@
 {
- "ama": {
+ "0": {
   "Player Class": "Amazon",
-  "Code": "ama",
-  "lineNumber": 0
+  "Code": "ama"
  },
- "ass": {
-  "Player Class": "Assassin",
-  "Code": "ass",
-  "expansion": 1,
-  "lineNumber": 7
+ "1": {
+  "Player Class": "Sorceress",
+  "Code": "sor"
  },
- "bar": {
+ "2": {
+  "Player Class": "Necromancer",
+  "Code": "nec"
+ },
+ "3": {
+  "Player Class": "Paladin",
+  "Code": "pal"
+ },
+ "4": {
   "Player Class": "Barbarian",
-  "Code": "bar",
-  "lineNumber": 4
+  "Code": "bar"
  },
- "dru": {
+ "6": {
   "Player Class": "Druid",
   "Code": "dru",
-  "expansion": 1,
-  "lineNumber": 6
+  "expansion": 1
  },
- "nec": {
-  "Player Class": "Necromancer",
-  "Code": "nec",
-  "lineNumber": 2
- },
- "pal": {
-  "Player Class": "Paladin",
-  "Code": "pal",
-  "lineNumber": 3
- },
- "sor": {
-  "Player Class": "Sorceress",
-  "Code": "sor",
-  "lineNumber": 1
+ "7": {
+  "Player Class": "Assassin",
+  "Code": "ass",
+  "expansion": 1
  }
 }
