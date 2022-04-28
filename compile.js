@@ -267,7 +267,7 @@ files.forEach(fn => {
 		});
 	}
 
-	if (fn === 'SuperUniques') {
+	if (fn === 'superuniques') {
 		full[fn][0].areaId = 3;
 		full[fn][1].areaId = 18;
 		full[fn][2].areaId = 9;
