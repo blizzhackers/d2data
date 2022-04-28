@@ -1,36 +1,42 @@
 {
  "0": {
+  "id": 0,
   "xfer": 1,
   "constants": 20,
-  "*constant desc": "champion chance"
+  "*constant desc": "Champion chance to spawn instead of Unique",
+  "lineNumber": 0
  },
  "1": {
   "uniquemod": "rndname",
   "id": 1,
   "enabled": 1,
   "constants": 100,
-  "*constant desc": "minion +hp%"
+  "*constant desc": "Minion of Unique HP % Bonus",
+  "lineNumber": 1
  },
  "2": {
   "uniquemod": "hpmultiply",
   "id": 2,
   "enabled": 1,
   "constants": 75,
-  "*constant desc": "minion +hp% (N)"
+  "*constant desc": "Minion of Unique HP % Bonus (Nightmare)",
+  "lineNumber": 2
  },
  "3": {
   "uniquemod": "light",
   "id": 3,
   "enabled": 1,
   "constants": 50,
-  "*constant desc": "minion +hp% (H)"
+  "*constant desc": "Minion of Unique HP % Bonus (Hell)",
+  "lineNumber": 3
  },
  "4": {
   "uniquemod": "leveladd",
   "id": 4,
   "enabled": 1,
   "constants": 200,
-  "*constant desc": "champion +hp%"
+  "*constant desc": "Champion HP % Bonus",
+  "lineNumber": 4
  },
  "5": {
   "uniquemod": "strong",
@@ -41,7 +47,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 150,
-  "*constant desc": "champion +hp% (N)"
+  "*constant desc": "Champion HP % Bonus (Nightmare)",
+  "lineNumber": 5
  },
  "6": {
   "uniquemod": "fast",
@@ -53,7 +60,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 100,
-  "*constant desc": "champion +hp% (H)"
+  "*constant desc": "Champion HP % Bonus (Hell)",
+  "lineNumber": 6
  },
  "7": {
   "uniquemod": "curse",
@@ -64,7 +72,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 300,
-  "*constant desc": "unique +hp%"
+  "*constant desc": "Unique HP % Bonus",
+  "lineNumber": 7
  },
  "8": {
   "uniquemod": "resist",
@@ -74,7 +83,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 200,
-  "*constant desc": "unique +hp% (N)"
+  "*constant desc": "Unique HP % Bonus (Nightmare)",
+  "lineNumber": 8
  },
  "9": {
   "uniquemod": "fire",
@@ -85,49 +95,56 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 100,
-  "*constant desc": "unique +hp% (H)"
+  "*constant desc": "Unique HP % Bonus (Hell)",
+  "lineNumber": 9
  },
  "10": {
   "uniquemod": "poisondead",
   "id": 10,
   "enabled": 1,
   "constants": 75,
-  "*constant desc": "champion +tohit%"
+  "*constant desc": "Champion Attack Rating % Bonus",
+  "lineNumber": 10
  },
  "11": {
   "uniquemod": "durieldead",
   "id": 11,
   "enabled": 1,
   "constants": 100,
-  "*constant desc": "champion +dmg%"
+  "*constant desc": "Champion Damage % Bonus",
+  "lineNumber": 11
  },
  "12": {
   "uniquemod": "bloodraven",
   "id": 12,
   "enabled": 1,
   "constants": 50,
-  "*constant desc": "minion +tohit%"
+  "*constant desc": "Minion of Unique Attack Rating % Bonus",
+  "lineNumber": 12
  },
  "13": {
   "uniquemod": "rage",
   "id": 13,
   "enabled": 1,
   "constants": 100,
-  "*constant desc": "unique +tohit%"
+  "*constant desc": "Unique Attack Rating % Bonus",
+  "lineNumber": 13
  },
  "14": {
   "uniquemod": "spcdamage",
   "id": 14,
   "enabled": 1,
   "constants": 75,
-  "*constant desc": "minion +dmg% (strong)"
+  "*constant desc": "Minion of Unique Damage % Bonus (strong)",
+  "lineNumber": 14
  },
  "15": {
   "uniquemod": "partydead",
   "id": 15,
   "enabled": 1,
   "constants": 150,
-  "*constant desc": "unique +dmg% (strong)"
+  "*constant desc": "Unique Damage % Bonus (strong)",
+  "lineNumber": 15
  },
  "16": {
   "uniquemod": "champion",
@@ -138,7 +155,8 @@
   "cpick": 1,
   "cpick (N)": 1,
   "cpick (H)": 1,
-  "*constant desc": "minion +elem min dmg%"
+  "*constant desc": "Minion of Unique Elemental Min Damage % Bonus",
+  "lineNumber": 16
  },
  "17": {
   "uniquemod": "lightning",
@@ -150,7 +168,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 33,
-  "*constant desc": "minion +elem min dmg% (N)"
+  "*constant desc": "Minion of Unique Elemental Min Damage % Bonus (Nightmare)",
+  "lineNumber": 17
  },
  "18": {
   "uniquemod": "cold",
@@ -161,48 +180,55 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 33,
-  "*constant desc": "minion +elem min dmg% (H)"
+  "*constant desc": "Minion of Unique Elemental Min Damage % Bonus (Hell)",
+  "lineNumber": 18
  },
  "19": {
   "uniquemod": "hireable",
   "id": 19,
   "enabled": 1,
-  "*constant desc": "minion +elem max dmg%"
+  "*constant desc": "Minion of Unique Elemental Max Damage % Bonus",
+  "lineNumber": 19
  },
  "20": {
   "uniquemod": "scarab",
   "id": 20,
   "enabled": 1,
   "constants": 50,
-  "*constant desc": "minion +elem max dmg% (N)"
+  "*constant desc": "Minion of Unique Elemental Max Damage % Bonus (Nightmare)",
+  "lineNumber": 20
  },
  "21": {
   "uniquemod": "killself",
   "id": 21,
   "enabled": 1,
   "constants": 50,
-  "*constant desc": "minion +elem max dmg% (H)"
+  "*constant desc": "Minion of Unique Elemental Max Damage % Bonus (Hell)",
+  "lineNumber": 21
  },
  "22": {
   "uniquemod": "questcomplete",
   "id": 22,
   "enabled": 1,
   "constants": 33,
-  "*constant desc": "champion +elem min dmg%"
+  "*constant desc": "Champion Elemental Min Damage % Bonus",
+  "lineNumber": 22
  },
  "23": {
   "uniquemod": "poisonhit",
   "id": 23,
   "enabled": 1,
   "constants": 33,
-  "*constant desc": "champion +elem min dmg% (N)"
+  "*constant desc": "Champion Elemental Min Damage % Bonus (Nightmare)",
+  "lineNumber": 23
  },
  "24": {
   "uniquemod": "thief",
   "id": 24,
   "xfer": 1,
   "constants": 33,
-  "*constant desc": "champion +elem min dmg% (H)"
+  "*constant desc": "Champion Elemental Min Damage % Bonus (Hell)",
+  "lineNumber": 24
  },
  "25": {
   "uniquemod": "manahit",
@@ -213,7 +239,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 50,
-  "*constant desc": "champion +elem max dmg%"
+  "*constant desc": "Champion Elemental Max Damage % Bonus",
+  "lineNumber": 25
  },
  "26": {
   "uniquemod": "teleport",
@@ -225,7 +252,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 50,
-  "*constant desc": "champion +elem max dmg% (N)"
+  "*constant desc": "Champion Elemental Max Damage % Bonus (Nightmare)",
+  "lineNumber": 26
  },
  "27": {
   "uniquemod": "spectralhit",
@@ -236,7 +264,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 50,
-  "*constant desc": "champion +elem max dmg% (H)"
+  "*constant desc": "Champion Elemental Max Damage % Bonus (Hell)",
+  "lineNumber": 27
  },
  "28": {
   "uniquemod": "stoneskin",
@@ -247,7 +276,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 66,
-  "*constant desc": "unique +elem min dmg%"
+  "*constant desc": "Unique Elemental Min Damage % Bonus",
+  "lineNumber": 28
  },
  "29": {
   "uniquemod": "multishot",
@@ -259,7 +289,8 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 66,
-  "*constant desc": "unique +elem min dmg% (N)"
+  "*constant desc": "Unique Elemental Min Damage % Bonus (Nightmare)",
+  "lineNumber": 29
  },
  "30": {
   "uniquemod": "aura",
@@ -269,14 +300,16 @@
   "upick (N)": 6,
   "upick (H)": 6,
   "constants": 66,
-  "*constant desc": "unique +elem min dmg% (H)"
+  "*constant desc": "Unique Elemental Min Damage % Bonus (Hell)",
+  "lineNumber": 30
  },
  "31": {
   "uniquemod": "goboom",
   "id": 31,
   "enabled": 1,
   "constants": 100,
-  "*constant desc": "unique +elem max dmg%"
+  "*constant desc": "Unique Elemental Max Damage % Bonus",
+  "lineNumber": 31
  },
  "32": {
   "uniquemod": "firespike_explode",
@@ -284,8 +317,9 @@
   "enabled": 1,
   "version": 100,
   "constants": 100,
-  "*constant desc": "unique +elem max dmg% (N)",
-  "expansion": 1
+  "*constant desc": "Unique Elemental Max Damage % Bonus (Nightmare)",
+  "expansion": 1,
+  "lineNumber": 32
  },
  "33": {
   "uniquemod": "suicideminion_explode",
@@ -293,22 +327,25 @@
   "enabled": 1,
   "version": 100,
   "constants": 100,
-  "*constant desc": "unique +elem max dmg% (H)",
-  "expansion": 1
+  "*constant desc": "Unique Elemental Max Damage % Bonus (Hell)",
+  "expansion": 1,
+  "lineNumber": 33
  },
  "34": {
   "uniquemod": "ai_after_death",
   "id": 34,
   "enabled": 1,
   "version": 100,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 34
  },
  "35": {
   "uniquemod": "shatter_on_death",
   "id": 35,
   "enabled": 1,
   "version": 100,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 35
  },
  "36": {
   "uniquemod": "ghostly",
@@ -320,7 +357,8 @@
   "cpick": 1,
   "cpick (N)": 1,
   "cpick (H)": 1,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 36
  },
  "37": {
   "uniquemod": "fanatic",
@@ -332,7 +370,8 @@
   "cpick": 1,
   "cpick (N)": 1,
   "cpick (H)": 1,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 37
  },
  "38": {
   "uniquemod": "possessed",
@@ -344,7 +383,8 @@
   "cpick": 1,
   "cpick (N)": 1,
   "cpick (H)": 1,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 38
  },
  "39": {
   "uniquemod": "berserk",
@@ -356,27 +396,48 @@
   "cpick": 1,
   "cpick (N)": 1,
   "cpick (H)": 1,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 39
  },
  "40": {
   "uniquemod": "worms_on_death",
   "id": 40,
   "enabled": 1,
   "version": 100,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 40
  },
  "41": {
   "uniquemod": "always_run_ai",
   "id": 41,
   "enabled": 1,
   "version": 100,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 41
  },
  "42": {
   "uniquemod": "lightningdeath",
   "id": 42,
   "enabled": 1,
   "version": 100,
-  "expansion": 1
+  "expansion": 1,
+  "lineNumber": 42
+ },
+ "43": {
+  "uniquemod": "thinkonce_on_death",
+  "id": 43,
+  "enabled": 1,
+  "version": 100,
+  "xfer": 1,
+  "expansion": 1,
+  "lineNumber": 43
+ },
+ "44": {
+  "uniquemod": "hidedead",
+  "id": 44,
+  "enabled": 1,
+  "version": 100,
+  "expansion": 1,
+  "lineNumber": 44
  }
 }

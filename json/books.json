@@ -1,7 +1,25 @@
 {
- "0": {
-  "Namco": "of Town Portal",
-  "Completed": 1,
+ "Tome of Identify": {
+  "Name": "Tome of Identify",
+  "ScrollSpellCode": "isc",
+  "BookSpellCode": "ibk",
+  "pSpell": 1,
+  "ScrollSkill": "Scroll of Identify",
+  "BookSkill": "Book of Identify",
+  "BaseCost": 200,
+  "CostPerCharge": 40,
+  "lineNumber": 1
+ },
+ "Tome of Resurrect": {
+  "Name": "Tome of Resurrect",
+  "pSpell": -1,
+  "SpellIcon": -1,
+  "BaseCost": 500,
+  "CostPerCharge": 100,
+  "lineNumber": 2
+ },
+ "Tome of Town Portal": {
+  "Name": "Tome of Town Portal",
   "ScrollSpellCode": "tsc",
   "BookSpellCode": "tbk",
   "pSpell": 2,
@@ -9,23 +27,7 @@
   "ScrollSkill": "Scroll of Townportal",
   "BookSkill": "Book of Townportal",
   "BaseCost": 250,
-  "CostPerCharge": 50
- },
- "1": {
-  "Namco": "of Identify",
-  "Completed": 1,
-  "ScrollSpellCode": "isc",
-  "BookSpellCode": "ibk",
-  "pSpell": 1,
-  "ScrollSkill": "Scroll of Identify",
-  "BookSkill": "Book of Identify",
-  "BaseCost": 200,
-  "CostPerCharge": 40
- },
- "2": {
-  "Namco": "of Ressurect",
-  "SpellIcon": -1,
-  "BaseCost": 500,
-  "CostPerCharge": 100
+  "CostPerCharge": 50,
+  "lineNumber": 0
  }
 }

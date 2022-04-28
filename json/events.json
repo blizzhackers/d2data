@@ -1,54 +1,72 @@
 {
- "0": {
-  "event": "hitbymissile",
-  "*desc": "hit by a missile"
- },
- "1": {
-  "event": "damagedinmelee",
-  "*desc": "damaged in melee"
- },
- "2": {
-  "event": "damagedbymissile",
-  "*desc": "damaged by missile"
- },
- "3": {
-  "event": "attackedinmelee",
-  "*desc": "melee attack atttempt"
- },
- "4": {
-  "event": "doactive",
-  "*desc": "do active state skill"
- },
- "5": {
-  "event": "domeleedamage",
-  "*desc": "do damage in melee"
- },
- "6": {
-  "event": "domissiledamage",
-  "*desc": "do missile damage"
- },
- "7": {
-  "event": "domeleeattack",
-  "*desc": "do melee attack"
- },
- "8": {
-  "event": "domissileattack",
-  "*desc": "do missile attack"
- },
- "9": {
-  "event": "kill",
-  "*desc": "killed something"
- },
- "10": {
-  "event": "killed",
-  "*desc": "killed by something"
- },
- "11": {
+ "absorbdamage": {
   "event": "absorbdamage",
-  "*desc": "dealt damage"
+  "*description": "Unit takes damage",
+  "lineNumber": 11
  },
- "12": {
+ "attackedinmelee": {
+  "event": "attackedinmelee",
+  "*description": "Unit is attacked by a melee attack",
+  "lineNumber": 3
+ },
+ "damagedbymissile": {
+  "event": "damagedbymissile",
+  "*description": "Unit takes damage from a missile",
+  "lineNumber": 2
+ },
+ "damagedinmelee": {
+  "event": "damagedinmelee",
+  "*description": "Unit takes damage from a melee attack",
+  "lineNumber": 1
+ },
+ "death": {
+  "event": "death",
+  "*description": "Monster dies",
+  "lineNumber": 13
+ },
+ "doactive": {
+  "event": "doactive",
+  "*description": "Unit used a skill",
+  "lineNumber": 4
+ },
+ "domeleeattack": {
+  "event": "domeleeattack",
+  "*description": "Unit used a melee attack",
+  "lineNumber": 7
+ },
+ "domeleedamage": {
+  "event": "domeleedamage",
+  "*description": "Unit dealt damage with a melee attack",
+  "lineNumber": 5
+ },
+ "domissileattack": {
+  "event": "domissileattack",
+  "*description": "Unit used a missile attack",
+  "lineNumber": 8
+ },
+ "domissiledamage": {
+  "event": "domissiledamage",
+  "*description": "Unit dealt damage with a missile",
+  "lineNumber": 6
+ },
+ "hitbymissile": {
+  "event": "hitbymissile",
+  "*description": "Unit is hit by a missile",
+  "lineNumber": 0
+ },
+ "kill": {
+  "event": "kill",
+  "*description": "Unit killed another Unit",
+  "lineNumber": 9
+ },
+ "killed": {
+  "event": "killed",
+  "*description": "Unit dies",
+  "lineNumber": 10
+ },
+ "levelup": {
   "event": "levelup",
-  "*desc": "gain a level"
+  "*description": "Unit gained a Level",
+  "lineNumber": 12
  }
 }

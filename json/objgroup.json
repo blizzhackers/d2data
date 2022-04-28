@@ -4,7 +4,7 @@
  },
  "1": {
   "GroupName": "Rogues for act1( including staked rogues)",
-  "Offset": 1,
+  "*ID": 1,
   "ID0": 54,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -20,16 +20,14 @@
  },
  "2": {
   "GroupName": "Wells for forest",
-  "Offset": 2,
+  "*ID": 2,
   "ID0": 130,
   "PROB0": 75,
-  "ID1": 164,
-  "SHRINES": 1,
-  "WELLS": 1
+  "ID1": 164
  },
  "3": {
   "GroupName": "Indoor Chests",
-  "Offset": 3,
+  "*ID": 3,
   "ID0": 5,
   "DENSITY0": 48,
   "PROB0": 50,
@@ -39,7 +37,7 @@
  },
  "4": {
   "GroupName": "Rogues for act1 w/o staked rogues",
-  "Offset": 4,
+  "*ID": 4,
   "ID0": 54,
   "DENSITY0": 30,
   "PROB0": 37,
@@ -52,7 +50,7 @@
  },
  "5": {
   "GroupName": "sewer shrines",
-  "Offset": 5,
+  "*ID": 5,
   "ID0": 279,
   "PROB0": 25,
   "ID1": 280,
@@ -60,12 +58,11 @@
   "ID2": 281,
   "PROB2": 25,
   "ID3": 282,
-  "PROB3": 25,
-  "SHRINES": 1
+  "PROB3": 25
  },
  "6": {
   "GroupName": "Cave Wells",
-  "Offset": 6,
+  "*ID": 6,
   "ID0": 138,
   "PROB0": 25,
   "ID1": 275,
@@ -73,13 +70,11 @@
   "ID2": 276,
   "PROB2": 25,
   "ID3": 277,
-  "PROB3": 25,
-  "SHRINES": 1,
-  "WELLS": 1
+  "PROB3": 25
  },
  "7": {
   "GroupName": "Crypt caskets",
-  "Offset": 7,
+  "*ID": 7,
   "ID0": 3,
   "DENSITY0": 125,
   "PROB0": 75,
@@ -89,16 +84,15 @@
  },
  "8": {
   "GroupName": "Crypt shrines",
-  "Offset": 8,
+  "*ID": 8,
   "ID0": 77,
   "PROB0": 50,
   "ID1": 165,
-  "PROB1": 50,
-  "SHRINES": 1
+  "PROB1": 50
  },
  "9": {
   "GroupName": "Crypt Chests",
-  "Offset": 9,
+  "*ID": 9,
   "ID0": 5,
   "DENSITY0": 48,
   "PROB0": 20,
@@ -117,35 +111,34 @@
  },
  "10": {
   "GroupName": "Crypt Barrels",
-  "Offset": 10,
+  "*ID": 10,
   "ID0": 7,
   "DENSITY0": 64,
   "PROB0": 100
  },
  "11": {
   "GroupName": "Forgotten Tower caskets",
-  "Offset": 11,
+  "*ID": 11,
   "ID0": 3,
   "DENSITY0": 125,
   "PROB0": 100
  },
  "12": {
   "GroupName": "Forgotten Tower Shrines",
-  "Offset": 12,
+  "*ID": 12,
   "ID0": 77,
-  "PROB0": 100,
-  "SHRINES": 1
+  "PROB0": 100
  },
  "13": {
   "GroupName": "Forgotten Tower Barrels",
-  "Offset": 13,
+  "*ID": 13,
   "ID0": 7,
   "DENSITY0": 64,
   "PROB0": 100
  },
  "14": {
   "GroupName": "Indoor Shrine Act1 Set1",
-  "Offset": 14,
+  "*ID": 14,
   "ID0": 77,
   "PROB0": 25,
   "ID1": 84,
@@ -153,19 +146,18 @@
   "ID2": 165,
   "PROB2": 25,
   "ID3": 260,
-  "PROB3": 25,
-  "SHRINES": 1
+  "PROB3": 25
  },
  "15": {
   "GroupName": "Indoor Barrels",
-  "Offset": 15,
+  "*ID": 15,
   "ID0": 7,
   "DENSITY0": 64,
   "PROB0": 100
  },
  "16": {
   "GroupName": "Caskets Catacombs",
-  "Offset": 16,
+  "*ID": 16,
   "ID0": 79,
   "DENSITY0": 80,
   "PROB0": 33,
@@ -178,14 +170,13 @@
  },
  "17": {
   "GroupName": "Indoor Well Act1 Set1",
-  "Offset": 17,
+  "*ID": 17,
   "ID0": 132,
-  "PROB0": 100,
-  "WELLS": 1
+  "PROB0": 100
  },
  "18": {
   "GroupName": "Desert Outdoor Shrines Set1",
-  "Offset": 18,
+  "*ID": 18,
   "ID0": 86,
   "PROB0": 12,
   "ID1": 134,
@@ -201,12 +192,11 @@
   "ID6": 172,
   "PROB6": 13,
   "ID7": 173,
-  "PROB7": 13,
-  "SHRINES": 1
+  "PROB7": 13
  },
  "19": {
   "GroupName": "Desert Tomb Shrines",
-  "Offset": 19,
+  "*ID": 19,
   "ID0": 85,
   "PROB0": 20,
   "ID1": 166,
@@ -216,40 +206,35 @@
   "ID3": 151,
   "PROB3": 20,
   "ID4": 322,
-  "PROB4": 20,
-  "SHRINES": 1,
-  "WELLS": 1
+  "PROB4": 20
  },
  "20": {
   "GroupName": "not used",
-  "Offset": 20
+  "*ID": 20
  },
  "21": {
   "GroupName": "not used",
-  "Offset": 21,
-  "SHRINES": 1
+  "*ID": 21
  },
  "22": {
   "GroupName": "Desert Indoor Shrines Set3",
-  "Offset": 22,
+  "*ID": 22,
   "ID0": 116,
-  "PROB0": 100,
-  "SHRINES": 1
+  "PROB0": 100
  },
  "23": {
   "GroupName": "Desert Outdoor Shrines Set3",
-  "Offset": 23,
+  "*ID": 23,
   "ID0": 86,
   "PROB0": 34,
   "ID1": 85,
   "PROB1": 34,
   "ID2": 166,
-  "PROB2": 34,
-  "SHRINES": 1
+  "PROB2": 34
  },
  "24": {
   "GroupName": "Desert Chests",
-  "Offset": 24,
+  "*ID": 24,
   "ID0": 87,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -268,16 +253,15 @@
  },
  "25": {
   "GroupName": "maggot lair shrines",
-  "Offset": 25,
+  "*ID": 25,
   "ID0": 301,
   "PROB0": 50,
   "ID1": 302,
-  "PROB1": 50,
-  "SHRINES": 1
+  "PROB1": 50
  },
  "26": {
   "GroupName": "act 2 sewers",
-  "Offset": 26,
+  "*ID": 26,
   "ID0": 244,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -293,34 +277,32 @@
  },
  "27": {
   "GroupName": "Desert Obelisk",
-  "Offset": 27
+  "*ID": 27
  },
  "28": {
   "GroupName": "Obelisk Act1",
-  "Offset": 28
+  "*ID": 28
  },
  "29": {
   "GroupName": "Desert Urns",
-  "Offset": 29,
+  "*ID": 29,
   "ID0": 4,
   "DENSITY0": 120,
   "PROB0": 100
  },
  "30": {
   "GroupName": "Desert Wells",
-  "Offset": 30,
-  "WELLS": 1
+  "*ID": 30
  },
  "31": {
   "GroupName": "Jungle Wells",
-  "Offset": 31,
+  "*ID": 31,
   "ID0": 130,
-  "PROB0": 100,
-  "WELLS": 1
+  "PROB0": 100
  },
  "32": {
   "GroupName": "Dead Guards",
-  "Offset": 32,
+  "*ID": 32,
   "ID0": 154,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -330,7 +312,7 @@
  },
  "33": {
   "GroupName": "outsideforestobj1",
-  "Offset": 33,
+  "*ID": 33,
   "ID0": 139,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -343,7 +325,7 @@
  },
  "34": {
   "GroupName": "outsideforestobj2",
-  "Offset": 34,
+  "*ID": 34,
   "ID0": 141,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -353,14 +335,14 @@
  },
  "35": {
   "GroupName": "sand maggot lair",
-  "Offset": 35,
+  "*ID": 35,
   "ID0": 266,
   "DENSITY0": 30,
   "PROB0": 100
  },
  "36": {
   "GroupName": "desertobjects2",
-  "Offset": 36,
+  "*ID": 36,
   "ID0": 178,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -370,7 +352,7 @@
  },
  "37": {
   "GroupName": "desertobjects3",
-  "Offset": 37,
+  "*ID": 37,
   "ID0": 142,
   "DENSITY0": 30,
   "PROB0": 33,
@@ -383,7 +365,7 @@
  },
  "38": {
   "GroupName": "outside forest object 3",
-  "Offset": 38,
+  "*ID": 38,
   "ID0": 155,
   "DENSITY0": 30,
   "PROB0": 34,
@@ -396,12 +378,11 @@
  },
  "39": {
   "GroupName": "not used",
-  "Offset": 39,
-  "SHRINES": 1
+  "*ID": 39
  },
  "40": {
   "GroupName": "act 3 jungle clickables #1",
-  "Offset": 40,
+  "*ID": 40,
   "ID0": 181,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -420,12 +401,11 @@
  },
  "41": {
   "GroupName": "not used",
-  "Offset": 41,
-  "SHRINES": 1
+  "*ID": 41
  },
  "42": {
   "GroupName": "act 3 jungle clickables #2",
-  "Offset": 42,
+  "*ID": 42,
   "ID0": 188,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -444,7 +424,7 @@
  },
  "43": {
   "GroupName": "jungle shrines",
-  "Offset": 43,
+  "*ID": 43,
   "ID0": 184,
   "PROB0": 16,
   "ID1": 190,
@@ -456,12 +436,11 @@
   "ID4": 168,
   "PROB4": 16,
   "ID5": 170,
-  "PROB5": 20,
-  "SHRINES": 1
+  "PROB5": 20
  },
  "44": {
   "GroupName": "tristram objects",
-  "Offset": 44,
+  "*ID": 44,
   "ID0": 239,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -471,14 +450,14 @@
  },
  "45": {
   "GroupName": "really rare objects in act1 act3",
-  "Offset": 45,
+  "*ID": 45,
   "ID0": 250,
   "DENSITY0": 30,
   "PROB0": 20
  },
  "46": {
   "GroupName": "outer hell shrines",
-  "Offset": 46,
+  "*ID": 46,
   "ID0": 226,
   "PROB0": 20,
   "ID1": 231,
@@ -488,12 +467,11 @@
   "ID3": 236,
   "PROB3": 20,
   "ID4": 249,
-  "PROB4": 20,
-  "SHRINES": 1
+  "PROB4": 20
  },
  "47": {
   "GroupName": "outer hell objects",
-  "Offset": 47,
+  "*ID": 47,
   "ID0": 222,
   "DENSITY0": 30,
   "PROB0": 16,
@@ -514,7 +492,7 @@
  },
  "48": {
   "GroupName": "inner hell objects",
-  "Offset": 48,
+  "*ID": 48,
   "ID0": 125,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -530,7 +508,7 @@
  },
  "49": {
   "GroupName": "inner hell shrines",
-  "Offset": 49,
+  "*ID": 49,
   "ID0": 93,
   "PROB0": 20,
   "ID1": 96,
@@ -540,12 +518,11 @@
   "ID3": 123,
   "PROB3": 20,
   "ID4": 124,
-  "PROB4": 20,
-  "SHRINES": 1
+  "PROB4": 20
  },
  "50": {
   "GroupName": "act1 cathedral shrines",
-  "Offset": 50,
+  "*ID": 50,
   "ID0": 262,
   "PROB0": 12,
   "ID1": 260,
@@ -561,13 +538,11 @@
   "ID6": 77,
   "PROB6": 12,
   "ID7": 132,
-  "PROB7": 14,
-  "SHRINES": 1,
-  "WELLS": 1
+  "PROB7": 14
  },
  "51": {
   "GroupName": "act1 jail shrines",
-  "Offset": 51,
+  "*ID": 51,
   "ID0": 263,
   "PROB0": 12,
   "ID1": 260,
@@ -583,13 +558,11 @@
   "ID6": 77,
   "PROB6": 12,
   "ID7": 132,
-  "PROB7": 14,
-  "SHRINES": 1,
-  "WELLS": 1
+  "PROB7": 14
  },
  "52": {
   "GroupName": "jungle indoor clickables",
-  "Offset": 52,
+  "*ID": 52,
   "ID0": 188,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -608,7 +581,7 @@
  },
  "53": {
   "GroupName": "arcane sanctuary clickables",
-  "Offset": 53,
+  "*ID": 53,
   "ID0": 387,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -627,11 +600,11 @@
  },
  "54": {
   "GroupName": "not used",
-  "Offset": 54
+  "*ID": 54
  },
  "55": {
   "GroupName": "Harem Clickables",
-  "Offset": 55,
+  "*ID": 55,
   "ID0": 4,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -659,7 +632,7 @@
  },
  "56": {
   "GroupName": "Harem Shrines",
-  "Offset": 56,
+  "*ID": 56,
   "ID0": 109,
   "PROB0": 25,
   "ID1": 167,
@@ -667,12 +640,11 @@
   "ID2": 299,
   "PROB2": 25,
   "ID3": 300,
-  "PROB3": 25,
-  "SHRINES": 1
+  "PROB3": 25
  },
  "57": {
   "GroupName": "Cellar Clickables",
-  "Offset": 57,
+  "*ID": 57,
   "ID0": 154,
   "DENSITY0": 30,
   "PROB0": 10,
@@ -685,7 +657,7 @@
  },
  "58": {
   "GroupName": "Cellar Shrines",
-  "Offset": 58,
+  "*ID": 58,
   "ID0": 116,
   "PROB0": 20,
   "ID1": 280,
@@ -699,7 +671,7 @@
  },
  "59": {
   "GroupName": "travisal objects",
-  "Offset": 59,
+  "*ID": 59,
   "ID0": 203,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -712,7 +684,7 @@
  },
  "60": {
   "GroupName": "travisal objects2",
-  "Offset": 60,
+  "*ID": 60,
   "ID0": 181,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -725,7 +697,7 @@
  },
  "61": {
   "GroupName": "travinsal shrine",
-  "Offset": 61,
+  "*ID": 61,
   "ID0": 199,
   "PROB0": 20,
   "ID1": 200,
@@ -739,7 +711,7 @@
  },
  "62": {
   "GroupName": "act3 sewer shrine",
-  "Offset": 62,
+  "*ID": 62,
   "ID0": 325,
   "PROB0": 16,
   "ID1": 197,
@@ -751,16 +723,15 @@
   "ID4": 120,
   "PROB4": 16,
   "ID5": 184,
-  "PROB5": 16,
-  "SHRINES": 1
+  "PROB5": 16
  },
  "63": {
   "GroupName": "not used",
-  "Offset": 63
+  "*ID": 63
  },
  "64": {
   "GroupName": "act3 sewer objects",
-  "Offset": 64,
+  "*ID": 64,
   "ID0": 181,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -779,7 +750,7 @@
  },
  "65": {
   "GroupName": "act3 sewer objects",
-  "Offset": 65,
+  "*ID": 65,
   "ID0": 244,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -798,16 +769,15 @@
  },
  "66": {
   "GroupName": "act 3dungeon shrines",
-  "Offset": 66,
+  "*ID": 66,
   "ID0": 325,
   "PROB0": 50,
   "ID1": 361,
-  "PROB1": 50,
-  "SHRINES": 1
+  "PROB1": 50
  },
  "67": {
   "GroupName": "act 3 dungeon objects",
-  "Offset": 67,
+  "*ID": 67,
   "ID0": 326,
   "DENSITY0": 30,
   "PROB0": 12,
@@ -826,7 +796,7 @@
  },
  "68": {
   "GroupName": "spider objects",
-  "Offset": 68,
+  "*ID": 68,
   "ID0": 333,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -842,7 +812,7 @@
  },
  "69": {
   "GroupName": "act 3 jungle clickables #3",
-  "Offset": 69,
+  "*ID": 69,
   "ID1": 169,
   "DENSITY1": 30,
   "PROB1": 20,
@@ -858,7 +828,7 @@
  },
  "70": {
   "GroupName": "act 3 sewer objects",
-  "Offset": 70,
+  "*ID": 70,
   "ID0": 208,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -874,23 +844,22 @@
  },
  "71": {
   "GroupName": "not used",
-  "Offset": 71,
-  "SHRINES": 1
+  "*ID": 71
  },
  "72": {
   "GroupName": "not used",
-  "Offset": 72
+  "*ID": 72
  },
  "73": {
   "GroupName": "act 2 Harum bed",
-  "Offset": 73,
+  "*ID": 73,
   "ID0": 289,
   "DENSITY0": 30,
   "PROB0": 100
  },
  "74": {
   "GroupName": "act ? mephisto clickables",
-  "Offset": 74,
+  "*ID": 74,
   "ID0": 329,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -906,7 +875,7 @@
  },
  "75": {
   "GroupName": "act 2 arcane sanctuary",
-  "Offset": 75,
+  "*ID": 75,
   "ID0": 319,
   "PROB0": 25,
   "ID1": 320,
@@ -914,12 +883,11 @@
   "ID2": 303,
   "PROB2": 25,
   "ID3": 133,
-  "PROB3": 25,
-  "SHRINES": 1
+  "PROB3": 25
  },
  "76": {
   "GroupName": "act 3 kurasthealthshrine",
-  "Offset": 76,
+  "*ID": 76,
   "ID0": 343,
   "PROB0": 50,
   "ID1": 344,
@@ -927,7 +895,7 @@
  },
  "77": {
   "GroupName": "act 4 outer hell guys",
-  "Offset": 77,
+  "*ID": 77,
   "ID0": 380,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -943,86 +911,86 @@
  },
  "78": {
   "GroupName": "indoor act 2 caskets",
-  "Offset": 78,
+  "*ID": 78,
   "ID0": 89,
   "DENSITY0": 30,
   "PROB0": 100
  },
  "79": {
   "GroupName": "dummy",
-  "Offset": 79
+  "*ID": 79
  },
  "80": {
   "GroupName": "dummy",
-  "Offset": 80
+  "*ID": 80
  },
  "81": {
   "GroupName": "dummy",
-  "Offset": 81
+  "*ID": 81
  },
  "82": {
   "GroupName": "dummy",
-  "Offset": 82
+  "*ID": 82
  },
  "83": {
   "GroupName": "dummy",
-  "Offset": 83
+  "*ID": 83
  },
  "84": {
   "GroupName": "dummy",
-  "Offset": 84
+  "*ID": 84
  },
  "85": {
   "GroupName": "dummy",
-  "Offset": 85
+  "*ID": 85
  },
  "86": {
   "GroupName": "dummy",
-  "Offset": 86
+  "*ID": 86
  },
  "87": {
   "GroupName": "dummy",
-  "Offset": 87
+  "*ID": 87
  },
  "88": {
   "GroupName": "dummy",
-  "Offset": 88
+  "*ID": 88
  },
  "89": {
   "GroupName": "dummy",
-  "Offset": 89
+  "*ID": 89
  },
  "90": {
   "GroupName": "dummy",
-  "Offset": 90
+  "*ID": 90
  },
  "91": {
   "GroupName": "dummy",
-  "Offset": 91
+  "*ID": 91
  },
  "92": {
   "GroupName": "dummy",
-  "Offset": 92
+  "*ID": 92
  },
  "93": {
   "GroupName": "dummy",
-  "Offset": 93
+  "*ID": 93
  },
  "94": {
   "GroupName": "dummy",
-  "Offset": 94
+  "*ID": 94
  },
  "95": {
   "GroupName": "dummy",
-  "Offset": 95
+  "*ID": 95
  },
  "96": {
   "GroupName": "dummy",
-  "Offset": 96
+  "*ID": 96
  },
  "98": {
   "GroupName": "level1 fire`",
-  "Offset": 98,
+  "*ID": 98,
   "ID0": 401,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1033,7 +1001,7 @@
  },
  "99": {
   "GroupName": "wildernessmagicshrines",
-  "Offset": 99,
+  "*ID": 99,
   "ID0": 414,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1050,7 +1018,7 @@
  },
  "100": {
   "GroupName": "wildernesschests",
-  "Offset": 100,
+  "*ID": 100,
   "ID0": 413,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1070,7 +1038,7 @@
  },
  "101": {
   "GroupName": "wildernesschests2",
-  "Offset": 101,
+  "*ID": 101,
   "ID0": 430,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1090,7 +1058,7 @@
  },
  "102": {
   "GroupName": "oddobject",
-  "Offset": 102,
+  "*ID": 102,
   "ID0": 448,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1110,7 +1078,7 @@
  },
  "103": {
   "GroupName": "explodingbarrel",
-  "Offset": 103,
+  "*ID": 103,
   "ID0": 418,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1121,7 +1089,7 @@
  },
  "104": {
   "GroupName": "wildernessmana/health",
-  "Offset": 104,
+  "*ID": 104,
   "ID0": 422,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1132,7 +1100,7 @@
  },
  "105": {
   "GroupName": "wilderness well",
-  "Offset": 105,
+  "*ID": 105,
   "ID0": 426,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1143,7 +1111,7 @@
  },
  "106": {
   "GroupName": "wilderness jars",
-  "Offset": 106,
+  "*ID": 106,
   "ID0": 443,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1157,7 +1125,7 @@
  },
  "107": {
   "GroupName": "icecaveobjects",
-  "Offset": 107,
+  "*ID": 107,
   "ID0": 463,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1168,7 +1136,7 @@
  },
  "108": {
   "GroupName": "icecavehealth/mana",
-  "Offset": 108,
+  "*ID": 108,
   "ID0": 464,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1179,7 +1147,7 @@
  },
  "109": {
   "GroupName": "icecavejars",
-  "Offset": 109,
+  "*ID": 109,
   "ID0": 467,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1199,7 +1167,7 @@
  },
  "110": {
   "GroupName": "icecaveshrines",
-  "Offset": 110,
+  "*ID": 110,
   "ID0": 479,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -1210,7 +1178,7 @@
  },
  "111": {
   "GroupName": "snowyobjects",
-  "Offset": 111,
+  "*ID": 111,
   "ID0": 501,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1230,7 +1198,7 @@
  },
  "112": {
   "GroupName": "snowyshrines",
-  "Offset": 112,
+  "*ID": 112,
   "ID0": 428,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1244,7 +1212,7 @@
  },
  "113": {
   "GroupName": "snowymana/health",
-  "Offset": 113,
+  "*ID": 113,
   "ID0": 491,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1255,7 +1223,7 @@
  },
  "114": {
   "GroupName": "snowywell",
-  "Offset": 114,
+  "*ID": 114,
   "ID0": 493,
   "DENSITY0": 30,
   "PROB0": 100,
@@ -1263,7 +1231,7 @@
  },
  "115": {
   "GroupName": "snowyobjects",
-  "Offset": 115,
+  "*ID": 115,
   "ID0": 504,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -1280,7 +1248,7 @@
  },
  "116": {
   "GroupName": "templeshrine",
-  "Offset": 116,
+  "*ID": 116,
   "ID0": 509,
   "DENSITY0": 30,
   "PROB0": 75,
@@ -1291,7 +1259,7 @@
  },
  "117": {
   "GroupName": "templewell",
-  "Offset": 117,
+  "*ID": 117,
   "ID0": 513,
   "DENSITY0": 30,
   "PROB0": 100,
@@ -1299,7 +1267,7 @@
  },
  "118": {
   "GroupName": "templeobjects",
-  "Offset": 118,
+  "*ID": 118,
   "ID0": 516,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1319,7 +1287,7 @@
  },
  "119": {
   "GroupName": "baalsmana/health",
-  "Offset": 119,
+  "*ID": 119,
   "ID0": 483,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1330,7 +1298,7 @@
  },
  "120": {
   "GroupName": "baalsobjects",
-  "Offset": 120,
+  "*ID": 120,
   "ID0": 485,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1353,7 +1321,7 @@
  },
  "121": {
   "GroupName": "baalsshrine",
-  "Offset": 121,
+  "*ID": 121,
   "ID0": 488,
   "DENSITY0": 30,
   "PROB0": 25,
@@ -1367,7 +1335,7 @@
  },
  "122": {
   "GroupName": "baalswell",
-  "Offset": 122,
+  "*ID": 122,
   "ID0": 498,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1375,7 +1343,7 @@
  },
  "123": {
   "GroupName": "icecavewell",
-  "Offset": 123,
+  "*ID": 123,
   "ID0": 519,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1383,7 +1351,7 @@
  },
  "124": {
   "GroupName": "templemana/health",
-  "Offset": 124,
+  "*ID": 124,
   "ID0": 521,
   "DENSITY0": 30,
   "PROB0": 50,
@@ -1394,7 +1362,7 @@
  },
  "125": {
   "GroupName": "templeobjects",
-  "Offset": 125,
+  "*ID": 125,
   "ID0": 444,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1414,7 +1382,7 @@
  },
  "126": {
   "GroupName": "redbaals_object",
-  "Offset": 126,
+  "*ID": 126,
   "ID0": 529,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1434,7 +1402,7 @@
  },
  "127": {
   "GroupName": "redbaals_object",
-  "Offset": 127,
+  "*ID": 127,
   "ID0": 534,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1445,7 +1413,7 @@
  },
  "128": {
   "GroupName": "temple_objects",
-  "Offset": 128,
+  "*ID": 128,
   "ID0": 541,
   "DENSITY0": 30,
   "PROB0": 35,
@@ -1456,7 +1424,7 @@
  },
  "129": {
   "GroupName": "everywhere",
-  "Offset": 129,
+  "*ID": 129,
   "ID0": 540,
   "DENSITY0": 30,
   "PROB0": 20,
@@ -1476,17 +1444,17 @@
  },
  "130": {
   "GroupName": "dummy",
-  "Offset": 130,
+  "*ID": 130,
   "expansion": 1
  },
  "131": {
   "GroupName": "dummy",
-  "Offset": 131,
+  "*ID": 131,
   "expansion": 1
  },
  "132": {
   "GroupName": "dummy",
-  "Offset": 132,
+  "*ID": 132,
   "expansion": 1
  }
 }

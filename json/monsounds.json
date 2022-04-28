@@ -1,13 +1,14 @@
 {
- "1": {
+ "act1hire": {
   "Id": "act1hire",
   "HitSound": "rogue_hit_1",
   "DeathSound": "rogue_death_1",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 1
  },
- "2": {
+ "act2hire": {
   "Id": "act2hire",
   "Weapon1": "weapon_2ht_1",
   "Wea1Del": 8,
@@ -19,9 +20,10 @@
   "DeathSound": "guard_death_1",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 2
  },
- "3": {
+ "act3hire": {
   "Id": "act3hire",
   "Weapon1": "weapon_1ht_1",
   "Wea1Del": 5,
@@ -33,9 +35,10 @@
   "DeathSound": "ironwolf_death_1",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 3
  },
- "4": {
+ "ancient": {
   "Id": "ancient",
   "Weapon1": "weapon_1hs_large_1",
   "Wea1Del": 5,
@@ -45,9 +48,13 @@
   "Wea2Vol": 255,
   "HitSound": "barbarian_hit_1",
   "DeathSound": "barbarian_death_1",
-  "HitDelay": 2
+  "HitDelay": 2,
+  "Footstep": "medium_walk_dirt_1",
+  "FsCnt": 2,
+  "FsPrb": 100,
+  "lineNumber": 4
  },
- "5": {
+ "andariel": {
   "Id": "andariel",
   "Attack1": "andariel_attack_1",
   "Weapon1": "weapon_giant_1",
@@ -63,12 +70,13 @@
   "DeathSound": "andariel_death",
   "HitDelay": 2,
   "DeaDelay": 1,
-  "FootstepLayer": "walk_hoof_1",
+  "Footstep": "walk_hoof_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_andariel_taunt_1"
+  "Taunt": "monster_andariel_taunt_1",
+  "lineNumber": 5
  },
- "6": {
+ "arach": {
   "Id": "arach",
   "Attack1": "spider_attack_1",
   "Weapon1": "spider_swish_1",
@@ -90,9 +98,10 @@
   "FsCnt": 3,
   "FsPrb": 100,
   "Neutral": "spider_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 6
  },
- "7": {
+ "baal": {
   "Id": "baal",
   "Attack1": "baal_attack_1",
   "Att1Prb": 100,
@@ -109,9 +118,10 @@
   "FootstepLayer": "walk_hoof_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_baal_taunt_1"
+  "Taunt": "monster_baal_taunt_1",
+  "lineNumber": 7
  },
- "8": {
+ "baalcrab": {
   "Id": "baalcrab",
   "Attack1": "baal_attack_1",
   "Att1Prb": 100,
@@ -128,9 +138,10 @@
   "FootstepLayer": "walk_hoof_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_baal_taunt_3"
+  "Taunt": "monster_baal_taunt_3",
+  "lineNumber": 8
  },
- "9": {
+ "baalminion": {
   "Id": "baalminion",
   "Attack1": "baalminion_attack_1",
   "Weapon1": "weapon_2ht_1",
@@ -149,18 +160,23 @@
   "HitDelay": 2,
   "Footstep": "heavy_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "minion_neutral_1",
+  "NeuTime": 150,
+  "lineNumber": 9
  },
- "10": {
+ "baaltentacle": {
   "Id": "baaltentacle",
   "Attack1": "baaltentacle_attack_1",
   "Att1Prb": 100,
   "HitSound": "impact_stone_1",
   "DeathSound": "baaltentacle_death_1",
   "HitDelay": 2,
-  "Skill1": "baaltentacle_appear_1"
+  "Skill1": "baaltentacle_appear_1",
+  "Init": "baaltentacle_appear_1",
+  "lineNumber": 10
  },
- "11": {
+ "baboon": {
   "Id": "baboon",
   "Attack1": "baboondemon_attack_1",
   "Weapon1": "weapon_kick_1",
@@ -174,24 +190,25 @@
   "Wea2Vol": 180,
   "HitSound": "baboondemon_hit_1",
   "DeathSound": "baboondemon_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "baboondemon_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 11
  },
- "12": {
+ "barricadedoor": {
   "Id": "barricadedoor",
-  "DeathSound": "barricadedoor_1"
+  "DeathSound": "barricadedoor_1",
+  "lineNumber": 12
  },
- "13": {
+ "bat": {
   "Id": "bat",
   "Neutral": "creature_bat_1",
-  "NeuTime": 600
+  "NeuTime": 600,
+  "lineNumber": 13
  },
- "14": {
+ "batdemon": {
   "Id": "batdemon",
   "Attack1": "batdemon_attack_1",
   "Att1Prb": 100,
@@ -205,9 +222,10 @@
   "Skill2": "batdemon_unhide_1",
   "FootstepLayer": "hawk_wing_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 14
  },
- "15": {
+ "bear": {
   "Id": "bear",
   "Attack1": "druidbear_attack_1",
   "Weapon1": "weapon_1ht_1",
@@ -227,9 +245,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "druidbear_neutral_1",
-  "NeuTime": 1800
+  "NeuTime": 1800,
+  "lineNumber": 15
  },
- "16": {
+ "bighead": {
   "Id": "bighead",
   "Attack1": "bighead_attack_1",
   "Att1Prb": 100,
@@ -244,14 +263,16 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "bighead_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 16
  },
- "17": {
+ "bladecreeper": {
   "Id": "bladecreeper",
   "DeathSound": "bladecreeper_death_1",
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "lineNumber": 17
  },
- "18": {
+ "bloodgolem": {
   "Id": "bloodgolem",
   "Attack1": "golemblood_attack_1",
   "Att1Prb": 100,
@@ -263,9 +284,10 @@
   "Footstep": "heavy_walk_dirt_1",
   "FootstepLayer": "golemblood_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 18
  },
- "19": {
+ "bloodlord": {
   "Id": "bloodlord",
   "Attack1": "bloodlord_attack_1",
   "Weapon1": "weapon_giant_1",
@@ -285,9 +307,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "megademon_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 19
  },
- "20": {
+ "bloodraven": {
   "Id": "bloodraven",
   "HitSound": "bloodraven_hit_1",
   "DeathSound": "bloodraven_death",
@@ -297,9 +320,10 @@
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_bloodraven_taunt_1"
+  "Taunt": "monster_bloodraven_taunt_1",
+  "lineNumber": 20
  },
- "21": {
+ "bonefetish": {
   "Id": "bonefetish",
   "Attack1": "bonefetish_attack_1",
   "Att1Prb": 100,
@@ -311,20 +335,23 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "bonefetish_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 21
  },
- "22": {
+ "boneprison": {
   "Id": "boneprison",
   "DeathSound": "diablo_boneprison_death_1",
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "lineNumber": 22
  },
- "23": {
+ "bonewall": {
   "Id": "bonewall",
   "HitSound": "skeleton_hit_1",
   "DeathSound": "necromancer_bonewall_death",
-  "Skill1": "skeleton_raise_1"
+  "Skill1": "skeleton_raise_1",
+  "lineNumber": 23
  },
- "24": {
+ "brute": {
   "Id": "brute",
   "Attack1": "yeti_attack_1",
   "Weapon1": "weapon_kick_1",
@@ -344,17 +371,20 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "yeti_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 24
  },
- "25": {
+ "bug": {
   "Id": "bug",
-  "DeathSound": "creature_bug_1"
+  "DeathSound": "creature_bug_1",
+  "lineNumber": 25
  },
- "26": {
+ "bunny": {
   "Id": "bunny",
-  "DeathSound": "creature_rat_1"
+  "DeathSound": "creature_rat_1",
+  "lineNumber": 26
  },
- "27": {
+ "cantor": {
   "Id": "cantor",
   "Attack1": "zakarumzealot_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -376,28 +406,32 @@
   "FsCnt": 2,
   "FsPrb": 10,
   "Neutral": "zakarumzealot_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 27
  },
- "28": {
+ "catapult": {
   "Id": "catapult",
   "Attack1": "catapult_attack",
   "Att1Prb": 100,
   "HitSound": "catapult_hit_1",
   "DeathSound": "catapult_death_1",
-  "HitDelay": 2
+  "HitDelay": 2,
+  "lineNumber": 28
  },
- "29": {
+ "charsi": {
   "Id": "charsi",
   "Skill1": "charsi_work",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 29
  },
- "30": {
+ "chicken": {
   "Id": "chicken",
-  "Skill1": "creature_chicken_1"
+  "Skill1": "creature_chicken_1",
+  "lineNumber": 30
  },
- "31": {
+ "clawviper": {
   "Id": "clawviper",
   "Attack1": "serpentdemon_tail_1",
   "Att1Prb": 100,
@@ -412,9 +446,10 @@
   "NeuTime": 150,
   "CvtMo1": "WL",
   "CvtSk1": "Charge",
-  "CvtTgt1": "A2"
+  "CvtTgt1": "A2",
+  "lineNumber": 31
  },
- "32": {
+ "claygolem": {
   "Id": "claygolem",
   "Attack1": "golemclay_attack_1",
   "Att1Prb": 100,
@@ -426,14 +461,16 @@
   "Footstep": "heavy_walk_dirt_1",
   "FootstepLayer": "golemclay_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 32
  },
- "33": {
+ "compellingorb": {
   "Id": "compellingorb",
   "DeathSound": "compellingorb_death",
-  "Init": "compellingorb_loop"
+  "Init": "compellingorb_loop",
+  "lineNumber": 33
  },
- "34": {
+ "corruptrogue": {
   "Id": "corruptrogue",
   "Attack1": "corrupt_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -455,9 +492,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "corrupt_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 34
  },
- "35": {
+ "councilmember": {
   "Id": "councilmember",
   "Attack1": "zakarumhigh_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -477,9 +515,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "zakarumhigh_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 35
  },
- "36": {
+ "countess": {
   "Id": "countess",
   "Attack1": "countess_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -500,14 +539,16 @@
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_countess_taunt_1"
+  "Taunt": "monster_countess_taunt_1",
+  "lineNumber": 36
  },
- "37": {
+ "cow": {
   "Id": "cow",
   "Neutral": "creature_cow_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 37
  },
- "38": {
+ "cr_archer": {
   "Id": "cr_archer",
   "Weapon1": "weapon_bow_draw_1",
   "Wea1Vol": 255,
@@ -521,9 +562,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "corrupt_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 38
  },
- "39": {
+ "cr_lancer": {
   "Id": "cr_lancer",
   "Attack1": "corrupt_attack_1",
   "Weapon1": "weapon_2ht_1",
@@ -545,24 +587,27 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "corrupt_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 39
  },
- "40": {
+ "crownest": {
   "Id": "crownest",
   "DeathSound": "hawknest_death_1",
   "DeaDelay": 1,
   "Skill1": "hawknest_spawn_1",
-  "Init": "hawknest_loop"
+  "Init": "hawknest_loop",
+  "lineNumber": 40
  },
- "41": {
+ "darkwanderer": {
   "Id": "darkwanderer",
   "DeathSound": "darkwanderer_death",
   "DeaDelay": 1,
   "Footstep": "heavy_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 41
  },
- "42": {
+ "deathmauler": {
   "Id": "deathmauler",
   "Attack1": "deathmauler_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -578,9 +623,10 @@
   "FsCnt": 1,
   "FsPrb": 100,
   "Neutral": "deathmauler_neutral_1",
-  "NeuTime": 90
+  "NeuTime": 90,
+  "lineNumber": 42
  },
- "43": {
+ "diablo": {
   "Id": "diablo",
   "Attack1": "diablo_attack_1",
   "Weapon1": "weapon_giant_1",
@@ -601,9 +647,35 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "diablo_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 43
  },
- "44": {
+ "diabloclone": {
+  "Id": "diabloclone",
+  "Attack1": "diablo_attack_1",
+  "Weapon1": "weapon_giant_1",
+  "Wea1Del": 6,
+  "Att1Prb": 100,
+  "Wea1Vol": 120,
+  "Attack2": "diablo_attack_1",
+  "Weapon2": "weapon_giant_1",
+  "Wea2Del": 10,
+  "Att2Prb": 100,
+  "Wea2Vol": 120,
+  "HitSound": "diablo_hit_1",
+  "DeathSound": "diablo_death",
+  "HitDelay": 2,
+  "Skill3": "diablo_boneprison_cast",
+  "Skill4": "diablo_yell",
+  "Footstep": "heavy_walk_dirt_1",
+  "FsCnt": 2,
+  "FsPrb": 100,
+  "Neutral": "diablo_neutral_1",
+  "NeuTime": 150,
+  "Taunt": "monster_diablo_taunt_ex",
+  "lineNumber": 140
+ },
+ "doomknight": {
   "Id": "doomknight",
   "Attack1": "undeadhorror_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -625,9 +697,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "undeadhorror_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 44
  },
- "45": {
+ "dopplezon": {
   "Id": "dopplezon",
   "HitSound": "amazon_hit_1",
   "DeathSound": "hydra_death_1",
@@ -636,22 +709,26 @@
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Init": "hydra_appear_1"
+  "Init": "hydra_appear_1",
+  "lineNumber": 45
  },
- "46": {
+ "drognan": {
   "Id": "drognan",
   "Skill1": "drognan_read_scroll",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 46
  },
- "47": {
+ "druidspirit": {
   "Id": "druidspirit",
+  "HitSound": "druidspirit_hit_1",
   "DeathSound": "druidspirit_death_1",
   "DeaDelay": 1,
-  "Skill1": "druidspirit_hit_1"
+  "Skill1": "druidspirit_hit_1",
+  "lineNumber": 47
  },
- "48": {
+ "duriel": {
   "Id": "duriel",
   "Attack1": "duriel_attack_1",
   "Weapon1": "weapon_giant_1",
@@ -671,14 +748,16 @@
   "FsCnt": 1,
   "FsOff": 6,
   "FsPrb": 100,
-  "Taunt": "monster_duriel_taunt_1"
+  "Taunt": "monster_duriel_taunt_1",
+  "lineNumber": 48
  },
- "49": {
+ "evilhut": {
   "Id": "evilhut",
   "DeathSound": "guardtower_1",
-  "Init": "object_fire_loop_house"
+  "Init": "object_fire_loop_house",
+  "lineNumber": 49
  },
- "50": {
+ "fallen": {
   "Id": "fallen",
   "Attack1": "fallen_attack_1",
   "Weapon1": "weapon_punch_1",
@@ -701,9 +780,10 @@
   "FsPrb": 100,
   "Neutral": "fallen_neutral_1",
   "NeuTime": 300,
-  "Flee": "fallen_flee_1"
+  "Flee": "fallen_flee_1",
+  "lineNumber": 50
  },
- "51": {
+ "fallenshaman": {
   "Id": "fallenshaman",
   "Attack1": "fallenshaman_attack_1",
   "Weapon1": "weapon_punch_1",
@@ -729,16 +809,18 @@
   "NeuTime": 300,
   "CvtMo1": "A2",
   "CvtSk1": "Resurrect",
-  "CvtTgt1": "S1"
+  "CvtTgt1": "S1",
+  "lineNumber": 51
  },
- "52": {
+ "fara": {
   "Id": "fara",
   "Skill1": "fara_hammer",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 52
  },
- "53": {
+ "fetish": {
   "Id": "fetish",
   "Attack1": "pygmy_attack_1",
   "Weapon1": "weapon_punch_1",
@@ -752,16 +834,15 @@
   "Wea2Vol": 160,
   "HitSound": "pygmy_hit_1",
   "DeathSound": "pygmy_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "Skill1": "fallenshaman_resurrect",
   "Footstep": "light_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "pygmy_neutral_1",
-  "NeuTime": 600
+  "NeuTime": 600,
+  "lineNumber": 53
  },
- "54": {
+ "fetishblow": {
   "Id": "fetishblow",
   "Attack1": "pygmy_blowgun_1",
   "Att1Prb": 100,
@@ -769,14 +850,14 @@
   "Att2Prb": 100,
   "HitSound": "pygmy_hit_1",
   "DeathSound": "pygmy_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "Skill1": "fallenshaman_resurrect",
   "Footstep": "light_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "pygmy_neutral_1",
+  "lineNumber": 54
  },
- "55": {
+ "fetishshaman": {
   "Id": "fetishshaman",
   "Attack1": "pygmyshaman_spell_1",
   "Att1Prb": 60,
@@ -784,8 +865,6 @@
   "Att2Prb": 60,
   "HitSound": "pygmyshaman_hit_1",
   "DeathSound": "pygmyshaman_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "Skill1": "fallenshaman_resurrect_cast",
   "Footstep": "light_walk_dirt_1",
   "FsCnt": 2,
@@ -794,9 +873,10 @@
   "NeuTime": 300,
   "CvtMo1": "SC",
   "CvtSk1": "Resurrect",
-  "CvtTgt1": "S1"
+  "CvtTgt1": "S1",
+  "lineNumber": 55
  },
- "56": {
+ "fingermage": {
   "Id": "fingermage",
   "Attack1": "fingermage_attack_1",
   "Att1Prb": 100,
@@ -806,9 +886,10 @@
   "DeathSound": "fingermage_death_1",
   "HitDelay": 2,
   "DeaDelay": 1,
-  "Init": "fingermage_loop"
+  "Init": "fingermage_loop",
+  "lineNumber": 56
  },
- "57": {
+ "firegolem": {
   "Id": "firegolem",
   "Attack1": "golemfire_attack_1",
   "Att1Prb": 100,
@@ -821,9 +902,10 @@
   "FootstepLayer": "golemfire_walk_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Init": "object_fire_loop_brazier"
+  "Init": "object_fire_loop_brazier",
+  "lineNumber": 57
  },
- "58": {
+ "flyingscimitar": {
   "Id": "flyingscimitar",
   "Attack1": "scimitar_attack_1",
   "Att1Del": 10,
@@ -835,9 +917,10 @@
   "DeathSound": "scimitar_death_1",
   "HitDelay": 2,
   "DeaDelay": 1,
-  "Init": "scimitar_loop"
+  "Init": "scimitar_appear_1",
+  "lineNumber": 58
  },
- "59": {
+ "foulcrow": {
   "Id": "foulcrow",
   "Attack1": "hawk_attack_1",
   "Weapon1": "weapon_punch_1",
@@ -851,13 +934,12 @@
   "Wea2Vol": 120,
   "HitSound": "hawk_hit_1",
   "DeathSound": "hawk_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "FootstepLayer": "hawk_wing_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 59
  },
- "60": {
+ "frogdemon": {
   "Id": "frogdemon",
   "Attack1": "frogdemon_attack_1",
   "Att1Prb": 100,
@@ -871,9 +953,10 @@
   "FsCnt": 1,
   "FsPrb": 100,
   "Neutral": "frogdemon_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 60
  },
- "61": {
+ "frozenhorror": {
   "Id": "frozenhorror",
   "Attack1": "frozenhorror_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -885,16 +968,18 @@
   "FsCnt": 1,
   "FsPrb": 100,
   "Neutral": "frozenhorror_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 61
  },
- "62": {
+ "gargoyletrap": {
   "Id": "gargoyletrap",
   "HitSound": "impact_stone_1",
   "DeathSound": "gargoyletrap_death_1",
   "HitDelay": 1,
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "lineNumber": 62
  },
- "63": {
+ "goatman": {
   "Id": "goatman",
   "Attack1": "goatman_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -914,29 +999,35 @@
   "DeaDelay": 1,
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "goatman_neutral_1",
+  "NeuTime": 600,
+  "lineNumber": 63
  },
- "64": {
+ "guardtower": {
   "Id": "guardtower",
   "HitSound": "impact_stone_1",
   "DeathSound": "guardtower_1",
-  "HitDelay": 1
+  "HitDelay": 1,
+  "lineNumber": 64
  },
- "65": {
+ "halbu": {
   "Id": "halbu",
   "Skill1": "halbu_pray",
   "Skill2": "jamella_spell",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 65
  },
- "66": {
+ "heavynpc": {
   "Id": "heavynpc",
   "Footstep": "heavy_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 66
  },
- "67": {
+ "hellbovine": {
   "Id": "hellbovine",
   "Attack1": "moo_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -956,16 +1047,18 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "moo_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 67
  },
- "68": {
+ "hydra": {
   "Id": "hydra",
   "DeathSound": "hydra_death_1",
   "DeaDelay": 1,
   "Skill2": "hydra_appear_1",
-  "Init": "object_fire_loop_brazier"
+  "Init": "object_fire_loop_brazier",
+  "lineNumber": 68
  },
- "69": {
+ "imp": {
   "Id": "imp",
   "Attack1": "imp_cast",
   "Att1Prb": 100,
@@ -978,9 +1071,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "imp_neutral_1",
-  "NeuTime": 90
+  "NeuTime": 90,
+  "lineNumber": 69
  },
- "70": {
+ "irongolem": {
   "Id": "irongolem",
   "Attack1": "golemiron_attack_1",
   "Att1Prb": 100,
@@ -992,13 +1086,16 @@
   "Footstep": "heavy_walk_dirt_1",
   "FootstepLayer": "golemiron_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 70
  },
- "71": {
+ "izual": {
   "Id": "izual",
   "Attack1": "izual_attack_1",
+  "Weapon1": "weapon_1hs_large_1",
   "Att1Prb": 100,
   "Attack2": "izual_attack_1",
+  "Weapon2": "weapon_1hs_large_1",
   "Att2Prb": 100,
   "HitSound": "izual_hit_1",
   "DeathSound": "izual_death",
@@ -1007,49 +1104,56 @@
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_izual_taunt_1"
+  "Taunt": "monster_izual_taunt_1",
+  "lineNumber": 71
  },
- "72": {
+ "izualspirit": {
   "Id": "izualspirit",
   "DeathSound": "izual_spirit_disappear",
   "DeaDelay": 1,
-  "Init": "izual_spirit_appear"
+  "Init": "izual_spirit_appear",
+  "lineNumber": 72
  },
- "73": {
+ "jamella": {
   "Id": "jamella",
   "Skill1": "jamella_read",
   "Skill2": "jamella_spell",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 73
  },
- "74": {
+ "larva": {
   "Id": "larva",
-  "DeathSound": "creature_larva_1"
+  "DeathSound": "creature_larva_1",
+  "lineNumber": 74
  },
- "75": {
+ "lightningorb": {
   "Id": "lightningorb",
   "Attack1": "lightningorb_attack_1",
   "Att1Prb": 100,
   "Attack2": "lightningorb_attack_1",
   "Att2Prb": 100,
-  "DeathSound": "lightningorb_death_1"
+  "DeathSound": "lightningorb_death_1",
+  "lineNumber": 75
  },
- "76": {
+ "lightningsentry": {
   "Id": "lightningsentry",
   "DeathSound": "lightninggenerator_death_1",
   "DeaDelay": 1,
   "Skill1": "lightninggenerator_emerge_1",
   "Skill2": "lightninggenerator_launch_1",
-  "Init": "lightninggenerator_loop"
+  "Init": "lightninggenerator_loop",
+  "lineNumber": 76
  },
- "77": {
+ "lightnpc": {
   "Id": "lightnpc",
   "Footstep": "light_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 77
  },
- "78": {
+ "maggotbaby": {
   "Id": "maggotbaby",
   "Attack1": "sandmaggotbaby_attack_1",
   "Att1Prb": 100,
@@ -1060,29 +1164,33 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Neutral": "sandmaggotbaby_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 78
  },
- "79": {
+ "maggotegg": {
   "Id": "maggotegg",
   "DeathSound": "sandmaggotegg_death_1",
   "DeaDelay": 1,
   "Neutral": "sandmaggotegg_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 79
  },
- "80": {
+ "maggotqueen": {
   "Id": "maggotqueen",
   "HitSound": "sandmaggot_hit_1",
   "DeathSound": "sandmaggotmama_death",
   "HitDelay": 2,
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "lineNumber": 80
  },
- "81": {
+ "mednpc": {
   "Id": "mednpc",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 81
  },
- "82": {
+ "megademon": {
   "Id": "megademon",
   "Attack1": "megademon_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -1104,9 +1212,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "megademon_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 82
  },
- "83": {
+ "mephisto": {
   "Id": "mephisto",
   "Attack1": "mephisto_attack_1",
   "Att1Prb": 100,
@@ -1117,9 +1226,10 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Init": "mephisto_loop",
-  "Taunt": "monster_mephisto_taunt_1"
+  "Taunt": "monster_mephisto_taunt_1",
+  "lineNumber": 83
  },
- "84": {
+ "minion": {
   "Id": "minion",
   "Attack1": "minion_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -1139,25 +1249,26 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "minion_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 84
  },
- "85": {
+ "mosquito": {
   "Id": "mosquito",
   "Attack1": "mosquito_attack_1",
   "Att1Prb": 100,
-  "Attack2": "mosquito_attack_1",
+  "Attack2": "mosquito_longattack_1",
   "Att2Prb": 100,
   "HitSound": "mosquito_hit_1",
   "DeathSound": "mosquito_death_1",
-  "HitDelay": 2,
   "DeaDelay": 1,
   "Skill1": "mosquito_longattack_1",
   "Init": "mosquito_loop",
   "CvtMo1": "A2",
   "CvtSk1": "Mosquito",
-  "CvtTgt1": "S1"
+  "CvtTgt1": "S1",
+  "lineNumber": 85
  },
- "86": {
+ "mummy": {
   "Id": "mummy",
   "Attack1": "mummy_attack_1",
   "Att1Prb": 100,
@@ -1171,9 +1282,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "mummy_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 86
  },
- "87": {
+ "necromage": {
   "Id": "necromage",
   "Weapon1": "skeleton_cast_fire",
   "Wea1Vol": 255,
@@ -1185,9 +1297,10 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "skeleton_necro_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 87
  },
- "88": {
+ "necroskeleton": {
   "Id": "necroskeleton",
   "Weapon1": "weapon_1hs_large_1",
   "Wea1Del": 6,
@@ -1201,9 +1314,12 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "skeleton_necro_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "skeleton_neutral1",
+  "NeuTime": 300,
+  "lineNumber": 88
  },
- "89": {
+ "nihlathak": {
   "Id": "nihlathak",
   "Weapon1": "weapon_1hs_large_1",
   "Wea1Del": 6,
@@ -1211,9 +1327,10 @@
   "Weapon2": "weapon_1hs_large_1",
   "Wea2Del": 6,
   "Wea2Vol": 190,
-  "Taunt": "monster_nihlathak_taunt_1"
+  "Taunt": "monster_nihlathak_taunt_1",
+  "lineNumber": 89
  },
- "90": {
+ "overseer": {
   "Id": "overseer",
   "Attack1": "overseer_attack_1",
   "Weapon1": "weapon_2hs_large_1",
@@ -1236,9 +1353,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "overseer_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 90
  },
- "91": {
+ "pantherwoman": {
   "Id": "pantherwoman",
   "Attack1": "pantherwoman_attack_1",
   "Weapon1": "weapon_1hs_small_1",
@@ -1258,9 +1376,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "pantherwoman_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 91
  },
- "92": {
+ "pinhead": {
   "Id": "pinhead",
   "Attack1": "pinhead_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -1281,9 +1400,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "pinhead_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 92
  },
- "93": {
+ "putriddefiler": {
   "Id": "putriddefiler",
   "Attack1": "putriddefiler_attack_1",
   "Weapon1": "weapon_punch_1",
@@ -1297,9 +1417,10 @@
   "Skill1": "putriddefiler_impregnate",
   "Skill2": "putriddefiler_zap",
   "Neutral": "putriddefiler_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 93
  },
- "94": {
+ "quillrat": {
   "Id": "quillrat",
   "Attack1": "spikefiend_attack_1",
   "Att1Prb": 100,
@@ -1307,12 +1428,11 @@
   "Att2Prb": 100,
   "HitSound": "spikefiend_hit_1",
   "DeathSound": "spikefiend_death_1",
-  "HitDelay": 5,
-  "DeaDelay": 4,
   "Neutral": "spikefiend_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 94
  },
- "95": {
+ "radament": {
   "Id": "radament",
   "Attack1": "greatermummy_attack_1",
   "Weapon1": "weapon_2hs_large_1",
@@ -1343,13 +1463,15 @@
   "CvtTgt2": "S2",
   "CvtMo3": "SC",
   "CvtSk3": "Resurrect",
-  "CvtTgt3": "S3"
+  "CvtTgt3": "S3",
+  "lineNumber": 95
  },
- "96": {
+ "rat": {
   "Id": "rat",
-  "DeathSound": "creature_rat_1"
+  "DeathSound": "creature_rat_1",
+  "lineNumber": 96
  },
- "97": {
+ "raven": {
   "Id": "raven",
   "Attack1": "druidraven_attack_1",
   "Att1Del": 3,
@@ -1361,9 +1483,10 @@
   "DeaDelay": 1,
   "FootstepLayer": "hawk_wing_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 97
  },
- "98": {
+ "reanimatedhorde": {
   "Id": "reanimatedhorde",
   "Attack1": "reanimatedhorde_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -1385,9 +1508,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "reanimatedhorde_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 98
  },
- "99": {
+ "regurgitator": {
   "Id": "regurgitator",
   "Attack1": "regurgitator_attack_1",
   "Att1Prb": 100,
@@ -1399,9 +1523,10 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Neutral": "regurgitator_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 99
  },
- "100": {
+ "sandleaper": {
   "Id": "sandleaper",
   "Attack1": "leaper_attack_1",
   "Weapon1": "weapon_punch_1",
@@ -1425,9 +1550,10 @@
   "NeuTime": 300,
   "CvtMo1": "A1",
   "CvtSk1": "Leap",
-  "CvtTgt1": "S1"
+  "CvtTgt1": "S1",
+  "lineNumber": 100
  },
- "101": {
+ "sandmaggot": {
   "Id": "sandmaggot",
   "Attack1": "sandmaggot_attack_1",
   "Att1Prb": 100,
@@ -1438,9 +1564,10 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Neutral": "sandmaggot_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 101
  },
- "102": {
+ "sandraider": {
   "Id": "sandraider",
   "Attack1": "sandraider_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -1460,15 +1587,17 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "sandraider_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 102
  },
- "103": {
+ "sarcophagus": {
   "Id": "sarcophagus",
   "DeathSound": "mummy_generator_death",
   "DeaDelay": 1,
-  "Skill1": "object_casket"
+  "Skill1": "object_casket",
+  "lineNumber": 103
  },
- "104": {
+ "scarab": {
   "Id": "scarab",
   "Attack1": "beetle_attack_1",
   "Weapon1": "weapon_2ht_1",
@@ -1488,9 +1617,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "beetle_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 104
  },
- "105": {
+ "shadow": {
   "Id": "shadow",
   "Weapon1": "weapon_2ht_1",
   "Wea1Del": 8,
@@ -1505,9 +1635,10 @@
   "Skill4": "assassin_shadow_kick_1",
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "lineNumber": 105
  },
- "106": {
+ "siegebeast": {
   "Id": "siegebeast",
   "Attack1": "siegebeast_attack_1",
   "Weapon1": "weapon_1ht_1",
@@ -1527,9 +1658,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "siegebeast_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 106
  },
- "107": {
+ "sk_archer": {
   "Id": "sk_archer",
   "Weapon1": "weapon_bow_draw_1",
   "Wea1Del": 4,
@@ -1543,9 +1675,12 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "skeleton_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "skeleton_neutral1",
+  "NeuTime": 300,
+  "lineNumber": 107
  },
- "108": {
+ "sk_mage": {
   "Id": "sk_mage",
   "Weapon1": "skeleton_cast_fire",
   "Wea1Vol": 255,
@@ -1557,9 +1692,12 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "skeleton_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "skeleton_neutral1",
+  "NeuTime": 300,
+  "lineNumber": 108
  },
- "109": {
+ "skeleton": {
   "Id": "skeleton",
   "Weapon1": "weapon_1hs_large_1",
   "Wea1Del": 6,
@@ -1573,9 +1711,12 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "skeleton_walk_1",
   "FsCnt": 2,
-  "FsPrb": 100
+  "FsPrb": 100,
+  "Neutral": "skeleton_neutral1",
+  "NeuTime": 300,
+  "lineNumber": 109
  },
- "110": {
+ "slinger": {
   "Id": "slinger",
   "HitSound": "pantherwoman_hit_1",
   "DeathSound": "pantherwoman_death_1",
@@ -1585,9 +1726,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "pantherwoman_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 110
  },
- "111": {
+ "smith": {
   "Id": "smith",
   "Attack1": "smith_attack_1",
   "Weapon1": "weapon_2hs_large_1",
@@ -1608,13 +1750,15 @@
   "FsPrb": 100,
   "Neutral": "smith_neutral_1",
   "NeuTime": 150,
-  "Taunt": "monster_smith_taunt_2"
+  "Taunt": "monster_smith_taunt_2",
+  "lineNumber": 111
  },
- "112": {
+ "smithdeath": {
   "Id": "smithdeath",
-  "Init": "object_fire_loop_magic"
+  "Init": "object_fire_loop_magic",
+  "lineNumber": 112
  },
- "113": {
+ "smithdemon": {
   "Id": "smithdemon",
   "Attack1": "smith_attack_1",
   "Weapon1": "weapon_2hs_large_1",
@@ -1635,19 +1779,22 @@
   "FsPrb": 100,
   "Neutral": "smith_neutral_1",
   "NeuTime": 150,
-  "Taunt": "monster_smith_taunt_1"
+  "Taunt": "monster_smith_taunt_1",
+  "lineNumber": 113
  },
- "114": {
+ "spider": {
   "Id": "spider",
-  "DeathSound": "creature_spider_1"
+  "DeathSound": "creature_spider_1",
+  "lineNumber": 114
  },
- "115": {
+ "stainedglass": {
   "Id": "stainedglass",
   "DeathSound": "object_glass_break_1",
   "HitDelay": 2,
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "lineNumber": 115
  },
- "116": {
+ "succubus": {
   "Id": "succubus",
   "Attack1": "succubus_attack_1",
   "Att1Del": 3,
@@ -1662,9 +1809,10 @@
   "Skill2": "succubus_cast",
   "FootstepLayer": "hawk_wing_1",
   "FsCnt": 2,
-  "FsPrb": 30
+  "FsPrb": 30,
+  "lineNumber": 116
  },
- "117": {
+ "suicideminion": {
   "Id": "suicideminion",
   "HitSound": "minion_hit_1",
   "DeathSound": "hawknest_death_1",
@@ -1674,9 +1822,12 @@
   "Footstep": "heavy_walk_dirt_1",
   "FootstepLayer": "minionsuicide_neutral_1",
   "FsCnt": 2,
-  "FsPrb": 30
+  "FsPrb": 30,
+  "Neutral": "minionsuicide_neutral_1",
+  "NeuTime": 150,
+  "lineNumber": 117
  },
- "118": {
+ "summoner": {
   "Id": "summoner",
   "HitSound": "summoner_hit_1",
   "DeathSound": "summoner_death",
@@ -1685,9 +1836,10 @@
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Taunt": "monster_summoner_taunt_1"
+  "Taunt": "monster_summoner_taunt_1",
+  "lineNumber": 118
  },
- "119": {
+ "swarm": {
   "Id": "swarm",
   "Attack1": "swarm_attack_1",
   "Att1Prb": 100,
@@ -1697,9 +1849,10 @@
   "DeathSound": "swarm_hit_1",
   "HitDelay": 2,
   "DeaDelay": 1,
-  "Init": "swarm_loop"
+  "Init": "swarm_loop",
+  "lineNumber": 119
  },
- "120": {
+ "tentacle": {
   "Id": "tentacle",
   "Attack1": "tentacle_attack_1",
   "Att1Prb": 100,
@@ -1708,9 +1861,12 @@
   "HitSound": "tentacle_hit_1",
   "DeathSound": "tentacle_death_1",
   "HitDelay": 2,
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "Skill1": "tentacle_appear_1",
+  "Init": "tentacle_appear_1",
+  "lineNumber": 120
  },
- "121": {
+ "tentaclehead": {
   "Id": "tentaclehead",
   "Attack1": "tentaclehead_attack_1",
   "Att1Prb": 100,
@@ -1720,10 +1876,13 @@
   "DeathSound": "tentaclehead_death_1",
   "HitDelay": 2,
   "DeaDelay": 1,
+  "Skill1": "tentacle_appear_1",
   "Neutral": "tentaclehead_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "Init": "tentacle_appear_1",
+  "lineNumber": 121
  },
- "122": {
+ "thornhulk": {
   "Id": "thornhulk",
   "Attack1": "thornhulk_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -1737,16 +1896,15 @@
   "Wea2Vol": 120,
   "HitSound": "thornhulk_hit_1",
   "DeathSound": "thornhulk_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "Footstep": "heavy_walk_dirt_1",
   "FootstepLayer": "walk_ginormous_high_1",
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "thornhulk_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 122
  },
- "123": {
+ "trappedsoul1": {
   "Id": "trappedsoul1",
   "Attack1": "trappedsoul_attack_1",
   "Att1Del": 6,
@@ -1759,9 +1917,10 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Neutral": "trappedsoul_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 123
  },
- "124": {
+ "trappedsoul2": {
   "Id": "trappedsoul2",
   "Attack1": "trappedsoul_attack_1",
   "Att1Del": 6,
@@ -1774,14 +1933,16 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Neutral": "trappedsoul_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 124
  },
- "125": {
+ "turret": {
   "Id": "turret",
   "DeathSound": "turret_death_1",
-  "DeaDelay": 1
+  "DeaDelay": 1,
+  "lineNumber": 125
  },
- "126": {
+ "unraveler": {
   "Id": "unraveler",
   "Attack1": "greatermummy_attack_1",
   "Weapon1": "weapon_2hs_large_1",
@@ -1811,9 +1972,10 @@
   "CvtTgt2": "S2",
   "CvtMo3": "SC",
   "CvtSk3": "Resurrect",
-  "CvtTgt3": "S3"
+  "CvtTgt3": "S3",
+  "lineNumber": 126
  },
- "127": {
+ "valkyrie": {
   "Id": "valkyrie",
   "Attack1": "amazon_valkyrie_attack_1",
   "Weapon1": "weapon_2ht_1",
@@ -1834,9 +1996,10 @@
   "Footstep": "medium_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
-  "Init": "amazon_valkyrie_appear"
+  "Init": "amazon_valkyrie_appear",
+  "lineNumber": 127
  },
- "128": {
+ "vampire": {
   "Id": "vampire",
   "Attack1": "vampire_attack_1",
   "Att1Prb": 100,
@@ -1850,9 +2013,10 @@
   "Neutral": "vampire_neutral_1",
   "NeuTime": 150,
   "CvtMo1": "SC",
-  "CvtTgt1": "S1"
+  "CvtTgt1": "S1",
+  "lineNumber": 128
  },
- "129": {
+ "vilechild": {
   "Id": "vilechild",
   "Attack1": "vilechild_attack_1",
   "Att1Del": 8,
@@ -1867,9 +2031,10 @@
   "Footstep": "light_walk_dirt_1",
   "FootstepLayer": "vilechild_walk_1",
   "FsCnt": 2,
-  "FsPrb": 15
+  "FsPrb": 15,
+  "lineNumber": 129
  },
- "130": {
+ "vilemother": {
   "Id": "vilemother",
   "Attack1": "vilemother_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -1886,14 +2051,16 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Skill1": "vilemother_birth_1",
+  "Footstep": "walk_flesh_1",
   "FootstepLayer": "walk_flesh_1",
   "FsCnt": 2,
   "FsOff": 3,
   "FsPrb": 100,
   "Neutral": "vilemother_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 130
  },
- "131": {
+ "vulture": {
   "Id": "vulture",
   "Attack1": "vulturedemon_attack_1",
   "Att1Prb": 100,
@@ -1907,9 +2074,10 @@
   "FsCnt": 1,
   "FsPrb": 100,
   "Neutral": "vulturedemon_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 131
  },
- "132": {
+ "werebear": {
   "Id": "werebear",
   "Attack1": "druidwerebear_attack_1",
   "Weapon1": "weapon_2hs_small_1",
@@ -1931,9 +2099,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "druidwerebear_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 132
  },
- "133": {
+ "werewolf": {
   "Id": "werewolf",
   "Attack1": "druidwerewolf_attack_1",
   "Weapon1": "weapon_kick_1",
@@ -1954,9 +2123,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "druidwerewolf_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 133
  },
- "134": {
+ "willowisp": {
   "Id": "willowisp",
   "Attack1": "willowisp_attack_1",
   "Att1Prb": 100,
@@ -1970,9 +2140,10 @@
   "Skill2": "willowisp_lightning_cast_1",
   "Init": "willowisp_loop",
   "CvtMo1": "SC",
-  "CvtTgt1": "S2"
+  "CvtTgt1": "S2",
+  "lineNumber": 134
  },
- "135": {
+ "wolf": {
   "Id": "wolf",
   "Attack1": "druidwolf_attack_1",
   "Weapon1": "weapon_1ht_1",
@@ -1994,9 +2165,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "druidwolf_neutral_1",
-  "NeuTime": 1600
+  "NeuTime": 1600,
+  "lineNumber": 135
  },
- "136": {
+ "wraith": {
   "Id": "wraith",
   "Attack1": "wraith_attack_1",
   "Att1Prb": 100,
@@ -2007,9 +2179,10 @@
   "HitDelay": 2,
   "DeaDelay": 1,
   "Neutral": "wraith_neutral_1",
-  "NeuTime": 150
+  "NeuTime": 150,
+  "lineNumber": 136
  },
- "137": {
+ "zealot": {
   "Id": "zealot",
   "Attack1": "zakarumzealot_attack_1",
   "Weapon1": "weapon_1hs_large_1",
@@ -2029,9 +2202,10 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "zakarumzealot_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 137
  },
- "138": {
+ "zombie": {
   "Id": "zombie",
   "Attack1": "zombie_attack_1",
   "Att1Prb": 100,
@@ -2039,16 +2213,15 @@
   "Att2Prb": 100,
   "HitSound": "zombie_hit_1",
   "DeathSound": "zombie_death_1",
-  "HitDelay": 2,
-  "DeaDelay": 1,
   "Skill1": "zombie_raise_1",
   "Footstep": "light_walk_dirt_1",
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "zombie_neutral_1",
-  "NeuTime": 300
+  "NeuTime": 300,
+  "lineNumber": 138
  },
- "139": {
+ "zombieunique": {
   "Id": "zombieunique",
   "Attack1": "zombie_attack_1",
   "Att1Prb": 100,
@@ -2063,30 +2236,7 @@
   "FsCnt": 2,
   "FsPrb": 100,
   "Neutral": "zombie_unique_neutral_1",
-  "NeuTime": 300
- },
- "140": {
-  "Id": "diabloclone",
-  "Attack1": "diablo_attack_1",
-  "Weapon1": "weapon_giant_1",
-  "Wea1Del": 6,
-  "Att1Prb": 100,
-  "Wea1Vol": 120,
-  "Attack2": "diablo_attack_1",
-  "Weapon2": "weapon_giant_1",
-  "Wea2Del": 10,
-  "Att2Prb": 100,
-  "Wea2Vol": 120,
-  "HitSound": "diablo_hit_1",
-  "DeathSound": "diablo_death",
-  "HitDelay": 2,
-  "Skill3": "diablo_boneprison_cast",
-  "Skill4": "diablo_yell",
-  "Footstep": "heavy_walk_dirt_1",
-  "FsCnt": 2,
-  "FsPrb": 100,
-  "Neutral": "diablo_neutral_1",
-  "NeuTime": 150,
-  "Taunt": "monster_diablo_taunt_ex"
+  "NeuTime": 300,
+  "lineNumber": 139
  }
 }

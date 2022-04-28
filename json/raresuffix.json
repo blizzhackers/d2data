@@ -1,0 +1,766 @@
+{
+ "0": {
+  "name": "bite",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole",
+  "itype5": "axe",
+  "itype6": "h2h"
+ },
+ "1": {
+  "name": "scratch",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole",
+  "itype5": "h2h"
+ },
+ "2": {
+  "name": "scalpel",
+  "itype1": "swor",
+  "itype2": "knif"
+ },
+ "3": {
+  "name": "fang",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole"
+ },
+ "4": {
+  "name": "gutter",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole"
+ },
+ "5": {
+  "name": "thirst",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole",
+  "itype5": "axe",
+  "itype6": "h2h"
+ },
+ "6": {
+  "name": "razor",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "axe",
+  "itype4": "h2h"
+ },
+ "7": {
+  "name": "scythe",
+  "itype1": "swor",
+  "itype2": "axe",
+  "itype3": "pole"
+ },
+ "8": {
+  "name": "edge",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "axe"
+ },
+ "9": {
+  "name": "saw",
+  "itype1": "swor"
+ },
+ "10": {
+  "name": "splitter",
+  "itype1": "axe",
+  "itype2": "mace",
+  "itype3": "club",
+  "itype4": "hamm"
+ },
+ "11": {
+  "name": "cleaver",
+  "itype1": "swor",
+  "itype2": "axe"
+ },
+ "12": {
+  "name": "sever",
+  "itype1": "swor",
+  "itype2": "axe"
+ },
+ "13": {
+  "name": "sunder",
+  "itype1": "axe"
+ },
+ "14": {
+  "name": "rend",
+  "itype1": "axe"
+ },
+ "15": {
+  "name": "mangler",
+  "itype1": "axe",
+  "itype2": "mace",
+  "itype3": "club",
+  "itype4": "hamm"
+ },
+ "16": {
+  "name": "slayer",
+  "itype1": "axe"
+ },
+ "17": {
+  "name": "reaver",
+  "itype1": "axe"
+ },
+ "18": {
+  "name": "spawn",
+  "itype1": "axe",
+  "itype2": "hamm"
+ },
+ "19": {
+  "name": "gnash",
+  "itype1": "axe",
+  "itype2": "club",
+  "itype3": "hamm"
+ },
+ "20": {
+  "name": "star",
+  "itype1": "mace",
+  "itype2": "hamm",
+  "itype3": "scep",
+  "itype4": "wand"
+ },
+ "21": {
+  "name": "blow",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "hamm",
+  "itype4": "scep"
+ },
+ "22": {
+  "name": "smasher",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "hamm",
+  "itype4": "scep"
+ },
+ "23": {
+  "name": "Bane",
+  "itype1": "mace",
+  "itype2": "scep",
+  "itype3": "wand"
+ },
+ "24": {
+  "name": "crusher",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "hamm",
+  "itype4": "scep"
+ },
+ "25": {
+  "name": "breaker",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "hamm",
+  "itype4": "scep"
+ },
+ "26": {
+  "name": "grinder",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "hamm",
+  "itype4": "scep"
+ },
+ "27": {
+  "name": "crack",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "hamm",
+  "itype4": "scep",
+  "itype5": "wand"
+ },
+ "28": {
+  "name": "mallet",
+  "itype1": "hamm",
+  "itype2": "club"
+ },
+ "29": {
+  "name": "knell",
+  "itype1": "mace",
+  "itype2": "club",
+  "itype3": "scep",
+  "itype4": "wand"
+ },
+ "30": {
+  "name": "lance",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "31": {
+  "name": "spike",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole"
+ },
+ "32": {
+  "name": "impaler",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "pole"
+ },
+ "33": {
+  "name": "skewer",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea"
+ },
+ "34": {
+  "name": "prod",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "35": {
+  "name": "scourge",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "36": {
+  "name": "wand",
+  "itype1": "wand"
+ },
+ "37": {
+  "name": "wrack",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "38": {
+  "name": "barb",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "axe",
+  "itype4": "spea",
+  "itype5": "pole",
+  "itype6": "h2h"
+ },
+ "39": {
+  "name": "needle",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "miss"
+ },
+ "40": {
+  "name": "dart",
+  "itype1": "spea",
+  "itype2": "miss"
+ },
+ "41": {
+  "name": "bolt",
+  "itype1": "miss",
+  "itype2": "jave"
+ },
+ "42": {
+  "name": "quarrel",
+  "itype1": "miss"
+ },
+ "43": {
+  "name": "fletch",
+  "itype1": "miss"
+ },
+ "44": {
+  "name": "flight",
+  "itype1": "miss",
+  "itype2": "jave"
+ },
+ "45": {
+  "name": "nock",
+  "itype1": "miss"
+ },
+ "46": {
+  "name": "horn",
+  "itype1": "helm",
+  "itype2": "miss",
+  "itype3": "knif"
+ },
+ "47": {
+  "name": "stinger",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "spea",
+  "itype4": "miss"
+ },
+ "48": {
+  "name": "quill",
+  "itype1": "knif",
+  "itype2": "miss"
+ },
+ "49": {
+  "name": "goad",
+  "itype1": "spea",
+  "itype2": "pole",
+  "itype3": "staf"
+ },
+ "50": {
+  "name": "branch",
+  "itype1": "spea",
+  "itype2": "staf",
+  "itype3": "bow"
+ },
+ "51": {
+  "name": "spire",
+  "itype1": "staf"
+ },
+ "52": {
+  "name": "song",
+  "itype1": "weap"
+ },
+ "53": {
+  "name": "call",
+  "itype1": "rod"
+ },
+ "54": {
+  "name": "cry",
+  "itype1": "rod"
+ },
+ "55": {
+  "name": "spell",
+  "itype1": "rod"
+ },
+ "56": {
+  "name": "chant",
+  "itype1": "rod"
+ },
+ "57": {
+  "name": "weaver",
+  "itype1": "rod"
+ },
+ "58": {
+  "name": "gnarl",
+  "itype1": "club",
+  "itype2": "wand",
+  "itype3": "staf"
+ },
+ "59": {
+  "name": "visage",
+  "itype1": "helm"
+ },
+ "60": {
+  "name": "crest",
+  "itype1": "helm"
+ },
+ "61": {
+  "name": "circlet",
+  "itype1": "helm"
+ },
+ "62": {
+  "name": "veil",
+  "itype1": "helm"
+ },
+ "63": {
+  "name": "hood",
+  "itype1": "helm"
+ },
+ "64": {
+  "name": "mask",
+  "itype1": "helm"
+ },
+ "65": {
+  "name": "brow",
+  "itype1": "helm"
+ },
+ "66": {
+  "name": "casque",
+  "itype1": "helm"
+ },
+ "67": {
+  "name": "visor",
+  "itype1": "helm"
+ },
+ "68": {
+  "name": "cowl",
+  "itype1": "helm"
+ },
+ "69": {
+  "name": "hide",
+  "itype1": "tors"
+ },
+ "70": {
+  "name": "Pelt",
+  "itype1": "tors"
+ },
+ "71": {
+  "name": "carapace",
+  "itype1": "tors"
+ },
+ "72": {
+  "name": "coat",
+  "itype1": "tors"
+ },
+ "73": {
+  "name": "wrap",
+  "itype1": "tors"
+ },
+ "74": {
+  "name": "suit",
+  "itype1": "tors"
+ },
+ "75": {
+  "name": "cloak",
+  "itype1": "tors"
+ },
+ "76": {
+  "name": "shroud",
+  "itype1": "tors"
+ },
+ "77": {
+  "name": "jack",
+  "itype1": "tors"
+ },
+ "78": {
+  "name": "mantle",
+  "itype1": "tors"
+ },
+ "79": {
+  "name": "guard",
+  "itype1": "shld"
+ },
+ "80": {
+  "name": "badge",
+  "itype1": "shld"
+ },
+ "81": {
+  "name": "rock",
+  "itype1": "shld"
+ },
+ "82": {
+  "name": "aegis",
+  "itype1": "shld"
+ },
+ "83": {
+  "name": "ward",
+  "itype1": "shld"
+ },
+ "84": {
+  "name": "tower",
+  "itype1": "shld"
+ },
+ "85": {
+  "name": "shield",
+  "itype1": "shld"
+ },
+ "86": {
+  "name": "wing",
+  "itype1": "shld",
+  "itype2": "amul"
+ },
+ "87": {
+  "name": "mark",
+  "itype1": "shld",
+  "itype2": "amul"
+ },
+ "88": {
+  "name": "emblem",
+  "itype1": "shld",
+  "itype2": "amul"
+ },
+ "89": {
+  "name": "hand",
+  "itype1": "glov"
+ },
+ "90": {
+  "name": "fist",
+  "itype1": "glov",
+  "itype2": "h2h"
+ },
+ "91": {
+  "name": "claw",
+  "itype1": "glov",
+  "itype2": "h2h"
+ },
+ "92": {
+  "name": "clutches",
+  "itype1": "glov"
+ },
+ "93": {
+  "name": "grip",
+  "itype1": "glov",
+  "itype2": "ring"
+ },
+ "94": {
+  "name": "grasp",
+  "itype1": "glov",
+  "itype2": "ring"
+ },
+ "95": {
+  "name": "hold",
+  "itype1": "glov",
+  "itype2": "ring"
+ },
+ "96": {
+  "name": "touch",
+  "itype1": "glov",
+  "itype2": "ring"
+ },
+ "97": {
+  "name": "finger",
+  "itype1": "glov",
+  "itype2": "ring"
+ },
+ "98": {
+  "name": "knuckle",
+  "itype1": "glov"
+ },
+ "99": {
+  "name": "shank",
+  "itype1": "boot"
+ },
+ "100": {
+  "name": "spur",
+  "itype1": "boot"
+ },
+ "101": {
+  "name": "tread",
+  "itype1": "boot"
+ },
+ "102": {
+  "name": "stalker",
+  "itype1": "boot"
+ },
+ "103": {
+  "name": "greave",
+  "itype1": "boot"
+ },
+ "104": {
+  "name": "blazer",
+  "itype1": "boot"
+ },
+ "105": {
+  "name": "nails",
+  "itype1": "boot",
+  "itype2": "spea",
+  "itype3": "pole"
+ },
+ "106": {
+  "name": "trample",
+  "itype1": "boot"
+ },
+ "107": {
+  "name": "Brogues",
+  "itype1": "boot"
+ },
+ "108": {
+  "name": "track",
+  "itype1": "boot"
+ },
+ "109": {
+  "name": "slippers",
+  "itype1": "boot"
+ },
+ "110": {
+  "name": "clasp",
+  "itype1": "belt",
+  "itype2": "amul"
+ },
+ "111": {
+  "name": "buckle",
+  "itype1": "belt"
+ },
+ "112": {
+  "name": "harness",
+  "itype1": "belt"
+ },
+ "113": {
+  "name": "lock",
+  "itype1": "belt"
+ },
+ "114": {
+  "name": "fringe",
+  "itype1": "belt"
+ },
+ "115": {
+  "name": "winding",
+  "itype1": "belt"
+ },
+ "116": {
+  "name": "chain",
+  "itype1": "belt"
+ },
+ "117": {
+  "name": "strap",
+  "itype1": "belt"
+ },
+ "118": {
+  "name": "lash",
+  "itype1": "belt"
+ },
+ "119": {
+  "name": "cord",
+  "itype1": "belt"
+ },
+ "120": {
+  "name": "knot",
+  "itype1": "ring"
+ },
+ "121": {
+  "name": "circle",
+  "itype1": "ring"
+ },
+ "122": {
+  "name": "loop",
+  "itype1": "ring"
+ },
+ "123": {
+  "name": "eye",
+  "itype1": "misc"
+ },
+ "124": {
+  "name": "turn",
+  "itype1": "ring"
+ },
+ "125": {
+  "name": "spiral",
+  "itype1": "ring"
+ },
+ "126": {
+  "name": "coil",
+  "itype1": "ring"
+ },
+ "127": {
+  "name": "gyre",
+  "itype1": "ring",
+  "itype2": "orb",
+  "itype3": "jewl"
+ },
+ "128": {
+  "name": "band",
+  "itype1": "ring"
+ },
+ "129": {
+  "name": "whorl",
+  "itype1": "ring",
+  "itype2": "orb",
+  "itype3": "jewl"
+ },
+ "130": {
+  "name": "talisman",
+  "itype1": "amul",
+  "itype2": "jewl"
+ },
+ "131": {
+  "name": "heart",
+  "itype1": "amul",
+  "itype2": "orb",
+  "itype3": "jewl"
+ },
+ "132": {
+  "name": "noose",
+  "itype1": "amul"
+ },
+ "133": {
+  "name": "necklace",
+  "itype1": "amul"
+ },
+ "134": {
+  "name": "collar",
+  "itype1": "amul"
+ },
+ "135": {
+  "name": "beads",
+  "itype1": "amul"
+ },
+ "136": {
+  "name": "torc",
+  "itype1": "amul"
+ },
+ "137": {
+  "name": "gorget",
+  "itype1": "amul"
+ },
+ "138": {
+  "name": "scarab",
+  "itype1": "amul",
+  "itype2": "jewl"
+ },
+ "139": {
+  "name": "wood",
+  "itype1": "spea",
+  "itype2": "pole",
+  "itype3": "wand",
+  "itype4": "staf"
+ },
+ "140": {
+  "name": "brand",
+  "itype1": "blun"
+ },
+ "141": {
+  "name": "bludgeon",
+  "itype1": "blun"
+ },
+ "142": {
+  "name": "cudgel",
+  "itype1": "club",
+  "itype2": "wand"
+ },
+ "143": {
+  "name": "loom",
+  "itype1": "miss"
+ },
+ "144": {
+  "name": "harp",
+  "itype1": "miss"
+ },
+ "145": {
+  "name": "master",
+  "itype1": "ring"
+ },
+ "146": {
+  "name": "barRI",
+  "itype1": "blun",
+  "itype2": "spea",
+  "itype3": "pole"
+ },
+ "147": {
+  "name": "hew",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "axe"
+ },
+ "148": {
+  "name": "crook",
+  "itype1": "staf"
+ },
+ "149": {
+  "name": "mar",
+  "itype1": "swor",
+  "itype2": "knif",
+  "itype3": "mace",
+  "itype4": "club",
+  "itype5": "hamm",
+  "itype6": "spea"
+ },
+ "150": {
+  "name": "shell",
+  "itype1": "tors",
+  "itype2": "helm",
+  "itype3": "shld"
+ },
+ "151": {
+  "name": "stake",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "152": {
+  "name": "picket",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "153": {
+  "name": "pale",
+  "itype1": "spea",
+  "itype2": "pole"
+ },
+ "154": {
+  "name": "flange",
+  "itype1": "tors",
+  "itype2": "mace",
+  "itype3": "hamm",
+  "itype4": "scep"
+ }
+}

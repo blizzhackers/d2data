@@ -1,462 +1,577 @@
 {
- "0": {
-  "component": "nil",
-  "code": "nil"
- },
- "1": {
-  "component": "light",
-  "code": "lit"
- },
- "2": {
-  "component": "medium",
-  "code": "med"
- },
- "3": {
-  "component": "heavy",
-  "code": "hev"
- },
- "4": {
-  "component": "heavy",
-  "code": "hvy"
- },
- "5": {
-  "component": "skarmor",
-  "code": "des"
- },
- "6": {
-  "component": "roguearmor/brhead",
-  "code": "brv"
- },
- "7": {
+ "axe": {
   "component": "axe",
-  "code": "axe"
+  "code": "axe",
+  "lineNumber": 7
  },
- "8": {
-  "component": "flail",
-  "code": "fla"
- },
- "9": {
-  "component": "handaxe",
-  "code": "hax"
- },
- "10": {
-  "component": "mace",
-  "code": "mac"
- },
- "11": {
-  "component": "scimitar",
-  "code": "scm"
- },
- "12": {
-  "component": "buckler",
-  "code": "buc"
- },
- "13": {
-  "component": "large shield",
-  "code": "lrg"
- },
- "14": {
-  "component": "kite shield",
-  "code": "kit"
- },
- "15": {
-  "component": "small shield",
-  "code": "sml"
- },
- "16": {
-  "component": "long sword",
-  "code": "lsd"
- },
- "17": {
-  "component": "wand",
-  "code": "wnd"
- },
- "18": {
-  "component": "short sword",
-  "code": "ssd"
- },
- "19": {
-  "component": "club",
-  "code": "clb"
- },
- "20": {
-  "component": "torch",
-  "code": "tch"
- },
- "21": {
-  "component": "battleaxe",
-  "code": "btx"
- },
- "22": {
-  "component": "halberd",
-  "code": "hal"
- },
- "23": {
-  "component": "large axe",
-  "code": "lax"
- },
- "24": {
-  "component": "maul",
-  "code": "mau"
- },
- "25": {
-  "component": "scythe",
-  "code": "scy"
- },
- "26": {
-  "component": "war hammer",
-  "code": "whm"
- },
- "27": {
-  "component": "whip",
-  "code": "whp"
- },
- "28": {
-  "component": "javelin",
-  "code": "jav"
- },
- "29": {
-  "component": "exploding pot",
-  "code": "opl"
- },
- "30": {
-  "component": "gas potion",
-  "code": "gpl"
- },
- "31": {
-  "component": "short bow",
-  "code": "sbw"
- },
- "32": {
-  "component": "long bow",
-  "code": "lbw"
- },
- "33": {
-  "component": "long battle bow",
-  "code": "lbb"
- },
- "34": {
-  "component": "short battle bow",
-  "code": "sbb"
- },
- "35": {
-  "component": "pike",
-  "code": "pik"
- },
- "36": {
-  "component": "spear",
-  "code": "spr"
- },
- "37": {
-  "component": "trident",
-  "code": "tri"
- },
- "38": {
-  "component": "falchion",
-  "code": "flc"
- },
- "39": {
-  "component": "saber",
-  "code": "sbr"
- },
- "40": {
-  "component": "glaive",
-  "code": "glv"
- },
- "41": {
-  "component": "poleaxe",
-  "code": "pax"
- },
- "42": {
-  "component": "broad sword",
-  "code": "bsd"
- },
- "43": {
-  "component": "flamberge",
-  "code": "flb"
- },
- "44": {
-  "component": "waraxe",
-  "code": "wax"
- },
- "45": {
-  "component": "warscythe",
-  "code": "wsc"
- },
- "46": {
-  "component": "warsword",
-  "code": "wsd"
- },
- "47": {
-  "component": "claymore",
-  "code": "clm"
- },
- "48": {
-  "component": "dk weapon",
-  "code": "smc"
- },
- "49": {
-  "component": "skmage fire",
-  "code": "fir"
- },
- "50": {
-  "component": "skmage ltng",
-  "code": "lht"
- },
- "51": {
-  "component": "skmage cold",
-  "code": "cld"
- },
- "52": {
-  "component": "skmage pois",
-  "code": "pos"
- },
- "53": {
-  "component": "dk rh spell",
-  "code": "rsp"
- },
- "54": {
-  "component": "dk lh spell",
-  "code": "lsp"
- },
- "55": {
-  "component": "dk unholy",
-  "code": "unh"
- },
- "56": {
-  "component": "dk part",
-  "code": "rsg"
- },
- "57": {
-  "component": "misc part 1",
-  "code": "bld"
- },
- "58": {
-  "component": "misc part 2",
-  "code": "shr"
- },
- "59": {
-  "component": "misc part 3",
-  "code": "lhr"
- },
- "60": {
-  "component": "misc part 4",
-  "code": "hbd"
- },
- "61": {
-  "component": "misc part 5",
-  "code": "tkt"
- },
- "62": {
+ "bab": {
   "component": "headress1",
-  "code": "bab"
+  "code": "bab",
+  "lineNumber": 62
  },
- "63": {
-  "component": "headress2",
-  "code": "pha"
- },
- "64": {
-  "component": "headress3",
-  "code": "fan"
- },
- "65": {
-  "component": "headress4",
-  "code": "pon"
- },
- "66": {
-  "component": "zealot head 1",
-  "code": "hd1"
- },
- "67": {
-  "component": "zealot head 2",
-  "code": "hd2"
- },
- "68": {
-  "component": "zealot head 3",
-  "code": "hd3"
- },
- "69": {
-  "component": "zealot head 4",
-  "code": "hd4"
- },
- "70": {
-  "component": "zealot torso 1",
-  "code": "zz1"
- },
- "71": {
-  "component": "zealot torso 2",
-  "code": "zz2"
- },
- "72": {
-  "component": "zealot torso 3",
-  "code": "zz3"
- },
- "73": {
-  "component": "zealot torso 4",
-  "code": "zz4"
- },
- "74": {
-  "component": "zealot torso 5",
-  "code": "zz5"
- },
- "75": {
-  "component": "zealot torso 6",
-  "code": "zz6"
- },
- "76": {
-  "component": "zealot torso 7",
-  "code": "zz7"
- },
- "77": {
-  "component": "flying scim",
-  "code": "red"
- },
- "78": {
-  "component": "thornhulkhead2",
-  "code": "th2"
- },
- "79": {
-  "component": "thornhulkhead3",
-  "code": "th3"
- },
- "80": {
-  "component": "thornhulkhead4",
-  "code": "th4"
- },
- "81": {
-  "component": "thornhulkhead5",
-  "code": "th5"
- },
- "82": {
-  "component": "fetish weap 1",
-  "code": "fbl"
- },
- "83": {
-  "component": "fetish weap 2",
-  "code": "fsp"
- },
- "84": {
-  "component": "young npc head",
-  "code": "yng"
- },
- "85": {
-  "component": "old npc head",
-  "code": "old"
- },
- "86": {
-  "component": "bearded npc head",
-  "code": "brd"
- },
- "87": {
-  "component": "goatee npc head",
-  "code": "got"
- },
- "88": {
-  "component": "npc part 1",
-  "code": "fez"
- },
- "89": {
-  "component": "npc part 2",
-  "code": "rol"
- },
- "90": {
-  "component": "npc part 3",
-  "code": "bsk"
- },
- "91": {
-  "component": "npc part 4",
-  "code": "buk"
- },
- "92": {
-  "component": "npc part 5",
-  "code": "sak"
- },
- "93": {
+ "ban": {
   "component": "npc part 6",
-  "code": "ban"
+  "code": "ban",
+  "lineNumber": 93
  },
- "94": {
-  "component": "npc part 7",
-  "code": "fsh"
- },
- "95": {
-  "component": "npc part 8",
-  "code": "snk"
- },
- "96": {
-  "component": "fem brown hair",
-  "code": "brn"
- },
- "97": {
-  "component": "fem black hair",
-  "code": "blk"
- },
- "98": {
-  "component": "fem npc leg 1",
-  "code": "srt"
- },
- "99": {
-  "component": "fem npc leg 2",
-  "code": "lng"
- },
- "100": {
-  "component": "fem npc leg 3",
-  "code": "dln"
- },
- "101": {
-  "component": "fem npc tor 1",
-  "code": "btp"
- },
- "102": {
-  "component": "fem npc tor 2",
-  "code": "mtp"
- },
- "103": {
-  "component": "fem npc tor 3",
-  "code": "stp"
- },
- "104": {
-  "component": "fem npc tor 4",
-  "code": "svt"
- },
- "105": {
-  "component": "dk head 1",
-  "code": "col"
- },
- "106": {
-  "component": "dk head 2",
-  "code": "hod"
- },
- "107": {
-  "component": "dk head 3",
-  "code": "hrn"
- },
- "108": {
-  "component": "siege beast tr",
-  "code": "lnk"
- },
- "109": {
-  "component": "siege beast s1",
-  "code": "tur"
- },
- "110": {
-  "component": "siege beast s3",
-  "code": "mlk"
- },
- "111": {
-  "component": "full helm",
-  "code": "fhm"
- },
- "112": {
-  "component": "great helm",
-  "code": "ghm"
- },
- "113": {
+ "bhn": {
   "component": "pow hand",
-  "code": "bhn"
+  "code": "bhn",
+  "lineNumber": 113
  },
- "114": {
+ "bld": {
+  "component": "misc part 1",
+  "code": "bld",
+  "lineNumber": 57
+ },
+ "blk": {
+  "component": "fem black hair",
+  "code": "blk",
+  "lineNumber": 97
+ },
+ "brd": {
+  "component": "bearded npc head",
+  "code": "brd",
+  "lineNumber": 86
+ },
+ "brn": {
+  "component": "fem brown hair",
+  "code": "brn",
+  "lineNumber": 96
+ },
+ "brv": {
+  "component": "roguearmor/brhead",
+  "code": "brv",
+  "lineNumber": 6
+ },
+ "bsd": {
+  "component": "broad sword",
+  "code": "bsd",
+  "lineNumber": 42
+ },
+ "bsk": {
+  "component": "npc part 3",
+  "code": "bsk",
+  "lineNumber": 90
+ },
+ "btp": {
+  "component": "fem npc tor 1",
+  "code": "btp",
+  "lineNumber": 101
+ },
+ "btx": {
+  "component": "battleaxe",
+  "code": "btx",
+  "lineNumber": 21
+ },
+ "buc": {
+  "component": "buckler",
+  "code": "buc",
+  "lineNumber": 12
+ },
+ "buk": {
+  "component": "npc part 4",
+  "code": "buk",
+  "lineNumber": 91
+ },
+ "clb": {
+  "component": "club",
+  "code": "clb",
+  "lineNumber": 19
+ },
+ "cld": {
+  "component": "skmage cold",
+  "code": "cld",
+  "lineNumber": 51
+ },
+ "clm": {
+  "component": "claymore",
+  "code": "clm",
+  "lineNumber": 47
+ },
+ "col": {
+  "component": "dk head 1",
+  "code": "col",
+  "lineNumber": 105
+ },
+ "des": {
+  "component": "skarmor",
+  "code": "des",
+  "lineNumber": 5
+ },
+ "dln": {
+  "component": "fem npc leg 3",
+  "code": "dln",
+  "lineNumber": 100
+ },
+ "fan": {
+  "component": "headress3",
+  "code": "fan",
+  "lineNumber": 64
+ },
+ "fbl": {
+  "component": "fetish weap 1",
+  "code": "fbl",
+  "lineNumber": 82
+ },
+ "fez": {
+  "component": "npc part 1",
+  "code": "fez",
+  "lineNumber": 88
+ },
+ "fhm": {
+  "component": "full helm",
+  "code": "fhm",
+  "lineNumber": 111
+ },
+ "fir": {
+  "component": "skmage fire",
+  "code": "fir",
+  "lineNumber": 49
+ },
+ "fla": {
+  "component": "flail",
+  "code": "fla",
+  "lineNumber": 8
+ },
+ "flb": {
+  "component": "flamberge",
+  "code": "flb",
+  "lineNumber": 43
+ },
+ "flc": {
+  "component": "falchion",
+  "code": "flc",
+  "lineNumber": 38
+ },
+ "fsh": {
+  "component": "npc part 7",
+  "code": "fsh",
+  "lineNumber": 94
+ },
+ "fsp": {
+  "component": "fetish weap 2",
+  "code": "fsp",
+  "lineNumber": 83
+ },
+ "ghm": {
+  "component": "great helm",
+  "code": "ghm",
+  "lineNumber": 112
+ },
+ "glv": {
+  "component": "glaive",
+  "code": "glv",
+  "lineNumber": 40
+ },
+ "got": {
+  "component": "goatee npc head",
+  "code": "got",
+  "lineNumber": 87
+ },
+ "gpl": {
+  "component": "gas potion",
+  "code": "gpl",
+  "lineNumber": 30
+ },
+ "hal": {
+  "component": "halberd",
+  "code": "hal",
+  "lineNumber": 22
+ },
+ "hax": {
+  "component": "handaxe",
+  "code": "hax",
+  "lineNumber": 9
+ },
+ "hbd": {
+  "component": "misc part 4",
+  "code": "hbd",
+  "lineNumber": 60
+ },
+ "hd1": {
+  "component": "zealot head 1",
+  "code": "hd1",
+  "lineNumber": 66
+ },
+ "hd2": {
+  "component": "zealot head 2",
+  "code": "hd2",
+  "lineNumber": 67
+ },
+ "hd3": {
+  "component": "zealot head 3",
+  "code": "hd3",
+  "lineNumber": 68
+ },
+ "hd4": {
+  "component": "zealot head 4",
+  "code": "hd4",
+  "lineNumber": 69
+ },
+ "hed": {
   "component": "pow head",
-  "code": "hed"
+  "code": "hed",
+  "lineNumber": 114
+ },
+ "hev": {
+  "component": "heavy",
+  "code": "hev",
+  "lineNumber": 3
+ },
+ "hod": {
+  "component": "dk head 2",
+  "code": "hod",
+  "lineNumber": 106
+ },
+ "hrn": {
+  "component": "dk head 3",
+  "code": "hrn",
+  "lineNumber": 107
+ },
+ "hvy": {
+  "component": "heavy",
+  "code": "hvy",
+  "lineNumber": 4
+ },
+ "jav": {
+  "component": "javelin",
+  "code": "jav",
+  "lineNumber": 28
+ },
+ "kit": {
+  "component": "kite shield",
+  "code": "kit",
+  "lineNumber": 14
+ },
+ "lax": {
+  "component": "large axe",
+  "code": "lax",
+  "lineNumber": 23
+ },
+ "lbb": {
+  "component": "long battle bow",
+  "code": "lbb",
+  "lineNumber": 33
+ },
+ "lbw": {
+  "component": "long bow",
+  "code": "lbw",
+  "lineNumber": 32
+ },
+ "lhr": {
+  "component": "misc part 3",
+  "code": "lhr",
+  "lineNumber": 59
+ },
+ "lht": {
+  "component": "skmage ltng",
+  "code": "lht",
+  "lineNumber": 50
+ },
+ "lit": {
+  "component": "light",
+  "code": "lit",
+  "lineNumber": 1
+ },
+ "lng": {
+  "component": "fem npc leg 2",
+  "code": "lng",
+  "lineNumber": 99
+ },
+ "lnk": {
+  "component": "siege beast tr",
+  "code": "lnk",
+  "lineNumber": 108
+ },
+ "lrg": {
+  "component": "large shield",
+  "code": "lrg",
+  "lineNumber": 13
+ },
+ "lsd": {
+  "component": "long sword",
+  "code": "lsd",
+  "lineNumber": 16
+ },
+ "lsp": {
+  "component": "dk lh spell",
+  "code": "lsp",
+  "lineNumber": 54
+ },
+ "mac": {
+  "component": "mace",
+  "code": "mac",
+  "lineNumber": 10
+ },
+ "mau": {
+  "component": "maul",
+  "code": "mau",
+  "lineNumber": 24
+ },
+ "med": {
+  "component": "medium",
+  "code": "med",
+  "lineNumber": 2
+ },
+ "mlk": {
+  "component": "siege beast s3",
+  "code": "mlk",
+  "lineNumber": 110
+ },
+ "mtp": {
+  "component": "fem npc tor 2",
+  "code": "mtp",
+  "lineNumber": 102
+ },
+ "nil": {
+  "component": "nil",
+  "code": "nil",
+  "lineNumber": 0
+ },
+ "old": {
+  "component": "old npc head",
+  "code": "old",
+  "lineNumber": 85
+ },
+ "opl": {
+  "component": "exploding pot",
+  "code": "opl",
+  "lineNumber": 29
+ },
+ "pax": {
+  "component": "poleaxe",
+  "code": "pax",
+  "lineNumber": 41
+ },
+ "pha": {
+  "component": "headress2",
+  "code": "pha",
+  "lineNumber": 63
+ },
+ "pik": {
+  "component": "pike",
+  "code": "pik",
+  "lineNumber": 35
+ },
+ "pon": {
+  "component": "headress4",
+  "code": "pon",
+  "lineNumber": 65
+ },
+ "pos": {
+  "component": "skmage pois",
+  "code": "pos",
+  "lineNumber": 52
+ },
+ "red": {
+  "component": "flying scim",
+  "code": "red",
+  "lineNumber": 77
+ },
+ "rol": {
+  "component": "npc part 2",
+  "code": "rol",
+  "lineNumber": 89
+ },
+ "rsg": {
+  "component": "dk part",
+  "code": "rsg",
+  "lineNumber": 56
+ },
+ "rsp": {
+  "component": "dk rh spell",
+  "code": "rsp",
+  "lineNumber": 53
+ },
+ "sak": {
+  "component": "npc part 5",
+  "code": "sak",
+  "lineNumber": 92
+ },
+ "sbb": {
+  "component": "short battle bow",
+  "code": "sbb",
+  "lineNumber": 34
+ },
+ "sbr": {
+  "component": "saber",
+  "code": "sbr",
+  "lineNumber": 39
+ },
+ "sbw": {
+  "component": "short bow",
+  "code": "sbw",
+  "lineNumber": 31
+ },
+ "scm": {
+  "component": "scimitar",
+  "code": "scm",
+  "lineNumber": 11
+ },
+ "scy": {
+  "component": "scythe",
+  "code": "scy",
+  "lineNumber": 25
+ },
+ "shr": {
+  "component": "misc part 2",
+  "code": "shr",
+  "lineNumber": 58
+ },
+ "smc": {
+  "component": "dk weapon",
+  "code": "smc",
+  "lineNumber": 48
+ },
+ "sml": {
+  "component": "small shield",
+  "code": "sml",
+  "lineNumber": 15
+ },
+ "snk": {
+  "component": "npc part 8",
+  "code": "snk",
+  "lineNumber": 95
+ },
+ "spr": {
+  "component": "spear",
+  "code": "spr",
+  "lineNumber": 36
+ },
+ "srt": {
+  "component": "fem npc leg 1",
+  "code": "srt",
+  "lineNumber": 98
+ },
+ "ssd": {
+  "component": "short sword",
+  "code": "ssd",
+  "lineNumber": 18
+ },
+ "stp": {
+  "component": "fem npc tor 3",
+  "code": "stp",
+  "lineNumber": 103
+ },
+ "svt": {
+  "component": "fem npc tor 4",
+  "code": "svt",
+  "lineNumber": 104
+ },
+ "tch": {
+  "component": "torch",
+  "code": "tch",
+  "lineNumber": 20
+ },
+ "th2": {
+  "component": "thornhulkhead2",
+  "code": "th2",
+  "lineNumber": 78
+ },
+ "th3": {
+  "component": "thornhulkhead3",
+  "code": "th3",
+  "lineNumber": 79
+ },
+ "th4": {
+  "component": "thornhulkhead4",
+  "code": "th4",
+  "lineNumber": 80
+ },
+ "th5": {
+  "component": "thornhulkhead5",
+  "code": "th5",
+  "lineNumber": 81
+ },
+ "tkt": {
+  "component": "misc part 5",
+  "code": "tkt",
+  "lineNumber": 61
+ },
+ "tri": {
+  "component": "trident",
+  "code": "tri",
+  "lineNumber": 37
+ },
+ "tur": {
+  "component": "siege beast s1",
+  "code": "tur",
+  "lineNumber": 109
+ },
+ "unh": {
+  "component": "dk unholy",
+  "code": "unh",
+  "lineNumber": 55
+ },
+ "wax": {
+  "component": "waraxe",
+  "code": "wax",
+  "lineNumber": 44
+ },
+ "whm": {
+  "component": "war hammer",
+  "code": "whm",
+  "lineNumber": 26
+ },
+ "whp": {
+  "component": "whip",
+  "code": "whp",
+  "lineNumber": 27
+ },
+ "wnd": {
+  "component": "wand",
+  "code": "wnd",
+  "lineNumber": 17
+ },
+ "wsc": {
+  "component": "warscythe",
+  "code": "wsc",
+  "lineNumber": 45
+ },
+ "wsd": {
+  "component": "warsword",
+  "code": "wsd",
+  "lineNumber": 46
+ },
+ "yng": {
+  "component": "young npc head",
+  "code": "yng",
+  "lineNumber": 84
+ },
+ "zz1": {
+  "component": "zealot torso 1",
+  "code": "zz1",
+  "lineNumber": 70
+ },
+ "zz2": {
+  "component": "zealot torso 2",
+  "code": "zz2",
+  "lineNumber": 71
+ },
+ "zz3": {
+  "component": "zealot torso 3",
+  "code": "zz3",
+  "lineNumber": 72
+ },
+ "zz4": {
+  "component": "zealot torso 4",
+  "code": "zz4",
+  "lineNumber": 73
+ },
+ "zz5": {
+  "component": "zealot torso 5",
+  "code": "zz5",
+  "lineNumber": 74
+ },
+ "zz6": {
+  "component": "zealot torso 6",
+  "code": "zz6",
+  "lineNumber": 75
+ },
+ "zz7": {
+  "component": "zealot torso 7",
+  "code": "zz7",
+  "lineNumber": 76
  }
 }

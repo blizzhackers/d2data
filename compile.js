@@ -71,49 +71,64 @@ function keySort(obj) {
 }
 
 const indexes = {
+	actinfo: 'act',
 	armor: 'code',
-	ArmType: 'Token',
+	armtype: 'Token',
+	bodylocs: 'Code',
+	books: 'Name',
 	charstats: 'class',
+	colors: 'Code',
+	compcode: 'code',
+	composit: 'Name',
+	cubemod: 'Code',
 	difficultylevels: 'Name',
-	ElemTypes: 'Code',
+	elemtypes: 'Code',
 	experience: 'Level',
+	events: 'event',
 	gems: 'code',
+	hitclass: 'Code',
 	inventory: 'class',
-	ItemStatCost: 'Stat',
-	ItemTypes: 'Code',
-	Levels: 'Id',
-	LvlMaze: 'Level',
-	LvlPrest: 'Def',
-	LvlTypes: 'Name',
+	itemstatcost: 'Stat',
+	itemtypes: 'Code',
+	levels: 'Id',
+	lvlmaze: 'Level',
+	lvlprest: 'Def',
+	lvltypes: 'Name',
 	misc: 'code',
-	Missiles: 'Id',
-	MonMode: 'code',
-	monstats: 'hcIdx',
-	monstats2: 'Id',
-	MonType: 'type',
+	misscalc: 'code',
+	missiles: 'Missile',
+	monai: 'AI',
+	monmode: 'code',
+	monprop: 'Id',
+	monstats: '*hcIdx',
+	monstats2: '*hcIdx',
+	monsounds: 'Id',
+	montype: 'type',
+	monumod: 'id',
 	npc: 'npc',
-	ObjMode: 'Token',
-	Overlay: 'overlay',
+	objmode: 'Token',
+	overlay: 'overlay',
 	pettype: 'pet type',
-	PlrMode: 'Code',
-	PlrType: 'Token',
-	PlayerClass: 'Code',
-	Properties: 'code',
-	Runes: 'Rune Name',
-	SetItems: 'index',
-	Sets: 'index',
+	plrmode: 'Code',
+	plrtype: 'Token',
+	playerclass: 'Code',
+	properties: 'code',
+	runes: '*Rune Name',
+	setitems: 'index',
+	sets: 'index',
 	shrines: 'Code',
 	skillcalc: 'code',
-	skills: 'Id',
-	SoundEnviron: 'Index',
-	Sounds: 'Index',
+	skilldesc: 'code',
+	skills: '*Id',
+	soundenviron: 'Index',
+	sounds: '*Index',
 	states: 'state',
-	StorePage: 'Code',
-	SuperUniques: 'hcIdx',
-	TreasureClass: 'Treasure Class',
-	TreasureClassEx: 'Treasure Class',
+	storepage: 'Code',
+	superuniques: 'hcIdx',
+	treasureclassex: 'Treasure Class',
+	uniqueitems: '*ID',
 	weapons: 'code',
-	WeaponClass: 'Code',
+	weaponclass: 'Code',
 };
 
 const filterValues = {
@@ -205,7 +220,7 @@ files.forEach(fn => {
 		console.log(fn, 'was reduced!');
 	}
 
-	if (fn === 'TreasureClassEx') {
+	if (fn === 'treasureclassex') {
 		full[fn].forEach(tc => {
 			let precalc = {};
 
@@ -347,19 +362,19 @@ let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
 	let tc = calcTC(item.level);
 
 	function handleAtomic(itemType) {
-		if (full.ItemTypes[itemType]) {
-			if (full.ItemTypes[itemType].TreasureClass) {
+		if (full.itemtypes[itemType]) {
+			if (full.itemtypes[itemType].TreasureClass) {
 				atomicTypes[itemType] = true;
 				atomic[itemType + tc] = atomic[itemType + tc] || {};
 				atomic[itemType + tc][item.code] = item.code;		
 			}
 
-			if (full.ItemTypes[itemType].Equiv1) {
-				handleAtomic(full.ItemTypes[itemType].Equiv1);
+			if (full.itemtypes[itemType].Equiv1) {
+				handleAtomic(full.itemtypes[itemType].Equiv1);
 			}
 
-			if (full.ItemTypes[itemType].Equiv2) {
-				handleAtomic(full.ItemTypes[itemType].Equiv2);
+			if (full.itemtypes[itemType].Equiv2) {
+				handleAtomic(full.itemtypes[itemType].Equiv2);
 			}
 		}
 	}
@@ -379,7 +394,7 @@ atomic.forEach((atom, atomName) => {
 	let precalc = {}, total = 0, otherChance = 1;
 
 	atom = atom.map(itc => {
-		let rarity = full.ItemTypes[items[itc].type].Rarity | 0;
+		let rarity = full.itemtypes[items[itc].type].Rarity | 0;
 		total += rarity;
 		return rarity;
 	}).map(chance => chance / total);
@@ -415,7 +430,7 @@ const tcKey = [
 
 let groupsEx = {};
 
-full.TreasureClassEx.forEach((tc, key) => {
+full.treasureclassex.forEach((tc, key) => {
 	if (tc.group) {
 		groupsEx[tc.group] = groupsEx[tc.group] || [];
 		groupsEx[tc.group][tc.level|0] = key;
@@ -429,64 +444,4 @@ groupsEx = groupsEx.map(group => {
 	return group;
 });
 
-fs.writeFileSync(outDir + 'TreasureClassGroupsEx.json', JSON.stringify(groupsEx, null, ' '));
-
-delete full.Sounds;
-delete full.Missiles;
-delete full.objects;
-delete full.LvlPrest;
-delete full.inventory;
-delete full.ItemStatCost;
-delete full.ItemTypes;
-delete full.MonMode;
-delete full.Overlay;
-delete full.PlrMode;
-delete full.SoundEnviron;
-delete full.states;
-delete full.UniqueAppellation;
-delete full.UniquePrefix;
-delete full.UniqueSuffix;
-delete full.UniqueUniqueTitle;
-delete full.Aiparms;
-delete full.Arena;
-delete full.ArmType;
-delete full.AutoMap;
-delete full.belts;
-delete full.bodylocs;
-delete full.colors;
-delete full.compcode;
-delete full.Composit;
-delete full.cubemod;
-delete full.cubetype;
-delete full.events;
-delete full.gamble;
-delete full.hiredesc;
-delete full.HitClass;
-delete full.lowqualityitems;
-delete full.LvlWarp;
-delete full.misscalc;
-delete full.monai;
-delete full.monequip;
-delete full.MonItemPercent;
-delete full.MonName;
-delete full.MonPlace;
-delete full.MonPreset;
-delete full.MonProp;
-delete full.monseq;
-delete full.monsounds;
-delete full.monstats2;
-delete full.monumod;
-delete full.objgroup;
-delete full.ObjMode;
-delete full.ObjType;
-delete full.pettype;
-delete full.PlrType;
-delete full.qualityitems;
-delete full.RarePrefix;
-delete full.RareSuffix;
-delete full.skillcalc;
-delete full.skilldesc;
-delete full.StorePage
-delete full.WeaponClass;
-
-fs.writeFileSync(outDir + 'aggregate.json', JSON.stringify(keySort(full)));
+fs.writeFileSync(outDir + 'treasureclassgroupsex.json', JSON.stringify(groupsEx, null, ' '));
