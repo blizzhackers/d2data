@@ -30,9 +30,9 @@ let $ = document.querySelector.bind(document);
 			},
 			fontSize: 1,
 			d2: {
-				MonLvl: fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/MonLvl.json').then(response => response.json()),
+				MonLvl: fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/monlvl.json').then(response => response.json()),
 				monstats: fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/monstats.json').then(response => response.json()),
-				Levels: fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/Levels.json').then(response => response.json()),
+				Levels: fetch('https://raw.githubusercontent.com/blizzhackers/d2data/master/json/levels.json').then(response => response.json()),
 			},
 			requiredAreas: [ // Areas that we're forced to deal with through questing.
 				// Act 1
