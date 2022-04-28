@@ -433,7 +433,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									chance: lchance,
 									tooltip: [
 										'Id: ' + level.Id,
-										'mlvl: ' + level[['MonLvl1Ex', 'MonLvl2Ex', 'MonLvl3Ex'][diff]] || 0,
+										'mlvl: ' + level[['MonLvlEx', 'MonLvlEx(N)', 'MonLvlEx(H)'][diff]] || 0,
 										'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
 									].filter(Boolean).join('\n'),
 								});	
