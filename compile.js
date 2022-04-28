@@ -242,7 +242,8 @@ files.forEach(fn => {
 							for (let c = 1; c <= 9; c++) {
 								if (tc['Item' + c]) {
 									let prob = otherChance * (tc['Prob' + c] | 0) / total; 
-									otherChance = Math.max(0, otherChance - (tc['Prob' + c] | 0) / total);
+									// otherChance = Math.max(0, otherChance - (tc['Prob' + c] | 0) / total);
+									otherChance = Math.max(0, otherChance - prob);
 									rollingprecalc[exp] = rollingprecalc[exp] || {};
 									rollingprecalc[exp][tc['Item' + c]] = rollingprecalc[exp][tc['Item' + c]] || 0;
 									rollingprecalc[exp][tc['Item' + c]] += prob;
