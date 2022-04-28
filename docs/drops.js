@@ -120,6 +120,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				pageTitle: 'Diablo 2 Drop Calculator',
 				params: {
 					mf: 0,
+					rolling: false,
 					players: 1,
 					group: 1,
 					minilvl: 0,
@@ -127,6 +128,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				},
 				parammap: [
 					{key: 'mf', type: 'Uint', size: 2},
+					{key: 'rolling', type: 'Uint', size: 1},
 					{key: 'players', type: 'Uint', size: 1},
 					{key: 'group', type: 'Uint', size: 1},
 					{key: 'minilvl', type: 'Uint', size: 1},
@@ -493,7 +495,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 						//let picks = (1 + tc.Picks) / 2;
 						let aggchance = 0;
 						
-						tc.precalc[this.exp].forEach((chance, item) => {
+						(this.params.rolling ? tc.rollingprecalc : tc.precalc)[this.exp].forEach((chance, item) => {
 							aggchance += chance * dopick(item);
 						});
 
