@@ -87,7 +87,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 		return dv;
 	}
 
-	let baseurl = 'https://raw.githubusercontent.com/blizzhackers/d2data/master/json/'; // https://api.blizzhackers.dev/json/d2/
+	let baseurl = 'https://raw.githubusercontent.com/blizzhackers/d2data/1.14d/json/'; // https://api.blizzhackers.dev/json/d2/
 
 	new Vue({
 		el: '#dropsapp',
