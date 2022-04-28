@@ -120,7 +120,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				pageTitle: 'Diablo 2 Drop Calculator',
 				params: {
 					mf: 0,
-					rolling: false,
+					rolling: 1,
 					players: 1,
 					group: 1,
 					minilvl: 0,
