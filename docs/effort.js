@@ -189,7 +189,7 @@ let $ = document.querySelector.bind(document);
 	
 								party.forEach(mondata => {
 									let [mon, rarity] = mondata,
-										monlvl = this.d2.MonLvl[[mon.Level, level.MonLvl2Ex, level.MonLvl3Ex][diff]],
+										monlvl = this.d2.MonLvl[[mon.Level, level['MonLvlEx(N)'], level['MonLvlEx(H)']][diff]],
 										hp = ((mon.minHP || 0) + (mon.maxHP || 0)) / 200 * monlvl['HP' + diffabv],
 										xp = (mon.Exp || 0) / 100 * monlvl['XP' + diffabv];
 									let calc = (resKey, resName) => {
