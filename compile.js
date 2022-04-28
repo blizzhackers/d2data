@@ -235,7 +235,7 @@ files.forEach(fn => {
 	
 					total = basetotal + nodrop;
 
-					{
+					{ // Rolling precalc
 						let otherChance = 1 - (nodrop / total);
 		
 						for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
@@ -251,7 +251,7 @@ files.forEach(fn => {
 						}
 					}	
 
-					{
+					{ // Flat precalc
 						for (let c = 1; c <= 9; c++) {
 							if (tc['Item' + c]) {
 								let prob = (tc['Prob' + c] | 0) / total; 
