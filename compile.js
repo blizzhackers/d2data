@@ -488,46 +488,44 @@ let monpopulation = {};
 				ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * 3,
 				count = acount - ucount - ccount - scount - bcount;
 
-			if (acount <= 0 || count <= 0) {
-				return;
+			if (count > 0) {
+				let totalpackssize = 0,
+					udiv = 0;
+
+				forEachMonster(level, diff, (mon, mlvl, type) => {
+					if (!type) {
+						let m = (key) => mon[key] || 0;
+						let packsize = avg(
+							m("PartyMin") + m("PartyMax"),
+							m("MinGrp") + m("MaxGrp")
+						);
+
+						totalpackssize += packsize;
+					}
+
+					if (type === 2) {
+						udiv++;
+					}
+				});
+
+				forEachMonster(level, diff, (mon, mlvl, type) => {
+					let mult = [
+						count / totalpackssize,
+						ccount / 3 / udiv,
+						ucount / 5.5 / udiv,
+					][type];
+					monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] = monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] || {
+						"mlvl": 0,
+						"packCount": 0,
+						"mlvl(N)": 0,
+						"packCount(N)": 0,
+						"mlvl(H)": 0,
+						"packCount(H)": 0,
+					};
+					monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('mlvl')] = mlvl;
+					monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('packCount')] = mult;
+				});
 			}
-
-			let totalpackssize = 0,
-				udiv = 0;
-
-			forEachMonster(level, diff, (mon, mlvl, type) => {
-				if (!type) {
-					let m = (key) => mon[key] || 0;
-					let packsize = avg(
-						m("PartyMin") + m("PartyMax"),
-						m("MinGrp") + m("MaxGrp")
-					);
-
-					totalpackssize += packsize;
-				}
-
-				if (type === 2) {
-					udiv++;
-				}
-			});
-
-			forEachMonster(level, diff, (mon, mlvl, type) => {
-				let mult = [
-					count / totalpackssize,
-					ccount / 3 / udiv,
-					ucount / 5.5 / udiv,
-				][type];
-				monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] = monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] || {
-					"mlvl": 0,
-					"packCount": 0,
-					"mlvl(N)": 0,
-					"packCount(N)": 0,
-					"mlvl(H)": 0,
-					"packCount(H)": 0,
-				};
-				monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('mlvl')] = mlvl;
-				monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('packCount')] = mult;
-			});
 
 			supers.forEach((sup) => {
 				let mon = full.monstats[sup.Class],
