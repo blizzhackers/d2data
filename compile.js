@@ -7,52 +7,7 @@
  * @todo Refactor it, since I hacked it together fairly quickly.
  */
 
-Object.defineProperty(Object.prototype, 'forEach', {
-    value: function (func) {
-        Object.keys(this).forEach(key => {
-            func(this[key], key, this);
-        });
-    },
-});
-
-Object.defineProperty(Object.prototype, 'map', {
-    value: function (func) {
-        let ret = {};
-    
-        Object.keys(this).forEach(key => {
-            ret[key] = func(this[key], key, this);
-        });
-    
-        return ret;
-    },
-});
-
-Object.defineProperty(Object.prototype, 'filter', {
-    value: function (func = v => Boolean(v)) {
-        let ret = {};
-    
-        Object.keys(this).forEach(key => {
-            if(func.apply && func(this[key], key, this)) {
-                ret[key] = this[key];
-            }
-        });
-    
-        return ret;
-    },
-});
-
-Object.defineProperty(Object.prototype, 'toArray', {
-    value: function () {
-        let ret = [];
-    
-        for (let key in this) {
-            ret.push([key, this[key]]);
-        }
-    
-        return ret;
-    },
-});
-
+require('./objextn.js');
 const fs = require('fs');
 const lineEnd = /[\n\r]+/g, fieldEnd = /\t/g, full = {};
 const inDir = 'txt/';
@@ -99,8 +54,8 @@ const indexes = {
 	monai: 'AI',
 	monmode: 'code',
 	monprop: 'Id',
-	monstats: '*hcIdx',
-	monstats2: '*hcIdx',
+	monstats: 'Id',
+	monstats2: 'Id',
 	monsounds: 'Id',
 	montype: 'type',
 	monumod: 'id',
@@ -123,7 +78,7 @@ const indexes = {
 	sounds: '*Index',
 	states: 'state',
 	storepage: 'Code',
-	superuniques: 'hcIdx',
+	superuniques: 'Superunique',
 	treasureclassex: 'Treasure Class',
 	uniqueitems: '*ID',
 	weapons: 'code',
@@ -271,75 +226,75 @@ files.forEach(fn => {
 	}
 
 	if (fn === 'superuniques') {
-		full[fn][0].areaId = 3;
-		full[fn][1].areaId = 18;
-		full[fn][2].areaId = 9;
-		full[fn][3].areaId = 4;
-		full[fn][4].areaId = 5;
-		full[fn][5].areaId = 38;
-		full[fn][6].areaId = 25;
-		full[fn][7].areaId = 30;
-		full[fn][9].areaId = 33;
-		full[fn][10].areaId = 49;
-		full[fn][11].areaId = 60;
-		full[fn][12].areaId = 61;
-		full[fn][13].areaId = 43;
-		full[fn][14].areaId = 59;
-		full[fn][15].areaId = 64;
-		full[fn][16].areaId = 54;
-		full[fn][17].areaId = 44;
-		full[fn][18].areaId = 74;
-		full[fn][20].areaId = 28;
-		full[fn][21].areaId = 85;
-		full[fn][22].areaId = 91;
-		full[fn][23].areaId = 78;
-		full[fn][24].areaId = 94;
-		full[fn][25].areaId = 92;
-		full[fn][26].areaId = 83;
-		full[fn][27].areaId = 83;
-		full[fn][28].areaId = 102;
-		full[fn][29].areaId = 83;
-		full[fn][30].areaId = 102;
-		full[fn][31].areaId = 102;
-		full[fn][36].areaId = 108;
-		full[fn][37].areaId = 108;
-		full[fn][38].areaId = 108;
-		full[fn][39].areaId = 39;
-		full[fn][40].areaId = 8;
-		full[fn][41].areaId = 107;
-		full[fn][42].areaId = 110;
-		full[fn][43].areaId = 120;
-		full[fn][44].areaId = 120;
-		full[fn][45].areaId = 120;
-		full[fn][47].areaId = 115;
-		full[fn][48].areaId = 110;
-		full[fn][49].areaId = 111;
-		full[fn][50].areaId = 111;
-		full[fn][51].areaId = 112;
-		full[fn][52].areaId = 121;
-		full[fn][53].areaId = 119;
-		full[fn][56].areaId = 111;
-		full[fn][59].areaId = 114;
-		full[fn][60].areaId = 124;
-		full[fn][61].areaId = 131;
-		full[fn][62].areaId = 131;
-		full[fn][63].areaId = 131;
-		full[fn][64].areaId = 131;
-		full[fn][65].areaId = 131;
+		full[fn]['Bishibosh'].areaId = 3;
+		full[fn]['Bonebreak'].areaId = 18;
+		full[fn]['Coldcrow'].areaId = 9;
+		full[fn]['Rakanishu'].areaId = 4;
+		full[fn]['Treehead WoodFist'].areaId = 5;
+		full[fn]['Griswold'].areaId = 38;
+		full[fn]['The Countess'].areaId = 25;
+		full[fn]['Pitspawn Fouldog'].areaId = 30;
+		full[fn]['Boneash'].areaId = 33;
+		full[fn]['Radament'].areaId = 49;
+		full[fn]['Bloodwitch the Wild'].areaId = 60;
+		full[fn]['Fangskin'].areaId = 61;
+		full[fn]['Beetleburst'].areaId = 43;
+		full[fn]['Leatherarm'].areaId = 59;
+		full[fn]['Coldworm the Burrower'].areaId = 64;
+		full[fn]['Fire Eye'].areaId = 54;
+		full[fn]['Dark Elder'].areaId = 44;
+		full[fn]['The Summoner'].areaId = 74;
+		full[fn]['The Smith'].areaId = 28;
+		full[fn]['Web Mage the Burning'].areaId = 85;
+		full[fn]['Witch Doctor Endugu'].areaId = 91;
+		full[fn]['Stormtree'].areaId = 78;
+		full[fn]['Sarina the Battlemaid'].areaId = 94;
+		full[fn]['Icehawk Riftwing'].areaId = 92;
+		full[fn]['Ismail Vilehand'].areaId = 83;
+		full[fn]['Geleb Flamefinger'].areaId = 83;
+		full[fn]['Bremm Sparkfist'].areaId = 102;
+		full[fn]['Toorc Icefist'].areaId = 83;
+		full[fn]['Wyand Voidfinger'].areaId = 102;
+		full[fn]['Maffer Dragonhand'].areaId = 102;
+		full[fn]['Infector of Souls'].areaId = 108;
+		full[fn]['Lord De Seis'].areaId = 108;
+		full[fn]['Grand Vizier of Chaos'].areaId = 108;
+		full[fn]['The Cow King'].areaId = 39;
+		full[fn]['Corpsefire'].areaId = 8;
+		full[fn]['The Feature Creep'].areaId = 107;
+		full[fn]['Siege Boss'].areaId = 110;
+		full[fn]['Ancient Barbarian 1'].areaId = 120;
+		full[fn]['Ancient Barbarian 2'].areaId = 120;
+		full[fn]['Ancient Barbarian 3'].areaId = 120;
+		full[fn]['Bonesaw Breaker'].areaId = 115;
+		full[fn]['Dac Farren'].areaId = 110;
+		full[fn]['Megaflow Rectifier'].areaId = 111;
+		full[fn]['Eyeback Unleashed'].areaId = 111;
+		full[fn]['Threash Socket'].areaId = 112;
+		full[fn]['Pindleskin'].areaId = 121;
+		full[fn]['Snapchip Shatter'].areaId = 119;
+		full[fn]['Sharp Tooth Sayer'].areaId = 111;
+		full[fn]['Frozenstein'].areaId = 114;
+		full[fn]['Nihlathak Boss'].areaId = 124;
+		full[fn]['Baal Subject 1'].areaId = 131;
+		full[fn]['Baal Subject 2'].areaId = 131;
+		full[fn]['Baal Subject 3'].areaId = 131;
+		full[fn]['Baal Subject 4'].areaId = 131;
+		full[fn]['Baal Subject 5'].areaId = 131;
 	}
 
 	if (fn === 'monstats') {
-		full[fn][156].areaId = 37;
-		full[fn][211].areaId = 73;
-		full[fn][242].areaId = 102;
-		full[fn][243].areaId = 108;
-		full[fn][544].areaId = 132;
-		full[fn][704].areaId = 136;
-		full[fn][705].areaId = 136;
-		full[fn][706].areaId = 135;
-		full[fn][707].areaId = 133;
-		full[fn][708].areaId = 134;
-		full[fn][709].areaId = 136;
+		full[fn]['andariel'].areaId = 37;
+		full[fn]['duriel'].areaId = 73;
+		full[fn]['mephisto'].areaId = 102;
+		full[fn]['diablo'].areaId = 108;
+		full[fn]['baalcrab'].areaId = 132;
+		full[fn]['ubermephisto'].areaId = 136;
+		full[fn]['uberdiablo'].areaId = 136;
+		full[fn]['uberizual'].areaId = 135;
+		full[fn]['uberandariel'].areaId = 133;
+		full[fn]['uberduriel'].areaId = 134;
+		full[fn]['uberbaal'].areaId = 136;
 	}
 });
 
@@ -448,3 +403,162 @@ groupsEx = groupsEx.map(group => {
 });
 
 fs.writeFileSync(outDir + 'treasureclassgroupsex.json', JSON.stringify(groupsEx, null, ' '));
+
+function avg(...nums) {
+	return nums.reduce((t, v) => t + v, 0) / nums.length || 0;
+}
+
+function _s(diff) {
+	return (str) => str + ["", "(N)", "(H)"][diff];
+}
+
+function monlevel(mon, level, diff) {
+	if (!diff) {
+		return mon["Level"] || 0;
+	}
+
+	let s = _s(diff),
+		lvl = level[s("MonLvlEx")] || 0,
+		mlvl = mon[s("Level")] || 0;
+
+	return lvl > mlvl ? lvl : mlvl;
+}
+
+function forEachMonster(level, diff, func) {
+	let s = _s(diff);
+
+	[0, 1, 2].forEach((type) => {
+		if (type && !level[s("MonUMin")] && !level[s("MonUMax")]) {
+			return;
+		}
+
+		let m = (num) => level[(diff ? "nmon" : type ? "umon" : "mon") + num];
+
+		for (let c = 1; c <= 9; c++) {
+			if (m(c)) {
+				let mon = full.monstats[m(c)];
+
+				if (mon && mon.enabled && mon.killable) {
+					let mlvl = monlevel(mon, level, diff) + [0, 2, 3][type];
+
+					func(mon, mlvl, type);
+				}
+			}
+		}
+	});
+}
+
+const moncountest = require('./json/moncountest.json');
+
+let monpopulation = {};
+
+[0, 1, 2].forEach((diff) => {
+	let s = _s(diff);
+	full.levels.forEach((level) => {
+		let l = (key) => level[key] || 0;
+
+		monpopulation[level.Id] = monpopulation[level.Id] || {
+			'normal': {},
+			'champion': {},
+			'unique': {},
+			'superunique': {},
+			'boss': {},
+		};
+
+		if (level.Id) {
+			let supers = full.superuniques.filter(s => s.areaId == level.Id || (s.hcIdx === 19 && [66, 67, 68, 69, 70, 71, 72].includes(level.Id | 0))),
+				bosses = full.monstats.filter((mon) => mon.areaId == level.Id),
+				acount = (moncountest[level.Id] && moncountest[level.Id][diff]) || 0,
+				scount = supers.reduce((total, sup) => {
+					return (
+						total +
+						1 +
+						diff +
+						((sup["MinGrp"] || 0) + (sup["MaxGrp"] || 0)) / 2
+					);
+				}, 0),
+				bcount = bosses.reduce((total, mon) => {
+					return (
+						total + 1 + +((mon["MinGrp"] || 0) + (mon["MaxGrp"] || 0)) / 2
+					);
+				}, 0),
+				ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.8 * 5.5,
+				ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * 3,
+				count = acount - ucount - ccount - scount - bcount;
+
+			if (acount <= 0 || count <= 0) {
+				return;
+			}
+
+			let totalpackssize = 0,
+				udiv = 0;
+
+			forEachMonster(level, diff, (mon, mlvl, type) => {
+				if (!type) {
+					let m = (key) => mon[key] || 0;
+					let packsize = avg(
+						m("PartyMin") + m("PartyMax"),
+						m("MinGrp") + m("MaxGrp")
+					);
+
+					totalpackssize += packsize;
+				}
+
+				if (type === 2) {
+					udiv++;
+				}
+			});
+
+			forEachMonster(level, diff, (mon, mlvl, type) => {
+				let mult = [
+					count / totalpackssize,
+					ccount / 3 / udiv,
+					ucount / 5.5 / udiv,
+				][type];
+				monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] = monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] || {
+					"mlvl": 0,
+					"packCount": 0,
+					"mlvl(N)": 0,
+					"packCount(N)": 0,
+					"mlvl(H)": 0,
+					"packCount(H)": 0,
+				};
+				monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('mlvl')] = mlvl;
+				monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('packCount')] = mult;
+			});
+
+			supers.forEach((sup) => {
+				let mon = full.monstats[sup.Class],
+					mlvl = monlevel(mon, level, diff) + 3;
+
+				monpopulation[level.Id]['superunique'][sup.Superunique] = monpopulation[level.Id]['superunique'][sup.Superunique] || {
+					"mlvl": 0,
+					"packCount": 0,
+					"mlvl(N)": 0,
+					"packCount(N)": 0,
+					"mlvl(H)": 0,
+					"packCount(H)": 0,
+				};
+				monpopulation[level.Id]['superunique'][sup.Superunique][s('mlvl')] = mlvl;
+				monpopulation[level.Id]['superunique'][sup.Superunique][s('packCount')] = sup.hcIdx === 19 ? 1 / 7 : 1;
+			});
+
+			bosses.forEach((mon) => {
+				let mlvl = monlevel(mon, level, diff);
+
+				monpopulation[level.Id]['boss'][mon.Id] = monpopulation[level.Id]['boss'][mon.Id] || {
+					"mlvl": 0,
+					"packCount": 0,
+					"mlvl(N)": 0,
+					"packCount(N)": 0,
+					"mlvl(H)": 0,
+					"packCount(H)": 0,
+				};
+				monpopulation[level.Id]['boss'][mon.Id][s('mlvl')] = mlvl;
+				monpopulation[level.Id]['boss'][mon.Id][s('packCount')] = 1;
+			});
+		}
+	});
+});
+
+fs.writeFileSync(outDir + 'monpopulationest.json', JSON.stringify(monpopulation, null, ' '));

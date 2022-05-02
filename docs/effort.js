@@ -346,11 +346,6 @@ let $ = document.querySelector.bind(document);
 				this.d2[key] = await this.d2[key];
 			}
 
-			let newmonstats = {};
-			for (let index in this.d2.monstats) {
-				newmonstats[this.d2.monstats[index].Id] = this.d2.monstats[index];
-			}
-			this.d2.monstats = newmonstats;
 			this.calculateEfforts();
 			this.visible = true;
 
