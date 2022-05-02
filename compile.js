@@ -308,6 +308,8 @@ const items = Object.assign(
 	full.misc
 );
 
+fs.writeFileSync(outDir + 'weapons-armor-misc.json', JSON.stringify(items, null, ' '));
+
 let atomic = {};
 let atomicTypes = {};
 let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
