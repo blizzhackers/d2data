@@ -589,6 +589,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 							ccount = this.avg(l(s('MonUMin')), l(s('MonUMax'))) * 0.2 * 3,
 							count = acount - ucount - ccount - scount - bcount;
 
+						if (count <= 0 || acount <= 0) {
+							return;
+						}
+
 						let totalpackssize = 0, udiv = 0;
 
 						this.forEachMonster(level, diff, (mon, mlvl, type) => {
