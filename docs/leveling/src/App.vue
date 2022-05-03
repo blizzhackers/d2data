@@ -7,7 +7,14 @@ import monlvl from "../../../json/monlvl.json";
 import levels from "../../../json/levels.json";
 import monstats from "../../../json/monstats.json";
 import monpopulationest from "../../../json/monpopulationest.json";
+import moncountest from "../../../json/moncountest.json";
 import superuniques from "../../../json/superuniques.json";
+
+levels[47]['*StringName'] = 'Act 2 ' + levels[47]['*StringName'];
+levels[48]['*StringName'] = 'Act 2 ' + levels[48]['*StringName'];
+levels[49]['*StringName'] = 'Act 2 ' + levels[49]['*StringName'];
+levels[92]['*StringName'] = 'Act 3 ' + levels[92]['*StringName'];
+levels[93]['*StringName'] = 'Act 3 ' + levels[93]['*StringName'];
 
 // 57e2f6
 const expCurve = [13, 16, 110, 159, 207, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 225, 174, 92, 38, 5];
@@ -15,10 +22,12 @@ const expPenalty = [1024, 976, 928, 880, 832, 784, 736, 688, 640, 592, 544, 496,
 
 const data = reactive({
   level: 1,
-  perKill: 0,
+  mindmg: 1,
+  maxdmg: 1,
   damageType: '',
   areaRestrict: 'combat',
-  minGrade: 90,
+  areaSizeNormalize: 1,
+  minGrade: 60,
   clearMode: 'all',
 });
 
@@ -42,83 +51,104 @@ function expModifier (mlvl) {
   return lvlmod * diffmod / 1024 / 255;
 }
 
-function monEffort (monId, mlvl, diff, superId) {
-  let ret = expModifier(mlvl) * (monlvl[mlvl][s('L-XP', diff)] || 0) / (data.perKill ? 1 : (monlvl[mlvl][s('L-HP', diff)] || 0));
+function monEffort (monId, mlvl, diff, type, superId) {
+  let exp = expModifier(mlvl) * (monlvl[mlvl][s('L-XP', diff)] || 0),
+    hp = (monlvl[mlvl][s('L-HP', diff)] || 0) * (
+      (monstats[monId][['minHP', 'MinHP(N)', 'MinHP(H)'][diff]] || 0) +
+      (monstats[monId][['maxHP', 'MaxHP(N)', 'MaxHP(H)'][diff]] || 0)
+    ) / 200,
+    dmg = 1;
 
-  if (monId && monstats[monId]) {
-    if (data.damageType) {
-      let res = monstats[monId][s('Res' + data.damageType, diff)] || 0;
+  let minion = type === -1;
 
-      if (superId) {
-        let mods = {}, c = 1;
+  if (minion) {
+    type = 0;
+    exp *= 5;
+  }
+  else {
+    exp *= [1, 3, 5, 5, 5][type];
+  }
 
-        for (let c = 1; c < 5; c++) {
-          if (superuniques[superId]['Mod' + c]) {
-            mods[superuniques[superId]['Mod' + c]] = superuniques[superId]['Mod' + c];
-          }
-        }
+  hp *= minion ? [2, 1.75, 1.5][diff] : [
+    1,
+    [3, 2.5, 2][diff],
+    [4, 3, 2][diff],
+    [4, 3, 2][diff],
+    1,
+  ][type];
 
-        switch (data.damageType) {
-          case 'Dm':
-            if (mods[28]) {
-              res += 50;
-            }
+  if (data.damageType) {
+    let res = monstats[monId][s('Res' + data.damageType, diff)] || 0;
 
-            break;
-          case 'Fi':
-            if (mods[9]) {
-              res += diff === 2 ? 100 : 75;
-            }
+    dmg = (data.mindmg + data.maxdmg) / 2;
 
-            if (mods[8]) {
-              res += 40;
-            }
+    if (superId) {
+      let mods = {};
 
-            break;
-          case 'Li':
-            if (mods[17]) {
-              res += diff === 2 ? 100 : 75;
-            }
-
-            if (mods[8]) {
-              res += 40;
-            }
-
-            break;
-          case 'Co':
-            if (mods[18]) {
-              res += diff === 2 ? 100 : 75;
-            }
-
-            if (mods[8]) {
-              res += 40;
-            }
-
-            break;
-          case 'Po':
-            if (mods[9]) {
-              res += diff === 2 ? 100 : 75;
-            }
-
-            if (mods[8]) {
-              res += 40;
-            }
-
-            break;
+      for (let c = 1; c < 5; c++) {
+        if (superuniques[superId]['Mod' + c]) {
+          mods[superuniques[superId]['Mod' + c]] = superuniques[superId]['Mod' + c];
         }
       }
-      
-      let resmod = clamp(-1, 1 - res / 100, 1);
 
-      ret *= resmod;
-    }
+      switch (data.damageType) {
+        case 'Dm':
+          if (mods[28]) {
+            res += 50;
+          }
 
-    if (monstats[monId][s('Exp')] !== undefined) {
-      ret *= monstats[monId][s('Exp')] / 100;
+          break;
+        case 'Fi':
+          if (mods[9]) {
+            res += diff === 2 ? 100 : 75;
+          }
+
+          if (mods[8]) {
+            res += 40;
+          }
+
+          break;
+        case 'Li':
+          if (mods[17]) {
+            res += diff === 2 ? 100 : 75;
+          }
+
+          if (mods[8]) {
+            res += 40;
+          }
+
+          break;
+        case 'Co':
+          if (mods[18]) {
+            res += diff === 2 ? 100 : 75;
+          }
+
+          if (mods[8]) {
+            res += 40;
+          }
+
+          break;
+        case 'Po':
+          if (mods[9]) {
+            res += diff === 2 ? 100 : 75;
+          }
+
+          if (mods[8]) {
+            res += 40;
+          }
+
+          break;
+      }
     }
+    
+    hp /= clamp(0, 1 - res / 100, 2);
   }
-  
-  return ret;
+
+  exp *= (monstats[monId][s('Exp')] || 0) / 100;
+
+  let hitstokill = isFinite(hp) ? Math.max(1, Math.ceil(hp / dmg)) : Infinity;
+
+  return exp / hitstokill;
 }
 
 function s(key, diff) {
@@ -126,7 +156,7 @@ function s(key, diff) {
 }
 
 function t(key, diff) {
-  return '' + key + [' (N)', ' (NM)', ' (H)'][diff || 0];
+  return '' + key + [' (norm)', ' (nm)', ' (hell)'][diff || 0];
 }
 
 const grades = [
@@ -159,6 +189,8 @@ const results = computed(() => {
   let ret = {};
 
   [0, 1, 2].forEach(diff => {
+    let makelvlkey = lvlId => t(levels[lvlId]['*StringName'] + ' [ID ' + lvlId + ']', diff);
+
     monpopulationest.forEach((leveldata, lvlId) => {
       if (data.level < 20 && (data.areaRestrict !== 'any' && diff > 0 || diff >= 0 && lvlId >= 128)) {
         return;
@@ -172,47 +204,53 @@ const results = computed(() => {
         return;
       }
 
-      if (lvlId > 132) {
+      if ([32, 133, 134, 135, 136].includes(lvlId | 0)) {
         return;
       }
 
-      leveldata.normal.forEach((monData, monId) => {
-        let mlvl = monData[s('mlvl', diff)] || 0,
-          packCount = monData[s('packCount', diff)] || 0,
-          lvlkey = t(levels[lvlId]['*StringName'] + ' [ID ' + lvlId + ']', diff),
-          group = ((monstats[monId]['MinGrp'] || 0) + (monstats[monId]['MaxGrp'] || 0)) / 2,
-          party = ((monstats[monId]['PartyMin'] || 0) + (monstats[monId]['PartyMax'] || 0)) / 2,
-          minions = [
-            monstats[monId]['minion1'] || null,
-            monstats[monId]['minion2'] || null,
-          ].filter(Boolean);
+      if (!moncountest[lvlId]) {
+        return;
+      }
 
-        if (data.areaRestrict === 'combat' && mlvl > data.level + 5) {
-          return;
-        }
+      let totalest = (moncountest[lvlId][diff] || 0)**data.areaSizeNormalize;
 
-        if (mlvl > 0 && packCount > 0) {
-          ret[lvlkey] = ret[lvlkey] || 0;
+      if (totalest <= 0) {
+        return;
+      }
 
-          if (data.clearMode !== 'champs') {
-            ret[lvlkey] += monEffort(monId, mlvl, diff) * packCount * group;
+      if (['all', 'norm'].includes(data.clearMode)) {
+        leveldata.normal.forEach((monData, monId) => {
+          let mlvl = monData[s('mlvl', diff)] || 0,
+            packCount = monData[s('packCount', diff)] || 0,
+            lvlkey = makelvlkey(lvlId),
+            group = ((monstats[monId]['MinGrp'] || 0) + (monstats[monId]['MaxGrp'] || 0)) / 2,
+            party = ((monstats[monId]['PartyMin'] || 0) + (monstats[monId]['PartyMax'] || 0)) / 2,
+            minions = [
+              monstats[monId]['minion1'] || null,
+              monstats[monId]['minion2'] || null,
+            ].filter(Boolean);
+
+          if (data.areaRestrict === 'combat' && mlvl > data.level + 5) {
+            return;
           }
 
-          if (minions.length && party > 0) {
-            minions.forEach(minionId => {
-              if (data.clearMode !== 'champs') {
-                ret[lvlkey] += monEffort(minionId, mlvl, diff) * packCount * party / minions.length;
-              }
-            });
-          }
+          if (mlvl > 0 && packCount > 0) {
+            ret[lvlkey] = ret[lvlkey] || 0;
+            ret[lvlkey] += monEffort(monId, mlvl, diff) * packCount * group / totalest;
 
-        }
-      });
+            if (minions.length && party > 0) {
+              minions.forEach(minionId => {
+                ret[lvlkey] += monEffort(minionId, mlvl, diff) * packCount * party / minions.length / totalest;
+              });
+            }
+          }
+        });
+      }
 
       leveldata.champion.forEach((monData, monId) => {
         let mlvl = (monData[s('mlvl', diff)] || 0) + 2,
           packCount = monData[s('packCount', diff)] || 0,
-          lvlkey = t(levels[lvlId]['*StringName'] + ' [ID ' + lvlId + ']', diff),
+          lvlkey = makelvlkey(lvlId),
           group = 3,
           party = ((monstats[monId]['PartyMin'] || 0) + (monstats[monId]['PartyMax'] || 0)) / 2,
           minions = [
@@ -227,13 +265,13 @@ const results = computed(() => {
         if (mlvl > 0 && packCount > 0) {
           ret[lvlkey] = ret[lvlkey] || 0;
 
-          if (data.clearMode !== 'norm') {
-            ret[lvlkey] += monEffort(monId, mlvl, diff) * 3 * packCount * group;
+          if (['all', 'champs'].includes(data.clearMode)) {
+            ret[lvlkey] += monEffort(monId, mlvl, diff, 1) * packCount * group / totalest;
           }
 
           if (minions.length && party > 0) {
             minions.forEach(minionId => {
-              ret[lvlkey] += monEffort(minionId, mlvl, diff) * 5 * packCount * party / minions.length;
+              ret[lvlkey] += monEffort(minionId, mlvl, diff, -1) * packCount * party / minions.length / totalest;
             });
           }
         }
@@ -242,7 +280,7 @@ const results = computed(() => {
       leveldata.unique.forEach((monData, monId) => {
         let mlvl = (monData[s('mlvl', diff)] || 0) + 3,
           packCount = monData[s('packCount', diff)] || 0,
-          lvlkey = t(levels[lvlId]['*StringName'] + ' [ID ' + lvlId + ']', diff),
+          lvlkey = makelvlkey(lvlId),
           group = 1,
           party = ((monstats[monId]['PartyMin'] || 0) + (monstats[monId]['PartyMax'] || 0)) / 2,
           minions = [
@@ -261,13 +299,13 @@ const results = computed(() => {
         if (mlvl > 0 && packCount > 0) {
           ret[lvlkey] = ret[lvlkey] || 0;
 
-          if (data.clearMode !== 'norm') {
-            ret[lvlkey] += monEffort(monId, mlvl, diff) * 5 * packCount * group;
+          if (['all', 'champs'].includes(data.clearMode)) {
+            ret[lvlkey] += monEffort(monId, mlvl, diff, 2) * packCount * group / totalest;
           }
 
           if (minions.length && party > 0) {
             minions.forEach(minionId => {
-              ret[lvlkey] += monEffort(minionId, mlvl, diff) * 5 * packCount * party / minions.length;
+              ret[lvlkey] += monEffort(minionId, mlvl, diff, -1) * packCount * party / minions.length / totalest;
             });
           }
         }
@@ -277,8 +315,8 @@ const results = computed(() => {
         let mlvl = (monData[s('mlvl', diff)] || 0) + 3,
           monId = superuniques[superId].Class,
           packCount = monData[s('packCount', diff)] || 0,
-          lvlkey = t(levels[lvlId]['*StringName'] + ' [ID ' + lvlId + ']', diff),
-          lvlkeybaal = t(levels[132]['*StringName'] + ' [ID 132]', diff),
+          lvlkey = makelvlkey(lvlId),
+          lvlkeybaal = makelvlkey(132),
           group = 1,
           party = ((superuniques[superId]['MinGrp'] || 0) + (superuniques[superId]['MaxGrp'] || 0)) / 2,
           minions = [
@@ -297,20 +335,22 @@ const results = computed(() => {
         if (mlvl > 0 && packCount > 0) {
           ret[lvlkey] = ret[lvlkey] || 0;
 
-          if (data.clearMode !== 'norm') {
-            ret[lvlkey] += monEffort(monId, mlvl, diff, superId) * 5 * packCount * group;
+          if (['all', 'champs'].includes(data.clearMode)) {
+            let effort = monEffort(monId, mlvl, diff, 3, superId) * packCount * group / totalest;
+            ret[lvlkey] += effort;
 
             if (lvlId == 131) {
-              ret[lvlkeybaal] += monEffort(monId, mlvl, diff) * 5 * packCount * group;
+              ret[lvlkeybaal] += effort;
             }
           }
 
           if (minions.length && party > 0) {
             minions.forEach(minionId => {
-              ret[lvlkey] += monEffort(minionId, mlvl, diff) * 5 * packCount * party / minions.length;
+              let meffort = monEffort(minionId, mlvl, diff, -1) * packCount * party / minions.length / totalest;
+              ret[lvlkey] += meffort;
 
               if (lvlId == 131) {
-                ret[lvlkeybaal] += monEffort(minionId, mlvl, diff) * 5 * packCount * party / minions.length;
+                ret[lvlkeybaal] += meffort;
               }
             });
           }
@@ -329,12 +369,46 @@ const results = computed(() => {
         if (mlvl > 0 && packCount > 0) {
           ret[lvlkey] = ret[lvlkey] || 0;
 
-          if (data.clearMode !== 'norm') {
-            ret[lvlkey] += monEffort(monId, mlvl, diff) * 5 * packCount;
+          if (['all'].includes(data.clearMode)) {
+            ret[lvlkey] += monEffort(monId, mlvl, diff, 4) * packCount / totalest;
           }
         }
       });
     });
+
+    let newret = ret;
+
+    ({
+      22: [21],
+      23: [21, 22],
+      24: [21, 22, 23],
+      25: [21, 22, 23, 24],
+      36: [35],
+      37: [35, 36],
+      73: [72],
+      89: [88],
+      91: [88, 89],
+      93: [92],
+      94: [80],
+      95: [80],
+      96: [81],
+      97: [81],
+      98: [82],
+      99: [82],
+      102: [101],
+      132: [131],
+    }).forEach((sourcelvlIds, lvlId) => {
+      let n = ret[makelvlkey(lvlId)] * moncountest[lvlId][diff], d = moncountest[lvlId][diff];
+
+      sourcelvlIds.forEach(sourcelvlId => {
+        n += ret[makelvlkey(sourcelvlId)] * moncountest[sourcelvlId][diff] / 2;
+        d += moncountest[sourcelvlId][diff] / 2;
+      });
+
+      newret[makelvlkey(lvlId)] = n / d;
+    });    
+
+    ret = newret;
   });
 
   let max = 0;
@@ -348,7 +422,7 @@ const results = computed(() => {
   ret = ret.map(v => v * 100 / max).filter(v => v >= data.minGrade).toArray().sort((a, b) => b[1] - a[1]);
   ret[0][1] = 100;
 
-  return ret;
+  return ret.filter(Boolean);
 });
 
 </script>
@@ -360,7 +434,7 @@ const results = computed(() => {
     </h1>
     <div class="card-body">
       <div class="row">
-        <div class="col-auto">
+        <div class="col-auto" style="width:5.5rem">
           <label class="form-label">Level</label>
           <input
             class="form-control"
@@ -384,13 +458,6 @@ const results = computed(() => {
           </select>
         </div>
         <div class="col-auto">
-          <label class="form-label">Calculation</label>
-          <select class="form-select" v-model="data.perKill">
-            <option :value="0">EXP per damage</option>
-            <option :value="1">EXP per kill</option>
-          </select>
-        </div>
-        <div class="col-auto">
           <label class="form-label">Area Restrictions</label>
           <select class="form-select" v-model="data.areaRestrict">
             <option value="any">Any Area</option>
@@ -402,7 +469,7 @@ const results = computed(() => {
           <label class="form-label">Clear Mode</label>
           <select class="form-select" v-model="data.clearMode">
             <option value="all">All</option>
-            <option value="champs">Champions or Better</option>
+            <option value="champs">Champions / Uniques / Minions</option>
             <option value="norm">Normal Mobs Only</option>
           </select>
         </div>
@@ -411,6 +478,37 @@ const results = computed(() => {
           <select class="form-select" v-model="data.minGrade">
             <option v-for="grade in grades" :key="grade[0]" :value="grade[0]">{{ grade[1] }}</option>
           </select>
+        </div>
+        <div class="col-auto" style="width:15rem">
+          <label class="form-label">Area Size Normalization: {{ data.areaSizeNormalize.toFixed(2) }}</label>
+          <input
+            class="form-range"
+            type="range"
+            min="0"
+            max="2"
+            :step="1/6"
+            v-model.number="data.areaSizeNormalize"
+          />
+        </div>
+        <div v-if="data.damageType" class="col-auto" style="width:8rem">
+          <label class="form-label">Min Damage</label>
+          <input
+            class="form-control"
+            type="number"
+            min="1"
+            step="1"
+            v-model.number="data.mindmg"
+          />
+        </div>
+        <div v-if="data.damageType" class="col-auto" style="width:8rem">
+          <label class="form-label">Max Damage</label>
+          <input
+            class="form-control"
+            type="number"
+            min="1"
+            step="1"
+            v-model.number="data.maxdmg"
+          />
         </div>
       </div>
       <table class="table">
