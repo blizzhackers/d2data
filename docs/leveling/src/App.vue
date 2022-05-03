@@ -356,7 +356,7 @@ const results = computed(() => {
 <template>
   <div class="card">
     <h1 class="card-header bg-primary text-light text-center">
-      Best Leveling Areas
+      Best D2R Leveling Areas
     </h1>
     <div class="card-body">
       <div class="row">
