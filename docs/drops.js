@@ -101,15 +101,13 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					super: fetch(baseurl + 'superuniques.json').then(res => res.json()),
 					tc: fetch(baseurl + 'treasureclassex.json').then(res => res.json()),
 					tcgroups: fetch(baseurl + 'treasureclassgroupsex.json').then(res => res.json()),
+					tcprecalc: fetch(baseurl + 'tcprecalc.json').then(res => res.json()),
 					atomic: fetch(baseurl + 'atomic.json').then(res => res.json()),
 					itemtypes: fetch(baseurl + 'itemtypes.json').then(res => res.json()),
 					itemratio: fetch(baseurl + 'itemratio.json').then(res => res.json()),
-					weapons: fetch(baseurl + 'weapons.json').then(res => res.json()),
-					armor: fetch(baseurl + 'armor.json').then(res => res.json()),
-					misc: fetch(baseurl + 'misc.json').then(res => res.json()),
+					items: fetch(baseurl + 'items.json').then(res => res.json()),
 					uniqueitems: fetch(baseurl + 'uniqueitems.json').then(res => res.json()),
 					setitems: fetch(baseurl + 'setitems.json').then(res => res.json()),
-					items: null,
 				},
 				items: [],
 				areaResults: [],
@@ -278,15 +276,15 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									return;
 								}
 
-								let chance = 1, schance = 0;
+								let chance = 0, schance = 0;
 
 								let calc = (m, count, mtype, isMinion) => {
-									let tc = (superMon && !isMinion) ? superMon[s('TC')] : m[m.Id === 'andariel' ? s('TreasureClass4') : s('TreasureClass' + (Math.min(3, mtype + 1)))];
+									let tcname = (superMon && !isMinion) ? superMon[s('TC')] : m[m.Id === 'andariel' ? s('TreasureClass4') : s('TreasureClass' + (Math.min(3, mtype + 1)))];
 
-									if (tc) {				
-										tc = this.json.tc[this.adjustTc(tc, mlvl) || tc];
+									if (tcname) {				
+										let tc = this.json.tc[this.adjustTc(tcname, mlvl) || tcname];
 
-										let cachekey = [tc.lineNumber, mlvl, +(level.Id === 39)].join('|'), pchance = cache[cachekey] === undefined ? this.calcPicks(tc, pickItem => {
+										let cachekey = [tc.lineNumber, mlvl, +(level.Id === 39)].join('|'), pchance = cache[cachekey] === undefined ? this.calcPicks(tcname, pickItem => {
 											let ichance = 0;
 
 											selectedItems.forEach(item => {
@@ -376,7 +374,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 											schance = pchance;
 										}
 
-										chance *= Math.pow(1 - pchance, count);
+										chance += pchance * count;
 									}	
 								};
 
@@ -405,8 +403,6 @@ Object.defineProperty(Object.prototype, 'toArray', {
 									});	
 								}
 
-								chance = 1 - chance;
-
 								if (chance) {
 									packResults.push({
 										mon,
@@ -425,7 +421,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										].filter(Boolean).join('\n'),
 									});
 
-									lchance = 1 - (1 - lchance) * Math.pow(1 - chance, packCount);
+									lchance += chance * packCount;
 								}
 							});
 
@@ -459,53 +455,18 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.calculating = false;
 				}
 			},
-			calcPicks(tc, func) {
-				if (tc) {
-					let totalchance = 1;
+			calcPicks(tcname, func) {
+				if (tcname && this.json.tcprecalc[tcname]) {
+					let totalchance = 0;
+		
+					this.json.tcprecalc[tcname][this.exp].forEach((chance, item) => {
+						totalchance += chance * this.calcPicks(item, func);
+					});
 
-					let dopick = item => {
-						if (this.json.tc[item]) {
-							return this.calcPicks(this.json.tc[item], func);
-						} else if (this.json.atomic[item]) {
-							return this.json.atomic[item].reduce((total, chance, subitem) => {
-								return total + (chance * func(subitem));
-							}, 0);
-						}
-
-						return func(item);
-					};
-
-					if (tc.Picks < 0) {
-						for (let c = 1, picks = -tc.Picks; picks > 0 && c <= 9; c++) {
-							let picklist = {};
-
-							if (tc['Item' + c]) {
-								for (let d = 1; picks > 0 && d <= tc['Prob' + c]; d++) {
-									picklist[tc['Item' + c]] = picklist[tc['Item' + c]] || 0;
-									picklist[tc['Item' + c]]++;
-									picks--;
-								}
-							}
-
-							picklist.forEach((pickCount, item) => {
-								totalchance *= Math.pow(1 - dopick(item), pickCount);
-							});
-						}
-					} else if (tc.Picks > 0) {
-						//let picks = (1 + tc.Picks) / 2;
-						let aggchance = 0;
-						
-						(this.params.rolling ? tc.rollingprecalc : tc.precalc)[this.exp].forEach((chance, item) => {
-							aggchance += chance * dopick(item);
-						});
-
-						totalchance *= Math.pow(1 - aggchance, tc.Picks);
-					}
-
-					return 1 - totalchance;
+					return totalchance;
 				}
 
-				return 0;
+				return func(tcname);
 			},
 			forEachMonster(level, diff, func) {
 				let s = _s(diff);
@@ -643,13 +604,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				});	
 			});
 
-			this.json.items = Object.assign({}, this.json.armor, this.json.weapons, this.json.misc);
-
-			[
-				...Object.values(this.json.weapons),
-				...Object.values(this.json.armor),
-				...Object.values(this.json.misc),
-			].sort((a, b) => {
+			Object.values(this.json.items).sort((a, b) => {
 				a = a.code;
 				b = b.code;
 				return a < b ? -1 : a > b ? 1 : 0;
