@@ -1,8 +1,7 @@
 <script setup>
 import { reactive, computed } from "vue";
 
-import objext from "../../../objext.js";
-import experience from "../../../json/experience.json";
+import "../../../objext.js";
 import monlvl from "../../../json/monlvl.json";
 import levels from "../../../json/levels.json";
 import monstats from "../../../json/monstats.json";
@@ -428,108 +427,100 @@ const results = computed(() => {
 </script>
 
 <template>
-  <div class="card">
-    <h1 class="card-header bg-primary text-light text-center">
-      Best D2R Leveling Areas
-    </h1>
-    <div class="card-body">
-      <div class="row">
-        <div class="col-auto" style="width:5.5rem">
-          <label class="form-label">Level</label>
-          <input
-            class="form-control"
-            type="number"
-            min="1"
-            max="98"
-            step="1"
-            v-model.number="data.level"
-          />
-        </div>
-        <div class="col-auto">
-          <label class="form-label">Element</label>
-          <select class="form-select" v-model="data.damageType">
-            <option value="">Unknown</option>
-            <option value="Dm">Physical</option>
-            <option value="Ma">Magic</option>
-            <option value="Fi">Fire</option>
-            <option value="Li">Lightning</option>
-            <option value="Co">Cold</option>
-            <option value="Po">Poison</option>
-          </select>
-        </div>
-        <div class="col-auto">
-          <label class="form-label">Area Restrictions</label>
-          <select class="form-select" v-model="data.areaRestrict">
-            <option value="any">Any Area</option>
-            <option value="no grush">Quest Gated (No Glitch Rush)</option>
-            <option value="combat">Reasonable Combat (+5 over level)</option>
-          </select>
-        </div>
-        <div class="col-auto">
-          <label class="form-label">Clear Mode</label>
-          <select class="form-select" v-model="data.clearMode">
-            <option value="all">All</option>
-            <option value="champs">Champions / Uniques / Minions</option>
-            <option value="norm">Normal Mobs Only</option>
-          </select>
-        </div>
-        <div class="col-auto">
-          <label class="form-label">Minimum Grade</label>
-          <select class="form-select" v-model="data.minGrade">
-            <option v-for="grade in grades" :key="grade[0]" :value="grade[0]">{{ grade[1] }}</option>
-          </select>
-        </div>
-        <div class="col-auto" style="width:15rem">
-          <label class="form-label">Area Size Normalization: {{ data.areaSizeNormalize.toFixed(2) }}</label>
-          <input
-            class="form-range"
-            type="range"
-            min="0"
-            max="2"
-            :step="1/6"
-            v-model.number="data.areaSizeNormalize"
-          />
-        </div>
-        <div v-if="data.damageType" class="col-auto" style="width:8rem">
-          <label class="form-label">Min Damage</label>
-          <input
-            class="form-control"
-            type="number"
-            min="1"
-            step="1"
-            v-model.number="data.mindmg"
-          />
-        </div>
-        <div v-if="data.damageType" class="col-auto" style="width:8rem">
-          <label class="form-label">Max Damage</label>
-          <input
-            class="form-control"
-            type="number"
-            min="1"
-            step="1"
-            v-model.number="data.maxdmg"
-          />
-        </div>
+  <div>
+    <div class="row">
+      <div class="col-auto" style="width:5.5rem">
+        <label class="form-label">Level</label>
+        <input
+          class="form-control"
+          type="number"
+          min="1"
+          max="98"
+          step="1"
+          v-model.number="data.level"
+        />
       </div>
-      <table class="table">
-        <thead>
-          <tr><th>Area</th><th>Rating</th><th>Grade</th></tr>
-        </thead>
-        <tbody>
-          <tr v-for="(level, index) in results" :key="index">
-            <td>{{ level[0] }}</td>
-            <td>{{ Math.floor(level[1]) }}%</td>
-            <td>{{ grade(level[1]) }}</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="col-auto">
+        <label class="form-label">Element</label>
+        <select class="form-select" v-model="data.damageType">
+          <option value="">Unknown</option>
+          <option value="Dm">Physical</option>
+          <option value="Ma">Magic</option>
+          <option value="Fi">Fire</option>
+          <option value="Li">Lightning</option>
+          <option value="Co">Cold</option>
+          <option value="Po">Poison</option>
+        </select>
+      </div>
+      <div class="col-auto">
+        <label class="form-label">Area Restrictions</label>
+        <select class="form-select" v-model="data.areaRestrict">
+          <option value="any">Any Area</option>
+          <option value="no grush">Quest Gated (No Glitch Rush)</option>
+          <option value="combat">Reasonable Combat (+5 over level)</option>
+        </select>
+      </div>
+      <div class="col-auto">
+        <label class="form-label">Clear Mode</label>
+        <select class="form-select" v-model="data.clearMode">
+          <option value="all">All</option>
+          <option value="champs">Champions / Uniques / Minions</option>
+          <option value="norm">Normal Mobs Only</option>
+        </select>
+      </div>
+      <div class="col-auto">
+        <label class="form-label">Minimum Grade</label>
+        <select class="form-select" v-model="data.minGrade">
+          <option v-for="grade in grades" :key="grade[0]" :value="grade[0]">{{ grade[1] }}</option>
+        </select>
+      </div>
+      <div class="col-auto" style="width:15rem">
+        <label class="form-label">Area Size Normalization: {{ data.areaSizeNormalize.toFixed(2) }}</label>
+        <input
+          class="form-range"
+          type="range"
+          min="0"
+          max="2"
+          :step="1/6"
+          v-model.number="data.areaSizeNormalize"
+        />
+      </div>
+      <div v-if="data.damageType" class="col-auto" style="width:8rem">
+        <label class="form-label">Min Damage</label>
+        <input
+          class="form-control"
+          type="number"
+          min="1"
+          step="1"
+          v-model.number="data.mindmg"
+        />
+      </div>
+      <div v-if="data.damageType" class="col-auto" style="width:8rem">
+        <label class="form-label">Max Damage</label>
+        <input
+          class="form-control"
+          type="number"
+          min="1"
+          step="1"
+          v-model.number="data.maxdmg"
+        />
+      </div>
     </div>
-    <div class="card-footer text-center">
-      <em>Powered by <a href="https://vuejs.org">Vue.js</a> and <a href="https://getbootstrap.com">Bootstrap 5</a></em>
-    </div>
+    <table class="table">
+      <thead>
+        <tr><th>Area</th><th>Rating</th><th>Grade</th></tr>
+      </thead>
+      <tbody>
+        <tr v-for="(level, index) in results" :key="index">
+          <td>{{ level[0] }}</td>
+          <td>{{ Math.floor(level[1]) }}%</td>
+          <td>{{ grade(level[1]) }}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
 <style>
-@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
+
 </style>

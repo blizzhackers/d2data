@@ -51,5 +51,3 @@ Object.defineProperty(Object.prototype, 'toArray', {
         return ret;
     },
 });
-
-export default {};
