@@ -39,13 +39,6 @@
 								<label>Max ilvl: {{ params.maxilvl }}</label>
 								<input type="range" class="form-control form-control-sm" :min="params.minilvl" max="110" v-model.number="params.maxilvl">
 							</div>
-							<div class="col-12 col-lg-auto">
-								<label>Calc:</label>
-								<select class="form-control form-control-sm" v-model.number="params.rolling">
-									<option :value="1">Rolling</option>
-									<option :value="0">Flat</option>
-								</select>
-							</div>
 							<div class="col-12 col-lg-auto d-flex align-items-center">
 								<button class="btn btn-primary" @click="doCalc">Do It!</button>
 							</div>
