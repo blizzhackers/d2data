@@ -12,7 +12,9 @@
 	<body class="container p-0 bg-dark">
 		<div class="card my-sm-5">
 			<div id="dropsapp" class="tab-pane fade show active" role="tabpanel" aria-labelledby="drops-tab">
-				<h1 class="card-header bg-primary text-light text-center">{{ pageTitle }}</h1>
+				<div class="card-header bg-primary text-light text-center">
+					<h1>Diablo 2 Drop Calculator</h1>
+				</div>
 				<div class="card-body">
 					<p v-if="!visible" class="text-center">Loading...</p>
 					<template v-else>
@@ -97,7 +99,7 @@
 					</template>
 				</div>
 			</div>
-			<div class="card-footer text-center"><em>Powered by <a href="https://vuejs.org">Vue.js</a> and <a href="https://getbootstrap.com">Bootstrap 4</a></em></div>
+			<div class="card-footer text-center"><em>Powered by <a href="https://vuejs.org">Vue.js</a> and <a href="https://getbootstrap.com">Bootstrap 4</a>. Based on reversing by r57shell and Kingpin, and verified by in-game drops.</em></div>
 		</div>
 	</body>
 	<script src="drops.js?1639272466"></script>
