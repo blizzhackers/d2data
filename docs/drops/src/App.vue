@@ -46,9 +46,6 @@ function calcDrops (tcName, players = 1, mult = 1, drops = {}, doCache = true) {
 
   if (tcprecalc[tcName]) {
     mult *= tcprecalc[tcName].droprate[players];
-    if (!tcprecalc[tcName].counts) {
-      debugger;
-    }
 
     tcprecalc[tcName].counts.forEach((ratio, key) => {
       calcDrops(key, players, mult * ratio, drops, false);
@@ -91,7 +88,7 @@ function calcDropsHard (tcName, players = 1, mult = 1, drops = {}) {
   return drops;
 }
 
-calcDrops('Mephisto (H)', 1).forEach((ratio, key) => {
+calcDrops('Act 2 (H) Unique B', 1).forEach((ratio, key) => {
   if (items[key]) {
     data.drops[items[key].classid] = ratio;
   }
@@ -100,7 +97,9 @@ calcDrops('Mephisto (H)', 1).forEach((ratio, key) => {
 </script>
 
 <template>
-  <pre>{{ JSON.stringify(data.drops, null, ' ') }}</pre>
+  <div>
+    <pre>{{ JSON.stringify(data.drops, null, ' ') }}</pre>
+  </div>
 </template>
 
 <style>

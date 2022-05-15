@@ -189,11 +189,23 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				min = min || 0;
 		
 				return (ilvl, qlvl, factor) => {
-					let mf = diminishFactor ? idiv(this.params.mf * diminishFactor, this.params.mf + diminishFactor) : (this.params.mf | 0);
-					let chance = (base - idiv(ilvl - qlvl, divisor)) * 128;
-					chance = idiv(chance * 100, 100 + mf);
+					let difference = ilvl - qlvl;
+					let chance = (base - idiv(difference, divisor)) * 128;
+
+					if (this.params.mf) {
+						let mf;
+
+						if (this.params.mf > 10) {
+							mf = diminishFactor ? idiv(this.params.mf * diminishFactor, this.params.mf + diminishFactor) : (this.params.mf | 0);
+						} else {
+							mf = this.params.mf;
+						}
+
+						chance = idiv(chance * 100, 100 + mf);
+					}
+
 					chance = Math.max(min, chance);
-					chance = (chance - chance * factor / 1024) / 2;
+					chance = (chance - idiv(chance * factor, 1024));
 					return Math.min(1, 128 / chance);
 				};
 			},		
