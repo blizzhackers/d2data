@@ -639,17 +639,19 @@ Object.defineProperty(Object.prototype, 'toArray', {
 
 				this.json.uniqueitems.forEach(unique => {
 					if (unique.code === item.code && unique['enabled']) {
-						let name = this.json.strings[unique.index] || unique.index;
+						let name = this.json.strings[unique.index] || unique.index, level = Math.max(item['level'] || 0, unique['lvl'] || 0);
 						this.items.push({
 							quality: 'unique',
 							code: unique.code,
 							item,
 							type,
+							level,
 							name: name + ' [Unique]',
 							searchable: [name, itemname, 'Unique', unique.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
 							tooltip: [
 								'Type: ' + itemname,
 								'Code: ' + unique.code,
+								'Level: ' + level,
 								'Keywords: ' + [name, itemname, 'Unique', unique.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
 							].join('\n'),
 							use: false,
@@ -661,18 +663,20 @@ Object.defineProperty(Object.prototype, 'toArray', {
 
 				this.json.setitems.forEach(set => {
 					if (set.item === item.code) {
-						let name = this.json.strings[set.index] || set.index;
+						let name = this.json.strings[set.index] || set.index, level = Math.max(item['level'] || 0, set['lvl'] || 0);
 
 						this.items.push({
 							quality: 'set',
 							code: set.item,
 							item,
 							type,
+							level,
 							name: name + ' [Set]',
 							searchable: [name, itemname, 'Set', set.item, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
 							tooltip: [
 								'Type: ' + itemname,
 								'Code: ' + set.item,
+								'Level: ' + level,
 								'Keywords: ' + [name, itemname, 'Set', set.item, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
 							].join('\n'),
 							use: false,
@@ -683,70 +687,100 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				});
 
 				if (type['Rare']) {
+					let level = item['level'] || 0;
 					this.items.push({
 						quality: 'rare',
 						code: item.code,
 						item,
 						type,
+						level,
 						name: itemname + ' [Rare]',
 						searchable: [itemname, 'Rare', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
-						tooltip: 'Code: ' + item.code + '\nKeywords: ' + [itemname, 'Rare', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						tooltip: [
+							'Code: ' + item.code,
+							'Level: ' + level,
+							'Keywords: ' + [itemname, 'Rare', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						].join('\n'),
 						use: false,
 						func: ratioFuncs,
 					});
 				}
 
 				if (!type['Normal']) {
+					let level = item['level'] || 0;
 					this.items.push({
 						quality: 'magic',
 						code: item.code,
 						item,
 						type,
+						level,
 						name: itemname + ' [Magic]',
 						searchable: [itemname, 'Magic', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
-						tooltip: 'Code: ' + item.code + '\nKeywords: ' + [itemname, 'Magic', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						tooltip: [
+							'Code: ' + item.code,
+							'Level: ' + level,
+							'Keywords: ' + [itemname, 'Magic', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						].join('\n'),
 						use: false,
 						func: ratioFuncs,
 					});
 				}
 
 				if (!type['Magic'] && !type['Normal']) {
+					let level = item['level'] || 0;
 					this.items.push({
 						quality: 'hq',
 						code: item.code,
 						item,
 						type,
+						level,
 						name: itemname + ' [Superior]',
 						searchable: [itemname, 'Superior', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
-						tooltip: 'Code: ' + item.code + '\nKeywords: ' + [itemname, 'Superior', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						tooltip: [
+							'Code: ' + item.code,
+							'Level: ' + level,
+							'Keywords: ' + [itemname, 'Superior', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						].join('\n'),
 						use: false,
 						func: ratioFuncs,
 					});
 				}
 
 				if (!type['Magic']) {
+					let level = item['level'] || 0;
 					this.items.push({
 						quality: 'normal',
 						code: item.code,
 						item,
 						type,
+						level,
 						name: itemname + ' [Normal]',
 						searchable: [itemname, 'Normal', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
-						tooltip: 'Code: ' + item.code + '\nKeywords: ' + [itemname, 'Normal', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						tooltip: [
+							'Code: ' + item.code,
+							'Level: ' + level,
+							'Keywords: ' + [itemname, 'Normal', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						].join('\n'),
 						use: false,
 						func: ratioFuncs,
 					});
 				}
 
 				if (!type['Magic'] && !type['Normal']) {
+					let level = item['level'] || 0;
 					this.items.push({
 						quality: 'low',
 						code: item.code,
 						item,
 						type,
+						level,
 						name: itemname + ' [Low Quality]',
 						searchable: [itemname, 'Low Quality', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
-						tooltip: 'Code: ' + item.code + '\nKeywords: ' + [itemname, 'Low Quality', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						tooltip: [
+							'Code: ' + item.code,
+							'Level: ' + level,
+							'Keywords: ' + [itemname, 'Low Quality', item.code, ...this.getKeywords(type.Code), isExceptional ? 'exceptional' : 'nonexceptional', isElite ? 'elite' : 'nonelite'].join(' '),
+						].join('\n'),
 						use: false,
 						func: ratioFuncs,
 					});
