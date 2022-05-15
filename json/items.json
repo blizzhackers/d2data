@@ -66,7 +66,8 @@
   "NightmareUpgrade": "axe",
   "HellUpgrade": "2ax",
   "Nameable": 1,
-  "lineNumber": 0
+  "lineNumber": 0,
+  "classid": 0
  },
  "axe": {
   "name": "Axe",
@@ -142,7 +143,8 @@
   "NightmareUpgrade": "2ax",
   "HellUpgrade": "mpi",
   "Nameable": 1,
-  "lineNumber": 1
+  "lineNumber": 1,
+  "classid": 1
  },
  "2ax": {
   "name": "Double Axe",
@@ -209,7 +211,8 @@
   "NightmareUpgrade": "mpi",
   "HellUpgrade": "wax",
   "Nameable": 1,
-  "lineNumber": 2
+  "lineNumber": 2,
+  "classid": 2
  },
  "mpi": {
   "name": "Military Pick",
@@ -281,7 +284,8 @@
   "NightmareUpgrade": "wax",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 3
+  "lineNumber": 3,
+  "classid": 3
  },
  "wax": {
   "name": "War Axe",
@@ -354,7 +358,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 4
+  "lineNumber": 4,
+  "classid": 4
  },
  "lax": {
   "name": "Large Axe",
@@ -428,7 +433,8 @@
   "NightmareUpgrade": "btx",
   "HellUpgrade": "gax",
   "Nameable": 1,
-  "lineNumber": 5
+  "lineNumber": 5,
+  "classid": 5
  },
  "bax": {
   "name": "Broad Axe",
@@ -502,7 +508,8 @@
   "NightmareUpgrade": "gax",
   "HellUpgrade": "gix",
   "Nameable": 1,
-  "lineNumber": 6
+  "lineNumber": 6,
+  "classid": 6
  },
  "btx": {
   "name": "Battle Axe",
@@ -574,7 +581,8 @@
   "NightmareUpgrade": "gix",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 7
+  "lineNumber": 7,
+  "classid": 7
  },
  "gax": {
   "name": "Great Axe",
@@ -644,7 +652,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 8
+  "lineNumber": 8,
+  "classid": 8
  },
  "gix": {
   "name": "Giant Axe",
@@ -717,7 +726,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 9
+  "lineNumber": 9,
+  "classid": 9
  },
  "wnd": {
   "name": "Wand",
@@ -786,7 +796,8 @@
   "NightmareUpgrade": "ywn",
   "HellUpgrade": "bwn",
   "Nameable": 1,
-  "lineNumber": 10
+  "lineNumber": 10,
+  "classid": 10
  },
  "ywn": {
   "name": "Yew Wand",
@@ -861,7 +872,8 @@
   "NightmareUpgrade": "bwn",
   "HellUpgrade": "gwn",
   "Nameable": 1,
-  "lineNumber": 11
+  "lineNumber": 11,
+  "classid": 11
  },
  "bwn": {
   "name": "Bone Wand",
@@ -941,7 +953,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 12
+  "lineNumber": 12,
+  "classid": 12
  },
  "gwn": {
   "name": "Grim Wand",
@@ -1012,7 +1025,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 13
+  "lineNumber": 13,
+  "classid": 13
  },
  "clb": {
   "name": "Club",
@@ -1078,7 +1092,8 @@
   "NightmareUpgrade": "mac",
   "HellUpgrade": "mst",
   "Nameable": 1,
-  "lineNumber": 14
+  "lineNumber": 14,
+  "classid": 14
  },
  "scp": {
   "name": "Scepter",
@@ -1149,7 +1164,8 @@
   "NightmareUpgrade": "gsc",
   "HellUpgrade": "wsp",
   "Nameable": 1,
-  "lineNumber": 15
+  "lineNumber": 15,
+  "classid": 15
  },
  "gsc": {
   "name": "Grand Scepter",
@@ -1228,7 +1244,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "wsp",
   "Nameable": 1,
-  "lineNumber": 16
+  "lineNumber": 16,
+  "classid": 16
  },
  "wsp": {
   "name": "War Scepter",
@@ -1303,7 +1320,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 17
+  "lineNumber": 17,
+  "classid": 17
  },
  "spc": {
   "name": "Spiked Club",
@@ -1374,7 +1392,8 @@
   "NightmareUpgrade": "mac",
   "HellUpgrade": "mst",
   "Nameable": 1,
-  "lineNumber": 18
+  "lineNumber": 18,
+  "classid": 18
  },
  "mac": {
   "name": "Mace",
@@ -1446,7 +1465,8 @@
   "NightmareUpgrade": "mst",
   "HellUpgrade": "mau",
   "Nameable": 1,
-  "lineNumber": 19
+  "lineNumber": 19,
+  "classid": 19
  },
  "mst": {
   "name": "Morning Star",
@@ -1514,7 +1534,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "fla",
   "Nameable": 1,
-  "lineNumber": 20
+  "lineNumber": 20,
+  "classid": 20
  },
  "fla": {
   "name": "Flail",
@@ -1587,7 +1608,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "gma",
   "Nameable": 1,
-  "lineNumber": 21
+  "lineNumber": 21,
+  "classid": 21
  },
  "whm": {
   "name": "War Hammer",
@@ -1656,7 +1678,8 @@
   "NightmareUpgrade": "mau",
   "HellUpgrade": "gma",
   "Nameable": 1,
-  "lineNumber": 22
+  "lineNumber": 22,
+  "classid": 22
  },
  "mau": {
   "name": "Maul",
@@ -1729,7 +1752,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "mau",
   "Nameable": 1,
-  "lineNumber": 23
+  "lineNumber": 23,
+  "classid": 23
  },
  "gma": {
   "name": "Great Maul",
@@ -1800,7 +1824,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 24
+  "lineNumber": 24,
+  "classid": 24
  },
  "ssd": {
   "name": "Short Sword",
@@ -1869,7 +1894,8 @@
   "NightmareUpgrade": "scm",
   "HellUpgrade": "wsd",
   "Nameable": 1,
-  "lineNumber": 25
+  "lineNumber": 25,
+  "classid": 25
  },
  "scm": {
   "name": "Scimitar",
@@ -1945,7 +1971,8 @@
   "NightmareUpgrade": "sbr",
   "HellUpgrade": "lsd",
   "Nameable": 1,
-  "lineNumber": 26
+  "lineNumber": 26,
+  "classid": 26
  },
  "sbr": {
   "name": "Saber",
@@ -2019,7 +2046,8 @@
   "NightmareUpgrade": "flc",
   "HellUpgrade": "bsd",
   "Nameable": 1,
-  "lineNumber": 27
+  "lineNumber": 27,
+  "classid": 27
  },
  "flc": {
   "name": "Falchion",
@@ -2088,7 +2116,8 @@
   "NightmareUpgrade": "bsd",
   "HellUpgrade": "wsd",
   "Nameable": 1,
-  "lineNumber": 28
+  "lineNumber": 28,
+  "classid": 28
  },
  "crs": {
   "name": "Crystal Sword",
@@ -2158,7 +2187,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 29
+  "lineNumber": 29,
+  "classid": 29
  },
  "bsd": {
   "name": "Broad Sword",
@@ -2234,7 +2264,8 @@
   "NightmareUpgrade": "lsd",
   "HellUpgrade": "wsd",
   "Nameable": 1,
-  "lineNumber": 30
+  "lineNumber": 30,
+  "classid": 30
  },
  "lsd": {
   "name": "Long Sword",
@@ -2309,7 +2340,8 @@
   "NightmareUpgrade": "wsd",
   "HellUpgrade": "wsd",
   "Nameable": 1,
-  "lineNumber": 31
+  "lineNumber": 31,
+  "classid": 31
  },
  "wsd": {
   "name": "War Sword",
@@ -2385,7 +2417,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 32
+  "lineNumber": 32,
+  "classid": 32
  },
  "2hs": {
   "name": "Two-Handed Sword",
@@ -2460,7 +2493,8 @@
   "NightmareUpgrade": "clm",
   "HellUpgrade": "gis",
   "Nameable": 1,
-  "lineNumber": 33
+  "lineNumber": 33,
+  "classid": 33
  },
  "clm": {
   "name": "Claymore",
@@ -2538,7 +2572,8 @@
   "NightmareUpgrade": "gis",
   "HellUpgrade": "bsw",
   "Nameable": 1,
-  "lineNumber": 34
+  "lineNumber": 34,
+  "classid": 34
  },
  "gis": {
   "name": "Giant Sword",
@@ -2613,7 +2648,8 @@
   "NightmareUpgrade": "bsw",
   "HellUpgrade": "flb",
   "Nameable": 1,
-  "lineNumber": 35
+  "lineNumber": 35,
+  "classid": 35
  },
  "bsw": {
   "name": "Bastard Sword",
@@ -2691,7 +2727,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 36
+  "lineNumber": 36,
+  "classid": 36
  },
  "flb": {
   "name": "Flamberge",
@@ -2768,7 +2805,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 37
+  "lineNumber": 37,
+  "classid": 37
  },
  "gsd": {
   "name": "Great Sword",
@@ -2844,7 +2882,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 38
+  "lineNumber": 38,
+  "classid": 38
  },
  "dgr": {
   "name": "Dagger",
@@ -2916,7 +2955,8 @@
   "NightmareUpgrade": "kri",
   "HellUpgrade": "bld",
   "Nameable": 1,
-  "lineNumber": 39
+  "lineNumber": 39,
+  "classid": 39
  },
  "dir": {
   "name": "Dirk",
@@ -2995,7 +3035,8 @@
   "NightmareUpgrade": "kri",
   "HellUpgrade": "bld",
   "Nameable": 1,
-  "lineNumber": 40
+  "lineNumber": 40,
+  "classid": 40
  },
  "kri": {
   "name": "Kriss",
@@ -3072,7 +3113,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 41
+  "lineNumber": 41,
+  "classid": 41
  },
  "bld": {
   "name": "Blade",
@@ -3149,7 +3191,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 42
+  "lineNumber": 42,
+  "classid": 42
  },
  "tkf": {
   "name": "Throwing Knife",
@@ -3225,7 +3268,8 @@
   "NightmareUpgrade": "bkf",
   "HellUpgrade": "bkf",
   "Nameable": 1,
-  "lineNumber": 43
+  "lineNumber": 43,
+  "classid": 43
  },
  "tax": {
   "name": "Throwing Axe",
@@ -3304,7 +3348,8 @@
   "NightmareUpgrade": "bal",
   "HellUpgrade": "bal",
   "Nameable": 1,
-  "lineNumber": 44
+  "lineNumber": 44,
+  "classid": 44
  },
  "bkf": {
   "name": "Balanced Knife",
@@ -3387,7 +3432,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 45
+  "lineNumber": 45,
+  "classid": 45
  },
  "bal": {
   "name": "Balanced Axe",
@@ -3472,7 +3518,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 46
+  "lineNumber": 46,
+  "classid": 46
  },
  "jav": {
   "name": "Javelin",
@@ -3557,7 +3604,8 @@
   "NightmareUpgrade": "glv",
   "HellUpgrade": "glv",
   "Nameable": 1,
-  "lineNumber": 47
+  "lineNumber": 47,
+  "classid": 47
  },
  "pil": {
   "name": "Pilum",
@@ -3648,7 +3696,8 @@
   "NightmareUpgrade": "tsp",
   "HellUpgrade": "tsp",
   "Nameable": 1,
-  "lineNumber": 48
+  "lineNumber": 48,
+  "classid": 48
  },
  "ssp": {
   "name": "Short Spear",
@@ -3737,7 +3786,8 @@
   "NightmareUpgrade": "tsp",
   "HellUpgrade": "tsp",
   "Nameable": 1,
-  "lineNumber": 49
+  "lineNumber": 49,
+  "classid": 49
  },
  "glv": {
   "name": "Glaive",
@@ -3822,7 +3872,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 50
+  "lineNumber": 50,
+  "classid": 50
  },
  "tsp": {
   "name": "Throwing Spear",
@@ -3904,7 +3955,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 51
+  "lineNumber": 51,
+  "classid": 51
  },
  "spr": {
   "name": "Spear",
@@ -3979,7 +4031,8 @@
   "NightmareUpgrade": "spt",
   "HellUpgrade": "pik",
   "Nameable": 1,
-  "lineNumber": 52
+  "lineNumber": 52,
+  "classid": 52
  },
  "tri": {
   "name": "Trident",
@@ -4055,7 +4108,8 @@
   "NightmareUpgrade": "spt",
   "HellUpgrade": "pik",
   "Nameable": 1,
-  "lineNumber": 53
+  "lineNumber": 53,
+  "classid": 53
  },
  "brn": {
   "name": "Brandistock",
@@ -4130,7 +4184,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "pik",
   "Nameable": 1,
-  "lineNumber": 54
+  "lineNumber": 54,
+  "classid": 54
  },
  "spt": {
   "name": "Spetum",
@@ -4209,7 +4264,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 55
+  "lineNumber": 55,
+  "classid": 55
  },
  "pik": {
   "name": "Pike",
@@ -4286,7 +4342,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 56
+  "lineNumber": 56,
+  "classid": 56
  },
  "bar": {
   "name": "Bardiche",
@@ -4361,7 +4418,8 @@
   "NightmareUpgrade": "hal",
   "HellUpgrade": "wsc",
   "Nameable": 1,
-  "lineNumber": 57
+  "lineNumber": 57,
+  "classid": 57
  },
  "vou": {
   "name": "Voulge",
@@ -4426,7 +4484,8 @@
   "NightmareUpgrade": "hal",
   "HellUpgrade": "wsc",
   "Nameable": 1,
-  "lineNumber": 58
+  "lineNumber": 58,
+  "classid": 58
  },
  "scy": {
   "name": "Scythe",
@@ -4507,7 +4566,8 @@
   "NightmareUpgrade": "hal",
   "HellUpgrade": "wsc",
   "Nameable": 1,
-  "lineNumber": 59
+  "lineNumber": 59,
+  "classid": 59
  },
  "pax": {
   "name": "Poleaxe",
@@ -4578,7 +4638,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 60
+  "lineNumber": 60,
+  "classid": 60
  },
  "hal": {
   "name": "Halberd",
@@ -4654,7 +4715,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 61
+  "lineNumber": 61,
+  "classid": 61
  },
  "wsc": {
   "name": "War Scythe",
@@ -4723,7 +4785,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 62
+  "lineNumber": 62,
+  "classid": 62
  },
  "sst": {
   "name": "Short Staff",
@@ -4791,7 +4854,8 @@
   "NightmareUpgrade": "cst",
   "HellUpgrade": "bst",
   "Nameable": 1,
-  "lineNumber": 63
+  "lineNumber": 63,
+  "classid": 63
  },
  "lst": {
   "name": "Long Staff",
@@ -4864,7 +4928,8 @@
   "NightmareUpgrade": "cst",
   "HellUpgrade": "wst",
   "Nameable": 1,
-  "lineNumber": 64
+  "lineNumber": 64,
+  "classid": 64
  },
  "cst": {
   "name": "Gnarled Staff",
@@ -4938,7 +5003,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "wst",
   "Nameable": 1,
-  "lineNumber": 65
+  "lineNumber": 65,
+  "classid": 65
  },
  "bst": {
   "name": "Battle Staff",
@@ -5017,7 +5083,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 66
+  "lineNumber": 66,
+  "classid": 66
  },
  "wst": {
   "name": "War Staff",
@@ -5092,7 +5159,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 67
+  "lineNumber": 67,
+  "classid": 67
  },
  "sbw": {
   "name": "Short Bow",
@@ -5160,7 +5228,8 @@
   "NightmareUpgrade": "hbw",
   "HellUpgrade": "cbw",
   "Nameable": 1,
-  "lineNumber": 68
+  "lineNumber": 68,
+  "classid": 68
  },
  "hbw": {
   "name": "Hunter's Bow",
@@ -5234,7 +5303,8 @@
   "NightmareUpgrade": "lbw",
   "HellUpgrade": "sbb",
   "Nameable": 1,
-  "lineNumber": 69
+  "lineNumber": 69,
+  "classid": 69
  },
  "lbw": {
   "name": "Long Bow",
@@ -5307,7 +5377,8 @@
   "NightmareUpgrade": "cbw",
   "HellUpgrade": "lbb",
   "Nameable": 1,
-  "lineNumber": 70
+  "lineNumber": 70,
+  "classid": 70
  },
  "cbw": {
   "name": "Composite Bow",
@@ -5381,7 +5452,8 @@
   "NightmareUpgrade": "sbb",
   "HellUpgrade": "swb",
   "Nameable": 1,
-  "lineNumber": 71
+  "lineNumber": 71,
+  "classid": 71
  },
  "sbb": {
   "name": "Short Battle Bow",
@@ -5457,7 +5529,8 @@
   "NightmareUpgrade": "lbb",
   "HellUpgrade": "lwb",
   "Nameable": 1,
-  "lineNumber": 72
+  "lineNumber": 72,
+  "classid": 72
  },
  "lbb": {
   "name": "Long Battle Bow",
@@ -5528,7 +5601,8 @@
   "NightmareUpgrade": "swb",
   "HellUpgrade": "lwb",
   "Nameable": 1,
-  "lineNumber": 73
+  "lineNumber": 73,
+  "classid": 73
  },
  "swb": {
   "name": "Short War Bow",
@@ -5606,7 +5680,8 @@
   "NightmareUpgrade": "lwb",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 74
+  "lineNumber": 74,
+  "classid": 74
  },
  "lwb": {
   "name": "Long War Bow",
@@ -5679,7 +5754,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 75
+  "lineNumber": 75,
+  "classid": 75
  },
  "lxb": {
   "name": "Light Crossbow",
@@ -5753,7 +5829,8 @@
   "NightmareUpgrade": "mxb",
   "HellUpgrade": "rxb",
   "Nameable": 1,
-  "lineNumber": 76
+  "lineNumber": 76,
+  "classid": 76
  },
  "mxb": {
   "name": "Crossbow",
@@ -5830,7 +5907,8 @@
   "NightmareUpgrade": "hxb",
   "HellUpgrade": "hxb",
   "Nameable": 1,
-  "lineNumber": 77
+  "lineNumber": 77,
+  "classid": 77
  },
  "hxb": {
   "name": "Heavy Crossbow",
@@ -5909,7 +5987,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 78
+  "lineNumber": 78,
+  "classid": 78
  },
  "rxb": {
   "name": "Repeating Crossbow",
@@ -5982,7 +6061,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 79
+  "lineNumber": 79,
+  "classid": 79
  },
  "gps": {
   "name": "Rancid Gas Potion",
@@ -6039,7 +6119,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 80
+  "lineNumber": 80,
+  "classid": 80
  },
  "ops": {
   "name": "Oil Potion",
@@ -6096,7 +6177,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 81
+  "lineNumber": 81,
+  "classid": 81
  },
  "gpm": {
   "name": "Choking Gas Potion",
@@ -6153,7 +6235,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 82
+  "lineNumber": 82,
+  "classid": 82
  },
  "opm": {
   "name": "Exploding Potion",
@@ -6210,7 +6293,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 83
+  "lineNumber": 83,
+  "classid": 83
  },
  "gpl": {
   "name": "Strangling Gas Potion",
@@ -6267,7 +6351,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 84
+  "lineNumber": 84,
+  "classid": 84
  },
  "opl": {
   "name": "Fulminating Potion",
@@ -6323,7 +6408,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 85
+  "lineNumber": 85,
+  "classid": 85
  },
  "d33": {
   "name": "Decoy Gidbinn",
@@ -6379,7 +6465,8 @@
   "InvTrans": 2,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 86
+  "lineNumber": 86,
+  "classid": 86
  },
  "g33": {
   "name": "The Gidbinn",
@@ -6435,7 +6522,8 @@
   "InvTrans": 2,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 87
+  "lineNumber": 87,
+  "classid": 87
  },
  "leg": {
   "name": "Wirt's Leg",
@@ -6491,7 +6579,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 88
+  "lineNumber": 88,
+  "classid": 88
  },
  "hdm": {
   "name": "Horadric Malus",
@@ -6546,7 +6635,8 @@
   "InvTrans": 2,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 89
+  "lineNumber": 89,
+  "classid": 89
  },
  "hfh": {
   "name": "Hellforge Hammer",
@@ -6602,7 +6692,8 @@
   "SkipName": 1,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 90
+  "lineNumber": 90,
+  "classid": 90
  },
  "hst": {
   "name": "Horadric Staff",
@@ -6660,7 +6751,8 @@
   "SkipName": 1,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 91
+  "lineNumber": 91,
+  "classid": 91
  },
  "msf": {
   "name": "Staff of Kings",
@@ -6718,7 +6810,8 @@
   "SkipName": 1,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 92
+  "lineNumber": 92,
+  "classid": 92
  },
  "9ha": {
   "name": "Hatchet",
@@ -6783,7 +6876,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 93
+  "lineNumber": 93,
+  "classid": 93
  },
  "9ax": {
   "name": "Cleaver",
@@ -6848,7 +6942,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 94
+  "lineNumber": 94,
+  "classid": 94
  },
  "92a": {
   "name": "Twin Axe",
@@ -6911,7 +7006,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 95
+  "lineNumber": 95,
+  "classid": 95
  },
  "9mp": {
   "name": "Crowbill",
@@ -6977,7 +7073,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 96
+  "lineNumber": 96,
+  "classid": 96
  },
  "9wa": {
   "name": "Naga",
@@ -7039,7 +7136,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 97
+  "lineNumber": 97,
+  "classid": 97
  },
  "9la": {
   "name": "Military Axe",
@@ -7103,7 +7201,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 98
+  "lineNumber": 98,
+  "classid": 98
  },
  "9ba": {
   "name": "Bearded Axe",
@@ -7166,7 +7265,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 99
+  "lineNumber": 99,
+  "classid": 99
  },
  "9bt": {
   "name": "Tabar",
@@ -7232,7 +7332,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 100
+  "lineNumber": 100,
+  "classid": 100
  },
  "9ga": {
   "name": "Gothic Axe",
@@ -7299,7 +7400,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 101
+  "lineNumber": 101,
+  "classid": 101
  },
  "9gi": {
   "name": "Ancient Axe",
@@ -7365,7 +7467,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 102
+  "lineNumber": 102,
+  "classid": 102
  },
  "9wn": {
   "name": "Burnt Wand",
@@ -7428,7 +7531,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 103
+  "lineNumber": 103,
+  "classid": 103
  },
  "9yw": {
   "name": "Petrified Wand",
@@ -7492,7 +7596,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 104
+  "lineNumber": 104,
+  "classid": 104
  },
  "9bw": {
   "name": "Tomb Wand",
@@ -7558,7 +7663,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 105
+  "lineNumber": 105,
+  "classid": 105
  },
  "9gw": {
   "name": "Grave Wand",
@@ -7623,7 +7729,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 106
+  "lineNumber": 106,
+  "classid": 106
  },
  "9cl": {
   "name": "Cudgel",
@@ -7687,7 +7794,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 107
+  "lineNumber": 107,
+  "classid": 107
  },
  "9sc": {
   "name": "Rune Scepter",
@@ -7749,7 +7857,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 108
+  "lineNumber": 108,
+  "classid": 108
  },
  "9qs": {
   "name": "Holy Water Sprinkler",
@@ -7813,7 +7922,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 109
+  "lineNumber": 109,
+  "classid": 109
  },
  "9ws": {
   "name": "Divine Scepter",
@@ -7877,7 +7987,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 110
+  "lineNumber": 110,
+  "classid": 110
  },
  "9sp": {
   "name": "Barbed Club",
@@ -7941,7 +8052,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 111
+  "lineNumber": 111,
+  "classid": 111
  },
  "9ma": {
   "name": "Flanged Mace",
@@ -8002,7 +8114,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 112
+  "lineNumber": 112,
+  "classid": 112
  },
  "9mt": {
   "name": "Jagged Star",
@@ -8067,7 +8180,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 113
+  "lineNumber": 113,
+  "classid": 113
  },
  "9fl": {
   "name": "Knout",
@@ -8131,7 +8245,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 114
+  "lineNumber": 114,
+  "classid": 114
  },
  "9wh": {
   "name": "Battle Hammer",
@@ -8194,7 +8309,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 115
+  "lineNumber": 115,
+  "classid": 115
  },
  "9m9": {
   "name": "War Club",
@@ -8258,7 +8374,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 116
+  "lineNumber": 116,
+  "classid": 116
  },
  "9gm": {
   "name": "Martel de Fer",
@@ -8324,7 +8441,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 117
+  "lineNumber": 117,
+  "classid": 117
  },
  "9ss": {
   "name": "Gladius",
@@ -8385,7 +8503,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 118
+  "lineNumber": 118,
+  "classid": 118
  },
  "9sm": {
   "name": "Cutlass",
@@ -8450,7 +8569,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 119
+  "lineNumber": 119,
+  "classid": 119
  },
  "9sb": {
   "name": "Shamshir",
@@ -8515,7 +8635,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 120
+  "lineNumber": 120,
+  "classid": 120
  },
  "9fc": {
   "name": "Tulwar",
@@ -8578,7 +8699,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 121
+  "lineNumber": 121,
+  "classid": 121
  },
  "9cr": {
   "name": "Dimensional Blade",
@@ -8644,7 +8766,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 122
+  "lineNumber": 122,
+  "classid": 122
  },
  "9bs": {
   "name": "Battle Sword",
@@ -8706,7 +8829,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 123
+  "lineNumber": 123,
+  "classid": 123
  },
  "9ls": {
   "name": "Rune Sword",
@@ -8772,7 +8896,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 124
+  "lineNumber": 124,
+  "classid": 124
  },
  "9wd": {
   "name": "Ancient Sword",
@@ -8835,7 +8960,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 125
+  "lineNumber": 125,
+  "classid": 125
  },
  "92h": {
   "name": "Espandon",
@@ -8904,7 +9030,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 126
+  "lineNumber": 126,
+  "classid": 126
  },
  "9cm": {
   "name": "Dacian Falx",
@@ -8972,7 +9099,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 127
+  "lineNumber": 127,
+  "classid": 127
  },
  "9gs": {
   "name": "Tusk Sword",
@@ -9041,7 +9169,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 128
+  "lineNumber": 128,
+  "classid": 128
  },
  "9b9": {
   "name": "Gothic Sword",
@@ -9111,7 +9240,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 129
+  "lineNumber": 129,
+  "classid": 129
  },
  "9fb": {
   "name": "Zweihander",
@@ -9181,7 +9311,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 130
+  "lineNumber": 130,
+  "classid": 130
  },
  "9gd": {
   "name": "Executioner Sword",
@@ -9251,7 +9382,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 131
+  "lineNumber": 131,
+  "classid": 131
  },
  "9dg": {
   "name": "Poignard",
@@ -9314,7 +9446,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 132
+  "lineNumber": 132,
+  "classid": 132
  },
  "9di": {
   "name": "Rondel",
@@ -9377,7 +9510,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 133
+  "lineNumber": 133,
+  "classid": 133
  },
  "9kr": {
   "name": "Cinquedeas",
@@ -9443,7 +9577,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 134
+  "lineNumber": 134,
+  "classid": 134
  },
  "9bl": {
   "name": "Stilleto",
@@ -9509,7 +9644,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 135
+  "lineNumber": 135,
+  "classid": 135
  },
  "9tk": {
   "name": "Battle Dart",
@@ -9579,7 +9715,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 136
+  "lineNumber": 136,
+  "classid": 136
  },
  "9ta": {
   "name": "Francisca",
@@ -9650,7 +9787,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 137
+  "lineNumber": 137,
+  "classid": 137
  },
  "9bk": {
   "name": "War Dart",
@@ -9721,7 +9859,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 138
+  "lineNumber": 138,
+  "classid": 138
  },
  "9b8": {
   "name": "Hurlbat",
@@ -9792,7 +9931,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 139
+  "lineNumber": 139,
+  "classid": 139
  },
  "9ja": {
   "name": "War Javelin",
@@ -9864,7 +10004,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 140
+  "lineNumber": 140,
+  "classid": 140
  },
  "9pi": {
   "name": "Great Pilum",
@@ -9935,7 +10076,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 141
+  "lineNumber": 141,
+  "classid": 141
  },
  "9s9": {
   "name": "Simbilan",
@@ -10007,7 +10149,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 142
+  "lineNumber": 142,
+  "classid": 142
  },
  "9gl": {
   "name": "Spiculum",
@@ -10079,7 +10222,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 143
+  "lineNumber": 143,
+  "classid": 143
  },
  "9ts": {
   "name": "Harpoon",
@@ -10151,7 +10295,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 144
+  "lineNumber": 144,
+  "classid": 144
  },
  "9sr": {
   "name": "War Spear",
@@ -10217,7 +10362,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 145
+  "lineNumber": 145,
+  "classid": 145
  },
  "9tr": {
   "name": "Fuscina",
@@ -10284,7 +10430,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 146
+  "lineNumber": 146,
+  "classid": 146
  },
  "9br": {
   "name": "War Fork",
@@ -10352,7 +10499,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 147
+  "lineNumber": 147,
+  "classid": 147
  },
  "9st": {
   "name": "Yari",
@@ -10416,7 +10564,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 148
+  "lineNumber": 148,
+  "classid": 148
  },
  "9p9": {
   "name": "Lance",
@@ -10482,7 +10631,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 149
+  "lineNumber": 149,
+  "classid": 149
  },
  "9b7": {
   "name": "Lochaber Axe",
@@ -10547,7 +10697,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 150
+  "lineNumber": 150,
+  "classid": 150
  },
  "9vo": {
   "name": "Bill",
@@ -10611,7 +10762,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 151
+  "lineNumber": 151,
+  "classid": 151
  },
  "9s8": {
   "name": "Battle Scythe",
@@ -10679,7 +10831,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 152
+  "lineNumber": 152,
+  "classid": 152
  },
  "9pa": {
   "name": "Partizan",
@@ -10745,7 +10898,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 153
+  "lineNumber": 153,
+  "classid": 153
  },
  "9h9": {
   "name": "Bec-de-Corbin",
@@ -10810,7 +10964,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 154
+  "lineNumber": 154,
+  "classid": 154
  },
  "9wc": {
   "name": "Grim Scythe",
@@ -10876,7 +11031,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 155
+  "lineNumber": 155,
+  "classid": 155
  },
  "8ss": {
   "name": "Jo Staff",
@@ -10942,7 +11098,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 156
+  "lineNumber": 156,
+  "classid": 156
  },
  "8ls": {
   "name": "Quarterstaff",
@@ -11007,7 +11164,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 157
+  "lineNumber": 157,
+  "classid": 157
  },
  "8cs": {
   "name": "Cedar Staff",
@@ -11075,7 +11233,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 158
+  "lineNumber": 158,
+  "classid": 158
  },
  "8bs": {
   "name": "Gothic Staff",
@@ -11140,7 +11299,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 159
+  "lineNumber": 159,
+  "classid": 159
  },
  "8ws": {
   "name": "Rune Staff",
@@ -11208,7 +11368,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 160
+  "lineNumber": 160,
+  "classid": 160
  },
  "8sb": {
   "name": "Edge Bow",
@@ -11274,7 +11435,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 161
+  "lineNumber": 161,
+  "classid": 161
  },
  "8hb": {
   "name": "Razor Bow",
@@ -11340,7 +11502,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 162
+  "lineNumber": 162,
+  "classid": 162
  },
  "8lb": {
   "name": "Cedar Bow",
@@ -11407,7 +11570,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 163
+  "lineNumber": 163,
+  "classid": 163
  },
  "8cb": {
   "name": "Double Bow",
@@ -11475,7 +11639,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 164
+  "lineNumber": 164,
+  "classid": 164
  },
  "8s8": {
   "name": "Short Siege Bow",
@@ -11542,7 +11707,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 165
+  "lineNumber": 165,
+  "classid": 165
  },
  "8l8": {
   "name": "Long Siege Bow",
@@ -11608,7 +11774,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 166
+  "lineNumber": 166,
+  "classid": 166
  },
  "8sw": {
   "name": "Rune Bow",
@@ -11675,7 +11842,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 167
+  "lineNumber": 167,
+  "classid": 167
  },
  "8lw": {
   "name": "Gothic Bow",
@@ -11741,7 +11909,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 168
+  "lineNumber": 168,
+  "classid": 168
  },
  "8lx": {
   "name": "Arbalest",
@@ -11810,7 +11979,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 169
+  "lineNumber": 169,
+  "classid": 169
  },
  "8mx": {
   "name": "Siege Crossbow",
@@ -11878,7 +12048,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 170
+  "lineNumber": 170,
+  "classid": 170
  },
  "8hx": {
   "name": "Ballista",
@@ -11947,7 +12118,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 171
+  "lineNumber": 171,
+  "classid": 171
  },
  "8rx": {
   "name": "Chu-Ko-Nu",
@@ -12016,7 +12188,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 172
+  "lineNumber": 172,
+  "classid": 172
  },
  "qf1": {
   "name": "Khalim's Flail",
@@ -12075,7 +12248,8 @@
   "SkipName": 1,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 173
+  "lineNumber": 173,
+  "classid": 173
  },
  "qf2": {
   "name": "Khalim's Will",
@@ -12132,7 +12306,8 @@
   "SkipName": 1,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 174
+  "lineNumber": 174,
+  "classid": 174
  },
  "ktr": {
   "name": "Katar",
@@ -12203,7 +12378,8 @@
   "HellUpgrade": "btl",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 176
+  "lineNumber": 176,
+  "classid": 175
  },
  "wrb": {
   "name": "Wrist Blade",
@@ -12273,7 +12449,8 @@
   "HellUpgrade": "skr",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 177
+  "lineNumber": 177,
+  "classid": 176
  },
  "axf": {
   "name": "Hatchet Hands",
@@ -12350,7 +12527,8 @@
   "HellUpgrade": "clw",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 178
+  "lineNumber": 178,
+  "classid": 177
  },
  "ces": {
   "name": "Cestus",
@@ -12424,7 +12602,8 @@
   "HellUpgrade": "btl",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 179
+  "lineNumber": 179,
+  "classid": 178
  },
  "clw": {
   "name": "Claws",
@@ -12497,7 +12676,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 180
+  "lineNumber": 180,
+  "classid": 179
  },
  "btl": {
   "name": "Blade Talons",
@@ -12573,7 +12753,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 181
+  "lineNumber": 181,
+  "classid": 180
  },
  "skr": {
   "name": "Scissors Katar",
@@ -12654,7 +12835,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 182
+  "lineNumber": 182,
+  "classid": 181
  },
  "9ar": {
   "name": "Quhab",
@@ -12720,7 +12902,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 183
+  "lineNumber": 183,
+  "classid": 182
  },
  "9wb": {
   "name": "Wrist Spike",
@@ -12787,7 +12970,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 184
+  "lineNumber": 184,
+  "classid": 183
  },
  "9xf": {
   "name": "Fascia",
@@ -12856,7 +13040,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 185
+  "lineNumber": 185,
+  "classid": 184
  },
  "9cs": {
   "name": "Hand Scythe",
@@ -12925,7 +13110,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 186
+  "lineNumber": 186,
+  "classid": 185
  },
  "9lw": {
   "name": "Greater Claws",
@@ -12992,7 +13178,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 187
+  "lineNumber": 187,
+  "classid": 186
  },
  "9tw": {
   "name": "Greater Talons",
@@ -13059,7 +13246,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 188
+  "lineNumber": 188,
+  "classid": 187
  },
  "9qr": {
   "name": "Scissors Quhab",
@@ -13127,7 +13315,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 189
+  "lineNumber": 189,
+  "classid": 188
  },
  "7ar": {
   "name": "Suwayyah",
@@ -13193,7 +13382,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 190
+  "lineNumber": 190,
+  "classid": 189
  },
  "7wb": {
   "name": "Wrist Sword",
@@ -13260,7 +13450,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 191
+  "lineNumber": 191,
+  "classid": 190
  },
  "7xf": {
   "name": "War Fist",
@@ -13329,7 +13520,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 192
+  "lineNumber": 192,
+  "classid": 191
  },
  "7cs": {
   "name": "Battle Cestus",
@@ -13398,7 +13590,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 193
+  "lineNumber": 193,
+  "classid": 192
  },
  "7lw": {
   "name": "Feral Claws",
@@ -13465,7 +13658,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 194
+  "lineNumber": 194,
+  "classid": 193
  },
  "7tw": {
   "name": "Runic Talons",
@@ -13532,7 +13726,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 195
+  "lineNumber": 195,
+  "classid": 194
  },
  "7qr": {
   "name": "Scissors Suwayyah",
@@ -13600,7 +13795,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 196
+  "lineNumber": 196,
+  "classid": 195
  },
  "7ha": {
   "name": "Tomahawk",
@@ -13667,7 +13863,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 197
+  "lineNumber": 197,
+  "classid": 196
  },
  "7ax": {
   "name": "Small Crescent",
@@ -13735,7 +13932,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 198
+  "lineNumber": 198,
+  "classid": 197
  },
  "72a": {
   "name": "Ettin Axe",
@@ -13801,7 +13999,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 199
+  "lineNumber": 199,
+  "classid": 198
  },
  "7mp": {
   "name": "War Spike",
@@ -13869,7 +14068,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 200
+  "lineNumber": 200,
+  "classid": 199
  },
  "7wa": {
   "name": "Berserker Axe",
@@ -13934,7 +14134,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 201
+  "lineNumber": 201,
+  "classid": 200
  },
  "7la": {
   "name": "Feral Axe",
@@ -14000,7 +14201,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 202
+  "lineNumber": 202,
+  "classid": 201
  },
  "7ba": {
   "name": "Silver-edged Axe",
@@ -14066,7 +14268,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 203
+  "lineNumber": 203,
+  "classid": 202
  },
  "7bt": {
   "name": "Decapitator",
@@ -14135,7 +14338,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 204
+  "lineNumber": 204,
+  "classid": 203
  },
  "7ga": {
   "name": "Champion Axe",
@@ -14204,7 +14408,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 205
+  "lineNumber": 205,
+  "classid": 204
  },
  "7gi": {
   "name": "Glorious Axe",
@@ -14271,7 +14476,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 206
+  "lineNumber": 206,
+  "classid": 205
  },
  "7wn": {
   "name": "Polished Wand",
@@ -14335,7 +14541,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 207
+  "lineNumber": 207,
+  "classid": 206
  },
  "7yw": {
   "name": "Ghost Wand",
@@ -14400,7 +14607,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 208
+  "lineNumber": 208,
+  "classid": 207
  },
  "7bw": {
   "name": "Lich Wand",
@@ -14467,7 +14675,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 209
+  "lineNumber": 209,
+  "classid": 208
  },
  "7gw": {
   "name": "Unearthed Wand",
@@ -14531,7 +14740,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 210
+  "lineNumber": 210,
+  "classid": 209
  },
  "7cl": {
   "name": "Truncheon",
@@ -14598,7 +14808,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 211
+  "lineNumber": 211,
+  "classid": 210
  },
  "7sc": {
   "name": "Mighty Scepter",
@@ -14663,7 +14874,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 212
+  "lineNumber": 212,
+  "classid": 211
  },
  "7qs": {
   "name": "Seraph Rod",
@@ -14730,7 +14942,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 213
+  "lineNumber": 213,
+  "classid": 212
  },
  "7ws": {
   "name": "Caduceus",
@@ -14797,7 +15010,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 214
+  "lineNumber": 214,
+  "classid": 213
  },
  "7sp": {
   "name": "Tyrant Club",
@@ -14863,7 +15077,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 215
+  "lineNumber": 215,
+  "classid": 214
  },
  "7ma": {
   "name": "Reinforced Mace",
@@ -14928,7 +15143,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 216
+  "lineNumber": 216,
+  "classid": 215
  },
  "7mt": {
   "name": "Devil Star",
@@ -14996,7 +15212,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 217
+  "lineNumber": 217,
+  "classid": 216
  },
  "7fl": {
   "name": "Scourge",
@@ -15062,7 +15279,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 218
+  "lineNumber": 218,
+  "classid": 217
  },
  "7wh": {
   "name": "Legendary Mallet",
@@ -15128,7 +15346,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 219
+  "lineNumber": 219,
+  "classid": 218
  },
  "7m7": {
   "name": "Ogre Maul",
@@ -15194,7 +15413,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 220
+  "lineNumber": 220,
+  "classid": 219
  },
  "7gm": {
   "name": "Thunder Maul",
@@ -15260,7 +15480,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 221
+  "lineNumber": 221,
+  "classid": 220
  },
  "7ss": {
   "name": "Falcata",
@@ -15324,7 +15545,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 222
+  "lineNumber": 222,
+  "classid": 221
  },
  "7sm": {
   "name": "Ataghan",
@@ -15391,7 +15613,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 223
+  "lineNumber": 223,
+  "classid": 222
  },
  "7sb": {
   "name": "Elegant Blade",
@@ -15458,7 +15681,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 224
+  "lineNumber": 224,
+  "classid": 223
  },
  "7fc": {
   "name": "Hydra Edge",
@@ -15523,7 +15747,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 225
+  "lineNumber": 225,
+  "classid": 224
  },
  "7cr": {
   "name": "Phase Blade",
@@ -15592,7 +15817,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 226
+  "lineNumber": 226,
+  "classid": 225
  },
  "7bs": {
   "name": "Conquest Sword",
@@ -15656,7 +15882,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 227
+  "lineNumber": 227,
+  "classid": 226
  },
  "7ls": {
   "name": "Cryptic Sword",
@@ -15724,7 +15951,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 228
+  "lineNumber": 228,
+  "classid": 227
  },
  "7wd": {
   "name": "Mythical Sword",
@@ -15789,7 +16017,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 229
+  "lineNumber": 229,
+  "classid": 228
  },
  "72h": {
   "name": "Legend Sword",
@@ -15861,7 +16090,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 230
+  "lineNumber": 230,
+  "classid": 229
  },
  "7cm": {
   "name": "Highland Blade",
@@ -15931,7 +16161,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 231
+  "lineNumber": 231,
+  "classid": 230
  },
  "7gs": {
   "name": "Balrog Blade",
@@ -16002,7 +16233,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 232
+  "lineNumber": 232,
+  "classid": 231
  },
  "7b7": {
   "name": "Champion Sword",
@@ -16074,7 +16306,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 233
+  "lineNumber": 233,
+  "classid": 232
  },
  "7fb": {
   "name": "Colossal Sword",
@@ -16144,7 +16377,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 234
+  "lineNumber": 234,
+  "classid": 233
  },
  "7gd": {
   "name": "Colossus Blade",
@@ -16216,7 +16450,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 235
+  "lineNumber": 235,
+  "classid": 234
  },
  "7dg": {
   "name": "Bone Knife",
@@ -16282,7 +16517,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 236
+  "lineNumber": 236,
+  "classid": 235
  },
  "7di": {
   "name": "Mithral Point",
@@ -16347,7 +16583,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 237
+  "lineNumber": 237,
+  "classid": 236
  },
  "7kr": {
   "name": "Fanged Knife",
@@ -16415,7 +16652,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 238
+  "lineNumber": 238,
+  "classid": 237
  },
  "7bl": {
   "name": "Legend Spike",
@@ -16481,7 +16719,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 239
+  "lineNumber": 239,
+  "classid": 238
  },
  "7tk": {
   "name": "Flying Knife",
@@ -16553,7 +16792,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 240
+  "lineNumber": 240,
+  "classid": 239
  },
  "7ta": {
   "name": "Flying Axe",
@@ -16626,7 +16866,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 241
+  "lineNumber": 241,
+  "classid": 240
  },
  "7bk": {
   "name": "Winged Knife",
@@ -16700,7 +16941,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 242
+  "lineNumber": 242,
+  "classid": 241
  },
  "7b8": {
   "name": "Winged Axe",
@@ -16773,7 +17015,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 243
+  "lineNumber": 243,
+  "classid": 242
  },
  "7ja": {
   "name": "Hyperion Javelin",
@@ -16847,7 +17090,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 244
+  "lineNumber": 244,
+  "classid": 243
  },
  "7pi": {
   "name": "Stygian Pilum",
@@ -16920,7 +17164,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 245
+  "lineNumber": 245,
+  "classid": 244
  },
  "7s7": {
   "name": "Balrog Spear",
@@ -16994,7 +17239,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 246
+  "lineNumber": 246,
+  "classid": 245
  },
  "7gl": {
   "name": "Ghost Glaive",
@@ -17068,7 +17314,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 247
+  "lineNumber": 247,
+  "classid": 246
  },
  "7ts": {
   "name": "Winged Harpoon",
@@ -17142,7 +17389,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 248
+  "lineNumber": 248,
+  "classid": 247
  },
  "7sr": {
   "name": "Hyperion Spear",
@@ -17210,7 +17458,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 249
+  "lineNumber": 249,
+  "classid": 248
  },
  "7tr": {
   "name": "Stygian Pike",
@@ -17279,7 +17528,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 250
+  "lineNumber": 250,
+  "classid": 249
  },
  "7br": {
   "name": "Mancatcher",
@@ -17347,7 +17597,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 251
+  "lineNumber": 251,
+  "classid": 250
  },
  "7st": {
   "name": "Ghost Spear",
@@ -17414,7 +17665,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 252
+  "lineNumber": 252,
+  "classid": 251
  },
  "7p7": {
   "name": "War Pike",
@@ -17482,7 +17734,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 253
+  "lineNumber": 253,
+  "classid": 252
  },
  "7o7": {
   "name": "Ogre Axe",
@@ -17549,7 +17802,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 254
+  "lineNumber": 254,
+  "classid": 253
  },
  "7vo": {
   "name": "Colossus Voulge",
@@ -17617,7 +17871,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 255
+  "lineNumber": 255,
+  "classid": 254
  },
  "7s8": {
   "name": "Thresher",
@@ -17687,7 +17942,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 256
+  "lineNumber": 256,
+  "classid": 255
  },
  "7pa": {
   "name": "Cryptic Axe",
@@ -17755,7 +18011,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 257
+  "lineNumber": 257,
+  "classid": 256
  },
  "7h7": {
   "name": "Great Poleaxe",
@@ -17822,7 +18079,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 258
+  "lineNumber": 258,
+  "classid": 257
  },
  "7wc": {
   "name": "Giant Thresher",
@@ -17890,7 +18148,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 259
+  "lineNumber": 259,
+  "classid": 258
  },
  "6ss": {
   "name": "Walking Stick",
@@ -17958,7 +18217,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 260
+  "lineNumber": 260,
+  "classid": 259
  },
  "6ls": {
   "name": "Stalagmite",
@@ -18027,7 +18287,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 261
+  "lineNumber": 261,
+  "classid": 260
  },
  "6cs": {
   "name": "Elder Staff",
@@ -18097,7 +18358,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 262
+  "lineNumber": 262,
+  "classid": 261
  },
  "6bs": {
   "name": "Shillelagh",
@@ -18165,7 +18427,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 263
+  "lineNumber": 263,
+  "classid": 262
  },
  "6ws": {
   "name": "Archon Staff",
@@ -18233,7 +18496,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 264
+  "lineNumber": 264,
+  "classid": 263
  },
  "6sb": {
   "name": "Spider Bow",
@@ -18301,7 +18565,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 265
+  "lineNumber": 265,
+  "classid": 264
  },
  "6hb": {
   "name": "Blade Bow",
@@ -18369,7 +18634,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 266
+  "lineNumber": 266,
+  "classid": 265
  },
  "6lb": {
   "name": "Shadow Bow",
@@ -18436,7 +18702,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 267
+  "lineNumber": 267,
+  "classid": 266
  },
  "6cb": {
   "name": "Great Bow",
@@ -18506,7 +18773,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 268
+  "lineNumber": 268,
+  "classid": 267
  },
  "6s7": {
   "name": "Diamond Bow",
@@ -18575,7 +18843,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 269
+  "lineNumber": 269,
+  "classid": 268
  },
  "6l7": {
   "name": "Crusader Bow",
@@ -18643,7 +18912,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 270
+  "lineNumber": 270,
+  "classid": 269
  },
  "6sw": {
   "name": "Ward Bow",
@@ -18712,7 +18982,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 271
+  "lineNumber": 271,
+  "classid": 270
  },
  "6lw": {
   "name": "Hydra Bow",
@@ -18780,7 +19051,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 272
+  "lineNumber": 272,
+  "classid": 271
  },
  "6lx": {
   "name": "Pellet Bow",
@@ -18851,7 +19123,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 273
+  "lineNumber": 273,
+  "classid": 272
  },
  "6mx": {
   "name": "Gorgon Crossbow",
@@ -18921,7 +19194,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 274
+  "lineNumber": 274,
+  "classid": 273
  },
  "6hx": {
   "name": "Colossus Crossbow",
@@ -18992,7 +19266,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 275
+  "lineNumber": 275,
+  "classid": 274
  },
  "6rx": {
   "name": "Demon Crossbow",
@@ -19063,7 +19338,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 276
+  "lineNumber": 276,
+  "classid": 275
  },
  "ob1": {
   "name": "Eagle Orb",
@@ -19128,7 +19404,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 277
+  "lineNumber": 277,
+  "classid": 276
  },
  "ob2": {
   "name": "Sacred Globe",
@@ -19193,7 +19470,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 278
+  "lineNumber": 278,
+  "classid": 277
  },
  "ob3": {
   "name": "Smoked Sphere",
@@ -19258,7 +19536,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 279
+  "lineNumber": 279,
+  "classid": 278
  },
  "ob4": {
   "name": "Clasped Orb",
@@ -19323,7 +19602,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 280
+  "lineNumber": 280,
+  "classid": 279
  },
  "ob5": {
   "name": "Jared's Stone",
@@ -19389,7 +19669,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 281
+  "lineNumber": 281,
+  "classid": 280
  },
  "am1": {
   "name": "Stag Bow",
@@ -19459,7 +19740,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 282
+  "lineNumber": 282,
+  "classid": 281
  },
  "am2": {
   "name": "Reflex Bow",
@@ -19528,7 +19810,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 283
+  "lineNumber": 283,
+  "classid": 282
  },
  "am3": {
   "name": "Maiden Spear",
@@ -19597,7 +19880,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 284
+  "lineNumber": 284,
+  "classid": 283
  },
  "am4": {
   "name": "Maiden Pike",
@@ -19667,7 +19951,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 285
+  "lineNumber": 285,
+  "classid": 284
  },
  "am5": {
   "name": "Maiden Javelin",
@@ -19742,7 +20027,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 286
+  "lineNumber": 286,
+  "classid": 285
  },
  "ob6": {
   "name": "Glowing Orb",
@@ -19808,7 +20094,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 287
+  "lineNumber": 287,
+  "classid": 286
  },
  "ob7": {
   "name": "Crystalline Globe",
@@ -19874,7 +20161,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 288
+  "lineNumber": 288,
+  "classid": 287
  },
  "ob8": {
   "name": "Cloudy Sphere",
@@ -19939,7 +20227,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 289
+  "lineNumber": 289,
+  "classid": 288
  },
  "ob9": {
   "name": "Sparkling Ball",
@@ -20004,7 +20293,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 290
+  "lineNumber": 290,
+  "classid": 289
  },
  "oba": {
   "name": "Swirling Crystal",
@@ -20070,7 +20360,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 291
+  "lineNumber": 291,
+  "classid": 290
  },
  "am6": {
   "name": "Ashwood Bow",
@@ -20140,7 +20431,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 292
+  "lineNumber": 292,
+  "classid": 291
  },
  "am7": {
   "name": "Ceremonial Bow",
@@ -20209,7 +20501,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 293
+  "lineNumber": 293,
+  "classid": 292
  },
  "am8": {
   "name": "Ceremonial Spear",
@@ -20278,7 +20571,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 294
+  "lineNumber": 294,
+  "classid": 293
  },
  "am9": {
   "name": "Ceremonial Pike",
@@ -20348,7 +20642,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 295
+  "lineNumber": 295,
+  "classid": 294
  },
  "ama": {
   "name": "Ceremonial Javelin",
@@ -20423,7 +20718,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 296
+  "lineNumber": 296,
+  "classid": 295
  },
  "obb": {
   "name": "Heavenly Stone",
@@ -20489,7 +20785,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 297
+  "lineNumber": 297,
+  "classid": 296
  },
  "obc": {
   "name": "Eldritch Orb",
@@ -20555,7 +20852,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 298
+  "lineNumber": 298,
+  "classid": 297
  },
  "obd": {
   "name": "Demon Heart",
@@ -20620,7 +20918,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 299
+  "lineNumber": 299,
+  "classid": 298
  },
  "obe": {
   "name": "Vortex Orb",
@@ -20685,7 +20984,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 300
+  "lineNumber": 300,
+  "classid": 299
  },
  "obf": {
   "name": "Dimensional Shard",
@@ -20751,7 +21051,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 301
+  "lineNumber": 301,
+  "classid": 300
  },
  "amb": {
   "name": "Matriarchal Bow",
@@ -20822,7 +21123,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 302
+  "lineNumber": 302,
+  "classid": 301
  },
  "amc": {
   "name": "Grand Matron Bow",
@@ -20891,7 +21193,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 303
+  "lineNumber": 303,
+  "classid": 302
  },
  "amd": {
   "name": "Matriarchal Spear",
@@ -20960,7 +21263,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 304
+  "lineNumber": 304,
+  "classid": 303
  },
  "ame": {
   "name": "Matriarchal Pike",
@@ -21030,7 +21334,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 305
+  "lineNumber": 305,
+  "classid": 304
  },
  "amf": {
   "name": "Matriarchal Javelin",
@@ -21105,7 +21410,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 306
+  "lineNumber": 306,
+  "classid": 305
  },
  "cap": {
   "name": "Cap",
@@ -21171,7 +21477,8 @@
   "NightmareUpgrade": "skp",
   "HellUpgrade": "ghm",
   "Nameable": 1,
-  "lineNumber": 0
+  "lineNumber": 0,
+  "classid": 306
  },
  "skp": {
   "name": "Skull Cap",
@@ -21237,7 +21544,8 @@
   "NightmareUpgrade": "hlm",
   "HellUpgrade": "crn",
   "Nameable": 1,
-  "lineNumber": 1
+  "lineNumber": 1,
+  "classid": 307
  },
  "hlm": {
   "name": "Helm",
@@ -21303,7 +21611,8 @@
   "NightmareUpgrade": "fhl",
   "HellUpgrade": "ghm",
   "Nameable": 1,
-  "lineNumber": 2
+  "lineNumber": 2,
+  "classid": 308
  },
  "fhl": {
   "name": "Full Helm",
@@ -21369,7 +21678,8 @@
   "NightmareUpgrade": "ghm",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 3
+  "lineNumber": 3,
+  "classid": 309
  },
  "ghm": {
   "name": "Great Helm",
@@ -21444,7 +21754,8 @@
   "NightmareUpgrade": "crn",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 4
+  "lineNumber": 4,
+  "classid": 310
  },
  "crn": {
   "name": "Crown",
@@ -21511,7 +21822,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 5
+  "lineNumber": 5,
+  "classid": 311
  },
  "msk": {
   "name": "Mask",
@@ -21570,7 +21882,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 6
+  "lineNumber": 6,
+  "classid": 312
  },
  "qui": {
   "name": "Quilted Armor",
@@ -21635,7 +21948,8 @@
   "NightmareUpgrade": "lea",
   "HellUpgrade": "gth",
   "Nameable": 1,
-  "lineNumber": 7
+  "lineNumber": 7,
+  "classid": 313
  },
  "lea": {
   "name": "Leather Armor",
@@ -21705,7 +22019,8 @@
   "NightmareUpgrade": "hla",
   "HellUpgrade": "ful",
   "Nameable": 1,
-  "lineNumber": 8
+  "lineNumber": 8,
+  "classid": 314
  },
  "hla": {
   "name": "Hard Leather Armor",
@@ -21777,7 +22092,8 @@
   "NightmareUpgrade": "stu",
   "HellUpgrade": "aar",
   "Nameable": 1,
-  "lineNumber": 9
+  "lineNumber": 9,
+  "classid": 315
  },
  "stu": {
   "name": "Studded Leather",
@@ -21848,7 +22164,8 @@
   "NightmareUpgrade": "rng",
   "HellUpgrade": "ltp",
   "Nameable": 1,
-  "lineNumber": 10
+  "lineNumber": 10,
+  "classid": 316
  },
  "rng": {
   "name": "Ring Mail",
@@ -21917,7 +22234,8 @@
   "NightmareUpgrade": "scl",
   "HellUpgrade": "chn",
   "Nameable": 1,
-  "lineNumber": 11
+  "lineNumber": 11,
+  "classid": 317
  },
  "scl": {
   "name": "Scale Mail",
@@ -21986,7 +22304,8 @@
   "NightmareUpgrade": "chn",
   "HellUpgrade": "brs",
   "Nameable": 1,
-  "lineNumber": 12
+  "lineNumber": 12,
+  "classid": 318
  },
  "chn": {
   "name": "Chain Mail",
@@ -22064,7 +22383,8 @@
   "NightmareUpgrade": "brs",
   "HellUpgrade": "spl",
   "Nameable": 1,
-  "lineNumber": 13
+  "lineNumber": 13,
+  "classid": 319
  },
  "brs": {
   "name": "Breast Plate",
@@ -22140,7 +22460,8 @@
   "NightmareUpgrade": "spl",
   "HellUpgrade": "plt",
   "Nameable": 1,
-  "lineNumber": 14
+  "lineNumber": 14,
+  "classid": 320
  },
  "spl": {
   "name": "Splint Mail",
@@ -22220,7 +22541,8 @@
   "NightmareUpgrade": "plt",
   "HellUpgrade": "fld",
   "Nameable": 1,
-  "lineNumber": 15
+  "lineNumber": 15,
+  "classid": 321
  },
  "plt": {
   "name": "Plate Mail",
@@ -22295,7 +22617,8 @@
   "NightmareUpgrade": "fld",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 16
+  "lineNumber": 16,
+  "classid": 322
  },
  "fld": {
   "name": "Field Plate",
@@ -22366,7 +22689,8 @@
   "NightmareUpgrade": "gth",
   "HellUpgrade": "ful",
   "Nameable": 1,
-  "lineNumber": 17
+  "lineNumber": 17,
+  "classid": 323
  },
  "gth": {
   "name": "Gothic Plate",
@@ -22439,7 +22763,8 @@
   "NightmareUpgrade": "ful",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 18
+  "lineNumber": 18,
+  "classid": 324
  },
  "ful": {
   "name": "Full Plate Mail",
@@ -22511,7 +22836,8 @@
   "NightmareUpgrade": "aar",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 19
+  "lineNumber": 19,
+  "classid": 325
  },
  "aar": {
   "name": "Ancient Armor",
@@ -22585,7 +22911,8 @@
   "NightmareUpgrade": "ltp",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 20
+  "lineNumber": 20,
+  "classid": 326
  },
  "ltp": {
   "name": "Light Plate",
@@ -22655,7 +22982,8 @@
   "NightmareUpgrade": "buc",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 21
+  "lineNumber": 21,
+  "classid": 327
  },
  "buc": {
   "name": "Buckler",
@@ -22726,7 +23054,8 @@
   "NightmareUpgrade": "sml",
   "HellUpgrade": "tow",
   "Nameable": 1,
-  "lineNumber": 22
+  "lineNumber": 22,
+  "classid": 328
  },
  "sml": {
   "name": "Small Shield",
@@ -22801,7 +23130,8 @@
   "NightmareUpgrade": "lrg",
   "HellUpgrade": "kit",
   "Nameable": 1,
-  "lineNumber": 23
+  "lineNumber": 23,
+  "classid": 329
  },
  "lrg": {
   "name": "Large Shield",
@@ -22883,7 +23213,8 @@
   "NightmareUpgrade": "kit",
   "HellUpgrade": "tow",
   "Nameable": 1,
-  "lineNumber": 24
+  "lineNumber": 24,
+  "classid": 330
  },
  "kit": {
   "name": "Kite Shield",
@@ -22963,7 +23294,8 @@
   "NightmareUpgrade": "tow",
   "HellUpgrade": "gts",
   "Nameable": 1,
-  "lineNumber": 25
+  "lineNumber": 25,
+  "classid": 331
  },
  "tow": {
   "name": "Tower Shield",
@@ -23042,7 +23374,8 @@
   "NightmareUpgrade": "gts",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 26
+  "lineNumber": 26,
+  "classid": 332
  },
  "gts": {
   "name": "Gothic Shield",
@@ -23115,7 +23448,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 27
+  "lineNumber": 27,
+  "classid": 333
  },
  "lgl": {
   "name": "Leather Gloves",
@@ -23177,7 +23511,8 @@
   "NightmareUpgrade": "vgl",
   "HellUpgrade": "hgl",
   "Nameable": 1,
-  "lineNumber": 28
+  "lineNumber": 28,
+  "classid": 334
  },
  "vgl": {
   "name": "Heavy Gloves",
@@ -23239,7 +23574,8 @@
   "NightmareUpgrade": "mgl",
   "HellUpgrade": "tgl",
   "Nameable": 1,
-  "lineNumber": 29
+  "lineNumber": 29,
+  "classid": 335
  },
  "mgl": {
   "name": "Chain Gloves",
@@ -23303,7 +23639,8 @@
   "NightmareUpgrade": "tgl",
   "HellUpgrade": "hgl",
   "Nameable": 1,
-  "lineNumber": 30
+  "lineNumber": 30,
+  "classid": 336
  },
  "tgl": {
   "name": "Light Gauntlets",
@@ -23375,7 +23712,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 31
+  "lineNumber": 31,
+  "classid": 337
  },
  "hgl": {
   "name": "Gauntlets",
@@ -23447,7 +23785,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 32
+  "lineNumber": 32,
+  "classid": 338
  },
  "lbt": {
   "name": "Boots",
@@ -23512,7 +23851,8 @@
   "NightmareUpgrade": "vbt",
   "HellUpgrade": "tbt",
   "Nameable": 1,
-  "lineNumber": 33
+  "lineNumber": 33,
+  "classid": 339
  },
  "vbt": {
   "name": "Heavy Boots",
@@ -23578,7 +23918,8 @@
   "NightmareUpgrade": "mbt",
   "HellUpgrade": "tbt",
   "Nameable": 1,
-  "lineNumber": 34
+  "lineNumber": 34,
+  "classid": 340
  },
  "mbt": {
   "name": "Chain Boots",
@@ -23645,7 +23986,8 @@
   "NightmareUpgrade": "tbt",
   "HellUpgrade": "hbt",
   "Nameable": 1,
-  "lineNumber": 35
+  "lineNumber": 35,
+  "classid": 341
  },
  "tbt": {
   "name": "Light Plated Boots",
@@ -23720,7 +24062,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 36
+  "lineNumber": 36,
+  "classid": 342
  },
  "hbt": {
   "name": "Greaves",
@@ -23796,7 +24139,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 37
+  "lineNumber": 37,
+  "classid": 343
  },
  "lbl": {
   "name": "Sash",
@@ -23859,7 +24203,8 @@
   "NightmareUpgrade": "vbl",
   "HellUpgrade": "tbl",
   "Nameable": 1,
-  "lineNumber": 38
+  "lineNumber": 38,
+  "classid": 344
  },
  "vbl": {
   "name": "Light Belt",
@@ -23922,7 +24267,8 @@
   "NightmareUpgrade": "mbl",
   "HellUpgrade": "hbl",
   "Nameable": 1,
-  "lineNumber": 39
+  "lineNumber": 39,
+  "classid": 345
  },
  "mbl": {
   "name": "Belt",
@@ -23986,7 +24332,8 @@
   "NightmareUpgrade": "tbl",
   "HellUpgrade": "hbl",
   "Nameable": 1,
-  "lineNumber": 40
+  "lineNumber": 40,
+  "classid": 346
  },
  "tbl": {
   "name": "Heavy Belt",
@@ -24057,7 +24404,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 41
+  "lineNumber": 41,
+  "classid": 347
  },
  "hbl": {
   "name": "Plated Belt",
@@ -24129,7 +24477,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 42
+  "lineNumber": 42,
+  "classid": 348
  },
  "bhm": {
   "name": "Bone Helm",
@@ -24195,7 +24544,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 43
+  "lineNumber": 43,
+  "classid": 349
  },
  "bsh": {
   "name": "Bone Shield",
@@ -24265,7 +24615,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 44
+  "lineNumber": 44,
+  "classid": 350
  },
  "spk": {
   "name": "Spiked Shield",
@@ -24334,7 +24685,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 45
+  "lineNumber": 45,
+  "classid": 351
  },
  "xap": {
   "name": "War Hat",
@@ -24391,7 +24743,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 46
+  "lineNumber": 46,
+  "classid": 352
  },
  "xkp": {
   "name": "Sallet",
@@ -24450,7 +24803,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 47
+  "lineNumber": 47,
+  "classid": 353
  },
  "xlm": {
   "name": "Casque",
@@ -24509,7 +24863,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 48
+  "lineNumber": 48,
+  "classid": 354
  },
  "xhl": {
   "name": "Basinet",
@@ -24567,7 +24922,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 49
+  "lineNumber": 49,
+  "classid": 355
  },
  "xhm": {
   "name": "Winged Helm",
@@ -24624,7 +24980,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 50
+  "lineNumber": 50,
+  "classid": 356
  },
  "xrn": {
   "name": "Grand Crown",
@@ -24683,7 +25040,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 51
+  "lineNumber": 51,
+  "classid": 357
  },
  "xsk": {
   "name": "Death Mask",
@@ -24740,7 +25098,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 52
+  "lineNumber": 52,
+  "classid": 358
  },
  "xui": {
   "name": "Ghost Armor",
@@ -24800,7 +25159,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 53
+  "lineNumber": 53,
+  "classid": 359
  },
  "xea": {
   "name": "Serpentskin Armor",
@@ -24861,7 +25221,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 54
+  "lineNumber": 54,
+  "classid": 360
  },
  "xla": {
   "name": "Demonhide Armor",
@@ -24924,7 +25285,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 55
+  "lineNumber": 55,
+  "classid": 361
  },
  "xtu": {
   "name": "Trellised Armor",
@@ -24988,7 +25350,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 56
+  "lineNumber": 56,
+  "classid": 362
  },
  "xng": {
   "name": "Linked Mail",
@@ -25051,7 +25414,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 57
+  "lineNumber": 57,
+  "classid": 363
  },
  "xcl": {
   "name": "Tigulated Mail",
@@ -25116,7 +25480,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 58
+  "lineNumber": 58,
+  "classid": 364
  },
  "xhn": {
   "name": "Mesh Armor",
@@ -25181,7 +25546,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 59
+  "lineNumber": 59,
+  "classid": 365
  },
  "xrs": {
   "name": "Cuirass",
@@ -25243,7 +25609,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 60
+  "lineNumber": 60,
+  "classid": 366
  },
  "xpl": {
   "name": "Russet Armor",
@@ -25308,7 +25675,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 61
+  "lineNumber": 61,
+  "classid": 367
  },
  "xlt": {
   "name": "Templar Coat",
@@ -25373,7 +25741,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 62
+  "lineNumber": 62,
+  "classid": 368
  },
  "xld": {
   "name": "Sharktooth Armor",
@@ -25438,7 +25807,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 63
+  "lineNumber": 63,
+  "classid": 369
  },
  "xth": {
   "name": "Embossed Plate",
@@ -25503,7 +25873,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 64
+  "lineNumber": 64,
+  "classid": 370
  },
  "xul": {
   "name": "Chaos Armor",
@@ -25568,7 +25939,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 65
+  "lineNumber": 65,
+  "classid": 371
  },
  "xar": {
   "name": "Ornate Armor",
@@ -25634,7 +26006,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 66
+  "lineNumber": 66,
+  "classid": 372
  },
  "xtp": {
   "name": "Mage Plate",
@@ -25697,7 +26070,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 67
+  "lineNumber": 67,
+  "classid": 373
  },
  "xuc": {
   "name": "Defender",
@@ -25761,7 +26135,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 68
+  "lineNumber": 68,
+  "classid": 374
  },
  "xml": {
   "name": "Round Shield",
@@ -25825,7 +26200,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 69
+  "lineNumber": 69,
+  "classid": 375
  },
  "xrg": {
   "name": "Scutum",
@@ -25890,7 +26266,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 70
+  "lineNumber": 70,
+  "classid": 376
  },
  "xit": {
   "name": "Dragon Shield",
@@ -25954,7 +26331,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 71
+  "lineNumber": 71,
+  "classid": 377
  },
  "xow": {
   "name": "Pavise",
@@ -26019,7 +26397,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 72
+  "lineNumber": 72,
+  "classid": 378
  },
  "xts": {
   "name": "Ancient Shield",
@@ -26084,7 +26463,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 73
+  "lineNumber": 73,
+  "classid": 379
  },
  "xlg": {
   "name": "Demonhide Gloves",
@@ -26138,7 +26518,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 74
+  "lineNumber": 74,
+  "classid": 380
  },
  "xvg": {
   "name": "Sharkskin Gloves",
@@ -26192,7 +26573,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 75
+  "lineNumber": 75,
+  "classid": 381
  },
  "xmg": {
   "name": "Heavy Bracers",
@@ -26246,7 +26628,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 76
+  "lineNumber": 76,
+  "classid": 382
  },
  "xtg": {
   "name": "Battle Gauntlets",
@@ -26300,7 +26683,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 77
+  "lineNumber": 77,
+  "classid": 383
  },
  "xhg": {
   "name": "War Gauntlets",
@@ -26354,7 +26738,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 78
+  "lineNumber": 78,
+  "classid": 384
  },
  "xlb": {
   "name": "Demonhide Boots",
@@ -26411,7 +26796,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 79
+  "lineNumber": 79,
+  "classid": 385
  },
  "xvb": {
   "name": "Sharkskin Boots",
@@ -26469,7 +26855,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "PermStoreItem": 1,
-  "lineNumber": 80
+  "lineNumber": 80,
+  "classid": 386
  },
  "xmb": {
   "name": "Mesh Boots",
@@ -26527,7 +26914,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "PermStoreItem": 1,
-  "lineNumber": 81
+  "lineNumber": 81,
+  "classid": 387
  },
  "xtb": {
   "name": "Battle Boots",
@@ -26585,7 +26973,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "PermStoreItem": 1,
-  "lineNumber": 82
+  "lineNumber": 82,
+  "classid": 388
  },
  "xhb": {
   "name": "War Boots",
@@ -26643,7 +27032,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "PermStoreItem": 1,
-  "lineNumber": 83
+  "lineNumber": 83,
+  "classid": 389
  },
  "zlb": {
   "name": "Demonhide Sash",
@@ -26699,7 +27089,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "PermStoreItem": 1,
-  "lineNumber": 84
+  "lineNumber": 84,
+  "classid": 390
  },
  "zvb": {
   "name": "Sharkskin Belt",
@@ -26755,7 +27146,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "PermStoreItem": 1,
-  "lineNumber": 85
+  "lineNumber": 85,
+  "classid": 391
  },
  "zmb": {
   "name": "Mesh Belt",
@@ -26810,7 +27202,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 86
+  "lineNumber": 86,
+  "classid": 392
  },
  "ztb": {
   "name": "Battle Belt",
@@ -26865,7 +27258,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 87
+  "lineNumber": 87,
+  "classid": 393
  },
  "zhb": {
   "name": "War Belt",
@@ -26920,7 +27314,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 88
+  "lineNumber": 88,
+  "classid": 394
  },
  "xh9": {
   "name": "Grim Helm",
@@ -26980,7 +27375,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 89
+  "lineNumber": 89,
+  "classid": 395
  },
  "xsh": {
   "name": "Grim Shield",
@@ -27044,7 +27440,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 90
+  "lineNumber": 90,
+  "classid": 396
  },
  "xpk": {
   "name": "Barbed Shield",
@@ -27108,7 +27505,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "Nameable": 1,
-  "lineNumber": 91
+  "lineNumber": 91,
+  "classid": 397
  },
  "dr1": {
   "name": "Wolf Head",
@@ -27167,7 +27565,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 93
+  "lineNumber": 93,
+  "classid": 398
  },
  "dr2": {
   "name": "Hawk Helm",
@@ -27226,7 +27625,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 94
+  "lineNumber": 94,
+  "classid": 399
  },
  "dr3": {
   "name": "Antlers",
@@ -27285,7 +27685,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 95
+  "lineNumber": 95,
+  "classid": 400
  },
  "dr4": {
   "name": "Falcon Mask",
@@ -27344,7 +27745,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 96
+  "lineNumber": 96,
+  "classid": 401
  },
  "dr5": {
   "name": "Spirit Mask",
@@ -27403,7 +27805,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 97
+  "lineNumber": 97,
+  "classid": 402
  },
  "ba1": {
   "name": "Jawbone Cap",
@@ -27462,7 +27865,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 98
+  "lineNumber": 98,
+  "classid": 403
  },
  "ba2": {
   "name": "Fanged Helm",
@@ -27521,7 +27925,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 99
+  "lineNumber": 99,
+  "classid": 404
  },
  "ba3": {
   "name": "Horned Helm",
@@ -27580,7 +27985,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 100
+  "lineNumber": 100,
+  "classid": 405
  },
  "ba4": {
   "name": "Assault Helmet",
@@ -27639,7 +28045,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 101
+  "lineNumber": 101,
+  "classid": 406
  },
  "ba5": {
   "name": "Avenger Guard",
@@ -27698,7 +28105,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 102
+  "lineNumber": 102,
+  "classid": 407
  },
  "pa1": {
   "name": "Targe",
@@ -27762,7 +28170,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 103
+  "lineNumber": 103,
+  "classid": 408
  },
  "pa2": {
   "name": "Rondache",
@@ -27826,7 +28235,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 104
+  "lineNumber": 104,
+  "classid": 409
  },
  "pa3": {
   "name": "Heraldic Shield",
@@ -27890,7 +28300,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 105
+  "lineNumber": 105,
+  "classid": 410
  },
  "pa4": {
   "name": "Aerin Shield",
@@ -27954,7 +28365,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 106
+  "lineNumber": 106,
+  "classid": 411
  },
  "pa5": {
   "name": "Crown Shield",
@@ -28018,7 +28430,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 107
+  "lineNumber": 107,
+  "classid": 412
  },
  "ne1": {
   "name": "Preserved Head",
@@ -28079,7 +28492,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 108
+  "lineNumber": 108,
+  "classid": 413
  },
  "ne2": {
   "name": "Zombie Head",
@@ -28140,7 +28554,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 109
+  "lineNumber": 109,
+  "classid": 414
  },
  "ne3": {
   "name": "Unraveller Head",
@@ -28201,7 +28616,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 110
+  "lineNumber": 110,
+  "classid": 415
  },
  "ne4": {
   "name": "Gargoyle Head",
@@ -28262,7 +28678,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 111
+  "lineNumber": 111,
+  "classid": 416
  },
  "ne5": {
   "name": "Demon Head",
@@ -28323,7 +28740,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 112
+  "lineNumber": 112,
+  "classid": 417
  },
  "ci0": {
   "name": "Circlet",
@@ -28382,7 +28800,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 113
+  "lineNumber": 113,
+  "classid": 418
  },
  "ci1": {
   "name": "Coronet",
@@ -28442,7 +28861,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 114
+  "lineNumber": 114,
+  "classid": 419
  },
  "ci2": {
   "name": "Tiara",
@@ -28502,7 +28922,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 115
+  "lineNumber": 115,
+  "classid": 420
  },
  "ci3": {
   "name": "Diadem",
@@ -28562,7 +28983,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 116
+  "lineNumber": 116,
+  "classid": 421
  },
  "uap": {
   "name": "Shako",
@@ -28621,7 +29043,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 117
+  "lineNumber": 117,
+  "classid": 422
  },
  "ukp": {
   "name": "Hydraskull",
@@ -28680,7 +29103,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 118
+  "lineNumber": 118,
+  "classid": 423
  },
  "ulm": {
   "name": "Armet",
@@ -28741,7 +29165,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 119
+  "lineNumber": 119,
+  "classid": 424
  },
  "uhl": {
   "name": "Giant Conch",
@@ -28801,7 +29226,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 120
+  "lineNumber": 120,
+  "classid": 425
  },
  "uhm": {
   "name": "Spired Helm",
@@ -28861,7 +29287,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 121
+  "lineNumber": 121,
+  "classid": 426
  },
  "urn": {
   "name": "Corona",
@@ -28920,7 +29347,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 122
+  "lineNumber": 122,
+  "classid": 427
  },
  "usk": {
   "name": "Demonhead",
@@ -28979,7 +29407,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 123
+  "lineNumber": 123,
+  "classid": 428
  },
  "uui": {
   "name": "Dusk Shroud",
@@ -29041,7 +29470,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 124
+  "lineNumber": 124,
+  "classid": 429
  },
  "uea": {
   "name": "Wyrmhide",
@@ -29104,7 +29534,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 125
+  "lineNumber": 125,
+  "classid": 430
  },
  "ula": {
   "name": "Scarab Husk",
@@ -29169,7 +29600,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 126
+  "lineNumber": 126,
+  "classid": 431
  },
  "utu": {
   "name": "Wire Fleece",
@@ -29233,7 +29665,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 127
+  "lineNumber": 127,
+  "classid": 432
  },
  "ung": {
   "name": "Diamond Mail",
@@ -29298,7 +29731,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 128
+  "lineNumber": 128,
+  "classid": 433
  },
  "ucl": {
   "name": "Loricated Mail",
@@ -29365,7 +29799,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 129
+  "lineNumber": 129,
+  "classid": 434
  },
  "uhn": {
   "name": "Boneweave",
@@ -29432,7 +29867,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 130
+  "lineNumber": 130,
+  "classid": 435
  },
  "urs": {
   "name": "Great Hauberk",
@@ -29495,7 +29931,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 131
+  "lineNumber": 131,
+  "classid": 436
  },
  "upl": {
   "name": "Balrog Skin",
@@ -29562,7 +29999,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 132
+  "lineNumber": 132,
+  "classid": 437
  },
  "ult": {
   "name": "Hellforge Plate",
@@ -29629,7 +30067,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 133
+  "lineNumber": 133,
+  "classid": 438
  },
  "uld": {
   "name": "Kraken Shell",
@@ -29696,7 +30135,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 134
+  "lineNumber": 134,
+  "classid": 439
  },
  "uth": {
   "name": "Lacquered Plate",
@@ -29763,7 +30203,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 135
+  "lineNumber": 135,
+  "classid": 440
  },
  "uul": {
   "name": "Shadow Plate",
@@ -29830,7 +30271,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 136
+  "lineNumber": 136,
+  "classid": 441
  },
  "uar": {
   "name": "Sacred Armor",
@@ -29898,7 +30340,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 137
+  "lineNumber": 137,
+  "classid": 442
  },
  "utp": {
   "name": "Archon Plate",
@@ -29963,7 +30406,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 138
+  "lineNumber": 138,
+  "classid": 443
  },
  "uuc": {
   "name": "Heater",
@@ -30029,7 +30473,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 139
+  "lineNumber": 139,
+  "classid": 444
  },
  "uml": {
   "name": "Luna",
@@ -30095,7 +30540,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 140
+  "lineNumber": 140,
+  "classid": 445
  },
  "urg": {
   "name": "Hyperion",
@@ -30162,7 +30608,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 141
+  "lineNumber": 141,
+  "classid": 446
  },
  "uit": {
   "name": "Monarch",
@@ -30228,7 +30675,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 142
+  "lineNumber": 142,
+  "classid": 447
  },
  "uow": {
   "name": "Aegis",
@@ -30295,7 +30743,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 143
+  "lineNumber": 143,
+  "classid": 448
  },
  "uts": {
   "name": "Ward",
@@ -30362,7 +30811,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 144
+  "lineNumber": 144,
+  "classid": 449
  },
  "ulg": {
   "name": "Bramble Mitts",
@@ -30418,7 +30868,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 145
+  "lineNumber": 145,
+  "classid": 450
  },
  "uvg": {
   "name": "Vampirebone Gloves",
@@ -30474,7 +30925,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 146
+  "lineNumber": 146,
+  "classid": 451
  },
  "umg": {
   "name": "Vambraces",
@@ -30530,7 +30982,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 147
+  "lineNumber": 147,
+  "classid": 452
  },
  "utg": {
   "name": "Crusader Gauntlets",
@@ -30586,7 +31039,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 148
+  "lineNumber": 148,
+  "classid": 453
  },
  "uhg": {
   "name": "Ogre Gauntlets",
@@ -30642,7 +31096,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 149
+  "lineNumber": 149,
+  "classid": 454
  },
  "ulb": {
   "name": "Wyrmhide Boots",
@@ -30701,7 +31156,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 150
+  "lineNumber": 150,
+  "classid": 455
  },
  "uvb": {
   "name": "Scarabshell Boots",
@@ -30760,7 +31216,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 151
+  "lineNumber": 151,
+  "classid": 456
  },
  "umb": {
   "name": "Boneweave Boots",
@@ -30819,7 +31276,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 152
+  "lineNumber": 152,
+  "classid": 457
  },
  "utb": {
   "name": "Mirrored Boots",
@@ -30878,7 +31336,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 153
+  "lineNumber": 153,
+  "classid": 458
  },
  "uhb": {
   "name": "Myrmidon Greaves",
@@ -30937,7 +31396,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 154
+  "lineNumber": 154,
+  "classid": 459
  },
  "ulc": {
   "name": "Spiderweb Sash",
@@ -30994,7 +31454,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 155
+  "lineNumber": 155,
+  "classid": 460
  },
  "uvc": {
   "name": "Vampirefang Belt",
@@ -31051,7 +31512,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 156
+  "lineNumber": 156,
+  "classid": 461
  },
  "umc": {
   "name": "Mithril Coil",
@@ -31108,7 +31570,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 157
+  "lineNumber": 157,
+  "classid": 462
  },
  "utc": {
   "name": "Troll Belt",
@@ -31165,7 +31628,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 158
+  "lineNumber": 158,
+  "classid": 463
  },
  "uhc": {
   "name": "Colossus Girdle",
@@ -31222,7 +31686,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 159
+  "lineNumber": 159,
+  "classid": 464
  },
  "uh9": {
   "name": "Bone Visage",
@@ -31284,7 +31749,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 160
+  "lineNumber": 160,
+  "classid": 465
  },
  "ush": {
   "name": "Troll Nest",
@@ -31350,7 +31816,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 161
+  "lineNumber": 161,
+  "classid": 466
  },
  "upk": {
   "name": "Blade Barrier",
@@ -31416,7 +31883,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 162
+  "lineNumber": 162,
+  "classid": 467
  },
  "dr6": {
   "name": "Alpha Helm",
@@ -31475,7 +31943,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 163
+  "lineNumber": 163,
+  "classid": 468
  },
  "dr7": {
   "name": "Griffon Headress",
@@ -31534,7 +32003,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 164
+  "lineNumber": 164,
+  "classid": 469
  },
  "dr8": {
   "name": "Hunter's Guise",
@@ -31593,7 +32063,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 165
+  "lineNumber": 165,
+  "classid": 470
  },
  "dr9": {
   "name": "Sacred Feathers",
@@ -31652,7 +32123,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 166
+  "lineNumber": 166,
+  "classid": 471
  },
  "dra": {
   "name": "Totemic Mask",
@@ -31711,7 +32183,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 167
+  "lineNumber": 167,
+  "classid": 472
  },
  "ba6": {
   "name": "Jawbone Visor",
@@ -31769,7 +32242,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 168
+  "lineNumber": 168,
+  "classid": 473
  },
  "ba7": {
   "name": "Lion Helm",
@@ -31827,7 +32301,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 169
+  "lineNumber": 169,
+  "classid": 474
  },
  "ba8": {
   "name": "Rage Mask",
@@ -31885,7 +32360,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 170
+  "lineNumber": 170,
+  "classid": 475
  },
  "ba9": {
   "name": "Savage Helmet",
@@ -31943,7 +32419,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 171
+  "lineNumber": 171,
+  "classid": 476
  },
  "baa": {
   "name": "Slayer Guard",
@@ -32001,7 +32478,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 172
+  "lineNumber": 172,
+  "classid": 477
  },
  "pa6": {
   "name": "Akaran Targe",
@@ -32065,7 +32543,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 173
+  "lineNumber": 173,
+  "classid": 478
  },
  "pa7": {
   "name": "Akaran Rondache",
@@ -32129,7 +32608,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 174
+  "lineNumber": 174,
+  "classid": 479
  },
  "pa8": {
   "name": "Protector Shield",
@@ -32193,7 +32673,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 175
+  "lineNumber": 175,
+  "classid": 480
  },
  "pa9": {
   "name": "Gilded Shield",
@@ -32257,7 +32738,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 176
+  "lineNumber": 176,
+  "classid": 481
  },
  "paa": {
   "name": "Royal Shield",
@@ -32321,7 +32803,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 177
+  "lineNumber": 177,
+  "classid": 482
  },
  "ne6": {
   "name": "Mummified Trophy",
@@ -32382,7 +32865,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 178
+  "lineNumber": 178,
+  "classid": 483
  },
  "ne7": {
   "name": "Fetish Trophy",
@@ -32443,7 +32927,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 179
+  "lineNumber": 179,
+  "classid": 484
  },
  "ne8": {
   "name": "Sexton Trophy",
@@ -32504,7 +32989,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 180
+  "lineNumber": 180,
+  "classid": 485
  },
  "ne9": {
   "name": "Cantor Trophy",
@@ -32565,7 +33051,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 181
+  "lineNumber": 181,
+  "classid": 486
  },
  "nea": {
   "name": "Heirophant Trophy",
@@ -32626,7 +33113,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 182
+  "lineNumber": 182,
+  "classid": 487
  },
  "drb": {
   "name": "Blood Spirit",
@@ -32685,7 +33173,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 183
+  "lineNumber": 183,
+  "classid": 488
  },
  "drc": {
   "name": "Sun Spirit",
@@ -32744,7 +33233,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 184
+  "lineNumber": 184,
+  "classid": 489
  },
  "drd": {
   "name": "Earth Spirit",
@@ -32803,7 +33293,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 185
+  "lineNumber": 185,
+  "classid": 490
  },
  "dre": {
   "name": "Sky Spirit",
@@ -32862,7 +33353,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 186
+  "lineNumber": 186,
+  "classid": 491
  },
  "drf": {
   "name": "Dream Spirit",
@@ -32921,7 +33413,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 187
+  "lineNumber": 187,
+  "classid": 492
  },
  "bab": {
   "name": "Carnage Helm",
@@ -32979,7 +33472,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 188
+  "lineNumber": 188,
+  "classid": 493
  },
  "bac": {
   "name": "Fury Visor",
@@ -33037,7 +33531,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 189
+  "lineNumber": 189,
+  "classid": 494
  },
  "bad": {
   "name": "Destroyer Helm",
@@ -33095,7 +33590,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 190
+  "lineNumber": 190,
+  "classid": 495
  },
  "bae": {
   "name": "Conqueror Crown",
@@ -33153,7 +33649,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 191
+  "lineNumber": 191,
+  "classid": 496
  },
  "baf": {
   "name": "Guardian Crown",
@@ -33211,7 +33708,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 192
+  "lineNumber": 192,
+  "classid": 497
  },
  "pab": {
   "name": "Sacred Targe",
@@ -33275,7 +33773,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 193
+  "lineNumber": 193,
+  "classid": 498
  },
  "pac": {
   "name": "Sacred Rondache",
@@ -33339,7 +33838,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 194
+  "lineNumber": 194,
+  "classid": 499
  },
  "pad": {
   "name": "Ancient Shield",
@@ -33403,7 +33903,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 195
+  "lineNumber": 195,
+  "classid": 500
  },
  "pae": {
   "name": "Zakarum Shield",
@@ -33467,7 +33968,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 196
+  "lineNumber": 196,
+  "classid": 501
  },
  "paf": {
   "name": "Vortex Shield",
@@ -33531,7 +34033,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 197
+  "lineNumber": 197,
+  "classid": 502
  },
  "neb": {
   "name": "Minion Skull",
@@ -33592,7 +34095,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 198
+  "lineNumber": 198,
+  "classid": 503
  },
  "neg": {
   "name": "Hellspawn Skull",
@@ -33653,7 +34157,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 199
+  "lineNumber": 199,
+  "classid": 504
  },
  "ned": {
   "name": "Overseer Skull",
@@ -33714,7 +34219,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 200
+  "lineNumber": 200,
+  "classid": 505
  },
  "nee": {
   "name": "Succubus Skull",
@@ -33775,7 +34281,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 201
+  "lineNumber": 201,
+  "classid": 506
  },
  "nef": {
   "name": "Bloodlord Skull",
@@ -33836,7 +34343,8 @@
   "HellUpgrade": "xxx",
   "Nameable": 1,
   "expansion": 1,
-  "lineNumber": 202
+  "lineNumber": 202,
+  "classid": 507
  },
  "elx": {
   "name": "Elixir",
@@ -33885,7 +34393,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 0
+  "lineNumber": 0,
+  "classid": 508
  },
  "hpo": {
   "name": "Healing Potion",
@@ -33934,7 +34443,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 1
+  "lineNumber": 1,
+  "classid": 509
  },
  "mpo": {
   "name": "Mana Potion",
@@ -33982,7 +34492,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 2
+  "lineNumber": 2,
+  "classid": 510
  },
  "hpf": {
   "name": "Full Healing Potion",
@@ -34031,7 +34542,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 3
+  "lineNumber": 3,
+  "classid": 511
  },
  "mpf": {
   "name": "Full Mana Potion",
@@ -34079,7 +34591,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 4
+  "lineNumber": 4,
+  "classid": 512
  },
  "vps": {
   "name": "Stamina Potion",
@@ -34146,7 +34659,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 5
+  "lineNumber": 5,
+  "classid": 513
  },
  "yps": {
   "name": "Antidote Potion",
@@ -34216,7 +34730,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 6
+  "lineNumber": 6,
+  "classid": 514
  },
  "rvs": {
   "name": "Rejuvenation Potion",
@@ -34270,7 +34785,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 7
+  "lineNumber": 7,
+  "classid": 515
  },
  "rvl": {
   "name": "Full Rejuvenation Potion",
@@ -34324,7 +34840,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 8
+  "lineNumber": 8,
+  "classid": 516
  },
  "wms": {
   "name": "Thawing Potion",
@@ -34395,7 +34912,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 9
+  "lineNumber": 9,
+  "classid": 517
  },
  "tbk": {
   "name": "Tome of Town Portal",
@@ -34458,7 +34976,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 10
+  "lineNumber": 10,
+  "classid": 518
  },
  "ibk": {
   "name": "Tome of Identify",
@@ -34520,7 +35039,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 11
+  "lineNumber": 11,
+  "classid": 519
  },
  "amu": {
   "name": "Amulet",
@@ -34570,7 +35090,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 12
+  "lineNumber": 12,
+  "classid": 520
  },
  "vip": {
   "name": "Amulet of the Viper",
@@ -34619,7 +35140,8 @@
   "SkipName": 1,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 13
+  "lineNumber": 13,
+  "classid": 521
  },
  "rin": {
   "name": "Ring",
@@ -34669,7 +35191,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 14
+  "lineNumber": 14,
+  "classid": 522
  },
  "gld": {
   "name": "Gold",
@@ -34715,7 +35238,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 15
+  "lineNumber": 15,
+  "classid": 523
  },
  "bks": {
   "name": "Scroll of Inifuss",
@@ -34761,7 +35285,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 16
+  "lineNumber": 16,
+  "classid": 524
  },
  "bkd": {
   "name": "Key to the Cairn Stones",
@@ -34812,7 +35337,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 17
+  "lineNumber": 17,
+  "classid": 525
  },
  "aqv": {
   "name": "Arrows",
@@ -34884,7 +35410,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 18
+  "lineNumber": 18,
+  "classid": 526
  },
  "tch": {
   "name": "Torch",
@@ -34931,7 +35458,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 19
+  "lineNumber": 19,
+  "classid": 527
  },
  "cqv": {
   "name": "Bolts",
@@ -35003,7 +35531,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
-  "lineNumber": 20
+  "lineNumber": 20,
+  "classid": 528
  },
  "tsc": {
   "name": "Scroll of Town Portal",
@@ -35066,7 +35595,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 21
+  "lineNumber": 21,
+  "classid": 529
  },
  "isc": {
   "name": "Scroll of Identify",
@@ -35128,7 +35658,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 22
+  "lineNumber": 22,
+  "classid": 530
  },
  "hrt": {
   "name": "Heart",
@@ -35174,7 +35705,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 23
+  "lineNumber": 23,
+  "classid": 531
  },
  "brz": {
   "name": "Brain",
@@ -35222,7 +35754,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 24
+  "lineNumber": 24,
+  "classid": 532
  },
  "jaw": {
   "name": "Jawbone",
@@ -35270,7 +35803,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 25
+  "lineNumber": 25,
+  "classid": 533
  },
  "eyz": {
   "name": "Eye",
@@ -35316,7 +35850,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 26
+  "lineNumber": 26,
+  "classid": 534
  },
  "hrn": {
   "name": "Horn",
@@ -35364,7 +35899,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 27
+  "lineNumber": 27,
+  "classid": 535
  },
  "tal": {
   "name": "Tail",
@@ -35410,7 +35946,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 28
+  "lineNumber": 28,
+  "classid": 536
  },
  "flg": {
   "name": "Flag",
@@ -35453,7 +35990,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 29
+  "lineNumber": 29,
+  "classid": 537
  },
  "fng": {
   "name": "Fang",
@@ -35501,7 +36039,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 30
+  "lineNumber": 30,
+  "classid": 538
  },
  "qll": {
   "name": "Quill",
@@ -35549,7 +36088,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 31
+  "lineNumber": 31,
+  "classid": 539
  },
  "sol": {
   "name": "Soul",
@@ -35594,7 +36134,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 32
+  "lineNumber": 32,
+  "classid": 540
  },
  "scz": {
   "name": "Scalp",
@@ -35640,7 +36181,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 33
+  "lineNumber": 33,
+  "classid": 541
  },
  "spe": {
   "name": "Spleen",
@@ -35688,7 +36230,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 34
+  "lineNumber": 34,
+  "classid": 542
  },
  "key": {
   "name": "Key",
@@ -35760,7 +36303,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 35
+  "lineNumber": 35,
+  "classid": 543
  },
  "luv": {
   "name": "The Black Tower Key",
@@ -35805,7 +36349,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 36
+  "lineNumber": 36,
+  "classid": 544
  },
  "xyz": {
   "name": "Potion of Life",
@@ -35855,7 +36400,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 37
+  "lineNumber": 37,
+  "classid": 545
  },
  "j34": {
   "name": "A Jade Figurine",
@@ -35900,7 +36446,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 38
+  "lineNumber": 38,
+  "classid": 546
  },
  "g34": {
   "name": "The Golden Bird",
@@ -35945,7 +36492,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 39
+  "lineNumber": 39,
+  "classid": 547
  },
  "bbb": {
   "name": "Lam Esen's Tome",
@@ -35991,7 +36539,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 40
+  "lineNumber": 40,
+  "classid": 548
  },
  "box": {
   "name": "Horadric Cube",
@@ -36037,7 +36586,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 41
+  "lineNumber": 41,
+  "classid": 549
  },
  "tr1": {
   "name": "Horadric Scroll",
@@ -36083,7 +36633,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 42
+  "lineNumber": 42,
+  "classid": 550
  },
  "mss": {
   "name": "Mephisto's Soulstone",
@@ -36129,7 +36680,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 43
+  "lineNumber": 43,
+  "classid": 551
  },
  "ass": {
   "name": "Book of Skill",
@@ -36180,7 +36732,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 44
+  "lineNumber": 44,
+  "classid": 552
  },
  "qey": {
   "name": "Khalim's Eye",
@@ -36226,7 +36779,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 45
+  "lineNumber": 45,
+  "classid": 553
  },
  "qhr": {
   "name": "Khalim's Heart",
@@ -36272,7 +36826,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 46
+  "lineNumber": 46,
+  "classid": 554
  },
  "qbr": {
   "name": "Khalim's Brain",
@@ -36318,7 +36873,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 47
+  "lineNumber": 47,
+  "classid": 555
  },
  "ear": {
   "name": "Ear",
@@ -36361,7 +36917,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 48
+  "lineNumber": 48,
+  "classid": 556
  },
  "gcv": {
   "name": "Chipped Amethyst",
@@ -36408,7 +36965,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 49
+  "lineNumber": 49,
+  "classid": 557
  },
  "gfv": {
   "name": "Flawed Amethyst",
@@ -36455,7 +37013,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 50
+  "lineNumber": 50,
+  "classid": 558
  },
  "gsv": {
   "name": "Amethyst",
@@ -36502,7 +37061,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 51
+  "lineNumber": 51,
+  "classid": 559
  },
  "gzv": {
   "name": "Flawless Amethyst",
@@ -36549,7 +37109,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 52
+  "lineNumber": 52,
+  "classid": 560
  },
  "gpv": {
   "name": "Perfect Amethyst",
@@ -36596,7 +37157,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 53
+  "lineNumber": 53,
+  "classid": 561
  },
  "gcy": {
   "name": "Chipped Topaz",
@@ -36643,7 +37205,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 54
+  "lineNumber": 54,
+  "classid": 562
  },
  "gfy": {
   "name": "Flawed Topaz",
@@ -36690,7 +37253,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 55
+  "lineNumber": 55,
+  "classid": 563
  },
  "gsy": {
   "name": "Topaz",
@@ -36737,7 +37301,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 56
+  "lineNumber": 56,
+  "classid": 564
  },
  "gly": {
   "name": "Flawless Topaz",
@@ -36784,7 +37349,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 57
+  "lineNumber": 57,
+  "classid": 565
  },
  "gpy": {
   "name": "Perfect Topaz",
@@ -36831,7 +37397,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 58
+  "lineNumber": 58,
+  "classid": 566
  },
  "gcb": {
   "name": "Chipped Sapphire",
@@ -36878,7 +37445,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 59
+  "lineNumber": 59,
+  "classid": 567
  },
  "gfb": {
   "name": "Flawed Sapphire",
@@ -36925,7 +37493,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 60
+  "lineNumber": 60,
+  "classid": 568
  },
  "gsb": {
   "name": "Sapphire",
@@ -36972,7 +37541,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 61
+  "lineNumber": 61,
+  "classid": 569
  },
  "glb": {
   "name": "Flawless Sapphire",
@@ -37019,7 +37589,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 62
+  "lineNumber": 62,
+  "classid": 570
  },
  "gpb": {
   "name": "Perfect Sapphire",
@@ -37066,7 +37637,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 63
+  "lineNumber": 63,
+  "classid": 571
  },
  "gcg": {
   "name": "Chipped Emerald",
@@ -37113,7 +37685,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 64
+  "lineNumber": 64,
+  "classid": 572
  },
  "gfg": {
   "name": "Flawed Emerald",
@@ -37160,7 +37733,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 65
+  "lineNumber": 65,
+  "classid": 573
  },
  "gsg": {
   "name": "Emerald",
@@ -37207,7 +37781,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 66
+  "lineNumber": 66,
+  "classid": 574
  },
  "glg": {
   "name": "Flawless Emerald",
@@ -37254,7 +37829,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 67
+  "lineNumber": 67,
+  "classid": 575
  },
  "gpg": {
   "name": "Perfect Emerald",
@@ -37301,7 +37877,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 68
+  "lineNumber": 68,
+  "classid": 576
  },
  "gcr": {
   "name": "Chipped Ruby",
@@ -37348,7 +37925,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 69
+  "lineNumber": 69,
+  "classid": 577
  },
  "gfr": {
   "name": "Flawed Ruby",
@@ -37395,7 +37973,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 70
+  "lineNumber": 70,
+  "classid": 578
  },
  "gsr": {
   "name": "Ruby",
@@ -37442,7 +38021,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 71
+  "lineNumber": 71,
+  "classid": 579
  },
  "glr": {
   "name": "Flawless Ruby",
@@ -37489,7 +38069,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 72
+  "lineNumber": 72,
+  "classid": 580
  },
  "gpr": {
   "name": "Perfect Ruby",
@@ -37536,7 +38117,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 73
+  "lineNumber": 73,
+  "classid": 581
  },
  "gcw": {
   "name": "Chipped Diamond",
@@ -37583,7 +38165,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 74
+  "lineNumber": 74,
+  "classid": 582
  },
  "gfw": {
   "name": "Flawed Diamond",
@@ -37630,7 +38213,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 75
+  "lineNumber": 75,
+  "classid": 583
  },
  "gsw": {
   "name": "Diamond",
@@ -37677,7 +38261,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 76
+  "lineNumber": 76,
+  "classid": 584
  },
  "glw": {
   "name": "Flawless Diamond",
@@ -37724,7 +38309,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 77
+  "lineNumber": 77,
+  "classid": 585
  },
  "gpw": {
   "name": "Perfect Diamond",
@@ -37771,7 +38357,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 78
+  "lineNumber": 78,
+  "classid": 586
  },
  "hp1": {
   "name": "Minor Healing Potion",
@@ -37840,7 +38427,8 @@
   "HellUpgrade": "hp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 79
+  "lineNumber": 79,
+  "classid": 587
  },
  "hp2": {
   "name": "Light Healing Potion",
@@ -37907,7 +38495,8 @@
   "HellUpgrade": "hp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 80
+  "lineNumber": 80,
+  "classid": 588
  },
  "hp3": {
   "name": "Healing Potion",
@@ -37970,7 +38559,8 @@
   "HellUpgrade": "hp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 81
+  "lineNumber": 81,
+  "classid": 589
  },
  "hp4": {
   "name": "Greater Healing Potion",
@@ -38031,7 +38621,8 @@
   "HellUpgrade": "hp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 82
+  "lineNumber": 82,
+  "classid": 590
  },
  "hp5": {
   "name": "Super Healing Potion",
@@ -38088,7 +38679,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 83
+  "lineNumber": 83,
+  "classid": 591
  },
  "mp1": {
   "name": "Minor Mana Potion",
@@ -38157,7 +38749,8 @@
   "HellUpgrade": "mp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 84
+  "lineNumber": 84,
+  "classid": 592
  },
  "mp2": {
   "name": "Light Mana Potion",
@@ -38224,7 +38817,8 @@
   "HellUpgrade": "mp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 85
+  "lineNumber": 85,
+  "classid": 593
  },
  "mp3": {
   "name": "Mana Potion",
@@ -38287,7 +38881,8 @@
   "HellUpgrade": "mp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 86
+  "lineNumber": 86,
+  "classid": 594
  },
  "mp4": {
   "name": "Greater Mana Potion",
@@ -38348,7 +38943,8 @@
   "HellUpgrade": "mp5",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 87
+  "lineNumber": 87,
+  "classid": 595
  },
  "mp5": {
   "name": "Super Mana Potion",
@@ -38405,7 +39001,8 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
-  "lineNumber": 88
+  "lineNumber": 88,
+  "classid": 596
  },
  "skc": {
   "name": "Chipped Skull",
@@ -38452,7 +39049,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 89
+  "lineNumber": 89,
+  "classid": 597
  },
  "skf": {
   "name": "Flawed Skull",
@@ -38499,7 +39097,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 90
+  "lineNumber": 90,
+  "classid": 598
  },
  "sku": {
   "name": "Skull",
@@ -38546,7 +39145,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 91
+  "lineNumber": 91,
+  "classid": 599
  },
  "skl": {
   "name": "Flawless Skull",
@@ -38593,7 +39193,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 92
+  "lineNumber": 92,
+  "classid": 600
  },
  "skz": {
   "name": "Perfect Skull",
@@ -38640,7 +39241,8 @@
   "JamellaMagicLvl": 255,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
-  "lineNumber": 93
+  "lineNumber": 93,
+  "classid": 601
  },
  "hrb": {
   "name": "Herb",
@@ -38692,7 +39294,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 95
+  "lineNumber": 95,
+  "classid": 602
  },
  "cm1": {
   "name": "Small Charm",
@@ -38740,7 +39343,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 96
+  "lineNumber": 96,
+  "classid": 603
  },
  "cm2": {
   "name": "Large Charm",
@@ -38788,7 +39392,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 97
+  "lineNumber": 97,
+  "classid": 604
  },
  "cm3": {
   "name": "Grand Charm",
@@ -38836,7 +39441,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 98
+  "lineNumber": 98,
+  "classid": 605
  },
  "rps": {
   "name": "Small Red Potion",
@@ -38885,7 +39491,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 99
+  "lineNumber": 99,
+  "classid": 606
  },
  "rpl": {
   "name": "Large Red Potion",
@@ -38934,7 +39541,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 100
+  "lineNumber": 100,
+  "classid": 607
  },
  "bps": {
   "name": "Small Blue Potion",
@@ -38983,7 +39591,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 101
+  "lineNumber": 101,
+  "classid": 608
  },
  "bpl": {
   "name": "Large Blue Potion",
@@ -39032,7 +39641,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 102
+  "lineNumber": 102,
+  "classid": 609
  },
  "r01": {
   "name": "El Rune",
@@ -39081,7 +39691,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 103
+  "lineNumber": 103,
+  "classid": 610
  },
  "r02": {
   "name": "Eld Rune",
@@ -39130,7 +39741,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 104
+  "lineNumber": 104,
+  "classid": 611
  },
  "r03": {
   "name": "Tir Rune",
@@ -39179,7 +39791,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 105
+  "lineNumber": 105,
+  "classid": 612
  },
  "r04": {
   "name": "Nef Rune",
@@ -39228,7 +39841,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 106
+  "lineNumber": 106,
+  "classid": 613
  },
  "r05": {
   "name": "Eth Rune",
@@ -39277,7 +39891,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 107
+  "lineNumber": 107,
+  "classid": 614
  },
  "r06": {
   "name": "Ith Rune",
@@ -39326,7 +39941,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 108
+  "lineNumber": 108,
+  "classid": 615
  },
  "r07": {
   "name": "Tal Rune",
@@ -39375,7 +39991,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 109
+  "lineNumber": 109,
+  "classid": 616
  },
  "r08": {
   "name": "Ral Rune",
@@ -39424,7 +40041,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 110
+  "lineNumber": 110,
+  "classid": 617
  },
  "r09": {
   "name": "Ort Rune",
@@ -39473,7 +40091,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 111
+  "lineNumber": 111,
+  "classid": 618
  },
  "r10": {
   "name": "Thul Rune",
@@ -39522,7 +40141,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 112
+  "lineNumber": 112,
+  "classid": 619
  },
  "r11": {
   "name": "Amn Rune",
@@ -39571,7 +40191,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 113
+  "lineNumber": 113,
+  "classid": 620
  },
  "r12": {
   "name": "Sol Rune",
@@ -39620,7 +40241,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 114
+  "lineNumber": 114,
+  "classid": 621
  },
  "r13": {
   "name": "Shael Rune",
@@ -39669,7 +40291,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 115
+  "lineNumber": 115,
+  "classid": 622
  },
  "r14": {
   "name": "Dol Rune",
@@ -39718,7 +40341,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 116
+  "lineNumber": 116,
+  "classid": 623
  },
  "r15": {
   "name": "Hel Rune",
@@ -39766,7 +40390,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 117
+  "lineNumber": 117,
+  "classid": 624
  },
  "r16": {
   "name": "Io Rune",
@@ -39815,7 +40440,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 118
+  "lineNumber": 118,
+  "classid": 625
  },
  "r17": {
   "name": "Lum Rune",
@@ -39864,7 +40490,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 119
+  "lineNumber": 119,
+  "classid": 626
  },
  "r18": {
   "name": "Ko Rune",
@@ -39913,7 +40540,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 120
+  "lineNumber": 120,
+  "classid": 627
  },
  "r19": {
   "name": "Fal Rune",
@@ -39962,7 +40590,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 121
+  "lineNumber": 121,
+  "classid": 628
  },
  "r20": {
   "name": "Lem Rune",
@@ -40011,7 +40640,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 122
+  "lineNumber": 122,
+  "classid": 629
  },
  "r21": {
   "name": "Pul Rune",
@@ -40060,7 +40690,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 123
+  "lineNumber": 123,
+  "classid": 630
  },
  "r22": {
   "name": "Um Rune",
@@ -40109,7 +40740,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 124
+  "lineNumber": 124,
+  "classid": 631
  },
  "r23": {
   "name": "Mal Rune",
@@ -40158,7 +40790,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 125
+  "lineNumber": 125,
+  "classid": 632
  },
  "r24": {
   "name": "Ist Rune",
@@ -40207,7 +40840,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 126
+  "lineNumber": 126,
+  "classid": 633
  },
  "r25": {
   "name": "Gul Rune",
@@ -40256,7 +40890,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 127
+  "lineNumber": 127,
+  "classid": 634
  },
  "r26": {
   "name": "Vex Rune",
@@ -40305,7 +40940,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 128
+  "lineNumber": 128,
+  "classid": 635
  },
  "r27": {
   "name": "Ohm Rune",
@@ -40354,7 +40990,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 129
+  "lineNumber": 129,
+  "classid": 636
  },
  "r28": {
   "name": "Lo Rune",
@@ -40403,7 +41040,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 130
+  "lineNumber": 130,
+  "classid": 637
  },
  "r29": {
   "name": "Sur Rune",
@@ -40452,7 +41090,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 131
+  "lineNumber": 131,
+  "classid": 638
  },
  "r30": {
   "name": "Ber Rune",
@@ -40501,7 +41140,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 132
+  "lineNumber": 132,
+  "classid": 639
  },
  "r31": {
   "name": "Jah Rune",
@@ -40550,7 +41190,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 133
+  "lineNumber": 133,
+  "classid": 640
  },
  "r32": {
   "name": "Cham Rune",
@@ -40599,7 +41240,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 134
+  "lineNumber": 134,
+  "classid": 641
  },
  "r33": {
   "name": "Zod Rune",
@@ -40648,7 +41290,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 135
+  "lineNumber": 135,
+  "classid": 642
  },
  "jew": {
   "name": "Jewel",
@@ -40696,7 +41339,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 136
+  "lineNumber": 136,
+  "classid": 643
  },
  "ice": {
   "name": "Malah's Potion",
@@ -40746,7 +41390,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 137
+  "lineNumber": 137,
+  "classid": 644
  },
  "0sc": {
   "name": "Scroll of Knowledge",
@@ -40791,7 +41436,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 138
+  "lineNumber": 138,
+  "classid": 645
  },
  "tr2": {
   "name": "Scroll of Resistance",
@@ -40844,7 +41490,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 139
+  "lineNumber": 139,
+  "classid": 646
  },
  "pk1": {
   "name": "Key of Terror",
@@ -40889,7 +41536,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 140
+  "lineNumber": 140,
+  "classid": 647
  },
  "pk2": {
   "name": "Key of Hate",
@@ -40934,7 +41582,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 141
+  "lineNumber": 141,
+  "classid": 648
  },
  "pk3": {
   "name": "Key of Destruction",
@@ -40979,7 +41628,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 142
+  "lineNumber": 142,
+  "classid": 649
  },
  "dhn": {
   "name": "Diablo's Horn",
@@ -41024,7 +41674,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 143
+  "lineNumber": 143,
+  "classid": 650
  },
  "bey": {
   "name": "Baal's Eye",
@@ -41069,7 +41720,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 144
+  "lineNumber": 144,
+  "classid": 651
  },
  "mbr": {
   "name": "Mephisto's Brain",
@@ -41114,7 +41766,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 145
+  "lineNumber": 145,
+  "classid": 652
  },
  "toa": {
   "name": "Token of Absolution",
@@ -41164,7 +41817,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 146
+  "lineNumber": 146,
+  "classid": 653
  },
  "tes": {
   "name": "Twisted Essence of Suffering",
@@ -41209,7 +41863,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 147
+  "lineNumber": 147,
+  "classid": 654
  },
  "ceh": {
   "name": "Charged Essense of Hatred",
@@ -41254,7 +41909,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 148
+  "lineNumber": 148,
+  "classid": 655
  },
  "bet": {
   "name": "Burning Essence of Terror",
@@ -41299,7 +41955,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 149
+  "lineNumber": 149,
+  "classid": 656
  },
  "fed": {
   "name": "Festering Essence of Destruction",
@@ -41344,7 +42001,8 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 150
+  "lineNumber": 150,
+  "classid": 657
  },
  "std": {
   "name": "Standard of Heroes",
@@ -41393,6 +42051,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "expansion": 1,
-  "lineNumber": 151
+  "lineNumber": 151,
+  "classid": 658
  }
 }

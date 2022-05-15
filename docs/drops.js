@@ -459,8 +459,8 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				if (tcname && this.json.tcprecalc[tcname]) {
 					let totalchance = 0;
 		
-					this.json.tcprecalc[tcname][this.exp].forEach((chance, item) => {
-						totalchance += chance * this.calcPicks(item, func);
+					this.json.tcprecalc[tcname].counts.forEach((chance, item) => {
+						totalchance += this.json.tcprecalc[tcname].droprate[this.exp] * chance * this.calcPicks(item, func);
 					});
 
 					return totalchance;

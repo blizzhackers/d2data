@@ -7,7 +7,7 @@
  * @todo Refactor it, since I hacked it together fairly quickly.
  */
 
-require('./objextn.js');
+require('./objext.js');
 const fs = require('fs');
 const lineEnd = /[\n\r]+/g, fieldEnd = /\t/g, full = {};
 const inDir = 'txt/';
@@ -94,15 +94,19 @@ const filterValues = {
 };
 
 function noDrop(e, nd, ...d) {
-    e = e | 0;
-    nd = nd | 0;
-    d = d.reduce((t, v) => t + v | 0, 0);
+  if (e <= 1) {
+    return nd | 0;
+  }
 
-    if (d < 1) {
-        return Infinity;
-    }
+  e = e | 0;
+  nd = nd | 0;
+  d = d.reduce((t, v) => t + v | 0, 0);
 
-    return (d / (((nd + d) / nd)**e - 1)) | 0;
+  if (d < 1) {
+      return Infinity;
+  }
+
+  return (d / (((nd + d) / nd)**e - 1)) | 0;
 }
 
 files.forEach(fn => {
@@ -176,52 +180,38 @@ files.forEach(fn => {
 
   if (fn === 'treasureclassex') {
     full[fn].forEach(tc => {
-      let precalc = {}, rollingprecalc = {};
+      let precalc = {}, nodropcalc = {
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0,
+        5: 0,
+        6: 0,
+        7: 0,
+        8: 0,
+      };
 
       if (tc.Picks > 0) {
-        let basetotal = 0;
+        let total = 0;
 
         for (let c = 1; c <= 9; c++) {
-          basetotal += tc['Prob' + c] | 0;
+          total += tc['Prob' + c] | 0;
         }
 
         [1, 2, 3, 4, 5, 6, 7, 8].forEach(exp => {
-          let nodrop = noDrop(exp, tc.NoDrop, basetotal);
-
-          total = basetotal + nodrop;
-
-          { // Rolling precalc
-            let otherChance = 1 - (nodrop / total);
-
-            for (let i = 0; i < 100 && otherChance > 1e-30; i++) {
-              for (let c = 1; c <= 9; c++) {
-                if (tc['Item' + c]) {
-                  let prob = otherChance * (tc['Prob' + c] | 0) / total;
-                  // otherChance = Math.max(0, otherChance - (tc['Prob' + c] | 0) / total);
-                  otherChance = Math.max(0, otherChance - prob);
-                  rollingprecalc[exp] = rollingprecalc[exp] || {};
-                  rollingprecalc[exp][tc['Item' + c]] = rollingprecalc[exp][tc['Item' + c]] || 0;
-                  rollingprecalc[exp][tc['Item' + c]] += prob;
-                }
-              }
-            }
-
-            rollingprecalc[exp] = rollingprecalc[exp].map(v => v * tc.Picks);
-          }
-
-          { // Flat precalc
-            for (let c = 1; c <= 9; c++) {
-              if (tc['Item' + c]) {
-                let prob = (tc['Prob' + c] | 0) / total;
-                precalc[exp] = precalc[exp] || {};
-                precalc[exp][tc['Item' + c]] = precalc[exp][tc['Item' + c]] || 0;
-                precalc[exp][tc['Item' + c]] += prob;
-              }
-            }
-
-            precalc[exp] = precalc[exp].map(v => v * tc.Picks);
-          }
+          nodropcalc[exp] = noDrop(exp, tc.NoDrop, total);
         });
+
+        for (let c = 1; c <= 9; c++) {
+          if (tc['Item' + c]) {
+            let prob = (tc['Prob' + c] | 0) / total;
+            precalc[tc['Item' + c]] = precalc[tc['Item' + c]] || 0;
+            precalc[tc['Item' + c]] += prob;
+          }
+        }
+
+        precalc = precalc.map(v => v * tc.Picks);
+        tc['*ItemProbTotal'] = total;
       }
       else if (tc.Picks < 0) {
         let picksleft = -tc.Picks;
@@ -231,22 +221,16 @@ files.forEach(fn => {
             let pickcount = Math.min(picksleft, tc['Prob' + c] | 0);
 
             if (pickcount > 0) {
-              [1, 2, 3, 4, 5, 6, 7, 8].forEach(exp => {
-                precalc[exp] = precalc[exp] || {};
-                precalc[exp][tc['Item' + c]] = precalc[exp][tc['Item' + c]] || 0;
-                precalc[exp][tc['Item' + c]] += pickcount;
-              });
-
+              precalc[tc['Item' + c]] = precalc[tc['Item' + c]] || 0;
+              precalc[tc['Item' + c]] += pickcount;
               picksleft -= pickcount;
             }
           }
         }
-
-        rollingprecalc = precalc;
       }
 
+      tc.nodropcalc = nodropcalc;
       tc.precalc = precalc;
-      tc.rollingprecalc = rollingprecalc;
     });
   }
 
@@ -323,17 +307,30 @@ files.forEach(fn => {
   }
 });
 
-const items = Object.assign(
-  full.weapons,
-  full.armor,
-  full.misc
-);
+const items = {};
+
+[
+  ...Object.values(full.weapons).sort((a, b) => a.lineNumber - b.lineNumber),
+  ...Object.values(full.armor).sort((a, b) => a.lineNumber - b.lineNumber),
+  ...Object.values(full.misc).sort((a, b) => a.lineNumber - b.lineNumber),
+].forEach((item, classid) => {
+  item.classid = classid;
+  items[item.code] = item;
+});
 
 let atomic = {};
 let atomicTypes = {};
-let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
+let atomicMax = 87;
 
-[...Object.values(full.weapons), Object.values(full.armor)].forEach(item => {
+let calcTC = x => {
+  let ret = Math.max(1, Math.ceil((x || 0) / 3)) * 3;
+  atomicMax = Math.max(ret, atomicMax);
+  return ret;
+}
+
+let weaponsarmor = [...Object.values(full.weapons), ...Object.values(full.armor)];
+
+weaponsarmor.forEach(item => {
   if (!item.spawnable) {
     return;
   }
@@ -341,7 +338,7 @@ let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
   let tc = calcTC(item.level);
 
   function handleAtomic(itemType) {
-    if (full.itemtypes[itemType]) {
+    if (full.itemtypes[itemType] && itemType !== 'tpot') {
       if (full.itemtypes[itemType].TreasureClass) {
         atomicTypes[itemType] = true;
         atomic[itemType + tc] = atomic[itemType + tc] || [];
@@ -363,7 +360,7 @@ let calcTC = x => Math.min(87, Math.max(1, Math.ceil((x || 0) / 3)) * 3);
 
 atomicTypes = Object.keys(atomicTypes);
 
-for (let c = 3; c <= 87; c += 3) {
+for (let c = 3; c <= atomicMax; c += 3) {
   atomicTypes.forEach(type => {
     atomic[type + c] = atomic[type + c] || [];
   });
@@ -386,12 +383,6 @@ atomic.forEach((atom, atomName) => {
 });
 
 full.atomic = atomic;
-
-const tcKey = [
-  'TreasureClass1',
-  'TreasureClass2',
-  'TreasureClass3',
-];
 
 let groupsEx = {};
 
@@ -567,21 +558,26 @@ let monpopulation = {};
 let tcprecalc = {};
 
 full.treasureclassex.forEach((tc, key) => {
-  tcprecalc[key] = tc.rollingprecalc;
-  delete tc.rollingprecalc;
-  delete tc.precalc;
+  tcprecalc[key] = tcprecalc[key] || {};
+  tcprecalc[key].droprate = tc.nodropcalc.map(noDrop => noDrop ? tc['*ItemProbTotal'] / (noDrop + tc['*ItemProbTotal']) : 1);
+  tcprecalc[key].counts = tc.precalc;
+  delete tc['nodropcalc'];
+  delete tc['precalc'];
 });
 
 atomic.forEach((precalc, key) => {
   tcprecalc[key] = {
-    1: precalc,
-    2: precalc,
-    3: precalc,
-    4: precalc,
-    5: precalc,
-    6: precalc,
-    7: precalc,
-    8: precalc,
+    droprate: {
+      1: 1,
+      2: 1,
+      3: 1,
+      4: 1,
+      5: 1,
+      6: 1,
+      7: 1,
+      8: 1,
+    },
+    counts: precalc,
   };
 });
 
