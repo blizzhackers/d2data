@@ -278,20 +278,22 @@ function download () {
         <tr><th style="width:7%">classid</th><th style="width:63%">quality</th><th style="width:20%">chance</th><th style="width: 10%">ratio</th></tr>
       </thead>
       <tbody>
-        <tr v-for="(line, index) in data.output.split('\n').filter(l => l.length)" :key="index" :class="{
+        <tr v-for="(line, index) in data.output.split('\n').filter(l => l.length).map(line => line.split(' '))" :key="index" :class="{
           'table-info': data.rowSelect === index,
-        }"><template v-for="(cell, cellIndex) in line.split(' ')" :key="cellIndex" @click="data.rowSelect = index">
-          <td>{{ cell }}
-            <template v-if="cellIndex === 0">({{ lookupClassId(cell) }})</template>
-            <template v-if="cellIndex === 1 && cell == 2">(Normal)</template>
-            <template v-if="cellIndex === 1 && cell == 3">(Superior)</template>
-            <template v-if="cellIndex === 1 && cell == 4">(Magic)</template>
-            <template v-if="cellIndex === 1 && cell == 5">(Set)</template>
-            <template v-if="cellIndex === 1 && cell == 6">(Rare)</template>
-            <template v-if="cellIndex === 1 && cell == 7">(Unique)</template>
+        }">
+          <td>{{ line[0] }} ({{ lookupClassId(line[0] | 0) }})</td>
+          <td>{{ line[1] }}
+            <template v-if="line[1] == 1">(Low Quality)</template>
+            <template v-if="line[1] == 2">(Normal)</template>
+            <template v-if="line[1] == 3">(Superior)</template>
+            <template v-if="line[1] == 4">(Magic)</template>
+            <template v-if="line[1] == 5">(Set)</template>
+            <template v-if="line[1] == 6">(Rare)</template>
+            <template v-if="line[1] == 7">(Unique)</template>
           </td>
-          <td v-if="cellIndex === 2">~{{ Math.max(Math.round(Number(cell)), 1) }}:{{ Math.max(Math.round(1 / Number(cell)), 1) }}</td>
-        </template></tr>
+          <td>{{ line[2] }}</td>
+          <td>~{{ Math.max(Math.round(Number(line[2])), 1) }}:{{ Math.max(Math.round(1 / Number(line[2])), 1) }}</td>
+        </tr>
       </tbody>
     </table>
   </div>
