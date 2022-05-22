@@ -65,6 +65,7 @@ const data = reactive({
   output: '',
   downloadName: '',
   doingIt: false,
+  rowSelect: -1,
 });
 
 function iterateDrops (func = () => {}, tcName, mult = 1, drops = {}, tcpath = []) {
@@ -201,18 +202,10 @@ function doEntry (name, chance, drops, tcPath) {
   }
 }
 
-function downloadURI(uri, name) {
-  var link = document.createElement('a');
-  link.download = name;
-  link.href = uri;
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-}
-
 async function doit () {
   data.players = Math.max(1, Math.min(8, data.players | 0));
   data.mlvl = Math.max(1, Math.min(110, data.mlvl));
+  data.rowSelect = -1;
 
   if (!data.doingIt) {
     data.doingIt = true;
@@ -222,6 +215,25 @@ async function doit () {
     await sleep();
     data.doingIt = false;
   }
+}
+
+function lookupClassId(classid) {
+  for (let item in items) {
+    if (items[item].classid == classid) {
+      return item;
+    }
+  }
+
+  return '';
+}
+
+function downloadURI(uri, name) {
+  var link = document.createElement('a');
+  link.download = name;
+  link.href = uri;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 function download () {
@@ -260,9 +272,28 @@ function download () {
         <button type="button" class="btn btn-primary" @click="download" :disabled="!data.output.trim().length || data.doingIt">Download</button>
       </div>
     </div>
-    <div class="border border-dark rounded-3">
-      <pre class="mx-3 my-2" v-html="data.output" />
-    </div>
+    <div v-if="data.downloadName.length">Filename: {{ data.downloadName }}.txt</div>
+    <table class="table table-hover">
+      <thead>
+        <tr><th style="width:7%">classid</th><th style="width:63%">quality</th><th style="width:20%">chance</th><th style="width: 10%">ratio</th></tr>
+      </thead>
+      <tbody>
+        <tr v-for="(line, index) in data.output.split('\n').filter(l => l.length)" :key="index" :class="{
+          'table-info': data.rowSelect === index,
+        }"><template v-for="(cell, cellIndex) in line.split(' ')" :key="cellIndex" @click="data.rowSelect = index">
+          <td>{{ cell }}
+            <template v-if="cellIndex === 0">({{ lookupClassId(cell) }})</template>
+            <template v-if="cellIndex === 1 && cell == 2">(Normal)</template>
+            <template v-if="cellIndex === 1 && cell == 3">(Superior)</template>
+            <template v-if="cellIndex === 1 && cell == 4">(Magic)</template>
+            <template v-if="cellIndex === 1 && cell == 5">(Set)</template>
+            <template v-if="cellIndex === 1 && cell == 6">(Rare)</template>
+            <template v-if="cellIndex === 1 && cell == 7">(Unique)</template>
+          </td>
+          <td v-if="cellIndex === 2">~{{ Math.max(Math.round(Number(cell)), 1) }}:{{ Math.max(Math.round(1 / Number(cell)), 1) }}</td>
+        </template></tr>
+      </tbody>
+    </table>
   </div>
 </template>
 
