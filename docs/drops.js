@@ -19,11 +19,11 @@ Object.defineProperty(Object.prototype, 'reduce', {
 Object.defineProperty(Object.prototype, 'map', {
     value: function (func) {
         let ret = {};
-    
+
         Object.keys(this).forEach(key => {
             ret[key] = func(this[key], key, this);
         });
-    
+
         return ret;
     },
 });
@@ -31,13 +31,13 @@ Object.defineProperty(Object.prototype, 'map', {
 Object.defineProperty(Object.prototype, 'filter', {
     value: function (func = v => Boolean(v)) {
         let ret = {};
-    
+
         Object.keys(this).forEach(key => {
             if(func.apply && func(this[key], key, this)) {
                 ret[key] = this[key];
             }
         });
-    
+
         return ret;
     },
 });
@@ -45,11 +45,11 @@ Object.defineProperty(Object.prototype, 'filter', {
 Object.defineProperty(Object.prototype, 'toArray', {
     value: function () {
         let ret = [];
-    
+
         for (let key in this) {
             ret.push([key, this[key]]);
         }
-    
+
         return ret;
     },
 });
@@ -121,7 +121,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					players: 1,
 					group: 1,
 					minilvl: 0,
-					maxilvl: 110,	
+					maxilvl: 110,
 				},
 				parammap: [
 					{key: 'mf', type: 'Uint', size: 2},
@@ -186,7 +186,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				base = base || 0;
 				divisor = divisor || 1;
 				min = min || 0;
-		
+
 				return (ilvl, qlvl, factor) => {
 					let difference = ilvl - qlvl;
 					let chance = (base - idiv(difference, divisor)) * 128;
@@ -207,7 +207,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					chance = (chance - idiv(chance * factor, 1024));
 					return Math.min(1, 128 / chance);
 				};
-			},		
+			},
 			matches(a, b) {
 				if (!a || !a.length) {
 					return false;
@@ -240,17 +240,17 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			},
 			adjustTc(name, lvl) {
 				let origTcLevel = this.json.tc[name].level || 0;
-			
+
 				if (this.json.tc[name].group) {
 					let grp = this.json.tcgroups[this.json.tc[name].group] || [];
-			
+
 					for (let c = lvl; c >= origTcLevel; c--) {
 						if (grp[c]) {
 							return grp[c];
 						}
 					}
 				}
-			
+
 				return name;
 			},
 			setValidHere(set, level) {
@@ -263,14 +263,14 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					if (this.calculating) {
 						return;
 					}
-	
+
 					this.calculating = true;
 					this.progress = 0;
 					this.clearResults();
 					await sleep(0);
 
 					let progressInterval = 1 / 3 / Object.values(this.json.levels).length;
-		
+
 					for (let diff = 0; diff < 3; diff++) {
 						let s = _s(diff), cache = {};
 
@@ -292,10 +292,10 @@ Object.defineProperty(Object.prototype, 'toArray', {
 								let calc = (m, count, mtype, isMinion) => {
 									let tcname = (superMon && !isMinion) ? superMon[s('TC')] : m[s('TreasureClass' + (Math.min(3, mtype + 1)))];
 
-									if (tcname) {				
+									if (tcname) {
 										let tc = this.json.tc[this.adjustTc(tcname, mlvl) || tcname];
 
-										let cachekey = [tc.lineNumber, mlvl, +(level.Id === 39)].join('|'), pchance = cache[cachekey] === undefined ? this.calcPicks((pickItem, ...tcpath) => {
+										let cachekey = [tc.lineNumber, mlvl, +(level.Id === 39)].join('|'), calcRes = cache[cachekey] === undefined ? this.calcPicks((pickItem, ...tcpath) => {
 											let {uniqueMod, setMod, rareMod, magicMod} = [pickItem, ...tcpath].reduce(({uniqueMod, setMod, rareMod, magicMod}, v) => {
 												if (this.json.tc[v]) {
 													uniqueMod = Math.max(uniqueMod, this.json.tc[v]['Unique'] || 0);
@@ -317,7 +317,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 												if (item.set && !this.setValidHere(item.set, level)) {
 													return;
 												}
-		
+
 												if (pickItem === item.code) {
 													switch (item.quality) {
 														case 'unique':
@@ -325,30 +325,30 @@ Object.defineProperty(Object.prototype, 'toArray', {
 																let ucount = this.json.uniqueitems.filter(u => u.enabled && u.code === item.code && mlvl >= (u.lvl || 0)).reduce((t, u) => {
 																	return t + (u.rarity || 1);
 																}, 0);
-		
+
 																if (!ucount) {
 																	return;
 																}
-		
+
 																ichance += item.func.unique(mlvl, item.item.level || 0, uniqueMod) * item.unique.rarity / ucount;
 															}
 															break;
-			
+
 														case 'set':
 															if (mlvl >= (item.set.lvl || 0)) {
 																let scount = this.json.setitems.filter(set => set.item === item.code && mlvl >= (set.lvl || 0) && this.setValidHere(set, level)).reduce((t, s) => {
 																	return t + (s.rarity || 1);
 																}, 0);
-		
+
 																if (!scount) {
 																	return;
 																}
-		
+
 																ichance += (1 - item.func.unique(mlvl, item.item.level || 0, uniqueMod)) *
 																	item.func.set(mlvl, item.item.level || 0, setMod) * item.set.rarity / scount;
 															}
 															break;
-			
+
 														case 'rare':
 															ichance += (1 - item.func.unique(mlvl, item.item.level || 0, uniqueMod)) *
 																(1 - item.func.set(mlvl, item.item.level || 0, setMod)) *
@@ -387,12 +387,14 @@ Object.defineProperty(Object.prototype, 'toArray', {
 																(1 - item.func.hq(mlvl, item.item.level || 0, 0)) *
 																(1 - item.func.normal(mlvl, item.item.level || 0, 0));
 															break;
-													}	
+													}
 												}
 											});
-		
+
 											return ichance;
 										}, tcname) : cache[cachekey];
+
+										let pchance = calcRes;
 
 										cache[cachekey] = pchance;
 
@@ -401,7 +403,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										}
 
 										chance += pchance * count;
-									}	
+									}
 								};
 
 								let packSize = superMon ? 1 : this.avg(mon['MinGrp'] || 0, mon['MaxGrp'] || 0);
@@ -426,7 +428,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 
 									minions.forEach(minion => {
 										calc(minion, minionCount / minions.length, 0, true);
-									});	
+									});
 								}
 
 								if (chance) {
@@ -460,7 +462,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 										'mlvl: ' + level[['MonLvlEx', 'MonLvlEx(N)', 'MonLvlEx(H)'][diff]] || 0,
 										'Act: ' + (level.Id >= 109 ? 5 : level.Id >= 103 ? 4 : level.Id >= 75 ? 3 : level.Id >= 40 ? 2 : 1),
 									].filter(Boolean).join('\n'),
-								});	
+								});
 							}
 
 							this.progress += progressInterval;
@@ -475,7 +477,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					packResults = packResults.sort((a, b) => {
 						return b.chance - a.chance;
 					});
-		
+
 					this.areaResults.push(...areaResults);
 					this.packResults.push(...packResults);
 					this.calculating = false;
@@ -484,7 +486,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 			calcPicks(func, tcname, ...tcpath) {
 				if (tcname && this.json.tcprecalc[tcname]) {
 					let totalchance = 0;
-		
+
 					this.json.tcprecalc[tcname].counts.forEach((chance, item) => {
 						totalchance += this.json.tcprecalc[tcname].droprate[this.exp] * chance * this.calcPicks(func, item, tcname, ...tcpath);
 					});
@@ -546,7 +548,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 				data.func = {
 					unique: this.dropChance(data.Unique, data.UniqueDivisor, data.UniqueMin, 250),
 					set: this.dropChance(data.Set, data.SetDivisor, data.SetMin, 500),
-					rare: this.dropChance(data.Rare, data.RareDivisor, data.RareMin, 500),
+					rare: this.dropChance(data.Rare, data.RareDivisor, data.RareMin, 600),
 					magic: this.dropChance(data.Magic, data.MagicDivisor, data.MagicMin),
 					hq: this.dropChance(data.HiQuality, data.HiQualityDivisor),
 					normal: this.dropChance(data.Normal, data.NormalDivisor),
@@ -561,7 +563,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					level.calc = level.calc || {};
 					level.calc.monsters = level.calc.monsters || [];
 					level.calc.monsters[diff] = level.calc.monsters[diff] || [];
-	
+
 					if (level.Id) {
 						let supers = this.json.super.filter(s => s.areaId == level.Id || s.hcIdx === 19 && [66, 67, 68, 69, 70, 71, 72].includes(level.Id | 0)),
 							bosses = this.json.monstats.filter(mon => mon.areaId == level.Id),
@@ -627,7 +629,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 							});
 						});
 					}
-				});	
+				});
 			});
 
 			Object.values(this.json.items).sort((a, b) => {
@@ -672,7 +674,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 							use: false,
 							unique,
 							func: ratioFuncs,
-						});	
+						});
 					}
 				});
 
