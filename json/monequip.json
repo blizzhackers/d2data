@@ -2,6 +2,7 @@
  "0": {
   "monster": "bloodraven",
   "oninit": 1,
+  "level": 0,
   "item1": "sbw",
   "loc1": "rarm",
   "mod1": 6
@@ -9,6 +10,7 @@
  "1": {
   "monster": "flyingscimitar",
   "oninit": 1,
+  "level": 0,
   "item1": "scm",
   "loc1": "rarm",
   "mod1": 6
@@ -134,35 +136,41 @@
  },
  "19": {
   "monster": "valkyrie",
+  "level": 0,
   "item1": "spr",
   "loc1": "rarm",
   "mod1": 6
  },
  "20": {
   "monster": "valkyrie",
+  "level": 0,
   "item1": "ful",
   "loc1": "tors",
   "mod1": 6
  },
  "21": {
   "monster": "shadowwarrior",
+  "level": 0,
   "item1": "ces",
   "loc1": "rarm",
   "mod1": 4
  },
  "22": {
   "monster": "shadowwarrior",
+  "level": 0,
   "item1": "btl",
   "loc1": "larm",
   "mod1": 4
  },
  "23": {
   "monster": "shadowwarrior",
+  "level": 0,
   "loc1": "tors",
   "mod1": 4
  },
  "24": {
   "monster": "shadowwarrior",
+  "level": 0,
   "loc1": "head",
   "mod1": 4
  },
@@ -311,6 +319,7 @@
  },
  "40": {
   "monster": "shadowmaster",
+  "level": 0,
   "item1": "7ar",
   "loc1": "rarm",
   "mod1": 3,
@@ -323,6 +332,7 @@
  },
  "41": {
   "monster": "shadowmaster",
+  "level": 0,
   "item1": "7cs",
   "loc1": "larm",
   "mod1": 3,
@@ -335,11 +345,13 @@
  },
  "42": {
   "monster": "shadowmaster",
+  "level": 0,
   "loc1": "tors",
   "mod1": 3
  },
  "43": {
   "monster": "shadowmaster",
+  "level": 0,
   "loc1": "head",
   "mod1": 3
  },

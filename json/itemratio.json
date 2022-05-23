@@ -1,6 +1,9 @@
 {
  "0": {
   "Function": "Ratio - (Monster Level / Ratio Divisor)",
+  "Version": 0,
+  "Uber": 0,
+  "Class Specific": 0,
   "Unique": 400,
   "UniqueDivisor": 2,
   "UniqueMin": 6400,
@@ -20,7 +23,9 @@
  },
  "1": {
   "Function": "Uber",
+  "Version": 0,
   "Uber": 1,
+  "Class Specific": 0,
   "Unique": 240,
   "UniqueDivisor": 2,
   "UniqueMin": 6400,
@@ -41,6 +46,8 @@
  "2": {
   "Function": "Ratio - (Monster Level / Ratio Divisor)",
   "Version": 1,
+  "Uber": 0,
+  "Class Specific": 0,
   "Unique": 400,
   "UniqueDivisor": 1,
   "UniqueMin": 6400,
@@ -62,6 +69,7 @@
   "Function": "Uber",
   "Version": 1,
   "Uber": 1,
+  "Class Specific": 0,
   "Unique": 400,
   "UniqueDivisor": 1,
   "UniqueMin": 6400,
@@ -82,6 +90,7 @@
  "4": {
   "Function": "Class Specific",
   "Version": 1,
+  "Uber": 0,
   "Class Specific": 1,
   "Unique": 240,
   "UniqueDivisor": 3,

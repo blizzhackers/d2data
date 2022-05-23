@@ -474,6 +474,7 @@
   "udead": 1,
   "bossinv": 1,
   "gfxtype": 2,
+  "gfxclass": 0,
   "lineNumber": 63
  },
  "dragonflight": {
@@ -888,6 +889,7 @@
  },
  "none": {
   "state": "none",
+  "*ID": 0,
   "lineNumber": 0
  },
  "oaksage": {
@@ -1493,6 +1495,7 @@
   "overlay1": "valkyrie",
   "castoverlay": "valkyriestart",
   "gfxtype": 2,
+  "gfxclass": 0,
   "lineNumber": 93
  },
  "venomclaws": {

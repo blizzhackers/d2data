@@ -87,7 +87,6 @@ const indexes = {
 
 const filterValues = {
   '': true,
-  '0': true,
   'unused': true,
   'none': true,
   'null': true,
@@ -139,7 +138,7 @@ files.forEach(fn => {
 
               for (let c = 0; c < header.length; c++) {
                 if (indexColumn >= 0 && c === indexColumn || !filterValues[line[c].toString().toLowerCase()]) {
-                  tmp[header[c] || 'unknown'] = +line[c] == line[c] ? +line[c] : line[c];
+                  tmp[header[c] || 'unknown'] = Number(line[c]).toString() === line[c].trim() ? Number(line[c]) : line[c];
                 }
               }
 
@@ -155,6 +154,11 @@ files.forEach(fn => {
                 }
 
                 obj[key] = tmp;
+
+                delete obj[key]['*eol'];
+                delete obj[key]['*EOL'];
+                delete obj[key]['eol'];
+                delete obj[key]['EOL'];
 
                 if (indexColumn >= 0) {
                   obj[key].lineNumber = index;

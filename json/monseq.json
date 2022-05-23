@@ -1,10 +1,12 @@
 {
  "0": {
-  "mode": "NU"
+  "mode": "NU",
+  "frame": 0
  },
  "1": {
   "sequence": "seq_pinheadsmite",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "2": {
   "sequence": "seq_pinheadsmite",
@@ -80,6 +82,7 @@
  "16": {
   "sequence": "seq_serpentcharge",
   "mode": "WL",
+  "frame": 0,
   "event": 1
  },
  "17": {
@@ -157,7 +160,8 @@
  },
  "30": {
   "sequence": "seq_summonerskill",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "31": {
   "sequence": "seq_summonerskill",
@@ -197,7 +201,8 @@
  },
  "38": {
   "sequence": "seq_firehit",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "39": {
   "sequence": "seq_firehit",
@@ -314,7 +319,8 @@
  },
  "61": {
   "sequence": "seq_mummyres",
-  "mode": "SC"
+  "mode": "SC",
+  "frame": 0
  },
  "62": {
   "sequence": "seq_mummyres",
@@ -394,7 +400,8 @@
  },
  "77": {
   "sequence": "seq_vileres",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "78": {
   "sequence": "seq_vileres",
@@ -529,11 +536,13 @@
  },
  "104": {
   "sequence": "seq_skeletonraise",
-  "mode": "DT"
+  "mode": "DT",
+  "frame": 0
  },
  "105": {
   "sequence": "seq_fetishres",
-  "mode": "SC"
+  "mode": "SC",
+  "frame": 0
  },
  "106": {
   "sequence": "seq_fetishres",
@@ -703,11 +712,13 @@
  },
  "139": {
   "sequence": "seq_fethisraise",
-  "mode": "DT"
+  "mode": "DT",
+  "frame": 0
  },
  "140": {
   "sequence": "seq_maggotegg",
-  "mode": "DT"
+  "mode": "DT",
+  "frame": 0
  },
  "141": {
   "sequence": "seq_maggotegg",
@@ -777,7 +788,8 @@
  },
  "154": {
   "sequence": "seq_shamanresurrect",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "155": {
   "sequence": "seq_shamanresurrect",
@@ -862,7 +874,8 @@
  },
  "171": {
   "sequence": "seq_maggotup",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "172": {
   "sequence": "seq_maggotup",
@@ -978,6 +991,7 @@
  "194": {
   "sequence": "seq_maggotdown",
   "mode": "S1",
+  "frame": 0,
   "event": 1
  },
  "195": {
@@ -1048,7 +1062,8 @@
  },
  "208": {
   "sequence": "seq_andarielspray",
-  "mode": "SC"
+  "mode": "SC",
+  "frame": 0
  },
  "209": {
   "sequence": "seq_andarielspray",
@@ -1146,7 +1161,8 @@
  },
  "226": {
   "sequence": "seq_leaperleap",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "227": {
   "sequence": "seq_leaperleap",
@@ -1249,7 +1265,8 @@
  },
  "246": {
   "sequence": "seq_swarmmove",
-  "mode": "WL"
+  "mode": "WL",
+  "frame": 0
  },
  "247": {
   "sequence": "seq_swarmmove",
@@ -1289,7 +1306,8 @@
  },
  "254": {
   "sequence": "seq_nestlay",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "255": {
   "sequence": "seq_nestlay",
@@ -1444,7 +1462,8 @@
  },
  "285": {
   "sequence": "seq_bloodravencast",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "286": {
   "sequence": "seq_bloodravencast",
@@ -1544,7 +1563,8 @@
  },
  "305": {
   "sequence": "seq_brquickstrike",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "306": {
   "sequence": "seq_brquickstrike",
@@ -1580,6 +1600,7 @@
  "312": {
   "sequence": "seq_gargoyletrap",
   "mode": "A1",
+  "frame": 0,
   "event": 4
  },
  "313": {
@@ -1604,7 +1625,8 @@
  },
  "317": {
   "sequence": "seq_desertturret",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "318": {
   "sequence": "seq_desertturret",
@@ -1649,7 +1671,8 @@
  },
  "326": {
   "sequence": "seq_arcanetower",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "327": {
   "sequence": "seq_arcanetower",
@@ -1802,6 +1825,7 @@
  "355": {
   "sequence": "seq_tentaclesubmerge",
   "mode": "S1",
+  "frame": 0,
   "event": 1
  },
  "356": {
@@ -1913,11 +1937,13 @@
  "376": {
   "sequence": "seq_tentheadsubmerge",
   "mode": "S1",
+  "frame": 0,
   "event": 1
  },
  "377": {
   "sequence": "seq_froghidden",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "378": {
   "sequence": "seq_froghidden",
@@ -1931,7 +1957,8 @@
  },
  "380": {
   "sequence": "seq_diablorun",
-  "mode": "RN"
+  "mode": "RN",
+  "frame": 0
  },
  "381": {
   "sequence": "seq_diablorun",
@@ -2136,11 +2163,13 @@
  },
  "419": {
   "sequence": "seq_diablofirewall",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "420": {
   "sequence": "seq_tightspotguard",
   "mode": "S1",
+  "frame": 0,
   "event": 4
  },
  "421": {
@@ -2217,7 +2246,8 @@
  },
  "435": {
   "sequence": "seq_mummyspawn",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "436": {
   "sequence": "seq_mummyspawn",
@@ -2317,7 +2347,8 @@
  },
  "455": {
   "sequence": "seq_mosquitoskill",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "456": {
   "sequence": "seq_mosquitoskill",
@@ -2447,7 +2478,8 @@
  },
  "481": {
   "sequence": "seq_mosquitonest",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "482": {
   "sequence": "seq_mosquitonest",
@@ -2533,6 +2565,7 @@
  "498": {
   "sequence": "seq_durielcharge",
   "mode": "WL",
+  "frame": 0,
   "event": 1
  },
  "499": {
@@ -2627,7 +2660,8 @@
  },
  "514": {
   "sequence": "seq_durielcharge",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "515": {
   "sequence": "seq_durielcharge",
@@ -2772,7 +2806,8 @@
  },
  "542": {
   "sequence": "seq_durielsmite",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "543": {
   "sequence": "seq_durielsmite",
@@ -2822,7 +2857,8 @@
  },
  "552": {
   "sequence": "seq_undeadbestow",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "553": {
   "sequence": "seq_undeadbestow",
@@ -2902,7 +2938,8 @@
  },
  "568": {
   "sequence": "seq_queendeath",
-  "mode": "DT"
+  "mode": "DT",
+  "frame": 0
  },
  "569": {
   "sequence": "seq_queendeath",
@@ -3174,7 +3211,8 @@
  },
  "622": {
   "sequence": "seq_chargesentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "623": {
   "sequence": "seq_chargesentry",
@@ -3250,6 +3288,7 @@
  "637": {
   "sequence": "seq_reanimatedcharge",
   "mode": "RN",
+  "frame": 0,
   "event": 1
  },
  "638": {
@@ -3314,11 +3353,13 @@
  },
  "648": {
   "sequence": "seq_reanimatedcharge",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "649": {
   "sequence": "seq_reanimatedcharge",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "650": {
   "sequence": "seq_reanimatedcharge",
@@ -3398,7 +3439,8 @@
  },
  "665": {
   "sequence": "seq_bearsmite",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "666": {
   "sequence": "seq_bearsmite",
@@ -3483,7 +3525,8 @@
  },
  "682": {
   "sequence": "seq_horrorarcticblast",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "683": {
   "sequence": "seq_horrorarcticblast",
@@ -3553,11 +3596,13 @@
  },
  "696": {
   "sequence": "seq_deathmaulerdig",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "697": {
   "sequence": "seq_deathmaulerdig",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "698": {
   "sequence": "seq_deathmaulerdig",
@@ -3727,11 +3772,13 @@
  },
  "731": {
   "sequence": "seq_genericspawner",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "732": {
   "sequence": "seq_genericspawner",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "733": {
   "sequence": "seq_genericspawner",
@@ -3891,7 +3938,8 @@
  },
  "764": {
   "sequence": "seq_nihlathakarctic",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "765": {
   "sequence": "seq_nihlathakarctic",
@@ -3966,7 +4014,8 @@
  },
  "779": {
   "sequence": "seq_ancientwhirlwind",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "780": {
   "sequence": "seq_ancientwhirlwind",
@@ -4007,39 +4056,48 @@
  },
  "787": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "788": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "789": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "790": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "791": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "792": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "793": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "794": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "795": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "796": {
   "sequence": "seq_infernosentry",
@@ -4049,23 +4107,28 @@
  },
  "797": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "798": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "799": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "800": {
   "sequence": "seq_infernosentry",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "801": {
   "sequence": "seq_swtigerfist",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "802": {
   "sequence": "seq_swtigerfist",
@@ -4146,7 +4209,8 @@
  },
  "817": {
   "sequence": "seq_swdragonbreath",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "818": {
   "sequence": "seq_swdragonbreath",
@@ -4234,7 +4298,8 @@
  },
  "834": {
   "sequence": "seq_ancientleap",
-  "mode": "S1"
+  "mode": "S1",
+  "frame": 0
  },
  "835": {
   "sequence": "seq_ancientleap",
@@ -4322,7 +4387,8 @@
  },
  "851": {
   "sequence": "seq_impinferno",
-  "mode": "SC"
+  "mode": "SC",
+  "frame": 0
  },
  "852": {
   "sequence": "seq_impinferno",
@@ -4392,7 +4458,8 @@
  },
  "865": {
   "sequence": "seq_swdragonflight",
-  "mode": "SC"
+  "mode": "SC",
+  "frame": 0
  },
  "866": {
   "sequence": "seq_swdragonflight",
@@ -4442,7 +4509,8 @@
  },
  "875": {
   "sequence": "seq_swdragonflight",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "876": {
   "sequence": "seq_swdragonflight",
@@ -4508,11 +4576,13 @@
  "888": {
   "sequence": "seq_siegebeastcharge",
   "mode": "WL",
+  "frame": 0,
   "event": 1
  },
  "889": {
   "sequence": "seq_siegebeastcharge",
   "mode": "WL",
+  "frame": 0,
   "event": 1
  },
  "890": {
@@ -4589,7 +4659,8 @@
  },
  "902": {
   "sequence": "seq_siegebeastcharge",
-  "mode": "A2"
+  "mode": "A2",
+  "frame": 0
  },
  "903": {
   "sequence": "seq_siegebeastcharge",
@@ -4711,7 +4782,8 @@
  },
  "926": {
   "sequence": "seq_swbladefury",
-  "mode": "SC"
+  "mode": "SC",
+  "frame": 0
  },
  "927": {
   "sequence": "seq_swbladefury",
@@ -4796,43 +4868,53 @@
  },
  "943": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "944": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "945": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "946": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "947": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "948": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "949": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "950": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "951": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "952": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "953": {
   "sequence": "seq_wakeofinferno",
@@ -4842,7 +4924,8 @@
  },
  "954": {
   "sequence": "seq_wakeofinferno",
-  "mode": "S2"
+  "mode": "S2",
+  "frame": 0
  },
  "955": {
   "sequence": "seq_sandraiderflurry",
@@ -5009,7 +5092,8 @@
  },
  "987": {
   "sequence": "seq_crlancerjab",
-  "mode": "A1"
+  "mode": "A1",
+  "frame": 0
  },
  "988": {
   "sequence": "seq_crlancerjab",

@@ -1,6 +1,7 @@
 {
  "0": {
   "Name": "of Health",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 7,
@@ -13,10 +14,13 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "ring",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "1": {
   "Name": "of Protection",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -26,10 +30,13 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "2": {
   "Name": "of Absorption",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 26,
@@ -38,10 +45,13 @@
   "mod1code": "red-dmg",
   "mod1min": 3,
   "mod1max": 3,
-  "itype1": "amul"
+  "itype1": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "3": {
   "Name": "of Life",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 35,
@@ -51,13 +61,18 @@
   "mod1min": 4,
   "mod1max": 4,
   "transformcolor": "dblu",
-  "itype1": "amul"
+  "itype1": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "4": {
-  "spawnable": 1
+  "spawnable": 1,
+  "multiply": 0,
+  "add": 0
  },
  "5": {
   "Name": "of Warding",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 7,
@@ -70,10 +85,13 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "ring",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "6": {
   "Name": "of the Sentinel",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -83,10 +101,13 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "7": {
   "Name": "of Guarding",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 26,
@@ -95,10 +116,13 @@
   "mod1code": "red-mag",
   "mod1min": 3,
   "mod1max": 3,
-  "itype1": "amul"
+  "itype1": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "8": {
   "Name": "of Negation",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 35,
@@ -107,10 +131,17 @@
   "mod1code": "red-mag",
   "mod1min": 4,
   "mod1max": 4,
-  "itype1": "amul"
+  "itype1": "amul",
+  "multiply": 0,
+  "add": 0
+ },
+ "9": {
+  "multiply": 0,
+  "add": 0
  },
  "10": {
   "Name": "of Piercing",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -119,10 +150,13 @@
   "mod1code": "ignore-ac",
   "mod1min": 1,
   "mod1max": 1,
-  "itype1": "rod"
+  "itype1": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "11": {
   "Name": "of Bashing",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 16,
@@ -133,10 +167,13 @@
   "mod1max": -40,
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "12": {
   "Name": "of Puncturing",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 6,
@@ -147,10 +184,13 @@
   "mod1max": -20,
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "13": {
   "Name": "of Thorns",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 14,
@@ -162,10 +202,13 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "belt"
+  "itype4": "belt",
+  "multiply": 0,
+  "add": 0
  },
  "14": {
   "Name": "of Spikes",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 21,
@@ -178,10 +221,13 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "belt"
+  "itype4": "belt",
+  "multiply": 0,
+  "add": 0
  },
  "15": {
   "Name": "of Readiness",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 1,
@@ -191,10 +237,13 @@
   "mod1min": 10,
   "mod1max": 10,
   "itype1": "weap",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "16": {
   "Name": "of Alacrity",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 8,
@@ -203,10 +252,13 @@
   "mod1code": "swing2",
   "mod1min": 20,
   "mod1max": 20,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "17": {
   "Name": "of Swiftness",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 19,
@@ -217,10 +269,13 @@
   "mod1max": 30,
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "18": {
   "Name": "of Quickness",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -232,10 +287,13 @@
   "transformcolor": "dyel",
   "itype1": "mele",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "19": {
   "Name": "of Blocking",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 1,
@@ -244,10 +302,13 @@
   "mod1code": "block",
   "mod1min": 10,
   "mod1max": 10,
-  "itype1": "shld"
+  "itype1": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "20": {
   "Name": "of Deflecting",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 11,
@@ -256,10 +317,13 @@
   "mod1code": "block",
   "mod1min": 20,
   "mod1max": 20,
-  "itype1": "shld"
+  "itype1": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "21": {
   "Name": "of the Apprentice",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 5,
@@ -270,10 +334,13 @@
   "mod1max": 10,
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "22": {
   "Name": "of the Magus",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 17,
@@ -282,10 +349,13 @@
   "mod1code": "cast3",
   "mod1min": 20,
   "mod1max": 20,
-  "itype1": "rod"
+  "itype1": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "23": {
   "Name": "of Frost",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 4,
@@ -300,10 +370,13 @@
   "mod3code": "cold-len",
   "mod3min": 125,
   "mod3max": 125,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "24": {
   "Name": "of the Glacier",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -318,10 +391,13 @@
   "mod3code": "cold-len",
   "mod3min": 150,
   "mod3max": 150,
-  "itype1": "mele"
+  "itype1": "mele",
+  "multiply": 0,
+  "add": 0
  },
  "25": {
   "Name": "of Frost",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 55,
@@ -337,10 +413,13 @@
   "mod3min": 125,
   "mod3max": 125,
   "itype1": "belt",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "26": {
   "Name": "of Warmth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 10,
@@ -353,10 +432,13 @@
   "itype2": "boot",
   "itype3": "glov",
   "itype4": "ring",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "27": {
   "Name": "of Flame",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 4,
@@ -368,10 +450,13 @@
   "mod2code": "fire-max",
   "mod2min": 2,
   "mod2max": 6,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "28": {
   "Name": "of Fire",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 15,
@@ -383,10 +468,13 @@
   "mod2code": "fire-max",
   "mod2min": 6,
   "mod2max": 11,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "29": {
   "Name": "of Burning",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -399,10 +487,13 @@
   "mod2min": 10,
   "mod2max": 20,
   "transformcolor": "dred",
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "30": {
   "Name": "of Flame",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 40,
@@ -416,10 +507,13 @@
   "mod2max": 6,
   "itype1": "glov",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "31": {
   "Name": "of Shock",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 4,
@@ -431,10 +525,13 @@
   "mod2code": "ltng-max",
   "mod2min": 8,
   "mod2max": 8,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "32": {
   "Name": "of Lightning",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 15,
@@ -446,10 +543,13 @@
   "mod2code": "ltng-max",
   "mod2min": 16,
   "mod2max": 16,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "33": {
   "Name": "of Thunder",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -462,10 +562,13 @@
   "mod2min": 32,
   "mod2max": 32,
   "transformcolor": "dyel",
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "34": {
   "Name": "of Shock",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 50,
@@ -482,10 +585,13 @@
   "itype3": "amul",
   "itype4": "weap",
   "etype1": "miss",
-  "etype2": "rod"
+  "etype2": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "35": {
   "Name": "of Craftsmanship",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 1,
@@ -496,10 +602,13 @@
   "mod1max": 2,
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "36": {
   "Name": "of Quality",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 4,
@@ -508,10 +617,13 @@
   "mod1code": "dmg-max",
   "mod1min": 2,
   "mod1max": 2,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "37": {
   "Name": "of Maiming",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 7,
@@ -520,10 +632,13 @@
   "mod1code": "dmg-max",
   "mod1min": 3,
   "mod1max": 4,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "38": {
   "Name": "of Slaying",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 11,
@@ -532,10 +647,13 @@
   "mod1code": "dmg-max",
   "mod1min": 5,
   "mod1max": 7,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "39": {
   "Name": "of Gore",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 14,
@@ -544,10 +662,13 @@
   "mod1code": "dmg-max",
   "mod1min": 8,
   "mod1max": 10,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "40": {
   "Name": "of Carnage",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 19,
@@ -559,10 +680,13 @@
   "transformcolor": "blac",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "41": {
   "Name": "of Slaughter",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -574,10 +698,13 @@
   "transformcolor": "blac",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "42": {
   "Name": "of Maiming",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 42,
@@ -588,10 +715,13 @@
   "mod1max": 4,
   "itype1": "shld",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "43": {
   "Name": "of Worth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 2,
@@ -601,10 +731,13 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "weap",
-  "etype1": "rod"
+  "etype1": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "44": {
   "Name": "of Measure",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 6,
@@ -613,10 +746,13 @@
   "mod1code": "dmg-min",
   "mod1min": 2,
   "mod1max": 2,
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "45": {
   "Name": "of Excellence",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 12,
@@ -627,10 +763,13 @@
   "mod1max": 3,
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "46": {
   "Name": "of Performance",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -640,10 +779,13 @@
   "mod1min": 4,
   "mod1max": 5,
   "transformcolor": "blac",
-  "itype1": "weap"
+  "itype1": "weap",
+  "multiply": 0,
+  "add": 0
  },
  "47": {
   "Name": "of Measure",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 37,
@@ -655,10 +797,13 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "48": {
   "Name": "of Blight",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 5,
@@ -674,10 +819,13 @@
   "mod3min": 75,
   "mod3max": 75,
   "itype1": "weap",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "49": {
   "Name": "of Venom",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 15,
@@ -693,10 +841,13 @@
   "mod3min": 75,
   "mod3max": 75,
   "itype1": "weap",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "50": {
   "Name": "of Pestilence",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -713,10 +864,13 @@
   "mod3max": 100,
   "transformcolor": "dgrn",
   "itype1": "weap",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "51": {
   "Name": "of Blight",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 45,
@@ -732,10 +886,13 @@
   "mod3min": 75,
   "mod3max": 75,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "52": {
   "Name": "of Dexterity",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 4,
@@ -745,10 +902,13 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "53": {
   "Name": "of Dexterity",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 5,
@@ -762,10 +922,13 @@
   "itype3": "boot",
   "itype4": "glov",
   "itype5": "ring",
-  "itype6": "amul"
+  "itype6": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "54": {
   "Name": "of Skill",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 10,
@@ -779,10 +942,13 @@
   "itype3": "boot",
   "itype4": "glov",
   "itype5": "ring",
-  "itype6": "amul"
+  "itype6": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "55": {
   "Name": "of Skill",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 45,
@@ -793,10 +959,13 @@
   "mod1max": 6,
   "itype1": "armo",
   "etype1": "boot",
-  "etype2": "glov"
+  "etype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "56": {
   "Name": "of Accuracy",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -810,10 +979,13 @@
   "itype3": "boot",
   "itype4": "glov",
   "itype5": "ring",
-  "itype6": "amul"
+  "itype6": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "57": {
   "Name": "of Precision",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 22,
@@ -824,10 +996,13 @@
   "mod1max": 15,
   "itype1": "scep",
   "itype2": "miss",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "58": {
   "Name": "of Precision",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 60,
@@ -837,10 +1012,13 @@
   "mod1min": 11,
   "mod1max": 15,
   "itype1": "armo",
-  "itype2": "ring"
+  "itype2": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "59": {
   "Name": "of Perfection",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 30,
@@ -852,10 +1030,13 @@
   "transformcolor": "dgld",
   "itype1": "miss",
   "itype2": "glov",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "60": {
   "Name": "of Balance",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 5,
@@ -865,10 +1046,13 @@
   "mod1min": 10,
   "mod1max": 10,
   "itype1": "armo",
-  "etype1": "glov"
+  "etype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "61": {
   "Name": "of Stability",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 9,
@@ -879,10 +1063,17 @@
   "mod1max": 20,
   "transformcolor": "dyel",
   "itype1": "armo",
-  "etype1": "glov"
+  "etype1": "glov",
+  "multiply": 0,
+  "add": 0
+ },
+ "62": {
+  "multiply": 0,
+  "add": 0
  },
  "63": {
   "Name": "of Regeneration",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 10,
@@ -894,10 +1085,13 @@
   "itype1": "scep",
   "itype2": "belt",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "64": {
   "Name": "of Regeneration",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 40,
@@ -907,10 +1101,13 @@
   "mod1min": 3,
   "mod1max": 3,
   "itype1": "shld",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "65": {
   "Name": "of Regeneration",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 70,
@@ -923,10 +1120,13 @@
   "itype2": "helm",
   "itype3": "weap",
   "itype4": "boot",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "66": {
   "Name": "of Regrowth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 17,
@@ -937,10 +1137,13 @@
   "mod1max": 5,
   "transformcolor": "cred",
   "itype1": "scep",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "67": {
   "Name": "of Regrowth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 55,
@@ -951,10 +1154,13 @@
   "mod1max": 5,
   "transformcolor": "cred",
   "itype1": "belt",
-  "itype2": "ring"
+  "itype2": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "68": {
   "Name": "of Vileness",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 9,
@@ -964,10 +1170,17 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "mele",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
+ },
+ "69": {
+  "multiply": 0,
+  "add": 0
  },
  "70": {
   "Name": "of Greed",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 2,
@@ -977,10 +1190,13 @@
   "mod1min": 40,
   "mod1max": 60,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "71": {
   "Name": "of Wealth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 17,
@@ -993,10 +1209,13 @@
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "belt",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "72": {
   "Name": "of Chance",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 12,
@@ -1006,10 +1225,13 @@
   "mod1min": 10,
   "mod1max": 19,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "73": {
   "Name": "of Fortune",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 16,
@@ -1021,10 +1243,13 @@
   "transformcolor": "lgld",
   "itype1": "boot",
   "itype2": "glov",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "74": {
   "Name": "of Energy",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 4,
@@ -1034,10 +1259,13 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "75": {
   "Name": "of Energy",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 5,
@@ -1048,10 +1276,13 @@
   "mod1max": 5,
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "76": {
   "Name": "of the Mind",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 10,
@@ -1062,10 +1293,13 @@
   "mod1max": 10,
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "77": {
   "Name": "of Brilliance",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -1076,10 +1310,13 @@
   "mod1max": 15,
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "78": {
   "Name": "of Sorcery",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 22,
@@ -1090,10 +1327,13 @@
   "mod1max": 20,
   "transformcolor": "dgld",
   "itype1": "rod",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "79": {
   "Name": "of Wizardry",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 30,
@@ -1105,10 +1345,13 @@
   "transformcolor": "dgld",
   "itype1": "rod",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "80": {
   "Name": "of the Bear",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 8,
@@ -1117,10 +1360,13 @@
   "mod1code": "knock",
   "mod1min": 1,
   "mod1max": 1,
-  "itype1": "mele"
+  "itype1": "mele",
+  "multiply": 0,
+  "add": 0
  },
  "81": {
   "Name": "of Light",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 6,
@@ -1133,10 +1379,13 @@
   "itype2": "rod",
   "itype3": "miss",
   "itype4": "ring",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "82": {
   "Name": "of Radiance",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 15,
@@ -1148,10 +1397,13 @@
   "itype1": "rod",
   "itype2": "miss",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "83": {
   "Name": "of the Sun",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 17,
@@ -1164,10 +1416,13 @@
   "itype2": "miss",
   "itype3": "glov",
   "itype4": "ring",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "84": {
   "Name": "of Life",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 23,
@@ -1180,10 +1435,13 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "belt",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "85": {
   "Name": "of the Jackal",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 3,
@@ -1195,10 +1453,13 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "86": {
   "Name": "of the Fox",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 6,
@@ -1210,10 +1471,13 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "87": {
   "Name": "of the Wolf",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 14,
@@ -1225,10 +1489,13 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "88": {
   "Name": "of the Wolf",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 45,
@@ -1238,10 +1505,13 @@
   "mod1min": 11,
   "mod1max": 20,
   "itype1": "weap",
-  "etype1": "rod"
+  "etype1": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "89": {
   "Name": "of the Tiger",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 20,
@@ -1252,10 +1522,13 @@
   "mod1max": 30,
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "90": {
   "Name": "of the Mammoth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 24,
@@ -1269,10 +1542,13 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "ring",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "91": {
   "Name": "of the Mammoth",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 60,
@@ -1285,10 +1561,13 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "belt",
-  "etype1": "rod"
+  "etype1": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "92": {
   "Name": "of the Colosuss",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 30,
@@ -1302,10 +1581,13 @@
   "itype2": "helm",
   "itype3": "shld",
   "itype4": "belt",
-  "itype5": "amul"
+  "itype5": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "93": {
   "Name": "of the Leech",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 6,
@@ -1316,10 +1598,13 @@
   "mod1max": 7,
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "94": {
   "Name": "of the Locust",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 20,
@@ -1329,10 +1614,13 @@
   "mod1min": 8,
   "mod1max": 10,
   "transformcolor": "cred",
-  "itype1": "mele"
+  "itype1": "mele",
+  "multiply": 0,
+  "add": 0
  },
  "95": {
   "Name": "of the Bat",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 6,
@@ -1343,10 +1631,13 @@
   "mod1max": 8,
   "itype1": "weap",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "96": {
   "Name": "of the Vampire",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 20,
@@ -1356,10 +1647,13 @@
   "mod1min": 9,
   "mod1max": 12,
   "transformcolor": "cblu",
-  "itype1": "mele"
+  "itype1": "mele",
+  "multiply": 0,
+  "add": 0
  },
  "97": {
   "Name": "of Defiance",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -1372,10 +1666,13 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "98": {
   "Name": "of Amelioration",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -1387,10 +1684,13 @@
   "itype1": "tors",
   "itype2": "helm",
   "itype3": "shld",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "99": {
   "Name": "of Remedy",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 7,
@@ -1401,10 +1701,17 @@
   "mod1max": 25,
   "itype1": "armo",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
+ },
+ "100": {
+  "multiply": 0,
+  "add": 0
  },
  "101": {
   "Name": "of Simplicity",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 25,
@@ -1417,10 +1724,13 @@
   "itype2": "helm",
   "itype3": "weap",
   "itype4": "shld",
-  "etype1": "rod"
+  "etype1": "rod",
+  "multiply": 0,
+  "add": 0
  },
  "102": {
   "Name": "of Ease",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 15,
@@ -1433,10 +1743,17 @@
   "itype2": "helm",
   "itype3": "weap",
   "itype4": "shld",
-  "etype1": "rod"
+  "etype1": "rod",
+  "multiply": 0,
+  "add": 0
+ },
+ "103": {
+  "multiply": 0,
+  "add": 0
  },
  "104": {
   "Name": "of Strength",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 5,
@@ -1447,10 +1764,13 @@
   "mod1max": 3,
   "itype1": "belt",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "105": {
   "Name": "of Might",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 10,
@@ -1464,10 +1784,13 @@
   "itype3": "ring",
   "itype4": "amul",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "106": {
   "Name": "of the Ox",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 18,
@@ -1481,10 +1804,13 @@
   "itype3": "ring",
   "itype4": "amul",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "107": {
   "Name": "of the Ox",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 47,
@@ -1495,10 +1821,13 @@
   "mod1max": 10,
   "itype1": "shld",
   "itype2": "boot",
-  "itype3": "glov"
+  "itype3": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "108": {
   "Name": "of the Giant",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 22,
@@ -1512,10 +1841,13 @@
   "itype2": "belt",
   "itype3": "amul",
   "etype1": "wand",
-  "etype2": "staf"
+  "etype2": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "109": {
   "Name": "of the Giant",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 62,
@@ -1528,10 +1860,13 @@
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "ring",
-  "itype4": "shld"
+  "itype4": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "110": {
   "Name": "of the Titan",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 30,
@@ -1543,10 +1878,13 @@
   "transformcolor": "dgld",
   "itype1": "boot",
   "itype2": "belt",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "111": {
   "Name": "of Pacing",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 2,
@@ -1555,10 +1893,13 @@
   "mod1code": "move1",
   "mod1min": 10,
   "mod1max": 10,
-  "itype1": "boot"
+  "itype1": "boot",
+  "multiply": 0,
+  "add": 0
  },
  "112": {
   "Name": "of Haste",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 12,
@@ -1567,10 +1908,13 @@
   "mod1code": "move2",
   "mod1min": 20,
   "mod1max": 20,
-  "itype1": "boot"
+  "itype1": "boot",
+  "multiply": 0,
+  "add": 0
  },
  "113": {
   "Name": "of Speed",
+  "version": 0,
   "spawnable": 1,
   "rare": 1,
   "level": 22,
@@ -1579,7 +1923,9 @@
   "mod1code": "move3",
   "mod1min": 30,
   "mod1max": 30,
-  "itype1": "boot"
+  "itype1": "boot",
+  "multiply": 0,
+  "add": 0
  },
  "115": {
   "Name": "of Health",
@@ -1597,7 +1943,9 @@
   "itype2": "shld",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "116": {
   "Name": "of Protection",
@@ -1613,7 +1961,9 @@
   "mod1max": 2,
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "117": {
   "Name": "of Absorption",
@@ -1628,7 +1978,9 @@
   "mod1min": 3,
   "mod1max": 3,
   "itype1": "amul",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "118": {
   "Name": "of Life",
@@ -1644,7 +1996,9 @@
   "mod1max": 4,
   "transformcolor": "dblu",
   "itype1": "amul",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "119": {
   "Name": "of Life Everlasting",
@@ -1659,6 +2013,8 @@
   "mod1max": 25,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "120": {
@@ -1675,7 +2031,9 @@
   "mod1max": 2,
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "121": {
   "Name": "of Absorption",
@@ -1691,7 +2049,9 @@
   "mod1max": 3,
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "122": {
   "Name": "of Life",
@@ -1707,7 +2067,9 @@
   "mod1max": 7,
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "123": {
   "Name": "of Anima",
@@ -1723,6 +2085,8 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "124": {
@@ -1742,7 +2106,9 @@
   "itype3": "ring",
   "itype4": "amul",
   "itype5": "orb",
-  "itype6": "circ"
+  "itype6": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "125": {
   "Name": "of the Sentinel",
@@ -1759,7 +2125,9 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "orb",
-  "itype4": "circ"
+  "itype4": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "126": {
   "Name": "of Guarding",
@@ -1775,7 +2143,9 @@
   "mod1max": 3,
   "itype1": "amul",
   "itype2": "orb",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "127": {
   "Name": "of Negation",
@@ -1791,6 +2161,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "128": {
@@ -1807,7 +2179,9 @@
   "mod1max": 2,
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "129": {
   "Name": "of Guarding",
@@ -1823,7 +2197,9 @@
   "mod1max": 3,
   "itype1": "tors",
   "itype2": "shld",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "130": {
   "Name": "of Negation",
@@ -1839,6 +2215,8 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "131": {
@@ -1856,6 +2234,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "132": {
@@ -1873,6 +2253,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "133": {
@@ -1890,6 +2272,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "134": {
@@ -1906,6 +2290,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "135": {
@@ -1923,6 +2309,8 @@
   "itype2": "amul",
   "itype3": "orb",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "136": {
@@ -1939,6 +2327,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "137": {
@@ -1955,6 +2345,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "138": {
@@ -1970,6 +2362,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "139": {
@@ -1984,6 +2378,8 @@
   "mod1min": 1,
   "mod1max": 2,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "140": {
@@ -2001,6 +2397,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "141": {
@@ -2018,6 +2416,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "142": {
@@ -2035,6 +2435,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "143": {
@@ -2051,6 +2453,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "144": {
@@ -2068,6 +2472,8 @@
   "itype2": "amul",
   "itype3": "orb",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "145": {
@@ -2084,6 +2490,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "146": {
@@ -2100,6 +2508,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "147": {
@@ -2115,6 +2525,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "148": {
@@ -2129,6 +2541,8 @@
   "mod1min": 1,
   "mod1max": 2,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "149": {
@@ -2146,6 +2560,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "150": {
@@ -2163,6 +2579,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "151": {
@@ -2180,6 +2598,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "152": {
@@ -2196,6 +2616,8 @@
   "itype2": "shld",
   "itype3": "boot",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "153": {
@@ -2213,6 +2635,8 @@
   "itype2": "amul",
   "itype3": "orb",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "154": {
@@ -2229,6 +2653,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "155": {
@@ -2245,6 +2671,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "156": {
@@ -2260,6 +2688,8 @@
   "itype1": "amul",
   "itype2": "orb",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "157": {
@@ -2274,6 +2704,8 @@
   "mod1min": 1,
   "mod1max": 2,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "158": {
@@ -2290,7 +2722,9 @@
   "mod1max": 1,
   "itype1": "rod",
   "itype2": "knif",
-  "itype3": "h2h"
+  "itype3": "h2h",
+  "multiply": 0,
+  "add": 0
  },
  "159": {
   "Name": "of Bashing",
@@ -2307,6 +2741,8 @@
   "etype1": "wand",
   "etype2": "staf",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "160": {
@@ -2323,6 +2759,8 @@
   "itype1": "spea",
   "itype2": "knif",
   "itype3": "h2h",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "161": {
@@ -2340,7 +2778,9 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "belt",
-  "itype4": "circ"
+  "itype4": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "162": {
   "Name": "of Spikes",
@@ -2358,7 +2798,9 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "belt",
-  "itype4": "circ"
+  "itype4": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "163": {
   "Name": "of Razors",
@@ -2376,6 +2818,8 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "164": {
@@ -2393,6 +2837,8 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "165": {
@@ -2408,6 +2854,8 @@
   "mod1min": 1,
   "mod1max": 5,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "166": {
@@ -2424,7 +2872,9 @@
   "mod1max": 10,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "167": {
   "Name": "of Alacrity",
@@ -2440,7 +2890,9 @@
   "mod1max": 20,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "168": {
   "Name": "of Swiftness",
@@ -2457,7 +2909,9 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "169": {
   "Name": "of Quickness",
@@ -2475,7 +2929,9 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "170": {
   "Name": "of Alacrity",
@@ -2491,6 +2947,8 @@
   "mod1max": 20,
   "transformcolor": "dyel",
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "171": {
@@ -2505,6 +2963,8 @@
   "mod1min": 15,
   "mod1max": 15,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "172": {
@@ -2522,7 +2982,9 @@
   "mod2code": "block2",
   "mod2min": 15,
   "mod2max": 15,
-  "itype1": "shld"
+  "itype1": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "173": {
   "Name": "of Deflecting",
@@ -2539,7 +3001,9 @@
   "mod2code": "block2",
   "mod2min": 30,
   "mod2max": 30,
-  "itype1": "shld"
+  "itype1": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "174": {
   "Name": "of the Apprentice",
@@ -2557,7 +3021,9 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "orb",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "175": {
   "Name": "of the Magus",
@@ -2574,7 +3040,9 @@
   "itype1": "rod",
   "itype2": "orb",
   "itype3": "circ",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "176": {
   "Name": "of Frost",
@@ -2596,7 +3064,9 @@
   "mod3max": 50,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "177": {
   "Name": "of the Icicle",
@@ -2619,6 +3089,8 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "178": {
@@ -2642,7 +3114,9 @@
   "transformcolor": "dblu",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "179": {
   "Name": "of Winter",
@@ -2666,6 +3140,8 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "180": {
@@ -2687,7 +3163,9 @@
   "mod3min": 50,
   "mod3max": 50,
   "itype1": "belt",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "181": {
   "Name": "of Frigidity",
@@ -2709,6 +3187,8 @@
   "mod3max": 50,
   "transformcolor": "dblu",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "182": {
@@ -2729,7 +3209,9 @@
   "itype4": "ring",
   "itype5": "amul",
   "itype6": "circ",
-  "itype7": "orb"
+  "itype7": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "183": {
   "Name": "of Flame",
@@ -2748,7 +3230,9 @@
   "mod2max": 5,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "184": {
   "Name": "of Fire",
@@ -2767,7 +3251,9 @@
   "mod2max": 11,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "185": {
   "Name": "of Burning",
@@ -2787,7 +3273,9 @@
   "transformcolor": "dred",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "186": {
   "Name": "of Incineration",
@@ -2808,6 +3296,8 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "187": {
@@ -2828,6 +3318,8 @@
   "itype1": "glov",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "188": {
@@ -2847,6 +3339,8 @@
   "mod2max": 10,
   "transformcolor": "dred",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "189": {
@@ -2866,7 +3360,9 @@
   "mod2max": 8,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "190": {
   "Name": "of Lightning",
@@ -2885,7 +3381,9 @@
   "mod2max": 16,
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "191": {
   "Name": "of Thunder",
@@ -2905,7 +3403,9 @@
   "transformcolor": "dyel",
   "itype1": "weap",
   "etype1": "wand",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "192": {
   "Name": "of Storms",
@@ -2926,6 +3426,8 @@
   "itype1": "mele",
   "etype1": "wand",
   "etype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "193": {
@@ -2946,6 +3448,8 @@
   "itype1": "boot",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "194": {
@@ -2965,6 +3469,8 @@
   "mod2max": 20,
   "transformcolor": "dyel",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "195": {
@@ -2984,7 +3490,9 @@
   "itype3": "amul",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "196": {
   "Name": "of Quality",
@@ -3001,7 +3509,9 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "197": {
   "Name": "of Maiming",
@@ -3018,7 +3528,9 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "198": {
   "Name": "of Slaying",
@@ -3035,7 +3547,9 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "199": {
   "Name": "of Gore",
@@ -3052,7 +3566,9 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "200": {
   "Name": "of Carnage",
@@ -3070,7 +3586,9 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "201": {
   "Name": "of Slaughter",
@@ -3088,7 +3606,9 @@
   "itype1": "weap",
   "etype1": "wand",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "202": {
   "Name": "of Butchery",
@@ -3106,6 +3626,8 @@
   "etype1": "wand",
   "etype2": "staf",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "203": {
@@ -3124,6 +3646,8 @@
   "etype1": "wand",
   "etype2": "staf",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "204": {
@@ -3140,7 +3664,9 @@
   "mod1max": 4,
   "itype1": "shld",
   "itype2": "ring",
-  "itype3": "amul"
+  "itype3": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "205": {
   "Name": "of Craftsmanship",
@@ -3156,6 +3682,8 @@
   "mod1min": 1,
   "mod1max": 2,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "206": {
@@ -3172,6 +3700,8 @@
   "mod1min": 2,
   "mod1max": 3,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "207": {
@@ -3187,6 +3717,8 @@
   "mod1min": 4,
   "mod1max": 5,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "208": {
@@ -3203,6 +3735,8 @@
   "mod1min": 6,
   "mod1max": 7,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "209": {
@@ -3218,6 +3752,8 @@
   "mod1min": 7,
   "mod1max": 8,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "210": {
@@ -3233,6 +3769,8 @@
   "mod1min": 9,
   "mod1max": 10,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "211": {
@@ -3247,11 +3785,14 @@
   "mod1min": 11,
   "mod1max": 12,
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "212": {
   "Name": "of Craftsmanship",
   "version": 100,
+  "spawnable": 0,
   "rare": 1,
   "level": 8,
   "maxlevel": 17,
@@ -3262,11 +3803,14 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "213": {
   "Name": "of Craftsmanship",
   "version": 100,
+  "spawnable": 0,
   "rare": 1,
   "level": 18,
   "levelreq": 13,
@@ -3276,11 +3820,14 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "214": {
   "Name": "of Quality",
   "version": 100,
+  "spawnable": 0,
   "rare": 1,
   "level": 28,
   "maxlevel": 37,
@@ -3291,11 +3838,14 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "215": {
   "Name": "of Quality",
   "version": 100,
+  "spawnable": 0,
   "rare": 1,
   "level": 38,
   "levelreq": 30,
@@ -3305,11 +3855,14 @@
   "mod1min": 5,
   "mod1max": 6,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "216": {
   "Name": "of Maiming",
   "version": 100,
+  "spawnable": 0,
   "level": 48,
   "levelreq": 40,
   "frequency": 4,
@@ -3318,11 +3871,14 @@
   "mod1min": 7,
   "mod1max": 8,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "217": {
   "Name": "of Craftsmanship",
   "version": 100,
+  "spawnable": 0,
   "rare": 1,
   "level": 21,
   "levelreq": 15,
@@ -3332,11 +3888,14 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "218": {
   "Name": "of Quality",
   "version": 100,
+  "spawnable": 0,
   "rare": 1,
   "level": 36,
   "levelreq": 28,
@@ -3346,11 +3905,14 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "219": {
   "Name": "of Maiming",
   "version": 100,
+  "spawnable": 0,
   "level": 51,
   "levelreq": 43,
   "frequency": 4,
@@ -3359,6 +3921,8 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "220": {
@@ -3374,6 +3938,8 @@
   "mod1min": 2,
   "mod1max": 5,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "221": {
@@ -3390,6 +3956,8 @@
   "mod1max": 9,
   "transformcolor": "blac",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "222": {
@@ -3422,7 +3990,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "224": {
   "Name": "of Measure",
@@ -3439,7 +4009,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "225": {
   "Name": "of Excellence",
@@ -3456,7 +4028,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "226": {
   "Name": "of Performance",
@@ -3474,7 +4048,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "227": {
   "Name": "of Transcendence",
@@ -3493,6 +4069,8 @@
   "etype1": "staf",
   "etype2": "wand",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "228": {
@@ -3509,7 +4087,9 @@
   "mod1max": 3,
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "229": {
   "Name": "of Measure",
@@ -3525,7 +4105,9 @@
   "mod1max": 5,
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "230": {
   "Name": "of Excellence",
@@ -3541,7 +4123,9 @@
   "mod1max": 9,
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "231": {
   "Name": "of Performance",
@@ -3557,6 +4141,8 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "232": {
@@ -3573,6 +4159,8 @@
   "mod1max": 4,
   "transformcolor": "whit",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "233": {
@@ -3589,6 +4177,8 @@
   "mod1max": 10,
   "transformcolor": "whit",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "234": {
@@ -3607,7 +4197,9 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "rod",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "235": {
   "Name": "of Venom",
@@ -3625,7 +4217,9 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "rod",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "236": {
   "Name": "of Pestilence",
@@ -3644,7 +4238,9 @@
   "itype1": "weap",
   "itype2": "circ",
   "etype1": "rod",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "237": {
   "Name": "of Anthrax",
@@ -3663,6 +4259,8 @@
   "itype1": "weap",
   "etype1": "rod",
   "etype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "238": {
@@ -3680,6 +4278,8 @@
   "mod1max": 171,
   "itype1": "ring",
   "itype2": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "239": {
@@ -3697,6 +4297,8 @@
   "mod1max": 103,
   "transformcolor": "dgrn",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "240": {
@@ -3713,7 +4315,9 @@
   "mod1max": 2,
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "241": {
   "Name": "of Skill",
@@ -3729,7 +4333,9 @@
   "mod1max": 5,
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "242": {
   "Name": "of Accuracy",
@@ -3745,7 +4351,9 @@
   "mod1max": 9,
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "243": {
   "Name": "of Precision",
@@ -3761,7 +4369,9 @@
   "mod1max": 15,
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "244": {
   "Name": "of Perfection",
@@ -3778,7 +4388,9 @@
   "transformcolor": "dgld",
   "itype1": "amul",
   "itype2": "miss",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "245": {
   "Name": "of Nirvana",
@@ -3795,6 +4407,8 @@
   "itype1": "amul",
   "itype2": "miss",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "246": {
@@ -3810,7 +4424,9 @@
   "mod1min": 1,
   "mod1max": 2,
   "itype1": "ring",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "247": {
   "Name": "of Skill",
@@ -3825,7 +4441,9 @@
   "mod1min": 3,
   "mod1max": 5,
   "itype1": "ring",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "248": {
   "Name": "of Accuracy",
@@ -3840,7 +4458,9 @@
   "mod1min": 6,
   "mod1max": 9,
   "itype1": "ring",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "249": {
   "Name": "of Precision",
@@ -3855,7 +4475,9 @@
   "mod1min": 10,
   "mod1max": 15,
   "itype1": "ring",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "250": {
   "Name": "of Perfection",
@@ -3871,6 +4493,8 @@
   "transformcolor": "dgld",
   "itype1": "ring",
   "itype2": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "251": {
@@ -3887,7 +4511,9 @@
   "mod1max": 3,
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov"
+  "etype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "252": {
   "Name": "of Skill",
@@ -3903,7 +4529,9 @@
   "mod1max": 5,
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov"
+  "etype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "253": {
   "Name": "of Accuracy",
@@ -3919,7 +4547,9 @@
   "mod1max": 9,
   "itype1": "tors",
   "itype2": "boot",
-  "etype1": "glov"
+  "etype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "254": {
   "Name": "of Precision",
@@ -3936,6 +4566,8 @@
   "itype1": "tors",
   "itype2": "boot",
   "etype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "255": {
@@ -3951,6 +4583,8 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "256": {
@@ -3966,6 +4600,8 @@
   "mod1min": 2,
   "mod1max": 3,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "257": {
@@ -3981,6 +4617,8 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "258": {
@@ -3996,6 +4634,8 @@
   "mod1min": 5,
   "mod1max": 6,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "259": {
@@ -4011,6 +4651,8 @@
   "mod1min": 4,
   "mod1max": 5,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "260": {
@@ -4026,6 +4668,8 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "261": {
@@ -4041,6 +4685,8 @@
   "mod1min": 1,
   "mod1max": 3,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "262": {
@@ -4056,7 +4702,9 @@
   "mod1min": 10,
   "mod1max": 10,
   "itype1": "armo",
-  "etype1": "glov"
+  "etype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "263": {
   "Name": "of Equilibrium",
@@ -4072,7 +4720,9 @@
   "mod1max": 17,
   "itype1": "tors",
   "itype2": "belt",
-  "itype3": "shld"
+  "itype3": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "264": {
   "Name": "of Stability",
@@ -4088,7 +4738,9 @@
   "mod1max": 24,
   "transformcolor": "dyel",
   "itype1": "tors",
-  "itype2": "belt"
+  "itype2": "belt",
+  "multiply": 0,
+  "add": 0
  },
  "265": {
   "Name": "of Balance",
@@ -4103,6 +4755,8 @@
   "mod1min": 12,
   "mod1max": 12,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "266": {
@@ -4118,6 +4772,8 @@
   "mod1min": 8,
   "mod1max": 8,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "267": {
@@ -4134,6 +4790,8 @@
   "mod1max": 5,
   "transformcolor": "dyel",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "268": {
@@ -4149,6 +4807,8 @@
   "mod1min": 7,
   "mod1max": 7,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "269": {
@@ -4167,7 +4827,9 @@
   "itype2": "belt",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "270": {
   "Name": "of Regeneration",
@@ -4182,7 +4844,9 @@
   "mod1min": 3,
   "mod1max": 5,
   "itype1": "shld",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "271": {
   "Name": "of Regeneration",
@@ -4199,7 +4863,9 @@
   "itype1": "tors",
   "itype2": "weap",
   "itype3": "boot",
-  "etype1": "scep"
+  "etype1": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "272": {
   "Name": "of Regrowth",
@@ -4216,7 +4882,9 @@
   "transformcolor": "cred",
   "itype1": "scep",
   "itype2": "amul",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "273": {
   "Name": "of Regrowth",
@@ -4232,7 +4900,9 @@
   "mod1max": 9,
   "transformcolor": "cred",
   "itype1": "belt",
-  "itype2": "ring"
+  "itype2": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "274": {
   "Name": "of Revivification",
@@ -4249,6 +4919,8 @@
   "itype1": "scep",
   "itype2": "amul",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "275": {
@@ -4264,6 +4936,8 @@
   "mod1min": 1,
   "mod1max": 4,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "276": {
@@ -4280,7 +4954,9 @@
   "mod1max": 1,
   "itype1": "mele",
   "etype1": "rod",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "277": {
   "Name": "of Greed",
@@ -4296,7 +4972,9 @@
   "mod1max": 40,
   "itype1": "ring",
   "itype2": "amul",
-  "itype3": "circ"
+  "itype3": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "278": {
   "Name": "of Wealth",
@@ -4315,7 +4993,9 @@
   "itype2": "glov",
   "itype3": "belt",
   "itype4": "amul",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "279": {
   "Name": "of Greed",
@@ -4330,6 +5010,8 @@
   "mod1min": 10,
   "mod1max": 20,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "280": {
@@ -4345,6 +5027,8 @@
   "mod1min": 21,
   "mod1max": 30,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "281": {
@@ -4360,6 +5044,8 @@
   "mod1min": 31,
   "mod1max": 40,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "282": {
@@ -4375,6 +5061,8 @@
   "mod1min": 5,
   "mod1max": 10,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "283": {
@@ -4390,6 +5078,8 @@
   "mod1min": 11,
   "mod1max": 22,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "284": {
@@ -4405,6 +5095,8 @@
   "mod1min": 5,
   "mod1max": 10,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "285": {
@@ -4420,6 +5112,8 @@
   "mod1min": 10,
   "mod1max": 30,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "286": {
@@ -4438,7 +5132,9 @@
   "itype2": "glov",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "287": {
   "Name": "of Fortune",
@@ -4456,7 +5152,9 @@
   "itype1": "boot",
   "itype2": "glov",
   "itype3": "amul",
-  "itype4": "circ"
+  "itype4": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "288": {
   "Name": "of Fortune",
@@ -4470,7 +5168,9 @@
   "mod1min": 16,
   "mod1max": 25,
   "transformcolor": "lgld",
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "289": {
   "Name": "of Luck",
@@ -4487,6 +5187,8 @@
   "itype1": "boot",
   "itype2": "amul",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "290": {
@@ -4502,6 +5204,8 @@
   "mod1min": 3,
   "mod1max": 5,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "291": {
@@ -4516,6 +5220,8 @@
   "mod1min": 6,
   "mod1max": 7,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "292": {
@@ -4531,6 +5237,8 @@
   "mod1min": 5,
   "mod1max": 10,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "293": {
@@ -4549,7 +5257,9 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf"
+  "itype5": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "294": {
   "Name": "of the Mind",
@@ -4567,7 +5277,9 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf"
+  "itype5": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "295": {
   "Name": "of Brilliance",
@@ -4585,7 +5297,9 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf"
+  "itype5": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "296": {
   "Name": "of Sorcery",
@@ -4603,7 +5317,9 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf"
+  "itype5": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "297": {
   "Name": "of Wizardry",
@@ -4622,7 +5338,9 @@
   "itype2": "orb",
   "itype3": "circ",
   "itype4": "wand",
-  "itype5": "staf"
+  "itype5": "staf",
+  "multiply": 0,
+  "add": 0
  },
  "298": {
   "Name": "of Enlightenment",
@@ -4641,6 +5359,8 @@
   "itype3": "circ",
   "itype4": "wand",
   "itype5": "staf",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "299": {
@@ -4655,7 +5375,9 @@
   "mod1code": "enr",
   "mod1min": 1,
   "mod1max": 3,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "300": {
   "Name": "of the Mind",
@@ -4669,7 +5391,9 @@
   "mod1code": "enr",
   "mod1min": 4,
   "mod1max": 6,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "301": {
   "Name": "of Brilliance",
@@ -4683,7 +5407,9 @@
   "mod1code": "enr",
   "mod1min": 7,
   "mod1max": 10,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "302": {
   "Name": "of Sorcery",
@@ -4697,7 +5423,9 @@
   "mod1code": "enr",
   "mod1min": 11,
   "mod1max": 15,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "303": {
   "Name": "of Wizardry",
@@ -4712,6 +5440,8 @@
   "mod1max": 20,
   "transformcolor": "dgld",
   "itype1": "ring",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "304": {
@@ -4727,7 +5457,9 @@
   "mod1min": 1,
   "mod1max": 3,
   "itype1": "helm",
-  "itype2": "scep"
+  "itype2": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "305": {
   "Name": "of the Mind",
@@ -4742,7 +5474,9 @@
   "mod1min": 4,
   "mod1max": 6,
   "itype1": "helm",
-  "itype2": "scep"
+  "itype2": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "306": {
   "Name": "of Brilliance",
@@ -4757,7 +5491,9 @@
   "mod1min": 7,
   "mod1max": 10,
   "itype1": "helm",
-  "itype2": "scep"
+  "itype2": "scep",
+  "multiply": 0,
+  "add": 0
  },
  "307": {
   "Name": "of Sorcery",
@@ -4773,6 +5509,8 @@
   "transformcolor": "dgld",
   "itype1": "helm",
   "itype2": "scep",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "308": {
@@ -4788,6 +5526,8 @@
   "mod1min": 1,
   "mod1max": 5,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "309": {
@@ -4802,7 +5542,9 @@
   "mod1code": "knock",
   "mod1min": 1,
   "mod1max": 1,
-  "itype1": "mele"
+  "itype1": "mele",
+  "multiply": 0,
+  "add": 0
  },
  "310": {
   "Name": "of Light",
@@ -4822,7 +5564,9 @@
   "itype1": "armo",
   "itype2": "rod",
   "itype3": "ring",
-  "itype4": "amul"
+  "itype4": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "311": {
   "Name": "of Radiance",
@@ -4843,7 +5587,9 @@
   "itype2": "miss",
   "itype3": "ring",
   "itype4": "amul",
-  "itype5": "helm"
+  "itype5": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "312": {
   "Name": "of the Sun",
@@ -4865,7 +5611,9 @@
   "itype3": "glov",
   "itype4": "ring",
   "itype5": "amul",
-  "itype6": "helm"
+  "itype6": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "313": {
   "Name": "of the Jackal",
@@ -4883,7 +5631,9 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "314": {
   "Name": "of the Fox",
@@ -4901,7 +5651,9 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "315": {
   "Name": "of the Wolf",
@@ -4919,7 +5671,9 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "316": {
   "Name": "of the Tiger",
@@ -4937,7 +5691,9 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "317": {
   "Name": "of the Mammoth",
@@ -4956,7 +5712,9 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "318": {
   "Name": "of the Colosuss",
@@ -4975,7 +5733,9 @@
   "itype2": "belt",
   "itype3": "amul",
   "itype4": "phlm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "319": {
   "Name": "of the Squid",
@@ -4994,6 +5754,8 @@
   "itype3": "amul",
   "itype4": "phlm",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "320": {
@@ -5013,6 +5775,8 @@
   "itype3": "amul",
   "itype4": "phlm",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "321": {
@@ -5029,6 +5793,8 @@
   "mod1max": 5,
   "itype1": "shld",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "322": {
@@ -5045,6 +5811,8 @@
   "mod1max": 10,
   "itype1": "shld",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "323": {
@@ -5061,6 +5829,8 @@
   "mod1max": 20,
   "itype1": "shld",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "324": {
@@ -5077,6 +5847,8 @@
   "mod1max": 30,
   "itype1": "shld",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "325": {
@@ -5094,6 +5866,8 @@
   "transformcolor": "cred",
   "itype1": "shld",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "326": {
@@ -5110,6 +5884,8 @@
   "transformcolor": "cred",
   "itype1": "shld",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "327": {
@@ -5128,7 +5904,9 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm"
+  "itype5": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "328": {
   "Name": "of the Fox",
@@ -5146,7 +5924,9 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm"
+  "itype5": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "329": {
   "Name": "of the Wolf",
@@ -5164,7 +5944,9 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm"
+  "itype5": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "330": {
   "Name": "of the Tiger",
@@ -5182,7 +5964,9 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm"
+  "itype5": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "331": {
   "Name": "of the Mammoth",
@@ -5201,7 +5985,9 @@
   "itype2": "hamm",
   "itype3": "mace",
   "itype4": "ring",
-  "itype5": "helm"
+  "itype5": "helm",
+  "multiply": 0,
+  "add": 0
  },
  "332": {
   "Name": "of Life",
@@ -5216,6 +6002,8 @@
   "mod1min": 5,
   "mod1max": 10,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "333": {
@@ -5231,6 +6019,8 @@
   "mod1min": 11,
   "mod1max": 15,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "334": {
@@ -5246,6 +6036,8 @@
   "mod1min": 16,
   "mod1max": 20,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "335": {
@@ -5261,6 +6053,8 @@
   "mod1min": 21,
   "mod1max": 25,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "336": {
@@ -5276,6 +6070,8 @@
   "mod1min": 26,
   "mod1max": 30,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "337": {
@@ -5291,6 +6087,8 @@
   "mod1min": 31,
   "mod1max": 35,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "338": {
@@ -5305,6 +6103,8 @@
   "mod1min": 36,
   "mod1max": 40,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "339": {
@@ -5319,6 +6119,8 @@
   "mod1min": 41,
   "mod1max": 45,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "340": {
@@ -5333,6 +6135,8 @@
   "mod1min": 46,
   "mod1max": 50,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "341": {
@@ -5348,6 +6152,8 @@
   "mod1min": 6,
   "mod1max": 10,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "342": {
@@ -5363,6 +6169,8 @@
   "mod1min": 11,
   "mod1max": 15,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "343": {
@@ -5378,6 +6186,8 @@
   "mod1min": 16,
   "mod1max": 20,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "344": {
@@ -5393,6 +6203,8 @@
   "mod1min": 21,
   "mod1max": 25,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "345": {
@@ -5407,6 +6219,8 @@
   "mod1min": 26,
   "mod1max": 30,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "346": {
@@ -5421,6 +6235,8 @@
   "mod1min": 31,
   "mod1max": 35,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "347": {
@@ -5436,6 +6252,8 @@
   "mod1min": 5,
   "mod1max": 10,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "348": {
@@ -5451,6 +6269,8 @@
   "mod1min": 11,
   "mod1max": 15,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "349": {
@@ -5465,6 +6285,8 @@
   "mod1min": 16,
   "mod1max": 20,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "350": {
@@ -5480,6 +6302,8 @@
   "mod1min": 3,
   "mod1max": 8,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "351": {
@@ -5494,6 +6318,8 @@
   "mod1min": 9,
   "mod1max": 20,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "352": {
@@ -5509,7 +6335,9 @@
   "mod1min": 4,
   "mod1max": 5,
   "itype1": "weap",
-  "etype1": "orb"
+  "etype1": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "353": {
   "Name": "of the Locust",
@@ -5525,7 +6353,9 @@
   "mod1max": 7,
   "transformcolor": "cred",
   "itype1": "mele",
-  "etype1": "orb"
+  "etype1": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "354": {
   "Name": "of the Lamprey",
@@ -5542,6 +6372,8 @@
   "transformcolor": "cred",
   "itype1": "mele",
   "etype1": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "355": {
@@ -5557,7 +6389,9 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "ring",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "356": {
   "Name": "of the Locust",
@@ -5572,7 +6406,9 @@
   "mod1min": 5,
   "mod1max": 6,
   "itype1": "ring",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "357": {
   "Name": "of the Lamprey",
@@ -5589,6 +6425,8 @@
   "transformcolor": "cred",
   "itype1": "ring",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "358": {
@@ -5604,7 +6442,9 @@
   "mod1min": 3,
   "mod1max": 3,
   "transformcolor": "cred",
-  "itype1": "glov"
+  "itype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "359": {
   "Name": "of the Bat",
@@ -5619,7 +6459,9 @@
   "mod1min": 4,
   "mod1max": 5,
   "itype1": "weap",
-  "etype1": "orb"
+  "etype1": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "360": {
   "Name": "of the Wraith",
@@ -5634,7 +6476,9 @@
   "mod1min": 6,
   "mod1max": 7,
   "transformcolor": "cred",
-  "itype1": "mele"
+  "itype1": "mele",
+  "multiply": 0,
+  "add": 0
  },
  "361": {
   "Name": "of the Vampire",
@@ -5650,6 +6494,8 @@
   "mod1max": 9,
   "transformcolor": "cred",
   "itype1": "mele",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "362": {
@@ -5665,7 +6511,9 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "amul",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "363": {
   "Name": "of the Wraith",
@@ -5680,7 +6528,9 @@
   "mod1min": 5,
   "mod1max": 6,
   "itype1": "amul",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "364": {
   "Name": "of the Vampire",
@@ -5697,6 +6547,8 @@
   "transformcolor": "cred",
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "365": {
@@ -5712,7 +6564,9 @@
   "mod1min": 3,
   "mod1max": 3,
   "transformcolor": "cred",
-  "itype1": "glov"
+  "itype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "366": {
   "Name": "of Defiance",
@@ -5730,7 +6584,9 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "amul",
-  "itype4": "circ"
+  "itype4": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "367": {
   "Name": "of Amelioration",
@@ -5747,7 +6603,9 @@
   "itype1": "tors",
   "itype2": "shld",
   "itype3": "amul",
-  "itype4": "circ"
+  "itype4": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "368": {
   "Name": "of Remedy",
@@ -5765,6 +6623,8 @@
   "itype2": "ring",
   "itype3": "amul",
   "itype4": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "369": {
@@ -5783,7 +6643,9 @@
   "itype2": "weap",
   "itype3": "shld",
   "etype1": "rod",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "370": {
   "Name": "of Ease",
@@ -5801,7 +6663,9 @@
   "itype2": "weap",
   "itype3": "shld",
   "etype1": "rod",
-  "etype2": "orb"
+  "etype2": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "371": {
   "Name": "of Freedom",
@@ -5816,6 +6680,8 @@
   "mod1min": -15,
   "mod1max": -15,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "372": {
@@ -5834,7 +6700,9 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "373": {
   "Name": "of Might",
@@ -5852,7 +6720,9 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "374": {
   "Name": "of the Ox",
@@ -5870,7 +6740,9 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "375": {
   "Name": "of the Giant",
@@ -5888,7 +6760,9 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "376": {
   "Name": "of the Titan",
@@ -5907,7 +6781,9 @@
   "itype2": "belt",
   "itype3": "club",
   "itype4": "hamm",
-  "itype5": "circ"
+  "itype5": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "377": {
   "Name": "of Atlus",
@@ -5927,6 +6803,8 @@
   "itype3": "club",
   "itype4": "hamm",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "378": {
@@ -5944,7 +6822,9 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors"
+  "itype4": "tors",
+  "multiply": 0,
+  "add": 0
  },
  "379": {
   "Name": "of Might",
@@ -5961,7 +6841,9 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors"
+  "itype4": "tors",
+  "multiply": 0,
+  "add": 0
  },
  "380": {
   "Name": "of the Ox",
@@ -5978,7 +6860,9 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors"
+  "itype4": "tors",
+  "multiply": 0,
+  "add": 0
  },
  "381": {
   "Name": "of the Giant",
@@ -5995,7 +6879,9 @@
   "itype1": "ring",
   "itype2": "scep",
   "itype3": "mace",
-  "itype4": "tors"
+  "itype4": "tors",
+  "multiply": 0,
+  "add": 0
  },
  "382": {
   "Name": "of the Titan",
@@ -6014,6 +6900,8 @@
   "itype2": "scep",
   "itype3": "mace",
   "itype4": "tors",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "383": {
@@ -6031,7 +6919,9 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "shld",
-  "etype1": "blun"
+  "etype1": "blun",
+  "multiply": 0,
+  "add": 0
  },
  "384": {
   "Name": "of Might",
@@ -6048,7 +6938,9 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "shld",
-  "etype1": "blun"
+  "etype1": "blun",
+  "multiply": 0,
+  "add": 0
  },
  "385": {
   "Name": "of the Ox",
@@ -6065,7 +6957,9 @@
   "itype1": "mele",
   "itype2": "glov",
   "itype3": "shld",
-  "etype1": "blun"
+  "etype1": "blun",
+  "multiply": 0,
+  "add": 0
  },
  "386": {
   "Name": "of the Giant",
@@ -6083,6 +6977,8 @@
   "itype1": "mele",
   "itype2": "glov",
   "etype1": "blun",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "387": {
@@ -6098,6 +6994,8 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "388": {
@@ -6113,6 +7011,8 @@
   "mod1min": 2,
   "mod1max": 3,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "389": {
@@ -6128,6 +7028,8 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "390": {
@@ -6143,6 +7045,8 @@
   "mod1min": 5,
   "mod1max": 6,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "391": {
@@ -6158,6 +7062,8 @@
   "mod1min": 4,
   "mod1max": 5,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "392": {
@@ -6173,6 +7079,8 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "393": {
@@ -6188,6 +7096,8 @@
   "mod1min": 1,
   "mod1max": 4,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "394": {
@@ -6203,7 +7113,9 @@
   "mod1min": 10,
   "mod1max": 10,
   "itype1": "boot",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "395": {
   "Name": "of Haste",
@@ -6218,7 +7130,9 @@
   "mod1min": 20,
   "mod1max": 20,
   "itype1": "boot",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "396": {
   "Name": "of Speed",
@@ -6233,7 +7147,9 @@
   "mod1min": 30,
   "mod1max": 30,
   "itype1": "boot",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "397": {
   "Name": "of Traveling",
@@ -6250,6 +7166,8 @@
   "mod2min": 80,
   "mod2max": 90,
   "itype1": "boot",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "398": {
@@ -6264,6 +7182,8 @@
   "mod1min": 40,
   "mod1max": 40,
   "itype1": "boot",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "399": {
@@ -6279,6 +7199,8 @@
   "mod1min": 7,
   "mod1max": 7,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "400": {
@@ -6294,6 +7216,8 @@
   "mod1min": 5,
   "mod1max": 5,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "401": {
@@ -6308,6 +7232,8 @@
   "mod1min": 3,
   "mod1max": 3,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "402": {
@@ -6325,6 +7251,8 @@
   "itype2": "armo",
   "etype1": "thro",
   "etype2": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "403": {
@@ -6342,6 +7270,8 @@
   "itype2": "armo",
   "etype1": "thro",
   "etype2": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "404": {
@@ -6357,6 +7287,8 @@
   "itype2": "armo",
   "etype1": "thro",
   "etype2": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "405": {
@@ -6371,6 +7303,8 @@
   "mod1code": "rep-quant",
   "mod1param": 5,
   "itype1": "thro",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "406": {
@@ -6385,6 +7319,8 @@
   "mod1code": "rep-quant",
   "mod1param": 10,
   "itype1": "thro",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "407": {
@@ -6402,6 +7338,8 @@
   "itype2": "amul",
   "itype3": "pelt",
   "itype4": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "408": {
@@ -6418,6 +7356,8 @@
   "itype1": "circ",
   "itype2": "amul",
   "itype3": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "409": {
@@ -6435,6 +7375,8 @@
   "transformcolor": "cred",
   "itype1": "circ",
   "itype2": "pelt",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "410": {
@@ -6449,6 +7391,8 @@
   "transformcolor": "dgld",
   "itype1": "belt",
   "itype2": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "411": {
@@ -6463,6 +7407,8 @@
   "transformcolor": "dgld",
   "itype1": "helm",
   "itype2": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "412": {
@@ -6478,6 +7424,8 @@
   "mod2param": 1,
   "transformcolor": "dgld",
   "itype1": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "413": {
@@ -6493,6 +7441,8 @@
   "itype1": "tors",
   "itype2": "glov",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "414": {
@@ -6508,6 +7458,8 @@
   "itype1": "shld",
   "itype2": "helm",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "415": {
@@ -6523,6 +7475,8 @@
   "itype1": "glov",
   "itype2": "boot",
   "itype3": "ring",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "416": {
@@ -6538,6 +7492,8 @@
   "itype1": "belt",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "417": {
@@ -6555,6 +7511,8 @@
   "mod3param": 1,
   "transformcolor": "dgld",
   "itype1": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "418": {
@@ -6572,6 +7530,8 @@
   "mod1max": 8,
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "419": {
@@ -6589,6 +7549,8 @@
   "mod1max": 3,
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "420": {
@@ -6606,6 +7568,8 @@
   "mod1max": 4,
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "421": {
@@ -6624,6 +7588,8 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "422": {
@@ -6642,6 +7608,8 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "423": {
@@ -6660,6 +7628,8 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "424": {
@@ -6678,18 +7648,24 @@
   "transformcolor": "lblu",
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "425": {
   "Name": "of Frozen Armor",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "426": {
   "Name": "of Static Field",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "427": {
@@ -6698,6 +7674,8 @@
   "spawnable": 1,
   "rare": 1,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "428": {
@@ -6716,24 +7694,32 @@
   "transformcolor": "lblu",
   "itype1": "armo",
   "itype2": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "429": {
   "Name": "of Ice Blast",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "430": {
   "Name": "of Blaze",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "431": {
   "Name": "of Fire Ball",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "432": {
@@ -6752,6 +7738,8 @@
   "transformcolor": "cblu",
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "433": {
@@ -6770,6 +7758,8 @@
   "transformcolor": "cblu",
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "434": {
@@ -6788,6 +7778,8 @@
   "transformcolor": "cblu",
   "itype1": "armo",
   "itype2": "ring",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "435": {
@@ -6806,6 +7798,8 @@
   "transformcolor": "cblu",
   "itype1": "armo",
   "itype2": "ring",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "436": {
@@ -6824,6 +7818,8 @@
   "transformcolor": "cblu",
   "itype1": "armo",
   "itype2": "ring",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "437": {
@@ -6842,6 +7838,8 @@
   "transformcolor": "cblu",
   "itype1": "weap",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "438": {
@@ -6859,24 +7857,32 @@
   "mod1max": 1,
   "transformcolor": "cblu",
   "itype1": "weap",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "439": {
   "Name": "of Shiver Armor",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "440": {
   "Name": "of Fire Wall",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "441": {
   "Name": "of Enchant",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "442": {
@@ -6896,6 +7902,8 @@
   "itype2": "ring",
   "itype3": "amul",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "443": {
@@ -6915,6 +7923,8 @@
   "itype2": "ring",
   "itype3": "amul",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "444": {
@@ -6934,6 +7944,8 @@
   "itype2": "ring",
   "itype3": "amul",
   "etype1": "miss",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "445": {
@@ -6951,6 +7963,8 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "446": {
@@ -6968,6 +7982,8 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "447": {
@@ -6985,42 +8001,56 @@
   "itype1": "armo",
   "itype2": "ring",
   "itype3": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "448": {
   "Name": "of Glacial Spike",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "449": {
   "Name": "of Meteor",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "450": {
   "Name": "of Thunder Storm",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "451": {
   "Name": "of Energy Shield",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "452": {
   "Name": "of Blizzard",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "453": {
   "Name": "of Chilling Armor",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "454": {
@@ -7038,12 +8068,16 @@
   "mod1max": 3,
   "transformcolor": "cred",
   "itype1": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "455": {
   "Name": "of Frozen Orb",
   "version": 100,
   "group": 44,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "456": {
@@ -7051,11 +8085,14 @@
   "version": 100,
   "level": 30,
   "levelreq": 22,
+  "frequency": 0,
   "group": 45,
   "mod1code": "ac/time",
   "mod1param": 3,
   "mod1min": 10,
   "mod1max": 40,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "457": {
@@ -7063,10 +8100,14 @@
   "version": 100,
   "level": 30,
   "levelreq": 22,
+  "frequency": 0,
   "group": 45,
   "mod1code": "ac/time",
+  "mod1param": 0,
   "mod1min": -10,
   "mod1max": 60,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "458": {
@@ -7086,6 +8127,8 @@
   "mod1max": -10,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "459": {
@@ -7102,6 +8145,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "460": {
@@ -7119,6 +8164,8 @@
   "mod1max": -10,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "461": {
@@ -7137,6 +8184,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "462": {
@@ -7157,6 +8206,8 @@
   "itype1": "amul",
   "itype2": "amaz",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "463": {
@@ -7175,6 +8226,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "464": {
@@ -7192,6 +8245,8 @@
   "mod1max": -7,
   "itype1": "spea",
   "itype2": "aspe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "465": {
@@ -7208,6 +8263,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "466": {
@@ -7227,6 +8284,8 @@
   "mod1max": -8,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "467": {
@@ -7245,6 +8304,8 @@
   "mod1min": -20,
   "mod1max": -5,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "468": {
@@ -7264,6 +8325,8 @@
   "mod1max": -8,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "469": {
@@ -7282,6 +8345,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "470": {
@@ -7301,6 +8366,8 @@
   "mod1max": -6,
   "itype1": "spea",
   "itype2": "aspe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "471": {
@@ -7319,6 +8386,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "472": {
@@ -7336,6 +8405,8 @@
   "mod1max": -6,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "473": {
@@ -7352,6 +8423,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "474": {
@@ -7371,6 +8444,8 @@
   "mod1max": -6,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "475": {
@@ -7389,6 +8464,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "476": {
@@ -7405,6 +8482,8 @@
   "mod1min": -30,
   "mod1max": -5,
   "itype1": "amaz",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "477": {
@@ -7422,6 +8501,8 @@
   "mod1max": -3,
   "itype1": "glov",
   "itype2": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "478": {
@@ -7439,6 +8520,8 @@
   "mod1max": -6,
   "itype1": "spea",
   "itype2": "aspe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "479": {
@@ -7455,6 +8538,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "480": {
@@ -7472,6 +8557,8 @@
   "mod1max": -6,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "481": {
@@ -7488,6 +8575,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "482": {
@@ -7507,6 +8596,8 @@
   "mod1max": -5,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "483": {
@@ -7525,6 +8616,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "484": {
@@ -7542,6 +8635,8 @@
   "mod1max": -5,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "485": {
@@ -7558,6 +8653,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "486": {
@@ -7577,6 +8674,8 @@
   "mod1max": -5,
   "itype1": "spea",
   "itype2": "aspe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "487": {
@@ -7595,6 +8694,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "488": {
@@ -7612,6 +8713,8 @@
   "mod1max": -5,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "489": {
@@ -7628,6 +8731,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "490": {
@@ -7645,6 +8750,8 @@
   "mod1max": -4,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "491": {
@@ -7661,6 +8768,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "492": {
@@ -7678,6 +8787,8 @@
   "mod1max": -5,
   "itype1": "spea",
   "itype2": "aspe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "493": {
@@ -7694,6 +8805,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "494": {
@@ -7713,6 +8826,8 @@
   "mod1max": -4,
   "itype1": "miss",
   "itype2": "abow",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "495": {
@@ -7731,6 +8846,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "496": {
@@ -7750,6 +8867,8 @@
   "mod1max": -4,
   "itype1": "spea",
   "itype2": "aspe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "497": {
@@ -7768,6 +8887,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "498": {
@@ -7785,6 +8906,8 @@
   "mod1max": -4,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "499": {
@@ -7801,6 +8924,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "500": {
@@ -7820,6 +8945,8 @@
   "mod1max": -10,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "501": {
@@ -7840,6 +8967,8 @@
   "itype1": "swor",
   "itype2": "ring",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "502": {
@@ -7859,6 +8988,8 @@
   "mod1max": -10,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "503": {
@@ -7881,6 +9012,8 @@
   "itype3": "scep",
   "itype4": "ring",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "504": {
@@ -7900,6 +9033,8 @@
   "mod1max": -10,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "505": {
@@ -7918,6 +9053,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "knif",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "506": {
@@ -7935,6 +9072,8 @@
   "mod1max": -10,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "507": {
@@ -7952,6 +9091,8 @@
   "mod1max": -6,
   "itype1": "knif",
   "itype2": "tors",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "508": {
@@ -7969,6 +9110,8 @@
   "mod1max": -8,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "509": {
@@ -7989,6 +9132,8 @@
   "itype3": "scep",
   "itype4": "ring",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "510": {
@@ -8008,6 +9153,8 @@
   "mod1max": -8,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "511": {
@@ -8030,6 +9177,8 @@
   "itype3": "scep",
   "itype4": "ring",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "512": {
@@ -8049,6 +9198,8 @@
   "mod1max": -8,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "513": {
@@ -8069,6 +9220,8 @@
   "itype1": "knif",
   "itype2": "amul",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "514": {
@@ -8088,6 +9241,8 @@
   "mod1max": -8,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "515": {
@@ -8110,6 +9265,8 @@
   "itype3": "scep",
   "itype4": "ring",
   "itype5": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "516": {
@@ -8127,6 +9284,8 @@
   "mod1max": -7,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "517": {
@@ -8143,6 +9302,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "boot",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "518": {
@@ -8162,6 +9323,8 @@
   "mod1max": -7,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "519": {
@@ -8181,6 +9344,8 @@
   "mod1max": -4,
   "itype1": "spea",
   "itype2": "wand",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "520": {
@@ -8200,6 +9365,8 @@
   "mod1max": -7,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "521": {
@@ -8218,6 +9385,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "shld",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "522": {
@@ -8237,6 +9406,8 @@
   "mod1max": -7,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "523": {
@@ -8256,6 +9427,8 @@
   "mod1max": -4,
   "itype1": "axe",
   "itype2": "hamm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "524": {
@@ -8273,6 +9446,8 @@
   "mod1max": -7,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "525": {
@@ -8290,6 +9465,8 @@
   "mod1max": -4,
   "itype1": "knif",
   "itype2": "tors",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "526": {
@@ -8307,6 +9484,8 @@
   "mod1max": -6,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "527": {
@@ -8323,6 +9502,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "pole",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "528": {
@@ -8342,6 +9523,8 @@
   "mod1max": -3,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "529": {
@@ -8360,6 +9543,8 @@
   "mod1min": -10,
   "mod1max": -1,
   "itype1": "mele",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "530": {
@@ -8379,6 +9564,8 @@
   "mod1max": -6,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "531": {
@@ -8397,6 +9584,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "spea",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "532": {
@@ -8416,6 +9605,8 @@
   "mod1max": -6,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "533": {
@@ -8435,6 +9626,8 @@
   "mod1max": -3,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "534": {
@@ -8454,6 +9647,8 @@
   "mod1max": -6,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "535": {
@@ -8472,6 +9667,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "knif",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "536": {
@@ -8491,6 +9688,8 @@
   "mod1max": -5,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "537": {
@@ -8510,6 +9709,8 @@
   "mod1max": -2,
   "itype1": "knif",
   "itype2": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "538": {
@@ -8527,6 +9728,8 @@
   "mod1max": -5,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "539": {
@@ -8544,6 +9747,8 @@
   "mod1max": -2,
   "itype1": "hamm",
   "itype2": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "540": {
@@ -8561,6 +9766,8 @@
   "mod1max": -5,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "541": {
@@ -8577,6 +9784,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "helm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "542": {
@@ -8596,6 +9805,8 @@
   "mod1max": -5,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "543": {
@@ -8614,6 +9825,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "knif",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "544": {
@@ -8631,6 +9844,8 @@
   "mod1max": -5,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "545": {
@@ -8647,6 +9862,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "tors",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "546": {
@@ -8664,6 +9881,8 @@
   "mod1max": -3,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "547": {
@@ -8680,6 +9899,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "548": {
@@ -8699,6 +9920,8 @@
   "mod1max": -3,
   "itype1": "staf",
   "itype2": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "549": {
@@ -8717,6 +9940,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "knif",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "550": {
@@ -8735,6 +9960,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "551": {
@@ -8751,6 +9978,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "blun",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "552": {
@@ -8771,6 +10000,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "553": {
@@ -8789,6 +10020,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "swor",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "554": {
@@ -8807,6 +10040,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "555": {
@@ -8823,6 +10058,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "tors",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "556": {
@@ -8841,6 +10078,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "557": {
@@ -8858,6 +10097,8 @@
   "mod1max": -6,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "558": {
@@ -8878,6 +10119,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "559": {
@@ -8897,6 +10140,8 @@
   "mod1max": -5,
   "itype1": "ring",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "560": {
@@ -8917,6 +10162,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "561": {
@@ -8935,6 +10182,8 @@
   "mod1min": -20,
   "mod1max": -5,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "562": {
@@ -8954,6 +10203,8 @@
   "mod1max": -8,
   "itype1": "knif",
   "itype2": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "563": {
@@ -8974,6 +10225,8 @@
   "itype1": "glov",
   "itype2": "ring",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "564": {
@@ -8992,6 +10245,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "565": {
@@ -9008,6 +10263,8 @@
   "mod1min": -20,
   "mod1max": -5,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "566": {
@@ -9026,6 +10283,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "567": {
@@ -9043,6 +10302,8 @@
   "mod1max": -5,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "568": {
@@ -9061,6 +10322,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "569": {
@@ -9077,6 +10340,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "shld",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "570": {
@@ -9097,6 +10362,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "571": {
@@ -9115,6 +10382,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "shld",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "572": {
@@ -9133,6 +10402,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "573": {
@@ -9151,6 +10422,8 @@
   "itype1": "club",
   "itype2": "mace",
   "itype3": "scep",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "574": {
@@ -9169,6 +10442,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "575": {
@@ -9186,6 +10461,8 @@
   "mod1max": -4,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "576": {
@@ -9206,6 +10483,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "577": {
@@ -9225,6 +10504,8 @@
   "mod1max": -3,
   "itype1": "ring",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "578": {
@@ -9245,6 +10526,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "579": {
@@ -9263,6 +10546,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "axe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "580": {
@@ -9281,6 +10566,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "581": {
@@ -9297,6 +10584,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "blun",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "582": {
@@ -9317,6 +10606,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "583": {
@@ -9335,6 +10626,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "spea",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "584": {
@@ -9353,6 +10646,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "585": {
@@ -9369,6 +10664,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "axe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "586": {
@@ -9389,6 +10686,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "587": {
@@ -9409,6 +10708,8 @@
   "itype1": "ring",
   "itype2": "amul",
   "itype3": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "588": {
@@ -9427,6 +10728,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "589": {
@@ -9443,6 +10746,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "shld",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "590": {
@@ -9461,6 +10766,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "591": {
@@ -9478,6 +10785,8 @@
   "mod1max": -2,
   "itype1": "mace",
   "itype2": "scep",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "592": {
@@ -9496,6 +10805,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "593": {
@@ -9512,6 +10823,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "swor",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "594": {
@@ -9532,6 +10845,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "595": {
@@ -9550,6 +10865,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "staf",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "596": {
@@ -9570,6 +10887,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "597": {
@@ -9588,6 +10907,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "598": {
@@ -9608,6 +10929,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "599": {
@@ -9627,6 +10950,8 @@
   "mod1max": -1,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "600": {
@@ -9645,6 +10970,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "601": {
@@ -9661,6 +10988,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "hamm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "602": {
@@ -9679,6 +11008,8 @@
   "itype1": "wand",
   "itype2": "knif",
   "itype3": "head",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "603": {
@@ -9695,6 +11026,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "pole",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "604": {
@@ -9714,6 +11047,8 @@
   "mod1max": -10,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "605": {
@@ -9733,6 +11068,8 @@
   "mod1max": -6,
   "itype1": "mele",
   "etype1": "scep",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "606": {
@@ -9752,6 +11089,8 @@
   "mod1max": -8,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "607": {
@@ -9771,6 +11110,8 @@
   "mod1max": -5,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "608": {
@@ -9790,6 +11131,8 @@
   "mod1max": -7,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "609": {
@@ -9809,6 +11152,8 @@
   "mod1max": -4,
   "itype1": "mele",
   "etype1": "scep",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "610": {
@@ -9828,6 +11173,8 @@
   "mod1max": -6,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "611": {
@@ -9847,6 +11194,8 @@
   "mod1max": -3,
   "itype1": "swor",
   "itype2": "axe",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "612": {
@@ -9866,6 +11215,8 @@
   "mod1max": -6,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "613": {
@@ -9884,6 +11235,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "hamm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "614": {
@@ -9901,6 +11254,8 @@
   "mod1max": -5,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "615": {
@@ -9918,6 +11273,8 @@
   "mod1max": -2,
   "itype1": "blun",
   "etype1": "scep",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "616": {
@@ -9935,6 +11292,8 @@
   "mod1max": -3,
   "itype1": "scep",
   "itype2": "ashd",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "617": {
@@ -9951,6 +11310,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "glov",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "618": {
@@ -9969,6 +11330,8 @@
   "mod1min": -60,
   "mod1max": -10,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "619": {
@@ -9990,6 +11353,8 @@
   "etype1": "staf",
   "etype2": "wand",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "620": {
@@ -10006,6 +11371,8 @@
   "mod1min": -60,
   "mod1max": -10,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "621": {
@@ -10021,6 +11388,8 @@
   "mod1param": 130,
   "mod1min": -20,
   "mod1max": -6,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "622": {
@@ -10037,6 +11406,8 @@
   "mod1min": -60,
   "mod1max": -10,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "623": {
@@ -10052,6 +11423,8 @@
   "mod1param": 131,
   "mod1min": -20,
   "mod1max": -6,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "624": {
@@ -10068,6 +11441,8 @@
   "mod1min": -60,
   "mod1max": -8,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "625": {
@@ -10083,6 +11458,8 @@
   "mod1param": 137,
   "mod1min": -20,
   "mod1max": -5,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "626": {
@@ -10099,6 +11476,8 @@
   "mod1min": -60,
   "mod1max": -8,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "627": {
@@ -10114,6 +11493,8 @@
   "mod1param": 138,
   "mod1min": -20,
   "mod1max": -5,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "628": {
@@ -10135,6 +11516,8 @@
   "etype1": "staf",
   "etype2": "wand",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "629": {
@@ -10153,6 +11536,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "mele",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "630": {
@@ -10169,6 +11554,8 @@
   "mod1min": -60,
   "mod1max": -7,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "631": {
@@ -10184,6 +11571,8 @@
   "mod1param": 142,
   "mod1min": -20,
   "mod1max": -4,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "632": {
@@ -10202,6 +11591,8 @@
   "mod1min": -60,
   "mod1max": -6,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "633": {
@@ -10223,6 +11614,8 @@
   "etype1": "staf",
   "etype2": "wand",
   "etype3": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "634": {
@@ -10239,6 +11632,8 @@
   "mod1min": -60,
   "mod1max": -6,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "635": {
@@ -10254,6 +11649,8 @@
   "mod1param": 146,
   "mod1min": -20,
   "mod1max": -3,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "636": {
@@ -10270,6 +11667,8 @@
   "mod1min": -60,
   "mod1max": -5,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "637": {
@@ -10285,6 +11684,8 @@
   "mod1param": 149,
   "mod1min": -20,
   "mod1max": -2,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "638": {
@@ -10303,6 +11704,8 @@
   "mod1min": -60,
   "mod1max": -5,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "639": {
@@ -10321,6 +11724,8 @@
   "mod1min": -20,
   "mod1max": -2,
   "itype1": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "640": {
@@ -10337,6 +11742,8 @@
   "mod1min": -60,
   "mod1max": -3,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "641": {
@@ -10352,6 +11759,8 @@
   "mod1param": 154,
   "mod1min": -20,
   "mod1max": -1,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "642": {
@@ -10368,6 +11777,8 @@
   "mod1min": -60,
   "mod1max": -3,
   "itype1": "phlm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "643": {
@@ -10383,6 +11794,8 @@
   "mod1param": 155,
   "mod1min": -20,
   "mod1max": -1,
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "644": {
@@ -10401,6 +11814,8 @@
   "mod1min": -30,
   "mod1max": -10,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "645": {
@@ -10419,6 +11834,8 @@
   "mod1min": -20,
   "mod1max": -6,
   "itype1": "staf",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "646": {
@@ -10435,6 +11852,8 @@
   "mod1min": -30,
   "mod1max": -8,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "647": {
@@ -10451,6 +11870,8 @@
   "mod1min": -20,
   "mod1max": -5,
   "itype1": "mace",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "648": {
@@ -10469,6 +11890,8 @@
   "mod1min": -30,
   "mod1max": -7,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "649": {
@@ -10487,6 +11910,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "staf",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "650": {
@@ -10503,6 +11928,8 @@
   "mod1min": -30,
   "mod1max": -7,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "651": {
@@ -10519,6 +11946,8 @@
   "mod1min": -20,
   "mod1max": -4,
   "itype1": "tors",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "652": {
@@ -10537,6 +11966,8 @@
   "mod1min": -30,
   "mod1max": -6,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "653": {
@@ -10556,6 +11987,8 @@
   "mod1max": -3,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "654": {
@@ -10574,6 +12007,8 @@
   "mod1min": -30,
   "mod1max": -6,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "655": {
@@ -10592,6 +12027,8 @@
   "mod1min": -20,
   "mod1max": -3,
   "itype1": "hamm",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "656": {
@@ -10610,6 +12047,8 @@
   "mod1min": -30,
   "mod1max": -5,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "657": {
@@ -10629,6 +12068,8 @@
   "mod1max": -2,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "658": {
@@ -10645,6 +12086,8 @@
   "mod1min": -30,
   "mod1max": -3,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "659": {
@@ -10661,6 +12104,8 @@
   "mod1min": -20,
   "mod1max": -1,
   "itype1": "staf",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "660": {
@@ -10677,6 +12122,8 @@
   "mod1min": -30,
   "mod1max": -3,
   "itype1": "club",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "661": {
@@ -10694,6 +12141,8 @@
   "mod1max": -1,
   "itype1": "amul",
   "itype2": "circ",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "662": {
@@ -10710,6 +12159,8 @@
   "mod1max": 1,
   "itype1": "weap",
   "etype1": "orb",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "663": {
@@ -10732,6 +12183,8 @@
   "mod3max": 50,
   "transformcolor": "dblu",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "664": {
@@ -10753,6 +12206,8 @@
   "mod3max": 50,
   "transformcolor": "dblu",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "665": {
@@ -10772,6 +12227,8 @@
   "mod2max": 30,
   "transformcolor": "dred",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "666": {
@@ -10791,6 +12248,8 @@
   "mod2max": 50,
   "transformcolor": "dred",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "667": {
@@ -10810,6 +12269,8 @@
   "mod2max": 60,
   "transformcolor": "dyel",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "668": {
@@ -10829,6 +12290,8 @@
   "mod2max": 100,
   "transformcolor": "dyel",
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "669": {
@@ -10844,6 +12307,8 @@
   "mod1min": 4,
   "mod1max": 6,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "670": {
@@ -10859,6 +12324,8 @@
   "mod1min": 7,
   "mod1max": 9,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "671": {
@@ -10874,6 +12341,8 @@
   "mod1min": 4,
   "mod1max": 6,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "672": {
@@ -10889,6 +12358,8 @@
   "mod1min": 7,
   "mod1max": 9,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "673": {
@@ -10904,6 +12375,8 @@
   "mod1min": 5,
   "mod1max": 6,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "674": {
@@ -10919,6 +12392,8 @@
   "mod1min": 7,
   "mod1max": 9,
   "itype1": "jewl",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "675": {
@@ -10933,7 +12408,9 @@
   "mod1code": "swing1",
   "mod1min": 10,
   "mod1max": 10,
-  "itype1": "glov"
+  "itype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "676": {
   "Name": "of Craftsmanship",
@@ -10948,6 +12425,8 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "677": {
@@ -10963,6 +12442,8 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "678": {
@@ -10977,6 +12458,8 @@
   "mod1min": 3,
   "mod1max": 4,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "679": {
@@ -10992,6 +12475,8 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "680": {
@@ -11006,6 +12491,8 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "681": {
@@ -11021,6 +12508,8 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "682": {
@@ -11037,6 +12526,8 @@
   "mod1min": 21,
   "mod1max": 21,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "683": {
@@ -11053,6 +12544,8 @@
   "mod1min": 39,
   "mod1max": 39,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "684": {
@@ -11070,6 +12563,8 @@
   "mod1max": 52,
   "transformcolor": "dgrn",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "685": {
@@ -11086,6 +12581,8 @@
   "mod1max": 86,
   "transformcolor": "dgrn",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "686": {
@@ -11102,6 +12599,8 @@
   "mod1min": 21,
   "mod1max": 21,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "687": {
@@ -11118,6 +12617,8 @@
   "mod1min": 39,
   "mod1max": 39,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "688": {
@@ -11135,6 +12636,8 @@
   "mod1max": 52,
   "transformcolor": "dgrn",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "689": {
@@ -11151,6 +12654,8 @@
   "mod1max": 86,
   "transformcolor": "dgrn",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "690": {
@@ -11167,6 +12672,8 @@
   "mod1min": 21,
   "mod1max": 21,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "691": {
@@ -11183,6 +12690,8 @@
   "mod1min": 39,
   "mod1max": 39,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "692": {
@@ -11200,6 +12709,8 @@
   "mod1max": 52,
   "transformcolor": "dgrn",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "693": {
@@ -11216,6 +12727,8 @@
   "mod1max": 86,
   "transformcolor": "dgrn",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "694": {
@@ -11237,6 +12750,8 @@
   "mod3min": 25,
   "mod3max": 25,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "695": {
@@ -11258,6 +12773,8 @@
   "mod3min": 25,
   "mod3max": 25,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "696": {
@@ -11280,6 +12797,8 @@
   "mod3max": 25,
   "transformcolor": "dblu",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "697": {
@@ -11301,6 +12820,8 @@
   "mod3max": 25,
   "transformcolor": "dblu",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "698": {
@@ -11322,6 +12843,8 @@
   "mod3min": 25,
   "mod3max": 25,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "699": {
@@ -11343,6 +12866,8 @@
   "mod3min": 25,
   "mod3max": 25,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "700": {
@@ -11365,6 +12890,8 @@
   "mod3max": 25,
   "transformcolor": "dblu",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "701": {
@@ -11386,6 +12913,8 @@
   "mod3max": 25,
   "transformcolor": "dblu",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "702": {
@@ -11407,6 +12936,8 @@
   "mod3min": 25,
   "mod3max": 25,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "703": {
@@ -11428,6 +12959,8 @@
   "mod3min": 25,
   "mod3max": 25,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "704": {
@@ -11450,6 +12983,8 @@
   "mod3max": 25,
   "transformcolor": "dblu",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "705": {
@@ -11471,6 +13006,8 @@
   "mod3max": 25,
   "transformcolor": "dblu",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "706": {
@@ -11489,6 +13026,8 @@
   "mod2min": 2,
   "mod2max": 2,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "707": {
@@ -11507,6 +13046,8 @@
   "mod2min": 3,
   "mod2max": 3,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "708": {
@@ -11526,6 +13067,8 @@
   "mod2max": 7,
   "transformcolor": "dred",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "709": {
@@ -11544,6 +13087,8 @@
   "mod2max": 14,
   "transformcolor": "dred",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "710": {
@@ -11562,6 +13107,8 @@
   "mod2min": 2,
   "mod2max": 2,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "711": {
@@ -11580,6 +13127,8 @@
   "mod2min": 3,
   "mod2max": 5,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "712": {
@@ -11599,6 +13148,8 @@
   "mod2max": 11,
   "transformcolor": "dred",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "713": {
@@ -11617,6 +13168,8 @@
   "mod2max": 17,
   "transformcolor": "dred",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "714": {
@@ -11635,6 +13188,8 @@
   "mod2min": 2,
   "mod2max": 2,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "715": {
@@ -11653,6 +13208,8 @@
   "mod2min": 3,
   "mod2max": 4,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "716": {
@@ -11672,6 +13229,8 @@
   "mod2max": 8,
   "transformcolor": "dred",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "717": {
@@ -11690,6 +13249,8 @@
   "mod2max": 13,
   "transformcolor": "dred",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "718": {
@@ -11708,6 +13269,8 @@
   "mod2min": 2,
   "mod2max": 3,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "719": {
@@ -11726,6 +13289,8 @@
   "mod2min": 4,
   "mod2max": 7,
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "720": {
@@ -11745,6 +13310,8 @@
   "mod2max": 21,
   "transformcolor": "dyel",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "721": {
@@ -11763,6 +13330,8 @@
   "mod2max": 33,
   "transformcolor": "dyel",
   "itype1": "lcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "722": {
@@ -11781,6 +13350,8 @@
   "mod2min": 3,
   "mod2max": 5,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "723": {
@@ -11799,6 +13370,8 @@
   "mod2min": 6,
   "mod2max": 13,
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "724": {
@@ -11818,6 +13391,8 @@
   "mod2max": 25,
   "transformcolor": "dyel",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "725": {
@@ -11836,6 +13411,8 @@
   "mod2max": 38,
   "transformcolor": "dyel",
   "itype1": "mcha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "726": {
@@ -11854,6 +13431,8 @@
   "mod2min": 3,
   "mod2max": 6,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "727": {
@@ -11872,6 +13451,8 @@
   "mod2min": 7,
   "mod2max": 10,
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "728": {
@@ -11891,6 +13472,8 @@
   "mod2max": 18,
   "transformcolor": "dyel",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "729": {
@@ -11909,6 +13492,8 @@
   "mod2max": 28,
   "transformcolor": "dyel",
   "itype1": "scha",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "730": {
@@ -11925,7 +13510,9 @@
   "mod1min": 1,
   "mod1max": 1,
   "itype1": "boot",
-  "itype2": "glov"
+  "itype2": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "731": {
   "Name": "of Dexterity",
@@ -11940,7 +13527,9 @@
   "mod1code": "dex",
   "mod1min": 1,
   "mod1max": 1,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "732": {
   "Name": "of Strength",
@@ -11955,7 +13544,9 @@
   "mod1code": "str",
   "mod1min": 1,
   "mod1max": 1,
-  "itype1": "glov"
+  "itype1": "glov",
+  "multiply": 0,
+  "add": 0
  },
  "733": {
   "Name": "of Strength",
@@ -11970,7 +13561,9 @@
   "mod1code": "str",
   "mod1min": 1,
   "mod1max": 1,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "734": {
   "Name": "of Thorns",
@@ -11987,7 +13580,9 @@
   "mod1max": 1,
   "itype1": "tors",
   "itype2": "belt",
-  "itype3": "shld"
+  "itype3": "shld",
+  "multiply": 0,
+  "add": 0
  },
  "735": {
   "Name": "of Frost",
@@ -12006,7 +13601,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "736": {
   "Name": "of Flame",
@@ -12024,7 +13621,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "737": {
   "Name": "of Blight",
@@ -12043,7 +13642,9 @@
   "itype1": "weap",
   "etype1": "scep",
   "etype2": "staf",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "738": {
   "Name": "of Shock",
@@ -12061,7 +13662,9 @@
   "itype1": "weap",
   "etype1": "staf",
   "etype2": "wand",
-  "etype3": "orb"
+  "etype3": "orb",
+  "multiply": 0,
+  "add": 0
  },
  "739": {
   "Name": "of Regeneration",
@@ -12077,7 +13680,9 @@
   "mod1min": 2,
   "mod1max": 2,
   "itype1": "amul",
-  "itype2": "circ"
+  "itype2": "circ",
+  "multiply": 0,
+  "add": 0
  },
  "740": {
   "Name": "of Energy",
@@ -12098,7 +13703,9 @@
   "itype4": "wand",
   "itype5": "staf",
   "itype6": "helm",
-  "itype7": "ring"
+  "itype7": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "741": {
   "Name": "of Light",
@@ -12117,7 +13724,9 @@
   "mod2min": 10,
   "mod2max": 10,
   "itype1": "ring",
-  "itype2": "amul"
+  "itype2": "amul",
+  "multiply": 0,
+  "add": 0
  },
  "742": {
   "Name": "of the Leech",
@@ -12132,6 +13741,8 @@
   "mod1min": 2,
   "mod1max": 3,
   "itype1": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "743": {
@@ -12147,6 +13758,8 @@
   "mod1min": 4,
   "mod1max": 5,
   "itype1": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "744": {
@@ -12163,6 +13776,8 @@
   "mod1max": 6,
   "transformcolor": "cred",
   "itype1": "amul",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  },
  "745": {
@@ -12177,7 +13792,9 @@
   "mod1code": "manasteal",
   "mod1min": 2,
   "mod1max": 3,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "746": {
   "Name": "of the Wraith",
@@ -12191,7 +13808,9 @@
   "mod1code": "manasteal",
   "mod1min": 4,
   "mod1max": 5,
-  "itype1": "ring"
+  "itype1": "ring",
+  "multiply": 0,
+  "add": 0
  },
  "747": {
   "Name": "of the Vampire",
@@ -12207,6 +13826,8 @@
   "mod1max": 6,
   "transformcolor": "cred",
   "itype1": "ring",
+  "multiply": 0,
+  "add": 0,
   "expansion": 1
  }
 }

@@ -2,6 +2,7 @@
  "0": {
   "description": "Staff of Kings + Amulet of the Viper -> Horadric Staff",
   "enabled": 1,
+  "version": 0,
   "op": 28,
   "numinputs": 2,
   "input 1": "msf",
@@ -11,6 +12,7 @@
  "1": {
   "description": "Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will",
   "enabled": 1,
+  "version": 0,
   "op": 28,
   "numinputs": 4,
   "input 1": "qf1",
@@ -22,6 +24,7 @@
  "2": {
   "description": "Wirt's Leg + Tome of Town Portal -> Portal to The Secret Cow Level",
   "enabled": 1,
+  "version": 0,
   "op": 28,
   "numinputs": 2,
   "input 1": "leg",
@@ -31,6 +34,7 @@
  "3": {
   "description": "3 Healing Potions (Any) + 3 Mana Potions (Any) + 1 Standard Gem (Any) -> Full Rejuvenation Potion",
   "enabled": 1,
+  "version": 0,
   "numinputs": 7,
   "input 1": "\"hpot,qty=3\"",
   "input 2": "\"mpot,qty=3\"",
@@ -40,6 +44,7 @@
  "4": {
   "description": "3 Healing Potions (Any) + 3 Mana Potions (Any)  + 1 Chipped Gem (Any) -> Rejuvenation Potion",
   "enabled": 1,
+  "version": 0,
   "numinputs": 7,
   "input 1": "\"hpot,qty=3\"",
   "input 2": "\"mpot,qty=3\"",
@@ -49,6 +54,7 @@
  "5": {
   "description": "3 Rejuvenation Potions -> Full Rejuvenation Potion",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"rvs,qty=3\"",
   "output": "rvl"
@@ -56,6 +62,7 @@
  "6": {
   "description": "6 Perfect Gems (1 of each type) + 1 Magic Amulet -> Prismatic Amulet",
   "enabled": 1,
+  "version": 0,
   "numinputs": 7,
   "input 1": "\"amu,mag\"",
   "input 2": "gpv",
@@ -70,6 +77,7 @@
  "7": {
   "description": "1 Magic Ring + 1 Perfect Ruby + 1 Exploding Potion -> Garnet Ring",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"rin,mag\"",
   "input 2": "gpr",
@@ -80,6 +88,7 @@
  "8": {
   "description": "1 Magic Ring + 1 Perfect Sapphire + 1 Thawing Potion -> Cobalt Ring",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"rin,mag\"",
   "input 2": "gpb",
@@ -90,6 +99,7 @@
  "9": {
   "description": "1 Magic Ring + 1 Perfect Topaz + 1 Rejuvenation Potion -> Coral Ring",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"rin,mag\"",
   "input 2": "gpy",
@@ -100,6 +110,7 @@
  "10": {
   "description": "1 Magic Ring + 1 Standard Emerald + 1 Antidote Potion -> Jade Ring",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"rin,mag\"",
   "input 2": "gpg",
@@ -110,6 +121,7 @@
  "11": {
   "description": "1 Axe (Any) + 1 Dagger (Any) -> Throwing Axe",
   "enabled": 1,
+  "version": 0,
   "numinputs": 2,
   "input 1": "axe",
   "input 2": "knif",
@@ -118,6 +130,7 @@
  "12": {
   "description": "1 Spear (Any) + 1 Arrows -> Javelins",
   "enabled": 1,
+  "version": 0,
   "numinputs": 2,
   "input 1": "spea",
   "input 2": "aqv",
@@ -126,6 +139,7 @@
  "13": {
   "description": "3 Magic Rings -> Magic Amulet",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"rin,mag,qty=3\"",
   "output": "\"amu,mag\"",
@@ -134,6 +148,7 @@
  "14": {
   "description": "3 Magic Amulets -> Magic Ring",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"amu,mag,qty=3\"",
   "output": "\"rin,mag\"",
@@ -142,6 +157,7 @@
  "15": {
   "description": "3 Standard Gems + 1 Socketed Weapon ->  Socketed Magic Weapon",
   "enabled": 1,
+  "version": 0,
   "numinputs": 4,
   "input 1": "\"weap,sock\"",
   "input 2": "\"gem2,qty=3\"",
@@ -155,6 +171,7 @@
  "16": {
   "description": "3 Flawless Gems + 1 Magic Weapon -> Socketed Magic Weapon",
   "enabled": 1,
+  "version": 0,
   "numinputs": 4,
   "input 1": "\"weap,mag\"",
   "input 2": "\"gem3,qty=3\"",
@@ -168,6 +185,7 @@
  "17": {
   "description": "1 Magic Shield + 1 Spiked Club + 2 Skulls (Any) -> Magic Shield of Spikes",
   "enabled": 1,
+  "version": 0,
   "numinputs": 4,
   "input 1": "\"shld,mag\"",
   "input 2": "\"gemz,qty=2\"",
@@ -179,6 +197,7 @@
  "18": {
   "description": "4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech",
   "enabled": 1,
+  "version": 0,
   "numinputs": 6,
   "input 1": "\"swor,mag\"",
   "input 2": "gemr",
@@ -190,6 +209,7 @@
  "19": {
   "description": "1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm",
   "enabled": 1,
+  "version": 0,
   "numinputs": 4,
   "input 1": "kri",
   "input 2": "gemd",
@@ -202,6 +222,7 @@
  "20": {
   "description": "1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion",
   "enabled": 1,
+  "version": 0,
   "numinputs": 2,
   "input 1": "gpl",
   "input 2": "hpot",
@@ -210,6 +231,7 @@
  "21": {
   "description": "2 Arrows -> Bolts",
   "enabled": 1,
+  "version": 0,
   "numinputs": 2,
   "input 1": "\"aqv,qty=2\"",
   "output": "cqv"
@@ -217,6 +239,7 @@
  "22": {
   "description": "2 Bolts -> Arrows",
   "enabled": 1,
+  "version": 0,
   "numinputs": 2,
   "input 1": "\"cqv,qty=2\"",
   "output": "aqv"
@@ -224,6 +247,7 @@
  "23": {
   "description": "3 Chipped Amethysts -> Flawed Amethyst",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gcv,qty=3\"",
   "output": "gfv"
@@ -231,6 +255,7 @@
  "24": {
   "description": "3 Flawed Amethysts -> Standard Amethyst",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gfv,qty=3\"",
   "output": "gsv"
@@ -238,6 +263,7 @@
  "25": {
   "description": "3 Standard Amethysts -> Flawless Amethyst",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gsv,qty=3\"",
   "output": "gzv"
@@ -245,6 +271,7 @@
  "26": {
   "description": "3 Flawless Amethysts -> Perfect Amethyst",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gzv,qty=3\"",
   "output": "gpv"
@@ -252,6 +279,7 @@
  "27": {
   "description": "3 Chipped Rubies -> Flawed Ruby",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gcr,qty=3\"",
   "output": "gfr"
@@ -259,6 +287,7 @@
  "28": {
   "description": "3 Flawed Rubies -> Standard Ruby",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gfr,qty=3\"",
   "output": "gsr"
@@ -266,6 +295,7 @@
  "29": {
   "description": "3 Standard Rubies -> Flawless Ruby",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gsr,qty=3\"",
   "output": "glr"
@@ -273,6 +303,7 @@
  "30": {
   "description": "3 Flawless Rubies -> Perfect Ruby",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"glr,qty=3\"",
   "output": "gpr"
@@ -280,6 +311,7 @@
  "31": {
   "description": "3 Chipped Sapphires -> Flawed Sapphire",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gcb,qty=3\"",
   "output": "gfb"
@@ -287,6 +319,7 @@
  "32": {
   "description": "3 Flawed Sapphires -> Standard Sapphire",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gfb,qty=3\"",
   "output": "gsb"
@@ -294,6 +327,7 @@
  "33": {
   "description": "3 Standard Sapphires -> Flawless Sapphire",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gsb,qty=3\"",
   "output": "glb"
@@ -301,6 +335,7 @@
  "34": {
   "description": "3 Flawless Sapphires -> Perfect Sapphire",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"glb,qty=3\"",
   "output": "gpb"
@@ -308,6 +343,7 @@
  "35": {
   "description": "3 Chipped Topazes -> Flawed Topaz",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gcy,qty=3\"",
   "output": "gfy"
@@ -315,6 +351,7 @@
  "36": {
   "description": "3 Flawed Topazes -> Standard Topaz",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gfy,qty=3\"",
   "output": "gsy"
@@ -322,6 +359,7 @@
  "37": {
   "description": "3 Standard Topazes -> Flawless Topaz",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gsy,qty=3\"",
   "output": "gly"
@@ -329,6 +367,7 @@
  "38": {
   "description": "3 Flawless Topazes -> Perfect Topaz",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gly,qty=3\"",
   "output": "gpy"
@@ -336,6 +375,7 @@
  "39": {
   "description": "3 Chipped Emeralds -> Flawed Emerald",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gcg,qty=3\"",
   "output": "gfg"
@@ -343,6 +383,7 @@
  "40": {
   "description": "3 Flawed Emeralds -> Standard Emerald",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gfg,qty=3\"",
   "output": "gsg"
@@ -350,6 +391,7 @@
  "41": {
   "description": "3 Standard Emeralds -> Flawless Emerald",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gsg,qty=3\"",
   "output": "glg"
@@ -357,6 +399,7 @@
  "42": {
   "description": "3 Flawless Emeralds -> Perfect Emerald",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"glg,qty=3\"",
   "output": "gpg"
@@ -364,6 +407,7 @@
  "43": {
   "description": "3 Chipped Diamonds -> Flawed Diamond",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gcw,qty=3\"",
   "output": "gfw"
@@ -371,6 +415,7 @@
  "44": {
   "description": "3 Flawed Diamonds -> Standard Diamond",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gfw,qty=3\"",
   "output": "gsw"
@@ -378,6 +423,7 @@
  "45": {
   "description": "3 Standard Diamonds -> Flawless Diamond",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"gsw,qty=3\"",
   "output": "glw"
@@ -385,6 +431,7 @@
  "46": {
   "description": "3 Flawless Diamonds -> Perfect Diamond",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"glw,qty=3\"",
   "output": "gpw"
@@ -392,6 +439,7 @@
  "47": {
   "description": "3 Chipped Skulls -> Flawed Skull",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"skc,qty=3\"",
   "output": "skf"
@@ -399,6 +447,7 @@
  "48": {
   "description": "3 Flawed Skulls -> Standard Skull",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"skf,qty=3\"",
   "output": "sku"
@@ -406,6 +455,7 @@
  "49": {
   "description": "3 Standard Skulls -> Flawless Skull",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"sku,qty=3\"",
   "output": "skl"
@@ -413,6 +463,7 @@
  "50": {
   "description": "3 Flawless Skulls -> Perfect Skull",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"skl,qty=3\"",
   "output": "skz"
@@ -512,6 +563,7 @@
  "61": {
   "description": "6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item",
   "enabled": 1,
+  "version": 0,
   "numinputs": 7,
   "input 1": "\"any,rar\"",
   "input 2": "\"skz,qty=6\"",
@@ -522,6 +574,7 @@
  "62": {
   "description": "1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item",
   "enabled": 1,
+  "version": 0,
   "numinputs": 3,
   "input 1": "\"any,rar\"",
   "input 2": "skz",
@@ -533,6 +586,7 @@
  "63": {
   "description": "3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 1 Socket to Rare Item",
   "enabled": 1,
+  "version": 0,
   "numinputs": 5,
   "input 1": "\"any,rar,nos\"",
   "input 2": "\"skz,qty=3\"",
@@ -1944,6 +1998,7 @@
  "147": {
   "description": "3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon",
   "enabled": 1,
+  "version": 0,
   "numinputs": 4,
   "input 1": "\"weap,mag\"",
   "input 2": "\"gem0,qty=3\"",
