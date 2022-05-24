@@ -59,8 +59,8 @@ itemratio.forEach(data => {
 });
 
 const data = reactive({
-  tcname: 'Griswold (H)',
-  mlvl: 87,
+  tcname: 'Act 1 (H) Uitem C',
+  mlvl: 68,
   mf: 0,
   players: 1,
   output: '',
