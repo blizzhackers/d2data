@@ -192,9 +192,9 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					let chance = (base - int(difference / divisor)) * 128;
 				
 					if (mf !== 0) {
-					let newmf = newmf > 10 ? diminishFactor ? int((newmf * diminishFactor) / (newmf + diminishFactor)) : (newmf | 0) : mf;
-				
-					chance = int((chance * 100) / (100 + newmf));
+						let newmf = mf > 10 ? diminishFactor ? int((mf * diminishFactor) / (mf + diminishFactor)) : (mf | 0) : mf;
+					
+						chance = int((chance * 100) / (100 + newmf));
 					}
 				
 					chance = Math.max(min, chance);
