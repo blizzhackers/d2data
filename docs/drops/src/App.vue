@@ -15,8 +15,8 @@ levels[49]['*StringName'] = 'Act 2 ' + levels[49]['*StringName'];
 levels[92]['*StringName'] = 'Act 3 ' + levels[92]['*StringName'];
 levels[93]['*StringName'] = 'Act 3 ' + levels[93]['*StringName'];
 
-function idiv (a, b) {
-  return (a / b) | 0;
+function int (num) {
+  return Math.trunc(num);
 }
 
 function sleep(timeout) {
@@ -32,17 +32,18 @@ function dropChance (base, divisor, min, diminishFactor) {
 
   return (mf, ilvl, qlvl, factor) => {
     let difference = ilvl - qlvl;
-    let chance = (base - idiv(difference, divisor)) * 128;
+    let chance = (base - int(difference / divisor)) * 128;
 
-    if (mf) {
-      let newmf = newmf > 10 ? diminishFactor ? idiv(newmf * diminishFactor, newmf + diminishFactor) : (newmf | 0) : mf;
+    if (mf !== 0) {
+      let newmf = newmf > 10 ? diminishFactor ? int((newmf * diminishFactor) / (newmf + diminishFactor)) : (newmf | 0) : mf;
 
-      chance = idiv(chance * 100, 100 + newmf);
+      chance = int((chance * 100) / (100 + newmf));
     }
 
     chance = Math.max(min, chance);
-    chance = (chance - idiv(chance * factor, 1024));
-    return Math.min(1, 128 / chance);
+    chance = (chance - int(chance * factor / 1024));
+
+    return chance <= 128 ? 1 : 128 / chance;
   };
 }
 
@@ -59,7 +60,7 @@ itemratio.forEach(data => {
 
 const data = reactive({
   tcname: 'Griswold (H)',
-  mlvl: 84,
+  mlvl: 87,
   mf: 0,
   players: 1,
   output: '',
@@ -102,9 +103,9 @@ function doEntry (name, chance, drops, tcPath) {
   let item = items[itc],
     type = itemtypes[item.type],
     classid = item.classid,
-    isuber = item.normcode && item.code !== item.normcode,
-    isclass = type.class,
-    ratioFuncs = Object.values(itemratio).filter(data => data.Version && !isuber === !data.Uber && !isclass === !data['Class Specific'])[0].func,
+    isuber = item.code === item.ultracode || item.code === item.ubercode,
+    isclass = type.Class,
+    ratio = Object.values(itemratio).filter(data => data.Version && !isuber === !data.Uber && !isclass === !data['Class Specific']).sort((a, b) => b.Version - a.Version)[0],
     mods = tcPath.reduce(({ unique, set, rare, magic, hq, normal }, v) => {
       if (treasureclassex[v]) {
         unique = Math.max(unique, treasureclassex[v]['Unique'] || 0);
@@ -126,7 +127,7 @@ function doEntry (name, chance, drops, tcPath) {
   if (!type['Normal']) {
     let rarity = 'unique',
       qualityNumber = 7,
-      calcQuality = ratioFuncs[rarity],
+      calcQuality = ratio.func[rarity],
       qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
@@ -139,7 +140,7 @@ function doEntry (name, chance, drops, tcPath) {
   if (!type['Normal']) {
     let rarity = 'set',
       qualityNumber = 5,
-      calcQuality = ratioFuncs[rarity],
+      calcQuality = ratio.func[rarity],
       qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
@@ -152,7 +153,7 @@ function doEntry (name, chance, drops, tcPath) {
   if (!type['Normal'] && type['Rare']) {
     let rarity = 'rare',
       qualityNumber = 6,
-      calcQuality = ratioFuncs[rarity],
+      calcQuality = ratio.func[rarity],
       qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
@@ -165,7 +166,7 @@ function doEntry (name, chance, drops, tcPath) {
   if (!type['Normal']) {
     let rarity = 'magic',
       qualityNumber = 4,
-      calcQuality = ratioFuncs[rarity],
+      calcQuality = ratio.func[rarity],
       qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
@@ -178,7 +179,7 @@ function doEntry (name, chance, drops, tcPath) {
   if (!type['Normal'] && !type['Magic']) {
     let rarity = 'hq',
       qualityNumber = 3,
-      calcQuality = ratioFuncs[rarity],
+      calcQuality = ratio.func[rarity],
       qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
@@ -191,7 +192,7 @@ function doEntry (name, chance, drops, tcPath) {
   if (!type['Magic']) {
     let rarity = 'normal',
       qualityNumber = 2,
-      calcQuality = ratioFuncs[rarity],
+      calcQuality = ratio.func[rarity],
       qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
@@ -250,7 +251,7 @@ function download () {
       <div class="col">
         <label class="form-label">TC Name</label>
         <select class="form-select" type="text" v-model="data.tcname">
-          <option v-for="(tc, classid) in Object.values(treasureclassex).sort((a, b) => a.lineNumber - b.lineNumber)" :key="classid" :value="tc['Treasure Class']">{{ tc['Treasure Class'] }}</option>
+          <option v-for="(tc, classid) in Object.values(treasureclassex).sort((a, b) => a.lineNumber - b.lineNumber)" :key="classid" :value="tc['Treasure Class']">[{{ classid + 161 }}] {{ tc['Treasure Class'] }}</option>
         </select>
       </div>
       <div class="col">
@@ -272,6 +273,7 @@ function download () {
         <button type="button" class="btn btn-primary" @click="download" :disabled="!data.output.trim().length || data.doingIt">Download</button>
       </div>
     </div>
+    <div v-if="treasureclassex[data.tcname].level">TC Level: {{ treasureclassex[data.tcname].level }}</div>
     <div v-if="data.downloadName.length">Filename: {{ data.downloadName }}.txt</div>
     <table class="table table-hover">
       <thead>
