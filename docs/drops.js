@@ -642,7 +642,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					isExceptional = item.ubercode && item.code === item.ubercode,
 					isElite = item.ultracode && item.code === item.ultracode,
 					isuber = item.normcode && item.code !== item.normcode,
-					isclass = type.class,
+					isclass = type.Class,
 					ratioFuncs = Object.values(this.json.itemratio).filter(data => data.Version && !isuber === !data.Uber && !isclass === !data['Class Specific'])[0].func;
 
 				if (['pk1', 'pk2', 'pk3', 'bet', 'ceh', 'fed', 'tes'].includes(item.code)) {
