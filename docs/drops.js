@@ -360,7 +360,7 @@ Object.defineProperty(Object.prototype, 'toArray', {
 																(item.type.Rare ? (1 - item.func.set(this.params.mf, mlvl, item.item.level || 0, setMod)) : 1) *
 																(item.type.Rare ? (1 - item.func.rare(this.params.mf, mlvl, item.item.level || 0, rareMod)) : 1) *
 																(1 - item.func.magic(this.params.mf, mlvl, item.item.level || 0, magicMod)) *
-																item.func.hq(this.params.mf, mlvl, item.item.level || 0, 0);
+																item.func.hq(0, mlvl, item.item.level || 0, 0);
 															break;
 														case 'normal':
 															if (item.type.Normal) {
@@ -370,8 +370,8 @@ Object.defineProperty(Object.prototype, 'toArray', {
 																(item.type.Rare ? (1 - item.func.set(this.params.mf, mlvl, item.item.level || 0, setMod)) : 1) *
 																(item.type.Rare ? (1 - item.func.rare(this.params.mf, mlvl, item.item.level || 0, rareMod)) : 1) *
 																(1 - item.func.magic(this.params.mf, mlvl, item.item.level || 0, magicMod)) *
-																(1 - item.func.hq(this.params.mf, mlvl, item.item.level || 0, 0)) *
-																item.func.normal(this.params.mf, mlvl, item.item.level || 0, 0);
+																(1 - item.func.hq(0, mlvl, item.item.level || 0, 0)) *
+																item.func.normal(0, mlvl, item.item.level || 0, 0);
 															}
 															break;
 														default:
@@ -379,8 +379,8 @@ Object.defineProperty(Object.prototype, 'toArray', {
 																(1 - item.func.set(this.params.mf, mlvl, item.item.level || 0, setMod)) *
 																(1 - item.func.rare(this.params.mf, mlvl, item.item.level || 0, rareMod)) *
 																(1 - item.func.magic(this.params.mf, mlvl, item.item.level || 0, magicMod)) *
-																(1 - item.func.hq(this.params.mf, mlvl, item.item.level || 0, 0)) *
-																(1 - item.func.normal(this.params.mf, mlvl, item.item.level || 0, 0));
+																(1 - item.func.hq(0, mlvl, item.item.level || 0, 0)) *
+																(1 - item.func.normal(0, mlvl, item.item.level || 0, 0));
 															break;
 													}
 												}

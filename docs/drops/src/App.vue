@@ -180,7 +180,7 @@ function doEntry (name, chance, drops, tcPath) {
     let rarity = 'hq',
       qualityNumber = 3,
       calcQuality = ratio.func[rarity],
-      qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
+      qchance = chance * calcQuality(0, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
     chance -= qchance;
@@ -193,7 +193,7 @@ function doEntry (name, chance, drops, tcPath) {
     let rarity = 'normal',
       qualityNumber = 2,
       calcQuality = ratio.func[rarity],
-      qchance = chance * calcQuality(data.mf, data.mlvl, item.level || 0, mods[rarity]),
+      qchance = chance * calcQuality(0, data.mlvl, item.level || 0, mods[rarity]),
       key = [classid, qualityNumber].join(' ');
 
     chance -= qchance;
