@@ -180,14 +180,16 @@ const runewords = computed(() => {
         </div>
       </div>
       <div class="row">
-        <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 text-center p-3 runeword-display">
-          <div class="unique-title">{{ runeword['*Rune Name'] }}</div>
-          <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
-          <div class="item-type-list my-2">
-            <template v-for="(type, index) in runeword.types"><template v-if="index">, </template>{{ itemtypes[type].ItemType }}</template>
-          </div>
-          <div class="magic-mod">
-            <div v-for="(mod, index) in runeword.mods" :key="index">{{ mod.property['*Tooltip'] }}</div>
+        <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 text-center p-2 runeword-display">
+          <div class="border border-secondary rounded h-100 p-1">
+            <div class="unique-title">{{ runeword['*Rune Name'] }}</div>
+            <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
+            <div class="item-type-list my-2">
+              <template v-for="(type, index) in runeword.types"><template v-if="index">, </template>{{ itemtypes[type].ItemType }}</template>
+            </div>
+            <div class="magic-mod">
+              <div v-for="(mod, index) in runeword.mods" :key="index">{{ mod.property['*Tooltip'] }}</div>
+            </div>
           </div>
         </div>
       </div>
