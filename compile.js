@@ -138,7 +138,7 @@ files.forEach(fn => {
 
               for (let c = 0; c < header.length; c++) {
                 if (indexColumn >= 0 && c === indexColumn || !filterValues[line[c].toString().toLowerCase()]) {
-                  tmp[header[c] || 'unknown'] = Number(line[c]).toString() === line[c].trim() ? Number(line[c]) : line[c];
+                  tmp[header[c] || 'unknown'] = line[c] !== 'Infinity' && Number(line[c]).toString() === line[c].trim() ? Number(line[c]) : line[c];
                 }
               }
 
