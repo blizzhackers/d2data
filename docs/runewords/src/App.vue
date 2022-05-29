@@ -30,7 +30,7 @@ const data = reactive({
   sockets: '',
 });
 
-function getTypes(types, ret = {}) {
+function getTypes (types, ret = {}) {
   (Array.isArray(types) ? types : [types]).forEach(type => {
     if (itemtypes[type]) {
       ret[type] = true;
@@ -44,7 +44,7 @@ function getTypes(types, ret = {}) {
   return ret;
 }
 
-function getSubTypes(types, ret = {}) {
+function getSubTypes (types, ret = {}) {
   if (Array.isArray(types) && types.length) {
     let tmp = types.slice();
 
@@ -240,12 +240,85 @@ let modFormatters = {
   'stam': ({min, max}) => `+${fv(min, max)} Maximum Stamina`,
 };
 
-function getModText(mod) {
+function getModText (mod) {
   if (modFormatters[mod.property.code] && modFormatters[mod.property.code].apply) {
     return `<span title="${mod.property.code}">` + modFormatters[mod.property.code](mod) + '</span>';
   }
 
   return `<span title="${mod.property.code}">` + (mod.property['*Tooltip'] || '(no mod formatter)') + '</span>';
+}
+
+function combineMods (a, b) {
+  if ([
+    'oskill',
+    'skill',
+  ].includes(a.property.code)) {
+    if (a.param === b.param) {
+      a.min += b.min;
+      a.max += b.max;
+      return true;
+    }
+
+    return false;
+  } else if ([
+    'dmg',
+    'dmg%',
+    'ac',
+    'ac-miss',
+    'ac%',
+    'red-dmg',
+    'red-mag',
+    'res-all',
+    'res-fire',
+    'res-ltng',
+    'res-cold',
+    'res-pois',
+    'res-fire-max',
+    'dmg-undead',
+    'dmg-fire',
+    'dmg-ltng',
+    'dmg-cold',
+    'balance1',
+    'balance2',
+    'balance3',
+    'block1',
+    'block2',
+    'crush',
+    'openwounds',
+    'att',
+    'str',
+    'dex',
+    'vit',
+    'enr',
+    'light',
+    'lifesteal',
+    'manasteal',
+    'gold%',
+    'mag%',
+    'dmg-demon',
+  ].includes(a.property.code)) {
+    a.min += b.min;
+    a.max += b.max;
+    return true;
+  } else if (a.property.code === 'dmg-pois') {
+    a.min += b.min;
+    a.max += b.max;
+    a.param = (a.param + b.param) / 2;
+    return true;
+  } else if ([
+    'noheal',
+    'ignore-ac',
+  ].includes(a.property.code)) {
+    return true;
+  } else if ([
+    'hit-skill',
+    'gethit-skill',
+    'charged',
+  ].includes(a.property.code)) {
+    return false;
+  }
+
+  return false;
 }
 
 items.forEach(item => {
@@ -341,9 +414,28 @@ runes.forEach(runeword => {
     }
   }
 
-  runeword.weaponMods = runeword.weaponMods.sort(sortMods);
-  runeword.helmMods = runeword.helmMods.sort(sortMods);
-  runeword.shieldMods = runeword.shieldMods.sort(sortMods);
+  [
+    runeword.weaponMods,
+    runeword.helmMods,
+    runeword.shieldMods,
+  ].forEach(mods => {
+    for (let c = 0; c < mods.length; c++) {
+      if (mods[c]) {
+        for (let d = c + 1; d < mods.length; d++) {
+          if (mods[d] && mods[c].property === mods[d].property) {
+            if (combineMods(mods[c], mods[d])) {
+              mods[d] = null;
+            }
+          }
+        }
+      }
+    }
+  });
+
+  runeword.weaponMods = runeword.weaponMods.filter(Boolean).sort(sortMods);
+  runeword.helmMods = runeword.helmMods.filter(Boolean).sort(sortMods);
+  runeword.shieldMods = runeword.shieldMods.filter(Boolean).sort(sortMods);
+
 
   runeword.validItems = Object.values(items).filter(item => {
     return intersect(runeword.types, item.types) && runeword.runes.length <= item.gemsockets;
@@ -412,11 +504,11 @@ const runewords = computed(() => {
   return ret;
 });
 
-function fv(a, b) {
+function fv (a, b) {
   return a === b ? `${a}` : `<span class="text-light">${a}</span>-<span class="text-light">${b}</span>`;
 }
 
-function fs(a) {
+function fs (a) {
   if (a != Number(a)) {
     for (let c in skills) {
       if (skills[c].skill === a) {
@@ -431,7 +523,7 @@ function fs(a) {
   return `${skillName}`;
 }
 
-function fsc(a) {
+function fsc (a) {
   if (a != Number(a)) {
     return a;
   }
