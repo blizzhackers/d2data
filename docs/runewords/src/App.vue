@@ -8,7 +8,8 @@ import items from "../../../json/items.json";
 import gems from "../../../json/gems.json";
 import skills from "../../../json/skills.json";
 import properties from "../../../json/properties.json";
-import strings from"../../../json/localestrings-eng.json";
+import strings from "../../../json/localestrings-eng.json";
+import modOrder from "./modorder.json"; 
 
 itemtypes.pala.ItemType = 'Paladin Shield';
 itemtypes.h2h.ItemType = 'Claw A';
@@ -19,12 +20,14 @@ itemtypes.rod.ItemType = 'Staff or Rod';
 
 const data = reactive({
   usedRunes: {},
+  advanced: false,
   search: {
     name: '',
     types: '',
     items: '',
     mods: '',
   },
+  sockets: '',
 });
 
 function getTypes(types, ret = {}) {
@@ -64,283 +67,15 @@ function intersect (a, b) {
   return a.some(elem => b.includes(elem));
 }
 
-function stripHtml(html) {
+function stripHtml (html) {
    let tmp = document.createElement("DIV");
    tmp.innerHTML = html;
    return tmp.textContent || tmp.innerText || "";
 }
 
-let modOrder = [
-  "ac",
-  "ac-miss",
-  "ac-hth",
-  "red-dmg",
-  "red-dmg%",
-  "ac%",
-  "red-mag",
-  "str",
-  "dex",
-  "vit",
-  "enr",
-  "mana",
-  "mana%",
-  "hp",
-  "hp%",
-  "att",
-  "block",
-  "cold-min",
-  "cold-max",
-  "cold-len",
-  "fire-min",
-  "fire-max",
-  "ltng-min",
-  "ltng-max",
-  "pois-min",
-  "pois-max",
-  "pois-len",
-  "dmg-min",
-  "dmg-max",
-  "dmg%",
-  "dmg-to-mana",
-  "res-fire",
-  "res-fire-max",
-  "res-ltng",
-  "res-ltng-max",
-  "res-cold",
-  "res-cold-max",
-  "res-mag",
-  "res-mag-max",
-  "res-pois",
-  "res-pois-max",
-  "res-all",
-  "res-all-max",
-  "abs-fire%",
-  "abs-fire",
-  "abs-ltng%",
-  "abs-ltng",
-  "abs-mag%",
-  "abs-mag",
-  "abs-cold%",
-  "abs-cold",
-  "dur",
-  "dur%",
-  "regen",
-  "thorns",
-  "swing1",
-  "swing2",
-  "swing3",
-  "gold%",
-  "mag%",
-  "knock",
-  "regen-stam",
-  "regen-mana",
-  "stam",
-  "time",
-  "manasteal",
-  "lifesteal",
-  "ama",
-  "pal",
-  "nec",
-  "sor",
-  "bar",
-  "herb",
-  "light",
-  "color",
-  "ease",
-  "move1",
-  "move2",
-  "move3",
-  "balance1",
-  "balance2",
-  "balance3",
-  "block1",
-  "block2",
-  "block3",
-  "cast1",
-  "cast2",
-  "cast3",
-  "res-pois-len",
-  "dmg",
-  "howl",
-  "stupidity",
-  "ignore-ac",
-  "reduce-ac",
-  "noheal",
-  "half-freeze",
-  "att%",
-  "dmg-ac",
-  "dmg-demon",
-  "dmg-undead",
-  "att-demon",
-  "att-undead",
-  "throw",
-  "fireskill",
-  "allskills",
-  "light-thorns",
-  "freeze",
-  "openwounds",
-  "crush",
-  "kick",
-  "mana-kill",
-  "demon-heal",
-  "bloody",
-  "deadly",
-  "slow",
-  "nofreeze",
-  "stamdrain",
-  "reanimate",
-  "pierce",
-  "magicarrow",
-  "explosivearrow",
-  "dru",
-  "ass",
-  "skill",
-  "skilltab",
-  "aura",
-  "att-skill",
-  "hit-skill",
-  "gethit-skill",
-  "gembonus",
-  "regen-dur",
-  "fire-fx",
-  "ltng-fx",
-  "sock",
-  "dmg-fire",
-  "dmg-ltng",
-  "dmg-mag",
-  "dmg-cold",
-  "dmg-pois",
-  "dmg-throw",
-  "dmg-norm",
-  "ac/lvl",
-  "ac%/lvl",
-  "hp/lvl",
-  "mana/lvl",
-  "dmg/lvl",
-  "dmg%/lvl",
-  "str/lvl",
-  "dex/lvl",
-  "enr/lvl",
-  "vit/lvl",
-  "att/lvl",
-  "att%/lvl",
-  "dmg-cold/lvl",
-  "dmg-fire/lvl",
-  "dmg-ltng/lvl",
-  "dmg-pois/lvl",
-  "res-cold/lvl",
-  "res-fire/lvl",
-  "res-ltng/lvl",
-  "res-pois/lvl",
-  "abs-cold/lvl",
-  "abs-fire/lvl",
-  "abs-ltng/lvl",
-  "abs-pois/lvl",
-  "thorns/lvl",
-  "gold%/lvl",
-  "mag%/lvl",
-  "regen-stam/lvl",
-  "stam/lvl",
-  "dmg-dem/lvl",
-  "dmg-und/lvl",
-  "att-dem/lvl",
-  "att-und/lvl",
-  "crush/lvl",
-  "wounds/lvl",
-  "kick/lvl",
-  "deadly/lvl",
-  "gems%/lvl",
-  "rep-dur",
-  "rep-quant",
-  "stack",
-  "item%",
-  "dmg-slash",
-  "dmg-slash%",
-  "dmg-crush",
-  "dmg-crush%",
-  "dmg-thrust",
-  "dmg-thrust%",
-  "abs-slash",
-  "abs-crush",
-  "abs-thrust",
-  "abs-slash%",
-  "abs-crush%",
-  "abs-thrust%",
-  "ac/time",
-  "ac%/time",
-  "hp/time",
-  "mana/time",
-  "dmg/time",
-  "dmg%/time",
-  "str/time",
-  "dex/time",
-  "enr/time",
-  "vit/time",
-  "att/time",
-  "att%/time",
-  "dmg-cold/time",
-  "dmg-fire/time",
-  "dmg-ltng/time",
-  "dmg-pois/time",
-  "res-cold/time",
-  "res-fire/time",
-  "res-ltng/time",
-  "res-pois/time",
-  "abs-cold/time",
-  "abs-fire/time",
-  "abs-ltng/time",
-  "abs-pois/time",
-  "gold%/time",
-  "mag%/time",
-  "regen-stam/time",
-  "stam/time",
-  "dmg-dem/time",
-  "dmg-und/time",
-  "att-dem/time",
-  "att-und/time",
-  "crush/time",
-  "wounds/time",
-  "kick/time",
-  "deadly/time",
-  "gems%/time",
-  "pierce-fire",
-  "pierce-ltng",
-  "pierce-cold",
-  "pierce-pois",
-  "dmg-mon",
-  "dmg%-mon",
-  "att-mon",
-  "att%-mon",
-  "ac-mon",
-  "ac%-mon",
-  "indestruct",
-  "charged",
-  "extra-fire",
-  "extra-ltng",
-  "extra-cold",
-  "extra-pois",
-  "dmg-elem",
-  "dmg-elem-min",
-  "dmg-elem-max",
-  "all-stats",
-  "addxp",
-  "heal-kill",
-  "cheap",
-  "rip",
-  "att-mon%",
-  "dmg-mon%",
-  "kill-skill",
-  "death-skill",
-  "levelup-skill",
-  "skill-rand",
-  "fade",
-  "levelreq",
-  "ethereal",
-  "oskill",
-  "state",
-  "randclassskill",
-  "noconsume"
-];
+function escapeRegexp (string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
 function sortMods (a, b) {
   return modOrder.indexOf(a.property.code) - modOrder.indexOf(b.property.code);
@@ -483,10 +218,10 @@ let modFormatters = {
   'pierce-ltng': ({min, max}) => `-${fv(min, max)}% to Enemy Lightning Resistance`,
   'pierce-cold': ({min, max}) => `-${fv(min, max)}% to Enemy Cold Resistance`,
   'pierce-pois': ({min, max}) => `-${fv(min, max)}% to Enemy Poison Resistance`,
-  'abs-fire': ({min, max}) => `Fire Absorb ${fv(min, max)}%`,
-  'abs-ltng': ({min, max}) => `Lightning Absorb ${fv(min, max)}%`,
-  'abs-cold': ({min, max}) => `Cold Absorb ${fv(min, max)}%`,
-  'abs-mag': ({min, max}) => `Magic Absorb ${fv(min, max)}%`,
+  'abs-fire': ({min, max}) => `Fire Absorb ${fv(min, max)}`,
+  'abs-ltng': ({min, max}) => `Lightning Absorb ${fv(min, max)}`,
+  'abs-cold': ({min, max}) => `Cold Absorb ${fv(min, max)}`,
+  'abs-mag': ({min, max}) => `Magic Absorb ${fv(min, max)}`,
   'ease': ({min, max}) => `Requirements ${fv(min, max)}%`,
   'light': ({min, max}) => `+${fv(min, max)} to Light Radius`,
   'mag%': ({min, max}) => `${fv(min, max)}% Better Chance of Finding Magic Items`,
@@ -659,13 +394,19 @@ const runewords = computed(() => {
       });
     }
 
+    let sockets = data.sockets.split(/\s+/gi).map(Number).filter(isFinite).filter(v => v > 0);
+
+    if (sockets.length) {
+      ret = ret.filter(runeword => sockets.includes(runeword.runes.length));
+    }
+
     data.search.forEach((text, key) => {
       if (text.length) {
-        ret = ret.filter(runeword => new RegExp(text, 'gi').test(runeword.search[key]));
+        ret = ret.filter(runeword => new RegExp('(' + escapeRegexp(text).split(/\s+/gi).map(word => /or|and/i.test(word) ? ')|(' : '\\b' + word + '.*').join('\\s*') + ')', 'gi').test(runeword.search[key]));
       }
     });
   } catch (e) {
-    // Ignore error...
+    console.error(e);
   }
 
   return ret;
@@ -723,6 +464,12 @@ function fsc(a) {
 <template>
   <div class="row">
     <div class="col-auto">
+      <button :class="{
+        'btn': true,
+        'btn-outline-success': !data.advanced,
+        'btn-outline-secondary': data.advanced,
+        'mb-2': true,
+      }" @click="data.advanced = !data.advanced">Basic</button>
       <label class="form-label text-center d-block"><strong>Runes<br>Used</strong></label>
       <div v-for="rune in Object.keys(data.usedRunes).sort().reverse()" :key="rune" class="my-1 avquest">
         <button :class="{
@@ -737,21 +484,20 @@ function fsc(a) {
     </div>
     <div class="col">
       <div class="row">
-        <div class="col-12 col-lg-6 col-xxl-3 mb-3 mb-xxl-0">
-          <label class="form-label">Runeword</label>
+        <div :class="data.advanced ? 'col-12' : 'col'">
           <input type="search" class="form-control bg-secondary" placeholder="Search a runeword name..." v-model="data.search.name">
         </div>
-        <div class="col-12 col-lg-6 col-xxl-3 mb-3 mb-xxl-0">
-          <label class="form-label">Item Type</label>
+        <div v-if="data.advanced" class="col-12 col-lg mt-3">
           <input type="search" class="form-control bg-secondary" placeholder="Search an item type..." v-model="data.search.types">
         </div>
-        <div class="col-12 col-lg-6 col-xxl-3 mb-3 mb-lg-0 mb-xxl-0">
-          <label class="form-label">Base Item</label>
+        <div v-if="data.advanced" class="col-12 col-lg mt-3">
           <input type="search" class="form-control bg-secondary" placeholder="Search a base item..." v-model="data.search.items">
         </div>
-        <div class="col-12 col-lg-6 col-xxl-3 mb-0 mb-xxl-0">
-          <label class="form-label">Item Modifier</label>
+        <div v-if="data.advanced" class="col-12 col-lg mt-3">
           <input type="search" class="form-control bg-secondary" placeholder="Search an item modifier..." v-model="data.search.mods">
+        </div>
+        <div v-if="data.advanced" class="col-12 col-lg-auto mt-3">
+          <input type="search" class="form-control bg-secondary" placeholder="Sockets..." v-model="data.sockets">
         </div>
       </div>
       <div class="row">
