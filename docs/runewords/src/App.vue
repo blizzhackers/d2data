@@ -419,6 +419,37 @@ runes.forEach(runeword => {
     runeword.helmMods,
     runeword.shieldMods,
   ].forEach(mods => {
+    let hasResists = mods.some(mod => ['res-fire', 'res-ltng', 'res-cold', 'res-ltng'].includes(mod.property.code));
+
+    if (hasResists) {
+      mods.forEach(mod => {
+        if (mod.property.code === 'res-all') {
+          mod.property = properties['res-fire'];
+
+          mods.push({
+            property: properties['res-ltng'],
+            param: mod.param,
+            min: mod.min,
+            max: mod.max,
+          });
+
+          mods.push({
+            property: properties['res-cold'],
+            param: mod.param,
+            min: mod.min,
+            max: mod.max,
+          });
+
+          mods.push({
+            property: properties['res-pois'],
+            param: mod.param,
+            min: mod.min,
+            max: mod.max,
+          });
+        }
+      });
+    }
+
     for (let c = 0; c < mods.length; c++) {
       if (mods[c]) {
         for (let d = c + 1; d < mods.length; d++) {
