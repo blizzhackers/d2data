@@ -12,8 +12,8 @@ import strings from "../../../json/localestrings-eng.json";
 import modOrder from "./modorder.json"; 
 
 itemtypes.pala.ItemType = 'Paladin Shield';
-itemtypes.h2h.ItemType = 'Claw A';
-itemtypes.h2h2.ItemType = 'Claw B';
+itemtypes.h2h.ItemType = 'Claw';
+itemtypes.h2h2.ItemType = 'Claw';
 itemtypes.sppl.ItemType = 'Spear or Polearm';
 itemtypes.blde.ItemType = 'Sword or Dagger';
 itemtypes.rod.ItemType = 'Staff or Rod';
@@ -21,6 +21,7 @@ itemtypes.rod.ItemType = 'Staff or Rod';
 const data = reactive({
   usedRunes: {},
   advanced: false,
+  ladder: true,
   search: {
     name: '',
     types: '',
@@ -523,6 +524,10 @@ const runewords = computed(() => {
       ret = ret.filter(runeword => sockets.includes(runeword.runes.length));
     }
 
+    if (!data.ladder) {
+      ret = ret.filter(runeword => !runeword.server);
+    }
+
     data.search.forEach((text, key) => {
       if (text.length) {
         ret = ret.filter(runeword => {
@@ -590,12 +595,24 @@ function fsc (a) {
 <template>
   <div class="row">
     <div class="col-auto">
-      <button :class="{
-        'btn': true,
-        'btn-outline-success': !data.advanced,
-        'btn-outline-secondary': data.advanced,
-        'mb-2': true,
-      }" @click="data.advanced = !data.advanced">Basic</button>
+      <div>
+        <button :class="{
+          'btn': true,
+          'btn-outline-success': !data.advanced,
+          'btn-outline-secondary': data.advanced,
+          'mb-2': true,
+          'px-1': true,
+        }" style="width:4.25em" @click="data.advanced = !data.advanced">Basic</button>
+      </div>
+      <div>
+        <button :class="{
+          'btn': true,
+          'btn-outline-success': data.ladder,
+          'btn-outline-secondary': !data.ladder,
+          'mb-2': true,
+          'px-1': true,
+        }" style="width:4.25em" @click="data.ladder = !data.ladder">Ladder</button>
+      </div>
       <label class="form-label text-center d-block"><strong>Runes<br>Used</strong></label>
       <div v-for="rune in Object.keys(data.usedRunes).sort().reverse()" :key="rune" class="my-1 avquest">
         <button :class="{
@@ -629,7 +646,8 @@ function fsc (a) {
       <div class="row">
         <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 col-xxl-3 text-center px-2 pt-3 runeword-display">
           <div class="border border-secondary rounded h-100 p-1">
-            <div class="unique-title">{{ runeword['*Rune Name'] }}</div>
+            <div v-if="runeword.server"><span class="badge border border-secondary bg-dark text-light" style="font-size:0.69em">Ladder</span> <span class="unique-title">{{ runeword['*Rune Name'] }}</span></div>
+            <div v-else><span class="unique-title">{{ runeword['*Rune Name'] }}</span></div>
             <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
             <div class="item-type-list mt-2">
               <template v-for="(type, index) in runeword.types"><template v-if="index">, </template>{{ itemtypes[type].ItemType }}</template>
