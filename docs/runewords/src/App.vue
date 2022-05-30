@@ -242,10 +242,10 @@ let modFormatters = {
 
 function getModText (mod) {
   if (modFormatters[mod.property.code] && modFormatters[mod.property.code].apply) {
-    return `<span title="${mod.property.code}">` + modFormatters[mod.property.code](mod) + '</span>';
+    return `<span>` + modFormatters[mod.property.code](mod) + '</span>';
   }
 
-  return `<span title="${mod.property.code}">` + (mod.property['*Tooltip'] || '(no mod formatter)') + '</span>';
+  return `<span>` + (mod.property['*Tooltip'] || '(no mod formatter)') + '</span>';
 }
 
 function combineMods (a, b) {
@@ -629,9 +629,9 @@ function fsc (a) {
       <div class="row">
         <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 col-xxl-3 text-center px-2 pt-3 runeword-display">
           <div class="border border-secondary rounded h-100 p-1">
-            <div class="unique-title" :title="runeword.search.items">{{ runeword['*Rune Name'] }}</div>
+            <div class="unique-title">{{ runeword['*Rune Name'] }}</div>
             <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
-            <div class="item-type-list mt-2" :title="runeword.search.types">
+            <div class="item-type-list mt-2">
               <template v-for="(type, index) in runeword.types"><template v-if="index">, </template>{{ itemtypes[type].ItemType }}</template>
             </div>
             <div class="magic-mod">
