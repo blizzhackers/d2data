@@ -645,9 +645,9 @@ function fsc (a) {
       </div>
       <div class="row">
         <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 col-xxl-3 text-center px-2 pt-3 runeword-display">
-          <div class="border border-secondary rounded h-100 p-1">
-            <div v-if="runeword.server"><span class="badge border border-secondary bg-dark text-light" style="font-size:0.69em">Ladder</span> <span class="unique-title">{{ runeword['*Rune Name'] }}</span></div>
-            <div v-else><span class="unique-title">{{ runeword['*Rune Name'] }}</span></div>
+          <div class="border border-secondary rounded h-100 p-1 position-relative">
+            <div><span class="unique-title">{{ runeword['*Rune Name'] }}</span></div>
+            <div v-if="runeword.server" class="ladder-tag">Ladder<br>Only</div>
             <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
             <div class="item-type-list mt-2">
               <template v-for="(type, index) in runeword.types"><template v-if="index">, </template>{{ itemtypes[type].ItemType }}</template>
@@ -735,6 +735,14 @@ function fsc (a) {
 
   .magic-mod .header{
     color: hsl(216, 98%, 82%);
+  }
+
+  .ladder-tag {
+    position: absolute;
+    top: 0.5em;
+    left: 0.75em;
+    font-size: 0.69em;
+    color: hsl(0, 0%, 76%);
   }
 
 </style>
