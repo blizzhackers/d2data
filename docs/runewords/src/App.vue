@@ -494,7 +494,10 @@ const runewords = computed(() => {
 
     data.search.forEach((text, key) => {
       if (text.length) {
-        ret = ret.filter(runeword => new RegExp('(' + escapeRegexp(text).split(/\s+/gi).map(word => /or|and/i.test(word) ? ')|(' : '\\b' + word + '.*').join('\\s*') + ')', 'gi').test(runeword.search[key]));
+        ret = ret.filter(runeword => {
+          let condition = new RegExp('(' + escapeRegexp(text).split(/\s+/gi).map(word => /^(or|and)$/i.test(word) ? ')|(' : '\\b' + word).join('\\s*') + ')', 'gi');
+          return condition.test(runeword.search[key]);
+        });
       }
     });
   } catch (e) {
@@ -505,7 +508,7 @@ const runewords = computed(() => {
 });
 
 function fv (a, b) {
-  return a === b ? `${a}` : `<span class="text-light">${a}</span>-<span class="text-light">${b}</span>`;
+  return a === b ? `${a}` : `<span class="text-light">${a}</span><span class="magic-mod-light">-</span><span class="text-light">${b}</span>`;
 }
 
 function fs (a) {
@@ -595,9 +598,9 @@ function fsc (a) {
       <div class="row">
         <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 col-xxl-3 text-center px-2 pt-3 runeword-display">
           <div class="border border-secondary rounded h-100 p-1">
-            <div class="unique-title">{{ runeword['*Rune Name'] }}</div>
+            <div class="unique-title" :title="runeword.search.items">{{ runeword['*Rune Name'] }}</div>
             <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
-            <div class="item-type-list mt-2">
+            <div class="item-type-list mt-2" :title="runeword.search.types">
               <template v-for="(type, index) in runeword.types"><template v-if="index">, </template>{{ itemtypes[type].ItemType }}</template>
             </div>
             <div class="magic-mod">
@@ -674,7 +677,11 @@ function fsc (a) {
   }
 
   .magic-mod {
-    color: hsl(216, 98%, 66%);
+    color: hsl(216, 100%, 66%);
+  }
+
+  .magic-mod-light {
+    color: hsl(290, 100%, 50%);
   }
 
   .magic-mod .header{
