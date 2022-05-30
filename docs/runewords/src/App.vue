@@ -626,7 +626,7 @@ function fsc (a) {
       </div>
     </div>
     <div class="col">
-      <div class="row">
+      <div class="row" title="PROTIP: Use 'or' to search for different terms at the same time.">
         <div :class="data.advanced ? 'col-12' : 'col'">
           <input type="search" class="form-control bg-secondary" placeholder="Search a runeword name..." v-model="data.search.name">
         </div>
@@ -646,7 +646,7 @@ function fsc (a) {
       <div class="row">
         <div v-for="runeword in runewords" :key="runeword.Name" class="col-12 col-lg-6 col-xl-4 col-xxl-3 text-center px-2 pt-3 runeword-display">
           <div class="border border-secondary rounded h-100 p-1 position-relative">
-            <div><span class="unique-title">{{ runeword['*Rune Name'] }}</span></div>
+            <div class="unique-title">{{ runeword['*Rune Name'] }}</div>
             <div v-if="runeword.server" class="ladder-tag">Ladder<br>Only</div>
             <div class="rune-list">{{ runeword.runes.map(rune => strings[rune + 'L']).join(' ') }}</div>
             <div class="item-type-list mt-2">
