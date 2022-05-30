@@ -531,7 +531,21 @@ const runewords = computed(() => {
     data.search.forEach((text, key) => {
       if (text.length) {
         ret = ret.filter(runeword => {
-          let condition = new RegExp('(' + escapeRegexp(text).split(/\s+/gi).map(word => /^(or|and)$/i.test(word) ? ')|(' : '\\b' + word).join('\\s*') + ')', 'gi');
+          let words = escapeRegexp(text).split(/\s+/gi).filter(Boolean);
+
+          while (words.length && /^(or|and)$/i.test(words[0])) {
+            words.shift();
+          }
+
+          while (words.length && /^(or|and)$/i.test(words[words.length - 1])) {
+            words.pop();
+          }
+
+          if (!words.length) {
+            return true;
+          }
+
+          let condition = new RegExp('(' + words.map(word => /^(or|and)$/i.test(word) ? ')|(' : '\\b' + word).join('\\s*') + ')', 'gi');
           return condition.test(runeword.search[key]);
         });
       }
