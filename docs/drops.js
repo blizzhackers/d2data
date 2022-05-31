@@ -478,12 +478,12 @@ Object.defineProperty(Object.prototype, 'toArray', {
 					this.calculating = false;
 				}
 			},
-			calcPicks(func, tcname, ...tcpath) {
+			calcPicks(func, tcname, isNested, ...tcpath) {
 				if (tcname && this.json.tcprecalc[tcname]) {
 					let totalchance = 0;
 
 					this.json.tcprecalc[tcname].counts.forEach((chance, item) => {
-						totalchance += this.json.tcprecalc[tcname].droprate[this.exp] * chance * this.calcPicks(func, item, tcname, ...tcpath);
+						totalchance += this.json.tcprecalc[tcname][isNested ? 'droprate' : 'droprateRoot'][this.exp] * chance * this.calcPicks(func, item, true, tcname, ...tcpath);
 					});
 
 					return totalchance;
