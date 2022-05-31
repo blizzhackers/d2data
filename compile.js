@@ -566,6 +566,7 @@ let tcprecalc = {};
 full.treasureclassex.forEach((tc, key) => {
   tcprecalc[key] = tcprecalc[key] || {};
   tcprecalc[key].droprate = tc.nodropcalc.map(noDrop => noDrop ? tc['*ItemProbTotal'] / (noDrop + tc['*ItemProbTotal']) : 1);
+  tcprecalc[key].droprateRoot = {};
   tcprecalc[key].counts = tc.precalc;
   delete tc['nodropcalc'];
   delete tc['precalc'];
@@ -583,8 +584,37 @@ atomic.forEach((precalc, key) => {
       7: 1,
       8: 1,
     },
+    droprateRoot: {},
     counts: precalc,
   };
+});
+
+// Adjust certain TCs droprates for the 6 item cap.
+tcprecalc.forEach((basetc, basekey) => {
+  if (full.treasureclassex[basekey] && full.treasureclassex[basekey].Picks === 7) {
+    [1, 2, 3, 4, 5, 6, 7, 8].forEach(playerCount => {
+      let newvalue = basetc.droprate[playerCount] * (7 - basetc.droprate[playerCount]**6) / 7;
+      basetc.droprateRoot[playerCount] = newvalue;
+    });
+  } else {
+    basetc.droprateRoot = basetc.droprate;
+  }
+});
+
+[
+  'Countess',
+  'Countess (N)',
+  'Countess (H)',
+].forEach(basekey => {
+  // TODO
+});
+
+[
+  'Duriel',
+  'Duriel (N)',
+  'Duriel (H)',
+].forEach(basekey => {
+  // TODO
 });
 
 files.forEach(fn => {
