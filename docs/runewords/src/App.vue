@@ -564,14 +564,18 @@ function fv (a, b) {
 function fs (a) {
   if (a != Number(a)) {
     for (let c in skills) {
-      if (skills[c].skill === a) {
+      if (skills[c].skill.toLowerCase() === a.toLowerCase()) {
         a = Number(c);
         break;
       }
     }
   }
 
-  let skillName = strings['skillname' + a] || strings['Skillname' + (a + 1)] || 'Unknown Skill';
+  if (!skills[a]) {
+    debugger;
+  }
+
+  let skillName = strings['skillname' + a] || strings['Skillname' + (a + 1)] || skills[a].skill || 'Unknown Skill';
 
   return `${skillName}`;
 }
