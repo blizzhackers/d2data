@@ -18,6 +18,8 @@ itemtypes.sppl.ItemType = 'Spear or Polearm';
 itemtypes.blde.ItemType = 'Sword or Dagger';
 itemtypes.rod.ItemType = 'Staff or Rod';
 
+strings['skillname350'] = 'Delirium';
+
 const data = reactive({
   usedRunes: {},
   advanced: false,
@@ -571,11 +573,11 @@ function fs (a) {
     }
   }
 
-  if (!skills[a]) {
+  let skillName = strings['skillname' + a] || strings['Skillname' + (a + 1)];
+
+  if (!skillName) {
     debugger;
   }
-
-  let skillName = strings['skillname' + a] || strings['Skillname' + (a + 1)] || skills[a].skill || 'Unknown Skill';
 
   return `${skillName}`;
 }
