@@ -33,6 +33,15 @@ const data = reactive({
   sockets: '',
 });
 
+const searchTooltip = `
+Wildcards:
+
+  ? matches any one character
+  * matches one or more characters
+
+TIP: Use \'or\' to search for different terms at the same time.
+`.trim();
+
 function getTypes (types, ret = {}) {
   (Array.isArray(types) ? types : [types]).forEach(type => {
     if (itemtypes[type]) {
@@ -78,6 +87,10 @@ function stripHtml (html) {
 
 function escapeRegexp (string) {
     return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function escapeRegexpWithoutWildcards (string) {
+    return string.replace(/[.+^${}()|[\]\\]/g, '\\$&');
 }
 
 function sortMods (a, b) {
@@ -533,7 +546,7 @@ const runewords = computed(() => {
     data.search.forEach((text, key) => {
       if (text.length) {
         ret = ret.filter(runeword => {
-          let words = escapeRegexp(text).split(/\s+/gi).filter(Boolean);
+          let words = escapeRegexpWithoutWildcards(text).replace(/\?/gi, '\\S').replace(/\*/gi, '\\S+').split(/\s+/gi).filter(Boolean);
 
           while (words.length && /^(or|and)$/i.test(words[0])) {
             words.shift();
@@ -646,18 +659,18 @@ function fsc (a) {
       </div>
     </div>
     <div class="col">
-      <div class="row" title="PROTIP: Use 'or' to search for different terms at the same time.">
+      <div class="row">
         <div :class="data.advanced ? 'col-12' : 'col'">
-          <input type="search" class="form-control bg-secondary" placeholder="Search a runeword name..." v-model="data.search.name">
+          <input type="search" :title="searchTooltip" class="form-control bg-secondary" placeholder="Search a runeword name..." v-model="data.search.name">
         </div>
         <div v-if="data.advanced" class="col-12 col-lg mt-3">
-          <input type="search" class="form-control bg-secondary" placeholder="Search an item type..." v-model="data.search.types">
+          <input type="search" :title="searchTooltip" class="form-control bg-secondary" placeholder="Search an item type..." v-model="data.search.types">
         </div>
         <div v-if="data.advanced" class="col-12 col-lg mt-3">
-          <input type="search" class="form-control bg-secondary" placeholder="Search a base item..." v-model="data.search.items">
+          <input type="search" :title="searchTooltip" class="form-control bg-secondary" placeholder="Search a base item..." v-model="data.search.items">
         </div>
         <div v-if="data.advanced" class="col-12 col-lg mt-3">
-          <input type="search" class="form-control bg-secondary" placeholder="Search an item modifier..." v-model="data.search.mods">
+          <input type="search" :title="searchTooltip" class="form-control bg-secondary" placeholder="Search an item modifier..." v-model="data.search.mods">
         </div>
         <div v-if="data.advanced" class="col-12 col-lg-auto mt-3">
           <input type="search" class="form-control bg-secondary" placeholder="Sockets..." v-model="data.sockets">
