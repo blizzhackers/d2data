@@ -601,6 +601,109 @@ tcprecalc.forEach((basetc, basekey) => {
   }
 });
 
+// This adjusts the drop rates of to fit the 6 item cap for Duriel.
+tcprecalc['Duriel']['droprateRoot'][1] *= 0.40188714943604026;
+tcprecalc['Duriel']['droprateRoot'][2] *= 0.3016508805227563;
+tcprecalc['Duriel']['droprateRoot'][3] *= 0.28809929433644293;
+tcprecalc['Duriel']['droprateRoot'][4] *= 0.28604061515129975;
+tcprecalc['Duriel']['droprateRoot'][5] *= 0.28604061515129975;
+tcprecalc['Duriel']['droprateRoot'][6] *= 0.28604061515129975;
+tcprecalc['Duriel']['droprateRoot'][7] *= 0.28604061515129975;
+tcprecalc['Duriel']['droprateRoot'][8] *= 0.28604061515129975;
+tcprecalc['Duriel - Base']['droprate'][1] *= 0.31707696865583446 / 0.40188714943604026;
+tcprecalc['Duriel - Base']['droprate'][2] *= 0.25418252986014334 / 0.3016508805227563;
+tcprecalc['Duriel - Base']['droprate'][3] *= 0.24045372397688228 / 0.28809929433644293;
+tcprecalc['Duriel - Base']['droprate'][4] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel - Base']['droprate'][5] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel - Base']['droprate'][6] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel - Base']['droprate'][7] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel - Base']['droprate'][8] *= 0.23562610229276895 / 0.28604061515129975;
+
+tcprecalc['Duriel (N)']['droprateRoot'][1] *= 0.40188714943604026;
+tcprecalc['Duriel (N)']['droprateRoot'][2] *= 0.3016508805227563;
+tcprecalc['Duriel (N)']['droprateRoot'][3] *= 0.28809929433644293;
+tcprecalc['Duriel (N)']['droprateRoot'][4] *= 0.28604061515129975;
+tcprecalc['Duriel (N)']['droprateRoot'][5] *= 0.28604061515129975;
+tcprecalc['Duriel (N)']['droprateRoot'][6] *= 0.28604061515129975;
+tcprecalc['Duriel (N)']['droprateRoot'][7] *= 0.28604061515129975;
+tcprecalc['Duriel (N)']['droprateRoot'][8] *= 0.28604061515129975;
+tcprecalc['Duriel (N) - Base']['droprate'][1] *= 0.31707696865583446 / 0.40188714943604026;
+tcprecalc['Duriel (N) - Base']['droprate'][2] *= 0.25418252986014334 / 0.3016508805227563;
+tcprecalc['Duriel (N) - Base']['droprate'][3] *= 0.24045372397688228 / 0.28809929433644293;
+tcprecalc['Duriel (N) - Base']['droprate'][4] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel (N) - Base']['droprate'][5] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel (N) - Base']['droprate'][6] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel (N) - Base']['droprate'][7] *= 0.23562610229276895 / 0.28604061515129975;
+tcprecalc['Duriel (N) - Base']['droprate'][8] *= 0.23562610229276895 / 0.28604061515129975;
+
+tcprecalc['Duriel (H)']['droprateRoot'][1] *= 0.3977971198210286;
+tcprecalc['Duriel (H)']['droprateRoot'][2] *= 0.30109536777656887;
+tcprecalc['Duriel (H)']['droprateRoot'][3] *= 0.28836833573076587;
+tcprecalc['Duriel (H)']['droprateRoot'][4] *= 0.28645033061957725;
+tcprecalc['Duriel (H)']['droprateRoot'][5] *= 0.28645033061957725;
+tcprecalc['Duriel (H)']['droprateRoot'][6] *= 0.28645033061957725;
+tcprecalc['Duriel (H)']['droprateRoot'][7] *= 0.28645033061957725;
+tcprecalc['Duriel (H)']['droprateRoot'][8] *= 0.28645033061957725;
+tcprecalc['Duriel (H) - Base']['droprate'][1] *= 0.31394497266967347 / 0.3977971198210286;
+tcprecalc['Duriel (H) - Base']['droprate'][2] *= 0.25347220341955656 / 0.30109536777656887;
+tcprecalc['Duriel (H) - Base']['droprate'][3] *= 0.24026354414195675 / 0.28836833573076587;
+tcprecalc['Duriel (H) - Base']['droprate'][4] *= 0.23562610229276895 / 0.28645033061957725;
+tcprecalc['Duriel (H) - Base']['droprate'][5] *= 0.23562610229276895 / 0.28645033061957725;
+tcprecalc['Duriel (H) - Base']['droprate'][6] *= 0.23562610229276895 / 0.28645033061957725;
+tcprecalc['Duriel (H) - Base']['droprate'][7] *= 0.23562610229276895 / 0.28645033061957725;
+tcprecalc['Duriel (H) - Base']['droprate'][8] *= 0.23562610229276895 / 0.28645033061957725;
+
+tcprecalc['Durielq']['droprateRoot'][1] *= 0.5236458617828885;
+tcprecalc['Durielq']['droprateRoot'][2] *= 0.3778815510942014;
+tcprecalc['Durielq']['droprateRoot'][3] *= 0.3148960979106187;
+tcprecalc['Durielq']['droprateRoot'][4] *= 0.3035687614166196;
+tcprecalc['Durielq']['droprateRoot'][5] *= 0.29876543209876544;
+tcprecalc['Durielq']['droprateRoot'][6] *= 0.29876543209876544;
+tcprecalc['Durielq']['droprateRoot'][7] *= 0.29876543209876544;
+tcprecalc['Durielq']['droprateRoot'][8] *= 0.29876543209876544;
+tcprecalc['Durielq - Base']['droprate'][1] *= 0.4089824816019127 / 0.5236458617828885;
+tcprecalc['Durielq - Base']['droprate'][2] *= 0.2926940985197233 / 0.3778815510942014;
+tcprecalc['Durielq - Base']['droprate'][3] *= 0.2557897178063293 / 0.3148960979106187;
+tcprecalc['Durielq - Base']['droprate'][4] *= 0.2459776894089001 / 0.3035687614166196;
+tcprecalc['Durielq - Base']['droprate'][5] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq - Base']['droprate'][6] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq - Base']['droprate'][7] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq - Base']['droprate'][8] *= 0.23562610229276895 / 0.29876543209876544;
+
+tcprecalc['Durielq (N)']['droprateRoot'][1] *= 0.5236458617828885;
+tcprecalc['Durielq (N)']['droprateRoot'][2] *= 0.3778815510942014;
+tcprecalc['Durielq (N)']['droprateRoot'][3] *= 0.3148960979106187;
+tcprecalc['Durielq (N)']['droprateRoot'][4] *= 0.3035687614166196;
+tcprecalc['Durielq (N)']['droprateRoot'][5] *= 0.29876543209876544;
+tcprecalc['Durielq (N)']['droprateRoot'][6] *= 0.29876543209876544;
+tcprecalc['Durielq (N)']['droprateRoot'][7] *= 0.29876543209876544;
+tcprecalc['Durielq (N)']['droprateRoot'][8] *= 0.29876543209876544;
+tcprecalc['Durielq (N) - Base']['droprate'][1] *= 0.4089824816019127 / 0.5236458617828885;
+tcprecalc['Durielq (N) - Base']['droprate'][2] *= 0.2926940985197233 / 0.3778815510942014;
+tcprecalc['Durielq (N) - Base']['droprate'][3] *= 0.2557897178063293 / 0.3148960979106187;
+tcprecalc['Durielq (N) - Base']['droprate'][4] *= 0.24597768940890014 / 0.3035687614166196;
+tcprecalc['Durielq (N) - Base']['droprate'][5] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (N) - Base']['droprate'][6] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (N) - Base']['droprate'][7] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (N) - Base']['droprate'][8] *= 0.23562610229276895 / 0.29876543209876544;
+
+tcprecalc['Durielq (H)']['droprateRoot'][1] *= 0.509798203037134;
+tcprecalc['Durielq (H)']['droprateRoot'][2] *= 0.3551358075004491;
+tcprecalc['Durielq (H)']['droprateRoot'][3] *= 0.31271044447151597;
+tcprecalc['Durielq (H)']['droprateRoot'][4] *= 0.29876543209876544;
+tcprecalc['Durielq (H)']['droprateRoot'][5] *= 0.29876543209876544;
+tcprecalc['Durielq (H)']['droprateRoot'][6] *= 0.29876543209876544;
+tcprecalc['Durielq (H)']['droprateRoot'][7] *= 0.29876543209876544;
+tcprecalc['Durielq (H)']['droprateRoot'][8] *= 0.29876543209876544;
+tcprecalc['Durielq (H) - Base']['droprate'][1] *= 0.39501521709445914 / 0.509798203037134;
+tcprecalc['Durielq (H) - Base']['droprate'][2] *= 0.27984922935137513 / 0.3551358075004491;
+tcprecalc['Durielq (H) - Base']['droprate'][3] *= 0.25418252986014334 / 0.31271044447151597;
+tcprecalc['Durielq (H) - Base']['droprate'][4] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (H) - Base']['droprate'][5] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (H) - Base']['droprate'][6] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (H) - Base']['droprate'][7] *= 0.23562610229276895 / 0.29876543209876544;
+tcprecalc['Durielq (H) - Base']['droprate'][8] *= 0.23562610229276895 / 0.29876543209876544;
+
 [
   'Countess',
   'Countess (N)',
