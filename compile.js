@@ -589,7 +589,11 @@ atomic.forEach((precalc, key) => {
   };
 });
 
-// Adjust certain TCs droprates for the 6 item cap.
+// Formulas and coefficients for the 6 item cap are from https://github.com/realmonster/diablo2_drop_calc
+// He did a lot of work figuring out the formulas that I don't care to replicate,
+// so I'm taking the path of least resistance.
+
+// Adjust droprates for TCs with 7 picks for the 6 item cap.
 tcprecalc.forEach((basetc, basekey) => {
   if (full.treasureclassex[basekey] && full.treasureclassex[basekey].Picks === 7) {
     [1, 2, 3, 4, 5, 6, 7, 8].forEach(playerCount => {
@@ -601,7 +605,7 @@ tcprecalc.forEach((basetc, basekey) => {
   }
 });
 
-// This adjusts the drop rates of to fit the 6 item cap for Duriel.
+// This adjusts the drop rates to fit the 6 item cap for Duriel.
 tcprecalc['Duriel']['droprateRoot'][1] *= 0.40188714943604026;
 tcprecalc['Duriel']['droprateRoot'][2] *= 0.3016508805227563;
 tcprecalc['Duriel']['droprateRoot'][3] *= 0.28809929433644293;
@@ -753,7 +757,7 @@ tcprecalc.forEach((tc, key) => {
 
       return ret;
     }
-    
+
     tc.counts = flattenAndAbstract(baseName);
   });
 });
@@ -770,7 +774,7 @@ tcprecalc.forEach((tc, key) => {
       runes.forEach(runeName => {
         tcprecalc[baseName + ' - ' + runeName]['droprate'][players] *= value;
       });
-    });  
+    });
   });
 });
 
