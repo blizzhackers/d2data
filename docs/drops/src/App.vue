@@ -86,20 +86,6 @@ let exp = computed(() => {
 		return (data.params.players / 2 + data.params.group / 2) | 0;
 });
 
-watch(data.params, () => {
-  if (data.params.group > data.params.players) {
-    data.params.group = data.params.players;
-  }
-
-  if (data.params.minilvl > data.params.maxilvl) {
-    data.params.maxilvl = data.params.minilvl;
-  }
-
-  updateHash();
-}, {
-	deep: true,
-});
-
 function updateHash() {
   let items = [];
   data.items.forEach((item, index) => item.use && items.push(index));
@@ -772,6 +758,20 @@ if (paramstr.length) {
 }
 
 data.visible = true;
+
+watch(data.params, () => {
+  if (data.params.group > data.params.players) {
+    data.params.group = data.params.players;
+  }
+
+  if (data.params.minilvl > data.params.maxilvl) {
+    data.params.maxilvl = data.params.minilvl;
+  }
+
+  updateHash();
+}, {
+	deep: true,
+});
 
 if (calc) {
   doCalc();
