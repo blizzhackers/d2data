@@ -9,7 +9,7 @@ import gems from "../../../json/gems.json";
 import skills from "../../../json/skills.json";
 import properties from "../../../json/properties.json";
 import strings from "../../../json/localestrings-eng.json";
-import modOrder from "./modorder.json"; 
+import modOrder from "./modorder.json";
 
 itemtypes.pala.ItemType = 'Paladin Shield';
 itemtypes.h2h.ItemType = 'Claw';
@@ -109,11 +109,11 @@ let modFormatters = {
       'Curses (Necromancer)',
       'Poison & Bone Skills (Necromancer)',
       'Summoning Skills (Necromancer)',
-      'Offensive Auras (Paladin)',
       'Combat Skills (Paladin)',
+      'Offensive Auras (Paladin)',
       'Defensive Auras (Paladin)',
-      'Masteries (Barbarian)',
       'Combat Skills (Barbarian)',
+      'Masteries (Barbarian)',
       'Warcries (Barbarian)',
       'Summoning Skills (Druid)',
       'Shapeshifting Skills (Druid)',
@@ -731,7 +731,7 @@ function fsc (a) {
     color: #555;
     font-weight: 700;
   }
-  
+
   .runeword-display {
     line-height: 1.25;
   }
@@ -743,7 +743,7 @@ function fsc (a) {
     font-weight: 700;
     letter-spacing: 1px;
   }
-  
+
   .rune-list {
     color: hsl(45, 100%, 45%);
     font-family: 'AvQuest';
