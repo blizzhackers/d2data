@@ -25,11 +25,15 @@ function discardGarbage(lines) {
     let strings = {};
 
     [
-        discardGarbage(fs.readFileSync('tbl/' + lang + '/string.tbl').toString().split('\0')),
-        discardGarbage(fs.readFileSync('tbl/' + lang + '/expansionstring.tbl').toString().split('\0')),
-        discardGarbage(fs.readFileSync('tbl/' + lang + '/patchstring.tbl').toString().split('\0')),
-    ].forEach(lines => {
-        while (lines.length) {
+      'string.tbl',
+      'expansionstring.tbl',
+      'patchstring.tbl',
+    ].forEach(name => {
+      console.log('Processing: ', lang, name);
+
+      let lines = discardGarbage(fs.readFileSync('tbl/' + lang + '/' + name).toString().split('\0'));
+
+      while (lines.length) {
             let key = lines.shift(), str = lines.shift();
     
             if (key.trim().length) {
