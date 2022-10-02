@@ -206,8 +206,8 @@
   "Multiply": 20,
   "1.09-Save Bits": 8,
   "1.09-Save Add": 0,
-  "Save Bits": 8,
-  "Save Add": 50,
+  "Save Bits": 9,
+  "Save Add": 200,
   "descpriority": 40,
   "descfunc": 19,
   "descstrpos": "ModStr1k",
@@ -229,6 +229,13 @@
   "*ID": 177,
   "Send Bits": 16,
   "lineNumber": 177
+ },
+ "create_season": {
+  "Stat": "create_season",
+  "*ID": 184,
+  "1.09-Save Bits": 14,
+  "1.09-Save Add": 0,
+  "lineNumber": 184
  },
  "curse_resistance": {
   "Stat": "curse_resistance",
@@ -297,12 +304,12 @@
   "Multiply": 68,
   "1.09-Save Bits": 8,
   "1.09-Save Add": 0,
-  "Save Bits": 8,
-  "Save Add": 0,
+  "Save Bits": 9,
+  "Save Add": 200,
   "descpriority": 22,
-  "descfunc": 19,
+  "descfunc": 29,
   "descstrpos": "ModStr2uPercent",
-  "descstrneg": "ModStr2uPercent",
+  "descstrneg": "ModStr2uPercentNegative",
   "advdisplay": 2,
   "lineNumber": 36
  },
@@ -443,8 +450,8 @@
   "Multiply": 20,
   "1.09-Save Bits": 8,
   "1.09-Save Add": 0,
-  "Save Bits": 8,
-  "Save Add": 50,
+  "Save Bits": 9,
+  "Save Add": 200,
   "descpriority": 36,
   "descfunc": 19,
   "descstrpos": "ModStr1j",
@@ -2790,6 +2797,34 @@
   "descstrneg": "Moditemenrescoldsk",
   "lineNumber": 305
  },
+ "item_pierce_cold_immunity": {
+  "Stat": "item_pierce_cold_immunity",
+  "*ID": 187,
+  "Send Bits": 10,
+  "Add": 1432,
+  "Multiply": 513,
+  "Save Bits": 10,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "ModItemMonColdSunder",
+  "descstrneg": "ModItemMonColdSunder",
+  "advdisplay": 2,
+  "lineNumber": 187
+ },
+ "item_pierce_damage_immunity": {
+  "Stat": "item_pierce_damage_immunity",
+  "*ID": 192,
+  "Send Bits": 10,
+  "Add": 1432,
+  "Multiply": 513,
+  "Save Bits": 10,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "ModItemMonPhysicalSunder",
+  "descstrneg": "ModItemMonPhysicalSunder",
+  "advdisplay": 2,
+  "lineNumber": 192
+ },
  "item_pierce_fire": {
   "Stat": "item_pierce_fire",
   "*ID": 306,
@@ -2804,6 +2839,34 @@
   "descstrpos": "Moditemenresfiresk",
   "descstrneg": "Moditemenresfiresk",
   "lineNumber": 306
+ },
+ "item_pierce_fire_immunity": {
+  "Stat": "item_pierce_fire_immunity",
+  "*ID": 189,
+  "Send Bits": 10,
+  "Add": 1432,
+  "Multiply": 513,
+  "Save Bits": 10,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "ModItemMonFireSunder",
+  "descstrneg": "ModItemMonFireSunder",
+  "advdisplay": 2,
+  "lineNumber": 189
+ },
+ "item_pierce_light_immunity": {
+  "Stat": "item_pierce_light_immunity",
+  "*ID": 190,
+  "Send Bits": 10,
+  "Add": 1432,
+  "Multiply": 513,
+  "Save Bits": 10,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "ModItemMonLightSunder",
+  "descstrneg": "ModItemMonLightSunder",
+  "advdisplay": 2,
+  "lineNumber": 190
  },
  "item_pierce_ltng": {
   "Stat": "item_pierce_ltng",
@@ -2820,6 +2883,20 @@
   "descstrneg": "Moditemenresltngsk",
   "lineNumber": 307
  },
+ "item_pierce_magic_immunity": {
+  "Stat": "item_pierce_magic_immunity",
+  "*ID": 193,
+  "Send Bits": 10,
+  "Add": 1432,
+  "Multiply": 513,
+  "Save Bits": 10,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "ModItemMonMagicSunder",
+  "descstrneg": "ModItemMonMagicSunder",
+  "advdisplay": 2,
+  "lineNumber": 193
+ },
  "item_pierce_pois": {
   "Stat": "item_pierce_pois",
   "*ID": 308,
@@ -2834,6 +2911,20 @@
   "descstrpos": "Moditemenrespoissk",
   "descstrneg": "Moditemenrespoissk",
   "lineNumber": 308
+ },
+ "item_pierce_poison_immunity": {
+  "Stat": "item_pierce_poison_immunity",
+  "*ID": 191,
+  "Send Bits": 10,
+  "Add": 1432,
+  "Multiply": 513,
+  "Save Bits": 10,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "ModItemMonPoisonSunder",
+  "descstrneg": "ModItemMonPoisonSunder",
+  "advdisplay": 2,
+  "lineNumber": 191
  },
  "item_pois_damagemax_bytime": {
   "Stat": "item_pois_damagemax_bytime",
@@ -3963,6 +4054,13 @@
   "Send Bits": 32,
   "lineNumber": 29
  },
+ "lasthitreactframe": {
+  "Stat": "lasthitreactframe",
+  "*ID": 183,
+  "1.09-Save Bits": 14,
+  "1.09-Save Add": 0,
+  "lineNumber": 183
+ },
  "level": {
   "Stat": "level",
   "*ID": 12,
@@ -4051,8 +4149,8 @@
   "Multiply": 20,
   "1.09-Save Bits": 8,
   "1.09-Save Add": 0,
-  "Save Bits": 8,
-  "Save Add": 50,
+  "Save Bits": 9,
+  "Save Add": 200,
   "descpriority": 38,
   "descfunc": 19,
   "descstrpos": "ModStr1l",
@@ -4126,8 +4224,8 @@
   "Multiply": 68,
   "1.09-Save Bits": 8,
   "1.09-Save Add": 0,
-  "Save Bits": 8,
-  "Save Add": 0,
+  "Save Bits": 9,
+  "Save Add": 200,
   "descpriority": 41,
   "descfunc": 19,
   "descstrpos": "ModStr1m",
@@ -4898,8 +4996,8 @@
   "Multiply": 20,
   "1.09-Save Bits": 8,
   "1.09-Save Add": 0,
-  "Save Bits": 8,
-  "Save Add": 50,
+  "Save Bits": 9,
+  "Save Add": 200,
   "descpriority": 34,
   "descfunc": 19,
   "descstrpos": "ModStr1n",
@@ -5071,8 +5169,6 @@
  "skill_cooldown": {
   "Stat": "skill_cooldown",
   "*ID": 359,
-  "Send Bits": 32,
-  "Send Param Bits": 16,
   "lineNumber": 359
  },
  "skill_decrepify": {
@@ -5322,62 +5418,6 @@
   "1.09-Save Bits": 3,
   "1.09-Save Add": 0,
   "lineNumber": 84
- },
- "unused183": {
-  "Stat": "unused183",
-  "*ID": 183,
-  "1.09-Save Bits": 14,
-  "1.09-Save Add": 0,
-  "lineNumber": 183
- },
- "unused184": {
-  "Stat": "unused184",
-  "*ID": 184,
-  "1.09-Save Bits": 14,
-  "1.09-Save Add": 0,
-  "lineNumber": 184
- },
- "unused187": {
-  "Stat": "unused187",
-  "*ID": 187,
-  "1.09-Save Bits": 14,
-  "1.09-Save Add": 0,
-  "lineNumber": 187
- },
- "unused189": {
-  "Stat": "unused189",
-  "*ID": 189,
-  "1.09-Save Bits": 10,
-  "1.09-Save Add": 0,
-  "lineNumber": 189
- },
- "unused190": {
-  "Stat": "unused190",
-  "*ID": 190,
-  "1.09-Save Bits": 10,
-  "1.09-Save Add": 0,
-  "lineNumber": 190
- },
- "unused191": {
-  "Stat": "unused191",
-  "*ID": 191,
-  "1.09-Save Bits": 10,
-  "1.09-Save Add": 0,
-  "lineNumber": 191
- },
- "unused192": {
-  "Stat": "unused192",
-  "*ID": 192,
-  "1.09-Save Bits": 10,
-  "1.09-Save Add": 0,
-  "lineNumber": 192
- },
- "unused193": {
-  "Stat": "unused193",
-  "*ID": 193,
-  "1.09-Save Bits": 10,
-  "1.09-Save Add": 0,
-  "lineNumber": 193
  },
  "unused200": {
   "Stat": "unused200",

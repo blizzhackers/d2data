@@ -109,7 +109,7 @@
   "*aip2": "Circle Walk (% Chance)",
   "*aip3": "Attack Enemy (% Chance)",
   "*aip4": "\"Attack1 (% Chance), else Attack2\"",
-  "*aip5": "\"\"\"hpregen\"\" bonus when hurt\"",
+  "*aip5": "hpregen bonus when hurt",
   "lineNumber": 11
  },
  "BatDemon": {
@@ -468,6 +468,10 @@
  },
  "Hireable": {
   "AI": "Hireable",
+  "*aip1": "\"Range type (1=ranged, 2=melee, 3=hybrid)\"",
+  "*aip2": "Skill to use as a basic attack",
+  "*aip3": "Monster Mode to use for non-skill basic attack",
+  "*aip4": "If hireable bonus damage should be applied to missiles",
   "lineNumber": 61
  },
  "Hydra": {

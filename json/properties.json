@@ -2074,6 +2074,72 @@
   "expansion": 1,
   "lineNumber": 233
  },
+ "pierce-immunity-cold": {
+  "code": "pierce-immunity-cold",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce_cold_immunity",
+  "*Tooltip": "Monster Cold Immunity is Sundered",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 270
+ },
+ "pierce-immunity-damage": {
+  "code": "pierce-immunity-damage",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce_damage_immunity",
+  "*Tooltip": "Monster Physical Immunity is Sundered",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 274
+ },
+ "pierce-immunity-fire": {
+  "code": "pierce-immunity-fire",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce_fire_immunity",
+  "*Tooltip": "Monster Fire Immunity is Sundered",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 271
+ },
+ "pierce-immunity-light": {
+  "code": "pierce-immunity-light",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce_light_immunity",
+  "*Tooltip": "Monster Lightning Immunity is Sundered",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 272
+ },
+ "pierce-immunity-magic": {
+  "code": "pierce-immunity-magic",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce_magic_immunity",
+  "*Tooltip": "Monster Magic Immunity is Sundered",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 275
+ },
+ "pierce-immunity-poison": {
+  "code": "pierce-immunity-poison",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_pierce_poison_immunity",
+  "*Tooltip": "Monster Poison Immunity is Sundered",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 273
+ },
  "pierce-ltng": {
   "code": "pierce-ltng",
   "*Enabled": 1,

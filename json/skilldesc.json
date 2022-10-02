@@ -3453,6 +3453,7 @@
   "str short": "skillld103",
   "str long": "skillld103",
   "str alt": "skillan103",
+  "descdam": 6,
   "descline1": 36,
   "desctexta1": "StrSkillRadiusSingular",
   "desctextb1": "StrSkill18",
@@ -7528,5 +7529,17 @@
   "str short": "SkillDescRunToggle",
   "str long": "SkillDescRunToggle",
   "str alt": "SkillNameRunToggle"
+ },
+ "229": {
+  "skilldesc": "cubeloot",
+  "SkillPage": 0,
+  "SkillRow": 0,
+  "SkillColumn": 0,
+  "ListRow": 0,
+  "IconCel": 2,
+  "str name": "SkillNameCubeLoot",
+  "str short": "SkillDescCubeLoot",
+  "str long": "SkillDescCubeLoot",
+  "str alt": "SkillNameCubeLoot"
  }
 }

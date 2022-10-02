@@ -340,6 +340,7 @@
  "cooldown": {
   "state": "cooldown",
   "*ID": 185,
+  "nosend": 1,
   "lineNumber": 185
  },
  "corpse_nodraw": {
@@ -446,6 +447,13 @@
   "gfxtype": 1,
   "gfxclass": 212,
   "lineNumber": 177
+ },
+ "desecrated": {
+  "state": "desecrated",
+  "*ID": 189,
+  "monstaydeath": 1,
+  "bossstaydeath": 1,
+  "lineNumber": 189
  },
  "dimvision": {
   "state": "dimvision",
@@ -603,6 +611,7 @@
  "fullsetgeneric": {
   "state": "fullsetgeneric",
   "*ID": 175,
+  "noclear": 1,
   "overlay1": "aura_fanatic",
   "lineNumber": 175
  },
@@ -871,6 +880,7 @@
   "group": 3,
   "transform": 1,
   "disguise": 1,
+  "noclear": 1,
   "castoverlay": "fire_cast_2",
   "gfxtype": 1,
   "gfxclass": 135,
@@ -1354,8 +1364,7 @@
  "skilldelay": {
   "state": "skilldelay",
   "*ID": 121,
-  "setfunc": 19,
-  "remfunc": 12,
+  "nosend": 1,
   "lineNumber": 121
  },
  "slowed": {
