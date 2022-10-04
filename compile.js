@@ -628,6 +628,13 @@ tcprecalc['Duriel - Base']['droprate'][6] *= 0.23562610229276895 / 0.28604061515
 tcprecalc['Duriel - Base']['droprate'][7] *= 0.23562610229276895 / 0.28604061515129975;
 tcprecalc['Duriel - Base']['droprate'][8] *= 0.23562610229276895 / 0.28604061515129975;
 
+tcprecalc['Duriel Desecrated A']['droprate'] = { ...tcprecalc['Duriel']['droprateRoot'] };
+tcprecalc['Duriel - Base Desecrated A']['droprate'] = { ...tcprecalc['Duriel - Base']['droprate'] };
+tcprecalc['Duriel Desecrated B']['droprate'] = { ...tcprecalc['Duriel']['droprateRoot'] };
+tcprecalc['Duriel - Base Desecrated B']['droprate'] = { ...tcprecalc['Duriel - Base']['droprate'] };
+tcprecalc['Duriel Desecrated C']['droprate'] = { ...tcprecalc['Duriel']['droprateRoot'] };
+tcprecalc['Duriel - Base Desecrated C']['droprate'] = { ...tcprecalc['Duriel - Base']['droprate'] };
+
 tcprecalc['Duriel (N)']['droprateRoot'][1] *= 0.40188714943604026;
 tcprecalc['Duriel (N)']['droprateRoot'][2] *= 0.3016508805227563;
 tcprecalc['Duriel (N)']['droprateRoot'][3] *= 0.28809929433644293;
@@ -645,6 +652,13 @@ tcprecalc['Duriel (N) - Base']['droprate'][6] *= 0.23562610229276895 / 0.2860406
 tcprecalc['Duriel (N) - Base']['droprate'][7] *= 0.23562610229276895 / 0.28604061515129975;
 tcprecalc['Duriel (N) - Base']['droprate'][8] *= 0.23562610229276895 / 0.28604061515129975;
 
+tcprecalc['Duriel (N) Desecrated A']['droprate'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
+tcprecalc['Duriel (N) - Base Desecrated A']['droprate'] = { ...tcprecalc['Duriel (N) - Base']['droprate'] };
+tcprecalc['Duriel (N) Desecrated B']['droprate'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
+tcprecalc['Duriel (N) - Base Desecrated B']['droprate'] = { ...tcprecalc['Duriel (N) - Base']['droprate'] };
+tcprecalc['Duriel (N) Desecrated C']['droprate'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
+tcprecalc['Duriel (N) - Base Desecrated C']['droprate'] = { ...tcprecalc['Duriel (N) - Base']['droprate'] };
+
 tcprecalc['Duriel (H)']['droprateRoot'][1] *= 0.3977971198210286;
 tcprecalc['Duriel (H)']['droprateRoot'][2] *= 0.30109536777656887;
 tcprecalc['Duriel (H)']['droprateRoot'][3] *= 0.28836833573076587;
@@ -661,6 +675,15 @@ tcprecalc['Duriel (H) - Base']['droprate'][5] *= 0.23562610229276895 / 0.2864503
 tcprecalc['Duriel (H) - Base']['droprate'][6] *= 0.23562610229276895 / 0.28645033061957725;
 tcprecalc['Duriel (H) - Base']['droprate'][7] *= 0.23562610229276895 / 0.28645033061957725;
 tcprecalc['Duriel (H) - Base']['droprate'][8] *= 0.23562610229276895 / 0.28645033061957725;
+
+tcprecalc['Duriel (H) Desecrated Five']['droprate'] = { ...tcprecalc['Duriel (H)']['droprateRoot'] };
+tcprecalc['Duriel (H) - Base Desecrated A']['droprate'] = { ...tcprecalc['Duriel (H) - Base']['droprate'] };
+tcprecalc['Duriel (H) Desecrated Town Portal']['droprate'] = { ...tcprecalc['Duriel (H)']['droprateRoot'] };
+tcprecalc['Duriel (H) - Base Desecrated B']['droprate'] = { ...tcprecalc['Duriel (H) - Base']['droprate'] };
+tcprecalc['Duriel (H) Desecrated Scrolls']['droprate'] = { ...tcprecalc['Duriel (H)']['droprateRoot'] };
+tcprecalc['Duriel (H) - Base Desecrated C']['droprate'] = { ...tcprecalc['Duriel (H) - Base']['droprate'] };
+tcprecalc['Duriel (H) Desecrated Incoming']['droprate'] = { ...tcprecalc['Duriel (H)']['droprateRoot'] };
+tcprecalc['Duriel (H) - Base Desecrated D']['droprate'] = { ...tcprecalc['Duriel (H) - Base']['droprate'] };
 
 tcprecalc['Durielq']['droprateRoot'][1] *= 0.5236458617828885;
 tcprecalc['Durielq']['droprateRoot'][2] *= 0.3778815510942014;
@@ -714,7 +737,7 @@ tcprecalc['Durielq (H) - Base']['droprate'][7] *= 0.23562610229276895 / 0.298765
 tcprecalc['Durielq (H) - Base']['droprate'][8] *= 0.23562610229276895 / 0.29876543209876544;
 
 // Flatten and abstract countess rune TCs so we can adjust the drop rate of each via coefficient.
-tcprecalc.forEach((tc, key) => {
+//tcprecalc.forEach((tc, key) => {
   ({
     'Countess Rune': tcprecalc['Countess Rune'],
     'Countess Rune (N)': tcprecalc['Countess Rune (N)'],
@@ -765,7 +788,7 @@ tcprecalc.forEach((tc, key) => {
 
     tc.counts = flattenAndAbstract(baseName);
   });
-});
+//});
 
 // Multiply the coefficients to the abstracted TCs
 ({
