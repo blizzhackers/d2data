@@ -389,6 +389,11 @@
   "*Description": "Physical Damage Min (Skill Only) (256ths)",
   "lineNumber": 75
  },
+ "ps10": {
+  "code": "ps10",
+  "*Description": "The passivecalc10 field value",
+  "lineNumber": 94
+ },
  "pst1": {
   "code": "pst1",
   "*Description": "The passivecalc1 field value",
@@ -418,6 +423,21 @@
   "code": "pst6",
   "*Description": "The passivecalc6 field value",
   "lineNumber": 90
+ },
+ "pst7": {
+  "code": "pst7",
+  "*Description": "The passivecalc7 field value",
+  "lineNumber": 91
+ },
+ "pst8": {
+  "code": "pst8",
+  "*Description": "The passivecalc8 field value",
+  "lineNumber": 92
+ },
+ "pst9": {
+  "code": "pst9",
+  "*Description": "The passivecalc9 field value",
+  "lineNumber": 93
  },
  "pxma": {
   "code": "pxma",

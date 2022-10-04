@@ -133,9 +133,12 @@ files.forEach(fn => {
 
         if (key !== undefined) {
           if (key !== '') {
-            if (obj[key]) {
-              throw new Error('Duplicate key ' + JSON.stringify(key) + ' in ' + fn);
-            } else {
+            while (obj[key]) {
+              console.warn('Duplicate key ' + JSON.stringify(key) + ' in ' + fn);
+              key += ' [dup]';
+            }
+
+            {
               let tmp = {};
 
               for (let c = 0; c < header.length; c++) {
