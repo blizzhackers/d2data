@@ -272,6 +272,7 @@
  "coldmastery": {
   "state": "coldmastery",
   "*ID": 73,
+  "sunder-res-reduce": 1,
   "lineNumber": 73
  },
  "concentrate": {
@@ -833,6 +834,23 @@
   "state": "manapot",
   "*ID": 106,
   "lineNumber": 106
+ },
+ "markbear": {
+  "state": "markbear",
+  "*ID": 190,
+  "group": 4,
+  "noclear": 1,
+  "overlay1": "bloodlust_state",
+  "lineNumber": 190
+ },
+ "markwolf": {
+  "state": "markwolf",
+  "*ID": 191,
+  "group": 5,
+  "attblue": 1,
+  "noclear": 1,
+  "overlay1": "impregnated",
+  "lineNumber": 191
  },
  "maul": {
   "state": "maul",
@@ -1453,6 +1471,7 @@
   "overlay1": "curseterror",
   "castoverlay": "curse_hit",
   "onsound": "necromancer_taint",
+  "sunderfull": 1,
   "lineNumber": 56
  },
  "thawing": {

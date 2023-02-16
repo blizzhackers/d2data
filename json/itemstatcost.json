@@ -1129,6 +1129,21 @@
   "advdisplay": 2,
   "lineNumber": 153
  },
+ "item_charge_noconsume": {
+  "Stat": "item_charge_noconsume",
+  "*ID": 200,
+  "Send Bits": 7,
+  "Add": 106,
+  "Multiply": 256,
+  "Save Bits": 7,
+  "Save Add": 0,
+  "descpriority": 159,
+  "descfunc": 19,
+  "descstrpos": "ModStr6k",
+  "descstrneg": "ModStr6k",
+  "advdisplay": 2,
+  "lineNumber": 200
+ },
  "item_charged_skill": {
   "Stat": "item_charged_skill",
   "*ID": 204,
@@ -5418,13 +5433,6 @@
   "1.09-Save Bits": 3,
   "1.09-Save Add": 0,
   "lineNumber": 84
- },
- "unused200": {
-  "Stat": "unused200",
-  "*ID": 200,
-  "1.09-Save Bits": 21,
-  "1.09-Save Add": 0,
-  "lineNumber": 200
  },
  "unused202": {
   "Stat": "unused202",

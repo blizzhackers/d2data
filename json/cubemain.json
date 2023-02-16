@@ -2048,7 +2048,8 @@
  "151": {
   "description": "1 Ral Rune + 1 Sol Rune + 1 Perfect Emerald + 1 Normal Set Weapon -> Exceptional Set Weapon",
   "enabled": 1,
-  "ladder": 1,
+  "firstLadderSeason": 1,
+  "lastLadderSeason": 2,
   "version": 100,
   "numinputs": 4,
   "input 1": "\"weap,bas,set\"",
@@ -2064,7 +2065,8 @@
  "152": {
   "description": "1 Tal Rune + 1 Shael Rune + 1 Perfect Diamond + 1 Normal Set Armor -> Exceptional Set Armor",
   "enabled": 1,
-  "ladder": 1,
+  "firstLadderSeason": 1,
+  "lastLadderSeason": 2,
   "version": 100,
   "numinputs": 4,
   "input 1": "\"armo,bas,set\"",
@@ -2080,7 +2082,8 @@
  "153": {
   "description": "1 Lum Rune + 1 Pul Rune + 1 Perfect Emerald + 1 Exceptional Set Weapon -> Elite Set Weapon",
   "enabled": 1,
-  "ladder": 1,
+  "firstLadderSeason": 1,
+  "lastLadderSeason": 2,
   "version": 100,
   "numinputs": 4,
   "input 1": "\"weap,exc,set\"",
@@ -2096,7 +2099,8 @@
  "154": {
   "description": "1 Ko Rune + 1 Lem Rune + 1 Perfect Diamond + 1 Exceptional Set Armor -> Elite Set Armor",
   "enabled": 1,
-  "ladder": 1,
+  "firstLadderSeason": 1,
+  "lastLadderSeason": 2,
   "version": 100,
   "numinputs": 4,
   "input 1": "\"armo,exc,set\"",

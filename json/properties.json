@@ -660,6 +660,17 @@
   "*Max": "Max %",
   "lineNumber": 87
  },
+ "charge-noconsume": {
+  "code": "charge-noconsume",
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "item_charge_noconsume",
+  "*Tooltip": "+#% chance for finishing moves to not consume charges",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 276
+ },
  "charged": {
   "code": "charged",
   "*Enabled": 1,

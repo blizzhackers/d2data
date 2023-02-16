@@ -18986,32 +18986,32 @@
  },
  "Sunder Charms": {
   "droprate": {
-   "1": 1,
-   "2": 1,
-   "3": 1,
-   "4": 1,
-   "5": 1,
-   "6": 1,
-   "7": 1,
-   "8": 1
+   "1": 0.004208333333333333,
+   "2": 0.0083991683991684,
+   "3": 0.012573135814764097,
+   "4": 0.016727393176548526,
+   "5": 0.020867768595041324,
+   "6": 0.02498762988619495,
+   "7": 0.029089861751152073,
+   "8": 0.03318002628120893
   },
   "droprateRoot": {
-   "1": 1,
-   "2": 1,
-   "3": 1,
-   "4": 1,
-   "5": 1,
-   "6": 1,
-   "7": 1,
-   "8": 1
+   "1": 0.004208333333333333,
+   "2": 0.0083991683991684,
+   "3": 0.012573135814764097,
+   "4": 0.016727393176548526,
+   "5": 0.020867768595041324,
+   "6": 0.02498762988619495,
+   "7": 0.029089861751152073,
+   "8": 0.03318002628120893
   },
   "counts": {
-   "Cold Rupture": 0.16666666666666666,
-   "Flame Rift": 0.16666666666666666,
-   "Crack of the Heavens": 0.16666666666666666,
-   "Rotting Fissure": 0.16666666666666666,
-   "Bone Break": 0.16666666666666666,
-   "Black Cleft": 0.16666666666666666
+   "Cold Rupture": 0.297029702970297,
+   "Flame Rift": 0.297029702970297,
+   "Crack of the Heavens": 0.19801980198019803,
+   "Rotting Fissure": 0.1188118811881188,
+   "Bone Break": 0.0594059405940594,
+   "Black Cleft": 0.0297029702970297
   }
  },
  "Andariel": {
@@ -19491,7 +19491,7 @@
    "8": 0.8571428571428571
   },
   "counts": {
-   "Act 5 (H) Equip C": 5.782608695652174,
+   "Act 5 (H) Equip A": 5.782608695652174,
    "Act 5 (H) Good": 0.9130434782608695,
    "tes": 0.30434782608695654
   }
@@ -20092,7 +20092,7 @@
   },
   "counts": {
    "\"gld,mul=2048\"": 1.54,
-   "Act 5 (H) Equip C": 2.66,
+   "Act 5 (H) Equip B": 2.66,
    "Act 5 (H) Junk": 2.1,
    "Act 5 (H) Good": 0.42,
    "tes": 0.28
@@ -20121,7 +20121,7 @@
   },
   "counts": {
    "\"gld,mul=2048\"": 1.54,
-   "Act 5 (H) Equip D": 2.66,
+   "Act 5 (H) Equip C": 2.66,
    "Act 5 (H) Junk": 2.1,
    "Act 5 (H) Good": 0.42,
    "tes": 0.28
@@ -22930,7 +22930,7 @@
   },
   "counts": {
    "Act 4 Uitem B": 1,
-   "Act 4 Melee B": 2
+   "Act 4 Melee A": 2
   }
  },
  "Griswold Desecrated C": {
@@ -22956,7 +22956,7 @@
   },
   "counts": {
    "Act 3 (N) Uitem A": 1,
-   "Act 3 (N) Melee C": 2
+   "Act 2 (N) Melee B": 2
   }
  },
  "Griswold (N)": {
@@ -23060,7 +23060,7 @@
   },
   "counts": {
    "Act 3 (H) Uitem C": 1,
-   "Act 3 (H) Melee C": 2
+   "Act 3 (H) Melee B": 2
   }
  },
  "Griswold (H)": {
@@ -23113,7 +23113,7 @@
   "counts": {
    "Sunder Charms": 1,
    "Act 4 (H) Uitem B": 1,
-   "Act 4 (H) Melee B": 2
+   "Act 4 (H) Melee A": 2
   }
  },
  "Griswold (H) Desecrated B": {
@@ -23140,7 +23140,7 @@
   "counts": {
    "Sunder Charms": 1,
    "Act 5 (H) Uitem A": 1,
-   "Act 5 (H) Melee A": 2
+   "Act 4 (H) Melee B": 2
   }
  },
  "Griswold (H) Desecrated C": {
@@ -23167,7 +23167,7 @@
   "counts": {
    "Sunder Charms": 1,
    "Act 5 (H) Uitem B": 1,
-   "Act 5 (H) Melee B": 2
+   "Act 5 (H) Melee A": 2
   }
  },
  "Griswold (H) Desecrated D": {
@@ -23194,7 +23194,7 @@
   "counts": {
    "Sunder Charms": 1,
    "Act 5 (H) Uitem C": 1,
-   "Act 5 (H) Melee C": 2
+   "Act 5 (H) Melee B": 2
   }
  },
  "Cow": {
@@ -23724,7 +23724,7 @@
    "Haphesto Item (H) Desecrated A": 1
   }
  },
- "Haphesto (H) Desecrated A [dup]": {
+ "Haphesto (H) Desecrated B": {
   "droprate": {
    "1": 1,
    "2": 1,
@@ -23747,10 +23747,10 @@
   },
   "counts": {
    "Sunder Charms": 1,
-   "Haphesto Item (H) Desecrated A": 1
+   "Haphesto Item (H) Desecrated B": 1
   }
  },
- "Haphesto (H) Desecrated A [dup] [dup]": {
+ "Haphesto (H) Desecrated C": {
   "droprate": {
    "1": 1,
    "2": 1,
@@ -23773,7 +23773,7 @@
   },
   "counts": {
    "Sunder Charms": 1,
-   "Haphesto Item (H) Desecrated A": 1
+   "Haphesto Item (H) Desecrated C": 1
   }
  },
  "Nihlathak": {
@@ -25107,7 +25107,7 @@
   },
   "counts": {
    "Sunder Charms": 1,
-   "Act 4 (H) Uitem C": 1,
+   "Act 4 (H) Uitem B": 1,
    "Act 4 (H) Melee B": 2
   }
  },
