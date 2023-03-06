@@ -628,11 +628,11 @@ tcprecalc['Duriel - Base']['droprate'][6] *= 0.23562610229276895 / 0.28604061515
 tcprecalc['Duriel - Base']['droprate'][7] *= 0.23562610229276895 / 0.28604061515129975;
 tcprecalc['Duriel - Base']['droprate'][8] *= 0.23562610229276895 / 0.28604061515129975;
 
-tcprecalc['Duriel Desecrated A']['droprate'] = { ...tcprecalc['Duriel']['droprateRoot'] };
+tcprecalc['Duriel Desecrated A']['droprateRoot'] = { ...tcprecalc['Duriel']['droprateRoot'] };
 tcprecalc['Duriel - Base Desecrated A']['droprate'] = { ...tcprecalc['Duriel - Base']['droprate'] };
-tcprecalc['Duriel Desecrated B']['droprate'] = { ...tcprecalc['Duriel']['droprateRoot'] };
+tcprecalc['Duriel Desecrated B']['droprateRoot'] = { ...tcprecalc['Duriel']['droprateRoot'] };
 tcprecalc['Duriel - Base Desecrated B']['droprate'] = { ...tcprecalc['Duriel - Base']['droprate'] };
-tcprecalc['Duriel Desecrated C']['droprate'] = { ...tcprecalc['Duriel']['droprateRoot'] };
+tcprecalc['Duriel Desecrated C']['droprateRoot'] = { ...tcprecalc['Duriel']['droprateRoot'] };
 tcprecalc['Duriel - Base Desecrated C']['droprate'] = { ...tcprecalc['Duriel - Base']['droprate'] };
 
 tcprecalc['Duriel (N)']['droprateRoot'][1] *= 0.40188714943604026;
@@ -652,11 +652,11 @@ tcprecalc['Duriel (N) - Base']['droprate'][6] *= 0.23562610229276895 / 0.2860406
 tcprecalc['Duriel (N) - Base']['droprate'][7] *= 0.23562610229276895 / 0.28604061515129975;
 tcprecalc['Duriel (N) - Base']['droprate'][8] *= 0.23562610229276895 / 0.28604061515129975;
 
-tcprecalc['Duriel (N) Desecrated A']['droprate'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
+tcprecalc['Duriel (N) Desecrated A']['droprateRoot'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
 tcprecalc['Duriel (N) - Base Desecrated A']['droprate'] = { ...tcprecalc['Duriel (N) - Base']['droprate'] };
-tcprecalc['Duriel (N) Desecrated B']['droprate'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
+tcprecalc['Duriel (N) Desecrated B']['droprateRoot'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
 tcprecalc['Duriel (N) - Base Desecrated B']['droprate'] = { ...tcprecalc['Duriel (N) - Base']['droprate'] };
-tcprecalc['Duriel (N) Desecrated C']['droprate'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
+tcprecalc['Duriel (N) Desecrated C']['droprateRoot'] = { ...tcprecalc['Duriel (N)']['droprateRoot'] };
 tcprecalc['Duriel (N) - Base Desecrated C']['droprate'] = { ...tcprecalc['Duriel (N) - Base']['droprate'] };
 
 tcprecalc['Duriel (H)']['droprateRoot'][1] *= 0.3977971198210286;
@@ -740,7 +740,7 @@ tcprecalc['Durielq (H) - Base']['droprate'][6] *= 0.23562610229276895 / 0.298765
 tcprecalc['Durielq (H) - Base']['droprate'][7] *= 0.23562610229276895 / 0.29876543209876544;
 tcprecalc['Durielq (H) - Base']['droprate'][8] *= 0.23562610229276895 / 0.29876543209876544;
 
-Object.values(tcprecalc).forEach(tc => {
+tcprecalc.forEach(tc => {
   if (tc['counts']['Sunder Charms']) {
     delete tc['counts']['Sunder Charms'];
   }
