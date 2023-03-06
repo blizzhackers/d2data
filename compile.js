@@ -683,7 +683,11 @@ tcprecalc['Duriel (H) - Base Desecrated B']['droprate'] = { ...tcprecalc['Duriel
 tcprecalc['Duriel (H) Desecrated Scrolls']['droprate'] = { ...tcprecalc['Duriel (H)']['droprateRoot'] };
 tcprecalc['Duriel (H) - Base Desecrated C']['droprate'] = { ...tcprecalc['Duriel (H) - Base']['droprate'] };
 tcprecalc['Duriel (H) Desecrated Incoming']['droprate'] = { ...tcprecalc['Duriel (H)']['droprateRoot'] };
-tcprecalc['Duriel (H) - Base Desecrated D']['droprate'] = { ...tcprecalc['Duriel (H) - Base']['droprate'] };
+
+tcprecalc['Duriel (H) Desecrated A'] = { ...tcprecalc['Duriel (H) Desecrated Five'] };
+tcprecalc['Duriel (H) Desecrated B'] = { ...tcprecalc['Duriel (H) Desecrated Town Portal'] };
+tcprecalc['Duriel (H) Desecrated C'] = { ...tcprecalc['Duriel (H) Desecrated Scrolls'] };
+tcprecalc['Duriel (H) Desecrated D'] = { ...tcprecalc['Duriel (H) Desecrated Incoming'] };
 
 tcprecalc['Durielq']['droprateRoot'][1] *= 0.5236458617828885;
 tcprecalc['Durielq']['droprateRoot'][2] *= 0.3778815510942014;
@@ -735,6 +739,12 @@ tcprecalc['Durielq (H) - Base']['droprate'][5] *= 0.23562610229276895 / 0.298765
 tcprecalc['Durielq (H) - Base']['droprate'][6] *= 0.23562610229276895 / 0.29876543209876544;
 tcprecalc['Durielq (H) - Base']['droprate'][7] *= 0.23562610229276895 / 0.29876543209876544;
 tcprecalc['Durielq (H) - Base']['droprate'][8] *= 0.23562610229276895 / 0.29876543209876544;
+
+Object.values(tcprecalc).forEach(tc => {
+  if (tc['counts']['Sunder Charms']) {
+    delete tc['counts']['Sunder Charms'];
+  }
+});
 
 // Flatten and abstract countess rune TCs so we can adjust the drop rate of each via coefficient.
 //tcprecalc.forEach((tc, key) => {
