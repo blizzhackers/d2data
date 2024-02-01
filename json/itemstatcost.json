@@ -4517,6 +4517,11 @@
   "descstrneg": "ModStr1g",
   "lineNumber": 21
  },
+ "modifierlist_castid": {
+  "Stat": "modifierlist_castid",
+  "*ID": 202,
+  "lineNumber": 202
+ },
  "modifierlist_level": {
   "Stat": "modifierlist_level",
   "*ID": 351,
@@ -5433,13 +5438,6 @@
   "1.09-Save Bits": 3,
   "1.09-Save Add": 0,
   "lineNumber": 84
- },
- "unused202": {
-  "Stat": "unused202",
-  "*ID": 202,
-  "1.09-Save Bits": 21,
-  "1.09-Save Add": 0,
-  "lineNumber": 202
  },
  "unused203": {
   "Stat": "unused203",
