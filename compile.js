@@ -629,7 +629,7 @@ tcprecalc.forEach((basetc, basekey) => {
   "Durielq (H)",
 ].forEach(tcname => {
   for (let c = 1; c < 9; c++) {
-    tcprecalc[tcname]['droprateRoot'][c] *= 0.42;
+    tcprecalc[tcname]['droprateRoot'][c] *= 5 / 11;
   }
 });
 
