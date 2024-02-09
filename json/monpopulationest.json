@@ -1658,25 +1658,34 @@
   "normal": {
    "skeleton1": {
     "mlvl": 2,
-    "packCount": 9.5,
+    "packCount": 9,
     "mlvl(N)": 37,
-    "packCount(N)": 9.5,
+    "packCount(N)": 9,
     "mlvl(H)": 80,
-    "packCount(H)": 9.5
+    "packCount(H)": 9
    },
    "zombie2": {
     "mlvl": 2,
-    "packCount": 9.5,
+    "packCount": 9,
     "mlvl(N)": 37,
-    "packCount(N)": 9.5,
+    "packCount(N)": 9,
     "mlvl(H)": 80,
-    "packCount(H)": 9.5
+    "packCount(H)": 9
    }
   },
   "champion": {},
   "unique": {},
   "superunique": {},
-  "boss": {}
+  "boss": {
+   "bloodraven": {
+    "mlvl": 10,
+    "packCount": 1,
+    "mlvl(N)": 43,
+    "packCount(N)": 1,
+    "mlvl(H)": 88,
+    "packCount(H)": 1
+   }
+  }
  },
  "18": {
   "normal": {

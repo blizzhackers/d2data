@@ -304,6 +304,7 @@ files.forEach(fn => {
   }
 
   if (fn === 'monstats') {
+    full[fn]['bloodraven'].areaId = 17;
     full[fn]['andariel'].areaId = 37;
     full[fn]['duriel'].areaId = 73;
     full[fn]['mephisto'].areaId = 102;
