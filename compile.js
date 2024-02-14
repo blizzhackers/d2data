@@ -463,6 +463,7 @@ let monpopulation = {};
 [0, 1, 2].forEach((diff) => {
   let uniqueCount = 3.5 + diff;
   let champCount = 3;
+  let uniqueRatio = 0.8, champRatio = 0.2;
   let s = _s(diff);
   full.levels.forEach((level) => {
     let l = (key) => level[key] || 0;
@@ -510,8 +511,8 @@ let monpopulation = {};
             )
           );
         }, 0),
-        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * uniqueCount,
-        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.8 * champCount,
+        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * uniqueRatio * uniqueCount,
+        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * champRatio * champCount,
         count = acount - ucount - ccount - scount - bcount;
 
       if (count > 0) {
