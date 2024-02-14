@@ -461,6 +461,8 @@ const moncountest = require('./json/moncountest.json');
 let monpopulation = {};
 
 [0, 1, 2].forEach((diff) => {
+  let uniqueCount = 3.5 + diff;
+  let champCount = 3;
   let s = _s(diff);
   full.levels.forEach((level) => {
     let l = (key) => level[key] || 0;
@@ -508,8 +510,8 @@ let monpopulation = {};
             )
           );
         }, 0),
-        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * (2.5 + diff),
-        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.8 * 3,
+        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * uniqueCount,
+        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.8 * champCount,
         count = acount - ucount - ccount - scount - bcount;
 
       if (count > 0) {
@@ -535,8 +537,8 @@ let monpopulation = {};
         forEachMonster(level, diff, (mon, mlvl, type) => {
           let mult = [
             count / totalpackssize,
-            ccount / 3 / udiv,
-            ucount / 5.5 / udiv,
+            ccount / champCount / udiv,
+            ucount / uniqueCount / udiv,
           ][type];
           monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] = monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] || {
             "mlvl": 0,
