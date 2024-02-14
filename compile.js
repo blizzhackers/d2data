@@ -429,7 +429,7 @@ function monlevel(mon, level, diff) {
     lvl = level[s("MonLvlEx")] || 0,
     mlvl = mon[s("Level")] || 0;
 
-  return lvl > mlvl ? lvl : mlvl;
+  return (diff && !mon.boss) ? lvl : mlvl;
 }
 
 function forEachMonster(level, diff, func) {
