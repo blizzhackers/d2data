@@ -478,20 +478,38 @@ let monpopulation = {};
         bosses = full.monstats.filter((mon) => mon.areaId == level.Id),
         acount = (moncountest[level.Id] && moncountest[level.Id][diff]) || 0,
         scount = supers.reduce((total, sup) => {
+          let mon = full.monstats[sup.Class];
+
           return (
             total +
             1 +
             diff +
-            ((sup["MinGrp"] || 0) + (sup["MaxGrp"] || 0)) / 2
+            avg(
+              (sup["MinGrp"] || 0),
+              (sup["MaxGrp"] || 0)
+            ) +
+            avg(
+              (mon["PartyMin"] || 0),
+              (mon["PartyMax"] || 0)
+            )
           );
         }, 0),
         bcount = bosses.reduce((total, mon) => {
           return (
-            total + 1 + +((mon["MinGrp"] || 0) + (mon["MaxGrp"] || 0)) / 2
+            total +
+            1 +
+            avg(
+              (mon["MinGrp"] || 0),
+              (mon["MaxGrp"] || 0)
+            ) +
+            avg(
+              (mon["PartyMin"] || 0),
+              (mon["PartyMax"] || 0)
+            )
           );
         }, 0),
-        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.8 * 5.5,
-        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * 3,
+        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.2 * (2.5 + diff),
+        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * 0.8 * 3,
         count = acount - ucount - ccount - scount - bcount;
 
       if (count > 0) {
@@ -544,9 +562,12 @@ let monpopulation = {};
           "packCount(N)": 0,
           "mlvl(H)": 0,
           "packCount(H)": 0,
+          "hasStaticLevel": false,
         };
+
         monpopulation[level.Id]['superunique'][sup.Superunique][s('mlvl')] = mlvl;
         monpopulation[level.Id]['superunique'][sup.Superunique][s('packCount')] = sup.hcIdx === 19 ? 1 / 7 : 1;
+        monpopulation[level.Id]['superunique'][sup.Superunique].hasStaticLevel = Boolean(mon.boss);
       });
 
       bosses.forEach((mon) => {
@@ -559,9 +580,11 @@ let monpopulation = {};
           "packCount(N)": 0,
           "mlvl(H)": 0,
           "packCount(H)": 0,
+          "hasStaticLevel": false,
         };
         monpopulation[level.Id]['boss'][mon.Id][s('mlvl')] = mlvl;
         monpopulation[level.Id]['boss'][mon.Id][s('packCount')] = 1;
+        monpopulation[level.Id]['boss'][mon.Id].hasStaticLevel = Boolean(mon.boss);
       });
     }
   });
