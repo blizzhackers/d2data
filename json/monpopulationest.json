@@ -7624,27 +7624,27 @@
   "normal": {
    "wraith3": {
     "mlvl": 19,
-    "packCount": 70.44000000000001,
+    "packCount": 70.30666666666667,
     "mlvl(N)": 48,
     "packCount(N)": 68.01333333333332,
     "mlvl(H)": 79,
-    "packCount(H)": 65.06666666666666
+    "packCount(H)": 65.2
    },
    "goatman4": {
     "mlvl": 19,
-    "packCount": 70.44000000000001,
+    "packCount": 70.30666666666667,
     "mlvl(N)": 48,
     "packCount(N)": 68.01333333333332,
     "mlvl(H)": 79,
-    "packCount(H)": 65.06666666666666
+    "packCount(H)": 65.2
    },
    "vampire1": {
     "mlvl": 19,
-    "packCount": 70.44000000000001,
+    "packCount": 70.30666666666667,
     "mlvl(N)": 48,
     "packCount(N)": 68.01333333333332,
     "mlvl(H)": 79,
-    "packCount(H)": 65.06666666666666
+    "packCount(H)": 65.2
    }
   },
   "champion": {
@@ -7699,18 +7699,18 @@
     "packCount(H)": 2.1333333333333333
    }
   },
-  "superunique": {
-   "The Summoner": {
-    "mlvl": 21,
+  "superunique": {},
+  "boss": {
+   "summoner": {
+    "mlvl": 18,
     "packCount": 1,
-    "mlvl(N)": 58,
+    "mlvl(N)": 55,
     "packCount(N)": 1,
-    "mlvl(H)": 83,
+    "mlvl(H)": 80,
     "packCount(H)": 1,
     "hasStaticLevel": true
    }
-  },
-  "boss": {}
+  }
  },
  "75": {
   "normal": {},

@@ -263,7 +263,7 @@ files.forEach(fn => {
     full[fn]['Coldworm the Burrower'].areaId = 64;
     full[fn]['Fire Eye'].areaId = 54;
     full[fn]['Dark Elder'].areaId = 44;
-    full[fn]['The Summoner'].areaId = 74;
+    // full[fn]['The Summoner'].areaId = 74; // I don't think he spawns a superunique.
     full[fn]['The Smith'].areaId = 28;
     full[fn]['Web Mage the Burning'].areaId = 85;
     full[fn]['Witch Doctor Endugu'].areaId = 91;
@@ -305,6 +305,7 @@ files.forEach(fn => {
 
   if (fn === 'monstats') {
     full[fn]['bloodraven'].areaId = 17;
+    full[fn]['summoner'].areaId = 74;
     full[fn]['andariel'].areaId = 37;
     full[fn]['duriel'].areaId = 73;
     full[fn]['mephisto'].areaId = 102;
