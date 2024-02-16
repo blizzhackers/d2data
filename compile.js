@@ -13,6 +13,7 @@ const lineEnd = /[\n\r]+/g, fieldEnd = /\t/g, full = {};
 const inDir = 'txt/';
 const outDir = 'json/';
 const files = fs.readdirSync(inDir).filter(fn => fn.slice(-4) === '.txt').map(fn => fn.slice(0, -4));
+const decimalPrecision = 15;
 
 function keySort(obj) {
   let keys = Object.keys(obj).sort(), ret = {};
@@ -443,15 +444,28 @@ function forEachMonster(level, diff, func) {
 
     let m = (num) => level[(diff ? "nmon" : type ? "umon" : "mon") + num];
 
+    let totalrarity = 0;
+    let rarity = {};
+
     for (let c = 1; c <= 9; c++) {
       if (m(c)) {
         let mon = full.monstats[m(c)];
 
         if (mon && mon.enabled && mon.killable) {
-          let mlvl = monlevel(mon, level, diff) + [0, 2, 3][type];
-
-          func(mon, mlvl, type);
+          totalrarity += mon.Rarity || 0;
+          rarity[mon.Id] = rarity[mon.Id] || 0;
+          rarity[mon.Id] += (mon.Rarity || 0);
         }
+      }
+    }
+
+    for (let key in rarity) {
+      let mon = full.monstats[key];
+
+      if (rarity[key] > 0 && mon && mon.enabled && mon.killable) {
+        let mlvl = monlevel(mon, level, diff) + [0, 2, 3][type];
+
+        func(mon, mlvl, type, rarity[key] / totalrarity);
       }
     }
   });
@@ -512,35 +526,54 @@ let monpopulation = {};
             )
           );
         }, 0),
-        ucount = avg(l(s("MonUMin")), l(s("MonUMax"))) * uniqueRatio * uniqueCount,
-        ccount = avg(l(s("MonUMin")), l(s("MonUMax"))) * champRatio * champCount,
-        count = acount - ucount - ccount - scount - bcount;
+        monucount = avg(l(s("MonUMin")), l(s("MonUMax"))),
+        ucount = monucount * uniqueRatio * uniqueCount,
+        ccount = 0;
+
+      forEachMonster(level, diff, (mon, mlvl, type, rarity) => {
+        if (type === 1) {
+          ccount += (monucount * rarity * champRatio) * (champCount + avg((mon["PartyMin"] || 0), (mon["PartyMax"] || 0)));
+        }
+      });
+
+      let count = acount - ucount - ccount - scount - bcount;
 
       if (count > 0) {
-        let totalpackssize = 0,
-          udiv = 0;
+        let ratio = [{}, {}, {}, {}, {}];
 
-        forEachMonster(level, diff, (mon, mlvl, type) => {
-          if (!type) {
-            let m = (key) => mon[key] || 0;
-            let packsize = avg(
-              m("PartyMin") + m("PartyMax"),
-              m("MinGrp") + m("MaxGrp")
-            );
-
-            totalpackssize += packsize;
-          }
-
-          if (type === 2) {
-            udiv++;
-          }
+        forEachMonster(level, diff, (mon, mlvl, type, rarity) => {
+          let grp = [
+            avg(
+              (mon["MinGrp"] || 0),
+              (mon["MaxGrp"] || 0)
+            ),
+            3,
+            1,
+          ][type];
+          ratio[type][mon.Id] = rarity * grp +
+          avg(
+            (mon["PartyMin"] || 0),
+            (mon["PartyMax"] || 0)
+          );
         });
 
-        forEachMonster(level, diff, (mon, mlvl, type) => {
+        for (let stype = 0; stype < 5; stype++) {
+          let totalratio = 0;
+
+          for (let skey in ratio[stype]) {
+            totalratio += ratio[stype][skey];
+          }
+
+          for (let skey in ratio[stype]) {
+            ratio[stype][skey] /= totalratio;
+          }
+        }
+
+        forEachMonster(level, diff, (mon, mlvl, type, rarity) => {
           let mult = [
-            count / totalpackssize,
-            ccount / champCount / udiv,
-            ucount / uniqueCount / udiv,
+            count * ratio[type][mon.Id] / (avg((mon["MinGrp"] || 0), (mon["MaxGrp"] || 0)) + avg((mon["PartyMin"] || 0), (mon["PartyMax"] || 0))),
+            monucount * rarity * champRatio,
+            monucount * rarity * uniqueRatio,
           ][type];
           monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] = monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] || {
             "mlvl": 0,
@@ -551,7 +584,7 @@ let monpopulation = {};
             "packCount(H)": 0,
           };
           monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('mlvl')] = mlvl;
-          monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('packCount')] = mult;
+          monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('packCount')] = Math.round(mult * (10 ** decimalPrecision)) / (10 ** decimalPrecision);
         });
       }
 
