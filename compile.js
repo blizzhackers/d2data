@@ -310,6 +310,7 @@ files.forEach(fn => {
     full[fn]['andariel'].areaId = 37;
     full[fn]['duriel'].areaId = 73;
     full[fn]['mephisto'].areaId = 102;
+    full[fn]['izual'].areaId = 105;
     full[fn]['diablo'].areaId = 108;
     full[fn]['baalcrab'].areaId = 132;
     full[fn]['ubermephisto'].areaId = 136;
