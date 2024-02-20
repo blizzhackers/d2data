@@ -639,10 +639,25 @@ let dmgtypes = [
   'ResPo',
 ];
 
+let requiredAreas = [ // Areas that we're forced to deal with through questing.
+  // Act 1
+  2,3,4,5,6,7,10,26,27,28,29,30,31,32,33,34,35,36,37,
+  // Act 2
+  41,42,43,44,45,46,50,51,52,53,54,56,57,58,60,61,62,63,64,66,67,68,69,70,71,72,73,74,
+  // Act 3
+  76,77,78,79,80,81,82,83,85,88,89,91,92,93,100,101,102,
+  // Act 4
+  104,105,106,107,108,
+  // Act 5
+  110,111,112,113,115,117,118,120,128,129,130,131,132
+];
+
 for (let diff of [0, 1, 2]) {
   let s = str => str + ['', '(N)', '(H)'][diff];
 
   for (let levelid in monpopulation) {
+    levelid = Number(levelid);
+
     let level = full.levels[levelid];
     let act = (level.Act || 0);
     let pop = monpopulation[levelid];
@@ -650,6 +665,8 @@ for (let diff of [0, 1, 2]) {
     if (levelid < 1 || levelid > 132) {
       continue;
     }
+
+    let category = requiredAreas.indexOf(levelid) >= 0 ? 'required' : 'optional';
 
     for (let montype of montypes) {
       for (let id in pop[montype]) {
@@ -680,15 +697,16 @@ for (let diff of [0, 1, 2]) {
           }
         
         actprofile[act] = actprofile[act] || {};
+        actprofile[act][category] = actprofile[act][category] || {};
 
         for (let dmgtype of dmgtypes) {
-          actprofile[act][s(dmgtype)] = actprofile[act][s(dmgtype)] || {};
+          actprofile[act][category][s(dmgtype)] = actprofile[act][category][s(dmgtype)] || {};
         }
 
         for (let dmgtype of dmgtypes) {
           let resist = mon[s(dmgtype)] || 0;
   
-          actprofile[act][s(dmgtype)][resist] = actprofile[act][s(dmgtype)][resist] || 0;
+          actprofile[act][category][s(dmgtype)][resist] = actprofile[act][category][s(dmgtype)][resist] || 0;
   
           if (montype === 'superunique' || montype === 'unique') {
             if (montype === 'superunique') {
@@ -697,14 +715,14 @@ for (let diff of [0, 1, 2]) {
             else {
               grp = Math.max(1, ((mon['MinGrp'] || 1) + (mon['MaxGrp'] || 1)) / 2);
             }
-            actprofile[act][s(dmgtype)][resist] += packCount * hp * [4, 3, 2][diff];
+            actprofile[act][category][s(dmgtype)][resist] += packCount * hp * [4, 3, 2][diff];
             party = 2.5 + diff;
           }
           else if (montype === 'champion') {
-            actprofile[act][s(dmgtype)][resist] += packCount * hp * 3 * [3, 2.5, 2][diff];
+            actprofile[act][category][s(dmgtype)][resist] += packCount * hp * 3 * [3, 2.5, 2][diff];
           }
           else {
-            actprofile[act][s(dmgtype)][resist] += packCount * hp * grp;
+            actprofile[act][category][s(dmgtype)][resist] += packCount * hp * grp;
           }
 
           if (party > 0 && minions.length > 0) {
@@ -715,8 +733,8 @@ for (let diff of [0, 1, 2]) {
                 mhp = full.monlvl[mmlvl][s('HP')] *
                   (mmon[['minHP', 'MinHP(N)', 'MinHP(H)'][diff]] + mmon[['maxHP', 'MaxHP(N)', 'MaxHP(H)'][diff]]) / 100;
   
-              actprofile[act][s(dmgtype)][mresist] = actprofile[act][s(dmgtype)][mresist] || 0;
-              actprofile[act][s(dmgtype)][mresist] += packCount * mhp * party / minions.length;
+              actprofile[act][category][s(dmgtype)][mresist] = actprofile[act][category][s(dmgtype)][mresist] || 0;
+              actprofile[act][category][s(dmgtype)][mresist] += packCount * mhp * party / minions.length;
             }
           }
         }
@@ -725,13 +743,16 @@ for (let diff of [0, 1, 2]) {
   }
 }
 
-for (let act in actprofile) {
-  for (let dmgtype in actprofile[act]) {
-    for (let resist in actprofile[act][dmgtype]) {
-      actprofile[act][dmgtype][resist] = Math.round(actprofile[act][dmgtype][resist]);
+(function roundValues (obj) {
+  for (let key in obj) {
+    if (typeof obj[key] === 'number') {
+      obj[key] = Math.round(obj[key]);
+    }
+    else if(typeof obj[key] === 'object') {
+      roundValues(obj[key]);
     }
   }
-}
+})(actprofile);
 
 let tcprecalc = {};
 
