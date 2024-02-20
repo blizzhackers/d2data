@@ -641,7 +641,6 @@ let dmgtypes = [
 
 for (let diff of [0, 1, 2]) {
   let s = str => str + ['', '(N)', '(H)'][diff];
-  let diffstr = ['normal', 'nightmare', 'hell'][diff];
 
   for (let levelid in monpopulation) {
     let level = full.levels[levelid];
