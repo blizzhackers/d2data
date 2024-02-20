@@ -628,6 +628,112 @@ let monpopulation = {};
   });
 });
 
+let actprofile = {};
+let montypes = ['normal', 'champion', 'unique', 'superunique', 'boss'];
+let dmgtypes = [
+  'ResDm',
+  'ResMa',
+  'ResFi',
+  'ResLi',
+  'ResCo',
+  'ResPo',
+];
+
+for (let diff of [0, 1, 2]) {
+  let s = str => str + ['', '(N)', '(H)'][diff];
+  let diffstr = ['normal', 'nightmare', 'hell'][diff];
+
+  for (let levelid in monpopulation) {
+    let level = full.levels[levelid];
+    let act = (level.Act || 0);
+    let pop = monpopulation[levelid];
+
+    if (levelid < 1 || levelid > 132) {
+      continue;
+    }
+
+    for (let montype of montypes) {
+      for (let id in pop[montype]) {
+        let sup = undefined,
+          mon = undefined;
+
+        if (montype === 'superunique') {
+          sup = full.superuniques[id];
+          mon = full.monstats[sup.Class];
+        }
+        else {
+          mon = full.monstats[id];
+        }
+
+        let grp = Math.max(1, ((mon['MinGrp'] || 1) + (mon['MaxGrp'] || 1)) / 2),
+          party = ((mon['PartyMin'] || 0) + mon['PartyMax'] || 0) / 4,
+          minions = [
+            mon['minion1'] || undefined,
+            mon['minion2'] || undefined,
+          ].filter(Boolean),
+          packCount = pop[montype][id][s('packCount')],
+          mlvl = pop[montype][id][s('mlvl')],
+          hp = full.monlvl[mlvl][s('HP')] *
+            (mon[['minHP', 'MinHP(N)', 'MinHP(H)'][diff]] + mon[['maxHP', 'MaxHP(N)', 'MaxHP(H)'][diff]]) / 200;
+          
+          if ((montype === 'superunique' || montype === 'unique') && !minions.length) {
+            minions.push(mon.Id);
+          }
+        
+        actprofile[act] = actprofile[act] || {};
+
+        for (let dmgtype of dmgtypes) {
+          actprofile[act][s(dmgtype)] = actprofile[act][s(dmgtype)] || {};
+        }
+
+        for (let dmgtype of dmgtypes) {
+          let resist = mon[s(dmgtype)] || 0;
+  
+          actprofile[act][s(dmgtype)][resist] = actprofile[act][s(dmgtype)][resist] || 0;
+  
+          if (montype === 'superunique' || montype === 'unique') {
+            if (montype === 'superunique') {
+              grp = Math.max(1, ((sup['MinGrp'] || mon['MinGrp'] || 1) + (sup['MaxGrp'] || mon['MaxGrp'] || 1)) / 2);
+            }
+            else {
+              grp = Math.max(1, ((mon['MinGrp'] || 1) + (mon['MaxGrp'] || 1)) / 2);
+            }
+            actprofile[act][s(dmgtype)][resist] += packCount * hp * [4, 3, 2][diff];
+            party = 2.5 + diff;
+          }
+          else if (montype === 'champion') {
+            actprofile[act][s(dmgtype)][resist] += packCount * hp * 3 * [3, 2.5, 2][diff];
+          }
+          else {
+            actprofile[act][s(dmgtype)][resist] += packCount * hp * grp;
+          }
+
+          if (party > 0 && minions.length > 0) {
+            for (let minion of minions) {
+              let mmon = full.monstats[minion],
+                mresist = mmon[s(dmgtype)] || 0,
+                mmlvl = (diff ? mmon['Level'] : level[s('MonLvl')]) + (montype === 'superunique' || montype === 'unique' ? 3 : 0),
+                mhp = full.monlvl[mmlvl][s('HP')] *
+                  (mmon[['minHP', 'MinHP(N)', 'MinHP(H)'][diff]] + mmon[['maxHP', 'MaxHP(N)', 'MaxHP(H)'][diff]]) / 100;
+  
+              actprofile[act][s(dmgtype)][mresist] = actprofile[act][s(dmgtype)][mresist] || 0;
+              actprofile[act][s(dmgtype)][mresist] += packCount * mhp * party / minions.length;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+for (let act in actprofile) {
+  for (let dmgtype in actprofile[act]) {
+    for (let resist in actprofile[act][dmgtype]) {
+      actprofile[act][dmgtype][resist] = Math.round(actprofile[act][dmgtype][resist]);
+    }
+  }
+}
+
 let tcprecalc = {};
 
 full.treasureclassex.forEach((tc, key) => {
@@ -780,3 +886,4 @@ fs.writeFileSync(outDir + 'atomic.json', JSON.stringify(keySort(atomic), null, '
 fs.writeFileSync(outDir + 'treasureclassgroupsex.json', JSON.stringify(groupsEx, null, ' '));
 fs.writeFileSync(outDir + 'monpopulationest.json', JSON.stringify(monpopulation, null, ' '));
 fs.writeFileSync(outDir + 'tcprecalc.json', JSON.stringify(tcprecalc, null, ' '));
+fs.writeFileSync(outDir + 'actprofile.json', JSON.stringify(actprofile, null, ' '));
