@@ -639,17 +639,21 @@ let dmgtypes = [
   'ResPo',
 ];
 
-let requiredAreas = [ // Areas that we're forced to deal with through questing.
+let progressionAreas = [ // Areas that we're forced to deal with while progressing through the main quest lines.
   // Act 1
-  2,3,4,5,6,7,10,26,27,28,29,30,31,32,33,34,35,36,37,
+  2,3,4,5,6,7,10,26,27,28,29,30,31,32,33,34,35,36,
   // Act 2
-  41,42,43,44,45,46,50,51,52,53,54,56,57,58,60,61,62,63,64,66,67,68,69,70,71,72,73,74,
+  41,42,43,44,45,46,50,51,52,53,54,56,57,58,60,61,62,63,64,66,67,68,69,70,71,72,73,
   // Act 3
-  76,77,78,79,80,81,82,83,85,88,89,91,92,93,100,101,102,
+  76,77,78,79,80,81,82,83,85,88,89,91,92,93,100,101,
   // Act 4
-  104,105,106,107,108,
+  104,105,106,107,
   // Act 5
-  110,111,112,113,115,117,118,120,128,129,130,131,132
+  110,111,112,113,115,117,118,120,128,129,130,
+];
+
+let bossAreas = [ // Areas that we're forced to deal with for boss farming.
+  37,74,102,108,131,132,
 ];
 
 for (let diff of [0, 1, 2]) {
@@ -666,7 +670,7 @@ for (let diff of [0, 1, 2]) {
       continue;
     }
 
-    let category = requiredAreas.indexOf(levelid) >= 0 ? 'required' : 'optional';
+    let category = bossAreas.indexOf(levelid) >= 0 ? 'boss' : (progressionAreas.indexOf(levelid) >= 0 ? 'progression' : 'optional');
 
     for (let montype of montypes) {
       for (let id in pop[montype]) {
