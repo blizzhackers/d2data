@@ -758,6 +758,68 @@ for (let diff of [0, 1, 2]) {
   }
 })(actprofile);
 
+let coldmasterybreakpoints = {}, coldhpbyres = {};
+
+for (let act of Object.values(actprofile)) {
+  for (let resset of Object.values(act)) {
+    if (resset['ResCo(H)']) {
+      for (let res in resset['ResCo(H)']) {
+        res = Number(res);
+        coldhpbyres[res] = coldhpbyres[res] || 0;
+        coldhpbyres[res] += resset['ResCo(H)'][res];
+      }
+    }
+  }
+}
+
+(function () {
+  for (let mastery = 0; mastery <= 195; mastery === 0 ? mastery = 20 : mastery ++) {
+    let ehp = 0;
+
+    for (let res in coldhpbyres) {
+      res = Number(res);
+      let pierce = (res >= 100 ? (mastery / 5) : mastery);
+      let mod = Math.min(2, 1 - (Math.min(95, res) - pierce) / 100);
+      ehp += coldhpbyres[res] / mod;
+    }
+
+    coldmasterybreakpoints[mastery] = ehp;
+  }
+
+  let masterylist = Object.keys(coldmasterybreakpoints);
+
+  for (let i = masterylist.length - 1; i; i--) {
+    coldmasterybreakpoints[masterylist[i]] = (coldmasterybreakpoints[masterylist[i - 1]] / coldmasterybreakpoints[masterylist[i]] - 1);
+  }
+
+  coldmasterybreakpoints[0] = 0;
+
+  for (let c = 0; c < 2; c++) {
+    for (let i = masterylist.length - 1; i; i--) {
+      coldmasterybreakpoints[masterylist[i]] = coldmasterybreakpoints[masterylist[i]] - coldmasterybreakpoints[masterylist[i - 1]];
+    }
+  }
+
+  for (let i = masterylist.length - 1; i; i--) {
+    coldmasterybreakpoints[masterylist[i]] = coldmasterybreakpoints[masterylist[i]] * 10000;
+  }
+
+  let newMasteryList = {}, mmin = Infinity;
+
+  for (let i = masterylist.length; i; i--) {
+    if (coldmasterybreakpoints[masterylist[i]] <= -0.5) {
+      mmin = Math.min(mmin, -coldmasterybreakpoints[masterylist[i]]);
+      newMasteryList[masterylist[i - 1]] = -coldmasterybreakpoints[masterylist[i]];
+    }
+  }
+
+  for (let key in newMasteryList) {
+    newMasteryList[key] = Math.round(newMasteryList[key] / mmin);
+  }
+
+  coldmasterybreakpoints = newMasteryList;
+})();
+
 let tcprecalc = {};
 
 full.treasureclassex.forEach((tc, key) => {
@@ -911,3 +973,4 @@ fs.writeFileSync(outDir + 'treasureclassgroupsex.json', JSON.stringify(groupsEx,
 fs.writeFileSync(outDir + 'monpopulationest.json', JSON.stringify(monpopulation, null, ' '));
 fs.writeFileSync(outDir + 'tcprecalc.json', JSON.stringify(tcprecalc, null, ' '));
 fs.writeFileSync(outDir + 'actprofile.json', JSON.stringify(actprofile, null, ' '));
+fs.writeFileSync(outDir + 'coldmasterybreakpoints.json', JSON.stringify(coldmasterybreakpoints, null, ' '));
