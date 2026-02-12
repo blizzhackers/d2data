@@ -851,120 +851,33 @@ atomic.forEach((precalc, key) => {
   };
 });
 
-// Formulas and coefficients for the 6 item cap are from https://github.com/realmonster/diablo2_drop_calc
-// He did a lot of work figuring out the formulas that I don't care to replicate,
-// so I'm taking the path of least resistance.
+function totalTC (key, debug = []) {
+  if (key in tcprecalc) {
+    let tc = tcprecalc[key], total = 0;
 
-// Adjust droprates for TCs with 7 picks for the 6 item cap.
-tcprecalc.forEach((basetc, basekey) => {
-  if (full.treasureclassex[basekey] && full.treasureclassex[basekey].Picks === 7) {
-    [1, 2, 3, 4, 5, 6, 7, 8].forEach(playerCount => {
-      let newvalue = basetc.droprate[playerCount] * (7 - basetc.droprate[playerCount]**6) / 7;
-      basetc.droprateRoot[playerCount] = newvalue;
-    });
-  } else {
-    basetc.droprateRoot = Object.assign({}, basetc.droprate);
-  }
-});
-
-[
-  "Duriel",
-  "Duriel Desecrated A",
-  "Duriel Desecrated B",
-  "Duriel Desecrated C",
-  "Duriel (N)",
-  "Duriel (N) Desecrated A",
-  "Duriel (N) Desecrated B",
-  "Duriel (N) Desecrated C",
-  "Duriel (H)",
-  "Duriel (H) Desecrated A",
-  "Duriel (H) Desecrated B",
-  "Duriel (H) Desecrated C",
-  "Duriel (H) Desecrated D",
-  "Durielq",
-  "Durielq (N)",
-  "Durielq (H)",
-].forEach(tcname => {
-  for (let c = 1; c < 9; c++) {
-    tcprecalc[tcname]['droprateRoot'][c] *= 5 / 11;
-  }
-});
-
-tcprecalc.forEach(tc => {
-  if (tc['counts']['Sunder Charms']) {
-    delete tc['counts']['Sunder Charms'];
-  }
-});
-
-// Flatten and abstract countess rune TCs so we can adjust the drop rate of each via coefficient.
-//tcprecalc.forEach((tc, key) => {
-  ({
-    'Countess Rune': tcprecalc['Countess Rune'],
-    'Countess Rune (N)': tcprecalc['Countess Rune (N)'],
-    'Countess Rune (H)': tcprecalc['Countess Rune (H)'],
-  }).forEach((tc, baseName) => {
-    function flattenAndAbstract (tcName, mult = 1, ret = {}) {
-      if (tcprecalc[tcName]) {
-        tcprecalc[tcName].counts.forEach((submult, subtcName) => {
-          flattenAndAbstract(subtcName, mult * submult, ret);
-        });
-      } else {
-        let newtcName = `${baseName} - ${tcName}`;
-
-        if (!tcprecalc[newtcName]) {
-          tcprecalc[newtcName] = {
-            droprate: {
-              1: 1,
-              2: 1,
-              3: 1,
-              4: 1,
-              5: 1,
-              6: 1,
-              7: 1,
-              8: 1,
-            },
-            droprateRoot: {
-              1: 1,
-              2: 1,
-              3: 1,
-              4: 1,
-              5: 1,
-              6: 1,
-              7: 1,
-              8: 1,
-            },
-            counts: {
-              [tcName]: 1,
-            }
-          };
-        }
-
-        ret[newtcName] = ret[newtcName] || 0;
-        ret[newtcName] += mult;
-      }
-
-      return ret;
+    for (let subtc in tc.counts) {
+      total += tc.counts[subtc] * totalTC(subtc, debug);
     }
 
-    tc.counts = flattenAndAbstract(baseName);
-  });
-//});
+    return Math.round(total * 1e15) / 1e15;
+  }
 
-// Multiply the coefficients to the abstracted TCs
-({
-  'Countess Rune': {"1":{"0.8412177979895897":["r01"],"0.8412177979895898":["r02"],"0.8279977514350507":["r03"],"0.8279977514350506":["r04"],"0.8238064081864378":["r05","r06","r07","r08"]},"2":{"0.5384142786164905":["r01","r02"],"0.4988295919434789":["r03"],"0.498829591943479":["r04"],"0.4862413242371927":["r05","r08"],"0.48624132423719274":["r06","r07"]},"3":{"0.43127418667153955":["r01","r02"],"0.38274414977638443":["r03","r04"],"0.3673191805912878":["r05","r08"],"0.3673191805912879":["r06","r07"]},"4":{"0.4019832189168574":["r01"],"0.40198321891685734":["r02"],"0.3499170812603648":["r03"],"0.34991708126036486":["r04"],"0.3333333333333333":["r05","r07","r08"],"0.33333333333333337":["r06"]},"5":{"0.4019832189168574":["r01"],"0.40198321891685734":["r02"],"0.3499170812603648":["r03"],"0.34991708126036486":["r04"],"0.3333333333333333":["r05","r07","r08"],"0.33333333333333337":["r06"]},"6":{"0.4019832189168574":["r01"],"0.40198321891685734":["r02"],"0.3499170812603648":["r03"],"0.34991708126036486":["r04"],"0.3333333333333333":["r05","r07","r08"],"0.33333333333333337":["r06"]},"7":{"0.4019832189168574":["r01"],"0.40198321891685734":["r02"],"0.3499170812603648":["r03"],"0.34991708126036486":["r04"],"0.3333333333333333":["r05","r07","r08"],"0.33333333333333337":["r06"]},"8":{"0.4019832189168574":["r01"],"0.40198321891685734":["r02"],"0.3499170812603648":["r03"],"0.34991708126036486":["r04"],"0.3333333333333333":["r05","r07","r08"],"0.33333333333333337":["r06"]}},
-  'Countess Rune (N)': {"1":{"0.8256244546455895":["r01","r02","r05","r06","r11","r14","r16"],"0.8256244546455894":["r03","r07","r09","r12","r13","r15"],"0.8256244546455896":["r04","r08","r10"]},"2":{"0.491703901847278":["r01","r06"],"0.4917039018472779":["r02","r03","r07","r09","r12","r15","r16"],"0.49170390184727797":["r04","r05","r08","r10","r11","r13","r14"]},"3":{"0.37401224832526186":["r01","r02","r05","r06","r11","r12","r14","r15","r16"],"0.3740122483252619":["r03","r04","r07","r08","r09","r10","r13"]},"4":{"0.34053127677806344":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r11"],"0.3405312767780634":["r12","r13","r14","r15","r16"]},"5":{"0.34053127677806344":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r11"],"0.3405312767780634":["r12","r13","r14","r15","r16"]},"6":{"0.34053127677806344":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r11"],"0.3405312767780634":["r12","r13","r14","r15","r16"]},"7":{"0.34053127677806344":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r11"],"0.3405312767780634":["r12","r13","r14","r15","r16"]},"8":{"0.34053127677806344":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r11"],"0.3405312767780634":["r12","r13","r14","r15","r16"]}},
-  'Countess Rune (H)': {"1":{"0.8219588445252253":["r01","r06"],"0.8219588445252254":["r02","r03","r04","r05","r07","r08","r09","r10","r11","r12","r13","r15","r17","r18","r19","r20","r22","r23","r24"],"0.8219588445252255":["r14","r16","r21"]},"2":{"0.4893751399649079":["r01","r02","r11","r17","r19"],"0.48937513996490795":["r03","r05","r06","r07","r09","r12","r13","r15","r16","r18","r20","r21","r22","r23","r24"],"0.489375139964908":["r04","r08","r10","r14"]},"3":{"0.3733514492176993":["r01","r17"],"0.37335144921769925":["r02","r03","r04","r05","r06","r07","r08","r09","r10","r11","r12","r14","r15","r16","r19","r20","r21","r22","r23","r24"],"0.3733514492176992":["r13","r18"]},"4":{"0.34053976872957364":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r12","r13","r14","r15","r16","r17","r19","r20","r23","r24"],"0.3405397687295737":["r11","r18","r21"],"0.3405397687295736":["r22"]},"5":{"0.34053976872957364":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r12","r13","r14","r15","r16","r17","r19","r20","r23","r24"],"0.3405397687295737":["r11","r18","r21"],"0.3405397687295736":["r22"]},"6":{"0.34053976872957364":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r12","r13","r14","r15","r16","r17","r19","r20","r23","r24"],"0.3405397687295737":["r11","r18","r21"],"0.3405397687295736":["r22"]},"7":{"0.34053976872957364":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r12","r13","r14","r15","r16","r17","r19","r20","r23","r24"],"0.3405397687295737":["r11","r18","r21"],"0.3405397687295736":["r22"]},"8":{"0.34053976872957364":["r01","r02","r03","r04","r05","r06","r07","r08","r09","r10","r12","r13","r14","r15","r16","r17","r19","r20","r23","r24"],"0.3405397687295737":["r11","r18","r21"],"0.3405397687295736":["r22"]}},
-}).forEach((data, baseName) => {
-  [1, 2, 3, 4, 5, 6, 7, 8].forEach(players => {
-    data[players].forEach((runes, value) => {
-      value = Number(value);
-      runes.forEach(runeName => {
-        tcprecalc[baseName + ' - ' + runeName]['droprate'][players] *= value;
-      });
-    });
-  });
-});
+  return 1;
+}
+
+for (let key in tcprecalc) {
+  let debug = [], total = totalTC(key, debug), tc = tcprecalc[key];
+
+  tc.droprateRoot = {
+    ...tc.droprate,
+  };
+
+  if (total > 6) {
+    for (let exp in tc.droprateRoot) {
+      tc.droprateRoot[exp] = tc.droprateRoot[exp] * 6 / total;
+    }
+  }
+}
 
 files.forEach(fn => {
   fs.writeFileSync(outDir + fn + '.json', JSON.stringify(keySort(full[fn]), null, ' '));
