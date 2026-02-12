@@ -26,8 +26,10 @@
   "Class": "ama",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "amazo",
+  "RunewordCategory1": "r_mis",
   "expansion": 1,
-  "lineNumber": 86
+  "lineNumber": 87
  },
  "ajav": {
   "ItemType": "Amazon Javelin",
@@ -55,8 +57,10 @@
   "Class": "ama",
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "amazo",
+  "RunewordCategory1": "r_mel",
   "expansion": 1,
-  "lineNumber": 88
+  "lineNumber": 89
  },
  "amaz": {
   "ItemType": "Amazon Item",
@@ -111,6 +115,7 @@
   "InvGfx2": "invamu2",
   "InvGfx3": "invamu3",
   "StorePage": "misc",
+  "UICategory": "amule",
   "lineNumber": 12
  },
  "apot": {
@@ -134,8 +139,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "expansion": 1,
-  "lineNumber": 81
+  "lineNumber": 82
  },
  "armo": {
   "ItemType": "Any Armor",
@@ -157,6 +163,7 @@
   "TreasureClass": 1,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_arm",
   "lineNumber": 50
  },
  "ashd": {
@@ -185,8 +192,10 @@
   "Class": "pal",
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "palad",
+  "RunewordCategory1": "r_off",
   "expansion": 1,
-  "lineNumber": 71
+  "lineNumber": 72
  },
  "aspe": {
   "ItemType": "Amazon Spear",
@@ -214,8 +223,10 @@
   "Class": "ama",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "amazo",
+  "RunewordCategory1": "r_mel",
   "expansion": 1,
-  "lineNumber": 87
+  "lineNumber": 88
  },
  "assn": {
   "ItemType": "Assassin Item",
@@ -266,6 +277,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "axes",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 28
  },
  "barb": {
@@ -317,6 +330,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "belts",
+  "RunewordCategory1": "r_arm",
   "lineNumber": 19
  },
  "blde": {
@@ -341,7 +356,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "expansion": 1,
-  "lineNumber": 104
+  "lineNumber": 105
  },
  "blun": {
   "ItemType": "Blunt",
@@ -364,6 +379,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mel",
   "lineNumber": 57
  },
  "body": {
@@ -410,6 +426,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "scrlt",
   "lineNumber": 18
  },
  "boot": {
@@ -436,6 +453,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "boots",
+  "RunewordCategory1": "r_arm",
   "lineNumber": 15
  },
  "bow": {
@@ -463,6 +482,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "bows",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 27
  },
  "bowq": {
@@ -490,6 +511,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "ammo",
   "lineNumber": 5
  },
  "char": {
@@ -517,6 +539,7 @@
   "InvGfx2": "invch4",
   "InvGfx3": "invch7",
   "StorePage": "misc",
+  "UICategory": "charm",
   "lineNumber": 13
  },
  "circ": {
@@ -543,8 +566,44 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "circl",
+  "RunewordCategory1": "r_hel",
   "expansion": 1,
-  "lineNumber": 76
+  "lineNumber": 77
+ },
+ "cjwl": {
+  "ItemType": "Colossal Jewel",
+  "Code": "cjwl",
+  "Equiv1": "jewl",
+  "Repair": 0,
+  "Body": 0,
+  "Throwable": 0,
+  "Reload": 0,
+  "ReEquip": 0,
+  "AutoStack": 0,
+  "Magic": 1,
+  "Rare": 1,
+  "Normal": 0,
+  "Beltable": 0,
+  "MaxSockets1": 0,
+  "MaxSocketsLevelThreshold1": 25,
+  "MaxSockets2": 0,
+  "MaxSocketsLevelThreshold2": 40,
+  "MaxSockets3": 0,
+  "TreasureClass": 0,
+  "Rarity": 3,
+  "VarInvGfx": 6,
+  "InvGfx1": "invjw1",
+  "InvGfx2": "invjw2",
+  "InvGfx3": "invjw3",
+  "InvGfx4": "invjw4",
+  "InvGfx5": "invjw5",
+  "InvGfx6": "invjw6",
+  "StorePage": "misc",
+  "UICategory": "jewel",
+  "Restricted": 1,
+  "expansion": 1,
+  "lineNumber": 108
  },
  "clas": {
   "ItemType": "Class Specific",
@@ -596,8 +655,9 @@
   "Class": "ass",
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "RunewordCategory1": "r_arm",
   "expansion": 1,
-  "lineNumber": 74
+  "lineNumber": 75
  },
  "club": {
   "ItemType": "Club",
@@ -623,6 +683,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "maces",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 29
  },
  "comb": {
@@ -647,7 +709,36 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mel",
   "lineNumber": 49
+ },
+ "csch": {
+  "ItemType": "Crafted Sunder Charm",
+  "Code": "csch",
+  "Equiv1": "char",
+  "Repair": 0,
+  "Body": 0,
+  "Throwable": 0,
+  "Reload": 0,
+  "ReEquip": 0,
+  "AutoStack": 0,
+  "Magic": 1,
+  "Normal": 0,
+  "Beltable": 0,
+  "MaxSockets1": 0,
+  "MaxSocketsLevelThreshold1": 25,
+  "MaxSockets2": 0,
+  "MaxSocketsLevelThreshold2": 40,
+  "MaxSockets3": 0,
+  "TreasureClass": 0,
+  "Rarity": 3,
+  "VarInvGfx": 3,
+  "InvGfx1": "invch3",
+  "InvGfx2": "invch6",
+  "InvGfx3": "invch9",
+  "StorePage": "misc",
+  "expansion": 1,
+  "lineNumber": 109
  },
  "drui": {
   "ItemType": "Druid Item",
@@ -718,6 +809,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "lineNumber": 20
  },
  "gem0": {
@@ -741,8 +833,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 92
+  "lineNumber": 93
  },
  "gem1": {
   "ItemType": "Flawed Gem",
@@ -765,8 +858,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 93
+  "lineNumber": 94
  },
  "gem2": {
   "ItemType": "Standard Gem",
@@ -789,8 +883,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 94
+  "lineNumber": 95
  },
  "gem3": {
   "ItemType": "Flawless Gem",
@@ -813,8 +908,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 95
+  "lineNumber": 96
  },
  "gem4": {
   "ItemType": "Perfect Gem",
@@ -837,8 +933,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 96
+  "lineNumber": 97
  },
  "gema": {
   "ItemType": "Amethyst",
@@ -861,8 +958,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 97
+  "lineNumber": 98
  },
  "gemd": {
   "ItemType": "Diamond",
@@ -885,8 +983,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 98
+  "lineNumber": 99
  },
  "geme": {
   "ItemType": "Emerald",
@@ -909,8 +1008,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 99
+  "lineNumber": 100
  },
  "gemr": {
   "ItemType": "Ruby",
@@ -933,8 +1033,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 100
+  "lineNumber": 101
  },
  "gems": {
   "ItemType": "Sapphire",
@@ -957,8 +1058,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 101
+  "lineNumber": 102
  },
  "gemt": {
   "ItemType": "Topaz",
@@ -981,8 +1083,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 102
+  "lineNumber": 103
  },
  "gemz": {
   "ItemType": "Skull",
@@ -1005,8 +1108,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "gems",
   "expansion": 1,
-  "lineNumber": 103
+  "lineNumber": 104
  },
  "glov": {
   "ItemType": "Gloves",
@@ -1032,6 +1136,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "glove",
+  "RunewordCategory1": "r_arm",
   "lineNumber": 16
  },
  "gold": {
@@ -1055,6 +1161,37 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "lineNumber": 4
+ },
+ "grim": {
+  "ItemType": "Grimoire",
+  "Code": "grim",
+  "Equiv1": "shld",
+  "Equiv2": "warl",
+  "Repair": 1,
+  "Body": 1,
+  "BodyLoc1": "rarm",
+  "BodyLoc2": "larm",
+  "Throwable": 0,
+  "Reload": 0,
+  "ReEquip": 0,
+  "AutoStack": 0,
+  "Rare": 1,
+  "Normal": 0,
+  "Beltable": 0,
+  "MaxSockets1": 2,
+  "MaxSocketsLevelThreshold1": 25,
+  "MaxSockets2": 3,
+  "MaxSocketsLevelThreshold2": 40,
+  "MaxSockets3": 3,
+  "TreasureClass": 0,
+  "Rarity": 1,
+  "StaffMods": "war",
+  "Class": "war",
+  "VarInvGfx": 0,
+  "StorePage": "armo",
+  "UICategory": "warlo",
+  "expansion": 1,
+  "lineNumber": 107
  },
  "h2h": {
   "ItemType": "Hand to Hand",
@@ -1082,8 +1219,10 @@
   "Class": "ass",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "assas",
+  "RunewordCategory1": "r_mel",
   "expansion": 1,
-  "lineNumber": 68
+  "lineNumber": 69
  },
  "h2h2": {
   "ItemType": "Hand to Hand 2",
@@ -1111,8 +1250,10 @@
   "Class": "ass",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "assas",
+  "RunewordCategory1": "r_mel",
   "expansion": 1,
-  "lineNumber": 89
+  "lineNumber": 90
  },
  "hamm": {
   "ItemType": "Hammer",
@@ -1138,6 +1279,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "maces",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 31
  },
  "head": {
@@ -1167,8 +1310,10 @@
   "Class": "nec",
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "necro",
+  "RunewordCategory1": "r_arm",
   "expansion": 1,
-  "lineNumber": 70
+  "lineNumber": 71
  },
  "helm": {
   "ItemType": "Helm",
@@ -1194,6 +1339,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "helms",
+  "RunewordCategory1": "r_hel",
   "lineNumber": 37
  },
  "herb": {
@@ -1240,8 +1387,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "expansion": 1,
-  "lineNumber": 77
+  "lineNumber": 78
  },
  "jave": {
   "ItemType": "Javelin",
@@ -1268,6 +1416,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "javel",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 44
  },
  "jewl": {
@@ -1299,6 +1449,7 @@
   "InvGfx5": "invjw5",
   "InvGfx6": "invjw6",
   "StorePage": "misc",
+  "UICategory": "jewel",
   "expansion": 1,
   "lineNumber": 59
  },
@@ -1347,8 +1498,11 @@
   "MaxSockets3": 3,
   "TreasureClass": 0,
   "Rarity": 3,
+  "StaffMods": "war",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "daggs",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 32
  },
  "lcha": {
@@ -1376,8 +1530,9 @@
   "InvGfx2": "invch6",
   "InvGfx3": "invch9",
   "StorePage": "misc",
+  "UICategory": "charm",
   "expansion": 1,
-  "lineNumber": 85
+  "lineNumber": 86
  },
  "mace": {
   "ItemType": "Mace",
@@ -1403,6 +1558,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "maces",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 36
  },
  "mboq": {
@@ -1432,7 +1589,7 @@
   "VarInvGfx": 0,
   "StorePage": "misc",
   "expansion": 1,
-  "lineNumber": 90
+  "lineNumber": 91
  },
  "mcha": {
   "ItemType": "Medium Charm",
@@ -1459,8 +1616,9 @@
   "InvGfx2": "invch5",
   "InvGfx3": "invch8",
   "StorePage": "misc",
+  "UICategory": "charm",
   "expansion": 1,
-  "lineNumber": 84
+  "lineNumber": 85
  },
  "mele": {
   "ItemType": "Melee Weapon",
@@ -1483,6 +1641,7 @@
   "TreasureClass": 1,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mel",
   "lineNumber": 46
  },
  "misc": {
@@ -1527,6 +1686,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mis",
   "lineNumber": 56
  },
  "miss": {
@@ -1550,6 +1710,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mis",
   "lineNumber": 47
  },
  "mpot": {
@@ -1573,8 +1734,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "expansion": 1,
-  "lineNumber": 78
+  "lineNumber": 79
  },
  "mxbq": {
   "ItemType": "Magic Xbow Quiv",
@@ -1603,7 +1765,7 @@
   "VarInvGfx": 0,
   "StorePage": "misc",
   "expansion": 1,
-  "lineNumber": 91
+  "lineNumber": 92
  },
  "necr": {
   "ItemType": "Necromancer Item",
@@ -1677,8 +1839,10 @@
   "Class": "sor",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "sorce",
+  "RunewordCategory1": "r_mel",
   "expansion": 1,
-  "lineNumber": 69
+  "lineNumber": 70
  },
  "pala": {
   "ItemType": "Paladin Item",
@@ -1702,6 +1866,7 @@
   "Rarity": 1,
   "Class": "pal",
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_off",
   "expansion": 1,
   "lineNumber": 64
  },
@@ -1732,8 +1897,10 @@
   "Class": "dru",
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "druid",
+  "RunewordCategory1": "r_hel",
   "expansion": 1,
-  "lineNumber": 73
+  "lineNumber": 74
  },
  "phlm": {
   "ItemType": "Primal Helm",
@@ -1762,8 +1929,10 @@
   "Class": "bar",
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "barbh",
+  "RunewordCategory1": "r_hel",
   "expansion": 1,
-  "lineNumber": 72
+  "lineNumber": 73
  },
  "play": {
   "ItemType": "Player Body Part",
@@ -1812,6 +1981,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "poles",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 34
  },
  "poti": {
@@ -1835,6 +2006,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "lineNumber": 9
  },
  "ques": {
@@ -1888,6 +2060,7 @@
   "InvGfx4": "invrin4",
   "InvGfx5": "invrin5",
   "StorePage": "misc",
+  "UICategory": "rings",
   "lineNumber": 10
  },
  "rod": {
@@ -1911,6 +2084,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mel",
   "lineNumber": 55
  },
  "rpot": {
@@ -1935,8 +2109,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "expansion": 1,
-  "lineNumber": 79
+  "lineNumber": 80
  },
  "rune": {
   "ItemType": "Rune",
@@ -1959,8 +2134,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "runes",
   "expansion": 1,
-  "lineNumber": 75
+  "lineNumber": 76
  },
  "scep": {
   "ItemType": "Scepter",
@@ -1987,6 +2163,8 @@
   "StaffMods": "pal",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "scept",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 24
  },
  "scha": {
@@ -2014,8 +2192,9 @@
   "InvGfx2": "invch4",
   "InvGfx3": "invch7",
   "StorePage": "misc",
+  "UICategory": "charm",
   "expansion": 1,
-  "lineNumber": 83
+  "lineNumber": 84
  },
  "scro": {
   "ItemType": "Scroll",
@@ -2060,6 +2239,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_off",
   "lineNumber": 54
  },
  "shie": {
@@ -2086,6 +2266,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "shlds",
+  "RunewordCategory1": "r_off",
   "lineNumber": 2
  },
  "shld": {
@@ -2110,6 +2292,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_off",
   "lineNumber": 51
  },
  "sock": {
@@ -2183,6 +2366,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "spear",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 33
  },
  "spot": {
@@ -2206,8 +2391,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "expansion": 1,
-  "lineNumber": 80
+  "lineNumber": 81
  },
  "sppl": {
   "ItemType": "Spears and Polearms",
@@ -2231,7 +2417,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "expansion": 1,
-  "lineNumber": 105
+  "lineNumber": 106
  },
  "staf": {
   "ItemType": "Staff",
@@ -2258,6 +2444,8 @@
   "StaffMods": "sor",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "stave",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 26
  },
  "swor": {
@@ -2284,6 +2472,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "sword",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 30
  },
  "taxe": {
@@ -2311,6 +2501,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "throw",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 43
  },
  "thro": {
@@ -2334,6 +2526,7 @@
   "TreasureClass": 0,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mis",
   "lineNumber": 48
  },
  "tkni": {
@@ -2361,6 +2554,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "throw",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 42
  },
  "torc": {
@@ -2410,6 +2605,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "armo",
+  "UICategory": "armor",
+  "RunewordCategory1": "r_arm",
   "lineNumber": 3
  },
  "tpot": {
@@ -2435,6 +2632,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "throw",
   "lineNumber": 38
  },
  "wand": {
@@ -2462,7 +2660,36 @@
   "StaffMods": "nec",
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "wands",
+  "RunewordCategory1": "r_mel",
   "lineNumber": 25
+ },
+ "warl": {
+  "ItemType": "Warlock Item",
+  "Code": "warl",
+  "Equiv1": "clas",
+  "Repair": 0,
+  "Body": 0,
+  "Throwable": 0,
+  "Reload": 0,
+  "ReEquip": 0,
+  "AutoStack": 0,
+  "Rare": 1,
+  "Normal": 0,
+  "Beltable": 0,
+  "MaxSockets1": 0,
+  "MaxSocketsLevelThreshold1": 25,
+  "MaxSockets2": 0,
+  "MaxSocketsLevelThreshold2": 40,
+  "MaxSockets3": 0,
+  "TreasureClass": 0,
+  "Rarity": 1,
+  "StaffMods": "war",
+  "Class": "war",
+  "VarInvGfx": 0,
+  "StorePage": "armo",
+  "expansion": 1,
+  "lineNumber": 68
  },
  "weap": {
   "ItemType": "Weapon",
@@ -2484,6 +2711,8 @@
   "TreasureClass": 1,
   "Rarity": 3,
   "VarInvGfx": 0,
+  "RunewordCategory1": "r_mis",
+  "RunewordCategory2": "r_mel",
   "lineNumber": 45
  },
  "wpot": {
@@ -2507,8 +2736,9 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "potis",
   "expansion": 1,
-  "lineNumber": 82
+  "lineNumber": 83
  },
  "xboq": {
   "ItemType": "Crossbow Quiver",
@@ -2535,6 +2765,7 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "misc",
+  "UICategory": "ammo",
   "lineNumber": 6
  },
  "xbow": {
@@ -2562,6 +2793,8 @@
   "Rarity": 3,
   "VarInvGfx": 0,
   "StorePage": "weap",
+  "UICategory": "xbows",
+  "RunewordCategory1": "r_mis",
   "lineNumber": 35
  }
 }

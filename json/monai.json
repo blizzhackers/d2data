@@ -203,6 +203,61 @@
   "*aip8": "Attack1 Interval (Frames)",
   "lineNumber": 142
  },
+ "ColBarbFrenzy": {
+  "AI": "ColBarbFrenzy",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Target Range",
+  "*aip5": "Run Away From Target (Frames)",
+  "lineNumber": 154
+ },
+ "ColBarbThrow": {
+  "AI": "ColBarbThrow",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Target Range",
+  "*aip5": "Run Away From Target (Frames)",
+  "lineNumber": 153
+ },
+ "ColBarbWhirl": {
+  "AI": "ColBarbWhirl",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Target Range",
+  "*aip5": "Run Away From Target (Frames)",
+  "lineNumber": 152
+ },
+ "ColossalLeap": {
+  "AI": "ColossalLeap",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Lower bound frame",
+  "*aip5": "Upper bound frame",
+  "*aip6": "Max summons in lifetime",
+  "lineNumber": 151
+ },
+ "ColossalThrow": {
+  "AI": "ColossalThrow",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Target Range",
+  "*aip5": "Run Away From Target (Frames)",
+  "lineNumber": 150
+ },
+ "ColossalWhirlwind": {
+  "AI": "ColossalWhirlwind",
+  "*aip1": "Attack/Skill1 Range",
+  "*aip2": "Attack/Skill1 (% Chance)",
+  "*aip3": "Attack1/Attack2/Skill1 (% Chance)",
+  "*aip4": "Target Range",
+  "*aip5": "Run Away From Target (Frames)",
+  "lineNumber": 149
+ },
  "CorruptArcher": {
   "AI": "CorruptArcher",
   "*aip1": "Approach Enemy (% Chance)",
@@ -416,6 +471,17 @@
   "*aip3": "Skill1 AI Delay (Frames)",
   "*aip4": "AI Delay (Frames)",
   "lineNumber": 63
+ },
+ "GenericPet": {
+  "AI": "GenericPet",
+  "*aip1": "Leash Distance / Warp Distance / Close Distance",
+  "*aip2": "Ambient Wander Chance / Swarm Cutoff / Flags",
+  "*aip3": "Skill Gather Type / Allow Skill Bonuses / Skill Choose Type",
+  "*aip4": "Mode Attack Mode / Mode Attack AI Type / Mode Attack Bonus Rating",
+  "*aip5": "Melee Sweet Spot Min / Melee Sweet Spot Max / Melee Bonus Rating",
+  "*aip6": "Ranged Sweet Spot Min / Ranged Sweet Spot Max / Ranged Bonus Rating",
+  "*aip7": "Random Bonus Rating / Progressive Bonus Rating",
+  "lineNumber": 148
  },
  "GenericSpawner": {
   "AI": "GenericSpawner",
@@ -779,18 +845,18 @@
  },
  "ShadowMaster": {
   "AI": "ShadowMaster",
-  "*aip1": "Approach Range/Melee Bonus Rating/Progressive Bonus Rating",
-  "*aip2": "Random Skill Pick/Enemy Awareness Range/Caster Leash Range",
-  "*aip3": "Attack (% Chance)",
-  "*aip8": "Summon Skill",
+  "*aip1": "Approach Enemy Range Squared/Melee Bonus Chance/Progressive Skill Bonus Chance",
+  "*aip2": "Random Skill Bonus Chance/Target Max Range/Boss Leash Range Squared",
+  "*aip3": "\"Basic Attack % Chance (minus max(summoning skill level, 1)*2)\"",
+  "*aip8": "Summoning Skill ID",
   "lineNumber": 106
  },
  "ShadowMasterNoInit": {
   "AI": "ShadowMasterNoInit",
-  "*aip1": "Approach Enemy Range/Melee bonus rating/Progressive bonus rating",
-  "*aip2": "Caster Leash Range",
-  "*aip3": "Attack (% Chance)",
-  "*aip8": "summoning skill",
+  "*aip1": "Approach Enemy Max Range Squared/Melee Bonus Chance/Progressive Skill Bonus Chance",
+  "*aip2": "Random Skill Bonus Chance/Target Max Range/Boss Leash Range Squared",
+  "*aip3": "\"Basic Attack % Chance (minus max(summoning skill * 2, 1))\"",
+  "*aip8": "Summoning Skill ID",
   "lineNumber": 143
  },
  "ShadowWarrior": {

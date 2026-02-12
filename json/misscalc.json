@@ -1,4 +1,9 @@
 {
+ "ccl1": {
+  "code": "ccl1",
+  "*description": "The client CltCalc1 field value",
+  "lineNumber": 43
+ },
  "cd12": {
   "code": "cd12",
   "*description": "((110 * lvl) * (cpa2 - cpa1)) / (100 * (lvl + 6)) + cpa1",
@@ -134,6 +139,11 @@
   "*description": "Elemental Damage Max (256ths)",
   "lineNumber": 23
  },
+ "fnum": {
+  "code": "fnum",
+  "*description": "The current Missile frame number",
+  "lineNumber": 46
+ },
  "hpa1": {
   "code": "hpa1",
   "*description": "The sHitPar1 field value",
@@ -179,10 +189,20 @@
   "*description": "The Param5 field value",
   "lineNumber": 4
  },
+ "rad": {
+  "code": "rad",
+  "*description": "The Radius field value",
+  "lineNumber": 45
+ },
  "rang": {
   "code": "rang",
   "*description": "The Range field value",
   "lineNumber": 28
+ },
+ "scl1": {
+  "code": "scl1",
+  "*description": "The server SrvCalc1 field value",
+  "lineNumber": 44
  },
  "sd12": {
   "code": "sd12",

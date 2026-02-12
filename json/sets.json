@@ -34,6 +34,7 @@
   "FParam7": "fullsetgeneric",
   "FMin7": 1,
   "FMax7": 1,
+  "UIClass": "dru",
   "expansion": 1,
   "lineNumber": 18
  },
@@ -92,6 +93,7 @@
   "FCode4": "allskills",
   "FMin4": 1,
   "FMax4": 1,
+  "UIClass": "sor",
   "lineNumber": 15
  },
  "Arctic Gear": {
@@ -114,7 +116,31 @@
   "FParam3": 0,
   "FMin3": 1,
   "FMax3": 1,
+  "UIClass": "ama",
   "lineNumber": 14
+ },
+ "Bane's Garments": {
+  "index": "Bane's Garments",
+  "name": "Bane's Garments",
+  "version": 100,
+  "PCode2a": "dmg%",
+  "PMin2a": 80,
+  "PMax2a": 80,
+  "FCode1": "allskills",
+  "FMin1": 1,
+  "FMax1": 1,
+  "FCode2": "dex",
+  "FMin2": 15,
+  "FMax2": 15,
+  "FCode3": "cast1",
+  "FMin3": 25,
+  "FMax3": 25,
+  "FCode4": "mag%",
+  "FMin4": 40,
+  "FMax4": 40,
+  "UIClass": "war",
+  "expansion": 1,
+  "lineNumber": 34
  },
  "Berserker's Garb": {
   "index": "Berserker's Garb",
@@ -142,6 +168,7 @@
   "FCode5": "ac",
   "FMin5": 75,
   "FMax5": 75,
+  "UIClass": "bar",
   "lineNumber": 11
  },
  "Bul-Kathos' Children": {
@@ -172,6 +199,7 @@
   "FCode8": "deadly",
   "FMin8": 20,
   "FMax8": 20,
+  "UIClass": "bar",
   "expansion": 1,
   "lineNumber": 29
  },
@@ -208,6 +236,7 @@
   "FParam5": 0,
   "FMin5": 20,
   "FMax5": 20,
+  "UIClass": "sor",
   "lineNumber": 7
  },
  "Civerb's Vestments": {
@@ -350,6 +379,7 @@
   "FCode6": "balance2",
   "FMin6": 30,
   "FMax6": 30,
+  "UIClass": "pal",
   "expansion": 1,
   "lineNumber": 21
  },
@@ -382,6 +412,43 @@
   "FMax5": 24,
   "expansion": 1,
   "lineNumber": 25
+ },
+ "Horazon's Splendor": {
+  "index": "Horazon's Splendor",
+  "name": "Horazon's Splendor",
+  "version": 100,
+  "PCode2a": "dex",
+  "PMin2a": 20,
+  "PMax2a": 20,
+  "PCode3a": "enr",
+  "PMin3a": 30,
+  "PMax3a": 30,
+  "PCode4a": "ac",
+  "PMin4a": 300,
+  "PMax4a": 300,
+  "FCode1": "res-all",
+  "FMin1": 50,
+  "FMax1": 50,
+  "FCode2": "war",
+  "FMin2": 3,
+  "FMax2": 3,
+  "FCode3": "dmg%",
+  "FMin3": 350,
+  "FMax3": 350,
+  "FCode4": "mag%",
+  "FMin4": 100,
+  "FMax4": 100,
+  "FCode5": "oskill",
+  "FParam5": "Enchant",
+  "FMin5": 30,
+  "FMax5": 30,
+  "FCode6": "state",
+  "FParam6": "fullsetgeneric",
+  "FMin6": 1,
+  "FMax6": 1,
+  "UIClass": "war",
+  "expansion": 1,
+  "lineNumber": 35
  },
  "Hsarus' Defense": {
   "index": "Hsarus' Defense",
@@ -461,6 +528,7 @@
   "FParam5": "fullsetgeneric",
   "FMin5": 1,
   "FMax5": 1,
+  "UIClass": "bar",
   "expansion": 1,
   "lineNumber": 19
  },
@@ -496,6 +564,7 @@
   "FCode6": "nofreeze",
   "FMin6": 1,
   "FMax6": 1,
+  "UIClass": "nec",
   "lineNumber": 10
  },
  "Iratha's Finery": {
@@ -596,6 +665,7 @@
   "FParam6": "fullsetgeneric",
   "FMin6": 1,
   "FMax6": 1,
+  "UIClass": "ama",
   "expansion": 1,
   "lineNumber": 23
  },
@@ -655,6 +725,7 @@
   "FParam4": 0,
   "FMin4": 15,
   "FMax4": 15,
+  "UIClass": "pal",
   "lineNumber": 6
  },
  "Naj's Ancient Set": {
@@ -690,6 +761,7 @@
   "FCode8": "hp%",
   "FMin8": 12,
   "FMax8": 12,
+  "UIClass": "sor",
   "expansion": 1,
   "lineNumber": 31
  },
@@ -727,6 +799,7 @@
   "FCode7": "fade",
   "FMin7": 1,
   "FMax7": 1,
+  "UIClass": "ass",
   "expansion": 1,
   "lineNumber": 17
  },
@@ -856,6 +929,7 @@
   "FParam6": "fullsetgeneric",
   "FMin6": 1,
   "FMax6": 1,
+  "UIClass": "sor",
   "expansion": 1,
   "lineNumber": 20
  },
@@ -967,6 +1041,7 @@
   "FCode8": "lifesteal",
   "FMin8": 20,
   "FMax8": 20,
+  "UIClass": "nec",
   "expansion": 1,
   "lineNumber": 22
  },
@@ -996,6 +1071,39 @@
   "FCode4": "str",
   "FMin4": 10,
   "FMax4": 10,
+  "UIClass": "ama",
   "lineNumber": 5
+ },
+ "Warlord's Glory": {
+  "index": "Warlord's Glory",
+  "name": "Warlord's Glory",
+  "version": 100,
+  "PCode2a": "lifesteal",
+  "PMin2a": 15,
+  "PMax2a": 15,
+  "PCode3a": "ac",
+  "PMin3a": 150,
+  "PMax3a": 150,
+  "FCode1": "allskills",
+  "FMin1": 1,
+  "FMax1": 1,
+  "FCode2": "aura",
+  "FParam2": "Meditation",
+  "FMin2": 10,
+  "FMax2": 10,
+  "FCode3": "red-dmg",
+  "FParam3": 0,
+  "FMin3": 9,
+  "FMax3": 9,
+  "FCode4": "res-fire",
+  "FParam4": 0,
+  "FMin4": 15,
+  "FMax4": 15,
+  "FCode5": "mana",
+  "FMin5": 20,
+  "FMax5": 20,
+  "UIClass": "war",
+  "expansion": 1,
+  "lineNumber": 33
  }
 }

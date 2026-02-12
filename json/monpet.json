@@ -1,0 +1,2035 @@
+{
+ "Anodized Elite": {
+  "monster": "Anodized Elite",
+  "*index": 54,
+  "consumestat1": "item_aura",
+  "consumepar1": "Vigor",
+  "consumecalc1": 15,
+  "consumestat2": "damageresist",
+  "consumecalc2": 15,
+  "consumestat3": "damagepercent",
+  "consumecalc3": "sksrc ('Consume'.lvl)*5+25",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 191
+ },
+ "Baal Subject 1": {
+  "monster": "Baal Subject 1",
+  "*index": 61,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+15",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 195
+ },
+ "Baal Subject 2": {
+  "monster": "Baal Subject 2",
+  "*index": 62,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxpoisonresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+15",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 196
+ },
+ "Baal Subject 4": {
+  "monster": "Baal Subject 4",
+  "*index": 64,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+15",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 197
+ },
+ "Baal Subject 5": {
+  "monster": "Baal Subject 5",
+  "*index": 65,
+  "consumestat1": "item_aura",
+  "consumepar1": "Meditation",
+  "consumecalc1": 15,
+  "consumestat2": "damageresist",
+  "consumecalc2": 25,
+  "consumestat3": "damagepercent",
+  "consumecalc3": "sksrc ('Consume'.lvl)*5+150",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 198
+ },
+ "Bishibosh": {
+  "monster": "Bishibosh",
+  "*index": 0,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+7",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 171
+ },
+ "Bremm Sparkfist": {
+  "monster": "Bremm Sparkfist",
+  "*index": 28,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_ltng_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 180
+ },
+ "Coldcrow": {
+  "monster": "Coldcrow",
+  "*index": 2,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+7",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 172
+ },
+ "Dac Farren": {
+  "monster": "Dac Farren",
+  "*index": 48,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 190
+ },
+ "Geleb Flamefinger": {
+  "monster": "Geleb Flamefinger",
+  "*index": 27,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+7",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 179
+ },
+ "Infector of Souls": {
+  "monster": "Infector of Souls",
+  "*index": 36,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+12",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 187
+ },
+ "Ismail Vilehand": {
+  "monster": "Ismail Vilehand",
+  "*index": 26,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxpoisonresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "item_sksrc onattack",
+  "consumepar3": 3993,
+  "consumecalc3": 33,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 178
+ },
+ "Maffer Dragonhand": {
+  "monster": "Maffer Dragonhand",
+  "*index": 31,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+12",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 183
+ },
+ "Magma Torquer": {
+  "monster": "Magma Torquer",
+  "*index": 57,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+12",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 194
+ },
+ "Pitspawn Fouldog": {
+  "monster": "Pitspawn Fouldog",
+  "*index": 7,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 174
+ },
+ "Rakanishu": {
+  "monster": "Rakanishu",
+  "*index": 3,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "item_sksrc ongethit",
+  "consumepar3": 2472,
+  "consumecalc3": 100,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 173
+ },
+ "Riftwraith the Cannibal": {
+  "monster": "Riftwraith the Cannibal",
+  "*index": 35,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxpoisonresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "item_aura",
+  "consumepar3": "Cleansing",
+  "consumecalc3": 10,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 186
+ },
+ "Sarina the Battlemaid": {
+  "monster": "Sarina the Battlemaid",
+  "*index": 24,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 177
+ },
+ "Sharp Tooth Sayer": {
+  "monster": "Sharp Tooth Sayer",
+  "*index": 56,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+12",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 193
+ },
+ "Siege Boss": {
+  "monster": "Siege Boss",
+  "*index": 42,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+7",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 189
+ },
+ "Taintbreeder": {
+  "monster": "Taintbreeder",
+  "*index": 34,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 185
+ },
+ "The Feature Creep": {
+  "monster": "The Feature Creep",
+  "*index": 41,
+  "consumestat1": "item_aura",
+  "consumepar1": "Holy Fire",
+  "consumecalc1": 19,
+  "consumestat2": "item_allsksrc s",
+  "consumecalc2": 2,
+  "consumestat3": "damageresist",
+  "consumecalc3": 20,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 188
+ },
+ "The Smith": {
+  "monster": "The Smith",
+  "*index": 20,
+  "consumestat1": "item_aura",
+  "consumepar1": "Holy Fire",
+  "consumecalc1": 15,
+  "consumestat2": "damagepercent",
+  "consumecalc2": "sksrc ('Consume'.lvl)*5+50",
+  "consumestat3": "damageresist",
+  "consumecalc3": 20,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 175
+ },
+ "Toorc Icefist": {
+  "monster": "Toorc Icefist",
+  "*index": 29,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_cold_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 181
+ },
+ "Vinvear Molech": {
+  "monster": "Vinvear Molech",
+  "*index": 55,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+15",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 192
+ },
+ "Winged Death": {
+  "monster": "Winged Death",
+  "*index": 32,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+7",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 184
+ },
+ "Witch Doctor Endugu": {
+  "monster": "Witch Doctor Endugu",
+  "*index": 22,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+20",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_fire_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+15",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 176
+ },
+ "Wyand Voidfinger": {
+  "monster": "Wyand Voidfinger",
+  "*index": 30,
+  "consumestat1": "magicresist",
+  "consumecalc1": "(sksrc ('Consume'.lvl)*3)/2+10",
+  "consumestat2": "maxmagicresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "consumestat3": "passive_mag_pierce",
+  "consumecalc3": "sksrc ('Consume'.lvl)+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 182
+ },
+ "act2hire": {
+  "monster": "act2hire",
+  "*index": 338,
+  "numunderlingcalc": 0,
+  "lineNumber": 1
+ },
+ "act3hire": {
+  "monster": "act3hire",
+  "*index": 359,
+  "numunderlingcalc": 0,
+  "lineNumber": 2
+ },
+ "act5hire1": {
+  "monster": "act5hire1",
+  "*index": 560,
+  "numunderlingcalc": 0,
+  "lineNumber": 3
+ },
+ "act5hire2": {
+  "monster": "act5hire2",
+  "*index": 561,
+  "numunderlingcalc": 0,
+  "lineNumber": 4
+ },
+ "baalminion1": {
+  "monster": "baalminion1",
+  "*index": 571,
+  "consumestat1": "damagepercent",
+  "consumecalc1": "sksrc ('Consume'.lvl)*5+100",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 110
+ },
+ "baalminion2": {
+  "monster": "baalminion2",
+  "*index": 572,
+  "consumestat1": "damagepercent",
+  "consumecalc1": "sksrc ('Consume'.lvl)*5+100",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 111
+ },
+ "baalminion3": {
+  "monster": "baalminion3",
+  "*index": 573,
+  "consumestat1": "damagepercent",
+  "consumecalc1": "sksrc ('Consume'.lvl)*5+100",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 112
+ },
+ "bighead1": {
+  "monster": "bighead1",
+  "*index": 10,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 5
+ },
+ "bighead10": {
+  "monster": "bighead10",
+  "*index": 584,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 117
+ },
+ "bighead2": {
+  "monster": "bighead2",
+  "*index": 11,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 6
+ },
+ "bighead3": {
+  "monster": "bighead3",
+  "*index": 12,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 7
+ },
+ "bighead4": {
+  "monster": "bighead4",
+  "*index": 13,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 8
+ },
+ "bighead5": {
+  "monster": "bighead5",
+  "*index": 14,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 9
+ },
+ "bighead6": {
+  "monster": "bighead6",
+  "*index": 580,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 113
+ },
+ "bighead7": {
+  "monster": "bighead7",
+  "*index": 581,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 114
+ },
+ "bighead8": {
+  "monster": "bighead8",
+  "*index": 582,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 115
+ },
+ "bighead9": {
+  "monster": "bighead9",
+  "*index": 583,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 116
+ },
+ "blunderbore1": {
+  "monster": "blunderbore1",
+  "*index": 186,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 46
+ },
+ "blunderbore2": {
+  "monster": "blunderbore2",
+  "*index": 187,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 47
+ },
+ "blunderbore3": {
+  "monster": "blunderbore3",
+  "*index": 188,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 48
+ },
+ "blunderbore4": {
+  "monster": "blunderbore4",
+  "*index": 189,
+  "consumestat1": "damagepercent",
+  "consumecalc1": "sksrc ('Consume'.lvl)*5+25",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 49
+ },
+ "blunderbore5": {
+  "monster": "blunderbore5",
+  "*index": 618,
+  "consumestat1": "damageresist",
+  "consumecalc1": 15,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 128
+ },
+ "blunderbore6": {
+  "monster": "blunderbore6",
+  "*index": 619,
+  "consumestat1": "damageresist",
+  "consumecalc1": 15,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 129
+ },
+ "corruptrogue1": {
+  "monster": "corruptrogue1",
+  "*index": 43,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 15
+ },
+ "corruptrogue2": {
+  "monster": "corruptrogue2",
+  "*index": 44,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 16
+ },
+ "corruptrogue3": {
+  "monster": "corruptrogue3",
+  "*index": 45,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 17
+ },
+ "corruptrogue4": {
+  "monster": "corruptrogue4",
+  "*index": 46,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 18
+ },
+ "corruptrogue5": {
+  "monster": "corruptrogue5",
+  "*index": 47,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 19
+ },
+ "corruptrogue6": {
+  "monster": "corruptrogue6",
+  "*index": 721,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 165
+ },
+ "councilmember1": {
+  "monster": "councilmember1",
+  "*index": 345,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 64
+ },
+ "councilmember2": {
+  "monster": "councilmember2",
+  "*index": 346,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 65
+ },
+ "councilmember3": {
+  "monster": "councilmember3",
+  "*index": 347,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 66
+ },
+ "cr_archer1": {
+  "monster": "cr_archer1",
+  "*index": 160,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 36
+ },
+ "cr_archer2": {
+  "monster": "cr_archer2",
+  "*index": 161,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 37
+ },
+ "cr_archer3": {
+  "monster": "cr_archer3",
+  "*index": 162,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 38
+ },
+ "cr_archer4": {
+  "monster": "cr_archer4",
+  "*index": 163,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 39
+ },
+ "cr_archer5": {
+  "monster": "cr_archer5",
+  "*index": 164,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 40
+ },
+ "cr_archer6": {
+  "monster": "cr_archer6",
+  "*index": 613,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 123
+ },
+ "cr_archer7": {
+  "monster": "cr_archer7",
+  "*index": 614,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 124
+ },
+ "cr_archer8": {
+  "monster": "cr_archer8",
+  "*index": 722,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 166
+ },
+ "cr_lancer1": {
+  "monster": "cr_lancer1",
+  "*index": 165,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 41
+ },
+ "cr_lancer2": {
+  "monster": "cr_lancer2",
+  "*index": 166,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 42
+ },
+ "cr_lancer3": {
+  "monster": "cr_lancer3",
+  "*index": 167,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 43
+ },
+ "cr_lancer4": {
+  "monster": "cr_lancer4",
+  "*index": 168,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 44
+ },
+ "cr_lancer5": {
+  "monster": "cr_lancer5",
+  "*index": 169,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 45
+ },
+ "cr_lancer6": {
+  "monster": "cr_lancer6",
+  "*index": 615,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 125
+ },
+ "cr_lancer7": {
+  "monster": "cr_lancer7",
+  "*index": 616,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 126
+ },
+ "cr_lancer8": {
+  "monster": "cr_lancer8",
+  "*index": 617,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 127
+ },
+ "cr_lancer9": {
+  "monster": "cr_lancer9",
+  "*index": 723,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 167
+ },
+ "fallen1": {
+  "monster": "fallen1",
+  "*index": 19,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 10
+ },
+ "fallen2": {
+  "monster": "fallen2",
+  "*index": 20,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 11
+ },
+ "fallen3": {
+  "monster": "fallen3",
+  "*index": 21,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 12
+ },
+ "fallen4": {
+  "monster": "fallen4",
+  "*index": 22,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 13
+ },
+ "fallen5": {
+  "monster": "fallen5",
+  "*index": 23,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 2,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 14
+ },
+ "fallen6": {
+  "monster": "fallen6",
+  "*index": 642,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 2,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 135
+ },
+ "fallen7": {
+  "monster": "fallen7",
+  "*index": 643,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 2,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 136
+ },
+ "fallen8": {
+  "monster": "fallen8",
+  "*index": 644,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 2,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 137
+ },
+ "fallenshaman1": {
+  "monster": "fallenshaman1",
+  "*index": 58,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 25
+ },
+ "fallenshaman2": {
+  "monster": "fallenshaman2",
+  "*index": 59,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 26
+ },
+ "fallenshaman3": {
+  "monster": "fallenshaman3",
+  "*index": 60,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 27
+ },
+ "fallenshaman4": {
+  "monster": "fallenshaman4",
+  "*index": 61,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 28
+ },
+ "fallenshaman5": {
+  "monster": "fallenshaman5",
+  "*index": 62,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 29
+ },
+ "fallenshaman6": {
+  "monster": "fallenshaman6",
+  "*index": 645,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 138
+ },
+ "fallenshaman7": {
+  "monster": "fallenshaman7",
+  "*index": 646,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 139
+ },
+ "fallenshaman8": {
+  "monster": "fallenshaman8",
+  "*index": 647,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 140
+ },
+ "fetish1": {
+  "monster": "fetish1",
+  "*index": 141,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 31
+ },
+ "fetish2": {
+  "monster": "fetish2",
+  "*index": 142,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 32
+ },
+ "fetish3": {
+  "monster": "fetish3",
+  "*index": 143,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 33
+ },
+ "fetish4": {
+  "monster": "fetish4",
+  "*index": 144,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 34
+ },
+ "fetish5": {
+  "monster": "fetish5",
+  "*index": 145,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 35
+ },
+ "fetish6": {
+  "monster": "fetish6",
+  "*index": 656,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 141
+ },
+ "fetish7": {
+  "monster": "fetish7",
+  "*index": 657,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 142
+ },
+ "fetish8": {
+  "monster": "fetish8",
+  "*index": 658,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 143
+ },
+ "fetishblow1": {
+  "monster": "fetishblow1",
+  "*index": 396,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 70
+ },
+ "fetishblow2": {
+  "monster": "fetishblow2",
+  "*index": 397,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 71
+ },
+ "fetishblow3": {
+  "monster": "fetishblow3",
+  "*index": 398,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 72
+ },
+ "fetishblow4": {
+  "monster": "fetishblow4",
+  "*index": 399,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 73
+ },
+ "fetishblow5": {
+  "monster": "fetishblow5",
+  "*index": 400,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 74
+ },
+ "fetishblow6": {
+  "monster": "fetishblow6",
+  "*index": 659,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 144
+ },
+ "fetishblow7": {
+  "monster": "fetishblow7",
+  "*index": 660,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 145
+ },
+ "fetishblow8": {
+  "monster": "fetishblow8",
+  "*index": 661,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 146
+ },
+ "fetishshaman1": {
+  "monster": "fetishshaman1",
+  "*index": 278,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 50
+ },
+ "fetishshaman2": {
+  "monster": "fetishshaman2",
+  "*index": 279,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 51
+ },
+ "fetishshaman3": {
+  "monster": "fetishshaman3",
+  "*index": 280,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 52
+ },
+ "fetishshaman4": {
+  "monster": "fetishshaman4",
+  "*index": 281,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 53
+ },
+ "fetishshaman5": {
+  "monster": "fetishshaman5",
+  "*index": 282,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 54
+ },
+ "fetishshaman6": {
+  "monster": "fetishshaman6",
+  "*index": 662,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 147
+ },
+ "fetishshaman7": {
+  "monster": "fetishshaman7",
+  "*index": 663,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 148
+ },
+ "fetishshaman8": {
+  "monster": "fetishshaman8",
+  "*index": 664,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 7,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 149
+ },
+ "goatman1": {
+  "monster": "goatman1",
+  "*index": 53,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 20
+ },
+ "goatman10": {
+  "monster": "goatman10",
+  "*index": 589,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 122
+ },
+ "goatman2": {
+  "monster": "goatman2",
+  "*index": 54,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 21
+ },
+ "goatman3": {
+  "monster": "goatman3",
+  "*index": 55,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 22
+ },
+ "goatman4": {
+  "monster": "goatman4",
+  "*index": 56,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 23
+ },
+ "goatman5": {
+  "monster": "goatman5",
+  "*index": 57,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 24
+ },
+ "goatman6": {
+  "monster": "goatman6",
+  "*index": 585,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxlightresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 118
+ },
+ "goatman7": {
+  "monster": "goatman7",
+  "*index": 586,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 119
+ },
+ "goatman8": {
+  "monster": "goatman8",
+  "*index": 587,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 120
+ },
+ "goatman9": {
+  "monster": "goatman9",
+  "*index": 588,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 121
+ },
+ "imp1": {
+  "monster": "imp1",
+  "*index": 492,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 94
+ },
+ "imp2": {
+  "monster": "imp2",
+  "*index": 493,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 95
+ },
+ "imp3": {
+  "monster": "imp3",
+  "*index": 494,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 96
+ },
+ "imp4": {
+  "monster": "imp4",
+  "*index": 495,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 97
+ },
+ "imp5": {
+  "monster": "imp5",
+  "*index": 496,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 98
+ },
+ "imp6": {
+  "monster": "imp6",
+  "*index": 688,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 158
+ },
+ "imp7": {
+  "monster": "imp7",
+  "*index": 689,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 159
+ },
+ "imp8": {
+  "monster": "imp8",
+  "*index": 714,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 162
+ },
+ "megademon1": {
+  "monster": "megademon1",
+  "*index": 360,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 67
+ },
+ "megademon2": {
+  "monster": "megademon2",
+  "*index": 361,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 68
+ },
+ "megademon3": {
+  "monster": "megademon3",
+  "*index": 362,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 69
+ },
+ "megademon4": {
+  "monster": "megademon4",
+  "*index": 686,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 156
+ },
+ "megademon5": {
+  "monster": "megademon5",
+  "*index": 687,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 157
+ },
+ "megademon6": {
+  "monster": "megademon6",
+  "*index": 712,
+  "consumestat1": "item_aura",
+  "consumepar1": "Conviction",
+  "consumecalc1": 15,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 161
+ },
+ "minion10": {
+  "monster": "minion10",
+  "*index": 683,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 154
+ },
+ "minion11": {
+  "monster": "minion11",
+  "*index": 684,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 155
+ },
+ "minion5": {
+  "monster": "minion5",
+  "*index": 457,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 75
+ },
+ "minion7": {
+  "monster": "minion7",
+  "*index": 459,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 76
+ },
+ "overseer1": {
+  "monster": "overseer1",
+  "*index": 479,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 89
+ },
+ "overseer2": {
+  "monster": "overseer2",
+  "*index": 480,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 90
+ },
+ "overseer3": {
+  "monster": "overseer3",
+  "*index": 481,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 91
+ },
+ "overseer4": {
+  "monster": "overseer4",
+  "*index": 482,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 92
+ },
+ "overseer5": {
+  "monster": "overseer5",
+  "*index": 483,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 93
+ },
+ "overseer6": {
+  "monster": "overseer6",
+  "*index": 724,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 168
+ },
+ "painworm1": {
+  "monster": "painworm1",
+  "*index": 551,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 104
+ },
+ "painworm2": {
+  "monster": "painworm2",
+  "*index": 552,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 105
+ },
+ "painworm3": {
+  "monster": "painworm3",
+  "*index": 553,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 106
+ },
+ "painworm4": {
+  "monster": "painworm4",
+  "*index": 554,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 107
+ },
+ "painworm5": {
+  "monster": "painworm5",
+  "*index": 555,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 108
+ },
+ "putriddefiler1": {
+  "monster": "putriddefiler1",
+  "*index": 546,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 99
+ },
+ "putriddefiler2": {
+  "monster": "putriddefiler2",
+  "*index": 547,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 100
+ },
+ "putriddefiler3": {
+  "monster": "putriddefiler3",
+  "*index": 548,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 101
+ },
+ "putriddefiler4": {
+  "monster": "putriddefiler4",
+  "*index": 549,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 102
+ },
+ "putriddefiler5": {
+  "monster": "putriddefiler5",
+  "*index": 550,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 103
+ },
+ "regurgitator1": {
+  "monster": "regurgitator1",
+  "*index": 307,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 61
+ },
+ "regurgitator2": {
+  "monster": "regurgitator2",
+  "*index": 308,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 62
+ },
+ "regurgitator3": {
+  "monster": "regurgitator3",
+  "*index": 309,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 63
+ },
+ "regurgitator4": {
+  "monster": "regurgitator4",
+  "*index": 694,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 160
+ },
+ "roguehire": {
+  "monster": "roguehire",
+  "*index": 271,
+  "hirelingAlternateVoice": 1,
+  "numunderlingcalc": 0,
+  "lineNumber": 0
+ },
+ "succubus1": {
+  "monster": "succubus1",
+  "*index": 469,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 79
+ },
+ "succubus2": {
+  "monster": "succubus2",
+  "*index": 470,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 80
+ },
+ "succubus3": {
+  "monster": "succubus3",
+  "*index": 471,
+  "consumestat1": "lightresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 81
+ },
+ "succubus4": {
+  "monster": "succubus4",
+  "*index": 472,
+  "consumestat1": "damageresist",
+  "consumecalc1": 15,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 82
+ },
+ "succubus5": {
+  "monster": "succubus5",
+  "*index": 473,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 83
+ },
+ "succubus6": {
+  "monster": "succubus6",
+  "*index": 634,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 3,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 130
+ },
+ "succubus7": {
+  "monster": "succubus7",
+  "*index": 635,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 3,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 131
+ },
+ "succubus8": {
+  "monster": "succubus8",
+  "*index": 719,
+  "consumestat1": "item_addsksrc _tab",
+  "consumepar1": 3,
+  "consumecalc1": 2,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 163
+ },
+ "succubuswitch1": {
+  "monster": "succubuswitch1",
+  "*index": 474,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 84
+ },
+ "succubuswitch2": {
+  "monster": "succubuswitch2",
+  "*index": 475,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 85
+ },
+ "succubuswitch3": {
+  "monster": "succubuswitch3",
+  "*index": 476,
+  "consumestat1": "damageresist",
+  "consumecalc1": 15,
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 86
+ },
+ "succubuswitch4": {
+  "monster": "succubuswitch4",
+  "*index": 477,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 87
+ },
+ "succubuswitch5": {
+  "monster": "succubuswitch5",
+  "*index": 478,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 88
+ },
+ "succubuswitch6": {
+  "monster": "succubuswitch6",
+  "*index": 636,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 132
+ },
+ "succubuswitch7": {
+  "monster": "succubuswitch7",
+  "*index": 637,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 133
+ },
+ "succubuswitch8": {
+  "monster": "succubuswitch8",
+  "*index": 638,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 134
+ },
+ "succubuswitch9": {
+  "monster": "succubuswitch9",
+  "*index": 720,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 164
+ },
+ "suicideminion10": {
+  "monster": "suicideminion10",
+  "*index": 740,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxfireresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 169
+ },
+ "suicideminion11": {
+  "monster": "suicideminion11",
+  "*index": 741,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 170
+ },
+ "suicideminion5": {
+  "monster": "suicideminion5",
+  "*index": 465,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 77
+ },
+ "suicideminion7": {
+  "monster": "suicideminion7",
+  "*index": 467,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 78
+ },
+ "venomlord": {
+  "monster": "venomlord",
+  "*index": 558,
+  "consumestat1": "poisonresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 109
+ },
+ "vilechild1": {
+  "monster": "vilechild1",
+  "*index": 301,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 58
+ },
+ "vilechild2": {
+  "monster": "vilechild2",
+  "*index": 302,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 59
+ },
+ "vilechild3": {
+  "monster": "vilechild3",
+  "*index": 303,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 60
+ },
+ "vilechild4": {
+  "monster": "vilechild4",
+  "*index": 677,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 152
+ },
+ "vilechild5": {
+  "monster": "vilechild5",
+  "*index": 678,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 153
+ },
+ "vilemother1": {
+  "monster": "vilemother1",
+  "*index": 298,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 55
+ },
+ "vilemother2": {
+  "monster": "vilemother2",
+  "*index": 299,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 56
+ },
+ "vilemother3": {
+  "monster": "vilemother3",
+  "*index": 300,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 57
+ },
+ "vilemother4": {
+  "monster": "vilemother4",
+  "*index": 675,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 150
+ },
+ "vilemother5": {
+  "monster": "vilemother5",
+  "*index": 676,
+  "consumestat1": "coldresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+10",
+  "consumestat2": "maxcoldresist",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)/2+2,10)\"",
+  "numunderlingcalc": 5,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 151
+ },
+ "vulture3": {
+  "monster": "vulture3",
+  "*index": 112,
+  "consumestat1": "fireresist",
+  "consumecalc1": "sksrc ('Consume'.lvl)*3+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 30
+ },
+ "warbighead": {
+  "monster": "warbighead",
+  "*index": 743,
+  "consumestat1": "passive_fire_mastery",
+  "consumecalc1": "\"min(sksrc ('Consume'.lvl)+9,20)\"",
+  "consumestat2": "passive_fire_pierce",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)+4,15)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 200
+ },
+ "wargoatman": {
+  "monster": "wargoatman",
+  "*index": 742,
+  "consumestat1": "damagepercent",
+  "consumecalc1": "sksrc ('Consume'.lvl)*5+20",
+  "consumestat2": "item_crushingblow",
+  "consumecalc2": "sksrc ('Death Mark'.blvl)*1+5",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 199
+ },
+ "warputriddefiler": {
+  "monster": "warputriddefiler",
+  "*index": 744,
+  "consumestat1": "passive_mag_mastery",
+  "consumecalc1": "\"min(sksrc ('Consume'.lvl)+9,20)\"",
+  "consumestat2": "passive_mag_pierce",
+  "consumecalc2": "\"min(sksrc ('Consume'.lvl)+4,10)\"",
+  "numunderlingcalc": 0,
+  "bindchancecalc": "(((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)) >= 99)?0:(sksrc('Bind Demon'.dm34)+((sksrc('Death Mark'.blvl)*sksrc('Bind Demon'.par8))/100)+((100-((stat('hitpoints'.accr) * 100)/stat('maxhp'.accr)))))",
+  "lineNumber": 201
+ }
+}

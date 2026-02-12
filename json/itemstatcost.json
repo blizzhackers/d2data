@@ -249,6 +249,12 @@
   "Save Add": 0,
   "lineNumber": 109
  },
+ "customization_index": {
+  "Stat": "customization_index",
+  "*ID": 364,
+  "Send Bits": 32,
+  "lineNumber": 364
+ },
  "damage_framerate": {
   "Stat": "damage_framerate",
   "*ID": 327,
@@ -293,6 +299,10 @@
   "Save Bits": 8,
   "Save Add": 0,
   "damagerelated": 1,
+  "descpriority": 88,
+  "descfunc": 19,
+  "descstrpos": "strModEnhancedDamage",
+  "descstrneg": "strModEnhancedDamage",
   "lineNumber": 25
  },
  "damageresist": {
@@ -485,6 +495,14 @@
   "*ID": 175,
   "Send Bits": 24,
   "lineNumber": 175
+ },
+ "heraldtier": {
+  "Stat": "heraldtier",
+  "*ID": 367,
+  "Signed": 1,
+  "Send Bits": 32,
+  "fCallback": 1,
+  "lineNumber": 367
  },
  "hitpoints": {
   "Stat": "hitpoints",
@@ -946,7 +964,7 @@
   "1.09-Save Add": 0,
   "Save Bits": 3,
   "Save Add": 0,
-  "descpriority": 158,
+  "descpriority": 156,
   "descfunc": 19,
   "descstrpos": "ModStr3k",
   "descstrneg": "ModStr3k",
@@ -1105,7 +1123,7 @@
   "Save Bits": 5,
   "Save Add": 0,
   "Save Param Bits": 9,
-  "descpriority": 159,
+  "descpriority": 157,
   "descfunc": 16,
   "descval": 0,
   "descstrpos": "ModitemAura",
@@ -1137,7 +1155,7 @@
   "Multiply": 256,
   "Save Bits": 7,
   "Save Add": 0,
-  "descpriority": 159,
+  "descpriority": 157,
   "descfunc": 19,
   "descstrpos": "ModStr6k",
   "descstrneg": "ModStr6k",
@@ -1599,7 +1617,7 @@
   "Save Bits": 3,
   "Save Add": 0,
   "Save Param Bits": 3,
-  "descpriority": 157,
+  "descpriority": 155,
   "descfunc": 19,
   "descstrpos": "ModStr3i",
   "descstrneg": "ModStr3i",
@@ -2348,6 +2366,29 @@
   "descstr2": "increaseswithplaylevelX",
   "lineNumber": 228
  },
+ "item_magic_damagemax_perlevel": {
+  "Stat": "item_magic_damagemax_perlevel",
+  "*ID": 365,
+  "Signed": 1,
+  "Send Bits": 6,
+  "Add": 49,
+  "Multiply": 128,
+  "1.09-Save Bits": 6,
+  "1.09-Save Add": 0,
+  "Save Bits": 6,
+  "Save Add": 0,
+  "op": 2,
+  "op param": 3,
+  "op base": "level",
+  "op stat1": "magicmaxdam",
+  "damagerelated": 1,
+  "descpriority": 100,
+  "descfunc": 19,
+  "descstrpos": "MaxMagDmgPerLvl",
+  "descstrneg": "MaxMagDmgPerLvl",
+  "descstr2": "increaseswithplaylevelX",
+  "lineNumber": 365
+ },
  "item_magicarrow": {
   "Stat": "item_magicarrow",
   "*ID": 157,
@@ -2819,7 +2860,7 @@
   "Add": 1432,
   "Multiply": 513,
   "Save Bits": 10,
-  "descpriority": 100,
+  "descpriority": 159,
   "descfunc": 19,
   "descstrpos": "ModItemMonColdSunder",
   "descstrneg": "ModItemMonColdSunder",
@@ -2833,7 +2874,7 @@
   "Add": 1432,
   "Multiply": 513,
   "Save Bits": 10,
-  "descpriority": 100,
+  "descpriority": 159,
   "descfunc": 19,
   "descstrpos": "ModItemMonPhysicalSunder",
   "descstrneg": "ModItemMonPhysicalSunder",
@@ -2862,7 +2903,7 @@
   "Add": 1432,
   "Multiply": 513,
   "Save Bits": 10,
-  "descpriority": 100,
+  "descpriority": 159,
   "descfunc": 19,
   "descstrpos": "ModItemMonFireSunder",
   "descstrneg": "ModItemMonFireSunder",
@@ -2876,7 +2917,7 @@
   "Add": 1432,
   "Multiply": 513,
   "Save Bits": 10,
-  "descpriority": 100,
+  "descpriority": 159,
   "descfunc": 19,
   "descstrpos": "ModItemMonLightSunder",
   "descstrneg": "ModItemMonLightSunder",
@@ -2905,7 +2946,7 @@
   "Add": 1432,
   "Multiply": 513,
   "Save Bits": 10,
-  "descpriority": 100,
+  "descpriority": 159,
   "descfunc": 19,
   "descstrpos": "ModItemMonMagicSunder",
   "descstrneg": "ModItemMonMagicSunder",
@@ -2934,7 +2975,7 @@
   "Add": 1432,
   "Multiply": 513,
   "Save Bits": 10,
-  "descpriority": 100,
+  "descpriority": 159,
   "descfunc": 19,
   "descstrpos": "ModItemMonPoisonSunder",
   "descstrneg": "ModItemMonPoisonSunder",
@@ -3378,7 +3419,7 @@
   "itemeventfunc1": 20,
   "itemevent2": "domissileattack",
   "itemeventfunc2": 20,
-  "descpriority": 160,
+  "descpriority": 158,
   "descfunc": 15,
   "descstrpos": "ItemExpansiveChancX",
   "descstrneg": "ItemExpansiveChancX",
@@ -3402,7 +3443,7 @@
   "Save Param Bits": 16,
   "itemevent1": "killed",
   "itemeventfunc1": 30,
-  "descpriority": 160,
+  "descpriority": 158,
   "descfunc": 15,
   "descstrpos": "Moditemskondeath",
   "descstrneg": "Moditemskondeath",
@@ -3428,7 +3469,7 @@
   "itemeventfunc1": 21,
   "itemevent2": "damagedbymissile",
   "itemeventfunc2": 21,
-  "descpriority": 160,
+  "descpriority": 158,
   "descfunc": 15,
   "descstrpos": "ItemExpansiveChanc2",
   "descstrneg": "ItemExpansiveChanc2",
@@ -3455,7 +3496,7 @@
   "itemeventfunc1": 20,
   "itemevent2": "domissiledamage",
   "itemeventfunc2": 20,
-  "descpriority": 160,
+  "descpriority": 158,
   "descfunc": 15,
   "descstrpos": "ItemExpansiveChanc1",
   "descstrneg": "ItemExpansiveChanc1",
@@ -3480,7 +3521,7 @@
   "damagerelated": 1,
   "itemevent1": "kill",
   "itemeventfunc1": 20,
-  "descpriority": 160,
+  "descpriority": 158,
   "descfunc": 15,
   "descstrpos": "ModitemskonKill",
   "descstrneg": "ModitemskonKill",
@@ -3504,7 +3545,7 @@
   "Save Param Bits": 16,
   "itemevent1": "levelup",
   "itemeventfunc1": 30,
-  "descpriority": 160,
+  "descpriority": 158,
   "descfunc": 15,
   "descstrpos": "ModitemskonLevel",
   "descstrneg": "ModitemskonLevel",
@@ -4517,6 +4558,12 @@
   "descstrneg": "ModStr1g",
   "lineNumber": 21
  },
+ "missile_thorns_percent": {
+  "Stat": "missile_thorns_percent",
+  "*ID": 208,
+  "Send Bits": 12,
+  "lineNumber": 208
+ },
  "modifierlist_castid": {
   "Stat": "modifierlist_castid",
   "*ID": 202,
@@ -4640,6 +4687,23 @@
   "Save Add": 0,
   "lineNumber": 337
  },
+ "passive_dmg_pierce": {
+  "Stat": "passive_dmg_pierce",
+  "*ID": 366,
+  "Signed": 1,
+  "Send Bits": 9,
+  "Multiply": 2812,
+  "1.09-Save Bits": 8,
+  "1.09-Save Add": 0,
+  "Save Bits": 8,
+  "Save Add": 0,
+  "descpriority": 88,
+  "descfunc": 19,
+  "descstrpos": "ModStrDamPierce",
+  "descstrneg": "ModStrDamPierce",
+  "advdisplay": 2,
+  "lineNumber": 366
+ },
  "passive_dodge": {
   "Stat": "passive_dodge",
   "*ID": 338,
@@ -4743,6 +4807,11 @@
   "1.09-Save Add": 0,
   "Save Bits": 9,
   "Save Add": 50,
+  "descpriority": 88,
+  "descfunc": 19,
+  "descstrpos": "ModStrMagMastery",
+  "descstrneg": "ModStrMagMastery",
+  "advdisplay": 2,
   "lineNumber": 357
  },
  "passive_mag_pierce": {
@@ -4755,6 +4824,11 @@
   "1.09-Save Add": 0,
   "Save Bits": 8,
   "Save Add": 0,
+  "descpriority": 88,
+  "descfunc": 19,
+  "descstrpos": "ModStrMagPierce",
+  "descstrneg": "ModStrMagPierce",
+  "advdisplay": 2,
   "lineNumber": 358
  },
  "passive_mastery_attack_speed": {
@@ -4780,6 +4854,24 @@
   "Save Bits": 8,
   "Save Add": 0,
   "lineNumber": 212
+ },
+ "passive_mastery_item_level_req_percent": {
+  "Stat": "passive_mastery_item_level_req_percent",
+  "*ID": 209,
+  "Signed": 1,
+  "Send Bits": 8,
+  "Send Param Bits": 16,
+  "fCallback": 1,
+  "lineNumber": 209
+ },
+ "passive_mastery_item_req_percent": {
+  "Stat": "passive_mastery_item_req_percent",
+  "*ID": 203,
+  "Signed": 1,
+  "Send Bits": 8,
+  "Send Param Bits": 16,
+  "fCallback": 1,
+  "lineNumber": 203
  },
  "passive_mastery_melee_crit": {
   "Stat": "passive_mastery_melee_crit",
@@ -4829,7 +4921,7 @@
  },
  "passive_mastery_replenish_oncrit": {
   "Stat": "passive_mastery_replenish_oncrit",
-  "*ID": 206,
+  "*ID": 207,
   "Signed": 1,
   "Send Bits": 9,
   "Send Param Bits": 16,
@@ -5077,6 +5169,20 @@
   "Send Bits": 16,
   "lineNumber": 325
  },
+ "psychicward": {
+  "Stat": "psychicward",
+  "*ID": 361,
+  "Signed": 1,
+  "Send Bits": 32,
+  "lineNumber": 361
+ },
+ "psychicwardmax": {
+  "Stat": "psychicwardmax",
+  "*ID": 362,
+  "Signed": 1,
+  "Send Bits": 32,
+  "lineNumber": 362
+ },
  "quantity": {
   "Stat": "quantity",
   "*ID": 70,
@@ -5164,6 +5270,11 @@
   "1.09-Save Bits": 7,
   "1.09-Save Add": 20,
   "lineNumber": 103
+ },
+ "skill_channeling_tick": {
+  "Stat": "skill_channeling_tick",
+  "*ID": 363,
+  "lineNumber": 363
  },
  "skill_chillingarmor": {
   "Stat": "skill_chillingarmor",
@@ -5426,6 +5537,22 @@
   "descstrneg": "ModStr1h",
   "lineNumber": 19
  },
+ "ua_defeated": {
+  "Stat": "ua_defeated",
+  "*ID": 211,
+  "Send Bits": 8,
+  "1.09-Save Bits": 8,
+  "1.09-Save Add": 0,
+  "lineNumber": 211
+ },
+ "ua_escalation": {
+  "Stat": "ua_escalation",
+  "*ID": 210,
+  "Send Bits": 8,
+  "1.09-Save Bits": 8,
+  "1.09-Save Add": 0,
+  "lineNumber": 210
+ },
  "unit_dooverlay": {
   "Stat": "unit_dooverlay",
   "*ID": 178,
@@ -5438,61 +5565,6 @@
   "1.09-Save Bits": 3,
   "1.09-Save Add": 0,
   "lineNumber": 84
- },
- "unused203": {
-  "Stat": "unused203",
-  "*ID": 203,
-  "1.09-Save Bits": 21,
-  "1.09-Save Add": 0,
-  "lineNumber": 203
- },
- "unused208": {
-  "Stat": "unused208",
-  "*ID": 208,
-  "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
-  "Multiply": 256,
-  "1.09-Save Bits": 30,
-  "1.09-Save Add": 0,
-  "lineNumber": 208
- },
- "unused209": {
-  "Stat": "unused209",
-  "*ID": 209,
-  "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
-  "Multiply": 256,
-  "1.09-Save Bits": 30,
-  "1.09-Save Add": 0,
-  "lineNumber": 209
- },
- "unused210": {
-  "Stat": "unused210",
-  "*ID": 210,
-  "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
-  "Multiply": 256,
-  "1.09-Save Bits": 30,
-  "1.09-Save Add": 0,
-  "lineNumber": 210
- },
- "unused211": {
-  "Stat": "unused211",
-  "*ID": 211,
-  "Signed": 1,
-  "Send Bits": 30,
-  "Encode": 3,
-  "Add": 401,
-  "Multiply": 256,
-  "1.09-Save Bits": 30,
-  "1.09-Save Add": 0,
-  "lineNumber": 211
  },
  "value": {
   "Stat": "value",

@@ -1,6 +1,7 @@
 {
  "abs-cold": {
   "code": "abs-cold",
+  "*Id": 50,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorbcold",
@@ -11,6 +12,7 @@
  },
  "abs-cold%": {
   "code": "abs-cold%",
+  "*Id": 49,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorbcold_percent",
@@ -21,9 +23,11 @@
  },
  "abs-cold/lvl": {
   "code": "abs-cold/lvl",
+  "*Id": 161,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_absorb_cold_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Absorbs Cold Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -31,6 +35,7 @@
  },
  "abs-cold/time": {
   "code": "abs-cold/time",
+  "*Id": 215,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_absorb_cold_bytime",
@@ -44,16 +49,19 @@
  },
  "abs-crush": {
   "code": "abs-crush",
+  "*Id": 190,
   "expansion": 1,
   "lineNumber": 191
  },
  "abs-crush%": {
   "code": "abs-crush%",
+  "*Id": 193,
   "expansion": 1,
   "lineNumber": 194
  },
  "abs-fire": {
   "code": "abs-fire",
+  "*Id": 44,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorbfire",
@@ -64,6 +72,7 @@
  },
  "abs-fire%": {
   "code": "abs-fire%",
+  "*Id": 43,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorbfire_percent",
@@ -74,9 +83,11 @@
  },
  "abs-fire/lvl": {
   "code": "abs-fire/lvl",
+  "*Id": 162,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_absorb_fire_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Absorbs Fire Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -84,6 +95,7 @@
  },
  "abs-fire/time": {
   "code": "abs-fire/time",
+  "*Id": 216,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_absorb_fire_bytime",
@@ -97,6 +109,7 @@
  },
  "abs-ltng": {
   "code": "abs-ltng",
+  "*Id": 46,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorblight",
@@ -107,6 +120,7 @@
  },
  "abs-ltng%": {
   "code": "abs-ltng%",
+  "*Id": 45,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorblight_percent",
@@ -117,9 +131,11 @@
  },
  "abs-ltng/lvl": {
   "code": "abs-ltng/lvl",
+  "*Id": 163,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_absorb_ltng_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Absorbs Lightning Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -128,6 +144,7 @@
  },
  "abs-ltng/time": {
   "code": "abs-ltng/time",
+  "*Id": 217,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_absorb_ltng_bytime",
@@ -141,6 +158,7 @@
  },
  "abs-mag": {
   "code": "abs-mag",
+  "*Id": 48,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorbmagic",
@@ -151,6 +169,7 @@
  },
  "abs-mag%": {
   "code": "abs-mag%",
+  "*Id": 47,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_absorbmagic_percent",
@@ -161,9 +180,11 @@
  },
  "abs-pois/lvl": {
   "code": "abs-pois/lvl",
+  "*Id": 164,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_absorb_pois_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Absorbs Poison Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -172,6 +193,7 @@
  },
  "abs-pois/time": {
   "code": "abs-pois/time",
+  "*Id": 218,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_absorb_pois_bytime",
@@ -185,26 +207,31 @@
  },
  "abs-slash": {
   "code": "abs-slash",
+  "*Id": 189,
   "expansion": 1,
   "lineNumber": 190
  },
  "abs-slash%": {
   "code": "abs-slash%",
+  "*Id": 192,
   "expansion": 1,
   "lineNumber": 193
  },
  "abs-thrust": {
   "code": "abs-thrust",
+  "*Id": 191,
   "expansion": 1,
   "lineNumber": 192
  },
  "abs-thrust%": {
   "code": "abs-thrust%",
+  "*Id": 194,
   "expansion": 1,
   "lineNumber": 195
  },
  "ac": {
   "code": "ac",
+  "*Id": 0,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "armorclass",
@@ -215,6 +242,7 @@
  },
  "ac%": {
   "code": "ac%",
+  "*Id": 5,
   "*Enabled": 1,
   "func1": 2,
   "stat1": "item_armor_percent",
@@ -225,14 +253,17 @@
  },
  "ac%-mon": {
   "code": "ac%-mon",
+  "*Id": 241,
   "expansion": 1,
   "lineNumber": 242
  },
  "ac%/lvl": {
   "code": "ac%/lvl",
+  "*Id": 142,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_armorpercent_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+#% Enhanced Defense (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -240,6 +271,7 @@
  },
  "ac%/time": {
   "code": "ac%/time",
+  "*Id": 196,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_armorpercent_bytime",
@@ -253,6 +285,7 @@
  },
  "ac-hth": {
   "code": "ac-hth",
+  "*Id": 2,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "armorclass_vs_hth",
@@ -263,6 +296,7 @@
  },
  "ac-miss": {
   "code": "ac-miss",
+  "*Id": 1,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "armorclass_vs_missile",
@@ -273,14 +307,17 @@
  },
  "ac-mon": {
   "code": "ac-mon",
+  "*Id": 240,
   "expansion": 1,
   "lineNumber": 241
  },
  "ac/lvl": {
   "code": "ac/lvl",
+  "*Id": 141,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_armor_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# Defense (Based on Character Level)",
   "*Parameter": "ac/lvl (8ths)",
   "expansion": 1,
@@ -288,6 +325,7 @@
  },
  "ac/time": {
   "code": "ac/time",
+  "*Id": 195,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_armor_bytime",
@@ -301,6 +339,7 @@
  },
  "addxp": {
   "code": "addxp",
+  "*Id": 252,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_addexperience",
@@ -310,8 +349,21 @@
   "expansion": 1,
   "lineNumber": 253
  },
+ "affix-rand": {
+  "code": "affix-rand",
+  "*Id": 280,
+  "*Enabled": 1,
+  "func1": 25,
+  "*Tooltip": "Add random affix from property",
+  "*Parameter": "Index of property to use",
+  "*Min": "Min Value for affix",
+  "*Max": "Max Value for affix",
+  "expansion": 1,
+  "lineNumber": 281
+ },
  "all-stats": {
   "code": "all-stats",
+  "*Id": 251,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "strength",
@@ -329,6 +381,7 @@
  },
  "allskills": {
   "code": "allskills",
+  "*Id": 104,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_allskills",
@@ -339,6 +392,7 @@
  },
  "ama": {
   "code": "ama",
+  "*Id": 67,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -350,6 +404,7 @@
  },
  "ass": {
   "code": "ass",
+  "*Id": 122,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -362,6 +417,7 @@
  },
  "att": {
   "code": "att",
+  "*Id": 15,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "tohit",
@@ -372,6 +428,7 @@
  },
  "att%": {
   "code": "att%",
+  "*Id": 96,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_tohit_percent",
@@ -382,14 +439,17 @@
  },
  "att%-mon": {
   "code": "att%-mon",
+  "*Id": 239,
   "expansion": 1,
   "lineNumber": 240
  },
  "att%/lvl": {
   "code": "att%/lvl",
+  "*Id": 152,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_tohitpercent_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "#% Bonus to Attack Rating (Based on Character Level)",
   "*Parameter": "#/2 per Level",
   "expansion": 1,
@@ -397,6 +457,7 @@
  },
  "att%/time": {
   "code": "att%/time",
+  "*Id": 206,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_tohitpercent_bytime",
@@ -410,9 +471,11 @@
  },
  "att-dem/lvl": {
   "code": "att-dem/lvl",
+  "*Id": 172,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_tohit_demon_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Attack Rating against Demons (Based on Character Level)",
   "*Parameter": "#/2 per Level",
   "expansion": 1,
@@ -420,6 +483,7 @@
  },
  "att-dem/time": {
   "code": "att-dem/time",
+  "*Id": 225,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_tohit_demon_bytime",
@@ -433,6 +497,7 @@
  },
  "att-demon": {
   "code": "att-demon",
+  "*Id": 100,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_demon_tohit",
@@ -443,11 +508,13 @@
  },
  "att-mon": {
   "code": "att-mon",
+  "*Id": 238,
   "expansion": 1,
   "lineNumber": 239
  },
  "att-mon%": {
   "code": "att-mon%",
+  "*Id": 256,
   "*Enabled": 1,
   "func1": 24,
   "stat1": "attack_vs_montype",
@@ -461,9 +528,11 @@
  },
  "att-skill": {
   "code": "att-skill",
+  "*Id": 126,
   "*Enabled": 1,
   "func1": 11,
   "stat1": "item_skillonattack",
+  "uiRangeType": 6,
   "*Tooltip": "#% Chance to cast level # [Skill] on attack",
   "*Parameter": "Skill",
   "*Min": "\"% Chance (If 0, then default to 5)\"",
@@ -473,9 +542,11 @@
  },
  "att-und/lvl": {
   "code": "att-und/lvl",
+  "*Id": 173,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_tohit_undead_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Attack Rating against Undead (Based on Character Level)",
   "*Parameter": "#/2 per Level",
   "expansion": 1,
@@ -483,6 +554,7 @@
  },
  "att-und/time": {
   "code": "att-und/time",
+  "*Id": 226,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_tohit_undead_bytime",
@@ -496,6 +568,7 @@
  },
  "att-undead": {
   "code": "att-undead",
+  "*Id": 101,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_undead_tohit",
@@ -506,9 +579,11 @@
  },
  "att/lvl": {
   "code": "att/lvl",
+  "*Id": 151,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_tohit_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Attack Rating (Based on Character Level)",
   "*Parameter": "#/2 per Level",
   "expansion": 1,
@@ -516,6 +591,7 @@
  },
  "att/time": {
   "code": "att/time",
+  "*Id": 205,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_tohit_bytime",
@@ -529,6 +605,7 @@
  },
  "aura": {
   "code": "aura",
+  "*Id": 125,
   "*Enabled": 1,
   "func1": 22,
   "stat1": "item_aura",
@@ -541,6 +618,7 @@
  },
  "balance1": {
   "code": "balance1",
+  "*Id": 79,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastergethitrate",
@@ -551,6 +629,7 @@
  },
  "balance2": {
   "code": "balance2",
+  "*Id": 80,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastergethitrate",
@@ -561,6 +640,7 @@
  },
  "balance3": {
   "code": "balance3",
+  "*Id": 81,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastergethitrate",
@@ -571,6 +651,7 @@
  },
  "bar": {
   "code": "bar",
+  "*Id": 71,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -582,6 +663,7 @@
  },
  "block": {
   "code": "block",
+  "*Id": 16,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "toblock",
@@ -592,6 +674,7 @@
  },
  "block1": {
   "code": "block1",
+  "*Id": 82,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fasterblockrate",
@@ -602,6 +685,7 @@
  },
  "block2": {
   "code": "block2",
+  "*Id": 83,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fasterblockrate",
@@ -612,6 +696,7 @@
  },
  "block3": {
   "code": "block3",
+  "*Id": 84,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fasterblockrate",
@@ -622,6 +707,7 @@
  },
  "bloody": {
   "code": "bloody",
+  "*Id": 112,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_extrablood",
@@ -632,6 +718,7 @@
  },
  "cast1": {
   "code": "cast1",
+  "*Id": 85,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastercastrate",
@@ -642,6 +729,7 @@
  },
  "cast2": {
   "code": "cast2",
+  "*Id": 86,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastercastrate",
@@ -652,6 +740,7 @@
  },
  "cast3": {
   "code": "cast3",
+  "*Id": 87,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastercastrate",
@@ -662,6 +751,7 @@
  },
  "charge-noconsume": {
   "code": "charge-noconsume",
+  "*Id": 275,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_charge_noconsume",
@@ -673,6 +763,7 @@
  },
  "charged": {
   "code": "charged",
+  "*Id": 243,
   "*Enabled": 1,
   "func1": 19,
   "stat1": "item_charged_skill",
@@ -685,6 +776,7 @@
  },
  "cheap": {
   "code": "cheap",
+  "*Id": 254,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_reducedprices",
@@ -696,6 +788,7 @@
  },
  "cold-len": {
   "code": "cold-len",
+  "*Id": 19,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "coldlength",
@@ -706,6 +799,7 @@
  },
  "cold-max": {
   "code": "cold-max",
+  "*Id": 18,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "coldmaxdam",
@@ -716,6 +810,7 @@
  },
  "cold-min": {
   "code": "cold-min",
+  "*Id": 17,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "coldmindam",
@@ -726,6 +821,7 @@
  },
  "color": {
   "code": "color",
+  "*Id": 74,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_lightcolor",
@@ -737,6 +833,7 @@
  },
  "crush": {
   "code": "crush",
+  "*Id": 108,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_crushingblow",
@@ -747,9 +844,11 @@
  },
  "crush/lvl": {
   "code": "crush/lvl",
+  "*Id": 174,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_crushingblow_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "#% Chance of Crushing Blow (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -758,6 +857,7 @@
  },
  "crush/time": {
   "code": "crush/time",
+  "*Id": 227,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_crushingblow_bytime",
@@ -771,6 +871,7 @@
  },
  "deadly": {
   "code": "deadly",
+  "*Id": 113,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_deadlystrike",
@@ -781,9 +882,11 @@
  },
  "deadly/lvl": {
   "code": "deadly/lvl",
+  "*Id": 177,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_deadlystrike_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "#% Deadly Strike (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -791,6 +894,7 @@
  },
  "deadly/time": {
   "code": "deadly/time",
+  "*Id": 230,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_deadlystrike_bytime",
@@ -804,9 +908,11 @@
  },
  "death-skill": {
   "code": "death-skill",
+  "*Id": 259,
   "*Enabled": 1,
   "func1": 11,
   "stat1": "item_skillondeath",
+  "uiRangeType": 6,
   "*Tooltip": "#% Chance to cast level # [Skill] when you Die",
   "*Parameter": "Skill",
   "*Min": "\"% Chance (If 0, then default to 5)\"",
@@ -816,6 +922,7 @@
  },
  "demon-heal": {
   "code": "demon-heal",
+  "*Id": 111,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_healafterdemonkill",
@@ -826,6 +933,7 @@
  },
  "dex": {
   "code": "dex",
+  "*Id": 8,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "dexterity",
@@ -836,9 +944,11 @@
  },
  "dex/lvl": {
   "code": "dex/lvl",
+  "*Id": 148,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_dexterity_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Dexterity (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -846,6 +956,7 @@
  },
  "dex/time": {
   "code": "dex/time",
+  "*Id": 202,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_dexterity_bytime",
@@ -859,6 +970,7 @@
  },
  "dmg": {
   "code": "dmg",
+  "*Id": 89,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_normaldamage",
@@ -869,6 +981,7 @@
  },
  "dmg%": {
   "code": "dmg%",
+  "*Id": 29,
   "*Enabled": 1,
   "func1": 7,
   "*Tooltip": "+#% Enhanced Damage",
@@ -878,14 +991,17 @@
  },
  "dmg%-mon": {
   "code": "dmg%-mon",
+  "*Id": 237,
   "expansion": 1,
   "lineNumber": 238
  },
  "dmg%/lvl": {
   "code": "dmg%/lvl",
+  "*Id": 146,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_maxdamage_percent_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+#% Enhanced Maximum Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -893,6 +1009,7 @@
  },
  "dmg%/time": {
   "code": "dmg%/time",
+  "*Id": 200,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_maxdamage_percent_bytime",
@@ -906,6 +1023,7 @@
  },
  "dmg-ac": {
   "code": "dmg-ac",
+  "*Id": 97,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_damagetargetac",
@@ -916,6 +1034,7 @@
  },
  "dmg-cold": {
   "code": "dmg-cold",
+  "*Id": 137,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "coldmindam",
@@ -933,9 +1052,11 @@
  },
  "dmg-cold/lvl": {
   "code": "dmg-cold/lvl",
+  "*Id": 153,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_cold_damagemax_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Maximum Cold Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -944,6 +1065,7 @@
  },
  "dmg-cold/time": {
   "code": "dmg-cold/time",
+  "*Id": 207,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_cold_damagemax_bytime",
@@ -957,19 +1079,23 @@
  },
  "dmg-crush": {
   "code": "dmg-crush",
+  "*Id": 185,
   "expansion": 1,
   "lineNumber": 186
  },
  "dmg-crush%": {
   "code": "dmg-crush%",
+  "*Id": 186,
   "expansion": 1,
   "lineNumber": 187
  },
  "dmg-dem/lvl": {
   "code": "dmg-dem/lvl",
+  "*Id": 170,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_damage_demon_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+#% Damage to Demons (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -977,6 +1103,7 @@
  },
  "dmg-dem/time": {
   "code": "dmg-dem/time",
+  "*Id": 223,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_damage_demon_bytime",
@@ -990,6 +1117,7 @@
  },
  "dmg-demon": {
   "code": "dmg-demon",
+  "*Id": 98,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_demondamage_percent",
@@ -1000,6 +1128,7 @@
  },
  "dmg-elem": {
   "code": "dmg-elem",
+  "*Id": 248,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "firemindam",
@@ -1023,6 +1152,7 @@
  },
  "dmg-elem-max": {
   "code": "dmg-elem-max",
+  "*Id": 250,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "firemaxdam",
@@ -1041,6 +1171,7 @@
  },
  "dmg-elem-min": {
   "code": "dmg-elem-min",
+  "*Id": 249,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "firemindam",
@@ -1057,6 +1188,7 @@
  },
  "dmg-fire": {
   "code": "dmg-fire",
+  "*Id": 134,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "firemindam",
@@ -1070,9 +1202,11 @@
  },
  "dmg-fire/lvl": {
   "code": "dmg-fire/lvl",
+  "*Id": 154,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_fire_damagemax_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Maximum Fire Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -1081,6 +1215,7 @@
  },
  "dmg-fire/time": {
   "code": "dmg-fire/time",
+  "*Id": 208,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_fire_damagemax_bytime",
@@ -1094,6 +1229,7 @@
  },
  "dmg-ltng": {
   "code": "dmg-ltng",
+  "*Id": 135,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "lightmindam",
@@ -1107,9 +1243,11 @@
  },
  "dmg-ltng/lvl": {
   "code": "dmg-ltng/lvl",
+  "*Id": 155,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_ltng_damagemax_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Maximum Lightning Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -1118,6 +1256,7 @@
  },
  "dmg-ltng/time": {
   "code": "dmg-ltng/time",
+  "*Id": 209,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_ltng_damagemax_bytime",
@@ -1131,6 +1270,7 @@
  },
  "dmg-mag": {
   "code": "dmg-mag",
+  "*Id": 136,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "magicmindam",
@@ -1142,8 +1282,21 @@
   "expansion": 1,
   "lineNumber": 137
  },
+ "dmg-mag/lvl": {
+  "code": "dmg-mag/lvl",
+  "*Id": 277,
+  "*Enabled": 1,
+  "func1": 17,
+  "stat1": "item_magic_damagemax_perlevel",
+  "*Tooltip": "+# to Maximum Cold Damage (Based on Character Level)",
+  "*Parameter": "#/8 per Level",
+  "*Notes": "Currently Not Used",
+  "expansion": 1,
+  "lineNumber": 278
+ },
  "dmg-max": {
   "code": "dmg-max",
+  "*Id": 28,
   "*Enabled": 1,
   "func1": 6,
   "*Tooltip": "+# to Maximum Damage",
@@ -1153,6 +1306,7 @@
  },
  "dmg-min": {
   "code": "dmg-min",
+  "*Id": 27,
   "*Enabled": 1,
   "func1": 5,
   "*Tooltip": "+# to Minimum Damage",
@@ -1162,11 +1316,13 @@
  },
  "dmg-mon": {
   "code": "dmg-mon",
+  "*Id": 236,
   "expansion": 1,
   "lineNumber": 237
  },
  "dmg-mon%": {
   "code": "dmg-mon%",
+  "*Id": 257,
   "*Enabled": 1,
   "func1": 24,
   "stat1": "damage_vs_montype",
@@ -1180,6 +1336,7 @@
  },
  "dmg-norm": {
   "code": "dmg-norm",
+  "*Id": 140,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "mindamage",
@@ -1193,6 +1350,7 @@
  },
  "dmg-pois": {
   "code": "dmg-pois",
+  "*Id": 138,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "poisonmindam",
@@ -1210,9 +1368,11 @@
  },
  "dmg-pois/lvl": {
   "code": "dmg-pois/lvl",
+  "*Id": 156,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_pois_damagemax_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Maximum Poison Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -1221,6 +1381,7 @@
  },
  "dmg-pois/time": {
   "code": "dmg-pois/time",
+  "*Id": 210,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_pois_damagemax_bytime",
@@ -1234,16 +1395,19 @@
  },
  "dmg-slash": {
   "code": "dmg-slash",
+  "*Id": 183,
   "expansion": 1,
   "lineNumber": 184
  },
  "dmg-slash%": {
   "code": "dmg-slash%",
+  "*Id": 184,
   "expansion": 1,
   "lineNumber": 185
  },
  "dmg-throw": {
   "code": "dmg-throw",
+  "*Id": 139,
   "*Enabled": 1,
   "func1": 15,
   "stat1": "item_throw_mindamage",
@@ -1257,16 +1421,19 @@
  },
  "dmg-thrust": {
   "code": "dmg-thrust",
+  "*Id": 187,
   "expansion": 1,
   "lineNumber": 188
  },
  "dmg-thrust%": {
   "code": "dmg-thrust%",
+  "*Id": 188,
   "expansion": 1,
   "lineNumber": 189
  },
  "dmg-to-mana": {
   "code": "dmg-to-mana",
+  "*Id": 30,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_damagetomana",
@@ -1277,9 +1444,11 @@
  },
  "dmg-und/lvl": {
   "code": "dmg-und/lvl",
+  "*Id": 171,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_damage_undead_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+#% Damage to Undead (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -1287,6 +1456,7 @@
  },
  "dmg-und/time": {
   "code": "dmg-und/time",
+  "*Id": 224,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_damage_undead_bytime",
@@ -1300,6 +1470,7 @@
  },
  "dmg-undead": {
   "code": "dmg-undead",
+  "*Id": 99,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_undeaddamage_percent",
@@ -1310,9 +1481,11 @@
  },
  "dmg/lvl": {
   "code": "dmg/lvl",
+  "*Id": 145,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_maxdamage_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Maximum Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -1320,6 +1493,7 @@
  },
  "dmg/time": {
   "code": "dmg/time",
+  "*Id": 199,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_maxdamage_bytime",
@@ -1333,6 +1507,7 @@
  },
  "dru": {
   "code": "dru",
+  "*Id": 121,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -1345,6 +1520,7 @@
  },
  "dur": {
   "code": "dur",
+  "*Id": 51,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxdurability",
@@ -1355,6 +1531,7 @@
  },
  "dur%": {
   "code": "dur%",
+  "*Id": 52,
   "*Enabled": 1,
   "func1": 13,
   "stat1": "item_maxdurability_percent",
@@ -1365,6 +1542,7 @@
  },
  "ease": {
   "code": "ease",
+  "*Id": 75,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_req_percent",
@@ -1375,6 +1553,7 @@
  },
  "enr": {
   "code": "enr",
+  "*Id": 10,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "energy",
@@ -1385,9 +1564,11 @@
  },
  "enr/lvl": {
   "code": "enr/lvl",
+  "*Id": 149,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_energy_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Energy (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -1396,6 +1577,7 @@
  },
  "enr/time": {
   "code": "enr/time",
+  "*Id": 203,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_energy_bytime",
@@ -1409,6 +1591,7 @@
  },
  "ethereal": {
   "code": "ethereal",
+  "*Id": 264,
   "*Enabled": 1,
   "func1": 23,
   "*Tooltip": "Ethereal",
@@ -1419,6 +1602,7 @@
  },
  "explosivearrow": {
   "code": "explosivearrow",
+  "*Id": 120,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_explosivearrow",
@@ -1429,6 +1613,7 @@
  },
  "extra-cold": {
   "code": "extra-cold",
+  "*Id": 246,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_cold_mastery",
@@ -1440,6 +1625,7 @@
  },
  "extra-fire": {
   "code": "extra-fire",
+  "*Id": 244,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_fire_mastery",
@@ -1451,6 +1637,7 @@
  },
  "extra-ltng": {
   "code": "extra-ltng",
+  "*Id": 245,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_ltng_mastery",
@@ -1460,8 +1647,21 @@
   "expansion": 1,
   "lineNumber": 246
  },
+ "extra-mag": {
+  "code": "extra-mag",
+  "*Id": 283,
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_mag_mastery",
+  "*Tooltip": "+#% to Magic Skill Damage",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 284
+ },
  "extra-pois": {
   "code": "extra-pois",
+  "*Id": 247,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_pois_mastery",
@@ -1471,8 +1671,29 @@
   "expansion": 1,
   "lineNumber": 248
  },
+ "extra-skill-dmg%-rand": {
+  "code": "extra-skill-dmg%-rand",
+  "*Id": 281,
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_fire_mastery",
+  "func2": 1,
+  "stat2": "passive_ltng_mastery",
+  "func3": 1,
+  "stat3": "passive_cold_mastery",
+  "func4": 1,
+  "stat4": "passive_pois_mastery",
+  "func5": 1,
+  "stat5": "passive_mag_mastery",
+  "func6": 7,
+  "stat6": "dmg%",
+  "*Tooltip": "used to with affix-rand to roll a random stat",
+  "expansion": 1,
+  "lineNumber": 282
+ },
  "fade": {
   "code": "fade",
+  "*Id": 262,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "fade",
@@ -1484,11 +1705,13 @@
  },
  "fire-fx": {
   "code": "fire-fx",
+  "*Id": 131,
   "expansion": 1,
   "lineNumber": 132
  },
  "fire-max": {
   "code": "fire-max",
+  "*Id": 21,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "firemaxdam",
@@ -1499,6 +1722,7 @@
  },
  "fire-min": {
   "code": "fire-min",
+  "*Id": 20,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "firemindam",
@@ -1509,6 +1733,7 @@
  },
  "fireskill": {
   "code": "fireskill",
+  "*Id": 103,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_elemskill",
@@ -1520,6 +1745,7 @@
  },
  "freeze": {
   "code": "freeze",
+  "*Id": 106,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_freeze",
@@ -1530,24 +1756,29 @@
  },
  "gembonus": {
   "code": "gembonus",
+  "*Id": 129,
   "expansion": 1,
   "lineNumber": 130
  },
  "gems%/lvl": {
   "code": "gems%/lvl",
+  "*Id": 178,
   "expansion": 1,
   "lineNumber": 179
  },
  "gems%/time": {
   "code": "gems%/time",
+  "*Id": 231,
   "expansion": 1,
   "lineNumber": 232
  },
  "gethit-skill": {
   "code": "gethit-skill",
+  "*Id": 128,
   "*Enabled": 1,
   "func1": 11,
   "stat1": "item_skillongethit",
+  "uiRangeType": 6,
   "*Tooltip": "#% Chance to cast level # [Skill] when struck",
   "*Parameter": "Skill",
   "*Min": "\"% Chance (If 0, then default to 5)\"",
@@ -1557,6 +1788,7 @@
  },
  "gold%": {
   "code": "gold%",
+  "*Id": 58,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_goldbonus",
@@ -1567,9 +1799,11 @@
  },
  "gold%/lvl": {
   "code": "gold%/lvl",
+  "*Id": 166,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_find_gold_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "#% Extra Gold from Monsters (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -1577,6 +1811,7 @@
  },
  "gold%/time": {
   "code": "gold%/time",
+  "*Id": 219,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_find_gold_bytime",
@@ -1590,6 +1825,7 @@
  },
  "half-freeze": {
   "code": "half-freeze",
+  "*Id": 95,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_halffreezeduration",
@@ -1600,6 +1836,7 @@
  },
  "heal-kill": {
   "code": "heal-kill",
+  "*Id": 253,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_healafterkill",
@@ -1611,6 +1848,7 @@
  },
  "herb": {
   "code": "herb",
+  "*Id": 72,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_doubleherbduration",
@@ -1621,9 +1859,11 @@
  },
  "hit-skill": {
   "code": "hit-skill",
+  "*Id": 127,
   "*Enabled": 1,
   "func1": 11,
   "stat1": "item_skillonhit",
+  "uiRangeType": 6,
   "*Tooltip": "#% Chance to cast level # [Skill] on striking",
   "*Parameter": "Skill",
   "*Min": "\"% Chance (If 0, then default to 5)\"",
@@ -1633,6 +1873,7 @@
  },
  "howl": {
   "code": "howl",
+  "*Id": 90,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_howl",
@@ -1643,6 +1884,7 @@
  },
  "hp": {
   "code": "hp",
+  "*Id": 13,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxhp",
@@ -1653,6 +1895,7 @@
  },
  "hp%": {
   "code": "hp%",
+  "*Id": 14,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_maxhp_percent",
@@ -1663,9 +1906,11 @@
  },
  "hp/lvl": {
   "code": "hp/lvl",
+  "*Id": 143,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_hp_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Life (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -1673,6 +1918,7 @@
  },
  "hp/time": {
   "code": "hp/time",
+  "*Id": 197,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_hp_bytime",
@@ -1686,6 +1932,7 @@
  },
  "ignore-ac": {
   "code": "ignore-ac",
+  "*Id": 92,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_ignoretargetac",
@@ -1696,6 +1943,7 @@
  },
  "indestruct": {
   "code": "indestruct",
+  "*Id": 242,
   "*Enabled": 1,
   "func1": 20,
   "*Tooltip": "Indestructible",
@@ -1706,11 +1954,13 @@
  },
  "item%": {
   "code": "item%",
+  "*Id": 182,
   "expansion": 1,
   "lineNumber": 183
  },
  "kick": {
   "code": "kick",
+  "*Id": 109,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_kickdamage",
@@ -1721,9 +1971,11 @@
  },
  "kick/lvl": {
   "code": "kick/lvl",
+  "*Id": 176,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_kick_damage_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# Kick Damage (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -1732,6 +1984,7 @@
  },
  "kick/time": {
   "code": "kick/time",
+  "*Id": 229,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_kick_damage_bytime",
@@ -1745,9 +1998,11 @@
  },
  "kill-skill": {
   "code": "kill-skill",
+  "*Id": 258,
   "*Enabled": 1,
   "func1": 11,
   "stat1": "item_skillonkill",
+  "uiRangeType": 6,
   "*Tooltip": "#% Chance to cast level # [Skill] when you Kill an Enemy",
   "*Parameter": "Skill",
   "*Min": "\"% Chance (If 0, then default to 5)\"",
@@ -1757,6 +2012,7 @@
  },
  "knock": {
   "code": "knock",
+  "*Id": 60,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_knockback",
@@ -1767,6 +2023,7 @@
  },
  "levelreq": {
   "code": "levelreq",
+  "*Id": 263,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_levelreq",
@@ -1778,9 +2035,11 @@
  },
  "levelup-skill": {
   "code": "levelup-skill",
+  "*Id": 260,
   "*Enabled": 1,
   "func1": 11,
   "stat1": "item_skillonlevelup",
+  "uiRangeType": 6,
   "*Tooltip": "#% Chance to cast level # [Skill] when you Level-Up",
   "*Parameter": "Skill",
   "*Min": "\"% Chance (If 0, then default to 5)\"",
@@ -1790,6 +2049,7 @@
  },
  "lifesteal": {
   "code": "lifesteal",
+  "*Id": 66,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "lifedrainmindam",
@@ -1800,6 +2060,7 @@
  },
  "light": {
   "code": "light",
+  "*Id": 73,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_lightradius",
@@ -1810,6 +2071,7 @@
  },
  "light-thorns": {
   "code": "light-thorns",
+  "*Id": 105,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_attackertakeslightdamage",
@@ -1820,11 +2082,13 @@
  },
  "ltng-fx": {
   "code": "ltng-fx",
+  "*Id": 132,
   "expansion": 1,
   "lineNumber": 133
  },
  "ltng-max": {
   "code": "ltng-max",
+  "*Id": 23,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "lightmaxdam",
@@ -1835,6 +2099,7 @@
  },
  "ltng-min": {
   "code": "ltng-min",
+  "*Id": 22,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "lightmindam",
@@ -1845,6 +2110,7 @@
  },
  "mag%": {
   "code": "mag%",
+  "*Id": 59,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_magicbonus",
@@ -1855,9 +2121,11 @@
  },
  "mag%/lvl": {
   "code": "mag%/lvl",
+  "*Id": 167,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_find_magic_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "#% Better Chance of Getting Magic Items (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -1865,6 +2133,7 @@
  },
  "mag%/time": {
   "code": "mag%/time",
+  "*Id": 220,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_find_magic_bytime",
@@ -1878,6 +2147,7 @@
  },
  "magicarrow": {
   "code": "magicarrow",
+  "*Id": 119,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_magicarrow",
@@ -1888,6 +2158,7 @@
  },
  "mana": {
   "code": "mana",
+  "*Id": 11,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxmana",
@@ -1898,6 +2169,7 @@
  },
  "mana%": {
   "code": "mana%",
+  "*Id": 12,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_maxmana_percent",
@@ -1908,6 +2180,7 @@
  },
  "mana-kill": {
   "code": "mana-kill",
+  "*Id": 110,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_manaafterkill",
@@ -1918,9 +2191,11 @@
  },
  "mana/lvl": {
   "code": "mana/lvl",
+  "*Id": 144,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_mana_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Mana (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -1928,6 +2203,7 @@
  },
  "mana/time": {
   "code": "mana/time",
+  "*Id": 198,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_mana_bytime",
@@ -1941,6 +2217,7 @@
  },
  "manasteal": {
   "code": "manasteal",
+  "*Id": 65,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "manadrainmindam",
@@ -1951,6 +2228,7 @@
  },
  "move1": {
   "code": "move1",
+  "*Id": 76,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastermovevelocity",
@@ -1961,6 +2239,7 @@
  },
  "move2": {
   "code": "move2",
+  "*Id": 77,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastermovevelocity",
@@ -1971,6 +2250,7 @@
  },
  "move3": {
   "code": "move3",
+  "*Id": 78,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fastermovevelocity",
@@ -1981,6 +2261,7 @@
  },
  "nec": {
   "code": "nec",
+  "*Id": 69,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -1992,6 +2273,7 @@
  },
  "noconsume": {
   "code": "noconsume",
+  "*Id": 268,
   "func1": 1,
   "stat1": "item_noconsume",
   "*Tooltip": "+# to not Consume Quantity",
@@ -2002,6 +2284,7 @@
  },
  "nofreeze": {
   "code": "nofreeze",
+  "*Id": 115,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_cannotbefrozen",
@@ -2012,6 +2295,7 @@
  },
  "noheal": {
   "code": "noheal",
+  "*Id": 94,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_preventheal",
@@ -2022,6 +2306,7 @@
  },
  "openwounds": {
   "code": "openwounds",
+  "*Id": 107,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_openwounds",
@@ -2032,6 +2317,7 @@
  },
  "oskill": {
   "code": "oskill",
+  "*Id": 265,
   "*Enabled": 1,
   "func1": 22,
   "stat1": "item_nonclassskill",
@@ -2044,6 +2330,7 @@
  },
  "pal": {
   "code": "pal",
+  "*Id": 68,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -2055,6 +2342,7 @@
  },
  "pierce": {
   "code": "pierce",
+  "*Id": 118,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce",
@@ -2065,6 +2353,7 @@
  },
  "pierce-cold": {
   "code": "pierce-cold",
+  "*Id": 234,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_cold_pierce",
@@ -2074,8 +2363,21 @@
   "expansion": 1,
   "lineNumber": 235
  },
+ "pierce-dmg": {
+  "code": "pierce-dmg",
+  "*Id": 279,
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_dmg_pierce",
+  "*Tooltip": "-#% to Enemy Lightning Resistance",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 280
+ },
  "pierce-fire": {
   "code": "pierce-fire",
+  "*Id": 232,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_fire_pierce",
@@ -2087,6 +2389,7 @@
  },
  "pierce-immunity-cold": {
   "code": "pierce-immunity-cold",
+  "*Id": 269,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce_cold_immunity",
@@ -2098,6 +2401,7 @@
  },
  "pierce-immunity-damage": {
   "code": "pierce-immunity-damage",
+  "*Id": 273,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce_damage_immunity",
@@ -2109,6 +2413,7 @@
  },
  "pierce-immunity-fire": {
   "code": "pierce-immunity-fire",
+  "*Id": 270,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce_fire_immunity",
@@ -2120,6 +2425,7 @@
  },
  "pierce-immunity-light": {
   "code": "pierce-immunity-light",
+  "*Id": 271,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce_light_immunity",
@@ -2131,6 +2437,7 @@
  },
  "pierce-immunity-magic": {
   "code": "pierce-immunity-magic",
+  "*Id": 274,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce_magic_immunity",
@@ -2142,6 +2449,7 @@
  },
  "pierce-immunity-poison": {
   "code": "pierce-immunity-poison",
+  "*Id": 272,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_pierce_poison_immunity",
@@ -2153,6 +2461,7 @@
  },
  "pierce-ltng": {
   "code": "pierce-ltng",
+  "*Id": 233,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_ltng_pierce",
@@ -2162,8 +2471,21 @@
   "expansion": 1,
   "lineNumber": 234
  },
+ "pierce-mag": {
+  "code": "pierce-mag",
+  "*Id": 278,
+  "*Enabled": 1,
+  "func1": 1,
+  "stat1": "passive_mag_pierce",
+  "*Tooltip": "-#% to Enemy Fire Resistance",
+  "*Min": "Min %",
+  "*Max": "Max %",
+  "expansion": 1,
+  "lineNumber": 279
+ },
  "pierce-pois": {
   "code": "pierce-pois",
+  "*Id": 235,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "passive_pois_pierce",
@@ -2175,6 +2497,7 @@
  },
  "pois-len": {
   "code": "pois-len",
+  "*Id": 26,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "poisonlength",
@@ -2185,6 +2508,7 @@
  },
  "pois-max": {
   "code": "pois-max",
+  "*Id": 25,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "poisonmaxdam",
@@ -2195,6 +2519,7 @@
  },
  "pois-min": {
   "code": "pois-min",
+  "*Id": 24,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "poisonmindam",
@@ -2205,10 +2530,12 @@
  },
  "randclassskill": {
   "code": "randclassskill",
+  "*Id": 267,
   "*Enabled": 1,
   "func1": 36,
   "stat1": "item_addclassskills",
   "val1": 3,
+  "uiRangeType": 3,
   "*Tooltip": "+# to [Class] Skill Levels",
   "*Min": "Min Class ID",
   "*Max": "Max Class ID",
@@ -2218,6 +2545,7 @@
  },
  "reanimate": {
   "code": "reanimate",
+  "*Id": 117,
   "*Enabled": 1,
   "func1": 24,
   "stat1": "item_reanimate",
@@ -2229,6 +2557,7 @@
  },
  "red-dmg": {
   "code": "red-dmg",
+  "*Id": 3,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "normal_damage_reduction",
@@ -2239,6 +2568,7 @@
  },
  "red-dmg%": {
   "code": "red-dmg%",
+  "*Id": 4,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "damageresist",
@@ -2249,6 +2579,7 @@
  },
  "red-mag": {
   "code": "red-mag",
+  "*Id": 6,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "magic_damage_reduction",
@@ -2259,6 +2590,7 @@
  },
  "reduce-ac": {
   "code": "reduce-ac",
+  "*Id": 93,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_fractionaltargetac",
@@ -2269,6 +2601,7 @@
  },
  "regen": {
   "code": "regen",
+  "*Id": 53,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "hpregen",
@@ -2279,11 +2612,13 @@
  },
  "regen-dur": {
   "code": "regen-dur",
+  "*Id": 130,
   "expansion": 1,
   "lineNumber": 131
  },
  "regen-mana": {
   "code": "regen-mana",
+  "*Id": 62,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "manarecoverybonus",
@@ -2294,6 +2629,7 @@
  },
  "regen-stam": {
   "code": "regen-stam",
+  "*Id": 61,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "staminarecoverybonus",
@@ -2304,9 +2640,11 @@
  },
  "regen-stam/lvl": {
   "code": "regen-stam/lvl",
+  "*Id": 168,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_regenstamina_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Heal Stamina Plus #% (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2314,6 +2652,7 @@
  },
  "regen-stam/time": {
   "code": "regen-stam/time",
+  "*Id": 221,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_regenstamina_bytime",
@@ -2327,6 +2666,7 @@
  },
  "rep-dur": {
   "code": "rep-dur",
+  "*Id": 179,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_replenish_durability",
@@ -2338,6 +2678,7 @@
  },
  "rep-quant": {
   "code": "rep-quant",
+  "*Id": 180,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_replenish_quantity",
@@ -2349,6 +2690,7 @@
  },
  "res-all": {
   "code": "res-all",
+  "*Id": 41,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "fireresist",
@@ -2365,6 +2707,7 @@
  },
  "res-all-max": {
   "code": "res-all-max",
+  "*Id": 42,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxfireresist",
@@ -2381,6 +2724,7 @@
  },
  "res-cold": {
   "code": "res-cold",
+  "*Id": 35,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "coldresist",
@@ -2391,6 +2735,7 @@
  },
  "res-cold-max": {
   "code": "res-cold-max",
+  "*Id": 36,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxcoldresist",
@@ -2401,9 +2746,11 @@
  },
  "res-cold/lvl": {
   "code": "res-cold/lvl",
+  "*Id": 157,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_resist_cold_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Cold Resist +#% (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2411,6 +2758,7 @@
  },
  "res-cold/time": {
   "code": "res-cold/time",
+  "*Id": 211,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_resist_cold_bytime",
@@ -2424,6 +2772,7 @@
  },
  "res-fire": {
   "code": "res-fire",
+  "*Id": 31,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "fireresist",
@@ -2434,6 +2783,7 @@
  },
  "res-fire-max": {
   "code": "res-fire-max",
+  "*Id": 32,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxfireresist",
@@ -2444,9 +2794,11 @@
  },
  "res-fire/lvl": {
   "code": "res-fire/lvl",
+  "*Id": 158,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_resist_fire_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Fire Resist +#% (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2454,6 +2806,7 @@
  },
  "res-fire/time": {
   "code": "res-fire/time",
+  "*Id": 212,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_resist_fire_bytime",
@@ -2467,6 +2820,7 @@
  },
  "res-ltng": {
   "code": "res-ltng",
+  "*Id": 33,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "lightresist",
@@ -2477,6 +2831,7 @@
  },
  "res-ltng-max": {
   "code": "res-ltng-max",
+  "*Id": 34,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxlightresist",
@@ -2487,9 +2842,11 @@
  },
  "res-ltng/lvl": {
   "code": "res-ltng/lvl",
+  "*Id": 159,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_resist_ltng_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Lightning Resist +#% (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2497,6 +2854,7 @@
  },
  "res-ltng/time": {
   "code": "res-ltng/time",
+  "*Id": 213,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_resist_ltng_bytime",
@@ -2510,6 +2868,7 @@
  },
  "res-mag": {
   "code": "res-mag",
+  "*Id": 37,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "magicresist",
@@ -2520,6 +2879,7 @@
  },
  "res-mag-max": {
   "code": "res-mag-max",
+  "*Id": 38,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxmagicresist",
@@ -2530,6 +2890,7 @@
  },
  "res-pois": {
   "code": "res-pois",
+  "*Id": 39,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "poisonresist",
@@ -2540,6 +2901,7 @@
  },
  "res-pois-len": {
   "code": "res-pois-len",
+  "*Id": 88,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_poisonlengthresist",
@@ -2550,6 +2912,7 @@
  },
  "res-pois-max": {
   "code": "res-pois-max",
+  "*Id": 40,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxpoisonresist",
@@ -2560,9 +2923,11 @@
  },
  "res-pois/lvl": {
   "code": "res-pois/lvl",
+  "*Id": 160,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_resist_pois_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Poison Resist +#% (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2570,6 +2935,7 @@
  },
  "res-pois/time": {
   "code": "res-pois/time",
+  "*Id": 214,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_resist_pois_bytime",
@@ -2583,6 +2949,7 @@
  },
  "rip": {
   "code": "rip",
+  "*Id": 255,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_restinpeace",
@@ -2594,9 +2961,11 @@
  },
  "skill": {
   "code": "skill",
+  "*Id": 123,
   "*Enabled": 1,
   "func1": 22,
   "stat1": "item_singleskill",
+  "uiRangeType": 5,
   "*Tooltip": "+# to [Skill] ([Class] only)",
   "*Parameter": "Skill",
   "*Min": "Min #",
@@ -2606,9 +2975,11 @@
  },
  "skill-rand": {
   "code": "skill-rand",
+  "*Id": 261,
   "*Enabled": 1,
   "func1": 12,
   "stat1": "item_singleskill",
+  "uiRangeType": 2,
   "*Tooltip": "+# to [Skill] ([Class] only)",
   "*Parameter": "Skill Level",
   "*Min": "Min Skill ID",
@@ -2618,6 +2989,7 @@
  },
  "skilltab": {
   "code": "skilltab",
+  "*Id": 124,
   "*Enabled": 1,
   "func1": 10,
   "stat1": "item_addskill_tab",
@@ -2631,6 +3003,7 @@
  },
  "slow": {
   "code": "slow",
+  "*Id": 114,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_slow",
@@ -2641,6 +3014,7 @@
  },
  "sock": {
   "code": "sock",
+  "*Id": 133,
   "*Enabled": 1,
   "func1": 14,
   "stat1": "item_numsockets",
@@ -2652,6 +3026,7 @@
  },
  "sor": {
   "code": "sor",
+  "*Id": 70,
   "*Enabled": 1,
   "func1": 21,
   "stat1": "item_addclassskills",
@@ -2663,6 +3038,7 @@
  },
  "stack": {
   "code": "stack",
+  "*Id": 181,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_extra_stack",
@@ -2674,6 +3050,7 @@
  },
  "stam": {
   "code": "stam",
+  "*Id": 63,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "maxstamina",
@@ -2684,9 +3061,11 @@
  },
  "stam/lvl": {
   "code": "stam/lvl",
+  "*Id": 169,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_stamina_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# Maximum Stamina (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2694,6 +3073,7 @@
  },
  "stam/time": {
   "code": "stam/time",
+  "*Id": 222,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_stamina_bytime",
@@ -2707,6 +3087,7 @@
  },
  "stamdrain": {
   "code": "stamdrain",
+  "*Id": 116,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_staminadrainpct",
@@ -2717,6 +3098,7 @@
  },
  "state": {
   "code": "state",
+  "*Id": 266,
   "*Enabled": 1,
   "func1": 24,
   "stat1": "state",
@@ -2729,6 +3111,7 @@
  },
  "str": {
   "code": "str",
+  "*Id": 7,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "strength",
@@ -2739,9 +3122,11 @@
  },
  "str/lvl": {
   "code": "str/lvl",
+  "*Id": 147,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_strength_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Strength (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2749,6 +3134,7 @@
  },
  "str/time": {
   "code": "str/time",
+  "*Id": 201,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_strength_bytime",
@@ -2762,6 +3148,7 @@
  },
  "stupidity": {
   "code": "stupidity",
+  "*Id": 91,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_stupidity",
@@ -2772,6 +3159,7 @@
  },
  "swing1": {
   "code": "swing1",
+  "*Id": 55,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fasterattackrate",
@@ -2782,6 +3170,7 @@
  },
  "swing2": {
   "code": "swing2",
+  "*Id": 56,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fasterattackrate",
@@ -2792,6 +3181,7 @@
  },
  "swing3": {
   "code": "swing3",
+  "*Id": 57,
   "*Enabled": 1,
   "func1": 8,
   "stat1": "item_fasterattackrate",
@@ -2802,6 +3192,7 @@
  },
  "thorns": {
   "code": "thorns",
+  "*Id": 54,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_attackertakesdamage",
@@ -2812,9 +3203,11 @@
  },
  "thorns/lvl": {
   "code": "thorns/lvl",
+  "*Id": 165,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_thorns_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "Attacker Takes Damage of # (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2822,6 +3215,7 @@
  },
  "throw": {
   "code": "throw",
+  "*Id": 102,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_throwable",
@@ -2832,6 +3226,7 @@
  },
  "time": {
   "code": "time",
+  "*Id": 64,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "item_timeduration",
@@ -2842,6 +3237,7 @@
  },
  "vit": {
   "code": "vit",
+  "*Id": 9,
   "*Enabled": 1,
   "func1": 1,
   "stat1": "vitality",
@@ -2852,9 +3248,11 @@
  },
  "vit/lvl": {
   "code": "vit/lvl",
+  "*Id": 150,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_vitality_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "+# to Vitality (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "expansion": 1,
@@ -2862,6 +3260,7 @@
  },
  "vit/time": {
   "code": "vit/time",
+  "*Id": 204,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_vitality_bytime",
@@ -2873,11 +3272,42 @@
   "expansion": 1,
   "lineNumber": 205
  },
+ "war": {
+  "code": "war",
+  "*Id": 276,
+  "*Enabled": 1,
+  "func1": 21,
+  "stat1": "item_addclassskills",
+  "val1": 7,
+  "*Tooltip": "+# to Warlock Skill Levels",
+  "*Min": "Min #",
+  "*Max": "Max #",
+  "expansion": 1,
+  "lineNumber": 277
+ },
+ "war-tab-rand": {
+  "code": "war-tab-rand",
+  "*Id": 282,
+  "*Enabled": 1,
+  "func1": 10,
+  "stat1": "item_addskill_tab",
+  "val1": 21,
+  "func2": 10,
+  "stat2": "item_addskill_tab",
+  "val2": 22,
+  "func3": 10,
+  "stat3": "item_addskill_tab",
+  "val3": 23,
+  "expansion": 1,
+  "lineNumber": 283
+ },
  "wounds/lvl": {
   "code": "wounds/lvl",
+  "*Id": 175,
   "*Enabled": 1,
   "func1": 17,
   "stat1": "item_openwounds_perlevel",
+  "uiRangeType": 1,
   "*Tooltip": "#% Chance of Open Wounds (Based on Character Level)",
   "*Parameter": "#/8 per Level",
   "*Notes": "Currently Not Used",
@@ -2886,6 +3316,7 @@
  },
  "wounds/time": {
   "code": "wounds/time",
+  "*Id": 228,
   "*Enabled": 1,
   "func1": 18,
   "stat1": "item_openwounds_bytime",

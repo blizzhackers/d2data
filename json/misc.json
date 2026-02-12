@@ -71,7 +71,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 138,
-  "classid": 645
+  "classid": 660
  },
  "amu": {
   "name": "Amulet",
@@ -145,7 +145,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 12,
-  "classid": 520
+  "classid": 535
  },
  "aqv": {
   "name": "Arrows",
@@ -241,7 +241,7 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "lineNumber": 18,
-  "classid": 526
+  "classid": 541
  },
  "ass": {
   "name": "Book of Skill",
@@ -320,7 +320,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 44,
-  "classid": 552
+  "classid": 567
  },
  "bbb": {
   "name": "Lam Esen's Tome",
@@ -395,7 +395,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 40,
-  "classid": 548
+  "classid": 563
  },
  "bet": {
   "name": "Burning Essence of Terror",
@@ -467,9 +467,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "absol",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 149,
-  "classid": 656
+  "classid": 671
  },
  "bey": {
   "name": "Baal's Eye",
@@ -498,9 +501,9 @@
   "TMogType": "xxx",
   "useable": 0,
   "type": "ques",
-  "dropsound": "item_monsterbone",
+  "dropsound": "item_baals_eye_hd",
   "dropsfxframe": 12,
-  "usesound": "item_monsterbone",
+  "usesound": "item_baals_eye_hd",
   "unique": 0,
   "transparent": 0,
   "transtbl": 5,
@@ -541,9 +544,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 144,
-  "classid": 651
+  "classid": 666
  },
  "bkd": {
   "name": "Key to the Cairn Stones",
@@ -622,7 +628,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 17,
-  "classid": 525
+  "classid": 540
  },
  "bks": {
   "name": "Scroll of Inifuss",
@@ -697,7 +703,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 16,
-  "classid": 524
+  "classid": 539
  },
  "box": {
   "name": "Horadric Cube",
@@ -774,7 +780,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 41,
-  "classid": 549
+  "classid": 564
  },
  "bpl": {
   "name": "Large Blue Potion",
@@ -848,7 +854,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 102,
-  "classid": 609
+  "classid": 624
  },
  "bps": {
   "name": "Small Blue Potion",
@@ -922,7 +928,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 101,
-  "classid": 608
+  "classid": 623
  },
  "brz": {
   "name": "Brain",
@@ -999,7 +1005,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 24,
-  "classid": 532
+  "classid": 547
  },
  "ceh": {
   "name": "Charged Essense of Hatred",
@@ -1071,9 +1077,87 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "absol",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 148,
-  "classid": 655
+  "classid": 670
+ },
+ "cjw": {
+  "name": "Colossal Jewel",
+  "compactsave": 0,
+  "version": 100,
+  "level": 1,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 8,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 1000,
+  "code": "cjw",
+  "alternategfx": "gpw",
+  "namestr": "jew",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpgsw",
+  "invfile": "invgswe",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "cjwl",
+  "dropsound": "item_jewel",
+  "dropsfxframe": 12,
+  "usesound": "item_jewel",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 1,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "UICatOverride": "dns",
+  "expansion": 1,
+  "lineNumber": 168,
+  "classid": 690
  },
  "cm1": {
   "name": "Small Charm",
@@ -1148,7 +1232,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 96,
-  "classid": 603
+  "classid": 618
  },
  "cm2": {
   "name": "Large Charm",
@@ -1223,7 +1307,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 97,
-  "classid": 604
+  "classid": 619
  },
  "cm3": {
   "name": "Grand Charm",
@@ -1298,7 +1382,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 98,
-  "classid": 605
+  "classid": 620
  },
  "cqv": {
   "name": "Bolts",
@@ -1394,7 +1478,82 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "lineNumber": 20,
-  "classid": 528
+  "classid": 543
+ },
+ "cs2": {
+  "name": "Crafted Sunder Charm",
+  "compactsave": 0,
+  "version": 100,
+  "level": 1,
+  "ShowLevel": 0,
+  "levelreq": 75,
+  "rarity": 12,
+  "spawnable": 0,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 600,
+  "gamble cost": 32000,
+  "code": "cs2",
+  "alternategfx": "rgd",
+  "namestr": "cm3",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 3,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpchm3",
+  "invfile": "invsst",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "csch",
+  "dropsound": "item_charm",
+  "dropsfxframe": 12,
+  "usesound": "item_charm",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 8,
+  "InvTrans": 8,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 169,
+  "classid": 691
  },
  "dhn": {
   "name": "Diablo's Horn",
@@ -1423,9 +1582,9 @@
   "TMogType": "xxx",
   "useable": 0,
   "type": "ques",
-  "dropsound": "item_monsterbone",
+  "dropsound": "item_diablos_horn_hd",
   "dropsfxframe": 12,
-  "usesound": "item_monsterbone",
+  "usesound": "item_diablos_horn_hd",
   "unique": 0,
   "transparent": 0,
   "transtbl": 5,
@@ -1466,9 +1625,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 143,
-  "classid": 650
+  "classid": 665
  },
  "ear": {
   "name": "Ear",
@@ -1541,7 +1703,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 48,
-  "classid": 556
+  "classid": 571
  },
  "elx": {
   "name": "Elixir",
@@ -1616,7 +1778,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 0,
-  "classid": 508
+  "classid": 523
  },
  "eyz": {
   "name": "Eye",
@@ -1693,7 +1855,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 26,
-  "classid": 534
+  "classid": 549
  },
  "fed": {
   "name": "Festering Essence of Destruction",
@@ -1765,9 +1927,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "absol",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 150,
-  "classid": 657
+  "classid": 672
  },
  "flg": {
   "name": "Flag",
@@ -1840,7 +2005,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 29,
-  "classid": 537
+  "classid": 552
  },
  "fng": {
   "name": "Fang",
@@ -1917,7 +2082,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 30,
-  "classid": 538
+  "classid": 553
  },
  "g34": {
   "name": "The Golden Bird",
@@ -1991,7 +2156,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 39,
-  "classid": 547
+  "classid": 562
  },
  "gcb": {
   "name": "Chipped Sapphire",
@@ -2064,8 +2229,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 59,
-  "classid": 567
+  "classid": 582
  },
  "gcg": {
   "name": "Chipped Emerald",
@@ -2138,8 +2304,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 64,
-  "classid": 572
+  "classid": 587
  },
  "gcr": {
   "name": "Chipped Ruby",
@@ -2212,8 +2379,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 69,
-  "classid": 577
+  "classid": 592
  },
  "gcv": {
   "name": "Chipped Amethyst",
@@ -2286,8 +2454,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 49,
-  "classid": 557
+  "classid": 572
  },
  "gcw": {
   "name": "Chipped Diamond",
@@ -2360,8 +2529,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 74,
-  "classid": 582
+  "classid": 597
  },
  "gcy": {
   "name": "Chipped Topaz",
@@ -2434,8 +2604,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 54,
-  "classid": 562
+  "classid": 577
  },
  "gfb": {
   "name": "Flawed Sapphire",
@@ -2508,8 +2679,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 60,
-  "classid": 568
+  "classid": 583
  },
  "gfg": {
   "name": "Flawed Emerald",
@@ -2582,8 +2754,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 65,
-  "classid": 573
+  "classid": 588
  },
  "gfr": {
   "name": "Flawed Ruby",
@@ -2656,8 +2829,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 70,
-  "classid": 578
+  "classid": 593
  },
  "gfv": {
   "name": "Flawed Amethyst",
@@ -2730,8 +2904,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 50,
-  "classid": 558
+  "classid": 573
  },
  "gfw": {
   "name": "Flawed Diamond",
@@ -2804,8 +2979,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 75,
-  "classid": 583
+  "classid": 598
  },
  "gfy": {
   "name": "Flawed Topaz",
@@ -2878,8 +3054,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 55,
-  "classid": 563
+  "classid": 578
  },
  "glb": {
   "name": "Flawless Sapphire",
@@ -2952,8 +3129,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 62,
-  "classid": 570
+  "classid": 585
  },
  "gld": {
   "name": "Gold",
@@ -3026,7 +3204,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 15,
-  "classid": 523
+  "classid": 538
  },
  "glg": {
   "name": "Flawless Emerald",
@@ -3099,8 +3277,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 67,
-  "classid": 575
+  "classid": 590
  },
  "glr": {
   "name": "Flawless Ruby",
@@ -3173,8 +3352,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 72,
-  "classid": 580
+  "classid": 595
  },
  "glw": {
   "name": "Flawless Diamond",
@@ -3247,8 +3427,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 77,
-  "classid": 585
+  "classid": 600
  },
  "gly": {
   "name": "Flawless Topaz",
@@ -3321,8 +3502,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 57,
-  "classid": 565
+  "classid": 580
  },
  "gpb": {
   "name": "Perfect Sapphire",
@@ -3395,8 +3577,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 63,
-  "classid": 571
+  "classid": 586
  },
  "gpg": {
   "name": "Perfect Emerald",
@@ -3469,8 +3652,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 68,
-  "classid": 576
+  "classid": 591
  },
  "gpr": {
   "name": "Perfect Ruby",
@@ -3543,8 +3727,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 73,
-  "classid": 581
+  "classid": 596
  },
  "gpv": {
   "name": "Perfect Amethyst",
@@ -3617,8 +3802,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 53,
-  "classid": 561
+  "classid": 576
  },
  "gpw": {
   "name": "Perfect Diamond",
@@ -3691,8 +3877,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 78,
-  "classid": 586
+  "classid": 601
  },
  "gpy": {
   "name": "Perfect Topaz",
@@ -3765,8 +3952,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 58,
-  "classid": 566
+  "classid": 581
  },
  "gsb": {
   "name": "Sapphire",
@@ -3839,8 +4027,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 61,
-  "classid": 569
+  "classid": 584
  },
  "gsg": {
   "name": "Emerald",
@@ -3913,8 +4102,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 66,
-  "classid": 574
+  "classid": 589
  },
  "gsr": {
   "name": "Ruby",
@@ -3987,8 +4177,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 71,
-  "classid": 579
+  "classid": 594
  },
  "gsv": {
   "name": "Amethyst",
@@ -4061,8 +4252,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 51,
-  "classid": 559
+  "classid": 574
  },
  "gsw": {
   "name": "Diamond",
@@ -4135,8 +4327,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 76,
-  "classid": 584
+  "classid": 599
  },
  "gsy": {
   "name": "Topaz",
@@ -4209,8 +4402,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 56,
-  "classid": 564
+  "classid": 579
  },
  "gzv": {
   "name": "Flawless Amethyst",
@@ -4283,8 +4477,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 52,
-  "classid": 560
+  "classid": 575
  },
  "hp1": {
   "name": "Minor Healing Potion",
@@ -4378,7 +4573,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 79,
-  "classid": 587
+  "classid": 602
  },
  "hp2": {
   "name": "Light Healing Potion",
@@ -4470,7 +4665,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 80,
-  "classid": 588
+  "classid": 603
  },
  "hp3": {
   "name": "Healing Potion",
@@ -4558,7 +4753,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 81,
-  "classid": 589
+  "classid": 604
  },
  "hp4": {
   "name": "Greater Healing Potion",
@@ -4644,7 +4839,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 82,
-  "classid": 590
+  "classid": 605
  },
  "hp5": {
   "name": "Super Healing Potion",
@@ -4726,7 +4921,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 83,
-  "classid": 591
+  "classid": 606
  },
  "hpf": {
   "name": "Full Healing Potion",
@@ -4801,7 +4996,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 3,
-  "classid": 511
+  "classid": 526
  },
  "hpo": {
   "name": "Healing Potion",
@@ -4876,7 +5071,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 1,
-  "classid": 509
+  "classid": 524
  },
  "hrb": {
   "name": "Herb",
@@ -4954,7 +5149,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 95,
-  "classid": 602
+  "classid": 617
  },
  "hrn": {
   "name": "Horn",
@@ -5031,7 +5226,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 27,
-  "classid": 535
+  "classid": 550
  },
  "hrt": {
   "name": "Heart",
@@ -5108,7 +5303,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 23,
-  "classid": 531
+  "classid": 546
  },
  "ibk": {
   "name": "Tome of Identify",
@@ -5195,7 +5390,7 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "lineNumber": 11,
-  "classid": 519
+  "classid": 534
  },
  "ice": {
   "name": "Malah's Potion",
@@ -5274,7 +5469,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 137,
-  "classid": 644
+  "classid": 659
  },
  "isc": {
   "name": "Scroll of Identify",
@@ -5362,8 +5557,9 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
+  "UICatOverride": "scrlt",
   "lineNumber": 22,
-  "classid": 530
+  "classid": 545
  },
  "j34": {
   "name": "A Jade Figurine",
@@ -5437,7 +5633,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 38,
-  "classid": 546
+  "classid": 561
  },
  "jaw": {
   "name": "Jawbone",
@@ -5514,7 +5710,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 25,
-  "classid": 533
+  "classid": 548
  },
  "jew": {
   "name": "Jewel",
@@ -5588,7 +5784,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 136,
-  "classid": 643
+  "classid": 658
  },
  "key": {
   "name": "Key",
@@ -5684,8 +5880,9 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
+  "UICatOverride": "keysr",
   "lineNumber": 35,
-  "classid": 543
+  "classid": 558
  },
  "luv": {
   "name": "The Black Tower Key",
@@ -5760,7 +5957,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 36,
-  "classid": 544
+  "classid": 559
  },
  "mbr": {
   "name": "Mephisto's Brain",
@@ -5789,9 +5986,9 @@
   "TMogType": "xxx",
   "useable": 0,
   "type": "ques",
-  "dropsound": "item_monsterbone",
+  "dropsound": "item_mephistos_brain_hd",
   "dropsfxframe": 12,
-  "usesound": "item_monsterbone",
+  "usesound": "item_mephistos_brain_hd",
   "unique": 0,
   "transparent": 0,
   "transtbl": 5,
@@ -5832,9 +6029,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 145,
-  "classid": 652
+  "classid": 667
  },
  "mp1": {
   "name": "Minor Mana Potion",
@@ -5928,7 +6128,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 84,
-  "classid": 592
+  "classid": 607
  },
  "mp2": {
   "name": "Light Mana Potion",
@@ -6020,7 +6220,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 85,
-  "classid": 593
+  "classid": 608
  },
  "mp3": {
   "name": "Mana Potion",
@@ -6108,7 +6308,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 86,
-  "classid": 594
+  "classid": 609
  },
  "mp4": {
   "name": "Greater Mana Potion",
@@ -6194,7 +6394,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 87,
-  "classid": 595
+  "classid": 610
  },
  "mp5": {
   "name": "Super Mana Potion",
@@ -6276,7 +6476,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 88,
-  "classid": 596
+  "classid": 611
  },
  "mpf": {
   "name": "Full Mana Potion",
@@ -6351,7 +6551,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 4,
-  "classid": 512
+  "classid": 527
  },
  "mpo": {
   "name": "Mana Potion",
@@ -6426,7 +6626,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 2,
-  "classid": 510
+  "classid": 525
  },
  "mss": {
   "name": "Mephisto's Soulstone",
@@ -6501,7 +6701,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 43,
-  "classid": 551
+  "classid": 566
  },
  "pk1": {
   "name": "Key of Terror",
@@ -6573,9 +6773,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 140,
-  "classid": 647
+  "classid": 662
  },
  "pk2": {
   "name": "Key of Hate",
@@ -6647,9 +6850,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 141,
-  "classid": 648
+  "classid": 663
  },
  "pk3": {
   "name": "Key of Destruction",
@@ -6721,9 +6927,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 142,
-  "classid": 649
+  "classid": 664
  },
  "qbr": {
   "name": "Khalim's Brain",
@@ -6798,7 +7007,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 47,
-  "classid": 555
+  "classid": 570
  },
  "qey": {
   "name": "Khalim's Eye",
@@ -6873,7 +7082,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 45,
-  "classid": 553
+  "classid": 568
  },
  "qhr": {
   "name": "Khalim's Heart",
@@ -6948,7 +7157,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 46,
-  "classid": 554
+  "classid": 569
  },
  "qll": {
   "name": "Quill",
@@ -7025,7 +7234,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 31,
-  "classid": 539
+  "classid": 554
  },
  "r01": {
   "name": "El Rune",
@@ -7097,9 +7306,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 103,
-  "classid": 610
+  "classid": 625
  },
  "r02": {
   "name": "Eld Rune",
@@ -7171,9 +7381,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 104,
-  "classid": 611
+  "classid": 626
  },
  "r03": {
   "name": "Tir Rune",
@@ -7245,9 +7456,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 105,
-  "classid": 612
+  "classid": 627
  },
  "r04": {
   "name": "Nef Rune",
@@ -7319,9 +7531,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 106,
-  "classid": 613
+  "classid": 628
  },
  "r05": {
   "name": "Eth Rune",
@@ -7393,9 +7606,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 107,
-  "classid": 614
+  "classid": 629
  },
  "r06": {
   "name": "Ith Rune",
@@ -7467,9 +7681,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 108,
-  "classid": 615
+  "classid": 630
  },
  "r07": {
   "name": "Tal Rune",
@@ -7541,9 +7756,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 109,
-  "classid": 616
+  "classid": 631
  },
  "r08": {
   "name": "Ral Rune",
@@ -7615,9 +7831,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 110,
-  "classid": 617
+  "classid": 632
  },
  "r09": {
   "name": "Ort Rune",
@@ -7689,9 +7906,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 111,
-  "classid": 618
+  "classid": 633
  },
  "r10": {
   "name": "Thul Rune",
@@ -7763,9 +7981,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 112,
-  "classid": 619
+  "classid": 634
  },
  "r11": {
   "name": "Amn Rune",
@@ -7837,9 +8056,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 113,
-  "classid": 620
+  "classid": 635
  },
  "r12": {
   "name": "Sol Rune",
@@ -7911,9 +8131,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 114,
-  "classid": 621
+  "classid": 636
  },
  "r13": {
   "name": "Shael Rune",
@@ -7985,9 +8206,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 115,
-  "classid": 622
+  "classid": 637
  },
  "r14": {
   "name": "Dol Rune",
@@ -8059,9 +8281,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 116,
-  "classid": 623
+  "classid": 638
  },
  "r15": {
   "name": "Hel Rune",
@@ -8133,9 +8356,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 117,
-  "classid": 624
+  "classid": 639
  },
  "r16": {
   "name": "Io Rune",
@@ -8207,9 +8431,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 118,
-  "classid": 625
+  "classid": 640
  },
  "r17": {
   "name": "Lum Rune",
@@ -8281,9 +8506,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 119,
-  "classid": 626
+  "classid": 641
  },
  "r18": {
   "name": "Ko Rune",
@@ -8355,9 +8581,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 120,
-  "classid": 627
+  "classid": 642
  },
  "r19": {
   "name": "Fal Rune",
@@ -8429,9 +8656,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 121,
-  "classid": 628
+  "classid": 643
  },
  "r20": {
   "name": "Lem Rune",
@@ -8503,9 +8731,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 122,
-  "classid": 629
+  "classid": 644
  },
  "r21": {
   "name": "Pul Rune",
@@ -8577,9 +8806,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 123,
-  "classid": 630
+  "classid": 645
  },
  "r22": {
   "name": "Um Rune",
@@ -8651,9 +8881,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 124,
-  "classid": 631
+  "classid": 646
  },
  "r23": {
   "name": "Mal Rune",
@@ -8725,9 +8956,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 125,
-  "classid": 632
+  "classid": 647
  },
  "r24": {
   "name": "Ist Rune",
@@ -8799,9 +9031,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 126,
-  "classid": 633
+  "classid": 648
  },
  "r25": {
   "name": "Gul Rune",
@@ -8873,9 +9106,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 127,
-  "classid": 634
+  "classid": 649
  },
  "r26": {
   "name": "Vex Rune",
@@ -8947,9 +9181,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 128,
-  "classid": 635
+  "classid": 650
  },
  "r27": {
   "name": "Ohm Rune",
@@ -9021,9 +9256,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 129,
-  "classid": 636
+  "classid": 651
  },
  "r28": {
   "name": "Lo Rune",
@@ -9095,9 +9331,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 130,
-  "classid": 637
+  "classid": 652
  },
  "r29": {
   "name": "Sur Rune",
@@ -9169,9 +9406,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 131,
-  "classid": 638
+  "classid": 653
  },
  "r30": {
   "name": "Ber Rune",
@@ -9243,9 +9481,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 132,
-  "classid": 639
+  "classid": 654
  },
  "r31": {
   "name": "Jah Rune",
@@ -9317,9 +9556,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 133,
-  "classid": 640
+  "classid": 655
  },
  "r32": {
   "name": "Cham Rune",
@@ -9391,9 +9631,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 134,
-  "classid": 641
+  "classid": 656
  },
  "r33": {
   "name": "Zod Rune",
@@ -9465,9 +9706,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 135,
-  "classid": 642
+  "classid": 657
  },
  "rin": {
   "name": "Ring",
@@ -9541,7 +9783,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 14,
-  "classid": 522
+  "classid": 537
  },
  "rpl": {
   "name": "Large Red Potion",
@@ -9615,7 +9857,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 100,
-  "classid": 607
+  "classid": 622
  },
  "rps": {
   "name": "Small Red Potion",
@@ -9689,7 +9931,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 99,
-  "classid": 606
+  "classid": 621
  },
  "rvl": {
   "name": "Full Rejuvenation Potion",
@@ -9768,8 +10010,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 8,
-  "classid": 516
+  "classid": 531
  },
  "rvs": {
   "name": "Rejuvenation Potion",
@@ -9848,8 +10091,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 7,
-  "classid": 515
+  "classid": 530
  },
  "scz": {
   "name": "Scalp",
@@ -9926,7 +10170,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 33,
-  "classid": 541
+  "classid": 556
  },
  "skc": {
   "name": "Chipped Skull",
@@ -9999,8 +10243,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 89,
-  "classid": 597
+  "classid": 612
  },
  "skf": {
   "name": "Flawed Skull",
@@ -10073,8 +10318,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 90,
-  "classid": 598
+  "classid": 613
  },
  "skl": {
   "name": "Flawless Skull",
@@ -10147,8 +10393,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 92,
-  "classid": 600
+  "classid": 615
  },
  "sku": {
   "name": "Skull",
@@ -10221,8 +10468,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 91,
-  "classid": 599
+  "classid": 614
  },
  "skz": {
   "name": "Perfect Skull",
@@ -10295,8 +10543,9 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "AdvancedStashStackable": 1,
   "lineNumber": 93,
-  "classid": 601
+  "classid": 616
  },
  "sol": {
   "name": "Soul",
@@ -10372,7 +10621,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 32,
-  "classid": 540
+  "classid": 555
  },
  "spe": {
   "name": "Spleen",
@@ -10449,7 +10698,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 34,
-  "classid": 542
+  "classid": 557
  },
  "std": {
   "name": "Standard of Heroes",
@@ -10521,9 +10770,10 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "UICatOverride": "uberm",
   "expansion": 1,
   "lineNumber": 151,
-  "classid": 658
+  "classid": 673
  },
  "tal": {
   "name": "Tail",
@@ -10600,7 +10850,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 28,
-  "classid": 536
+  "classid": 551
  },
  "tbk": {
   "name": "Tome of Town Portal",
@@ -10687,7 +10937,7 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "lineNumber": 10,
-  "classid": 518
+  "classid": 533
  },
  "tch": {
   "name": "Torch",
@@ -10760,7 +11010,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 19,
-  "classid": 527
+  "classid": 542
  },
  "tes": {
   "name": "Twisted Essence of Suffering",
@@ -10832,9 +11082,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "absol",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 147,
-  "classid": 654
+  "classid": 669
  },
  "toa": {
   "name": "Token of Absolution",
@@ -10910,9 +11163,12 @@
   "SkipName": 0,
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "absol",
+  "AdvancedStashStackable": 1,
   "expansion": 1,
   "lineNumber": 146,
-  "classid": 653
+  "classid": 668
  },
  "tr1": {
   "name": "Horadric Scroll",
@@ -10987,7 +11243,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 42,
-  "classid": 550
+  "classid": 565
  },
  "tr2": {
   "name": "Scroll of Resistance",
@@ -11067,7 +11323,7 @@
   "HellUpgrade": "xxx",
   "expansion": 1,
   "lineNumber": 139,
-  "classid": 646
+  "classid": 661
  },
  "tsc": {
   "name": "Scroll of Town Portal",
@@ -11155,8 +11411,838 @@
   "HellUpgrade": "xxx",
   "PermStoreItem": 1,
   "multibuy": 1,
+  "UICatOverride": "scrlt",
   "lineNumber": 21,
-  "classid": 529
+  "classid": 544
+ },
+ "ua1": {
+  "name": "Uber Ancient Summon Material Act 1",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 0,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "ua1",
+  "alternategfx": "ua1",
+  "namestr": "ua1",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 2,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpjbi",
+  "invfile": "invjbi",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
+  "expansion": 1,
+  "lineNumber": 157,
+  "classid": 679
+ },
+ "ua2": {
+  "name": "Uber Ancient Summon Material Act 2",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 0,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "ua2",
+  "alternategfx": "ua2",
+  "namestr": "ua2",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 2,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpjbi",
+  "invfile": "invjbi",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
+  "expansion": 1,
+  "lineNumber": 158,
+  "classid": 680
+ },
+ "ua3": {
+  "name": "Uber Ancient Summon Material Act 3",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 0,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "ua3",
+  "alternategfx": "ua3",
+  "namestr": "ua3",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 2,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpjbi",
+  "invfile": "invjbi",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
+  "expansion": 1,
+  "lineNumber": 159,
+  "classid": 681
+ },
+ "ua4": {
+  "name": "Uber Ancient Summon Material Act 4",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 0,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "ua4",
+  "alternategfx": "ua4",
+  "namestr": "ua4",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 2,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpjbi",
+  "invfile": "invjbi",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
+  "expansion": 1,
+  "lineNumber": 160,
+  "classid": 682
+ },
+ "ua5": {
+  "name": "Uber Ancient Summon Material Act5",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 0,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "ua5",
+  "alternategfx": "ua5",
+  "namestr": "ua5",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 2,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpjbi",
+  "invfile": "invjbi",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "uberm",
+  "AdvancedStashStackable": 1,
+  "expansion": 1,
+  "lineNumber": 161,
+  "classid": 683
+ },
+ "um1": {
+  "name": "Uber Ancient Upgrade Material  Fire",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "um1",
+  "alternategfx": "um1",
+  "namestr": "um1",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpflag",
+  "invfile": "invflag",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 162,
+  "classid": 684
+ },
+ "um2": {
+  "name": "Uber Ancient Upgrade Material Poison",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "um2",
+  "alternategfx": "um2",
+  "namestr": "um2",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpflag",
+  "invfile": "invflag",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 163,
+  "classid": 685
+ },
+ "um3": {
+  "name": "Uber Ancient Upgrade Material  Cold",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "um3",
+  "alternategfx": "um3",
+  "namestr": "um3",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpflag",
+  "invfile": "invflag",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 164,
+  "classid": 686
+ },
+ "um4": {
+  "name": "Uber Ancient Upgrade Material Physical",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "um4",
+  "alternategfx": "um4",
+  "namestr": "um4",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpflag",
+  "invfile": "invflag",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 165,
+  "classid": 687
+ },
+ "um5": {
+  "name": "Uber Ancient Upgrade Material Lightning",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "um5",
+  "alternategfx": "um5",
+  "namestr": "um5",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpflag",
+  "invfile": "invflag",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 166,
+  "classid": 688
+ },
+ "um6": {
+  "name": "Uber Ancient Upgrade Material Magic",
+  "compactsave": 0,
+  "version": 100,
+  "level": 0,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 5,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "um6",
+  "alternategfx": "um6",
+  "namestr": "um6",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flpflag",
+  "invfile": "invflag",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 0,
+  "type": "ques",
+  "dropsound": "item_rare",
+  "dropsfxframe": 12,
+  "usesound": "item_rare",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": -1,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "expansion": 1,
+  "lineNumber": 167,
+  "classid": 689
  },
  "vip": {
   "name": "Amulet of the Viper",
@@ -11232,7 +12318,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 13,
-  "classid": 521
+  "classid": 536
  },
  "vps": {
   "name": "Stamina Potion",
@@ -11325,7 +12411,7 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 5,
-  "classid": 513
+  "classid": 528
  },
  "wms": {
   "name": "Thawing Potion",
@@ -11422,7 +12508,422 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 9,
-  "classid": 517
+  "classid": 532
+ },
+ "xa1": {
+  "name": "Western Worldstone Shard",
+  "compactsave": 0,
+  "version": 100,
+  "level": 75,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 14,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "xa1",
+  "alternategfx": "xa1",
+  "namestr": "xa1",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flprun",
+  "invfile": "invtoa",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 1,
+  "type": "ques",
+  "dropsound": "item_worldstone_shard_hd",
+  "dropsfxframe": 12,
+  "usesound": "item_worldstone_shard_hd",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": 15,
+  "calc1": 1,
+  "spelldesc": 1,
+  "spelldescstr": "UseTerrorTokenAct1",
+  "spelldescstr2": "UseTerrorTokenAct1Controller",
+  "spelldesccolor": 8,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "terrt",
+  "AdvancedStashStackable": 1,
+  "UsageConditionCalc": "\"(cond('IsDesecratedZonesEnabled')?cond('Difficulty',hell):0)\"",
+  "expansion": 1,
+  "lineNumber": 152,
+  "classid": 674
+ },
+ "xa2": {
+  "name": "Eastern Worldstone Shard",
+  "compactsave": 0,
+  "version": 100,
+  "level": 75,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 14,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "xa2",
+  "alternategfx": "xa2",
+  "namestr": "xa2",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flprun",
+  "invfile": "invtoa",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 1,
+  "type": "ques",
+  "dropsound": "item_worldstone_shard_hd",
+  "dropsfxframe": 12,
+  "usesound": "item_worldstone_shard_hd",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": 15,
+  "calc1": 2,
+  "spelldesc": 1,
+  "spelldescstr": "UseTerrorTokenAct2",
+  "spelldescstr2": "UseTerrorTokenAct2Controller",
+  "spelldesccolor": 8,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "terrt",
+  "AdvancedStashStackable": 1,
+  "UsageConditionCalc": "\"(cond('IsDesecratedZonesEnabled')?cond('Difficulty',hell):0)\"",
+  "expansion": 1,
+  "lineNumber": 153,
+  "classid": 675
+ },
+ "xa3": {
+  "name": "Southern Worldstone Shard",
+  "compactsave": 0,
+  "version": 100,
+  "level": 75,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 14,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "xa3",
+  "alternategfx": "xa3",
+  "namestr": "xa3",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flprun",
+  "invfile": "invtoa",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 1,
+  "type": "ques",
+  "dropsound": "item_worldstone_shard_hd",
+  "dropsfxframe": 12,
+  "usesound": "item_worldstone_shard_hd",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": 15,
+  "calc1": 3,
+  "spelldesc": 1,
+  "spelldescstr": "UseTerrorTokenAct3",
+  "spelldescstr2": "UseTerrorTokenAct3Controller",
+  "spelldesccolor": 8,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "terrt",
+  "AdvancedStashStackable": 1,
+  "UsageConditionCalc": "\"(cond('IsDesecratedZonesEnabled')?cond('Difficulty',hell):0)\"",
+  "expansion": 1,
+  "lineNumber": 154,
+  "classid": 676
+ },
+ "xa4": {
+  "name": "Deep Worldstone Shard",
+  "compactsave": 0,
+  "version": 100,
+  "level": 75,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 14,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "xa4",
+  "alternategfx": "xa4",
+  "namestr": "xa4",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flprun",
+  "invfile": "invtoa",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 1,
+  "type": "ques",
+  "dropsound": "item_worldstone_shard_hd",
+  "dropsfxframe": 12,
+  "usesound": "item_worldstone_shard_hd",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": 15,
+  "calc1": 4,
+  "spelldesc": 1,
+  "spelldescstr": "UseTerrorTokenAct4",
+  "spelldescstr2": "UseTerrorTokenAct4Controller",
+  "spelldesccolor": 8,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "terrt",
+  "AdvancedStashStackable": 1,
+  "UsageConditionCalc": "\"(cond('IsDesecratedZonesEnabled')?cond('Difficulty',hell):0)\"",
+  "expansion": 1,
+  "lineNumber": 155,
+  "classid": 677
+ },
+ "xa5": {
+  "name": "Northern Worldstone Shard",
+  "compactsave": 0,
+  "version": 100,
+  "level": 75,
+  "ShowLevel": 0,
+  "levelreq": 0,
+  "rarity": 14,
+  "spawnable": 1,
+  "speed": 0,
+  "nodurability": 1,
+  "cost": 20000,
+  "code": "xa5",
+  "alternategfx": "xa5",
+  "namestr": "xa5",
+  "component": 16,
+  "invwidth": 1,
+  "invheight": 1,
+  "hasinv": 0,
+  "gemsockets": 0,
+  "gemapplytype": 0,
+  "flippyfile": "flprun",
+  "invfile": "invtoa",
+  "Transmogrify": 0,
+  "TMogType": "xxx",
+  "useable": 1,
+  "type": "ques",
+  "dropsound": "item_worldstone_shard_hd",
+  "dropsfxframe": 12,
+  "usesound": "item_worldstone_shard_hd",
+  "unique": 0,
+  "transparent": 0,
+  "transtbl": 5,
+  "lightradius": 0,
+  "belt": 0,
+  "autobelt": 0,
+  "stackable": 0,
+  "minstack": 0,
+  "maxstack": 0,
+  "spawnstack": 0,
+  "missiletype": 0,
+  "spellicon": -1,
+  "pSpell": 15,
+  "calc1": 5,
+  "spelldesc": 1,
+  "spelldescstr": "UseTerrorTokenAct5",
+  "spelldescstr2": "UseTerrorTokenAct5Controller",
+  "spelldesccolor": 8,
+  "durwarning": 0,
+  "qntwarning": 0,
+  "gemoffset": 0,
+  "BetterGem": "non",
+  "bitfield1": 0,
+  "CharsiMagicLvl": 255,
+  "GheedMagicLvl": 255,
+  "AkaraMagicLvl": 255,
+  "FaraMagicLvl": 255,
+  "LysanderMagicLvl": 255,
+  "DrognanMagicLvl": 255,
+  "HratliMagicLvl": 255,
+  "AlkorMagicLvl": 255,
+  "OrmusMagicLvl": 255,
+  "ElzixMagicLvl": 255,
+  "AshearaMagicLvl": 255,
+  "CainMagicLvl": 255,
+  "HalbuMagicLvl": 255,
+  "MalahMagicLvl": 255,
+  "LarzukMagicLvl": 255,
+  "AnyaMagicLvl": 255,
+  "JamellaMagicLvl": 255,
+  "Transform": 0,
+  "InvTrans": 0,
+  "SkipName": 0,
+  "NightmareUpgrade": "xxx",
+  "HellUpgrade": "xxx",
+  "EventItem": 1,
+  "UICatOverride": "terrt",
+  "AdvancedStashStackable": 1,
+  "UsageConditionCalc": "\"(cond('IsDesecratedZonesEnabled')?cond('Difficulty',hell):0)\"",
+  "expansion": 1,
+  "lineNumber": 156,
+  "classid": 678
  },
  "xyz": {
   "name": "Potion of Life",
@@ -11501,7 +13002,7 @@
   "NightmareUpgrade": "xxx",
   "HellUpgrade": "xxx",
   "lineNumber": 37,
-  "classid": 545
+  "classid": 560
  },
  "yps": {
   "name": "Antidote Potion",
@@ -11597,6 +13098,6 @@
   "PermStoreItem": 1,
   "multibuy": 1,
   "lineNumber": 6,
-  "classid": 514
+  "classid": 529
  }
 }

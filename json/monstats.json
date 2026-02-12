@@ -1039,6 +1039,7 @@
   "isMelee": 1,
   "inventory": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Whirlwind",
   "Sk1mode": "seq_ancientwhirlwind",
   "Sk1lvl": 15,
@@ -1136,6 +1137,7 @@
   "isMelee": 1,
   "inventory": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Shout",
   "Sk1mode": "SC",
   "Sk1lvl": 5,
@@ -1214,6 +1216,7 @@
   "isMelee": 1,
   "inventory": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MonLeapAttack",
   "Sk1mode": "seq_ancientleap",
   "Sk1lvl": 5,
@@ -1297,6 +1300,7 @@
   "npc": 1,
   "interact": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -1335,6 +1339,7 @@
   "npc": 1,
   "interact": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -1372,6 +1377,7 @@
   "npc": 1,
   "interact": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -1608,6 +1614,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 122
  },
  "arach2": {
@@ -1705,6 +1712,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 123
  },
  "arach3": {
@@ -1815,6 +1823,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 124
  },
  "arach4": {
@@ -1923,6 +1932,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 125
  },
  "arach5": {
@@ -2034,6 +2044,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 126
  },
  "arach6": {
@@ -2145,6 +2156,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 686
  },
@@ -2257,6 +2269,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 718
  },
@@ -2691,6 +2704,7 @@
   "opendoors": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "Hydra",
   "Sk1mode": "S1",
   "Sk1lvl": 4,
@@ -2739,6 +2753,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 558
  },
@@ -2851,6 +2866,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 572
@@ -2964,6 +2980,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 573
@@ -3076,6 +3093,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 574
@@ -3113,6 +3131,7 @@
   "aip3(H)": 20,
   "isSpawn": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Skill1": "Baal Taunt",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -3517,6 +3536,7 @@
   "aip1(N)": 25,
   "aip1(H)": 25,
   "demon": 1,
+  "CannotHerald": 1,
   "Skill1": "Decrepify",
   "Sk1mode": "S3",
   "Sk1lvl": 5,
@@ -3684,6 +3704,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 48
  },
  "baboon2": {
@@ -3789,6 +3810,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 49
  },
  "baboon3": {
@@ -3894,6 +3916,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 50
  },
  "baboon4": {
@@ -3999,6 +4022,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 51
  },
  "baboon5": {
@@ -4104,6 +4128,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 52
  },
  "baboon6": {
@@ -4217,6 +4242,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 295
  },
  "baboon7": {
@@ -4329,6 +4355,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 666
  },
@@ -4441,6 +4468,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 667
  },
@@ -4473,6 +4501,7 @@
   "killable": 1,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "ResCo": 50,
   "ResPo": 1000,
   "ResCo(N)": 50,
@@ -4520,6 +4549,7 @@
   "killable": 1,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "ResCo": 50,
   "ResPo": 1000,
   "ResCo(N)": 50,
@@ -4569,6 +4599,7 @@
   "aip1(H)": 40,
   "isSpawn": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "ResCo": 50,
   "ResPo": 1000,
   "ResCo(N)": 50,
@@ -4619,6 +4650,7 @@
   "killable": 1,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "ResCo": 50,
   "ResPo": 1000,
   "ResCo(N)": 50,
@@ -4669,6 +4701,7 @@
   "killable": 1,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "ResCo": 50,
   "ResPo": 1000,
   "ResCo(N)": 50,
@@ -4831,6 +4864,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 136
@@ -4948,6 +4982,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 137
@@ -5065,6 +5100,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 138
@@ -5182,6 +5218,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 139
@@ -5299,6 +5336,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 140
@@ -5418,6 +5456,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "expansion": 1,
@@ -5537,6 +5576,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "expansion": 1,
@@ -5709,6 +5749,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 10
  },
  "bighead10": {
@@ -5830,6 +5871,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 585
  },
@@ -5945,6 +5987,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 11
  },
  "bighead3": {
@@ -6058,6 +6101,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 12
  },
  "bighead4": {
@@ -6171,6 +6215,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 13
  },
  "bighead5": {
@@ -6284,6 +6329,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 14
  },
  "bighead6": {
@@ -6404,6 +6450,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 581
  },
@@ -6525,6 +6572,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 582
  },
@@ -6646,6 +6694,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 583
  },
@@ -6767,6 +6816,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 584
  },
@@ -7049,6 +7099,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 507
  },
@@ -7163,6 +7214,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 508
  },
@@ -7269,6 +7321,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 509
  },
@@ -7385,6 +7438,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 510
  },
@@ -7499,6 +7553,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 511
  },
@@ -7634,6 +7689,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 653
  },
@@ -7766,6 +7822,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 654
  },
@@ -8081,6 +8138,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 186
  },
  "blunderbore2": {
@@ -8191,6 +8249,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 187
  },
  "blunderbore3": {
@@ -8301,6 +8360,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 188
  },
  "blunderbore4": {
@@ -8419,6 +8479,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 189
  },
  "blunderbore5": {
@@ -8533,6 +8594,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 619
  },
@@ -8647,6 +8709,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 620
  },
@@ -8745,6 +8808,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 212
  },
  "bonefetish2": {
@@ -8842,6 +8906,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 213
  },
  "bonefetish3": {
@@ -8939,6 +9004,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 214
  },
  "bonefetish4": {
@@ -9036,6 +9102,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 215
  },
  "bonefetish5": {
@@ -9133,6 +9200,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 216
  },
  "bonefetish6": {
@@ -9230,6 +9298,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 691
  },
@@ -9327,6 +9396,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 692
  },
@@ -9360,6 +9430,7 @@
   "switchai": 1,
   "noAura": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "ResCo(N)": 90,
@@ -9409,6 +9480,7 @@
   "switchai": 1,
   "noAura": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "ResCo(N)": 90,
@@ -9458,6 +9530,7 @@
   "switchai": 1,
   "noAura": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "ResCo(N)": 90,
@@ -9507,6 +9580,7 @@
   "switchai": 1,
   "noAura": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "ResCo(N)": 90,
@@ -9557,6 +9631,7 @@
   "switchai": 1,
   "noAura": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Skill1": "Bone Wall",
   "Sk1mode": "NU",
   "Sk1lvl": 0,
@@ -9674,6 +9749,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 28
  },
  "brute2": {
@@ -9771,6 +9847,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 24
  },
  "brute3": {
@@ -9870,6 +9947,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 25
  },
  "brute4": {
@@ -9969,6 +10047,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 26
  },
  "brute5": {
@@ -10079,6 +10158,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 27
  },
  "bug": {
@@ -10469,6 +10549,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 238
  },
  "cantor2": {
@@ -10600,6 +10681,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 239
  },
  "cantor3": {
@@ -10731,6 +10813,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 240
  },
  "cantor4": {
@@ -10860,6 +10943,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 241
  },
  "cantor5": {
@@ -10988,6 +11072,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 674
  },
@@ -11116,6 +11201,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 675
  },
@@ -11150,6 +11236,7 @@
   "MissA1": "catapultchargedball on",
   "isSpawn": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "ResPo": 1000,
   "ResPo(N)": 1000,
   "ResDm(H)": 33,
@@ -11178,6 +11265,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplClientEnd": 1,
   "expansion": 1,
   "lineNumber": 498
@@ -11213,6 +11301,7 @@
   "MissA1": "catapultchargedball on",
   "isSpawn": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "ResPo": 1000,
   "ResPo(N)": 1000,
   "ResDm(H)": 33,
@@ -11241,6 +11330,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplClientEnd": 1,
   "expansion": 1,
   "lineNumber": 499
@@ -11276,6 +11366,7 @@
   "MissA1": "catapultchargedball on",
   "isSpawn": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "ResPo": 1000,
   "ResPo(N)": 1000,
   "ResDm(H)": 33,
@@ -11304,6 +11395,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplClientEnd": 1,
   "expansion": 1,
   "lineNumber": 500
@@ -11338,6 +11430,7 @@
   "MissA1": "catapultchargedball on",
   "isSpawn": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "ResPo": 1000,
   "ResPo(N)": 1000,
   "ResDm(H)": 33,
@@ -11366,6 +11459,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "SplClientEnd": 1,
   "expansion": 1,
   "lineNumber": 501
@@ -11407,6 +11501,7 @@
   "isSpawn": 1,
   "inTown": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "Catapult Charged Ball",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -11463,6 +11558,7 @@
   "isSpawn": 1,
   "inTown": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "Catapult Charged Ball",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -11519,6 +11615,7 @@
   "isSpawn": 1,
   "inTown": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "Catapult Charged Ball",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -11574,6 +11671,7 @@
   "isSpawn": 1,
   "inTown": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "Catapult Charged Ball",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -11906,6 +12004,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 73
  },
  "clawviper10": {
@@ -12053,6 +12152,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 599
  },
@@ -12177,6 +12277,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 74
  },
  "clawviper3": {
@@ -12300,6 +12401,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 75
  },
  "clawviper4": {
@@ -12429,6 +12531,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 76
  },
  "clawviper5": {
@@ -12561,6 +12664,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 77
  },
  "clawviper6": {
@@ -12722,6 +12826,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 595
  },
@@ -12873,6 +12978,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 596
  },
@@ -13023,6 +13129,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 597
  },
@@ -13181,6 +13288,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 598
  },
@@ -13262,6 +13370,718 @@
   "A2TH(H)": 92,
   "lineNumber": 289
  },
+ "colbarbfrenzy": {
+  "Id": "colbarbfrenzy",
+  "*hcIdx": 750,
+  "BaseId": "act5barb2",
+  "TransLvl": 0,
+  "NameStr": "ProtectorSpirit",
+  "MonStatsEx": "colbarbfrenzy",
+  "MonType": "human",
+  "AI": "ColBarbFrenzy",
+  "Code": "0A",
+  "enabled": 1,
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 15,
+  "Run": 15,
+  "Rarity": 0,
+  "Level": 37,
+  "Level(N)": 68,
+  "Level(H)": 87,
+  "MonSound": "colbarbfrenzy",
+  "UMonSound": "colbarbfrenzy",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 13,
+  "aidel(H)": 11,
+  "aip1": 50,
+  "aip1(N)": 50,
+  "aip1(H)": 50,
+  "aip2": 25,
+  "aip2(N)": 25,
+  "aip2(H)": 25,
+  "aip3": 25,
+  "aip3(N)": 25,
+  "aip3(H)": 25,
+  "aip4": 5,
+  "aip4(N)": 5,
+  "aip4(H)": 5,
+  "aip5": 75,
+  "aip5(N)": 75,
+  "aip5(H)": 75,
+  "isSpawn": 1,
+  "isMelee": 1,
+  "killable": 1,
+  "switchai": 1,
+  "Skill1": "MonFrenzy",
+  "Sk1mode": "A2",
+  "Sk1lvl": 14,
+  "Skill2": "Bash",
+  "Sk2mode": "A2",
+  "Sk2lvl": 14,
+  "Drain": 100,
+  "Drain(N)": 100,
+  "Drain(H)": 100,
+  "coldeffect": -15,
+  "coldeffect(N)": -15,
+  "coldeffect(H)": -15,
+  "ResDm": 70,
+  "ResMa": 50,
+  "ResFi": 70,
+  "ResLi": 70,
+  "ResCo": 180,
+  "ResPo": 70,
+  "ResDm(N)": 70,
+  "ResMa(N)": 50,
+  "ResFi(N)": 70,
+  "ResLi(N)": 70,
+  "ResCo(N)": 180,
+  "ResPo(N)": 70,
+  "ResDm(H)": 40,
+  "ResMa(H)": 50,
+  "ResFi(H)": 70,
+  "ResLi(H)": 70,
+  "ResCo(H)": 160,
+  "ResPo(H)": 70,
+  "DamageRegen": 2,
+  "Crit": 5,
+  "minHP": 500,
+  "maxHP": 600,
+  "AC": 84,
+  "A1MinD": 16,
+  "A1MaxD": 25,
+  "A1TH": 251,
+  "A2MinD": 9,
+  "A2MaxD": 14,
+  "A2TH": 251,
+  "MinHP(N)": 600,
+  "MaxHP(N)": 800,
+  "AC(N)": 125,
+  "A1MinD(N)": 4,
+  "A1MaxD(N)": 7,
+  "A1TH(N)": 250,
+  "A2MinD(N)": 4,
+  "A2MaxD(N)": 7,
+  "A2TH(N)": 250,
+  "MinHP(H)": 400,
+  "MaxHP(H)": 500,
+  "AC(H)": 125,
+  "Exp(H)": 260,
+  "A1MinD(H)": 80,
+  "A1MaxD(H)": 120,
+  "A1TH(H)": 160,
+  "A2MinD(H)": 80,
+  "A2MaxD(H)": 120,
+  "A2TH(H)": 160,
+  "expansion": 1,
+  "lineNumber": 751
+ },
+ "colbarbthrow": {
+  "Id": "colbarbthrow",
+  "*hcIdx": 749,
+  "BaseId": "act5barb1",
+  "TransLvl": 0,
+  "NameStr": "GuardianSpirit",
+  "MonStatsEx": "colbarbthrow",
+  "MonType": "human",
+  "AI": "ColBarbThrow",
+  "Code": "0A",
+  "enabled": 1,
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 20,
+  "Run": 20,
+  "Rarity": 0,
+  "Level": 37,
+  "Level(N)": 68,
+  "Level(H)": 87,
+  "MonSound": "colbarbthrow",
+  "UMonSound": "colbarbthrow",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 13,
+  "aidel(H)": 11,
+  "aip1": 15,
+  "aip1(N)": 15,
+  "aip1(H)": 15,
+  "aip2": 50,
+  "aip2(N)": 50,
+  "aip2(H)": 50,
+  "aip3": 25,
+  "aip3(N)": 25,
+  "aip3(H)": 25,
+  "aip4": 7,
+  "aip4(N)": 7,
+  "aip4(H)": 7,
+  "MissA1": "ancient throwing axe",
+  "isSpawn": 1,
+  "isMelee": 1,
+  "killable": 1,
+  "switchai": 1,
+  "Drain": 100,
+  "Drain(N)": 100,
+  "Drain(H)": 100,
+  "coldeffect": -15,
+  "coldeffect(N)": -15,
+  "coldeffect(H)": -15,
+  "ResDm": 70,
+  "ResMa": 50,
+  "ResFi": 70,
+  "ResLi": 110,
+  "ResCo": 70,
+  "ResPo": 70,
+  "ResDm(N)": 70,
+  "ResMa(N)": 50,
+  "ResFi(N)": 70,
+  "ResLi(N)": 110,
+  "ResCo(N)": 70,
+  "ResPo(N)": 70,
+  "ResDm(H)": 20,
+  "ResMa(H)": 50,
+  "ResFi(H)": 70,
+  "ResLi(H)": 110,
+  "ResCo(H)": 70,
+  "ResPo(H)": 70,
+  "DamageRegen": 2,
+  "Crit": 5,
+  "minHP": 500,
+  "maxHP": 600,
+  "AC": 84,
+  "A1MinD": 12,
+  "A1MaxD": 18,
+  "A1TH": 251,
+  "MinHP(N)": 600,
+  "MaxHP(N)": 800,
+  "AC(N)": 125,
+  "A1MinD(N)": 4,
+  "A1MaxD(N)": 7,
+  "A1TH(N)": 250,
+  "MinHP(H)": 400,
+  "MaxHP(H)": 500,
+  "AC(H)": 125,
+  "Exp(H)": 260,
+  "A1MinD(H)": 100,
+  "A1MaxD(H)": 150,
+  "A1TH(H)": 160,
+  "A2MinD(H)": 100,
+  "A2MaxD(H)": 150,
+  "A2TH(H)": 160,
+  "expansion": 1,
+  "lineNumber": 750
+ },
+ "colbarbwhirl": {
+  "Id": "colbarbwhirl",
+  "*hcIdx": 748,
+  "BaseId": "act5barb1",
+  "TransLvl": 0,
+  "NameStr": "DefenderSpirit",
+  "MonStatsEx": "colbarbwhirl",
+  "MonType": "human",
+  "AI": "ColBarbWhirl",
+  "Code": "0A",
+  "enabled": 1,
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 15,
+  "Run": 15,
+  "Rarity": 0,
+  "Level": 37,
+  "Level(N)": 68,
+  "Level(H)": 87,
+  "MonSound": "colbarbwhirl",
+  "UMonSound": "colbarbwhirl",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 13,
+  "aidel(H)": 11,
+  "aip1": 15,
+  "aip1(N)": 15,
+  "aip1(H)": 15,
+  "aip2": 25,
+  "aip2(N)": 25,
+  "aip2(H)": 25,
+  "aip3": 75,
+  "aip3(N)": 75,
+  "aip3(H)": 75,
+  "aip4": 8,
+  "aip4(N)": 8,
+  "aip4(H)": 8,
+  "isSpawn": 1,
+  "isMelee": 1,
+  "killable": 1,
+  "switchai": 1,
+  "Skill1": "Whirlwind",
+  "Sk1mode": "seq_ancientwhirlwind",
+  "Sk1lvl": 1,
+  "Drain": 100,
+  "Drain(N)": 100,
+  "Drain(H)": 100,
+  "coldeffect": -15,
+  "coldeffect(N)": -15,
+  "coldeffect(H)": -15,
+  "ResDm": 70,
+  "ResMa": 50,
+  "ResFi": 140,
+  "ResLi": 70,
+  "ResCo": 70,
+  "ResPo": 70,
+  "ResDm(N)": 70,
+  "ResMa(N)": 50,
+  "ResFi(N)": 140,
+  "ResLi(N)": 70,
+  "ResCo(N)": 70,
+  "ResPo(N)": 70,
+  "ResDm(H)": 30,
+  "ResMa(H)": 50,
+  "ResFi(H)": 140,
+  "ResLi(H)": 70,
+  "ResCo(H)": 70,
+  "ResPo(H)": 70,
+  "DamageRegen": 2,
+  "Crit": 5,
+  "minHP": 500,
+  "maxHP": 600,
+  "AC": 84,
+  "A1MinD": 9,
+  "A1MaxD": 14,
+  "A1TH": 251,
+  "A2MinD": 9,
+  "A2MaxD": 14,
+  "A2TH": 251,
+  "MinHP(N)": 600,
+  "MaxHP(N)": 800,
+  "AC(N)": 125,
+  "A1MinD(N)": 4,
+  "A1MaxD(N)": 7,
+  "A1TH(N)": 250,
+  "A2MinD(N)": 4,
+  "A2MaxD(N)": 7,
+  "A2TH(N)": 250,
+  "MinHP(H)": 400,
+  "MaxHP(H)": 500,
+  "AC(H)": 125,
+  "Exp(H)": 260,
+  "A1MinD(H)": 80,
+  "A1MaxD(H)": 115,
+  "A1TH(H)": 160,
+  "A2MinD(H)": 80,
+  "A2MaxD(H)": 115,
+  "A2TH(H)": 160,
+  "expansion": 1,
+  "lineNumber": 749
+ },
+ "colossal1": {
+  "Id": "colossal1",
+  "*hcIdx": 745,
+  "BaseId": "colossal1",
+  "NextInClass": "colossal2",
+  "TransLvl": 0,
+  "NameStr": "Ancient Barbarian 1",
+  "MonStatsEx": "colossal1",
+  "MonType": "human",
+  "AI": "ColossalWhirlwind",
+  "Code": "0D",
+  "enabled": 1,
+  "spawn": "colbarbwhirl",
+  "spawnx": 0,
+  "spawny": 2,
+  "spawnmode": "NU",
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 20,
+  "Run": 20,
+  "Rarity": 0,
+  "Level": 110,
+  "Level(N)": 110,
+  "Level(H)": 110,
+  "MonSound": "colossal1",
+  "UMonSound": "colossal1",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 13,
+  "aidel(H)": 11,
+  "aip1": 15,
+  "aip1(N)": 15,
+  "aip1(H)": 15,
+  "aip2": 25,
+  "aip2(N)": 25,
+  "aip2(H)": 25,
+  "aip3": 75,
+  "aip3(N)": 75,
+  "aip3(H)": 75,
+  "aip4": 8,
+  "aip4(N)": 8,
+  "aip4(H)": 8,
+  "aip6": 5,
+  "aip6(N)": 5,
+  "aip6(H)": 5,
+  "aip7": 66,
+  "aip7(N)": 33,
+  "aip7(H)": 75,
+  "aip8(H)": 150,
+  "isMelee": 1,
+  "inventory": 1,
+  "boss": 1,
+  "killable": 1,
+  "nopreventmonsterheal": 1,
+  "Skill1": "Talic's Whirlwind",
+  "Sk1mode": "seq_ancientwhirlwind",
+  "Sk1lvl": 1,
+  "Skill2": "Nest",
+  "Sk2mode": "seq_genericspawner",
+  "Sk2lvl": 30,
+  "Skill3": "Colossal Volcano",
+  "Sk3mode": "seq_ancientwhirlwind",
+  "Sk3lvl": 40,
+  "Skill4": "Enchant",
+  "Sk4mode": "SC",
+  "Sk4lvl": 35,
+  "Skill5": "UberAncientsHeal",
+  "Sk5mode": "SC",
+  "Sk5lvl": 1,
+  "Skill6": "Talic's Fire Pierce",
+  "Sk6mode": "NU",
+  "Sk6lvl": 20,
+  "Skill7": "Fire Twisters",
+  "Sk7mode": "NU",
+  "Sk7lvl": 50,
+  "Drain": 100,
+  "Drain(N)": 100,
+  "Drain(H)": 100,
+  "coldeffect": 0,
+  "coldeffect(N)": 0,
+  "coldeffect(H)": 0,
+  "ResDm": 70,
+  "ResMa": 50,
+  "ResFi": 150,
+  "ResLi": 70,
+  "ResCo": 70,
+  "ResPo": 70,
+  "ResDm(N)": 70,
+  "ResMa(N)": 50,
+  "ResFi(N)": 150,
+  "ResLi(N)": 70,
+  "ResCo(N)": 70,
+  "ResPo(N)": 70,
+  "ResDm(H)": 50,
+  "ResMa(H)": 50,
+  "ResFi(H)": 150,
+  "ResLi(H)": 70,
+  "ResCo(H)": 70,
+  "ResPo(H)": 90,
+  "DamageRegen": 4,
+  "Crit": 5,
+  "minHP": 500,
+  "maxHP": 600,
+  "AC": 84,
+  "A1MinD": 110,
+  "A1MaxD": 140,
+  "A1TH": 251,
+  "A2MinD": 110,
+  "A2MaxD": 140,
+  "A2TH": 251,
+  "MinHP(N)": 600,
+  "MaxHP(N)": 800,
+  "AC(N)": 125,
+  "A1MinD(N)": 4,
+  "A1MaxD(N)": 7,
+  "A1TH(N)": 250,
+  "A2MinD(N)": 4,
+  "A2MaxD(N)": 7,
+  "A2TH(N)": 250,
+  "MinHP(H)": 6700,
+  "MaxHP(H)": 6800,
+  "AC(H)": 200,
+  "Exp(H)": 3462,
+  "A1MinD(H)": 360,
+  "A1MaxD(H)": 380,
+  "A1TH(H)": 250,
+  "A2MinD(H)": 360,
+  "A2MaxD(H)": 380,
+  "A2TH(H)": 250,
+  "TreasureClass(H)": "Uber Talic",
+  "expansion": 1,
+  "lineNumber": 746
+ },
+ "colossal2": {
+  "Id": "colossal2",
+  "*hcIdx": 746,
+  "BaseId": "colossal1",
+  "NextInClass": "colossal3",
+  "TransLvl": 1,
+  "NameStr": "Ancient Barbarian 2",
+  "MonStatsEx": "colossal2",
+  "MonType": "human",
+  "AI": "ColossalThrow",
+  "Code": "0F",
+  "enabled": 1,
+  "spawn": "colbarbthrow",
+  "spawnx": 0,
+  "spawny": 2,
+  "spawnmode": "NU",
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 30,
+  "Run": 30,
+  "Rarity": 0,
+  "Level": 110,
+  "Level(N)": 110,
+  "Level(H)": 110,
+  "MonSound": "colossal2",
+  "UMonSound": "colossal2",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 13,
+  "aidel(H)": 11,
+  "aip1": 15,
+  "aip1(N)": 15,
+  "aip1(H)": 15,
+  "aip2": 50,
+  "aip2(N)": 50,
+  "aip2(H)": 50,
+  "aip3": 25,
+  "aip3(N)": 25,
+  "aip3(H)": 25,
+  "aip4": 25,
+  "aip4(N)": 25,
+  "aip4(H)": 25,
+  "aip5": 7,
+  "aip5(N)": 7,
+  "aip5(H)": 7,
+  "aip6": 5,
+  "aip6(N)": 5,
+  "aip6(H)": 5,
+  "aip7": 66,
+  "aip7(N)": 33,
+  "aip7(H)": 75,
+  "aip8(H)": 150,
+  "MissA1": "colossal throwing axe",
+  "MissA2": "ancient throwing axe",
+  "isMelee": 1,
+  "inventory": 1,
+  "boss": 1,
+  "killable": 1,
+  "nopreventmonsterheal": 1,
+  "Skill1": "Shout",
+  "Sk1mode": "SC",
+  "Sk1lvl": 40,
+  "Skill2": "Nest",
+  "Sk2mode": "seq_genericspawner",
+  "Sk2lvl": 30,
+  "Skill3": "Lightning Enchant",
+  "Sk3mode": "SC",
+  "Sk3lvl": 40,
+  "Skill4": "Colossal Thunder Storm",
+  "Sk4mode": "SC",
+  "Sk4lvl": 40,
+  "Skill5": "UberAncientsHeal",
+  "Sk5mode": "SC",
+  "Sk5lvl": 1,
+  "Skill6": "Madawc's Lightning Pierce",
+  "Sk6mode": "NU",
+  "Sk6lvl": 20,
+  "Skill7": "Charged Bolt Disk",
+  "Sk7mode": "NU",
+  "Sk7lvl": 40,
+  "Drain": 100,
+  "Drain(N)": 100,
+  "Drain(H)": 100,
+  "coldeffect": 0,
+  "coldeffect(N)": 0,
+  "coldeffect(H)": 0,
+  "ResDm": 70,
+  "ResMa": 50,
+  "ResFi": 70,
+  "ResLi": 120,
+  "ResCo": 70,
+  "ResPo": 70,
+  "ResDm(N)": 70,
+  "ResMa(N)": 50,
+  "ResFi(N)": 70,
+  "ResLi(N)": 120,
+  "ResCo(N)": 70,
+  "ResPo(N)": 70,
+  "ResDm(H)": 30,
+  "ResMa(H)": 90,
+  "ResFi(H)": 70,
+  "ResLi(H)": 120,
+  "ResCo(H)": 70,
+  "ResPo(H)": 70,
+  "DamageRegen": 4,
+  "Crit": 5,
+  "minHP": 500,
+  "maxHP": 600,
+  "AC": 84,
+  "A1MinD": 130,
+  "A1MaxD": 180,
+  "A1TH": 251,
+  "A2MinD": 130,
+  "A2MaxD": 180,
+  "A2TH": 251,
+  "MinHP(N)": 600,
+  "MaxHP(N)": 800,
+  "AC(N)": 125,
+  "A1MinD(N)": 4,
+  "A1MaxD(N)": 7,
+  "A1TH(N)": 250,
+  "A2MinD(N)": 4,
+  "A2MaxD(N)": 7,
+  "A2TH(N)": 250,
+  "MinHP(H)": 6700,
+  "MaxHP(H)": 6800,
+  "AC(H)": 140,
+  "Exp(H)": 3462,
+  "A1MinD(H)": 375,
+  "A1MaxD(H)": 440,
+  "A1TH(H)": 250,
+  "A2MinD(H)": 375,
+  "A2MaxD(H)": 440,
+  "A2TH(H)": 250,
+  "TreasureClass(H)": "Uber Madawc",
+  "expansion": 1,
+  "lineNumber": 747
+ },
+ "colossal3": {
+  "Id": "colossal3",
+  "*hcIdx": 747,
+  "BaseId": "colossal1",
+  "TransLvl": 2,
+  "NameStr": "Ancient Barbarian 3",
+  "MonStatsEx": "colossal3",
+  "MonType": "human",
+  "AI": "ColossalLeap",
+  "Code": "0E",
+  "enabled": 1,
+  "spawn": "colbarbfrenzy",
+  "spawnx": 0,
+  "spawny": 2,
+  "spawnmode": "NU",
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 25,
+  "Run": 25,
+  "Rarity": 0,
+  "Level": 110,
+  "Level(N)": 110,
+  "Level(H)": 110,
+  "MonSound": "colossal3",
+  "UMonSound": "colossal3",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 13,
+  "aidel(H)": 11,
+  "aip1": 15,
+  "aip1(N)": 15,
+  "aip1(H)": 15,
+  "aip2": 50,
+  "aip2(N)": 50,
+  "aip2(H)": 50,
+  "aip3": 75,
+  "aip3(N)": 75,
+  "aip3(H)": 75,
+  "aip4": 125,
+  "aip4(N)": 125,
+  "aip4(H)": 125,
+  "aip5": 250,
+  "aip5(N)": 250,
+  "aip5(H)": 175,
+  "aip6": 5,
+  "aip6(N)": 5,
+  "aip6(H)": 5,
+  "aip7": 66,
+  "aip7(N)": 33,
+  "aip7(H)": 75,
+  "aip8": 250,
+  "aip8(N)": 250,
+  "aip8(H)": 150,
+  "isMelee": 1,
+  "inventory": 1,
+  "boss": 1,
+  "killable": 1,
+  "nopreventmonsterheal": 1,
+  "Skill1": "Korlic's Leap Attack",
+  "Sk1mode": "seq_ancientleap",
+  "Sk1lvl": 30,
+  "Skill2": "Nest",
+  "Sk2mode": "seq_genericspawner",
+  "Sk2lvl": 30,
+  "Skill3": "Cold Enchant",
+  "Sk3mode": "SC",
+  "Sk3lvl": 40,
+  "Skill4": "Blizzard",
+  "Sk4mode": "SC",
+  "Sk4lvl": 25,
+  "Skill5": "UberAncientsHeal",
+  "Sk5mode": "SC",
+  "Sk5lvl": 1,
+  "Skill6": "Korlic's Cold Pierce",
+  "Sk6mode": "NU",
+  "Sk6lvl": 20,
+  "Skill7": "Cold Fissure",
+  "Sk7mode": "NU",
+  "Sk7lvl": 40,
+  "Skill8": "Korlic's Bash",
+  "Sk8mode": "A2",
+  "Sk8lvl": 40,
+  "Drain": 100,
+  "Drain(N)": 100,
+  "Drain(H)": 100,
+  "coldeffect": 0,
+  "coldeffect(N)": 0,
+  "coldeffect(H)": 0,
+  "ResDm": 70,
+  "ResMa": 50,
+  "ResFi": 70,
+  "ResLi": 70,
+  "ResCo": 70,
+  "ResPo": 70,
+  "ResDm(N)": 70,
+  "ResMa(N)": 50,
+  "ResFi(N)": 70,
+  "ResLi(N)": 70,
+  "ResCo(N)": 70,
+  "ResPo(N)": 70,
+  "ResDm(H)": 66,
+  "ResMa(H)": 50,
+  "ResFi(H)": 70,
+  "ResLi(H)": 70,
+  "ResCo(H)": 180,
+  "ResPo(H)": 70,
+  "DamageRegen": 4,
+  "Crit": 5,
+  "minHP": 500,
+  "maxHP": 600,
+  "AC": 84,
+  "A1MinD": 150,
+  "A1MaxD": 250,
+  "A1TH": 251,
+  "A2MinD": 150,
+  "A2MaxD": 250,
+  "A2TH": 251,
+  "MinHP(N)": 600,
+  "MaxHP(N)": 800,
+  "AC(N)": 125,
+  "A1MinD(N)": 4,
+  "A1MaxD(N)": 7,
+  "A1TH(N)": 250,
+  "A2MinD(N)": 4,
+  "A2MaxD(N)": 7,
+  "A2TH(N)": 250,
+  "MinHP(H)": 6700,
+  "MaxHP(H)": 6800,
+  "AC(H)": 170,
+  "Exp(H)": 3462,
+  "A1MinD(H)": 370,
+  "A1MaxD(H)": 380,
+  "A1TH(H)": 250,
+  "A2MinD(H)": 370,
+  "A2MaxD(H)": 380,
+  "A2TH(H)": 250,
+  "TreasureClass(H)": "Uber Korlic",
+  "expansion": 1,
+  "lineNumber": 748
+ },
  "compellingorb": {
   "Id": "compellingorb",
   "*hcIdx": 366,
@@ -13288,6 +14108,7 @@
   "aidel(H)": 15,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "ResPo": 1000,
   "ResPo(N)": 1000,
   "ResPo(H)": 1000,
@@ -13402,6 +14223,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 43
  },
  "corruptrogue2": {
@@ -13501,6 +14323,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 44
  },
  "corruptrogue3": {
@@ -13603,6 +14426,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 45
  },
  "corruptrogue4": {
@@ -13702,6 +14526,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 46
  },
  "corruptrogue5": {
@@ -13802,6 +14627,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 47
  },
  "corruptrogue6": {
@@ -13902,6 +14728,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 722
  },
@@ -14398,6 +15225,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 736
  },
@@ -14500,6 +15328,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 160
  },
  "cr_archer2": {
@@ -14611,6 +15440,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 161
  },
  "cr_archer3": {
@@ -14722,6 +15552,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 162
  },
  "cr_archer4": {
@@ -14831,6 +15662,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 163
  },
  "cr_archer5": {
@@ -14942,6 +15774,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 164
  },
  "cr_archer6": {
@@ -15058,6 +15891,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 614
  },
@@ -15176,6 +16010,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 615
  },
@@ -15294,6 +16129,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 723
  },
@@ -15392,6 +16228,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 165
  },
  "cr_lancer2": {
@@ -15499,6 +16336,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 166
  },
  "cr_lancer3": {
@@ -15606,6 +16444,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 167
  },
  "cr_lancer4": {
@@ -15711,6 +16550,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 168
  },
  "cr_lancer5": {
@@ -15818,6 +16658,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 169
  },
  "cr_lancer6": {
@@ -15938,6 +16779,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 616
  },
@@ -16059,6 +16901,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 617
  },
@@ -16179,6 +17022,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 618
  },
@@ -16299,6 +17143,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 724
  },
@@ -16341,6 +17186,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_nestlay",
   "Sk1lvl": 1,
@@ -16374,6 +17220,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 206
  },
  "crownest2": {
@@ -16415,6 +17262,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_nestlay",
   "Sk1lvl": 1,
@@ -16448,6 +17296,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 207
  },
  "crownest3": {
@@ -16489,6 +17338,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_nestlay",
   "Sk1lvl": 1,
@@ -16522,6 +17372,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 208
  },
  "crownest4": {
@@ -16562,6 +17413,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_nestlay",
   "Sk1lvl": 1,
@@ -16595,6 +17447,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 209
  },
  "cycleoflife": {
@@ -16770,6 +17623,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "expansion": 1,
   "lineNumber": 737
  },
@@ -16884,6 +17738,7 @@
   "aidel(H)": 15,
   "isMelee": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 368
  },
@@ -16982,6 +17837,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 530
  },
@@ -17077,6 +17933,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 531
  },
@@ -17172,6 +18029,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 532
  },
@@ -17267,6 +18125,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 533
  },
@@ -17362,6 +18221,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 534
  },
@@ -17457,6 +18317,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 605
  },
@@ -17561,6 +18422,7 @@
   "aip2(H)": 25,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "S4",
   "Sk1lvl": 1,
@@ -17611,6 +18473,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -18010,6 +18873,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "expansion": 1,
   "lineNumber": 700
  },
@@ -18128,6 +18992,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "expansion": 1,
   "lineNumber": 701
  },
@@ -18264,6 +19129,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 702
  },
@@ -18399,6 +19265,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 703
  },
@@ -18534,6 +19401,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 714
  },
@@ -18654,6 +19522,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 310
  },
  "doomknight2": {
@@ -18791,6 +19660,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 311
  },
  "doomknight3": {
@@ -18927,6 +19797,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 312
  },
  "dopplezon": {
@@ -19483,6 +20354,7 @@
   "aip2(H)": 50,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "S4",
   "Sk1lvl": 1,
@@ -19526,6 +20398,7 @@
   "aip2(H)": 50,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "S4",
   "Sk1lvl": 1,
@@ -19569,6 +20442,7 @@
   "aip2(H)": 50,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "S4",
   "Sk1lvl": 1,
@@ -19612,6 +20486,7 @@
   "aip2(H)": 50,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "S4",
   "Sk1lvl": 1,
@@ -19654,6 +20529,7 @@
   "aip2(H)": 50,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "S4",
   "Sk1lvl": 1,
@@ -19702,6 +20578,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_genericspawner",
   "Sk1lvl": 1,
@@ -19844,6 +20721,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 19
  },
  "fallen2": {
@@ -19961,6 +20839,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 20
  },
  "fallen3": {
@@ -20076,6 +20955,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 21
  },
  "fallen4": {
@@ -20193,6 +21073,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 22
  },
  "fallen5": {
@@ -20325,6 +21206,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "lineNumber": 23
  },
  "fallen6": {
@@ -20456,6 +21338,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 643
  },
@@ -20586,6 +21469,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 644
  },
@@ -20715,6 +21599,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 645
  },
@@ -20822,6 +21707,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 58
  },
  "fallenshaman2": {
@@ -20928,6 +21814,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 59
  },
  "fallenshaman3": {
@@ -21034,6 +21921,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 60
  },
  "fallenshaman4": {
@@ -21140,6 +22028,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 61
  },
  "fallenshaman5": {
@@ -21249,6 +22138,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "lineNumber": 62
  },
  "fallenshaman6": {
@@ -21371,6 +22261,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 646
  },
@@ -21492,6 +22383,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 647
  },
@@ -21612,6 +22504,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 648
  },
@@ -21638,6 +22531,7 @@
   "inTown": 1,
   "killable": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "DamageRegen": 0,
   "lineNumber": 293
  },
@@ -21848,6 +22742,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 141
  },
  "fetish11": {
@@ -21947,6 +22842,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 407
  },
  "fetish2": {
@@ -22049,6 +22945,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 142
  },
  "fetish3": {
@@ -22151,6 +23048,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 143
  },
  "fetish4": {
@@ -22253,6 +23151,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 144
  },
  "fetish5": {
@@ -22355,6 +23254,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 145
  },
  "fetish6": {
@@ -22468,6 +23368,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 657
  },
@@ -22582,6 +23483,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 658
  },
@@ -22695,6 +23597,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 659
  },
@@ -22800,6 +23703,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 396
  },
  "fetishblow2": {
@@ -22905,6 +23809,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 397
  },
  "fetishblow3": {
@@ -23010,6 +23915,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 398
  },
  "fetishblow4": {
@@ -23114,6 +24020,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 399
  },
  "fetishblow5": {
@@ -23218,6 +24125,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 400
  },
  "fetishblow6": {
@@ -23323,6 +24231,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 660
  },
@@ -23429,6 +24338,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 661
  },
@@ -23534,6 +24444,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 662
  },
@@ -23639,6 +24550,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "SplEndDeath": 1,
   "lineNumber": 278
  },
@@ -23744,6 +24656,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplEndDeath": 1,
   "lineNumber": 279
  },
@@ -23849,6 +24762,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndDeath": 1,
   "lineNumber": 280
  },
@@ -23954,6 +24868,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndDeath": 1,
   "lineNumber": 281
  },
@@ -24059,6 +24974,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndDeath": 1,
   "lineNumber": 282
  },
@@ -24165,6 +25081,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndDeath": 1,
   "expansion": 1,
   "lineNumber": 663
@@ -24272,6 +25189,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndDeath": 1,
   "expansion": 1,
   "lineNumber": 664
@@ -24378,6 +25296,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndDeath": 1,
   "expansion": 1,
   "lineNumber": 665
@@ -24491,6 +25410,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 304
  },
  "fingermage2": {
@@ -24602,6 +25522,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 305
  },
  "fingermage3": {
@@ -24713,6 +25634,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 306
  },
  "fingermage4": {
@@ -24827,6 +25749,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 693
  },
@@ -24941,6 +25864,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 694
  },
@@ -24971,6 +25895,7 @@
   "aip3(H)": 20,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "DamageRegen": 2,
@@ -25100,6 +26025,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "DesertTurret",
   "Sk1mode": "seq_desertturret",
   "Sk1lvl": 1,
@@ -25353,6 +26279,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 15
  },
  "foulcrow2": {
@@ -25456,6 +26383,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 16
  },
  "foulcrow3": {
@@ -25561,6 +26489,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 17
  },
  "foulcrow4": {
@@ -25670,6 +26599,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 18
  },
  "foulcrow5": {
@@ -25782,6 +26712,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 591
  },
@@ -25892,6 +26823,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 592
  },
@@ -26003,6 +26935,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 593
  },
@@ -26115,6 +27048,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 594
  },
@@ -26226,6 +27160,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 247
@@ -26337,6 +27272,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 248
@@ -26461,6 +27397,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 249
@@ -26559,6 +27496,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 502
  },
@@ -26657,6 +27595,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 503
  },
@@ -26755,6 +27694,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 504
  },
@@ -26853,6 +27793,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 505
  },
@@ -26950,6 +27891,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 506
  },
@@ -26993,6 +27935,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "GargoyleTrap",
   "Sk1mode": "seq_gargoyletrap",
   "Sk1lvl": 1,
@@ -27171,6 +28114,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 53
  },
  "goatman10": {
@@ -27282,6 +28226,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 590
  },
@@ -27380,6 +28325,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 54
  },
  "goatman3": {
@@ -27477,6 +28423,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 55
  },
  "goatman4": {
@@ -27576,6 +28523,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 56
  },
  "goatman5": {
@@ -27670,6 +28618,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 57
  },
  "goatman6": {
@@ -27778,6 +28727,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 586
  },
@@ -27890,6 +28840,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 587
  },
@@ -28002,6 +28953,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 588
  },
@@ -28112,6 +29064,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 589
  },
@@ -28514,6 +29467,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 391
  },
  "hellmeteor": {
@@ -28547,6 +29501,7 @@
   "aip3(N)": 10,
   "aip3(H)": 10,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Skill1": "HellMeteor",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -28582,6 +29537,7 @@
   "demon": 1,
   "opendoors": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -28826,6 +29782,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "DamageRegen": 2,
@@ -28944,6 +29901,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 493
  },
@@ -29058,6 +30016,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 494
  },
@@ -29172,6 +30131,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 495
  },
@@ -29280,6 +30240,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 496
  },
@@ -29382,6 +30343,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 497
  },
@@ -29483,6 +30445,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 689
  },
@@ -29584,6 +30547,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 690
  },
@@ -29684,6 +30648,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 715
  },
@@ -29921,6 +30886,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 332
  },
@@ -30159,6 +31125,7 @@
   "npc": 1,
   "interact": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 406
  },
@@ -30279,6 +31246,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 283
  },
@@ -30343,6 +31311,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "DamageRegen": 2,
@@ -30456,6 +31425,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "ArcaneTower",
   "Sk1mode": "seq_arcanetower",
   "Sk1lvl": 1,
@@ -31046,6 +32016,7 @@
   "killable": 1,
   "switchai": 1,
   "zoo": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 75,
   "Drain(H)": 50,
@@ -31123,6 +32094,7 @@
   "aip2(H)": 18,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MaggotEgg",
   "Sk1mode": "seq_maggotegg",
   "Sk1lvl": 2,
@@ -31184,6 +32156,7 @@
   "aip2(H)": 22,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MaggotEgg",
   "Sk1mode": "seq_maggotegg",
   "Sk1lvl": 3,
@@ -31245,6 +32218,7 @@
   "aip2(H)": 26,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MaggotEgg",
   "Sk1mode": "seq_maggotegg",
   "Sk1lvl": 4,
@@ -31306,6 +32280,7 @@
   "aip2(H)": 30,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MaggotEgg",
   "Sk1mode": "seq_maggotegg",
   "Sk1lvl": 4,
@@ -31367,6 +32342,7 @@
   "aip2(H)": 34,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MaggotEgg",
   "Sk1mode": "seq_maggotegg",
   "Sk1lvl": 5,
@@ -31427,6 +32403,7 @@
   "aip2(H)": 34,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MaggotEgg",
   "Sk1mode": "seq_maggotegg",
   "Sk1lvl": 5,
@@ -31496,6 +32473,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -31544,6 +32522,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "SplClientEnd": 1,
   "lineNumber": 284
  },
@@ -31587,6 +32566,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -31635,6 +32615,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "SplClientEnd": 1,
   "lineNumber": 285
  },
@@ -31678,6 +32659,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -31726,6 +32708,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "SplClientEnd": 1,
   "lineNumber": 286
  },
@@ -31769,6 +32752,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -31817,6 +32801,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplClientEnd": 1,
   "lineNumber": 287
  },
@@ -31859,6 +32844,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -31907,6 +32893,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "SplClientEnd": 1,
   "lineNumber": 288
  },
@@ -32076,6 +33063,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 360
  },
  "megademon2": {
@@ -32180,6 +33168,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 361
  },
  "megademon3": {
@@ -32286,6 +33275,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 362
  },
  "megademon4": {
@@ -32400,6 +33390,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 687
  },
@@ -32515,6 +33506,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 688
  },
@@ -32780,6 +33772,7 @@
   "aidel(H)": 15,
   "isMelee": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "coldeffect": -50,
   "coldeffect(N)": -40,
   "coldeffect(H)": -33,
@@ -32994,6 +33987,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 454
  },
@@ -33100,6 +34094,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 684
  },
@@ -33205,6 +34200,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 685
  },
@@ -33311,6 +34307,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 455
  },
@@ -33417,6 +34414,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 456
  },
@@ -33523,6 +34521,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 457
  },
@@ -33630,6 +34629,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 458
  },
@@ -33736,6 +34736,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 459
  },
@@ -33843,6 +34844,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 460
  },
@@ -33949,6 +34951,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 461
  },
@@ -34054,6 +35057,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 683
  },
@@ -34100,6 +35104,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34133,6 +35138,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 485
  },
@@ -34179,6 +35185,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34212,6 +35219,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 486
  },
@@ -34258,6 +35266,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34291,6 +35300,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 487
  },
@@ -34337,6 +35347,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34370,6 +35381,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 488
  },
@@ -34416,6 +35428,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34449,6 +35462,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 489
  },
@@ -34495,6 +35509,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34528,6 +35543,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 490
  },
@@ -34574,6 +35590,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34607,6 +35624,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 491
  },
@@ -34652,6 +35670,7 @@
   "aip5(N)": 25,
   "aip5(H)": 25,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "MinionSpawner",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -34685,6 +35704,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 492
  },
@@ -34815,6 +35835,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 114
  },
  "mosquito2": {
@@ -34917,6 +35938,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 115
  },
  "mosquito3": {
@@ -35019,6 +36041,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 116
  },
  "mosquito4": {
@@ -35120,6 +36143,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 117
  },
  "mummy1": {
@@ -35235,6 +36259,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 96
  },
  "mummy2": {
@@ -35350,6 +36375,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 97
  },
  "mummy3": {
@@ -35465,6 +36491,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 98
  },
  "mummy4": {
@@ -35580,6 +36607,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 99
  },
  "mummy5": {
@@ -35695,6 +36723,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "lineNumber": 100
  },
  "mummy6": {
@@ -35809,6 +36838,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "expansion": 1,
   "lineNumber": 704
  },
@@ -36442,6 +37472,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 480
  },
@@ -36568,6 +37599,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 481
  },
@@ -36694,6 +37726,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 482
  },
@@ -36820,6 +37853,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 483
  },
@@ -36945,6 +37979,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 484
  },
@@ -37070,6 +38105,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 725
  },
@@ -37113,6 +38149,7 @@
   "demon": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -37190,6 +38227,7 @@
   "demon": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -37267,6 +38305,7 @@
   "demon": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -37343,6 +38382,7 @@
   "demon": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -37419,6 +38459,7 @@
   "demon": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -37547,6 +38588,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 83
  },
  "pantherwoman2": {
@@ -37641,6 +38683,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 84
  },
  "pantherwoman3": {
@@ -37745,6 +38788,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 85
  },
  "pantherwoman4": {
@@ -37847,6 +38891,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 86
  },
  "pantherwoman5": {
@@ -37958,6 +39003,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 628
  },
@@ -38069,6 +39115,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 629
  },
@@ -38215,6 +39262,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "ResCo": 70,
   "ResPo": 70,
   "DamageRegen": 2,
@@ -38246,6 +39294,7 @@
   "killable": 1,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "ResDm": 25,
   "ResMa": 25,
   "ResFi": 25,
@@ -38373,6 +39422,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 547
@@ -38474,6 +39524,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 548
@@ -38575,6 +39626,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 549
@@ -38676,6 +39728,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 550
@@ -38776,6 +39829,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "SplGetModeChart": 1,
   "expansion": 1,
   "lineNumber": 551
@@ -39111,6 +40165,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 63
  },
  "quillrat2": {
@@ -39217,6 +40272,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 64
  },
  "quillrat3": {
@@ -39323,6 +40379,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 65
  },
  "quillrat4": {
@@ -39427,6 +40484,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 66
  },
  "quillrat5": {
@@ -39531,6 +40589,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 67
  },
  "quillrat6": {
@@ -39646,6 +40705,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 606
  },
@@ -39762,6 +40822,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 607
  },
@@ -39877,6 +40938,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 608
  },
@@ -40166,6 +41228,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 437
  },
@@ -40289,6 +41352,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 438
  },
@@ -40412,6 +41476,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 439
  },
@@ -40540,6 +41605,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 440
  },
@@ -40666,6 +41732,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 441
  },
@@ -40786,6 +41853,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 699
  },
@@ -40889,6 +41957,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 307
  },
  "regurgitator2": {
@@ -40991,6 +42060,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 308
  },
  "regurgitator3": {
@@ -41093,6 +42163,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 309
  },
  "regurgitator4": {
@@ -41194,6 +42265,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 695
  },
@@ -41534,6 +42606,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 78
  },
  "sandleaper2": {
@@ -41645,6 +42718,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 79
  },
  "sandleaper3": {
@@ -41757,6 +42831,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 80
  },
  "sandleaper4": {
@@ -41872,6 +42947,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 81
  },
  "sandleaper5": {
@@ -41990,6 +43066,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 82
  },
  "sandleaper6": {
@@ -42123,6 +43200,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 630
  },
@@ -42256,6 +43334,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 631
  },
@@ -42309,6 +43388,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -42364,6 +43444,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 68
  },
  "sandmaggot2": {
@@ -42416,6 +43497,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -42471,6 +43553,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 69
  },
  "sandmaggot3": {
@@ -42523,6 +43606,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -42578,6 +43662,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 70
  },
  "sandmaggot4": {
@@ -42630,6 +43715,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -42685,6 +43771,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 71
  },
  "sandmaggot5": {
@@ -42737,6 +43824,7 @@
   "isSpawn": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "MagottUp",
   "Sk1mode": "seq_maggotup",
   "Sk1lvl": 1,
@@ -42792,6 +43880,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 72
  },
  "sandmaggot6": {
@@ -42900,6 +43989,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "expansion": 1,
   "lineNumber": 680
  },
@@ -43009,6 +44099,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "expansion": 1,
   "lineNumber": 717
  },
@@ -43141,6 +44232,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 29
  },
  "sandraider10": {
@@ -43272,6 +44364,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 604
  },
@@ -43410,6 +44503,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 30
  },
  "sandraider3": {
@@ -43541,6 +44635,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 31
  },
  "sandraider4": {
@@ -43678,6 +44773,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 32
  },
  "sandraider5": {
@@ -43809,6 +44905,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 33
  },
  "sandraider6": {
@@ -43944,6 +45041,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 600
  },
@@ -44083,6 +45181,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 601
  },
@@ -44216,6 +45315,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 602
  },
@@ -44355,6 +45455,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 603
  },
@@ -44396,6 +45497,7 @@
   "isMelee": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_mummyspawn",
   "Sk1lvl": 1,
@@ -44553,6 +45655,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 91
  },
  "scarab2": {
@@ -44693,6 +45796,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 92
  },
  "scarab3": {
@@ -44823,6 +45927,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 93
  },
  "scarab4": {
@@ -44953,6 +46058,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 94
  },
  "scarab5": {
@@ -45083,6 +46189,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 95
  },
  "scarab6": {
@@ -45224,6 +46331,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 655
  },
@@ -45365,6 +46473,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 656
  },
@@ -45506,6 +46615,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 719
  },
@@ -45587,6 +46697,7 @@
   "aidel(H)": 15,
   "MissA1": "chainlightning",
   "neverCount": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 355
  },
@@ -45910,6 +47021,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 442
  },
@@ -46022,6 +47134,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 443
  },
@@ -46134,6 +47247,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 444
  },
@@ -46246,6 +47360,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 445
  },
@@ -46356,6 +47471,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 446
  },
@@ -46453,6 +47569,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 170
  },
  "sk_archer10": {
@@ -46573,6 +47690,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 580
  },
@@ -46783,6 +47901,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 171
  },
  "sk_archer3": {
@@ -46881,6 +48000,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 172
  },
  "sk_archer4": {
@@ -46990,6 +48110,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 173
  },
  "sk_archer5": {
@@ -47101,6 +48222,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 174
  },
  "sk_archer6": {
@@ -47217,6 +48339,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 576
  },
@@ -47337,6 +48460,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 577
  },
@@ -47454,6 +48578,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 578
  },
@@ -47573,6 +48698,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 579
  },
@@ -47678,6 +48804,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 0
  },
  "skeleton2": {
@@ -47781,6 +48908,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 1
  },
  "skeleton3": {
@@ -47887,6 +49015,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 2
  },
  "skeleton4": {
@@ -48004,6 +49133,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 3
  },
  "skeleton5": {
@@ -48124,6 +49254,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 4
  },
  "skeleton6": {
@@ -48261,6 +49392,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "expansion": 1,
   "lineNumber": 649
  },
@@ -48398,6 +49530,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "expansion": 1,
   "lineNumber": 650
  },
@@ -48642,6 +49775,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 379
  },
  "skmage_cold2": {
@@ -48756,6 +49890,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 380
  },
  "skmage_cold3": {
@@ -48873,6 +50008,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "lineNumber": 381
  },
  "skmage_cold4": {
@@ -48987,6 +50123,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 382
  },
  "skmage_cold5": {
@@ -49101,6 +50238,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 625
  },
@@ -49317,6 +50455,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 383
  },
  "skmage_fire2": {
@@ -49428,6 +50567,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 384
  },
  "skmage_fire3": {
@@ -49539,6 +50679,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 385
  },
  "skmage_fire4": {
@@ -49650,6 +50791,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 386
  },
  "skmage_fire5": {
@@ -49762,6 +50904,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 621
  },
@@ -49874,6 +51017,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 622
  },
@@ -50087,6 +51231,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 387
  },
  "skmage_ltng2": {
@@ -50198,6 +51343,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 388
  },
  "skmage_ltng3": {
@@ -50311,6 +51457,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 389
  },
  "skmage_ltng4": {
@@ -50422,6 +51569,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 390
  },
  "skmage_ltng5": {
@@ -50534,6 +51682,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 623
  },
@@ -50646,6 +51795,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 624
  },
@@ -50860,6 +52010,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 274
  },
  "skmage_pois2": {
@@ -50972,6 +52123,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 275
  },
  "skmage_pois3": {
@@ -51084,6 +52236,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 276
  },
  "skmage_pois4": {
@@ -51196,6 +52349,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 277
  },
  "skmage_pois5": {
@@ -51307,6 +52461,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "expansion": 1,
   "lineNumber": 626
  },
@@ -51418,6 +52573,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "expansion": 1,
   "lineNumber": 627
  },
@@ -51625,6 +52781,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 373
  },
  "slinger2": {
@@ -51731,6 +52888,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 374
  },
  "slinger3": {
@@ -51837,6 +52995,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 375
  },
  "slinger4": {
@@ -51942,6 +53101,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 376
  },
  "slinger5": {
@@ -52031,6 +53191,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 394
  },
  "slinger6": {
@@ -52119,6 +53280,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 395
  },
  "slinger7": {
@@ -52230,6 +53392,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 611
  },
@@ -52347,6 +53510,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 612
  },
@@ -52463,6 +53627,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 613
  },
@@ -52495,6 +53660,7 @@
   "demon": 1,
   "opendoors": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 66,
@@ -52711,6 +53877,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 447
  },
@@ -52837,6 +54004,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 448
  },
@@ -52950,6 +54118,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 449
  },
@@ -53062,6 +54231,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 450
  },
@@ -53089,6 +54259,7 @@
   "opendoors": 1,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "coldeffect": -50,
   "coldeffect(N)": -25,
   "DamageRegen": 2,
@@ -53103,6 +54274,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 370
  },
  "spiritofbarbs": {
@@ -53382,6 +54554,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 470
  },
@@ -53510,6 +54683,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 471
  },
@@ -53638,6 +54812,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 472
  },
@@ -53766,6 +54941,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 473
  },
@@ -53894,6 +55070,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 474
  },
@@ -54028,6 +55205,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 635
  },
@@ -54161,6 +55339,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 636
  },
@@ -54294,6 +55473,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 720
  },
@@ -54428,6 +55608,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 475
  },
@@ -54562,6 +55743,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 476
  },
@@ -54696,6 +55878,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 477
  },
@@ -54830,6 +56013,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 478
  },
@@ -54966,6 +56150,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 479
  },
@@ -55107,6 +56292,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 637
  },
@@ -55248,6 +56434,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 638
  },
@@ -55388,6 +56575,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 639
  },
@@ -55528,6 +56716,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 721
  },
@@ -55565,6 +56754,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_mosquitonest",
   "Sk1lvl": 1,
@@ -55592,6 +56782,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 334
  },
  "suckernest2": {
@@ -55628,6 +56819,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_mosquitonest",
   "Sk1lvl": 1,
@@ -55655,6 +56847,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 335
  },
  "suckernest3": {
@@ -55691,6 +56884,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_mosquitonest",
   "Sk1lvl": 1,
@@ -55718,6 +56912,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 336
  },
  "suckernest4": {
@@ -55753,6 +56948,7 @@
   "isSpawn": 1,
   "isMelee": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "Skill1": "Nest",
   "Sk1mode": "seq_mosquitonest",
   "Sk1lvl": 1,
@@ -55780,6 +56976,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 337
  },
  "suicideminion1": {
@@ -55824,6 +57021,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -55906,6 +57104,7 @@
   "demon": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -55989,6 +57188,7 @@
   "demon": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56069,6 +57269,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56150,6 +57351,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56231,6 +57433,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56313,6 +57516,7 @@
   "demon": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56397,6 +57601,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56479,6 +57684,7 @@
   "demon": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56560,6 +57766,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56644,6 +57851,7 @@
   "isMelee": 1,
   "killable": 1,
   "genericSpawn": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 85,
   "Drain(H)": 75,
@@ -56898,6 +58106,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 87
  },
  "swarm2": {
@@ -56997,6 +58206,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 88
  },
  "swarm3": {
@@ -57096,6 +58306,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 89
  },
  "swarm4": {
@@ -57206,6 +58417,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 90
  },
  "swarm5": {
@@ -57315,6 +58527,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 716
  },
@@ -57949,6 +59162,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 127
  },
  "thornhulk2": {
@@ -58065,6 +59279,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 128
  },
  "thornhulk3": {
@@ -58181,6 +59396,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 129
  },
  "thornhulk4": {
@@ -58297,6 +59513,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 130
  },
  "thornhulk5": {
@@ -58414,6 +59631,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 610
  },
@@ -58447,6 +59665,7 @@
   "MissA1": "trapfirebolt",
   "neverCount": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 326
  },
@@ -58490,6 +59709,7 @@
   "MissS2": "trap cursed skull right",
   "neverCount": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "PoisonBallTrap",
   "Sk1mode": "S1",
   "Sk1lvl": 1,
@@ -58552,6 +59772,7 @@
   "MissA1": "chainlightning",
   "neverCount": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "lineNumber": 330
  },
@@ -58584,6 +59805,7 @@
   "aip2(H)": 15,
   "isSpawn": 1,
   "killable": 1,
+  "CannotHerald": 1,
   "DamageRegen": 2,
   "Crit": 5,
   "minHP": 284,
@@ -58633,6 +59855,7 @@
   "MissS1": "nova",
   "neverCount": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "Trap Nova",
   "Sk1mode": "S1",
   "Sk1lvl": 1,
@@ -58687,6 +59910,7 @@
   "MissA1": "trappoisonjavcloud",
   "neverCount": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "PrimePoisonNova",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -58733,6 +59957,7 @@
   "MissS2": "trap cursed skull left",
   "neverCount": 1,
   "petIgnore": 1,
+  "CannotHerald": 1,
   "Skill1": "PoisonBallTrap",
   "Sk1mode": "S1",
   "Sk1lvl": 1,
@@ -58792,6 +60017,7 @@
   "isMelee": 1,
   "killable": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 100,
   "Drain(H)": 100,
@@ -58874,6 +60100,7 @@
   "isMelee": 1,
   "killable": 1,
   "neverCount": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 100,
   "Drain(H)": 100,
@@ -58972,6 +60199,7 @@
   "aip5(H)": 5,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "DesertTurret",
   "Sk1mode": "seq_desertturret",
   "Sk1lvl": 1,
@@ -59050,6 +60278,7 @@
   "aip5(H)": 5,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "DesertTurret",
   "Sk1mode": "seq_desertturret",
   "Sk1lvl": 1,
@@ -59127,6 +60356,7 @@
   "aip5(H)": 5,
   "killable": 1,
   "switchai": 1,
+  "CannotHerald": 1,
   "Skill1": "DesertTurret",
   "Sk1mode": "seq_desertturret",
   "Sk1lvl": 1,
@@ -59293,6 +60523,7 @@
   "boss": 1,
   "primeevil": 1,
   "killable": 1,
+  "nopreventmonsterheal": 1,
   "Skill1": "AndrialSpray",
   "Sk1mode": "seq_andarielspray",
   "Sk1lvl": 1,
@@ -59397,6 +60628,7 @@
   "boss": 1,
   "primeevil": 1,
   "killable": 1,
+  "nopreventmonsterheal": 1,
   "Skill1": "Baal Nova",
   "Sk1mode": "S3",
   "Sk1lvl": 1,
@@ -59532,6 +60764,7 @@
   "boss": 1,
   "primeevil": 1,
   "killable": 1,
+  "nopreventmonsterheal": 1,
   "Skill1": "DiabLight",
   "Sk1mode": "SC",
   "Sk1lvl": 2,
@@ -59659,6 +60892,7 @@
   "boss": 1,
   "primeevil": 1,
   "killable": 1,
+  "nopreventmonsterheal": 1,
   "Skill1": "Charge",
   "Sk1mode": "seq_durielcharge",
   "Sk1lvl": 5,
@@ -59798,6 +61032,7 @@
   "boss": 1,
   "killable": 1,
   "switchai": 1,
+  "nopreventmonsterheal": 1,
   "Skill1": "Frost Nova",
   "Sk1mode": "SC",
   "Sk1lvl": 8,
@@ -59920,6 +61155,7 @@
   "boss": 1,
   "primeevil": 1,
   "killable": 1,
+  "nopreventmonsterheal": 1,
   "Skill1": "PrimeLightning",
   "Sk1mode": "A2",
   "Sk1lvl": 6,
@@ -60112,6 +61348,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "lineNumber": 101
  },
  "unraveler2": {
@@ -60239,6 +61476,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 102
  },
  "unraveler3": {
@@ -60367,6 +61605,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 103
  },
  "unraveler4": {
@@ -60498,6 +61737,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 104
  },
  "unraveler5": {
@@ -60626,6 +61866,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "lineNumber": 105
  },
  "unraveler6": {
@@ -60754,6 +61995,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 668
  },
@@ -60883,6 +62125,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 669
  },
@@ -61012,6 +62255,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 670
  },
@@ -61140,6 +62384,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 671
  },
@@ -61339,6 +62584,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 131
  },
  "vampire2": {
@@ -61469,6 +62715,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 132
  },
  "vampire3": {
@@ -61599,6 +62846,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 133
  },
  "vampire4": {
@@ -61729,6 +62977,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "lineNumber": 134
  },
  "vampire5": {
@@ -61859,6 +63108,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 135
  },
  "vampire6": {
@@ -61989,6 +63239,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "expansion": 1,
   "lineNumber": 696
  },
@@ -62120,6 +63371,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "expansion": 1,
   "lineNumber": 697
  },
@@ -62250,6 +63502,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald C",
   "expansion": 1,
   "lineNumber": 698
  },
@@ -62473,6 +63726,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 559
  },
@@ -62517,6 +63771,7 @@
   "killable": 1,
   "switchai": 1,
   "zoo": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 75,
   "Drain(H)": 50,
@@ -62562,6 +63817,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 301
  },
  "vilechild2": {
@@ -62605,6 +63861,7 @@
   "killable": 1,
   "switchai": 1,
   "zoo": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 75,
   "Drain(H)": 50,
@@ -62652,6 +63909,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 302
  },
  "vilechild3": {
@@ -62695,6 +63953,7 @@
   "killable": 1,
   "switchai": 1,
   "zoo": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 75,
   "Drain(H)": 50,
@@ -62742,6 +64001,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 303
  },
  "vilechild4": {
@@ -62785,6 +64045,7 @@
   "killable": 1,
   "switchai": 1,
   "zoo": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 75,
   "Drain(H)": 50,
@@ -62844,6 +64105,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "expansion": 1,
   "lineNumber": 678
  },
@@ -62887,6 +64149,7 @@
   "killable": 1,
   "switchai": 1,
   "zoo": 1,
+  "CannotHerald": 1,
   "Drain": 100,
   "Drain(N)": 75,
   "Drain(H)": 50,
@@ -62946,6 +64209,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "expansion": 1,
   "lineNumber": 679
  },
@@ -63054,6 +64318,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 298
  },
  "vilemother2": {
@@ -63163,6 +64428,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald A",
   "lineNumber": 299
  },
  "vilemother3": {
@@ -63272,6 +64538,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "lineNumber": 300
  },
  "vilemother4": {
@@ -63394,6 +64661,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 676
  },
@@ -63516,6 +64784,7 @@
   "TreasureClassUnique(H)": "Act 4 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 4 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 4 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 4 (H) Herald B",
   "expansion": 1,
   "lineNumber": 677
  },
@@ -63668,6 +64937,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 110
@@ -63763,6 +65033,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 111
@@ -63857,6 +65128,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 112
@@ -63951,6 +65223,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 113
@@ -64059,6 +65332,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "expansion": 1,
@@ -64124,6 +65398,336 @@
   "El1MaxD": 10,
   "expansion": 1,
   "lineNumber": 411
+ },
+ "warbighead": {
+  "Id": "warbighead",
+  "*hcIdx": 743,
+  "BaseId": "warbighead",
+  "TransLvl": 0,
+  "NameStr": "Tainted",
+  "MonStatsEx": "warbighead",
+  "MonType": "demon",
+  "AI": "GenericPet",
+  "Code": "BH",
+  "enabled": 1,
+  "rangedtype": 1,
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 6,
+  "Run": 6,
+  "Rarity": 0,
+  "MonSound": "warbighead",
+  "UMonSound": "warbighead",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 15,
+  "aidel(H)": 15,
+  "aip1": 30,
+  "aip1(N)": 30,
+  "aip1(H)": 60,
+  "aip2": 10,
+  "aip2(N)": 0,
+  "aip2(H)": 0,
+  "aip3": 0,
+  "aip3(N)": 0,
+  "aip3(H)": 1,
+  "aip4": 0,
+  "aip4(N)": 0,
+  "aip4(H)": 0,
+  "aip5": 0,
+  "aip5(N)": 15,
+  "aip5(H)": 0,
+  "aip6": 1,
+  "aip6(N)": 25,
+  "aip6(H)": 10,
+  "aip7": 0,
+  "aip7(N)": 0,
+  "MissA2": "taintedfireball",
+  "Align": 1,
+  "inTown": 1,
+  "demon": 1,
+  "opendoors": 1,
+  "killable": 1,
+  "switchai": 1,
+  "neverCount": 1,
+  "Skill1": "Tainted Fire Ball",
+  "Sk1mode": "A2",
+  "Sk1lvl": 1,
+  "Skill2": "Tainted Resist Fire",
+  "Sk2mode": "S1",
+  "Sk2lvl": 1,
+  "coldeffect": -50,
+  "coldeffect(N)": -50,
+  "coldeffect(H)": -50,
+  "ResFi": 50,
+  "ResLi": 20,
+  "ResCo": 20,
+  "ResPo": 20,
+  "ResFi(N)": 50,
+  "ResLi(N)": 20,
+  "ResCo(N)": 20,
+  "ResPo(N)": 20,
+  "ResFi(H)": 50,
+  "ResLi(H)": 20,
+  "ResCo(H)": 20,
+  "ResPo(H)": 20,
+  "DamageRegen": 3,
+  "noRatio": 1,
+  "ToBlock": 11,
+  "ToBlock(N)": 11,
+  "ToBlock(H)": 11,
+  "Crit": 5,
+  "minHP": 127,
+  "maxHP": 127,
+  "AC": 75,
+  "A1MinD": 76,
+  "A1MaxD": 113,
+  "A1TH": 77,
+  "MinHP(N)": 180,
+  "MaxHP(N)": 180,
+  "AC(N)": 90,
+  "A1MinD(N)": 50,
+  "A1MaxD(N)": 100,
+  "A1TH(N)": 110,
+  "MinHP(H)": 290,
+  "MaxHP(H)": 290,
+  "AC(H)": 190,
+  "A1MinD(H)": 50,
+  "A1MaxD(H)": 100,
+  "A1TH(H)": 110,
+  "El1Mode": "A2",
+  "El1Type": "ltng",
+  "El1Pct": 100,
+  "El1MinD": 75,
+  "El1MaxD": 110,
+  "El1Pct(N)": 100,
+  "El1MinD(N)": 140,
+  "El1MaxD(N)": 180,
+  "El1Pct(H)": 100,
+  "El1MinD(H)": 160,
+  "El1MaxD(H)": 200,
+  "El2Mode": "A1",
+  "El2Type": "ltng",
+  "El2Pct(N)": 15,
+  "El2MinD(N)": 10,
+  "El2MaxD(N)": 20,
+  "El2Pct(H)": 35,
+  "El2MinD(H)": 10,
+  "El2MaxD(H)": 20,
+  "expansion": 1,
+  "lineNumber": 744
+ },
+ "wargoatman": {
+  "Id": "wargoatman",
+  "*hcIdx": 742,
+  "BaseId": "wargoatman",
+  "TransLvl": 0,
+  "NameStr": "WarGoatman",
+  "MonStatsEx": "wargoatman",
+  "MonType": "demon",
+  "AI": "GenericPet",
+  "Code": "GM",
+  "enabled": 1,
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 8,
+  "Run": 8,
+  "Rarity": 0,
+  "MonSound": "wargoatman",
+  "UMonSound": "wargoatman",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 15,
+  "aidel(H)": 15,
+  "aip1": 30,
+  "aip1(N)": 30,
+  "aip1(H)": 60,
+  "aip2": 10,
+  "aip2(N)": 0,
+  "aip2(H)": 0,
+  "aip3": 0,
+  "aip3(N)": 0,
+  "aip3(H)": 1,
+  "aip4": 4,
+  "aip4(N)": 4,
+  "aip4(H)": 0,
+  "aip5": 0,
+  "aip5(N)": 15,
+  "aip5(H)": 1,
+  "aip6": 0,
+  "aip6(N)": 25,
+  "aip6(H)": 0,
+  "aip7": 0,
+  "aip7(N)": 0,
+  "Align": 1,
+  "isMelee": 1,
+  "inTown": 1,
+  "demon": 1,
+  "opendoors": 1,
+  "killable": 1,
+  "switchai": 1,
+  "neverCount": 1,
+  "Skill1": "Goatman Stun",
+  "Sk1mode": "A1",
+  "Sk1lvl": 1,
+  "Skill2": "Goatman Berserk",
+  "Sk2mode": "A1",
+  "Sk2lvl": 1,
+  "Skill3": "Goatman Frenzy",
+  "Sk3mode": "A1",
+  "Sk3lvl": 1,
+  "Skill4": "Goatman Cleave",
+  "Sk4mode": "seq_wargoatmancleave",
+  "Sk4lvl": 1,
+  "coldeffect": -50,
+  "coldeffect(N)": -50,
+  "coldeffect(H)": -50,
+  "ResDm": 25,
+  "ResFi": 20,
+  "ResLi": 20,
+  "ResCo": 50,
+  "ResPo": 20,
+  "ResDm(N)": 25,
+  "ResFi(N)": 20,
+  "ResLi(N)": 20,
+  "ResCo(N)": 50,
+  "ResPo(N)": 20,
+  "ResDm(H)": 25,
+  "ResFi(H)": 20,
+  "ResLi(H)": 20,
+  "ResCo(H)": 50,
+  "ResPo(H)": 20,
+  "DamageRegen": 3,
+  "noRatio": 1,
+  "ToBlock": 21,
+  "ToBlock(N)": 21,
+  "ToBlock(H)": 21,
+  "Crit": 5,
+  "minHP": 100,
+  "maxHP": 100,
+  "AC": 100,
+  "A1MinD": 3,
+  "A1MaxD": 4,
+  "A1TH": 60,
+  "A2MinD": 3,
+  "A2MaxD": 4,
+  "A2TH": 60,
+  "MinHP(N)": 175,
+  "MaxHP(N)": 175,
+  "AC(N)": 150,
+  "A1MinD(N)": 30,
+  "A1MaxD(N)": 50,
+  "A1TH(N)": 66,
+  "A2MinD(N)": 30,
+  "A2MaxD(N)": 50,
+  "A2TH(N)": 66,
+  "MinHP(H)": 275,
+  "MaxHP(H)": 275,
+  "AC(H)": 200,
+  "A1MinD(H)": 230,
+  "A1MaxD(H)": 275,
+  "A1TH(H)": 92,
+  "A2MinD(H)": 230,
+  "A2MaxD(H)": 275,
+  "A2TH(H)": 92,
+  "expansion": 1,
+  "lineNumber": 743
+ },
+ "warputriddefiler": {
+  "Id": "warputriddefiler",
+  "*hcIdx": 744,
+  "BaseId": "warputriddefiler",
+  "TransLvl": 0,
+  "NameStr": "WarDefiler",
+  "MonStatsEx": "warputriddefiler",
+  "MonType": "demon",
+  "AI": "GenericPet",
+  "Code": 45,
+  "enabled": 1,
+  "MinGrp": 1,
+  "MaxGrp": 1,
+  "Velocity": 6,
+  "Run": 6,
+  "Rarity": 0,
+  "MonSound": "warputriddefiler",
+  "UMonSound": "warputriddefiler",
+  "threat": 10,
+  "aidel": 15,
+  "aidel(N)": 15,
+  "aidel(H)": 15,
+  "aip1": 30,
+  "aip1(N)": 30,
+  "aip1(H)": 60,
+  "aip2": 10,
+  "aip2(N)": 0,
+  "aip2(H)": 2,
+  "aip3": 0,
+  "aip3(N)": 0,
+  "aip3(H)": 1,
+  "aip4": 4,
+  "aip4(N)": 2,
+  "aip4(H)": 0,
+  "aip5": 0,
+  "aip5(N)": 15,
+  "aip5(H)": 0,
+  "aip6": 0,
+  "aip6(N)": 25,
+  "aip6(H)": 10,
+  "aip7": 0,
+  "aip7(N)": 0,
+  "Align": 1,
+  "isMelee": 1,
+  "inTown": 1,
+  "demon": 1,
+  "flying": 1,
+  "opendoors": 1,
+  "killable": 1,
+  "switchai": 1,
+  "neverCount": 1,
+  "Skill1": "Health Link",
+  "Sk1mode": "S1",
+  "Sk1lvl": 1,
+  "coldeffect": -50,
+  "coldeffect(N)": -50,
+  "coldeffect(H)": -50,
+  "ResFi": 33,
+  "ResLi": 33,
+  "ResCo": 33,
+  "ResPo": 50,
+  "ResFi(N)": 50,
+  "ResLi(N)": 50,
+  "ResCo(N)": 50,
+  "ResPo(N)": 50,
+  "ResFi(H)": 50,
+  "ResLi(H)": 50,
+  "ResCo(H)": 50,
+  "ResPo(H)": 100,
+  "DamageRegen": 3,
+  "noRatio": 1,
+  "ToBlock": 50,
+  "ToBlock(N)": 50,
+  "ToBlock(H)": 50,
+  "Crit": 5,
+  "minHP": 140,
+  "maxHP": 140,
+  "AC": 125,
+  "A1MinD": 32,
+  "A1MaxD": 91,
+  "A1TH": 126,
+  "MinHP(N)": 190,
+  "MaxHP(N)": 190,
+  "AC(N)": 190,
+  "A1MinD(N)": 30,
+  "A1MaxD(N)": 90,
+  "A1TH(N)": 110,
+  "MinHP(H)": 300,
+  "MaxHP(H)": 300,
+  "AC(H)": 240,
+  "A1MinD(H)": 30,
+  "A1MaxD(H)": 90,
+  "A1TH(H)": 110,
+  "expansion": 1,
+  "lineNumber": 745
  },
  "warriv1": {
   "Id": "warriv1",
@@ -64304,6 +65908,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 118
@@ -64423,6 +66028,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 119
@@ -64542,6 +66148,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 120
@@ -64661,6 +66268,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "lineNumber": 121
@@ -64784,6 +66392,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "expansion": 1,
@@ -64908,6 +66517,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "expansion": 1,
@@ -65031,6 +66641,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "SplEndGeneric": 1,
   "SplClientEnd": 1,
   "expansion": 1,
@@ -65177,6 +66788,7 @@
   "neverCount": 1,
   "petIgnore": 1,
   "deathDmg": 1,
+  "CannotHerald": 1,
   "ResDm": 90,
   "ResMa": 90,
   "ResFi": 90,
@@ -65241,6 +66853,7 @@
   "neverCount": 1,
   "petIgnore": 1,
   "deathDmg": 1,
+  "CannotHerald": 1,
   "ResDm": 90,
   "ResMa": 90,
   "ResFi": 90,
@@ -65371,6 +66984,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 451
  },
@@ -65401,6 +67015,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald B",
   "expansion": 1,
   "lineNumber": 452
  },
@@ -65430,6 +67045,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald C",
   "expansion": 1,
   "lineNumber": 453
  },
@@ -65454,6 +67070,7 @@
   "isSpawn": 1,
   "neverCount": 1,
   "CannotDesecrate": 1,
+  "CannotHerald": 1,
   "Skill1": "Baal Taunt",
   "Sk1mode": "A1",
   "Sk1lvl": 1,
@@ -65569,6 +67186,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald B",
   "lineNumber": 38
  },
  "wraith2": {
@@ -65676,6 +67294,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald C",
   "lineNumber": 39
  },
  "wraith3": {
@@ -65783,6 +67402,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 40
  },
  "wraith4": {
@@ -65890,6 +67510,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 41
  },
  "wraith5": {
@@ -65997,6 +67618,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 42
  },
  "wraith6": {
@@ -66101,6 +67723,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 632
  },
@@ -66206,6 +67829,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 633
  },
@@ -66310,6 +67934,7 @@
   "TreasureClassUnique(H)": "Act 5 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 5 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 5 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 5 (H) Herald A",
   "expansion": 1,
   "lineNumber": 634
  },
@@ -66506,6 +68131,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 235
  },
  "zealot2": {
@@ -66608,6 +68234,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 236
  },
  "zealot3": {
@@ -66710,6 +68337,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "lineNumber": 237
  },
  "zealot4": {
@@ -66811,6 +68439,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 672
  },
@@ -66912,6 +68541,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald B",
   "expansion": 1,
   "lineNumber": 673
  },
@@ -67013,6 +68643,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 5
  },
  "zombie2": {
@@ -67113,6 +68744,7 @@
   "TreasureClassUnique(H)": "Act 1 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 1 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 1 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 1 (H) Herald A",
   "lineNumber": 6
  },
  "zombie3": {
@@ -67213,6 +68845,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique C",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ C Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique C Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald C",
   "lineNumber": 7
  },
  "zombie4": {
@@ -67331,6 +68964,7 @@
   "TreasureClassUnique(H)": "Act 3 (H) Unique A",
   "TreasureClassDesecratedChamp(H)": "Act 3 (H) Champ A Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 3 (H) Unique A Desecrated",
+  "TreasureClassHerald(H)": "Act 3 (H) Herald A",
   "lineNumber": 8
  },
  "zombie5": {
@@ -67446,6 +69080,7 @@
   "TreasureClassUnique(H)": "Act 2 (H) Unique B",
   "TreasureClassDesecratedChamp(H)": "Act 2 (H) Champ B Desecrated",
   "TreasureClassDesecratedUnique(H)": "Act 2 (H) Unique B Desecrated",
+  "TreasureClassHerald(H)": "Act 2 (H) Herald B",
   "lineNumber": 9
  }
 }

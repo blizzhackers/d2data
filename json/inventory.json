@@ -150,7 +150,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 15
+  "lineNumber": 16
  },
  "Assassin": {
   "class": "Assassin",
@@ -304,7 +304,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 28
+  "lineNumber": 29
  },
  "Bank Page 1": {
   "class": "Bank Page 1",
@@ -457,7 +457,7 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 23
+  "lineNumber": 24
  },
  "Barbarian": {
   "class": "Barbarian",
@@ -610,7 +610,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 19
+  "lineNumber": 20
  },
  "Big Bank Page 1": {
   "class": "Big Bank Page 1",
@@ -764,7 +764,7 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 25
+  "lineNumber": 26
  },
  "Druid": {
   "class": "Druid",
@@ -918,7 +918,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 27
+  "lineNumber": 28
  },
  "Hireling": {
   "class": "Hireling",
@@ -1072,7 +1072,7 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 26
+  "lineNumber": 27
  },
  "Monster": {
   "class": "Monster",
@@ -1225,7 +1225,7 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 20
+  "lineNumber": 21
  },
  "Necromancer": {
   "class": "Necromancer",
@@ -1378,7 +1378,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 17
+  "lineNumber": 18
  },
  "Paladin": {
   "class": "Paladin",
@@ -1531,7 +1531,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 18
+  "lineNumber": 19
  },
  "Sorceress": {
   "class": "Sorceress",
@@ -1684,7 +1684,7 @@
   "glovesWidth": 54,
   "glovesHeight": 53,
   "expansion": 1,
-  "lineNumber": 16
+  "lineNumber": 17
  },
  "Trade Page 1": {
   "class": "Trade Page 1",
@@ -1837,7 +1837,7 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 21
+  "lineNumber": 22
  },
  "Trade Page 2": {
   "class": "Trade Page 2",
@@ -1990,7 +1990,7 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 22
+  "lineNumber": 23
  },
  "Transmogrify Box Page 1": {
   "class": "Transmogrify Box Page 1",
@@ -2143,6 +2143,160 @@
   "glovesWidth": -1,
   "glovesHeight": -1,
   "expansion": 1,
-  "lineNumber": 24
+  "lineNumber": 25
+ },
+ "Warlock": {
+  "class": "Warlock",
+  "invLeft": 320,
+  "invRight": 640,
+  "invTop": 0,
+  "invBottom": 441,
+  "gridX": 10,
+  "gridY": 4,
+  "gridLeft": 339,
+  "gridRight": 626,
+  "gridTop": 255,
+  "gridBottom": 368,
+  "gridBoxWidth": 29,
+  "gridBoxHeight": 29,
+  "rArmLeft": 340,
+  "rArmRight": 395,
+  "rArmTop": 47,
+  "rArmBottom": 159,
+  "rArmWidth": 55,
+  "rArmHeight": 112,
+  "torsoLeft": 453,
+  "torsoRight": 509,
+  "torsoTop": 77,
+  "torsoBottom": 159,
+  "torsoWidth": 56,
+  "torsoHeight": 82,
+  "lArmLeft": 571,
+  "lArmRight": 626,
+  "lArmTop": 47,
+  "lArmBottom": 159,
+  "lArmWidth": 55,
+  "lArmHeight": 112,
+  "headLeft": 455,
+  "headRight": 509,
+  "headTop": 8,
+  "headBottom": 59,
+  "headWidth": 54,
+  "headHeight": 51,
+  "neckLeft": 529,
+  "neckRight": 552,
+  "neckTop": 35,
+  "neckBottom": 59,
+  "neckWidth": 23,
+  "neckHeight": 24,
+  "rHandLeft": 415,
+  "rHandRight": 438,
+  "rHandTop": 180,
+  "rHandBottom": 204,
+  "rHandWidth": 23,
+  "rHandHeight": 24,
+  "lHandLeft": 529,
+  "lHandRight": 552,
+  "lHandTop": 180,
+  "lHandBottom": 204,
+  "lHandWidth": 23,
+  "lHandHeight": 24,
+  "beltLeft": 456,
+  "beltRight": 508,
+  "beltTop": 179,
+  "beltBottom": 204,
+  "beltWidth": 52,
+  "beltHeight": 25,
+  "feetLeft": 572,
+  "feetRight": 626,
+  "feetTop": 182,
+  "feetBottom": 234,
+  "feetWidth": 54,
+  "feetHeight": 52,
+  "glovesLeft": 341,
+  "glovesRight": 395,
+  "glovesTop": 181,
+  "glovesBottom": 234,
+  "glovesWidth": 54,
+  "glovesHeight": 53,
+  "expansion": 1,
+  "lineNumber": 15
+ },
+ "Warlock2": {
+  "class": "Warlock2",
+  "invLeft": 400,
+  "invRight": 720,
+  "invTop": 60,
+  "invBottom": 501,
+  "gridX": 10,
+  "gridY": 4,
+  "gridLeft": 419,
+  "gridRight": 706,
+  "gridTop": 315,
+  "gridBottom": 428,
+  "gridBoxWidth": 29,
+  "gridBoxHeight": 29,
+  "rArmLeft": 420,
+  "rArmRight": 475,
+  "rArmTop": 107,
+  "rArmBottom": 219,
+  "rArmWidth": 55,
+  "rArmHeight": 112,
+  "torsoLeft": 533,
+  "torsoRight": 589,
+  "torsoTop": 137,
+  "torsoBottom": 219,
+  "torsoWidth": 56,
+  "torsoHeight": 82,
+  "lArmLeft": 651,
+  "lArmRight": 706,
+  "lArmTop": 107,
+  "lArmBottom": 219,
+  "lArmWidth": 55,
+  "lArmHeight": 112,
+  "headLeft": 535,
+  "headRight": 589,
+  "headTop": 68,
+  "headBottom": 119,
+  "headWidth": 54,
+  "headHeight": 51,
+  "neckLeft": 609,
+  "neckRight": 632,
+  "neckTop": 95,
+  "neckBottom": 119,
+  "neckWidth": 23,
+  "neckHeight": 24,
+  "rHandLeft": 495,
+  "rHandRight": 518,
+  "rHandTop": 240,
+  "rHandBottom": 264,
+  "rHandWidth": 23,
+  "rHandHeight": 24,
+  "lHandLeft": 609,
+  "lHandRight": 632,
+  "lHandTop": 240,
+  "lHandBottom": 264,
+  "lHandWidth": 23,
+  "lHandHeight": 24,
+  "beltLeft": 536,
+  "beltRight": 588,
+  "beltTop": 239,
+  "beltBottom": 264,
+  "beltWidth": 52,
+  "beltHeight": 25,
+  "feetLeft": 652,
+  "feetRight": 706,
+  "feetTop": 242,
+  "feetBottom": 294,
+  "feetWidth": 54,
+  "feetHeight": 52,
+  "glovesLeft": 421,
+  "glovesRight": 475,
+  "glovesTop": 241,
+  "glovesBottom": 294,
+  "glovesWidth": 54,
+  "glovesHeight": 53,
+  "expansion": 1,
+  "lineNumber": 30
  }
 }

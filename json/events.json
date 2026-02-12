@@ -4,6 +4,11 @@
   "*description": "Unit takes damage",
   "lineNumber": 11
  },
+ "absorbresisteddamage": {
+  "event": "absorbresisteddamage",
+  "*description": "Unit takes damage which has been resisted",
+  "lineNumber": 16
+ },
  "attackedinmelee": {
   "event": "attackedinmelee",
   "*description": "Unit is attacked by a melee attack",
@@ -49,10 +54,20 @@
   "*description": "Unit dealt damage with a missile",
   "lineNumber": 6
  },
+ "hextrigger": {
+  "event": "hextrigger",
+  "*description": "Special event to trigger hexes",
+  "lineNumber": 15
+ },
  "hitbymissile": {
   "event": "hitbymissile",
   "*description": "Unit is hit by a missile",
   "lineNumber": 0
+ },
+ "install": {
+  "event": "install",
+  "*description": "The event is installed",
+  "lineNumber": 14
  },
  "kill": {
   "event": "kill",

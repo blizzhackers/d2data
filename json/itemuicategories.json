@@ -1,0 +1,324 @@
+{
+ "0": {
+  "isEquipment": 0,
+  "QualityFilter": 0,
+  "NumColumns": 0
+ },
+ "1": {
+  "Name": "armo",
+  "isEquipment": 1,
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "2": {
+  "Name": "helms",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "3": {
+  "Name": "circl",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "4": {
+  "Name": "armor",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "5": {
+  "Name": "shlds",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "6": {
+  "Name": "glove",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "7": {
+  "Name": "boots",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "8": {
+  "Name": "belts",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "9": {
+  "Name": "barbh",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "10": {
+  "Name": "druid",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "11": {
+  "Name": "palad",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "12": {
+  "Name": "necro",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "13": {
+  "Name": "warlo",
+  "isEquipment": 1,
+  "ParentCategory": "armo",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "14": {
+  "Name": "weap",
+  "isEquipment": 1,
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "15": {
+  "Name": "axes",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "16": {
+  "Name": "bows",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "17": {
+  "Name": "xbows",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "18": {
+  "Name": "daggs",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "19": {
+  "Name": "javel",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "20": {
+  "Name": "maces",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "21": {
+  "Name": "poles",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "22": {
+  "Name": "scept",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "23": {
+  "Name": "spear",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "24": {
+  "Name": "stave",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "25": {
+  "Name": "sword",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "26": {
+  "Name": "throw",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "27": {
+  "Name": "wands",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "28": {
+  "Name": "amazo",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "29": {
+  "Name": "assas",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "30": {
+  "Name": "sorce",
+  "isEquipment": 1,
+  "ParentCategory": "weap",
+  "QualityFilter": 1,
+  "NumColumns": 3
+ },
+ "31": {
+  "Name": "acce",
+  "isEquipment": 1,
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "32": {
+  "Name": "charm",
+  "isEquipment": 1,
+  "ParentCategory": "acce",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "33": {
+  "Name": "amule",
+  "isEquipment": 1,
+  "ParentCategory": "acce",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "34": {
+  "Name": "rings",
+  "isEquipment": 1,
+  "ParentCategory": "acce",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "35": {
+  "Name": "jewel",
+  "isEquipment": 1,
+  "ParentCategory": "acce",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "36": {
+  "Name": "misc",
+  "isEquipment": 0,
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "37": {
+  "Name": "potis",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "38": {
+  "Name": "keysr",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "39": {
+  "Name": "scrlt",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 2
+ },
+ "40": {
+  "Name": "ammo",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "41": {
+  "Name": "uberm",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "42": {
+  "Name": "terrt",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 1
+ },
+ "43": {
+  "Name": "absol",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 2
+ },
+ "44": {
+  "Name": "runes",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "45": {
+  "Name": "gems",
+  "isEquipment": 0,
+  "ParentCategory": "misc",
+  "QualityFilter": 0,
+  "NumColumns": 3
+ },
+ "46": {
+  "Name": "dns",
+  "isEquipment": 0,
+  "QualityFilter": 0,
+  "NumColumns": 3
+ }
+}

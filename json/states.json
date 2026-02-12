@@ -1,4 +1,9 @@
 {
+ "advancedstash": {
+  "state": "advancedstash",
+  "*ID": 209,
+  "lineNumber": 209
+ },
  "alignment": {
   "state": "alignment",
   "*ID": 105,
@@ -24,6 +29,11 @@
   "*ID": 178,
   "rpblue": 1,
   "lineNumber": 178
+ },
+ "apocalypse": {
+  "state": "apocalypse",
+  "*ID": 229,
+  "lineNumber": 229
  },
  "armageddon": {
   "state": "armageddon",
@@ -132,6 +142,24 @@
   "overlay2": "berserkback",
   "lineNumber": 95
  },
+ "bind_demon": {
+  "state": "bind_demon",
+  "*ID": 207,
+  "overlay1": "warlockdemonground",
+  "overlay2": "warlockdemontorso",
+  "setfunc": 19,
+  "colorpri": 70,
+  "colorshift": 130,
+  "lineNumber": 207
+ },
+ "bind_demon_underling": {
+  "state": "bind_demon_underling",
+  "*ID": 227,
+  "setfunc": 19,
+  "colorpri": 70,
+  "colorshift": 130,
+  "lineNumber": 227
+ },
  "blademastery": {
   "state": "blademastery",
   "*ID": 74,
@@ -175,6 +203,12 @@
   "overlay1": "bloodlust_state",
   "overlay2": "bloodlust_state",
   "lineNumber": 141
+ },
+ "bloodoath": {
+  "state": "bloodoath",
+  "*ID": 195,
+  "nosend": 1,
+  "lineNumber": 195
  },
  "blue": {
   "state": "blue",
@@ -224,6 +258,23 @@
   "clteventfunc": 1,
   "lineNumber": 20
  },
+ "chroniclebacklight": {
+  "state": "chroniclebacklight",
+  "*ID": 218,
+  "overlay1": "chronicle_backlight",
+  "lineNumber": 218
+ },
+ "chroniclefootprints": {
+  "state": "chroniclefootprints",
+  "*ID": 219,
+  "lineNumber": 219
+ },
+ "chronicleportal": {
+  "state": "chronicleportal",
+  "*ID": 220,
+  "stat": "customization_index",
+  "lineNumber": 220
+ },
  "clawmastery": {
   "state": "clawmastery",
   "*ID": 152,
@@ -269,6 +320,17 @@
   "onsound": "impact_bluemotize_1",
   "lineNumber": 11
  },
+ "coldenchant": {
+  "state": "coldenchant",
+  "*ID": 223,
+  "attblue": 1,
+  "damred": 1,
+  "castoverlay": "coldenchant",
+  "stat": "skill_enchant",
+  "itemtype": "weap",
+  "itemtrans": "cred",
+  "lineNumber": 223
+ },
  "coldmastery": {
   "state": "coldmastery",
   "*ID": 73,
@@ -296,6 +358,7 @@
  "confuse": {
   "state": "confuse",
   "*ID": 59,
+  "group": 8,
   "curable": 1,
   "curse": 1,
   "exp": 1,
@@ -303,6 +366,13 @@
   "castoverlay": "curse_hit",
   "onsound": "necromancer_confuse",
   "lineNumber": 59
+ },
+ "consume": {
+  "state": "consume",
+  "*ID": 208,
+  "group": 9,
+  "overlay1": "warlockconsume",
+  "lineNumber": 208
  },
  "conversion": {
   "state": "conversion",
@@ -399,6 +469,13 @@
   "*ID": 92,
   "lineNumber": 92
  },
+ "death_mark": {
+  "state": "death_mark",
+  "*ID": 212,
+  "overlay1": "death_mark",
+  "onsound": "Warlock_Skill_Death_Mark_01",
+  "lineNumber": 212
+ },
  "debugcontrol": {
   "state": "debugcontrol",
   "*ID": 164,
@@ -451,6 +528,12 @@
   "gfxclass": 212,
   "lineNumber": 177
  },
+ "demonic_mastery": {
+  "state": "demonic_mastery",
+  "*ID": 196,
+  "nosend": 1,
+  "lineNumber": 196
+ },
  "desecrated": {
   "state": "desecrated",
   "*ID": 189,
@@ -493,6 +576,14 @@
   "*ID": 116,
   "lineNumber": 116
  },
+ "eldritchblastperiodic": {
+  "state": "eldritchblastperiodic",
+  "*ID": 221,
+  "active": 1,
+  "overlay1": "eldritchblastperiodic",
+  "cltactivefunc": 107,
+  "lineNumber": 221
+ },
  "enchant": {
   "state": "enchant",
   "*ID": 16,
@@ -509,6 +600,12 @@
   "*ID": 30,
   "overlay1": "energyshield",
   "lineNumber": 30
+ },
+ "engorge": {
+  "state": "engorge",
+  "*ID": 211,
+  "overlay1": "engorgestate",
+  "lineNumber": 211
  },
  "evade": {
   "state": "evade",
@@ -624,10 +721,93 @@
   "nosend": 1,
   "lineNumber": 111
  },
+ "healthlink": {
+  "state": "healthlink",
+  "*ID": 210,
+  "overlay1": "healthlink",
+  "lineNumber": 210
+ },
+ "healthlinkcaster": {
+  "state": "healthlinkcaster",
+  "*ID": 213,
+  "nosend": 1,
+  "lineNumber": 213
+ },
  "healthpot": {
   "state": "healthpot",
   "*ID": 100,
   "lineNumber": 100
+ },
+ "herald": {
+  "state": "herald",
+  "*ID": 228,
+  "overlay1": "herald",
+  "lineNumber": 228
+ },
+ "hexbane": {
+  "state": "hexbane",
+  "*ID": 198,
+  "group": 6,
+  "castoverlay": "hex_enchant",
+  "itemtype": "mele",
+  "vfxweaponstate": 1,
+  "lineNumber": 198
+ },
+ "hexbanedebuff": {
+  "state": "hexbanedebuff",
+  "*ID": 199,
+  "group": 7,
+  "aura": 1,
+  "curable": 1,
+  "overlay1": "hexbanedebuff",
+  "castoverlay": "curse_hit",
+  "onsound": "Warlock_Skill_Hex_Bane_Hit",
+  "vfxweaponstate": 1,
+  "lineNumber": 199
+ },
+ "hexpurge": {
+  "state": "hexpurge",
+  "*ID": 202,
+  "group": 6,
+  "attblue": 1,
+  "castoverlay": "hex_enchant",
+  "itemtype": "mele",
+  "vfxweaponstate": 4,
+  "lineNumber": 202
+ },
+ "hexpurgedebuff": {
+  "state": "hexpurgedebuff",
+  "*ID": 217,
+  "group": 7,
+  "aura": 1,
+  "curable": 1,
+  "overlay1": "hexpurgedebuff",
+  "castoverlay": "curse_hit",
+  "onsound": "Warlock_Skill_Hex_Purge_Hit",
+  "vfxweaponstate": 4,
+  "lineNumber": 217
+ },
+ "hexsiphon": {
+  "state": "hexsiphon",
+  "*ID": 200,
+  "group": 6,
+  "attblue": 1,
+  "castoverlay": "hex_enchant",
+  "itemtype": "mele",
+  "vfxweaponstate": 2,
+  "lineNumber": 200
+ },
+ "hexsiphondebuff": {
+  "state": "hexsiphondebuff",
+  "*ID": 201,
+  "group": 7,
+  "aura": 1,
+  "curable": 1,
+  "overlay1": "hexsyphondebuff",
+  "castoverlay": "curse_hit",
+  "onsound": "Warlock_Skill_Hex_Siphon_Hit",
+  "vfxweaponstate": 2,
+  "lineNumber": 201
  },
  "hidedead": {
   "state": "hidedead",
@@ -791,6 +971,19 @@
   "nosend": 1,
   "lineNumber": 86
  },
+ "korliccoldpierce": {
+  "state": "korliccoldpierce",
+  "*ID": 226,
+  "aura": 1,
+  "rcred": 1,
+  "overlay1": "korliccoldpierce",
+  "lineNumber": 226
+ },
+ "levitate_mastery": {
+  "state": "levitate_mastery",
+  "*ID": 197,
+  "lineNumber": 197
+ },
  "lifetap": {
   "state": "lifetap",
   "*ID": 58,
@@ -805,6 +998,17 @@
   "state": "lightningbolt",
   "*ID": 39,
   "lineNumber": 39
+ },
+ "lightningenchant": {
+  "state": "lightningenchant",
+  "*ID": 222,
+  "attblue": 1,
+  "damred": 1,
+  "castoverlay": "lightningenchant",
+  "stat": "skill_enchant",
+  "itemtype": "weap",
+  "itemtrans": "cred",
+  "lineNumber": 222
  },
  "lightningmastery": {
   "state": "lightningmastery",
@@ -829,6 +1033,14 @@
   "state": "macemastery",
   "*ID": 76,
   "lineNumber": 76
+ },
+ "madawclightpierce": {
+  "state": "madawclightpierce",
+  "*ID": 225,
+  "aura": 1,
+  "rlred": 1,
+  "overlay1": "madawclightpierce",
+  "lineNumber": 225
  },
  "manapot": {
   "state": "manapot",
@@ -886,6 +1098,13 @@
   "stat": "damagepercent",
   "onsound": "paladin_aura_might",
   "lineNumber": 33
+ },
+ "mindbarrier": {
+  "state": "mindbarrier",
+  "*ID": 203,
+  "group": 1,
+  "overlay1": "bladeshield",
+  "lineNumber": 203
  },
  "monfrenzy": {
   "state": "monfrenzy",
@@ -1075,6 +1294,13 @@
   "remfunc": 1,
   "lineNumber": 123
  },
+ "psychicward": {
+  "state": "psychicward",
+  "*ID": 206,
+  "group": 1,
+  "overlay1": "psychicward",
+  "lineNumber": 206
+ },
  "quickness": {
   "state": "quickness",
   "*ID": 157,
@@ -1226,6 +1452,12 @@
   "cltactivefunc": 86,
   "lineNumber": 47
  },
+ "shadow_mastery": {
+  "state": "shadow_mastery",
+  "*ID": 204,
+  "nosend": 1,
+  "lineNumber": 204
+ },
  "shadowwarrior": {
   "state": "shadowwarrior",
   "*ID": 119,
@@ -1370,11 +1602,51 @@
   "stat": "stamina",
   "lineNumber": 136
  },
+ "sigil": {
+  "state": "sigil",
+  "*ID": 205,
+  "nosend": 1,
+  "lineNumber": 205
+ },
+ "sigildeath": {
+  "state": "sigildeath",
+  "*ID": 194,
+  "castoverlay": "curse_hit",
+  "colorpri": 90,
+  "colorshift": 107,
+  "onsound": "Warlock_Skill_Seal_Death_Hit",
+  "lineNumber": 194
+ },
+ "sigillethargy": {
+  "state": "sigillethargy",
+  "*ID": 192,
+  "castoverlay": "curse_hit",
+  "colorpri": 90,
+  "colorshift": 103,
+  "onsound": "Warlock_Skill_Seal_Lethargy_Hit",
+  "lineNumber": 192
+ },
+ "sigilrancor": {
+  "state": "sigilrancor",
+  "*ID": 193,
+  "group": 8,
+  "castoverlay": "curse_hit",
+  "colorpri": 90,
+  "colorshift": 106,
+  "onsound": "Warlock_Skill_Seal_Rancor_Hit",
+  "lineNumber": 193
+ },
  "skel_mastery": {
   "state": "skel_mastery",
   "*ID": 97,
   "nosend": 1,
   "lineNumber": 97
+ },
+ "skill_channeling": {
+  "state": "skill_channeling",
+  "*ID": 216,
+  "nosend": 1,
+  "lineNumber": 216
  },
  "skill_move": {
   "state": "skill_move",
@@ -1451,6 +1723,14 @@
   "*ID": 108,
   "plrstaydeath": 1,
   "lineNumber": 108
+ },
+ "talicfirepierce": {
+  "state": "talicfirepierce",
+  "*ID": 224,
+  "aura": 1,
+  "rfred": 1,
+  "overlay1": "talicfirepierce",
+  "lineNumber": 224
  },
  "taunt": {
   "state": "taunt",
@@ -1543,6 +1823,24 @@
   "setfunc": 11,
   "cltactivefunc": 89,
   "lineNumber": 150
+ },
+ "warlockdemonground": {
+  "state": "warlockdemonground",
+  "*ID": 214,
+  "aura": 1,
+  "overlay1": "warlockdemonground",
+  "colorpri": 70,
+  "colorshift": 130,
+  "lineNumber": 214
+ },
+ "warlockdemontorso": {
+  "state": "warlockdemontorso",
+  "*ID": 215,
+  "aura": 1,
+  "overlay1": "warlockdemontorso",
+  "colorpri": 70,
+  "colorshift": 130,
+  "lineNumber": 215
  },
  "warmth": {
   "state": "warmth",
