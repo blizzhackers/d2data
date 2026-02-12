@@ -1,686 +1,786 @@
 {
- "1": {
+ "Act 1": {
   "LevelGroupId": "Act 1",
   "CompleteThreshold": 100,
   "*Name": "Act 1",
-  "NameString": "act1"
+  "NameString": "act1",
+  "lineNumber": 1
  },
- "2": {
-  "LevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Act 2",
-  "NameString": "act2"
- },
- "3": {
-  "LevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Act 3",
-  "NameString": "act3"
- },
- "4": {
-  "LevelGroupId": "Act 4",
-  "CompleteThreshold": 100,
-  "*Name": "Act 4",
-  "NameString": "act4"
- },
- "5": {
-  "LevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Act 5",
-  "NameString": "act5"
- },
- "6": {
-  "LevelGroupId": "Act 1 - Town",
-  "CompleteThreshold": 100,
-  "*Name": "Rogue Encampment",
-  "NameString": "Rogue Encampment"
- },
- "7": {
-  "LevelGroupId": "Act 1 - Blood Moor",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Blood Moor",
-  "NameString": "Blood Moor"
- },
- "8": {
-  "LevelGroupId": "Act 1 - Cold Plains",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Cold Plains",
-  "NameString": "Cold Plains"
- },
- "9": {
-  "LevelGroupId": "Act 1 - Stony Field",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Stony Field",
-  "NameString": "Stony Field"
- },
- "10": {
-  "LevelGroupId": "Act 1 - Dark Wood",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Dark Wood",
-  "NameString": "Dark Wood"
- },
- "11": {
-  "LevelGroupId": "Act 1 - Black Marsh",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Black Marsh",
-  "NameString": "Black Marsh"
- },
- "12": {
-  "LevelGroupId": "Act 1 - Tamoe Highland",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Tamoe Highland",
-  "NameString": "Tamoe Highland"
- },
- "13": {
-  "LevelGroupId": "Act 1 - Den of Evil",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Den of Evil",
-  "NameString": "Den of Evil"
- },
- "14": {
-  "LevelGroupId": "Act 1 - Cave",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Cave",
-  "NameString": "Cave"
- },
- "15": {
-  "LevelGroupId": "Act 1 - Underground Passage",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Underground Passage",
-  "NameString": "Underground Passage"
- },
- "16": {
-  "LevelGroupId": "Act 1 - Hole",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Hole",
-  "NameString": "Hole"
- },
- "17": {
-  "LevelGroupId": "Act 1 - Pit",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Pit",
-  "NameString": "Act 1 Pit"
- },
- "18": {
-  "LevelGroupId": "Act 1 - Burial Grounds",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Burial Grounds",
-  "NameString": "Burial Grounds"
- },
- "19": {
-  "LevelGroupId": "Act 1 - Crypt",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Crypt",
-  "NameString": "Crypt"
- },
- "20": {
-  "LevelGroupId": "Act 1 - Mausoleum",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Mausoleum",
-  "NameString": "Mausoleum"
- },
- "21": {
-  "LevelGroupId": "Act 1 - Forgotten Tower",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Forgotten Tower",
-  "NameString": "Forgotten Tower"
- },
- "22": {
-  "LevelGroupId": "Act 1 - Monastery Gate",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Monastery Gate",
-  "NameString": "Monastery Gate"
- },
- "23": {
-  "LevelGroupId": "Act 1 - Outer Cloister",
-  "ParentLevelGroupId": "Act 1",
-  "CompleteThreshold": 100,
-  "*Name": "Outer Cloister",
-  "NameString": "Outer Cloister"
- },
- "24": {
+ "Act 1 - Barracks": {
   "LevelGroupId": "Act 1 - Barracks",
   "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
   "*Name": "Barracks",
-  "NameString": "Barracks"
+  "NameString": "Barracks",
+  "lineNumber": 24
  },
- "25": {
-  "LevelGroupId": "Act 1 - Jail",
+ "Act 1 - Black Marsh": {
+  "LevelGroupId": "Act 1 - Black Marsh",
   "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Jail Level 1",
-  "NameString": "Jail"
+  "*Name": "Black Marsh",
+  "NameString": "Black Marsh",
+  "lineNumber": 11
  },
- "26": {
-  "LevelGroupId": "Act 1 - Inner Cloister",
+ "Act 1 - Blood Moor": {
+  "LevelGroupId": "Act 1 - Blood Moor",
   "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Inner Cloister",
-  "NameString": "Inner Cloister"
+  "*Name": "Blood Moor",
+  "NameString": "Blood Moor",
+  "lineNumber": 7
  },
- "27": {
-  "LevelGroupId": "Act 1 - Cathedral",
+ "Act 1 - Burial Grounds": {
+  "LevelGroupId": "Act 1 - Burial Grounds",
   "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Cathedral",
-  "NameString": "Cathedral"
+  "*Name": "Burial Grounds",
+  "NameString": "Burial Grounds",
+  "lineNumber": 18
  },
- "28": {
+ "Act 1 - Catacombs": {
   "LevelGroupId": "Act 1 - Catacombs",
   "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
   "*Name": "Catacombs",
-  "NameString": "Catacombs"
+  "NameString": "Catacombs",
+  "lineNumber": 28
  },
- "29": {
-  "LevelGroupId": "Act 1 - Tristram",
+ "Act 1 - Cathedral": {
+  "LevelGroupId": "Act 1 - Cathedral",
   "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Tristram",
-  "NameString": "Tristram"
+  "*Name": "Cathedral",
+  "NameString": "Cathedral",
+  "lineNumber": 27
  },
- "30": {
+ "Act 1 - Cave": {
+  "LevelGroupId": "Act 1 - Cave",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Cave",
+  "NameString": "Cave",
+  "lineNumber": 14
+ },
+ "Act 1 - Cold Plains": {
+  "LevelGroupId": "Act 1 - Cold Plains",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Cold Plains",
+  "NameString": "Cold Plains",
+  "lineNumber": 8
+ },
+ "Act 1 - Crypt": {
+  "LevelGroupId": "Act 1 - Crypt",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Crypt",
+  "NameString": "Crypt",
+  "lineNumber": 19
+ },
+ "Act 1 - Dark Wood": {
+  "LevelGroupId": "Act 1 - Dark Wood",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Dark Wood",
+  "NameString": "Dark Wood",
+  "lineNumber": 10
+ },
+ "Act 1 - Den of Evil": {
+  "LevelGroupId": "Act 1 - Den of Evil",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Den of Evil",
+  "NameString": "Den of Evil",
+  "lineNumber": 13
+ },
+ "Act 1 - Forgotten Tower": {
+  "LevelGroupId": "Act 1 - Forgotten Tower",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Forgotten Tower",
+  "NameString": "Forgotten Tower",
+  "lineNumber": 21
+ },
+ "Act 1 - Hole": {
+  "LevelGroupId": "Act 1 - Hole",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Hole",
+  "NameString": "Hole",
+  "lineNumber": 16
+ },
+ "Act 1 - Inner Cloister": {
+  "LevelGroupId": "Act 1 - Inner Cloister",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Inner Cloister",
+  "NameString": "Inner Cloister",
+  "lineNumber": 26
+ },
+ "Act 1 - Jail": {
+  "LevelGroupId": "Act 1 - Jail",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Jail Level 1",
+  "NameString": "Jail",
+  "lineNumber": 25
+ },
+ "Act 1 - Mausoleum": {
+  "LevelGroupId": "Act 1 - Mausoleum",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Mausoleum",
+  "NameString": "Mausoleum",
+  "lineNumber": 20
+ },
+ "Act 1 - Monastery Gate": {
+  "LevelGroupId": "Act 1 - Monastery Gate",
+  "ParentLevelGroupId": "Act 1",
+  "CompleteThreshold": 100,
+  "*Name": "Monastery Gate",
+  "NameString": "Monastery Gate",
+  "lineNumber": 22
+ },
+ "Act 1 - Moo Moo Farm": {
   "LevelGroupId": "Act 1 - Moo Moo Farm",
   "CompleteThreshold": 100,
   "Effect": 1,
   "*Name": "Moo Moo Farm",
-  "NameString": "MooMooFarmGroup"
+  "NameString": "MooMooFarmGroup",
+  "lineNumber": 30
  },
- "31": {
-  "LevelGroupId": "Act 2 - Town",
+ "Act 1 - Outer Cloister": {
+  "LevelGroupId": "Act 1 - Outer Cloister",
+  "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Lut Gholein",
-  "NameString": "Lut Gholein"
+  "*Name": "Outer Cloister",
+  "NameString": "Outer Cloister",
+  "lineNumber": 23
  },
- "32": {
-  "LevelGroupId": "Act 2 - Rocky Waste",
-  "ParentLevelGroupId": "Act 2",
+ "Act 1 - Pit": {
+  "LevelGroupId": "Act 1 - Pit",
+  "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Rocky Waste",
-  "NameString": "Rocky Waste"
+  "*Name": "Pit",
+  "NameString": "Act 1 Pit",
+  "lineNumber": 17
  },
- "33": {
-  "LevelGroupId": "Act 2 - Dry Hills",
-  "ParentLevelGroupId": "Act 2",
+ "Act 1 - Stony Field": {
+  "LevelGroupId": "Act 1 - Stony Field",
+  "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Dry Hills",
-  "NameString": "Dry Hills"
+  "*Name": "Stony Field",
+  "NameString": "Stony Field",
+  "lineNumber": 9
  },
- "34": {
-  "LevelGroupId": "Act 2 - Far Oasis",
-  "ParentLevelGroupId": "Act 2",
+ "Act 1 - Tamoe Highland": {
+  "LevelGroupId": "Act 1 - Tamoe Highland",
+  "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Far Oasis",
-  "NameString": "Far Oasis"
+  "*Name": "Tamoe Highland",
+  "NameString": "Tamoe Highland",
+  "lineNumber": 12
  },
- "35": {
-  "LevelGroupId": "Act 2 - Lost City",
-  "ParentLevelGroupId": "Act 2",
+ "Act 1 - Town": {
+  "LevelGroupId": "Act 1 - Town",
   "CompleteThreshold": 100,
-  "*Name": "Lost City",
-  "NameString": "Lost City"
+  "*Name": "Rogue Encampment",
+  "NameString": "Rogue Encampment",
+  "lineNumber": 6
  },
- "36": {
-  "LevelGroupId": "Act 2 - Valley of Snakes",
-  "ParentLevelGroupId": "Act 2",
+ "Act 1 - Tristram": {
+  "LevelGroupId": "Act 1 - Tristram",
+  "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Valley of Snakes",
-  "NameString": "Valley of Snakes"
+  "*Name": "Tristram",
+  "NameString": "Tristram",
+  "lineNumber": 29
  },
- "37": {
-  "LevelGroupId": "Act 2 - Canyon of the Magi",
-  "ParentLevelGroupId": "Act 2",
+ "Act 1 - Underground Passage": {
+  "LevelGroupId": "Act 1 - Underground Passage",
+  "ParentLevelGroupId": "Act 1",
   "CompleteThreshold": 100,
-  "*Name": "Canyon of the Magi",
-  "NameString": "Canyon of the Magi"
+  "*Name": "Underground Passage",
+  "NameString": "Underground Passage",
+  "lineNumber": 15
  },
- "38": {
-  "LevelGroupId": "Act 2 - Sewers",
-  "ParentLevelGroupId": "Act 2",
+ "Act 2": {
+  "LevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Sewers",
-  "NameString": "Lut Gholein Sewers"
+  "*Name": "Act 2",
+  "NameString": "act2",
+  "lineNumber": 2
  },
- "39": {
-  "LevelGroupId": "Act 2 - Harem",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Harem",
-  "NameString": "Harem"
- },
- "40": {
-  "LevelGroupId": "Act 2 - Palace Cellar",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Palace Cellar",
-  "NameString": "Palace Cellar"
- },
- "41": {
-  "LevelGroupId": "Act 2 - Stony Tomb",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Stony Tomb",
-  "NameString": "Stony Tomb"
- },
- "42": {
-  "LevelGroupId": "Act 2 - Halls of the Dead",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Halls of the Dead",
-  "NameString": "Halls of the Dead"
- },
- "43": {
-  "LevelGroupId": "Act 2 - Claw Viper Temple",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Claw Viper Temple",
-  "NameString": "Claw Viper Temple"
- },
- "44": {
-  "LevelGroupId": "Act 2 - Maggot Lair",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Maggot Lair",
-  "NameString": "Maggot Lair"
- },
- "45": {
+ "Act 2 - Ancient Tunnels": {
   "LevelGroupId": "Act 2 - Ancient Tunnels",
   "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
   "*Name": "Ancient Tunnels",
-  "NameString": "Ancient Tunnels"
+  "NameString": "Ancient Tunnels",
+  "lineNumber": 45
  },
- "46": {
-  "LevelGroupId": "Act 2 - Tal Rasha's Tomb",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Tal Rasha's Tomb",
-  "NameString": "Tal Rasha's Tomb"
- },
- "47": {
-  "LevelGroupId": "Act 2 - Duriel's Lair",
-  "ParentLevelGroupId": "Act 2",
-  "CompleteThreshold": 100,
-  "*Name": "Duriel's Lair",
-  "NameString": "Duriel's Lair"
- },
- "48": {
+ "Act 2 - Arcane Sanctuary": {
   "LevelGroupId": "Act 2 - Arcane Sanctuary",
   "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
   "*Name": "Arcane Sanctuary",
-  "NameString": "Arcane Sanctuary"
+  "NameString": "Arcane Sanctuary",
+  "lineNumber": 48
  },
- "49": {
-  "LevelGroupId": "Act 3 - Town",
+ "Act 2 - Canyon of the Magi": {
+  "LevelGroupId": "Act 2 - Canyon of the Magi",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Kurast Docktown",
-  "NameString": "Kurast Docktown"
+  "*Name": "Canyon of the Magi",
+  "NameString": "Canyon of the Magi",
+  "lineNumber": 37
  },
- "50": {
-  "LevelGroupId": "Act 3 - Spider Forest",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Claw Viper Temple": {
+  "LevelGroupId": "Act 2 - Claw Viper Temple",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Spider Forest",
-  "NameString": "Spider Forest"
+  "*Name": "Claw Viper Temple",
+  "NameString": "Claw Viper Temple",
+  "lineNumber": 43
  },
- "51": {
-  "LevelGroupId": "Act 3 - Great Marsh",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Dry Hills": {
+  "LevelGroupId": "Act 2 - Dry Hills",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Great Marsh",
-  "NameString": "Great Marsh"
+  "*Name": "Dry Hills",
+  "NameString": "Dry Hills",
+  "lineNumber": 33
  },
- "52": {
-  "LevelGroupId": "Act 3 - Flayer Jungle",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Duriel's Lair": {
+  "LevelGroupId": "Act 2 - Duriel's Lair",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Flayer Jungle",
-  "NameString": "Flayer Jungle"
+  "*Name": "Duriel's Lair",
+  "NameString": "Duriel's Lair",
+  "lineNumber": 47
  },
- "53": {
-  "LevelGroupId": "Act 3 - Lower Kurast",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Far Oasis": {
+  "LevelGroupId": "Act 2 - Far Oasis",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Lower Kurast",
-  "NameString": "Lower Kurast"
+  "*Name": "Far Oasis",
+  "NameString": "Far Oasis",
+  "lineNumber": 34
  },
- "54": {
-  "LevelGroupId": "Act 3 - Kurast Bazaar",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Halls of the Dead": {
+  "LevelGroupId": "Act 2 - Halls of the Dead",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Kurast Bazaar",
-  "NameString": "Kurast Bazaar"
+  "*Name": "Halls of the Dead",
+  "NameString": "Halls of the Dead",
+  "lineNumber": 42
  },
- "55": {
-  "LevelGroupId": "Act 3 - Upper Kurast",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Harem": {
+  "LevelGroupId": "Act 2 - Harem",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Upper Kurast",
-  "NameString": "Upper Kurast"
+  "*Name": "Harem",
+  "NameString": "Harem",
+  "lineNumber": 39
  },
- "56": {
-  "LevelGroupId": "Act 3 - Kurast Causeway",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Lost City": {
+  "LevelGroupId": "Act 2 - Lost City",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Kurast Causeway",
-  "NameString": "Kurast Causeway"
+  "*Name": "Lost City",
+  "NameString": "Lost City",
+  "lineNumber": 35
  },
- "57": {
-  "LevelGroupId": "Act 3 - Travincal",
-  "ParentLevelGroupId": "Act 3",
+ "Act 2 - Maggot Lair": {
+  "LevelGroupId": "Act 2 - Maggot Lair",
+  "ParentLevelGroupId": "Act 2",
   "CompleteThreshold": 100,
-  "*Name": "Travincal",
-  "NameString": "Travincal"
+  "*Name": "Maggot Lair",
+  "NameString": "Maggot Lair",
+  "lineNumber": 44
  },
- "58": {
+ "Act 2 - Palace Cellar": {
+  "LevelGroupId": "Act 2 - Palace Cellar",
+  "ParentLevelGroupId": "Act 2",
+  "CompleteThreshold": 100,
+  "*Name": "Palace Cellar",
+  "NameString": "Palace Cellar",
+  "lineNumber": 40
+ },
+ "Act 2 - Rocky Waste": {
+  "LevelGroupId": "Act 2 - Rocky Waste",
+  "ParentLevelGroupId": "Act 2",
+  "CompleteThreshold": 100,
+  "*Name": "Rocky Waste",
+  "NameString": "Rocky Waste",
+  "lineNumber": 32
+ },
+ "Act 2 - Sewers": {
+  "LevelGroupId": "Act 2 - Sewers",
+  "ParentLevelGroupId": "Act 2",
+  "CompleteThreshold": 100,
+  "*Name": "Sewers",
+  "NameString": "Lut Gholein Sewers",
+  "lineNumber": 38
+ },
+ "Act 2 - Stony Tomb": {
+  "LevelGroupId": "Act 2 - Stony Tomb",
+  "ParentLevelGroupId": "Act 2",
+  "CompleteThreshold": 100,
+  "*Name": "Stony Tomb",
+  "NameString": "Stony Tomb",
+  "lineNumber": 41
+ },
+ "Act 2 - Tal Rasha's Tomb": {
+  "LevelGroupId": "Act 2 - Tal Rasha's Tomb",
+  "ParentLevelGroupId": "Act 2",
+  "CompleteThreshold": 100,
+  "*Name": "Tal Rasha's Tomb",
+  "NameString": "Tal Rasha's Tomb",
+  "lineNumber": 46
+ },
+ "Act 2 - Town": {
+  "LevelGroupId": "Act 2 - Town",
+  "CompleteThreshold": 100,
+  "*Name": "Lut Gholein",
+  "NameString": "Lut Gholein",
+  "lineNumber": 31
+ },
+ "Act 2 - Valley of Snakes": {
+  "LevelGroupId": "Act 2 - Valley of Snakes",
+  "ParentLevelGroupId": "Act 2",
+  "CompleteThreshold": 100,
+  "*Name": "Valley of Snakes",
+  "NameString": "Valley of Snakes",
+  "lineNumber": 36
+ },
+ "Act 3": {
+  "LevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Act 3",
+  "NameString": "act3",
+  "lineNumber": 3
+ },
+ "Act 3 - Arachnid Lair": {
   "LevelGroupId": "Act 3 - Arachnid Lair",
   "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
   "*Name": "Arachnid Lair",
-  "NameString": "Spider Cave"
+  "NameString": "Spider Cave",
+  "lineNumber": 58
  },
- "59": {
-  "LevelGroupId": "Act 3 - Spider Cavern",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Spider Cavern",
-  "NameString": "Spider Cavern"
- },
- "60": {
-  "LevelGroupId": "Act 3 - Swampy Pit",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Swampy Pit",
-  "NameString": "Swampy Pit"
- },
- "61": {
-  "LevelGroupId": "Act 3 - Flayer Dungeon",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Flayer Dungeon",
-  "NameString": "Flayer Dungeon"
- },
- "62": {
-  "LevelGroupId": "Act 3 - Sewers",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Sewers",
-  "NameString": "Kurast Sewers"
- },
- "63": {
-  "LevelGroupId": "Act 3 - Ruined Temple",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Ruined Temple",
-  "NameString": "Ruined Temple"
- },
- "64": {
+ "Act 3 - Disused Fane": {
   "LevelGroupId": "Act 3 - Disused Fane",
   "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
   "*Name": "Disused Fane",
-  "NameString": "Disused Fane"
+  "NameString": "Disused Fane",
+  "lineNumber": 64
  },
- "65": {
-  "LevelGroupId": "Act 3 - Forgotten Reliquary",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Forgotten Reliquary",
-  "NameString": "Forgotten Reliquary"
- },
- "66": {
-  "LevelGroupId": "Act 3 - Forgotten Temple",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Forgotten Temple",
-  "NameString": "Forgotten Temple"
- },
- "67": {
-  "LevelGroupId": "Act 3 - Ruined Fane",
-  "ParentLevelGroupId": "Act 3",
-  "CompleteThreshold": 100,
-  "*Name": "Ruined Fane",
-  "NameString": "Ruined Fane"
- },
- "68": {
+ "Act 3 - Disused Reliquary": {
   "LevelGroupId": "Act 3 - Disused Reliquary",
   "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
   "*Name": "Disused Reliquary",
-  "NameString": "Disused Reliquary"
+  "NameString": "Disused Reliquary",
+  "lineNumber": 68
  },
- "69": {
+ "Act 3 - Durance of Hate": {
   "LevelGroupId": "Act 3 - Durance of Hate",
   "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
   "*Name": "Durance of Hate",
-  "NameString": "Durance of Hate"
+  "NameString": "Durance of Hate",
+  "lineNumber": 69
  },
- "70": {
-  "LevelGroupId": "Act 4 - Town",
+ "Act 3 - Flayer Dungeon": {
+  "LevelGroupId": "Act 3 - Flayer Dungeon",
+  "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
-  "*Name": "The Pandemonium Fortress",
-  "NameString": "The Pandemonium Fortress"
+  "*Name": "Flayer Dungeon",
+  "NameString": "Flayer Dungeon",
+  "lineNumber": 61
  },
- "71": {
-  "LevelGroupId": "Act 4 - Outer Steppes",
-  "ParentLevelGroupId": "Act 4",
+ "Act 3 - Flayer Jungle": {
+  "LevelGroupId": "Act 3 - Flayer Jungle",
+  "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
-  "*Name": "Outer Steppes",
-  "NameString": "Outer Steppes"
+  "*Name": "Flayer Jungle",
+  "NameString": "Flayer Jungle",
+  "lineNumber": 52
  },
- "72": {
-  "LevelGroupId": "Act 4 - Plains of Despair",
-  "ParentLevelGroupId": "Act 4",
+ "Act 3 - Forgotten Reliquary": {
+  "LevelGroupId": "Act 3 - Forgotten Reliquary",
+  "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
-  "*Name": "Plains of Despair",
-  "NameString": "Plains of Despair"
+  "*Name": "Forgotten Reliquary",
+  "NameString": "Forgotten Reliquary",
+  "lineNumber": 65
  },
- "73": {
-  "LevelGroupId": "Act 4 - City of the Damned",
-  "ParentLevelGroupId": "Act 4",
+ "Act 3 - Forgotten Temple": {
+  "LevelGroupId": "Act 3 - Forgotten Temple",
+  "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
-  "*Name": "City of the Damned",
-  "NameString": "City of the Damned"
+  "*Name": "Forgotten Temple",
+  "NameString": "Forgotten Temple",
+  "lineNumber": 66
  },
- "74": {
-  "LevelGroupId": "Act 4 - River of Flame",
-  "ParentLevelGroupId": "Act 4",
+ "Act 3 - Great Marsh": {
+  "LevelGroupId": "Act 3 - Great Marsh",
+  "ParentLevelGroupId": "Act 3",
   "CompleteThreshold": 100,
-  "*Name": "River of Flame",
-  "NameString": "River of Flame"
+  "*Name": "Great Marsh",
+  "NameString": "Great Marsh",
+  "lineNumber": 51
  },
- "75": {
+ "Act 3 - Kurast Bazaar": {
+  "LevelGroupId": "Act 3 - Kurast Bazaar",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Kurast Bazaar",
+  "NameString": "Kurast Bazaar",
+  "lineNumber": 54
+ },
+ "Act 3 - Kurast Causeway": {
+  "LevelGroupId": "Act 3 - Kurast Causeway",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Kurast Causeway",
+  "NameString": "Kurast Causeway",
+  "lineNumber": 56
+ },
+ "Act 3 - Lower Kurast": {
+  "LevelGroupId": "Act 3 - Lower Kurast",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Lower Kurast",
+  "NameString": "Lower Kurast",
+  "lineNumber": 53
+ },
+ "Act 3 - Ruined Fane": {
+  "LevelGroupId": "Act 3 - Ruined Fane",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Ruined Fane",
+  "NameString": "Ruined Fane",
+  "lineNumber": 67
+ },
+ "Act 3 - Ruined Temple": {
+  "LevelGroupId": "Act 3 - Ruined Temple",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Ruined Temple",
+  "NameString": "Ruined Temple",
+  "lineNumber": 63
+ },
+ "Act 3 - Sewers": {
+  "LevelGroupId": "Act 3 - Sewers",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Sewers",
+  "NameString": "Kurast Sewers",
+  "lineNumber": 62
+ },
+ "Act 3 - Spider Cavern": {
+  "LevelGroupId": "Act 3 - Spider Cavern",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Spider Cavern",
+  "NameString": "Spider Cavern",
+  "lineNumber": 59
+ },
+ "Act 3 - Spider Forest": {
+  "LevelGroupId": "Act 3 - Spider Forest",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Spider Forest",
+  "NameString": "Spider Forest",
+  "lineNumber": 50
+ },
+ "Act 3 - Swampy Pit": {
+  "LevelGroupId": "Act 3 - Swampy Pit",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Swampy Pit",
+  "NameString": "Swampy Pit",
+  "lineNumber": 60
+ },
+ "Act 3 - Town": {
+  "LevelGroupId": "Act 3 - Town",
+  "CompleteThreshold": 100,
+  "*Name": "Kurast Docktown",
+  "NameString": "Kurast Docktown",
+  "lineNumber": 49
+ },
+ "Act 3 - Travincal": {
+  "LevelGroupId": "Act 3 - Travincal",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Travincal",
+  "NameString": "Travincal",
+  "lineNumber": 57
+ },
+ "Act 3 - Upper Kurast": {
+  "LevelGroupId": "Act 3 - Upper Kurast",
+  "ParentLevelGroupId": "Act 3",
+  "CompleteThreshold": 100,
+  "*Name": "Upper Kurast",
+  "NameString": "Upper Kurast",
+  "lineNumber": 55
+ },
+ "Act 4": {
+  "LevelGroupId": "Act 4",
+  "CompleteThreshold": 100,
+  "*Name": "Act 4",
+  "NameString": "act4",
+  "lineNumber": 4
+ },
+ "Act 4 - Chaos Sanctuary": {
   "LevelGroupId": "Act 4 - Chaos Sanctuary",
   "ParentLevelGroupId": "Act 4",
   "CompleteThreshold": 100,
   "*Name": "The Chaos Sanctuary",
-  "NameString": "Chaos Sanctum"
+  "NameString": "Chaos Sanctum",
+  "lineNumber": 75
  },
- "76": {
-  "LevelGroupId": "Act 5 - Town",
+ "Act 4 - City of the Damned": {
+  "LevelGroupId": "Act 4 - City of the Damned",
+  "ParentLevelGroupId": "Act 4",
   "CompleteThreshold": 100,
-  "*Name": "Harrogath",
-  "NameString": "Harrogath"
+  "*Name": "City of the Damned",
+  "NameString": "City of the Damned",
+  "lineNumber": 73
  },
- "77": {
-  "LevelGroupId": "Act 5 - Bloody Foothills",
-  "ParentLevelGroupId": "Act 5",
+ "Act 4 - Outer Steppes": {
+  "LevelGroupId": "Act 4 - Outer Steppes",
+  "ParentLevelGroupId": "Act 4",
   "CompleteThreshold": 100,
-  "*Name": "Bloody Foothills",
-  "NameString": "Bloody Foothills"
+  "*Name": "Outer Steppes",
+  "NameString": "Outer Steppes",
+  "lineNumber": 71
  },
- "78": {
-  "LevelGroupId": "Act 5 - Frigid Highlands",
-  "ParentLevelGroupId": "Act 5",
+ "Act 4 - Plains of Despair": {
+  "LevelGroupId": "Act 4 - Plains of Despair",
+  "ParentLevelGroupId": "Act 4",
   "CompleteThreshold": 100,
-  "*Name": "Frigid Highlands",
-  "NameString": "Rigid Highlands"
+  "*Name": "Plains of Despair",
+  "NameString": "Plains of Despair",
+  "lineNumber": 72
  },
- "79": {
-  "LevelGroupId": "Act 5 - Arreat Plateau",
-  "ParentLevelGroupId": "Act 5",
+ "Act 4 - River of Flame": {
+  "LevelGroupId": "Act 4 - River of Flame",
+  "ParentLevelGroupId": "Act 4",
   "CompleteThreshold": 100,
-  "*Name": "Arreat Plateau",
-  "NameString": "Arreat Plateau"
+  "*Name": "River of Flame",
+  "NameString": "River of Flame",
+  "lineNumber": 74
  },
- "80": {
-  "LevelGroupId": "Act 5 - Crystalline Passage",
-  "ParentLevelGroupId": "Act 5",
+ "Act 4 - Town": {
+  "LevelGroupId": "Act 4 - Town",
   "CompleteThreshold": 100,
-  "*Name": "Crystalline Passage",
-  "NameString": "Crystalized Cavern Level 1"
+  "*Name": "The Pandemonium Fortress",
+  "NameString": "The Pandemonium Fortress",
+  "lineNumber": 70
  },
- "81": {
-  "LevelGroupId": "Act 5 - Frozen River",
-  "ParentLevelGroupId": "Act 5",
+ "Act 5": {
+  "LevelGroupId": "Act 5",
   "CompleteThreshold": 100,
-  "*Name": "Frozen River",
-  "NameString": "Cellar of Pity"
+  "*Name": "Act 5",
+  "NameString": "act5",
+  "lineNumber": 5
  },
- "82": {
-  "LevelGroupId": "Act 5 - Glacial Trail",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Glacial Trail",
-  "NameString": "Crystalized Cavern Level 2"
- },
- "83": {
-  "LevelGroupId": "Act 5 - Drifter Cavern",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Drifter Cavern",
-  "NameString": "Echo Chamber"
- },
- "84": {
-  "LevelGroupId": "Act 5 - Frozen Tundra",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Frozen Tundra",
-  "NameString": "Tundra Wastelands"
- },
- "85": {
-  "LevelGroupId": "Act 5 - The Ancient's Way",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "The Ancients' Way",
-  "NameString": "Glacial Caves Level 1"
- },
- "86": {
-  "LevelGroupId": "Act 5 - Icy Cellar",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Icy Cellar",
-  "NameString": "Glacial Caves Level 2"
- },
- "87": {
-  "LevelGroupId": "Act 5 - Arreat Summit",
-  "CompleteThreshold": 100,
-  "*Name": "Arreat Summit",
-  "NameString": "Rocky Summit"
- },
- "88": {
-  "LevelGroupId": "Act 5 - Nihlathak's Temple",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Nihlathak's Temple",
-  "NameString": "Nihlathaks Temple"
- },
- "89": {
-  "LevelGroupId": "Act 5 - Halls",
-  "ParentLevelGroupId": "Act 5",
-  "CompleteThreshold": 100,
-  "*Name": "Halls",
-  "NameString": "Temple Halls"
- },
- "90": {
+ "Act 5 - Abaddon": {
   "LevelGroupId": "Act 5 - Abaddon",
   "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
   "*Name": "Abaddon",
-  "NameString": "Hell1"
+  "NameString": "Hell1",
+  "lineNumber": 90
  },
- "91": {
-  "LevelGroupId": "Act 5 - Pit of Acheron",
+ "Act 5 - Arreat Plateau": {
+  "LevelGroupId": "Act 5 - Arreat Plateau",
   "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
-  "*Name": "Pit of Acheron",
-  "NameString": "Hell2"
+  "*Name": "Arreat Plateau",
+  "NameString": "Arreat Plateau",
+  "lineNumber": 79
  },
- "92": {
+ "Act 5 - Arreat Summit": {
+  "LevelGroupId": "Act 5 - Arreat Summit",
+  "CompleteThreshold": 100,
+  "*Name": "Arreat Summit",
+  "NameString": "Rocky Summit",
+  "lineNumber": 87
+ },
+ "Act 5 - Bloody Foothills": {
+  "LevelGroupId": "Act 5 - Bloody Foothills",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Bloody Foothills",
+  "NameString": "Bloody Foothills",
+  "lineNumber": 77
+ },
+ "Act 5 - Colossal Summit": {
+  "LevelGroupId": "Act 5 - Colossal Summit",
+  "CompleteThreshold": 100,
+  "*Name": "ColossalSummit",
+  "NameString": "ColossalSummit",
+  "lineNumber": 100
+ },
+ "Act 5 - Crystalline Passage": {
+  "LevelGroupId": "Act 5 - Crystalline Passage",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Crystalline Passage",
+  "NameString": "Crystalized Cavern Level 1",
+  "lineNumber": 80
+ },
+ "Act 5 - Drifter Cavern": {
+  "LevelGroupId": "Act 5 - Drifter Cavern",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Drifter Cavern",
+  "NameString": "Echo Chamber",
+  "lineNumber": 83
+ },
+ "Act 5 - Forgotten Sands": {
+  "LevelGroupId": "Act 5 - Forgotten Sands",
+  "CompleteThreshold": 100,
+  "*Name": "Forgotten Sands",
+  "NameString": "Pandemonium Run 2",
+  "lineNumber": 97
+ },
+ "Act 5 - Frigid Highlands": {
+  "LevelGroupId": "Act 5 - Frigid Highlands",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Frigid Highlands",
+  "NameString": "Rigid Highlands",
+  "lineNumber": 78
+ },
+ "Act 5 - Frozen River": {
+  "LevelGroupId": "Act 5 - Frozen River",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Frozen River",
+  "NameString": "Cellar of Pity",
+  "lineNumber": 81
+ },
+ "Act 5 - Frozen Tundra": {
+  "LevelGroupId": "Act 5 - Frozen Tundra",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Frozen Tundra",
+  "NameString": "Tundra Wastelands",
+  "lineNumber": 84
+ },
+ "Act 5 - Furnace of Pain": {
+  "LevelGroupId": "Act 5 - Furnace of Pain",
+  "CompleteThreshold": 100,
+  "*Name": "Furnace of Pain",
+  "NameString": "Pandemonium Run 3",
+  "lineNumber": 98
+ },
+ "Act 5 - Glacial Trail": {
+  "LevelGroupId": "Act 5 - Glacial Trail",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Glacial Trail",
+  "NameString": "Crystalized Cavern Level 2",
+  "lineNumber": 82
+ },
+ "Act 5 - Halls": {
+  "LevelGroupId": "Act 5 - Halls",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Halls",
+  "NameString": "Temple Halls",
+  "lineNumber": 89
+ },
+ "Act 5 - Icy Cellar": {
+  "LevelGroupId": "Act 5 - Icy Cellar",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Icy Cellar",
+  "NameString": "Glacial Caves Level 2",
+  "lineNumber": 86
+ },
+ "Act 5 - Infernal Pit": {
   "LevelGroupId": "Act 5 - Infernal Pit",
   "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
   "*Name": "Infernal Pit",
-  "NameString": "Hell3"
+  "NameString": "Hell3",
+  "lineNumber": 92
  },
- "93": {
-  "LevelGroupId": "Act 5 - Worldstone Keep",
+ "Act 5 - Matron's Den": {
+  "LevelGroupId": "Act 5 - Matron's Den",
+  "CompleteThreshold": 100,
+  "*Name": "Matron's Den",
+  "NameString": "Pandemonium Run 1",
+  "lineNumber": 96
+ },
+ "Act 5 - Nihlathak's Temple": {
+  "LevelGroupId": "Act 5 - Nihlathak's Temple",
   "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
-  "*Name": "The Worldstone Keep",
-  "NameString": "The Worldstone Keep"
+  "*Name": "Nihlathak's Temple",
+  "NameString": "Nihlathaks Temple",
+  "lineNumber": 88
  },
- "94": {
+ "Act 5 - Pit of Acheron": {
+  "LevelGroupId": "Act 5 - Pit of Acheron",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "Pit of Acheron",
+  "NameString": "Hell2",
+  "lineNumber": 91
+ },
+ "Act 5 - The Ancient's Way": {
+  "LevelGroupId": "Act 5 - The Ancient's Way",
+  "ParentLevelGroupId": "Act 5",
+  "CompleteThreshold": 100,
+  "*Name": "The Ancients' Way",
+  "NameString": "Glacial Caves Level 1",
+  "lineNumber": 85
+ },
+ "Act 5 - Throne of Destruction": {
   "LevelGroupId": "Act 5 - Throne of Destruction",
   "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
   "*Name": "Throne of Destruction",
-  "NameString": "Throne of Destruction"
+  "NameString": "Throne of Destruction",
+  "lineNumber": 94
  },
- "95": {
+ "Act 5 - Town": {
+  "LevelGroupId": "Act 5 - Town",
+  "CompleteThreshold": 100,
+  "*Name": "Harrogath",
+  "NameString": "Harrogath",
+  "lineNumber": 76
+ },
+ "Act 5 - Tristram": {
+  "LevelGroupId": "Act 5 - Tristram",
+  "CompleteThreshold": 100,
+  "*Name": "Tristram",
+  "NameString": "Tristram",
+  "lineNumber": 99
+ },
+ "Act 5 - Worldstone Chamber": {
   "LevelGroupId": "Act 5 - Worldstone Chamber",
   "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
   "*Name": "The Worldstone Chamber",
-  "NameString": "The Worldstone Chamber"
+  "NameString": "The Worldstone Chamber",
+  "lineNumber": 95
  },
- "96": {
-  "LevelGroupId": "Act 5 - Matron's Den",
+ "Act 5 - Worldstone Keep": {
+  "LevelGroupId": "Act 5 - Worldstone Keep",
+  "ParentLevelGroupId": "Act 5",
   "CompleteThreshold": 100,
-  "*Name": "Matron's Den",
-  "NameString": "Pandemonium Run 1"
- },
- "97": {
-  "LevelGroupId": "Act 5 - Forgotten Sands",
-  "CompleteThreshold": 100,
-  "*Name": "Forgotten Sands",
-  "NameString": "Pandemonium Run 2"
- },
- "98": {
-  "LevelGroupId": "Act 5 - Furnace of Pain",
-  "CompleteThreshold": 100,
-  "*Name": "Furnace of Pain",
-  "NameString": "Pandemonium Run 3"
- },
- "99": {
-  "LevelGroupId": "Act 5 - Tristram",
-  "CompleteThreshold": 100,
-  "*Name": "Tristram",
-  "NameString": "Tristram"
- },
- "100": {
-  "LevelGroupId": "Act 5 - Colossal Summit",
-  "CompleteThreshold": 100,
-  "*Name": "ColossalSummit",
-  "NameString": "ColossalSummit"
+  "*Name": "The Worldstone Keep",
+  "NameString": "The Worldstone Keep",
+  "lineNumber": 93
  }
 }

@@ -46,7 +46,7 @@ const indexes = {
   inventory: 'class',
   itemstatcost: 'Stat',
   itemtypes: 'Code',
-  levelgroups: 'Name',
+  levelgroups: 'LevelGroupId',
   levels: 'Id',
   lvlmaze: 'Level',
   lvlprest: 'Def',
