@@ -87,6 +87,7 @@ TC treasureClasses[MAX_TREASURE_CLASSES] = { "" };
 long playermod = 1;
 int finditem = 0;
 int heraldtier = 1;
+bool desecrated = false;
 int difficulty = 0;
 
 bool isDifficultyNormal() {
@@ -113,13 +114,48 @@ bool isHeraldTier4OrAbove() {
     return heraldtier >= 4;
 }
 
+bool isHeraldTierAbove4() {
+    return heraldtier > 4;
+}
+
+bool isHeraldTier3To4() {
+    return heraldtier > 2 && heraldtier < 5;
+}
+
+bool isHellAndNotDesecrated() {
+    return difficulty == 2 && !desecrated;
+}
+
+bool isHellAndDesecrated() {
+    return difficulty == 2 && desecrated;
+}
+
+bool isHerald() {
+    return heraldtier > 0;
+}
+
+bool isDesecrated() {
+    return desecrated;
+}
+
+bool isNotDesecrated() {
+    return !desecrated;
+}
+
 const char* conditionStrings[] = {
     "\"cond('Difficulty', normal)\"",
     "\"cond('Difficulty', nightmare)\"",
     "\"cond('Difficulty', hell)\"",
     "\"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >3) \"",
-    "(stat('heraldtier'.accr)>1) * (stat('heraldtier'.accr) < 4)",
+    "(stat('heraldtier'.accr)>1) * (stat('heraldtier'.accr) < 4) ",
     "(stat('heraldtier'.accr) >=4)",
+    "(stat('heraldtier'.accr) >4) ",
+    "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5) ",
+    "\"cond('Difficulty', hell)*(cond('Desecrated')==0)\"",
+    "\"cond('Difficulty', hell)*cond('Desecrated')\"",
+    "\"cond('MonsterTestElite', herald)\"",
+    "cond('Desecrated')",
+    "cond('Desecrated')==0",
 };
 
 bool (*conditionFunctions[])() = {
@@ -129,6 +165,13 @@ bool (*conditionFunctions[])() = {
     isHeraldTierAbove3,
     isHeraldTier2To3,
     isHeraldTier4OrAbove,
+    isHeraldTierAbove4,
+    isHeraldTier3To4,
+    isHellAndNotDesecrated,
+    isHellAndDesecrated,
+    isHerald,
+    isDesecrated,
+    isNotDesecrated,
 };
 
 const long CONDITION_FUNCTIONS_SIZE = sizeof(conditionFunctions) / sizeof(conditionFunctions[0]);

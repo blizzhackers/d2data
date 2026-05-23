@@ -102,16 +102,24 @@ std::unordered_map<std::string, TC> treasureClasses;
 long playermod = 1;
 int finditem = 0;
 int heraldtier = 1;
+bool desecrated = false;
 int difficulty = 0;
 constexpr size_t MAX_DROP_INDICES = 6;
 
 std::unordered_map<std::string, std::function<bool()>> conditionFunctions = {
-    {"\"cond('Difficulty', normal)\"", []() { return difficulty == 0; }},
-    {"\"cond('Difficulty', nightmare)\"", []() { return difficulty == 1; }},
-    {"\"cond('Difficulty', hell)\"", []() { return difficulty == 2; }},
-    {"\"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >3) \"", []() { return heraldtier > 3; }},
-    {"(stat('heraldtier'.accr)>1) * (stat('heraldtier'.accr) < 4)", []() { return heraldtier > 1 && heraldtier < 4; }},
+    {"(stat('heraldtier'.accr) >4) ", []() { return heraldtier > 4; }},
     {"(stat('heraldtier'.accr) >=4) ", []() { return heraldtier >= 4; }},
+    {"(stat('heraldtier'.accr)>1) * (stat('heraldtier'.accr) < 4) ", []() { return heraldtier > 1 && heraldtier < 4; }},
+    {"(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5) ", []() { return heraldtier > 2 && heraldtier < 5; }},
+    {"\"cond('Difficulty', hell)*(cond('Desecrated')==0)\"", []() { return (difficulty == 2) && (!desecrated); }},
+    {"\"cond('Difficulty', hell)*cond('Desecrated')\"", []() { return (difficulty == 2) && desecrated; }},
+    {"\"cond('Difficulty', hell)\"", []() { return difficulty == 2; }},
+    {"\"cond('Difficulty', nightmare)\"", []() { return difficulty == 1; }},
+    {"\"cond('Difficulty', normal)\"", []() { return difficulty == 0; }},
+    {"\"cond('MonsterTestElite', herald)*(stat('heraldtier'.accr) >3) \"", []() { return heraldtier > 3; }},
+    {"\"cond('MonsterTestElite', herald)\"", []() { return false; }},
+    {"cond('Desecrated')", []() { return desecrated; }},
+    {"cond('Desecrated')==0", []() { return !desecrated; }},
 };
 
 std::unordered_map<std::string, std::unordered_map<int, double>> countDistributionCache;
@@ -557,7 +565,7 @@ std::string escapeJsonString(const std::string& str) {
 // Main takes first parameter as treasure class name
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        std::cerr << "Usage: " << argv[0] << " <treasure_class_name> <player_mod> <find_item_percent> <difficulty> <herald_tier>\n";
+        std::cerr << "Usage: " << argv[0] << " <treasure_class_name> <player_mod> <find_item_percent> <difficulty> <herald_tier> <desecrated>\n";
         return 1;
     }
 
@@ -591,6 +599,10 @@ int main(int argc, char* argv[]) {
 
     if (argc >= 6) {
         heraldtier = atoi(argv[5]);
+    }
+
+    if (argc >= 7) {
+        desecrated = atoi(argv[6]) ? true : false;
     }
 
     // Open the treasure class file at: txt/treasureclassex.txt
