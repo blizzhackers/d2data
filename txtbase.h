@@ -1864,6 +1864,14 @@ namespace D2::BASE {
     static std::vector<t_monai> readfile(std::string filename);
   };
 
+  struct t_moncalc {
+    std::string code = "";	// Column 0
+    std::string description = "";	// Column 1
+
+    size_t read(const char* line);
+    static std::vector<t_moncalc> readfile(std::string filename);
+  };
+
   struct t_monequip {
     std::string monster = "";	// Column 0
     int32_t oninit = 0;	// Column 1
@@ -1950,6 +1958,16 @@ namespace D2::BASE {
     // Unused column: consumecalc5
     // Unused column: numunderlingcalc
     // Unused column: bindchancecalc
+    // Unused column: BoundStat1
+    // Unused column: BoundCalc1
+    // Unused column: BoundStat2
+    // Unused column: BoundCalc2
+    // Unused column: BoundStat3
+    // Unused column: BoundCalc3
+    // Unused column: BoundStat4
+    // Unused column: BoundCalc4
+    // Unused column: BoundStat5
+    // Unused column: BoundCalc5
 
     size_t read(const char* line);
     static std::vector<t_monpet> readfile(std::string filename);

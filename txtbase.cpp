@@ -2756,6 +2756,42 @@ namespace D2::BASE {
     return ret;
   }
 
+  size_t t_moncalc::read(const char* line) {
+    std::vector<std::string> values;
+    std::stringstream ss(line);
+    std::string value;
+
+    while (std::getline(ss, value, '\t')) {
+      values.push_back(value);
+    }
+
+    if (values.size() > 0) { code = values[0]; }
+    if (values.size() > 1) { description = values[1]; }
+
+    return values.size();
+  }
+
+  std::vector<t_moncalc> t_moncalc::readfile(std::string filename) {
+    std::vector<t_moncalc> ret;
+    std::ifstream file(filename);
+
+    if (!file.is_open()) {
+      return ret; // Return empty vector if file cannot be opened
+    }
+
+    std::string line;
+    if (!std::getline(file, line)) {
+      return ret; // Return empty vector if file is empty
+    }
+    while (std::getline(file, line)) {
+      t_moncalc v;
+      v.read(line.c_str());
+      ret.push_back(v);
+    }
+
+    return ret;
+  }
+
   size_t t_monequip::read(const char* line) {
     std::vector<std::string> values;
     std::stringstream ss(line);

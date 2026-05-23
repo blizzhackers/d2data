@@ -638,6 +638,7 @@ namespace D2::ROTW {
     if (values.size() > 79) { item10 = values[79][0] == '\0' ? 0 : std::stoi(values[79]); }
     if (values.size() > 81) { item10count = values[81][0] == '\0' ? 0 : std::stoi(values[81]); }
     if (values.size() > 82) { item10quality = values[82][0] == '\0' ? 0 : std::stoi(values[82]); }
+    if (values.size() > 83) { TwoHandedOffHandRestrictItemType = values[83]; }
 
     return values.size();
   }
@@ -1717,124 +1718,125 @@ namespace D2::ROTW {
     if (values.size() > 13) { SizeYH = values[13][0] == '\0' ? 0 : std::stoi(values[13]); }
     if (values.size() > 14) { OffsetX = values[14][0] == '\0' ? 0 : std::stoi(values[14]); }
     if (values.size() > 15) { OffsetY = values[15][0] == '\0' ? 0 : std::stoi(values[15]); }
-    if (values.size() > 16) { Depend = values[16][0] == '\0' ? 0 : std::stoi(values[16]); }
-    if (values.size() > 17) { Teleport = values[17][0] == '\0' ? 0 : std::stoi(values[17]); }
-    if (values.size() > 18) { Rain = values[18][0] == '\0' ? 0 : std::stoi(values[18]); }
-    if (values.size() > 19) { Mud = values[19][0] == '\0' ? 0 : std::stoi(values[19]); }
-    if (values.size() > 20) { NoPer = values[20][0] == '\0' ? 0 : std::stoi(values[20]); }
-    if (values.size() > 21) { LOSDraw = values[21][0] == '\0' ? 0 : std::stoi(values[21]); }
-    if (values.size() > 22) { FloorFilter = values[22][0] == '\0' ? 0 : std::stoi(values[22]); }
-    if (values.size() > 23) { BlankScreen = values[23][0] == '\0' ? 0 : std::stoi(values[23]); }
-    if (values.size() > 24) { DrawEdges = values[24][0] == '\0' ? 0 : std::stoi(values[24]); }
-    if (values.size() > 25) { IsInside = values[25][0] == '\0' ? 0 : std::stoi(values[25]); }
-    if (values.size() > 26) { DrlgType = values[26][0] == '\0' ? 0 : std::stoi(values[26]); }
-    if (values.size() > 27) { LevelType = values[27][0] == '\0' ? 0 : std::stoi(values[27]); }
-    if (values.size() > 28) { SubType = values[28][0] == '\0' ? 0 : std::stoi(values[28]); }
-    if (values.size() > 29) { SubTheme = values[29][0] == '\0' ? 0 : std::stoi(values[29]); }
-    if (values.size() > 30) { SubWaypoint = values[30][0] == '\0' ? 0 : std::stoi(values[30]); }
-    if (values.size() > 31) { SubShrine = values[31][0] == '\0' ? 0 : std::stoi(values[31]); }
-    if (values.size() > 32) { Vis0 = values[32][0] == '\0' ? 0 : std::stoi(values[32]); }
-    if (values.size() > 33) { Vis1 = values[33][0] == '\0' ? 0 : std::stoi(values[33]); }
-    if (values.size() > 34) { Vis2 = values[34][0] == '\0' ? 0 : std::stoi(values[34]); }
-    if (values.size() > 35) { Vis3 = values[35][0] == '\0' ? 0 : std::stoi(values[35]); }
-    if (values.size() > 36) { Vis4 = values[36][0] == '\0' ? 0 : std::stoi(values[36]); }
-    if (values.size() > 37) { Vis5 = values[37][0] == '\0' ? 0 : std::stoi(values[37]); }
-    if (values.size() > 38) { Vis6 = values[38][0] == '\0' ? 0 : std::stoi(values[38]); }
-    if (values.size() > 39) { Vis7 = values[39][0] == '\0' ? 0 : std::stoi(values[39]); }
-    if (values.size() > 40) { Warp0 = values[40][0] == '\0' ? 0 : std::stoi(values[40]); }
-    if (values.size() > 41) { Warp1 = values[41][0] == '\0' ? 0 : std::stoi(values[41]); }
-    if (values.size() > 42) { Warp2 = values[42][0] == '\0' ? 0 : std::stoi(values[42]); }
-    if (values.size() > 43) { Warp3 = values[43][0] == '\0' ? 0 : std::stoi(values[43]); }
-    if (values.size() > 44) { Warp4 = values[44][0] == '\0' ? 0 : std::stoi(values[44]); }
-    if (values.size() > 45) { Warp5 = values[45][0] == '\0' ? 0 : std::stoi(values[45]); }
-    if (values.size() > 46) { Warp6 = values[46][0] == '\0' ? 0 : std::stoi(values[46]); }
-    if (values.size() > 47) { Warp7 = values[47][0] == '\0' ? 0 : std::stoi(values[47]); }
-    if (values.size() > 48) { Intensity = values[48][0] == '\0' ? 0 : std::stoi(values[48]); }
-    if (values.size() > 49) { Red = values[49][0] == '\0' ? 0 : std::stoi(values[49]); }
-    if (values.size() > 50) { Green = values[50][0] == '\0' ? 0 : std::stoi(values[50]); }
-    if (values.size() > 51) { Blue = values[51][0] == '\0' ? 0 : std::stoi(values[51]); }
-    if (values.size() > 52) { Portal = values[52][0] == '\0' ? 0 : std::stoi(values[52]); }
-    if (values.size() > 53) { Position = values[53][0] == '\0' ? 0 : std::stoi(values[53]); }
-    if (values.size() > 54) { SaveMonsters = values[54][0] == '\0' ? 0 : std::stoi(values[54]); }
-    if (values.size() > 55) { Quest = values[55][0] == '\0' ? 0 : std::stoi(values[55]); }
-    if (values.size() > 56) { WarpDist = values[56][0] == '\0' ? 0 : std::stoi(values[56]); }
-    if (values.size() > 57) { MonLvl = values[57][0] == '\0' ? 0 : std::stoi(values[57]); }
-    if (values.size() > 58) { MonLvlN = values[58][0] == '\0' ? 0 : std::stoi(values[58]); }
-    if (values.size() > 59) { MonLvlH = values[59][0] == '\0' ? 0 : std::stoi(values[59]); }
-    if (values.size() > 60) { MonLvlEx = values[60][0] == '\0' ? 0 : std::stoi(values[60]); }
-    if (values.size() > 61) { MonLvlExN = values[61][0] == '\0' ? 0 : std::stoi(values[61]); }
-    if (values.size() > 62) { MonLvlExH = values[62][0] == '\0' ? 0 : std::stoi(values[62]); }
-    if (values.size() > 63) { MonDen = values[63][0] == '\0' ? 0 : std::stoi(values[63]); }
-    if (values.size() > 64) { MonDenN = values[64][0] == '\0' ? 0 : std::stoi(values[64]); }
-    if (values.size() > 65) { MonDenH = values[65][0] == '\0' ? 0 : std::stoi(values[65]); }
-    if (values.size() > 66) { MonUMin = values[66][0] == '\0' ? 0 : std::stoi(values[66]); }
-    if (values.size() > 67) { MonUMax = values[67][0] == '\0' ? 0 : std::stoi(values[67]); }
-    if (values.size() > 68) { MonUMinN = values[68][0] == '\0' ? 0 : std::stoi(values[68]); }
-    if (values.size() > 69) { MonUMaxN = values[69][0] == '\0' ? 0 : std::stoi(values[69]); }
-    if (values.size() > 70) { MonUMinH = values[70][0] == '\0' ? 0 : std::stoi(values[70]); }
-    if (values.size() > 71) { MonUMaxH = values[71][0] == '\0' ? 0 : std::stoi(values[71]); }
-    if (values.size() > 72) { MonWndr = values[72][0] == '\0' ? 0 : std::stoi(values[72]); }
-    if (values.size() > 73) { MonSpcWalk = values[73][0] == '\0' ? 0 : std::stoi(values[73]); }
-    if (values.size() > 74) { NumMon = values[74][0] == '\0' ? 0 : std::stoi(values[74]); }
-    if (values.size() > 75) { mon1 = values[75]; }
-    if (values.size() > 76) { mon2 = values[76]; }
-    if (values.size() > 77) { mon3 = values[77]; }
-    if (values.size() > 78) { mon4 = values[78]; }
-    if (values.size() > 79) { mon5 = values[79]; }
-    if (values.size() > 80) { mon6 = values[80]; }
-    if (values.size() > 81) { mon7 = values[81]; }
-    if (values.size() > 82) { mon8 = values[82]; }
-    if (values.size() > 100) { rangedspawn = values[100][0] == '\0' ? 0 : std::stoi(values[100]); }
-    if (values.size() > 101) { nmon1 = values[101]; }
-    if (values.size() > 102) { nmon2 = values[102]; }
-    if (values.size() > 103) { nmon3 = values[103]; }
-    if (values.size() > 104) { nmon4 = values[104]; }
-    if (values.size() > 105) { nmon5 = values[105]; }
-    if (values.size() > 106) { nmon6 = values[106]; }
-    if (values.size() > 107) { nmon7 = values[107]; }
-    if (values.size() > 108) { nmon8 = values[108]; }
-    if (values.size() > 109) { nmon9 = values[109]; }
-    if (values.size() > 110) { nmon10 = values[110]; }
-    if (values.size() > 126) { umon1 = values[126]; }
-    if (values.size() > 127) { umon2 = values[127]; }
-    if (values.size() > 128) { umon3 = values[128]; }
-    if (values.size() > 129) { umon4 = values[129]; }
-    if (values.size() > 130) { umon5 = values[130]; }
-    if (values.size() > 131) { umon6 = values[131]; }
-    if (values.size() > 132) { umon7 = values[132]; }
-    if (values.size() > 133) { umon8 = values[133]; }
-    if (values.size() > 151) { cmon1 = values[151]; }
-    if (values.size() > 152) { cmon2 = values[152]; }
-    if (values.size() > 153) { cmon3 = values[153]; }
-    if (values.size() > 154) { cmon4 = values[154]; }
-    if (values.size() > 155) { cpct1 = values[155][0] == '\0' ? 0 : std::stoi(values[155]); }
-    if (values.size() > 156) { cpct2 = values[156][0] == '\0' ? 0 : std::stoi(values[156]); }
-    if (values.size() > 157) { cpct3 = values[157][0] == '\0' ? 0 : std::stoi(values[157]); }
-    if (values.size() > 158) { cpct4 = values[158][0] == '\0' ? 0 : std::stoi(values[158]); }
-    if (values.size() > 163) { Themes = values[163][0] == '\0' ? 0 : std::stoi(values[163]); }
-    if (values.size() > 164) { SoundEnv = values[164][0] == '\0' ? 0 : std::stoi(values[164]); }
-    if (values.size() > 165) { Waypoint = values[165][0] == '\0' ? 0 : std::stoi(values[165]); }
-    if (values.size() > 166) { LevelName = values[166]; }
-    if (values.size() > 167) { LevelWarp = values[167]; }
-    if (values.size() > 168) { LevelEntry = values[168]; }
-    if (values.size() > 169) { ObjGrp0 = values[169][0] == '\0' ? 0 : std::stoi(values[169]); }
-    if (values.size() > 170) { ObjGrp1 = values[170][0] == '\0' ? 0 : std::stoi(values[170]); }
-    if (values.size() > 171) { ObjGrp2 = values[171][0] == '\0' ? 0 : std::stoi(values[171]); }
-    if (values.size() > 172) { ObjGrp3 = values[172][0] == '\0' ? 0 : std::stoi(values[172]); }
-    if (values.size() > 173) { ObjGrp4 = values[173][0] == '\0' ? 0 : std::stoi(values[173]); }
-    if (values.size() > 174) { ObjGrp5 = values[174][0] == '\0' ? 0 : std::stoi(values[174]); }
-    if (values.size() > 175) { ObjGrp6 = values[175][0] == '\0' ? 0 : std::stoi(values[175]); }
-    if (values.size() > 176) { ObjGrp7 = values[176][0] == '\0' ? 0 : std::stoi(values[176]); }
-    if (values.size() > 177) { ObjPrb0 = values[177][0] == '\0' ? 0 : std::stoi(values[177]); }
-    if (values.size() > 178) { ObjPrb1 = values[178][0] == '\0' ? 0 : std::stoi(values[178]); }
-    if (values.size() > 179) { ObjPrb2 = values[179][0] == '\0' ? 0 : std::stoi(values[179]); }
-    if (values.size() > 180) { ObjPrb3 = values[180][0] == '\0' ? 0 : std::stoi(values[180]); }
-    if (values.size() > 181) { ObjPrb4 = values[181][0] == '\0' ? 0 : std::stoi(values[181]); }
-    if (values.size() > 182) { ObjPrb5 = values[182][0] == '\0' ? 0 : std::stoi(values[182]); }
-    if (values.size() > 183) { ObjPrb6 = values[183][0] == '\0' ? 0 : std::stoi(values[183]); }
-    if (values.size() > 184) { ObjPrb7 = values[184][0] == '\0' ? 0 : std::stoi(values[184]); }
-    if (values.size() > 185) { LevelGroup = values[185]; }
-    if (values.size() > 186) { PreventTownPortal = values[186][0] == '\0' ? 0 : std::stoi(values[186]); }
+    if (values.size() > 16) { CompletionTotalRoomsOverride = values[16][0] == '\0' ? 0 : std::stoi(values[16]); }
+    if (values.size() > 17) { Depend = values[17][0] == '\0' ? 0 : std::stoi(values[17]); }
+    if (values.size() > 18) { Teleport = values[18][0] == '\0' ? 0 : std::stoi(values[18]); }
+    if (values.size() > 19) { Rain = values[19][0] == '\0' ? 0 : std::stoi(values[19]); }
+    if (values.size() > 20) { Mud = values[20][0] == '\0' ? 0 : std::stoi(values[20]); }
+    if (values.size() > 21) { NoPer = values[21][0] == '\0' ? 0 : std::stoi(values[21]); }
+    if (values.size() > 22) { LOSDraw = values[22][0] == '\0' ? 0 : std::stoi(values[22]); }
+    if (values.size() > 23) { FloorFilter = values[23][0] == '\0' ? 0 : std::stoi(values[23]); }
+    if (values.size() > 24) { BlankScreen = values[24][0] == '\0' ? 0 : std::stoi(values[24]); }
+    if (values.size() > 25) { DrawEdges = values[25][0] == '\0' ? 0 : std::stoi(values[25]); }
+    if (values.size() > 26) { IsInside = values[26][0] == '\0' ? 0 : std::stoi(values[26]); }
+    if (values.size() > 27) { DrlgType = values[27][0] == '\0' ? 0 : std::stoi(values[27]); }
+    if (values.size() > 28) { LevelType = values[28][0] == '\0' ? 0 : std::stoi(values[28]); }
+    if (values.size() > 29) { SubType = values[29][0] == '\0' ? 0 : std::stoi(values[29]); }
+    if (values.size() > 30) { SubTheme = values[30][0] == '\0' ? 0 : std::stoi(values[30]); }
+    if (values.size() > 31) { SubWaypoint = values[31][0] == '\0' ? 0 : std::stoi(values[31]); }
+    if (values.size() > 32) { SubShrine = values[32][0] == '\0' ? 0 : std::stoi(values[32]); }
+    if (values.size() > 33) { Vis0 = values[33][0] == '\0' ? 0 : std::stoi(values[33]); }
+    if (values.size() > 34) { Vis1 = values[34][0] == '\0' ? 0 : std::stoi(values[34]); }
+    if (values.size() > 35) { Vis2 = values[35][0] == '\0' ? 0 : std::stoi(values[35]); }
+    if (values.size() > 36) { Vis3 = values[36][0] == '\0' ? 0 : std::stoi(values[36]); }
+    if (values.size() > 37) { Vis4 = values[37][0] == '\0' ? 0 : std::stoi(values[37]); }
+    if (values.size() > 38) { Vis5 = values[38][0] == '\0' ? 0 : std::stoi(values[38]); }
+    if (values.size() > 39) { Vis6 = values[39][0] == '\0' ? 0 : std::stoi(values[39]); }
+    if (values.size() > 40) { Vis7 = values[40][0] == '\0' ? 0 : std::stoi(values[40]); }
+    if (values.size() > 41) { Warp0 = values[41][0] == '\0' ? 0 : std::stoi(values[41]); }
+    if (values.size() > 42) { Warp1 = values[42][0] == '\0' ? 0 : std::stoi(values[42]); }
+    if (values.size() > 43) { Warp2 = values[43][0] == '\0' ? 0 : std::stoi(values[43]); }
+    if (values.size() > 44) { Warp3 = values[44][0] == '\0' ? 0 : std::stoi(values[44]); }
+    if (values.size() > 45) { Warp4 = values[45][0] == '\0' ? 0 : std::stoi(values[45]); }
+    if (values.size() > 46) { Warp5 = values[46][0] == '\0' ? 0 : std::stoi(values[46]); }
+    if (values.size() > 47) { Warp6 = values[47][0] == '\0' ? 0 : std::stoi(values[47]); }
+    if (values.size() > 48) { Warp7 = values[48][0] == '\0' ? 0 : std::stoi(values[48]); }
+    if (values.size() > 49) { Intensity = values[49][0] == '\0' ? 0 : std::stoi(values[49]); }
+    if (values.size() > 50) { Red = values[50][0] == '\0' ? 0 : std::stoi(values[50]); }
+    if (values.size() > 51) { Green = values[51][0] == '\0' ? 0 : std::stoi(values[51]); }
+    if (values.size() > 52) { Blue = values[52][0] == '\0' ? 0 : std::stoi(values[52]); }
+    if (values.size() > 53) { Portal = values[53][0] == '\0' ? 0 : std::stoi(values[53]); }
+    if (values.size() > 54) { Position = values[54][0] == '\0' ? 0 : std::stoi(values[54]); }
+    if (values.size() > 55) { SaveMonsters = values[55][0] == '\0' ? 0 : std::stoi(values[55]); }
+    if (values.size() > 56) { Quest = values[56][0] == '\0' ? 0 : std::stoi(values[56]); }
+    if (values.size() > 57) { WarpDist = values[57][0] == '\0' ? 0 : std::stoi(values[57]); }
+    if (values.size() > 58) { MonLvl = values[58][0] == '\0' ? 0 : std::stoi(values[58]); }
+    if (values.size() > 59) { MonLvlN = values[59][0] == '\0' ? 0 : std::stoi(values[59]); }
+    if (values.size() > 60) { MonLvlH = values[60][0] == '\0' ? 0 : std::stoi(values[60]); }
+    if (values.size() > 61) { MonLvlEx = values[61][0] == '\0' ? 0 : std::stoi(values[61]); }
+    if (values.size() > 62) { MonLvlExN = values[62][0] == '\0' ? 0 : std::stoi(values[62]); }
+    if (values.size() > 63) { MonLvlExH = values[63][0] == '\0' ? 0 : std::stoi(values[63]); }
+    if (values.size() > 64) { MonDen = values[64][0] == '\0' ? 0 : std::stoi(values[64]); }
+    if (values.size() > 65) { MonDenN = values[65][0] == '\0' ? 0 : std::stoi(values[65]); }
+    if (values.size() > 66) { MonDenH = values[66][0] == '\0' ? 0 : std::stoi(values[66]); }
+    if (values.size() > 67) { MonUMin = values[67][0] == '\0' ? 0 : std::stoi(values[67]); }
+    if (values.size() > 68) { MonUMax = values[68][0] == '\0' ? 0 : std::stoi(values[68]); }
+    if (values.size() > 69) { MonUMinN = values[69][0] == '\0' ? 0 : std::stoi(values[69]); }
+    if (values.size() > 70) { MonUMaxN = values[70][0] == '\0' ? 0 : std::stoi(values[70]); }
+    if (values.size() > 71) { MonUMinH = values[71][0] == '\0' ? 0 : std::stoi(values[71]); }
+    if (values.size() > 72) { MonUMaxH = values[72][0] == '\0' ? 0 : std::stoi(values[72]); }
+    if (values.size() > 73) { MonWndr = values[73][0] == '\0' ? 0 : std::stoi(values[73]); }
+    if (values.size() > 74) { MonSpcWalk = values[74][0] == '\0' ? 0 : std::stoi(values[74]); }
+    if (values.size() > 75) { NumMon = values[75][0] == '\0' ? 0 : std::stoi(values[75]); }
+    if (values.size() > 76) { mon1 = values[76]; }
+    if (values.size() > 77) { mon2 = values[77]; }
+    if (values.size() > 78) { mon3 = values[78]; }
+    if (values.size() > 79) { mon4 = values[79]; }
+    if (values.size() > 80) { mon5 = values[80]; }
+    if (values.size() > 81) { mon6 = values[81]; }
+    if (values.size() > 82) { mon7 = values[82]; }
+    if (values.size() > 83) { mon8 = values[83]; }
+    if (values.size() > 101) { rangedspawn = values[101][0] == '\0' ? 0 : std::stoi(values[101]); }
+    if (values.size() > 102) { nmon1 = values[102]; }
+    if (values.size() > 103) { nmon2 = values[103]; }
+    if (values.size() > 104) { nmon3 = values[104]; }
+    if (values.size() > 105) { nmon4 = values[105]; }
+    if (values.size() > 106) { nmon5 = values[106]; }
+    if (values.size() > 107) { nmon6 = values[107]; }
+    if (values.size() > 108) { nmon7 = values[108]; }
+    if (values.size() > 109) { nmon8 = values[109]; }
+    if (values.size() > 110) { nmon9 = values[110]; }
+    if (values.size() > 111) { nmon10 = values[111]; }
+    if (values.size() > 127) { umon1 = values[127]; }
+    if (values.size() > 128) { umon2 = values[128]; }
+    if (values.size() > 129) { umon3 = values[129]; }
+    if (values.size() > 130) { umon4 = values[130]; }
+    if (values.size() > 131) { umon5 = values[131]; }
+    if (values.size() > 132) { umon6 = values[132]; }
+    if (values.size() > 133) { umon7 = values[133]; }
+    if (values.size() > 134) { umon8 = values[134]; }
+    if (values.size() > 152) { cmon1 = values[152]; }
+    if (values.size() > 153) { cmon2 = values[153]; }
+    if (values.size() > 154) { cmon3 = values[154]; }
+    if (values.size() > 155) { cmon4 = values[155]; }
+    if (values.size() > 156) { cpct1 = values[156][0] == '\0' ? 0 : std::stoi(values[156]); }
+    if (values.size() > 157) { cpct2 = values[157][0] == '\0' ? 0 : std::stoi(values[157]); }
+    if (values.size() > 158) { cpct3 = values[158][0] == '\0' ? 0 : std::stoi(values[158]); }
+    if (values.size() > 159) { cpct4 = values[159][0] == '\0' ? 0 : std::stoi(values[159]); }
+    if (values.size() > 164) { Themes = values[164][0] == '\0' ? 0 : std::stoi(values[164]); }
+    if (values.size() > 165) { SoundEnv = values[165][0] == '\0' ? 0 : std::stoi(values[165]); }
+    if (values.size() > 166) { Waypoint = values[166][0] == '\0' ? 0 : std::stoi(values[166]); }
+    if (values.size() > 167) { LevelName = values[167]; }
+    if (values.size() > 168) { LevelWarp = values[168]; }
+    if (values.size() > 169) { LevelEntry = values[169]; }
+    if (values.size() > 170) { ObjGrp0 = values[170][0] == '\0' ? 0 : std::stoi(values[170]); }
+    if (values.size() > 171) { ObjGrp1 = values[171][0] == '\0' ? 0 : std::stoi(values[171]); }
+    if (values.size() > 172) { ObjGrp2 = values[172][0] == '\0' ? 0 : std::stoi(values[172]); }
+    if (values.size() > 173) { ObjGrp3 = values[173][0] == '\0' ? 0 : std::stoi(values[173]); }
+    if (values.size() > 174) { ObjGrp4 = values[174][0] == '\0' ? 0 : std::stoi(values[174]); }
+    if (values.size() > 175) { ObjGrp5 = values[175][0] == '\0' ? 0 : std::stoi(values[175]); }
+    if (values.size() > 176) { ObjGrp6 = values[176][0] == '\0' ? 0 : std::stoi(values[176]); }
+    if (values.size() > 177) { ObjGrp7 = values[177][0] == '\0' ? 0 : std::stoi(values[177]); }
+    if (values.size() > 178) { ObjPrb0 = values[178][0] == '\0' ? 0 : std::stoi(values[178]); }
+    if (values.size() > 179) { ObjPrb1 = values[179][0] == '\0' ? 0 : std::stoi(values[179]); }
+    if (values.size() > 180) { ObjPrb2 = values[180][0] == '\0' ? 0 : std::stoi(values[180]); }
+    if (values.size() > 181) { ObjPrb3 = values[181][0] == '\0' ? 0 : std::stoi(values[181]); }
+    if (values.size() > 182) { ObjPrb4 = values[182][0] == '\0' ? 0 : std::stoi(values[182]); }
+    if (values.size() > 183) { ObjPrb5 = values[183][0] == '\0' ? 0 : std::stoi(values[183]); }
+    if (values.size() > 184) { ObjPrb6 = values[184][0] == '\0' ? 0 : std::stoi(values[184]); }
+    if (values.size() > 185) { ObjPrb7 = values[185][0] == '\0' ? 0 : std::stoi(values[185]); }
+    if (values.size() > 186) { LevelGroup = values[186]; }
+    if (values.size() > 187) { PreventTownPortal = values[187][0] == '\0' ? 0 : std::stoi(values[187]); }
 
     return values.size();
   }
@@ -2766,6 +2768,42 @@ namespace D2::ROTW {
     return ret;
   }
 
+  size_t t_moncalc::read(const char* line) {
+    std::vector<std::string> values;
+    std::stringstream ss(line);
+    std::string value;
+
+    while (std::getline(ss, value, '\t')) {
+      values.push_back(value);
+    }
+
+    if (values.size() > 0) { code = values[0]; }
+    if (values.size() > 1) { description = values[1]; }
+
+    return values.size();
+  }
+
+  std::vector<t_moncalc> t_moncalc::readfile(std::string filename) {
+    std::vector<t_moncalc> ret;
+    std::ifstream file(filename);
+
+    if (!file.is_open()) {
+      return ret; // Return empty vector if file cannot be opened
+    }
+
+    std::string line;
+    if (!std::getline(file, line)) {
+      return ret; // Return empty vector if file is empty
+    }
+    while (std::getline(file, line)) {
+      t_moncalc v;
+      v.read(line.c_str());
+      ret.push_back(v);
+    }
+
+    return ret;
+  }
+
   size_t t_monequip::read(const char* line) {
     std::vector<std::string> values;
     std::stringstream ss(line);
@@ -2927,16 +2965,27 @@ namespace D2::ROTW {
     if (values.size() > 0) { monster = values[0]; }
     if (values.size() > 1) { index = values[1][0] == '\0' ? 0 : std::stoi(values[1]); }
     if (values.size() > 2) { hirelingAlternateVoice = values[2][0] == '\0' ? 0 : std::stoi(values[2]); }
-    if (values.size() > 3) { consumestat1 = values[3]; }
-    if (values.size() > 4) { consumepar1 = values[4]; }
-    if (values.size() > 5) { consumecalc1 = values[5]; }
-    if (values.size() > 6) { consumestat2 = values[6]; }
-    if (values.size() > 8) { consumecalc2 = values[8]; }
-    if (values.size() > 9) { consumestat3 = values[9]; }
-    if (values.size() > 10) { consumepar3 = values[10]; }
-    if (values.size() > 11) { consumecalc3 = values[11]; }
-    if (values.size() > 18) { numunderlingcalc = values[18][0] == '\0' ? 0 : std::stoi(values[18]); }
-    if (values.size() > 19) { bindchancecalc = values[19]; }
+    if (values.size() > 3) { calc1 = values[3]; }
+    if (values.size() > 4) { calc1desc = values[4]; }
+    if (values.size() > 5) { calc2 = values[5]; }
+    if (values.size() > 6) { calc2desc = values[6]; }
+    if (values.size() > 7) { calc3 = values[7]; }
+    if (values.size() > 8) { calc3desc = values[8]; }
+    if (values.size() > 9) { calc4 = values[9]; }
+    if (values.size() > 10) { calc4desc = values[10]; }
+    if (values.size() > 11) { calc5 = values[11]; }
+    if (values.size() > 12) { calc5desc = values[12]; }
+    if (values.size() > 13) { consumestat1 = values[13]; }
+    if (values.size() > 15) { consumecalc1 = values[15]; }
+    if (values.size() > 16) { consumestat2 = values[16]; }
+    if (values.size() > 18) { consumecalc2 = values[18]; }
+    if (values.size() > 19) { consumestat3 = values[19]; }
+    if (values.size() > 20) { consumepar3 = values[20]; }
+    if (values.size() > 21) { consumecalc3 = values[21]; }
+    if (values.size() > 28) { numunderlingcalc = values[28][0] == '\0' ? 0 : std::stoi(values[28]); }
+    if (values.size() > 29) { bindchancecalc = values[29]; }
+    if (values.size() > 30) { BoundStat1 = values[30]; }
+    if (values.size() > 31) { BoundCalc1 = values[31]; }
 
     return values.size();
   }
@@ -5947,7 +5996,6 @@ namespace D2::ROTW {
     if (values.size() > 2) { version = values[2][0] == '\0' ? 0 : std::stoi(values[2]); }
     if (values.size() > 4) { spawnable = values[4][0] == '\0' ? 0 : std::stoi(values[4]); }
     if (values.size() > 5) { disableChronicle = values[5][0] == '\0' ? 0 : std::stoi(values[5]); }
-    if (values.size() > 6) { DropConditionCalc = values[6]; }
     if (values.size() > 7) { firstLadderSeason = values[7][0] == '\0' ? 0 : std::stoi(values[7]); }
     if (values.size() > 8) { lastLadderSeason = values[8][0] == '\0' ? 0 : std::stoi(values[8]); }
     if (values.size() > 9) { rarity = values[9][0] == '\0' ? 0 : std::stoi(values[9]); }

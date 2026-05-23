@@ -464,6 +464,8 @@ namespace D2::ROTW {
     // Unused column: item10loc
     int32_t item10count = 0;	// Column 81
     int32_t item10quality = 0;	// Column 82
+    std::string TwoHandedOffHandRestrictItemType = "";	// Column 83
+    // Unused column: TwoHandedDamageAsOneHanded
 
     size_t read(const char* line);
     static std::vector<t_charstats> readfile(std::string filename);
@@ -1079,73 +1081,74 @@ namespace D2::ROTW {
     int32_t SizeYH = 0;	// Column 13
     int32_t OffsetX = 0;	// Column 14
     int32_t OffsetY = 0;	// Column 15
-    int32_t Depend = 0;	// Column 16
-    int32_t Teleport = 0;	// Column 17
-    int32_t Rain = 0;	// Column 18
-    int32_t Mud = 0;	// Column 19
-    int32_t NoPer = 0;	// Column 20
-    int32_t LOSDraw = 0;	// Column 21
-    int32_t FloorFilter = 0;	// Column 22
-    int32_t BlankScreen = 0;	// Column 23
-    int32_t DrawEdges = 0;	// Column 24
-    int32_t IsInside = 0;	// Column 25
-    int32_t DrlgType = 0;	// Column 26
-    int32_t LevelType = 0;	// Column 27
-    int32_t SubType = 0;	// Column 28
-    int32_t SubTheme = 0;	// Column 29
-    int32_t SubWaypoint = 0;	// Column 30
-    int32_t SubShrine = 0;	// Column 31
-    int32_t Vis0 = 0;	// Column 32
-    int32_t Vis1 = 0;	// Column 33
-    int32_t Vis2 = 0;	// Column 34
-    int32_t Vis3 = 0;	// Column 35
-    int32_t Vis4 = 0;	// Column 36
-    int32_t Vis5 = 0;	// Column 37
-    int32_t Vis6 = 0;	// Column 38
-    int32_t Vis7 = 0;	// Column 39
-    int32_t Warp0 = 0;	// Column 40
-    int32_t Warp1 = 0;	// Column 41
-    int32_t Warp2 = 0;	// Column 42
-    int32_t Warp3 = 0;	// Column 43
-    int32_t Warp4 = 0;	// Column 44
-    int32_t Warp5 = 0;	// Column 45
-    int32_t Warp6 = 0;	// Column 46
-    int32_t Warp7 = 0;	// Column 47
-    int32_t Intensity = 0;	// Column 48
-    int32_t Red = 0;	// Column 49
-    int32_t Green = 0;	// Column 50
-    int32_t Blue = 0;	// Column 51
-    int32_t Portal = 0;	// Column 52
-    int32_t Position = 0;	// Column 53
-    int32_t SaveMonsters = 0;	// Column 54
-    int32_t Quest = 0;	// Column 55
-    int32_t WarpDist = 0;	// Column 56
-    int32_t MonLvl = 0;	// Column 57
-    int32_t MonLvlN = 0;	// Column 58
-    int32_t MonLvlH = 0;	// Column 59
-    int32_t MonLvlEx = 0;	// Column 60
-    int32_t MonLvlExN = 0;	// Column 61
-    int32_t MonLvlExH = 0;	// Column 62
-    int32_t MonDen = 0;	// Column 63
-    int32_t MonDenN = 0;	// Column 64
-    int32_t MonDenH = 0;	// Column 65
-    int32_t MonUMin = 0;	// Column 66
-    int32_t MonUMax = 0;	// Column 67
-    int32_t MonUMinN = 0;	// Column 68
-    int32_t MonUMaxN = 0;	// Column 69
-    int32_t MonUMinH = 0;	// Column 70
-    int32_t MonUMaxH = 0;	// Column 71
-    int32_t MonWndr = 0;	// Column 72
-    int32_t MonSpcWalk = 0;	// Column 73
-    int32_t NumMon = 0;	// Column 74
-    std::string mon1 = "";	// Column 75
-    std::string mon2 = "";	// Column 76
-    std::string mon3 = "";	// Column 77
-    std::string mon4 = "";	// Column 78
-    std::string mon5 = "";	// Column 79
-    std::string mon6 = "";	// Column 80
-    std::string mon7 = "";	// Column 81
-    std::string mon8 = "";	// Column 82
+    int32_t CompletionTotalRoomsOverride = 0;	// Column 16
+    int32_t Depend = 0;	// Column 17
+    int32_t Teleport = 0;	// Column 18
+    int32_t Rain = 0;	// Column 19
+    int32_t Mud = 0;	// Column 20
+    int32_t NoPer = 0;	// Column 21
+    int32_t LOSDraw = 0;	// Column 22
+    int32_t FloorFilter = 0;	// Column 23
+    int32_t BlankScreen = 0;	// Column 24
+    int32_t DrawEdges = 0;	// Column 25
+    int32_t IsInside = 0;	// Column 26
+    int32_t DrlgType = 0;	// Column 27
+    int32_t LevelType = 0;	// Column 28
+    int32_t SubType = 0;	// Column 29
+    int32_t SubTheme = 0;	// Column 30
+    int32_t SubWaypoint = 0;	// Column 31
+    int32_t SubShrine = 0;	// Column 32
+    int32_t Vis0 = 0;	// Column 33
+    int32_t Vis1 = 0;	// Column 34
+    int32_t Vis2 = 0;	// Column 35
+    int32_t Vis3 = 0;	// Column 36
+    int32_t Vis4 = 0;	// Column 37
+    int32_t Vis5 = 0;	// Column 38
+    int32_t Vis6 = 0;	// Column 39
+    int32_t Vis7 = 0;	// Column 40
+    int32_t Warp0 = 0;	// Column 41
+    int32_t Warp1 = 0;	// Column 42
+    int32_t Warp2 = 0;	// Column 43
+    int32_t Warp3 = 0;	// Column 44
+    int32_t Warp4 = 0;	// Column 45
+    int32_t Warp5 = 0;	// Column 46
+    int32_t Warp6 = 0;	// Column 47
+    int32_t Warp7 = 0;	// Column 48
+    int32_t Intensity = 0;	// Column 49
+    int32_t Red = 0;	// Column 50
+    int32_t Green = 0;	// Column 51
+    int32_t Blue = 0;	// Column 52
+    int32_t Portal = 0;	// Column 53
+    int32_t Position = 0;	// Column 54
+    int32_t SaveMonsters = 0;	// Column 55
+    int32_t Quest = 0;	// Column 56
+    int32_t WarpDist = 0;	// Column 57
+    int32_t MonLvl = 0;	// Column 58
+    int32_t MonLvlN = 0;	// Column 59
+    int32_t MonLvlH = 0;	// Column 60
+    int32_t MonLvlEx = 0;	// Column 61
+    int32_t MonLvlExN = 0;	// Column 62
+    int32_t MonLvlExH = 0;	// Column 63
+    int32_t MonDen = 0;	// Column 64
+    int32_t MonDenN = 0;	// Column 65
+    int32_t MonDenH = 0;	// Column 66
+    int32_t MonUMin = 0;	// Column 67
+    int32_t MonUMax = 0;	// Column 68
+    int32_t MonUMinN = 0;	// Column 69
+    int32_t MonUMaxN = 0;	// Column 70
+    int32_t MonUMinH = 0;	// Column 71
+    int32_t MonUMaxH = 0;	// Column 72
+    int32_t MonWndr = 0;	// Column 73
+    int32_t MonSpcWalk = 0;	// Column 74
+    int32_t NumMon = 0;	// Column 75
+    std::string mon1 = "";	// Column 76
+    std::string mon2 = "";	// Column 77
+    std::string mon3 = "";	// Column 78
+    std::string mon4 = "";	// Column 79
+    std::string mon5 = "";	// Column 80
+    std::string mon6 = "";	// Column 81
+    std::string mon7 = "";	// Column 82
+    std::string mon8 = "";	// Column 83
     // Unused column: mon9
     // Unused column: mon10
     // Unused column: mon11
@@ -1163,17 +1166,17 @@ namespace D2::ROTW {
     // Unused column: mon23
     // Unused column: mon24
     // Unused column: mon25
-    int32_t rangedspawn = 0;	// Column 100
-    std::string nmon1 = "";	// Column 101
-    std::string nmon2 = "";	// Column 102
-    std::string nmon3 = "";	// Column 103
-    std::string nmon4 = "";	// Column 104
-    std::string nmon5 = "";	// Column 105
-    std::string nmon6 = "";	// Column 106
-    std::string nmon7 = "";	// Column 107
-    std::string nmon8 = "";	// Column 108
-    std::string nmon9 = "";	// Column 109
-    std::string nmon10 = "";	// Column 110
+    int32_t rangedspawn = 0;	// Column 101
+    std::string nmon1 = "";	// Column 102
+    std::string nmon2 = "";	// Column 103
+    std::string nmon3 = "";	// Column 104
+    std::string nmon4 = "";	// Column 105
+    std::string nmon5 = "";	// Column 106
+    std::string nmon6 = "";	// Column 107
+    std::string nmon7 = "";	// Column 108
+    std::string nmon8 = "";	// Column 109
+    std::string nmon9 = "";	// Column 110
+    std::string nmon10 = "";	// Column 111
     // Unused column: nmon11
     // Unused column: nmon12
     // Unused column: nmon13
@@ -1189,14 +1192,14 @@ namespace D2::ROTW {
     // Unused column: nmon23
     // Unused column: nmon24
     // Unused column: nmon25
-    std::string umon1 = "";	// Column 126
-    std::string umon2 = "";	// Column 127
-    std::string umon3 = "";	// Column 128
-    std::string umon4 = "";	// Column 129
-    std::string umon5 = "";	// Column 130
-    std::string umon6 = "";	// Column 131
-    std::string umon7 = "";	// Column 132
-    std::string umon8 = "";	// Column 133
+    std::string umon1 = "";	// Column 127
+    std::string umon2 = "";	// Column 128
+    std::string umon3 = "";	// Column 129
+    std::string umon4 = "";	// Column 130
+    std::string umon5 = "";	// Column 131
+    std::string umon6 = "";	// Column 132
+    std::string umon7 = "";	// Column 133
+    std::string umon8 = "";	// Column 134
     // Unused column: umon9
     // Unused column: umon10
     // Unused column: umon11
@@ -1214,42 +1217,42 @@ namespace D2::ROTW {
     // Unused column: umon23
     // Unused column: umon24
     // Unused column: umon25
-    std::string cmon1 = "";	// Column 151
-    std::string cmon2 = "";	// Column 152
-    std::string cmon3 = "";	// Column 153
-    std::string cmon4 = "";	// Column 154
-    int32_t cpct1 = 0;	// Column 155
-    int32_t cpct2 = 0;	// Column 156
-    int32_t cpct3 = 0;	// Column 157
-    int32_t cpct4 = 0;	// Column 158
+    std::string cmon1 = "";	// Column 152
+    std::string cmon2 = "";	// Column 153
+    std::string cmon3 = "";	// Column 154
+    std::string cmon4 = "";	// Column 155
+    int32_t cpct1 = 0;	// Column 156
+    int32_t cpct2 = 0;	// Column 157
+    int32_t cpct3 = 0;	// Column 158
+    int32_t cpct4 = 0;	// Column 159
     // Unused column: camt1
     // Unused column: camt2
     // Unused column: camt3
     // Unused column: camt4
-    int32_t Themes = 0;	// Column 163
-    int32_t SoundEnv = 0;	// Column 164
-    int32_t Waypoint = 0;	// Column 165
-    std::string LevelName = "";	// Column 166
-    std::string LevelWarp = "";	// Column 167
-    std::string LevelEntry = "";	// Column 168
-    int32_t ObjGrp0 = 0;	// Column 169
-    int32_t ObjGrp1 = 0;	// Column 170
-    int32_t ObjGrp2 = 0;	// Column 171
-    int32_t ObjGrp3 = 0;	// Column 172
-    int32_t ObjGrp4 = 0;	// Column 173
-    int32_t ObjGrp5 = 0;	// Column 174
-    int32_t ObjGrp6 = 0;	// Column 175
-    int32_t ObjGrp7 = 0;	// Column 176
-    int32_t ObjPrb0 = 0;	// Column 177
-    int32_t ObjPrb1 = 0;	// Column 178
-    int32_t ObjPrb2 = 0;	// Column 179
-    int32_t ObjPrb3 = 0;	// Column 180
-    int32_t ObjPrb4 = 0;	// Column 181
-    int32_t ObjPrb5 = 0;	// Column 182
-    int32_t ObjPrb6 = 0;	// Column 183
-    int32_t ObjPrb7 = 0;	// Column 184
-    std::string LevelGroup = "";	// Column 185
-    int32_t PreventTownPortal = 0;	// Column 186
+    int32_t Themes = 0;	// Column 164
+    int32_t SoundEnv = 0;	// Column 165
+    int32_t Waypoint = 0;	// Column 166
+    std::string LevelName = "";	// Column 167
+    std::string LevelWarp = "";	// Column 168
+    std::string LevelEntry = "";	// Column 169
+    int32_t ObjGrp0 = 0;	// Column 170
+    int32_t ObjGrp1 = 0;	// Column 171
+    int32_t ObjGrp2 = 0;	// Column 172
+    int32_t ObjGrp3 = 0;	// Column 173
+    int32_t ObjGrp4 = 0;	// Column 174
+    int32_t ObjGrp5 = 0;	// Column 175
+    int32_t ObjGrp6 = 0;	// Column 176
+    int32_t ObjGrp7 = 0;	// Column 177
+    int32_t ObjPrb0 = 0;	// Column 178
+    int32_t ObjPrb1 = 0;	// Column 179
+    int32_t ObjPrb2 = 0;	// Column 180
+    int32_t ObjPrb3 = 0;	// Column 181
+    int32_t ObjPrb4 = 0;	// Column 182
+    int32_t ObjPrb5 = 0;	// Column 183
+    int32_t ObjPrb6 = 0;	// Column 184
+    int32_t ObjPrb7 = 0;	// Column 185
+    std::string LevelGroup = "";	// Column 186
+    int32_t PreventTownPortal = 0;	// Column 187
 
     size_t read(const char* line);
     static std::vector<t_levels> readfile(std::string filename);
@@ -1865,6 +1868,14 @@ namespace D2::ROTW {
     static std::vector<t_monai> readfile(std::string filename);
   };
 
+  struct t_moncalc {
+    std::string code = "";	// Column 0
+    std::string description = "";	// Column 1
+
+    size_t read(const char* line);
+    static std::vector<t_moncalc> readfile(std::string filename);
+  };
+
   struct t_monequip {
     std::string monster = "";	// Column 0
     int32_t oninit = 0;	// Column 1
@@ -1934,23 +1945,43 @@ namespace D2::ROTW {
     std::string monster = "";	// Column 0
     int32_t index = 0;	// Column 1
     int32_t hirelingAlternateVoice = 0;	// Column 2
-    std::string consumestat1 = "";	// Column 3
-    std::string consumepar1 = "";	// Column 4
-    std::string consumecalc1 = "";	// Column 5
-    std::string consumestat2 = "";	// Column 6
+    std::string calc1 = "";	// Column 3
+    std::string calc1desc = "";	// Column 4
+    std::string calc2 = "";	// Column 5
+    std::string calc2desc = "";	// Column 6
+    std::string calc3 = "";	// Column 7
+    std::string calc3desc = "";	// Column 8
+    std::string calc4 = "";	// Column 9
+    std::string calc4desc = "";	// Column 10
+    std::string calc5 = "";	// Column 11
+    std::string calc5desc = "";	// Column 12
+    std::string consumestat1 = "";	// Column 13
+    // Unused column: consumepar1
+    std::string consumecalc1 = "";	// Column 15
+    std::string consumestat2 = "";	// Column 16
     // Unused column: consumepar2
-    std::string consumecalc2 = "";	// Column 8
-    std::string consumestat3 = "";	// Column 9
-    std::string consumepar3 = "";	// Column 10
-    std::string consumecalc3 = "";	// Column 11
+    std::string consumecalc2 = "";	// Column 18
+    std::string consumestat3 = "";	// Column 19
+    std::string consumepar3 = "";	// Column 20
+    std::string consumecalc3 = "";	// Column 21
     // Unused column: consumestat4
     // Unused column: consumepar4
     // Unused column: consumecalc4
     // Unused column: consumestat5
     // Unused column: consumepar5
     // Unused column: consumecalc5
-    int32_t numunderlingcalc = 0;	// Column 18
-    std::string bindchancecalc = "";	// Column 19
+    int32_t numunderlingcalc = 0;	// Column 28
+    std::string bindchancecalc = "";	// Column 29
+    std::string BoundStat1 = "";	// Column 30
+    std::string BoundCalc1 = "";	// Column 31
+    // Unused column: BoundStat2
+    // Unused column: BoundCalc2
+    // Unused column: BoundStat3
+    // Unused column: BoundCalc3
+    // Unused column: BoundStat4
+    // Unused column: BoundCalc4
+    // Unused column: BoundStat5
+    // Unused column: BoundCalc5
 
     size_t read(const char* line);
     static std::vector<t_monpet> readfile(std::string filename);
@@ -4067,7 +4098,7 @@ namespace D2::ROTW {
     // Unused column: disabled
     int32_t spawnable = 0;	// Column 4
     int32_t disableChronicle = 0;	// Column 5
-    std::string DropConditionCalc = "";	// Column 6
+    // Unused column: DropConditionCalc
     int32_t firstLadderSeason = 0;	// Column 7
     int32_t lastLadderSeason = 0;	// Column 8
     int32_t rarity = 0;	// Column 9
