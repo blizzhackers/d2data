@@ -1,0 +1,38 @@
+{
+ "0": {
+  "code": "hpct",
+  "*description": "Percentage of health points remaining"
+ },
+ "1": {
+  "code": "diff",
+  "*description": "\"Difficulty the monster was created in (1=normal, 2=nightmare, 3=hell)\""
+ },
+ "2": {
+  "code": "lvl",
+  "*description": "Current level of the monster"
+ },
+ "3": {
+  "code": "elte",
+  "*description": "\"Elite type of the monster (0=normal, 1=unique, 2=champion, 3=super, 4=minion, 5=herald, 6=herald minion)\""
+ },
+ "4": {
+  "code": "pcl1",
+  "*description": "The associated MonPet entry's calc1 field value"
+ },
+ "5": {
+  "code": "pcl2",
+  "*description": "The associated MonPet entry's calc2 field value"
+ },
+ "6": {
+  "code": "pcl3",
+  "*description": "The associated MonPet entry's calc3 field value"
+ },
+ "7": {
+  "code": "pcl4",
+  "*description": "The associated MonPet entry's calc4 field value"
+ },
+ "8": {
+  "code": "pcl5",
+  "*description": "The associated MonPet entry's calc5 field value"
+ }
+}

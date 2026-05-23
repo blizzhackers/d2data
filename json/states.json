@@ -145,6 +145,9 @@
  "bind_demon": {
   "state": "bind_demon",
   "*ID": 207,
+  "monstaydeath": 1,
+  "bossstaydeath": 1,
+  "udead": 1,
   "overlay1": "warlockdemonground",
   "overlay2": "warlockdemontorso",
   "setfunc": 19,
@@ -155,6 +158,9 @@
  "bind_demon_underling": {
   "state": "bind_demon_underling",
   "*ID": 227,
+  "monstaydeath": 1,
+  "bossstaydeath": 1,
+  "udead": 1,
   "setfunc": 19,
   "colorpri": 70,
   "colorshift": 130,
@@ -261,17 +267,20 @@
  "chroniclebacklight": {
   "state": "chroniclebacklight",
   "*ID": 218,
+  "plrstaydeath": 1,
   "overlay1": "chronicle_backlight",
   "lineNumber": 218
  },
  "chroniclefootprints": {
   "state": "chroniclefootprints",
   "*ID": 219,
+  "plrstaydeath": 1,
   "lineNumber": 219
  },
  "chronicleportal": {
   "state": "chronicleportal",
   "*ID": 220,
+  "plrstaydeath": 1,
   "stat": "customization_index",
   "lineNumber": 220
  },
@@ -1105,6 +1114,11 @@
   "group": 1,
   "overlay1": "bladeshield",
   "lineNumber": 203
+ },
+ "missilelimit": {
+  "state": "missilelimit",
+  "*ID": 230,
+  "lineNumber": 230
  },
  "monfrenzy": {
   "state": "monfrenzy",

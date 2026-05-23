@@ -392,6 +392,8 @@
   "enabled": 1,
   "version": 100,
   "xfer": 0,
+  "constants": 75,
+  "*constant desc": "Proc chance for the curse mod",
   "expansion": 1,
   "lineNumber": 34
  },
@@ -401,6 +403,8 @@
   "enabled": 1,
   "version": 100,
   "xfer": 0,
+  "constants": 15,
+  "*constant desc": "Alternate proc chance for the curse mod",
   "expansion": 1,
   "lineNumber": 35
  },
@@ -414,6 +418,8 @@
   "cpick": 1,
   "cpick (N)": 1,
   "cpick (H)": 1,
+  "constants": -1,
+  "*constant desc": "Herald Spawner Missile index",
   "expansion": 1,
   "lineNumber": 36
  },
