@@ -122,7 +122,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Cpot A",
   "Prob2": 1,
-  "lineNumber": 649
+  "lineNumber": 655
  },
  "Act 1 (H) Champ A Desecrated": {
   "Treasure Class": "Act 1 (H) Champ A Desecrated",
@@ -132,7 +132,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Champ A",
   "Prob1": 1,
-  "lineNumber": 1178
+  "lineNumber": 1190
  },
  "Act 1 (H) Champ B": {
   "Treasure Class": "Act 1 (H) Champ B",
@@ -144,7 +144,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Cpot B",
   "Prob2": 1,
-  "lineNumber": 650
+  "lineNumber": 656
  },
  "Act 1 (H) Champ B Desecrated": {
   "Treasure Class": "Act 1 (H) Champ B Desecrated",
@@ -154,7 +154,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Champ B",
   "Prob1": 1,
-  "lineNumber": 1179
+  "lineNumber": 1191
  },
  "Act 1 (H) Champ C": {
   "Treasure Class": "Act 1 (H) Champ C",
@@ -166,7 +166,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Cpot C",
   "Prob2": 1,
-  "lineNumber": 651
+  "lineNumber": 657
  },
  "Act 1 (H) Champ C Desecrated": {
   "Treasure Class": "Act 1 (H) Champ C Desecrated",
@@ -176,7 +176,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Champ C",
   "Prob1": 1,
-  "lineNumber": 1180
+  "lineNumber": 1192
  },
  "Act 1 (H) Chest A": {
   "Treasure Class": "Act 1 (H) Chest A",
@@ -240,15 +240,34 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
+  "Prob1": 84,
+  "Item2": "Act 1 (H) Equip A",
+  "Prob2": 41,
+  "Item3": "Act 1 (H) Good",
+  "Prob3": 5,
+  "Item4": "Act 3 Worldstone Shard Parent Citem A",
+  "Prob4": 3,
+  "lineNumber": 570,
+  "*ItemProbTotal": 133
+ },
+ "Act 1 (H) Citem A Shard": {
+  "Treasure Class": "Act 1 (H) Citem A Shard",
+  "group": 11,
+  "level": 63,
+  "Picks": 1,
+  "Unique": 800,
+  "Set": 800,
+  "Rare": 800,
+  "Magic": 1024,
+  "NoDrop": 0,
+  "Item1": "\"gld,mul=1280\"",
   "Prob1": 60,
   "Item2": "Act 1 (H) Equip A",
   "Prob2": 37,
   "Item3": "Act 1 (H) Good",
   "Prob3": 3,
-  "Item4": "Act 3 Worldstone Shard Parent",
-  "Prob4": 3,
-  "lineNumber": 564,
-  "*ItemProbTotal": 103
+  "lineNumber": 536,
+  "*ItemProbTotal": 100
  },
  "Act 1 (H) Citem B": {
   "Treasure Class": "Act 1 (H) Citem B",
@@ -261,15 +280,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 1 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 1 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 3 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 3 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 565,
-  "*ItemProbTotal": 103
+  "lineNumber": 571,
+  "*ItemProbTotal": 133
  },
  "Act 1 (H) Citem C": {
   "Treasure Class": "Act 1 (H) Citem C",
@@ -282,15 +301,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 1 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 1 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 3 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 3 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 566,
-  "*ItemProbTotal": 103
+  "lineNumber": 572,
+  "*ItemProbTotal": 133
  },
  "Act 1 (H) Cpot A": {
   "Treasure Class": "Act 1 (H) Cpot A",
@@ -307,7 +326,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 606,
+  "lineNumber": 612,
   "*ItemProbTotal": 15
  },
  "Act 1 (H) Cpot B": {
@@ -325,7 +344,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 607,
+  "lineNumber": 613,
   "*ItemProbTotal": 15
  },
  "Act 1 (H) Cpot C": {
@@ -343,7 +362,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 608,
+  "lineNumber": 614,
   "*ItemProbTotal": 15
  },
  "Act 1 (H) Equip A": {
@@ -395,7 +414,7 @@
   "Prob8": 3,
   "Item9": "Act 5 (N) Equip C Desecrated Herald",
   "Prob9": 1200,
-  "lineNumber": 1268,
+  "lineNumber": 1280,
   "*ItemProbTotal": 1242
  },
  "Act 1 (H) Equip B": {
@@ -447,7 +466,7 @@
   "Prob8": 1,
   "Item9": "Act 1 (H) Equip A Desecrated Herald",
   "Prob9": 1225,
-  "lineNumber": 1269,
+  "lineNumber": 1281,
   "*ItemProbTotal": 1261
  },
  "Act 1 (H) Equip C": {
@@ -499,7 +518,7 @@
   "Prob8": 3,
   "Item9": "Act 1 (H) Equip B Desecrated Herald",
   "Prob9": 1225,
-  "lineNumber": 1270,
+  "lineNumber": 1282,
   "*ItemProbTotal": 1267
  },
  "Act 1 (H) Good": {
@@ -537,7 +556,7 @@
   "Prob5": 28,
   "Item6": "Runes 13",
   "Prob6": 18,
-  "lineNumber": 1283,
+  "lineNumber": 1295,
   "*ItemProbTotal": 134
  },
  "Act 1 (H) H2H A": {
@@ -609,7 +628,7 @@
   "Prob3": 1,
   "Item4": "Act 1 (H) Cpot A",
   "Prob4": 2,
-  "lineNumber": 1330
+  "lineNumber": 1343
  },
  "Act 1 (H) Herald B": {
   "Treasure Class": "Act 1 (H) Herald B",
@@ -629,7 +648,7 @@
   "Prob3": 1,
   "Item4": "Act 1 (H) Cpot B",
   "Prob4": 2,
-  "lineNumber": 1331
+  "lineNumber": 1344
  },
  "Act 1 (H) Herald C": {
   "Treasure Class": "Act 1 (H) Herald C",
@@ -649,7 +668,7 @@
   "Prob3": 1,
   "Item4": "Act 1 (H) Cpot C",
   "Prob4": 2,
-  "lineNumber": 1332
+  "lineNumber": 1345
  },
  "Act 1 (H) Herald Item A": {
   "Treasure Class": "Act 1 (H) Herald Item A",
@@ -663,38 +682,38 @@
   "Prob1": 360,
   "Item2": "Act 1 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1288,
+  "lineNumber": 1301,
   "*ItemProbTotal": 407
  },
  "Act 1 (H) Herald Item A - 1 Extra": {
   "Treasure Class": "Act 1 (H) Herald Item A - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Herald Item A",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1302
+  "lineNumber": 1315
  },
  "Act 1 (H) Herald Item A - 2 Extra": {
   "Treasure Class": "Act 1 (H) Herald Item A - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Herald Item A",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1316
+  "lineNumber": 1329
  },
  "Act 1 (H) Herald Item B": {
   "Treasure Class": "Act 1 (H) Herald Item B",
@@ -708,38 +727,38 @@
   "Prob1": 360,
   "Item2": "Act 1 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1289,
+  "lineNumber": 1302,
   "*ItemProbTotal": 407
  },
  "Act 1 (H) Herald Item B - 1 Extra": {
   "Treasure Class": "Act 1 (H) Herald Item B - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Herald Item B",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1303
+  "lineNumber": 1316
  },
  "Act 1 (H) Herald Item B - 2 Extra": {
   "Treasure Class": "Act 1 (H) Herald Item B - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Herald Item B",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1317
+  "lineNumber": 1330
  },
  "Act 1 (H) Herald Item C": {
   "Treasure Class": "Act 1 (H) Herald Item C",
@@ -753,38 +772,52 @@
   "Prob1": 360,
   "Item2": "Act 1 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1290,
+  "lineNumber": 1303,
   "*ItemProbTotal": 407
  },
  "Act 1 (H) Herald Item C - 1 Extra": {
   "Treasure Class": "Act 1 (H) Herald Item C - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Herald Item C",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1304
+  "lineNumber": 1317
  },
  "Act 1 (H) Herald Item C - 2 Extra": {
   "Treasure Class": "Act 1 (H) Herald Item C - 2 Extra",
+  "Picks": -2,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
+  "Magic": 1024,
+  "NoDrop": 0,
+  "Item1": "Act 1 (H) Herald Item C",
+  "Prob1": 2,
+  "ConditionCalc": "(stat('heraldtier'.accr) >4)",
+  "lineNumber": 1331
+ },
+ "Act 1 (H) Herald Item Shard": {
+  "Treasure Class": "Act 1 (H) Herald Item Shard",
   "Picks": -2,
   "Unique": 800,
   "Set": 800,
   "Rare": 850,
   "Magic": 1024,
   "NoDrop": 0,
-  "Item1": "Act 1 (H) Herald Item C",
-  "Prob1": 2,
-  "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1318
+  "Item1": "Act 1 (H) Equip A Desecrated Herald",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "lineNumber": 1300
  },
  "Act 1 (H) Junk": {
   "Treasure Class": "Act 1 (H) Junk",
@@ -965,7 +998,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1040
+  "lineNumber": 1052
  },
  "Act 1 (H) Super A Desecrated": {
   "Treasure Class": "Act 1 (H) Super A Desecrated",
@@ -975,7 +1008,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Super A",
   "Prob1": 1,
-  "lineNumber": 1206
+  "lineNumber": 1218
  },
  "Act 1 (H) Super Ax": {
   "Treasure Class": "Act 1 (H) Super Ax",
@@ -991,7 +1024,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1085
+  "lineNumber": 1097
  },
  "Act 1 (H) Super Ax Desecrated": {
   "Treasure Class": "Act 1 (H) Super Ax Desecrated",
@@ -1001,7 +1034,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Super Ax",
   "Prob1": 1,
-  "lineNumber": 1221
+  "lineNumber": 1233
  },
  "Act 1 (H) Super B": {
   "Treasure Class": "Act 1 (H) Super B",
@@ -1017,7 +1050,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1041
+  "lineNumber": 1053
  },
  "Act 1 (H) Super B Desecrated": {
   "Treasure Class": "Act 1 (H) Super B Desecrated",
@@ -1027,7 +1060,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Super B",
   "Prob1": 1,
-  "lineNumber": 1207
+  "lineNumber": 1219
  },
  "Act 1 (H) Super Bx": {
   "Treasure Class": "Act 1 (H) Super Bx",
@@ -1043,7 +1076,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1086
+  "lineNumber": 1098
  },
  "Act 1 (H) Super Bx Desecrated": {
   "Treasure Class": "Act 1 (H) Super Bx Desecrated",
@@ -1053,7 +1086,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Super Bx",
   "Prob1": 1,
-  "lineNumber": 1222
+  "lineNumber": 1234
  },
  "Act 1 (H) Super C": {
   "Treasure Class": "Act 1 (H) Super C",
@@ -1069,7 +1102,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1042
+  "lineNumber": 1054
  },
  "Act 1 (H) Super C Desecrated": {
   "Treasure Class": "Act 1 (H) Super C Desecrated",
@@ -1079,7 +1112,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Super C",
   "Prob1": 1,
-  "lineNumber": 1208
+  "lineNumber": 1220
  },
  "Act 1 (H) Super Cx": {
   "Treasure Class": "Act 1 (H) Super Cx",
@@ -1095,7 +1128,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1087
+  "lineNumber": 1099
  },
  "Act 1 (H) Super Cx Desecrated": {
   "Treasure Class": "Act 1 (H) Super Cx Desecrated",
@@ -1105,7 +1138,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Super Cx",
   "Prob1": 1,
-  "lineNumber": 1223
+  "lineNumber": 1235
  },
  "Act 1 (H) Uitem A": {
   "Treasure Class": "Act 1 (H) Uitem A",
@@ -1118,13 +1151,30 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Equip A",
+  "Prob1": 75,
+  "Item2": "Act 1 (H) Good",
+  "Prob2": 6,
+  "Item3": "Act 3 Worldstone Shard Parent Uitem A",
+  "Prob3": 2,
+  "lineNumber": 703,
+  "*ItemProbTotal": 83
+ },
+ "Act 1 (H) Uitem A Shard": {
+  "Treasure Class": "Act 1 (H) Uitem A Shard",
+  "group": 14,
+  "level": 63,
+  "Picks": 1,
+  "Unique": 800,
+  "Set": 800,
+  "Rare": 800,
+  "Magic": 1024,
+  "NoDrop": 0,
+  "Item1": "Act 1 (H) Equip A",
   "Prob1": 58,
   "Item2": "Act 1 (H) Good",
   "Prob2": 4,
-  "Item3": "Act 3 Worldstone Shard Parent",
-  "Prob3": 2,
-  "lineNumber": 691,
-  "*ItemProbTotal": 64
+  "lineNumber": 669,
+  "*ItemProbTotal": 62
  },
  "Act 1 (H) Uitem B": {
   "Treasure Class": "Act 1 (H) Uitem B",
@@ -1137,13 +1187,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 1 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 3 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 3 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 692,
-  "*ItemProbTotal": 64
+  "lineNumber": 704,
+  "*ItemProbTotal": 83
  },
  "Act 1 (H) Uitem C": {
   "Treasure Class": "Act 1 (H) Uitem C",
@@ -1156,13 +1206,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 1 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 1 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 3 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 3 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 693,
-  "*ItemProbTotal": 64
+  "lineNumber": 705,
+  "*ItemProbTotal": 83
  },
  "Act 1 (H) Unique A": {
   "Treasure Class": "Act 1 (H) Unique A",
@@ -1174,7 +1224,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 733
+  "lineNumber": 745
  },
  "Act 1 (H) Unique A Desecrated": {
   "Treasure Class": "Act 1 (H) Unique A Desecrated",
@@ -1184,7 +1234,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Unique A",
   "Prob1": 1,
-  "lineNumber": 1192
+  "lineNumber": 1204
  },
  "Act 1 (H) Unique B": {
   "Treasure Class": "Act 1 (H) Unique B",
@@ -1196,7 +1246,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 734
+  "lineNumber": 746
  },
  "Act 1 (H) Unique B Desecrated": {
   "Treasure Class": "Act 1 (H) Unique B Desecrated",
@@ -1206,7 +1256,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Unique B",
   "Prob1": 1,
-  "lineNumber": 1193
+  "lineNumber": 1205
  },
  "Act 1 (H) Unique C": {
   "Treasure Class": "Act 1 (H) Unique C",
@@ -1218,7 +1268,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 735
+  "lineNumber": 747
  },
  "Act 1 (H) Unique C Desecrated": {
   "Treasure Class": "Act 1 (H) Unique C Desecrated",
@@ -1228,7 +1278,7 @@
   "NoDrop": 0,
   "Item1": "Act 1 (H) Unique C",
   "Prob1": 1,
-  "lineNumber": 1194
+  "lineNumber": 1206
  },
  "Act 1 (H) Wraith A": {
   "Treasure Class": "Act 1 (H) Wraith A",
@@ -1392,7 +1442,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Cpot A",
   "Prob2": 1,
-  "lineNumber": 634
+  "lineNumber": 640
  },
  "Act 1 (N) Champ B": {
   "Treasure Class": "Act 1 (N) Champ B",
@@ -1404,7 +1454,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Cpot B",
   "Prob2": 1,
-  "lineNumber": 635
+  "lineNumber": 641
  },
  "Act 1 (N) Champ C": {
   "Treasure Class": "Act 1 (N) Champ C",
@@ -1416,7 +1466,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Cpot C",
   "Prob2": 1,
-  "lineNumber": 636
+  "lineNumber": 642
  },
  "Act 1 (N) Chest A": {
   "Treasure Class": "Act 1 (N) Chest A",
@@ -1485,7 +1535,7 @@
   "Prob2": 37,
   "Item3": "Act 1 (N) Good",
   "Prob3": 3,
-  "lineNumber": 550,
+  "lineNumber": 556,
   "*ItemProbTotal": 100
  },
  "Act 1 (N) Citem B": {
@@ -1504,7 +1554,7 @@
   "Prob2": 37,
   "Item3": "Act 1 (N) Good",
   "Prob3": 3,
-  "lineNumber": 551,
+  "lineNumber": 557,
   "*ItemProbTotal": 100
  },
  "Act 1 (N) Citem C": {
@@ -1523,7 +1573,7 @@
   "Prob2": 37,
   "Item3": "Act 1 (N) Good",
   "Prob3": 3,
-  "lineNumber": 552,
+  "lineNumber": 558,
   "*ItemProbTotal": 100
  },
  "Act 1 (N) Cpot A": {
@@ -1538,7 +1588,7 @@
   "Prob2": 2,
   "Item3": "Hpotion 6",
   "Prob3": 4,
-  "lineNumber": 592,
+  "lineNumber": 598,
   "*ItemProbTotal": 7
  },
  "Act 1 (N) Cpot B": {
@@ -1554,7 +1604,7 @@
   "Item3": "Hpotion 6",
   "Prob3": 4,
   "Prob6": 7,
-  "lineNumber": 593,
+  "lineNumber": 599,
   "*ItemProbTotal": 7
  },
  "Act 1 (N) Cpot C": {
@@ -1570,7 +1620,7 @@
   "Item3": "Hpotion 6",
   "Prob3": 4,
   "Prob6": 7,
-  "lineNumber": 594,
+  "lineNumber": 600,
   "*ItemProbTotal": 7
  },
  "Act 1 (N) Equip A": {
@@ -1622,7 +1672,7 @@
   "Prob8": 1,
   "Item9": "Act 5 Equip C Desecrated Herald",
   "Prob9": 935,
-  "lineNumber": 1253,
+  "lineNumber": 1265,
   "*ItemProbTotal": 971
  },
  "Act 1 (N) Equip B": {
@@ -1674,7 +1724,7 @@
   "Prob8": 3,
   "Item9": "Act 1 (N) Equip A Desecrated Herald",
   "Prob9": 950,
-  "lineNumber": 1254,
+  "lineNumber": 1266,
   "*ItemProbTotal": 992
  },
  "Act 1 (N) Equip C": {
@@ -1726,7 +1776,7 @@
   "Prob8": 1,
   "Item9": "Act 1 (N) Equip B Desecrated Herald",
   "Prob9": 975,
-  "lineNumber": 1255,
+  "lineNumber": 1267,
   "*ItemProbTotal": 1011
  },
  "Act 1 (N) Good": {
@@ -1979,7 +2029,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1025
+  "lineNumber": 1037
  },
  "Act 1 (N) Super Ax": {
   "Treasure Class": "Act 1 (N) Super Ax",
@@ -1995,7 +2045,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1070
+  "lineNumber": 1082
  },
  "Act 1 (N) Super B": {
   "Treasure Class": "Act 1 (N) Super B",
@@ -2011,7 +2061,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1026
+  "lineNumber": 1038
  },
  "Act 1 (N) Super Bx": {
   "Treasure Class": "Act 1 (N) Super Bx",
@@ -2027,7 +2077,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1071
+  "lineNumber": 1083
  },
  "Act 1 (N) Super C": {
   "Treasure Class": "Act 1 (N) Super C",
@@ -2043,7 +2093,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1027
+  "lineNumber": 1039
  },
  "Act 1 (N) Super Cx": {
   "Treasure Class": "Act 1 (N) Super Cx",
@@ -2059,7 +2109,7 @@
   "Prob1": 2,
   "Item2": "Act 1 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1072
+  "lineNumber": 1084
  },
  "Act 1 (N) Uitem A": {
   "Treasure Class": "Act 1 (N) Uitem A",
@@ -2075,7 +2125,7 @@
   "Prob1": 58,
   "Item2": "Act 1 (N) Good",
   "Prob2": 4,
-  "lineNumber": 677,
+  "lineNumber": 689,
   "*ItemProbTotal": 62
  },
  "Act 1 (N) Uitem B": {
@@ -2092,7 +2142,7 @@
   "Prob1": 58,
   "Item2": "Act 1 (N) Good",
   "Prob2": 4,
-  "lineNumber": 678,
+  "lineNumber": 690,
   "*ItemProbTotal": 62
  },
  "Act 1 (N) Uitem C": {
@@ -2109,7 +2159,7 @@
   "Prob1": 58,
   "Item2": "Act 1 (N) Good",
   "Prob2": 4,
-  "lineNumber": 679,
+  "lineNumber": 691,
   "*ItemProbTotal": 62
  },
  "Act 1 (N) Unique A": {
@@ -2122,7 +2172,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 719
+  "lineNumber": 731
  },
  "Act 1 (N) Unique B": {
   "Treasure Class": "Act 1 (N) Unique B",
@@ -2134,7 +2184,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 720
+  "lineNumber": 732
  },
  "Act 1 (N) Unique C": {
   "Treasure Class": "Act 1 (N) Unique C",
@@ -2146,7 +2196,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 721
+  "lineNumber": 733
  },
  "Act 1 (N) Wraith A": {
   "Treasure Class": "Act 1 (N) Wraith A",
@@ -2290,7 +2340,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Cpot A",
   "Prob2": 1,
-  "lineNumber": 620
+  "lineNumber": 626
  },
  "Act 1 Champ B": {
   "Treasure Class": "Act 1 Champ B",
@@ -2302,7 +2352,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Cpot B",
   "Prob2": 1,
-  "lineNumber": 621
+  "lineNumber": 627
  },
  "Act 1 Champ C": {
   "Treasure Class": "Act 1 Champ C",
@@ -2314,7 +2364,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Cpot C",
   "Prob2": 1,
-  "lineNumber": 622
+  "lineNumber": 628
  },
  "Act 1 Chest A": {
   "Treasure Class": "Act 1 Chest A",
@@ -2385,7 +2435,7 @@
   "Prob2": 37,
   "Item3": "Act 1 Good",
   "Prob3": 3,
-  "lineNumber": 536,
+  "lineNumber": 542,
   "*ItemProbTotal": 100
  },
  "Act 1 Citem B": {
@@ -2404,7 +2454,7 @@
   "Prob2": 37,
   "Item3": "Act 1 Good",
   "Prob3": 3,
-  "lineNumber": 537,
+  "lineNumber": 543,
   "*ItemProbTotal": 100
  },
  "Act 1 Citem C": {
@@ -2423,7 +2473,7 @@
   "Prob2": 37,
   "Item3": "Act 1 Good",
   "Prob3": 3,
-  "lineNumber": 538,
+  "lineNumber": 544,
   "*ItemProbTotal": 100
  },
  "Act 1 Cpot A": {
@@ -2434,7 +2484,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 1",
   "Prob1": 1,
-  "lineNumber": 578,
+  "lineNumber": 584,
   "*ItemProbTotal": 1
  },
  "Act 1 Cpot B": {
@@ -2445,7 +2495,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 1",
   "Prob1": 1,
-  "lineNumber": 579,
+  "lineNumber": 585,
   "*ItemProbTotal": 1
  },
  "Act 1 Cpot C": {
@@ -2456,7 +2506,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 1",
   "Prob1": 1,
-  "lineNumber": 580,
+  "lineNumber": 586,
   "*ItemProbTotal": 1
  },
  "Act 1 Equip A": {
@@ -2478,7 +2528,7 @@
   "Prob1": 7,
   "Item2": "armo3",
   "Prob2": 7,
-  "lineNumber": 1239,
+  "lineNumber": 1251,
   "*ItemProbTotal": 14
  },
  "Act 1 Equip B": {
@@ -2508,7 +2558,7 @@
   "Prob3": 7,
   "Item4": "armo6",
   "Prob4": 7,
-  "lineNumber": 1240,
+  "lineNumber": 1252,
   "*ItemProbTotal": 20
  },
  "Act 1 Equip C": {
@@ -2554,7 +2604,7 @@
   "Prob7": 2,
   "Item8": "armo12",
   "Prob8": 1,
-  "lineNumber": 1241,
+  "lineNumber": 1253,
   "*ItemProbTotal": 36
  },
  "Act 1 Good": {
@@ -2807,7 +2857,7 @@
   "Prob1": 2,
   "Item2": "Act 1 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1010
+  "lineNumber": 1022
  },
  "Act 1 Super Ax": {
   "Treasure Class": "Act 1 Super Ax",
@@ -2823,7 +2873,7 @@
   "Prob1": 2,
   "Item2": "Act 1 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1055
+  "lineNumber": 1067
  },
  "Act 1 Super B": {
   "Treasure Class": "Act 1 Super B",
@@ -2839,7 +2889,7 @@
   "Prob1": 2,
   "Item2": "Act 1 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1011
+  "lineNumber": 1023
  },
  "Act 1 Super Bx": {
   "Treasure Class": "Act 1 Super Bx",
@@ -2855,7 +2905,7 @@
   "Prob1": 2,
   "Item2": "Act 1 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1056
+  "lineNumber": 1068
  },
  "Act 1 Super C": {
   "Treasure Class": "Act 1 Super C",
@@ -2871,7 +2921,7 @@
   "Prob1": 2,
   "Item2": "Act 1 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1012
+  "lineNumber": 1024
  },
  "Act 1 Super Cx": {
   "Treasure Class": "Act 1 Super Cx",
@@ -2887,7 +2937,7 @@
   "Prob1": 2,
   "Item2": "Act 1 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1057
+  "lineNumber": 1069
  },
  "Act 1 Terrorize Act Consumable": {
   "Treasure Class": "Act 1 Terrorize Act Consumable",
@@ -2923,7 +2973,7 @@
   "Prob1": 58,
   "Item2": "Act 1 Good",
   "Prob2": 4,
-  "lineNumber": 663,
+  "lineNumber": 675,
   "*ItemProbTotal": 62
  },
  "Act 1 Uitem B": {
@@ -2940,7 +2990,7 @@
   "Prob1": 58,
   "Item2": "Act 1 Good",
   "Prob2": 4,
-  "lineNumber": 664,
+  "lineNumber": 676,
   "*ItemProbTotal": 62
  },
  "Act 1 Uitem C": {
@@ -2957,7 +3007,7 @@
   "Prob1": 58,
   "Item2": "Act 1 Good",
   "Prob2": 4,
-  "lineNumber": 665,
+  "lineNumber": 677,
   "*ItemProbTotal": 62
  },
  "Act 1 Unique A": {
@@ -2970,7 +3020,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Cpot A",
   "Prob2": 2,
-  "lineNumber": 705
+  "lineNumber": 717
  },
  "Act 1 Unique B": {
   "Treasure Class": "Act 1 Unique B",
@@ -2982,7 +3032,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Cpot B",
   "Prob2": 2,
-  "lineNumber": 706
+  "lineNumber": 718
  },
  "Act 1 Unique C": {
   "Treasure Class": "Act 1 Unique C",
@@ -2994,7 +3044,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Cpot C",
   "Prob2": 2,
-  "lineNumber": 707
+  "lineNumber": 719
  },
  "Act 1 Worldstone Shard Parent": {
   "Treasure Class": "Act 1 Worldstone Shard Parent",
@@ -3004,6 +3054,28 @@
   "Item2": "All Acts Terrorize Consumable",
   "Prob2": 1,
   "lineNumber": 151
+ },
+ "Act 1 Worldstone Shard Parent Citem A": {
+  "Treasure Class": "Act 1 Worldstone Shard Parent Citem A",
+  "Picks": -2,
+  "Item1": "Act 1 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Citem A Shard",
+  "Prob3": 1,
+  "lineNumber": 537
+ },
+ "Act 1 Worldstone Shard Parent Uitem A": {
+  "Treasure Class": "Act 1 Worldstone Shard Parent Uitem A",
+  "Picks": -2,
+  "Item1": "Act 1 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Uitem A Shard",
+  "Prob3": 1,
+  "lineNumber": 670
  },
  "Act 1 Worldstone Shards 1": {
   "Treasure Class": "Act 1 Worldstone Shards 1",
@@ -3310,7 +3382,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (H) Cpot A",
   "Prob2": 1,
-  "lineNumber": 652
+  "lineNumber": 658
  },
  "Act 2 (H) Champ A Desecrated": {
   "Treasure Class": "Act 2 (H) Champ A Desecrated",
@@ -3320,7 +3392,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Champ A",
   "Prob1": 1,
-  "lineNumber": 1181
+  "lineNumber": 1193
  },
  "Act 2 (H) Champ B": {
   "Treasure Class": "Act 2 (H) Champ B",
@@ -3332,7 +3404,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (H) Cpot B",
   "Prob2": 1,
-  "lineNumber": 653
+  "lineNumber": 659
  },
  "Act 2 (H) Champ B Desecrated": {
   "Treasure Class": "Act 2 (H) Champ B Desecrated",
@@ -3342,7 +3414,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Champ B",
   "Prob1": 1,
-  "lineNumber": 1182
+  "lineNumber": 1194
  },
  "Act 2 (H) Champ C": {
   "Treasure Class": "Act 2 (H) Champ C",
@@ -3354,7 +3426,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (H) Cpot C",
   "Prob2": 1,
-  "lineNumber": 654
+  "lineNumber": 660
  },
  "Act 2 (H) Champ C Desecrated": {
   "Treasure Class": "Act 2 (H) Champ C Desecrated",
@@ -3364,7 +3436,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Champ C",
   "Prob1": 1,
-  "lineNumber": 1183
+  "lineNumber": 1195
  },
  "Act 2 (H) Chest A": {
   "Treasure Class": "Act 2 (H) Chest A",
@@ -3428,15 +3500,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 2 (H) Equip A",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 2 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 4 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 4 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 567,
-  "*ItemProbTotal": 103
+  "lineNumber": 573,
+  "*ItemProbTotal": 133
  },
  "Act 2 (H) Citem B": {
   "Treasure Class": "Act 2 (H) Citem B",
@@ -3449,15 +3521,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 2 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 2 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 4 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 4 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 568,
-  "*ItemProbTotal": 103
+  "lineNumber": 574,
+  "*ItemProbTotal": 133
  },
  "Act 2 (H) Citem C": {
   "Treasure Class": "Act 2 (H) Citem C",
@@ -3470,15 +3542,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 2 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 2 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 4 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 4 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 569,
-  "*ItemProbTotal": 103
+  "lineNumber": 575,
+  "*ItemProbTotal": 133
  },
  "Act 2 (H) Cpot A": {
   "Treasure Class": "Act 2 (H) Cpot A",
@@ -3495,7 +3567,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 609,
+  "lineNumber": 615,
   "*ItemProbTotal": 15
  },
  "Act 2 (H) Cpot B": {
@@ -3513,7 +3585,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 610,
+  "lineNumber": 616,
   "*ItemProbTotal": 15
  },
  "Act 2 (H) Cpot C": {
@@ -3531,7 +3603,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 611,
+  "lineNumber": 617,
   "*ItemProbTotal": 15
  },
  "Act 2 (H) Equip A": {
@@ -3583,7 +3655,7 @@
   "Prob8": 1,
   "Item9": "Act 1 (H) Equip C Desecrated Herald",
   "Prob9": 1225,
-  "lineNumber": 1271,
+  "lineNumber": 1283,
   "*ItemProbTotal": 1261
  },
  "Act 2 (H) Equip B": {
@@ -3635,7 +3707,7 @@
   "Prob8": 3,
   "Item9": "Act 2 (H) Equip A Desecrated Herald",
   "Prob9": 1225,
-  "lineNumber": 1272,
+  "lineNumber": 1284,
   "*ItemProbTotal": 1267
  },
  "Act 2 (H) Equip C": {
@@ -3687,7 +3759,7 @@
   "Prob8": 1,
   "Item9": "Act 2 (H) Equip B Desecrated Herald",
   "Prob9": 1225,
-  "lineNumber": 1273,
+  "lineNumber": 1285,
   "*ItemProbTotal": 1261
  },
  "Act 2 (H) Good": {
@@ -3725,7 +3797,7 @@
   "Prob5": 28,
   "Item6": "Runes 14",
   "Prob6": 18,
-  "lineNumber": 1284,
+  "lineNumber": 1296,
   "*ItemProbTotal": 134
  },
  "Act 2 (H) H2H A": {
@@ -3797,7 +3869,7 @@
   "Prob3": 1,
   "Item4": "Act 2 (H) Cpot A",
   "Prob4": 2,
-  "lineNumber": 1333
+  "lineNumber": 1346
  },
  "Act 2 (H) Herald B": {
   "Treasure Class": "Act 2 (H) Herald B",
@@ -3817,7 +3889,7 @@
   "Prob3": 1,
   "Item4": "Act 2 (H) Cpot B",
   "Prob4": 2,
-  "lineNumber": 1334
+  "lineNumber": 1347
  },
  "Act 2 (H) Herald C": {
   "Treasure Class": "Act 2 (H) Herald C",
@@ -3837,7 +3909,7 @@
   "Prob3": 1,
   "Item4": "Act 2 (H) Cpot C",
   "Prob4": 2,
-  "lineNumber": 1335
+  "lineNumber": 1348
  },
  "Act 2 (H) Herald Item D": {
   "Treasure Class": "Act 2 (H) Herald Item D",
@@ -3851,38 +3923,38 @@
   "Prob1": 360,
   "Item2": "Act 2 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1291,
+  "lineNumber": 1304,
   "*ItemProbTotal": 407
  },
  "Act 2 (H) Herald Item D - 1 Extra": {
   "Treasure Class": "Act 2 (H) Herald Item D - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Herald Item D",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1305
+  "lineNumber": 1318
  },
  "Act 2 (H) Herald Item D - 2 Extra": {
   "Treasure Class": "Act 2 (H) Herald Item D - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Herald Item D",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1319
+  "lineNumber": 1332
  },
  "Act 2 (H) Herald Item E": {
   "Treasure Class": "Act 2 (H) Herald Item E",
@@ -3896,38 +3968,38 @@
   "Prob1": 360,
   "Item2": "Act 2 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1292,
+  "lineNumber": 1305,
   "*ItemProbTotal": 407
  },
  "Act 2 (H) Herald Item E - 1 Extra": {
   "Treasure Class": "Act 2 (H) Herald Item E - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Herald Item E",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1306
+  "lineNumber": 1319
  },
  "Act 2 (H) Herald Item E - 2 Extra": {
   "Treasure Class": "Act 2 (H) Herald Item E - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Herald Item E",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1320
+  "lineNumber": 1333
  },
  "Act 2 (H) Herald Item F": {
   "Treasure Class": "Act 2 (H) Herald Item F",
@@ -3941,38 +4013,38 @@
   "Prob1": 360,
   "Item2": "Act 2 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1293,
+  "lineNumber": 1306,
   "*ItemProbTotal": 407
  },
  "Act 2 (H) Herald Item F - 1 Extra": {
   "Treasure Class": "Act 2 (H) Herald Item F - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Herald Item F",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1307
+  "lineNumber": 1320
  },
  "Act 2 (H) Herald Item F - 2 Extra": {
   "Treasure Class": "Act 2 (H) Herald Item F - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Herald Item F",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1321
+  "lineNumber": 1334
  },
  "Act 2 (H) Junk": {
   "Treasure Class": "Act 2 (H) Junk",
@@ -4153,7 +4225,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1043
+  "lineNumber": 1055
  },
  "Act 2 (H) Super A Desecrated": {
   "Treasure Class": "Act 2 (H) Super A Desecrated",
@@ -4163,7 +4235,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Super A",
   "Prob1": 1,
-  "lineNumber": 1209
+  "lineNumber": 1221
  },
  "Act 2 (H) Super Ax": {
   "Treasure Class": "Act 2 (H) Super Ax",
@@ -4179,7 +4251,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1088
+  "lineNumber": 1100
  },
  "Act 2 (H) Super Ax Desecrated": {
   "Treasure Class": "Act 2 (H) Super Ax Desecrated",
@@ -4189,7 +4261,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Super Ax",
   "Prob1": 1,
-  "lineNumber": 1224
+  "lineNumber": 1236
  },
  "Act 2 (H) Super B": {
   "Treasure Class": "Act 2 (H) Super B",
@@ -4205,7 +4277,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1044
+  "lineNumber": 1056
  },
  "Act 2 (H) Super B Desecrated": {
   "Treasure Class": "Act 2 (H) Super B Desecrated",
@@ -4215,7 +4287,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Super B",
   "Prob1": 1,
-  "lineNumber": 1210
+  "lineNumber": 1222
  },
  "Act 2 (H) Super Bx": {
   "Treasure Class": "Act 2 (H) Super Bx",
@@ -4231,7 +4303,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1089
+  "lineNumber": 1101
  },
  "Act 2 (H) Super Bx Desecrated": {
   "Treasure Class": "Act 2 (H) Super Bx Desecrated",
@@ -4241,7 +4313,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Super Bx",
   "Prob1": 1,
-  "lineNumber": 1225
+  "lineNumber": 1237
  },
  "Act 2 (H) Super C": {
   "Treasure Class": "Act 2 (H) Super C",
@@ -4257,7 +4329,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1045
+  "lineNumber": 1057
  },
  "Act 2 (H) Super C Desecrated": {
   "Treasure Class": "Act 2 (H) Super C Desecrated",
@@ -4267,7 +4339,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Super C",
   "Prob1": 1,
-  "lineNumber": 1211
+  "lineNumber": 1223
  },
  "Act 2 (H) Super Cx": {
   "Treasure Class": "Act 2 (H) Super Cx",
@@ -4283,7 +4355,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1090
+  "lineNumber": 1102
  },
  "Act 2 (H) Super Cx Desecrated": {
   "Treasure Class": "Act 2 (H) Super Cx Desecrated",
@@ -4293,7 +4365,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Super Cx",
   "Prob1": 1,
-  "lineNumber": 1226
+  "lineNumber": 1238
  },
  "Act 2 (H) Uitem A": {
   "Treasure Class": "Act 2 (H) Uitem A",
@@ -4306,13 +4378,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Equip A",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 2 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 4 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 4 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 694,
-  "*ItemProbTotal": 64
+  "lineNumber": 706,
+  "*ItemProbTotal": 83
  },
  "Act 2 (H) Uitem B": {
   "Treasure Class": "Act 2 (H) Uitem B",
@@ -4325,13 +4397,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 2 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 4 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 4 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 695,
-  "*ItemProbTotal": 64
+  "lineNumber": 707,
+  "*ItemProbTotal": 83
  },
  "Act 2 (H) Uitem C": {
   "Treasure Class": "Act 2 (H) Uitem C",
@@ -4344,13 +4416,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 2 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 2 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 4 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 4 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 696,
-  "*ItemProbTotal": 64
+  "lineNumber": 708,
+  "*ItemProbTotal": 83
  },
  "Act 2 (H) Unique A": {
   "Treasure Class": "Act 2 (H) Unique A",
@@ -4362,7 +4434,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 736
+  "lineNumber": 748
  },
  "Act 2 (H) Unique A Desecrated": {
   "Treasure Class": "Act 2 (H) Unique A Desecrated",
@@ -4372,7 +4444,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Unique A",
   "Prob1": 1,
-  "lineNumber": 1195
+  "lineNumber": 1207
  },
  "Act 2 (H) Unique B": {
   "Treasure Class": "Act 2 (H) Unique B",
@@ -4384,7 +4456,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 737
+  "lineNumber": 749
  },
  "Act 2 (H) Unique B Desecrated": {
   "Treasure Class": "Act 2 (H) Unique B Desecrated",
@@ -4394,7 +4466,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Unique B",
   "Prob1": 1,
-  "lineNumber": 1196
+  "lineNumber": 1208
  },
  "Act 2 (H) Unique C": {
   "Treasure Class": "Act 2 (H) Unique C",
@@ -4406,7 +4478,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 738
+  "lineNumber": 750
  },
  "Act 2 (H) Unique C Desecrated": {
   "Treasure Class": "Act 2 (H) Unique C Desecrated",
@@ -4416,7 +4488,7 @@
   "NoDrop": 0,
   "Item1": "Act 2 (H) Unique C",
   "Prob1": 1,
-  "lineNumber": 1197
+  "lineNumber": 1209
  },
  "Act 2 (H) Wraith A": {
   "Treasure Class": "Act 2 (H) Wraith A",
@@ -4580,7 +4652,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Cpot A",
   "Prob2": 1,
-  "lineNumber": 637
+  "lineNumber": 643
  },
  "Act 2 (N) Champ B": {
   "Treasure Class": "Act 2 (N) Champ B",
@@ -4592,7 +4664,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Cpot B",
   "Prob2": 1,
-  "lineNumber": 638
+  "lineNumber": 644
  },
  "Act 2 (N) Champ C": {
   "Treasure Class": "Act 2 (N) Champ C",
@@ -4604,7 +4676,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Cpot C",
   "Prob2": 1,
-  "lineNumber": 639
+  "lineNumber": 645
  },
  "Act 2 (N) Chest A": {
   "Treasure Class": "Act 2 (N) Chest A",
@@ -4673,7 +4745,7 @@
   "Prob2": 37,
   "Item3": "Act 2 (N) Good",
   "Prob3": 3,
-  "lineNumber": 553,
+  "lineNumber": 559,
   "*ItemProbTotal": 100
  },
  "Act 2 (N) Citem B": {
@@ -4692,7 +4764,7 @@
   "Prob2": 37,
   "Item3": "Act 2 (N) Good",
   "Prob3": 3,
-  "lineNumber": 554,
+  "lineNumber": 560,
   "*ItemProbTotal": 100
  },
  "Act 2 (N) Citem C": {
@@ -4711,7 +4783,7 @@
   "Prob2": 37,
   "Item3": "Act 2 (N) Good",
   "Prob3": 3,
-  "lineNumber": 555,
+  "lineNumber": 561,
   "*ItemProbTotal": 100
  },
  "Act 2 (N) Cpot A": {
@@ -4727,7 +4799,7 @@
   "Item3": "Hpotion 6",
   "Prob3": 4,
   "Prob6": 7,
-  "lineNumber": 595,
+  "lineNumber": 601,
   "*ItemProbTotal": 7
  },
  "Act 2 (N) Cpot B": {
@@ -4743,7 +4815,7 @@
   "Item3": "Hpotion 6",
   "Prob3": 4,
   "Prob6": 7,
-  "lineNumber": 596,
+  "lineNumber": 602,
   "*ItemProbTotal": 7
  },
  "Act 2 (N) Cpot C": {
@@ -4759,7 +4831,7 @@
   "Item3": "Hpotion 6",
   "Prob3": 4,
   "Prob6": 7,
-  "lineNumber": 597,
+  "lineNumber": 603,
   "*ItemProbTotal": 7
  },
  "Act 2 (N) Equip A": {
@@ -4811,7 +4883,7 @@
   "Prob8": 3,
   "Item9": "Act 1 (N) Equip C  Desecrated Herald",
   "Prob9": 1000,
-  "lineNumber": 1256,
+  "lineNumber": 1268,
   "*ItemProbTotal": 1042
  },
  "Act 2 (N) Equip B": {
@@ -4863,7 +4935,7 @@
   "Prob8": 1,
   "Item9": "Act 2 (N) Equip A Desecrated Herald",
   "Prob9": 1025,
-  "lineNumber": 1257,
+  "lineNumber": 1269,
   "*ItemProbTotal": 1061
  },
  "Act 2 (N) Equip C": {
@@ -4915,7 +4987,7 @@
   "Prob8": 3,
   "Item9": "Act 2 (N) Equip B Desecrated Herald",
   "Prob9": 1050,
-  "lineNumber": 1258,
+  "lineNumber": 1270,
   "*ItemProbTotal": 1092
  },
  "Act 2 (N) Good": {
@@ -5168,7 +5240,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1028
+  "lineNumber": 1040
  },
  "Act 2 (N) Super Ax": {
   "Treasure Class": "Act 2 (N) Super Ax",
@@ -5184,7 +5256,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1073
+  "lineNumber": 1085
  },
  "Act 2 (N) Super B": {
   "Treasure Class": "Act 2 (N) Super B",
@@ -5200,7 +5272,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1029
+  "lineNumber": 1041
  },
  "Act 2 (N) Super Bx": {
   "Treasure Class": "Act 2 (N) Super Bx",
@@ -5216,7 +5288,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1074
+  "lineNumber": 1086
  },
  "Act 2 (N) Super C": {
   "Treasure Class": "Act 2 (N) Super C",
@@ -5232,7 +5304,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1030
+  "lineNumber": 1042
  },
  "Act 2 (N) Super Cx": {
   "Treasure Class": "Act 2 (N) Super Cx",
@@ -5248,7 +5320,7 @@
   "Prob1": 2,
   "Item2": "Act 2 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1075
+  "lineNumber": 1087
  },
  "Act 2 (N) Uitem A": {
   "Treasure Class": "Act 2 (N) Uitem A",
@@ -5264,7 +5336,7 @@
   "Prob1": 58,
   "Item2": "Act 2 (N) Good",
   "Prob2": 4,
-  "lineNumber": 680,
+  "lineNumber": 692,
   "*ItemProbTotal": 62
  },
  "Act 2 (N) Uitem B": {
@@ -5281,7 +5353,7 @@
   "Prob1": 58,
   "Item2": "Act 2 (N) Good",
   "Prob2": 4,
-  "lineNumber": 681,
+  "lineNumber": 693,
   "*ItemProbTotal": 62
  },
  "Act 2 (N) Uitem C": {
@@ -5298,7 +5370,7 @@
   "Prob1": 58,
   "Item2": "Act 2 (N) Good",
   "Prob2": 4,
-  "lineNumber": 682,
+  "lineNumber": 694,
   "*ItemProbTotal": 62
  },
  "Act 2 (N) Unique A": {
@@ -5311,7 +5383,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 722
+  "lineNumber": 734
  },
  "Act 2 (N) Unique B": {
   "Treasure Class": "Act 2 (N) Unique B",
@@ -5323,7 +5395,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 723
+  "lineNumber": 735
  },
  "Act 2 (N) Unique C": {
   "Treasure Class": "Act 2 (N) Unique C",
@@ -5335,7 +5407,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 724
+  "lineNumber": 736
  },
  "Act 2 (N) Wraith A": {
   "Treasure Class": "Act 2 (N) Wraith A",
@@ -5497,7 +5569,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Cpot A",
   "Prob2": 1,
-  "lineNumber": 623
+  "lineNumber": 629
  },
  "Act 2 Champ B": {
   "Treasure Class": "Act 2 Champ B",
@@ -5509,7 +5581,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Cpot B",
   "Prob2": 1,
-  "lineNumber": 624
+  "lineNumber": 630
  },
  "Act 2 Champ C": {
   "Treasure Class": "Act 2 Champ C",
@@ -5521,7 +5593,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Cpot C",
   "Prob2": 1,
-  "lineNumber": 625
+  "lineNumber": 631
  },
  "Act 2 Chest A": {
   "Treasure Class": "Act 2 Chest A",
@@ -5592,7 +5664,7 @@
   "Prob2": 37,
   "Item3": "Act 2 Good",
   "Prob3": 3,
-  "lineNumber": 539,
+  "lineNumber": 545,
   "*ItemProbTotal": 100
  },
  "Act 2 Citem B": {
@@ -5611,7 +5683,7 @@
   "Prob2": 37,
   "Item3": "Act 2 Good",
   "Prob3": 3,
-  "lineNumber": 540,
+  "lineNumber": 546,
   "*ItemProbTotal": 100
  },
  "Act 2 Citem C": {
@@ -5630,7 +5702,7 @@
   "Prob2": 37,
   "Item3": "Act 3 Good",
   "Prob3": 3,
-  "lineNumber": 541,
+  "lineNumber": 547,
   "*ItemProbTotal": 100
  },
  "Act 2 Cpot A": {
@@ -5641,7 +5713,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 2",
   "Prob1": 1,
-  "lineNumber": 581,
+  "lineNumber": 587,
   "*ItemProbTotal": 1
  },
  "Act 2 Cpot B": {
@@ -5652,7 +5724,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 2",
   "Prob1": 1,
-  "lineNumber": 582,
+  "lineNumber": 588,
   "*ItemProbTotal": 1
  },
  "Act 2 Cpot C": {
@@ -5663,7 +5735,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 2",
   "Prob1": 1,
-  "lineNumber": 583,
+  "lineNumber": 589,
   "*ItemProbTotal": 1
  },
  "Act 2 Equip A": {
@@ -5715,7 +5787,7 @@
   "Prob8": 1,
   "Item9": "Act 1 Equip C Desecrated Herald",
   "Prob9": 30,
-  "lineNumber": 1242,
+  "lineNumber": 1254,
   "*ItemProbTotal": 66
  },
  "Act 2 Equip B": {
@@ -5767,7 +5839,7 @@
   "Prob8": 1,
   "Item9": "Act 2 Equip A Desecrated Herald",
   "Prob9": 60,
-  "lineNumber": 1243,
+  "lineNumber": 1255,
   "*ItemProbTotal": 96
  },
  "Act 2 Equip C": {
@@ -5819,7 +5891,7 @@
   "Prob8": 1,
   "Item9": "Act 2 Equip B Desecrated Herald",
   "Prob9": 80,
-  "lineNumber": 1244,
+  "lineNumber": 1256,
   "*ItemProbTotal": 116
  },
  "Act 2 Good": {
@@ -6120,7 +6192,7 @@
   "Prob1": 2,
   "Item2": "Act 2 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1013
+  "lineNumber": 1025
  },
  "Act 2 Super Ax": {
   "Treasure Class": "Act 2 Super Ax",
@@ -6136,7 +6208,7 @@
   "Prob1": 2,
   "Item2": "Act 2 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1058
+  "lineNumber": 1070
  },
  "Act 2 Super B": {
   "Treasure Class": "Act 2 Super B",
@@ -6152,7 +6224,7 @@
   "Prob1": 2,
   "Item2": "Act 2 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1014
+  "lineNumber": 1026
  },
  "Act 2 Super Bx": {
   "Treasure Class": "Act 2 Super Bx",
@@ -6168,7 +6240,7 @@
   "Prob1": 2,
   "Item2": "Act 2 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1059
+  "lineNumber": 1071
  },
  "Act 2 Super C": {
   "Treasure Class": "Act 2 Super C",
@@ -6184,7 +6256,7 @@
   "Prob1": 2,
   "Item2": "Act 2 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1015
+  "lineNumber": 1027
  },
  "Act 2 Super Cx": {
   "Treasure Class": "Act 2 Super Cx",
@@ -6200,7 +6272,7 @@
   "Prob1": 2,
   "Item2": "Act 2 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1060
+  "lineNumber": 1072
  },
  "Act 2 Terrorize Act Consumable": {
   "Treasure Class": "Act 2 Terrorize Act Consumable",
@@ -6236,7 +6308,7 @@
   "Prob1": 58,
   "Item2": "Act 2 Good",
   "Prob2": 4,
-  "lineNumber": 666,
+  "lineNumber": 678,
   "*ItemProbTotal": 62
  },
  "Act 2 Uitem B": {
@@ -6253,7 +6325,7 @@
   "Prob1": 58,
   "Item2": "Act 2 Good",
   "Prob2": 4,
-  "lineNumber": 667,
+  "lineNumber": 679,
   "*ItemProbTotal": 62
  },
  "Act 2 Uitem C": {
@@ -6270,7 +6342,7 @@
   "Prob1": 58,
   "Item2": "Act 3 Good",
   "Prob2": 4,
-  "lineNumber": 668,
+  "lineNumber": 680,
   "*ItemProbTotal": 62
  },
  "Act 2 Unique A": {
@@ -6283,7 +6355,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Cpot A",
   "Prob2": 2,
-  "lineNumber": 708
+  "lineNumber": 720
  },
  "Act 2 Unique B": {
   "Treasure Class": "Act 2 Unique B",
@@ -6295,7 +6367,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Cpot B",
   "Prob2": 2,
-  "lineNumber": 709
+  "lineNumber": 721
  },
  "Act 2 Unique C": {
   "Treasure Class": "Act 2 Unique C",
@@ -6307,7 +6379,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Cpot C",
   "Prob2": 2,
-  "lineNumber": 710
+  "lineNumber": 722
  },
  "Act 2 Worldstone Shard Parent": {
   "Treasure Class": "Act 2 Worldstone Shard Parent",
@@ -6317,6 +6389,28 @@
   "Item2": "All Acts Terrorize Consumable",
   "Prob2": 1,
   "lineNumber": 152
+ },
+ "Act 2 Worldstone Shard Parent Citem A": {
+  "Treasure Class": "Act 2 Worldstone Shard Parent Citem A",
+  "Picks": -2,
+  "Item1": "Act 2 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Citem A Shard",
+  "Prob3": 1,
+  "lineNumber": 538
+ },
+ "Act 2 Worldstone Shard Parent Uitem A": {
+  "Treasure Class": "Act 2 Worldstone Shard Parent Uitem A",
+  "Picks": -2,
+  "Item1": "Act 2 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Uitem A Shard",
+  "Prob3": 1,
+  "lineNumber": 671
  },
  "Act 2 Worldstone Shards 1": {
   "Treasure Class": "Act 2 Worldstone Shards 1",
@@ -6623,7 +6717,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Cpot A",
   "Prob2": 1,
-  "lineNumber": 655
+  "lineNumber": 661
  },
  "Act 3 (H) Champ A Desecrated": {
   "Treasure Class": "Act 3 (H) Champ A Desecrated",
@@ -6633,7 +6727,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Champ A",
   "Prob1": 1,
-  "lineNumber": 1184
+  "lineNumber": 1196
  },
  "Act 3 (H) Champ B": {
   "Treasure Class": "Act 3 (H) Champ B",
@@ -6645,7 +6739,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Cpot B",
   "Prob2": 1,
-  "lineNumber": 656
+  "lineNumber": 662
  },
  "Act 3 (H) Champ B Desecrated": {
   "Treasure Class": "Act 3 (H) Champ B Desecrated",
@@ -6655,7 +6749,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Champ B",
   "Prob1": 1,
-  "lineNumber": 1185
+  "lineNumber": 1197
  },
  "Act 3 (H) Champ C": {
   "Treasure Class": "Act 3 (H) Champ C",
@@ -6667,7 +6761,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Cpot C",
   "Prob2": 1,
-  "lineNumber": 657
+  "lineNumber": 663
  },
  "Act 3 (H) Champ C Desecrated": {
   "Treasure Class": "Act 3 (H) Champ C Desecrated",
@@ -6677,7 +6771,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Champ C",
   "Prob1": 1,
-  "lineNumber": 1186
+  "lineNumber": 1198
  },
  "Act 3 (H) Chest A": {
   "Treasure Class": "Act 3 (H) Chest A",
@@ -6741,15 +6835,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 3 (H) Equip A",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 3 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 5 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 5 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 570,
-  "*ItemProbTotal": 103
+  "lineNumber": 576,
+  "*ItemProbTotal": 133
  },
  "Act 3 (H) Citem B": {
   "Treasure Class": "Act 3 (H) Citem B",
@@ -6762,15 +6856,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 3 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 3 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 5 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 5 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 571,
-  "*ItemProbTotal": 103
+  "lineNumber": 577,
+  "*ItemProbTotal": 133
  },
  "Act 3 (H) Citem C": {
   "Treasure Class": "Act 3 (H) Citem C",
@@ -6783,15 +6877,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 3 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 3 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 5 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 5 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 572,
-  "*ItemProbTotal": 103
+  "lineNumber": 578,
+  "*ItemProbTotal": 133
  },
  "Act 3 (H) Cpot A": {
   "Treasure Class": "Act 3 (H) Cpot A",
@@ -6808,7 +6902,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 612,
+  "lineNumber": 618,
   "*ItemProbTotal": 15
  },
  "Act 3 (H) Cpot B": {
@@ -6826,7 +6920,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 613,
+  "lineNumber": 619,
   "*ItemProbTotal": 15
  },
  "Act 3 (H) Cpot C": {
@@ -6844,7 +6938,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 614,
+  "lineNumber": 620,
   "*ItemProbTotal": 15
  },
  "Act 3 (H) Equip A": {
@@ -6896,7 +6990,7 @@
   "Prob8": 3,
   "Item9": "Act 2 (H) Equip C Desecrated Herald",
   "Prob9": 1225,
-  "lineNumber": 1274,
+  "lineNumber": 1286,
   "*ItemProbTotal": 1267
  },
  "Act 3 (H) Equip B": {
@@ -6948,7 +7042,7 @@
   "Prob8": 1,
   "Item9": "Act 3 (H) Equip A Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1275,
+  "lineNumber": 1287,
   "*ItemProbTotal": 1286
  },
  "Act 3 (H) Equip C": {
@@ -7000,7 +7094,7 @@
   "Prob8": 3,
   "Item9": "Act 3 (H) Equip B Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1276,
+  "lineNumber": 1288,
   "*ItemProbTotal": 1292
  },
  "Act 3 (H) Good": {
@@ -7038,7 +7132,7 @@
   "Prob5": 28,
   "Item6": "Runes 15",
   "Prob6": 18,
-  "lineNumber": 1285,
+  "lineNumber": 1297,
   "*ItemProbTotal": 134
  },
  "Act 3 (H) H2H A": {
@@ -7110,7 +7204,7 @@
   "Prob3": 1,
   "Item4": "Act 3 (H) Cpot A",
   "Prob4": 2,
-  "lineNumber": 1336
+  "lineNumber": 1349
  },
  "Act 3 (H) Herald B": {
   "Treasure Class": "Act 3 (H) Herald B",
@@ -7130,7 +7224,7 @@
   "Prob3": 1,
   "Item4": "Act 3 (H) Cpot B",
   "Prob4": 2,
-  "lineNumber": 1337
+  "lineNumber": 1350
  },
  "Act 3 (H) Herald C": {
   "Treasure Class": "Act 3 (H) Herald C",
@@ -7150,7 +7244,7 @@
   "Prob3": 1,
   "Item4": "Act 3 (H) Cpot C",
   "Prob4": 2,
-  "lineNumber": 1338
+  "lineNumber": 1351
  },
  "Act 3 (H) Herald Item G": {
   "Treasure Class": "Act 3 (H) Herald Item G",
@@ -7164,38 +7258,38 @@
   "Prob1": 360,
   "Item2": "Act 3 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1294,
+  "lineNumber": 1307,
   "*ItemProbTotal": 407
  },
  "Act 3 (H) Herald Item G - 1 Extra": {
   "Treasure Class": "Act 3 (H) Herald Item G - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Herald Item G",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1308
+  "lineNumber": 1321
  },
  "Act 3 (H) Herald Item G - 2 Extra": {
   "Treasure Class": "Act 3 (H) Herald Item G - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Herald Item G",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1322
+  "lineNumber": 1335
  },
  "Act 3 (H) Herald Item H": {
   "Treasure Class": "Act 3 (H) Herald Item H",
@@ -7209,38 +7303,38 @@
   "Prob1": 360,
   "Item2": "Act 3 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1295,
+  "lineNumber": 1308,
   "*ItemProbTotal": 407
  },
  "Act 3 (H) Herald Item H - 1 Extra": {
   "Treasure Class": "Act 3 (H) Herald Item H - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Herald Item H",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1309
+  "lineNumber": 1322
  },
  "Act 3 (H) Herald Item H - 2 Extra": {
   "Treasure Class": "Act 3 (H) Herald Item H - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Herald Item H",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1323
+  "lineNumber": 1336
  },
  "Act 3 (H) Herald Item I": {
   "Treasure Class": "Act 3 (H) Herald Item I",
@@ -7254,38 +7348,38 @@
   "Prob1": 360,
   "Item2": "Act 3 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1296,
+  "lineNumber": 1309,
   "*ItemProbTotal": 407
  },
  "Act 3 (H) Herald Item I - 1 Extra": {
   "Treasure Class": "Act 3 (H) Herald Item I - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Herald Item I",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1310
+  "lineNumber": 1323
  },
  "Act 3 (H) Herald Item I - 2 Extra": {
   "Treasure Class": "Act 3 (H) Herald Item I - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Herald Item I",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1324
+  "lineNumber": 1337
  },
  "Act 3 (H) Junk": {
   "Treasure Class": "Act 3 (H) Junk",
@@ -7466,7 +7560,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1046
+  "lineNumber": 1058
  },
  "Act 3 (H) Super A Desecrated": {
   "Treasure Class": "Act 3 (H) Super A Desecrated",
@@ -7476,7 +7570,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Super A",
   "Prob1": 1,
-  "lineNumber": 1212
+  "lineNumber": 1224
  },
  "Act 3 (H) Super Ax": {
   "Treasure Class": "Act 3 (H) Super Ax",
@@ -7492,7 +7586,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1091
+  "lineNumber": 1103
  },
  "Act 3 (H) Super Ax Desecrated": {
   "Treasure Class": "Act 3 (H) Super Ax Desecrated",
@@ -7502,7 +7596,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Super Ax",
   "Prob1": 1,
-  "lineNumber": 1227
+  "lineNumber": 1239
  },
  "Act 3 (H) Super B": {
   "Treasure Class": "Act 3 (H) Super B",
@@ -7518,7 +7612,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1047
+  "lineNumber": 1059
  },
  "Act 3 (H) Super B Desecrated": {
   "Treasure Class": "Act 3 (H) Super B Desecrated",
@@ -7528,7 +7622,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Super B",
   "Prob1": 1,
-  "lineNumber": 1213
+  "lineNumber": 1225
  },
  "Act 3 (H) Super Bx": {
   "Treasure Class": "Act 3 (H) Super Bx",
@@ -7544,7 +7638,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1092
+  "lineNumber": 1104
  },
  "Act 3 (H) Super Bx Desecrated": {
   "Treasure Class": "Act 3 (H) Super Bx Desecrated",
@@ -7554,7 +7648,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Super Bx",
   "Prob1": 1,
-  "lineNumber": 1228
+  "lineNumber": 1240
  },
  "Act 3 (H) Super C": {
   "Treasure Class": "Act 3 (H) Super C",
@@ -7570,7 +7664,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1048
+  "lineNumber": 1060
  },
  "Act 3 (H) Super C Desecrated": {
   "Treasure Class": "Act 3 (H) Super C Desecrated",
@@ -7580,7 +7674,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Super C",
   "Prob1": 1,
-  "lineNumber": 1214
+  "lineNumber": 1226
  },
  "Act 3 (H) Super Cx": {
   "Treasure Class": "Act 3 (H) Super Cx",
@@ -7596,7 +7690,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1093
+  "lineNumber": 1105
  },
  "Act 3 (H) Super Cx Desecrated": {
   "Treasure Class": "Act 3 (H) Super Cx Desecrated",
@@ -7606,7 +7700,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Super Cx",
   "Prob1": 1,
-  "lineNumber": 1229
+  "lineNumber": 1241
  },
  "Act 3 (H) Uitem A": {
   "Treasure Class": "Act 3 (H) Uitem A",
@@ -7619,13 +7713,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Equip A",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 3 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 5 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 5 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 697,
-  "*ItemProbTotal": 64
+  "lineNumber": 709,
+  "*ItemProbTotal": 83
  },
  "Act 3 (H) Uitem B": {
   "Treasure Class": "Act 3 (H) Uitem B",
@@ -7638,13 +7732,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 3 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 5 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 5 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 698,
-  "*ItemProbTotal": 64
+  "lineNumber": 710,
+  "*ItemProbTotal": 83
  },
  "Act 3 (H) Uitem C": {
   "Treasure Class": "Act 3 (H) Uitem C",
@@ -7657,13 +7751,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 3 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 3 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 5 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 5 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 699,
-  "*ItemProbTotal": 64
+  "lineNumber": 711,
+  "*ItemProbTotal": 83
  },
  "Act 3 (H) Unique A": {
   "Treasure Class": "Act 3 (H) Unique A",
@@ -7675,7 +7769,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 739
+  "lineNumber": 751
  },
  "Act 3 (H) Unique A Desecrated": {
   "Treasure Class": "Act 3 (H) Unique A Desecrated",
@@ -7685,7 +7779,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Unique A",
   "Prob1": 1,
-  "lineNumber": 1198
+  "lineNumber": 1210
  },
  "Act 3 (H) Unique B": {
   "Treasure Class": "Act 3 (H) Unique B",
@@ -7697,7 +7791,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 740
+  "lineNumber": 752
  },
  "Act 3 (H) Unique B Desecrated": {
   "Treasure Class": "Act 3 (H) Unique B Desecrated",
@@ -7707,7 +7801,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Unique B",
   "Prob1": 1,
-  "lineNumber": 1199
+  "lineNumber": 1211
  },
  "Act 3 (H) Unique C": {
   "Treasure Class": "Act 3 (H) Unique C",
@@ -7719,7 +7813,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 741
+  "lineNumber": 753
  },
  "Act 3 (H) Unique C Desecrated": {
   "Treasure Class": "Act 3 (H) Unique C Desecrated",
@@ -7729,7 +7823,7 @@
   "NoDrop": 0,
   "Item1": "Act 3 (H) Unique C",
   "Prob1": 1,
-  "lineNumber": 1200
+  "lineNumber": 1212
  },
  "Act 3 (H) Wraith A": {
   "Treasure Class": "Act 3 (H) Wraith A",
@@ -7893,7 +7987,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Cpot A",
   "Prob2": 1,
-  "lineNumber": 640
+  "lineNumber": 646
  },
  "Act 3 (N) Champ B": {
   "Treasure Class": "Act 3 (N) Champ B",
@@ -7905,7 +7999,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Cpot B",
   "Prob2": 1,
-  "lineNumber": 641
+  "lineNumber": 647
  },
  "Act 3 (N) Champ C": {
   "Treasure Class": "Act 3 (N) Champ C",
@@ -7917,7 +8011,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Cpot C",
   "Prob2": 1,
-  "lineNumber": 642
+  "lineNumber": 648
  },
  "Act 3 (N) Chest A": {
   "Treasure Class": "Act 3 (N) Chest A",
@@ -7986,7 +8080,7 @@
   "Prob2": 37,
   "Item3": "Act 3 (N) Good",
   "Prob3": 3,
-  "lineNumber": 556,
+  "lineNumber": 562,
   "*ItemProbTotal": 100
  },
  "Act 3 (N) Citem B": {
@@ -8005,7 +8099,7 @@
   "Prob2": 37,
   "Item3": "Act 3 (N) Good",
   "Prob3": 3,
-  "lineNumber": 557,
+  "lineNumber": 563,
   "*ItemProbTotal": 100
  },
  "Act 3 (N) Citem C": {
@@ -8024,7 +8118,7 @@
   "Prob2": 37,
   "Item3": "Act 3 (N) Good",
   "Prob3": 3,
-  "lineNumber": 558,
+  "lineNumber": 564,
   "*ItemProbTotal": 100
  },
  "Act 3 (N) Cpot A": {
@@ -8042,7 +8136,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 598,
+  "lineNumber": 604,
   "*ItemProbTotal": 15
  },
  "Act 3 (N) Cpot B": {
@@ -8060,7 +8154,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 599,
+  "lineNumber": 605,
   "*ItemProbTotal": 15
  },
  "Act 3 (N) Cpot C": {
@@ -8078,7 +8172,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 600,
+  "lineNumber": 606,
   "*ItemProbTotal": 15
  },
  "Act 3 (N) Equip A": {
@@ -8130,7 +8224,7 @@
   "Prob8": 1,
   "Item9": "Act 2 (N) Equip C Desecrated Herald",
   "Prob9": 1075,
-  "lineNumber": 1259,
+  "lineNumber": 1271,
   "*ItemProbTotal": 1111
  },
  "Act 3 (N) Equip B": {
@@ -8182,7 +8276,7 @@
   "Prob8": 3,
   "Item9": "Act 3 (N) Equip A Desecrated Herald",
   "Prob9": 1075,
-  "lineNumber": 1260,
+  "lineNumber": 1272,
   "*ItemProbTotal": 1117
  },
  "Act 3 (N) Equip C": {
@@ -8234,7 +8328,7 @@
   "Prob8": 1,
   "Item9": "Act 3 (N) Equip B Desecrated Herald",
   "Prob9": 1100,
-  "lineNumber": 1261,
+  "lineNumber": 1273,
   "*ItemProbTotal": 1136
  },
  "Act 3 (N) Good": {
@@ -8487,7 +8581,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1031
+  "lineNumber": 1043
  },
  "Act 3 (N) Super Ax": {
   "Treasure Class": "Act 3 (N) Super Ax",
@@ -8503,7 +8597,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1076
+  "lineNumber": 1088
  },
  "Act 3 (N) Super B": {
   "Treasure Class": "Act 3 (N) Super B",
@@ -8519,7 +8613,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1032
+  "lineNumber": 1044
  },
  "Act 3 (N) Super Bx": {
   "Treasure Class": "Act 3 (N) Super Bx",
@@ -8535,7 +8629,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1077
+  "lineNumber": 1089
  },
  "Act 3 (N) Super C": {
   "Treasure Class": "Act 3 (N) Super C",
@@ -8551,7 +8645,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1033
+  "lineNumber": 1045
  },
  "Act 3 (N) Super Cx": {
   "Treasure Class": "Act 3 (N) Super Cx",
@@ -8567,7 +8661,7 @@
   "Prob1": 2,
   "Item2": "Act 3 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1078
+  "lineNumber": 1090
  },
  "Act 3 (N) Uitem A": {
   "Treasure Class": "Act 3 (N) Uitem A",
@@ -8583,7 +8677,7 @@
   "Prob1": 58,
   "Item2": "Act 3 (N) Good",
   "Prob2": 4,
-  "lineNumber": 683,
+  "lineNumber": 695,
   "*ItemProbTotal": 62
  },
  "Act 3 (N) Uitem B": {
@@ -8600,7 +8694,7 @@
   "Prob1": 58,
   "Item2": "Act 3 (N) Good",
   "Prob2": 4,
-  "lineNumber": 684,
+  "lineNumber": 696,
   "*ItemProbTotal": 62
  },
  "Act 3 (N) Uitem C": {
@@ -8617,7 +8711,7 @@
   "Prob1": 58,
   "Item2": "Act 3 (N) Good",
   "Prob2": 4,
-  "lineNumber": 685,
+  "lineNumber": 697,
   "*ItemProbTotal": 62
  },
  "Act 3 (N) Unique A": {
@@ -8630,7 +8724,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 725
+  "lineNumber": 737
  },
  "Act 3 (N) Unique B": {
   "Treasure Class": "Act 3 (N) Unique B",
@@ -8642,7 +8736,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 726
+  "lineNumber": 738
  },
  "Act 3 (N) Unique C": {
   "Treasure Class": "Act 3 (N) Unique C",
@@ -8654,7 +8748,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 727
+  "lineNumber": 739
  },
  "Act 3 (N) Wraith A": {
   "Treasure Class": "Act 3 (N) Wraith A",
@@ -8832,7 +8926,7 @@
   "Prob1": 1,
   "Item2": "Act 3 Cpot A",
   "Prob2": 1,
-  "lineNumber": 626
+  "lineNumber": 632
  },
  "Act 3 Champ B": {
   "Treasure Class": "Act 3 Champ B",
@@ -8844,7 +8938,7 @@
   "Prob1": 1,
   "Item2": "Act 3 Cpot B",
   "Prob2": 1,
-  "lineNumber": 627
+  "lineNumber": 633
  },
  "Act 3 Champ C": {
   "Treasure Class": "Act 3 Champ C",
@@ -8856,7 +8950,7 @@
   "Prob1": 1,
   "Item2": "Act 3 Cpot C",
   "Prob2": 1,
-  "lineNumber": 628
+  "lineNumber": 634
  },
  "Act 3 Chest A": {
   "Treasure Class": "Act 3 Chest A",
@@ -8925,7 +9019,7 @@
   "Prob2": 37,
   "Item3": "Act 3 Good",
   "Prob3": 3,
-  "lineNumber": 542,
+  "lineNumber": 548,
   "*ItemProbTotal": 100
  },
  "Act 3 Citem B": {
@@ -8944,7 +9038,7 @@
   "Prob2": 37,
   "Item3": "Act 3 Good",
   "Prob3": 3,
-  "lineNumber": 543,
+  "lineNumber": 549,
   "*ItemProbTotal": 100
  },
  "Act 3 Citem C": {
@@ -8963,7 +9057,7 @@
   "Prob2": 37,
   "Item3": "Act 3 Good",
   "Prob3": 3,
-  "lineNumber": 544,
+  "lineNumber": 550,
   "*ItemProbTotal": 100
  },
  "Act 3 Cpot A": {
@@ -8974,7 +9068,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 3",
   "Prob1": 1,
-  "lineNumber": 584,
+  "lineNumber": 590,
   "*ItemProbTotal": 1
  },
  "Act 3 Cpot B": {
@@ -8985,7 +9079,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 3",
   "Prob1": 1,
-  "lineNumber": 585,
+  "lineNumber": 591,
   "*ItemProbTotal": 1
  },
  "Act 3 Cpot C": {
@@ -8996,7 +9090,7 @@
   "NoDrop": 0,
   "Item1": "Hpotion 3",
   "Prob1": 1,
-  "lineNumber": 586,
+  "lineNumber": 592,
   "*ItemProbTotal": 1
  },
  "Act 3 Equip A": {
@@ -9048,7 +9142,7 @@
   "Prob8": 1,
   "Item9": "Act 2 Equip C Desecrated Herald",
   "Prob9": 100,
-  "lineNumber": 1245,
+  "lineNumber": 1257,
   "*ItemProbTotal": 136
  },
  "Act 3 Equip B": {
@@ -9100,7 +9194,7 @@
   "Prob8": 1,
   "Item9": "Act 3 Equip A Desecrated Herald",
   "Prob9": 200,
-  "lineNumber": 1246,
+  "lineNumber": 1258,
   "*ItemProbTotal": 236
  },
  "Act 3 Equip C": {
@@ -9152,7 +9246,7 @@
   "Prob8": 1,
   "Item9": "Act 3 Equip B Desecrated Herald",
   "Prob9": 340,
-  "lineNumber": 1247,
+  "lineNumber": 1259,
   "*ItemProbTotal": 376
  },
  "Act 3 Good": {
@@ -9449,7 +9543,7 @@
   "Prob1": 2,
   "Item2": "Act 3 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1016
+  "lineNumber": 1028
  },
  "Act 3 Super Ax": {
   "Treasure Class": "Act 3 Super Ax",
@@ -9465,7 +9559,7 @@
   "Prob1": 2,
   "Item2": "Act 3 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1061
+  "lineNumber": 1073
  },
  "Act 3 Super B": {
   "Treasure Class": "Act 3 Super B",
@@ -9481,7 +9575,7 @@
   "Prob1": 2,
   "Item2": "Act 3 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1017
+  "lineNumber": 1029
  },
  "Act 3 Super Bx": {
   "Treasure Class": "Act 3 Super Bx",
@@ -9497,7 +9591,7 @@
   "Prob1": 2,
   "Item2": "Act 3 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1062
+  "lineNumber": 1074
  },
  "Act 3 Super C": {
   "Treasure Class": "Act 3 Super C",
@@ -9513,7 +9607,7 @@
   "Prob1": 2,
   "Item2": "Act 3 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1018
+  "lineNumber": 1030
  },
  "Act 3 Super Cx": {
   "Treasure Class": "Act 3 Super Cx",
@@ -9529,7 +9623,7 @@
   "Prob1": 2,
   "Item2": "Act 3 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1063
+  "lineNumber": 1075
  },
  "Act 3 Terrorize Act Consumable": {
   "Treasure Class": "Act 3 Terrorize Act Consumable",
@@ -9565,7 +9659,7 @@
   "Prob1": 58,
   "Item2": "Act 3 Good",
   "Prob2": 4,
-  "lineNumber": 669,
+  "lineNumber": 681,
   "*ItemProbTotal": 62
  },
  "Act 3 Uitem B": {
@@ -9582,7 +9676,7 @@
   "Prob1": 58,
   "Item2": "Act 3 Good",
   "Prob2": 4,
-  "lineNumber": 670,
+  "lineNumber": 682,
   "*ItemProbTotal": 62
  },
  "Act 3 Uitem C": {
@@ -9599,7 +9693,7 @@
   "Prob1": 58,
   "Item2": "Act 3 Good",
   "Prob2": 4,
-  "lineNumber": 671,
+  "lineNumber": 683,
   "*ItemProbTotal": 62
  },
  "Act 3 Unique A": {
@@ -9612,7 +9706,7 @@
   "Prob1": 1,
   "Item2": "Act 3 Cpot A",
   "Prob2": 2,
-  "lineNumber": 711
+  "lineNumber": 723
  },
  "Act 3 Unique B": {
   "Treasure Class": "Act 3 Unique B",
@@ -9624,7 +9718,7 @@
   "Prob1": 1,
   "Item2": "Act 3 Cpot B",
   "Prob2": 2,
-  "lineNumber": 712
+  "lineNumber": 724
  },
  "Act 3 Unique C": {
   "Treasure Class": "Act 3 Unique C",
@@ -9636,7 +9730,7 @@
   "Prob1": 1,
   "Item2": "Act 3 Cpot C",
   "Prob2": 2,
-  "lineNumber": 713
+  "lineNumber": 725
  },
  "Act 3 Worldstone Shard Parent": {
   "Treasure Class": "Act 3 Worldstone Shard Parent",
@@ -9646,6 +9740,28 @@
   "Item2": "All Acts Terrorize Consumable",
   "Prob2": 1,
   "lineNumber": 153
+ },
+ "Act 3 Worldstone Shard Parent Citem A": {
+  "Treasure Class": "Act 3 Worldstone Shard Parent Citem A",
+  "Picks": -2,
+  "Item1": "Act 3 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Citem A Shard",
+  "Prob3": 1,
+  "lineNumber": 539
+ },
+ "Act 3 Worldstone Shard Parent Uitem A": {
+  "Treasure Class": "Act 3 Worldstone Shard Parent Uitem A",
+  "Picks": -2,
+  "Item1": "Act 3 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Uitem A Shard",
+  "Prob3": 1,
+  "lineNumber": 672
  },
  "Act 3 Worldstone Shards 1": {
   "Treasure Class": "Act 3 Worldstone Shards 1",
@@ -9933,7 +10049,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Cpot A",
   "Prob2": 1,
-  "lineNumber": 658
+  "lineNumber": 664
  },
  "Act 4 (H) Champ A Desecrated": {
   "Treasure Class": "Act 4 (H) Champ A Desecrated",
@@ -9943,7 +10059,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Champ A",
   "Prob1": 1,
-  "lineNumber": 1187
+  "lineNumber": 1199
  },
  "Act 4 (H) Champ B": {
   "Treasure Class": "Act 4 (H) Champ B",
@@ -9955,7 +10071,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Cpot B",
   "Prob2": 1,
-  "lineNumber": 659
+  "lineNumber": 665
  },
  "Act 4 (H) Champ B Desecrated": {
   "Treasure Class": "Act 4 (H) Champ B Desecrated",
@@ -9965,7 +10081,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Champ B",
   "Prob1": 1,
-  "lineNumber": 1188
+  "lineNumber": 1200
  },
  "Act 4 (H) Chest A": {
   "Treasure Class": "Act 4 (H) Chest A",
@@ -10029,15 +10145,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 4 (H) Equip A",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 4 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 2 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 2 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 573,
-  "*ItemProbTotal": 103
+  "lineNumber": 579,
+  "*ItemProbTotal": 133
  },
  "Act 4 (H) Citem B": {
   "Treasure Class": "Act 4 (H) Citem B",
@@ -10050,15 +10166,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 4 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 4 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 2 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 2 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 574,
-  "*ItemProbTotal": 103
+  "lineNumber": 580,
+  "*ItemProbTotal": 133
  },
  "Act 4 (H) Cpot A": {
   "Treasure Class": "Act 4 (H) Cpot A",
@@ -10075,7 +10191,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 615,
+  "lineNumber": 621,
   "*ItemProbTotal": 15
  },
  "Act 4 (H) Cpot B": {
@@ -10093,7 +10209,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 616,
+  "lineNumber": 622,
   "*ItemProbTotal": 15
  },
  "Act 4 (H) Equip A": {
@@ -10145,7 +10261,7 @@
   "Prob8": 1,
   "Item9": "Act 3 (H) Equip C Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1277,
+  "lineNumber": 1289,
   "*ItemProbTotal": 1286
  },
  "Act 4 (H) Equip B": {
@@ -10197,7 +10313,7 @@
   "Prob8": 3,
   "Item9": "Act 4 (H) Equip A Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1278,
+  "lineNumber": 1290,
   "*ItemProbTotal": 1292
  },
  "Act 4 (H) Equip C": {
@@ -10249,7 +10365,7 @@
   "Prob8": 1,
   "Item9": "Act 4 (H) Equip B Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1279,
+  "lineNumber": 1291,
   "*ItemProbTotal": 1286
  },
  "Act 4 (H) Good": {
@@ -10287,7 +10403,7 @@
   "Prob5": 28,
   "Item6": "Runes 16",
   "Prob6": 18,
-  "lineNumber": 1286,
+  "lineNumber": 1298,
   "*ItemProbTotal": 134
  },
  "Act 4 (H) H2H A": {
@@ -10342,7 +10458,7 @@
   "Prob3": 1,
   "Item4": "Act 4 (H) Cpot A",
   "Prob4": 2,
-  "lineNumber": 1339
+  "lineNumber": 1352
  },
  "Act 4 (H) Herald B": {
   "Treasure Class": "Act 4 (H) Herald B",
@@ -10362,7 +10478,7 @@
   "Prob3": 1,
   "Item4": "Act 4 (H) Cpot B",
   "Prob4": 2,
-  "lineNumber": 1340
+  "lineNumber": 1353
  },
  "Act 4 (H) Herald C": {
   "Treasure Class": "Act 4 (H) Herald C",
@@ -10382,7 +10498,7 @@
   "Prob3": 1,
   "Item4": "Act 4 (H) Cpot B",
   "Prob4": 2,
-  "lineNumber": 1341
+  "lineNumber": 1354
  },
  "Act 4 (H) Herald Item J": {
   "Treasure Class": "Act 4 (H) Herald Item J",
@@ -10396,38 +10512,38 @@
   "Prob1": 360,
   "Item2": "Act 4 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1297,
+  "lineNumber": 1310,
   "*ItemProbTotal": 407
  },
  "Act 4 (H) Herald Item J - 1 Extra": {
   "Treasure Class": "Act 4 (H) Herald Item J - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 4 (H) Herald Item J",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1311
+  "lineNumber": 1324
  },
  "Act 4 (H) Herald Item J - 2 Extra": {
   "Treasure Class": "Act 4 (H) Herald Item J - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 4 (H) Herald Item J",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1325
+  "lineNumber": 1338
  },
  "Act 4 (H) Herald Item K": {
   "Treasure Class": "Act 4 (H) Herald Item K",
@@ -10441,38 +10557,38 @@
   "Prob1": 360,
   "Item2": "Act 4 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1298,
+  "lineNumber": 1311,
   "*ItemProbTotal": 407
  },
  "Act 4 (H) Herald Item K - 1 Extra": {
   "Treasure Class": "Act 4 (H) Herald Item K - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 4 (H) Herald Item K",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1312
+  "lineNumber": 1325
  },
  "Act 4 (H) Herald Item K - 2 Extra": {
   "Treasure Class": "Act 4 (H) Herald Item K - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 4 (H) Herald Item K",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1326
+  "lineNumber": 1339
  },
  "Act 4 (H) Junk": {
   "Treasure Class": "Act 4 (H) Junk",
@@ -10632,7 +10748,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1049
+  "lineNumber": 1061
  },
  "Act 4 (H) Super A Desecrated": {
   "Treasure Class": "Act 4 (H) Super A Desecrated",
@@ -10642,7 +10758,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Super A",
   "Prob1": 1,
-  "lineNumber": 1215
+  "lineNumber": 1227
  },
  "Act 4 (H) Super Ax": {
   "Treasure Class": "Act 4 (H) Super Ax",
@@ -10658,7 +10774,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1094
+  "lineNumber": 1106
  },
  "Act 4 (H) Super Ax Desecrated": {
   "Treasure Class": "Act 4 (H) Super Ax Desecrated",
@@ -10668,7 +10784,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Super Ax",
   "Prob1": 1,
-  "lineNumber": 1230
+  "lineNumber": 1242
  },
  "Act 4 (H) Super B": {
   "Treasure Class": "Act 4 (H) Super B",
@@ -10684,7 +10800,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1050
+  "lineNumber": 1062
  },
  "Act 4 (H) Super B Desecrated": {
   "Treasure Class": "Act 4 (H) Super B Desecrated",
@@ -10694,7 +10810,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Super B",
   "Prob1": 1,
-  "lineNumber": 1216
+  "lineNumber": 1228
  },
  "Act 4 (H) Super Bx": {
   "Treasure Class": "Act 4 (H) Super Bx",
@@ -10710,7 +10826,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1095
+  "lineNumber": 1107
  },
  "Act 4 (H) Super Bx Desecrated": {
   "Treasure Class": "Act 4 (H) Super Bx Desecrated",
@@ -10720,7 +10836,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Super Bx",
   "Prob1": 1,
-  "lineNumber": 1231
+  "lineNumber": 1243
  },
  "Act 4 (H) Super C": {
   "Treasure Class": "Act 4 (H) Super C",
@@ -10736,7 +10852,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1051
+  "lineNumber": 1063
  },
  "Act 4 (H) Super C Desecrated": {
   "Treasure Class": "Act 4 (H) Super C Desecrated",
@@ -10746,7 +10862,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Super C",
   "Prob1": 1,
-  "lineNumber": 1217
+  "lineNumber": 1229
  },
  "Act 4 (H) Super Cx": {
   "Treasure Class": "Act 4 (H) Super Cx",
@@ -10762,7 +10878,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1096
+  "lineNumber": 1108
  },
  "Act 4 (H) Super Cx Desecrated": {
   "Treasure Class": "Act 4 (H) Super Cx Desecrated",
@@ -10772,7 +10888,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Super Cx",
   "Prob1": 1,
-  "lineNumber": 1232
+  "lineNumber": 1244
  },
  "Act 4 (H) Uitem A": {
   "Treasure Class": "Act 4 (H) Uitem A",
@@ -10785,13 +10901,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 4 (H) Equip A",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 4 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 2 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 2 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 700,
-  "*ItemProbTotal": 64
+  "lineNumber": 712,
+  "*ItemProbTotal": 83
  },
  "Act 4 (H) Uitem B": {
   "Treasure Class": "Act 4 (H) Uitem B",
@@ -10804,13 +10920,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 4 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 4 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 2 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 2 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 701,
-  "*ItemProbTotal": 64
+  "lineNumber": 713,
+  "*ItemProbTotal": 83
  },
  "Act 4 (H) Unique A": {
   "Treasure Class": "Act 4 (H) Unique A",
@@ -10822,7 +10938,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 742
+  "lineNumber": 754
  },
  "Act 4 (H) Unique A Desecrated": {
   "Treasure Class": "Act 4 (H) Unique A Desecrated",
@@ -10832,7 +10948,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Unique A",
   "Prob1": 1,
-  "lineNumber": 1201
+  "lineNumber": 1213
  },
  "Act 4 (H) Unique B": {
   "Treasure Class": "Act 4 (H) Unique B",
@@ -10844,7 +10960,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 743
+  "lineNumber": 755
  },
  "Act 4 (H) Unique B Desecrated": {
   "Treasure Class": "Act 4 (H) Unique B Desecrated",
@@ -10854,7 +10970,7 @@
   "NoDrop": 0,
   "Item1": "Act 4 (H) Unique B",
   "Prob1": 1,
-  "lineNumber": 1202
+  "lineNumber": 1214
  },
  "Act 4 (H) Wraith A": {
   "Treasure Class": "Act 4 (H) Wraith A",
@@ -10986,7 +11102,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (N) Cpot A",
   "Prob2": 1,
-  "lineNumber": 643
+  "lineNumber": 649
  },
  "Act 4 (N) Champ B": {
   "Treasure Class": "Act 4 (N) Champ B",
@@ -10998,7 +11114,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 1,
-  "lineNumber": 644
+  "lineNumber": 650
  },
  "Act 4 (N) Champ C": {
   "Treasure Class": "Act 4 (N) Champ C",
@@ -11010,7 +11126,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 1,
-  "lineNumber": 645
+  "lineNumber": 651
  },
  "Act 4 (N) Chest A": {
   "Treasure Class": "Act 4 (N) Chest A",
@@ -11079,7 +11195,7 @@
   "Prob2": 37,
   "Item3": "Act 4 (N) Good",
   "Prob3": 3,
-  "lineNumber": 559,
+  "lineNumber": 565,
   "*ItemProbTotal": 100
  },
  "Act 4 (N) Citem B": {
@@ -11098,7 +11214,7 @@
   "Prob2": 37,
   "Item3": "Act 4 (N) Good",
   "Prob3": 3,
-  "lineNumber": 560,
+  "lineNumber": 566,
   "*ItemProbTotal": 100
  },
  "Act 4 (N) Cpot A": {
@@ -11116,7 +11232,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 601,
+  "lineNumber": 607,
   "*ItemProbTotal": 15
  },
  "Act 4 (N) Cpot B": {
@@ -11134,7 +11250,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 602,
+  "lineNumber": 608,
   "*ItemProbTotal": 15
  },
  "Act 4 (N) Equip A": {
@@ -11186,7 +11302,7 @@
   "Prob8": 3,
   "Item9": "Act 3 (N) Equip C Desecrated Herald",
   "Prob9": 1125,
-  "lineNumber": 1262,
+  "lineNumber": 1274,
   "*ItemProbTotal": 1167
  },
  "Act 4 (N) Equip B": {
@@ -11238,7 +11354,7 @@
   "Prob8": 1,
   "Item9": "Act 4 (N) Equip A Desecrated Herald",
   "Prob9": 1125,
-  "lineNumber": 1263,
+  "lineNumber": 1275,
   "*ItemProbTotal": 1161
  },
  "Act 4 (N) Equip C": {
@@ -11290,7 +11406,7 @@
   "Prob8": 3,
   "Item9": "Act 4 (N) Equip B Desecrated Herald",
   "Prob9": 1150,
-  "lineNumber": 1264,
+  "lineNumber": 1276,
   "*ItemProbTotal": 1192
  },
  "Act 4 (N) Good": {
@@ -11505,7 +11621,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1034
+  "lineNumber": 1046
  },
  "Act 4 (N) Super Ax": {
   "Treasure Class": "Act 4 (N) Super Ax",
@@ -11521,7 +11637,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1079
+  "lineNumber": 1091
  },
  "Act 4 (N) Super B": {
   "Treasure Class": "Act 4 (N) Super B",
@@ -11537,7 +11653,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1035
+  "lineNumber": 1047
  },
  "Act 4 (N) Super Bx": {
   "Treasure Class": "Act 4 (N) Super Bx",
@@ -11553,7 +11669,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1080
+  "lineNumber": 1092
  },
  "Act 4 (N) Super C": {
   "Treasure Class": "Act 4 (N) Super C",
@@ -11569,7 +11685,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1036
+  "lineNumber": 1048
  },
  "Act 4 (N) Super Cx": {
   "Treasure Class": "Act 4 (N) Super Cx",
@@ -11585,7 +11701,7 @@
   "Prob1": 2,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1081
+  "lineNumber": 1093
  },
  "Act 4 (N) Uitem A": {
   "Treasure Class": "Act 4 (N) Uitem A",
@@ -11601,7 +11717,7 @@
   "Prob1": 58,
   "Item2": "Act 4 (N) Good",
   "Prob2": 4,
-  "lineNumber": 686,
+  "lineNumber": 698,
   "*ItemProbTotal": 62
  },
  "Act 4 (N) Uitem B": {
@@ -11618,7 +11734,7 @@
   "Prob1": 58,
   "Item2": "Act 4 (N) Good",
   "Prob2": 4,
-  "lineNumber": 687,
+  "lineNumber": 699,
   "*ItemProbTotal": 62
  },
  "Act 4 (N) Unique A": {
@@ -11631,7 +11747,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 728
+  "lineNumber": 740
  },
  "Act 4 (N) Unique B": {
   "Treasure Class": "Act 4 (N) Unique B",
@@ -11643,7 +11759,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 729
+  "lineNumber": 741
  },
  "Act 4 (N) Wraith A": {
   "Treasure Class": "Act 4 (N) Wraith A",
@@ -11775,7 +11891,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Cpot A",
   "Prob2": 1,
-  "lineNumber": 629
+  "lineNumber": 635
  },
  "Act 4 Champ B": {
   "Treasure Class": "Act 4 Champ B",
@@ -11787,7 +11903,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Cpot B",
   "Prob2": 1,
-  "lineNumber": 630
+  "lineNumber": 636
  },
  "Act 4 Chest A": {
   "Treasure Class": "Act 4 Chest A",
@@ -11856,7 +11972,7 @@
   "Prob2": 37,
   "Item3": "Act 4 Good",
   "Prob3": 3,
-  "lineNumber": 545,
+  "lineNumber": 551,
   "*ItemProbTotal": 100
  },
  "Act 4 Citem B": {
@@ -11875,7 +11991,7 @@
   "Prob2": 37,
   "Item3": "Act 4 Good",
   "Prob3": 3,
-  "lineNumber": 546,
+  "lineNumber": 552,
   "*ItemProbTotal": 100
  },
  "Act 4 Cpot A": {
@@ -11888,7 +12004,7 @@
   "Prob1": 1,
   "Item2": "Hpotion 4",
   "Prob2": 2,
-  "lineNumber": 587,
+  "lineNumber": 593,
   "*ItemProbTotal": 3
  },
  "Act 4 Cpot B": {
@@ -11901,7 +12017,7 @@
   "Prob1": 1,
   "Item2": "Hpotion 4",
   "Prob2": 2,
-  "lineNumber": 588,
+  "lineNumber": 594,
   "*ItemProbTotal": 3
  },
  "Act 4 Equip A": {
@@ -11953,7 +12069,7 @@
   "Prob8": 1,
   "Item9": "Act 3 Equip C Desecrated Herald",
   "Prob9": 430,
-  "lineNumber": 1248,
+  "lineNumber": 1260,
   "*ItemProbTotal": 463
  },
  "Act 4 Equip B": {
@@ -12005,7 +12121,7 @@
   "Prob8": 1,
   "Item9": "Act 4 Equip A Desecrated Herald",
   "Prob9": 500,
-  "lineNumber": 1249,
+  "lineNumber": 1261,
   "*ItemProbTotal": 532
  },
  "Act 4 Good": {
@@ -12222,7 +12338,7 @@
   "Prob1": 2,
   "Item2": "Act 4 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1019
+  "lineNumber": 1031
  },
  "Act 4 Super Ax": {
   "Treasure Class": "Act 4 Super Ax",
@@ -12238,7 +12354,7 @@
   "Prob1": 2,
   "Item2": "Act 4 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1064
+  "lineNumber": 1076
  },
  "Act 4 Super B": {
   "Treasure Class": "Act 4 Super B",
@@ -12254,7 +12370,7 @@
   "Prob1": 2,
   "Item2": "Act 4 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1020
+  "lineNumber": 1032
  },
  "Act 4 Super Bx": {
   "Treasure Class": "Act 4 Super Bx",
@@ -12270,7 +12386,7 @@
   "Prob1": 2,
   "Item2": "Act 4 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1065
+  "lineNumber": 1077
  },
  "Act 4 Super C": {
   "Treasure Class": "Act 4 Super C",
@@ -12286,7 +12402,7 @@
   "Prob1": 2,
   "Item2": "Act 4 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1021
+  "lineNumber": 1033
  },
  "Act 4 Super Cx": {
   "Treasure Class": "Act 4 Super Cx",
@@ -12302,7 +12418,7 @@
   "Prob1": 2,
   "Item2": "Act 4 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1066
+  "lineNumber": 1078
  },
  "Act 4 Terrorize Act Consumable": {
   "Treasure Class": "Act 4 Terrorize Act Consumable",
@@ -12338,7 +12454,7 @@
   "Prob1": 58,
   "Item2": "Act 4 Good",
   "Prob2": 4,
-  "lineNumber": 672,
+  "lineNumber": 684,
   "*ItemProbTotal": 62
  },
  "Act 4 Uitem B": {
@@ -12355,7 +12471,7 @@
   "Prob1": 58,
   "Item2": "Act 4 Good",
   "Prob2": 4,
-  "lineNumber": 673,
+  "lineNumber": 685,
   "*ItemProbTotal": 62
  },
  "Act 4 Unique A": {
@@ -12368,7 +12484,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Cpot A",
   "Prob2": 2,
-  "lineNumber": 714
+  "lineNumber": 726
  },
  "Act 4 Unique B": {
   "Treasure Class": "Act 4 Unique B",
@@ -12380,7 +12496,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Cpot B",
   "Prob2": 2,
-  "lineNumber": 715
+  "lineNumber": 727
  },
  "Act 4 Worldstone Shard Parent": {
   "Treasure Class": "Act 4 Worldstone Shard Parent",
@@ -12390,6 +12506,28 @@
   "Item2": "All Acts Terrorize Consumable",
   "Prob2": 1,
   "lineNumber": 154
+ },
+ "Act 4 Worldstone Shard Parent Citem A": {
+  "Treasure Class": "Act 4 Worldstone Shard Parent Citem A",
+  "Picks": -2,
+  "Item1": "Act 4 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Citem A Shard",
+  "Prob3": 1,
+  "lineNumber": 540
+ },
+ "Act 4 Worldstone Shard Parent Uitem A": {
+  "Treasure Class": "Act 4 Worldstone Shard Parent Uitem A",
+  "Picks": -2,
+  "Item1": "Act 4 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Uitem A Shard",
+  "Prob3": 1,
+  "lineNumber": 673
  },
  "Act 4 Worldstone Shards 1": {
   "Treasure Class": "Act 4 Worldstone Shards 1",
@@ -12711,7 +12849,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Cpot A",
   "Prob2": 1,
-  "lineNumber": 660
+  "lineNumber": 666
  },
  "Act 5 (H) Champ A Desecrated": {
   "Treasure Class": "Act 5 (H) Champ A Desecrated",
@@ -12721,7 +12859,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Champ A",
   "Prob1": 1,
-  "lineNumber": 1189
+  "lineNumber": 1201
  },
  "Act 5 (H) Champ B": {
   "Treasure Class": "Act 5 (H) Champ B",
@@ -12733,7 +12871,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Cpot B",
   "Prob2": 1,
-  "lineNumber": 661
+  "lineNumber": 667
  },
  "Act 5 (H) Champ B Desecrated": {
   "Treasure Class": "Act 5 (H) Champ B Desecrated",
@@ -12743,7 +12881,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Champ B",
   "Prob1": 1,
-  "lineNumber": 1190
+  "lineNumber": 1202
  },
  "Act 5 (H) Champ C": {
   "Treasure Class": "Act 5 (H) Champ C",
@@ -12755,7 +12893,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Cpot C",
   "Prob2": 1,
-  "lineNumber": 662
+  "lineNumber": 668
  },
  "Act 5 (H) Champ C Desecrated": {
   "Treasure Class": "Act 5 (H) Champ C Desecrated",
@@ -12765,7 +12903,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Champ C",
   "Prob1": 1,
-  "lineNumber": 1191
+  "lineNumber": 1203
  },
  "Act 5 (H) Chest A": {
   "Treasure Class": "Act 5 (H) Chest A",
@@ -12829,15 +12967,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 5 (H) Equip A",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 5 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 1 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 1 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 575,
-  "*ItemProbTotal": 103
+  "lineNumber": 581,
+  "*ItemProbTotal": 133
  },
  "Act 5 (H) Citem B": {
   "Treasure Class": "Act 5 (H) Citem B",
@@ -12850,15 +12988,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 5 (H) Equip B",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 5 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 1 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 1 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 576,
-  "*ItemProbTotal": 103
+  "lineNumber": 582,
+  "*ItemProbTotal": 133
  },
  "Act 5 (H) Citem C": {
   "Treasure Class": "Act 5 (H) Citem C",
@@ -12871,15 +13009,15 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "\"gld,mul=1280\"",
-  "Prob1": 60,
+  "Prob1": 84,
   "Item2": "Act 5 (H) Equip C",
-  "Prob2": 37,
+  "Prob2": 41,
   "Item3": "Act 5 (H) Good",
-  "Prob3": 3,
-  "Item4": "Act 1 Worldstone Shard Parent",
+  "Prob3": 5,
+  "Item4": "Act 1 Worldstone Shard Parent Citem A",
   "Prob4": 3,
-  "lineNumber": 577,
-  "*ItemProbTotal": 103
+  "lineNumber": 583,
+  "*ItemProbTotal": 133
  },
  "Act 5 (H) Cpot A": {
   "Treasure Class": "Act 5 (H) Cpot A",
@@ -12896,7 +13034,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 617,
+  "lineNumber": 623,
   "*ItemProbTotal": 15
  },
  "Act 5 (H) Cpot B": {
@@ -12914,7 +13052,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 618,
+  "lineNumber": 624,
   "*ItemProbTotal": 15
  },
  "Act 5 (H) Cpot C": {
@@ -12932,7 +13070,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 619,
+  "lineNumber": 625,
   "*ItemProbTotal": 15
  },
  "Act 5 (H) Equip A": {
@@ -12984,7 +13122,7 @@
   "Prob8": 1,
   "Item9": "Act 4 (H) Equip C Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1280,
+  "lineNumber": 1292,
   "*ItemProbTotal": 1286
  },
  "Act 5 (H) Equip B": {
@@ -13036,7 +13174,7 @@
   "Prob8": 1,
   "Item9": "Act 5 (H) Equip A Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1281,
+  "lineNumber": 1293,
   "*ItemProbTotal": 1286
  },
  "Act 5 (H) Equip C": {
@@ -13088,7 +13226,7 @@
   "Prob8": 1,
   "Item9": "Act 5 (H) Equip B Desecrated Herald",
   "Prob9": 1250,
-  "lineNumber": 1282,
+  "lineNumber": 1294,
   "*ItemProbTotal": 1285
  },
  "Act 5 (H) Good": {
@@ -13126,7 +13264,7 @@
   "Prob5": 28,
   "Item6": "Runes 17",
   "Prob6": 18,
-  "lineNumber": 1287,
+  "lineNumber": 1299,
   "*ItemProbTotal": 134
  },
  "Act 5 (H) H2H A": {
@@ -13198,7 +13336,7 @@
   "Prob3": 1,
   "Item4": "Act 5 (H) Cpot A",
   "Prob4": 2,
-  "lineNumber": 1342
+  "lineNumber": 1355
  },
  "Act 5 (H) Herald B": {
   "Treasure Class": "Act 5 (H) Herald B",
@@ -13218,7 +13356,7 @@
   "Prob3": 1,
   "Item4": "Act 5 (H) Cpot B",
   "Prob4": 2,
-  "lineNumber": 1343
+  "lineNumber": 1356
  },
  "Act 5 (H) Herald C": {
   "Treasure Class": "Act 5 (H) Herald C",
@@ -13238,7 +13376,7 @@
   "Prob3": 1,
   "Item4": "Act 5 (H) Cpot C",
   "Prob4": 2,
-  "lineNumber": 1344
+  "lineNumber": 1357
  },
  "Act 5 (H) Herald Item L": {
   "Treasure Class": "Act 5 (H) Herald Item L",
@@ -13252,38 +13390,38 @@
   "Prob1": 360,
   "Item2": "Act 5 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1299,
+  "lineNumber": 1312,
   "*ItemProbTotal": 407
  },
  "Act 5 (H) Herald Item L - 1 Extra": {
   "Treasure Class": "Act 5 (H) Herald Item L - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Herald Item L",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1313
+  "lineNumber": 1326
  },
  "Act 5 (H) Herald Item L - 2 Extra": {
   "Treasure Class": "Act 5 (H) Herald Item L - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Herald Item L",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1327
+  "lineNumber": 1340
  },
  "Act 5 (H) Herald Item M": {
   "Treasure Class": "Act 5 (H) Herald Item M",
@@ -13297,38 +13435,38 @@
   "Prob1": 360,
   "Item2": "Act 5 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1300,
+  "lineNumber": 1313,
   "*ItemProbTotal": 407
  },
  "Act 5 (H) Herald Item M - 1 Extra": {
   "Treasure Class": "Act 5 (H) Herald Item M - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Herald Item M",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1314
+  "lineNumber": 1327
  },
  "Act 5 (H) Herald Item M - 2 Extra": {
   "Treasure Class": "Act 5 (H) Herald Item M - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Herald Item M",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1328
+  "lineNumber": 1341
  },
  "Act 5 (H) Herald Item N": {
   "Treasure Class": "Act 5 (H) Herald Item N",
@@ -13342,38 +13480,38 @@
   "Prob1": 360,
   "Item2": "Act 5 (H) Good Desecrated Herald",
   "Prob2": 30,
-  "Item3": "All Acts Terrorize Consumable",
+  "Item3": "Act 1 (H) Herald Item Shard",
   "Prob3": 15,
   "Item4": "Sunder Charms",
   "Prob4": 2,
-  "lineNumber": 1301,
+  "lineNumber": 1314,
   "*ItemProbTotal": 407
  },
  "Act 5 (H) Herald Item N - 1 Extra": {
   "Treasure Class": "Act 5 (H) Herald Item N - 1 Extra",
   "Picks": -1,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 850,
+  "Set": 850,
+  "Rare": 920,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Herald Item N",
   "Prob1": 1,
   "ConditionCalc": "(stat('heraldtier'.accr)>2)*(stat('heraldtier'.accr) <5)",
-  "lineNumber": 1315
+  "lineNumber": 1328
  },
  "Act 5 (H) Herald Item N - 2 Extra": {
   "Treasure Class": "Act 5 (H) Herald Item N - 2 Extra",
   "Picks": -2,
-  "Unique": 800,
-  "Set": 800,
-  "Rare": 850,
+  "Unique": 870,
+  "Set": 870,
+  "Rare": 950,
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Herald Item N",
   "Prob1": 2,
   "ConditionCalc": "(stat('heraldtier'.accr) >4)",
-  "lineNumber": 1329
+  "lineNumber": 1342
  },
  "Act 5 (H) Junk": {
   "Treasure Class": "Act 5 (H) Junk",
@@ -13598,7 +13736,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1052
+  "lineNumber": 1064
  },
  "Act 5 (H) Super A Desecrated": {
   "Treasure Class": "Act 5 (H) Super A Desecrated",
@@ -13608,7 +13746,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Super A",
   "Prob1": 1,
-  "lineNumber": 1218
+  "lineNumber": 1230
  },
  "Act 5 (H) Super Ax": {
   "Treasure Class": "Act 5 (H) Super Ax",
@@ -13624,7 +13762,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1097
+  "lineNumber": 1109
  },
  "Act 5 (H) Super Ax Desecrated": {
   "Treasure Class": "Act 5 (H) Super Ax Desecrated",
@@ -13634,7 +13772,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Super Ax",
   "Prob1": 1,
-  "lineNumber": 1233
+  "lineNumber": 1245
  },
  "Act 5 (H) Super B": {
   "Treasure Class": "Act 5 (H) Super B",
@@ -13650,7 +13788,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1053
+  "lineNumber": 1065
  },
  "Act 5 (H) Super B Desecrated": {
   "Treasure Class": "Act 5 (H) Super B Desecrated",
@@ -13660,7 +13798,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Super B",
   "Prob1": 1,
-  "lineNumber": 1219
+  "lineNumber": 1231
  },
  "Act 5 (H) Super Bx": {
   "Treasure Class": "Act 5 (H) Super Bx",
@@ -13676,7 +13814,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1098
+  "lineNumber": 1110
  },
  "Act 5 (H) Super Bx Desecrated": {
   "Treasure Class": "Act 5 (H) Super Bx Desecrated",
@@ -13686,7 +13824,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Super Bx",
   "Prob1": 1,
-  "lineNumber": 1234
+  "lineNumber": 1246
  },
  "Act 5 (H) Super C": {
   "Treasure Class": "Act 5 (H) Super C",
@@ -13702,7 +13840,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1054
+  "lineNumber": 1066
  },
  "Act 5 (H) Super C Desecrated": {
   "Treasure Class": "Act 5 (H) Super C Desecrated",
@@ -13712,7 +13850,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Super C",
   "Prob1": 1,
-  "lineNumber": 1220
+  "lineNumber": 1232
  },
  "Act 5 (H) Super Cx": {
   "Treasure Class": "Act 5 (H) Super Cx",
@@ -13728,7 +13866,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1099
+  "lineNumber": 1111
  },
  "Act 5 (H) Super Cx Desecrated": {
   "Treasure Class": "Act 5 (H) Super Cx Desecrated",
@@ -13738,7 +13876,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Super Cx",
   "Prob1": 1,
-  "lineNumber": 1235
+  "lineNumber": 1247
  },
  "Act 5 (H) Uitem A": {
   "Treasure Class": "Act 5 (H) Uitem A",
@@ -13751,13 +13889,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Equip A",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 5 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 1 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 1 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 702,
-  "*ItemProbTotal": 64
+  "lineNumber": 714,
+  "*ItemProbTotal": 83
  },
  "Act 5 (H) Uitem B": {
   "Treasure Class": "Act 5 (H) Uitem B",
@@ -13770,13 +13908,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Equip B",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 5 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 1 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 1 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 703,
-  "*ItemProbTotal": 64
+  "lineNumber": 715,
+  "*ItemProbTotal": 83
  },
  "Act 5 (H) Uitem C": {
   "Treasure Class": "Act 5 (H) Uitem C",
@@ -13789,13 +13927,13 @@
   "Magic": 1024,
   "NoDrop": 0,
   "Item1": "Act 5 (H) Equip C",
-  "Prob1": 58,
+  "Prob1": 75,
   "Item2": "Act 5 (H) Good",
-  "Prob2": 4,
-  "Item3": "Act 1 Worldstone Shard Parent",
+  "Prob2": 6,
+  "Item3": "Act 1 Worldstone Shard Parent Uitem A",
   "Prob3": 2,
-  "lineNumber": 704,
-  "*ItemProbTotal": 64
+  "lineNumber": 716,
+  "*ItemProbTotal": 83
  },
  "Act 5 (H) Unique A": {
   "Treasure Class": "Act 5 (H) Unique A",
@@ -13807,7 +13945,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Cpot A",
   "Prob2": 2,
-  "lineNumber": 744
+  "lineNumber": 756
  },
  "Act 5 (H) Unique A Desecrated": {
   "Treasure Class": "Act 5 (H) Unique A Desecrated",
@@ -13817,7 +13955,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Unique A",
   "Prob1": 1,
-  "lineNumber": 1203
+  "lineNumber": 1215
  },
  "Act 5 (H) Unique B": {
   "Treasure Class": "Act 5 (H) Unique B",
@@ -13829,7 +13967,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Cpot B",
   "Prob2": 2,
-  "lineNumber": 745
+  "lineNumber": 757
  },
  "Act 5 (H) Unique B Desecrated": {
   "Treasure Class": "Act 5 (H) Unique B Desecrated",
@@ -13839,7 +13977,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Unique B",
   "Prob1": 1,
-  "lineNumber": 1204
+  "lineNumber": 1216
  },
  "Act 5 (H) Unique C": {
   "Treasure Class": "Act 5 (H) Unique C",
@@ -13851,7 +13989,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Cpot C",
   "Prob2": 2,
-  "lineNumber": 746
+  "lineNumber": 758
  },
  "Act 5 (H) Unique C Desecrated": {
   "Treasure Class": "Act 5 (H) Unique C Desecrated",
@@ -13861,7 +13999,7 @@
   "NoDrop": 0,
   "Item1": "Act 5 (H) Unique C",
   "Prob1": 1,
-  "lineNumber": 1205
+  "lineNumber": 1217
  },
  "Act 5 (H) Wraith A": {
   "Treasure Class": "Act 5 (H) Wraith A",
@@ -14053,7 +14191,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (N) Cpot A",
   "Prob2": 1,
-  "lineNumber": 646
+  "lineNumber": 652
  },
  "Act 5 (N) Champ B": {
   "Treasure Class": "Act 5 (N) Champ B",
@@ -14065,7 +14203,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (N) Cpot B",
   "Prob2": 1,
-  "lineNumber": 647
+  "lineNumber": 653
  },
  "Act 5 (N) Champ C": {
   "Treasure Class": "Act 5 (N) Champ C",
@@ -14077,7 +14215,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (N) Cpot C",
   "Prob2": 1,
-  "lineNumber": 648
+  "lineNumber": 654
  },
  "Act 5 (N) Chest A": {
   "Treasure Class": "Act 5 (N) Chest A",
@@ -14146,7 +14284,7 @@
   "Prob2": 37,
   "Item3": "Act 5 (N) Good",
   "Prob3": 3,
-  "lineNumber": 561,
+  "lineNumber": 567,
   "*ItemProbTotal": 100
  },
  "Act 5 (N) Citem B": {
@@ -14165,7 +14303,7 @@
   "Prob2": 37,
   "Item3": "Act 5 (N) Good",
   "Prob3": 3,
-  "lineNumber": 562,
+  "lineNumber": 568,
   "*ItemProbTotal": 100
  },
  "Act 5 (N) Citem C": {
@@ -14184,7 +14322,7 @@
   "Prob2": 37,
   "Item3": "Act 5 (N) Good",
   "Prob3": 3,
-  "lineNumber": 563,
+  "lineNumber": 569,
   "*ItemProbTotal": 100
  },
  "Act 5 (N) Cpot A": {
@@ -14202,7 +14340,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 603,
+  "lineNumber": 609,
   "*ItemProbTotal": 15
  },
  "Act 5 (N) Cpot B": {
@@ -14220,7 +14358,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 604,
+  "lineNumber": 610,
   "*ItemProbTotal": 15
  },
  "Act 5 (N) Cpot C": {
@@ -14238,7 +14376,7 @@
   "Item4": "Hpotion 6",
   "Prob4": 8,
   "Prob6": 7,
-  "lineNumber": 605,
+  "lineNumber": 611,
   "*ItemProbTotal": 15
  },
  "Act 5 (N) Equip A": {
@@ -14290,7 +14428,7 @@
   "Prob8": 1,
   "Item9": "Act 4 (N) Equip C Desecrated Herald",
   "Prob9": 1175,
-  "lineNumber": 1265,
+  "lineNumber": 1277,
   "*ItemProbTotal": 1211
  },
  "Act 5 (N) Equip B": {
@@ -14342,7 +14480,7 @@
   "Prob8": 3,
   "Item9": "Act 5 (N) Equip A Desecrated Herald",
   "Prob9": 1200,
-  "lineNumber": 1266,
+  "lineNumber": 1278,
   "*ItemProbTotal": 1242
  },
  "Act 5 (N) Equip C": {
@@ -14394,7 +14532,7 @@
   "Prob8": 1,
   "Item9": "Act 5 (N) Equip B Desecrated Herald",
   "Prob9": 1200,
-  "lineNumber": 1267,
+  "lineNumber": 1279,
   "*ItemProbTotal": 1236
  },
  "Act 5 (N) Good": {
@@ -14691,7 +14829,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1037
+  "lineNumber": 1049
  },
  "Act 5 (N) Super Ax": {
   "Treasure Class": "Act 5 (N) Super Ax",
@@ -14707,7 +14845,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 1082
+  "lineNumber": 1094
  },
  "Act 5 (N) Super B": {
   "Treasure Class": "Act 5 (N) Super B",
@@ -14723,7 +14861,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1038
+  "lineNumber": 1050
  },
  "Act 5 (N) Super Bx": {
   "Treasure Class": "Act 5 (N) Super Bx",
@@ -14739,7 +14877,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 1083
+  "lineNumber": 1095
  },
  "Act 5 (N) Super C": {
   "Treasure Class": "Act 5 (N) Super C",
@@ -14755,7 +14893,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1039
+  "lineNumber": 1051
  },
  "Act 5 (N) Super Cx": {
   "Treasure Class": "Act 5 (N) Super Cx",
@@ -14771,7 +14909,7 @@
   "Prob1": 2,
   "Item2": "Act 5 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 1084
+  "lineNumber": 1096
  },
  "Act 5 (N) Uitem A": {
   "Treasure Class": "Act 5 (N) Uitem A",
@@ -14787,7 +14925,7 @@
   "Prob1": 58,
   "Item2": "Act 5 (N) Good",
   "Prob2": 4,
-  "lineNumber": 688,
+  "lineNumber": 700,
   "*ItemProbTotal": 62
  },
  "Act 5 (N) Uitem B": {
@@ -14804,7 +14942,7 @@
   "Prob1": 58,
   "Item2": "Act 5 (N) Good",
   "Prob2": 4,
-  "lineNumber": 689,
+  "lineNumber": 701,
   "*ItemProbTotal": 62
  },
  "Act 5 (N) Uitem C": {
@@ -14821,7 +14959,7 @@
   "Prob1": 58,
   "Item2": "Act 5 (N) Good",
   "Prob2": 4,
-  "lineNumber": 690,
+  "lineNumber": 702,
   "*ItemProbTotal": 62
  },
  "Act 5 (N) Unique A": {
@@ -14834,7 +14972,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (N) Cpot A",
   "Prob2": 2,
-  "lineNumber": 730
+  "lineNumber": 742
  },
  "Act 5 (N) Unique B": {
   "Treasure Class": "Act 5 (N) Unique B",
@@ -14846,7 +14984,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (N) Cpot B",
   "Prob2": 2,
-  "lineNumber": 731
+  "lineNumber": 743
  },
  "Act 5 (N) Unique C": {
   "Treasure Class": "Act 5 (N) Unique C",
@@ -14858,7 +14996,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (N) Cpot C",
   "Prob2": 2,
-  "lineNumber": 732
+  "lineNumber": 744
  },
  "Act 5 (N) Wraith A": {
   "Treasure Class": "Act 5 (N) Wraith A",
@@ -15050,7 +15188,7 @@
   "Prob1": 1,
   "Item2": "Act 5 Cpot A",
   "Prob2": 1,
-  "lineNumber": 631
+  "lineNumber": 637
  },
  "Act 5 Champ B": {
   "Treasure Class": "Act 5 Champ B",
@@ -15062,7 +15200,7 @@
   "Prob1": 1,
   "Item2": "Act 5 Cpot B",
   "Prob2": 1,
-  "lineNumber": 632
+  "lineNumber": 638
  },
  "Act 5 Champ C": {
   "Treasure Class": "Act 5 Champ C",
@@ -15074,7 +15212,7 @@
   "Prob1": 1,
   "Item2": "Act 5 Cpot C",
   "Prob2": 1,
-  "lineNumber": 633
+  "lineNumber": 639
  },
  "Act 5 Chest A": {
   "Treasure Class": "Act 5 Chest A",
@@ -15143,7 +15281,7 @@
   "Prob2": 37,
   "Item3": "Act 5 Good",
   "Prob3": 3,
-  "lineNumber": 547,
+  "lineNumber": 553,
   "*ItemProbTotal": 100
  },
  "Act 5 Citem B": {
@@ -15162,7 +15300,7 @@
   "Prob2": 37,
   "Item3": "Act 5 Good",
   "Prob3": 3,
-  "lineNumber": 548,
+  "lineNumber": 554,
   "*ItemProbTotal": 100
  },
  "Act 5 Citem C": {
@@ -15181,7 +15319,7 @@
   "Prob2": 37,
   "Item3": "Act 5 Good",
   "Prob3": 3,
-  "lineNumber": 549,
+  "lineNumber": 555,
   "*ItemProbTotal": 100
  },
  "Act 5 Cpot A": {
@@ -15194,7 +15332,7 @@
   "Prob1": 1,
   "Item2": "Hpotion 5",
   "Prob2": 2,
-  "lineNumber": 589,
+  "lineNumber": 595,
   "*ItemProbTotal": 3
  },
  "Act 5 Cpot B": {
@@ -15207,7 +15345,7 @@
   "Prob1": 1,
   "Item2": "Hpotion 5",
   "Prob2": 2,
-  "lineNumber": 590,
+  "lineNumber": 596,
   "*ItemProbTotal": 3
  },
  "Act 5 Cpot C": {
@@ -15220,7 +15358,7 @@
   "Prob1": 1,
   "Item2": "Hpotion 5",
   "Prob2": 2,
-  "lineNumber": 591,
+  "lineNumber": 597,
   "*ItemProbTotal": 3
  },
  "Act 5 Equip A": {
@@ -15272,7 +15410,7 @@
   "Prob8": 5,
   "Item9": "Act 4 Equip B Desecrated Herald",
   "Prob9": 629,
-  "lineNumber": 1250,
+  "lineNumber": 1262,
   "*ItemProbTotal": 670
  },
  "Act 5 Equip B": {
@@ -15324,7 +15462,7 @@
   "Prob8": 1,
   "Item9": "Act 5 Equip A Desecrated Herald",
   "Prob9": 731,
-  "lineNumber": 1251,
+  "lineNumber": 1263,
   "*ItemProbTotal": 766
  },
  "Act 5 Equip C": {
@@ -15376,7 +15514,7 @@
   "Prob8": 1,
   "Item9": "Act 5 Equip B Desecrated Herald",
   "Prob9": 833,
-  "lineNumber": 1252,
+  "lineNumber": 1264,
   "*ItemProbTotal": 868
  },
  "Act 5 Good": {
@@ -15673,7 +15811,7 @@
   "Prob1": 2,
   "Item2": "Act 5 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1022
+  "lineNumber": 1034
  },
  "Act 5 Super Ax": {
   "Treasure Class": "Act 5 Super Ax",
@@ -15689,7 +15827,7 @@
   "Prob1": 2,
   "Item2": "Act 5 Cpot A",
   "Prob2": 2,
-  "lineNumber": 1067
+  "lineNumber": 1079
  },
  "Act 5 Super B": {
   "Treasure Class": "Act 5 Super B",
@@ -15705,7 +15843,7 @@
   "Prob1": 2,
   "Item2": "Act 5 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1023
+  "lineNumber": 1035
  },
  "Act 5 Super Bx": {
   "Treasure Class": "Act 5 Super Bx",
@@ -15721,7 +15859,7 @@
   "Prob1": 2,
   "Item2": "Act 5 Cpot B",
   "Prob2": 2,
-  "lineNumber": 1068
+  "lineNumber": 1080
  },
  "Act 5 Super C": {
   "Treasure Class": "Act 5 Super C",
@@ -15737,7 +15875,7 @@
   "Prob1": 2,
   "Item2": "Act 5 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1024
+  "lineNumber": 1036
  },
  "Act 5 Super Cx": {
   "Treasure Class": "Act 5 Super Cx",
@@ -15753,7 +15891,7 @@
   "Prob1": 2,
   "Item2": "Act 5 Cpot C",
   "Prob2": 2,
-  "lineNumber": 1069
+  "lineNumber": 1081
  },
  "Act 5 Terrorize Act Consumable": {
   "Treasure Class": "Act 5 Terrorize Act Consumable",
@@ -15789,7 +15927,7 @@
   "Prob1": 58,
   "Item2": "Act 5 Good",
   "Prob2": 4,
-  "lineNumber": 674,
+  "lineNumber": 686,
   "*ItemProbTotal": 62
  },
  "Act 5 Uitem B": {
@@ -15806,7 +15944,7 @@
   "Prob1": 58,
   "Item2": "Act 5 Good",
   "Prob2": 4,
-  "lineNumber": 675,
+  "lineNumber": 687,
   "*ItemProbTotal": 62
  },
  "Act 5 Uitem C": {
@@ -15823,7 +15961,7 @@
   "Prob1": 58,
   "Item2": "Act 5 Good",
   "Prob2": 4,
-  "lineNumber": 676,
+  "lineNumber": 688,
   "*ItemProbTotal": 62
  },
  "Act 5 Unique A": {
@@ -15836,7 +15974,7 @@
   "Prob1": 1,
   "Item2": "Act 5 Cpot A",
   "Prob2": 2,
-  "lineNumber": 716
+  "lineNumber": 728
  },
  "Act 5 Unique B": {
   "Treasure Class": "Act 5 Unique B",
@@ -15848,7 +15986,7 @@
   "Prob1": 1,
   "Item2": "Act 5 Cpot B",
   "Prob2": 2,
-  "lineNumber": 717
+  "lineNumber": 729
  },
  "Act 5 Unique C": {
   "Treasure Class": "Act 5 Unique C",
@@ -15860,7 +15998,7 @@
   "Prob1": 1,
   "Item2": "Act 5 Cpot C",
   "Prob2": 2,
-  "lineNumber": 718
+  "lineNumber": 730
  },
  "Act 5 Worldstone Shard Parent": {
   "Treasure Class": "Act 5 Worldstone Shard Parent",
@@ -15870,6 +16008,28 @@
   "Item2": "All Acts Terrorize Consumable",
   "Prob2": 1,
   "lineNumber": 155
+ },
+ "Act 5 Worldstone Shard Parent Citem A": {
+  "Treasure Class": "Act 5 Worldstone Shard Parent Citem A",
+  "Picks": -2,
+  "Item1": "Act 5 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Citem A Shard",
+  "Prob3": 1,
+  "lineNumber": 541
+ },
+ "Act 5 Worldstone Shard Parent Uitem A": {
+  "Treasure Class": "Act 5 Worldstone Shard Parent Uitem A",
+  "Picks": -2,
+  "Item1": "Act 5 Terrorize Act Consumable",
+  "Prob1": 1,
+  "Item2": "All Acts Terrorize Consumable",
+  "Prob2": 1,
+  "Item3": "Act 1 (H) Uitem A Shard",
+  "Prob3": 1,
+  "lineNumber": 674
  },
  "Act 5 Worldstone Shards 1": {
   "Treasure Class": "Act 5 Worldstone Shards 1",
@@ -16174,7 +16334,7 @@
   "Prob3": 15,
   "Item4": "Act 2 Good",
   "Prob4": 3,
-  "lineNumber": 768,
+  "lineNumber": 780,
   "*ItemProbTotal": 48
  },
  "Andariel (H)": {
@@ -16195,7 +16355,7 @@
   "Prob4": 3,
   "Item5": "tes",
   "Prob5": 1,
-  "lineNumber": 770,
+  "lineNumber": 782,
   "*ItemProbTotal": 49
  },
  "Andariel (N)": {
@@ -16214,7 +16374,7 @@
   "Prob3": 15,
   "Item4": "Act 2 (N) Good",
   "Prob4": 3,
-  "lineNumber": 769,
+  "lineNumber": 781,
   "*ItemProbTotal": 48
  },
  "Andarielq": {
@@ -16229,7 +16389,7 @@
   "Prob1": 19,
   "Item2": "Act 2 Good",
   "Prob2": 3,
-  "lineNumber": 771,
+  "lineNumber": 783,
   "*ItemProbTotal": 22
  },
  "Andarielq (H)": {
@@ -16239,17 +16399,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 19,
+  "NoDrop": 125,
   "Item1": "Act 2 (H) Equip A",
-  "Prob1": 19,
+  "Prob1": 125,
   "Item2": "Act 2 (H) Good",
-  "Prob2": 3,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 1,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 1,
-  "lineNumber": 779,
-  "*ItemProbTotal": 24
+  "Prob4": 2,
+  "lineNumber": 791,
+  "*ItemProbTotal": 154
  },
  "Andarielq (H) Desecrated A": {
   "Treasure Class": "Andarielq (H) Desecrated A",
@@ -16259,7 +16419,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 788
+  "lineNumber": 800
  },
  "Andarielq (H) Desecrated B": {
   "Treasure Class": "Andarielq (H) Desecrated B",
@@ -16269,7 +16429,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 789
+  "lineNumber": 801
  },
  "Andarielq (H) Desecrated C": {
   "Treasure Class": "Andarielq (H) Desecrated C",
@@ -16279,7 +16439,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 790
+  "lineNumber": 802
  },
  "Andarielq (H) Desecrated D": {
   "Treasure Class": "Andarielq (H) Desecrated D",
@@ -16289,7 +16449,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 791
+  "lineNumber": 803
  },
  "Andarielq (H) Desecrated E": {
   "Treasure Class": "Andarielq (H) Desecrated E",
@@ -16299,7 +16459,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated E",
   "Prob1": 1,
-  "lineNumber": 792
+  "lineNumber": 804
  },
  "Andarielq (H) Desecrated F": {
   "Treasure Class": "Andarielq (H) Desecrated F",
@@ -16309,7 +16469,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated F",
   "Prob1": 1,
-  "lineNumber": 793
+  "lineNumber": 805
  },
  "Andarielq (H) Desecrated G": {
   "Treasure Class": "Andarielq (H) Desecrated G",
@@ -16319,7 +16479,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated G",
   "Prob1": 1,
-  "lineNumber": 794
+  "lineNumber": 806
  },
  "Andarielq (H) Desecrated H": {
   "Treasure Class": "Andarielq (H) Desecrated H",
@@ -16329,7 +16489,7 @@
   "NoDrop": 0,
   "Item1": "Andarielq Item (H) Desecrated H",
   "Prob1": 1,
-  "lineNumber": 795
+  "lineNumber": 807
  },
  "Andarielq (N)": {
   "Treasure Class": "Andarielq (N)",
@@ -16343,7 +16503,7 @@
   "Prob1": 19,
   "Item2": "Act 2 (N) Good",
   "Prob2": 3,
-  "lineNumber": 775,
+  "lineNumber": 787,
   "*ItemProbTotal": 22
  },
  "Andarielq (N) Desecrated A": {
@@ -16360,7 +16520,7 @@
   "Prob1": 19,
   "Item2": "Act 2 (N) Good",
   "Prob2": 3,
-  "lineNumber": 776,
+  "lineNumber": 788,
   "*ItemProbTotal": 22
  },
  "Andarielq (N) Desecrated B": {
@@ -16377,7 +16537,7 @@
   "Prob1": 19,
   "Item2": "Act 4 (N) Good",
   "Prob2": 3,
-  "lineNumber": 777,
+  "lineNumber": 789,
   "*ItemProbTotal": 22
  },
  "Andarielq (N) Desecrated C": {
@@ -16394,7 +16554,7 @@
   "Prob1": 19,
   "Item2": "Act 3 (H) Good",
   "Prob2": 3,
-  "lineNumber": 778,
+  "lineNumber": 790,
   "*ItemProbTotal": 22
  },
  "Andarielq Desecrated A": {
@@ -16411,7 +16571,7 @@
   "Prob1": 19,
   "Item2": "Act 2 Good",
   "Prob2": 3,
-  "lineNumber": 772,
+  "lineNumber": 784,
   "*ItemProbTotal": 22
  },
  "Andarielq Desecrated B": {
@@ -16428,7 +16588,7 @@
   "Prob1": 19,
   "Item2": "Act 4 Good",
   "Prob2": 3,
-  "lineNumber": 773,
+  "lineNumber": 785,
   "*ItemProbTotal": 22
  },
  "Andarielq Desecrated C": {
@@ -16445,7 +16605,7 @@
   "Prob1": 19,
   "Item2": "Act 3 (N) Good",
   "Prob2": 3,
-  "lineNumber": 774,
+  "lineNumber": 786,
   "*ItemProbTotal": 22
  },
  "Andarielq Item (H) Desecrated A": {
@@ -16455,17 +16615,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 3 (H) Equip B",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 3 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 780,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 792,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated B": {
   "Treasure Class": "Andarielq Item (H) Desecrated B",
@@ -16474,17 +16634,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 3 (H) Equip C",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 3 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 781,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 793,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated C": {
   "Treasure Class": "Andarielq Item (H) Desecrated C",
@@ -16493,17 +16653,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 4 (H) Equip A",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 4 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 782,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 794,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated D": {
   "Treasure Class": "Andarielq Item (H) Desecrated D",
@@ -16512,17 +16672,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 4 (H) Equip B",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 4 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 783,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 795,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated E": {
   "Treasure Class": "Andarielq Item (H) Desecrated E",
@@ -16531,17 +16691,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 4 (H) Equip C",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 4 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 784,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 796,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated F": {
   "Treasure Class": "Andarielq Item (H) Desecrated F",
@@ -16550,17 +16710,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 5 (H) Equip A",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 5 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 785,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 797,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated G": {
   "Treasure Class": "Andarielq Item (H) Desecrated G",
@@ -16569,17 +16729,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 5 (H) Equip B",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 5 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 786,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 798,
+  "*ItemProbTotal": 155
  },
  "Andarielq Item (H) Desecrated H": {
   "Treasure Class": "Andarielq Item (H) Desecrated H",
@@ -16588,17 +16748,17 @@
   "Set": 983,
   "Rare": 1024,
   "Magic": 1024,
-  "NoDrop": 57,
+  "NoDrop": 125,
   "Item1": "Act 5 (H) Equip C",
-  "Prob1": 57,
+  "Prob1": 125,
   "Item2": "Act 5 (H) Good",
-  "Prob2": 9,
+  "Prob2": 20,
   "Item3": "tes",
-  "Prob3": 3,
+  "Prob3": 7,
   "Item4": "Ancient Statue 1",
-  "Prob4": 2,
-  "lineNumber": 787,
-  "*ItemProbTotal": 71
+  "Prob4": 3,
+  "lineNumber": 799,
+  "*ItemProbTotal": 155
  },
  "Baal": {
   "Treasure Class": "Baal",
@@ -16616,7 +16776,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (N) Good",
   "Prob4": 3,
-  "lineNumber": 948,
+  "lineNumber": 960,
   "*ItemProbTotal": 65
  },
  "Baal (H)": {
@@ -16626,21 +16786,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip B",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "fed",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 5",
   "Prob6": 1,
-  "lineNumber": 952,
-  "*ItemProbTotal": 67
+  "lineNumber": 964,
+  "*ItemProbTotal": 142
  },
  "Baal (H) Desecrated": {
   "Treasure Class": "Baal (H) Desecrated",
@@ -16650,7 +16810,7 @@
   "NoDrop": 0,
   "Item1": "Baal Item (H) Desecrated",
   "Prob1": 1,
-  "lineNumber": 954
+  "lineNumber": 966
  },
  "Baal (N)": {
   "Treasure Class": "Baal (N)",
@@ -16668,7 +16828,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (H) Good",
   "Prob4": 3,
-  "lineNumber": 950,
+  "lineNumber": 962,
   "*ItemProbTotal": 65
  },
  "Baal (N) Desecrated": {
@@ -16689,7 +16849,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 951,
+  "lineNumber": 963,
   "*ItemProbTotal": 65
  },
  "Baal Desecrated": {
@@ -16710,7 +16870,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 949,
+  "lineNumber": 961,
   "*ItemProbTotal": 65
  },
  "Baal Item (H) Desecrated": {
@@ -16720,21 +16880,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip C",
-  "Prob2": 53,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 4,
+  "Prob4": 6,
   "Item5": "fed",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 5",
   "Prob6": 2,
-  "lineNumber": 953,
-  "*ItemProbTotal": 70
+  "lineNumber": 965,
+  "*ItemProbTotal": 143
  },
  "Baalq": {
   "Treasure Class": "Baalq",
@@ -16748,7 +16908,7 @@
   "Prob1": 52,
   "Item2": "Act 1 (N) Good",
   "Prob2": 3,
-  "lineNumber": 955,
+  "lineNumber": 967,
   "*ItemProbTotal": 55
  },
  "Baalq (H)": {
@@ -16765,7 +16925,7 @@
   "Prob2": 3,
   "Item3": "fed",
   "Prob3": 1,
-  "lineNumber": 957,
+  "lineNumber": 969,
   "*ItemProbTotal": 56
  },
  "Baalq (N)": {
@@ -16780,7 +16940,7 @@
   "Prob1": 52,
   "Item2": "Act 1 (H) Good",
   "Prob2": 3,
-  "lineNumber": 956,
+  "lineNumber": 968,
   "*ItemProbTotal": 55
  },
  "Blood Raven": {
@@ -16799,7 +16959,7 @@
   "Prob3": 5,
   "Item4": "Act 1 Good",
   "Prob4": 3,
-  "lineNumber": 958,
+  "lineNumber": 970,
   "*ItemProbTotal": 41
  },
  "Blood Raven (H)": {
@@ -16818,7 +16978,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (H) Good",
   "Prob4": 3,
-  "lineNumber": 966,
+  "lineNumber": 978,
   "*ItemProbTotal": 41
  },
  "Blood Raven (H) Desecrated A": {
@@ -16829,7 +16989,7 @@
   "NoDrop": 0,
   "Item1": "Blood Raven Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 971
+  "lineNumber": 983
  },
  "Blood Raven (H) Desecrated B": {
   "Treasure Class": "Blood Raven (H) Desecrated B",
@@ -16839,7 +16999,7 @@
   "NoDrop": 0,
   "Item1": "Blood Raven Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 972
+  "lineNumber": 984
  },
  "Blood Raven (H) Desecrated C": {
   "Treasure Class": "Blood Raven (H) Desecrated C",
@@ -16849,7 +17009,7 @@
   "NoDrop": 0,
   "Item1": "Blood Raven Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 973
+  "lineNumber": 985
  },
  "Blood Raven (H) Desecrated D": {
   "Treasure Class": "Blood Raven (H) Desecrated D",
@@ -16859,7 +17019,7 @@
   "NoDrop": 0,
   "Item1": "Blood Raven Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 974
+  "lineNumber": 986
  },
  "Blood Raven (N)": {
   "Treasure Class": "Blood Raven (N)",
@@ -16877,7 +17037,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (N) Good",
   "Prob4": 3,
-  "lineNumber": 962,
+  "lineNumber": 974,
   "*ItemProbTotal": 41
  },
  "Blood Raven (N) Desecrated A": {
@@ -16898,7 +17058,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (N) Good",
   "Prob4": 3,
-  "lineNumber": 963,
+  "lineNumber": 975,
   "*ItemProbTotal": 41
  },
  "Blood Raven (N) Desecrated B": {
@@ -16919,7 +17079,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 964,
+  "lineNumber": 976,
   "*ItemProbTotal": 41
  },
  "Blood Raven (N) Desecrated C": {
@@ -16940,7 +17100,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 965,
+  "lineNumber": 977,
   "*ItemProbTotal": 41
  },
  "Blood Raven Desecrated A": {
@@ -16961,7 +17121,7 @@
   "Prob3": 5,
   "Item4": "Act 1 Good",
   "Prob4": 3,
-  "lineNumber": 959,
+  "lineNumber": 971,
   "*ItemProbTotal": 41
  },
  "Blood Raven Desecrated B": {
@@ -16982,7 +17142,7 @@
   "Prob3": 5,
   "Item4": "Act 4 Good",
   "Prob4": 3,
-  "lineNumber": 960,
+  "lineNumber": 972,
   "*ItemProbTotal": 41
  },
  "Blood Raven Desecrated C": {
@@ -17003,7 +17163,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 961,
+  "lineNumber": 973,
   "*ItemProbTotal": 41
  },
  "Blood Raven Item (H) Desecrated A": {
@@ -17022,7 +17182,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (H) Good",
   "Prob4": 3,
-  "lineNumber": 967,
+  "lineNumber": 979,
   "*ItemProbTotal": 41
  },
  "Blood Raven Item (H) Desecrated B": {
@@ -17041,7 +17201,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 968,
+  "lineNumber": 980,
   "*ItemProbTotal": 41
  },
  "Blood Raven Item (H) Desecrated C": {
@@ -17060,7 +17220,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 969,
+  "lineNumber": 981,
   "*ItemProbTotal": 41
  },
  "Blood Raven Item (H) Desecrated D": {
@@ -17079,7 +17239,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 970,
+  "lineNumber": 982,
   "*ItemProbTotal": 41
  },
  "Chipped Gem": {
@@ -17120,7 +17280,7 @@
   "Prob4": 3,
   "Item5": "Act 4 Magic A",
   "Prob5": 4,
-  "lineNumber": 888,
+  "lineNumber": 900,
   "*ItemProbTotal": 36
  },
  "Council (H)": {
@@ -17141,7 +17301,7 @@
   "Prob4": 3,
   "Item5": "Act 4 (H) Magic A",
   "Prob5": 4,
-  "lineNumber": 896,
+  "lineNumber": 908,
   "*ItemProbTotal": 36
  },
  "Council (H) Desecrated A": {
@@ -17152,7 +17312,7 @@
   "NoDrop": 0,
   "Item1": "Council Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 902
+  "lineNumber": 914
  },
  "Council (H) Desecrated B": {
   "Treasure Class": "Council (H) Desecrated B",
@@ -17162,7 +17322,7 @@
   "NoDrop": 0,
   "Item1": "Council Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 903
+  "lineNumber": 915
  },
  "Council (H) Desecrated C": {
   "Treasure Class": "Council (H) Desecrated C",
@@ -17172,7 +17332,7 @@
   "NoDrop": 0,
   "Item1": "Council Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 904
+  "lineNumber": 916
  },
  "Council (H) Desecrated D": {
   "Treasure Class": "Council (H) Desecrated D",
@@ -17182,7 +17342,7 @@
   "NoDrop": 0,
   "Item1": "Council Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 905
+  "lineNumber": 917
  },
  "Council (H) Desecrated E": {
   "Treasure Class": "Council (H) Desecrated E",
@@ -17192,7 +17352,7 @@
   "NoDrop": 0,
   "Item1": "Council Item (H) Desecrated E",
   "Prob1": 1,
-  "lineNumber": 906
+  "lineNumber": 918
  },
  "Council (N)": {
   "Treasure Class": "Council (N)",
@@ -17212,7 +17372,7 @@
   "Prob4": 3,
   "Item5": "Act 4 (N) Magic A",
   "Prob5": 4,
-  "lineNumber": 892,
+  "lineNumber": 904,
   "*ItemProbTotal": 36
  },
  "Council (N) Desecrated A": {
@@ -17235,7 +17395,7 @@
   "Prob4": 3,
   "Item5": "Act 4 (N) Magic B",
   "Prob5": 4,
-  "lineNumber": 893,
+  "lineNumber": 905,
   "*ItemProbTotal": 36
  },
  "Council (N) Desecrated B": {
@@ -17258,7 +17418,7 @@
   "Prob4": 3,
   "Item5": "Act 5 (N) Magic C",
   "Prob5": 4,
-  "lineNumber": 894,
+  "lineNumber": 906,
   "*ItemProbTotal": 36
  },
  "Council (N) Desecrated C": {
@@ -17281,7 +17441,7 @@
   "Prob4": 3,
   "Item5": "Act 3 (H) Magic A",
   "Prob5": 4,
-  "lineNumber": 895,
+  "lineNumber": 907,
   "*ItemProbTotal": 36
  },
  "Council Desecrated A": {
@@ -17304,7 +17464,7 @@
   "Prob4": 3,
   "Item5": "Act 4 Magic B",
   "Prob5": 4,
-  "lineNumber": 889,
+  "lineNumber": 901,
   "*ItemProbTotal": 36
  },
  "Council Desecrated B": {
@@ -17327,7 +17487,7 @@
   "Prob4": 3,
   "Item5": "Act 5 Magic C",
   "Prob5": 4,
-  "lineNumber": 890,
+  "lineNumber": 902,
   "*ItemProbTotal": 36
  },
  "Council Desecrated C": {
@@ -17350,7 +17510,7 @@
   "Prob4": 3,
   "Item5": "Act 3 (N) Magic A",
   "Prob5": 4,
-  "lineNumber": 891,
+  "lineNumber": 903,
   "*ItemProbTotal": 36
  },
  "Council Item (H) Desecrated A": {
@@ -17371,7 +17531,7 @@
   "Prob4": 3,
   "Item5": "Act 4 (H) Magic B",
   "Prob5": 4,
-  "lineNumber": 897,
+  "lineNumber": 909,
   "*ItemProbTotal": 36
  },
  "Council Item (H) Desecrated B": {
@@ -17392,7 +17552,7 @@
   "Prob4": 3,
   "Item5": "Act 4 (H) Magic B",
   "Prob5": 4,
-  "lineNumber": 898,
+  "lineNumber": 910,
   "*ItemProbTotal": 36
  },
  "Council Item (H) Desecrated C": {
@@ -17413,7 +17573,7 @@
   "Prob4": 3,
   "Item5": "Act 5 (H) Magic A",
   "Prob5": 4,
-  "lineNumber": 899,
+  "lineNumber": 911,
   "*ItemProbTotal": 36
  },
  "Council Item (H) Desecrated D": {
@@ -17434,7 +17594,7 @@
   "Prob4": 3,
   "Item5": "Act 5 (H) Magic B",
   "Prob5": 4,
-  "lineNumber": 900,
+  "lineNumber": 912,
   "*ItemProbTotal": 36
  },
  "Council Item (H) Desecrated E": {
@@ -17455,7 +17615,7 @@
   "Prob4": 3,
   "Item5": "Act 5 (H) Magic C",
   "Prob5": 4,
-  "lineNumber": 901,
+  "lineNumber": 913,
   "*ItemProbTotal": 36
  },
  "Countess": {
@@ -17470,7 +17630,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune",
   "Prob2": 1,
-  "lineNumber": 1157
+  "lineNumber": 1169
  },
  "Countess (H)": {
   "Treasure Class": "Countess (H)",
@@ -17484,7 +17644,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1165
+  "lineNumber": 1177
  },
  "Countess (H) Desecrated A": {
   "Treasure Class": "Countess (H) Desecrated A",
@@ -17500,7 +17660,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1166
+  "lineNumber": 1178
  },
  "Countess (H) Desecrated B": {
   "Treasure Class": "Countess (H) Desecrated B",
@@ -17516,7 +17676,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1167
+  "lineNumber": 1179
  },
  "Countess (H) Desecrated C": {
   "Treasure Class": "Countess (H) Desecrated C",
@@ -17532,7 +17692,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1168
+  "lineNumber": 1180
  },
  "Countess (H) Desecrated D": {
   "Treasure Class": "Countess (H) Desecrated D",
@@ -17548,7 +17708,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1169
+  "lineNumber": 1181
  },
  "Countess (H) Desecrated E": {
   "Treasure Class": "Countess (H) Desecrated E",
@@ -17564,7 +17724,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1170
+  "lineNumber": 1182
  },
  "Countess (H) Desecrated F": {
   "Treasure Class": "Countess (H) Desecrated F",
@@ -17580,7 +17740,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (H)",
   "Prob2": 1,
-  "lineNumber": 1171
+  "lineNumber": 1183
  },
  "Countess (N)": {
   "Treasure Class": "Countess (N)",
@@ -17594,7 +17754,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (N)",
   "Prob2": 1,
-  "lineNumber": 1161
+  "lineNumber": 1173
  },
  "Countess (N) Desecrated A": {
   "Treasure Class": "Countess (N) Desecrated A",
@@ -17610,7 +17770,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (N)",
   "Prob2": 1,
-  "lineNumber": 1162
+  "lineNumber": 1174
  },
  "Countess (N) Desecrated B": {
   "Treasure Class": "Countess (N) Desecrated B",
@@ -17626,7 +17786,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (N)",
   "Prob2": 1,
-  "lineNumber": 1163
+  "lineNumber": 1175
  },
  "Countess (N) Desecrated C": {
   "Treasure Class": "Countess (N) Desecrated C",
@@ -17642,7 +17802,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune (N)",
   "Prob2": 1,
-  "lineNumber": 1164
+  "lineNumber": 1176
  },
  "Countess Desecrated A": {
   "Treasure Class": "Countess Desecrated A",
@@ -17658,7 +17818,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune",
   "Prob2": 1,
-  "lineNumber": 1158
+  "lineNumber": 1170
  },
  "Countess Desecrated B": {
   "Treasure Class": "Countess Desecrated B",
@@ -17674,7 +17834,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune",
   "Prob2": 1,
-  "lineNumber": 1159
+  "lineNumber": 1171
  },
  "Countess Desecrated C": {
   "Treasure Class": "Countess Desecrated C",
@@ -17690,7 +17850,7 @@
   "Prob1": 1,
   "Item2": "Countess Rune",
   "Prob2": 1,
-  "lineNumber": 1160
+  "lineNumber": 1172
  },
  "Countess Item": {
   "Treasure Class": "Countess Item",
@@ -17704,7 +17864,7 @@
   "Prob3": 15,
   "Item4": "Act 2 Good",
   "Prob4": 3,
-  "lineNumber": 1142,
+  "lineNumber": 1154,
   "*ItemProbTotal": 48
  },
  "Countess Item (H)": {
@@ -17721,7 +17881,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1150,
+  "lineNumber": 1162,
   "*ItemProbTotal": 49
  },
  "Countess Item (H) Desecrated A": {
@@ -17738,7 +17898,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1151,
+  "lineNumber": 1163,
   "*ItemProbTotal": 49
  },
  "Countess Item (H) Desecrated B": {
@@ -17755,7 +17915,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1152,
+  "lineNumber": 1164,
   "*ItemProbTotal": 49
  },
  "Countess Item (H) Desecrated C": {
@@ -17772,7 +17932,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1153,
+  "lineNumber": 1165,
   "*ItemProbTotal": 49
  },
  "Countess Item (H) Desecrated D": {
@@ -17789,7 +17949,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1154,
+  "lineNumber": 1166,
   "*ItemProbTotal": 49
  },
  "Countess Item (H) Desecrated E": {
@@ -17806,7 +17966,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1155,
+  "lineNumber": 1167,
   "*ItemProbTotal": 49
  },
  "Countess Item (H) Desecrated F": {
@@ -17823,7 +17983,7 @@
   "Prob4": 3,
   "Item5": "pk1",
   "Prob5": 1,
-  "lineNumber": 1156,
+  "lineNumber": 1168,
   "*ItemProbTotal": 49
  },
  "Countess Item (N)": {
@@ -17838,7 +17998,7 @@
   "Prob3": 15,
   "Item4": "Act 2 (N) Good",
   "Prob4": 3,
-  "lineNumber": 1146,
+  "lineNumber": 1158,
   "*ItemProbTotal": 48
  },
  "Countess Item (N) Desecrated A": {
@@ -17853,7 +18013,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 1147,
+  "lineNumber": 1159,
   "*ItemProbTotal": 48
  },
  "Countess Item (N) Desecrated B": {
@@ -17868,7 +18028,7 @@
   "Prob3": 15,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 1148,
+  "lineNumber": 1160,
   "*ItemProbTotal": 48
  },
  "Countess Item (N) Desecrated C": {
@@ -17883,7 +18043,7 @@
   "Prob3": 15,
   "Item4": "Act 4 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1149,
+  "lineNumber": 1161,
   "*ItemProbTotal": 48
  },
  "Countess Item Desecrated A": {
@@ -17898,7 +18058,7 @@
   "Prob3": 15,
   "Item4": "Act 3 Good",
   "Prob4": 3,
-  "lineNumber": 1143,
+  "lineNumber": 1155,
   "*ItemProbTotal": 48
  },
  "Countess Item Desecrated B": {
@@ -17913,7 +18073,7 @@
   "Prob3": 15,
   "Item4": "Act 1 (N) Good",
   "Prob4": 3,
-  "lineNumber": 1144,
+  "lineNumber": 1156,
   "*ItemProbTotal": 48
  },
  "Countess Item Desecrated C": {
@@ -17928,7 +18088,7 @@
   "Prob3": 15,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 1145,
+  "lineNumber": 1157,
   "*ItemProbTotal": 48
  },
  "Countess Rune": {
@@ -17937,7 +18097,7 @@
   "NoDrop": 5,
   "Item1": "Runes 4",
   "Prob1": 15,
-  "lineNumber": 1139,
+  "lineNumber": 1151,
   "*ItemProbTotal": 15
  },
  "Countess Rune (H)": {
@@ -17946,7 +18106,7 @@
   "NoDrop": 5,
   "Item1": "Runes 12",
   "Prob1": 15,
-  "lineNumber": 1141,
+  "lineNumber": 1153,
   "*ItemProbTotal": 15
  },
  "Countess Rune (N)": {
@@ -17955,7 +18115,7 @@
   "NoDrop": 5,
   "Item1": "Runes 8",
   "Prob1": 15,
-  "lineNumber": 1140,
+  "lineNumber": 1152,
   "*ItemProbTotal": 15
  },
  "Cow": {
@@ -17970,7 +18130,7 @@
   "Prob3": 19,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 920,
+  "lineNumber": 932,
   "*ItemProbTotal": 60
  },
  "Cow (H)": {
@@ -17985,7 +18145,7 @@
   "Prob3": 19,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 922,
+  "lineNumber": 934,
   "*ItemProbTotal": 60
  },
  "Cow (N)": {
@@ -18000,7 +18160,7 @@
   "Prob3": 19,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 921,
+  "lineNumber": 933,
   "*ItemProbTotal": 60
  },
  "Cow King": {
@@ -18015,7 +18175,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Melee B",
   "Prob2": 2,
-  "lineNumber": 1100,
+  "lineNumber": 1112,
   "*ItemProbTotal": 3
  },
  "Cow King (H)": {
@@ -18030,7 +18190,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 1107,
+  "lineNumber": 1119,
   "*ItemProbTotal": 3
  },
  "Cow King (H) Desecrated A": {
@@ -18041,7 +18201,7 @@
   "NoDrop": 0,
   "Item1": "Cow King Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 1112
+  "lineNumber": 1124
  },
  "Cow King (H) Desecrated B": {
   "Treasure Class": "Cow King (H) Desecrated B",
@@ -18051,7 +18211,7 @@
   "NoDrop": 0,
   "Item1": "Cow King Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 1113
+  "lineNumber": 1125
  },
  "Cow King (H) Desecrated C": {
   "Treasure Class": "Cow King (H) Desecrated C",
@@ -18061,7 +18221,7 @@
   "NoDrop": 0,
   "Item1": "Cow King Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 1114
+  "lineNumber": 1126
  },
  "Cow King (H) Desecrated D": {
   "Treasure Class": "Cow King (H) Desecrated D",
@@ -18071,7 +18231,7 @@
   "NoDrop": 0,
   "Item1": "Cow King Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 1115
+  "lineNumber": 1127
  },
  "Cow King (N)": {
   "Treasure Class": "Cow King (N)",
@@ -18085,7 +18245,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 1104,
+  "lineNumber": 1116,
   "*ItemProbTotal": 3
  },
  "Cow King (N) Desecrated A": {
@@ -18102,7 +18262,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 1105,
+  "lineNumber": 1117,
   "*ItemProbTotal": 3
  },
  "Cow King (N) Desecrated C": {
@@ -18119,7 +18279,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 1106,
+  "lineNumber": 1118,
   "*ItemProbTotal": 3
  },
  "Cow King Desecrated A": {
@@ -18136,7 +18296,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Melee B",
   "Prob2": 2,
-  "lineNumber": 1101,
+  "lineNumber": 1113,
   "*ItemProbTotal": 3
  },
  "Cow King Desecrated B": {
@@ -18153,7 +18313,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Melee A",
   "Prob2": 2,
-  "lineNumber": 1102,
+  "lineNumber": 1114,
   "*ItemProbTotal": 3
  },
  "Cow King Desecrated C": {
@@ -18170,7 +18330,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Melee A",
   "Prob2": 2,
-  "lineNumber": 1103,
+  "lineNumber": 1115,
   "*ItemProbTotal": 3
  },
  "Cow King Item (H) Desecrated A": {
@@ -18185,7 +18345,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 1108,
+  "lineNumber": 1120,
   "*ItemProbTotal": 3
  },
  "Cow King Item (H) Desecrated B": {
@@ -18200,7 +18360,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 1109,
+  "lineNumber": 1121,
   "*ItemProbTotal": 3
  },
  "Cow King Item (H) Desecrated C": {
@@ -18215,7 +18375,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 1110,
+  "lineNumber": 1122,
   "*ItemProbTotal": 3
  },
  "Cow King Item (H) Desecrated D": {
@@ -18230,7 +18390,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee C",
   "Prob2": 2,
-  "lineNumber": 1111,
+  "lineNumber": 1123,
   "*ItemProbTotal": 3
  },
  "Diablo": {
@@ -18249,7 +18409,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 852,
+  "lineNumber": 864,
   "*ItemProbTotal": 65
  },
  "Diablo (H)": {
@@ -18259,21 +18419,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip A",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "bet",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 4",
   "Prob6": 1,
-  "lineNumber": 859,
-  "*ItemProbTotal": 67
+  "lineNumber": 871,
+  "*ItemProbTotal": 142
  },
  "Diablo (H) Desecrated A": {
   "Treasure Class": "Diablo (H) Desecrated A",
@@ -18283,7 +18443,7 @@
   "NoDrop": 0,
   "Item1": "Diablo Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 862
+  "lineNumber": 874
  },
  "Diablo (H) Desecrated B": {
   "Treasure Class": "Diablo (H) Desecrated B",
@@ -18293,7 +18453,7 @@
   "NoDrop": 0,
   "Item1": "Diablo Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 863
+  "lineNumber": 875
  },
  "Diablo (N)": {
   "Treasure Class": "Diablo (N)",
@@ -18311,7 +18471,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 855,
+  "lineNumber": 867,
   "*ItemProbTotal": 65
  },
  "Diablo (N) Desecrated A": {
@@ -18332,7 +18492,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 856,
+  "lineNumber": 868,
   "*ItemProbTotal": 65
  },
  "Diablo (N) Desecrated B": {
@@ -18353,7 +18513,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (H) Good",
   "Prob4": 3,
-  "lineNumber": 857,
+  "lineNumber": 869,
   "*ItemProbTotal": 65
  },
  "Diablo (N) Desecrated C": {
@@ -18374,7 +18534,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 858,
+  "lineNumber": 870,
   "*ItemProbTotal": 65
  },
  "Diablo Desecrated A": {
@@ -18395,7 +18555,7 @@
   "Prob3": 5,
   "Item4": "Act 1 (N) Good",
   "Prob4": 3,
-  "lineNumber": 853,
+  "lineNumber": 865,
   "*ItemProbTotal": 65
  },
  "Diablo Desecrated B": {
@@ -18416,7 +18576,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 854,
+  "lineNumber": 866,
   "*ItemProbTotal": 65
  },
  "Diablo Item (H) Desecrated A": {
@@ -18426,21 +18586,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip B",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "bet",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 4",
   "Prob6": 2,
-  "lineNumber": 860,
-  "*ItemProbTotal": 68
+  "lineNumber": 872,
+  "*ItemProbTotal": 143
  },
  "Diablo Item (H) Desecrated B": {
   "Treasure Class": "Diablo Item (H) Desecrated B",
@@ -18449,21 +18609,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip C",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "bet",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 4",
   "Prob6": 2,
-  "lineNumber": 861,
-  "*ItemProbTotal": 68
+  "lineNumber": 873,
+  "*ItemProbTotal": 143
  },
  "Diabloq": {
   "Treasure Class": "Diabloq",
@@ -18477,7 +18637,7 @@
   "Prob1": 52,
   "Item2": "Act 5 Good",
   "Prob2": 3,
-  "lineNumber": 864,
+  "lineNumber": 876,
   "*ItemProbTotal": 55
  },
  "Diabloq (H)": {
@@ -18494,7 +18654,7 @@
   "Prob2": 3,
   "Item3": "bet",
   "Prob3": 1,
-  "lineNumber": 866,
+  "lineNumber": 878,
   "*ItemProbTotal": 56
  },
  "Diabloq (N)": {
@@ -18509,7 +18669,7 @@
   "Prob1": 52,
   "Item2": "Act 5 (N) Good",
   "Prob2": 3,
-  "lineNumber": 865,
+  "lineNumber": 877,
   "*ItemProbTotal": 55
  },
  "Duriel": {
@@ -18520,7 +18680,7 @@
   "Prob1": 1,
   "Item2": "Duriel - Base",
   "Prob2": 2,
-  "lineNumber": 1116,
+  "lineNumber": 1128,
   "*ItemProbTotal": 3
  },
  "Duriel (H)": {
@@ -18531,7 +18691,7 @@
   "Prob1": 1,
   "Item2": "Duriel (H) - Base",
   "Prob2": 2,
-  "lineNumber": 1124,
+  "lineNumber": 1136,
   "*ItemProbTotal": 3
  },
  "Duriel (H) - Base": {
@@ -18541,21 +18701,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 19,
+  "NoDrop": 49,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 11,
+  "Prob1": 27,
   "Item2": "Act 3 (H) Equip A",
-  "Prob2": 19,
+  "Prob2": 49,
   "Item3": "Act 3 (H) Junk",
-  "Prob3": 15,
+  "Prob3": 40,
   "Item4": "Act 3 (H) Good",
-  "Prob4": 3,
+  "Prob4": 8,
   "Item5": "tes",
-  "Prob5": 2,
+  "Prob5": 7,
   "Item6": "Ancient Statue 2",
   "Prob6": 1,
-  "lineNumber": 804,
-  "*ItemProbTotal": 51
+  "lineNumber": 816,
+  "*ItemProbTotal": 132
  },
  "Duriel (H) - Base Desecrated A": {
   "Treasure Class": "Duriel (H) - Base Desecrated A",
@@ -18564,21 +18724,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 19,
+  "NoDrop": 49,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 11,
+  "Prob1": 27,
   "Item2": "Act 4 (H) Equip B",
-  "Prob2": 19,
+  "Prob2": 49,
   "Item3": "Act 4 (H) Junk",
-  "Prob3": 15,
+  "Prob3": 40,
   "Item4": "Act 4 (H) Good",
-  "Prob4": 3,
+  "Prob4": 8,
   "Item5": "tes",
-  "Prob5": 2,
+  "Prob5": 7,
   "Item6": "Ancient Statue 2",
   "Prob6": 2,
-  "lineNumber": 805,
-  "*ItemProbTotal": 52
+  "lineNumber": 817,
+  "*ItemProbTotal": 133
  },
  "Duriel (H) - Base Desecrated B": {
   "Treasure Class": "Duriel (H) - Base Desecrated B",
@@ -18587,21 +18747,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 19,
+  "NoDrop": 49,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 11,
+  "Prob1": 27,
   "Item2": "Act 5 (H) Equip A",
-  "Prob2": 19,
+  "Prob2": 49,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 15,
+  "Prob3": 40,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 8,
   "Item5": "tes",
-  "Prob5": 2,
+  "Prob5": 7,
   "Item6": "Ancient Statue 2",
   "Prob6": 2,
-  "lineNumber": 806,
-  "*ItemProbTotal": 52
+  "lineNumber": 818,
+  "*ItemProbTotal": 133
  },
  "Duriel (H) - Base Desecrated C": {
   "Treasure Class": "Duriel (H) - Base Desecrated C",
@@ -18610,21 +18770,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 19,
+  "NoDrop": 49,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 11,
+  "Prob1": 27,
   "Item2": "Act 5 (H) Equip B",
-  "Prob2": 19,
+  "Prob2": 49,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 15,
+  "Prob3": 40,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 8,
   "Item5": "tes",
-  "Prob5": 2,
+  "Prob5": 7,
   "Item6": "Ancient Statue 2",
   "Prob6": 2,
-  "lineNumber": 807,
-  "*ItemProbTotal": 52
+  "lineNumber": 819,
+  "*ItemProbTotal": 133
  },
  "Duriel (H) - Base Desecrated D": {
   "Treasure Class": "Duriel (H) - Base Desecrated D",
@@ -18633,21 +18793,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 19,
+  "NoDrop": 49,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 11,
+  "Prob1": 27,
   "Item2": "Act 5 (H) Equip C",
-  "Prob2": 19,
+  "Prob2": 49,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 15,
+  "Prob3": 40,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 8,
   "Item5": "tes",
-  "Prob5": 2,
+  "Prob5": 7,
   "Item6": "Ancient Statue 2",
   "Prob6": 2,
-  "lineNumber": 808,
-  "*ItemProbTotal": 52
+  "lineNumber": 820,
+  "*ItemProbTotal": 133
  },
  "Duriel (H) Desecrated A": {
   "Treasure Class": "Duriel (H) Desecrated A",
@@ -18657,7 +18817,7 @@
   "NoDrop": 0,
   "Item1": "Duriel (H) Desecrated Five",
   "Prob1": 1,
-  "lineNumber": 1129
+  "lineNumber": 1141
  },
  "Duriel (H) Desecrated B": {
   "Treasure Class": "Duriel (H) Desecrated B",
@@ -18667,7 +18827,7 @@
   "NoDrop": 0,
   "Item1": "Duriel (H) Desecrated Town Portal",
   "Prob1": 1,
-  "lineNumber": 1130
+  "lineNumber": 1142
  },
  "Duriel (H) Desecrated C": {
   "Treasure Class": "Duriel (H) Desecrated C",
@@ -18677,7 +18837,7 @@
   "NoDrop": 0,
   "Item1": "Duriel (H) Desecrated Scrolls",
   "Prob1": 1,
-  "lineNumber": 1131
+  "lineNumber": 1143
  },
  "Duriel (H) Desecrated D": {
   "Treasure Class": "Duriel (H) Desecrated D",
@@ -18687,7 +18847,7 @@
   "NoDrop": 0,
   "Item1": "Duriel (H) Desecrated Incoming",
   "Prob1": 1,
-  "lineNumber": 1132
+  "lineNumber": 1144
  },
  "Duriel (H) Desecrated Five": {
   "Treasure Class": "Duriel (H) Desecrated Five",
@@ -18697,7 +18857,7 @@
   "Prob1": 1,
   "Item2": "Duriel (H) - Base Desecrated A",
   "Prob2": 2,
-  "lineNumber": 1125,
+  "lineNumber": 1137,
   "*ItemProbTotal": 3
  },
  "Duriel (H) Desecrated Incoming": {
@@ -18708,7 +18868,7 @@
   "Prob1": 1,
   "Item2": "Duriel (H) - Base Desecrated D",
   "Prob2": 2,
-  "lineNumber": 1128,
+  "lineNumber": 1140,
   "*ItemProbTotal": 3
  },
  "Duriel (H) Desecrated Scrolls": {
@@ -18719,7 +18879,7 @@
   "Prob1": 1,
   "Item2": "Duriel (H) - Base Desecrated C",
   "Prob2": 2,
-  "lineNumber": 1127,
+  "lineNumber": 1139,
   "*ItemProbTotal": 3
  },
  "Duriel (H) Desecrated Town Portal": {
@@ -18730,7 +18890,7 @@
   "Prob1": 1,
   "Item2": "Duriel (H) - Base Desecrated B",
   "Prob2": 2,
-  "lineNumber": 1126,
+  "lineNumber": 1138,
   "*ItemProbTotal": 3
  },
  "Duriel (N)": {
@@ -18741,7 +18901,7 @@
   "Prob1": 1,
   "Item2": "Duriel (N) - Base",
   "Prob2": 2,
-  "lineNumber": 1120,
+  "lineNumber": 1132,
   "*ItemProbTotal": 3
  },
  "Duriel (N) - Base": {
@@ -18760,7 +18920,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 800,
+  "lineNumber": 812,
   "*ItemProbTotal": 48
  },
  "Duriel (N) - Base Desecrated A": {
@@ -18779,7 +18939,7 @@
   "Prob3": 15,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 801,
+  "lineNumber": 813,
   "*ItemProbTotal": 48
  },
  "Duriel (N) - Base Desecrated B": {
@@ -18798,7 +18958,7 @@
   "Prob3": 15,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 802,
+  "lineNumber": 814,
   "*ItemProbTotal": 48
  },
  "Duriel (N) - Base Desecrated C": {
@@ -18817,7 +18977,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 803,
+  "lineNumber": 815,
   "*ItemProbTotal": 48
  },
  "Duriel (N) Desecrated A": {
@@ -18830,7 +18990,7 @@
   "Prob1": 1,
   "Item2": "Duriel (N) - Base Desecrated A",
   "Prob2": 2,
-  "lineNumber": 1121,
+  "lineNumber": 1133,
   "*ItemProbTotal": 3
  },
  "Duriel (N) Desecrated B": {
@@ -18843,7 +19003,7 @@
   "Prob1": 1,
   "Item2": "Duriel (N) - Base Desecrated B",
   "Prob2": 2,
-  "lineNumber": 1122,
+  "lineNumber": 1134,
   "*ItemProbTotal": 3
  },
  "Duriel (N) Desecrated C": {
@@ -18856,7 +19016,7 @@
   "Prob1": 1,
   "Item2": "Duriel (N) - Base Desecrated C",
   "Prob2": 2,
-  "lineNumber": 1123,
+  "lineNumber": 1135,
   "*ItemProbTotal": 3
  },
  "Duriel - Base": {
@@ -18875,7 +19035,7 @@
   "Prob3": 15,
   "Item4": "Act 3 Good",
   "Prob4": 3,
-  "lineNumber": 796,
+  "lineNumber": 808,
   "*ItemProbTotal": 48
  },
  "Duriel - Base Desecrated A": {
@@ -18894,7 +19054,7 @@
   "Prob3": 15,
   "Item4": "Act 3 Good",
   "Prob4": 3,
-  "lineNumber": 797,
+  "lineNumber": 809,
   "*ItemProbTotal": 48
  },
  "Duriel - Base Desecrated B": {
@@ -18913,7 +19073,7 @@
   "Prob3": 15,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 798,
+  "lineNumber": 810,
   "*ItemProbTotal": 48
  },
  "Duriel - Base Desecrated C": {
@@ -18932,7 +19092,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 799,
+  "lineNumber": 811,
   "*ItemProbTotal": 48
  },
  "Duriel Desecrated A": {
@@ -18945,7 +19105,7 @@
   "Prob1": 1,
   "Item2": "Duriel - Base Desecrated A",
   "Prob2": 2,
-  "lineNumber": 1117,
+  "lineNumber": 1129,
   "*ItemProbTotal": 3
  },
  "Duriel Desecrated B": {
@@ -18958,7 +19118,7 @@
   "Prob1": 1,
   "Item2": "Duriel - Base Desecrated B",
   "Prob2": 2,
-  "lineNumber": 1118,
+  "lineNumber": 1130,
   "*ItemProbTotal": 3
  },
  "Duriel Desecrated C": {
@@ -18971,7 +19131,7 @@
   "Prob1": 1,
   "Item2": "Duriel - Base Desecrated C",
   "Prob2": 2,
-  "lineNumber": 1119,
+  "lineNumber": 1131,
   "*ItemProbTotal": 3
  },
  "Durielq": {
@@ -18982,7 +19142,7 @@
   "Prob1": 1,
   "Item2": "Durielq - Base",
   "Prob2": 2,
-  "lineNumber": 1133,
+  "lineNumber": 1145,
   "*ItemProbTotal": 3
  },
  "Durielq (H)": {
@@ -18993,7 +19153,7 @@
   "Prob1": 1,
   "Item2": "Durielq (H) - Base",
   "Prob2": 2,
-  "lineNumber": 1135,
+  "lineNumber": 1147,
   "*ItemProbTotal": 3
  },
  "Durielq (H) - Base": {
@@ -19010,7 +19170,7 @@
   "Prob2": 3,
   "Item3": "tes",
   "Prob3": 2,
-  "lineNumber": 811,
+  "lineNumber": 823,
   "*ItemProbTotal": 24
  },
  "Durielq (N)": {
@@ -19021,7 +19181,7 @@
   "Prob1": 1,
   "Item2": "Durielq (N) - Base",
   "Prob2": 2,
-  "lineNumber": 1134,
+  "lineNumber": 1146,
   "*ItemProbTotal": 3
  },
  "Durielq (N) - Base": {
@@ -19036,7 +19196,7 @@
   "Prob1": 19,
   "Item2": "Act 3 (N) Good",
   "Prob2": 3,
-  "lineNumber": 810,
+  "lineNumber": 822,
   "*ItemProbTotal": 22
  },
  "Durielq - Base": {
@@ -19051,7 +19211,7 @@
   "Prob1": 19,
   "Item2": "Act 3 Good",
   "Prob2": 3,
-  "lineNumber": 809,
+  "lineNumber": 821,
   "*ItemProbTotal": 22
  },
  "Flawed Gem": {
@@ -19102,7 +19262,7 @@
   "Prob1": 3,
   "Item2": "scm",
   "Prob2": 57,
-  "lineNumber": 829,
+  "lineNumber": 841,
   "*ItemProbTotal": 60
  },
  "Flying Scimitar (H)": {
@@ -19117,7 +19277,7 @@
   "Prob3": 18,
   "Item4": "7sm",
   "Prob4": 32,
-  "lineNumber": 831,
+  "lineNumber": 843,
   "*ItemProbTotal": 60
  },
  "Flying Scimitar (N)": {
@@ -19130,7 +19290,7 @@
   "Prob2": 25,
   "Item3": "9sm",
   "Prob3": 32,
-  "lineNumber": 830,
+  "lineNumber": 842,
   "*ItemProbTotal": 60
  },
  "Gold": {
@@ -19149,7 +19309,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Melee B",
   "Prob2": 2,
-  "lineNumber": 907
+  "lineNumber": 919
  },
  "Griswold (H)": {
   "Treasure Class": "Griswold (H)",
@@ -19159,7 +19319,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 915
+  "lineNumber": 927
  },
  "Griswold (H) Desecrated A": {
   "Treasure Class": "Griswold (H) Desecrated A",
@@ -19171,7 +19331,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 916
+  "lineNumber": 928
  },
  "Griswold (H) Desecrated B": {
   "Treasure Class": "Griswold (H) Desecrated B",
@@ -19183,7 +19343,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 917
+  "lineNumber": 929
  },
  "Griswold (H) Desecrated C": {
   "Treasure Class": "Griswold (H) Desecrated C",
@@ -19195,7 +19355,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 918
+  "lineNumber": 930
  },
  "Griswold (H) Desecrated D": {
   "Treasure Class": "Griswold (H) Desecrated D",
@@ -19207,7 +19367,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 919
+  "lineNumber": 931
  },
  "Griswold (N)": {
   "Treasure Class": "Griswold (N)",
@@ -19217,7 +19377,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 911
+  "lineNumber": 923
  },
  "Griswold (N) Desecrated A": {
   "Treasure Class": "Griswold (N) Desecrated A",
@@ -19229,7 +19389,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 912
+  "lineNumber": 924
  },
  "Griswold (N) Desecrated B": {
   "Treasure Class": "Griswold (N) Desecrated B",
@@ -19241,7 +19401,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 913
+  "lineNumber": 925
  },
  "Griswold (N) Desecrated C": {
   "Treasure Class": "Griswold (N) Desecrated C",
@@ -19253,7 +19413,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 914
+  "lineNumber": 926
  },
  "Griswold Desecrated A": {
   "Treasure Class": "Griswold Desecrated A",
@@ -19265,7 +19425,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Melee B",
   "Prob2": 2,
-  "lineNumber": 908
+  "lineNumber": 920
  },
  "Griswold Desecrated B": {
   "Treasure Class": "Griswold Desecrated B",
@@ -19277,7 +19437,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Melee A",
   "Prob2": 2,
-  "lineNumber": 909
+  "lineNumber": 921
  },
  "Griswold Desecrated C": {
   "Treasure Class": "Griswold Desecrated C",
@@ -19289,7 +19449,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 910
+  "lineNumber": 922
  },
  "Haphesto": {
   "Treasure Class": "Haphesto",
@@ -19307,7 +19467,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 926,
+  "lineNumber": 938,
   "*ItemProbTotal": 41
  },
  "Haphesto (H)": {
@@ -19326,7 +19486,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 934,
+  "lineNumber": 946,
   "*ItemProbTotal": 41
  },
  "Haphesto (H) Desecrated A": {
@@ -19337,7 +19497,7 @@
   "NoDrop": 0,
   "Item1": "Haphesto Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 938
+  "lineNumber": 950
  },
  "Haphesto (H) Desecrated B": {
   "Treasure Class": "Haphesto (H) Desecrated B",
@@ -19347,7 +19507,7 @@
   "NoDrop": 0,
   "Item1": "Haphesto Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 939
+  "lineNumber": 951
  },
  "Haphesto (H) Desecrated C": {
   "Treasure Class": "Haphesto (H) Desecrated C",
@@ -19357,7 +19517,7 @@
   "NoDrop": 0,
   "Item1": "Haphesto Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 940
+  "lineNumber": 952
  },
  "Haphesto (N)": {
   "Treasure Class": "Haphesto (N)",
@@ -19375,7 +19535,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 930,
+  "lineNumber": 942,
   "*ItemProbTotal": 41
  },
  "Haphesto (N) Desecrated A": {
@@ -19396,7 +19556,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 931,
+  "lineNumber": 943,
   "*ItemProbTotal": 41
  },
  "Haphesto (N) Desecrated B": {
@@ -19417,7 +19577,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 932,
+  "lineNumber": 944,
   "*ItemProbTotal": 41
  },
  "Haphesto (N) Desecrated C": {
@@ -19438,7 +19598,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 933,
+  "lineNumber": 945,
   "*ItemProbTotal": 41
  },
  "Haphesto Desecrated A": {
@@ -19459,7 +19619,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 927,
+  "lineNumber": 939,
   "*ItemProbTotal": 41
  },
  "Haphesto Desecrated B": {
@@ -19480,7 +19640,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 928,
+  "lineNumber": 940,
   "*ItemProbTotal": 41
  },
  "Haphesto Desecrated C": {
@@ -19501,7 +19661,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 929,
+  "lineNumber": 941,
   "*ItemProbTotal": 41
  },
  "Haphesto Item (H) Desecrated A": {
@@ -19520,7 +19680,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 935,
+  "lineNumber": 947,
   "*ItemProbTotal": 41
  },
  "Haphesto Item (H) Desecrated B": {
@@ -19539,7 +19699,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 936,
+  "lineNumber": 948,
   "*ItemProbTotal": 41
  },
  "Haphesto Item (H) Desecrated C": {
@@ -19558,7 +19718,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 937,
+  "lineNumber": 949,
   "*ItemProbTotal": 41
  },
  "Herald Charm 1": {
@@ -19795,7 +19955,7 @@
   "Prob3": 5,
   "Item4": "Act 4 Good",
   "Prob4": 3,
-  "lineNumber": 993,
+  "lineNumber": 1005,
   "*ItemProbTotal": 41
  },
  "Izual (H)": {
@@ -19814,7 +19974,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1001,
+  "lineNumber": 1013,
   "*ItemProbTotal": 41
  },
  "Izual (H) Desecrated A": {
@@ -19825,7 +19985,7 @@
   "NoDrop": 0,
   "Item1": "Izual Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 1006
+  "lineNumber": 1018
  },
  "Izual (H) Desecrated B": {
   "Treasure Class": "Izual (H) Desecrated B",
@@ -19835,7 +19995,7 @@
   "NoDrop": 0,
   "Item1": "Izual Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 1007
+  "lineNumber": 1019
  },
  "Izual (H) Desecrated C": {
   "Treasure Class": "Izual (H) Desecrated C",
@@ -19845,7 +20005,7 @@
   "NoDrop": 0,
   "Item1": "Izual Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 1008
+  "lineNumber": 1020
  },
  "Izual (H) Desecrated D": {
   "Treasure Class": "Izual (H) Desecrated D",
@@ -19855,7 +20015,7 @@
   "NoDrop": 0,
   "Item1": "Izual Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 1009
+  "lineNumber": 1021
  },
  "Izual (N)": {
   "Treasure Class": "Izual (N)",
@@ -19873,7 +20033,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 997,
+  "lineNumber": 1009,
   "*ItemProbTotal": 41
  },
  "Izual (N) Desecrated A": {
@@ -19894,7 +20054,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 998,
+  "lineNumber": 1010,
   "*ItemProbTotal": 41
  },
  "Izual (N) Desecrated B": {
@@ -19915,7 +20075,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 999,
+  "lineNumber": 1011,
   "*ItemProbTotal": 41
  },
  "Izual (N) Desecrated C": {
@@ -19936,7 +20096,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1000,
+  "lineNumber": 1012,
   "*ItemProbTotal": 41
  },
  "Izual Desecrated A": {
@@ -19957,7 +20117,7 @@
   "Prob3": 5,
   "Item4": "Act 4 Good",
   "Prob4": 3,
-  "lineNumber": 994,
+  "lineNumber": 1006,
   "*ItemProbTotal": 41
  },
  "Izual Desecrated B": {
@@ -19978,7 +20138,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 995,
+  "lineNumber": 1007,
   "*ItemProbTotal": 41
  },
  "Izual Desecrated C": {
@@ -19999,7 +20159,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 996,
+  "lineNumber": 1008,
   "*ItemProbTotal": 41
  },
  "Izual Item (H) Desecrated A": {
@@ -20018,7 +20178,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1002,
+  "lineNumber": 1014,
   "*ItemProbTotal": 41
  },
  "Izual Item (H) Desecrated B": {
@@ -20037,7 +20197,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1003,
+  "lineNumber": 1015,
   "*ItemProbTotal": 41
  },
  "Izual Item (H) Desecrated C": {
@@ -20056,7 +20216,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1004,
+  "lineNumber": 1016,
   "*ItemProbTotal": 41
  },
  "Izual Item (H) Desecrated D": {
@@ -20075,7 +20235,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 1005,
+  "lineNumber": 1017,
   "*ItemProbTotal": 41
  },
  "Jewelry A": {
@@ -20148,7 +20308,7 @@
   "Prob3": 5,
   "Item4": "Act 4 Good",
   "Prob4": 3,
-  "lineNumber": 832,
+  "lineNumber": 844,
   "*ItemProbTotal": 65
  },
  "Mephisto (H)": {
@@ -20158,21 +20318,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 4 (H) Equip A",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 4 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 4 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "ceh",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 3",
   "Prob6": 1,
-  "lineNumber": 840,
-  "*ItemProbTotal": 67
+  "lineNumber": 852,
+  "*ItemProbTotal": 142
  },
  "Mephisto (H) Desecrated A": {
   "Treasure Class": "Mephisto (H) Desecrated A",
@@ -20182,7 +20342,7 @@
   "NoDrop": 0,
   "Item1": "Mephisto Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 845
+  "lineNumber": 857
  },
  "Mephisto (H) Desecrated B": {
   "Treasure Class": "Mephisto (H) Desecrated B",
@@ -20192,7 +20352,7 @@
   "NoDrop": 0,
   "Item1": "Mephisto Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 846
+  "lineNumber": 858
  },
  "Mephisto (H) Desecrated C": {
   "Treasure Class": "Mephisto (H) Desecrated C",
@@ -20202,7 +20362,7 @@
   "NoDrop": 0,
   "Item1": "Mephisto Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 847
+  "lineNumber": 859
  },
  "Mephisto (H) Desecrated D": {
   "Treasure Class": "Mephisto (H) Desecrated D",
@@ -20212,7 +20372,7 @@
   "NoDrop": 0,
   "Item1": "Mephisto Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 848
+  "lineNumber": 860
  },
  "Mephisto (N)": {
   "Treasure Class": "Mephisto (N)",
@@ -20230,7 +20390,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 836,
+  "lineNumber": 848,
   "*ItemProbTotal": 65
  },
  "Mephisto (N) Desecrated A": {
@@ -20251,7 +20411,7 @@
   "Prob3": 5,
   "Item4": "Act 4 (N) Good",
   "Prob4": 3,
-  "lineNumber": 837,
+  "lineNumber": 849,
   "*ItemProbTotal": 65
  },
  "Mephisto (N) Desecrated B": {
@@ -20272,7 +20432,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 838,
+  "lineNumber": 850,
   "*ItemProbTotal": 65
  },
  "Mephisto (N) Desecrated C": {
@@ -20293,7 +20453,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 839,
+  "lineNumber": 851,
   "*ItemProbTotal": 65
  },
  "Mephisto Desecrated A": {
@@ -20314,7 +20474,7 @@
   "Prob3": 5,
   "Item4": "Act 4 Good",
   "Prob4": 3,
-  "lineNumber": 833,
+  "lineNumber": 845,
   "*ItemProbTotal": 65
  },
  "Mephisto Desecrated B": {
@@ -20335,7 +20495,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 834,
+  "lineNumber": 846,
   "*ItemProbTotal": 65
  },
  "Mephisto Desecrated C": {
@@ -20356,7 +20516,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 835,
+  "lineNumber": 847,
   "*ItemProbTotal": 65
  },
  "Mephisto Item (H) Desecrated A": {
@@ -20366,21 +20526,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 4 (H) Equip B",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 4 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 4 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "ceh",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 3",
   "Prob6": 2,
-  "lineNumber": 841,
-  "*ItemProbTotal": 68
+  "lineNumber": 853,
+  "*ItemProbTotal": 143
  },
  "Mephisto Item (H) Desecrated B": {
   "Treasure Class": "Mephisto Item (H) Desecrated B",
@@ -20389,21 +20549,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip A",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "ceh",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 3",
   "Prob6": 2,
-  "lineNumber": 842,
-  "*ItemProbTotal": 68
+  "lineNumber": 854,
+  "*ItemProbTotal": 143
  },
  "Mephisto Item (H) Desecrated C": {
   "Treasure Class": "Mephisto Item (H) Desecrated C",
@@ -20412,21 +20572,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip B",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "ceh",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 3",
   "Prob6": 2,
-  "lineNumber": 843,
-  "*ItemProbTotal": 68
+  "lineNumber": 855,
+  "*ItemProbTotal": 143
  },
  "Mephisto Item (H) Desecrated D": {
   "Treasure Class": "Mephisto Item (H) Desecrated D",
@@ -20435,21 +20595,21 @@
   "Set": 983,
   "Rare": 983,
   "Magic": 1024,
-  "NoDrop": 15,
+  "NoDrop": 33,
   "Item1": "\"gld,mul=2048\"",
-  "Prob1": 5,
+  "Prob1": 11,
   "Item2": "Act 5 (H) Equip C",
-  "Prob2": 52,
+  "Prob2": 110,
   "Item3": "Act 5 (H) Junk",
-  "Prob3": 5,
+  "Prob3": 11,
   "Item4": "Act 5 (H) Good",
-  "Prob4": 3,
+  "Prob4": 6,
   "Item5": "ceh",
-  "Prob5": 1,
+  "Prob5": 3,
   "Item6": "Ancient Statue 3",
   "Prob6": 2,
-  "lineNumber": 844,
-  "*ItemProbTotal": 68
+  "lineNumber": 856,
+  "*ItemProbTotal": 143
  },
  "Mephistoq": {
   "Treasure Class": "Mephistoq",
@@ -20463,7 +20623,7 @@
   "Prob1": 52,
   "Item2": "Act 4 Good",
   "Prob2": 3,
-  "lineNumber": 849,
+  "lineNumber": 861,
   "*ItemProbTotal": 55
  },
  "Mephistoq (H)": {
@@ -20480,7 +20640,7 @@
   "Prob2": 3,
   "Item3": "ceh",
   "Prob3": 1,
-  "lineNumber": 851,
+  "lineNumber": 863,
   "*ItemProbTotal": 56
  },
  "Mephistoq (N)": {
@@ -20495,7 +20655,7 @@
   "Prob1": 52,
   "Item2": "Act 4 (N) Good",
   "Prob2": 3,
-  "lineNumber": 850,
+  "lineNumber": 862,
   "*ItemProbTotal": 55
  },
  "Misc 0": {
@@ -20562,7 +20722,7 @@
   "Prob3": 5,
   "Item4": "Act 5 Good",
   "Prob4": 3,
-  "lineNumber": 941,
+  "lineNumber": 953,
   "*ItemProbTotal": 41
  },
  "Nihlathak (H)": {
@@ -20583,7 +20743,7 @@
   "Prob4": 3,
   "Item5": "pk3",
   "Prob5": 1,
-  "lineNumber": 945,
+  "lineNumber": 957,
   "*ItemProbTotal": 42
  },
  "Nihlathak (H) Desecrated": {
@@ -20593,7 +20753,7 @@
   "Picks": -1,
   "Item1": "Nihlathak Item (H) Desecrated",
   "Prob1": 1,
-  "lineNumber": 947
+  "lineNumber": 959
  },
  "Nihlathak (N)": {
   "Treasure Class": "Nihlathak (N)",
@@ -20611,7 +20771,7 @@
   "Prob3": 5,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 943,
+  "lineNumber": 955,
   "*ItemProbTotal": 41
  },
  "Nihlathak (N) Desecrated": {
@@ -20632,7 +20792,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 944,
+  "lineNumber": 956,
   "*ItemProbTotal": 41
  },
  "Nihlathak Desecrated": {
@@ -20653,7 +20813,7 @@
   "Prob3": 5,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 942,
+  "lineNumber": 954,
   "*ItemProbTotal": 41
  },
  "Nihlathak Item (H) Desecrated": {
@@ -20674,7 +20834,7 @@
   "Prob4": 3,
   "Item5": "pk3",
   "Prob5": 1,
-  "lineNumber": 946,
+  "lineNumber": 958,
   "*ItemProbTotal": 42
  },
  "Normal Gem": {
@@ -20704,7 +20864,7 @@
   "NoDrop": 0,
   "Item1": "pk1",
   "Prob1": 1,
-  "lineNumber": 1175,
+  "lineNumber": 1187,
   "*ItemProbTotal": 1
  },
  "Pandemonium Key B": {
@@ -20714,7 +20874,7 @@
   "NoDrop": 0,
   "Item1": "pk2",
   "Prob1": 1,
-  "lineNumber": 1176,
+  "lineNumber": 1188,
   "*ItemProbTotal": 1
  },
  "Pandemonium Key C": {
@@ -20724,7 +20884,7 @@
   "NoDrop": 0,
   "Item1": "pk3",
   "Prob1": 1,
-  "lineNumber": 1177,
+  "lineNumber": 1189,
   "*ItemProbTotal": 1
  },
  "Perfect Gem": {
@@ -20891,7 +21051,7 @@
   "Prob1": 19,
   "Item2": "Act 1 Junk",
   "Prob2": 19,
-  "lineNumber": 747,
+  "lineNumber": 759,
   "*ItemProbTotal": 38
  },
  "Quill 1 (H)": {
@@ -20904,7 +21064,7 @@
   "Prob1": 19,
   "Item2": "Act 1 (H) Junk",
   "Prob2": 19,
-  "lineNumber": 757,
+  "lineNumber": 769,
   "*ItemProbTotal": 38
  },
  "Quill 1 (N)": {
@@ -20917,7 +21077,7 @@
   "Prob1": 19,
   "Item2": "Act 1 (N) Junk",
   "Prob2": 19,
-  "lineNumber": 752,
+  "lineNumber": 764,
   "*ItemProbTotal": 38
  },
  "Quill 2": {
@@ -20930,7 +21090,7 @@
   "Prob1": 19,
   "Item2": "Act 1 Junk",
   "Prob2": 19,
-  "lineNumber": 748,
+  "lineNumber": 760,
   "*ItemProbTotal": 38
  },
  "Quill 2 (H)": {
@@ -20945,7 +21105,7 @@
   "Prob2": 19,
   "Item3": "Act 1 (H) Good",
   "Prob3": 3,
-  "lineNumber": 758,
+  "lineNumber": 770,
   "*ItemProbTotal": 41
  },
  "Quill 2 (N)": {
@@ -20960,7 +21120,7 @@
   "Prob2": 19,
   "Item3": "Act 1 (N) Good",
   "Prob3": 1,
-  "lineNumber": 753,
+  "lineNumber": 765,
   "*ItemProbTotal": 39
  },
  "Quill 3": {
@@ -20975,7 +21135,7 @@
   "Prob2": 19,
   "Item3": "Act 1 Good",
   "Prob3": 1,
-  "lineNumber": 749,
+  "lineNumber": 761,
   "*ItemProbTotal": 39
  },
  "Quill 3 (H)": {
@@ -20990,7 +21150,7 @@
   "Prob2": 19,
   "Item3": "Act 1 (H) Good",
   "Prob3": 3,
-  "lineNumber": 759,
+  "lineNumber": 771,
   "*ItemProbTotal": 41
  },
  "Quill 3 (N)": {
@@ -21005,7 +21165,7 @@
   "Prob2": 19,
   "Item3": "Act 1 (N) Good",
   "Prob3": 1,
-  "lineNumber": 754,
+  "lineNumber": 766,
   "*ItemProbTotal": 39
  },
  "Quill 4": {
@@ -21020,7 +21180,7 @@
   "Prob2": 19,
   "Item3": "Act 1 Good",
   "Prob3": 1,
-  "lineNumber": 750,
+  "lineNumber": 762,
   "*ItemProbTotal": 39
  },
  "Quill 4 (H)": {
@@ -21035,7 +21195,7 @@
   "Prob2": 19,
   "Item3": "Act 1 (H) Good",
   "Prob3": 3,
-  "lineNumber": 760,
+  "lineNumber": 772,
   "*ItemProbTotal": 41
  },
  "Quill 4 (N)": {
@@ -21050,7 +21210,7 @@
   "Prob2": 19,
   "Item3": "Act 1 (N) Good",
   "Prob3": 1,
-  "lineNumber": 755,
+  "lineNumber": 767,
   "*ItemProbTotal": 39
  },
  "Quill 5": {
@@ -21065,7 +21225,7 @@
   "Prob2": 19,
   "Item3": "Act 3 Good",
   "Prob3": 1,
-  "lineNumber": 751,
+  "lineNumber": 763,
   "*ItemProbTotal": 39
  },
  "Quill 5 (H)": {
@@ -21080,7 +21240,7 @@
   "Prob2": 19,
   "Item3": "Act 3 (H) Good",
   "Prob3": 3,
-  "lineNumber": 761,
+  "lineNumber": 773,
   "*ItemProbTotal": 41
  },
  "Quill 5 (N)": {
@@ -21095,7 +21255,7 @@
   "Prob2": 19,
   "Item3": "Act 3 (N) Good",
   "Prob3": 1,
-  "lineNumber": 756,
+  "lineNumber": 768,
   "*ItemProbTotal": 39
  },
  "ROP": {
@@ -21105,7 +21265,7 @@
   "NoDrop": 0,
   "Item1": "Diablo",
   "Prob1": 1,
-  "lineNumber": 1136,
+  "lineNumber": 1148,
   "*ItemProbTotal": 1
  },
  "ROP (H)": {
@@ -21115,7 +21275,7 @@
   "NoDrop": 0,
   "Item1": "Annihilus",
   "Prob1": 1,
-  "lineNumber": 1138,
+  "lineNumber": 1150,
   "*ItemProbTotal": 1
  },
  "ROP (N)": {
@@ -21127,7 +21287,7 @@
   "Prob1": 4,
   "Item2": "Annihilus",
   "Prob2": 1,
-  "lineNumber": 1137,
+  "lineNumber": 1149,
   "*ItemProbTotal": 5
  },
  "Radament": {
@@ -21146,7 +21306,7 @@
   "Prob3": 15,
   "Item4": "Act 3 Good",
   "Prob4": 3,
-  "lineNumber": 812,
+  "lineNumber": 824,
   "*ItemProbTotal": 48
  },
  "Radament (H)": {
@@ -21165,7 +21325,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 820,
+  "lineNumber": 832,
   "*ItemProbTotal": 48
  },
  "Radament (H) Desecrated A": {
@@ -21176,7 +21336,7 @@
   "NoDrop": 0,
   "Item1": "Radament Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 825
+  "lineNumber": 837
  },
  "Radament (H) Desecrated B": {
   "Treasure Class": "Radament (H) Desecrated B",
@@ -21186,7 +21346,7 @@
   "NoDrop": 0,
   "Item1": "Radament Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 826
+  "lineNumber": 838
  },
  "Radament (H) Desecrated C": {
   "Treasure Class": "Radament (H) Desecrated C",
@@ -21196,7 +21356,7 @@
   "NoDrop": 0,
   "Item1": "Radament Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 827
+  "lineNumber": 839
  },
  "Radament (H) Desecrated D": {
   "Treasure Class": "Radament (H) Desecrated D",
@@ -21206,7 +21366,7 @@
   "NoDrop": 0,
   "Item1": "Radament Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 828
+  "lineNumber": 840
  },
  "Radament (N)": {
   "Treasure Class": "Radament (N)",
@@ -21224,7 +21384,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 816,
+  "lineNumber": 828,
   "*ItemProbTotal": 48
  },
  "Radament (N) Desecrated A": {
@@ -21245,7 +21405,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 817,
+  "lineNumber": 829,
   "*ItemProbTotal": 48
  },
  "Radament (N) Desecrated B": {
@@ -21266,7 +21426,7 @@
   "Prob3": 15,
   "Item4": "Act 5 (N) Good",
   "Prob4": 3,
-  "lineNumber": 818,
+  "lineNumber": 830,
   "*ItemProbTotal": 48
  },
  "Radament (N) Desecrated C": {
@@ -21287,7 +21447,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (H) Good",
   "Prob4": 3,
-  "lineNumber": 819,
+  "lineNumber": 831,
   "*ItemProbTotal": 48
  },
  "Radament Desecrated A": {
@@ -21308,7 +21468,7 @@
   "Prob3": 15,
   "Item4": "Act 3 Good",
   "Prob4": 3,
-  "lineNumber": 813,
+  "lineNumber": 825,
   "*ItemProbTotal": 48
  },
  "Radament Desecrated B": {
@@ -21329,7 +21489,7 @@
   "Prob3": 15,
   "Item4": "Act 4 Good",
   "Prob4": 3,
-  "lineNumber": 814,
+  "lineNumber": 826,
   "*ItemProbTotal": 48
  },
  "Radament Desecrated C": {
@@ -21350,7 +21510,7 @@
   "Prob3": 15,
   "Item4": "Act 3 (N) Good",
   "Prob4": 3,
-  "lineNumber": 815,
+  "lineNumber": 827,
   "*ItemProbTotal": 48
  },
  "Radament Item (H) Desecrated A": {
@@ -21369,7 +21529,7 @@
   "Prob3": 15,
   "Item4": "Act 4 (H) Good",
   "Prob4": 3,
-  "lineNumber": 821,
+  "lineNumber": 833,
   "*ItemProbTotal": 48
  },
  "Radament Item (H) Desecrated B": {
@@ -21388,7 +21548,7 @@
   "Prob3": 15,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 822,
+  "lineNumber": 834,
   "*ItemProbTotal": 48
  },
  "Radament Item (H) Desecrated C": {
@@ -21407,7 +21567,7 @@
   "Prob3": 15,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 823,
+  "lineNumber": 835,
   "*ItemProbTotal": 48
  },
  "Radament Item (H) Desecrated D": {
@@ -21426,7 +21586,7 @@
   "Prob3": 15,
   "Item4": "Act 5 (H) Good",
   "Prob4": 3,
-  "lineNumber": 824,
+  "lineNumber": 836,
   "*ItemProbTotal": 48
  },
  "Runes 1": {
@@ -21637,7 +21797,7 @@
   "Prob1": 1,
   "Item2": "Act 1 Melee B",
   "Prob2": 2,
-  "lineNumber": 975
+  "lineNumber": 987
  },
  "Smith (H)": {
   "Treasure Class": "Smith (H)",
@@ -21647,7 +21807,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 983
+  "lineNumber": 995
  },
  "Smith (H) Desecrated A": {
   "Treasure Class": "Smith (H) Desecrated A",
@@ -21659,7 +21819,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 984
+  "lineNumber": 996
  },
  "Smith (H) Desecrated B": {
   "Treasure Class": "Smith (H) Desecrated B",
@@ -21671,7 +21831,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 985
+  "lineNumber": 997
  },
  "Smith (H) Desecrated C": {
   "Treasure Class": "Smith (H) Desecrated C",
@@ -21683,7 +21843,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 986
+  "lineNumber": 998
  },
  "Smith (H) Desecrated D": {
   "Treasure Class": "Smith (H) Desecrated D",
@@ -21695,7 +21855,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 987
+  "lineNumber": 999
  },
  "Smith (H) Desecrated E": {
   "Treasure Class": "Smith (H) Desecrated E",
@@ -21707,7 +21867,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 988
+  "lineNumber": 1000
  },
  "Smith (H) Desecrated F": {
   "Treasure Class": "Smith (H) Desecrated F",
@@ -21719,7 +21879,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 989
+  "lineNumber": 1001
  },
  "Smith (H) Desecrated G": {
   "Treasure Class": "Smith (H) Desecrated G",
@@ -21731,7 +21891,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 990
+  "lineNumber": 1002
  },
  "Smith (H) Desecrated H": {
   "Treasure Class": "Smith (H) Desecrated H",
@@ -21743,7 +21903,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee B",
   "Prob2": 2,
-  "lineNumber": 991
+  "lineNumber": 1003
  },
  "Smith (H) Desecrated I": {
   "Treasure Class": "Smith (H) Desecrated I",
@@ -21755,7 +21915,7 @@
   "Prob1": 1,
   "Item2": "Act 5 (H) Melee C",
   "Prob2": 2,
-  "lineNumber": 992
+  "lineNumber": 1004
  },
  "Smith (N)": {
   "Treasure Class": "Smith (N)",
@@ -21765,7 +21925,7 @@
   "Prob1": 1,
   "Item2": "Act 1 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 979
+  "lineNumber": 991
  },
  "Smith (N) Desecrated A": {
   "Treasure Class": "Smith (N) Desecrated A",
@@ -21777,7 +21937,7 @@
   "Prob1": 1,
   "Item2": "Act 2 (N) Melee A",
   "Prob2": 2,
-  "lineNumber": 980
+  "lineNumber": 992
  },
  "Smith (N) Desecrated B": {
   "Treasure Class": "Smith (N) Desecrated B",
@@ -21789,7 +21949,7 @@
   "Prob1": 1,
   "Item2": "Act 4 (N) Melee B",
   "Prob2": 2,
-  "lineNumber": 981
+  "lineNumber": 993
  },
  "Smith (N) Desecrated C": {
   "Treasure Class": "Smith (N) Desecrated C",
@@ -21801,7 +21961,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (H) Melee A",
   "Prob2": 2,
-  "lineNumber": 982
+  "lineNumber": 994
  },
  "Smith Desecrated A": {
   "Treasure Class": "Smith Desecrated A",
@@ -21813,7 +21973,7 @@
   "Prob1": 1,
   "Item2": "Act 2 Melee A",
   "Prob2": 2,
-  "lineNumber": 976
+  "lineNumber": 988
  },
  "Smith Desecrated B": {
   "Treasure Class": "Smith Desecrated B",
@@ -21825,7 +21985,7 @@
   "Prob1": 1,
   "Item2": "Act 4 Melee B",
   "Prob2": 2,
-  "lineNumber": 977
+  "lineNumber": 989
  },
  "Smith Desecrated C": {
   "Treasure Class": "Smith Desecrated C",
@@ -21837,7 +21997,7 @@
   "Prob1": 1,
   "Item2": "Act 3 (N) Melee A",
   "Prob2": 2,
-  "lineNumber": 978
+  "lineNumber": 990
  },
  "Summoner": {
   "Treasure Class": "Summoner",
@@ -21857,7 +22017,7 @@
   "Prob4": 3,
   "Item5": "Act 3 Magic A",
   "Prob5": 4,
-  "lineNumber": 867,
+  "lineNumber": 879,
   "*ItemProbTotal": 36
  },
  "Summoner (H)": {
@@ -21880,7 +22040,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 875,
+  "lineNumber": 887,
   "*ItemProbTotal": 37
  },
  "Summoner (H) Desecrated A": {
@@ -21891,7 +22051,7 @@
   "NoDrop": 0,
   "Item1": "Summoner Item (H) Desecrated A",
   "Prob1": 1,
-  "lineNumber": 882
+  "lineNumber": 894
  },
  "Summoner (H) Desecrated B": {
   "Treasure Class": "Summoner (H) Desecrated B",
@@ -21901,7 +22061,7 @@
   "NoDrop": 0,
   "Item1": "Summoner Item (H) Desecrated B",
   "Prob1": 1,
-  "lineNumber": 883
+  "lineNumber": 895
  },
  "Summoner (H) Desecrated C": {
   "Treasure Class": "Summoner (H) Desecrated C",
@@ -21911,7 +22071,7 @@
   "NoDrop": 0,
   "Item1": "Summoner Item (H) Desecrated C",
   "Prob1": 1,
-  "lineNumber": 884
+  "lineNumber": 896
  },
  "Summoner (H) Desecrated D": {
   "Treasure Class": "Summoner (H) Desecrated D",
@@ -21921,7 +22081,7 @@
   "NoDrop": 0,
   "Item1": "Summoner Item (H) Desecrated D",
   "Prob1": 1,
-  "lineNumber": 885
+  "lineNumber": 897
  },
  "Summoner (H) Desecrated E": {
   "Treasure Class": "Summoner (H) Desecrated E",
@@ -21931,7 +22091,7 @@
   "NoDrop": 0,
   "Item1": "Summoner Item (H) Desecrated E",
   "Prob1": 1,
-  "lineNumber": 886
+  "lineNumber": 898
  },
  "Summoner (H) Desecrated F": {
   "Treasure Class": "Summoner (H) Desecrated F",
@@ -21941,7 +22101,7 @@
   "NoDrop": 0,
   "Item1": "Summoner Item (H) Desecrated F",
   "Prob1": 1,
-  "lineNumber": 887
+  "lineNumber": 899
  },
  "Summoner (N)": {
   "Treasure Class": "Summoner (N)",
@@ -21961,7 +22121,7 @@
   "Prob4": 3,
   "Item5": "Act 3 (N) Magic A",
   "Prob5": 4,
-  "lineNumber": 871,
+  "lineNumber": 883,
   "*ItemProbTotal": 36
  },
  "Summoner (N) Desecrated A": {
@@ -21984,7 +22144,7 @@
   "Prob4": 3,
   "Item5": "Act 5 (N) Magic A",
   "Prob5": 4,
-  "lineNumber": 872,
+  "lineNumber": 884,
   "*ItemProbTotal": 36
  },
  "Summoner (N) Desecrated B": {
@@ -22007,7 +22167,7 @@
   "Prob4": 3,
   "Item5": "Act 1 (H) Magic A",
   "Prob5": 4,
-  "lineNumber": 873,
+  "lineNumber": 885,
   "*ItemProbTotal": 36
  },
  "Summoner (N) Desecrated C": {
@@ -22030,7 +22190,7 @@
   "Prob4": 3,
   "Item5": "Act 3 (H) Magic A",
   "Prob5": 4,
-  "lineNumber": 874,
+  "lineNumber": 886,
   "*ItemProbTotal": 36
  },
  "Summoner Desecrated A": {
@@ -22053,7 +22213,7 @@
   "Prob4": 3,
   "Item5": "Act 3 Magic A",
   "Prob5": 4,
-  "lineNumber": 868,
+  "lineNumber": 880,
   "*ItemProbTotal": 36
  },
  "Summoner Desecrated B": {
@@ -22076,7 +22236,7 @@
   "Prob4": 3,
   "Item5": "Act 5 Magic A",
   "Prob5": 4,
-  "lineNumber": 869,
+  "lineNumber": 881,
   "*ItemProbTotal": 36
  },
  "Summoner Desecrated C": {
@@ -22099,7 +22259,7 @@
   "Prob4": 3,
   "Item5": "Act 4 (N) Magic A",
   "Prob5": 4,
-  "lineNumber": 870,
+  "lineNumber": 882,
   "*ItemProbTotal": 36
  },
  "Summoner Item (H) Desecrated A": {
@@ -22122,7 +22282,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 876,
+  "lineNumber": 888,
   "*ItemProbTotal": 37
  },
  "Summoner Item (H) Desecrated B": {
@@ -22145,7 +22305,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 877,
+  "lineNumber": 889,
   "*ItemProbTotal": 37
  },
  "Summoner Item (H) Desecrated C": {
@@ -22168,7 +22328,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 878,
+  "lineNumber": 890,
   "*ItemProbTotal": 37
  },
  "Summoner Item (H) Desecrated D": {
@@ -22191,7 +22351,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 879,
+  "lineNumber": 891,
   "*ItemProbTotal": 37
  },
  "Summoner Item (H) Desecrated E": {
@@ -22214,7 +22374,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 880,
+  "lineNumber": 892,
   "*ItemProbTotal": 37
  },
  "Summoner Item (H) Desecrated F": {
@@ -22237,7 +22397,7 @@
   "Prob5": 4,
   "Item6": "pk2",
   "Prob6": 1,
-  "lineNumber": 881,
+  "lineNumber": 893,
   "*ItemProbTotal": 37
  },
  "Sunder Charms": {
@@ -22276,7 +22436,7 @@
   "Prob3": 1,
   "Item4": "Act 2 Magic A",
   "Prob4": 6,
-  "lineNumber": 762,
+  "lineNumber": 774,
   "*ItemProbTotal": 25
  },
  "Swarm 1 (H)": {
@@ -22293,7 +22453,7 @@
   "Prob3": 1,
   "Item4": "Act 2 (H) Magic A",
   "Prob4": 6,
-  "lineNumber": 766,
+  "lineNumber": 778,
   "*ItemProbTotal": 25
  },
  "Swarm 1 (N)": {
@@ -22310,7 +22470,7 @@
   "Prob3": 1,
   "Item4": "Act 2 (N) Magic A",
   "Prob4": 6,
-  "lineNumber": 764,
+  "lineNumber": 776,
   "*ItemProbTotal": 25
  },
  "Swarm 2": {
@@ -22327,7 +22487,7 @@
   "Prob3": 1,
   "Item4": "Act 3 Magic A",
   "Prob4": 6,
-  "lineNumber": 763,
+  "lineNumber": 775,
   "*ItemProbTotal": 25
  },
  "Swarm 2 (H)": {
@@ -22344,7 +22504,7 @@
   "Prob3": 1,
   "Item4": "Act 3 (H) Magic A",
   "Prob4": 6,
-  "lineNumber": 767,
+  "lineNumber": 779,
   "*ItemProbTotal": 25
  },
  "Swarm 2 (N)": {
@@ -22361,7 +22521,7 @@
   "Prob3": 1,
   "Item4": "Act 3 (N) Magic A",
   "Prob4": 6,
-  "lineNumber": 765,
+  "lineNumber": 777,
   "*ItemProbTotal": 25
  },
  "Trapped Soul": {
@@ -22374,7 +22534,7 @@
   "Prob2": 8,
   "Item3": "Act 4 Junk",
   "Prob3": 33,
-  "lineNumber": 923,
+  "lineNumber": 935,
   "*ItemProbTotal": 60
  },
  "Trapped Soul (H)": {
@@ -22387,7 +22547,7 @@
   "Prob2": 8,
   "Item3": "Act 4 (H) Junk",
   "Prob3": 33,
-  "lineNumber": 925,
+  "lineNumber": 937,
   "*ItemProbTotal": 60
  },
  "Trapped Soul (N)": {
@@ -22400,7 +22560,7 @@
   "Prob2": 8,
   "Item3": "Act 4 (N) Junk",
   "Prob3": 33,
-  "lineNumber": 924,
+  "lineNumber": 936,
   "*ItemProbTotal": 60
  },
  "Uber Andariel": {
@@ -22410,7 +22570,7 @@
   "NoDrop": 0,
   "Item1": "dhn",
   "Prob1": 1,
-  "lineNumber": 1172,
+  "lineNumber": 1184,
   "*ItemProbTotal": 1
  },
  "Uber Duriel": {
@@ -22420,7 +22580,7 @@
   "NoDrop": 0,
   "Item1": "bey",
   "Prob1": 1,
-  "lineNumber": 1173,
+  "lineNumber": 1185,
   "*ItemProbTotal": 1
  },
  "Uber Izual": {
@@ -22430,7 +22590,7 @@
   "NoDrop": 0,
   "Item1": "mbr",
   "Prob1": 1,
-  "lineNumber": 1174,
+  "lineNumber": 1186,
   "*ItemProbTotal": 1
  },
  "Uber Korlic": {
@@ -22443,7 +22603,7 @@
   "Prob1": 1,
   "Item2": "Protector's Frost",
   "Prob2": 1,
-  "lineNumber": 1238,
+  "lineNumber": 1250,
   "*ItemProbTotal": 2
  },
  "Uber Madawc": {
@@ -22456,7 +22616,7 @@
   "Prob1": 1,
   "Item2": "Guardian's Thunder",
   "Prob2": 1,
-  "lineNumber": 1237,
+  "lineNumber": 1249,
   "*ItemProbTotal": 2
  },
  "Uber Talic": {
@@ -22469,7 +22629,7 @@
   "Prob1": 1,
   "Item2": "Defender's Fire",
   "Prob2": 1,
-  "lineNumber": 1236,
+  "lineNumber": 1248,
   "*ItemProbTotal": 2
  },
  "Worldstone Shards 1": {

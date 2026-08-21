@@ -2983,14 +2983,14 @@ namespace D2::ROTW {
     int32_t Id = 0;	// Column 1
     int32_t PickMode = 0;	// Column 2
     std::string Prop1 = "";	// Column 3
-    int32_t ParMin1 = 0;	// Column 4
-    int32_t ParMax1 = 0;	// Column 5
+    std::string ParMin1 = "";	// Column 4
+    std::string ParMax1 = "";	// Column 5
     int32_t ModMin1 = 0;	// Column 6
     int32_t ModMax1 = 0;	// Column 7
     int32_t Chance1 = 0;	// Column 8
     std::string Prop2 = "";	// Column 9
-    // Unused column: ParMin2
-    // Unused column: ParMax2
+    std::string ParMin2 = "";	// Column 10
+    std::string ParMax2 = "";	// Column 11
     int32_t ModMin2 = 0;	// Column 12
     int32_t ModMax2 = 0;	// Column 13
     int32_t Chance2 = 0;	// Column 14
@@ -3178,8 +3178,8 @@ namespace D2::ROTW {
     int32_t spawnable = 0;	// Column 4
     int32_t disableChronicle = 0;	// Column 5
     // Unused column: DropConditionCalc
-    // Unused column: firstLadderSeason
-    // Unused column: lastLadderSeason
+    int32_t firstLadderSeason = 0;	// Column 7
+    int32_t lastLadderSeason = 0;	// Column 8
     std::string item = "";	// Column 9
     std::string ItemName = "";	// Column 10
     int32_t rarity = 0;	// Column 11
@@ -3243,10 +3243,10 @@ namespace D2::ROTW {
     std::string apar2a = "";	// Column 69
     int32_t amin2a = 0;	// Column 70
     int32_t amax2a = 0;	// Column 71
-    // Unused column: aprop2b
+    std::string aprop2b = "";	// Column 72
     // Unused column: apar2b
-    // Unused column: amin2b
-    // Unused column: amax2b
+    int32_t amin2b = 0;	// Column 74
+    int32_t amax2b = 0;	// Column 75
     std::string aprop3a = "";	// Column 76
     int32_t apar3a = 0;	// Column 77
     int32_t amin3a = 0;	// Column 78
@@ -3766,10 +3766,10 @@ namespace D2::ROTW {
     std::string Param11Description = "";	// Column 256
     int32_t Param12 = 0;	// Column 257
     std::string Param12Description = "";	// Column 258
-    // Unused column: Param13
-    // Unused column: *Param13Description
-    // Unused column: Param14
-    // Unused column: *Param14Description
+    int32_t Param13 = 0;	// Column 259
+    std::string Param13Description = "";	// Column 260
+    int32_t Param14 = 0;	// Column 261
+    std::string Param14Description = "";	// Column 262
     // Unused column: Param15
     // Unused column: *Param15Description
     // Unused column: Param16
@@ -4098,7 +4098,7 @@ namespace D2::ROTW {
     // Unused column: disabled
     int32_t spawnable = 0;	// Column 4
     int32_t disableChronicle = 0;	// Column 5
-    // Unused column: DropConditionCalc
+    std::string DropConditionCalc = "";	// Column 6
     int32_t firstLadderSeason = 0;	// Column 7
     int32_t lastLadderSeason = 0;	// Column 8
     int32_t rarity = 0;	// Column 9

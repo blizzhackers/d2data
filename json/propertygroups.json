@@ -61,7 +61,7 @@
  },
  "Breaching-Affix6": {
   "code": "Breaching-Affix6",
-  "*Id": 36,
+  "*Id": 30,
   "PickMode": 2,
   "Prop1": "red-mag",
   "ModMin1": 5,
@@ -135,7 +135,7 @@
  },
  "Gelid-Affix6": {
   "code": "Gelid-Affix6",
-  "*Id": 33,
+  "*Id": 27,
   "PickMode": 2,
   "Prop1": "red-mag",
   "ModMin1": 5,
@@ -209,7 +209,7 @@
  },
  "Incendiary-Affix6": {
   "code": "Incendiary-Affix6",
-  "*Id": 35,
+  "*Id": 29,
   "PickMode": 2,
   "Prop1": "red-mag",
   "ModMin1": 5,
@@ -283,7 +283,7 @@
  },
  "Magnetic-Affix6": {
   "code": "Magnetic-Affix6",
-  "*Id": 34,
+  "*Id": 28,
   "PickMode": 2,
   "Prop1": "red-mag",
   "ModMin1": 5,
@@ -357,7 +357,7 @@
  },
  "Mystical-Affix6": {
   "code": "Mystical-Affix6",
-  "*Id": 37,
+  "*Id": 31,
   "PickMode": 2,
   "Prop1": "red-mag",
   "ModMin1": 5,
@@ -431,7 +431,7 @@
  },
  "Virulent-Affix6": {
   "code": "Virulent-Affix6",
-  "*Id": 32,
+  "*Id": 26,
   "PickMode": 2,
   "Prop1": "red-mag",
   "ModMin1": 5,
@@ -472,6 +472,24 @@
   "ModMax6": 5,
   "Chance6": 1,
   "lineNumber": 1
+ },
+ "roguesbow-affix1": {
+  "code": "roguesbow-affix1",
+  "*Id": 32,
+  "PickMode": 2,
+  "Prop1": "skill",
+  "ParMin1": "Fire Arrow",
+  "ParMax1": "Fire Arrow",
+  "ModMin1": 1,
+  "ModMax1": 3,
+  "Chance1": 1,
+  "Prop2": "skill",
+  "ParMin2": "Cold Arrow",
+  "ParMax2": "Cold Arrow",
+  "ModMin2": 1,
+  "ModMax2": 3,
+  "Chance2": 1,
+  "lineNumber": 32
  },
  "skilltab-war": {
   "code": "skilltab-war",

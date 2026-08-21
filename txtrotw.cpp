@@ -4481,12 +4481,14 @@ namespace D2::ROTW {
     if (values.size() > 1) { Id = values[1][0] == '\0' ? 0 : std::stoi(values[1]); }
     if (values.size() > 2) { PickMode = values[2][0] == '\0' ? 0 : std::stoi(values[2]); }
     if (values.size() > 3) { Prop1 = values[3]; }
-    if (values.size() > 4) { ParMin1 = values[4][0] == '\0' ? 0 : std::stoi(values[4]); }
-    if (values.size() > 5) { ParMax1 = values[5][0] == '\0' ? 0 : std::stoi(values[5]); }
+    if (values.size() > 4) { ParMin1 = values[4]; }
+    if (values.size() > 5) { ParMax1 = values[5]; }
     if (values.size() > 6) { ModMin1 = values[6][0] == '\0' ? 0 : std::stoi(values[6]); }
     if (values.size() > 7) { ModMax1 = values[7][0] == '\0' ? 0 : std::stoi(values[7]); }
     if (values.size() > 8) { Chance1 = values[8][0] == '\0' ? 0 : std::stoi(values[8]); }
     if (values.size() > 9) { Prop2 = values[9]; }
+    if (values.size() > 10) { ParMin2 = values[10]; }
+    if (values.size() > 11) { ParMax2 = values[11]; }
     if (values.size() > 12) { ModMin2 = values[12][0] == '\0' ? 0 : std::stoi(values[12]); }
     if (values.size() > 13) { ModMax2 = values[13][0] == '\0' ? 0 : std::stoi(values[13]); }
     if (values.size() > 14) { Chance2 = values[14][0] == '\0' ? 0 : std::stoi(values[14]); }
@@ -4798,6 +4800,8 @@ namespace D2::ROTW {
     if (values.size() > 2) { set = values[2]; }
     if (values.size() > 4) { spawnable = values[4][0] == '\0' ? 0 : std::stoi(values[4]); }
     if (values.size() > 5) { disableChronicle = values[5][0] == '\0' ? 0 : std::stoi(values[5]); }
+    if (values.size() > 7) { firstLadderSeason = values[7][0] == '\0' ? 0 : std::stoi(values[7]); }
+    if (values.size() > 8) { lastLadderSeason = values[8][0] == '\0' ? 0 : std::stoi(values[8]); }
     if (values.size() > 9) { item = values[9]; }
     if (values.size() > 10) { ItemName = values[10]; }
     if (values.size() > 11) { rarity = values[11][0] == '\0' ? 0 : std::stoi(values[11]); }
@@ -4847,6 +4851,9 @@ namespace D2::ROTW {
     if (values.size() > 69) { apar2a = values[69]; }
     if (values.size() > 70) { amin2a = values[70][0] == '\0' ? 0 : std::stoi(values[70]); }
     if (values.size() > 71) { amax2a = values[71][0] == '\0' ? 0 : std::stoi(values[71]); }
+    if (values.size() > 72) { aprop2b = values[72]; }
+    if (values.size() > 74) { amin2b = values[74][0] == '\0' ? 0 : std::stoi(values[74]); }
+    if (values.size() > 75) { amax2b = values[75][0] == '\0' ? 0 : std::stoi(values[75]); }
     if (values.size() > 76) { aprop3a = values[76]; }
     if (values.size() > 77) { apar3a = values[77][0] == '\0' ? 0 : std::stoi(values[77]); }
     if (values.size() > 78) { amin3a = values[78][0] == '\0' ? 0 : std::stoi(values[78]); }
@@ -5463,6 +5470,10 @@ namespace D2::ROTW {
     if (values.size() > 256) { Param11Description = values[256]; }
     if (values.size() > 257) { Param12 = values[257][0] == '\0' ? 0 : std::stoi(values[257]); }
     if (values.size() > 258) { Param12Description = values[258]; }
+    if (values.size() > 259) { Param13 = values[259][0] == '\0' ? 0 : std::stoi(values[259]); }
+    if (values.size() > 260) { Param13Description = values[260]; }
+    if (values.size() > 261) { Param14 = values[261][0] == '\0' ? 0 : std::stoi(values[261]); }
+    if (values.size() > 262) { Param14Description = values[262]; }
     if (values.size() > 275) { InGame = values[275][0] == '\0' ? 0 : std::stoi(values[275]); }
     if (values.size() > 276) { ToHit = values[276][0] == '\0' ? 0 : std::stoi(values[276]); }
     if (values.size() > 277) { LevToHit = values[277][0] == '\0' ? 0 : std::stoi(values[277]); }
@@ -5996,6 +6007,7 @@ namespace D2::ROTW {
     if (values.size() > 2) { version = values[2][0] == '\0' ? 0 : std::stoi(values[2]); }
     if (values.size() > 4) { spawnable = values[4][0] == '\0' ? 0 : std::stoi(values[4]); }
     if (values.size() > 5) { disableChronicle = values[5][0] == '\0' ? 0 : std::stoi(values[5]); }
+    if (values.size() > 6) { DropConditionCalc = values[6]; }
     if (values.size() > 7) { firstLadderSeason = values[7][0] == '\0' ? 0 : std::stoi(values[7]); }
     if (values.size() > 8) { lastLadderSeason = values[8][0] == '\0' ? 0 : std::stoi(values[8]); }
     if (values.size() > 9) { rarity = values[9][0] == '\0' ? 0 : std::stoi(values[9]); }

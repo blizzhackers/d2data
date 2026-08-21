@@ -30,6 +30,11 @@
   "rpblue": 1,
   "lineNumber": 178
  },
+ "apocalypse": {
+  "state": "apocalypse",
+  "*ID": 229,
+  "lineNumber": 229
+ },
  "armageddon": {
   "state": "armageddon",
   "*ID": 145,
@@ -713,6 +718,12 @@
   "*ID": 100,
   "lineNumber": 100
  },
+ "herald": {
+  "state": "herald",
+  "*ID": 228,
+  "overlay1": "herald",
+  "lineNumber": 228
+ },
  "hexbane": {
   "state": "hexbane",
   "*ID": 198,
@@ -1026,6 +1037,11 @@
   "*ID": 203,
   "lineNumber": 203
  },
+ "missilelimit": {
+  "state": "missilelimit",
+  "*ID": 230,
+  "lineNumber": 230
+ },
  "monfrenzy": {
   "state": "monfrenzy",
   "*ID": 103,
@@ -1153,6 +1169,11 @@
   "*ID": 52,
   "life": 1,
   "lineNumber": 52
+ },
+ "primeevil_threat": {
+  "state": "primeevil_threat",
+  "*ID": 231,
+  "lineNumber": 231
  },
  "progressive_cold": {
   "state": "progressive_cold",
