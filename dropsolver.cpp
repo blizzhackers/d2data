@@ -124,8 +124,8 @@ std::unordered_map<std::string, std::function<bool()>> conditionFunctions = {
 
 std::unordered_map<std::string, std::unordered_map<int, double>> countDistributionCache;
 
-std::string makeCountDistributionKey(const std::string& tcname, int magic, int rare, int set, int unique, int depth) {
-    return tcname + "|" + std::to_string(magic) + "|" + std::to_string(rare) + "|" + std::to_string(set) + "|" + std::to_string(unique) + "|" + std::to_string(depth == 0 ? 1 : 0);
+std::string makeCountDistributionKey(const std::string& tcname, int magic, int rare, int set, int unique) {
+    return tcname + "|" + std::to_string(magic) + "|" + std::to_string(rare) + "|" + std::to_string(set) + "|" + std::to_string(unique);
 }
 
 std::unordered_map<int, double> getDropCountDistribution(const std::string& tcname, int magic, int rare, int set, int unique, int depth);
@@ -166,25 +166,85 @@ void pickAtomic(std::string tcname, int dropindex, double multiplier, int magic,
     }
 }
 
+// Adjusts NoDrop for the effective player count. The game does this in double precision with this exact
+// sequence of operations, which can differ from the algebraically equivalent T * rho^n / (1 - rho^n).
 long calcNodrop(long e, long nd, long d) {
-    if (e < 1) {
+    if (e <= 1 || nd < 1) {
+        return nd < 1 ? 0 : nd;
+    }
+
+    double rho = (double)nd / (double)(nd + d);
+    double pi = rho;
+
+    for (long i = 1; i < e; i++) {
+        pi *= rho;
+    }
+
+    double q = 1 - pi;
+
+    if (q == 0) {
         return 0;
     }
 
-    double _e = (double)e, _nd = (double)nd, _d = (double)d;
-    if (nd < 1) {
-        return 0;
+    return (long)(((1 - q) * (double)d) / q);
+}
+
+// The chance of selecting each entry (index into tc.items) on each pick the TC makes. Whatever is left is NoDrop.
+struct PickSlot {
+    std::vector<std::pair<size_t, double>> entries;
+    double nodrop = 0;
+};
+
+std::vector<PickSlot> getPickSlots(const TC& tc) {
+    std::vector<PickSlot> slots;
+
+    if (tc.total <= 0) {
+        return slots;
     }
 
-    if (d < 1) {
-        return nd;
+    // Picks of 0 means 1.
+    int picks = std::max(std::abs(tc.picks), 1);
+
+    if (tc.picks < 0) {
+        // Sequential: the k-th pick takes position k on the weight line, so an entry of weight w is chosen w times
+        // in a row. NoDrop is ignored, and the TC stops once it runs past the end of the line.
+        for (size_t i = 0; i < 10 && (int)slots.size() < picks; i++) {
+            for (int j = 0; j < tc.items[i].prob && (int)slots.size() < picks; j++) {
+                slots.push_back({ { { i, 1.0 } }, 0 });
+            }
+        }
+
+        return slots;
     }
 
-    return (long)(_d / (pow((_nd + _d) / nd, _e) - 1));
+    long nodrop = tc.nodrop;
+
+    // Find Item ignores NoDrop entirely.
+    if (finditem > 0) {
+        nodrop = 0;
+    } else if (tc.picks > 0) {
+        nodrop = calcNodrop(playermod, nodrop, tc.total);
+    }
+
+    nodrop = std::max(0L, nodrop);
+    long totalWithNodrop = tc.total + nodrop;
+
+    PickSlot slot;
+    slot.nodrop = (double)nodrop / totalWithNodrop;
+
+    for (size_t i = 0; i < 10; i++) {
+        if (tc.items[i].prob > 0) {
+            slot.entries.push_back({ i, (double)tc.items[i].prob / totalWithNodrop });
+        }
+    }
+
+    slots.assign(picks, slot);
+
+    return slots;
 }
 
 std::unordered_map<int, double> getDropCountDistribution(const std::string& tcname, int magic, int rare, int set, int unique, int depth) {
-    std::string cacheKey = makeCountDistributionKey(tcname, magic, rare, set, unique, depth);
+    std::string cacheKey = makeCountDistributionKey(tcname, magic, rare, set, unique);
     auto cacheIt = countDistributionCache.find(cacheKey);
     if (cacheIt != countDistributionCache.end()) {
         return cacheIt->second;
@@ -210,21 +270,13 @@ std::unordered_map<int, double> getDropCountDistribution(const std::string& tcna
     set = std::max(set, tc.set);
     unique = std::max(unique, tc.unique);
 
-    if (tc.picks == 0 || tc.total == 0) {
+    std::vector<PickSlot> slots = getPickSlots(tc);
+
+    if (slots.empty()) {
         result[0] = 1.0;
         countDistributionCache[cacheKey] = result;
         return result;
     }
-
-    long nodrop = tc.nodrop;
-    if (depth == 0 && finditem > 0) {
-        nodrop = 0;
-    } else {
-        nodrop = calcNodrop(playermod, nodrop, tc.total);
-    }
-
-    int picks = tc.picks > 0 ? tc.picks : -tc.picks;
-    long totalWithNodrop = tc.total + nodrop;
 
     std::vector<std::unordered_map<int, double>> itemCountDistributions(10);
     for (size_t i = 0; i < 10; i++) {
@@ -233,108 +285,29 @@ std::unordered_map<int, double> getDropCountDistribution(const std::string& tcna
         }
     }
 
-    if (tc.picks > 0) {
-        std::unordered_map<int, double> current;
-        current[0] = 1.0;
+    result[0] = 1.0;
 
-        for (int pickNum = 0; pickNum < picks; pickNum++) {
-            std::unordered_map<int, double> next;
+    for (const auto& slot : slots) {
+        std::unordered_map<int, double> next;
 
-            for (const auto& statePair : current) {
-                int currentCount = statePair.first;
-                double stateProb = statePair.second;
+        for (const auto& statePair : result) {
+            int currentCount = statePair.first;
+            double stateProb = statePair.second;
 
-                if (stateProb <= 0) continue;
+            if (stateProb <= 0) continue;
 
-                for (size_t i = 0; i < 10; i++) {
-                    if (tc.items[i].prob > 0) {
-                        double itemProb = (double)tc.items[i].prob / totalWithNodrop;
-                        for (const auto& countPair : itemCountDistributions[i]) {
-                            next[currentCount + countPair.first] += stateProb * itemProb * countPair.second;
-                        }
-                    }
-                }
-
-                if (nodrop > 0) {
-                    double nodropProb = (double)nodrop / totalWithNodrop;
-                    next[currentCount] += stateProb * nodropProb;
+            for (const auto& [i, itemProb] : slot.entries) {
+                for (const auto& countPair : itemCountDistributions[i]) {
+                    next[currentCount + countPair.first] += stateProb * itemProb * countPair.second;
                 }
             }
 
-            current = std::move(next);
-        }
-
-        result = std::move(current);
-    } else {
-        struct CountUrnState {
-            std::vector<int> counts;
-            int totalCount;
-
-            bool operator==(const CountUrnState& other) const {
-                return counts == other.counts && totalCount == other.totalCount;
+            if (slot.nodrop > 0) {
+                next[currentCount] += stateProb * slot.nodrop;
             }
-        };
-
-        struct CountUrnStateHash {
-            std::size_t operator()(const CountUrnState& s) const {
-                std::size_t h = std::hash<int>()(s.totalCount);
-                for (size_t i = 0; i < s.counts.size(); i++) {
-                    h ^= std::hash<int>()(s.counts[i]) << i;
-                }
-                return h;
-            }
-        };
-
-        std::unordered_map<CountUrnState, double, CountUrnStateHash> currentStates;
-        CountUrnState initialState;
-        initialState.totalCount = 0;
-        initialState.counts.resize(10);
-        for (size_t i = 0; i < 10; i++) {
-            initialState.counts[i] = tc.items[i].prob;
-        }
-        currentStates[initialState] = 1.0;
-
-        for (int pickNum = 0; pickNum < picks; pickNum++) {
-            std::unordered_map<CountUrnState, double, CountUrnStateHash> nextStates;
-
-            for (const auto& statePair : currentStates) {
-                const CountUrnState& state = statePair.first;
-                double stateProb = statePair.second;
-
-                long urnTotal = nodrop;
-                for (int count : state.counts) {
-                    urnTotal += count;
-                }
-
-                if (urnTotal == 0 || stateProb <= 0) continue;
-
-                for (size_t i = 0; i < 10; i++) {
-                    if (state.counts[i] > 0) {
-                        double itemProb = (double)state.counts[i] / urnTotal;
-                        CountUrnState nextStateBase = state;
-                        nextStateBase.counts[i]--;
-
-                        for (const auto& countPair : itemCountDistributions[i]) {
-                            CountUrnState nextState = nextStateBase;
-                            nextState.totalCount += countPair.first;
-                            nextStates[nextState] += stateProb * itemProb * countPair.second;
-                        }
-                    }
-                }
-
-                if (nodrop > 0) {
-                    double nodropProb = (double)nodrop / urnTotal;
-                    CountUrnState nextState = state;
-                    nextStates[nextState] += stateProb * nodropProb;
-                }
-            }
-
-            currentStates = std::move(nextStates);
         }
 
-        for (const auto& statePair : currentStates) {
-            result[statePair.first.totalCount] += statePair.second;
-        }
+        result = std::move(next);
     }
 
     countDistributionCache[cacheKey] = result;
@@ -357,19 +330,11 @@ void pick(std::string tcname, int dropindex, double multiplier, int magic, int r
     set = std::max(set, tc.set);
     unique = std::max(unique, tc.unique);
 
-    if (tc.picks == 0 || tc.total == 0) {
+    std::vector<PickSlot> slots = getPickSlots(tc);
+
+    if (slots.empty()) {
         return;
     }
-
-    long nodrop = tc.nodrop;
-    if (depth == 0 && finditem > 0) {
-        nodrop = 0;
-    } else {
-        nodrop = calcNodrop(playermod, nodrop, tc.total);
-    }
-
-    int picks = tc.picks > 0 ? tc.picks : -tc.picks;
-    long totalWithNodrop = tc.total + nodrop;
 
     std::vector<std::unordered_map<size_t, std::unordered_map<Drop, double>>> itemSubDrops(10);
     std::vector<std::unordered_map<int, double>> itemCountDistributions(10);
@@ -380,125 +345,41 @@ void pick(std::string tcname, int dropindex, double multiplier, int magic, int r
         }
     }
 
-    if (tc.picks > 0) {
-        // Independent picks with replacement - use state space to track drop indices
-        // State: (pick_number, drop_index) -> probability
-        std::vector<std::unordered_map<int, double>> stateProbabilities(picks + 1);
-        stateProbabilities[0][dropindex] = 1.0;
-        
-        for (int pickNum = 0; pickNum < picks; pickNum++) {
-            for (auto& statePair : stateProbabilities[pickNum]) {
-                int currentDropIdx = statePair.first;
-                double stateProb = statePair.second;
-                
-                if (stateProb <= 0) continue;
-                
-                // Try picking each item
-                for (size_t i = 0; i < 10; i++) {
-                    if (tc.items[i].prob > 0) {
-                        double itemProb = (double)tc.items[i].prob / totalWithNodrop;
+    // State: drop index before the current pick -> probability
+    std::unordered_map<int, double> current;
+    current[dropindex] = 1.0;
 
-                        // Apply these drops offset by currentDropIdx
-                        for (auto& subDropPair : itemSubDrops[i]) {
-                            int offsetDropIdx = currentDropIdx + subDropPair.first;
-                            for (auto& itemDrop : subDropPair.second) {
-                                drops[offsetDropIdx][itemDrop.first] += stateProb * itemProb * itemDrop.second;
-                            }
-                        }
+    for (const auto& slot : slots) {
+        std::unordered_map<int, double> next;
 
-                        // Next state advances according to child drop-count PMF
-                        for (const auto& countPair : itemCountDistributions[i]) {
-                            stateProbabilities[pickNum + 1][currentDropIdx + countPair.first] += stateProb * itemProb * countPair.second;
-                        }
+        for (const auto& statePair : current) {
+            int currentDropIdx = statePair.first;
+            double stateProb = statePair.second;
+
+            if (stateProb <= 0) continue;
+
+            for (const auto& [i, itemProb] : slot.entries) {
+                // Apply these drops offset by currentDropIdx
+                for (auto& subDropPair : itemSubDrops[i]) {
+                    int offsetDropIdx = currentDropIdx + subDropPair.first;
+                    for (auto& itemDrop : subDropPair.second) {
+                        drops[offsetDropIdx][itemDrop.first] += stateProb * itemProb * itemDrop.second;
                     }
                 }
-                
-                // NoDrop - stay at same drop index
-                if (nodrop > 0) {
-                    double nodropProb = (double)nodrop / totalWithNodrop;
-                    stateProbabilities[pickNum + 1][currentDropIdx] += stateProb * nodropProb;
-                }
-            }
-        }
-    }
-    else {
-        // Pick without replacement - track urn state and drop index
-        struct UrnState {
-            std::vector<int> counts;
-            int dropIdx;
-            
-            bool operator==(const UrnState& other) const {
-                return counts == other.counts && dropIdx == other.dropIdx;
-            }
-        };
-        
-        struct UrnStateHash {
-            std::size_t operator()(const UrnState& s) const {
-                std::size_t h = std::hash<int>()(s.dropIdx);
-                for (size_t i = 0; i < s.counts.size(); i++) {
-                    h ^= std::hash<int>()(s.counts[i]) << i;
-                }
-                return h;
-            }
-        };
-        
-        std::unordered_map<UrnState, double, UrnStateHash> currentStates;
-        UrnState initialState;
-        initialState.dropIdx = dropindex;
-        initialState.counts.resize(10);
-        for (size_t i = 0; i < 10; i++) {
-            initialState.counts[i] = tc.items[i].prob;
-        }
-        currentStates[initialState] = 1.0;
-        
-        for (int pickNum = 0; pickNum < picks; pickNum++) {
-            std::unordered_map<UrnState, double, UrnStateHash> nextStates;
-            
-            for (auto& statePair : currentStates) {
-                const UrnState& state = statePair.first;
-                double stateProb = statePair.second;
-                
-                long urnTotal = nodrop;
-                for (int count : state.counts) {
-                    urnTotal += count;
-                }
-                
-                if (urnTotal == 0) continue;
-                
-                // Try picking each item
-                for (size_t i = 0; i < 10; i++) {
-                    if (state.counts[i] > 0) {
-                        double itemProb = (double)state.counts[i] / urnTotal;
 
-                        // Apply drops
-                        for (auto& subDropPair : itemSubDrops[i]) {
-                            int offsetDropIdx = state.dropIdx + subDropPair.first;
-                            for (auto& itemDrop : subDropPair.second) {
-                                drops[offsetDropIdx][itemDrop.first] += stateProb * itemProb * itemDrop.second;
-                            }
-                        }
-
-                        // Create next states using child drop-count PMF
-                        UrnState nextStateBase = state;
-                        nextStateBase.counts[i]--;
-                        for (const auto& countPair : itemCountDistributions[i]) {
-                            UrnState nextState = nextStateBase;
-                            nextState.dropIdx += countPair.first;
-                            nextStates[nextState] += stateProb * itemProb * countPair.second;
-                        }
-                    }
-                }
-                
-                // NoDrop - don't increment drop index
-                if (nodrop > 0) {
-                    double nodropProb = (double)nodrop / urnTotal;
-                    UrnState nextState = state;
-                    nextStates[nextState] += stateProb * nodropProb;
+                // Next state advances according to child drop-count PMF
+                for (const auto& countPair : itemCountDistributions[i]) {
+                    next[currentDropIdx + countPair.first] += stateProb * itemProb * countPair.second;
                 }
             }
-            
-            currentStates = std::move(nextStates);
+
+            // NoDrop - stay at same drop index
+            if (slot.nodrop > 0) {
+                next[currentDropIdx] += stateProb * slot.nodrop;
+            }
         }
+
+        current = std::move(next);
     }
 }
 
@@ -586,7 +467,7 @@ int main(int argc, char* argv[]) {
         playermod = atoi(argv[2]);
     }
 
-    playermod = std::max(0L, playermod);
+    playermod = std::max(1L, playermod);
     playermod = std::min(8L, playermod);
 
     if (argc >= 4) {
@@ -666,12 +547,20 @@ int main(int argc, char* argv[]) {
             int itemIdx = 9 + (i * 2);
             int probIdx = itemIdx + 1;
 
-            if (itemIdx >= 0 && probIdx < tokens.size() && tokens[itemIdx][0] != '\0' && tokens[probIdx][0] != '\0') {
-                tc.items[i].name = trim(tokens[itemIdx]);
-                tc.items[i].prob = atoi(tokens[probIdx].c_str());
-                tc.total += tc.items[i].prob;
+            // The first empty Item cell ends the list, even if later cells are filled.
+            if (itemIdx >= tokens.size() || trim(tokens[itemIdx]).empty()) {
+                break;
             }
 
+            tc.items[i].name = trim(tokens[itemIdx]);
+            tc.items[i].prob = probIdx < tokens.size() ? atoi(tokens[probIdx].c_str()) : 0;
+
+            // A weight below 1 skips the entry without ending the list.
+            if (tc.items[i].prob < 1) {
+                tc.items[i].prob = 0;
+            }
+
+            tc.total += tc.items[i].prob;
         }
 
         if (tokens.size() > 32) {
