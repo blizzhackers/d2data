@@ -28,7 +28,7 @@ foreach ([
   $index = [];
 
   $tccount = 0;
-  $tcmax = count($treasureclassex) * 48;
+  $tcmax = count($treasureclassex) * 54;
 
   foreach ($treasureclassex as $tc_name => $tc) {
     $filename = preg_replace('/[^a-z0-9() -_]\+/i', '_', $tc_name);
@@ -37,21 +37,35 @@ foreach ([
     $filepath = $basepath . $filename . ".json";
 
     if (file_exists($filepath)) {
-      $tccount += 48;
-      continue;
+      $existing = json_decode(file_get_contents($filepath), TRUE);
+      $complete = TRUE;
+      foreach ([0, 1, 2] as $difficulty) {
+        foreach ([0, 1] as $desecrated) {
+          if (!isset($existing[$difficulty][$desecrated][8])) {
+            $complete = FALSE;
+            break 2;
+          }
+        }
+      }
+      if ($complete) {
+        $tccount += 54;
+        continue;
+      }
     }
 
     $precalc = [];
 
     foreach ([0, 1, 2] as $difficulty) {
       foreach ([0, 1] as $desecrated) {
-        foreach ([1, 2, 3, 4, 5, 6, 7, 8] as $dropmodifier) {
+        foreach (range(0, 8) as $slot) {
+          $finditem = $slot === 8 ? 1 : 0;
+          $dropmodifier = $finditem ? 1 : $slot + 1;
           $tcindex = $tccount++;
           $tc_name_escaped = escapeshellarg($tc_name);
           $tcpercent = number_format($tcindex / $tcmax * 100, 2);
-          print("[$tcpercent%] $tc_name [$dropmodifier][" . ($desecrated ? 'desecrated' : 'normal') . "]..." . PHP_EOL);
+          print("[$tcpercent%] $tc_name [$dropmodifier][finditem=$finditem][" . ($desecrated ? 'desecrated' : 'normal') . "]..." . PHP_EOL);
           $start = microtime(true);
-          $result = shell_exec("./$simulator $tc_name_escaped $dropmodifier 0 $difficulty 1 $desecrated");
+          $result = shell_exec("./$simulator $tc_name_escaped $dropmodifier $finditem $difficulty 1 $desecrated");
           $elapsed = (microtime(true) - $start);
     
           if (!$result) {
@@ -64,11 +78,9 @@ foreach ([
             throw new Exception("Expected TC $tc_name but got " . $data['tc']);
           }
     
-          $playermod = $data['playermod'] - 1;
+          $precalc[$difficulty][$desecrated][$slot] = $data['drops'];
     
-          $precalc[$difficulty][$desecrated][$playermod] = $data['drops'];
-    
-          usort($precalc[$difficulty][$desecrated][$playermod], fn ($a, $b) => $b[1] <=> $a[1]);
+          usort($precalc[$difficulty][$desecrated][$slot], fn ($a, $b) => $b[1] <=> $a[1]);
     
           print(PHP_EOL);
         }
