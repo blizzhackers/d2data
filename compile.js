@@ -431,221 +431,156 @@ const fs = require('fs');
     return group;
   });
   
-  function avg(...nums) {
-    return nums.reduce((t, v) => t + v, 0) / nums.length || 0;
-  }
-  
-  function _s(diff) {
-    return (str) => str + ["", "(N)", "(H)"][diff];
-  }
-  
-  function monlevel(mon, level, diff) {
-    if (!diff) {
-      return mon["Level"] || 0;
+  // Monster population per level, from the d2popsim run in pop/. The base game
+  // spawns monsters by the same rules, so both data sets use it.
+  const population = require('./pop/d2r-rotw_population.json');
+  const popPrecision = 4;
+  const popRound = (num) => Math.round(num * (10 ** popPrecision)) / (10 ** popPrecision);
+  const popDifficulties = ['normal', 'nightmare', 'hell'];
+  const popSuffixes = ['', '(N)', '(H)'];
+  const popTypes = {
+    normal: 'normal',
+    champion: 'champion',
+    unique: 'unique',
+    boss: 'boss',
+    primevil: 'boss',
+  };
+  const superuniqueKeys = full.superuniques.reduce((keys, sup, key) => {
+    keys[sup.hcIdx] = key;
+    return keys;
+  }, {});
+
+  let monpopulation = {};
+
+  full.levels.forEach((level) => {
+    monpopulation[level.Id] = {
+      'normal': {},
+      'champion': {},
+      'unique': {},
+      'superunique': {},
+      'boss': {},
+    };
+  });
+
+  function popEntry(group, key, hasStaticLevel) {
+    if (!group[key]) {
+      group[key] = {};
+
+      popSuffixes.forEach((suffix) => {
+        group[key]['mlvl' + suffix] = 0;
+        group[key]['packCount' + suffix] = 0;
+        group[key]['packSize' + suffix] = 0;
+      });
+
+      if (hasStaticLevel !== undefined) {
+        group[key].hasStaticLevel = hasStaticLevel;
+      }
     }
-  
-    let s = _s(diff),
-      lvl = level[s("MonLvlEx")] || 0,
-      mlvl = mon[s("Level")] || 0;
-  
-    return (diff && !mon.boss) ? lvl : mlvl;
+
+    return group[key];
   }
-  
-  function forEachMonster(level, diff, func) {
-    let s = _s(diff);
-  
-    [0, 1, 2].forEach((type) => {
-      if (type && !level[s("MonUMin")] && !level[s("MonUMax")]) {
-        return;
-      }
-  
-      let m = (num) => level[(diff ? "nmon" : type ? "umon" : "mon") + num];
-  
-      let totalrarity = 0;
-      let rarity = {};
-  
-      for (let c = 1; c <= 9; c++) {
-        if (m(c)) {
-          let mon = full.monstats[m(c)];
-  
-          if (mon && mon.enabled && mon.killable) {
-            totalrarity += mon.Rarity || 0;
-            rarity[mon.Id] = rarity[mon.Id] || 0;
-            rarity[mon.Id] += (mon.Rarity || 0);
+
+  // Merges a monster's packs at every level into one entry: the lowest level,
+  // the packs per game, and the mean monsters per pack including the leader.
+  function popMerge(entry, diff, bucketSets) {
+    let s = _s(diff), mlvl = Infinity, packs = 0, members = 0;
+
+    bucketSets.forEach((buckets) => {
+      for (let lvl in buckets) {
+        mlvl = Math.min(mlvl, Number(lvl));
+        packs += buckets[lvl].packs;
+
+        for (let memberId in buckets[lvl].members) {
+          for (let quality in buckets[lvl].members[memberId]) {
+            for (let memberLvl in buckets[lvl].members[memberId][quality]) {
+              members += buckets[lvl].members[memberId][quality][memberLvl];
+            }
           }
-        }
-      }
-  
-      for (let key in rarity) {
-        let mon = full.monstats[key];
-  
-        if (rarity[key] > 0 && mon && mon.enabled && mon.killable) {
-          let mlvl = monlevel(mon, level, diff) + [0, 2, 3][type];
-  
-          func(mon, mlvl, type, rarity[key] / totalrarity);
         }
       }
     });
+
+    entry[s('mlvl')] = mlvl;
+    entry[s('packCount')] = popRound(packs);
+    entry[s('packSize')] = popRound(1 + members / packs);
   }
-  
-  const moncountest = require('./json/moncountest.json');
-  
-  let monpopulation = {};
-  
-  [0, 1, 2].forEach((diff) => {
-    let uniqueCount = 3.5 + diff;
-    let champCount = 3;
-    let uniqueRatio = 0.8, champRatio = 0.2 * champCount;
-    let uadj = uniqueRatio + champRatio * 3;
 
-    uniqueRatio /= uadj;
-    champRatio /= uadj;
+  function _s(diff) {
+    return (str) => str + popSuffixes[diff];
+  }
 
-    let s = _s(diff);
-    full.levels.forEach((level) => {
-      let l = (key) => level[key] || 0;
-  
-      monpopulation[level.Id] = monpopulation[level.Id] || {
-        'normal': {},
-        'champion': {},
-        'unique': {},
-        'superunique': {},
-        'boss': {},
-      };
-  
-      if (level.Id) {
-        let supers = full.superuniques.filter(s => s.areaId == level.Id || (s.hcIdx === 19 && [66, 67, 68, 69, 70, 71, 72].includes(level.Id | 0))),
-          bosses = full.monstats.filter((mon) => mon.areaId == level.Id),
-          acount = (moncountest[level.Id] && moncountest[level.Id][diff]) || 0,
-          scount = supers.reduce((total, sup) => {
-            let mon = full.monstats[sup.Class];
-  
-            return (
-              total +
-              1 +
-              diff +
-              avg(
-                (sup["MinGrp"] || 0),
-                (sup["MaxGrp"] || 0)
-              ) +
-              avg(
-                (mon["PartyMin"] || 0),
-                (mon["PartyMax"] || 0)
-              )
-            );
-          }, 0),
-          bcount = bosses.reduce((total, mon) => {
-            return (
-              total +
-              1 +
-              avg(
-                (mon["MinGrp"] || 0),
-                (mon["MaxGrp"] || 0)
-              ) +
-              avg(
-                (mon["PartyMin"] || 0),
-                (mon["PartyMax"] || 0)
-              )
-            );
-          }, 0),
-          monucount = avg(l(s("MonUMin")), l(s("MonUMax"))) + 0.52, // The bonus here comes from champions spawn last, overcapping the spawns.
-          ucount = monucount * uniqueRatio * uniqueCount,
-          ccount = 0;
-  
-        forEachMonster(level, diff, (mon, mlvl, type, rarity) => {
-          if (type === 1) {
-            ccount += (monucount * rarity * champRatio) * (champCount + avg((mon["PartyMin"] || 0), (mon["PartyMax"] || 0)));
-          }
-        });
-  
-        let count = acount - ucount - ccount - scount - bcount;
-  
-        if (count > 0) {
-          let ratio = [{}, {}, {}, {}, {}];
-  
-          forEachMonster(level, diff, (mon, mlvl, type, rarity) => {
-            let grp = [
-              avg(
-                (mon["MinGrp"] || 0),
-                (mon["MaxGrp"] || 0)
-              ),
-              3,
-              1,
-            ][type];
-            ratio[type][mon.Id] = rarity * grp +
-            avg(
-              (mon["PartyMin"] || 0),
-              (mon["PartyMax"] || 0)
-            );
-          });
-  
-          for (let stype = 0; stype < 5; stype++) {
-            let totalratio = 0;
-  
-            for (let skey in ratio[stype]) {
-              totalratio += ratio[stype][skey];
-            }
-  
-            for (let skey in ratio[stype]) {
-              ratio[stype][skey] /= totalratio;
-            }
-          }
-  
-          forEachMonster(level, diff, (mon, mlvl, type, rarity) => {
-            let mult = [
-              count * ratio[type][mon.Id] / (avg((mon["MinGrp"] || 0), (mon["MaxGrp"] || 0)) + avg((mon["PartyMin"] || 0), (mon["PartyMax"] || 0))),
-              monucount * rarity * champRatio / champCount,
-              monucount * rarity * uniqueRatio,
-            ][type];
-            monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] = monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id] || {
-              "mlvl": 0,
-              "packCount": 0,
-              "mlvl(N)": 0,
-              "packCount(N)": 0,
-              "mlvl(H)": 0,
-              "packCount(H)": 0,
-            };
-            monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('mlvl')] = mlvl;
-            monpopulation[level.Id][['normal', 'champion', 'unique'][type]][mon.Id][s('packCount')] = Math.round(mult * (10 ** decimalPrecision)) / (10 ** decimalPrecision);
-          });
-        }
-  
-        supers.forEach((sup) => {
-          let mon = full.monstats[sup.Class],
-            mlvl = monlevel(mon, level, diff) + 3;
-  
-          monpopulation[level.Id]['superunique'][sup.Superunique] = monpopulation[level.Id]['superunique'][sup.Superunique] || {
-            "mlvl": 0,
-            "packCount": 0,
-            "mlvl(N)": 0,
-            "packCount(N)": 0,
-            "mlvl(H)": 0,
-            "packCount(H)": 0,
-            "hasStaticLevel": false,
-          };
-  
-          monpopulation[level.Id]['superunique'][sup.Superunique][s('mlvl')] = mlvl;
-          monpopulation[level.Id]['superunique'][sup.Superunique][s('packCount')] = sup.hcIdx === 19 ? 1 / 7 : 1;
-          monpopulation[level.Id]['superunique'][sup.Superunique].hasStaticLevel = Boolean(mon.boss);
-        });
-  
-        bosses.forEach((mon) => {
-          let mlvl = monlevel(mon, level, diff);
-  
-          monpopulation[level.Id]['boss'][mon.Id] = monpopulation[level.Id]['boss'][mon.Id] || {
-            "mlvl": 0,
-            "packCount": 0,
-            "mlvl(N)": 0,
-            "packCount(N)": 0,
-            "mlvl(H)": 0,
-            "packCount(H)": 0,
-            "hasStaticLevel": false,
-          };
-          monpopulation[level.Id]['boss'][mon.Id][s('mlvl')] = mlvl;
-          monpopulation[level.Id]['boss'][mon.Id][s('packCount')] = 1;
-          monpopulation[level.Id]['boss'][mon.Id].hasStaticLevel = Boolean(mon.boss);
-        });
+  population.levels.forEach((popLevel) => {
+    let target = monpopulation[popLevel.id];
+
+    if (!target) {
+      return;
+    }
+
+    popDifficulties.forEach((diffName, diff) => {
+      let data = popLevel.difficulties[diffName];
+
+      if (!data) {
+        return;
       }
+
+      let grouped = {};
+
+      for (let id in data.packs) {
+        if (!full.monstats[id]) {
+          throw new Error(`Population data has unknown monster ${id} in level ${popLevel.id}`);
+        }
+
+        for (let quality in data.packs[id].types) {
+          let type = popTypes[quality];
+
+          if (!type) {
+            throw new Error(`Population data has unexpected pack quality ${quality} for ${id} in level ${popLevel.id}`);
+          }
+
+          grouped[type] = grouped[type] || {};
+          grouped[type][id] = grouped[type][id] || [];
+          grouped[type][id].push(data.packs[id].types[quality]);
+        }
+      }
+
+      for (let type in grouped) {
+        for (let id in grouped[type]) {
+          let entry = popEntry(target[type], id, type === 'boss' ? Boolean(full.monstats[id].boss) : undefined);
+
+          popMerge(entry, diff, grouped[type][id]);
+        }
+      }
+
+      for (let name in data.superuniques) {
+        let sup = data.superuniques[name],
+          key = superuniqueKeys[sup.superuniqueId];
+
+        if (key === undefined) {
+          throw new Error(`Population data has unknown superunique ${name} (${sup.superuniqueId}) in level ${popLevel.id}`);
+        }
+
+        let entry = popEntry(target.superunique, key, Boolean(full.monstats[full.superuniques[key].Class].boss));
+
+        popMerge(entry, diff, [sup.mlvl]);
+      }
+    });
+  });
+
+  // The population run has no Uber bosses. Any boss that MonStats.txt places in
+  // a level (areaId) but the run never spawned gets one pack at its fixed level.
+  full.monstats.forEach((mon) => {
+    let target = mon.areaId && monpopulation[mon.areaId];
+
+    if (!target || target.boss[mon.Id]) {
+      return;
+    }
+
+    let entry = popEntry(target.boss, mon.Id, Boolean(mon.boss));
+
+    popSuffixes.forEach((suffix) => {
+      entry['mlvl' + suffix] = mon['Level' + suffix] || 0;
+      entry['packCount' + suffix] = 1;
+      entry['packSize' + suffix] = 1;
     });
   });
   

@@ -4847,6 +4847,8 @@ namespace D2::ROTW {
     if (values.size() > 63) { amax1a = values[63][0] == '\0' ? 0 : std::stoi(values[63]); }
     if (values.size() > 64) { aprop1b = values[64]; }
     if (values.size() > 65) { apar1b = values[65][0] == '\0' ? 0 : std::stoi(values[65]); }
+    if (values.size() > 66) { amin1b = values[66][0] == '\0' ? 0 : std::stoi(values[66]); }
+    if (values.size() > 67) { amax1b = values[67][0] == '\0' ? 0 : std::stoi(values[67]); }
     if (values.size() > 68) { aprop2a = values[68]; }
     if (values.size() > 69) { apar2a = values[69]; }
     if (values.size() > 70) { amin2a = values[70][0] == '\0' ? 0 : std::stoi(values[70]); }
@@ -6065,6 +6067,10 @@ namespace D2::ROTW {
     if (values.size() > 62) { par10 = values[62]; }
     if (values.size() > 63) { min10 = values[63][0] == '\0' ? 0 : std::stoi(values[63]); }
     if (values.size() > 64) { max10 = values[64][0] == '\0' ? 0 : std::stoi(values[64]); }
+    if (values.size() > 65) { prop11 = values[65]; }
+    if (values.size() > 66) { par11 = values[66][0] == '\0' ? 0 : std::stoi(values[66]); }
+    if (values.size() > 67) { min11 = values[67][0] == '\0' ? 0 : std::stoi(values[67]); }
+    if (values.size() > 68) { max11 = values[68][0] == '\0' ? 0 : std::stoi(values[68]); }
     if (values.size() > 73) { diablocloneweight = values[73][0] == '\0' ? 0 : std::stoi(values[73]); }
     if (values.size() > 74) { eol = values[74][0] == '\0' ? 0 : std::stoi(values[74]); }
 

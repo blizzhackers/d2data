@@ -3237,8 +3237,8 @@ namespace D2::ROTW {
     int32_t amax1a = 0;	// Column 63
     std::string aprop1b = "";	// Column 64
     int32_t apar1b = 0;	// Column 65
-    // Unused column: amin1b
-    // Unused column: amax1b
+    int32_t amin1b = 0;	// Column 66
+    int32_t amax1b = 0;	// Column 67
     std::string aprop2a = "";	// Column 68
     std::string apar2a = "";	// Column 69
     int32_t amin2a = 0;	// Column 70
@@ -4157,10 +4157,10 @@ namespace D2::ROTW {
     std::string par10 = "";	// Column 62
     int32_t min10 = 0;	// Column 63
     int32_t max10 = 0;	// Column 64
-    // Unused column: prop11
-    // Unused column: par11
-    // Unused column: min11
-    // Unused column: max11
+    std::string prop11 = "";	// Column 65
+    int32_t par11 = 0;	// Column 66
+    int32_t min11 = 0;	// Column 67
+    int32_t max11 = 0;	// Column 68
     // Unused column: prop12
     // Unused column: par12
     // Unused column: min12

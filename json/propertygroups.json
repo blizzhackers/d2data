@@ -443,6 +443,24 @@
   "Chance2": 1,
   "lineNumber": 26
  },
+ "eternity-update": {
+  "code": "eternity-update",
+  "*Id": 33,
+  "PickMode": 0,
+  "Prop1": "swing1",
+  "ModMin1": 30,
+  "ModMax1": 30,
+  "Chance1": 1,
+  "Prop2": "dmg/lvl",
+  "ParMin2": 24,
+  "ParMax2": 24,
+  "Chance2": 1,
+  "Prop3": "indestruct",
+  "ModMin3": 1,
+  "ModMax3": 1,
+  "Chance3": 1,
+  "lineNumber": 33
+ },
  "magdam-rand": {
   "code": "magdam-rand",
   "*Id": 1,
