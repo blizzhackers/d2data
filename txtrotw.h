@@ -673,14 +673,14 @@ namespace D2::ROTW {
 
   struct t_experience {
     std::string Level = "";	// Column 0
-    int32_t Amazon = 0;	// Column 1
-    int32_t Sorceress = 0;	// Column 2
-    int32_t Necromancer = 0;	// Column 3
-    int32_t Paladin = 0;	// Column 4
-    int32_t Barbarian = 0;	// Column 5
-    int32_t Druid = 0;	// Column 6
-    int32_t Assassin = 0;	// Column 7
-    int32_t Warlock = 0;	// Column 8
+    int64_t Amazon = 0;	// Column 1
+    int64_t Sorceress = 0;	// Column 2
+    int64_t Necromancer = 0;	// Column 3
+    int64_t Paladin = 0;	// Column 4
+    int64_t Barbarian = 0;	// Column 5
+    int64_t Druid = 0;	// Column 6
+    int64_t Assassin = 0;	// Column 7
+    int64_t Warlock = 0;	// Column 8
     int32_t ExpRatio = 0;	// Column 9
 
     size_t read(const char* line);
@@ -1479,8 +1479,8 @@ namespace D2::ROTW {
     std::string etype1 = "";	// Column 32
     std::string etype2 = "";	// Column 33
     std::string etype3 = "";	// Column 34
-    int32_t etype4 = 0;	// Column 35
-    int32_t etype5 = 0;	// Column 36
+    // Unused column: etype4
+    // Unused column: etype5
     int32_t multiply = 0;	// Column 37
     int32_t add = 0;	// Column 38
 
@@ -4071,7 +4071,7 @@ namespace D2::ROTW {
     // Unused column: Prob10
     int32_t ItemProbSum = 0;	// Column 29
     int32_t ItemProbTotal = 0;	// Column 30
-    int32_t TreasureClassDropChance = 0;	// Column 31
+    double TreasureClassDropChance = 0;	// Column 31
     std::string ConditionCalc = "";	// Column 32
     int32_t firstLadderSeason = 0;	// Column 33
     int32_t lastLadderSeason = 0;	// Column 34

@@ -5,8 +5,6 @@
  * Generate header files for all TXT files in the txt/ directory.
  */
 
-$typedefs = [];
-
 function cid(string $name, string $altname, bool $pascalcase = TRUE) : string {
   $newname = trim(preg_replace('/[^a-z0-9_ ]+/i', ' ', $name), ' ');
   $newname = $pascalcase && str_contains($newname, ' ') ? ucwords($newname) : $newname;
@@ -116,45 +114,80 @@ function cid(string $name, string $altname, bool $pascalcase = TRUE) : string {
   return $newname;
 }
 
+
+/**
+ * Infer the narrowest C++ type that can hold a raw cell value.
+ */
+function celltype(string $value) : string {
+  if ($value === '') {
+    return 'void';
+  }
+
+  if (preg_match('/^\s*[+-]?0*(\d+)\s*$/', $value, $matches)) {
+    // Longer than 18 digits can't be range checked safely as a PHP int.
+    if (strlen($matches[1]) > 18) {
+      return 'std::string';
+    }
+
+    $int = (int) trim($value);
+    return $int >= -2147483648 && $int <= 2147483647 ? 'int32_t' : 'int64_t';
+  }
+
+  return is_numeric($value) ? 'double' : 'std::string';
+}
+
+/**
+ * Widen a column type so it can also hold another type.
+ */
+function widentype(string $a, string $b) : string {
+  $rank = ['void' => 0, 'int32_t' => 1, 'int64_t' => 2, 'double' => 3, 'std::string' => 4];
+  return $rank[$a] >= $rank[$b] ? $a : $b;
+}
+
 foreach ([
   ['ROTW', 'txtrotw', 'txt/*.txt'],
   ['BASE', 'txtbase', 'txt/base/*.txt'],
 ] as [$namespace, $filebase, $path]) {
+  $typedefs = [];
+
   foreach (glob(__DIR__ . '/' . $path) as $i => $file) {
     $name = cid(basename($file, '.txt'), "txt_$i");
 
+    // Files use CRLF line endings. Only strip the line ending: a leading or
+    // trailing tab is an empty cell and must keep its column position.
     $handle = fopen($file, 'r');
-    $header = fgets($handle);
-    $headers = explode("\t", trim($header));
-
-    foreach ($headers as $i => $header) {
-      $headers[$i] = $header;
-    }
-
+    $headers = explode("\t", rtrim(fgets($handle), "\r\n"));
     $headerTypes = array_map(fn () => 'void', $headers);
 
     while (($line = fgets($handle)) !== false) {
-      $values = explode("\t", trim($line));
+      $values = explode("\t", rtrim($line, "\r\n"));
 
-      foreach ($values as $i => $value) {
-        if (isset($headerTypes[$i])) {
-          if ($value !== '') {
-            if (is_numeric($value)) {
-              if ($headerTypes[$i] === 'void') {
-                $headerTypes[$i] = 'int32_t';
-              }
-            }
-            else {
-              $headerTypes[$i] = 'std::string';
-            }
-          }
+      foreach ($values as $col => $value) {
+        if (isset($headerTypes[$col])) {
+          $headerTypes[$col] = widentype($headerTypes[$col], celltype($value));
         }
       }
     }
 
     fclose($handle);
 
-    $typedefs[$name] = array_combine($headers, $headerTypes);
+    // Keep every column by position; duplicate header names must not shift
+    // later columns, and must not produce duplicate member names.
+    $fields = [];
+    $used = [];
+    foreach ($headers as $col => $header) {
+      $id = '';
+      if ($headerTypes[$col] !== 'void') {
+        $id = cid($header, "field_$col", FALSE);
+        if (isset($used[$id])) {
+          $id .= "_$col";
+        }
+        $used[$id] = TRUE;
+      }
+      $fields[] = ['col' => $col, 'header' => $header, 'type' => $headerTypes[$col], 'id' => $id];
+    }
+
+    $typedefs[$name] = $fields;
   }
 
   $output = <<<CPP
@@ -171,17 +204,14 @@ foreach ([
     $name = 't_' . $name;
     $output .= "  struct $name {\n";
 
-    $i = 0;
-    foreach ($fields as $field => $type) {
+    foreach ($fields as ['col' => $col, 'header' => $header, 'type' => $type, 'id' => $id]) {
       if ($type === 'void') {
-        $output .= "    // Unused column: $field\n";
+        $output .= "    // Unused column: $header\n";
       }
       else {
-        $field = cid($field, "field_$field", FALSE);
         $default_value = $type === 'std::string' ? '""' : '0';
-        $output .= "    $type $field = $default_value;\t// Column $i\n";
+        $output .= "    $type $id = $default_value;\t// Column $col\n";
       }
-      $i++;
     }
 
     $output .= "\n    size_t read(const char* line);\n";
@@ -196,12 +226,32 @@ foreach ([
 
   $output = <<<CPP
     #include "$filebase.h"
+    #include <cstdlib>
     #include <string>
     #include <vector>
     #include <fstream>
     #include <sstream>
 
     namespace D2::$namespace {
+
+      // Split a line on tabs, ignoring any trailing CR/LF.
+      static std::vector<std::string> splitline(const char* line) {
+        std::vector<std::string> values;
+        std::string text(line);
+
+        while (!text.empty() && (text.back() == '\\r' || text.back() == '\\n')) {
+          text.pop_back();
+        }
+
+        std::stringstream ss(text);
+        std::string value;
+
+        while (std::getline(ss, value, '\\t')) {
+          values.push_back(value);
+        }
+
+        return values;
+      }
     CPP;
 
   $output .= "\n\n";
@@ -211,30 +261,22 @@ foreach ([
 
     $output .= <<<CPP
       size_t $name::read(const char* line) {
-        std::vector<std::string> values;
-        std::stringstream ss(line);
-        std::string value;
-
-        while (std::getline(ss, value, '\\t')) {
-          values.push_back(value);
-        }
+        std::vector<std::string> values = splitline(line);
     CPP;
     $output .= "\n\n";
 
-    $i = 0;
-    foreach ($fields as $field => $type) {
-      if ($type !== 'void') {
-        $field = cid($field, "field_$field", FALSE);
-        $output .= "    if (values.size() > $i) { ";
-        if ($type === 'int32_t') {
-          $output .= "$field = values[$i][0] == '\\0' ? 0 : std::stoi(values[$i]);";
-        }
-        else {
-          $output .= "$field = values[$i];";
-        }
-        $output .= " }\n";
+    foreach ($fields as ['col' => $col, 'type' => $type, 'id' => $id]) {
+      $value = "values[$col]";
+      $parse = match ($type) {
+        'void' => NULL,
+        'int32_t' => "$id = (int32_t) std::strtol($value.c_str(), nullptr, 10);",
+        'int64_t' => "$id = std::strtoll($value.c_str(), nullptr, 10);",
+        'double' => "$id = std::strtod($value.c_str(), nullptr);",
+        'std::string' => "$id = $value;",
+      };
+      if ($parse !== NULL) {
+        $output .= "    if (values.size() > $col) { $parse }\n";
       }
-      $i++;
     }
 
     $output .= "\n    return values.size();\n  }\n\n";
