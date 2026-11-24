@@ -191,6 +191,8 @@ foreach ([
   }
 
   $output = <<<CPP
+    #pragma once
+
     #include <cstdint>
     #include <string>
     #include <vector>
